@@ -171,9 +171,9 @@ def generate_content_with_gemini(prompt, api_key):
         genai.configure(api_key=api_key)
 
         # Define the Google Search Tool
-        # Creating a Tool with an empty 'google_search_retrieval' object
+        # Creating a Tool with an empty 'google_search' object
         # enables Google Search grounding
-        google_search_tool = Tool(google_search_retrieval={})
+        google_search_tool = Tool(google_search={})
 
         # Initialize the model (using a model that supports grounding)
         model = genai.GenerativeModel('gemini-2.0-flash-exp')
