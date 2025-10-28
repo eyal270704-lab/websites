@@ -33,7 +33,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install google-generativeai
+          pip install --upgrade pip
+          pip install google-generativeai packaging
 
       - name: Generate stock market news page
         env:
