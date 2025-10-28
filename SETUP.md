@@ -57,3 +57,99 @@ The workflow will automatically run when you push to the main branch. You can al
 
 Once deployed, your site will be available at:
 `https://eyal270704-lab.github.io/websites/`
+
+---
+
+## Automated Newsfeed Generation
+
+This repository includes automated newsfeed generation for various daily news pages (NBA, stocks, etc.).
+
+### How It Works
+
+1. **Config-Driven System**: All newsfeeds are defined in `config/newsfeeds.json`
+2. **Universal Generator**: One script (`scripts/generate_newsfeed.py`) handles all feeds
+3. **Scheduled Workflows**: Each feed has its own workflow with custom schedule
+4. **Gemini AI**: Uses Google's Gemini API (free tier) to generate content
+
+### Adding a Newsfeed Prompt Secret
+
+For each newsfeed (e.g., NBA news), you need to add a prompt secret:
+
+1. Go to **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+3. Enter:
+   - **Name**: `NBA_PROMPT` (or `STOCK_PROMPT`, etc.)
+   - **Secret**: Your complete prompt for that newsfeed
+4. Click **Add secret**
+
+### Current Newsfeeds
+
+**NBA News** (`basketball-news.html`)
+- Schedule: Daily at 10 AM Israel time (8 AM UTC)
+- Secret needed: `NBA_PROMPT`
+- Workflow: `.github/workflows/nba-news.yml`
+- Manual trigger: Actions → "Generate NBA News" → "Run workflow"
+
+**Stock Market News** (`stock-market-news.html`)
+- Schedule: 3x daily (9 AM, 2 PM, 6 PM Israel time)
+- Secret needed: `STOCK_PROMPT`
+- Workflow: `.github/workflows/stock-news.yml`
+- Status: Disabled until `STOCK_PROMPT` is added
+
+### Adding a New Newsfeed
+
+1. **Add to config** (`config/newsfeeds.json`):
+```json
+"tech": {
+  "output_file": "tech-news.html",
+  "prompt_secret": "TECH_PROMPT",
+  "card_id": "tech",
+  "title": "Tech News",
+  "card_class": "tech",
+  "overrun_files": true
+}
+```
+
+2. **Create workflow** (e.g., `.github/workflows/tech-news.yml`):
+```yaml
+name: Generate Tech News
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Your desired schedule
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  TECH_PROMPT: ${{ secrets.TECH_PROMPT }}
+run: python scripts/generate_newsfeed.py --feed tech
+```
+
+3. **Add secret**: `TECH_PROMPT` to GitHub Secrets
+4. **Update lobby**: Add card to `docs/index.html` (will auto-activate on first run)
+
+### Prompt Format Guidelines
+
+Your prompts should:
+- Focus on **content and data requirements** (what to research/include)
+- **NOT** include file-saving or download instructions
+- Let the script handle HTML structure and styling
+- The generator will automatically:
+  - Wrap content in site template (header, footer, navigation)
+  - Apply Tailwind CSS styling
+  - Match your site's design theme
+  - Handle the "Back to Hub" link
+
+### Testing Newsfeeds
+
+1. Add your prompt secret to GitHub
+2. Go to **Actions** tab
+3. Select the newsfeed workflow (e.g., "Generate NBA News")
+4. Click **Run workflow** → **Run workflow**
+5. Wait ~1 minute for completion
+6. Check the deployed site
+
+### Secrets Summary
+
+Required secrets for full functionality:
+- `GEMINI_API_KEY` - ✅ For static pages (Creator Monetization) and newsfeeds
+- `NBA_PROMPT` - For NBA news generation
+- `STOCK_PROMPT` - For stock market news generation
+- Additional prompts as you add more newsfeeds

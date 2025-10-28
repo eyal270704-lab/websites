@@ -1,0 +1,59 @@
+name: Generate NBA News
+
+on:
+  schedule:
+    # Runs daily at 10 AM Israel time (winter - UTC+2)
+    # 10 AM IST = 8 AM UTC
+    - cron: '0 8 * * *'
+
+  # Allow manual triggering for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Need write permission to commit changes
+
+jobs:
+  generate-nba-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-generativeai
+
+      - name: Generate NBA news page
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NBA_PROMPT: ${{ secrets.NBA_PROMPT }}
+        run: |
+          python scripts/generate_newsfeed.py --feed nba
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🏀 Update NBA news - $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "✅ NBA news generation complete!"
+          echo "📄 Updated: docs/basketball-news.html"
+          echo "🌐 Live at: https://eyal270704-lab.github.io/websites/basketball-news.html"
