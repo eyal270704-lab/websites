@@ -17,7 +17,8 @@ import json
 import argparse
 from pathlib import Path
 from datetime import datetime
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 
 # HTML template for all newsfeeds
@@ -167,15 +168,22 @@ def generate_content_with_gemini(prompt, api_key):
         str: Generated HTML content, or None if failed
     """
     try:
-        genai.configure(api_key=api_key)
+        # Initialize Gemini client
+        client = genai.Client(api_key=api_key)
 
-        # Enable Google Search for real-time data
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        # Set up Google Search tool for real-time grounding
+        grounding_tool = types.Tool(google_search=types.GoogleSearch())
 
-        print("🔄 Calling Gemini API with Google Search enabled...")
-        response = model.generate_content(
-            prompt,
-            tools=[{'google_search': {}}]  # Correct syntax for Google Search
+        # Add the tool to generation config
+        config = types.GenerateContentConfig(tools=[grounding_tool])
+
+        print("🔄 Calling Gemini API with Google Search grounding...")
+
+        # Query Gemini model with grounding enabled
+        response = client.models.generate_content(
+            model="gemini-2.0-flash-exp",
+            contents=prompt,
+            config=config,
         )
 
         if not response or not response.text:
