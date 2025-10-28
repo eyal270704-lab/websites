@@ -235,14 +235,9 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
-            // TODO: Add your Gemini API key here
-            // Get your API key from: https://makersuite.google.com/app/apikey
-            // IMPORTANT: Restrict your API key to your GitHub Pages domain for security
-            // Instructions:
-            // 1. Go to Google AI Studio and create an API key
-            // 2. In API restrictions, add: https://eyal270704-lab.github.io/websites/*
-            // 3. Paste your key below
-            const apiKey = "";
+            // API key is injected during deployment via GitHub Actions
+            // This placeholder will be replaced with the actual key from GitHub Secrets
+            const apiKey = "PLACEHOLDER_API_KEY";
 
             async function fetchWithBackoff(apiUrl, payload, retries = 3, delay = 1000) {
                 try {
