@@ -170,13 +170,13 @@ def generate_content_with_gemini(prompt, api_key):
         genai.configure(api_key=api_key)
 
         # Enable Google Search for real-time data
-        model = genai.GenerativeModel(
-            'gemini-2.0-flash-exp',
-            tools='google_search_retrieval'
-        )
+        model = genai.GenerativeModel('gemini-2.0-flash-exp')
 
         print("🔄 Calling Gemini API with Google Search enabled...")
-        response = model.generate_content(prompt)
+        response = model.generate_content(
+            prompt,
+            tools=[{'google_search': {}}]  # Correct syntax for Google Search
+        )
 
         if not response or not response.text:
             print("❌ Gemini API returned empty response", file=sys.stderr)
