@@ -102,10 +102,22 @@ def adapt_prompt(original_prompt):
 
     Removes file-saving instructions and adds formatting requirements.
     """
+    from datetime import datetime
+
     adapted = original_prompt
 
+    # Get today's date
+    today = datetime.now().strftime("%B %d, %Y")
+
     # Instructions to add at the end
-    formatting_instructions = """
+    formatting_instructions = f"""
+
+CRITICAL DATE REQUIREMENT:
+- TODAY'S DATE IS: {today}
+- Use Google Search to find CURRENT, REAL-TIME information from {today}
+- DO NOT use historical or training data
+- All games, scores, and stats MUST be from {today} or the most recent available date
+- If no games are scheduled today, show the most recent games and upcoming schedule
 
 IMPORTANT OUTPUT REQUIREMENTS:
 - Return ONLY the HTML body content (no <html>, <head>, or <body> tags)
@@ -145,7 +157,7 @@ Return the complete HTML content ready to inject into the page.
 
 def generate_content_with_gemini(prompt, api_key):
     """
-    Generate HTML content using Gemini API.
+    Generate HTML content using Gemini API with Google Search grounding.
 
     Args:
         prompt: The adapted prompt to send to Gemini
@@ -157,9 +169,13 @@ def generate_content_with_gemini(prompt, api_key):
     try:
         genai.configure(api_key=api_key)
 
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        # Enable Google Search for real-time data
+        model = genai.GenerativeModel(
+            'gemini-2.0-flash-exp',
+            tools='google_search_retrieval'
+        )
 
-        print("🔄 Calling Gemini API...")
+        print("🔄 Calling Gemini API with Google Search enabled...")
         response = model.generate_content(prompt)
 
         if not response or not response.text:
