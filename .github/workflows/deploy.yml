@@ -25,9 +25,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject API Key
-        run: |
-          sed -i 's/const apiKey = "PLACEHOLDER_API_KEY";/const apiKey = "${{ secrets.GEMINI_API_KEY }}";/' docs/creator-monetization.html
+      - name: Inject API Keys
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/inject_secrets.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

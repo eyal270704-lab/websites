@@ -33,9 +33,16 @@ The workflow will automatically run when you push to the main branch. You can al
 ### How It Works
 
 - Your API key is stored securely in GitHub Secrets (never visible in code)
-- During deployment, GitHub Actions replaces `PLACEHOLDER_API_KEY` with your actual key
+- During deployment, a Python script (`scripts/inject_secrets.py`) runs automatically
+- The script replaces `PLACEHOLDER_API_KEY` with your actual key in the HTML files
 - The deployed site will have the working API key
 - The source code remains secure
+
+**Technical Details:**
+- Uses a clean Python script instead of `sed` for better maintainability
+- Easy to extend for multiple pages with different API keys
+- Includes error handling and validation
+- See [scripts/inject_secrets.py](scripts/inject_secrets.py) for implementation
 
 ### Security Notes
 
