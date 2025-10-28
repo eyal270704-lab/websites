@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball News - Daily News Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
+    <div class="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
+        <!-- Back to Hub Button -->
+        <div class="mb-8">
+            <a href="index.html" class="inline-flex items-center gap-2 text-white hover:text-cyan-400 transition-colors text-lg font-medium">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Back to Hub
+            </a>
+        </div>
+
+        <!-- Generated Content -->
+        <main class="animate-fade-in">
+            <!-- Current Date and Total Games Scheduled -->
+<div class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-4 px-6 rounded-lg shadow-md mb-6">
+    <h1 class="text-2xl font-semibold">NBA Daily News Hub</h1>
+    <p class="text-lg">Today: October 26, 2023 | Total Games Scheduled: 6</p>
+</div>
+
+<!-- Breaking News Alert Banner -->
+<div class="bg-red-600 text-white py-3 px-6 rounded-lg shadow-md mb-6" role="alert">
+    <strong class="font-bold">Breaking News:</strong> Zion Williamson out with hamstring injury for 2-3 weeks.
+</div>
+
+<!-- Game Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+    <!-- Game Card: FINAL -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Lakers vs. Nuggets</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-200 text-green-800">FINAL</span>
+            </div>
+            <p class="text-gray-600">Lakers 110 - Nuggets 105</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Top Performer</h3>
+            <p class="text-gray-700">LeBron James: 30 Points, 10 Rebounds, 8 Assists</p>
+        </div>
+    </div>
+
+    <!-- Game Card: LIVE -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Celtics vs. Bucks</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-200 text-red-800">LIVE</span>
+            </div>
+            <p class="text-gray-600">Celtics 65 - Bucks 60 (Halftime)</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Top Performer</h3>
+            <p class="text-gray-700">Jayson Tatum: 22 Points, 7 Rebounds</p>
+        </div>
+    </div>
+
+    <!-- Game Card: UPCOMING -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Warriors vs. Suns</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800">UPCOMING</span>
+            </div>
+            <p class="text-gray-600">Tip-off: 10:00 PM EST</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Key Matchup</h3>
+            <p class="text-gray-700">Stephen Curry vs. Kevin Durant</p>
+        </div>
+    </div>
+
+    <!-- Game Card: FINAL -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Heat vs. Pistons</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-200 text-green-800">FINAL</span>
+            </div>
+            <p class="text-gray-600">Heat 103 - Pistons 102</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Top Performer</h3>
+            <p class="text-gray-700">Jimmy Butler: 28 Points, 6 Rebounds, 5 Assists</p>
+        </div>
+    </div>
+
+    <!-- Game Card: LIVE -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Grizzlies vs. Cavs</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-200 text-red-800">LIVE</span>
+            </div>
+            <p class="text-gray-600">Grizzlies 45 - Cavs 50 (Halftime)</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Top Performer</h3>
+            <p class="text-gray-700">Donovan Mitchell: 18 Points, 4 Assists</p>
+        </div>
+    </div>
+
+    <!-- Game Card: UPCOMING -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-semibold">Mavericks vs. Spurs</h2>
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800">UPCOMING</span>
+            </div>
+            <p class="text-gray-600">Tip-off: 8:30 PM EST</p>
+        </div>
+        <div class="bg-gray-100 px-6 py-4">
+            <h3 class="text-lg font-semibold">Key Matchup</h3>
+            <p class="text-gray-700">Luka Doncic vs. Victor Wembanyama</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Israeli Players Section -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">🇮🇱 Israeli NBA Players Update</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Deni Avdija Card -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="px-6 py-4">
+                <h3 class="text-xl font-semibold">Deni Avdija</h3>
+                <p class="text-gray-600">Portland Trail Blazers | Forward</p>
+            </div>
+            <div class="bg-gray-100 px-6 py-4">
+                <h4 class="text-lg font-semibold">Season Stats</h4>
+                <p class="text-gray-700">GP: 5 | PPG: 8.2 | RPG: 5.4 | APG: 2.1 | FG%: 43.5%</p>
+                <h4 class="text-lg font-semibold mt-2">Recent Game Performance</h4>
+                <p class="text-gray-700">Last Game: 6 Points, 7 Rebounds, 2 Assists</p>
+                <h4 class="text-lg font-semibold mt-2">Injury Status</h4>
+                <p class="text-gray-700">Healthy</p>
+            </div>
+            <div class="px-6 py-4">
+                <p class="text-gray-800">Deni Avdija is looking to improve his scoring output in his first season with the Trail Blazers.</p>
+            </div>
+        </div>
+
+        <!-- Ben Saraf Card -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="px-6 py-4">
+                <h3 class="text-xl font-semibold">Ben Saraf</h3>
+                <p class="text-gray-600">Brooklyn Nets | Guard</p>
+            </div>
+            <div class="bg-gray-100 px-6 py-4">
+                <h4 class="text-lg font-semibold">Season Stats</h4>
+                <p class="text-gray-700">GP: 0 | PPG: 0.0 | RPG: 0.0 | APG: 0.0 | FG%: 0.0%</p>
+                <h4 class="text-lg font-semibold mt-2">Recent Game Performance</h4>
+                <p class="text-gray-700">Currently on G-League assignment.</p>
+                <h4 class="text-lg font-semibold mt-2">Injury Status</h4>
+                <p class="text-gray-700">Healthy</p>
+            </div>
+            <div class="px-6 py-4">
+                <p class="text-gray-800">Ben Saraf is currently developing his game in the G-League with the Long Island Nets. Aims to get NBA minutes this season.</p>
+            </div>
+        </div>
+
+        <!-- Danny Wolf Card -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="px-6 py-4">
+                <h3 class="text-xl font-semibold">Danny Wolf</h3>
+                <p class="text-gray-600">Brooklyn Nets | Center</p>
+            </div>
+            <div class="bg-gray-100 px-6 py-4">
+                <h4 class="text-lg font-semibold">Season Stats</h4>
+                <p class="text-gray-700">GP: 0 | PPG: 0.0 | RPG: 0.0 | APG: 0.0 | FG%: 0.0%</p>
+                <h4 class="text-lg font-semibold mt-2">Recent Game Performance</h4>
+                <p class="text-gray-700">Currently playing College Basketball. Aims to get NBA minutes next season.</p>
+                <h4 class="text-lg font-semibold mt-2">Injury Status</h4>
+                <p class="text-gray-700">Healthy</p>
+            </div>
+            <div class="px-6 py-4">
+                <p class="text-gray-800">Danny Wolf is developing his game in College. Aims to get NBA minutes next season.</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Historic Milestone Box -->
+        <div class="bg-purple-200 text-purple-800 py-3 px-6 rounded-lg shadow-md mt-4">
+            <p class="text-sm"><strong>Historic Milestone:</strong> Having multiple Israeli players in the NBA represents a growing trend and highlights the globalization of basketball. Their presence inspires young Israeli athletes and contributes to the diversity of the league.</p>
+        </div>
+</section>
+
+<!-- Early Season Standings -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">Early Season Standings (Eastern Conference)</h2>
+    <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Team</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">W</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">L</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">PCT</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Boston Celtics</td>
+                    <td class="px-6 py-4 whitespace-nowrap">4</td>
+                    <td class="px-6 py-4 whitespace-nowrap">1</td>
+                    <td class="px-6 py-4 whitespace-nowrap">0.800</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Milwaukee Bucks</td>
+                    <td class="px-6 py-4 whitespace-nowrap">3</td>
+                    <td class="px-6 py-4 whitespace-nowrap">2</td>
+                    <td class="px-6 py-4 whitespace-nowrap">0.600</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Miami Heat</td>
+                    <td class="px-6 py-4 whitespace-nowrap">3</td>
+                    <td class="px-6 py-4 whitespace-nowrap">2</td>
+                    <td class="px-6 py-4 whitespace-nowrap">0.600</td>
+                </tr>
+                <!-- More standings rows here -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Top Performances and Highlights -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">Top Performances & Highlights</h2>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <h3 class="text-xl font-semibold">LeBron James Dominates in Lakers Win</h3>
+            <p class="text-gray-700">LeBron James scored 30 points, grabbed 10 rebounds, and dished out 8 assists in the Lakers' victory over the Nuggets. He continues to defy Father Time with his exceptional performances.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Injury Report -->
+<section>
+    <h2 class="text-2xl font-semibold mb-4">Injury Report</h2>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <h3 class="text-xl font-semibold">Key Injuries</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Zion Williamson (Pelicans) - Hamstring Injury (Out 2-3 weeks)</li>
+                <li>Ja Morant (Grizzlies) - Suspension (20 more games)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
+            <p>Generated on October 28, 2025 at 11:01 AM</p>
+            <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
+        </footer>
+    </div>
+</body>
+</html>
