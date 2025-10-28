@@ -18,6 +18,7 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 import google.generativeai as genai
+from google.generativeai.types import Tool
 
 
 # HTML template for all newsfeeds
@@ -157,7 +158,7 @@ Return the complete HTML content ready to inject into the page.
 
 def generate_content_with_gemini(prompt, api_key):
     """
-    Generate HTML content using Gemini API.
+    Generate HTML content using Gemini API with Google Search grounding.
 
     Args:
         prompt: The adapted prompt to send to Gemini
@@ -169,12 +170,21 @@ def generate_content_with_gemini(prompt, api_key):
     try:
         genai.configure(api_key=api_key)
 
-        # Note: Google Search grounding is not reliably available in the free tier
-        # Relying on strong prompt instructions to request current data
+        # Define the Google Search Tool
+        # Creating a Tool with an empty 'google_search_retrieval' object
+        # enables Google Search grounding
+        google_search_tool = Tool(google_search_retrieval={})
+
+        # Initialize the model (using a model that supports grounding)
         model = genai.GenerativeModel('gemini-2.0-flash-exp')
 
-        print("🔄 Calling Gemini API...")
-        response = model.generate_content(prompt)
+        print("🔄 Calling Gemini API with Google Search grounding...")
+
+        # Generate content with the Google Search tool
+        response = model.generate_content(
+            prompt,
+            tools=[google_search_tool]
+        )
 
         if not response or not response.text:
             print("❌ Gemini API returned empty response", file=sys.stderr)
@@ -193,6 +203,16 @@ def generate_content_with_gemini(prompt, api_key):
         content = content.strip()
 
         print(f"✅ Generated {len(content)} characters of HTML content")
+
+        # Print grounding citations if available (helpful for debugging)
+        if response.grounding_metadata and response.grounding_metadata.grounding_attributions:
+            print(f"📚 Grounded with {len(response.grounding_metadata.grounding_attributions)} web sources")
+            for i, attr in enumerate(response.grounding_metadata.grounding_attributions[:3], 1):
+                if attr.web:
+                    print(f"  {i}. {attr.web.title}")
+        else:
+            print("⚠️  No web sources cited (may be using training data)")
+
         return content
 
     except Exception as e:
