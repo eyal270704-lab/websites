@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Chosen Palette: Calm Neutrals (BG: neutral-50, Text: gray-800, Primary: teal-600, Accent: stone-500) -->
+    <!-- Application Structure Plan: I've designed a tab-based single-page application. This structure is best for a direct comparison, allowing the user to switch between a high-level 'Overview' (comparing philosophies) and deep dives into 'YouTube', 'TikTok', and 'Instagram' specifics. A dedicated 'Comparison' section uses a dynamic table to visualize key metrics side-by-side. This is more user-friendly than a long scrolling report because it allows for focused, non-linear exploration of each platform, fulfilling the goal of easy synthesis. -->
+    <!-- Visualization & Content Choices: 1. Report Info: Core Philosophy -> Goal: Inform -> Viz: Styled HTML cards (Grid/Flex) -> Interaction: Displayed on 'Overview' tab -> Justification: Clearest way to show the core strategic difference. 2. Report Info: Eligibility & Payment Models -> Goal: Inform/Organize -> Viz: Key-value lists and styled text blocks (HTML/Tailwind) -> Interaction: Click on a platform tab to show its data -> Justification: Good for scannable, detailed data. 3. Report Info: All key metrics side-by-side -> Goal: Compare -> Viz: Dynamically generated HTML Table -> Interaction: View all data in one place on 'Comparison' tab -> Justification: Best for comparing heterogeneous data points (e.g., 'Ad Split' vs 'RPM' vs 'Bonuses') directly. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Monetization Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <style>
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .tab-btn.active {
+            background-color: #0d9488;
+            color: #ffffff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .tab-btn {
+            background-color: #f3f4f6;
+            color: #374151;
+            transition: all 0.2s ease-in-out;
+        }
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .stat-card {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e5e7eb;
+        }
+        .tag-list li {
+            background-color: #e5e7eb;
+            color: #4b5563;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        #generate-strategy-btn:disabled {
+            background-color: #9ca3af;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body class="bg-neutral-50 text-gray-800 font-sans antialiased">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-teal-700 mb-3">Creator Monetization Models</h1>
+            <p class="text-lg text-stone-600 max-w-3xl mx-auto">
+                This application interactively compares the primary monetization methods for content creators across YouTube, TikTok, and Instagram. Use the tabs below to explore each platform's philosophy, payment models, and requirements.
+            </p>
+        </header>
+
+        <nav class="flex flex-wrap justify-center gap-2 md:gap-4 mb-8">
+            <button class="tab-btn active text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="overview">
+                Overview
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="youtube">
+                YouTube
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="tiktok">
+                TikTok
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="instagram">
+                Instagram
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="comparison">
+                Comparison
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="ai-strategy">
+                ✨ AI Strategy
+            </button>
+            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="ai-ideas">
+                ✨ Content Ideas
+            </button>
+        </nav>
+
+        <main>
+            <div id="overview" class="tab-content active">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    Each platform has a completely different philosophy for creator payment. YouTube operates as a direct partner, TikTok as a performance-based reward system, and Instagram as a facilitator for the external brand economy.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div id="overview-youtube" class="stat-card p-6"></div>
+                    <div id="overview-tiktok" class="stat-card p-6"></div>
+                    <div id="overview-instagram" class="stat-card p-6"></div>
+                </div>
+            </div>
+
+            <div id="youtube" class="tab-content">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    YouTube runs the most established and transparent monetization system, designed for long-term careers. It's centered on a direct partnership where creators earn a majority share of ad revenue from their content.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div id="youtube-details" class="stat-card p-6"></div>
+                    <div id="youtube-funding" class="stat-card p-6"></div>
+                </div>
+            </div>
+
+            <div id="tiktok" class="tab-content">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    TikTok has evolved from a low-paying "Creator Fund" to a more lucrative "Creativity Program." This model incentivizes longer, high-engagement content by paying a set rate per 1,000 views, rather than a direct ad split.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div id="tiktok-details" class="stat-card p-6"></div>
+                    <div id="tiktok-funding" class="stat-card p-6"></div>
+                </div>
+            </div>
+
+            <div id="instagram" class="tab-content">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    Instagram's monetization is the least direct. It relies heavily on facilitating an external "Brand Economy" where creators are paid by brands, not by Instagram. Direct payments are limited to unreliable bonuses and fan funding.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div id="instagram-details" class="stat-card p-6"></div>
+                    <div id="instagram-funding" class="stat-card p-6"></div>
+                </div>
+            </div>
+
+            <div id="comparison" class="tab-content">
+                 <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    This table provides a direct, side-by-side comparison of the key monetization features and requirements for each platform. Note the fundamental differences in payment models and revenue splits.
+                </p>
+                <div class="stat-card p-4 sm:p-6 overflow-x-auto">
+                    <div id="comparison-table-container"></div>
+                </div>
+            </div>
+
+            <div id="ai-strategy" class="tab-content">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    Select your channel type and primary goal to get a custom monetization strategy, powered by Gemini.
+                </p>
+                <div class="stat-card max-w-2xl mx-auto p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label for="channel-type" class="block text-sm font-medium text-stone-600 mb-1">Channel Type</label>
+                            <select id="channel-type" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
+                                <option>Gaming</option>
+                                <option>Vlogging / Lifestyle</option>
+                                <option>Education</option>
+                                <option>Cooking</option>
+                                <option>Tech Reviews</option>
+                                <option>Fashion & Beauty</option>
+                                <option>Comedy</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="primary-goal" class="block text-sm font-medium text-stone-600 mb-1">Primary Goal</label>
+                            <select id="primary-goal" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
+                                <option>Maximize Income</option>
+                                <option>Build a Personal Brand</option>
+                                <option>Create a Side Hustle</option>
+                                <option>Grow an Audience</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="generate-strategy-btn" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2">
+                        ✨ Generate Strategy
+                    </button>
+                    <div id="ai-loading" class="text-center text-stone-500 py-4" style="display: none;">
+                        Generating strategy...
+                    </div>
+                    <div id="ai-result" class="mt-6 p-4 bg-neutral-100 rounded-md border border-neutral-200" style="display: none;">
+                    </div>
+                </div>
+            </div>
+
+            <div id="ai-ideas" class="tab-content">
+                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
+                    Get monetization-focused content ideas for your channel, powered by Gemini.
+                </p>
+                <div class="stat-card max-w-2xl mx-auto p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label for="ideas-channel-type" class="block text-sm font-medium text-stone-600 mb-1">Channel Type</label>
+                            <select id="ideas-channel-type" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
+                                <option>Gaming</option>
+                                <option>Vlogging / Lifestyle</option>
+                                <option>Education</option>
+                                <option>Cooking</option>
+                                <option>Tech Reviews</option>
+                                <option>Fashion & Beauty</option>
+                                <option>Comedy</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="ideas-platform" class="block text-sm font-medium text-stone-600 mb-1">Target Platform</label>
+                            <select id="ideas-platform" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
+                                <option>YouTube (Long-form & YPP)</option>
+                                <option>TikTok (Creativity Program, 1min+)</option>
+                                <option>Instagram (Brand Deals & Reels)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="generate-ideas-btn" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2">
+                        ✨ Generate Content Ideas
+                    </button>
+                    <div id="ai-ideas-loading" class="text-center text-stone-500 py-4" style="display: none;">
+                        Generating ideas...
+                    </div>
+                    <div id="ai-ideas-result" class="mt-6 p-4 bg-neutral-100 rounded-md border border-neutral-200" style="display: none;">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // API key is injected during deployment via GitHub Actions
+            // This placeholder will be replaced with the actual key from GitHub Secrets
+            const apiKey = "PLACEHOLDER_API_KEY";
+
+            async function fetchWithBackoff(apiUrl, payload, retries = 3, delay = 1000) {
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    if (!response.ok) {
+                        if (response.status === 429 && retries > 0) {
+                            await new Promise(res => setTimeout(res, delay));
+                            return fetchWithBackoff(apiUrl, payload, retries - 1, delay * 2);
+                        }
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return await response.json();
+                } catch (error) {
+                    if (retries > 0) {
+                        await new Promise(res => setTimeout(res, delay));
+                        return fetchWithBackoff(apiUrl, payload, retries - 1, delay * 2);
+                    }
+                    console.error("Failed to fetch from Gemini API after retries:", error);
+                    return null;
+                }
+            }
+
+            async function callGeminiAPI(channelType, primaryGoal) {
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+                const systemPrompt = "You are an expert strategist in the creator economy. Your advice is concise, actionable, and directly relates to monetization. You understand the differences between YouTube, TikTok, and Instagram. Format your response with a short intro paragraph and 3-5 key bullet points. Do not use markdown headers, just text and bullet points (using *).";
+
+                const userQuery = `Based on the monetization models of YouTube, TikTok, and Instagram, what is a simple, actionable monetization strategy for a '${channelType}' channel whose primary goal is '${primaryGoal}'? Provide 3-5 key bullet points.`;
+
+                const payload = {
+                    contents: [{ parts: [{ text: userQuery }] }],
+                    systemInstruction: {
+                        parts: [{ text: systemPrompt }]
+                    },
+                };
+
+                const result = await fetchWithBackoff(apiUrl, payload);
+
+                if (result && result.candidates?.[0]?.content?.parts?.[0]?.text) {
+                    return result.candidates[0].content.parts[0].text;
+                } else {
+                    console.error("Invalid Gemini API response structure:", result);
+                    return "Sorry, I couldn't generate a strategy at this time. Please check the console for errors.";
+                }
+            }
+
+            async function callGeminiForIdeas(channelType, platform) {
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+                const systemPrompt = "You are an expert content strategist. You generate creative, actionable video ideas that are highly likely to perform well and be monetizable on the specified platform. Format your response with a short intro and 3-5 key bullet points. Do not use markdown headers, just text and bullet points (using *).";
+
+                const userQuery = `I have a '${channelType}' channel. Give me 3-5 specific video ideas that are optimized for monetization on '${platform}'.`;
+
+                const payload = {
+                    contents: [{ parts: [{ text: userQuery }] }],
+                    systemInstruction: {
+                        parts: [{ text: systemPrompt }]
+                    },
+                };
+
+                const result = await fetchWithBackoff(apiUrl, payload);
+
+                if (result && result.candidates?.[0]?.content?.parts?.[0]?.text) {
+                    return result.candidates[0].content.parts[0].text;
+                } else {
+                    console.error("Invalid Gemini API response structure:", result);
+                    return "Sorry, I couldn't generate ideas at this time. Please check the console for errors.";
+                }
+            }
+
+            function formatGeminiResponse(text) {
+                let inList = false;
+                let html = '';
+                const lines = text.split('\n').filter(line => line.trim().length > 0);
+
+                lines.forEach(line => {
+                    if (line.trim().startsWith('* ')) {
+                        if (!inList) {
+                            html += '<ul class="list-disc pl-5 mt-2 mb-2 space-y-1">';
+                            inList = true;
+                        }
+                        html += `<li class="text-gray-700">${line.trim().substring(2)}</li>`;
+                    } else {
+                        if (inList) {
+                            html += '</ul>';
+                            inList = false;
+                        }
+                        html += `<p class="text-gray-700 mb-2">${line.trim()}</p>`;
+                    }
+                });
+
+                if (inList) {
+                    html += '</ul>';
+                }
+
+                return html;
+            }
+
+            document.getElementById('generate-strategy-btn').addEventListener('click', async () => {
+                const btn = document.getElementById('generate-strategy-btn');
+                const loading = document.getElementById('ai-loading');
+                const resultDiv = document.getElementById('ai-result');
+
+                const channelType = document.getElementById('channel-type').value;
+                const primaryGoal = document.getElementById('primary-goal').value;
+
+                // Check if API key is set
+                if (!apiKey || apiKey.trim() === "") {
+                    resultDiv.innerHTML = '<p class="text-red-600 font-semibold">⚠️ API Key Required</p><p class="text-gray-700 mt-2">Please add your Gemini API key to enable AI features. Get your key from <a href="https://makersuite.google.com/app/apikey" target="_blank" class="text-teal-600 underline">Google AI Studio</a> and add it to the HTML file.</p>';
+                    resultDiv.style.display = 'block';
+                    return;
+                }
+
+                btn.disabled = true;
+                btn.innerHTML = '✨ Generating...';
+                loading.style.display = 'block';
+                resultDiv.style.display = 'none';
+
+                try {
+                    const responseText = await callGeminiAPI(channelType, primaryGoal);
+                    const formattedHtml = formatGeminiResponse(responseText);
+                    resultDiv.innerHTML = formattedHtml;
+                    resultDiv.style.display = 'block';
+                } catch (error) {
+                    resultDiv.innerHTML = "An error occurred while generating the strategy. Please try again later.";
+                    resultDiv.style.display = 'block';
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = '✨ Generate Strategy';
+                    loading.style.display = 'none';
+                }
+            });
+
+            document.getElementById('generate-ideas-btn').addEventListener('click', async () => {
+                const btn = document.getElementById('generate-ideas-btn');
+                const loading = document.getElementById('ai-ideas-loading');
+                const resultDiv = document.getElementById('ai-ideas-result');
+
+                const channelType = document.getElementById('ideas-channel-type').value;
+                const platform = document.getElementById('ideas-platform').value;
+
+                // Check if API key is set
+                if (!apiKey || apiKey.trim() === "") {
+                    resultDiv.innerHTML = '<p class="text-red-600 font-semibold">⚠️ API Key Required</p><p class="text-gray-700 mt-2">Please add your Gemini API key to enable AI features. Get your key from <a href="https://makersuite.google.com/app/apikey" target="_blank" class="text-teal-600 underline">Google AI Studio</a> and add it to the HTML file.</p>';
+                    resultDiv.style.display = 'block';
+                    return;
+                }
+
+                btn.disabled = true;
+                btn.innerHTML = '✨ Generating...';
+                loading.style.display = 'block';
+                resultDiv.style.display = 'none';
+
+                try {
+                    const responseText = await callGeminiForIdeas(channelType, platform);
+                    const formattedHtml = formatGeminiResponse(responseText);
+                    resultDiv.innerHTML = formattedHtml;
+                    resultDiv.style.display = 'block';
+                } catch (error) {
+                    resultDiv.innerHTML = "An error occurred while generating ideas. Please try again later.";
+                    resultDiv.style.display = 'block';
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = '✨ Generate Content Ideas';
+                    loading.style.display = 'none';
+                }
+            });
+
+            const platformData = {
+                youtube: {
+                    name: "YouTube",
+                    philosophy: "The Partnership Model",
+                    philosophyDesc: "Acts as a long-term partner, sharing 55% of ad revenue from long-form videos and 45% from a Shorts ad pool with creators.",
+                    mainProgram: "YouTube Partner Program (YPP)",
+                    eligibility: "1,000 subs & 4,000 watch hours (12mo) OR 10M Shorts views (90 days)",
+                    paymentModel: "Ad Revenue Split (55% Creator / 45% Platform)",
+                    fanFunding: ["Super Chat", "Super Stickers", "Channel Memberships", "Super Thanks"]
+                },
+                tiktok: {
+                    name: "TikTok",
+                    philosophy: "The Performance Model",
+                    philosophyDesc: "Acts as a reward system, paying a fixed RPM (rate per 1,000 views) for high-performing, 1-minute+ videos from its own funds.",
+                    mainProgram: "Creativity Program",
+                    eligibility: "10,000 followers & 100,000 views (30 days) on videos 1min+",
+                    paymentModel: "RPM (Revenue Per Mille) - Not an ad split",
+                    fanFunding: ["LIVE Gifts", "Video Gifts"]
+                },
+                instagram: {
+                    name: "Instagram",
+                    philosophy: "The Brand Economy Model",
+                    philosophyDesc: "Acts as a stage, providing tools for creators to make money from external brands. Direct payment is minimal and unreliable (e.g., bonuses).",
+                    mainProgram: "N/A (No central program)",
+                    eligibility: "Varies; features like Subscriptions are often invite-only",
+                    paymentModel: "Bonuses (unreliable) & Branded Content (external)",
+                    fanFunding: ["Subscriptions", "Gifts"]
+                }
+            };
+
+            function renderPlatformData() {
+                const createHtmlList = (items) => items.map(item => `<li class="tag-list">${item}</li>`).join('');
+
+                const createDetailCard = (platform) => `
+                    <h3 class="text-2xl font-bold text-teal-600 mb-4">${platform.name} Details</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <span class="font-semibold text-stone-600 block">Main Program:</span>
+                            <span class="text-gray-800">${platform.mainProgram}</span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-stone-600 block">Payment Model:</span>
+                            <span class="text-gray-800">${platform.paymentModel}</span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-stone-600 block">Eligibility:</span>
+                            <span class="text-gray-800">${platform.eligibility}</span>
+                        </div>
+                    </div>
+                `;
+
+                const createFundingCard = (platform) => `
+                    <h3 class="text-2xl font-bold text-teal-600 mb-4">Direct Fan Funding</h3>
+                    <p class="text-stone-600 mb-4">Methods for viewers to pay creators directly:</p>
+                    <ul class="flex flex-wrap gap-2">
+                        ${createHtmlList(platform.fanFunding)}
+                    </ul>
+                `;
+
+                const createOverviewCard = (platform) => `
+                    <h3 class="text-2xl font-bold text-teal-600 mb-3">${platform.philosophy}</h3>
+                    <p class="text-stone-600">${platform.philosophyDesc}</p>
+                `;
+
+                document.getElementById('overview-youtube').innerHTML = createOverviewCard(platformData.youtube);
+                document.getElementById('overview-tiktok').innerHTML = createOverviewCard(platformData.tiktok);
+                document.getElementById('overview-instagram').innerHTML = createOverviewCard(platformData.instagram);
+
+                document.getElementById('youtube-details').innerHTML = createDetailCard(platformData.youtube);
+                document.getElementById('youtube-funding').innerHTML = createFundingCard(platformData.youtube);
+
+                document.getElementById('tiktok-details').innerHTML = createDetailCard(platformData.tiktok);
+                document.getElementById('tiktok-funding').innerHTML = createFundingCard(platformData.tiktok);
+
+                document.getElementById('instagram-details').innerHTML = createDetailCard(platformData.instagram);
+                document.getElementById('instagram-funding').innerHTML = createFundingCard(platformData.instagram);
+
+                const comparisonTable = `
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Feature</th>
+                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">YouTube</th>
+                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">TikTok</th>
+                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Instagram</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Main Program</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.youtube.mainProgram}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.tiktok.mainProgram}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.instagram.mainProgram}</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Payment Model</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.youtube.paymentModel}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.tiktok.paymentModel}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.instagram.paymentModel}</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Ad Revenue Split</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">55% (Creator)</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">N/A (Pays RPM)</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">None</td>
+                            </tr>
+                             <tr>
+                                <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Eligibility</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.youtube.eligibility}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.tiktok.eligibility}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.instagram.eligibility}</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Fan Funding</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.youtube.fanFunding.join(', ')}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.tiktok.fanFunding.join(', ')}</td>
+                                <td class="px-4 py-4 whitespace-normal text-sm text-gray-700">${platformData.instagram.fanFunding.join(', ')}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                `;
+                document.getElementById('comparison-table-container').innerHTML = comparisonTable;
+            }
+
+            function setupTabs() {
+                const tabButtons = document.querySelectorAll('.tab-btn');
+                const tabContents = document.querySelectorAll('.tab-content');
+
+                tabButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        const tabId = button.getAttribute('data-tab');
+
+                        tabButtons.forEach(btn => btn.classList.remove('active'));
+                        button.classList.add('active');
+
+                        tabContents.forEach(content => {
+                            if (content.id === tabId) {
+                                content.classList.add('active');
+                            } else {
+                                content.classList.remove('active');
+                            }
+                        });
+                    });
+                });
+            }
+
+            renderPlatformData();
+            setupTabs();
+
+        });
+    </script>
+</body>
+</html>
