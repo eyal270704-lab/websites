@@ -12,7 +12,7 @@ This repository uses GitHub Actions to securely inject your Gemini API key durin
 4. Click **New repository secret**
 5. Enter:
    - **Name**: `GEMINI_API_KEY`
-   - **Secret**: `AIzaSyCkrk7sKkT82-PfGP-z69gGkp5MxkKDFcQ`
+   - **Secret**: `your secret api key`
 6. Click **Add secret**
 
 ### Step 2: Configure GitHub Pages
