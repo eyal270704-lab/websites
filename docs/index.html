@@ -235,6 +235,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
+            // TODO: Add your Gemini API key here
+            // Get your API key from: https://makersuite.google.com/app/apikey
+            // IMPORTANT: Restrict your API key to your GitHub Pages domain for security
+            // Instructions:
+            // 1. Go to Google AI Studio and create an API key
+            // 2. In API restrictions, add: https://eyal270704-lab.github.io/websites/*
+            // 3. Paste your key below
             const apiKey = "";
 
             async function fetchWithBackoff(apiUrl, payload, retries = 3, delay = 1000) {
@@ -346,6 +353,13 @@
                 const channelType = document.getElementById('channel-type').value;
                 const primaryGoal = document.getElementById('primary-goal').value;
 
+                // Check if API key is set
+                if (!apiKey || apiKey.trim() === "") {
+                    resultDiv.innerHTML = '<p class="text-red-600 font-semibold">⚠️ API Key Required</p><p class="text-gray-700 mt-2">Please add your Gemini API key to enable AI features. Get your key from <a href="https://makersuite.google.com/app/apikey" target="_blank" class="text-teal-600 underline">Google AI Studio</a> and add it to the HTML file.</p>';
+                    resultDiv.style.display = 'block';
+                    return;
+                }
+
                 btn.disabled = true;
                 btn.innerHTML = '✨ Generating...';
                 loading.style.display = 'block';
@@ -373,6 +387,13 @@
 
                 const channelType = document.getElementById('ideas-channel-type').value;
                 const platform = document.getElementById('ideas-platform').value;
+
+                // Check if API key is set
+                if (!apiKey || apiKey.trim() === "") {
+                    resultDiv.innerHTML = '<p class="text-red-600 font-semibold">⚠️ API Key Required</p><p class="text-gray-700 mt-2">Please add your Gemini API key to enable AI features. Get your key from <a href="https://makersuite.google.com/app/apikey" target="_blank" class="text-teal-600 underline">Google AI Studio</a> and add it to the HTML file.</p>';
+                    resultDiv.style.display = 'block';
+                    return;
+                }
 
                 btn.disabled = true;
                 btn.innerHTML = '✨ Generating...';
