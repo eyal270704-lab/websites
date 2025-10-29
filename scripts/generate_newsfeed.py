@@ -208,15 +208,6 @@ def generate_content_with_gemini(prompt, api_key):
 
         print(f"✅ Generated {len(content)} characters of HTML content")
 
-        # Print grounding citations if available (helpful for debugging)
-        if response.grounding_metadata and response.grounding_metadata.grounding_attributions:
-            print(f"📚 Grounded with {len(response.grounding_metadata.grounding_attributions)} web sources")
-            for i, attr in enumerate(response.grounding_metadata.grounding_attributions[:3], 1):
-                if attr.web:
-                    print(f"  {i}. {attr.web.title}")
-        else:
-            print("⚠️  No web sources cited (may be using training data)")
-
         return content
 
     except Exception as e:
