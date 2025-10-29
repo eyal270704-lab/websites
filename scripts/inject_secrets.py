@@ -78,12 +78,12 @@ def main():
             'placeholder': 'PLACEHOLDER_API_KEY',
             'secret': 'GEMINI_API_KEY'
         },
+        {
+            'file': docs_dir / 'stock-market-news.html',
+            'placeholder': 'PLACEHOLDER_API_KEY',
+            'secret': 'GEMINI_API_KEY'
+        },
         # Add more files here as you create new pages that need secrets
-        # {
-        #     'file': docs_dir / 'basketball-news.html',
-        #     'placeholder': 'PLACEHOLDER_SPORTS_API_KEY',
-        #     'secret': 'SPORTS_API_KEY'
-        # },
     ]
 
     # Track success

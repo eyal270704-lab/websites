@@ -215,10 +215,41 @@ def generate_content_with_gemini(prompt, api_key):
         return None
 
 
-def create_html_page(content, title):
-    """Wrap generated content in site template."""
+def create_html_page(content, title, output_path):
+    """
+    Wrap generated content in site template or inject into existing template.
+
+    Args:
+        content: Generated HTML content
+        title: Page title
+        output_path: Path to output file
+
+    Returns:
+        str: Complete HTML page
+    """
     timestamp = datetime.now().strftime("%B %d, %Y at %I:%M %p")
 
+    # Check if output file already exists (template-based approach)
+    if output_path.exists():
+        print(f"📄 Found existing template at {output_path.name}, injecting content...")
+        try:
+            with open(output_path, 'r', encoding='utf-8') as f:
+                template_html = f.read()
+
+            # Replace the content placeholder
+            if '<!-- CONTENT_PLACEHOLDER -->' in template_html:
+                html = template_html.replace(
+                    '<!-- CONTENT_PLACEHOLDER -->',
+                    content
+                )
+                print(f"✅ Injected content into existing template")
+                return html
+            else:
+                print(f"⚠️  Template found but no CONTENT_PLACEHOLDER, using generic template")
+        except Exception as e:
+            print(f"⚠️  Error reading template: {e}, using generic template")
+
+    # Use generic template
     html = HTML_TEMPLATE.format(
         title=title,
         content=content,
@@ -340,13 +371,13 @@ def main():
         print("❌ Failed to generate content", file=sys.stderr)
         sys.exit(1)
 
-    # Create full HTML page
-    full_html = create_html_page(generated_content, config['title'])
-
-    # Save to file
+    # Determine output path
     repo_root = Path(__file__).parent.parent
     docs_dir = repo_root / 'docs'
     output_path = docs_dir / config['output_file']
+
+    # Create full HTML page (with template injection support)
+    full_html = create_html_page(generated_content, config['title'], output_path)
 
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
