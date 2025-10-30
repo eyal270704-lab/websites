@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Market News - Daily News Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -17,34 +14,13 @@
         .animate-fade-in {
             animation: fadeIn 0.6s ease-out forwards;
         }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        .spinner {
-            animation: spin 1s linear infinite;
-        }
-        .prose h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-top: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .prose ul {
-            list-style-type: disc;
-            margin-left: 1.5rem;
-            margin-top: 0.5rem;
-        }
-        .prose li {
-            margin-bottom: 0.5rem;
-        }
-        .prose strong {
-            font-weight: 700;
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
     </style>
 </head>
 <body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
     <div class="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
-
         <!-- Back to Hub Button -->
         <div class="mb-8">
             <a href="index.html" class="inline-flex items-center gap-2 text-white hover:text-cyan-400 transition-colors text-lg font-medium">
@@ -55,247 +31,132 @@
             </a>
         </div>
 
-        <!-- Header -->
-        <header class="text-center mb-8 animate-fade-in">
-            <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent mb-3">
-                Capital Market Daily
+        <!-- Generated Content -->
+        <main class="animate-fade-in">
+            Okay, I will summarize the most important capital market news from the last 24 hours, focusing on major headlines, notable stocks, and market trends. I will present the answer as a bullet point list in Markdown format, using Tailwind CSS classes for styling. I will use Google Search to find current, real-time information from October 30, 2025, and ensure the information is up-to-date.
+
+Here's a summary of the capital market news from the last 24 hours, focusing on global and Israeli markets:
+
+### Global Capital Market News:
+
+*   **Market Performance:** Global markets showed mixed performance. The U.S. market ended on a mixed note on Wednesday following a Federal Reserve rate cut. European markets traded lower. Asian markets also saw mixed performance following the Fed's cautious stance on future rate cuts.
+*   **Federal Reserve's Impact:** The U.S. Federal Reserve cut interest rates by 25 bps, but Chairman Jerome Powell hinted it might be the last cut of 2025, leading to market consolidation and a risk-off sentiment across emerging markets. This tempered hopes of further monetary easing.
+*   **US-China Trade Talks:** Investors remained cautious ahead of updates on U.S.-China trade talks. However, there were some positive developments as President Trump hailed his meeting with President Xi Jinping as a success, announcing reduced tariffs on Chinese goods and China resuming purchases of soybeans and rare earth materials.
+*   **Nvidia's Milestone:** Nvidia became the first company to achieve a $5 trillion market capitalization, boosting the Nasdaq.
+*   **Cryptocurrency Market:** The global cryptocurrency market cap decreased by 1.39% to $3.80T. Bitcoin traded between $107,925 and $113,644.
+
+### Israeli Capital Market News:
+
+*   **Kadimastem Merger:** NLS Pharmaceutics and Kadimastem announced the completion of material conditions for their merger transaction. Trading in Kadimastem’s shares on the Tel Aviv Stock Exchange (TASE) will be suspended, with final delisting from the TASE on October 31, 2025. The combined company, NewCelX Ltd., will be listed on the Nasdaq Capital Market under the ticker symbol "NCEL" starting October 31, 2025.
+*   **Gasoline Prices:** Gasoline prices in Israel are set to fall on Saturday night, bringing the price of 95 octane gasoline back to its August 2024 level, the lowest in nearly two years. The maximum price will fall by NIS 0.17 per liter to NIS 7.07 per liter.
+*   **Winvia Funding:** Sagi's Winvia raised £40m at a company valuation of £205m.
+
+### Indian Market Updates:
+
+*   **Market Overview:** Indian benchmark indices, Sensex and Nifty50, settled sharply lower, tracking weak global cues. The Sensex fell 593 points, and the Nifty closed below 25,900.
+*   **Key Factors Influencing Market:** The decline was influenced by the U.S. Federal Reserve's rate cut and cautious outlook, fresh foreign fund outflows, and uncertainty surrounding U.S.-China trade talks.
+*   **Sectoral Performance:** Most sectoral indices settled in the red, except for Nifty Energy. Nifty Financial Services and IT sectors were among the major drags.
+*   **Stock Recommendations:** Nuvama Professional Clients Group recommended ONGC, Graphite India, and SAIL as top buy calls.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Daily Capital Market News</title>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto py-8">
+
+        <!-- Main Headlines -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white p-4 rounded-lg shadow-md">
+                <span class="text-teal-200">Daily</span> Capital Market News - October 30, 2025
             </h1>
-            <p class="text-lg text-gray-300">Global & Israeli Market News | Powered by Gemini AI</p>
-        </header>
+            <p class="text-gray-600">
+                Summary of the most important global and Israeli capital market news.
+            </p>
+        </div>
 
-        <!-- Main Content Grid -->
-        <main class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Global Market News -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4 bg-gradient-to-r from-teal-400 to-blue-500 text-white p-3 rounded-md">
+                <i class="fas fa-globe-americas mr-2"></i> Global Market News
+            </h2>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>
+                    <strong>Market Performance:</strong> Global markets showed mixed performance. The U.S. market ended on a mixed note, while European markets traded lower. Asian markets also displayed mixed results.
+                </li>
+                <li>
+                    <strong>Federal Reserve's Impact:</strong> The U.S. Federal Reserve's cautious outlook after a rate cut led to market consolidation and risk aversion in emerging markets.
+                </li>
+                <li>
+                    <strong>US-China Trade Talks:</strong> Positive developments as President Trump announced reduced tariffs and China's resumption of key material purchases.
+                </li>
+                <li>
+                    <strong>Nvidia's Milestone:</strong> Nvidia achieved a $5 trillion market cap, boosting the Nasdaq.
+                </li>
+                <li>
+                    <strong>Cryptocurrency Market:</strong> The global cryptocurrency market cap decreased, with Bitcoin trading between $107,925 and $113,644.
+                </li>
+            </ul>
+        </div>
 
-            <!-- News Column (Main) -->
-            <div class="lg:col-span-2 bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-2xl border border-white/20 animate-fade-in" style="animation-delay: 0.1s;">
-                <h2 class="text-2xl font-bold mb-4 pb-3 border-b border-white/20 text-blue-300">📈 Daily Market News</h2>
+        <!-- Israeli Market News -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4 bg-gradient-to-r from-purple-400 to-teal-500 text-white p-3 rounded-md">
+                <i class="fas fa-shekel-sign mr-2"></i> Israeli Market News
+            </h2>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>
+                    <strong>Kadimastem Merger:</strong> NLS Pharmaceutics and Kadimastem merger completed; Kadimastem shares delisting from TASE, and the combined company will be listed on Nasdaq as NewCelX Ltd.
+                </li>
+                <li>
+                    <strong>Gasoline Prices:</strong> Gasoline prices to fall, reaching the lowest level in nearly two years.
+                </li>
+                 <li>
+                    <strong>Winvia Funding:</strong> Sagi's Winvia raised £40m at a company valuation of £205m.
+                </li>
+            </ul>
+        </div>
 
-                <!-- Generated News Content Will Be Injected Here by the workflow -->
-                <div id="news-content" class="prose prose-invert max-w-none text-gray-200">
-                    Here's a summary of the capital market news from the last 24 hours, focusing on major headlines, notable stocks, and market trends:
+         <!-- Indian Market News -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white p-3 rounded-md">
+                <i class="fas fa-rupee-sign mr-2"></i> Indian Market Updates
+            </h2>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>
+                    <strong>Market Overview:</strong> Sensex and Nifty50 settled lower amid weak global cues.
+                </li>
+                <li>
+                    <strong>Key Factors Influencing Market:</strong> Influenced by the U.S. Federal Reserve's cautious outlook and foreign fund outflows.
+                </li>
+                <li>
+                    <strong>Sectoral Performance:</strong> Most sectors closed in the red, with Financial Services and IT being major drags.
+                </li>
+                <li>
+                    <strong>Stock Recommendations:</strong> ONGC, Graphite India, and SAIL recommended as top buy calls.
+                </li>
+            </ul>
+        </div>
 
-*   **Global Market Overview:**
-    *   US stock futures are holding steady as investors react to mixed results from Big Tech firms. They are also digesting the latest Federal Reserve interest rate decision and awaiting the Trump-Xi meeting.
-    *   The Stoxx Europe 600 fell slightly.
-    *   The MSCI Asia Pacific Index and the MSCI Emerging Markets Index also saw declines.
-*   **US Market:**
-    *   US stocks finished mixed, with the S&P 500 and Nasdaq reaching record highs. The Dow slipped slightly from its record high.
-    *   Markets initially rallied on the Fed's rate cut and the decision to end balance sheet runoff in December. However, Fed Chair Powell's comments about uncertainty regarding a December rate cut tempered the advance.
-    *   Mega-cap tech stocks led the move, with Nvidia briefly crossing a $5 trillion market cap after reports that President Trump may allow Blackwell chip exports to China. Broadcom, AMD, and Micron also climbed.
-    *   Consumer defensive stocks and healthcare sectors lagged.
-    *   Alphabet surged after hours on stronger-than-expected results.
-    *   Meta sank after reporting a significant one-time charge related to President Trump's One Big Beautiful Bill Act.
-    *   Microsoft also dropped after saying its OpenAI investment trimmed quarterly earnings.
-*   **Federal Reserve and Interest Rates:**
-    *   The Federal Reserve delivered a widely expected quarter-point rate cut.
-    *   Chair Powell signaled uncertainty about another move in December.
-*   **Trade and Tariffs:**
-    *   Presidents Trump and Xi are expected to formalize a trade truce in South Korea.
-    *   Trump announced an agreement with China to lower some US tariffs and avert Chinese export controls on rare earths.
-*   **Indian Market:**
-    *   Sensex settled lower, and Nifty went below 25,900.
-    *   Le Travenues Technology shares plunged after reporting Q2 results.
-    *   HPCL shares jumped to a new 52-week high after Q2 PAT skyrocketed.
-    *   All Nifty sectoral indices traded in the red.
-*   **London Equity Capital Market:**
-    *   London's equity capital market is reviving due to a revamped rulebook that has boosted IPO activity.
-    *   Shawbrook expects its shares to start trading in London soon following an IPO.
-*   **Stocks to Watch:**
-    *   Nvidia: Rose significantly and briefly crossed a $5 trillion market cap.
-    *   Alphabet: Surged after hours following earnings.
-    *   Meta: Sank after reporting a one-time charge.
-    *   Microsoft: Dropped after saying its OpenAI investment trimmed earnings.
-*   **Mergers and Acquisitions:**
-    *   NLS Pharmaceutics and Kadimastem announced the completion of material conditions precedent for their merger transaction.
-    *   Trading in Kadimastem's ordinary shares on the Tel Aviv Stock Exchange will be suspended, with final delisting scheduled for October 31, 2025.
-*   **Other Key Developments:**
-    *   ING completes share buyback and announces a new distribution program.
-    *   Electrolux Group reported its Q3 2025 results with organic sales growth driven by North America.
-    *   Align Technology announced its Q3 2025 financial results.
+    </div>
 
-I have focused on extracting information relevant to capital markets and significant financial events.
-                    <p class="text-gray-400">Loading market news...</p>
-                </div>
-            </div>
-
-            <!-- AI Analysis Tool Column -->
-            <div class="lg:col-span-1 bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-2xl border border-white/20 h-fit lg:sticky lg:top-8 animate-fade-in" style="animation-delay: 0.2s;">
-                <h2 class="text-2xl font-bold mb-4 pb-3 border-b border-white/20 text-indigo-300">🎯 Stock Setup Analysis</h2>
-                <p class="text-sm text-gray-300 mb-4">Enter a stock ticker and select a strategy to get AI-powered analysis.</p>
-
-                <form id="setup-form" class="space-y-4">
-                    <div>
-                        <label for="ticker-input" class="block text-sm font-medium text-gray-300 mb-1">Stock Ticker</label>
-                        <input type="text" id="ticker-input" name="ticker"
-                               class="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                               placeholder="e.g., AAPL, GOOGL" required>
-                    </div>
-
-                    <div>
-                        <label for="strategy-select" class="block text-sm font-medium text-gray-300 mb-1">Strategy Type</label>
-                        <select id="strategy-select" name="strategy"
-                                class="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                            <option>Swing Trading</option>
-                            <option>Day Trading</option>
-                            <option>Long-term Investment</option>
-                            <option>Fundamental Analysis</option>
-                            <option>Technical Analysis</option>
-                        </select>
-                    </div>
-
-                    <button type="submit" id="setup-button"
-                            class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 ease-in-out flex items-center justify-center">
-                        <span id="button-text">✨ Generate Analysis</span>
-                        <div id="button-loader" class="spinner w-5 h-5 border-2 border-white border-t-transparent rounded-full ml-2 hidden"></div>
-                    </button>
-                </form>
-
-                <!-- Analysis Results -->
-                <div class="mt-6">
-                    <h3 class="text-lg font-semibold text-gray-200 mb-2">Analysis Result:</h3>
-                    <div id="setup-loader" class="flex flex-col items-center justify-center min-h-[100px] hidden">
-                        <div class="spinner w-8 h-8 border-4 border-blue-400 border-t-transparent rounded-full"></div>
-                        <p class="mt-2 text-gray-300">Analyzing...</p>
-                    </div>
-
-                    <div id="setup-result" class="prose prose-invert max-w-none bg-white/5 p-4 rounded-lg min-h-[100px] text-sm text-gray-300">
-                        <p class="text-gray-400">The analysis will appear here after running.</p>
-                    </div>
-                    <div id="setup-error" class="hidden text-red-400 bg-red-900/30 p-4 rounded-lg mt-4"></div>
-                </div>
-            </div>
-
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
         </main>
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on <span id="timestamp">Loading...</span></p>
+            <p>Generated on October 30, 2025 at 12:22 PM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
-
-    <script>
-        // API Settings - Will be injected by GitHub Actions
-        const API_KEY = "PLACEHOLDER_API_KEY";
-        const API_MODEL = "gemini-2.0-flash-exp";
-        const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${API_MODEL}:generateContent?key=${API_KEY}`;
-
-        const setupForm = document.getElementById('setup-form');
-        const setupButton = document.getElementById('setup-button');
-        const buttonText = document.getElementById('button-text');
-        const buttonLoader = document.getElementById('button-loader');
-        const setupLoader = document.getElementById('setup-loader');
-        const setupResult = document.getElementById('setup-result');
-        const setupError = document.getElementById('setup-error');
-        const tickerInput = document.getElementById('ticker-input');
-        const strategySelect = document.getElementById('strategy-select');
-
-        // Call Gemini API
-        async function callGemini(payload) {
-            let retries = 3;
-            let delay = 1000;
-
-            while (retries > 0) {
-                try {
-                    const response = await fetch(API_URL, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-
-                    if (!response.ok) {
-                        throw new Error(`API error: ${response.status}`);
-                    }
-
-                    const result = await response.json();
-                    if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-                        return result.candidates[0].content.parts[0].text;
-                    }
-                    throw new Error("Invalid API response");
-                } catch (error) {
-                    retries--;
-                    if (retries === 0) throw error;
-                    await new Promise(resolve => setTimeout(resolve, delay));
-                    delay *= 2;
-                }
-            }
-        }
-
-        // Parse Markdown to HTML
-        function parseMarkdown(text) {
-            if (!text) return "";
-            return text
-                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                .replace(/^## (.*$)/gm, '<h2 class="text-xl font-bold mt-3 mb-2 text-blue-300">$1</h2>')
-                .replace(/^### (.*$)/gm, '<h3 class="text-lg font-semibold mt-2 mb-1 text-indigo-300">$1</h3>')
-                .replace(/^\* (.*$)/gm, '<li>$1</li>')
-                .replace(/((<li>.*<\/li>)+)/g, '<ul class="list-disc list-inside pl-4 my-2">$1</ul>')
-                .replace(/\n/g, '<br>');
-        }
-
-        // Handle stock analysis form submission
-        async function generateStockSetup(event) {
-            event.preventDefault();
-
-            const ticker = tickerInput.value.trim().toUpperCase();
-            const strategy = strategySelect.value;
-
-            if (!ticker) {
-                setupError.textContent = "Please enter a stock ticker.";
-                setupError.classList.remove('hidden');
-                return;
-            }
-
-            // Check if API key is set
-            if (!API_KEY || API_KEY === "PLACEHOLDER_API_KEY") {
-                setupError.innerHTML = '<p class="font-semibold">⚠️ API Key Required</p><p class="mt-2">The analysis tool requires a Gemini API key. Please contact the administrator.</p>';
-                setupError.classList.remove('hidden');
-                return;
-            }
-
-            setupLoader.classList.remove('hidden');
-            setupResult.classList.add('hidden');
-            setupError.classList.add('hidden');
-            setupButton.disabled = true;
-            buttonText.classList.add('hidden');
-            buttonLoader.classList.remove('hidden');
-
-            const systemPrompt = "You are an expert stock analyst. Generate a brief setup for the stock based on the strategy. Explain entry points, targets, stop-loss, and rationale. Use Markdown format.";
-            const userQuery = `Perform a setup analysis for ticker: ${ticker}, based on strategy: ${strategy}.`;
-
-            const payload = {
-                contents: [{ parts: [{ text: userQuery }] }],
-                systemInstruction: { parts: [{ text: systemPrompt }] }
-            };
-
-            try {
-                const responseText = await callGemini(payload);
-                setupResult.innerHTML = parseMarkdown(responseText);
-                setupResult.classList.remove('hidden');
-            } catch (error) {
-                console.error("Error:", error);
-                setupError.textContent = `Error: ${error.message}. Please try again.`;
-                setupError.classList.remove('hidden');
-                setupResult.innerHTML = '<p class="text-gray-400">The analysis will appear here after running.</p>';
-                setupResult.classList.remove('hidden');
-            } finally {
-                setupLoader.classList.add('hidden');
-                setupButton.disabled = false;
-                buttonText.classList.remove('hidden');
-                buttonLoader.classList.add('hidden');
-            }
-        }
-
-        setupForm.addEventListener('submit', generateStockSetup);
-
-        // Set timestamp
-        document.getElementById('timestamp').textContent = new Date().toLocaleString('en-US', {
-            month: 'long',
-            day: 'numeric',
-            year: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-    </script>
 </body>
 </html>
