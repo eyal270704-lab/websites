@@ -33,83 +33,73 @@
 
         <!-- Generated Content -->
         <main class="animate-fade-in">
-            Okay, I will provide a summary of the most important capital market news from the last 24 hours, focusing on major headlines, notable stocks, and market trends, in a bulleted Markdown list, using real-time information from November 3, 2025. I will also tailor the response to include both global and Israeli capital market news.
+            Okay, I will summarize the most important capital market news from the last 24 hours, focusing on major headlines, notable stocks, and market trends, presented as a bullet point list in Markdown format, using real-time information from November 3, 2025. I will use Tailwind CSS classes for styling, aiming for a modern, responsive design with blue/teal/purple gradient themes.
 
 ```html
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto py-8">
 
-  <!-- Global Market News -->
-  <div class="bg-gradient-to-br from-blue-100 to-teal-100 rounded-lg shadow-md p-6 mb-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Global Capital Market News</h2>
-    <ul>
-      <li>
-        <span class="font-bold">US Stock Futures Rise:</span> Anticipation builds ahead of earnings reports from AI-focused companies like AMD and Palantir. Nasdaq 100, S&P 500, and Dow Jones Industrial Average futures are up.
-      </li>
-      <li>
-        <span class="font-bold">Asia-Pacific Markets Mixed:</span> Following positive sentiment from recent discussions between President Trump and Chinese President Xi Jinping, Hong Kong's Hang Seng index advanced. Japan's markets remained closed for a public holiday.
-      </li>
-      <li>
-        <span class="font-bold">European Markets Open Higher:</span> Stocks in Europe started the week with gains amid corporate earnings and central bank policy updates. Germany's DAX and France's CAC 40 both saw increases.
-      </li>
-      <li>
-        <span class="font-bold">OPEC+ Production Freeze:</span> Crude oil prices experienced volatility following OPEC+'s decision to halt planned production increases into early 2026.
-      </li>
-      <li>
-        <span class="font-bold">Bank of England Rate Decision:</span> The Bank of England is expected to hold its policy rate, pausing the series of rate cuts.
-      </li>
-      <li>
-        <span class="font-bold">Key Earnings Reports to Watch:</span> Investors are closely monitoring earnings from companies like Palantir, Uber, and Qualcomm.
-      </li>
-    </ul>
-  </div>
+    <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Capital Market News - November 3, 2025</h1>
+        <p class="text-gray-600 dark:text-gray-400">Summary of the latest global and Israeli market updates</p>
+    </div>
 
-  <!-- Israeli Market News -->
-  <div class="bg-gradient-to-br from-teal-100 to-purple-100 rounded-lg shadow-md p-6 mb-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Israeli Capital Market News</h2>
-    <ul>
-      <li>
-        <span class="font-bold">TASE Performance:</span> The Tel Aviv Stock Exchange (TASE) has shown resilience, with the TA-125 index significantly outpacing major international indices since October 2023.
-      </li>
-      <li>
-        <span class="font-bold">Shekel Appreciation:</span> The shekel has appreciated against global currencies, reflecting the underlying strength of the Israeli economy.
-      </li>
-      <li>
-        <span class="font-bold">Migdal Insurance Catastrophe Bond:</span> Migdal Insurance is sponsoring a $100 million Turris Re Israel earthquake catastrophe bond.
-      </li>
-      <li>
-        <span class="font-bold">Valens Semiconductor Appoints New CEO:</span> Yoram Salinger has been appointed as the new CEO of Valens Semiconductor, succeeding Gideon Ben-Zvi.
-      </li>
-      <li>
-        <span class="font-bold">El Al Investigation:</span> Israel Police have opened an investigation and searched the workers' committee offices of El Al, with no suspicions towards the company itself.
-      </li>
-    </ul>
-  </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-  <!-- Indian Market News -->
-  <div class="bg-gradient-to-br from-purple-100 to-blue-100 rounded-lg shadow-md p-6 mb-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Indian Capital Market News</h2>
-    <ul>
-      <li>
-        <span class="font-bold">Sensex and Nifty End Flat:</span> Indian equity markets snapped a two-day losing streak, led by gains in realty and state-owned bank stocks. The Sensex ended slightly higher.
-      </li>
-      <li>
-        <span class="font-bold">Top Gainers and Laggards:</span> M&M, Tata Motors, SBI, and Bharti Airtel were among the top gainers, while Maruti Suzuki, ITC, L&T, and TCS were among the major laggards.
-      </li>
-      <li>
-        <span class="font-bold">Sectoral Performance:</span> Nifty Realty was the top gainer, followed by PSU Bank and Pharma. Nifty Consumer Durables was the biggest loser.
-      </li>
-      <li>
-        <span class="font-bold">FII and DII Activity:</span> Foreign Institutional Investors offloaded equities, while Domestic Institutional Investors bought stocks.
-      </li>
-    </ul>
-  </div>
+        <!-- Global Market Headlines -->
+        <div class="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg shadow-md p-6 text-white">
+            <h2 class="text-xl font-semibold mb-4">Global Market Headlines</h2>
+            <ul class="list-disc list-inside">
+                <li>World shares advanced, led by tech stocks, following gains on Wall Street; South Korea's Kospi jumped 2.8%.</li>
+                <li>US futures showed mixed performance; crude oil prices climbed after OPEC+ agreed to halt production increases for early 2026.</li>
+                <li>Major stock indexes in the US were poised to open higher, driven by upcoming earnings reports from tech and pharmaceutical companies.</li>
+                <li>AI investment remained a dominant theme, with megacaps like Meta, Amazon, Microsoft, and Alphabet increasing capital spending plans.</li>
+                <li>Nvidia became the first company to reach a $5 trillion market capitalization.</li>
+            </ul>
+        </div>
 
+        <!-- Notable Stocks -->
+        <div class="bg-gradient-to-br from-teal-400 to-blue-500 rounded-lg shadow-md p-6 text-white">
+            <h2 class="text-xl font-semibold mb-4">Notable Stocks</h2>
+            <ul class="list-disc list-inside">
+                <li>Amazon led the US stock market higher, gaining 9.6% after reporting strong profits, and signed a $38 billion cloud computing deal with OpenAI.</li>
+                <li>Kimberly-Clark agreed to acquire Kenvue for over $40 billion; Kenvue shares jumped 16%, while Kimberly-Clark dropped about 13%.</li>
+                <li>Microsoft shares rose following a $10 billion cloud computing deal with IREN, whose shares skyrocketed about 40%.</li>
+                <li>ASM Technologies surged 4.99% in the Indian market, driven by strong investor sentiment in IT engineering and semiconductor design.</li>
+                <li>SK Hynix's shares soared 11% due to teaming up with Nvidia to develop AI infrastructure in South Korea.</li>
+            </ul>
+        </div>
+
+        <!-- Market Trends -->
+        <div class="bg-gradient-to-br from-purple-400 to-teal-500 rounded-lg shadow-md p-6 text-white">
+            <h2 class="text-xl font-semibold mb-4">Market Trends</h2>
+            <ul class="list-disc list-inside">
+                <li>A narrow stock market rally was driven by the data center boom, with AI investment as the dominant theme.</li>
+                <li>The Indian technology and industrial manufacturing sector witnessed mixed trading, with automation stocks leading gains.</li>
+                <li>Global equities rallied on optimism over a US-China trade framework and upbeat tech earnings.</li>
+                <li>Investors are closely watching US ISM survey data to assess potential Fed interest rate cuts in December.</li>
+                <li>Increased demand for home buyers embracing adjustable-rate mortgages.</li>
+            </ul>
+        </div>
+
+         <!-- Israeli Capital Market News -->
+        <div class="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg shadow-md p-6 text-white">
+            <h2 class="text-xl font-semibold mb-4">Israeli Capital Market News</h2>
+            <ul class="list-disc list-inside">
+                <li>The Tel Aviv Stock Exchange (TASE) announces the commencement of market making in Bank Leumi Equity options.</li>
+                <li>The TA-125 index rose by roughly 81% between October 2023 and October 2025, outpacing major international indices.</li>
+                <li>The shekel has appreciated significantly against global currencies, strengthening by 9.3% against the U.S. dollar in the second quarter of 2025.</li>
+                <li>Migdal Insurance Company Ltd. is sponsoring a $100m Turris Re Israel earthquake cat bond.</li>
+                <li>The Israeli economy has demonstrated remarkable resilience, despite wartime pressure.</li>
+            </ul>
+        </div>
+
+    </div>
 </div>
         </main>
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on November 03, 2025 at 12:23 PM</p>
+            <p>Generated on November 03, 2025 at 04:27 PM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
