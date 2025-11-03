@@ -35,388 +35,489 @@
         <main class="animate-fade-in">
             <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily News Hub - NBA Edition</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<body class="bg-gradient-to-r from-blue-100 to-teal-100 font-sans antialiased">
 
-<body class="bg-gray-100 font-sans">
-
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-400 to-teal-500 text-white py-4 shadow-md">
-        <div class="container mx-auto px-4">
-            <h1 class="text-2xl font-semibold">NBA Daily News - November 02, 2025</h1>
-            <p class="text-sm">Scores, Highlights, and Israeli Player Updates</p>
+    <header class="py-6 px-4 md:px-8 lg:px-12 xl:px-20">
+        <div class="container mx-auto">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2">NBA Daily News - November 03, 2025</h1>
+            <p class="text-gray-600">Your daily dose of NBA action. Today's games: <span class="font-semibold">9 Scheduled Games</span></p>
         </div>
     </header>
 
-    <!-- Breaking News Banner -->
-    <div class="bg-red-600 text-white text-center py-2" role="alert">
-        <p class="font-bold">Breaking: Atlanta Hawks guard Trae Young sidelined for four weeks with a knee sprain!</p>
+    <!-- Breaking News Alert -->
+    <div class="bg-red-600 text-white py-3 px-4 md:px-8 lg:px-12 xl:px-20">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <p><span class="font-semibold">Breaking:</span> Lakers beat Heat 130-120 behind Doncic's triple-double. LeBron James eyeing mid-November return.</p>
+                <button class="text-sm">Dismiss</button>
+            </div>
+        </div>
     </div>
 
     <!-- Game Cards Grid -->
-    <section class="container mx-auto mt-6 px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Today's Games & Results</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <section class="py-8 px-4 md:px-8 lg:px-12 xl:px-20">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Today's Games</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <!-- Example Completed Game Card -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Minnesota Timberwolves vs Charlotte Hornets</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-200 text-green-800">
-                        FINAL
-                    </span>
+                <!-- Game Card Template (Repeat for each game) -->
+                <!-- UPCOMING GAME -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Milwaukee Bucks vs Indiana Pacers</h3>
+                        <p class="text-gray-600">7:00 PM EST - Gainbridge Fieldhouse, Indianapolis, IN</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: Antetokounmpo vs. Siakam</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Score:</strong> Timberwolves 122 - Hornets 105</p>
-                    <p class="text-gray-600"><strong>Top Performer:</strong> Julius Randle (Timberwolves) - 30 points</p>
-                    <p class="text-gray-600"><strong>Key Stats:</strong> Randle's 30 points led the Timberwolves to a dominant second-half performance.</p>
-                </div>
-            </div>
 
-            <!-- Example Completed Game Card -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Detroit Pistons vs Dallas Mavericks</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-200 text-green-800">
-                        FINAL
-                    </span>
+                <!-- FINAL GAME (Example) -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Los Angeles Lakers vs Miami Heat</h3>
+                        <p class="text-gray-600">Final Score: Lakers 130 - Heat 120</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-green-500 text-white rounded-full px-3 py-1 text-sm font-semibold">FINAL</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Game Summary</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <h4 class="text-md font-semibold text-gray-700">Top Performers</h4>
+                        <p class="text-sm text-gray-500">Luka Doncic: 29 points, 11 rebounds, 10 assists</p>
+                        <p class="text-sm text-gray-500">Jamie Jaquez Jr.: 31 points</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Score:</strong> Pistons 122 - Mavericks 110</p>
-                    <p class="text-gray-600"><strong>Top Performer:</strong> Jalen Duren (Pistons) - 33 points, 10 rebounds</p>
-                    <p class="text-gray-600"><strong>Key Stats:</strong> Duren's career night propelled the Pistons to victory in Mexico City.</p>
-                </div>
-            </div>
 
-            <!-- Example Upcoming Game Card -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">New Orleans Pelicans vs Oklahoma City Thunder</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
+               <!-- UPCOMING GAME -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Minnesota Timberwolves vs Brooklyn Nets</h3>
+                        <p class="text-gray-600">7:00 PM EST - Barclays Center, Brooklyn, NY</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: Randle vs. Thomas</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> 2:30 PM CT</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> The undefeated Thunder host the struggling Pelicans. Will the Pelicans finally get their first win?</p>
-                    <p class="text-gray-600"><strong>Injury Report:</strong> Kevon Looney (Pelicans) is questionable with a left knee sprain. Chet Holmgren (Thunder) is out with lower back soreness.</p>
+
+               <!-- UPCOMING GAME -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Miami Heat at Los Angeles Clippers</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Scheduled Games Cards -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Atlanta Hawks vs Cleveland Cavaliers</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
+
+               <!-- UPCOMING GAME -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Atlanta Hawks at Cleveland Cavaliers</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Hawks vs Cavs preview.</p>
+
+                <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Chicago Bulls at New York Knicks</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Memphis Grizzlies vs Toronto Raptors</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
+
+                <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Memphis Grizzlies at Toronto Raptors</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Grizzlies vs Raptors preview.</p>
+
+                 <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">San Antonio Spurs at Phoenix Suns</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Philadelphia Sixers vs Brooklyn Nets</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
+
+                 <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Utah Jazz at Charlotte Hornets</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Sixers vs Nets preview.</p>
+
+                 <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Philadelphia 76ers at Brooklyn Nets</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Utah Jazz vs Charlotte Hornets</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Jazz vs Hornets preview.</p>
-                </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Chicago Bulls vs New York Knicks</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Bulls vs Knicks preview.</p>
-                </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">San Antonio Spurs vs Phoenix Suns</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Spurs vs Suns preview.</p>
-                </div>
-            </div>
-            
-             <!-- Scheduled Games Cards -->
-             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Miami Heat vs Los Angeles Lakers</h3>
-                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-400 text-gray-700">
-                        UPCOMING
-                    </span>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600"><strong>Time:</strong> TBD</p>
-                    <p class="text-gray-600"><strong>Matchup Preview:</strong> Heat vs Lakers preview.</p>
+
+                <!-- UPCOMING GAME -->
+                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">New Orleans Pelicans at Oklahoma City Thunder</h3>
+                        <p class="text-gray-600">TBD</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <span class="bg-gray-300 text-gray-700 rounded-full px-3 py-1 text-sm font-semibold">UPCOMING</span>
+                            <a href="#" class="text-blue-500 hover:text-blue-700">Preview</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 mt-auto">
+                        <p class="text-sm text-gray-500">Key Matchup: TBD</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Israeli Players Section -->
-    <section class="container mx-auto mt-8 px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">🇮🇱 Israeli Players in the NBA</h2>
+    <section class="py-8 px-4 md:px-8 lg:px-12 xl:px-20 bg-gradient-to-r from-purple-200 to-blue-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Israeli Players in the NBA 🇮🇱</h2>
 
-        <!-- Deni Avdija Card -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-            <div class="px-4 py-3 bg-gradient-to-r from-blue-300 to-teal-300 border-b border-gray-200">
-                <h3 class="text-lg font-semibold text-gray-800">Deni Avdija (Portland Trail Blazers)</h3>
-            </div>
-            <div class="p-4">
-                <p class="text-gray-600"><strong>Season Stats:</strong></p>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>Games Played: 6</li>
-                    <li>PPG: 22.7</li>
-                    <li>RPG: 6.0</li>
-                    <li>APG: 4.2</li>
-                    <li>FG%: 48.9%</li>
-                </ul>
-                <p class="text-gray-600 mt-2"><strong>Recent Game Performance:</strong> Scored 23 points in Friday's win over the Nuggets.</p>
-                <p class="text-gray-600"><strong>Injury Status:</strong> No current injuries reported.</p>
-                <p class="text-gray-600 mt-2"><strong>Career Highlights:</strong> Traded to the Portland Trail Blazers in July 2024, showcasing dynamic playmaking and scoring abilities.</p>
-            </div>
-        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        <!-- Ben Saraf Card -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-            <div class="px-4 py-3 bg-gradient-to-r from-blue-300 to-teal-300 border-b border-gray-200">
-                <h3 class="text-lg font-semibold text-gray-800">Ben Saraf (Brooklyn Nets)</h3>
-            </div>
-            <div class="p-4">
-                <p class="text-gray-600"><strong>Season Stats:</strong></p>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>Games Played: 5</li>
-                    <li>PPG: 3.2</li>
-                    <li>RPG: 2.2</li>
-                    <li>APG: 3.2</li>
-                    <li>FG%: N/A</li>
-                </ul>
-                 <p class="text-gray-600 mt-2"><strong>Recent Game Performance:</strong> Saraf was not able to score (0-4 FG, 0-2 3Pt) in Sunday's 118-107 loss to San Antonio but added five assists, a rebound and a steal across 15 minutes.</p>
-                <p class="text-gray-600"><strong>Injury Status:</strong> No current injuries reported.</p>
-                <p class="text-gray-600 mt-2"><strong>Career Highlights:</strong> Drafted by the Brooklyn Nets in 2025 (Round 1, Pick 26), known for playmaking and passing skills.</p>
-            </div>
-        </div>
+                <!-- Deni Avdija -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Deni Avdija</h3>
+                        <p class="text-gray-600">Portland Trail Blazers</p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Deni_Avdija_%28cropped%29.jpg/330px-Deni_Avdija_%28cropped%29.jpg" alt="Deni Avdija" class="mt-2 rounded-md">
+                        <p class="text-gray-700 mt-3">
+                            Deni Avdija is an Israeli professional basketball player for the Portland Trail Blazers of the National Basketball Association (NBA). He plays the power forward position.
+                        </p>
+                    </div>
+                    <div class="bg-gray-100 p-4">
+                        <h4 class="text-md font-semibold text-gray-700">Season Stats</h4>
+                        <p class="text-sm text-gray-500">Games Played: 6</p>
+                        <p class="text-sm text-gray-500">PPG: 22.7</p>
+                        <p class="text-sm text-gray-500">RPG: 6.0</p>
+                        <p class="text-sm text-gray-500">APG: 4.2</p>
+                        <p class="text-sm text-gray-500">FG%: 46.3%</p>
+                        <p class="text-sm text-gray-500">FG3%: 33.9%</p>
+                    </div>
+                    <div class="p-4">
+                         <h4 class="text-md font-semibold text-gray-700">Recent Game Performance</h4>
+                         <p class="text-sm text-gray-500">October 31, 2025: 23 points, 4 rebounds, 4 assists vs. Denver Nuggets</p>
+                         <p class="text-sm text-gray-500">Next Game: November 3rd vs LAL</p>
+                     </div>
+                </div>
 
-        <!-- Danny Wolf Card -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-            <div class="px-4 py-3 bg-gradient-to-r from-blue-300 to-teal-300 border-b border-gray-200">
-                <h3 class="text-lg font-semibold text-gray-800">Danny Wolf (Brooklyn Nets)</h3>
-            </div>
-            <div class="p-4">
-                <p class="text-gray-600"><strong>Season Stats (NBA):</strong></p>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>Games Played: 0</li>
-                    <li>PPG: N/A</li>
-                    <li>RPG: N/A</li>
-                    <li>APG: N/A</li>
-                    <li>FG%: N/A</li>
-                </ul>
-                <p class="text-gray-600"><strong>Recent Game Performance:</strong> Assigned to G League's Long Island Nets on October 30, 2025.</p>
-                <p class="text-gray-600"><strong>Injury Status:</strong> Left ankle sprain, Expected Return: Nov 2</p>
-                <p class="text-gray-600 mt-2"><strong>Career Highlights:</strong> Drafted by the Brooklyn Nets in 2025 (Round 1, Pick 27), showcasing a unique combination of size and playmaking ability.</p>
-                <p class="text-gray-600 mt-2"><strong>College Stats (Michigan):</strong></p>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>PPG: 13.2</li>
-                    <li>RPG: 9.7</li>
-                    <li>APG: 3.6</li>
-                    <li>FG%: 49.7%</li>
-                    <li>3P%: 33.6%</li>
-                    <li>FT%: 59.4%</li>
-                </ul>
-            </div>
-        </div>
+                <!-- Ben Saraf -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Ben Saraf</h3>
+                        <p class="text-gray-600">Brooklyn Nets</p>
+                         <img src="https://www.euroleaguebasketball.net/rs/841de1c6429d42a9f8aa82d53915bb23/b3c2d34b49f2b733369c8a390405f56c/w344h344/image.jpeg" alt="Ben Saraf" class="mt-2 rounded-md">
+                        <p class="text-gray-700 mt-3">
+                            Ben Saraf is an Israeli basketball player drafted by the Brooklyn Nets.
+                        </p>
+                    </div>
+                     <div class="bg-gray-100 p-4">
+                        <h4 class="text-md font-semibold text-gray-700">Season Stats</h4>
+                        <p class="text-sm text-gray-500">Games Played: 5</p>
+                        <p class="text-sm text-gray-500">PPG: 3.2</p>
+                        <p class="text-sm text-gray-500">RPG: 2.2</p>
+                        <p class="text-sm text-gray-500">APG: 3.2</p>
+                        <p class="text-sm text-gray-500">FG%: TBD</p>
+                        <p class="text-sm text-gray-500">FG3%: TBD</p>
+                    </div>
+                    <div class="p-4">
+                         <h4 class="text-md font-semibold text-gray-700">Recent Game Performance</h4>
+                         <p class="text-sm text-gray-500">October 29, 2025: 0 points, 2 rebounds, 1 assist vs Atlanta Hawks</p>
+                         <p class="text-sm text-gray-500">Demoted from starting unit.  Competing for backup minutes.</p>
+                     </div>
+                </div>
 
-        <!-- Historic Milestone Box -->
-        <div class="bg-purple-100 rounded-lg p-4 border border-purple-300">
-            <h4 class="text-md font-semibold text-purple-700">Historical Context</h4>
-            <p class="text-sm text-purple-600">Having multiple Israeli players in the NBA simultaneously marks a significant milestone, highlighting the growing influence of Israeli basketball on the global stage. Deni Avdija is the highest-paid Israeli athlete, earning around $10 million this year.</p>
+                <!-- Danny Wolf -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Danny Wolf</h3>
+                        <p class="text-gray-600">Brooklyn Nets</p>
+                        <img src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0313%2Fr1292788_1296x729_16%2D9.jpg" alt="Danny Wolf" class="mt-2 rounded-md">
+                        <p class="text-gray-700 mt-3">
+                            Danny Wolf is an Israeli-American basketball player drafted by the Brooklyn Nets.
+                        </p>
+                    </div>
+                     <div class="bg-gray-100 p-4">
+                        <h4 class="text-md font-semibold text-gray-700">Season Stats</h4>
+                        <p class="text-sm text-gray-500">Games Played: 0</p>
+                        <p class="text-sm text-gray-500">PPG: N/A</p>
+                        <p class="text-sm text-gray-500">RPG: N/A</p>
+                        <p class="text-sm text-gray-500">APG: N/A</p>
+                        <p class="text-sm text-gray-500">FG%: TBD</p>
+                        <p class="text-sm text-gray-500">FG3%: TBD</p>
+                    </div>
+                     <div class="p-4">
+                         <h4 class="text-md font-semibold text-gray-700">Recent Game Performance</h4>
+                         <p class="text-sm text-gray-500">October 30, 2025: Assigned to G League's Long Island Nets.</p>
+                         <p class="text-sm text-gray-500">Previously (G League):  8 points, 10 rebounds, 2 assists, 3 steals and 4 blocks</p>
+                         <p class="text-sm text-gray-500">Out with an ankle injury; expected to be out until at least Nov 3.</p>
+                     </div>
+                </div>
+            </div>
+
+            <!-- Historic Milestone Box -->
+            <div class="bg-blue-100 rounded-lg p-4 mt-6">
+                <h4 class="text-lg font-semibold text-blue-800">Historic Milestone</h4>
+                <p class="text-blue-600">The 2025-26 NBA season marks the first time in NBA history that two Israeli players have been drafted by the same team in the same round (Ben Saraf and Danny Wolf - Brooklyn Nets).</p>
+            </div>
+
         </div>
     </section>
 
     <!-- Early Season Standings -->
-    <section class="container mx-auto mt-8 px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Early Season Standings</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <!-- Eastern Conference Standings -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Eastern Conference - Atlantic Division</h3>
-                </div>
-                <div class="p-4">
-                    <table class="table-auto w-full">
-                        <thead>
-                            <tr class="text-left">
-                                <th class="px-4 py-2">Team</th>
-                                <th class="px-4 py-2">W</th>
-                                <th class="px-4 py-2">L</th>
-                                <th class="px-4 py-2">Pct</th>
-                                <th class="px-4 py-2">GB</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="border px-4 py-2">Philadelphia</td>
-                                <td class="border px-4 py-2">4</td>
-                                <td class="border px-4 py-2">1</td>
-                                <td class="border px-4 py-2">.800</td>
-                                <td class="border px-4 py-2">—</td>
-                            </tr>
-                            <tr>
-                                <td class="border px-4 py-2">Boston</td>
-                                <td class="border px-4 py-2">3</td>
-                                <td class="border px-4 py-2">3</td>
-                                <td class="border px-4 py-2">.500</td>
-                                <td class="border px-4 py-2">1</td>
-                            </tr>
-                            <tr>
-                                <td class="border px-4 py-2">New York</td>
-                                <td class="border px-4 py-2">2</td>
-                                <td class="border px-4 py-2">3</td>
-                                <td class="border px-4 py-2">.400</td>
-                                <td class="border px-4 py-2">2</td>
-                            </tr>
-                             <tr>
-                                <td class="border px-4 py-2">Toronto</td>
-                                <td class="border px-4 py-2">2</td>
-                                <td class="border px-4 py-2">4</td>
-                                <td class="border px-4 py-2">.333</td>
-                                <td class="border px-4 py-2">2</td>
-                            </tr>
-                            <tr>
-                                <td class="border px-4 py-2">Brooklyn</td>
-                                <td class="border px-4 py-2">0</td>
-                                <td class="border px-4 py-2">5</td>
-                                <td class="border px-4 py-2">.000</td>
-                                <td class="border px-4 py-2">...</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- Western Conference Standings -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Western Conference Leaders</h3>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-700">1. Golden State Warriors (1-0)</p>
-                    <p class="text-gray-700">2. Oklahoma City Thunder (1-0)</p>
-                    <p class="text-gray-700">3. Houston Rockets (0-0)</p>
-                    <p class="text-gray-700">4. Los Angeles Lakers (0-0)</p>
-                    <p class="text-gray-700">5. Mavericks (0-0)</p>
-                </div>
+    <section class="py-8 px-4 md:px-8 lg:px-12 xl:px-20">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Early Season Standings</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full leading-normal">
+                    <thead>
+                        <tr>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Conference
+                            </th>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Team
+                            </th>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Record
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Western
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Oklahoma City Thunder
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                6-0
+                            </td>
+                        </tr>
+                         <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Western
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                San Antonio Spurs
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                5-0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Eastern
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Chicago Bulls
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                5-0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Eastern
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Philadelphia 76ers
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                4-1
+                            </td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
     <!-- Top Performances and Highlights -->
-    <section class="container mx-auto mt-8 px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Top Performances & Highlights</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Jalen Duren's Career Night</h3>
+    <section class="py-8 px-4 md:px-8 lg:px-12 xl:px-20 bg-gradient-to-r from-teal-200 to-purple-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Top Performances and Highlights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Luka Doncic's Triple-Double</h3>
+                    <p class="text-gray-600">Doncic led the Lakers to victory with 29 points, 11 rebounds, and 10 assists.</p>
                 </div>
-                <div class="p-4">
-                    <p class="text-gray-600">Jalen Duren scored a career-best 33 points and grabbed 10 rebounds, leading the Detroit Pistons to a 122-110 victory over the Dallas Mavericks in Mexico City.</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-4 py-3 bg-gray-100 border-b border-gray-200">
-                    <h3 class="text-lg font-semibold text-gray-800">Julius Randle Dominates</h3>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600">Julius Randle scored 30 points as the Minnesota Timberwolves defeated the Charlotte Hornets 122-105.</p>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Pascal Siakam's Game-Winning Shot</h3>
+                    <p class="text-gray-600">Siakam hit a clutch three-pointer in the final seconds to secure a win for the Pacers.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Injury Report -->
-    <section class="container mx-auto mt-8 px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Injury Report</h2>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden p-4">
-            <ul class="list-disc list-inside text-gray-700">
-                <li>Anthony Davis (Mavericks): Left leg soreness.</li>
-                <li>Kyrie Irving (Mavericks): Torn left ACL, Expected out until at least January.</li>
-                <li>Chet Holmgren (Thunder): Lower back soreness, will miss the game against the Pelicans.</li>
-                <li>Trae Young (Hawks): Sprained right knee ligament, sidelined for four weeks.</li>
-                <li>Danny Wolf (Nets): Left ankle sprain, Expected Return: Nov 2</li>
-            </ul>
+    <section class="py-8 px-4 md:px-8 lg:px-12 xl:px-20">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Injury Report</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full leading-normal">
+                    <thead>
+                        <tr>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Player
+                            </th>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Team
+                            </th>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Injury
+                            </th>
+                            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                Status
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                LeBron James
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Los Angeles Lakers
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Sciatica
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Eyeing Mid-November Return
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Tyrese Haliburton
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Indiana Pacers
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Ruptured Achilles
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Out For Season
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Danny Wolf
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Brooklyn Nets
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Ankle
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Expected to be out until at least Nov 3.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Brandon Miller
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Charlotte Hornets
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Shoulder
+                            </td>
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                Game Time Decision
+                            </td>
+                        </tr>
+                        <!-- More rows here -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gradient-to-r from-blue-400 to-teal-500 text-white py-4 mt-8 shadow-md">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2025 Daily News Hub. All rights reserved.</p>
-        </div>
+    <footer class="py-4 text-center text-gray-600">
+        <p>&copy; 2025 Daily News Hub - NBA Edition</p>
     </footer>
 
 </body>
-
 </html>
         </main>
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on November 02, 2025 at 08:15 AM</p>
+            <p>Generated on November 03, 2025 at 08:20 AM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
