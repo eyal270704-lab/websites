@@ -215,6 +215,71 @@ def generate_content_with_gemini(prompt, api_key):
         return None
 
 
+def markdown_to_html(text):
+    """
+    Convert markdown text to HTML.
+
+    Args:
+        text: Markdown formatted text
+
+    Returns:
+        str: HTML formatted text
+    """
+    if not text:
+        return ""
+
+    html = text
+
+    # Convert headers
+    html = html.replace('### ', '<h3 class="text-xl font-semibold text-blue-300 mt-4 mb-2">')
+    html = html.replace('## ', '<h2 class="text-2xl font-bold text-blue-300 mt-6 mb-3">')
+    html = html.replace('# ', '<h1 class="text-3xl font-bold text-blue-300 mt-8 mb-4">')
+
+    # Close headers (simple approach - add closing tag at end of line)
+    lines = []
+    for line in html.split('\n'):
+        if line.startswith('<h1') and '</h1>' not in line:
+            line = line + '</h1>'
+        elif line.startswith('<h2') and '</h2>' not in line:
+            line = line + '</h2>'
+        elif line.startswith('<h3') and '</h3>' not in line:
+            line = line + '</h3>'
+        lines.append(line)
+    html = '\n'.join(lines)
+
+    # Convert bold text
+    import re
+    html = re.sub(r'\*\*(.+?)\*\*', r'<strong class="font-semibold text-white">\1</strong>', html)
+
+    # Convert bullet points to list items
+    lines = html.split('\n')
+    in_list = False
+    formatted_lines = []
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('* ') or stripped.startswith('- '):
+            if not in_list:
+                formatted_lines.append('<ul class="list-disc list-inside space-y-2 ml-4 my-3">')
+                in_list = True
+            item_text = stripped[2:]  # Remove '* ' or '- '
+            formatted_lines.append(f'<li class="text-gray-200">{item_text}</li>')
+        else:
+            if in_list:
+                formatted_lines.append('</ul>')
+                in_list = False
+            if stripped and not stripped.startswith('<'):
+                # Regular paragraph
+                formatted_lines.append(f'<p class="text-gray-200 my-2">{stripped}</p>')
+            else:
+                formatted_lines.append(line)
+
+    if in_list:
+        formatted_lines.append('</ul>')
+
+    return '\n'.join(formatted_lines)
+
+
 def create_html_page(content, title, output_path):
     """
     Wrap generated content in site template or inject into existing template.
@@ -229,6 +294,9 @@ def create_html_page(content, title, output_path):
     """
     timestamp = datetime.now().strftime("%B %d, %Y at %I:%M %p")
 
+    # Convert markdown to HTML if needed
+    formatted_content = markdown_to_html(content)
+
     # Check if output file already exists (template-based approach)
     if output_path.exists():
         print(f"📄 Found existing template at {output_path.name}, injecting content...")
@@ -240,9 +308,9 @@ def create_html_page(content, title, output_path):
             if '<!-- CONTENT_PLACEHOLDER -->' in template_html:
                 html = template_html.replace(
                     '<!-- CONTENT_PLACEHOLDER -->',
-                    content
+                    formatted_content
                 )
-                print(f"✅ Injected content into existing template")
+                print(f"✅ Injected formatted content into existing template")
                 return html
             else:
                 print(f"⚠️  Template found but no CONTENT_PLACEHOLDER, using generic template")
@@ -252,7 +320,7 @@ def create_html_page(content, title, output_path):
     # Use generic template
     html = HTML_TEMPLATE.format(
         title=title,
-        content=content,
+        content=formatted_content,
         timestamp=timestamp
     )
 
