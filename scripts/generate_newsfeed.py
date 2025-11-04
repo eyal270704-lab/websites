@@ -196,15 +196,35 @@ def generate_content_with_gemini(prompt, api_key):
 
         content = response.text
 
-        # Remove markdown code blocks if present
-        if content.startswith('```html'):
-            content = content[7:]  # Remove ```html
-        if content.startswith('```'):
-            content = content[3:]  # Remove ```
-        if content.endswith('```'):
-            content = content[:-3]  # Remove trailing ```
+        # Extract content from markdown code blocks if present
+        import re
 
-        content = content.strip()
+        # Look for content between ```html and ``` or ``` and ```
+        html_block_match = re.search(r'```html\s*(.*?)\s*```', content, re.DOTALL)
+        if html_block_match:
+            content = html_block_match.group(1).strip()
+            print("✅ Extracted HTML from code block")
+        else:
+            # Try generic code block
+            code_block_match = re.search(r'```\s*(.*?)\s*```', content, re.DOTALL)
+            if code_block_match:
+                content = code_block_match.group(1).strip()
+                print("✅ Extracted content from code block")
+            else:
+                # No code blocks, use as-is but remove common prefixes
+                # Remove explanatory text that Gemini sometimes adds
+                if content.startswith('Okay, I will') or content.startswith('Here\'s'):
+                    # Try to find where the actual content starts
+                    lines = content.split('\n')
+                    # Skip lines until we find something that looks like HTML or content
+                    content_start = 0
+                    for i, line in enumerate(lines):
+                        if line.strip().startswith('<') or line.strip().startswith('#'):
+                            content_start = i
+                            break
+                    content = '\n'.join(lines[content_start:])
+
+                content = content.strip()
 
         print(f"✅ Generated {len(content)} characters of HTML content")
 
