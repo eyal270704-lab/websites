@@ -237,63 +237,75 @@ def generate_content_with_gemini(prompt, api_key):
 
 def markdown_to_html(text):
     """
-    Convert markdown text to HTML.
+    Convert markdown text to HTML with proper styling.
 
     Args:
         text: Markdown formatted text
 
     Returns:
-        str: HTML formatted text
+        str: HTML formatted text with Tailwind CSS classes
     """
     if not text:
         return ""
 
-    html = text
-
-    # Convert headers
-    html = html.replace('### ', '<h3 class="text-xl font-semibold text-blue-300 mt-4 mb-2">')
-    html = html.replace('## ', '<h2 class="text-2xl font-bold text-blue-300 mt-6 mb-3">')
-    html = html.replace('# ', '<h1 class="text-3xl font-bold text-blue-300 mt-8 mb-4">')
-
-    # Close headers (simple approach - add closing tag at end of line)
-    lines = []
-    for line in html.split('\n'):
-        if line.startswith('<h1') and '</h1>' not in line:
-            line = line + '</h1>'
-        elif line.startswith('<h2') and '</h2>' not in line:
-            line = line + '</h2>'
-        elif line.startswith('<h3') and '</h3>' not in line:
-            line = line + '</h3>'
-        lines.append(line)
-    html = '\n'.join(lines)
-
-    # Convert bold text
     import re
-    html = re.sub(r'\*\*(.+?)\*\*', r'<strong class="font-semibold text-white">\1</strong>', html)
 
-    # Convert bullet points to list items
-    lines = html.split('\n')
-    in_list = False
+    # First, convert bold text before processing lines
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong class="font-semibold text-white">\1</strong>', text)
+
+    lines = text.split('\n')
     formatted_lines = []
+    in_list = False
 
     for line in lines:
         stripped = line.strip()
-        if stripped.startswith('* ') or stripped.startswith('- '):
+
+        # Skip empty lines
+        if not stripped:
+            if in_list:
+                formatted_lines.append('</ul>')
+                in_list = False
+            formatted_lines.append('')
+            continue
+
+        # Handle headers (must check before they're modified)
+        if stripped.startswith('### '):
+            if in_list:
+                formatted_lines.append('</ul>')
+                in_list = False
+            header_text = stripped[4:].strip()
+            formatted_lines.append(f'<h3 class="text-xl font-semibold text-blue-300 mt-6 mb-3">{header_text}</h3>')
+        elif stripped.startswith('## '):
+            if in_list:
+                formatted_lines.append('</ul>')
+                in_list = False
+            header_text = stripped[3:].strip()
+            formatted_lines.append(f'<h2 class="text-2xl font-bold text-blue-300 mt-8 mb-4">{header_text}</h2>')
+        elif stripped.startswith('# '):
+            if in_list:
+                formatted_lines.append('</ul>')
+                in_list = False
+            header_text = stripped[2:].strip()
+            formatted_lines.append(f'<h1 class="text-3xl font-bold text-blue-400 mt-10 mb-5">{header_text}</h1>')
+        # Handle bullet points
+        elif stripped.startswith('* ') or stripped.startswith('- '):
             if not in_list:
-                formatted_lines.append('<ul class="list-disc list-inside space-y-2 ml-4 my-3">')
+                formatted_lines.append('<ul class="list-disc list-inside space-y-2 ml-4 my-4 text-gray-200">')
                 in_list = True
-            item_text = stripped[2:]  # Remove '* ' or '- '
-            formatted_lines.append(f'<li class="text-gray-200">{item_text}</li>')
+            item_text = stripped[2:].strip()  # Remove '* ' or '- '
+            formatted_lines.append(f'    <li class="leading-relaxed">{item_text}</li>')
+        # Regular text
         else:
             if in_list:
                 formatted_lines.append('</ul>')
                 in_list = False
-            if stripped and not stripped.startswith('<'):
-                # Regular paragraph
-                formatted_lines.append(f'<p class="text-gray-200 my-2">{stripped}</p>')
+            # Don't wrap if it's already HTML
+            if not stripped.startswith('<'):
+                formatted_lines.append(f'<p class="text-gray-200 my-3 leading-relaxed">{stripped}</p>')
             else:
                 formatted_lines.append(line)
 
+    # Close any open list
     if in_list:
         formatted_lines.append('</ul>')
 
