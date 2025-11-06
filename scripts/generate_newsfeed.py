@@ -129,6 +129,14 @@ IMPORTANT OUTPUT REQUIREMENTS:
 - Include proper spacing, cards, and gradients for visual hierarchy
 - The content will be wrapped in our site template automatically
 
+CRITICAL TEXT COLOR REQUIREMENTS FOR CARDS:
+- All cards with white backgrounds (bg-white) MUST use black text for readability
+- Card headlines/titles: Use "text-gray-900" class (dark gray/black)
+- Card body text/descriptions: Use "text-black" class
+- Section headers: Use "text-gray-900" class
+- List items: Use "text-black" class
+- This ensures proper contrast and readability on white card backgrounds
+
 Return the complete HTML content ready to inject into the page.
 """
 
