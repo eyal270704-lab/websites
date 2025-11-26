@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Universal newsfeed generator for Daily News Hub.
 
@@ -13,12 +14,18 @@ Usage:
 
 import os
 import sys
+import io
 import json
 import argparse
 from pathlib import Path
 from datetime import datetime
 from google import genai
 from google.genai import types
+
+# Fix encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 
 # HTML template for all newsfeeds
@@ -193,7 +200,7 @@ def generate_content_with_gemini(prompt, api_key):
 
         # Generate content with grounding enabled
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="gemini-2.5-flash",
             contents=prompt,
             config=config,
         )
