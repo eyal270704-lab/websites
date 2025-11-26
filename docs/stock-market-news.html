@@ -287,6 +287,7 @@
 
         // API key is injected during deployment via GitHub Actions
         // This placeholder will be replaced with the actual key from GitHub Secrets
+        // For local testing, you can temporarily replace PLACEHOLDER_API_KEY with your actual key
         const apiKey = "PLACEHOLDER_API_KEY";
 
         // Trading strategy prompts
@@ -394,7 +395,7 @@ Format the response in clean HTML with proper headings and bullet points. Use Ta
             if (!ticker || !selectedStrategy) return;
 
             // Check if API key is set
-            if (!apiKey || apiKey === "PLACEHOLDER_API_KEY") {
+            if (!apiKey || apiKey.startsWith("PLACEHOLDER")) {
                 alert('API key not configured. This feature requires deployment via GitHub Pages.');
                 return;
             }
