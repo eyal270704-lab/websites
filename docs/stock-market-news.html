@@ -17,151 +17,106 @@
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
-
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            animation: fadeIn 0.3s ease-out;
-        }
-
-        .modal.show {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .modal-content {
-            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-            border-radius: 1rem;
-            padding: 2rem;
-            max-width: 600px;
-            width: 90%;
-            max-height: 90vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            animation: slideUp 0.3s ease-out;
-        }
-
-        @keyframes slideUp {
-            from {
-                transform: translateY(50px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        .strategy-card {
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
-
-        .strategy-card:hover {
-            transform: translateY(-2px);
-            border-color: #60a5fa;
-        }
-
-        .strategy-card.selected {
-            border-color: #3b82f6;
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-        }
-
-        .spinner {
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border-top: 3px solid white;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
     <div class="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
-        <!-- Back to Hub Button & Analyze Ticker Button -->
-        <div class="mb-8 flex justify-between items-center">
+        <!-- Back to Hub Button -->
+        <div class="mb-8">
             <a href="index.html" class="inline-flex items-center gap-2 text-white hover:text-cyan-400 transition-colors text-lg font-medium">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                 </svg>
                 Back to Hub
             </a>
-            <button onclick="openAnalyzeModal()" class="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                </svg>
-                Analyze Ticker
-            </button>
         </div>
 
         <!-- Generated Content -->
         <main class="animate-fade-in">
-            <div class="min-h-screen bg-gradient-to-br from-blue-100 via-teal-100 to-purple-100 p-4 sm:p-6 lg:p-8">
+            <div class="min-h-screen bg-gradient-to-br from-blue-700 via-purple-700 to-teal-500 p-4 sm:p-6 lg:p-8">
   <div class="max-w-7xl mx-auto">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-8 text-center drop-shadow-lg">
-<p class="text-gray-200 my-3 leading-relaxed">Daily Capital Market News <span class="text-blue-600">November 26, 2025</span></p>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-8 text-center drop-shadow-lg">
+<p class="text-gray-200 my-3 leading-relaxed">Daily Capital Market News</p>
     </h1>
 
-    <!-- Global Markets Section -->
-    <div class="mb-12">
-      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 border-b-4 border-blue-500 pb-2">
-<p class="text-gray-200 my-3 leading-relaxed">Global Markets</p>
+    <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 mb-8 border border-purple-300">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-purple-400 pb-3">
+<p class="text-gray-200 my-3 leading-relaxed">Global Market Headlines (November 27, 2025)</p>
       </h2>
-      <div class="bg-white rounded-xl shadow-lg p-6 sm:p-8 hover:shadow-2xl transition-shadow duration-300">
-        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Major Headlines & Market Trends</h3>
-        <ul class="list-disc pl-5 space-y-3 text-black">
-          <li>Wall Street closed higher on Tuesday, extending a three-day rally, fueled by expectations of another interest rate cut next month.</li>
-          <li>U.S. consumer confidence for November sharply declined to 88.7, missing estimates, with the Expectations Index remaining below 80 for the tenth consecutive month, indicating potential recessionary concerns.</li>
-          <li>Asian markets mostly ended higher, with Japan's Nikkei gaining 1.8%, South Korea's Kospi Composite up 2.7%, and the Hang Seng rising 0.1%.</li>
-          <li>The U.S. dollar weakened to a one-week low following softer-than-expected economic data, reinforcing anticipation for a Federal Reserve rate cut.</li>
-          <li>Gold futures advanced, supported by a cautious risk environment and ongoing economic uncertainties across major economies.</li>
-          <li>Oil prices saw minor fluctuations or eased amidst signs of progress in Ukraine-Russia peace negotiations, suggesting potential increases in global supply.</li>
-          <li>The decision management market is projected for substantial growth, driven significantly by the increasing demand for Artificial Intelligence (AI), with forecasts indicating a rise to $15.73 billion by 2029.</li>
-          <li>India's benchmark indices, Sensex and Nifty50, closed near record highs on Wednesday, bolstered by widespread buying across various sectors.</li>
-        </ul>
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Notable Global Stocks</h3>
-        <ul class="list-disc pl-5 space-y-3 text-black">
-          <li><strong class="font-semibold text-white">Gainers:</strong> Analog Devices Inc. (ADI) climbed 5.3% due to strong performance in the AI sector. Urban Outfitters (URBN) soared 10% after reporting strong earnings and holiday sales. Autodesk (ADSK) gained 3.5%, and Dell Technologies (DELL) advanced 6%. In India, Bajaj twins, Reliance Industries, Sun Pharma, and Tata Motors PV were among the top performers on the Sensex.</li>
-          <li><strong class="font-semibold text-white">Decliners:</strong> Workday (WDAY) sank 9%, despite strong quarterly results and a positive full-year outlook, leading the S&P 500 decliners. Deere & Co. (DE) fell 4.5% following a weak forecast and warnings about persistent "difficult market conditions" into next year. HP (HPQ) dropped 2% and announced significant layoffs as part of a cost-cutting initiative.</li>
-          <li><strong class="font-semibold text-white">Other Notable:</strong> Nvidia's shares experienced volatility, initially falling due to concerns about competition from Google's AI chips, but later rebounded.</li>
-        </ul>
-      </div>
+      <ul class="list-disc pl-5 space-y-3 text-black">
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">U.S. and European index futures are trading higher during Asian trading hours, with S&P 500 futures up 0.044% and Euro Stoxx 50 futures up 0.05%.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Optimism around potential U.S. Federal Reserve interest-rate reductions is a key driver for global equity markets, which have extended their gains, with major U.S. indices continuing solid advances. Traders are betting on an almost 83% probability of a Fed rate cut in December.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Asian shares advanced, taking cues from Wall Street's extended winning streak. Japan's Nikkei 225 added 1%, while South Korea's Kospi gained 0.7%. Hong Kong's Hang Seng index picked up 0.3%, and the Shanghai Composite index edged 0.1% higher.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">The U.S. stock market (NYSE and Nasdaq) is closed today, November 27, 2025, for Thanksgiving Day. Trading will resume on Black Friday, November 28, 2025, with reduced hours.</p>
+        </li>
+      </ul>
     </div>
 
-    <!-- Israeli Capital Market Section -->
-    <div>
-      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 border-b-4 border-purple-500 pb-2">
-<p class="text-gray-200 my-3 leading-relaxed">Israeli Capital Market</p>
+    <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 mb-8 border border-teal-300">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-teal-400 pb-3">
+<p class="text-gray-200 my-3 leading-relaxed">Notable Indian Market Trends & Stocks (November 27, 2025)</p>
       </h2>
-      <div class="bg-white rounded-xl shadow-lg p-6 sm:p-8 hover:shadow-2xl transition-shadow duration-300">
-        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Major Headlines & Market Trends</h3>
-        <ul class="list-disc pl-5 space-y-3 text-black">
-          <li>The main indices on the Tel Aviv Stock Exchange (TASE) ended higher on Wednesday, with the TA 35 Index rising 0.88%, the TA 125 Index gaining 0.89%, and the BlueTechGlobal Index increasing by 0.27%.</li>
-          <li>Turnover on the TASE reached NIS 3.34 billion in equities and NIS 7.93 billion in bonds.</li>
-          <li>The Bank of Israel implemented a 0.25% cut to its key lending rate, marking the first reduction in nearly two years.</li>
-          <li>Hercules Capital, a venture lending firm, announced an expansion of its investments in Israel, appointing Ella-Tamar Adhanan to lead its operations and planning to open an Israeli office next year.</li>
-        </ul>
-        <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Notable Israeli Stocks</h3>
-        <ul class="list-disc pl-5 space-y-3 text-black">
-          <li><strong class="font-semibold text-white">Gainers:</strong> Tower Semiconductor (TASE:TSEM) surged 7.38%, driven by renewed optimism in the AI sector. Teva Pharmaceutical Industries Ltd (TASE:TEVA) gained 4.24%, and Nova (TASE:NVMI) was up 4.23%. Bank Hapoalim (TASE:POLI) rose 0.58% and announced a program to distribute shares to one million customers.</li>
-          <li><strong class="font-semibold text-white">Decliners:</strong> Phoenix Financial (TASE:PHOE) fell 2.54%, despite reporting a 40% increase in profit for the first nine months of 2025 and upgrading its 2028 profit targets. Retailers, IDI Insurance, and Nayax also experienced declines.</li>
-        </ul>
-      </div>
+      <ul class="list-disc pl-5 space-y-3 text-black">
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Indian equity benchmark indices, Nifty50 and BSE Sensex, rallied significantly, with Nifty50 hitting a new lifetime high near 26,300, surpassing its previous record from September 2024. Sensex also approached its all-time peak, trading above 85,800.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">The Nifty 50 settled above the 26,200 mark on Wednesday, just 72 points away from a record high, recording its biggest intraday gain since June 26, 2025.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Bank Nifty displayed robust momentum, hitting a fresh lifetime high of 59,555 before settling at 59,528.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Market analysts point to positive conditions supported by improved Q3 demand patterns, anticipated capital expenditure growth, and potential rate reductions from the RBI and the US Federal Reserve.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">Foreign Institutional Investors (FIIs) bought equities worth ₹4,778.03 crore net on Wednesday, and Domestic Institutional Investors (DIIs) purchased stocks worth ₹6,247.93 crore.</p>
+        </li>
+        <li class="leading-relaxed">
+          <strong class="font-semibold text-white">Notable Stocks in Focus:</strong>
+          <ul class="list-circle pl-6 mt-2 space-y-1 text-black">
+            <li>
+              <strong class="font-semibold text-white">Wipro:</strong> Partnered with the Indian Institute of Science (IISc) to drive advanced innovations in agentic AI, embodied AI, quantum AI, and quantum-safe solutions.
+            </li>
+            <li>
+              <strong class="font-semibold text-white">Whirlpool India:</strong> Promoter Whirlpool Mauritius is set to sell up to 95 lakh shares (7.51% equity) via an accelerated bookbuild at a floor price of ₹1,030.
+            </li>
+            <li>
+              <strong class="font-semibold text-white">JSW Steel and SAIL:</strong> Led gains in the Nifty metal index, with gains over 3%.
+            </li>
+            <li>
+              <strong class="font-semibold text-white">Asian Paints:</strong> An arm of the company will establish a second manufacturing plant in the UAE at a cost of ₹340 crore.
+            </li>
+            <li>
+              <strong class="font-semibold text-white">NACL Industries:</strong> Hit a 5% upper circuit as the board is set to consider fundraising on December 1.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 border border-blue-300">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-400 pb-3">
+<p class="text-gray-200 my-3 leading-relaxed">Israeli Capital Market News (November 27, 2025)</p>
+      </h2>
+      <ul class="list-disc pl-5 space-y-3 text-black">
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">SignOff Semiconductors Pvt Ltd., an Indian VLSI design services company, announced the expansion of its global footprint by launching an Israel sales office in partnership with MosaIC Ltd. This partnership aims to accelerate innovation and shorten time-to-market for local semiconductor companies.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">While broader economic and capital market indicators for Israel were not prominently featured in real-time news for November 27, the ongoing geopolitical situation and internal political dynamics, such as the debate over an inquiry into the October 7, 2023, Hamas attack, continue to be significant factors in the region.</p>
+        </li>
+        <li class="leading-relaxed">
+<p class="text-gray-200 my-3 leading-relaxed">The Israeli military also launched a fresh operation in the West Bank on Wednesday to "thwart terrorist activity," with troops entering Tubas and conducting arrests.</p>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -169,327 +124,9 @@
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on November 26, 2025 at 06:11 PM</p>
+            <p>Generated on November 27, 2025 at 07:19 AM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
-
-    <!-- Ticker Analysis Modal -->
-    <div id="analyzeModal" class="modal">
-        <div class="modal-content">
-            <div class="flex justify-between items-center mb-6">
-                <h2 class="text-2xl font-bold text-white">Analyze Stock Ticker</h2>
-                <button onclick="closeAnalyzeModal()" class="text-gray-400 hover:text-white transition-colors">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Input Section -->
-            <div id="inputSection">
-                <div class="mb-6">
-                    <label class="block text-sm font-medium text-gray-300 mb-2">Stock Ticker Symbol</label>
-                    <input
-                        type="text"
-                        id="tickerInput"
-                        placeholder="e.g., AAPL, TSLA, NVDA"
-                        class="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 uppercase"
-                        onkeyup="this.value = this.value.toUpperCase()"
-                        oninput="updateAnalyzeButton()"
-                    />
-                </div>
-
-                <div class="mb-6">
-                    <label class="block text-sm font-medium text-gray-300 mb-3">Select Trading Strategy</label>
-                    <div class="space-y-3">
-                        <!-- Long-term Strategy -->
-                        <div class="strategy-card bg-slate-700 p-4 rounded-lg" data-strategy="long-term" onclick="selectStrategy('long-term')">
-                            <div class="flex items-start gap-3">
-                                <div class="flex-shrink-0 mt-1">
-                                    <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-white mb-1">Long-term Holding (Invest)</h3>
-                                    <p class="text-sm text-gray-400">Fundamental analysis, growth potential, and long-term value assessment</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Swing Trade Strategy -->
-                        <div class="strategy-card bg-slate-700 p-4 rounded-lg" data-strategy="swing" onclick="selectStrategy('swing')">
-                            <div class="flex items-start gap-3">
-                                <div class="flex-shrink-0 mt-1">
-                                    <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-white mb-1">Swing Trade</h3>
-                                    <p class="text-sm text-gray-400">Medium-term patterns, support/resistance levels, and momentum indicators</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Short-term Technical Strategy -->
-                        <div class="strategy-card bg-slate-700 p-4 rounded-lg" data-strategy="short-term" onclick="selectStrategy('short-term')">
-                            <div class="flex items-start gap-3">
-                                <div class="flex-shrink-0 mt-1">
-                                    <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-white mb-1">Short-term Technical</h3>
-                                    <p class="text-sm text-gray-400">Pure technical analysis, chart patterns, and intraday indicators</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <button
-                    id="analyzeButton"
-                    onclick="analyzeTicker()"
-                    class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-                    disabled
-                >
-                    Analyze Stock
-                </button>
-            </div>
-
-            <!-- Loading Section -->
-            <div id="loadingSection" class="hidden text-center py-12">
-                <div class="spinner mx-auto mb-4"></div>
-                <p class="text-gray-300">Analyzing <span id="loadingTicker"></span>...</p>
-                <p class="text-sm text-gray-400 mt-2">This may take a few moments</p>
-            </div>
-
-            <!-- Results Section -->
-            <div id="resultsSection" class="hidden">
-                <div class="mb-4 flex items-center justify-between">
-                    <h3 class="text-xl font-semibold text-white">Analysis Results</h3>
-                    <button onclick="resetModal()" class="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                        New Analysis
-                    </button>
-                </div>
-                <div id="analysisResults" class="bg-slate-700 rounded-lg p-6 text-gray-200 leading-relaxed max-h-96 overflow-y-auto">
-                    <!-- Results will be inserted here -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        let selectedStrategy = null;
-
-        // API key is injected during deployment via GitHub Actions
-        // This placeholder will be replaced with the actual key from GitHub Secrets
-        // For local testing, you can temporarily replace PLACEHOLDER_API_KEY with your actual key
-        const apiKey = "PLACEHOLDER_API_KEY";
-
-        // Trading strategy prompts
-        const strategyPrompts = {
-            'long-term': `You are an expert financial analyst specializing in long-term investment strategies. Analyze the stock ticker {TICKER} for long-term holding potential.
-
-CRITICAL: Use Google Search to find CURRENT, REAL-TIME information about this stock.
-
-Provide a comprehensive analysis including:
-1. **Company Overview**: Brief description of the business and industry position
-2. **Fundamental Analysis**:
-   - Current valuation metrics (P/E, P/B, PEG ratio)
-   - Revenue and earnings growth trends
-   - Profit margins and ROE
-3. **Competitive Advantages**: Moats, market position, brand strength
-4. **Growth Potential**: Industry trends, addressable market, expansion plans
-5. **Financial Health**: Balance sheet strength, cash flow, debt levels
-6. **Risk Assessment**: Key risks and challenges
-7. **Long-term Recommendation**: Buy/Hold/Avoid with price target and time horizon
-
-Format the response in clean HTML with proper headings and bullet points. Use Tailwind CSS classes for styling.`,
-
-            'swing': `You are an expert swing trader analyzing stock ticker {TICKER} for medium-term trading opportunities (days to weeks).
-
-CRITICAL: Use Google Search to find CURRENT, REAL-TIME price data and recent market activity.
-
-Provide a swing trading analysis including:
-1. **Current Price Action**: Recent price movement and trend direction
-2. **Key Technical Levels**:
-   - Support levels (with prices)
-   - Resistance levels (with prices)
-   - Fibonacci retracement levels if applicable
-3. **Technical Indicators**:
-   - Moving averages (50-day, 200-day)
-   - RSI and momentum indicators
-   - Volume analysis
-4. **Chart Patterns**: Any significant patterns forming
-5. **Catalyst Analysis**: Upcoming events, earnings, news that could drive movement
-6. **Entry Strategy**: Ideal entry points and conditions
-7. **Exit Strategy**: Target prices and stop-loss levels
-8. **Risk/Reward Ratio**: Expected profit vs. potential loss
-
-Format the response in clean HTML with proper headings and bullet points. Use Tailwind CSS classes. Highlight key price levels.`,
-
-            'short-term': `You are an expert day trader/short-term technical analyst analyzing stock ticker {TICKER} for quick technical trades.
-
-CRITICAL: Use Google Search to find CURRENT, REAL-TIME intraday price data and volume.
-
-Provide a pure technical analysis including:
-1. **Intraday Price Action**: Current trend, volatility, price range
-2. **Key Technical Levels**:
-   - Immediate support and resistance
-   - Pivot points
-   - VWAP (Volume Weighted Average Price)
-3. **Technical Indicators**:
-   - Short-term moving averages (5, 10, 20 EMA)
-   - RSI, MACD, Stochastic
-   - Bollinger Bands position
-4. **Volume Analysis**:
-   - Current volume vs. average
-   - Volume at key price levels
-5. **Chart Patterns**: Intraday patterns, candlestick formations
-6. **Momentum Assessment**: Buying or selling pressure
-7. **Trade Setup**:
-   - Entry price and timing
-   - Target price (quick profit)
-   - Stop-loss (tight risk management)
-8. **Time Frame**: Expected holding period (minutes to hours)
-
-Format the response in clean HTML with proper headings and bullet points. Use Tailwind CSS classes. Be specific with prices and timing.`
-        };
-
-        function openAnalyzeModal() {
-            document.getElementById('analyzeModal').classList.add('show');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeAnalyzeModal() {
-            document.getElementById('analyzeModal').classList.remove('show');
-            document.body.style.overflow = 'auto';
-            resetModal();
-        }
-
-        function selectStrategy(strategy) {
-            selectedStrategy = strategy;
-
-            // Update UI
-            document.querySelectorAll('.strategy-card').forEach(card => {
-                card.classList.remove('selected');
-            });
-            document.querySelector(`[data-strategy="${strategy}"]`).classList.add('selected');
-
-            // Enable analyze button if ticker is entered
-            updateAnalyzeButton();
-        }
-
-        function updateAnalyzeButton() {
-            const ticker = document.getElementById('tickerInput').value.trim();
-            const button = document.getElementById('analyzeButton');
-            button.disabled = !(ticker && selectedStrategy);
-        }
-
-        async function analyzeTicker() {
-            const ticker = document.getElementById('tickerInput').value.trim().toUpperCase();
-            if (!ticker || !selectedStrategy) return;
-
-            // Check if API key is set
-            if (!apiKey || apiKey.startsWith("PLACEHOLDER")) {
-                alert('API key not configured. This feature requires deployment via GitHub Pages.');
-                return;
-            }
-
-            // Show loading state
-            document.getElementById('inputSection').classList.add('hidden');
-            document.getElementById('loadingSection').classList.remove('hidden');
-            document.getElementById('loadingTicker').textContent = ticker;
-
-            try {
-                // Get the prompt template and replace ticker
-                let prompt = strategyPrompts[selectedStrategy].replace(/{TICKER}/g, ticker);
-
-                // Call Gemini API with user-provided key
-                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        contents: [{
-                            parts: [{
-                                text: prompt
-                            }]
-                        }],
-                        tools: [{
-                            googleSearch: {}
-                        }],
-                        generationConfig: {
-                            temperature: 0.7,
-                            topK: 40,
-                            topP: 0.95,
-                        }
-                    })
-                });
-
-                const data = await response.json();
-
-                if (data.candidates && data.candidates[0] && data.candidates[0].content) {
-                    let analysisText = data.candidates[0].content.parts[0].text;
-
-                    // Extract HTML from markdown code blocks if present
-                    const htmlMatch = analysisText.match(/```html\s*([\s\S]*?)\s*```/);
-                    if (htmlMatch) {
-                        analysisText = htmlMatch[1];
-                    } else {
-                        const codeMatch = analysisText.match(/```\s*([\s\S]*?)\s*```/);
-                        if (codeMatch) {
-                            analysisText = codeMatch[1];
-                        }
-                    }
-
-                    // Display results
-                    document.getElementById('analysisResults').innerHTML = analysisText;
-                    document.getElementById('loadingSection').classList.add('hidden');
-                    document.getElementById('resultsSection').classList.remove('hidden');
-                } else {
-                    throw new Error('No analysis generated');
-                }
-            } catch (error) {
-                console.error('Error analyzing ticker:', error);
-                document.getElementById('analysisResults').innerHTML = `
-                    <div class="bg-red-900/50 border border-red-700 rounded-lg p-4">
-                        <h4 class="font-semibold text-red-200 mb-2">Analysis Error</h4>
-                        <p class="text-red-300">Failed to analyze ${ticker}. Please try again or check the ticker symbol.</p>
-                        <p class="text-sm text-red-400 mt-2">Error: ${error.message}</p>
-                    </div>
-                `;
-                document.getElementById('loadingSection').classList.add('hidden');
-                document.getElementById('resultsSection').classList.remove('hidden');
-            }
-        }
-
-        function resetModal() {
-            document.getElementById('inputSection').classList.remove('hidden');
-            document.getElementById('loadingSection').classList.add('hidden');
-            document.getElementById('resultsSection').classList.add('hidden');
-            document.getElementById('tickerInput').value = '';
-            document.getElementById('analysisResults').innerHTML = '';
-            selectedStrategy = null;
-            document.querySelectorAll('.strategy-card').forEach(card => {
-                card.classList.remove('selected');
-            });
-            updateAnalyzeButton();
-        }
-
-        // Close modal when clicking outside
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('analyzeModal').addEventListener('click', function(e) {
-                if (e.target === this) {
-                    closeAnalyzeModal();
-                }
-            });
-        });
-    </script>
 </body>
 </html>
