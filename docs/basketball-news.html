@@ -34,147 +34,97 @@
         <!-- Generated Content -->
         <main class="animate-fade-in">
             <div class="min-h-screen bg-gradient-to-br from-blue-900 via-teal-700 to-purple-900 text-white p-4 sm:p-6 lg:p-8">
-
     <!-- Header -->
-    <header class="text-center mb-10">
-        <h1 class="text-5xl font-extrabold mb-2 text-white shadow-lg">NBA Daily News Hub</h1>
-        <p class="text-xl text-teal-200">Monday, December 08, 2025</p>
-        <p class="text-lg text-blue-200 mt-1">Total Games Reported: 10</p>
+    <header class="mb-8 text-center">
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-2 text-gray-100">Daily NBA Hub</h1>
+        <p class="text-xl sm:text-2xl text-gray-200">December 09, 2025 - <span id="totalGamesScheduled">2 Games Scheduled</span></p>
     </header>
 
     <!-- Alert Banner for Major Breaking News -->
-    <div class="bg-red-700 text-white p-4 rounded-lg shadow-xl mb-8 flex items-center justify-center">
-        <svg class="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-        </svg>
-        <p class="font-bold text-lg">Breaking News: </p>
-        <p class="ml-2 text-lg">Miami Heat's Terry Rozier implicated in sports betting scheme, placed on unpaid leave. </p>
-        <p class="ml-2 text-lg">Portland Trail Blazers Coach Chauncey Billups also on unpaid leave facing charges in illegal poker scheme.</p>
+    <div class="bg-red-700 text-white p-4 rounded-lg shadow-lg mb-8 animate-pulse">
+        <p class="font-bold text-lg">🚨 BREAKING NEWS: NBA Cup Quarterfinals Underway! 🚨</p>
+        <p class="text-sm">Tonight features two highly anticipated Emirates NBA Cup 2025 quarterfinal matchups. Additionally, Miami Heat guard Terry Rozier has pleaded not guilty to illegal gambling charges.</p>
     </div>
 
     <!-- Games Section -->
     <section class="mb-10">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center lg:text-left">Today's Games & Recap</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 text-center">Today's NBA Action & Recent Results</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <!-- Completed Game Card 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
+            <!-- Completed Game Card: Phoenix Suns vs. Minnesota Timberwolves (Dec 8) -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-green-500">
                 <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Boston Celtics vs Toronto Raptors</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
+                    <span class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">FINAL</span>
+                    <span class="text-gray-500 text-sm">Dec 8, 2025</span>
                 </div>
-                <p class="text-lg mb-2"><strong>Celtics 121</strong> - Raptors 113</p>
-                <h4 class="font-bold text-gray-900 mt-4">Top Performers:</h4>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Phoenix Suns 108 vs. Minnesota Timberwolves 105</h3>
+                <p class="text-black mb-4">A thrilling contest saw the Suns narrowly defeat the Timberwolves in Minneapolis.</p>
+                <div class="mb-4">
+                    <p class="font-semibold text-gray-900">Top Performers:</p>
+                    <ul class="list-disc list-inside text-black">
+                        <li><strong class="font-semibold text-white">Suns:</strong> Mark Williams (22 PTS, 7 REB, 1st career 3PT!), Collin Gillespie (19 PTS), Dillion Brooks (18 PTS)</li>
+                        <li><strong class="font-semibold text-white">Timberwolves:</strong> Anthony Edwards (40 PTS, 15-21 FG), Julius Randle (21 PTS), Bones Hyland (14 PTS)</li>
+                    </ul>
+                </div>
+                <p class="text-sm text-black">Notable: Rudy Gobert (MIN) was ejected in the third quarter.</p>
+            </div>
+
+             <!-- Completed Game Card: Sacramento Kings vs. Indiana Pacers (Dec 8) -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-green-500">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">FINAL</span>
+                    <span class="text-gray-500 text-sm">Dec 8, 2025</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Sacramento Kings 105 vs. Indiana Pacers 116</h3>
+                <p class="text-black mb-4">The Indiana Pacers secured a comfortable win over the Sacramento Kings.</p>
+                <p class="font-semibold text-gray-900">Top Performers:</p>
                 <ul class="list-disc list-inside text-black">
-                    <li>Celtics: Jaylen Brown (30 Pts), Derrick White (27 Pts)</li>
-                    <li>Raptors: Brandon Ingram (30 Pts), Scottie Barnes (18 Pts, 11 Reb, 8 Ast)</li>
+                    <li>(Details not available in snippets, but the score is there)</li>
                 </ul>
             </div>
 
-            <!-- Completed Game Card 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
+            <!-- Completed Game Card: San Antonio Spurs vs. New Orleans Pelicans (Dec 8) -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-green-500">
                 <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Oklahoma City Thunder vs Utah Jazz</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
+                    <span class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">FINAL</span>
+                    <span class="text-gray-500 text-sm">Dec 8, 2025</span>
                 </div>
-                <p class="text-lg mb-2"><strong>Thunder 131</strong> - Jazz 101</p>
-                <h4 class="font-bold text-gray-900 mt-4">Top Performers:</h4>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">San Antonio Spurs 135 vs. New Orleans Pelicans 132</h3>
+                <p class="text-black mb-4">A high-scoring affair saw the San Antonio Spurs edge out the New Orleans Pelicans.</p>
+                <p class="font-semibold text-gray-900">Top Performers:</p>
                 <ul class="list-disc list-inside text-black">
-                    <li>Thunder: Jalen Williams (25 Pts), Chet Holmgren (25 Pts)</li>
-                    <li>Jazz: Kyle Filipowski (21 Pts, 10 Reb), Walter Clayton Jr. (20 Pts), Taylor Hendricks (20 Pts)</li>
+                    <li>(Details not available in snippets, but the score is there)</li>
                 </ul>
-                <p class="text-sm text-gray-700 mt-2">Thunder extend winning streak to 15, tying franchise record, even without injured Shai Gilgeous-Alexander.</p>
             </div>
 
-            <!-- Completed Game Card 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
+            <!-- Upcoming Game Card: Miami Heat vs. Orlando Magic (Dec 9) -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-gray-400">
                 <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Golden State Warriors vs Chicago Bulls</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
+                    <span class="bg-gray-400 text-white text-xs font-bold px-3 py-1 rounded-full">UPCOMING</span>
+                    <span class="text-gray-500 text-sm">Dec 9, 2025 - 6:00 PM EST</span>
                 </div>
-                <p class="text-lg mb-2"><strong>Warriors 123</strong> - Bulls 91</p>
-                <h4 class="font-bold text-gray-900 mt-4">Top Performers:</h4>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Miami Heat vs. Orlando Magic</h3>
+                <p class="text-black mb-4">Emirates NBA Cup 2025 Quarterfinals. The Heat face the Magic in a crucial tournament matchup.</p>
+                <p class="font-semibold text-gray-900">Key Matchup Preview:</p>
                 <ul class="list-disc list-inside text-black">
-                    <li>Warriors: Brandin Podziemski (21 Pts, 5 3PM), Jimmy Butler (19 Pts), Quinten Post (19 Pts, 5 3PM)</li>
-                    <li>Bulls: Josh Giddey (18 Pts), Matas Buzelis (16 Pts)</li>
+                    <li>Heat have lost three straight for the first time this season.</li>
+                    <li>Magic recently got Paolo Banchero back, but lost Franz Wagner to injury.</li>
                 </ul>
-                <p class="text-sm text-gray-700 mt-2">Warriors hit 22 threes in dominant win, Bulls drop 7th straight.</p>
             </div>
 
-            <!-- Completed Game Card 4 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
+            <!-- Upcoming Game Card: New York Knicks vs. Toronto Raptors (Dec 9) -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-gray-400">
                 <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">New York Knicks vs Orlando Magic</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
+                    <span class="bg-gray-400 text-white text-xs font-bold px-3 py-1 rounded-full">UPCOMING</span>
+                    <span class="text-gray-500 text-sm">Dec 9, 2025 - 8:30 PM EST</span>
                 </div>
-                <p class="text-lg mb-2"><strong>Knicks 106</strong> - Magic 100</p>
-                <h4 class="font-bold text-gray-900 mt-4">Top Performers:</h4>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">New York Knicks vs. Toronto Raptors</h3>
+                <p class="text-black mb-4">Emirates NBA Cup 2025 Quarterfinals. The Knicks look to continue their strong run against the Raptors.</p>
+                <p class="font-semibold text-gray-900">Key Matchup Preview:</p>
                 <ul class="list-disc list-inside text-black">
-                    <li>Knicks: Jalen Brunson (30 Pts, 9 Ast), Josh Hart (17 Pts, 12 Reb)</li>
-                    <li>Magic: Anthony Black (14 Pts, 11 Reb), Jalen Suggs (17 Pts), Paolo Banchero (16 Pts), Desmond Bane (16 Pts)</li>
+                    <li>Knicks have won seven of their last eight games and lead the season series 1-0.</li>
+                    <li>Raptors are in the quarterfinals for the first time after a 4-0 group stage record.</li>
                 </ul>
-                <p class="text-sm text-gray-700 mt-2">Magic's Franz Wagner suffered a lower leg injury.</p>
-            </div>
-
-            <!-- Completed Game Card 5 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Los Angeles Lakers vs Philadelphia 76ers</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
-                </div>
-                <p class="text-lg mb-2"><strong>Lakers 112</strong> - 76ers 108</p>
-                <p class="text-sm text-gray-700 mt-2">Marcus Smart (LAL) remains out with a back injury.</p>
-            </div>
-
-            <!-- Completed Game Card 6 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Denver Nuggets vs Charlotte Hornets</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
-                </div>
-                <p class="text-lg mb-2"><strong>Nuggets 115</strong> - Hornets 106</p>
-            </div>
-
-            <!-- Completed Game Card 7 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-green-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Memphis Grizzlies vs Portland Trail Blazers</h3>
-                    <span class="px-3 py-1 bg-green-500 text-white text-sm font-bold rounded-full">FINAL</span>
-                </div>
-                <p class="text-lg mb-2"><strong>Grizzlies 119</strong> - Trail Blazers 96</p>
-            </div>
-
-            <!-- Upcoming Game Card 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-gray-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Sacramento Kings vs Indiana Pacers</h3>
-                    <span class="px-3 py-1 bg-gray-500 text-white text-sm font-bold rounded-full">UPCOMING</span>
-                </div>
-                <p class="text-lg mb-2">Time: 7:00 PM ET</p>
-                <h4 class="font-bold text-gray-900 mt-4">Key Matchup:</h4>
-                <p class="text-black">Pacers without Tyrese Haliburton (torn Achilles, out for season).</p>
-            </div>
-
-            <!-- Upcoming Game Card 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-gray-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Phoenix Suns vs Minnesota Timberwolves</h3>
-                    <span class="px-3 py-1 bg-gray-500 text-white text-sm font-bold rounded-full">UPCOMING</span>
-                </div>
-                <p class="text-lg mb-2">Time: 7:30 PM ET</p>
-                <h4 class="font-bold text-gray-900 mt-4">Key Matchup:</h4>
-                <p class="text-black">Suns' Devin Booker is out with a right groin strain.</p>
-            </div>
-
-            <!-- Upcoming Game Card 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-gray-500">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">San Antonio Spurs vs New Orleans Pelicans</h3>
-                    <span class="px-3 py-1 bg-gray-500 text-white text-sm font-bold rounded-full">UPCOMING</span>
-                </div>
-                <p class="text-lg mb-2">Time: 8:00 PM ET</p>
-                <h4 class="font-bold text-gray-900 mt-4">Key Matchup:</h4>
-                <p class="text-black">Spurs' Victor Wembanyama (calf) and Pelicans' Zion Williamson (adductor) are both out for this game.</p>
             </div>
 
         </div>
@@ -182,147 +132,200 @@
 
     <!-- Israeli Players Section -->
     <section class="mb-10">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center lg:text-left">🇮🇱 Israeli NBA Players Update</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 text-center">🇮🇱 Israeli NBA Players Update 🇮🇱</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <!-- Deni Avdija Card -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-blue-500">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Deni Avdija (Portland Trail Blazers)</h3>
-                <p class="text-black mb-2"><strong>Position:</strong> Forward</p>
-                <p class="text-black mb-2"><strong>Age:</strong> 24</p>
-                <p class="text-black mb-4"><strong>Season Averages (recent 5 games):</strong> 31.0 PPG, 10.0 RPG, 9.2 APG (as of Dec 6)</p>
-                <h4 class="font-bold text-gray-900 mt-4">Recent Performance:</h4>
-                <ul class="list-disc list-inside text-black">
-                    <li>December 5, 2025 vs Pistons: 35 Pts, 9 Reb, 7 Ast (9-16 FG, 3-7 3Pt, 14-15 FT)</li>
-                    <li>December 1, 2025 vs Thunder: 31 Pts, 19 Reb, 10 Ast (Triple-Double)</li>
-                </ul>
-                <h4 class="font-bold text-gray-900 mt-4">Injury Status:</h4>
-                <p class="text-green-700">Healthy</p>
-                <h4 class="font-bold text-gray-900 mt-4">Notable Achievement:</h4>
-                <p class="text-black">On December 5, 2025, Deni Avdija became Israel's all-time leading NBA scorer, surpassing Omri Casspi with 4,648 career points.</p>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-blue-600">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Deni Avdija <span class="text-lg text-gray-700">(Portland Trail Blazers)</span></h3>
+                <p class="text-black mb-4">Forward</p>
+                <div class="mb-4">
+                    <p class="font-semibold text-gray-900">Season Stats (2025-2026):</p>
+                    <ul class="list-disc list-inside text-black">
+                        <li>Games Played: 22</li>
+                        <li>PPG: 25.8</li>
+                        <li>RPG: 7.1</li>
+                        <li>APG: 6.2</li>
+                        <li>FG%: 48%</li>
+                        <li>3P%: 38%</li>
+                    </ul>
+                </div>
+                <p class="font-semibold text-gray-900 mb-2">Recent Game Performance:</p>
+                <p class="text-black mb-4">Avdija is having a high-usage, consistent season, with Sofascore ratings like 9.4 (Nov 30) and 9.0 (Dec 5) recently. He is currently 6th in total points in the league.</p>
+                <p class="font-semibold text-gray-900 mb-2">Injury Status:</p>
+                <p class="text-black">No injury reported.</p>
             </div>
 
             <!-- Ben Saraf Card -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-blue-500">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Ben Saraf (Brooklyn Nets)</h3>
-                <p class="text-black mb-2"><strong>Position:</strong> Point Guard/Shooting Guard</p>
-                <p class="text-black mb-2"><strong>Age:</strong> 19 (Rookie, 2025 Draft #26 pick)</p>
-                <p class="text-black mb-4"><strong>Season Averages (NBA 2025-26):</strong> 5.3 PPG, 1.6 RPG, 2.7 APG (11 games, 16.5 Min)</p>
-                <h4 class="font-bold text-gray-900 mt-4">Recent Performance:</h4>
-                <ul class="list-disc list-inside text-black">
-                    <li>December 5, 2025 vs Jazz: 12 Pts, 2 Reb, 2 Ast, 3 Stl (season-high points)</li>
-                    <li>December 6, 2025 vs Pelicans: 7 Pts, 1 Reb, 4 Ast</li>
-                </ul>
-                <h4 class="font-bold text-gray-900 mt-4">Injury Status:</h4>
-                <p class="text-green-700">Recently returned from a left ankle sprain; active.</p>
-                <h4 class="font-bold text-gray-900 mt-4">Career Context:</h4>
-                <p class="text-black">Saraf, a first-round pick in the 2025 NBA Draft, has been carving out a role off the bench and also showed strong performances in the G-League, including a 21-point debut.</p>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-blue-600">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Ben Saraf <span class="text-lg text-gray-700">(Brooklyn Nets)</span></h3>
+                <p class="text-black mb-4">Guard</p>
+                <div class="mb-4">
+                    <p class="font-semibold text-gray-900">Season Stats (2025-2026, NBA):</p>
+                    <ul class="list-disc list-inside text-black">
+                        <li>Games Played: 6 (NBA)</li>
+                        <li>PPG: 3.5</li>
+                        <li>RPG: 2.0</li>
+                        <li>APG: 2.7</li>
+                        <li>FG%: 30.4% (Summer League)</li>
+                    </ul>
+                </div>
+                <p class="font-semibold text-gray-900 mb-2">Recent Game Performance:</p>
+                <p class="text-black mb-4">Saraf has seen limited NBA minutes this season, often assigned to the G League. In his first six NBA games, he averaged 15 minutes, 3.5 points, 2.7 assists, and 2 rebounds. His shooting is an area for development.</p>
+                <p class="font-semibold text-gray-900 mb-2">Injury Status:</p>
+                <p class="text-black">No injury reported.</p>
+                <p class="font-semibold text-gray-900 mb-2">Career Highlights & Context:</p>
+                <p class="text-black">Drafted 26th overall in the 2025 NBA Draft by the Nets. An Israeli-born guard, he was the MVP of the 2024 FIBA U18 European Championship.</p>
             </div>
 
             <!-- Danny Wolf Card -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-blue-500">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-3">Danny Wolf (Brooklyn Nets)</h3>
-                <p class="text-black mb-2"><strong>Position:</strong> Power Forward</p>
-                <p class="text-black mb-2"><strong>Age:</strong> 21 (Rookie, 2025 Draft #27 pick)</p>
-                <p class="text-black mb-4"><strong>Season Averages (last 4 games):</strong> 14.3 PPG, 6.0 RPG, 2.8 APG (as of Dec 5)</p>
-                <h4 class="font-bold text-gray-900 mt-4">Recent Performance:</h4>
-                <ul class="list-disc list-inside text-black">
-                    <li>December 5, 2025 vs Jazz: 17 Pts, 9 Reb, 3 Ast (on 42-38-100 shooting splits)</li>
-                    <li>December 6, 2025 vs Pelicans: 7 Pts, 4 Reb, 2 Ast</li>
-                    <li>November 29, 2025 vs Bucks: 22 Pts (5-9 3Pt), 4 Reb, 4 Ast (career high)</li>
-                </ul>
-                <h4 class="font-bold text-gray-900 mt-4">Injury Status:</h4>
-                <p class="text-green-700">Healthy</p>
-                <h4 class="font-bold text-gray-900 mt-4">Career Context:</h4>
-                <p class="text-black">A 2025 first-round pick, Wolf has shown flashes of potential, particularly with his shooting and playmaking, quickly carving out a role with the Nets and previously impressing in the G-League.</p>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-blue-600">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Danny Wolf <span class="text-lg text-gray-700">(Brooklyn Nets)</span></h3>
+                <p class="text-black mb-4">Power Forward</p>
+                <div class="mb-4">
+                    <p class="font-semibold text-gray-900">Season Stats (2025-2026, NBA highlights):</p>
+                    <ul class="list-disc list-inside text-black">
+                        <li>NBA Debut: Nov 3 (3:33 MIN, 0 PTS, 2 AST, 1 REB)</li>
+                        <li>Career High: 22 PTS (5-9 3PT), 4 REB, 4 AST, 1 BLK (Nov 29, 2025)</li>
+                        <li>(Total stats for the full season are limited due to G-League assignments and sporadic NBA play.)</li>
+                    </ul>
+                </div>
+                <p class="font-semibold text-gray-900 mb-2">Recent Game Performance:</p>
+                <p class="text-black mb-4">Wolf made his NBA debut on November 3rd and has mostly been gaining experience in the G League. He was recalled to the NBA on November 28th and had a breakout performance on November 29th with 22 points, including 5 three-pointers.</p>
+                <p class="font-semibold text-gray-900 mb-2">Injury Status:</p>
+                <p class="text-black">Cleared from a left ankle sprain sustained in the preseason. Currently available but has been in and out of the rotation.</p>
+                <p class="font-semibold text-gray-900 mb-2">Career Highlights & Context:</p>
+                <p class="text-black">Drafted 27th overall in the 2025 NBA Draft by the Nets. An American-Israeli forward, he excelled in college, leading the Big Ten in rebounds per game in 2025.</p>
             </div>
-        </div>
 
-        <!-- Historic Milestone Box -->
-        <div class="bg-gradient-to-r from-blue-600 to-teal-500 p-6 rounded-lg shadow-xl text-white mt-8">
-            <h3 class="text-2xl font-semibold text-white mb-3">Historic Milestone: A Growing Israeli Presence in the NBA</h3>
-            <p class="text-white leading-relaxed">
-<p class="text-gray-200 my-3 leading-relaxed">The 2025 NBA season marks a significant milestone for Israeli basketball with three Israeli citizens – Deni Avdija, Ben Saraf, and Danny Wolf – currently active in the league. This represents the largest contingent of Israeli players in the NBA at one time, highlighting the growing talent pool and international reach of the sport. The presence of these athletes not only inspires a new generation of players in Israel but also showcases the increasing global diversity and inclusivity of the NBA. Deni Avdija's recent achievement of becoming Israel's all-time leading scorer further solidifies this historic period.</p>
-            </p>
+            <!-- Historic Milestone Box -->
+            <div class="bg-yellow-100 rounded-lg shadow-xl p-6 border-t-4 border-yellow-500 col-span-1 md:col-span-3 lg:col-span-3">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">A Historic Moment for Israeli Basketball 🇮🇱</h3>
+                <p class="text-black">The 2025 NBA season marks a significant milestone with three Israeli citizens actively playing in the league: Deni Avdija, Ben Saraf, and Danny Wolf. The back-to-back selections of Saraf and Wolf by the Brooklyn Nets in the 2025 NBA Draft solidified a historic moment, bringing an unprecedented level of Israeli representation to the NBA. This highlights the growing talent pool and international reach of basketball, inspiring a new generation of players in Israel.</p>
+            </div>
         </div>
     </section>
 
     <!-- Early Season Standings -->
     <section class="mb-10">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center lg:text-left">Current NBA Standings (as of Dec 8, 2025)</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 text-center">Current NBA Standings (2025-2026 Season)</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <!-- Eastern Conference -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-purple-500">
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-blue-500">
                 <h3 class="text-2xl font-semibold text-gray-900 mb-4">Eastern Conference</h3>
-                <ul class="space-y-2 text-black">
-                    <li><span class="font-semibold">1. Detroit Pistons:</span> 19-5</li>
-                    <li><span class="font-semibold">2. New York Knicks:</span> 16-7</li>
-                    <li><span class="font-semibold">3. Boston Celtics:</span> 15-9</li>
-                    <li><span class="font-semibold">4. Toronto Raptors:</span> 15-10</li>
-                    <li><span class="font-semibold">5. Orlando Magic:</span> 14-10</li>
-                    <li><span class="font-semibold">6. Miami Heat:</span> 14-10</li>
-                    <li><span class="font-semibold">7. Philadelphia 76ers:</span> 13-10</li>
-                    <li><span class="font-semibold">8. Cleveland Cavaliers:</span> 14-11</li>
-                    <li><span class="font-semibold">9. Atlanta Hawks:</span> 14-11</li>
-                    <li><span class="font-semibold">10. Milwaukee Bucks:</span> 10-15</li>
-                </ul>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead>
+                            <tr>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Team</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">W</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">L</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">PCT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200 text-black">
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Detroit Pistons</td><td class="px-3 py-2 whitespace-nowrap">18</td><td class="px-3 py-2 whitespace-nowrap">5</td><td class="px-3 py-2 whitespace-nowrap">.783</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">New York Knicks</td><td class="px-3 py-2 whitespace-nowrap">15</td><td class="px-3 py-2 whitespace-nowrap">7</td><td class="px-3 py-2 whitespace-nowrap">.682</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Toronto Raptors</td><td class="px-3 py-2 whitespace-nowrap">15</td><td class="px-3 py-2 whitespace-nowrap">9</td><td class="px-3 py-2 whitespace-nowrap">.625</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Boston Celtics</td><td class="px-3 py-2 whitespace-nowrap">14</td><td class="px-3 py-2 whitespace-nowrap">9</td><td class="px-3 py-2 whitespace-nowrap">.609</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Miami Heat</td><td class="px-3 py-2 whitespace-nowrap">14</td><td class="px-3 py-2 whitespace-nowrap">9</td><td class="px-3 py-2 whitespace-nowrap">.609</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Orlando Magic</td><td class="px-3 py-2 whitespace-nowrap">14</td><td class="px-3 py-2 whitespace-nowrap">9</td><td class="px-3 py-2 whitespace-nowrap">.609</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-xs text-gray-700 mt-4">Based on current 2025-2026 season standings.</p>
             </div>
 
             <!-- Western Conference -->
-            <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-purple-500">
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-red-500">
                 <h3 class="text-2xl font-semibold text-gray-900 mb-4">Western Conference</h3>
-                <ul class="space-y-2 text-black">
-                    <li><span class="font-semibold">1. Oklahoma City Thunder:</span> 23-1</li>
-                    <li><span class="font-semibold">2. Los Angeles Lakers:</span> 17-6</li>
-                    <li><span class="font-semibold">3. Denver Nuggets:</span> 17-6</li>
-                    <li><span class="font-semibold">4. Houston Rockets:</span> 15-6</li>
-                    <li><span class="font-semibold">5. San Antonio Spurs:</span> 15-7</li>
-                    <li><span class="font-semibold">6. Minnesota Timberwolves:</span> 15-8</li>
-                    <li><span class="font-semibold">7. Phoenix Suns:</span> 13-10</li>
-                    <li><span class="font-semibold">8. Golden State Warriors:</span> 13-12</li>
-                    <li><span class="font-semibold">9. Memphis Grizzlies:</span> 11-13</li>
-                    <li><span class="font-semibold">10. Portland Trail Blazers:</span> 9-15</li>
-                </ul>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead>
+                            <tr>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Team</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">W</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">L</th>
+                                <th class="px-3 py-2 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">PCT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200 text-black">
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Oklahoma City Thunder</td><td class="px-3 py-2 whitespace-nowrap">21</td><td class="px-3 py-2 whitespace-nowrap">1</td><td class="px-3 py-2 whitespace-nowrap">.955</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Houston Rockets</td><td class="px-3 py-2 whitespace-nowrap">15</td><td class="px-3 py-2 whitespace-nowrap">5</td><td class="px-3 py-2 whitespace-nowrap">.750</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Denver Nuggets</td><td class="px-3 py-2 whitespace-nowrap">16</td><td class="px-3 py-2 whitespace-nowrap">6</td><td class="px-3 py-2 whitespace-nowrap">.727</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Los Angeles Lakers</td><td class="px-3 py-2 whitespace-nowrap">16</td><td class="px-3 py-2 whitespace-nowrap">6</td><td class="px-3 py-2 whitespace-nowrap">.727</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">San Antonio Spurs</td><td class="px-3 py-2 whitespace-nowrap">15</td><td class="px-3 py-2 whitespace-nowrap">7</td><td class="px-3 py-2 whitespace-nowrap">.682</td></tr>
+                            <tr><td class="px-3 py-2 whitespace-nowrap">Minnesota Timberwolves</td><td class="px-3 py-2 whitespace-nowrap">14</td><td class="px-3 py-2 whitespace-nowrap">8</td><td class="px-3 py-2 whitespace-nowrap">.636</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-xs text-gray-700 mt-4">Based on current 2025-2026 season standings.</p>
             </div>
         </div>
     </section>
 
-    <!-- Top Performances and Highlights Section -->
+    <!-- Top Performances and Highlights -->
     <section class="mb-10">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center lg:text-left">Top Performances & Highlights</h2>
-        <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-blue-600">
-            <ul class="list-disc list-inside space-y-3 text-black">
-                <li><span class="font-semibold">Deni Avdija (POR):</span> Recorded a 31-point triple-double (31 Pts, 19 Reb, 10 Ast) on December 1st against the Thunder, joining Clyde Drexler and Damian Lillard as the only Blazers with 500+ points, 100+ rebounds, and 100+ assists in the first 20 games of a season.</li>
-                <li><span class="font-semibold">Jaylen Brown (BOS):</span> Led the Celtics with 30 points in their 121-113 win over the Raptors.</li>
-                <li><span class="font-semibold">Jalen Brunson (NYK):</span> Scored 30 points and dished out 9 assists in the Knicks' victory over the Magic.</li>
-                <li><span class="font-semibold">Warriors' Three-Point Barrage:</span> Golden State hit 22 three-pointers (22-of-47) in their dominant win against the Bulls.</li>
-            </ul>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 text-center">Top Performances & Major Headlines</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-yellow-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Anthony Edwards' 40-Point Outburst</h3>
+                <p class="text-black mb-4">Minnesota Timberwolves guard Anthony Edwards erupted for 40 points on 15-for-21 shooting in the team's recent game against the Phoenix Suns on December 8, 2025.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-yellow-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Jaylen Brown Named EC Player of the Week</h3>
+                <p class="text-black mb-4">Boston Celtics star Jaylen Brown has been named the Eastern Conference Player of the Week after leading his team to five consecutive wins. He averaged 34 points, 6.7 rebounds, and 5.7 assists during this stretch, including a 42-point game against the Knicks.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-yellow-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Thunder Chasing History</h3>
+                <p class="text-black mb-4">The Oklahoma City Thunder could tie Golden State's record for the best 25-game start in NBA history (24-1) if they defeat the Phoenix Suns in their upcoming NBA Cup quarterfinal.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-yellow-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">NBA Trade Deadline Buzz Heating Up</h3>
+                <p class="text-black mb-4">With December 15th approaching, the unofficial start of trade season, several high-profile players including Giannis Antetokounmpo, Ja Morant, and Trae Young are being mentioned in trade rumors.</p>
+            </div>
         </div>
     </section>
 
     <!-- Injury Report -->
     <section>
-        <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center lg:text-left">Injury Report</h2>
-        <div class="bg-white p-6 rounded-lg shadow-xl text-black border-t-4 border-red-500">
-            <ul class="list-disc list-inside space-y-3 text-black">
-                <li><span class="font-semibold">Tyrese Haliburton (IND):</span> Out for the entire 2025-26 season due to a torn right Achilles tendon.</li>
-                <li><span class="font-semibold">Franz Wagner (ORL):</span> Sustained a lower leg injury during the Magic-Knicks game on Dec 7. Status TBD.</li>
-                <li><span class="font-semibold">Marcus Smart (LAL):</span> Day-to-day with a back injury, aiming for a return by Wednesday.</li>
-                <li><span class="font-semibold">Zion Williamson (NOP):</span> Out for Dec 8 game (right adductor injury).</li>
-                <li><span class="font-semibold">Victor Wembanyama (SAS):</span> Nearing return from left calf strain, but out for Dec 8 game.</li>
-                <li><span class="font-semibold">Devin Booker (PHX):</span> Out for Dec 8 game (right groin strain).</li>
-                <li><span class="font-semibold">Karl-Anthony Towns (NYK):</span> Out with left calf tightness.</li>
-                <li><span class="font-semibold">Shai Gilgeous-Alexander (OKC):</span> Missed Dec 7 game with left elbow bursitis.</li>
-            </ul>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 text-center">NBA Injury Report</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Phoenix Suns Injuries -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-red-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Phoenix Suns</h3>
+                <ul class="list-disc list-inside text-black">
+                    <li>Devin Booker: Out (Right Groin Strain)</li>
+                    <li>Jalen Green: Out (Right Hamstring Strain)</li>
+                    <li>Dillon Brooks: Questionable (Left Achilles Soreness)</li>
+                    <li>Isaiah Livers: Out (Right Hip Strain)</li>
+                </ul>
+            </div>
+            <!-- Minnesota Timberwolves Injuries -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-yellow-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Minnesota Timberwolves</h3>
+                <ul class="list-disc list-inside text-black">
+                    <li>Anthony Edwards: Questionable (Illness)</li>
+                    <li>Terrence Shannon Jr.: Questionable (Illness)</li>
+                </ul>
+            </div>
+            <!-- Other Notable Injuries -->
+            <div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-red-500">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Other Key Injuries</h3>
+                <ul class="list-disc list-inside text-black">
+                    <li>Tyrese Haliburton (IND): Out for 2025-2026 season (Torn Right Achilles Tendon)</li>
+                    <li>Victor Wembanyama (SAS): Out (Left Calf Strain)</li>
+                    <li>Jayson Tatum (BOS): Expected to miss most/all of 2025-2026 season (Ruptured Right Achilles Tendon)</li>
+                </ul>
+            </div>
         </div>
     </section>
-
 </div>
         </main>
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on December 08, 2025 at 08:23 AM</p>
+            <p>Generated on December 09, 2025 at 08:22 AM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
