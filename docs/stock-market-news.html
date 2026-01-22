@@ -33,42 +33,63 @@
 
         <!-- Generated Content -->
         <main class="animate-fade-in">
-            <div class="min-h-screen bg-gradient-to-br from-blue-500 via-teal-500 to-purple-600 p-4 sm:p-6 lg:p-8 text-white">
+            <div class="min-h-screen bg-gradient-to-br from-blue-700 via-teal-500 to-purple-600 p-6 sm:p-10 text-white font-sans">
   <div class="max-w-7xl mx-auto">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-center mb-10 text-gray-900 leading-tight">
-<p class="text-gray-200 my-3 leading-relaxed">Daily Capital Market News</p>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-8 text-center drop-shadow-lg">
+<p class="text-gray-200 my-3 leading-relaxed">Daily Capital Market News <br class="sm:hidden"> January 22, 2026</p>
     </h1>
 
-    <div class="bg-white rounded-xl shadow-lg p-6 sm:p-8 mb-8">
-      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-200 pb-3">
-<p class="text-gray-200 my-3 leading-relaxed">Global Capital Market Highlights <span class="text-base font-normal text-gray-600">(January 22, 2026)</span></p>
-      </h2>
-      <ul class="list-disc pl-5 space-y-3 text-black">
-        <li>U.S. stock futures advanced following a significant rebound in the previous session, with the Nasdaq 100, S&P 500, and Dow Jones Industrial Average futures all showing gains.</li>
-        <li>This positive sentiment was largely driven by an easing of geopolitical tensions, as President Trump announced at the World Economic Forum that he would not proceed with planned tariffs on Europe and mentioned a "framework" agreement on Greenland.</li>
-        <li>European indexes also opened higher, and Asian markets generally advanced, tracking Wall Street's gains.</li>
-        <li>In Asia, Japan's Nikkei 225 climbed 1.7% to 53,688.89, led by technology stocks, while South Korea's Kospi closed 0.9% higher, crossing the 5,000 mark for the first time. Hong Kong's Hang Seng Index and China's Shanghai Composite also saw modest gains.</li>
-        <li>Investors are closely monitoring upcoming economic data, specifically Thursday's release of the Personal Consumption Expenditures (PCE) price index, the Federal Reserve's preferred inflation gauge, and weekly initial jobless claims.</li>
-        <li>Policymakers indicate that inflation remains "too high" with the underlying measure hovering around 3%, suggesting the continued need for restrictive monetary policy.</li>
-        <li>The U.S. 10-year Treasury yield was trending lower, near 4.23%.</li>
-        <li>In commodities, WTI crude oil futures were lower, hovering near $60.49 per barrel, and Gold Spot U.S. dollar price decreased to approximately $4,827 per ounce, after recently hitting a record high of $4,888.</li>
-        <li>Companies scheduled to report earnings today include Intel (INTC), Visa (V), and GE Aerospace (GE). Alcoa Corporation (AA) is also slated to report after market close.</li>
-        <li>EQT Group announced plans to combine with Coller Capital, marking a strategic entry into the secondaries market.</li>
-        <li>Australian copper-focused mining company 29Metals successfully launched a A$150 million capital raise.</li>
-      </ul>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <!-- Global Markets Card -->
+      <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 transform transition-all duration-300 hover:scale-105">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-teal-400 pb-3">Global Capital Market Highlights</h2>
+        <ul class="space-y-4 text-black text-lg">
+          <li>
+            <strong class="font-semibold text-white">US Stock Markets Rally Continues:</strong> Major US equity indexes, including the Dow, Nasdaq, and S&P 500, extended their gains, building on a strong rebound from Wednesday. This positive movement was largely attributed to easing geopolitical tensions over Greenland and President Trump's decision to retract threats of new tariffs on European allies.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Inflation Data Meets Expectations:</strong> The Personal Consumption Expenditures (PCE) price index data for October and November showed a 0.2% month-over-month increase and a 2.8% year-over-year rise (excluding food and fuel for November), aligning with economists' expectations but remaining above the Federal Reserve's 2% target.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Treasury Yields and Commodities:</strong> The 10-year Treasury yield remained relatively stable at approximately 4.27%. Crude oil prices dipped below $60 per barrel as geopolitical concerns subsided. Conversely, safe-haven gold futures advanced to around $4,870 an ounce, after hitting a new all-time high of nearly $4,900 on Wednesday. Bitcoin was observed trading around $89,100.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Natural Gas Surges:</strong> Natural gas prices experienced a significant surge, driven by forecasts of an impending severe Arctic cold wave across much of the Midwestern and Eastern United States, increasing demand expectations.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Notable Corporate Earnings:</strong>
+            <ul class="list-disc list-inside ml-4 space-y-2">
+              <li><strong class="font-semibold text-white">GE Aerospace (GE)</strong> reported strong quarterly results, surpassing analyst estimates, and provided an optimistic outlook for 2026.</li>
+              <li><strong class="font-semibold text-white">Procter & Gamble (PG)</strong> shares declined after the consumer products giant missed sales estimates in its latest quarterly report.</li>
+              <li><strong class="font-semibold text-white">Abbott Laboratories (ABT)</strong> and <strong class="font-semibold text-white">McCormick (MKC)</strong> also saw their stocks fall following their quarterly earnings announcements.</li>
+              <li><strong class="font-semibold text-white">Intel (INTC)</strong> shares were slightly down in pre-market trading, ahead of its fourth-quarter results, after experiencing a nearly 12% surge on Wednesday.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Israeli Markets Card -->
+      <div class="bg-white rounded-xl shadow-2xl p-6 sm:p-8 transform transition-all duration-300 hover:scale-105">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-teal-400 pb-3">Israeli Capital Market Insights</h2>
+        <ul class="space-y-4 text-black text-lg">
+          <li>
+            <strong class="font-semibold text-white">Bank Hapoalim's Landmark Bond Issuance:</strong> Bank Hapoalim, one of Israel's largest banks, successfully executed a US$2 billion bond issuance. This represents the largest foreign bond issuance by an Israeli bank to date, attracting approximately US$7 billion in demand from institutional investors.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Homeland Security Sector Expansion:</strong> KeepZone AI Inc., a wholly-owned subsidiary of Jeffs' Brands Ltd. (Nasdaq: JFBR), announced a non-exclusive distribution agreement with STI Ltd., an Israeli developer of specialized homeland security technologies. This agreement covers the distribution of STI's products in Canada and Mexico.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Attractive Savings Rates Amidst Rate Cut Expectations:</strong> Economists anticipate that the Bank of Israel's interest rate will likely decrease to 3.25%-3.5% by the end of 2026. This outlook makes current savings account rates in Israel particularly appealing for locking in higher returns.
+          </li>
+          <li>
+            <strong class="font-semibold text-white">Strong Israeli Market Performance:</strong> Israeli stocks have demonstrated notable outperformance compared to the S&P 500 over the past year. This is attributed to a ceasefire in Gaza and favorable valuations. The Bank of Israel projects a robust 5.2% GDP growth for 2026, significantly surpassing the expected growth rate in the United States.
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="bg-white rounded-xl shadow-lg p-6 sm:p-8">
-      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-200 pb-3">
-<p class="text-gray-200 my-3 leading-relaxed">Israeli Capital Market News <span class="text-base font-normal text-gray-600">(January 22, 2026)</span></p>
-      </h2>
-      <ul class="list-disc pl-5 space-y-3 text-black">
-        <li>The Tel Aviv Stock Exchange (TASE) is transitioning to a Monday-Friday trading week, effective from January 5, 2026, to align with global market standards. This move aims to attract foreign investors, improve market accessibility, and potentially facilitate the inclusion of Israeli stocks in leading international indices. Friday trading will conclude at 2:00 p.m.</li>
-        <li>Israeli cybersecurity company Claroty completed a $150 million Series F financing round, led by Golub Growth, bringing its valuation to over $3 billion.</li>
-        <li>The Israel Tax Authority's cryptocurrency voluntary disclosure program has reportedly "fallen flat." In response, the Tax Authority director plans to establish a bank account in the U.S. to allow tax payments on cryptocurrency profits, citing less stringent U.S. banking rules.</li>
-        <li>Concerns were raised by capital market representatives at a Knesset Finance Committee session regarding the Bank of Israel's stance on mutual hedge funds, which are reportedly approaching NIS 4 billion.</li>
-        <li>According to reports, Israel's foreign ministry is discussing a potential withdrawal from the Paris Agreement due to pressure from the U.S., a significant shift from its historical support for climate accords.</li>
-      </ul>
+    <div class="text-center text-white text-sm mt-10 opacity-75">
+      <p>Information accurate as of January 22, 2026.</p>
     </div>
   </div>
 </div>
@@ -76,7 +97,7 @@
 
         <!-- Footer -->
         <footer class="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Generated on January 22, 2026 at 12:28 PM</p>
+            <p>Generated on January 22, 2026 at 04:40 PM</p>
             <p class="mt-2">Powered by Gemini AI | Daily News Hub</p>
         </footer>
     </div>
