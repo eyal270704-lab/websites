@@ -41,7 +41,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           echo "Discovering newsfeed workflows..."
-          python scripts/diagnose_workflow_failure.py --json > diagnostic_results.json
+          # Allow exit code 1 (indicates failures found, which is expected)
+          python scripts/diagnose_workflow_failure.py --json > diagnostic_results.json || true
 
           # Extract workflow names
           workflows=$(python -c "
@@ -62,7 +63,8 @@ jobs:
           echo "================================"
           echo "WORKFLOW DIAGNOSTIC SUMMARY"
           echo "================================"
-          python scripts/diagnose_workflow_failure.py
+          # Allow exit code 1 (indicates failures found)
+          python scripts/diagnose_workflow_failure.py || true
           echo "================================"
 
       - name: Process failures and apply fixes
