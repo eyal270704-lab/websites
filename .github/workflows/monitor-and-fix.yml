@@ -37,6 +37,8 @@ jobs:
 
       - name: Auto-discover newsfeed workflows
         id: discover
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "Discovering newsfeed workflows..."
           python scripts/diagnose_workflow_failure.py --json > diagnostic_results.json
@@ -54,6 +56,8 @@ jobs:
           echo "Discovered workflows: $workflows"
 
       - name: Display diagnostic summary
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "================================"
           echo "WORKFLOW DIAGNOSTIC SUMMARY"
