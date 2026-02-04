@@ -1,0 +1,172 @@
+name: Auto-Monitor and Fix Workflows
+
+on:
+  schedule:
+    # Run every hour at minute 0 (2x slower than original 30-min plan per user request)
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no actual fixes)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write      # For git operations and committing fix_attempts.json
+  issues: write        # For creating GitHub Issues
+  actions: write       # For triggering workflows
+
+env:
+  DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+  AUTO_FIX_ENABLED: true  # Set to false to disable auto-fixing
+
+jobs:
+  monitor-and-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Auto-discover newsfeed workflows
+        id: discover
+        run: |
+          echo "Discovering newsfeed workflows..."
+          python scripts/diagnose_workflow_failure.py --json > diagnostic_results.json
+
+          # Extract workflow names
+          workflows=$(python -c "
+          import json
+          with open('diagnostic_results.json') as f:
+              results = json.load(f)
+              workflows = [r['workflow'] for r in results]
+              print(','.join(workflows))
+          ")
+
+          echo "workflows=$workflows" >> $GITHUB_OUTPUT
+          echo "Discovered workflows: $workflows"
+
+      - name: Display diagnostic summary
+        run: |
+          echo "================================"
+          echo "WORKFLOW DIAGNOSTIC SUMMARY"
+          echo "================================"
+          python scripts/diagnose_workflow_failure.py
+          echo "================================"
+
+      - name: Process failures and apply fixes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Processing failures and applying fixes..."
+
+          # Read diagnostic results
+          if [ ! -f diagnostic_results.json ]; then
+            echo "No diagnostic results found"
+            exit 0
+          fi
+
+          # Process each workflow's failures
+          python << 'EOF'
+          import json
+          import subprocess
+          import os
+
+          dry_run = os.environ.get('DRY_RUN', 'false').lower() == 'true'
+          auto_fix_enabled = os.environ.get('AUTO_FIX_ENABLED', 'true').lower() == 'true'
+
+          if not auto_fix_enabled:
+              print("⏸️  Auto-fix is disabled. Only diagnostics will run.")
+              exit(0)
+
+          with open('diagnostic_results.json') as f:
+              results = json.load(f)
+
+          total_fixes_attempted = 0
+          total_fixes_successful = 0
+
+          for workflow_result in results:
+              workflow = workflow_result['workflow']
+              status = workflow_result['status']
+
+              if status != 'failing':
+                  print(f"✅ {workflow}: Healthy, no action needed")
+                  continue
+
+              print(f"\n🔍 Processing failures for {workflow}...")
+
+              failures = workflow_result.get('failures', [])
+              if not failures:
+                  continue
+
+              # Get most recent failure to fix
+              recent_failure = failures[0]
+              diagnosis = recent_failure['diagnosis']
+              failure_type = diagnosis['type']
+              fixable = diagnosis['fixable']
+              run_id = recent_failure['run_id']
+
+              print(f"  Latest failure: {failure_type} (fixable: {fixable})")
+
+              # Apply fix if possible
+              cmd = [
+                  'python', 'scripts/autofix_workflow.py',
+                  '--workflow', workflow,
+                  '--failure-type', failure_type,
+                  '--run-id', str(run_id)
+              ]
+
+              if dry_run:
+                  cmd.append('--dry-run')
+
+              print(f"  Running: {' '.join(cmd)}")
+              result = subprocess.run(cmd, capture_output=True, text=True)
+
+              total_fixes_attempted += 1
+
+              if result.returncode == 0:
+                  print(f"  ✅ Fix applied successfully")
+                  total_fixes_successful += 1
+              else:
+                  print(f"  ❌ Fix failed or skipped:")
+                  print(f"     {result.stdout}")
+                  if result.stderr:
+                      print(f"     Error: {result.stderr}")
+
+          print(f"\n{'='*60}")
+          print(f"SUMMARY: {total_fixes_successful}/{total_fixes_attempted} fixes successful")
+          print(f"{'='*60}")
+          EOF
+
+      - name: Commit fix attempts log
+        if: env.DRY_RUN == 'false'
+        run: |
+          # Check if fix_attempts.json was created/modified
+          if [ -f .github/fix_attempts.json ]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "Auto-Monitor Bot"
+
+            git add .github/fix_attempts.json
+
+            # Only commit if there are changes
+            if git diff --cached --quiet; then
+              echo "No changes to fix attempts log"
+            else
+              git commit -m "📊 Update fix attempts log - $(date -u +'%Y-%m-%d %H:%M UTC')"
+              git push
+              echo "✅ Fix attempts log updated"
+            fi
+          fi
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "Monitor cycle completed at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          echo "Next run: $(date -u -d '+1 hour' +'%Y-%m-%d %H:%M:%S UTC')"
