@@ -231,18 +231,20 @@ def categorize_failure(log_content: str) -> Dict:
     }
 
 
-def diagnose_workflow(workflow_name: str, limit: int = 5) -> Dict:
+def diagnose_workflow(workflow_name: str, limit: int = 5, quiet: bool = False) -> Dict:
     """
     Comprehensive diagnosis of a workflow's recent failures
 
     Args:
         workflow_name: Workflow filename
         limit: Number of recent runs to analyze
+        quiet: If True, suppress progress messages (for JSON output mode)
 
     Returns:
         Diagnostic report dictionary
     """
-    print(f"Diagnosing workflow: {workflow_name}")
+    if not quiet:
+        print(f"Diagnosing workflow: {workflow_name}")
 
     failures = get_recent_failures(workflow_name, limit)
 
@@ -258,7 +260,8 @@ def diagnose_workflow(workflow_name: str, limit: int = 5) -> Dict:
 
     for run in failures:
         run_id = run['databaseId']
-        print(f"  Analyzing run {run_id}...", end=' ')
+        if not quiet:
+            print(f"  Analyzing run {run_id}...", end=' ')
 
         logs = download_run_logs(run_id)
         diagnosis = categorize_failure(logs)
@@ -271,7 +274,8 @@ def diagnose_workflow(workflow_name: str, limit: int = 5) -> Dict:
             'diagnosis': diagnosis
         })
 
-        print(f"{diagnosis['type']} ({diagnosis['severity']})")
+        if not quiet:
+            print(f"{diagnosis['type']} ({diagnosis['severity']})")
 
     # Calculate failure statistics
     fixable_count = sum(1 for f in diagnosed_failures if f['diagnosis']['fixable'])
@@ -321,12 +325,13 @@ def main():
             print("No newsfeed workflows found!", file=sys.stderr)
             sys.exit(1)
 
-        print(f"Auto-discovered {len(workflows)} newsfeed workflow(s): {', '.join(workflows)}\n")
+        if not args.json:
+            print(f"Auto-discovered {len(workflows)} newsfeed workflow(s): {', '.join(workflows)}\n")
 
-    # Diagnose each workflow
+    # Diagnose each workflow (quiet mode for JSON output)
     results = []
     for workflow in workflows:
-        diagnosis = diagnose_workflow(workflow, args.limit)
+        diagnosis = diagnose_workflow(workflow, args.limit, quiet=args.json)
         results.append(diagnosis)
 
     # Output results
