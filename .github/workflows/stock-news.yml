@@ -54,6 +54,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "📈 Update stock market news - $(date +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
             git push
           fi
 
