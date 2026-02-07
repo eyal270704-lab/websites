@@ -170,8 +170,10 @@ function Card({ title, description, path, badge, gradient, tags, icon, external,
   )
 
   if (external) {
+    // External links need the base URL prefix for GitHub Pages
+    const fullPath = `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
     return (
-      <a href={path} className={cardClasses} style={{ animationDelay: `${delay}s` }}>
+      <a href={fullPath} className={cardClasses} style={{ animationDelay: `${delay}s` }}>
         {content}
       </a>
     )
