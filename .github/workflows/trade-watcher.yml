@@ -1,22 +1,18 @@
-name: Generate Stock Market News
+name: Generate Trade Watcher Data
 
 on:
   schedule:
-    # Runs 3 times daily
-    # 9 AM IST = 7 AM UTC
-    - cron: '0 7 * * *'
-    # 2 PM IST = 12 PM UTC
-    - cron: '0 12 * * *'
-    # 6 PM IST = 4 PM UTC
-    - cron: '0 16 * * *'
+    # Runs once daily at 6 AM UTC (before market open)
+    - cron: '0 6 * * 1-5'  # Weekdays only
 
+  # Allow manual triggering for testing
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate-stock-news:
+  generate-trades:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,11 +31,11 @@ jobs:
           pip install --upgrade pip
           pip install google-genai
 
-      - name: Generate stock market news data
+      - name: Generate trade setups
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python scripts/generate_newsfeed.py --feed stocks
+          python scripts/generate_trades.py
 
       - name: Commit and push changes
         run: |
@@ -47,16 +43,17 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/
 
+          # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "📈 Update stock market news - $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "📊 Update trade setups - $(date +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase
             git push
           fi
 
       - name: Summary
         run: |
-          echo "✅ Stock news generation complete!"
-          echo "📄 Updated: public/data/stocks.json"
-          echo "🌐 Live at: https://eyal270704-lab.github.io/websites/stock-market-news"
+          echo "✅ Trade data generation complete!"
+          echo "📄 Updated: public/data/trades.json"
+          echo "🌐 Live at: https://eyal270704-lab.github.io/websites/trade-watcher"

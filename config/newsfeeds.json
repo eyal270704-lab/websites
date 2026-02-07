@@ -1,20 +1,55 @@
 {
   "nba": {
-    "output_file": "basketball-news.html",
-    "prompt_secret": "NBA_PROMPT",
-    "card_id": "basketball",
-    "title": "Basketball News",
-    "card_class": "basketball",
-    "overrun_files": true,
-    "description": "Daily NBA updates with Israeli players spotlight"
+    "id": "nba",
+    "name": "Basketball News",
+    "route": "/basketball-news",
+    "dataFile": "nba.json",
+    "promptFile": "agents/prompts/nba.md",
+    "schedule": "0 8 * * *",
+    "theme": {
+      "gradient": "from-orange-500 to-red-500",
+      "icon": "basketball"
+    },
+    "enabled": true
   },
   "stocks": {
-    "output_file": "stock-market-news.html",
-    "prompt_secret": "STOCK_PROMPT",
-    "card_id": "stocks",
-    "title": "Stock Market News",
-    "card_class": "stocks",
-    "overrun_files": true,
-    "description": "Real-time market updates and analysis"
+    "id": "stocks",
+    "name": "Stock Market News",
+    "route": "/stock-market-news",
+    "dataFile": "stocks.json",
+    "promptFile": "agents/prompts/stocks.md",
+    "schedule": "0 7,12,16 * * *",
+    "theme": {
+      "gradient": "from-blue-500 to-indigo-600",
+      "icon": "chart"
+    },
+    "enabled": true
+  },
+  "creator": {
+    "id": "creator",
+    "name": "Creator Monetization",
+    "route": "/creator-monetization",
+    "dataFile": "creator.json",
+    "promptFile": "agents/prompts/creator.md",
+    "schedule": "0 6 * * 1",
+    "theme": {
+      "gradient": "from-teal-500 to-emerald-600",
+      "icon": "dollar"
+    },
+    "enabled": true
+  },
+  "trades": {
+    "id": "trades",
+    "name": "Trade Watcher",
+    "route": "/trade-watcher",
+    "dataFile": "trades.json",
+    "promptFile": "agents/prompts/trade-analyzer.md",
+    "schedule": "0 6 * * 1-5",
+    "theme": {
+      "gradient": "from-amber-500 to-orange-600",
+      "icon": "trending"
+    },
+    "enabled": true,
+    "customComponent": true
   }
 }
