@@ -15,23 +15,21 @@ const pages = [
     )
   },
   {
-    title: 'Creator Monetization',
-    description: 'Compare YouTube, TikTok, and Instagram monetization models. Get AI-powered strategies for your content channel.',
-    path: '/creator-monetization.html',
-    external: true,
-    gradient: 'from-teal-500 to-emerald-600',
-    tags: ['YouTube', 'TikTok', 'Instagram', 'AI Strategy'],
+    title: 'Stock Market News',
+    description: 'Real-time market updates, trending stocks, financial news, and AI-powered market analysis.',
+    path: '/stock-market-news',
+    gradient: 'from-blue-500 to-indigo-600',
+    tags: ['Market Trends', 'Stocks', 'Analysis'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
       </svg>
     )
   },
   {
     title: 'Basketball News',
     description: 'Daily updates on NBA games, scores, player stats, and highlights. Stay on top of the basketball world.',
-    path: '/basketball-news.html',
-    external: true,
+    path: '/basketball-news',
     gradient: 'from-orange-500 to-red-500',
     tags: ['NBA', 'Scores', 'Live Updates'],
     icon: (
@@ -42,15 +40,14 @@ const pages = [
     )
   },
   {
-    title: 'Stock Market News',
-    description: 'Real-time market updates, trending stocks, financial news, and AI-powered market analysis.',
-    path: '/stock-market-news.html',
-    external: true,
-    gradient: 'from-blue-500 to-indigo-600',
-    tags: ['Market Trends', 'Stocks', 'Analysis'],
+    title: 'Creator Monetization',
+    description: 'Compare YouTube, TikTok, and Instagram monetization models. Get AI-powered strategies for your content channel.',
+    path: '/creator-monetization',
+    gradient: 'from-teal-500 to-emerald-600',
+    tags: ['YouTube', 'TikTok', 'Instagram', 'AI Strategy'],
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     )
   }
@@ -132,31 +129,26 @@ interface CardProps {
   gradient: string
   tags: string[]
   icon: React.ReactNode
-  external?: boolean
   delay: number
 }
 
-function Card({ title, description, path, badge, gradient, tags, icon, external, delay }: CardProps) {
-  const cardClasses = `
-    bg-gradient-to-br ${gradient}
-    rounded-2xl p-8 shadow-2xl
-    hover:translate-y-[-8px] hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)]
-    transition-all duration-300 cursor-pointer
-    relative animate-fade-in
-  `
-
-  const content = (
-    <>
+function Card({ title, description, path, badge, gradient, tags, icon, delay }: CardProps) {
+  return (
+    <Link
+      to={path}
+      className={`
+        bg-gradient-to-br ${gradient}
+        rounded-2xl p-8 shadow-2xl
+        hover:translate-y-[-8px] hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)]
+        transition-all duration-300 cursor-pointer
+        relative animate-fade-in
+      `}
+      style={{ animationDelay: `${delay}s` }}
+    >
       <div className="flex justify-between items-start mb-4">
-        {badge ? (
-          <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
-            {badge}
-          </span>
-        ) : (
-          <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
-            Active
-          </span>
-        )}
+        <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
+          {badge || 'Active'}
+        </span>
         <span className="text-white/80">{icon}</span>
       </div>
 
@@ -175,28 +167,6 @@ function Card({ title, description, path, badge, gradient, tags, icon, external,
         <span className="text-sm font-semibold">Explore Dashboard →</span>
         <span className="text-xs opacity-75">Updated Daily</span>
       </div>
-    </>
-  )
-
-  if (external) {
-    return (
-      <a
-        href={path}
-        className={cardClasses}
-        style={{ animationDelay: `${delay}s` }}
-      >
-        {content}
-      </a>
-    )
-  }
-
-  return (
-    <Link
-      to={path}
-      className={cardClasses}
-      style={{ animationDelay: `${delay}s` }}
-    >
-      {content}
     </Link>
   )
 }

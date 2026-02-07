@@ -2,15 +2,13 @@ name: Generate NBA News
 
 on:
   schedule:
-    # Runs daily at 10 AM Israel time (winter - UTC+2)
-    # 10 AM IST = 8 AM UTC
+    # Runs daily at 10 AM Israel time (8 AM UTC)
     - cron: '0 8 * * *'
 
-  # Allow manual triggering for testing
   workflow_dispatch:
 
 permissions:
-  contents: write  # Need write permission to commit changes
+  contents: write
 
 jobs:
   generate-nba-news:
@@ -20,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}  # Use PAT to trigger deploy workflow
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,10 +30,9 @@ jobs:
           pip install --upgrade pip
           pip install google-genai
 
-      - name: Generate NBA news page
+      - name: Generate NBA news data
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NBA_PROMPT: ${{ secrets.NBA_PROMPT }}
         run: |
           python scripts/generate_newsfeed.py --feed nba
 
@@ -43,9 +40,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          git add public/data/
 
-          # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -57,5 +53,5 @@ jobs:
       - name: Summary
         run: |
           echo "✅ NBA news generation complete!"
-          echo "📄 Updated: docs/basketball-news.html"
-          echo "🌐 Live at: https://eyal270704-lab.github.io/websites/basketball-news.html"
+          echo "📄 Updated: public/data/nba.json"
+          echo "🌐 Live at: https://eyal270704-lab.github.io/websites/basketball-news"
