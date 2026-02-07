@@ -87,13 +87,20 @@ def run_command(cmd: List[str], capture_output: bool = True) -> Tuple[int, str, 
 
 def discover_newsfeed_workflows() -> List[str]:
     """
-    Auto-discover all GitHub Actions workflows that use generate_newsfeed.py
+    Auto-discover all GitHub Actions workflows that generate content for the site.
+
+    This includes:
+    - Newsfeed workflows (using generate_newsfeed.py)
+    - Trade watcher workflows (using generate_trades.py)
 
     Returns:
-        List of workflow file basenames (e.g., ['nba-news.yml', 'stock-news.yml'])
+        List of workflow file basenames (e.g., ['nba-news.yml', 'trade-watcher.yml'])
     """
     workflows_dir = '.github/workflows'
-    newsfeed_workflows = []
+    content_workflows = []
+
+    # Scripts that generate site content
+    content_scripts = ['generate_newsfeed.py', 'generate_trades.py']
 
     if not os.path.exists(workflows_dir):
         print(f"Warning: {workflows_dir} not found", file=sys.stderr)
@@ -105,13 +112,13 @@ def discover_newsfeed_workflows() -> List[str]:
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # Check if workflow uses generate_newsfeed.py
-                    if 'generate_newsfeed.py' in content:
-                        newsfeed_workflows.append(filename)
+                    # Check if workflow uses any content generation script
+                    if any(script in content for script in content_scripts):
+                        content_workflows.append(filename)
             except Exception as e:
                 print(f"Warning: Could not read {filepath}: {e}", file=sys.stderr)
 
-    return sorted(newsfeed_workflows)
+    return sorted(content_workflows)
 
 
 def get_recent_failures(workflow_name: str, limit: int = 5) -> List[Dict]:

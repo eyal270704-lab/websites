@@ -3,52 +3,6 @@ import { Link } from 'react-router-dom'
 import TradeCard from '../components/trade/TradeCard'
 import { TradeSetup } from '../types/trade'
 
-// Mock data for development - will be replaced by fetched JSON
-const MOCK_TRADES: TradeSetup[] = [
-  {
-    ticker: "$TSLA",
-    name: "Tesla Inc.",
-    sector: "Consumer Cyclical",
-    entry: "$182.50",
-    stop: "$175.00",
-    structure: "0.618 Fib",
-    trend: "> 150MA",
-    trendLabel: "Trend",
-    analysis: "Stock is flagging nicely above the 150-day MA. Just touched the Golden Zone (0.618) on the daily chart with volume drying up, suggesting sellers are exhausted.",
-    riskScore: 3,
-    footerTag: "High Confidence",
-    setupType: "perfect"
-  },
-  {
-    ticker: "$NVDA",
-    name: "NVIDIA Corp.",
-    sector: "Technology",
-    entry: "$940.00",
-    stop: "$915.00",
-    structure: "0.5 Fib",
-    trend: "1.5x",
-    trendLabel: "RVOL",
-    analysis: "Aggressive momentum play. Bounced off the 20-day MA which aligns with the 0.5 Fibonacci retracement. Strong relative strength vs QQQ.",
-    riskScore: 5,
-    footerTag: "Momentum",
-    setupType: "momentum"
-  },
-  {
-    ticker: "$PLTR",
-    name: "Palantir Tech",
-    sector: "Software",
-    entry: "$24.15",
-    stop: "$22.80",
-    structure: "Support Test",
-    trend: "Uptrend",
-    trendLabel: "Trend",
-    analysis: "Classic breakout and retest of previous resistance which is now acting as floor. Volume is increasing on green days indicating accumulation.",
-    riskScore: 4,
-    footerTag: "Accumulation",
-    setupType: "breakout"
-  }
-]
-
 export default function TradeWatcher() {
   const [trades, setTrades] = useState<TradeSetup[]>([])
   const [loading, setLoading] = useState(true)
@@ -57,11 +11,10 @@ export default function TradeWatcher() {
   useEffect(() => {
     const loadTrades = async () => {
       try {
-        // Try to fetch from JSON file first
         const response = await fetch(`${import.meta.env.BASE_URL}data/trades.json`)
         if (response.ok) {
           const data = await response.json()
-          setTrades(data.trades)
+          setTrades(data.trades || [])
           setLastUpdated(new Date(data.generatedAt).toLocaleString('en-US', {
             weekday: 'short',
             year: 'numeric',
@@ -71,30 +24,15 @@ export default function TradeWatcher() {
             minute: '2-digit'
           }))
         } else {
-          // Fall back to mock data during development
-          console.log('Using mock data (JSON not available)')
-          setTrades(MOCK_TRADES)
-          setLastUpdated(new Date().toLocaleString('en-US', {
-            weekday: 'short',
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-          }))
+          // No data available
+          setTrades([])
+          setLastUpdated('')
         }
       } catch (error) {
-        // Fall back to mock data on error
-        console.log('Using mock data (fetch failed)')
-        setTrades(MOCK_TRADES)
-        setLastUpdated(new Date().toLocaleString('en-US', {
-          weekday: 'short',
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        }))
+        // Failed to load data
+        console.error('Failed to load trades:', error)
+        setTrades([])
+        setLastUpdated('')
       } finally {
         setLoading(false)
       }
@@ -162,8 +100,17 @@ export default function TradeWatcher() {
             <p>Loading trade setups...</p>
           </div>
         ) : trades.length === 0 ? (
-          <div className="text-center text-gray-400 py-20">
-            <p>No trade setups available</p>
+          <div className="text-center py-20">
+            <div className="bg-purple-900/30 border border-purple-500/20 rounded-xl p-8 max-w-md mx-auto">
+              <svg className="w-12 h-12 text-purple-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <h3 className="text-lg font-semibold text-white mb-2">No Trade Data Yet</h3>
+              <p className="text-gray-400 text-sm">
+                Trade setups are generated daily at 6:00 AM UTC on weekdays.
+                Check back after the market analysis completes.
+              </p>
+            </div>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
