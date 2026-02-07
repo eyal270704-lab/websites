@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-02-07T14:30:00Z",
+  "generatedBy": "stocks-agent",
+  "feedType": "stocks",
+  "title": "Stock Market News",
+  "subtitle": "Market Close - February 7, 2026",
+  "badge": "Markets Closed",
+  "sections": [
+    {
+      "id": "pulse",
+      "title": "Market Pulse",
+      "cardType": "breaking",
+      "layout": "featured",
+      "items": [
+        {
+          "id": "pulse-1",
+          "headline": "Markets Rally on Strong Jobs Report",
+          "summary": "Major indices closed higher after better-than-expected employment data. The S&P 500 gained 1.2%, while the Nasdaq led with a 1.8% advance.",
+          "tags": ["Rally", "Jobs Report", "Fed Watch"]
+        }
+      ]
+    },
+    {
+      "id": "indices",
+      "title": "Major Indices",
+      "cardType": "stat",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "idx-1",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "5,892.45",
+          "statContext": "+1.21%"
+        },
+        {
+          "id": "idx-2",
+          "headline": "NASDAQ",
+          "statLabel": "Close",
+          "statValue": "18,456.78",
+          "statContext": "+1.84%"
+        },
+        {
+          "id": "idx-3",
+          "headline": "DOW",
+          "statLabel": "Close",
+          "statValue": "42,156.32",
+          "statContext": "+0.89%"
+        }
+      ]
+    },
+    {
+      "id": "movers",
+      "title": "Top Movers",
+      "cardType": "stock",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "stock-1",
+          "headline": "NVIDIA Corp.",
+          "ticker": "$NVDA",
+          "price": "$892.45",
+          "change": "+$45.20",
+          "changePercent": "+5.34%",
+          "direction": "up",
+          "summary": "AI chip demand continues to surge amid new data center contracts"
+        },
+        {
+          "id": "stock-2",
+          "headline": "Tesla Inc.",
+          "ticker": "$TSLA",
+          "price": "$245.80",
+          "change": "+$12.30",
+          "changePercent": "+5.27%",
+          "direction": "up",
+          "summary": "Q4 delivery numbers exceed analyst expectations"
+        },
+        {
+          "id": "stock-3",
+          "headline": "Apple Inc.",
+          "ticker": "$AAPL",
+          "price": "$198.50",
+          "change": "-$3.20",
+          "changePercent": "-1.59%",
+          "direction": "down",
+          "summary": "China sales concerns weigh on shares despite strong services growth"
+        },
+        {
+          "id": "stock-4",
+          "headline": "Meta Platforms",
+          "ticker": "$META",
+          "price": "$512.30",
+          "change": "+$18.90",
+          "changePercent": "+3.83%",
+          "direction": "up",
+          "summary": "Reality Labs losses narrow as VR adoption accelerates"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Market News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "news-1",
+          "headline": "Fed Signals Potential Rate Cut in March",
+          "summary": "Federal Reserve officials hint at possible rate reduction following cooling inflation data.",
+          "tags": ["Fed", "Interest Rates"],
+          "timestamp": "1 hour ago"
+        },
+        {
+          "id": "news-2",
+          "headline": "Tech Earnings Season Kicks Off Strong",
+          "summary": "Major technology companies report better-than-expected Q4 results, boosting sector sentiment.",
+          "tags": ["Earnings", "Tech"],
+          "timestamp": "3 hours ago"
+        }
+      ]
+    },
+    {
+      "id": "alert",
+      "cardType": "alert",
+      "layout": "list",
+      "items": [
+        {
+          "id": "alert-1",
+          "headline": "Not Financial Advice",
+          "summary": "This content is for informational purposes only. Always consult a financial advisor before making investment decisions.",
+          "alertType": "info"
+        }
+      ]
+    }
+  ]
+}

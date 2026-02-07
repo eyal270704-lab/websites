@@ -14,7 +14,11 @@ function App() {
           <NewsFeed
             feedId="nba"
             dataFile="nba.json"
-            theme={{ gradient: 'from-orange-500 to-red-500' }}
+            theme={{
+              gradient: 'from-orange-500 to-red-500',
+              bgGradient: 'from-slate-800 via-orange-900/50 to-slate-800',
+              accentColor: 'orange'
+            }}
           />
         }
       />
@@ -24,17 +28,11 @@ function App() {
           <NewsFeed
             feedId="stocks"
             dataFile="stocks.json"
-            theme={{ gradient: 'from-blue-500 to-indigo-600' }}
-          />
-        }
-      />
-      <Route
-        path="/creator-monetization"
-        element={
-          <NewsFeed
-            feedId="creator"
-            dataFile="creator.json"
-            theme={{ gradient: 'from-teal-500 to-emerald-600' }}
+            theme={{
+              gradient: 'from-blue-500 to-indigo-600',
+              bgGradient: 'from-slate-800 via-blue-900/50 to-slate-800',
+              accentColor: 'blue'
+            }}
           />
         }
       />

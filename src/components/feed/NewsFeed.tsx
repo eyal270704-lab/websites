@@ -7,6 +7,48 @@ interface NewsFeedProps {
   dataFile: string
   theme: {
     gradient: string
+    bgGradient: string
+    accentColor: 'orange' | 'blue' | 'purple' | 'green'
+  }
+}
+
+// Accent color mappings
+const accentColors = {
+  orange: {
+    border: 'border-orange-500/20',
+    text: 'text-orange-400',
+    bg: 'bg-orange-500/10',
+    borderSolid: 'border-orange-500/30',
+    pulse: 'bg-orange-400',
+    card: 'bg-orange-900/20',
+    spinner: 'border-orange-500/30 border-t-orange-500'
+  },
+  blue: {
+    border: 'border-blue-500/20',
+    text: 'text-blue-400',
+    bg: 'bg-blue-500/10',
+    borderSolid: 'border-blue-500/30',
+    pulse: 'bg-blue-400',
+    card: 'bg-blue-900/20',
+    spinner: 'border-blue-500/30 border-t-blue-500'
+  },
+  purple: {
+    border: 'border-purple-500/20',
+    text: 'text-purple-400',
+    bg: 'bg-purple-500/10',
+    borderSolid: 'border-purple-500/30',
+    pulse: 'bg-purple-400',
+    card: 'bg-purple-900/20',
+    spinner: 'border-purple-500/30 border-t-purple-500'
+  },
+  green: {
+    border: 'border-emerald-500/20',
+    text: 'text-emerald-400',
+    bg: 'bg-emerald-500/10',
+    borderSolid: 'border-emerald-500/30',
+    pulse: 'bg-emerald-400',
+    card: 'bg-emerald-900/20',
+    spinner: 'border-emerald-500/30 border-t-emerald-500'
   }
 }
 
@@ -14,6 +56,7 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
   const [feed, setFeed] = useState<NewsFeedType | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const colors = accentColors[theme.accentColor]
 
   useEffect(() => {
     const loadFeed = async () => {
@@ -36,9 +79,9 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/50 to-slate-900 text-white p-5">
+      <div className={`min-h-screen bg-gradient-to-br ${theme.bgGradient} text-white p-5`}>
         <div className="max-w-7xl mx-auto text-center py-20">
-          <div className="inline-block w-8 h-8 border-4 border-purple-500/30 border-t-purple-500 rounded-full animate-spin mb-4"></div>
+          <div className={`inline-block w-8 h-8 border-4 ${colors.spinner} rounded-full animate-spin mb-4`}></div>
           <p className="text-gray-400">Loading...</p>
         </div>
       </div>
@@ -47,9 +90,9 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
 
   if (error || !feed) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/50 to-slate-900 text-white p-5">
+      <div className={`min-h-screen bg-gradient-to-br ${theme.bgGradient} text-white p-5`}>
         <div className="max-w-7xl mx-auto">
-          <BackButton />
+          <BackButton accentColor={theme.accentColor} />
           <div className="text-center py-20">
             <p className="text-red-400">{error || 'Feed not available'}</p>
           </div>
@@ -59,12 +102,12 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/50 to-slate-900 text-white p-5">
+    <div className={`min-h-screen bg-gradient-to-br ${theme.bgGradient} text-white p-5`}>
       <div className="max-w-7xl mx-auto">
-        <BackButton />
+        <BackButton accentColor={theme.accentColor} />
 
         {/* Header */}
-        <header className="text-center mb-12 pb-8 border-b border-purple-500/20 animate-fade-in">
+        <header className={`text-center mb-12 pb-8 border-b ${colors.border} animate-fade-in`}>
           <h1 className={`text-4xl md:text-5xl font-extrabold bg-gradient-to-r ${theme.gradient} bg-clip-text text-transparent`}>
             {feed.title}
           </h1>
@@ -72,8 +115,8 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
             <p className="text-gray-400 mt-3">{feed.subtitle}</p>
           )}
           {feed.badge && (
-            <span className="inline-flex items-center gap-2 bg-purple-500/10 text-purple-400 border border-purple-500/30 px-4 py-2 rounded-full text-xs font-semibold mt-4">
-              <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
+            <span className={`inline-flex items-center gap-2 ${colors.bg} ${colors.text} border ${colors.borderSolid} px-4 py-2 rounded-full text-xs font-semibold mt-4`}>
+              <span className={`w-2 h-2 ${colors.pulse} rounded-full animate-pulse`}></span>
               {feed.badge}
             </span>
           )}
@@ -87,6 +130,7 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
               section={section}
               delay={idx * 0.1}
               theme={theme}
+              colors={colors}
             />
           ))}
         </main>
@@ -94,7 +138,7 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
         {/* Footer */}
         <footer className="text-center mt-16 pb-8">
           <p className="text-gray-500 text-xs">
-            Generated: <span className="text-purple-400/70">
+            Generated: <span className={`${colors.text} opacity-70`}>
               {new Date(feed.generatedAt).toLocaleString()}
             </span>
           </p>
@@ -119,12 +163,13 @@ export default function NewsFeed({ dataFile, theme }: NewsFeedProps) {
   )
 }
 
-function BackButton() {
+function BackButton({ accentColor }: { accentColor: string }) {
+  const colors = accentColors[accentColor as keyof typeof accentColors]
   return (
     <div className="mb-6">
       <Link
         to="/"
-        className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors text-sm font-medium"
+        className={`inline-flex items-center gap-2 ${colors.text} hover:opacity-80 transition-colors text-sm font-medium`}
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -139,9 +184,10 @@ interface FeedSectionProps {
   section: FeedSection
   delay: number
   theme: { gradient: string }
+  colors: typeof accentColors[keyof typeof accentColors]
 }
 
-function FeedSectionComponent({ section, delay, theme }: FeedSectionProps) {
+function FeedSectionComponent({ section, delay, theme, colors }: FeedSectionProps) {
   const layoutClass = section.layout === 'featured'
     ? 'grid grid-cols-1 gap-6'
     : section.layout === 'list'
@@ -163,6 +209,7 @@ function FeedSectionComponent({ section, delay, theme }: FeedSectionProps) {
             item={item}
             cardType={section.cardType}
             delay={delay + idx * 0.05}
+            colors={colors}
           />
         ))}
       </div>
@@ -174,44 +221,46 @@ interface FeedCardProps {
   item: FeedItem
   cardType: string
   delay: number
+  colors: typeof accentColors[keyof typeof accentColors]
 }
 
-function FeedCard({ item, cardType, delay }: FeedCardProps) {
-  // Render different card types
+function FeedCard({ item, cardType, delay, colors }: FeedCardProps) {
   switch (cardType) {
     case 'breaking':
-      return <BreakingCard item={item} delay={delay} />
+      return <BreakingCard item={item} delay={delay} colors={colors} />
     case 'game':
-      return <GameCard item={item} delay={delay} />
+      return <GameCard item={item} delay={delay} colors={colors} />
     case 'stock':
-      return <StockCard item={item} delay={delay} />
+      return <StockCard item={item} delay={delay} colors={colors} />
     case 'stat':
-      return <StatCard item={item} delay={delay} />
+      return <StatCard item={item} delay={delay} colors={colors} />
     case 'quote':
-      return <QuoteCard item={item} delay={delay} />
+      return <QuoteCard item={item} delay={delay} colors={colors} />
     case 'alert':
       return <AlertCard item={item} delay={delay} />
     case 'article':
     default:
-      return <ArticleCard item={item} delay={delay} />
+      return <ArticleCard item={item} delay={delay} colors={colors} />
   }
 }
 
-// Card Components
+// Card Components with themed colors
 
-function BreakingCard({ item, delay }: { item: FeedItem; delay: number }) {
+type ColorsType = typeof accentColors[keyof typeof accentColors]
+
+function BreakingCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   return (
     <div
-      className="bg-red-900/20 border border-red-500/30 rounded-xl p-6 animate-fade-in"
+      className={`${colors.card} border ${colors.border} rounded-xl p-6 animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
-      <span className="text-xs text-red-400 uppercase font-semibold tracking-wide">Breaking</span>
+      <span className={`text-xs ${colors.text} uppercase font-semibold tracking-wide`}>Breaking</span>
       <h3 className="text-2xl font-bold text-white mt-2">{item.headline}</h3>
       {item.summary && <p className="text-gray-300 mt-3">{item.summary}</p>}
       {item.tags && (
         <div className="flex gap-2 mt-4">
           {item.tags.map(tag => (
-            <span key={tag} className="text-xs bg-red-500/20 text-red-300 px-2 py-1 rounded">{tag}</span>
+            <span key={tag} className={`text-xs ${colors.bg} ${colors.text} px-2 py-1 rounded`}>{tag}</span>
           ))}
         </div>
       )}
@@ -219,14 +268,14 @@ function BreakingCard({ item, delay }: { item: FeedItem; delay: number }) {
   )
 }
 
-function GameCard({ item, delay }: { item: FeedItem; delay: number }) {
+function GameCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   return (
     <div
-      className="bg-purple-900/20 border border-purple-500/20 rounded-xl p-5 animate-fade-in"
+      className={`${colors.card} border ${colors.border} rounded-xl p-5 animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <div className="flex justify-between items-center mb-4">
-        <span className="text-xs text-gray-400 uppercase">{item.gameStatus}</span>
+        <span className={`text-xs ${colors.text} uppercase font-semibold`}>{item.gameStatus}</span>
         {item.gameTime && <span className="text-xs text-gray-500">{item.gameTime}</span>}
       </div>
       <div className="flex justify-between items-center">
@@ -244,18 +293,18 @@ function GameCard({ item, delay }: { item: FeedItem; delay: number }) {
   )
 }
 
-function StockCard({ item, delay }: { item: FeedItem; delay: number }) {
+function StockCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   const isUp = item.direction === 'up'
   const colorClass = isUp ? 'text-green-400' : item.direction === 'down' ? 'text-red-400' : 'text-gray-400'
 
   return (
     <div
-      className="bg-purple-900/20 border border-purple-500/20 rounded-xl p-5 animate-fade-in"
+      className={`${colors.card} border ${colors.border} rounded-xl p-5 animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <div className="flex justify-between items-start">
         <div>
-          <p className="text-xl font-bold text-white">{item.ticker}</p>
+          <p className={`text-xl font-bold ${colors.text}`}>{item.ticker}</p>
           <p className="text-sm text-gray-400">{item.headline}</p>
         </div>
         <div className="text-right">
@@ -270,10 +319,10 @@ function StockCard({ item, delay }: { item: FeedItem; delay: number }) {
   )
 }
 
-function ArticleCard({ item, delay }: { item: FeedItem; delay: number }) {
+function ArticleCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   return (
     <div
-      className="bg-purple-900/20 border border-purple-500/20 rounded-xl p-5 hover:border-purple-500/40 transition-colors animate-fade-in"
+      className={`${colors.card} border ${colors.border} rounded-xl p-5 hover:border-opacity-40 transition-colors animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <h3 className="text-lg font-bold text-white">{item.headline}</h3>
@@ -281,7 +330,7 @@ function ArticleCard({ item, delay }: { item: FeedItem; delay: number }) {
       {item.tags && (
         <div className="flex gap-2 mt-4">
           {item.tags.map(tag => (
-            <span key={tag} className="text-xs bg-purple-500/20 text-purple-300 px-2 py-1 rounded">{tag}</span>
+            <span key={tag} className={`text-xs ${colors.bg} ${colors.text} px-2 py-1 rounded`}>{tag}</span>
           ))}
         </div>
       )}
@@ -292,28 +341,29 @@ function ArticleCard({ item, delay }: { item: FeedItem; delay: number }) {
   )
 }
 
-function StatCard({ item, delay }: { item: FeedItem; delay: number }) {
+function StatCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   return (
     <div
-      className="bg-purple-900/20 border border-purple-500/20 rounded-xl p-5 text-center animate-fade-in"
+      className={`${colors.card} border ${colors.border} rounded-xl p-5 text-center animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <p className="text-sm text-gray-400 uppercase tracking-wide">{item.statLabel}</p>
-      <p className="text-4xl font-black text-white mt-2">{item.statValue}</p>
+      <p className={`text-4xl font-black ${colors.text} mt-2`}>{item.statValue}</p>
       {item.statContext && <p className="text-sm text-gray-400 mt-2">{item.statContext}</p>}
+      {item.headline && <p className="text-xs text-gray-500 mt-1">{item.headline}</p>}
     </div>
   )
 }
 
-function QuoteCard({ item, delay }: { item: FeedItem; delay: number }) {
+function QuoteCard({ item, delay, colors }: { item: FeedItem; delay: number; colors: ColorsType }) {
   return (
     <div
-      className="bg-purple-900/20 border-l-4 border-purple-500 rounded-r-xl p-5 animate-fade-in"
+      className={`${colors.card} border-l-4 ${colors.borderSolid} rounded-r-xl p-5 animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <p className="text-lg text-white italic">"{item.quote}"</p>
       <div className="mt-4 flex items-center gap-2">
-        <span className="text-purple-400 font-semibold">{item.author}</span>
+        <span className={`${colors.text} font-semibold`}>{item.author}</span>
         {item.source && <span className="text-gray-500 text-sm">— {item.source}</span>}
       </div>
     </div>
@@ -327,11 +377,11 @@ function AlertCard({ item, delay }: { item: FeedItem; delay: number }) {
     success: 'bg-green-900/20 border-green-500/30 text-green-300',
     error: 'bg-red-900/20 border-red-500/30 text-red-300'
   }
-  const colors = colorMap[item.alertType || 'info']
+  const alertColors = colorMap[item.alertType || 'info']
 
   return (
     <div
-      className={`${colors} border rounded-xl p-4 animate-fade-in`}
+      className={`${alertColors} border rounded-xl p-4 animate-fade-in`}
       style={{ animationDelay: `${delay}s` }}
     >
       <p className="font-semibold">{item.headline}</p>
