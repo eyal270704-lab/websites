@@ -5,8 +5,13 @@ on:
     # Runs once daily at 6 AM UTC (before market open)
     - cron: '0 6 * * 1-5'  # Weekdays only
 
-  # Allow manual triggering for testing
+  # Allow manual triggering with optional ticker override
   workflow_dispatch:
+    inputs:
+      tickers:
+        description: 'Comma-separated tickers (optional, uses watchlist.json if empty)'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -35,7 +40,11 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python scripts/generate_trades.py
+          if [ -n "${{ github.event.inputs.tickers }}" ]; then
+            python scripts/generate_trades.py --tickers "${{ github.event.inputs.tickers }}"
+          else
+            python scripts/generate_trades.py
+          fi
 
       - name: Commit and push changes
         run: |

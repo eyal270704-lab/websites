@@ -8,7 +8,12 @@ with the TradeAnalyzer prompt. Output is consumed by the React app.
 
 Usage:
     python scripts/generate_trades.py
+    python scripts/generate_trades.py --tickers AAPL,MSFT,TSLA
     python scripts/generate_trades.py --quiet  # JSON only output
+
+Ticker list is loaded from:
+1. --tickers argument (comma-separated)
+2. config/watchlist.json (default)
 """
 
 import os
@@ -31,6 +36,23 @@ def log(message, quiet=False):
     """Print message unless in quiet mode."""
     if not quiet:
         print(message, file=sys.stderr)
+
+
+def load_watchlist():
+    """Load ticker watchlist from config file."""
+    config_path = Path(__file__).parent.parent / 'config' / 'watchlist.json'
+
+    if not config_path.exists():
+        print(f"Warning: Watchlist not found: {config_path}", file=sys.stderr)
+        return None
+
+    try:
+        with open(config_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('tickers', [])
+    except Exception as e:
+        print(f"Error loading watchlist: {e}", file=sys.stderr)
+        return None
 
 
 def load_prompt():
@@ -148,9 +170,21 @@ def main():
     """Main function."""
     parser = argparse.ArgumentParser(description='Generate trade setups using Gemini AI')
     parser.add_argument('--quiet', '-q', action='store_true', help='Output only JSON')
+    parser.add_argument('--tickers', '-t', help='Comma-separated list of tickers (e.g., AAPL,MSFT,TSLA)')
     args = parser.parse_args()
 
     log("\nGenerating trade setups...\n", args.quiet)
+
+    # Get ticker list
+    if args.tickers:
+        tickers = [t.strip().upper() for t in args.tickers.split(',')]
+        log(f"Using tickers from command line: {tickers}", args.quiet)
+    else:
+        tickers = load_watchlist()
+        if not tickers:
+            print("Error: No tickers provided. Use --tickers or create config/watchlist.json", file=sys.stderr)
+            sys.exit(1)
+        log(f"Loaded watchlist: {tickers}", args.quiet)
 
     # Load prompt from file
     prompt = load_prompt()
@@ -159,9 +193,10 @@ def main():
 
     log("Loaded TradeAnalyzer prompt", args.quiet)
 
-    # Add today's date to prompt
+    # Add today's date and tickers to prompt
     today = datetime.now().strftime("%B %d, %Y")
     prompt = prompt.replace("{{DATE}}", today)
+    prompt = prompt.replace("{{TICKERS}}", ", ".join(f"${t}" for t in tickers))
 
     # Get API key
     api_key = os.environ.get('GEMINI_API_KEY')

@@ -2,45 +2,52 @@
 
 ## Overview
 
-An AI-managed news website where a **team of AI agents** automatically generates, monitors, and maintains daily news content. The system uses GitHub Actions for orchestration and Gemini API for content generation.
+An AI-managed news website where a **team of AI agents** automatically generates, monitors, and maintains daily news content. Built with **React 19 + TypeScript + Vite**, orchestrated via GitHub Actions, with content generation powered by Gemini API.
 
 **Live Site**: https://eyal270704-lab.github.io/websites/
+
+## Current Status (February 2026)
+
+### Completed
+- **React Migration** - Full Vite + React 19 + TypeScript frontend
+- **Trade Watcher Page** - Swing trade analysis with TradeCard components
+- **JSON-Based Feed System** - Extensible news feeds (NBA, Stocks)
+- **Monitor Agent** - Auto-healing workflow system (detects all content workflows)
+- **Version-Controlled Prompts** - Prompts in `agents/prompts/*.md`
+- **Themed Pages** - Each feed has unique visual identity (accent colors, backgrounds)
+
+### In Progress
+- **Ticker Scout Agent** - Will listen to Micha Stocks YouTube livestreams and update watchlist
 
 ## Agent Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    GITHUB ACTIONS                           │
-│                    (Orchestrator)                           │
-└───────────────────────────┬─────────────────────────────────┘
-                            │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-        ▼                   ▼                   ▼
-┌───────────────┐   ┌───────────────┐   ┌───────────────┐
-│   MONITOR     │   │    WRITER     │   │   DESIGNER    │
-│    Agent      │   │    Agent      │   │    Agent      │
-├───────────────┤   ├───────────────┤   ├───────────────┤
-│ Hourly health │   │ Research &    │   │ Generate HTML │
-│ checks, auto- │   │ write content │   │ with Tailwind │
-│ fix failures  │   │ (future)      │   │ styling       │
-│ STATUS: DONE  │   │ STATUS: TODO  │   │ STATUS: BASIC │
-└───────────────┘   └───────────────┘   └───────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                       GITHUB ACTIONS                             │
+│                       (Orchestrator)                             │
+└────────────────────────────┬────────────────────────────────────┘
+                             │
+     ┌───────────────────────┼───────────────────────┐
+     │                       │                       │
+     ▼                       ▼                       ▼
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│  MONITOR    │      │   TRADE     │      │  NEWSFEED   │
+│   Agent     │      │  ANALYZER   │      │   Agent     │
+├─────────────┤      ├─────────────┤      ├─────────────┤
+│ Hourly      │      │ Daily swing │      │ NBA/Stocks  │
+│ health      │      │ trade       │      │ daily news  │
+│ checks      │      │ analysis    │      │ generation  │
+│ STATUS:DONE │      │ STATUS:DONE │      │ STATUS:DONE │
+└─────────────┘      └─────────────┘      └─────────────┘
+                             │
+                     ┌───────┴───────┐
+                     ▼               ▼
+              ┌─────────────┐  ┌─────────────┐
+              │   TICKER    │  │ Watchlist   │
+              │   SCOUT     │  │ (Manual)    │
+              │   (Future)  │  │ STATUS:DONE │
+              └─────────────┘  └─────────────┘
 ```
-
-## Current Status
-
-### Completed
-- Monitor Agent (auto-healing system)
-- Basic Designer Agent (Gemini generates full HTML pages)
-- GitHub Pages deployment
-- TradeAnalyzer gem schema & examples
-
-### In Progress
-- **Trade Watcher page** - New swing trade analysis page
-- React migration (Vite + TypeScript)
-- Moving prompts to version-controlled files
-- Writer Agent implementation
 
 ## File Structure
 
@@ -48,46 +55,66 @@ An AI-managed news website where a **team of AI agents** automatically generates
 websites/
 ├── .github/
 │   ├── workflows/
-│   │   ├── deploy.yml           # Deploy docs/ to GitHub Pages
-│   │   ├── nba-news.yml         # Daily NBA news generation (8 AM UTC)
-│   │   ├── stock-news.yml       # Stock news 3x daily (7, 12, 16 UTC)
-│   │   └── monitor-and-fix.yml  # Hourly health checks & auto-fix
-│   └── fix_attempts.json        # Tracks auto-fix attempts
-├── config/
-│   └── newsfeeds.json           # Feed configurations
-├── docs/                        # GitHub Pages root
-│   ├── index.html               # Homepage hub
-│   ├── basketball-news.html     # NBA news (AI-generated)
-│   ├── stock-market-news.html   # Stock news (AI-generated)
-│   └── creator-monetization.html # Interactive dashboard
-├── scripts/
-│   ├── generate_newsfeed.py     # Designer Agent - generates HTML
-│   ├── diagnose_workflow_failure.py  # Monitor Agent - diagnostics
-│   ├── autofix_workflow.py      # Monitor Agent - auto-fixes
-│   ├── inject_secrets.py        # Deploy-time secret injection
-│   └── list_gemini_models.py    # Utility: list available models
+│   │   ├── deploy.yml              # Build React + deploy to GitHub Pages
+│   │   ├── trade-watcher.yml       # Daily trade analysis (6 AM UTC weekdays)
+│   │   ├── nba-news.yml            # Daily NBA news
+│   │   ├── stock-news.yml          # Stock market news
+│   │   └── monitor-and-fix.yml     # Hourly health checks & auto-fix
+│   └── fix_attempts.json           # Tracks auto-fix attempts
 ├── agents/
+│   ├── prompts/
+│   │   ├── trade-analyzer.md       # TradeAnalyzer prompt (accepts {{TICKERS}})
+│   │   ├── nba.md                  # NBA news prompt
+│   │   └── stocks.md               # Stock market prompt
 │   └── examples/
-│       └── trade-analyzer/      # TradeAnalyzer output examples
-│           ├── example-1-perfect.json
-│           ├── example-2-momentum.json
-│           ├── example-3-breakout.json
-│           ├── example-4-risky.json
-│           ├── example-5-avoid.json
-│           └── example-6-multiple.json
-├── CLAUDE.md                    # This file
-├── README.md                    # Public readme
-└── SETUP.md                     # Setup instructions
+│       └── trade-analyzer/         # Example JSON outputs
+├── config/
+│   ├── newsfeeds.json              # Feed configurations
+│   └── watchlist.json              # Ticker watchlist for TradeAnalyzer
+├── public/
+│   ├── data/                       # AI-generated JSON data
+│   │   ├── trades.json
+│   │   ├── nba.json
+│   │   └── stocks.json
+│   ├── creator-monetization.html   # Static page (not in React)
+│   └── 404.html                    # SPA redirect for GitHub Pages
+├── src/
+│   ├── components/
+│   │   ├── feed/
+│   │   │   └── NewsFeed.tsx        # Generic feed renderer
+│   │   └── trade/
+│   │       ├── TradeCard.tsx       # Trade setup card
+│   │       └── RiskMeter.tsx       # Risk score visualization
+│   ├── pages/
+│   │   ├── Home.tsx                # Homepage with card grid
+│   │   └── TradeWatcher.tsx        # Trade analysis page
+│   ├── types/
+│   │   ├── feed.ts                 # NewsFeed TypeScript types
+│   │   └── trade.ts                # TradeSetup TypeScript types
+│   ├── App.tsx                     # Routes configuration
+│   ├── main.tsx                    # Entry point with SPA redirect handling
+│   └── index.css                   # Tailwind styles
+├── scripts/
+│   ├── generate_trades.py          # TradeAnalyzer - generates trades.json
+│   ├── generate_newsfeed.py        # Newsfeed generator - generates feed JSON
+│   ├── diagnose_workflow_failure.py  # Monitor Agent - diagnostics
+│   └── autofix_workflow.py         # Monitor Agent - auto-fixes
+├── index.html                      # Vite entry
+├── vite.config.ts                  # Vite config with base path
+├── tailwind.config.js              # Tailwind with custom colors
+├── package.json                    # Node dependencies
+└── CLAUDE.md                       # This file
 ```
 
 ## Workflow Schedules
 
 | Workflow | Schedule | Purpose |
 |----------|----------|---------|
-| `nba-news.yml` | Daily 8 AM UTC | Generate NBA news page |
+| `trade-watcher.yml` | Weekdays 6 AM UTC | Analyze watchlist tickers |
+| `nba-news.yml` | Daily 8 AM UTC | Generate NBA news |
 | `stock-news.yml` | 7, 12, 16 UTC | Generate stock market news |
 | `monitor-and-fix.yml` | Hourly | Health checks, auto-fix |
-| `deploy.yml` | On push to main | Deploy to GitHub Pages |
+| `deploy.yml` | On push to main | Build React, deploy to GitHub Pages |
 
 ## GitHub Secrets Required
 
@@ -95,116 +122,51 @@ websites/
 |--------|---------|
 | `GEMINI_API_KEY` | Google Gemini API access |
 | `PAT_TOKEN` | GitHub PAT for push access |
-| `NBA_PROMPT` | Prompt for NBA news generation |
-| `STOCK_PROMPT` | Prompt for stock news generation |
-| `TRADE_PROMPT` | (Future) Prompt for TradeAnalyzer - currently in Gemini gem |
 
-## Gemini Gems
-
-| Gem Name | Purpose | Output |
-|----------|---------|--------|
-| TradeAnalyzer | Swing trade analysis using "Micha Stocks" method | JSON array of trade setups |
+**Note**: Prompts are now version-controlled in `agents/prompts/*.md`, not in secrets.
 
 ## Key Scripts
 
-### generate_newsfeed.py
-Main content generation script. Uses Gemini API with Google Search grounding.
+### generate_trades.py
+Trade analysis script. Uses Gemini API with Google Search grounding.
 ```bash
-python scripts/generate_newsfeed.py --feed nba   # Generate NBA news
-python scripts/generate_newsfeed.py --feed stocks # Generate stock news
+python scripts/generate_trades.py                    # Uses config/watchlist.json
+python scripts/generate_trades.py --tickers AAPL,MSFT,TSLA  # Override tickers
+python scripts/generate_trades.py --quiet            # JSON only output
+```
+
+### generate_newsfeed.py
+News generation script.
+```bash
+python scripts/generate_newsfeed.py --feed nba      # Generate NBA news
+python scripts/generate_newsfeed.py --feed stocks   # Generate stock news
 ```
 
 ### diagnose_workflow_failure.py
-Analyzes workflow failures and categorizes them.
+Analyzes workflow failures. Detects all content generation workflows automatically.
 ```bash
 python scripts/diagnose_workflow_failure.py           # Human-readable
 python scripts/diagnose_workflow_failure.py --json    # JSON output
 ```
 
-### autofix_workflow.py
-Applies automated fixes for common failures.
-```bash
-python scripts/autofix_workflow.py --workflow nba-news.yml --failure-type empty_response
-python scripts/autofix_workflow.py --dry-run ...      # Test without applying
-```
-
-## Newsfeed Configuration
-
-Located in `config/newsfeeds.json`:
-```json
-{
-  "nba": {
-    "output_file": "basketball-news.html",
-    "prompt_secret": "NBA_PROMPT",
-    "title": "Basketball News",
-    "description": "Daily NBA updates with Israeli players spotlight"
-  },
-  "stocks": {
-    "output_file": "stock-market-news.html",
-    "prompt_secret": "STOCK_PROMPT",
-    "title": "Stock Market News"
-  }
-}
-```
-
-## Monitor Agent Details
-
-**Timing Configuration** (in autofix_workflow.py):
-- Cooldown: 60 minutes between fix attempts
-- Max attempts: 3 per hour per workflow
-- API quota wait: 120 minutes
-
-**Failure Types Detected**:
-- `permission_denied` - PAT_TOKEN issues (creates Issue)
-- `api_quota` - Gemini rate limits (waits and retries)
-- `empty_response` - Transient API error (retries)
-- `missing_secret` - Missing prompt secret (creates Issue)
-- `encoding_error` - UTF-8 issues (retries)
-- `git_conflict` - Push conflicts (retries with rebase)
-- `unknown` - Requires human review (creates Issue)
-
-## Development
-
-### Local Testing
-```bash
-# Set environment variables
-export GEMINI_API_KEY="your-key"
-export NBA_PROMPT="your-prompt"
-
-# Generate news locally
-python scripts/generate_newsfeed.py --feed nba
-
-# Run diagnostics
-python scripts/diagnose_workflow_failure.py
-```
-
-### Trigger Workflows Manually
-```bash
-gh workflow run nba-news.yml
-gh workflow run stock-news.yml
-gh workflow run monitor-and-fix.yml
-```
-
-### Check Workflow Status
-```bash
-gh run list --workflow=nba-news.yml --limit 5
-gh run view <run-id> --log
-```
-
----
-
-## Trade Watcher Page (NEW)
-
-A new page for swing trade analysis using the "Micha Stocks" method.
+## Trade Watcher System
 
 ### Architecture
 ```
-User provides tickers → TradeAnalyzer gem analyzes → Returns JSON → React renders TradeCards
+config/watchlist.json → generate_trades.py → Gemini API → public/data/trades.json → React TradeCards
 ```
 
-### TradeAnalyzer Gem (Gemini)
+### Watchlist Configuration
+Located in `config/watchlist.json`:
+```json
+{
+  "description": "Ticker watchlist for TradeAnalyzer. Will be updated by Ticker Scout agent.",
+  "tickers": ["AAPL", "MSFT", "NVDA", "TSLA", "META", "GOOGL", "AMZN", "JPM", "V", "AMD"]
+}
+```
 
-**Purpose**: Analyze stock tickers for swing trade setups
+### TradeAnalyzer Prompt
+Located in `agents/prompts/trade-analyzer.md`. Uses `{{TICKERS}}` placeholder.
 
 **Analysis Method ("Micha Stocks")**:
 - Golden Zone: 0.5 - 0.618 Fibonacci retracement levels
@@ -212,10 +174,7 @@ User provides tickers → TradeAnalyzer gem analyzes → Returns JSON → React 
 - Volume: Rising RVOL on bounce
 - Catalysts: Flag earnings within 5 days as high risk
 
-**Output**: JSON array (NOT HTML) matching the TradeCard component schema
-
 ### Trade Setup JSON Schema
-
 ```json
 {
   "ticker": "$TSLA",
@@ -240,85 +199,146 @@ User provides tickers → TradeAnalyzer gem analyzes → Returns JSON → React 
 - `risky` - Valid setup but earnings nearby
 - `avoid` - No valid technical setup
 
-### Risk Score Guidelines
-- 1-3: Low risk (Golden Zone, above 150MA, no earnings)
-- 4-6: Medium risk (missing one criteria)
-- 7-10: High risk (earnings within 5 days, extended, weak structure)
+### Risk Score
+- 1-3: Low risk (green)
+- 4-6: Medium risk (gold)
+- 7-10: High risk (red)
 
-### Example Files Location
-`agents/examples/trade-analyzer/` contains 6 example JSON outputs for:
-1. Perfect setup
-2. Momentum play
-3. Breakout retest
-4. Risky (earnings)
-5. Avoid (no setup)
-6. Multiple tickers
+## NewsFeed System
 
-### React Component Structure
-The Trade Watcher page uses these components:
-- `Header` - Page title and strategy tag
-- `TradeCard` - Individual trade setup card with:
-  - Ticker/name/sector header
-  - Data grid (entry, stop, structure, trend)
-  - Analysis text
-  - Footer with RiskMeter and footerTag
-- `RiskMeter` - Color-coded risk score (green/gold/red)
-- `Footer` - Generation timestamp
+### How to Add a New Feed
+1. Add prompt file: `agents/prompts/{feed-name}.md`
+2. Add config in `config/newsfeeds.json`
+3. Create workflow in `.github/workflows/{feed-name}.yml`
+4. Add route in `src/App.tsx` with NewsFeed component
 
-### Data Flow (After React Migration)
-1. Gemini outputs JSON to `public/data/trades.json`
-2. React app fetches and renders TradeCards
-3. New analyses append to existing data file
+### Feed Configuration Example
+```json
+{
+  "nba": {
+    "id": "nba",
+    "promptFile": "agents/prompts/nba.md",
+    "dataFile": "nba.json",
+    "title": "NBA Daily News"
+  }
+}
+```
 
----
+### Theme System
+Each feed can have custom theming:
+```tsx
+<NewsFeed
+  feedId="nba"
+  dataFile="nba.json"
+  theme={{
+    gradient: 'from-orange-500 to-red-500',
+    bgGradient: 'from-slate-800 via-orange-900/50 to-slate-800',
+    accentColor: 'orange'
+  }}
+/>
+```
 
-## Roadmap
+### Card Types
+- `breaking` - Featured breaking news
+- `game` - Sports game scores
+- `stock` - Stock ticker cards
+- `article` - News articles
+- `stat` - Statistics cards
+- `quote` - Quote cards
+- `alert` - Alert/info cards
 
-### Phase 2A: React Migration
-- [ ] Initialize Vite + React + TypeScript
-- [ ] Migrate HTML pages to React components
-- [ ] Update Python to output JSON instead of HTML
-- [ ] Update deploy workflow for npm build
+## Monitor Agent
 
-### Phase 2B: Agent System
-- [ ] Create `agents/prompts/` directory for version-controlled prompts
-- [ ] Implement Writer Agent (content research)
-- [ ] Enhance Designer Agent (layout decisions)
-- [ ] Topic proposal system via GitHub Issues
+**Timing Configuration**:
+- Cooldown: 60 minutes between fix attempts
+- Max attempts: 3 per hour per workflow
+- API quota wait: 120 minutes
 
-### Phase 2C: Polish
-- [ ] Add testing infrastructure
-- [ ] Performance optimization
-- [ ] Agent coordination improvements
+**Detects Workflows Using**:
+- `generate_newsfeed.py`
+- `generate_trades.py`
 
-## Decisions Made
+**Failure Types**:
+- `permission_denied` - PAT_TOKEN issues (creates Issue)
+- `api_quota` - Gemini rate limits (waits and retries)
+- `empty_response` - Transient API error (retries)
+- `git_conflict` - Push conflicts (retries with rebase)
+- `unknown` - Requires human review (creates Issue)
 
-1. **New topics**: Writer agent proposes via GitHub Issue, user approves
-2. **Prompts**: Moving from secrets to version-controlled `agents/prompts/*.md`
-3. **Agent coordination**: Sequential (Writer -> Designer -> Deploy)
-4. **Framework**: Vite + React + TypeScript + Tailwind
+## Development
+
+### Local Development
+```bash
+npm install
+npm run dev                # Start Vite dev server at localhost:5173
+```
+
+### Build for Production
+```bash
+npm run build              # Outputs to dist/
+```
+
+### Trigger Workflows Manually
+```bash
+gh workflow run trade-watcher.yml
+gh workflow run trade-watcher.yml -f tickers=AAPL,MSFT  # Custom tickers
+gh workflow run nba-news.yml
+gh workflow run stock-news.yml
+```
+
+### Check Workflow Status
+```bash
+gh run list --limit 5
+gh run view <run-id> --log
+```
+
+## Future: Ticker Scout Agent
+
+**Purpose**: Automatically update watchlist based on Micha Stocks YouTube livestreams
+
+**Planned Behavior**:
+1. Listen to/analyze Micha Stocks livestream transcripts
+2. Identify 2 most promising tickers mentioned
+3. Update `config/watchlist.json`
+4. Commit changes for next TradeAnalyzer run
+
+**Status**: Planned
 
 ## Common Issues & Fixes
 
 ### Workflow fails with 403 error
 - PAT_TOKEN needs `contents: write` permission
-- Regenerate PAT and update secret: `gh secret set PAT_TOKEN`
+- Regenerate PAT and update: `gh secret set PAT_TOKEN`
 
 ### Race condition on concurrent pushes
 - Workflows include `git pull --rebase` before push
-- Already fixed in nba-news.yml and stock-news.yml
+- Already handled in all workflows
 
 ### Empty Gemini response
-- Usually transient, monitor auto-retries after 10 min
+- Usually transient, monitor auto-retries
 - Check Gemini API status if persistent
+
+### SPA Routing on GitHub Pages
+- Uses 404.html redirect trick
+- Query param `?p=` carries path through redirect
+- Handled in `main.tsx`
+
+## Design Decisions
+
+1. **Creator Monetization**: Kept as static HTML (not daily-updated React)
+2. **Prompts**: Version-controlled in `agents/prompts/*.md`
+3. **Ticker Input**: Watchlist-based with manual override option
+4. **Theme System**: Per-feed accent colors for visual identity
+5. **Data Flow**: Agents output JSON, React renders it
+
+---
 
 ## Notes for Claude
 
-- Monitor Agent is COMPLETE - don't recreate
-- Prompts are currently in GitHub Secrets (moving to files)
+- Monitor Agent is COMPLETE - detects both newsfeed and trade workflows
+- React migration is COMPLETE - all pages working
+- TradeAnalyzer uses `{{TICKERS}}` placeholder - replaced by script
+- Watchlist in `config/watchlist.json` - user updates manually for now
+- Future: Ticker Scout agent will update watchlist from YouTube
 - All timing intervals are 2x the original plan
 - Never modify or check GEMINI_API_KEY in diagnostics
-- **Trade Watcher**: Schema and examples are DONE, gem prompt is refined
-- TradeAnalyzer gem outputs JSON (not HTML) - see schema above
-- Example files in `agents/examples/trade-analyzer/`
-- Next: Build React components, create workflow, integrate with gem
