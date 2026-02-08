@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-08T12:27:00Z",
+  "generatedAt": "2026-02-08T16:36:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 08, 2026",
-  "badge": "Updated Today",
+  "subtitle": "February 8, 2026 - Reflecting February 7, 2026 Trading Day",
+  "badge": "Updated 2h ago",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,158 +13,187 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb8-2026",
-          "headline": "U.S. Equities Show Cautious Optimism Following Broad Rebound",
-          "summary": "U.S. equity markets are reflecting a cautiously optimistic sentiment as of February 8, 2026, building on a significant rally that concluded the previous trading week. The Dow Jones Industrial Average notably surged above 50,000 for the first time on Friday, February 6, demonstrating a robust rebound across major indices. Market leadership is observed to be broadening, shifting away from a narrow tech focus towards economically sensitive sectors and value stocks, signaling a more diversified market rally. However, a selective approach to AI-driven tech investments is emerging amongst investors. Not financial advice.",
+          "id": "market-summary-feb7",
+          "headline": "Dow Soars Above 50,000 for First Time, Broader Market Recovers on Tech Rebound",
+          "summary": "U.S. equities experienced a significant rebound on Friday, February 7, 2026, with the Dow Jones Industrial Average ($DJIA) closing above the historic 50,000 mark for the first time ever. The rally was broad-based, fueled by a resurgence in investor risk appetite and renewed optimism surrounding the U.S. economy, particularly as concerns about AI's business impact softened. While major indices posted strong daily gains, the S&P 500 ($GSPC) and Nasdaq Composite ($IXIC) ended the week lower, indicating underlying volatility and a rotation of capital. Overall market sentiment remains cautious despite Friday's strong performance. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "Broadening Rally",
-            "Value Stocks"
-          ]
+            "Market Overview",
+            "Dow 50K",
+            "Tech Rebound",
+            "Economic Optimism"
+          ],
+          "timestamp": "2026-02-07T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (February 6, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "6,932.30",
-          "statContext": "+1.97% (Feb 6, 2026)"
-        },
-        {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,540.586",
-          "statContext": "+2.177% (Feb 6, 2026)"
-        },
-        {
-          "id": "dow-stat",
+          "id": "stat-dow",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,115.67",
-          "statContext": "+2.468% (Feb 6, 2026)"
+          "statContext": "Up 2.47% (+1,200+ pts) - All-time high."
+        },
+        {
+          "id": "stat-sp500",
+          "statLabel": "S&P 500",
+          "statValue": "6,932.30",
+          "statContext": "Up 1.97%."
+        },
+        {
+          "id": "stat-nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "23,031.21",
+          "statContext": "Up 2.18%."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (February 7, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-gaxos",
-          "headline": "Gaxos.ai Inc. soars on AWS funding news",
-          "summary": "Gaxos.ai Inc. experienced a significant surge following news of Amazon AWS funding its AI sales platform development.",
-          "ticker": "$GAXO",
-          "price": "$14.18",
-          "change": "+$4.18",
-          "changePercent": "+41.84%",
-          "direction": "up",
-          "tags": [
-            "AI",
-            "Technology"
-          ],
-          "timestamp": "2026-02-07T00:00:00Z"
+          "id": "mover-nvda",
+          "headline": "Nvidia Leads Tech Rally",
+          "summary": "Semiconductor giant Nvidia surged amid a powerful rebound in AI hardware.",
+          "ticker": "$NVDA",
+          "price": "$185.41",
+          "change": "+$13.53",
+          "changePercent": "+7.87%",
+          "direction": "up"
         },
         {
-          "id": "loser-meta",
-          "headline": "Meta Platforms dips on escalating AI spending projections",
-          "summary": "Meta Platforms shares declined as investors reacted to the company's projected capital expenditures for 2026, which are significantly higher than the previous year, driven by its AI push.",
-          "ticker": "$META",
-          "price": "$394.80",
-          "change": "-$5.20",
-          "changePercent": "-1.30%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "AI",
-            "Capital Expenditure"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+          "id": "mover-mstr",
+          "headline": "MicroStrategy Jumps with Bitcoin",
+          "summary": "MicroStrategy saw a significant jump as Bitcoin rebounded above $70,000.",
+          "ticker": "$MSTR",
+          "price": "$70,700+",
+          "change": "+25%",
+          "changePercent": "+25%",
+          "direction": "up"
         },
         {
-          "id": "loser-molina",
-          "headline": "Molina Healthcare Inc. leads weekly declines",
-          "summary": "Molina Healthcare Inc. was among the worst-performing US-listed stocks over the past week, with a notable decline in its share price.",
+          "id": "mover-amd",
+          "headline": "AMD Continues Upward Momentum",
+          "summary": "Advanced Micro Devices Inc. (AMD) also posted a strong daily gain.",
+          "ticker": "$AMD",
+          "price": "$208.44",
+          "change": "+$15.94",
+          "changePercent": "+8.28%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-smci",
+          "headline": "Super Micro Computer Gains",
+          "summary": "Super Micro Computer Inc. showed robust performance.",
+          "ticker": "$SMCI",
+          "price": "$34.38",
+          "change": "+$3.53",
+          "changePercent": "+11.44%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-amzn",
+          "headline": "Amazon Slides on AI Spending Plans",
+          "summary": "Amazon's stock fell after the company announced extensive spending plans for new AI and robotics technology, raising investor concerns over near-term returns.",
+          "ticker": "$AMZN",
+          "price": "$210.32",
+          "change": "-$12.37",
+          "changePercent": "-5.55%",
+          "direction": "down"
+        },
+        {
+          "id": "mover-stla",
+          "headline": "Stellantis Plummets on EV Strategy Shift",
+          "summary": "The automaker Stellantis saw a sharp decline following its announcement of a $26 billion business overhaul, primarily linked to scaling back electric vehicle efforts.",
+          "ticker": "$STLA",
+          "price": "$7.27",
+          "change": "-$2.28",
+          "changePercent": "-23.86%",
+          "direction": "down"
+        },
+        {
+          "id": "mover-moh",
+          "headline": "Molina Healthcare Leads Nasdaq Declines",
+          "summary": "Molina Healthcare plunged, leading decliners on the Nasdaq.",
           "ticker": "$MOH",
           "price": "$131.72",
-          "change": "-$47.41",
-          "changePercent": "-26.66%",
-          "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Weekly Performance"
-          ],
-          "timestamp": "2026-02-06T00:00:00Z"
+          "change": "-$45.12",
+          "changePercent": "-25.51%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Sector Rotation Towards Value and Cyclicals",
-          "summary": "Market leadership is broadening in early 2026, with capital actively flowing into sectors such as Energy, Industrials/Defense, Utilities, Healthcare, and Materials. This marks a shift away from pure growth and high-beta tech, with consumer defensive and industrials showing strong performance in the week ending February 6, 2026. Meanwhile, consumer cyclicals and communication services lagged.",
+          "id": "news-sector-tech-industrials",
+          "headline": "Technology and Industrials Led Friday's Sector Gains",
+          "summary": "Nine of the eleven primary S&P 500 sectors closed higher, with Technology (up 4.1%) and Industrials (up 2.84%) leading the rally. The rebound in the semiconductor sector significantly contributed to the positive sentiment.",
           "tags": [
             "Sector Analysis",
-            "Value Investing",
-            "Cyclical Stocks"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+            "Technology",
+            "Industrials"
+          ]
         },
         {
-          "id": "fed-policy",
-          "headline": "Federal Reserve Holds Rates Steady; March Meeting Anticipated",
-          "summary": "The Federal Open Market Committee (FOMC) maintained the benchmark federal funds rate at 3.5% to 3.75% in January 2026, following three rate cuts in 2025. The next FOMC meeting is scheduled for March 17-18, where policymakers will assess fresh economic data. Several Federal Reserve officials, including Governor Stephen I. Miran and Vice Chair Michelle W. Bowman, have discussions planned for the coming week.",
+          "id": "news-sector-comm-disc",
+          "headline": "Communication Services and Consumer Discretionary Lagged",
+          "summary": "Conversely, the Communication Services sector declined by 1.51%, and Consumer Discretionary fell by 0.66%, making them the leading laggards for the day.",
           "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Economic Outlook"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+            "Sector Analysis",
+            "Communication Services",
+            "Consumer Discretionary"
+          ]
         },
         {
-          "id": "economic-data",
-          "headline": "Dollar Weakness Boosts Commodities, Inflation Fears Cool",
-          "summary": "The U.S. dollar experienced a notable decline of approximately 3% in the last eight trading days of January 2026, continuing a 9% drop from 2025. This weakness in the dollar has contributed to sharp increases in commodity prices, including gold, silver, platinum, and oil. Consumer prices in the U.S. rose 2.7% year-over-year in December, with cooling inflation fears noted.",
+          "id": "news-consumer-sentiment",
+          "headline": "Consumer Sentiment Shows Improvement",
+          "summary": "The University of Michigan's preliminary consumer sentiment index for February rose to 57.3, surpassing economists' expectations of 54.3, indicating a positive shift in consumer confidence.",
           "tags": [
-            "Macro Trends",
-            "Commodities",
-            "Inflation",
-            "Currency"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+            "Economic Data",
+            "Consumer Sentiment"
+          ]
         },
         {
-          "id": "ai-memory-crunch",
-          "headline": "AI Memory Demand Creates Industry Winners",
-          "summary": "The significant demand for AI memory is a major trend in early 2026, with Micron publicly stating it is 'sold out' of memory for the entire year. This highlights the intense competition and growth in the AI infrastructure space, impacting related technology and semiconductor companies.",
+          "id": "news-fed-outlook",
+          "headline": "Fed Holds Steady on Rates, Stress Test Scenarios Finalized",
+          "summary": "Fed markets indicate an 86% probability of no change in interest rates for March. The Federal Reserve also finalized scenarios for its 2026 stress tests, outlining potential market volatility and asset price declines.",
           "tags": [
-            "AI",
-            "Semiconductors",
-            "Technology"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates"
+          ]
         },
         {
-          "id": "global-outlook",
-          "headline": "Global Economy Navigates Tariff Shock Amid Tech Boom",
-          "summary": "The global economy is successfully navigating a tariff shock, supported by a tech-driven boom. This context is important for understanding international market dynamics and trade policies as discussed in the AlUla Conference for Emerging Market Economies, taking place on February 8-9, 2026.",
+          "id": "news-earnings-q4",
+          "headline": "Q4 Earnings Season Continues with Positive Surprises",
+          "summary": "Approximately one-third of S&P 500 companies have reported Q4 2025 earnings, with aggregate results showing earnings 7.6% above estimates. Positive surprises in Communication Services, Health Care, and Financials sectors contributed to the overall earnings growth rate.",
           "tags": [
-            "Global Economy",
-            "Trade",
-            "Technology"
-          ],
-          "timestamp": "2026-02-08T00:00:00Z"
+            "Earnings Reports",
+            "Corporate Earnings",
+            "Q4 2025"
+          ]
+        },
+        {
+          "id": "news-jobs-report-delay",
+          "headline": "January Jobs Report Delayed by Government Shutdown",
+          "summary": "The release of the crucial January jobs report has been delayed from February 6 to February 11 due to a partial government shutdown, leaving investors without key economic data.",
+          "tags": [
+            "Economic Data",
+            "Jobs Report",
+            "Government Shutdown"
+          ]
         }
       ]
     }
