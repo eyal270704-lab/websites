@@ -1,178 +1,135 @@
 {
-  "generatedAt": "2026-02-07T16:36:00Z",
+  "generatedAt": "2026-02-08T07:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 7, 2026: Weekend Market Wrap-up and Key News",
-  "badge": "Weekend Edition",
+  "subtitle": "February 08, 2026 - Pre-Market Update",
+  "badge": "Pre-Market",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Strong Friday Rebound Caps Volatile Week",
+      "title": "Market Pulse: Cautious Optimism After Friday's Rebound",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-020726",
-          "headline": "Dow Soars Past 50,000 as Market Recovers from Tech Sell-off",
-          "summary": "U.S. equities concluded a turbulent week with a robust rally on Friday, February 6, 2026, as major indices rebounded sharply. The Dow Jones Industrial Average achieved a historic milestone, closing above 50,000 for the first time. The week had been marked by investor anxiety over the impact of new AI tools on software companies and a rotation away from growth stocks. While Friday saw widespread gains, the tech-heavy Nasdaq Composite and the S&P 500 still finished the week slightly lower.",
+          "id": "market-summary-080226",
+          "headline": "U.S. Futures Show Mixed Sentiment Following Friday's Strong Close",
+          "summary": "U.S. equity futures are indicating a cautious start to the week, following a robust rebound on Friday, February 6th, which saw major indices recover from a three-day tech sell-off. Investors are digesting recent market dynamics, including a rotation towards value and economically sensitive sectors observed in early February. While no definitive pre-market data is immediately available for all major indices this morning, the market is poised to open with a focus on upcoming economic data and evolving sector trends.",
           "tags": [
-            "Market Rebound",
-            "Tech Sell-off",
-            "AI Impact",
-            "Value Rotation"
+            "Market Overview",
+            "Futures",
+            "Sentiment"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Close of February 6, 2026)",
+      "title": "Major Indices Performance (February 6, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-020626",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,137.00",
+          "statContext": "+2.50% (+1,200+ points) on Feb 6."
+        },
+        {
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,932.30",
-          "statContext": "+2.0% Friday, -0.1% Weekly"
+          "statValue": "6,932.00",
+          "statContext": "+1.90% on Feb 6."
         },
         {
-          "id": "nasdaq-020626",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "N/A",
-          "statContext": "+2.2% Friday, -1.8% Weekly"
-        },
-        {
-          "id": "dow-020626",
-          "statLabel": "DOW Jones Ind. Avg.",
-          "statValue": "50,115.67",
-          "statContext": "+2.5% Friday, +2.5% Weekly"
+          "statValue": "22,919.15",
+          "statContext": "+1.68% on Feb 6."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (February 6, 2026)",
+      "title": "Top Movers (Notable from February 6, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-020626",
-          "headline": "Nvidia Soars on Tech Rebound",
-          "summary": "Chip giant Nvidia ($NVDA) surged nearly 8% on Friday, recouping some losses from earlier in the week driven by renewed optimism in AI spending.",
+          "id": "nvda-gainer-060226",
+          "headline": "Nvidia Leads Tech Rebound",
+          "summary": "Shares of AI darling Nvidia surged significantly on Friday, contributing to the tech sector's recovery.",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.8%",
+          "changePercent": "+7.87% on Feb 6.",
           "direction": "up"
         },
         {
-          "id": "cat-020626",
-          "headline": "Caterpillar Leads Dow Gains",
-          "summary": "Construction-equipment maker Caterpillar ($CAT) surged 7% as investors rotated into industrials and value stocks.",
-          "ticker": "$CAT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.0%",
-          "direction": "up"
-        },
-        {
-          "id": "mstr-020626",
-          "headline": "MicroStrategy Jumps with Bitcoin",
-          "summary": "Shares of MicroStrategy ($MSTR) jumped 25% as Bitcoin rebounded after a midweek plunge.",
+          "id": "mstr-gainer-060226",
+          "headline": "MicroStrategy Jumps with Bitcoin Rebound",
+          "summary": "Bitcoin treasury firm MicroStrategy saw a substantial jump as Bitcoin rebounded after a recent tumble.",
           "ticker": "$MSTR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+25.0%",
+          "changePercent": "+26.11% on Feb 6.",
           "direction": "up"
         },
         {
-          "id": "stla-020626",
-          "headline": "Stellantis Plummets on 'Reset'",
-          "summary": "Automaker Stellantis ($STLA) saw its shares plummet 25% after announcing a business 'reset' involving a significant charge.",
-          "ticker": "$STLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-25.0%",
-          "direction": "down"
-        },
-        {
-          "id": "amzn-020626",
-          "headline": "Amazon Slides Post-Earnings",
-          "summary": "Amazon ($AMZN) stock sank more than 5.5% following a disappointing earnings report released after Thursday's close.",
+          "id": "amzn-loser-060226",
+          "headline": "Amazon Slides on Capex Concerns",
+          "summary": "Amazon.com stock declined following a disappointing earnings report and plans for significant AI infrastructure spending.",
           "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.5%",
+          "changePercent": "-5.55% on Feb 6.",
           "direction": "down"
         },
         {
-          "id": "moh-020626",
-          "headline": "Molina Healthcare Leads Nasdaq Declines",
-          "summary": "Molina Healthcare ($MOH) plunged 26%, leading Nasdaq decliners, following post-earnings movements.",
+          "id": "moh-loser-060226",
+          "headline": "Molina Healthcare Plunges Post-Earnings",
+          "summary": "Molina Healthcare was among the notable decliners on Friday after its earnings report.",
           "ticker": "$MOH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-26.0%",
+          "changePercent": "-30.14% (pre-market on Feb 6).",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "ai-spending-concerns-020726",
-          "headline": "Hyperscalers' AI Spending Spooks Investors",
-          "summary": "Major tech companies like Amazon, Microsoft, Alphabet, and Meta Platforms have committed to spending a combined $565 billion on AI in 2026, a significant increase from 2025. This massive capital expenditure has raised concerns among investors about its impact on cash flow, leading to some underperformance of 'Magnificent Seven' stocks.",
+          "id": "sector-rotation-080226",
+          "headline": "Sector Rotation Continues Amid Broadening Rally",
+          "summary": "January's market saw a significant 'Great Rotation' from mega-cap technology to small-cap domestic stocks, with Energy, Materials, Consumer Staples, and Industrials emerging as leading sectors. This trend suggests a broadening of the market rally beyond the narrow tech-led gains of the previous year. Concerns around elevated tech valuations and AI capital expenditure commitments persist.",
           "tags": [
-            "AI",
-            "Big Tech",
-            "Capex"
+            "Sector Analysis",
+            "Market Trends"
           ]
         },
         {
-          "id": "iran-tariffs-020726",
-          "headline": "US Imposes New Tariffs Related to Iran",
-          "summary": "Effective February 7, 2026, the U.S. President authorized the imposition of tariffs, potentially up to 25%, on goods imported from any country that directly or indirectly purchases goods or services from Iran. This move aims to tighten economic pressure on Iran amidst ongoing diplomatic talks.",
+          "id": "fed-data-080226",
+          "headline": "Federal Reserve to Release Weekly Financial Data Today",
+          "summary": "The Federal Reserve is scheduled to release its H.8 report on 'Assets and Liabilities of Commercial Banks in the U.S.' at 4:15 p.m. ET today, February 8, 2026. Additionally, Commercial Paper data is also slated for release.",
           "tags": [
-            "Geopolitics",
-            "Tariffs",
-            "International Trade"
+            "Economic Data",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "saudi-syria-deals-020726",
-          "headline": "Syria and Saudi Arabia Sign Multi-Billion Dollar Investment Deals",
-          "summary": "Syria and Saudi Arabia signed several multi-billion dollar investment agreements on Saturday, February 7, 2026. These deals include a major telecommunications project, a joint low-cost airline, and the development of an international airport in northern Syria, aiming to boost Syria's economy post-sanctions.",
+          "id": "stress-test-080226",
+          "headline": "Federal Reserve Finalizes 2026 Stress Test Scenarios",
+          "summary": "On February 4th, the Federal Reserve finalized the scenarios for its 2026 stress tests. These scenarios include a projected rise in the unemployment rate to 10%, severe market volatility, widening corporate bond spreads, and a significant decline in asset prices, including a 30% drop in house prices and a 39% decline in commercial real estate prices.",
           "tags": [
-            "Middle East",
-            "Investment",
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "qualcomm-chip-design-020726",
-          "headline": "Qualcomm Announces 2nm Semiconductor Design Tape-out in India",
-          "summary": "Qualcomm Technologies, Inc. announced on Saturday, February 7, 2026, the tape-out of its 2nm semiconductor design in India. This marks a significant milestone in advanced chip design, highlighting India's growing role in the semiconductor ecosystem.",
-          "tags": [
-            "Semiconductors",
-            "Technology",
-            "India"
-          ]
-        },
-        {
-          "id": "earnings-season-update-020626",
-          "headline": "S&P 500 Q4 Earnings Season Update: Strong Revenue Surprises",
-          "summary": "As of February 6, 2026, 73% of S&P 500 companies reported actual revenues above estimates, surpassing both the 5-year and 10-year averages. Information Technology, Industrials, and Communication Services sectors are leading in year-over-year earnings growth, while Consumer Discretionary and Health Care are lagging.",
-          "tags": [
-            "Earnings",
-            "Sectors",
-            "Corporate Performance"
+            "Federal Reserve",
+            "Banking",
+            "Economic Outlook"
           ]
         }
       ]
