@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-08T16:36:00Z",
+  "generatedAt": "2026-02-09T07:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 8, 2026 - Reflecting February 7, 2026 Trading Day",
-  "badge": "Updated 2h ago",
+  "subtitle": "February 9, 2026 – Pre-Market Update",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,186 +13,204 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb7",
-          "headline": "Dow Soars Above 50,000 for First Time, Broader Market Recovers on Tech Rebound",
-          "summary": "U.S. equities experienced a significant rebound on Friday, February 7, 2026, with the Dow Jones Industrial Average ($DJIA) closing above the historic 50,000 mark for the first time ever. The rally was broad-based, fueled by a resurgence in investor risk appetite and renewed optimism surrounding the U.S. economy, particularly as concerns about AI's business impact softened. While major indices posted strong daily gains, the S&P 500 ($GSPC) and Nasdaq Composite ($IXIC) ended the week lower, indicating underlying volatility and a rotation of capital. Overall market sentiment remains cautious despite Friday's strong performance. Not financial advice.",
+          "id": "market-overview-020926",
+          "headline": "U.S. Stock Futures Signal Upbeat Start to a Data-Heavy Week",
+          "summary": "U.S. stock index futures are showing a positive trend this Monday, February 9, 2026, ahead of a week packed with key economic data and corporate earnings. Following a volatile previous week, all major indices ended Friday with significant gains, with the Dow Jones Industrial Average closing above 50,000 for the first time. Investors are now looking forward to the delayed January jobs report on Wednesday and the January Consumer Price Index (CPI) reading on Friday.",
           "tags": [
-            "Market Overview",
-            "Dow 50K",
-            "Tech Rebound",
-            "Economic Optimism"
-          ],
-          "timestamp": "2026-02-07T16:00:00Z"
+            "Market Sentiment",
+            "Pre-Market",
+            "Economic Data"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices - Pre-Market Futures & Recent Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-dow",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,115.67",
-          "statContext": "Up 2.47% (+1,200+ pts) - All-time high."
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Up 0.09%",
+          "statContext": "Pre-Market (12:10 a.m. EDT)",
+          "tags": [
+            "S&P 500",
+            "Futures"
+          ]
         },
         {
-          "id": "stat-sp500",
-          "statLabel": "S&P 500",
-          "statValue": "6,932.30",
-          "statContext": "Up 1.97%."
+          "id": "nasdaq100-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "Up 0.09%",
+          "statContext": "Pre-Market (12:10 a.m. EDT)",
+          "tags": [
+            "NASDAQ",
+            "Futures"
+          ]
         },
         {
-          "id": "stat-nasdaq",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "23,031.21",
-          "statContext": "Up 2.18%."
+          "id": "dowjones-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Up 0.16%",
+          "statContext": "Pre-Market (12:10 a.m. EDT)",
+          "tags": [
+            "Dow Jones",
+            "Futures"
+          ]
+        },
+        {
+          "id": "dowjones-close-friday",
+          "statLabel": "Dow Jones (Friday Close)",
+          "statValue": "+2.5%",
+          "statContext": "Closed above 50,000 for the first time.",
+          "tags": [
+            "Dow Jones",
+            "Friday Close"
+          ]
+        },
+        {
+          "id": "sp500-close-friday",
+          "statLabel": "S&P 500 (Friday Close)",
+          "statValue": "+2.0%",
+          "statContext": "Ended the week down 0.1%.",
+          "tags": [
+            "S&P 500",
+            "Friday Close"
+          ]
+        },
+        {
+          "id": "nasdaq-close-friday",
+          "statLabel": "NASDAQ (Friday Close)",
+          "statValue": "+2.2%",
+          "statContext": "Ended the week down 1.8%.",
+          "tags": [
+            "NASDAQ",
+            "Friday Close"
+          ]
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (February 7, 2026)",
+      "title": "Companies in Focus Pre-Market",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-nvda",
-          "headline": "Nvidia Leads Tech Rally",
-          "summary": "Semiconductor giant Nvidia surged amid a powerful rebound in AI hardware.",
-          "ticker": "$NVDA",
-          "price": "$185.41",
-          "change": "+$13.53",
-          "changePercent": "+7.87%",
-          "direction": "up"
+          "id": "bloom-energy",
+          "headline": "Bloom Energy Rallies on Strong Q4 Beat",
+          "summary": "Bloom Energy ($BE) reported a decisive Q4 earnings beat, with EBITDA more than doubling and revenue climbing nearly 50% quarter-over-quarter. This was driven by accelerating demand from AI data centers, reinforcing its position in distributed energy infrastructure. The company also provided strong FY2026 guidance. (Note: Specific real-time pre-market price movement for Feb 9, 2026 is developing, but news indicates positive sentiment.)",
+          "ticker": "$BE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "up",
+          "tags": [
+            "Earnings",
+            "AI Demand"
+          ]
         },
         {
-          "id": "mover-mstr",
-          "headline": "MicroStrategy Jumps with Bitcoin",
-          "summary": "MicroStrategy saw a significant jump as Bitcoin rebounded above $70,000.",
-          "ticker": "$MSTR",
-          "price": "$70,700+",
-          "change": "+25%",
-          "changePercent": "+25%",
-          "direction": "up"
+          "id": "apple-china-sales",
+          "headline": "Apple's 'Hermès Orange' iPhone Drives Record China Sales",
+          "summary": "Apple ($AAPL) posted record iPhone sales in China for Q4 2025, with revenue reaching $26 billion, up 38% year-over-year. The success is partly attributed to the viral popularity of the 'cosmic orange' iPhone variant, which resonated culturally with consumers. (Note: Specific real-time pre-market price movement for Feb 9, 2026 is developing, but news indicates positive sentiment.)",
+          "ticker": "$AAPL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "up",
+          "tags": [
+            "Sales",
+            "Consumer Tech"
+          ]
         },
         {
-          "id": "mover-amd",
-          "headline": "AMD Continues Upward Momentum",
-          "summary": "Advanced Micro Devices Inc. (AMD) also posted a strong daily gain.",
-          "ticker": "$AMD",
-          "price": "$208.44",
-          "change": "+$15.94",
-          "changePercent": "+8.28%",
-          "direction": "up"
+          "id": "nova-nordisk-outlook",
+          "headline": "Novo Nordisk Faces Outlook Headwinds",
+          "summary": "Novo-Nordisk A/S ($NVO) previously forecast 2026 sales to fall amid US pricing pressure, increased competition, and patent expirations. This outlook suggests potential downward pressure on its stock. (Note: Specific real-time pre-market price movement for Feb 9, 2026 is developing.)",
+          "ticker": "$NVO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "down",
+          "tags": [
+            "Earnings Outlook",
+            "Pharmaceuticals"
+          ]
         },
         {
-          "id": "mover-smci",
-          "headline": "Super Micro Computer Gains",
-          "summary": "Super Micro Computer Inc. showed robust performance.",
-          "ticker": "$SMCI",
-          "price": "$34.38",
-          "change": "+$3.53",
-          "changePercent": "+11.44%",
-          "direction": "up"
-        },
-        {
-          "id": "mover-amzn",
-          "headline": "Amazon Slides on AI Spending Plans",
-          "summary": "Amazon's stock fell after the company announced extensive spending plans for new AI and robotics technology, raising investor concerns over near-term returns.",
-          "ticker": "$AMZN",
-          "price": "$210.32",
-          "change": "-$12.37",
-          "changePercent": "-5.55%",
-          "direction": "down"
-        },
-        {
-          "id": "mover-stla",
-          "headline": "Stellantis Plummets on EV Strategy Shift",
-          "summary": "The automaker Stellantis saw a sharp decline following its announcement of a $26 billion business overhaul, primarily linked to scaling back electric vehicle efforts.",
-          "ticker": "$STLA",
-          "price": "$7.27",
-          "change": "-$2.28",
-          "changePercent": "-23.86%",
-          "direction": "down"
-        },
-        {
-          "id": "mover-moh",
-          "headline": "Molina Healthcare Leads Nasdaq Declines",
-          "summary": "Molina Healthcare plunged, leading decliners on the Nasdaq.",
-          "ticker": "$MOH",
-          "price": "$131.72",
-          "change": "-$45.12",
-          "changePercent": "-25.51%",
-          "direction": "down"
+          "id": "anavex-earnings",
+          "headline": "Anavex Life Sciences Reports Q1 2026 Earnings",
+          "summary": "Anavex Life Sciences ($AVXL) is scheduled to host its live Q1 2026 earnings call on Monday, February 9, 2026, at 9:30 AM ET. Investors will be closely watching the results for insights into the clinical-stage biopharmaceutical company's performance. (Note: Specific real-time pre-market price movement for Feb 9, 2026 is developing.)",
+          "ticker": "$AVXL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "flat",
+          "tags": [
+            "Earnings",
+            "Biotechnology"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Key Market News & Economic Outlook",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-sector-tech-industrials",
-          "headline": "Technology and Industrials Led Friday's Sector Gains",
-          "summary": "Nine of the eleven primary S&P 500 sectors closed higher, with Technology (up 4.1%) and Industrials (up 2.84%) leading the rally. The rebound in the semiconductor sector significantly contributed to the positive sentiment.",
+          "id": "fed-meeting-020926",
+          "headline": "Federal Reserve to Review Discount Rates in Closed Meeting",
+          "summary": "The Board of Governors of the Federal Reserve System is holding a pre-scheduled, closed meeting on Monday, February 9, 2026, at 11:30 a.m. to review and determine the advance and discount rates to be charged by the Federal Reserve Banks.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Industrials"
-          ]
-        },
-        {
-          "id": "news-sector-comm-disc",
-          "headline": "Communication Services and Consumer Discretionary Lagged",
-          "summary": "Conversely, the Communication Services sector declined by 1.51%, and Consumer Discretionary fell by 0.66%, making them the leading laggards for the day.",
-          "tags": [
-            "Sector Analysis",
-            "Communication Services",
-            "Consumer Discretionary"
-          ]
-        },
-        {
-          "id": "news-consumer-sentiment",
-          "headline": "Consumer Sentiment Shows Improvement",
-          "summary": "The University of Michigan's preliminary consumer sentiment index for February rose to 57.3, surpassing economists' expectations of 54.3, indicating a positive shift in consumer confidence.",
-          "tags": [
-            "Economic Data",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "news-fed-outlook",
-          "headline": "Fed Holds Steady on Rates, Stress Test Scenarios Finalized",
-          "summary": "Fed markets indicate an 86% probability of no change in interest rates for March. The Federal Reserve also finalized scenarios for its 2026 stress tests, outlining potential market volatility and asset price declines.",
-          "tags": [
-            "Economic News",
             "Federal Reserve",
+            "Monetary Policy",
             "Interest Rates"
-          ]
+          ],
+          "timestamp": "2026-02-09T11:30:00-05:00"
         },
         {
-          "id": "news-earnings-q4",
-          "headline": "Q4 Earnings Season Continues with Positive Surprises",
-          "summary": "Approximately one-third of S&P 500 companies have reported Q4 2025 earnings, with aggregate results showing earnings 7.6% above estimates. Positive surprises in Communication Services, Health Care, and Financials sectors contributed to the overall earnings growth rate.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate Earnings",
-            "Q4 2025"
-          ]
-        },
-        {
-          "id": "news-jobs-report-delay",
-          "headline": "January Jobs Report Delayed by Government Shutdown",
-          "summary": "The release of the crucial January jobs report has been delayed from February 6 to February 11 due to a partial government shutdown, leaving investors without key economic data.",
+          "id": "delayed-jobs-cpi",
+          "headline": "Delayed January Jobs and Inflation Reports Due This Week",
+          "summary": "Investors will be closely watching for two significant economic data releases this week: the delayed January jobs report from the Bureau of Labor Statistics, expected on Wednesday, and the January Consumer Price Index (CPI) reading, scheduled for Friday. These releases were postponed last week due to a partial government shutdown and have the potential to significantly influence Fed policy expectations.",
           "tags": [
             "Economic Data",
             "Jobs Report",
-            "Government Shutdown"
+            "Inflation",
+            "CPI"
+          ]
+        },
+        {
+          "id": "major-earnings-week",
+          "headline": "Major Companies Scheduled to Report Earnings This Week",
+          "summary": "A fresh round of corporate earnings reports is anticipated throughout the week. Notable companies scheduled to release results include Coca-Cola ($KO), Ford Motor ($F), and Robinhood ($HOOD), among others.",
+          "tags": [
+            "Earnings Season",
+            "Corporate Reports"
+          ]
+        },
+        {
+          "id": "us-refinery-strike-averted",
+          "headline": "Nationwide U.S. Refinery Strike Averted with New Labor Agreement",
+          "summary": "A new labor agreement between the United Steelworkers union and Marathon Petroleum ($MPC) has successfully averted a potential nationwide refinery strike that could have disrupted a significant portion of U.S. refining capacity. The four-year deal includes staged wage increases, helping to stabilize fuel supply dynamics in the energy market.",
+          "tags": [
+            "Energy Sector",
+            "Labor News",
+            "Supply Chain"
+          ]
+        },
+        {
+          "id": "japan-election-nikkei",
+          "headline": "Japan's Nikkei 225 Jumps on PM Takaichi's Landslide Victory",
+          "summary": "Tokyo's benchmark Nikkei 225 index surged on Monday, climbing 4.6% to 56,729.51 and setting a new record, following a landslide victory for Prime Minister Takaichi's ruling Liberal Democratic Party. The election outcome removes political ambiguity, a factor markets generally embrace.",
+          "tags": [
+            "International Markets",
+            "Japan",
+            "Political Stability"
           ]
         }
       ]
