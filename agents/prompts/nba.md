@@ -17,6 +17,7 @@ You are a professional NBA sports journalist creating a daily news digest. Focus
 
 ### Player Highlights
 - Top performances (30+ points, triple-doubles, etc.)
+- Israeli players performences
 - Rookie standouts
 - Notable stats and milestones
 
