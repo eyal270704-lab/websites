@@ -1,149 +1,225 @@
 {
-  "generatedAt": "2026-02-10T07:57:00Z",
+  "generatedAt": "2026-02-10T17:06:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 10, 2026",
+  "subtitle": "February 10, 2026 - Market Insights",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Tech Rebound Continues, Economic Data Awaited",
+      "id": "market-pulse-overall",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-021026",
-          "headline": "US Equities Extend Gains on Tech Strength; Caution Ahead of Key Data",
-          "summary": "US stock markets closed higher on Monday, extending a rebound led by technology stocks, as investors cautiously await a week packed with crucial economic data. The Dow Jones Industrial Average reached a fresh record high. Overall market sentiment remains a mix of optimism over broadening gains and apprehension regarding upcoming inflation and employment figures, which are expected to guide Federal Reserve policy. Pre-market indications for Tuesday suggest a more modest start following yesterday's strong performance. Not financial advice.",
+          "id": "market-summary-today",
+          "headline": "U.S. Equities Show Mixed Performance Today Amid Tech Rebound and Economic Data Anticipation",
+          "summary": "U.S. stock markets are exhibiting mixed performance in late-morning trading, following a two-day winning streak that saw major indices close higher on Monday. While the Dow Jones Industrial Average continued its ascent, the Nasdaq Composite saw a slight decline. Investor sentiment remains constructive despite lingering geopolitical tensions and anticipation of key economic data releases later this week, including the consumer price index and jobs report. Tech stocks are once again in focus, with a rebound seen in some names after last week's AI-driven sell-off.",
           "tags": [
-            "US Market",
-            "Tech Rebound",
-            "Economic Data",
-            "Fed Policy"
+            "Market Overview",
+            "US Stocks",
+            "Tech Rally"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (as of Feb 9, 2026, close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-020926",
-          "statLabel": "S&P 500",
-          "statValue": "6,964.82",
-          "statContext": "Up 0.47%"
+          "id": "dow-today",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Current",
+          "statValue": "50,260.31",
+          "statContext": "Up 124.44 points (+0.25%) in late-morning trading.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-020926",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "23,238.67",
-          "statContext": "Up 0.9%"
+          "id": "sp500-today",
+          "headline": "S&P 500 Index",
+          "statLabel": "Current",
+          "statValue": "6,966.96",
+          "statContext": "Up 2.14 points (+0.03%) in late-morning trading.",
+          "direction": "up"
         },
         {
-          "id": "dow-020926",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,135.87",
-          "statContext": "Up 0.04%, new record high"
+          "id": "nasdaq-today",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Current",
+          "statValue": "23,235.16",
+          "statContext": "Down 3.51 points (-0.02%) in late-morning trading.",
+          "direction": "down"
+        },
+        {
+          "id": "vix-yesterday",
+          "headline": "CBOE Volatility Index ($VIX)",
+          "statLabel": "Yesterday's Close",
+          "statValue": "17.36",
+          "statContext": "Down 2.25% on Monday.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Feb 9, 2026, close & pre-market Feb 10, 2026)",
+      "id": "top-movers-us",
+      "title": "Top Movers (U.S. Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "oracle-gainer",
-          "headline": "Oracle Surges on AI Optimism",
-          "ticker": "$ORCL",
+          "id": "stock-gainer-spot",
+          "headline": "Spotify Technology S.A. Jumps on Strong Q4 and Q1 Outlook",
+          "summary": "Shares of Spotify surged 15% after the company delivered a strong Q4 performance and provided Q1 guidance that exceeded expectations for key metrics like total Monthly Active Users (MAUs) and premium subscribers.",
+          "ticker": "$SPOT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.6%",
+          "changePercent": "+15%",
           "direction": "up",
-          "summary": "Oracle shares jumped after an analyst upgrade, fueled by optimism surrounding artificial intelligence demand."
+          "tags": [
+            "Earnings",
+            "Technology"
+          ]
         },
         {
-          "id": "nvidia-gainer",
-          "headline": "Nvidia Leads Chipmaker Rally",
-          "ticker": "$NVDA",
-          "price": "$190.04",
+          "id": "stock-gainer-datadog",
+          "headline": "Datadog Rises on Q4 Beat and Positive Q1 Revenue Guidance",
+          "summary": "Datadog's stock climbed 13% after the company reported a strong Q4 earnings beat and issued stronger-than-expected revenue guidance for Q1 2026. Management also highlighted continued investment in AI-powered innovation.",
+          "ticker": "$DDOG",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.5%",
+          "changePercent": "+13%",
           "direction": "up",
-          "summary": "Chipmaker Nvidia continued its rebound, extending gains and reinforcing confidence in AI-linked investments."
+          "tags": [
+            "Earnings",
+            "Technology",
+            "AI"
+          ]
         },
         {
-          "id": "workday-loser",
-          "headline": "Workday Slides on CEO Change",
-          "ticker": "$WDAY",
+          "id": "stock-gainer-ubiquiti",
+          "headline": "Ubiquiti Surges on Robust Quarterly Results",
+          "summary": "Ubiquiti saw its shares surge 14.47% following the release of strong quarterly results and a higher price target from Barclays.",
+          "ticker": "$UI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.1%",
-          "direction": "down",
-          "summary": "Workday fell after the AI platform announced CEO Carl Eschenbach is stepping down, with co-founder Aneel Bhusri returning as chief executive."
+          "changePercent": "+14.47%",
+          "direction": "up",
+          "tags": [
+            "Earnings",
+            "Technology"
+          ]
         },
         {
-          "id": "merck-loser",
-          "headline": "Merck Among Monday's Laggards",
-          "ticker": "$MRK",
+          "id": "stock-loser-bdx",
+          "headline": "Becton, Dickinson Leads S&P 500 Decliners",
+          "summary": "Becton, Dickinson and Company was among the worst-performing components of the S&P 500 index, trading down 19.0% today.",
+          "ticker": "$BDX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.55%",
+          "changePercent": "-19.0%",
           "direction": "down",
-          "summary": "Merck was one of the top decliners among major US stocks in Monday's trading session."
+          "tags": [
+            "Healthcare"
+          ]
+        },
+        {
+          "id": "stock-loser-waters",
+          "headline": "Waters Corporation Falls on Softer Profit Despite Sales Growth",
+          "summary": "Waters Corporation's stock fell 13.94% after its earnings report indicated softer profit margins, even with an increase in quarterly and full-year sales.",
+          "ticker": "$WAT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-13.94%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Biotechnology"
+          ]
+        },
+        {
+          "id": "stock-loser-monday",
+          "headline": "Monday.com Plummets on Disappointing Guidance",
+          "summary": "Shares of Monday.com Limited plummeted over 20% after the software provider issued revenue and profit guidance that failed to meet analyst expectations.",
+          "ticker": "$MNDY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-20%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Software"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Calendar",
+      "id": "market-news-today",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-021026",
-          "headline": "Sector Dynamics: Tech Rebounds, Energy and Staples Remain Strong",
-          "summary": "While the technology sector experienced a significant rebound on Monday after a recent sell-off driven by AI concerns, other sectors such as Energy, Materials, Consumer Staples, and Industrials have shown sustained strength. Investors are observing a rotation of capital into these value and cyclical-oriented sectors.",
+          "id": "sector-analysis-us",
+          "headline": "Technology, Materials, and Communication Services Lead U.S. Sectors",
+          "summary": "In the U.S. market, technology, materials, and communication services sectors were the biggest gainers on Monday, with the Technology Select Sector SPDR (XLK) rising 1.6%. Seven out of the 11 S&P 500 sectors closed in positive territory. Conversely, consumer staples and healthcare lagged.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Energy",
-            "Consumer Staples"
+            "Materials"
           ]
         },
         {
-          "id": "earnings-reports-021026",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several major companies are scheduled to report earnings today, February 10, 2026, before market open. These include Coca-Cola ($KO), S&P Global ($SPGI), CVS Health ($CVS), Duke Energy ($DUK), Marriott International ($MAR), Spotify Technology ($SPOT), Ecolab ($ECL), Ferrari ($RACE), Datadog ($DDOG), Xylem ($XYL), Fiserv ($FISV), BP ($BP), and Ford Motor ($F). Goodyear ($GT) will also host an investor call following its Q4 and full-year 2025 results.",
+          "id": "economic-data-anticipation",
+          "headline": "Investors Await Key Economic Data This Week",
+          "summary": "Market participants are keenly awaiting the release of important economic data later this week, including the Consumer Price Index (CPI), Retail Sales reports, and the January non-farm payrolls report. These releases are expected to provide further clarity on inflation and the labor market.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Jobs Report"
+          ]
+        },
+        {
+          "id": "corporate-earnings-cvs",
+          "headline": "CVS Health Reports Strong Q4 and Full-Year 2025 Results",
+          "summary": "CVS Health Corporation announced robust operating results for Q4 and full-year 2025. Total revenues increased by 8.2% to $105.7 billion in Q4, with full-year revenues reaching a record $402.1 billion. The company also confirmed its full-year 2026 adjusted EPS guidance.",
           "tags": [
             "Earnings",
-            "Corporate News"
+            "Healthcare",
+            "$CVS"
           ]
         },
         {
-          "id": "economic-data-021026",
-          "headline": "Economic Data Releases and Upcoming Fed Watch",
-          "summary": "Today, the US is set to release the Employment Cost Index and Trade Price Indices at 8:30 AM ET. Looking ahead, the highly anticipated January jobs report (Non-farm payrolls) is due on Wednesday, February 11, and January CPI inflation figures on Friday, February 13. These reports will be critical in shaping expectations for the Federal Reserve's interest rate policy for the remainder of 2026, after the Fed maintained rates at 3.5%-3.75% following its January meeting.",
+          "id": "corporate-earnings-fiserv",
+          "headline": "Fiserv Reports Mixed Q4 and Full-Year 2025 Results",
+          "summary": "Fiserv, Inc. reported a 1% increase in GAAP revenue for Q4 2025, reaching $5.28 billion, and a 4% increase for the full year. However, adjusted EPS decreased by 21% in Q4 and 2% for the full year. The company provided 2026 guidance for organic revenue growth and adjusted EPS.",
           "tags": [
-            "Economic Indicators",
-            "Fed Policy",
-            "Jobs Report",
-            "CPI"
+            "Earnings",
+            "Financial Technology",
+            "$FISV"
           ]
         },
         {
-          "id": "macro-trends-021026",
-          "headline": "AI Investment Boom Continues to Drive Market Narratives",
-          "summary": "The AI investment boom continues to be a significant macro trend, driving strong performance in chipmakers and select technology stocks. However, concerns persist regarding the impact of rapidly advancing AI tools on traditional software business models, leading to volatility in some software companies. Singapore, for instance, has upgraded its economic growth forecast for 2026, citing a boom in demand for AI-related products.",
+          "id": "small-business-optimism",
+          "headline": "Small Business Optimism Index Remains Above Average",
+          "summary": "The NFIB Small Business Optimism Index dipped slightly by 0.2 points in January to 99.3 but remained above its 52-year average. Expected real sales volume saw a substantial 6-point increase, and credit markets appear more favorable for small borrowers.",
           "tags": [
-            "Macro Trends",
-            "Artificial Intelligence",
-            "Tech Sector"
+            "Economic Indicator",
+            "Small Business",
+            "NFIB"
+          ]
+        },
+        {
+          "id": "global-macro-trends",
+          "headline": "Global Macro Trends: Gold Surges, Oil Dips, Bitcoin Plunges",
+          "summary": "In broader markets, gold surged 5%, nearing $5,000 per ounce, while WTI Crude oil fell 2.5%. Bitcoin experienced a significant plunge of 16.5%, marking its worst week since 2022. Geopolitical tensions across Iran, Ukraine, and Taiwan continue to be closely monitored by investors.",
+          "tags": [
+            "Global Markets",
+            "Commodities",
+            "Cryptocurrency"
           ]
         }
       ]
