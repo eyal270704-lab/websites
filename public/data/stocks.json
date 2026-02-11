@@ -1,158 +1,139 @@
 {
-  "generatedAt": "2026-02-10T17:06:00Z",
+  "generatedAt": "2026-02-11T07:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 10, 2026 - Market Insights",
+  "subtitle": "February 11, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Equities Show Mixed Performance Today Amid Tech Rebound and Economic Data Anticipation",
-          "summary": "U.S. stock markets are exhibiting mixed performance in late-morning trading, following a two-day winning streak that saw major indices close higher on Monday. While the Dow Jones Industrial Average continued its ascent, the Nasdaq Composite saw a slight decline. Investor sentiment remains constructive despite lingering geopolitical tensions and anticipation of key economic data releases later this week, including the consumer price index and jobs report. Tech stocks are once again in focus, with a rebound seen in some names after last week's AI-driven sell-off.",
+          "id": "market-summary-1",
+          "headline": "US Futures Rise Ahead of Key Jobs Report, Fed Rate Cut Bets Drive Sentiment",
+          "summary": "US stock futures are trading higher this Wednesday morning as investors await the delayed January jobs report. While weak labor market data is anticipated, rising expectations for a Federal Reserve rate cut in the first half of 2026 are bolstering market sentiment. Globally, Asian markets showed optimism, with Indian equities also expecting a positive but cautious trading day. Concerns around the impact of AI on financial firms and softer consumer data from Tuesday are tempering broader enthusiasm, even as the Dow closed at another record high yesterday.",
           "tags": [
-            "Market Overview",
-            "US Stocks",
-            "Tech Rally"
+            "US Market",
+            "Futures",
+            "Fed",
+            "Economic Data"
           ]
         }
       ]
     },
     {
       "id": "major-indices-performance",
-      "title": "Major Indices",
+      "title": "Major Indices (Pre-Market Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-today",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Current",
-          "statValue": "50,260.31",
-          "statContext": "Up 124.44 points (+0.25%) in late-morning trading.",
-          "direction": "up"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 E-mini Futures",
+          "statValue": "Up 21 points",
+          "statContext": "+0.27%"
         },
         {
-          "id": "sp500-today",
-          "headline": "S&P 500 Index",
-          "statLabel": "Current",
-          "statValue": "6,966.96",
-          "statContext": "Up 2.14 points (+0.03%) in late-morning trading.",
-          "direction": "up"
+          "id": "nasdaq100-futures",
+          "statLabel": "Nasdaq 100 E-mini Futures",
+          "statValue": "Up 106 points",
+          "statContext": "+0.35%"
         },
         {
-          "id": "nasdaq-today",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Current",
-          "statValue": "23,235.16",
-          "statContext": "Down 3.51 points (-0.02%) in late-morning trading.",
-          "direction": "down"
+          "id": "dowjones-futures",
+          "statLabel": "Dow Jones E-mini Futures",
+          "statValue": "Up 117 points",
+          "statContext": "+0.26%"
         },
         {
-          "id": "vix-yesterday",
-          "headline": "CBOE Volatility Index ($VIX)",
-          "statLabel": "Yesterday's Close",
-          "statValue": "17.36",
-          "statContext": "Down 2.25% on Monday.",
-          "direction": "down"
+          "id": "dowjones-close",
+          "statLabel": "Dow Jones Industrial Average (Tuesday Close)",
+          "statValue": "Up 0.1%",
+          "statContext": "Closed at a new record"
+        },
+        {
+          "id": "sp500-close",
+          "statLabel": "S&P 500 (Tuesday Close)",
+          "statValue": "Down 0.33%",
+          "statContext": "Slipped on Tuesday"
+        },
+        {
+          "id": "nasdaq-close",
+          "statLabel": "Nasdaq Composite (Tuesday Close)",
+          "statValue": "Down 0.59%",
+          "statContext": "Dropped on Tuesday"
         }
       ]
     },
     {
-      "id": "top-movers-us",
-      "title": "Top Movers (U.S. Market)",
+      "id": "top-movers-today",
+      "title": "Top Movers (Post-Market/Pre-Market Insights)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-gainer-spot",
-          "headline": "Spotify Technology S.A. Jumps on Strong Q4 and Q1 Outlook",
-          "summary": "Shares of Spotify surged 15% after the company delivered a strong Q4 performance and provided Q1 guidance that exceeded expectations for key metrics like total Monthly Active Users (MAUs) and premium subscribers.",
-          "ticker": "$SPOT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Technology"
-          ]
-        },
-        {
-          "id": "stock-gainer-datadog",
-          "headline": "Datadog Rises on Q4 Beat and Positive Q1 Revenue Guidance",
-          "summary": "Datadog's stock climbed 13% after the company reported a strong Q4 earnings beat and issued stronger-than-expected revenue guidance for Q1 2026. Management also highlighted continued investment in AI-powered innovation.",
+          "id": "ddog-gainer",
+          "headline": "Datadog Soars on Strong Q4 Revenue Beat",
+          "summary": "Datadog ($DDOG) saw a significant increase of over +15% after reporting Q4 revenue of $953.2 million, surpassing the consensus estimate of $917.2 million.",
           "ticker": "$DDOG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "AI"
-          ]
+          "changePercent": "+15%",
+          "direction": "up"
         },
         {
-          "id": "stock-gainer-ubiquiti",
-          "headline": "Ubiquiti Surges on Robust Quarterly Results",
-          "summary": "Ubiquiti saw its shares surge 14.47% following the release of strong quarterly results and a higher price target from Barclays.",
-          "ticker": "$UI",
+          "id": "crdo-gainer",
+          "headline": "Credo Technology Group Holdings Up on Strong Q3 Revenue Forecast",
+          "summary": "Credo Technology Group Holding Ltd ($CRDO) gained over +10% after providing a preliminary Q3 revenue forecast of $404 million to $408 million, well above the consensus of $341.2 million.",
+          "ticker": "$CRDO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+14.47%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Technology"
-          ]
+          "changePercent": "+10%",
+          "direction": "up"
         },
         {
-          "id": "stock-loser-bdx",
-          "headline": "Becton, Dickinson Leads S&P 500 Decliners",
-          "summary": "Becton, Dickinson and Company was among the worst-performing components of the S&P 500 index, trading down 19.0% today.",
-          "ticker": "$BDX",
+          "id": "mas-gainer",
+          "headline": "Masco Rises on Bullish Full-Year EPS Forecast",
+          "summary": "Masco ($MAS) climbed over +9% after forecasting full-year adjusted EPS of $4.10 to $4.30, with the midpoint exceeding the consensus of $4.19.",
+          "ticker": "$MAS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-19.0%",
-          "direction": "down",
-          "tags": [
-            "Healthcare"
-          ]
+          "changePercent": "+9%",
+          "direction": "up"
         },
         {
-          "id": "stock-loser-waters",
-          "headline": "Waters Corporation Falls on Softer Profit Despite Sales Growth",
-          "summary": "Waters Corporation's stock fell 13.94% after its earnings report indicated softer profit margins, even with an increase in quarterly and full-year sales.",
-          "ticker": "$WAT",
+          "id": "amtm-loser",
+          "headline": "Amentum Holdings Drops on Q1 Revenue Miss",
+          "summary": "Amentum Holdings ($AMTM) fell over -12% after reporting Q1 revenue of $3.24 billion, which was below the consensus estimate of $3.32 billion.",
+          "ticker": "$AMTM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.94%",
-          "direction": "down",
-          "tags": [
-            "Earnings",
-            "Biotechnology"
-          ]
+          "changePercent": "-12%",
+          "direction": "down"
         },
         {
-          "id": "stock-loser-monday",
-          "headline": "Monday.com Plummets on Disappointing Guidance",
-          "summary": "Shares of Monday.com Limited plummeted over 20% after the software provider issued revenue and profit guidance that failed to meet analyst expectations.",
-          "ticker": "$MNDY",
+          "id": "spgi-loser",
+          "headline": "S&P Global Inc. Leads Losers on Weak EPS Forecast",
+          "summary": "S&P Global Inc ($SPGI) declined over -9% after forecasting full-year adjusted EPS of $19.40 to $19.65, weaker than the consensus of $20.00.",
+          "ticker": "$SPGI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-20%",
-          "direction": "down",
-          "tags": [
-            "Earnings",
-            "Software"
-          ]
+          "changePercent": "-9%",
+          "direction": "down"
+        },
+        {
+          "id": "incy-loser",
+          "headline": "Incyte Falls Following Dull Full-Year Revenue Forecast",
+          "summary": "Incyte ($INCY) dropped over -8% after forecasting full-year total net product revenue of $4.77 billion to $4.94 billion, with the midpoint below the consensus of $4.87 billion.",
+          "ticker": "$INCY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8%",
+          "direction": "down"
         }
       ]
     },
@@ -163,64 +144,81 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-us",
-          "headline": "Technology, Materials, and Communication Services Lead U.S. Sectors",
-          "summary": "In the U.S. market, technology, materials, and communication services sectors were the biggest gainers on Monday, with the Technology Select Sector SPDR (XLK) rising 1.6%. Seven out of the 11 S&P 500 sectors closed in positive territory. Conversely, consumer staples and healthcare lagged.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Materials"
-          ]
-        },
-        {
-          "id": "economic-data-anticipation",
-          "headline": "Investors Await Key Economic Data This Week",
-          "summary": "Market participants are keenly awaiting the release of important economic data later this week, including the Consumer Price Index (CPI), Retail Sales reports, and the January non-farm payrolls report. These releases are expected to provide further clarity on inflation and the labor market.",
+          "id": "economic-data-jobs",
+          "headline": "Delayed January Jobs Report in Focus Today",
+          "summary": "The highly anticipated January jobs report, including nonfarm payrolls, unemployment rate, and average hourly earnings, is scheduled for release today. Wall Street anticipates modest job growth of approximately 55,000 new jobs. Economists forecast a 3.6% year-over-year rise in average hourly earnings and the unemployment rate to hold steady at 4.4%.",
           "tags": [
             "Economic Data",
-            "Inflation",
-            "Jobs Report"
-          ]
+            "Jobs Report",
+            "US Economy"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
         },
         {
-          "id": "corporate-earnings-cvs",
-          "headline": "CVS Health Reports Strong Q4 and Full-Year 2025 Results",
-          "summary": "CVS Health Corporation announced robust operating results for Q4 and full-year 2025. Total revenues increased by 8.2% to $105.7 billion in Q4, with full-year revenues reaching a record $402.1 billion. The company also confirmed its full-year 2026 adjusted EPS guidance.",
+          "id": "china-inflation",
+          "headline": "China Releases January Inflation Data",
+          "summary": "China's National Bureau of Statistics is publishing January 2026 consumer price index (CPI) and producer price index (PPI) data today. Forecasts suggest a modest rise in headline consumer inflation (0.6%-1.2% year-on-year) driven by seasonal Lunar New Year effects, while producer prices are expected to continue showing deflationary pressure.",
+          "tags": [
+            "Economic Data",
+            "China",
+            "Inflation"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
+        },
+        {
+          "id": "fed-commentary",
+          "headline": "Fed Officials Urge Patience on Rate Cuts Amid Mixed Signals",
+          "summary": "Despite rising bets on an H1 2026 Fed rate cut, recent comments from Federal Reserve officials suggest a cautious approach. Cleveland Fed President Beth Hammack expressed a preference for 'patience' in assessing the impact of recent rate reductions, while Dallas Fed President Lorie Logan indicated that 'material' weakness in the labor market would be necessary to support further rate cuts.",
+          "tags": [
+            "Fed",
+            "Monetary Policy",
+            "Interest Rates"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
+        },
+        {
+          "id": "earnings-season-peak",
+          "headline": "Over 290 Companies Report Q3 2026 Earnings Today",
+          "summary": "The Q3 2026 earnings season reaches a decisive phase today with over 290 companies scheduled to announce their December quarter results. Notable companies reporting include Mahindra & Mahindra ($M&M), Divi's Laboratories, Ashok Leyland, LG Electronics, Max Financial Services, and SJVN. Earnings announcements are currently a key driver for market sentiment.",
           "tags": [
             "Earnings",
-            "Healthcare",
-            "$CVS"
-          ]
+            "Q3 2026",
+            "Corporate News"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
         },
         {
-          "id": "corporate-earnings-fiserv",
-          "headline": "Fiserv Reports Mixed Q4 and Full-Year 2025 Results",
-          "summary": "Fiserv, Inc. reported a 1% increase in GAAP revenue for Q4 2025, reaching $5.28 billion, and a 4% increase for the full year. However, adjusted EPS decreased by 21% in Q4 and 2% for the full year. The company provided 2026 guidance for organic revenue growth and adjusted EPS.",
+          "id": "ahold-delhaize-earnings",
+          "headline": "Ahold Delhaize Reports Strong Q4 2025 Financial Results",
+          "summary": "International food retail group Ahold Delhaize ($AD) announced robust Q4 2025 financial results, with IFRS operating income reaching €899 million and diluted earnings per share (EPS) at €0.65. The company highlighted its priorities and outlook for 2026, underpinning its value creation and progress towards its 'Growing Together' ambitions.",
           "tags": [
             "Earnings",
-            "Financial Technology",
-            "$FISV"
-          ]
+            "Retail",
+            "Ahold Delhaize"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
         },
         {
-          "id": "small-business-optimism",
-          "headline": "Small Business Optimism Index Remains Above Average",
-          "summary": "The NFIB Small Business Optimism Index dipped slightly by 0.2 points in January to 99.3 but remained above its 52-year average. Expected real sales volume saw a substantial 6-point increase, and credit markets appear more favorable for small borrowers.",
+          "id": "siemens-energy-q1",
+          "headline": "Siemens Energy Posts Strong Q1 FY 2026 Results Driven by Record Orders",
+          "summary": "Siemens Energy ($SIEG.DE) has started its financial year strongly, reporting record orders in Q1 FY 2026. The company saw significant improvements in revenue and cash flow, with earnings more than doubling compared to the previous year. This performance is attributed to sustained high demand in its gas turbines and grid technologies, alongside early signs of improvement in the wind business.",
           "tags": [
-            "Economic Indicator",
-            "Small Business",
-            "NFIB"
-          ]
+            "Earnings",
+            "Energy",
+            "Siemens Energy"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
         },
         {
-          "id": "global-macro-trends",
-          "headline": "Global Macro Trends: Gold Surges, Oil Dips, Bitcoin Plunges",
-          "summary": "In broader markets, gold surged 5%, nearing $5,000 per ounce, while WTI Crude oil fell 2.5%. Bitcoin experienced a significant plunge of 16.5%, marking its worst week since 2022. Geopolitical tensions across Iran, Ukraine, and Taiwan continue to be closely monitored by investors.",
+          "id": "ai-finance-impact",
+          "headline": "AI Tax-Planning Tool Sparks Concerns for Financial Firms",
+          "summary": "Concerns regarding the impact of Artificial Intelligence on financial firms are emerging, with platform Altruist having launched an AI tax-planning tool. This development led to a decline in several finance stocks, notably LPL Financial, which plunged 8.3% on Tuesday, as the threat of automated competition spooked traders.",
           "tags": [
-            "Global Markets",
-            "Commodities",
-            "Cryptocurrency"
-          ]
+            "Technology",
+            "AI",
+            "Financial Sector"
+          ],
+          "timestamp": "2026-02-11T07:54:00Z"
         }
       ]
     }
