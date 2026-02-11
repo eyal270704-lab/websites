@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-11T07:54:00Z",
+  "generatedAt": "2026-02-11T12:44:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 11, 2026",
+  "subtitle": "February 11, 2026 Market Close",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,212 +13,183 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "US Futures Rise Ahead of Key Jobs Report, Fed Rate Cut Bets Drive Sentiment",
-          "summary": "US stock futures are trading higher this Wednesday morning as investors await the delayed January jobs report. While weak labor market data is anticipated, rising expectations for a Federal Reserve rate cut in the first half of 2026 are bolstering market sentiment. Globally, Asian markets showed optimism, with Indian equities also expecting a positive but cautious trading day. Concerns around the impact of AI on financial firms and softer consumer data from Tuesday are tempering broader enthusiasm, even as the Dow closed at another record high yesterday.",
+          "id": "market-summary-feb11",
+          "headline": "Dow Hits Record High Amidst Mixed Market Performance; Retail Sales Stagnate, Fueling Fed Rate Cut Hopes",
+          "summary": "U.S. equities saw a mixed close on Wednesday, February 11, with the Dow Jones Industrial Average achieving a new record high. However, the S&P 500 and Nasdaq Composite experienced declines, largely influenced by stagnant December retail sales data which raised concerns about consumer spending momentum. This softer economic data is prompting traders to increase expectations for Federal Reserve rate cuts later in the year, with a 36% chance now priced in for an April cut. Conversely, some Fed officials expressed hawkish views, suggesting rates could remain elevated. All eyes are now on upcoming inflation and unemployment reports for further guidance.",
           "tags": [
-            "US Market",
-            "Futures",
-            "Fed",
-            "Economic Data"
+            "Market Overview",
+            "Economic Data",
+            "Fed Policy"
           ]
         }
       ]
     },
     {
       "id": "major-indices-performance",
-      "title": "Major Indices (Pre-Market Futures)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 E-mini Futures",
-          "statValue": "Up 21 points",
-          "statContext": "+0.27%"
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "6,941.81",
+          "statContext": "Down 0.3%"
         },
         {
-          "id": "nasdaq100-futures",
-          "statLabel": "Nasdaq 100 E-mini Futures",
-          "statValue": "Up 106 points",
-          "statContext": "+0.35%"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "23,102.47",
+          "statContext": "Down 0.6%"
         },
         {
-          "id": "dowjones-futures",
-          "statLabel": "Dow Jones E-mini Futures",
-          "statValue": "Up 117 points",
-          "statContext": "+0.26%"
-        },
-        {
-          "id": "dowjones-close",
-          "statLabel": "Dow Jones Industrial Average (Tuesday Close)",
-          "statValue": "Up 0.1%",
-          "statContext": "Closed at a new record"
-        },
-        {
-          "id": "sp500-close",
-          "statLabel": "S&P 500 (Tuesday Close)",
-          "statValue": "Down 0.33%",
-          "statContext": "Slipped on Tuesday"
-        },
-        {
-          "id": "nasdaq-close",
-          "statLabel": "Nasdaq Composite (Tuesday Close)",
-          "statValue": "Down 0.59%",
-          "statContext": "Dropped on Tuesday"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,188.14",
+          "statContext": "Up 0.1%"
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers (Post-Market/Pre-Market Insights)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ddog-gainer",
-          "headline": "Datadog Soars on Strong Q4 Revenue Beat",
-          "summary": "Datadog ($DDOG) saw a significant increase of over +15% after reporting Q4 revenue of $953.2 million, surpassing the consensus estimate of $917.2 million.",
-          "ticker": "$DDOG",
+          "id": "lpl-financial-loser",
+          "headline": "LPL Financial Plunges Amid AI Tax Tool Fears",
+          "summary": "Shares of LPL Financial ($LPLA) experienced a significant drop, plunging 8.3%. This decline came as concerns mounted over the threat of automated competition following the launch of a new AI-powered tax planning tool, spooking traders in the financial sector.",
+          "ticker": "$LPLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15%",
-          "direction": "up"
+          "changePercent": "-8.3%",
+          "direction": "down",
+          "tags": [
+            "Financials",
+            "AI Impact"
+          ]
         },
         {
-          "id": "crdo-gainer",
-          "headline": "Credo Technology Group Holdings Up on Strong Q3 Revenue Forecast",
-          "summary": "Credo Technology Group Holding Ltd ($CRDO) gained over +10% after providing a preliminary Q3 revenue forecast of $404 million to $408 million, well above the consensus of $341.2 million.",
-          "ticker": "$CRDO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10%",
-          "direction": "up"
-        },
-        {
-          "id": "mas-gainer",
-          "headline": "Masco Rises on Bullish Full-Year EPS Forecast",
-          "summary": "Masco ($MAS) climbed over +9% after forecasting full-year adjusted EPS of $4.10 to $4.30, with the midpoint exceeding the consensus of $4.19.",
-          "ticker": "$MAS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9%",
-          "direction": "up"
-        },
-        {
-          "id": "amtm-loser",
-          "headline": "Amentum Holdings Drops on Q1 Revenue Miss",
-          "summary": "Amentum Holdings ($AMTM) fell over -12% after reporting Q1 revenue of $3.24 billion, which was below the consensus estimate of $3.32 billion.",
-          "ticker": "$AMTM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12%",
-          "direction": "down"
-        },
-        {
-          "id": "spgi-loser",
-          "headline": "S&P Global Inc. Leads Losers on Weak EPS Forecast",
-          "summary": "S&P Global Inc ($SPGI) declined over -9% after forecasting full-year adjusted EPS of $19.40 to $19.65, weaker than the consensus of $20.00.",
+          "id": "s-p-global-loser",
+          "headline": "S&P Global Declines on Weak Profit Forecast",
+          "summary": "S&P Global ($SPGI) dropped 9.7% after the company provided a profit forecast for the upcoming year that fell short of analysts' expectations. The company, known for its stock indexes, is also grappling with worries that artificial intelligence-powered competitors could capture customers for its data services.",
           "ticker": "$SPGI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9%",
-          "direction": "down"
+          "changePercent": "-9.7%",
+          "direction": "down",
+          "tags": [
+            "Financials",
+            "AI Impact",
+            "Earnings"
+          ]
         },
         {
-          "id": "incy-loser",
-          "headline": "Incyte Falls Following Dull Full-Year Revenue Forecast",
-          "summary": "Incyte ($INCY) dropped over -8% after forecasting full-year total net product revenue of $4.77 billion to $4.94 billion, with the midpoint below the consensus of $4.87 billion.",
-          "ticker": "$INCY",
+          "id": "datadog-gainer",
+          "headline": "Datadog Surges on Strong Earnings",
+          "summary": "Datadog ($DDOG) saw its stock surge 17% after reporting robust Q4 earnings and strong customer growth.",
+          "ticker": "$DDOG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8%",
-          "direction": "down"
+          "changePercent": "+17%",
+          "direction": "up",
+          "tags": [
+            "Technology",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "quest-diagnostics-gainer",
+          "headline": "Quest Diagnostics Rises on Solid Quarterly Results",
+          "summary": "Quest Diagnostics ($DGX) climbed 7% following the release of solid quarterly profit and revenue results, indicating strong performance in the healthcare sector.",
+          "ticker": "$DGX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7%",
+          "direction": "up",
+          "tags": [
+            "Healthcare",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "eicher-motors-gainer-india",
+          "headline": "Eicher Motors Leads Indian Gains on Strong Q3",
+          "summary": "In the Indian market, Eicher Motors Ltd ($EICHERMOT) emerged as a top gainer, advancing by 6.45% to ₹7,766.50. The surge was driven by a strong Q3 FY26 performance, which included a 21.37% increase in consolidated net profit.",
+          "ticker": "$EICHERMOT",
+          "price": "₹7,766.50",
+          "change": "N/A",
+          "changePercent": "+6.45%",
+          "direction": "up",
+          "tags": [
+            "Indian Market",
+            "Auto",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "tcs-loser-india",
+          "headline": "TCS Falls as AI Concerns Weigh on IT Services",
+          "summary": "Tata Consultancy Services ($TCS) was among the biggest losers in the Indian market, retreating 2.53% to ₹2,909.00. The decline was attributed to global investor worries about AI disrupting traditional IT services and ongoing margin outlook concerns.",
+          "ticker": "$TCS",
+          "price": "₹2,909.00",
+          "change": "N/A",
+          "changePercent": "-2.53%",
+          "direction": "down",
+          "tags": [
+            "Indian Market",
+            "IT Services",
+            "AI Impact"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-jobs",
-          "headline": "Delayed January Jobs Report in Focus Today",
-          "summary": "The highly anticipated January jobs report, including nonfarm payrolls, unemployment rate, and average hourly earnings, is scheduled for release today. Wall Street anticipates modest job growth of approximately 55,000 new jobs. Economists forecast a 3.6% year-over-year rise in average hourly earnings and the unemployment rate to hold steady at 4.4%.",
+          "id": "retail-sales-impact",
+          "headline": "Stagnant December Retail Sales Spark Economic Jitters",
+          "summary": "The U.S. Census Bureau reported that December retail sales showed zero growth month-over-month, significantly missing analysts' expectations of a 0.4% gain. This flat performance is raising red flags about a potential slowdown in consumer spending, a key driver of the U.S. economy. The disappointing data is contributing to market anxiety and influencing expectations for the Federal Reserve's monetary policy.",
           "tags": [
             "Economic Data",
-            "Jobs Report",
-            "US Economy"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
+            "Consumer Spending",
+            "Fed Policy"
+          ]
         },
         {
-          "id": "china-inflation",
-          "headline": "China Releases January Inflation Data",
-          "summary": "China's National Bureau of Statistics is publishing January 2026 consumer price index (CPI) and producer price index (PPI) data today. Forecasts suggest a modest rise in headline consumer inflation (0.6%-1.2% year-on-year) driven by seasonal Lunar New Year effects, while producer prices are expected to continue showing deflationary pressure.",
+          "id": "fed-rate-cut-speculation",
+          "headline": "Fed Officials Express Caution on Rate Cuts Despite Soft Data",
+          "summary": "While softer retail sales data is pushing traders to price in higher odds of an April rate cut (36% chance), Federal Reserve officials have voiced caution. Cleveland Fed President Beth Hammack indicated the Fed might remain 'on hold for quite some time,' and Dallas Fed President Lorie Logan stated that 'material' weakness in the labor market would be necessary to support further rate reductions, creating a potential disconnect with market expectations.",
           "tags": [
-            "Economic Data",
-            "China",
-            "Inflation"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
         },
         {
-          "id": "fed-commentary",
-          "headline": "Fed Officials Urge Patience on Rate Cuts Amid Mixed Signals",
-          "summary": "Despite rising bets on an H1 2026 Fed rate cut, recent comments from Federal Reserve officials suggest a cautious approach. Cleveland Fed President Beth Hammack expressed a preference for 'patience' in assessing the impact of recent rate reductions, while Dallas Fed President Lorie Logan indicated that 'material' weakness in the labor market would be necessary to support further rate cuts.",
+          "id": "ai-disruption-concerns",
+          "headline": "AI Revolution Reshapes Sectors, Raises Disruption Fears",
+          "summary": "The rapid advancement of artificial intelligence continues to be a dominant theme, particularly impacting the financial and technology sectors. Fears of AI disruption hammered financial stocks, notably LPL Financial, following the launch of new AI-powered tax tools. Google also offloaded $20 billion in bonds to fund its aggressive tech expansion in the AI arms race. Analysts note accelerating underperformance in Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) sectors, driven by concerns over AI's potential to erode traditional business models and pressuring valuations. Conversely, Industrials, Energy, and Materials are seeing renewed leadership.",
           "tags": [
-            "Fed",
-            "Monetary Policy",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
-        },
-        {
-          "id": "earnings-season-peak",
-          "headline": "Over 290 Companies Report Q3 2026 Earnings Today",
-          "summary": "The Q3 2026 earnings season reaches a decisive phase today with over 290 companies scheduled to announce their December quarter results. Notable companies reporting include Mahindra & Mahindra ($M&M), Divi's Laboratories, Ashok Leyland, LG Electronics, Max Financial Services, and SJVN. Earnings announcements are currently a key driver for market sentiment.",
-          "tags": [
-            "Earnings",
-            "Q3 2026",
-            "Corporate News"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
-        },
-        {
-          "id": "ahold-delhaize-earnings",
-          "headline": "Ahold Delhaize Reports Strong Q4 2025 Financial Results",
-          "summary": "International food retail group Ahold Delhaize ($AD) announced robust Q4 2025 financial results, with IFRS operating income reaching €899 million and diluted earnings per share (EPS) at €0.65. The company highlighted its priorities and outlook for 2026, underpinning its value creation and progress towards its 'Growing Together' ambitions.",
-          "tags": [
-            "Earnings",
-            "Retail",
-            "Ahold Delhaize"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
-        },
-        {
-          "id": "siemens-energy-q1",
-          "headline": "Siemens Energy Posts Strong Q1 FY 2026 Results Driven by Record Orders",
-          "summary": "Siemens Energy ($SIEG.DE) has started its financial year strongly, reporting record orders in Q1 FY 2026. The company saw significant improvements in revenue and cash flow, with earnings more than doubling compared to the previous year. This performance is attributed to sustained high demand in its gas turbines and grid technologies, alongside early signs of improvement in the wind business.",
-          "tags": [
-            "Earnings",
-            "Energy",
-            "Siemens Energy"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
-        },
-        {
-          "id": "ai-finance-impact",
-          "headline": "AI Tax-Planning Tool Sparks Concerns for Financial Firms",
-          "summary": "Concerns regarding the impact of Artificial Intelligence on financial firms are emerging, with platform Altruist having launched an AI tax-planning tool. This development led to a decline in several finance stocks, notably LPL Financial, which plunged 8.3% on Tuesday, as the threat of automated competition spooked traders.",
-          "tags": [
-            "Technology",
             "AI",
-            "Financial Sector"
-          ],
-          "timestamp": "2026-02-11T07:54:00Z"
+            "Technology",
+            "Sector Rotation",
+            "Financials"
+          ]
+        },
+        {
+          "id": "earnings-reports-today",
+          "headline": "Key Companies Report Earnings; McDonald's, T-Mobile Among Those in Focus",
+          "summary": "Several major companies are reporting earnings today, February 11, 2026. Companies expected to announce results include McDonald's Corporation ($MCD), T-Mobile US ($TMUS), Shopify Inc. ($SHOP), NetEase Inc. ($NTES), Vertiv Holdings LLC ($VRT), Hilton Worldwide Holdings Inc. ($HLT), Martin Marietta Materials Inc. ($MLM), Westinghouse Air Brake Technologies Corp ($WAB), The Kraft Heinz Company ($KHC), GlobalFoundries Inc. ($GFS), Stanley Black & Decker Inc. ($SW), and Humana Inc. ($HUM). Investors are closely monitoring these reports for insights into corporate performance and future outlooks.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
+          ]
         }
       ]
     }
