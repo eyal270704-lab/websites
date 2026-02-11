@@ -1,194 +1,193 @@
 {
-  "generatedAt": "2026-02-11T12:44:00Z",
+  "generatedAt": "2026-02-11T17:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 11, 2026 Market Close",
+  "subtitle": "February 11, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-feb11",
-          "headline": "Dow Hits Record High Amidst Mixed Market Performance; Retail Sales Stagnate, Fueling Fed Rate Cut Hopes",
-          "summary": "U.S. equities saw a mixed close on Wednesday, February 11, with the Dow Jones Industrial Average achieving a new record high. However, the S&P 500 and Nasdaq Composite experienced declines, largely influenced by stagnant December retail sales data which raised concerns about consumer spending momentum. This softer economic data is prompting traders to increase expectations for Federal Reserve rate cuts later in the year, with a 36% chance now priced in for an April cut. Conversely, some Fed officials expressed hawkish views, suggesting rates could remain elevated. All eyes are now on upcoming inflation and unemployment reports for further guidance.",
+          "headline": "Mixed Session for U.S. Equities Amid Strong Jobs Report and Retail Sales Concerns",
+          "summary": "U.S. equities experienced a mixed day of trading as a surprisingly strong January jobs report initially boosted sentiment, but concerns over stalled retail sales and the impact of AI on the financial sector led to a more cautious close for some indices. The Dow Jones Industrial Average marked another record high, while the S&P 500 and Nasdaq Composite finished in negative territory. Investors are now keenly awaiting Friday's inflation data.",
           "tags": [
             "Market Overview",
             "Economic Data",
-            "Fed Policy"
+            "AI Impact"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "6,941.81",
-          "statContext": "Down 0.3%"
-        },
-        {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "23,102.47",
-          "statContext": "Down 0.6%"
-        },
-        {
-          "id": "dow-stat",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,188.14",
-          "statContext": "Up 0.1%"
+          "statContext": "Gained 0.1% for a new record high.",
+          "ticker": "$DJI",
+          "price": "50,188.14",
+          "change": "+52.57",
+          "changePercent": "+0.1%",
+          "direction": "up"
+        },
+        {
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "6,941.81",
+          "statContext": "Fell 0.3% as financial and healthcare stocks weighed.",
+          "ticker": "$SPX",
+          "price": "6,941.81",
+          "change": "-23.01",
+          "changePercent": "-0.3%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "23,102.47",
+          "statContext": "Declined 0.6%, with tech stocks under pressure.",
+          "ticker": "$IXIC",
+          "price": "23,102.47",
+          "change": "-136.20",
+          "changePercent": "-0.6%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "lpl-financial-loser",
-          "headline": "LPL Financial Plunges Amid AI Tax Tool Fears",
-          "summary": "Shares of LPL Financial ($LPLA) experienced a significant drop, plunging 8.3%. This decline came as concerns mounted over the threat of automated competition following the launch of a new AI-powered tax planning tool, spooking traders in the financial sector.",
-          "ticker": "$LPLA",
+          "id": "vrt-gainer",
+          "headline": "Vertiv Holdings Co. ($VRT)",
+          "summary": "Surged 22% after exceeding earnings forecasts and providing an optimistic 2026 outlook driven by AI data center demand.",
+          "ticker": "$VRT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.3%",
-          "direction": "down",
-          "tags": [
-            "Financials",
-            "AI Impact"
-          ]
+          "changePercent": "+22%",
+          "direction": "up"
         },
         {
-          "id": "s-p-global-loser",
-          "headline": "S&P Global Declines on Weak Profit Forecast",
-          "summary": "S&P Global ($SPGI) dropped 9.7% after the company provided a profit forecast for the upcoming year that fell short of analysts' expectations. The company, known for its stock indexes, is also grappling with worries that artificial intelligence-powered competitors could capture customers for its data services.",
-          "ticker": "$SPGI",
+          "id": "smr-gainer",
+          "headline": "Smurfit Westrock ($SMR)",
+          "summary": "Jumped nearly 11% despite reporting weaker profit for the latest quarter, as encouraging financial forecasts through 2030 boosted investor confidence.",
+          "ticker": "$SMR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.7%",
-          "direction": "down",
-          "tags": [
-            "Financials",
-            "AI Impact",
-            "Earnings"
-          ]
+          "changePercent": "+11%",
+          "direction": "up"
         },
         {
           "id": "datadog-gainer",
-          "headline": "Datadog Surges on Strong Earnings",
-          "summary": "Datadog ($DDOG) saw its stock surge 17% after reporting robust Q4 earnings and strong customer growth.",
+          "headline": "Datadog Inc. ($DDOG)",
+          "summary": "Saw a 17% stock surge following strong fourth-quarter earnings and robust customer growth.",
           "ticker": "$DDOG",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+17%",
-          "direction": "up",
-          "tags": [
-            "Technology",
-            "Earnings"
-          ]
+          "direction": "up"
         },
         {
-          "id": "quest-diagnostics-gainer",
-          "headline": "Quest Diagnostics Rises on Solid Quarterly Results",
-          "summary": "Quest Diagnostics ($DGX) climbed 7% following the release of solid quarterly profit and revenue results, indicating strong performance in the healthcare sector.",
-          "ticker": "$DGX",
+          "id": "hood-loser",
+          "headline": "Robinhood Markets Inc. ($HOOD)",
+          "summary": "Fell 12.7% (or about $7 in premarket) despite a stronger-than-expected quarterly profit, as revenue missed forecasts and concerns grew over 2026 expenses and a slowdown in crypto trading.",
+          "ticker": "$HOOD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Earnings"
-          ]
+          "changePercent": "-12.7%",
+          "direction": "down"
         },
         {
-          "id": "eicher-motors-gainer-india",
-          "headline": "Eicher Motors Leads Indian Gains on Strong Q3",
-          "summary": "In the Indian market, Eicher Motors Ltd ($EICHERMOT) emerged as a top gainer, advancing by 6.45% to ₹7,766.50. The surge was driven by a strong Q3 FY26 performance, which included a 21.37% increase in consolidated net profit.",
-          "ticker": "$EICHERMOT",
-          "price": "₹7,766.50",
+          "id": "lpl-loser",
+          "headline": "LPL Financial Holdings Inc. ($LPL)",
+          "summary": "Plunged 8.3% as the financial sector reacted to the launch of a new AI-powered tax planning tool, sparking fears of automated competition.",
+          "ticker": "$LPL",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.45%",
-          "direction": "up",
-          "tags": [
-            "Indian Market",
-            "Auto",
-            "Earnings"
-          ]
+          "changePercent": "-8.3%",
+          "direction": "down"
         },
         {
-          "id": "tcs-loser-india",
-          "headline": "TCS Falls as AI Concerns Weigh on IT Services",
-          "summary": "Tata Consultancy Services ($TCS) was among the biggest losers in the Indian market, retreating 2.53% to ₹2,909.00. The decline was attributed to global investor worries about AI disrupting traditional IT services and ongoing margin outlook concerns.",
-          "ticker": "$TCS",
-          "price": "₹2,909.00",
+          "id": "meta-loser",
+          "headline": "Meta Platforms Inc. ($META)",
+          "summary": "Declined 1.8% amid broader concerns over the high valuation of AI-related stocks.",
+          "ticker": "$META",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.53%",
-          "direction": "down",
-          "tags": [
-            "Indian Market",
-            "IT Services",
-            "AI Impact"
-          ]
+          "changePercent": "-1.8%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "retail-sales-impact",
-          "headline": "Stagnant December Retail Sales Spark Economic Jitters",
-          "summary": "The U.S. Census Bureau reported that December retail sales showed zero growth month-over-month, significantly missing analysts' expectations of a 0.4% gain. This flat performance is raising red flags about a potential slowdown in consumer spending, a key driver of the U.S. economy. The disappointing data is contributing to market anxiety and influencing expectations for the Federal Reserve's monetary policy.",
+          "id": "economic-data-release",
+          "headline": "January Nonfarm Payrolls Exceed Expectations, Unemployment Rate Dips",
+          "summary": "The U.S. Labor Department reported a stronger-than-anticipated addition of 130,000 jobs in January, surpassing economist forecasts. The unemployment rate also saw an unexpected dip to 4.3%. This robust jobs data has led traders to push back expectations for the Federal Reserve's next rate cut to July.",
           "tags": [
             "Economic Data",
-            "Consumer Spending",
-            "Fed Policy"
+            "Jobs Report",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "fed-rate-cut-speculation",
-          "headline": "Fed Officials Express Caution on Rate Cuts Despite Soft Data",
-          "summary": "While softer retail sales data is pushing traders to price in higher odds of an April rate cut (36% chance), Federal Reserve officials have voiced caution. Cleveland Fed President Beth Hammack indicated the Fed might remain 'on hold for quite some time,' and Dallas Fed President Lorie Logan stated that 'material' weakness in the labor market would be necessary to support further rate reductions, creating a potential disconnect with market expectations.",
+          "id": "retail-sales-stagnate",
+          "headline": "December Retail Sales Stagnate, Raising Economic Concerns",
+          "summary": "December retail sales data revealed zero month-over-month growth, significantly missing the 0.4% gain analysts had projected. This stagnation in consumer spending has fueled market anxiety about a potential slowdown in the economy.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
+            "Economic Data",
+            "Retail Sales",
+            "Consumer Spending"
           ]
         },
         {
-          "id": "ai-disruption-concerns",
-          "headline": "AI Revolution Reshapes Sectors, Raises Disruption Fears",
-          "summary": "The rapid advancement of artificial intelligence continues to be a dominant theme, particularly impacting the financial and technology sectors. Fears of AI disruption hammered financial stocks, notably LPL Financial, following the launch of new AI-powered tax tools. Google also offloaded $20 billion in bonds to fund its aggressive tech expansion in the AI arms race. Analysts note accelerating underperformance in Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) sectors, driven by concerns over AI's potential to erode traditional business models and pressuring valuations. Conversely, Industrials, Energy, and Materials are seeing renewed leadership.",
+          "id": "sector-performance",
+          "headline": "Utilities and Materials Lead While Financials and Healthcare Lag",
+          "summary": "Six out of the eleven S&P 500 sectors ended in positive territory, with Utilities (+1.7%), Real Estate (+1.4%), and Materials (+1.4%) showing strength. Conversely, Financials (-0.7%) and Healthcare (-0.6%) were among the day's worst performers, partly due to concerns surrounding AI disruption in financial services.",
+          "tags": [
+            "Sector Analysis",
+            "Utilities",
+            "Financials",
+            "Healthcare"
+          ]
+        },
+        {
+          "id": "ai-impact-on-financials",
+          "headline": "AI Disruption Weighs on Financial Sector",
+          "summary": "The financial sector experienced pressure today, with key players like JPMorgan Chase & Co. ($JPM) and Morgan Stanley ($MS) seeing declines. This comes after the launch of a new AI-driven tax planning tool, intensifying concerns about automated competition and its impact on traditional financial services.",
           "tags": [
             "AI",
-            "Technology",
-            "Sector Rotation",
-            "Financials"
+            "Financial Sector",
+            "Industry News"
           ]
         },
         {
-          "id": "earnings-reports-today",
-          "headline": "Key Companies Report Earnings; McDonald's, T-Mobile Among Those in Focus",
-          "summary": "Several major companies are reporting earnings today, February 11, 2026. Companies expected to announce results include McDonald's Corporation ($MCD), T-Mobile US ($TMUS), Shopify Inc. ($SHOP), NetEase Inc. ($NTES), Vertiv Holdings LLC ($VRT), Hilton Worldwide Holdings Inc. ($HLT), Martin Marietta Materials Inc. ($MLM), Westinghouse Air Brake Technologies Corp ($WAB), The Kraft Heinz Company ($KHC), GlobalFoundries Inc. ($GFS), Stanley Black & Decker Inc. ($SW), and Humana Inc. ($HUM). Investors are closely monitoring these reports for insights into corporate performance and future outlooks.",
+          "id": "upcoming-cpi",
+          "headline": "Investors Await Friday's Crucial Inflation Report",
+          "summary": "Market participants are now focusing intently on Friday's release of the Consumer Price Index (CPI), a key inflation measure. This report is expected to provide further clues on the trajectory of inflation and potentially influence the Federal Reserve's future monetary policy decisions.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Economic Calendar",
+            "Inflation",
+            "CPI"
           ]
         }
       ]
