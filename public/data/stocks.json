@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-12T12:40:00Z",
+  "generatedAt": "2026-02-12T17:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "February 12, 2026 - Not financial advice",
+  "title": "Daily Market Digest: February 12, 2026",
+  "subtitle": "A professional overview of today's market movements.",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,12 +14,13 @@
       "items": [
         {
           "id": "market-summary-feb12",
-          "headline": "US Market Exhibits Cautious Optimism Following Strong Jobs Report; Tech Sector Diverges",
-          "summary": "U.S. stock futures edged higher today, February 12, with the S&P 500 showing gains, following a mixed close on Wednesday. A stronger-than-expected January jobs report has bolstered economic resilience but tempered expectations for aggressive Federal Reserve rate cuts, shifting the likely timing of the first cut to July from June. Sector performance is seeing rotation, with Energy and Materials leading, while Financials and Communication Services lag. The technology sector displayed divergence, as chipmakers rallied while software stocks saw declines amid lingering AI concerns.",
+          "headline": "U.S. Stocks Show Mixed Performance Amid Strong Jobs Report and Inflation Watch",
+          "summary": "U.S. equities experienced a day of cautious optimism and mixed signals on Thursday, February 12, 2026. Major indices generally moved higher, reacting to a surprisingly robust January jobs report released earlier in the week, which saw nonfarm payrolls increase by 130,000 and the unemployment rate dip to 4.3%. However, this strong economic data also intensified speculation regarding the Federal Reserve's next policy moves, leading to a tempering of interest rate cut expectations. Investors are now keenly awaiting Friday's Consumer Price Index (CPI) inflation report, which is expected to show a slight easing of inflation. Trading volumes were lower than the 20-session average.",
           "tags": [
-            "Market Summary",
+            "Market Overview",
             "Jobs Report",
-            "Fed Outlook"
+            "Inflation",
+            "Fed"
           ]
         }
       ]
@@ -31,22 +32,37 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,964.00",
-          "statContext": "Up 0.33% today. Closed flat yesterday at 6,941.47."
+          "statValue": "6,967.08",
+          "statContext": "Up 25.61 points (+0.3%)",
+          "ticker": "$SPX",
+          "price": "6,967.08",
+          "change": "+25.61",
+          "changePercent": "+0.3%",
+          "direction": "up"
         },
         {
-          "id": "dow-perf",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "50,121.40",
-          "statContext": "Futures up 0.3% today. Closed down 0.1% yesterday."
-        },
-        {
-          "id": "nasdaq-perf",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "23,066.47",
-          "statContext": "Futures up 0.25% today. Closed down 0.2% yesterday."
+          "statValue": "23,146.07",
+          "statContext": "Up 79.61 points (+0.4%)",
+          "ticker": "$IXIC",
+          "price": "23,146.07",
+          "change": "+79.61",
+          "changePercent": "+0.4%",
+          "direction": "up"
+        },
+        {
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,330.70",
+          "statContext": "Up 295 points (+0.6%)",
+          "ticker": "$DJI",
+          "price": "50,330.70",
+          "change": "+295",
+          "changePercent": "+0.6%",
+          "direction": "up"
         }
       ]
     },
@@ -57,63 +73,43 @@
       "layout": "grid",
       "items": [
         {
-          "id": "vrt-gainer",
-          "headline": "Vertiv Holdings Co Surges on Strong Q4",
-          "summary": "Vertiv Holdings Co ($VRT) jumped 24.49% following robust Q4 results, upbeat 2026 guidance, and an increased Evercore target.",
-          "ticker": "$VRT",
+          "id": "equinix-gainer",
+          "headline": "Equinix Rallies on Strong 2026 Forecast",
+          "summary": "Digital infrastructure company Equinix jumped 11.6% despite missing latest quarter earnings expectations, as its financial forecasts for 2026 surpassed analyst predictions and demand for its solutions remains high.",
+          "ticker": "$EQIX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+24.49%",
+          "changePercent": "+11.6%",
           "direction": "up"
         },
         {
-          "id": "nvcr-gainer",
-          "headline": "Novocure Rallies on FDA Approval",
-          "summary": "Novocure ($NVCR) rose 22.7% after the U.S. FDA approved its Optune Pax® for treatment.",
-          "ticker": "$NVCR",
+          "id": "smurfitwestrock-gainer",
+          "headline": "Smurfit Westrock Surges on Encouraging Outlook",
+          "summary": "Packaging company Smurfit Westrock climbed 9.9%. This gain came despite a weaker profit report for the latest quarter, driven by encouraging financial targets set for the next five years.",
+          "ticker": "$SMFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+22.7%",
+          "changePercent": "+9.9%",
           "direction": "up"
         },
         {
-          "id": "thc-gainer",
-          "headline": "Tenet Healthcare Beats Earnings Estimates",
-          "summary": "Tenet Healthcare Corporation ($THC) surged 17.3% after reporting Q4 2025 earnings that surpassed Zacks Consensus Estimates.",
-          "ticker": "$THC",
+          "id": "applovin-loser",
+          "headline": "AppLovin Drops Amid AI Competition Concerns",
+          "summary": "AppLovin fell 15.5% even after reporting a stronger profit than expected for the latest quarter. The decline reflects ongoing worries among investors that AI-powered competitors could impact the software company's market position.",
+          "ticker": "$APP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.3%",
-          "direction": "up"
-        },
-        {
-          "id": "alab-loser",
-          "headline": "Astera Labs Drops on Mixed Analyst Reactions",
-          "summary": "Astera Labs ($ALAB) fell 21.41% as the company faced mixed analyst reactions and several price target cuts following its earnings report.",
-          "ticker": "$ALAB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-21.41%",
+          "changePercent": "-15.5%",
           "direction": "down"
         },
         {
-          "id": "cbre-loser",
-          "headline": "CBRE Group Slides Amid Market Weakness",
-          "summary": "CBRE Group ($CBRE) slipped 12.24% in today's trading.",
-          "ticker": "$CBRE",
+          "id": "cisco-loser",
+          "headline": "Cisco Systems Falls on Weak Guidance",
+          "summary": "Cisco Systems shares dropped 7% after the networking equipment provider issued disappointing forward guidance, leading to negative investor sentiment regarding its revenue expectations.",
+          "ticker": "$CSCO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.24%",
-          "direction": "down"
-        },
-        {
-          "id": "shop-loser",
-          "headline": "Shopify Misses Q4 Earnings Expectations",
-          "summary": "Shopify Inc. ($SHOP) declined by 6.7% after its Q4 2025 earnings per share missed Zacks Consensus Estimates.",
-          "ticker": "$SHOP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.7%",
+          "changePercent": "-7.0%",
           "direction": "down"
         }
       ]
@@ -125,41 +121,37 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-jobs",
-          "headline": "Strong January Jobs Report Eases Slowdown Fears, Shifts Fed Rate Cut Expectations",
-          "summary": "The U.S. Labor Department reported that nonfarm payrolls increased by 130,000 in January, significantly surpassing analyst expectations, while the unemployment rate edged down to 4.3%. This robust data suggests continued labor market strength, pushing back market expectations for a Federal Reserve rate cut from June to July, with a 41% probability now priced in for a June hold.",
+          "id": "economic-data-fed",
+          "headline": "Strong Jobs Report Reshapes Fed Rate Cut Expectations",
+          "summary": "The Labor Department's report of 130,000 new nonfarm payrolls in January, significantly exceeding forecasts, has led traders to scale back expectations for Federal Reserve interest rate cuts. The likelihood of the central bank holding rates steady in the near term has risen to almost 40%. All eyes are now on Friday's Consumer Price Index (CPI) report for further clues on monetary policy.",
           "tags": [
             "Economic Data",
+            "Federal Reserve",
             "Jobs Report",
-            "Federal Reserve"
+            "Interest Rates"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Energy and Materials Lead as Sector Rotation Continues; Tech Splits",
-          "summary": "Sector rotation is a prominent theme today. The Energy sector saw significant gains, rising 2.6%, and the Materials sector is rotating into a leading position. Conversely, Financials and Communication Services sectors each dropped over 1%. The technology sector showed a mixed performance; chipmakers rallied, while software stocks slid 2.6% due to renewed concerns over AI disruption.",
+          "id": "sector-analysis-ai",
+          "headline": "AI Splits Market: Infrastructure Strong, Software Under Pressure",
+          "summary": "The artificial intelligence (AI) frenzy continues to create divergence in the market. Companies involved in AI infrastructure, such as semiconductor firms, saw gains. Conversely, software services providers faced pressure due to concerns that AI automation tools could displace existing business models. Meta's announcement of a $10 billion investment in a new AI data center underscores the ongoing capital commitment to the sector.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Technology"
+            "Technology",
+            "AI",
+            "Semiconductors",
+            "Software"
           ]
         },
         {
-          "id": "fed-speak-feb12",
-          "headline": "Fed Officials Scheduled for Discussions Amid Rate Cut Debate",
-          "summary": "Federal Reserve officials have speaking engagements today, February 12. Governor Stephen I. Miran is scheduled for a discussion at the Federal Reserve Bank of Dallas Global Perspectives Event, and Vice Chair for Supervision Michelle W. Bowman will participate in a virtual financial services conference. These discussions occur as markets debate the timing of future rate cuts.",
+          "id": "earnings-mcdonalds-porch",
+          "headline": "Key Earnings: McDonald's Beats, Porch Group Surges After-Hours",
+          "summary": "McDonald's ($MCD) saw its stock rise 1% after beating earnings estimates, driven by strong Q4 revenue and a 6.8% surge in U.S. same-store sales. Meanwhile, Porch Group Inc. ($PRCH) surged 21.87% in after-hours trading after reporting a narrower-than-expected Q4 loss. Conversely, Robinhood Markets ($HOOD) fell 8.8% despite a stronger profit, as revenue fell short of forecasts, and concerns about crypto trading slowdown persisted.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "q4-earnings-reports",
-          "headline": "Mixed Bag of Major Company Earnings Reports Released",
-          "summary": "Several major companies released earnings reports. Entergy Corporation ($ETR) reported 2025 financial results in the top half of its guidance range. Vertiv Holdings Co ($VRT) and GlobalFoundries ($GFS) both posted strong Q4 earnings. Tenet Healthcare ($THC) and T-Mobile US ($TMUS) beat earnings estimates, while Shopify ($SHOP) and Moderna ($MRNA) missed. Cisco Systems ($CSCO) reported weaker gross margins, and AppLovin ($APP) posted strong results but its stock still slid.",
-          "tags": [
-            "Earnings Season",
-            "Corporate News"
+            "Earnings Report",
+            "McDonald's",
+            "Porch Group",
+            "Robinhood"
           ]
         }
       ]
