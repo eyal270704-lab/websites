@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-11T17:07:00Z",
+  "generatedAt": "2026-02-12T07:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 11, 2026",
+  "subtitle": "February 12, 2026 - Pre-Market Update",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,122 +13,87 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb11",
-          "headline": "Mixed Session for U.S. Equities Amid Strong Jobs Report and Retail Sales Concerns",
-          "summary": "U.S. equities experienced a mixed day of trading as a surprisingly strong January jobs report initially boosted sentiment, but concerns over stalled retail sales and the impact of AI on the financial sector led to a more cautious close for some indices. The Dow Jones Industrial Average marked another record high, while the S&P 500 and Nasdaq Composite finished in negative territory. Investors are now keenly awaiting Friday's inflation data.",
+          "id": "market-summary-021226",
+          "headline": "Cautious Optimism Prevails Amidst Economic Data Releases; US Indices Close Lower",
+          "summary": "US major stock indices closed slightly lower on Wednesday, February 11, as investors digested a mix of corporate earnings and a stronger-than-expected jobs report for January, which cooled expectations for near-term Fed rate cuts. Pre-market trading indicates a mixed start for the day, with a prevailing sentiment of cautious optimism amidst ongoing economic data releases. Sector rotation continues to be a notable trend, with capital reportedly shifting from high-growth AI tech stocks towards 'Old Economy' value sectors. Not financial advice.",
           "tags": [
             "Market Overview",
-            "Economic Data",
-            "AI Impact"
+            "Pre-Market",
+            "Sentiment"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Feb 11, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,188.14",
-          "statContext": "Gained 0.1% for a new record high.",
-          "ticker": "$DJI",
-          "price": "50,188.14",
-          "change": "+52.57",
-          "changePercent": "+0.1%",
-          "direction": "up"
-        },
-        {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,941.81",
-          "statContext": "Fell 0.3% as financial and healthcare stocks weighed.",
-          "ticker": "$SPX",
-          "price": "6,941.81",
-          "change": "-23.01",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "statValue": "6,941.47",
+          "statContext": "Down 0.005% (0.34 pts)"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "23,102.47",
-          "statContext": "Declined 0.6%, with tech stocks under pressure.",
-          "ticker": "$IXIC",
-          "price": "23,102.47",
-          "change": "-136.20",
-          "changePercent": "-0.6%",
-          "direction": "down"
+          "statValue": "23,066.47",
+          "statContext": "Down 0.16% (36.01 pts)"
+        },
+        {
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,121.40",
+          "statContext": "Down 0.13% (66.74 pts)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Pre-Market/Overnight - Illustrative Examples)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vrt-gainer",
-          "headline": "Vertiv Holdings Co. ($VRT)",
-          "summary": "Surged 22% after exceeding earnings forecasts and providing an optimistic 2026 outlook driven by AI data center demand.",
+          "id": "gainer-vertiv",
+          "headline": "Vertiv surges on strong earnings and outlook",
+          "summary": "Digital infrastructure provider Vertiv ($VRT) saw a significant surge in trading, climbing 24% after reporting stronger-than-expected fourth-quarter earnings and issuing a robust 2026 outlook.",
           "ticker": "$VRT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+22%",
+          "price": "$48.30",
+          "change": "+$9.33",
+          "changePercent": "+24.00%",
           "direction": "up"
         },
         {
-          "id": "smr-gainer",
-          "headline": "Smurfit Westrock ($SMR)",
-          "summary": "Jumped nearly 11% despite reporting weaker profit for the latest quarter, as encouraging financial forecasts through 2030 boosted investor confidence.",
-          "ticker": "$SMR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11%",
+          "id": "gainer-micron",
+          "headline": "Micron gains following overnight rally",
+          "summary": "US-based memory chipmaker Micron Technology ($MU) posted a substantial 10% overnight gain, buoying sentiment among investors, particularly in the semiconductor sector.",
+          "ticker": "$MU",
+          "price": "$410.34",
+          "change": "+$37.09",
+          "changePercent": "+9.94%",
           "direction": "up"
         },
         {
-          "id": "datadog-gainer",
-          "headline": "Datadog Inc. ($DDOG)",
-          "summary": "Saw a 17% stock surge following strong fourth-quarter earnings and robust customer growth.",
-          "ticker": "$DDOG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+17%",
-          "direction": "up"
-        },
-        {
-          "id": "hood-loser",
-          "headline": "Robinhood Markets Inc. ($HOOD)",
-          "summary": "Fell 12.7% (or about $7 in premarket) despite a stronger-than-expected quarterly profit, as revenue missed forecasts and concerns grew over 2026 expenses and a slowdown in crypto trading.",
+          "id": "loser-robinhood",
+          "headline": "Robinhood falls on revenue miss and expense forecast",
+          "summary": "Robinhood Markets ($HOOD) shares fell after the trading and investment app reported stronger profit but revenue that fell short of forecasts, along with concerns about its 2026 expense forecast and crypto trading slowdown.",
           "ticker": "$HOOD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.7%",
+          "price": "$12.96",
+          "change": "-$1.25",
+          "changePercent": "-8.80%",
           "direction": "down"
         },
         {
-          "id": "lpl-loser",
-          "headline": "LPL Financial Holdings Inc. ($LPL)",
-          "summary": "Plunged 8.3% as the financial sector reacted to the launch of a new AI-powered tax planning tool, sparking fears of automated competition.",
-          "ticker": "$LPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.3%",
-          "direction": "down"
-        },
-        {
-          "id": "meta-loser",
-          "headline": "Meta Platforms Inc. ($META)",
-          "summary": "Declined 1.8% amid broader concerns over the high valuation of AI-related stocks.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.8%",
+          "id": "loser-salesforce",
+          "headline": "Salesforce pressured amid tech sector slump",
+          "summary": "Technology shares remained under pressure, with Salesforce ($CRM) falling 4% as the broader software sector continued to struggle.",
+          "ticker": "$CRM",
+          "price": "$288.75",
+          "change": "-$12.03",
+          "changePercent": "-4.00%",
           "direction": "down"
         }
       ]
@@ -140,54 +105,47 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-release",
-          "headline": "January Nonfarm Payrolls Exceed Expectations, Unemployment Rate Dips",
-          "summary": "The U.S. Labor Department reported a stronger-than-anticipated addition of 130,000 jobs in January, surpassing economist forecasts. The unemployment rate also saw an unexpected dip to 4.3%. This robust jobs data has led traders to push back expectations for the Federal Reserve's next rate cut to July.",
-          "tags": [
-            "Economic Data",
-            "Jobs Report",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "retail-sales-stagnate",
-          "headline": "December Retail Sales Stagnate, Raising Economic Concerns",
-          "summary": "December retail sales data revealed zero month-over-month growth, significantly missing the 0.4% gain analysts had projected. This stagnation in consumer spending has fueled market anxiety about a potential slowdown in the economy.",
-          "tags": [
-            "Economic Data",
-            "Retail Sales",
-            "Consumer Spending"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Utilities and Materials Lead While Financials and Healthcare Lag",
-          "summary": "Six out of the eleven S&P 500 sectors ended in positive territory, with Utilities (+1.7%), Real Estate (+1.4%), and Materials (+1.4%) showing strength. Conversely, Financials (-0.7%) and Healthcare (-0.6%) were among the day's worst performers, partly due to concerns surrounding AI disruption in financial services.",
+          "id": "sector-rotation-old-economy",
+          "headline": "Sector Rotation Shifts Capital to 'Old Economy' Industries",
+          "summary": "A significant sector rotation is underway, with capital flowing out of high-multiple software-as-a-service (SaaS) and AI growth stocks into traditional 'Old Economy' value sectors such as Basic Materials, Energy, and Industrials. This trend reflects a fundamental repricing of risk and a shift towards the physical infrastructure needed for future technology. The Technology sector (XLK), Communication Services (XLC), and Financials (XLF) are showing accelerating underperformance.",
           "tags": [
             "Sector Analysis",
-            "Utilities",
-            "Financials",
-            "Healthcare"
+            "Market Trends"
           ]
         },
         {
-          "id": "ai-impact-on-financials",
-          "headline": "AI Disruption Weighs on Financial Sector",
-          "summary": "The financial sector experienced pressure today, with key players like JPMorgan Chase & Co. ($JPM) and Morgan Stanley ($MS) seeing declines. This comes after the launch of a new AI-driven tax planning tool, intensifying concerns about automated competition and its impact on traditional financial services.",
+          "id": "economic-data-us-jobs",
+          "headline": "US Jobs Report Exceeds Expectations, Dampening Rate Cut Hopes",
+          "summary": "The latest US jobs report for January indicated that employers added 130,000 jobs, exceeding economists' expectations, and the unemployment rate unexpectedly fell to 4.3%. This stronger-than-expected data has led to a trimming of bets for near-term Federal Reserve rate cuts, with some analysts now pushing the first potential cut to June from March.",
           "tags": [
-            "AI",
-            "Financial Sector",
-            "Industry News"
+            "Economic Data",
+            "Fed Policy"
           ]
         },
         {
-          "id": "upcoming-cpi",
-          "headline": "Investors Await Friday's Crucial Inflation Report",
-          "summary": "Market participants are now focusing intently on Friday's release of the Consumer Price Index (CPI), a key inflation measure. This report is expected to provide further clues on the trajectory of inflation and potentially influence the Federal Reserve's future monetary policy decisions.",
+          "id": "economic-data-releases-today",
+          "headline": "Key Economic Data Releases Scheduled for Today",
+          "summary": "Today's economic calendar includes the release of US Existing Home Sales at 10:00 AM ET and UK GDP, Industrial Production, and Trade Balance data at 2:00 AM ET. Additionally, US Producer Price Index (PPI) data is expected at 7:30 AM ET.",
           "tags": [
-            "Economic Calendar",
-            "Inflation",
-            "CPI"
+            "Economic Calendar"
+          ]
+        },
+        {
+          "id": "earnings-medical-device",
+          "headline": "Medical Device Companies Report Q4 Earnings",
+          "summary": "Several major medical device companies are set to report their fourth-quarter earnings today, February 12. These include Baxter ($BAX), West Pharmaceutical Services ($WST), and DexCom ($DXCM). The medical sector's earnings likely faced pressure from macroeconomic factors, but top-line performance remained resilient due to AI and robotics adoption.",
+          "tags": [
+            "Earnings Reports",
+            "Healthcare Sector"
+          ]
+        },
+        {
+          "id": "china-germany-trade",
+          "headline": "'China Shock' Impacts German Industry",
+          "summary": "Germany is reportedly struggling as China transitions from a key market to a business rival, particularly in high-tech fields and the automotive sector. German companies are feeling the pinch of rising Chinese competition and an unbalanced economic relationship between China and Europe.",
+          "tags": [
+            "Global Economy",
+            "Trade Relations"
           ]
         }
       ]
