@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-12T17:03:00Z",
+  "generatedAt": "2026-02-13T07:48:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 12, 2026",
-  "subtitle": "A professional overview of today's market movements.",
+  "title": "Daily Market Digest",
+  "subtitle": "February 13, 2026 - Pre-Market Update",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,145 +13,176 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb12",
-          "headline": "U.S. Stocks Show Mixed Performance Amid Strong Jobs Report and Inflation Watch",
-          "summary": "U.S. equities experienced a day of cautious optimism and mixed signals on Thursday, February 12, 2026. Major indices generally moved higher, reacting to a surprisingly robust January jobs report released earlier in the week, which saw nonfarm payrolls increase by 130,000 and the unemployment rate dip to 4.3%. However, this strong economic data also intensified speculation regarding the Federal Reserve's next policy moves, leading to a tempering of interest rate cut expectations. Investors are now keenly awaiting Friday's Consumer Price Index (CPI) inflation report, which is expected to show a slight easing of inflation. Trading volumes were lower than the 20-session average.",
+          "id": "market-summary-feb13",
+          "headline": "Futures Indicate Cautious Open Amid Tech Selloff and Anticipated CPI Report",
+          "summary": "US stock index futures are drifting lower in pre-market trading, reflecting a skittish market sentiment after a rout in technology stocks. Investors are keenly awaiting today's Consumer Price Index (CPI) report, a key economic data release expected to influence the Federal Reserve's monetary policy path. Global markets are also exhibiting weakness, with Asian indices trading lower.",
           "tags": [
-            "Market Overview",
-            "Jobs Report",
-            "Inflation",
-            "Fed"
-          ]
+            "Pre-Market",
+            "Tech Selloff",
+            "CPI",
+            "Global Markets"
+          ],
+          "timestamp": "2026-02-13T07:48:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Pre-Market Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "6,967.08",
-          "statContext": "Up 25.61 points (+0.3%)",
-          "ticker": "$SPX",
-          "price": "6,967.08",
-          "change": "+25.61",
-          "changePercent": "+0.3%",
-          "direction": "up"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "6,846.00",
+          "statContext": "Down 0.10% (-6.75 points)",
+          "ticker": "$ES=F",
+          "price": "6,846.00",
+          "change": "-6.75",
+          "changePercent": "-0.10%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "23,146.07",
-          "statContext": "Up 79.61 points (+0.4%)",
-          "ticker": "$IXIC",
-          "price": "23,146.07",
-          "change": "+79.61",
-          "changePercent": "+0.4%",
-          "direction": "up"
+          "id": "nasdaq100-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "24,741.0",
+          "statContext": "Down 0.1%",
+          "ticker": "$NQ=F",
+          "price": "24,741.0",
+          "change": "-24.74",
+          "changePercent": "-0.10%",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,330.70",
-          "statContext": "Up 295 points (+0.6%)",
-          "ticker": "$DJI",
-          "price": "50,330.70",
-          "change": "+295",
-          "changePercent": "+0.6%",
-          "direction": "up"
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "49,433.00",
+          "statContext": "Down 0.25% (-124.00 points)",
+          "ticker": "$YM=F",
+          "price": "49,433.00",
+          "change": "-124.00",
+          "changePercent": "-0.25%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Pre-Market Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "equinix-gainer",
-          "headline": "Equinix Rallies on Strong 2026 Forecast",
-          "summary": "Digital infrastructure company Equinix jumped 11.6% despite missing latest quarter earnings expectations, as its financial forecasts for 2026 surpassed analyst predictions and demand for its solutions remains high.",
+          "id": "mover-zebra",
+          "headline": "Zebra Technologies rallies over 15% in pre-market",
+          "ticker": "$ZBRA",
+          "price": "$291.60",
+          "change": "+$39.10",
+          "changePercent": "+15.49%",
+          "direction": "up",
+          "summary": "Zebra Technologies ($ZBRA) shows strong pre-market gains."
+        },
+        {
+          "id": "mover-weshop",
+          "headline": "WeShop Holdings surges over 80%",
+          "ticker": "$WSHP",
+          "price": "$85.00",
+          "change": "+$37.00",
+          "changePercent": "+80.85%",
+          "direction": "up",
+          "summary": "WeShop Holdings ($WSHP) experiencing a significant jump in pre-market trading."
+        },
+        {
+          "id": "mover-equinix",
+          "headline": "Equinix Inc. sees pre-market rise",
           "ticker": "$EQIX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.6%",
-          "direction": "up"
+          "price": "$944.77",
+          "change": "+$77.25",
+          "changePercent": "+8.90%",
+          "direction": "up",
+          "summary": "Data center giant Equinix Inc. ($EQIX) trending upwards in early trading."
         },
         {
-          "id": "smurfitwestrock-gainer",
-          "headline": "Smurfit Westrock Surges on Encouraging Outlook",
-          "summary": "Packaging company Smurfit Westrock climbed 9.9%. This gain came despite a weaker profit report for the latest quarter, driven by encouraging financial targets set for the next five years.",
-          "ticker": "$SMFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.9%",
-          "direction": "up"
+          "id": "mover-strata",
+          "headline": "Strata Skin Sciences plummets over 60%",
+          "ticker": "$SSKN",
+          "price": "$0.48",
+          "change": "-$0.73",
+          "changePercent": "-60.16%",
+          "direction": "down",
+          "summary": "Strata Skin Sciences ($SSKN) leads pre-market losers with a sharp decline."
         },
         {
-          "id": "applovin-loser",
-          "headline": "AppLovin Drops Amid AI Competition Concerns",
-          "summary": "AppLovin fell 15.5% even after reporting a stronger profit than expected for the latest quarter. The decline reflects ongoing worries among investors that AI-powered competitors could impact the software company's market position.",
-          "ticker": "$APP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-15.5%",
-          "direction": "down"
+          "id": "mover-americanrebel",
+          "headline": "American Rebel Holdings facing significant pre-market losses, potential delisting",
+          "ticker": "$AREB",
+          "price": "$0.34",
+          "change": "-$0.26",
+          "changePercent": "-43.52%",
+          "direction": "down",
+          "summary": "American Rebel Holdings ($AREB) is down sharply in pre-market, with trading expected to be suspended today due to non-compliance with Nasdaq's minimum bid price rule."
         },
         {
-          "id": "cisco-loser",
-          "headline": "Cisco Systems Falls on Weak Guidance",
-          "summary": "Cisco Systems shares dropped 7% after the networking equipment provider issued disappointing forward guidance, leading to negative investor sentiment regarding its revenue expectations.",
-          "ticker": "$CSCO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.0%",
-          "direction": "down"
+          "id": "mover-societypass",
+          "headline": "Society Pass declines nearly 40% in early trading",
+          "ticker": "$SOPA",
+          "price": "$0.56",
+          "change": "-$0.35",
+          "changePercent": "-38.73%",
+          "direction": "down",
+          "summary": "Society Pass ($SOPA) records substantial pre-market losses."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-fed",
-          "headline": "Strong Jobs Report Reshapes Fed Rate Cut Expectations",
-          "summary": "The Labor Department's report of 130,000 new nonfarm payrolls in January, significantly exceeding forecasts, has led traders to scale back expectations for Federal Reserve interest rate cuts. The likelihood of the central bank holding rates steady in the near term has risen to almost 40%. All eyes are now on Friday's Consumer Price Index (CPI) report for further clues on monetary policy.",
+          "id": "economic-cpi",
+          "headline": "US January CPI Report on Deck Today",
+          "summary": "The highly anticipated US Consumer Price Index (CPI) report for January is scheduled for release today. Economists are forecasting a slowdown in the annual inflation rate to 2.5% for both headline and core CPI, compared to December's 2.7% and 2.6% respectively. This report is considered a 'marquee event' that could significantly influence the Federal Reserve's stance on interest rate cuts.",
           "tags": [
             "Economic Data",
-            "Federal Reserve",
-            "Jobs Report",
-            "Interest Rates"
-          ]
+            "Inflation",
+            "CPI",
+            "Fed Policy"
+          ],
+          "timestamp": "2026-02-13T07:48:00Z"
         },
         {
-          "id": "sector-analysis-ai",
-          "headline": "AI Splits Market: Infrastructure Strong, Software Under Pressure",
-          "summary": "The artificial intelligence (AI) frenzy continues to create divergence in the market. Companies involved in AI infrastructure, such as semiconductor firms, saw gains. Conversely, software services providers faced pressure due to concerns that AI automation tools could displace existing business models. Meta's announcement of a $10 billion investment in a new AI data center underscores the ongoing capital commitment to the sector.",
+          "id": "sector-tech-rout",
+          "headline": "AI Concerns Fuel Continued Tech Sector Selloff",
+          "summary": "Concerns surrounding artificial intelligence-led disruptions are driving a sustained selloff in technology stocks globally. Indian benchmark indices saw significant declines, with the Nifty IT index particularly hard hit, indicating a broad-based negative sentiment toward the sector. Weak earnings from companies like Cisco Systems Inc. ($CSCO) further exacerbated the tech rout.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "AI",
-            "Semiconductors",
-            "Software"
+            "Selloff"
           ]
         },
         {
-          "id": "earnings-mcdonalds-porch",
-          "headline": "Key Earnings: McDonald's Beats, Porch Group Surges After-Hours",
-          "summary": "McDonald's ($MCD) saw its stock rise 1% after beating earnings estimates, driven by strong Q4 revenue and a 6.8% surge in U.S. same-store sales. Meanwhile, Porch Group Inc. ($PRCH) surged 21.87% in after-hours trading after reporting a narrower-than-expected Q4 loss. Conversely, Robinhood Markets ($HOOD) fell 8.8% despite a stronger profit, as revenue fell short of forecasts, and concerns about crypto trading slowdown persisted.",
+          "id": "earnings-today",
+          "headline": "Major Companies Announce Q3 Earnings",
+          "summary": "Several prominent companies are slated to release their Q3 earnings reports today, February 13, 2026. Notable reports include Torrent Pharmaceuticals, GMR Airports, Siemens Energy India, Info Edge India, Alkem Laboratories, and Fortis Healthcare, among others. Investors will be closely watching these reports for insights into corporate performance amidst current market conditions.",
           "tags": [
-            "Earnings Report",
-            "McDonald's",
-            "Porch Group",
-            "Robinhood"
+            "Earnings",
+            "Corporate News",
+            "Q3 Reports"
+          ]
+        },
+        {
+          "id": "precious-metals-rebound",
+          "headline": "Gold and Silver Rebound Amid Risk-Off Mood",
+          "summary": "Precious metals, including gold and silver, are experiencing a rebound in choppy trading as a risk-off sentiment prevails in the broader markets. This recovery follows a recent plunge, with investors seeking the perceived safety of these assets amidst equity market pressures.",
+          "tags": [
+            "Commodities",
+            "Gold",
+            "Silver",
+            "Safe Haven"
           ]
         }
       ]
