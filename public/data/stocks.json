@@ -1,188 +1,185 @@
 {
-  "generatedAt": "2026-02-13T07:48:00Z",
+  "generatedAt": "2026-02-13T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 13, 2026 - Pre-Market Update",
+  "subtitle": "February 13, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb13",
-          "headline": "Futures Indicate Cautious Open Amid Tech Selloff and Anticipated CPI Report",
-          "summary": "US stock index futures are drifting lower in pre-market trading, reflecting a skittish market sentiment after a rout in technology stocks. Investors are keenly awaiting today's Consumer Price Index (CPI) report, a key economic data release expected to influence the Federal Reserve's monetary policy path. Global markets are also exhibiting weakness, with Asian indices trading lower.",
+          "id": "market-sentiment-summary",
+          "headline": "AI Disruption Fears Drive Global Market Downturn and Sector Rotation",
+          "summary": "Global markets experienced significant volatility on Friday, February 13, 2026, with major US indices closing sharply lower on Thursday as investor sentiment shifted amid growing concerns about the disruptive potential of artificial intelligence across various industries. Indian benchmarks also tumbled, particularly in IT and metal sectors. A noticeable rotation out of tech-heavy investments into more 'tangible' sectors like industrials, energy, and basic materials is underway. Despite the cautious sentiment, some areas of the forex market showed cautious optimism due to mixed economic data and geopolitical developments. US stock futures indicated a softer opening on Friday morning.",
           "tags": [
-            "Pre-Market",
-            "Tech Selloff",
-            "CPI",
+            "Market Sentiment",
+            "AI Concerns",
+            "Sector Rotation",
             "Global Markets"
-          ],
-          "timestamp": "2026-02-13T07:48:00Z"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Pre-Market Futures)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "6,846.00",
-          "statContext": "Down 0.10% (-6.75 points)",
-          "ticker": "$ES=F",
-          "price": "6,846.00",
-          "change": "-6.75",
-          "changePercent": "-0.10%",
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Close (Feb 12)",
+          "statValue": "6,832.76",
+          "statContext": "Down 1.57%",
+          "ticker": "$SPX",
+          "price": "6,832.76",
+          "change": "-108.71",
+          "changePercent": "-1.57%",
           "direction": "down"
         },
         {
-          "id": "nasdaq100-futures",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "24,741.0",
-          "statContext": "Down 0.1%",
-          "ticker": "$NQ=F",
-          "price": "24,741.0",
-          "change": "-24.74",
-          "changePercent": "-0.10%",
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close (Feb 12)",
+          "statValue": "22,597.15",
+          "statContext": "Down 2.03%",
+          "ticker": "$IXIC",
+          "price": "22,597.15",
+          "change": "-469.32",
+          "changePercent": "-2.03%",
           "direction": "down"
         },
         {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "49,433.00",
-          "statContext": "Down 0.25% (-124.00 points)",
-          "ticker": "$YM=F",
-          "price": "49,433.00",
-          "change": "-124.00",
-          "changePercent": "-0.25%",
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close (Feb 12)",
+          "statValue": "49,451.98",
+          "statContext": "Down 1.34%",
+          "ticker": "$DJIA",
+          "price": "49,451.98",
+          "change": "-669.42",
+          "changePercent": "-1.34%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Pre-Market Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-zebra",
-          "headline": "Zebra Technologies rallies over 15% in pre-market",
-          "ticker": "$ZBRA",
-          "price": "$291.60",
-          "change": "+$39.10",
-          "changePercent": "+15.49%",
-          "direction": "up",
-          "summary": "Zebra Technologies ($ZBRA) shows strong pre-market gains."
+          "id": "usfd-gainer",
+          "headline": "US Foods Holding surges on strong earnings",
+          "summary": "US Foods Holding ($USFD) jumped 13.40% after reporting robust Q4 earnings and providing optimistic 2026 guidance.",
+          "ticker": "$USFD",
+          "price": null,
+          "change": null,
+          "changePercent": "+13.40%",
+          "direction": "up"
         },
         {
-          "id": "mover-weshop",
-          "headline": "WeShop Holdings surges over 80%",
-          "ticker": "$WSHP",
-          "price": "$85.00",
-          "change": "+$37.00",
-          "changePercent": "+80.85%",
-          "direction": "up",
-          "summary": "WeShop Holdings ($WSHP) experiencing a significant jump in pre-market trading."
-        },
-        {
-          "id": "mover-equinix",
-          "headline": "Equinix Inc. sees pre-market rise",
+          "id": "equinix-gainer",
+          "headline": "Equinix gains on raised targets and dividend",
+          "summary": "Equinix ($EQIX) rose 10.41% as multiple banks raised price targets following the company's positive earnings and dividend increase.",
           "ticker": "$EQIX",
-          "price": "$944.77",
-          "change": "+$77.25",
-          "changePercent": "+8.90%",
-          "direction": "up",
-          "summary": "Data center giant Equinix Inc. ($EQIX) trending upwards in early trading."
+          "price": null,
+          "change": null,
+          "changePercent": "+10.41%",
+          "direction": "up"
         },
         {
-          "id": "mover-strata",
-          "headline": "Strata Skin Sciences plummets over 60%",
-          "ticker": "$SSKN",
-          "price": "$0.48",
-          "change": "-$0.73",
-          "changePercent": "-60.16%",
-          "direction": "down",
-          "summary": "Strata Skin Sciences ($SSKN) leads pre-market losers with a sharp decline."
+          "id": "msi-gainer",
+          "headline": "Motorola Solutions up on strong outlook",
+          "summary": "Motorola Solutions ($MSI) climbed 7.67% after issuing favorable 2026 guidance and reporting solid Q4 results.",
+          "ticker": "$MSI",
+          "price": null,
+          "change": null,
+          "changePercent": "+7.67%",
+          "direction": "up"
         },
         {
-          "id": "mover-americanrebel",
-          "headline": "American Rebel Holdings facing significant pre-market losses, potential delisting",
-          "ticker": "$AREB",
-          "price": "$0.34",
-          "change": "-$0.26",
-          "changePercent": "-43.52%",
-          "direction": "down",
-          "summary": "American Rebel Holdings ($AREB) is down sharply in pre-market, with trading expected to be suspended today due to non-compliance with Nasdaq's minimum bid price rule."
+          "id": "app-loser",
+          "headline": "AppLovin tumbles on mixed reactions",
+          "summary": "AppLovin ($APP) saw a significant drop of 19.7%, impacted by mixed analyst reactions to its recent results and several price target changes.",
+          "ticker": "$APP",
+          "price": null,
+          "change": null,
+          "changePercent": "-19.70%",
+          "direction": "down"
         },
         {
-          "id": "mover-societypass",
-          "headline": "Society Pass declines nearly 40% in early trading",
-          "ticker": "$SOPA",
-          "price": "$0.56",
-          "change": "-$0.35",
-          "changePercent": "-38.73%",
-          "direction": "down",
-          "summary": "Society Pass ($SOPA) records substantial pre-market losses."
+          "id": "chsro-loser",
+          "headline": "C.H. Robinson Worldwide declines on automation fears",
+          "summary": "C.H. Robinson Worldwide ($CHRW) declined 14.54% amid fears that AI-driven automation could compress margins in the logistics sector.",
+          "ticker": "$CHRW",
+          "price": null,
+          "change": null,
+          "changePercent": "-14.54%",
+          "direction": "down"
+        },
+        {
+          "id": "csco-loser",
+          "headline": "Cisco Systems hit by weak guidance",
+          "summary": "Cisco Systems ($CSCO) fell 12.3% after providing weak guidance and missing on adjusted gross margin, intensifying concerns about tech spending cycles.",
+          "ticker": "$CSCO",
+          "price": null,
+          "change": null,
+          "changePercent": "-12.30%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Calendar",
+      "id": "market-news-stories",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-cpi",
-          "headline": "US January CPI Report on Deck Today",
-          "summary": "The highly anticipated US Consumer Price Index (CPI) report for January is scheduled for release today. Economists are forecasting a slowdown in the annual inflation rate to 2.5% for both headline and core CPI, compared to December's 2.7% and 2.6% respectively. This report is considered a 'marquee event' that could significantly influence the Federal Reserve's stance on interest rate cuts.",
+          "id": "sector-rotation-ai",
+          "headline": "AI Disruption Fuels Significant Sector Rotation",
+          "summary": "Investors are actively re-evaluating business models susceptible to AI disruption, leading to a notable shift in sector preferences. Industrials, Energy, and Basic Materials are currently leading, alongside Utilities and Consumer Staples. Meanwhile, technology, communication services, and financials have fallen in favor, with the S&P 500 Information Technology sector being a particularly weak performer. This widespread rotation reflects concerns over AI's impact on tech valuations and enterprise spending cycles.",
+          "tags": [
+            "Sector Analysis",
+            "AI Impact",
+            "Market Trends"
+          ]
+        },
+        {
+          "id": "cpi-data-focus",
+          "headline": "US Inflation Data Takes Center Stage",
+          "summary": "All eyes are on the release of US Consumer Price Index (CPI) data today, a key event expected to influence financial markets and expectations for the Federal Reserve's future policy. Economists anticipate a 0.3% monthly increase and an annual core inflation rate easing to 2.5%.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "CPI",
-            "Fed Policy"
-          ],
-          "timestamp": "2026-02-13T07:48:00Z"
-        },
-        {
-          "id": "sector-tech-rout",
-          "headline": "AI Concerns Fuel Continued Tech Sector Selloff",
-          "summary": "Concerns surrounding artificial intelligence-led disruptions are driving a sustained selloff in technology stocks globally. Indian benchmark indices saw significant declines, with the Nifty IT index particularly hard hit, indicating a broad-based negative sentiment toward the sector. Weak earnings from companies like Cisco Systems Inc. ($CSCO) further exacerbated the tech rout.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "AI",
-            "Selloff"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "earnings-today",
-          "headline": "Major Companies Announce Q3 Earnings",
-          "summary": "Several prominent companies are slated to release their Q3 earnings reports today, February 13, 2026. Notable reports include Torrent Pharmaceuticals, GMR Airports, Siemens Energy India, Info Edge India, Alkem Laboratories, and Fortis Healthcare, among others. Investors will be closely watching these reports for insights into corporate performance amidst current market conditions.",
+          "id": "earnings-roundup",
+          "headline": "Mixed Earnings Reports Influence Individual Stocks",
+          "summary": "Several companies reported earnings today. US Foods Holding ($USFD) and Motorola Solutions ($MSI) posted strong results, leading to significant gains. However, Coinbase Global ($COIN) saw its Q4 EPS miss estimates significantly, and Essent Group ($ESNT) also missed expectations. The Wendy's Company ($WEN) reported Q4 and full-year 2025 results in line with expectations, with international sales showing strong growth. In India, Indian Hotels Company and Biocon reported profit growth, while Hindalco Industries saw a 45% drop in Q3 net profit.",
           "tags": [
-            "Earnings",
-            "Corporate News",
-            "Q3 Reports"
+            "Earnings Reports",
+            "Company News"
           ]
         },
         {
-          "id": "precious-metals-rebound",
-          "headline": "Gold and Silver Rebound Amid Risk-Off Mood",
-          "summary": "Precious metals, including gold and silver, are experiencing a rebound in choppy trading as a risk-off sentiment prevails in the broader markets. This recovery follows a recent plunge, with investors seeking the perceived safety of these assets amidst equity market pressures.",
+          "id": "global-economic-developments",
+          "headline": "Global Economic Developments and Geopolitical Factors",
+          "summary": "The Russian central bank unexpectedly cut its key interest rate by 0.5% to 15.5% amidst a slowing economy. Concerns over higher interest rates continued to make gold less attractive for some investors. Meanwhile, the US and Taiwan finalized a trade deal to reduce tariffs, a move seen as fostering prosperous trade ties.",
           "tags": [
-            "Commodities",
-            "Gold",
-            "Silver",
-            "Safe Haven"
+            "Economic Policy",
+            "International Trade",
+            "Geopolitics"
           ]
         }
       ]
