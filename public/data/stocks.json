@@ -1,163 +1,117 @@
 {
-  "generatedAt": "2026-02-13T17:00:00Z",
+  "generatedAt": "2026-02-14T07:32:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "February 13, 2026 Market Close",
-  "badge": "Updated Today",
+  "subtitle": "February 14, 2026: Weekend Market Wrap-up and Economic Outlook",
+  "badge": "Weekend Edition",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb13",
-          "headline": "Mixed Close for US Markets as Inflation Cools, AI Worries Persist; Indian Indices Tumble",
-          "summary": "U.S. markets saw a relatively steady close on Friday, February 13, 2026, finding some calm after a report indicated January inflation slowed more than expected. However, ongoing concerns about artificial intelligence disrupting various industries continued to cast a shadow, particularly over technology stocks. Meanwhile, benchmark Indian equity indices, Sensex and Nifty, experienced a significant broad-based selloff, primarily driven by weak global market cues and sharp declines in the metal and IT sectors. Not financial advice.",
+          "id": "market-summary-1",
+          "headline": "U.S. Markets Close Mixed on Friday, Inflation Data Milder Than Expected",
+          "summary": "U.S. equities concluded Friday's session with a mixed performance, as milder-than-expected inflation data provided some optimism for potential rate cuts, while persistent concerns over artificial intelligence disruption weighed on technology stocks. Major indices saw slight movements, with the S&P 500 and Dow Jones posting minor gains, while the Nasdaq Composite experienced a modest decline. Trading volume was below the 20-day average, with market breadth showing more advancing stocks than decliners on both the NYSE and Nasdaq. The upcoming Presidents' Day holiday on Monday will keep U.S. markets closed.",
           "tags": [
-            "Market Overview",
-            "Inflation",
-            "AI Impact",
-            "Global Markets"
-          ],
-          "timestamp": "2026-02-13T17:00:00Z"
+            "Market Sentiment",
+            "CPI",
+            "AI Concerns"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-1",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "~6,830.00",
-          "statContext": "Nearly unchanged."
+          "statValue": "6,836.17",
+          "statContext": "+0.05% on Friday, Feb 13"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "~22,529.00",
-          "statContext": "Down 0.3%."
+          "statValue": "22,546.67",
+          "statContext": "-0.22% on Friday, Feb 13"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "~49,352.00",
-          "statContext": "Down 109 points, or 0.2%."
+          "statValue": "49,500.93",
+          "statContext": "+0.10% on Friday, Feb 13"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-1",
+      "title": "Top Movers (Friday, February 13, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "usfd-gainer",
-          "headline": "US Foods Holding surges on strong earnings",
-          "ticker": "$USFD",
-          "price": "$51.03",
-          "change": "+$6.03",
-          "changePercent": "+13.40%",
+          "id": "amat-gainer",
+          "headline": "Applied Materials Surges on Strong Earnings",
+          "summary": "Applied Materials ($AMAT) surged 8.08% on Friday after the world's largest semiconductor equipment maker reported stronger-than-expected earnings for fiscal Q1 2026, significantly beating market expectations amid a semiconductor boom.",
+          "ticker": "$AMAT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.08%",
           "direction": "up",
-          "summary": "US Foods Holding saw a significant jump after reporting strong Q4 earnings and providing optimistic 2026 guidance."
+          "timestamp": "2026-02-13T16:00:00Z"
         },
         {
-          "id": "eqix-gainer",
-          "headline": "Equinix gains as price targets raised",
-          "ticker": "$EQIX",
-          "price": "$772.87",
-          "change": "+$72.87",
-          "changePercent": "+10.41%",
+          "id": "rivn-gainer",
+          "headline": "Rivian Jumps on Q4 Results and 2026 Delivery Forecast",
+          "summary": "Rivian Automotive ($RIVN) zoomed up more than 20% on Friday after reporting a narrower-than-expected fourth-quarter loss and higher-than-expected revenue. The electric vehicle company also projected a 53% increase in 2026 deliveries, driven by its new, more affordable R2 SUVs.",
+          "ticker": "$RIVN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+20% (approx.)",
           "direction": "up",
-          "summary": "Equinix experienced a notable rise as several banks increased their price targets following the company's recent earnings and guidance."
+          "timestamp": "2026-02-13T16:00:00Z"
         },
         {
-          "id": "msi-gainer",
-          "headline": "Motorola Solutions up on positive outlook",
-          "ticker": "$MSI",
-          "price": "$323.01",
-          "change": "+$23.01",
-          "changePercent": "+7.67%",
+          "id": "roku-gainer",
+          "headline": "Roku Soars on Exceeded Earnings and Strong Guidance",
+          "summary": "Roku ($ROKU) jumped 14% after the streaming platform provider reported fourth-quarter earnings that significantly exceeded analyst expectations and issued strong guidance for 2026.",
+          "ticker": "$ROKU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+14%",
           "direction": "up",
-          "summary": "Motorola Solutions shares climbed after the company issued strong 2026 guidance and reported solid fourth-quarter results."
-        },
-        {
-          "id": "asts-loser",
-          "headline": "AST SpaceMobile drops on equity offering news",
-          "ticker": "$ASTS",
-          "price": "$8.48",
-          "change": "-$1.52",
-          "changePercent": "-15.17%",
-          "direction": "down",
-          "summary": "AST SpaceMobile shares declined following the announcement of a follow-on equity offering."
+          "timestamp": "2026-02-13T16:00:00Z"
         },
         {
           "id": "pins-loser",
-          "headline": "Pinterest plunges amid tech sector weakness",
+          "headline": "Pinterest Slumps on Weak Revenue Forecast",
+          "summary": "Pinterest ($PINS) slumped 21% on Friday after the image-sharing platform forecast first-quarter revenue estimates below expectations, facing intensified competition and advertising spending cutbacks.",
           "ticker": "$PINS",
-          "price": "$14.55",
-          "change": "-$3.99",
-          "changePercent": "-21.57%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-21%",
           "direction": "down",
-          "summary": "Pinterest shares saw a significant drop in pre-market trading, reflecting broader weakness in the technology sector."
-        },
-        {
-          "id": "mco-loser",
-          "headline": "Moody's falls on AI disruption fears",
-          "ticker": "$MCO",
-          "price": "$269.50",
-          "change": "-$80.50",
-          "changePercent": "-23.00%",
-          "direction": "down",
-          "summary": "Moody's stock fell sharply due to growing fears that advanced AI technology could erode its competitive advantages."
+          "timestamp": "2026-02-13T16:00:00Z"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news-1",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Rotation Away from Tech as Industrials, Energy Lead",
-          "summary": "There is a notable shift in sector preferences among US equity investors, with Industrials, Energy, and Basic Materials gaining favor. This rotation is partly driven by skepticism over AI investment, leading to a decreased preference for AI-related and technology stocks, which had been strong performers in late 2025. Utilities and Consumer Staples also showed resilience.",
-          "tags": [
-            "Sector Performance",
-            "Market Trends",
-            "AI Impact"
-          ]
-        },
-        {
-          "id": "tech-financials-lag",
-          "headline": "Technology and Financials Continue to Lag",
-          "summary": "Technology, Financials, and Communication Services sectors were among the worst performers. Financials have emerged as the weakest corner of the S&P 500 year-to-date, reflecting mounting pressure on banks and insurers. Concerns about AI disruption continue to weigh heavily on the tech and software industries.",
-          "tags": [
-            "Lagging Sectors",
-            "Technology",
-            "Financials"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "cpi-report",
-          "headline": "January Inflation Cools More Than Expected, CPI at 2.4%",
-          "summary": "The Consumer Price Index (CPI) report for January showed inflation slowing to 2.4% year-over-year, down from 2.7% in December, and below economists' expectations. Core inflation also moderated to 2.5%. This cooling trend provides the Federal Reserve with more flexibility, reinforcing a cautious stance on immediate interest rate cuts.",
+          "id": "cpi-report-1",
+          "headline": "January CPI Eases, Bolstering Rate Cut Hopes",
+          "summary": "The January Consumer Price Index (CPI) came in milder than expected, with headline CPI rising 0.2% month-over-month (below the 0.3% forecast) and 2.4% year-over-year (the lowest in eight months). Core CPI also moderated to 2.5% year-over-year, its lowest since March 2021. This data has led traders to increase the probability of a Federal Reserve rate cut in June to 52.3%.",
           "tags": [
             "Economic Data",
             "Inflation",
@@ -165,22 +119,22 @@
           ]
         },
         {
-          "id": "labor-market",
-          "headline": "US Labor Market Shows Strength with 130,000 Jobs Added",
-          "summary": "The US labor market continued to show strength in January, with 130,000 jobs added and the unemployment rate falling to 4.3%. This positive data suggests improving labor market conditions.",
+          "id": "ai-concerns-1",
+          "headline": "AI Disruption Concerns Weigh on Tech Sector",
+          "summary": "Persistent concerns over artificial intelligence (AI) disruption continued to impact the technology sector, with heavyweight technology and communications stocks weakening. The Nasdaq Composite's decline on Friday was partly attributed to these AI-related jitters, particularly affecting software companies.",
           "tags": [
-            "Economic Data",
-            "Employment",
-            "Labor Market"
+            "Technology",
+            "AI",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "earnings-updates",
-          "headline": "Key Companies Report Q4 and Full-Year Results",
-          "summary": "Cameco Corp. ($CCJ) reported strong Q4 net earnings of $199 million, beating analyst expectations. Kinsale Capital Group, Inc. ($KNSL) also surpassed estimates with a 25.8% rise in Q4 net operating EPS and increased its dividend. The Wendy's Company ($WEN) released Q4 and full-year 2025 results, aligning with expectations. American Axle & Manufacturing ($AAM) also announced its Q4 financial results today.",
+          "id": "economic-calendar-upcoming",
+          "headline": "Quiet Weekend and Holiday Ahead for U.S. Markets",
+          "summary": "U.S. markets are closed today, Saturday, February 14, and will also be closed on Monday, February 16, in observance of Presidents' Day. Investors will look to next week's economic calendar for further insights, which is expected to include the advance estimate of fourth-quarter GDP and December's personal income and outlays aggregates.",
           "tags": [
-            "Earnings Reports",
-            "Company News"
+            "Economic Calendar",
+            "Market Holiday"
           ]
         }
       ]
