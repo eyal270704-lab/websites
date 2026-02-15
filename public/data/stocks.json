@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-14T16:35:00Z",
+  "generatedAt": "2026-02-15T07:36:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "February 14, 2026",
-  "badge": "Market Close: February 13, 2026",
+  "title": "Daily Market Digest: Weekend Edition",
+  "subtitle": "A summary of market activity for Friday, February 14, 2026",
+  "badge": "Weekend Edition",
   "sections": [
     {
       "id": "market-pulse-overview",
@@ -13,15 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb13",
-          "headline": "US Stocks Steady Amid Cooling Inflation, AI Concerns Persist After Mixed Friday Session",
-          "summary": "U.S. stocks showed a mixed performance on Friday, February 13, with major indices closing nearly flat after an encouraging update on inflation helped ease fears of aggressive Federal Reserve rate hikes. However, underlying concerns about the potential downsides of the artificial intelligence (AI) boom continued to weigh on tech and related sectors, contributing to overall weekly declines for the major averages. Market sentiment remained cautious, with investors rotating out of some high-growth tech names.",
+          "id": "market-summary-feb14",
+          "headline": "U.S. Stocks Steady on Friday After Inflation Data, Nasdaq Edges Down",
+          "summary": "U.S. equity markets closed a volatile week with major indices seeing minor movements on Friday, February 14, 2026. The S&P 500 and Dow Jones Industrial Average posted slight gains, while the Nasdaq Composite experienced a modest decline. The day's trading was influenced by an encouraging update on inflation, which showed consumer price index (CPI) falling to 2.4% in January, easing some concerns on Wall Street. The Federal Reserve maintained its neutral rate stance, while the ongoing discussion around the next Fed Chair also garnered attention. As markets are closed for the weekend, this digest reflects the closing data from Friday's trading session.",
           "tags": [
             "Market Summary",
             "Inflation",
-            "AI Concerns",
-            "Fed"
-          ]
+            "Federal Reserve"
+          ],
+          "timestamp": "2026-02-14T16:00:00Z"
         }
       ]
     },
@@ -32,153 +32,121 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-feb13",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,836.17",
-          "statContext": "+0.05% (+3.41 points)"
+          "statContext": "Change: +3.41 (+0.05%)"
         },
         {
-          "id": "dow-feb13",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "49,500.93",
-          "statContext": "+0.10% (+48.95 points)"
+          "statContext": "Change: +48.95 (+0.10%)"
         },
         {
-          "id": "nasdaq-feb13",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,546.67",
-          "statContext": "-0.22% (-50.48 points)"
+          "statContext": "Change: -50.48 (-0.22%)"
         }
       ]
     },
     {
-      "id": "top-movers-us",
-      "title": "Top Movers (US Market)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-coin",
-          "ticker": "$COIN",
-          "price": "$164.40",
-          "change": "+$23.27",
-          "changePercent": "+16.52%",
-          "direction": "up",
-          "headline": "Coinbase Global Surges on Strong Performance",
-          "summary": "Coinbase Global, Inc. ($COIN) was among the top gainers, soaring over 16% on Friday."
-        },
-        {
-          "id": "gainer-amat",
+          "id": "amat-gainer",
+          "headline": "Applied Materials Jumps on Strong Earnings and AI Outlook",
+          "summary": "Applied Materials ($AMAT) rose significantly after reporting stronger-than-expected profit for the latest quarter. CEO Gary Dickerson attributed the performance to an 'acceleration of industry investments in AI computing.'",
           "ticker": "$AMAT",
-          "price": "$354.91",
-          "change": "+$26.49",
-          "changePercent": "+8.08%",
-          "direction": "up",
-          "headline": "Applied Materials Rises on AI-related Chip Investments",
-          "summary": "Applied Materials, Inc. ($AMAT) saw an increase of over 8%, driven by accelerating investments in AI-related chip technology."
-        },
-        {
-          "id": "gainer-crps",
-          "ticker": "$CRSR",
-          "price": "N/A",
+          "price": "N/A (close on Friday)",
           "change": "N/A",
-          "changePercent": "+54%",
-          "direction": "up",
-          "headline": "Corsair Gaming Jumps on Q4 Beat",
-          "summary": "Corsair Gaming ($CRSR) shares jumped over 54% after reporting a solid Q4 earnings beat and announcing a $50M share repurchase authorization."
+          "changePercent": "+8.1%",
+          "direction": "up"
         },
         {
-          "id": "loser-stz",
-          "ticker": "$STZ",
-          "price": "$149.30",
-          "change": "-$13.06",
-          "changePercent": "-8.04%",
-          "direction": "down",
-          "headline": "Constellation Brands Declines",
-          "summary": "Constellation Brands, Inc. ($STZ) was a significant decliner, falling over 8% during Friday's trading."
-        },
-        {
-          "id": "loser-nclh",
-          "ticker": "$NCLH",
-          "price": "$21.49",
-          "change": "-$1.76",
-          "changePercent": "-7.57%",
-          "direction": "down",
-          "headline": "Norwegian Cruise Line Holdings Experiences Downturn",
-          "summary": "Norwegian Cruise Line Holdings Ltd. ($NCLH) shares dropped more than 7.5% on Friday."
-        },
-        {
-          "id": "loser-aapl",
-          "ticker": "$AAPL",
-          "price": "N/A",
+          "id": "moderna-gainer",
+          "headline": "Moderna Rises Following Better-Than-Expected Results",
+          "summary": "Moderna shares climbed after the vaccine maker reported stronger results for its latest quarter than analysts had anticipated.",
+          "ticker": "$MRNA",
+          "price": "N/A (close on Friday)",
           "change": "N/A",
-          "changePercent": "-2.27%",
-          "direction": "down",
-          "headline": "Apple Shares Slip Amid Tech Selloff",
-          "summary": "Apple ($AAPL) experienced a notable decline of 2.27% as the tech selloff continued, fueled by AI concerns."
+          "changePercent": "+6.6%",
+          "direction": "up"
+        },
+        {
+          "id": "draftkings-loser",
+          "headline": "DraftKings Falls as Revenue Forecast Disappoints",
+          "summary": "Despite reporting a profit that topped analysts' expectations, DraftKings saw its shares drop after providing a revenue forecast for the year that fell short of market expectations.",
+          "ticker": "$DKNG",
+          "price": "N/A (close on Friday)",
+          "change": "N/A",
+          "changePercent": "-13.5%",
+          "direction": "down"
+        },
+        {
+          "id": "nvidia-loser",
+          "headline": "Nvidia Shares Decline Amid Market Shifts",
+          "summary": "Nvidia ($NVDA), a significant force in the market, experienced a decline in its share price during Friday's session.",
+          "ticker": "$NVDA",
+          "price": "N/A (close on Friday)",
+          "change": "N/A",
+          "changePercent": "-2.2%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-analysis",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-feb13",
-          "headline": "Sector Rotation: Utilities and Consumer Staples Lead, Tech and Financials Lag",
-          "summary": "On Friday, defensive sectors such as Utilities (up 1.5%) and Consumer Staples (up 0.9%) demonstrated resilience. In contrast, Information Technology (-2.6%), Financials (-2.0%), and Communication Services (-1.8%) were among the worst performers, reflecting ongoing concerns about the artificial intelligence boom and its potential impact across industries. Eight out of eleven sectors of the S&P 500 ended in negative territory.",
-          "tags": [
-            "Sector Analysis",
-            "Utilities",
-            "Consumer Staples",
-            "Technology",
-            "Financials"
-          ]
-        },
-        {
-          "id": "economic-cpi-gdp",
-          "headline": "Cooler January CPI Eases Rate Hike Fears; Q4 GDP Estimates Revised",
-          "summary": "The U.S. Consumer Price Index (CPI) for January increased by 2.4% year-over-year and 0.2% month-over-month, both falling below market expectations. This encouraging inflation data helped to calm investor fears regarding potential Federal Reserve rate hikes. Looking ahead, the advance estimate for Q4 2025 GDP is expected to show annualized growth of around 2.8% to 3.0%, a moderation from the 4.4% seen in Q3.",
+          "id": "economic-data-cpi",
+          "headline": "January CPI Report Shows Inflation Slowdown",
+          "summary": "An encouraging update on inflation was released on Friday, with the U.S. consumer price index (CPI) indicating a slowdown to 2.4% in January, lower than December's 2.7%. An underlying measure, closely watched by economists, also slowed to its least painful level in nearly five years.",
           "tags": [
             "Economic Data",
-            "CPI",
-            "GDP",
             "Inflation",
-            "Fed"
-          ]
+            "CPI"
+          ],
+          "timestamp": "2026-02-14T08:30:00Z"
         },
         {
-          "id": "fed-outlook-minutes",
-          "headline": "Fed Minutes and Upcoming Economic Data in Focus",
-          "summary": "Investors are keenly awaiting the Federal Reserve's meeting minutes, scheduled for release next Wednesday, February 18, to gain further insight into the central bank's policy outlook. The Fed held the federal funds rate steady at 3.50%–3.75% in January. Key upcoming economic releases include January industrial production, December trade figures, and weekly jobless claims.",
+          "id": "fed-nomination-news",
+          "headline": "Kevin Warsh Nominated for Fed Chair as Powell's Term Nears End",
+          "summary": "President Trump has nominated former Federal Reserve Governor Kevin Warsh to succeed Jerome Powell as the next Fed Chair. This development has driven Warsh's nomination odds to 96%. The Federal Reserve is also reviewing 'Matters Requiring Attention' issued to banks to align with a new supervision focus on material risk.",
           "tags": [
-            "Fed",
+            "Federal Reserve",
             "Monetary Policy",
-            "Economic Calendar"
-          ]
+            "Leadership"
+          ],
+          "timestamp": "2026-02-14T11:00:00Z"
         },
         {
-          "id": "earnings-reports-summary",
-          "headline": "Major Earnings Reports: Wendy's and Cameco Announce Q4 Results, Retail Sector in Spotlight",
-          "summary": "The Wendy's Company ($WEN) reported its Q4 2025 results, with global systemwide sales decreasing 8.3% but international sales growing 6.2%, and adjusted diluted EPS at $0.16. Cameco Corp. announced strong Q4 earnings of $199 million, beating analyst expectations with adjusted EPS of $0.50. Retail sector earnings are also a key focus, with Walmart ($WMT) and Target ($TGT) set to report soon, as Q4 earnings season progresses for the S&P 500.",
+          "id": "sector-rotation-trends",
+          "headline": "Sector Rotation Sees Industrials Gaining Traction Amid AI Adoption",
+          "summary": "Sector rotation continues to be a major theme in 2026, with the industrial sector benefiting from several long-term tailwinds, including lower interest rates, a rebounding manufacturing cycle, and the adoption of agentic AI. Small-cap sectors, particularly energy, materials, and industrials, have shown strong year-to-date performance.",
+          "tags": [
+            "Sector Analysis",
+            "Industrials",
+            "AI"
+          ],
+          "timestamp": "2026-02-14T14:00:00Z"
+        },
+        {
+          "id": "upcoming-earnings",
+          "headline": "Major Earnings Reports on Deck for Next Week",
+          "summary": "The upcoming week will feature earnings reports from several major companies, including Walmart, Airbus, Newmont, BHP, Palo Alto Networks, Booking Holdings, Analog Devices, Warner Bros, and Air Liquide.",
           "tags": [
             "Earnings",
-            "Company News",
-            "Retail"
-          ]
-        },
-        {
-          "id": "macro-ai-disruption",
-          "headline": "Macro Trend: AI Disruption and Market Volatility Remain Key Drivers",
-          "summary": "Macroeconomic sentiment continues to be influenced by global trade dynamics and the transformative, yet disruptive, impact of artificial intelligence. While AI-related investments fuel business capital expenditure, concerns about its potential to upend traditional industries and impact profit margins are leading to significant market volatility, particularly in the tech sector. The US dollar has seen a gradual decline, and a softening labor market points to a cyclically sensitive juncture.",
-          "tags": [
-            "Macro Trends",
-            "AI",
-            "Geopolitics",
-            "Economy"
-          ]
+            "Corporate News"
+          ],
+          "timestamp": "2026-02-14T17:30:00Z"
         }
       ]
     }
