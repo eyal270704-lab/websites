@@ -1,24 +1,25 @@
 {
-  "generatedAt": "2026-02-15T07:36:00Z",
+  "generatedAt": "2026-02-15T12:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Weekend Edition",
-  "subtitle": "A summary of market activity for Friday, February 14, 2026",
-  "badge": "Weekend Edition",
+  "title": "Daily Market Digest",
+  "subtitle": "Market Close: Friday, February 14, 2026",
+  "badge": "Daily Summary",
   "sections": [
     {
-      "id": "market-pulse-overview",
-      "title": "Market Pulse",
+      "id": "market-pulse-feb14",
+      "title": "Market Pulse: Mixed Signals Amid Cooling Inflation",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-feb14",
-          "headline": "U.S. Stocks Steady on Friday After Inflation Data, Nasdaq Edges Down",
-          "summary": "U.S. equity markets closed a volatile week with major indices seeing minor movements on Friday, February 14, 2026. The S&P 500 and Dow Jones Industrial Average posted slight gains, while the Nasdaq Composite experienced a modest decline. The day's trading was influenced by an encouraging update on inflation, which showed consumer price index (CPI) falling to 2.4% in January, easing some concerns on Wall Street. The Federal Reserve maintained its neutral rate stance, while the ongoing discussion around the next Fed Chair also garnered attention. As markets are closed for the weekend, this digest reflects the closing data from Friday's trading session.",
+          "headline": "U.S. Markets Close Week Lower Despite Friday's Modest Gains and Easing Inflation",
+          "summary": "U.S. stock markets concluded the trading week on Friday, February 14, 2026, with major indices generally in the red for the week, although some pared losses by Friday's close. The sentiment was influenced by a cooler-than-expected January inflation report, which saw consumer prices growing at an annual rate of 2.4%, down from 2.7% in December. This data led to a drop in mortgage rates. However, broader market concerns, particularly around the high costs and potential disruptive impact of artificial intelligence on certain tech sectors, continued to weigh on investor confidence. While the S&P 500 and Dow were largely unchanged or slightly up on Friday, the Nasdaq Composite saw a modest gain. The Federal Reserve maintains a neutral rate stance, with market probabilities suggesting rates will remain unchanged in the near term.",
           "tags": [
-            "Market Summary",
+            "Market Overview",
             "Inflation",
+            "AI Impact",
             "Federal Reserve"
           ],
           "timestamp": "2026-02-14T16:00:00Z"
@@ -26,127 +27,150 @@
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices-feb14",
+      "title": "Major Indices Performance (Weekly Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-feb14",
           "statLabel": "S&P 500",
-          "statValue": "6,836.17",
-          "statContext": "Change: +3.41 (+0.05%)"
+          "statValue": "6,936.76",
+          "statContext": "Down 0.1% for the week"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "49,500.93",
-          "statContext": "Change: +48.95 (+0.10%)"
-        },
-        {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-feb14",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,546.67",
-          "statContext": "Change: -50.48 (-0.22%)"
+          "statContext": "Down 2.1% for the week"
+        },
+        {
+          "id": "dow-feb14",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,500.93",
+          "statContext": "Down 1.2% for the week"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers",
+      "id": "top-movers-feb14",
+      "title": "Top Movers (Friday, February 14, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "amat-gainer",
-          "headline": "Applied Materials Jumps on Strong Earnings and AI Outlook",
-          "summary": "Applied Materials ($AMAT) rose significantly after reporting stronger-than-expected profit for the latest quarter. CEO Gary Dickerson attributed the performance to an 'acceleration of industry investments in AI computing.'",
-          "ticker": "$AMAT",
-          "price": "N/A (close on Friday)",
+          "id": "nke-gainer-feb14",
+          "headline": "Nike Leads Dow Gainers",
+          "summary": "Nike ($NKE) saw a significant increase on Friday.",
+          "ticker": "$NKE",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.1%",
+          "changePercent": "+3.18%",
           "direction": "up"
         },
         {
-          "id": "moderna-gainer",
-          "headline": "Moderna Rises Following Better-Than-Expected Results",
-          "summary": "Moderna shares climbed after the vaccine maker reported stronger results for its latest quarter than analysts had anticipated.",
-          "ticker": "$MRNA",
-          "price": "N/A (close on Friday)",
+          "id": "unh-gainer-feb14",
+          "headline": "UnitedHealth Group Rises",
+          "summary": "UnitedHealth Group ($UNH) posted strong gains during Friday's session.",
+          "ticker": "$UNH",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.6%",
+          "changePercent": "+3.16%",
           "direction": "up"
         },
         {
-          "id": "draftkings-loser",
-          "headline": "DraftKings Falls as Revenue Forecast Disappoints",
-          "summary": "Despite reporting a profit that topped analysts' expectations, DraftKings saw its shares drop after providing a revenue forecast for the year that fell short of market expectations.",
-          "ticker": "$DKNG",
-          "price": "N/A (close on Friday)",
+          "id": "dis-gainer-feb14",
+          "headline": "Walt Disney Company Up",
+          "summary": "The Walt Disney Company ($DIS) closed higher on Friday.",
+          "ticker": "$DIS",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.5%",
+          "changePercent": "+3.00%",
+          "direction": "up"
+        },
+        {
+          "id": "v-loser-feb14",
+          "headline": "Visa Among Day's Losers",
+          "summary": "Visa ($V) experienced a notable decline by Friday's close.",
+          "ticker": "$V",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.08%",
           "direction": "down"
         },
         {
-          "id": "nvidia-loser",
-          "headline": "Nvidia Shares Decline Amid Market Shifts",
-          "summary": "Nvidia ($NVDA), a significant force in the market, experienced a decline in its share price during Friday's session.",
-          "ticker": "$NVDA",
-          "price": "N/A (close on Friday)",
+          "id": "aapl-loser-feb14",
+          "headline": "Apple Shares Dip",
+          "summary": "Apple ($AAPL) shares moved lower during Friday's trading.",
+          "ticker": "$AAPL",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.2%",
+          "changePercent": "-2.27%",
+          "direction": "down"
+        },
+        {
+          "id": "nvda-loser-feb14",
+          "headline": "Nvidia Falls Amid Tech Volatility",
+          "summary": "Nvidia ($NVDA) closed down, reflecting ongoing volatility in the technology sector.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.21%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
-      "title": "Market News",
+      "id": "market-news-feb14",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-cpi",
-          "headline": "January CPI Report Shows Inflation Slowdown",
-          "summary": "An encouraging update on inflation was released on Friday, with the U.S. consumer price index (CPI) indicating a slowdown to 2.4% in January, lower than December's 2.7%. An underlying measure, closely watched by economists, also slowed to its least painful level in nearly five years.",
+          "id": "sector-analysis-tech-ai",
+          "headline": "Technology Sector Faces Headwinds from AI Concerns",
+          "summary": "The technology sector experienced heavy selling this week, with investors showing caution due to fears that artificial intelligence advancements could make some programming and non-hardware tech companies obsolete. Despite strong earnings growth in information technology, the sector's ETF has fallen over the past month, indicating that AI-related anxieties are outweighing positive results.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "AI"
+          ],
+          "timestamp": "2026-02-14T16:00:00Z"
+        },
+        {
+          "id": "sector-analysis-defensive",
+          "headline": "Energy and Industrials See Inflow as Investors Seek Defensive Positions",
+          "summary": "In contrast to the tech sector, defensive consumer-staples names, energy, and industrials have seen increased investor interest. The energy sector, in particular, was the best performer among S&P 500 sectors over the past month, surging 15.6%, as investors seek more stable opportunities amidst market uncertainties.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Industrials",
+            "Market Rotation"
+          ],
+          "timestamp": "2026-02-14T16:00:00Z"
+        },
+        {
+          "id": "economic-cpi-jobs",
+          "headline": "January CPI Cools, Jobs Report Stronger Than Expected",
+          "summary": "Key economic data released this week showed a mixed picture. The Consumer Price Index (CPI) for January indicated cooling inflation, with an annual rate of 2.4%, down from 2.7% in December. This data positively impacted mortgage rates. Concurrently, the U.S. Non-Farm Payrolls (NFP) report revealed 130,000 new jobs in January, exceeding forecasts, and the unemployment rate dropped to 4.3%.",
           "tags": [
             "Economic Data",
             "Inflation",
+            "Jobs Report",
             "CPI"
           ],
-          "timestamp": "2026-02-14T08:30:00Z"
-        },
-        {
-          "id": "fed-nomination-news",
-          "headline": "Kevin Warsh Nominated for Fed Chair as Powell's Term Nears End",
-          "summary": "President Trump has nominated former Federal Reserve Governor Kevin Warsh to succeed Jerome Powell as the next Fed Chair. This development has driven Warsh's nomination odds to 96%. The Federal Reserve is also reviewing 'Matters Requiring Attention' issued to banks to align with a new supervision focus on material risk.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Leadership"
-          ],
-          "timestamp": "2026-02-14T11:00:00Z"
-        },
-        {
-          "id": "sector-rotation-trends",
-          "headline": "Sector Rotation Sees Industrials Gaining Traction Amid AI Adoption",
-          "summary": "Sector rotation continues to be a major theme in 2026, with the industrial sector benefiting from several long-term tailwinds, including lower interest rates, a rebounding manufacturing cycle, and the adoption of agentic AI. Small-cap sectors, particularly energy, materials, and industrials, have shown strong year-to-date performance.",
-          "tags": [
-            "Sector Analysis",
-            "Industrials",
-            "AI"
-          ],
-          "timestamp": "2026-02-14T14:00:00Z"
+          "timestamp": "2026-02-14T16:00:00Z"
         },
         {
           "id": "upcoming-earnings",
-          "headline": "Major Earnings Reports on Deck for Next Week",
-          "summary": "The upcoming week will feature earnings reports from several major companies, including Walmart, Airbus, Newmont, BHP, Palo Alto Networks, Booking Holdings, Analog Devices, Warner Bros, and Air Liquide.",
+          "headline": "Major Earnings on Deck for Next Week",
+          "summary": "With fourth-quarter earnings season largely wrapped up, attention turns to upcoming reports. Walmart ($WMT) is scheduled to report next week, with analysts keenly watching for insights into discretionary consumer spending and the impact of AI on the retail giant. Other companies like DoorDash ($DASH), Palo Alto Networks ($PANW), Etsy ($ETSY), Wayfair ($W), Wingstop ($WING), Deere & Co. ($DE), and Live Nation Entertainment ($LYV) are also set to release their results.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Earnings Reports",
+            "Corporate News",
+            "Upcoming Events"
           ],
-          "timestamp": "2026-02-14T17:30:00Z"
+          "timestamp": "2026-02-14T16:00:00Z"
         }
       ]
     }
