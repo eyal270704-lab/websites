@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-16T12:39:00Z",
+  "generatedAt": "2026-02-16T16:51:00Z",
   "generatedBy": "stocks-agent",
-  "title": "Daily Market Digest: February 16, 2026",
-  "subtitle": "A professional overview of today's market activities. Not financial advice.",
+  "feedType": "stocks",
+  "title": "Daily Market Digest",
+  "subtitle": "February 16, 2026: Mixed Global Performance as US Markets Observe Holiday",
   "badge": "LIVE",
   "sections": [
     {
@@ -12,51 +13,72 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb16",
-          "headline": "Global Markets Show Mixed Sentiment on Presidents' Day",
-          "summary": "U.S. equity markets are closed today for the Presidents' Day holiday, though futures edged higher in subdued trading. Overall market sentiment remains mixed, influenced by cooling inflation data which offers hope for Federal Reserve rate cuts, yet tempered by persistent concerns over AI disruption across various sectors. Indian markets, however, saw a strong rebound, with key indices closing nearly 1% higher, driven by financials and energy stocks. Global trading volumes are generally thin due to multiple Asian markets being closed for Lunar New Year.",
+          "id": "mp-1",
+          "headline": "Global Markets Show Mixed Performance; US Closed for Presidents' Day",
+          "summary": "While US markets are closed for Presidents' Day, futures indicate a positive open, buoyed by cooling inflation data. Indian equities rebounded, led by financials and power, while European markets saw modest movements. A significant rotation from growth to value stocks is observed, with AI disruption concerns weighing on technology sectors globally.",
           "tags": [
-            "Global Markets",
-            "U.S. Holiday",
-            "Inflation",
-            "AI Impact"
-          ]
+            "Market Sentiment",
+            "Global Economy",
+            "US Holiday"
+          ],
+          "timestamp": "2026-02-16T16:51:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Friday, Feb 13 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-feb13",
-          "statLabel": "S&P 500",
-          "statValue": "6,836.17",
-          "statContext": "+0.05% on Friday, Feb 13. U.S. markets closed today.",
+          "id": "mi-sp500",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "+0.3% - +0.4%",
+          "statContext": "US pre-market indication for Monday, Feb 16 (US markets closed for Presidents' Day)",
           "direction": "up"
         },
         {
-          "id": "dow-feb13",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "mi-nasdaq",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "+0.3% - +0.4%",
+          "statContext": "US pre-market indication for Monday, Feb 16 (US markets closed for Presidents' Day)",
+          "direction": "up"
+        },
+        {
+          "id": "mi-dow",
+          "statLabel": "Dow Jones Ind. Average",
           "statValue": "49,500.93",
-          "statContext": "+0.10% on Friday, Feb 13. U.S. markets closed today.",
+          "statContext": "Closed for Presidents' Day, but previous Friday saw a slight rise of +0.1%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-feb13",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,546.67",
-          "statContext": "-0.22% on Friday, Feb 13. U.S. markets closed today.",
-          "direction": "down"
-        },
-        {
-          "id": "nifty50-feb16",
+          "id": "mi-nifty",
           "statLabel": "Nifty 50 (India)",
           "statValue": "25,682.75",
-          "statContext": "+0.83% on Monday, Feb 16.",
+          "statContext": "Closed +0.83%",
           "direction": "up"
+        },
+        {
+          "id": "mi-sensex",
+          "statLabel": "BSE Sensex (India)",
+          "statValue": "83,277.15",
+          "statContext": "Closed +0.79%",
+          "direction": "up"
+        },
+        {
+          "id": "mi-asx200",
+          "statLabel": "ASX 200 (Australia)",
+          "statValue": "8,937.1",
+          "statContext": "Closed +0.22%",
+          "direction": "up"
+        },
+        {
+          "id": "mi-stoxx600",
+          "statLabel": "Stoxx 600 (Europe)",
+          "statValue": "617.7",
+          "statContext": "Slipped -0.1%",
+          "direction": "down"
         }
       ]
     },
@@ -67,113 +89,141 @@
       "layout": "grid",
       "items": [
         {
-          "id": "applovin-gainer",
-          "headline": "AppLovin ($APP)",
-          "summary": "Technology company AppLovin rose, recovering some losses.",
-          "ticker": "$APP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.4%",
-          "direction": "up"
-        },
-        {
-          "id": "engineers-india-gainer",
-          "headline": "Engineers India",
-          "summary": "Surged following strong December quarter performance.",
-          "ticker": "N/A",
-          "price": "₹226",
-          "change": "N/A",
+          "id": "tm-eindia",
+          "headline": "Engineers India Surges on Strong Earnings Outlook",
+          "ticker": "$EIL",
+          "price": "₹226.00",
+          "change": "+₹24.88",
           "changePercent": "+12.4%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "Engineers India rallied significantly as analysts maintained a bullish outlook following its December quarter performance."
         },
         {
-          "id": "nvidia-loser",
-          "headline": "Nvidia ($NVDA)",
-          "summary": "Computer chipmaker and heaviest weight on S&P 500, continued its decline.",
-          "ticker": "$NVDA",
+          "id": "tm-natco",
+          "headline": "Natco Pharma Boosted by Regulatory Approval",
+          "ticker": "$NATCOPHARM",
+          "price": "₹881.00",
+          "change": "+₹57.65",
+          "changePercent": "+7.0%",
+          "direction": "up",
+          "summary": "Natco Pharma shares surged after receiving CDSCO approval for its semaglutide injection last week."
+        },
+        {
+          "id": "tm-gmr",
+          "headline": "GMR Airports Gains on Q3FY26 Earnings",
+          "ticker": "$GMRINFRA",
+          "price": "₹100.50",
+          "change": "+₹6.58",
+          "changePercent": "+7.0%",
+          "direction": "up",
+          "summary": "GMR Airports was a top performer reacting positively to its Q3FY26 earnings report."
+        },
+        {
+          "id": "tm-powergrid",
+          "headline": "Power Grid Corporation Leads Sensex Gains",
+          "ticker": "$POWERGRID",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.2%",
-          "direction": "down"
+          "changePercent": "+4.45%",
+          "direction": "up",
+          "summary": "Power Grid Corporation emerged as the top gainer among Sensex constituents, boosting overall market momentum."
         },
         {
-          "id": "brainbees-loser",
-          "headline": "Brainbees Solutions",
-          "summary": "Fell sharply due to investor disappointment with December quarter numbers.",
-          "ticker": "N/A",
+          "id": "tm-brainbees",
+          "headline": "Brainbees Solutions Falls on Disappointing Earnings",
+          "ticker": "$BRAINBEES",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-11.2%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Brainbees Solutions closed with sharp losses as investors reacted to disappointing December quarter numbers."
+        },
+        {
+          "id": "tm-olaelectric",
+          "headline": "Ola Electric Mobility Declines Post-Earnings",
+          "ticker": "$OLA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.7%",
+          "direction": "down",
+          "summary": "Ola Electric Mobility saw significant declines following disappointing December quarter numbers."
+        },
+        {
+          "id": "tm-techmahindra",
+          "headline": "Tech Mahindra Among Top Laggards",
+          "ticker": "$TECHM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "down",
+          "summary": "Tech Mahindra, along with other technology and auto names, faced selling pressure."
+        },
+        {
+          "id": "tm-relianceinfra",
+          "headline": "Reliance Infrastructure Hits Lower Circuit",
+          "ticker": "$RELINFRA",
+          "price": "₹98.90",
+          "change": "-₹5.20",
+          "changePercent": "-5.0%",
+          "direction": "down",
+          "summary": "Reliance Infrastructure shares were locked in a lower circuit, extending their losing streak."
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "us-sector-trends",
-          "headline": "AI Concerns Drive Rotation in U.S. Sectors",
-          "summary": "Artificial intelligence disruption continues to weigh on US equity markets, with selling pressure spreading from software to real estate, trucking, and financial services last week. This has led to a rotation of capital from high-multiple software names into 'Real Economy' sectors like Industrials ($XLI), Energy ($XLE), and Materials ($XLB), which are currently leading. Consumer Staples ($XLP) also appears to be a rising star. Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) continue to underperform.",
+          "id": "mn-1",
+          "headline": "Sector Rotation Underway: Value and Cyclicals Outperform Growth",
+          "summary": "A notable shift from growth to value stocks is gaining momentum into 2026. Energy, Basic Materials, and Consumer Defensive sectors have posted double-digit gains year-to-date, leading the market. Conversely, technology stocks, particularly software, are under pressure amid 'AI disruption fears,' with some software stocks falling 13% in a week, prompting investors to seek safer opportunities in more traditional sectors.",
           "tags": [
-            "Sector Rotation",
-            "AI Impact",
-            "U.S. Market"
-          ]
+            "Sector Analysis",
+            "Growth vs. Value",
+            "Technology",
+            "AI Concerns"
+          ],
+          "timestamp": "2026-02-16T16:51:00Z"
         },
         {
-          "id": "india-sector-performance",
-          "headline": "Indian Sectors See Strong Performance",
-          "summary": "In India, Nifty Realty emerged as the top-performing sector with a 1.60% rally, followed by Nifty PSU Bank, Nifty Pharma, Nifty Oil & Gas, and Nifty FMCG, all surging between 0.80% and 1%. Financials and pharma stocks were key drivers of the market recovery. Conversely, Nifty Media slipped 0.90% and Nifty Auto fell 0.73%.",
+          "id": "mn-2",
+          "headline": "Cooler Inflation Data Fuels Fed Rate Cut Hopes; FOMC Minutes Awaited",
+          "summary": "US January inflation surprised slightly to the downside, with headline CPI easing to 2.4% year-over-year and core CPI to 2.5%, the lowest since March 2021. This benign inflation print has boosted expectations of further Federal Reserve easing, with money markets now pricing a 50% probability of a third 25 basis point rate cut in 2026. The FOMC meeting minutes, due Wednesday, will be closely scrutinized for further policy insights.",
           "tags": [
-            "India Market",
-            "Leading Sectors",
-            "Lagging Sectors"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Upcoming Events",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "fed-inflation-outlook",
-          "headline": "Cooling Inflation Fuels Fed Rate Cut Hopes",
-          "summary": "A report last week indicated that U.S. inflation cooled last month, with the Consumer Price Index (CPI) rising 2.4% year-over-year, down from 2.7% in December. This data, softer than expected, has bolstered hopes for a Federal Reserve interest rate cut later in the year, although core inflation remains a concern. Investors are keenly awaiting the upcoming FOMC minutes for further cues on the Fed's policy path.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "earnings-overview",
-          "headline": "Key Earnings Reports and Economic Data This Week",
-          "summary": "While U.S. markets observe Presidents' Day, companies like Ansell Limited, HUB24 Limited, Antofagasta plc, ReNew Energy Global, Armada Hoffler Properties, and Otter Tail have earnings scheduled for today. The week ahead will also see reports from major companies including Walmart, Warner Bros. Discovery, Booking Holdings, Deere & Company, and Palo Alto Networks, which will be crucial for directional cues.",
-          "tags": [
-            "Earnings",
             "Economic Data",
-            "Corporate Reports"
-          ]
+            "Monetary Policy",
+            "Inflation",
+            "Federal Reserve"
+          ],
+          "timestamp": "2026-02-16T16:51:00Z"
         },
         {
-          "id": "macro-trends",
-          "headline": "Macro Trends: Oil, Gold, and Global Economy",
-          "summary": "Lower U.S. bond yields are generally supportive of market sentiment. Crude oil prices are broadly steady ahead of a second round of talks between the U.S. and Iran this week. Gold prices have moved above $5,000 an ounce, finding support from the weaker-than-expected U.S. inflation data. Meanwhile, Japan's economy showed slower-than-expected growth in the October-December quarter, expanding at an annualized 0.2%.",
+          "id": "mn-3",
+          "headline": "Key Earnings Reports and Economic Data on the Horizon",
+          "summary": "The week ahead is packed with significant earnings reports, including Walmart, Palo Alto Networks, Analog Devices, and Deere. Outside the US, Japan is set to release its Q4 GDP and January inflation data, while Canada will publish its January CPI and housing starts. These releases are expected to provide further clarity on global economic trends and corporate health.",
           "tags": [
-            "Commodities",
-            "Global Economy",
-            "Trade Talks"
-          ]
+            "Earnings Season",
+            "Economic Calendar",
+            "Global Economy"
+          ],
+          "timestamp": "2026-02-16T16:51:00Z"
+        },
+        {
+          "id": "mn-4",
+          "headline": "Indian Equities Rebound, Led by Financials and Power Sectors",
+          "summary": "The Indian stock market witnessed a strong rebound on Monday, with the Nifty 50 closing 0.83% higher and the Sensex gaining 0.79%. The recovery was primarily driven by renewed buying interest in banking and power stocks, with Nifty Realty emerging as the top-performing sector. Financials and pharma stocks also contributed significantly to the upward movement.",
+          "tags": [
+            "Indian Market",
+            "Sector Performance",
+            "Financials",
+            "Power"
+          ],
+          "timestamp": "2026-02-16T16:51:00Z"
         }
       ]
     }
-  ],
-  "feedType": "stocks"
+  ]
 }
