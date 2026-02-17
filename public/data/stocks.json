@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-17T21:00:00Z",
+  "generatedAt": "2026-02-17T12:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 17, 2026",
-  "subtitle": "Global markets navigate AI disruption fears and economic data releases",
+  "title": "Daily Market Digest",
+  "subtitle": "Tuesday, February 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,15 +14,13 @@
       "items": [
         {
           "id": "market-summary-feb17",
-          "headline": "Global Markets Face Mixed Session Amid AI Concerns and Geopolitical Tensions",
-          "summary": "Today, February 17, 2026, global markets experienced a mixed trading session. While US equity futures showed signs of recovery after initial declines, extending last week's selloff driven by artificial intelligence (AI) disruption concerns, Asian markets saw subdued volumes due to Lunar New Year holidays. Indian benchmarks erased early losses, with IT stocks leading gains. The overarching sentiment remains cautious, with investors keenly watching economic data and geopolitical developments. Not financial advice.",
+          "headline": "U.S. Futures Dip as AI Concerns and Geopolitical Risks Weigh on Market Sentiment",
+          "summary": "U.S. stock futures opened lower on Tuesday, following a mixed close for major indices on Friday that capped off a losing week. Investor sentiment remains cautious, largely influenced by ongoing concerns surrounding artificial intelligence (AI) disruption across various sectors and heightened geopolitical risks from U.S.-Iran talks. Soft inflation data released recently failed to significantly boost market participants. Trading volumes are thinner due to Lunar New Year holidays in several Asian markets.",
           "tags": [
-            "Global Market",
-            "AI Impact",
-            "Economic Data",
+            "Market Overview",
+            "AI Concerns",
             "Geopolitics"
-          ],
-          "timestamp": "2026-02-17T21:00:00Z"
+          ]
         }
       ]
     },
@@ -33,34 +31,40 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500 (US500)",
-          "statValue": "6,808.08",
-          "statContext": "Down 0.41% for the day; futures initially dropped 0.5% but later gained 0.2%"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500 (Previous Close)",
+          "statValue": "6,836.17",
+          "statContext": "+0.1% on Friday, after -1.4% last week."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite (Previous Close)",
           "statValue": "22,546.67",
-          "statContext": "Nasdaq 100 futures initially dropped 0.9% but later rose 0.01%; Composite down 0.22% on Friday"
+          "statContext": "-0.2% on Friday, after -2.1% last week."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "DOW Jones Industrial Average",
-          "statValue": "49,363.22",
-          "statContext": "Down 0.27% for the day; futures initially lost 0.3% but later gained 0.05%"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Average (Previous Close)",
+          "statValue": "49,500.93",
+          "statContext": "-0.1% on Friday, after -1.2% last week."
         },
         {
-          "id": "nifty50-stat",
-          "statLabel": "NIFTY50 (India)",
-          "statValue": "25,585.95",
-          "statContext": "Opened lower but recovered, losing 0.38% initially, then rising to 25,698 (+0.1%)"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.4%",
+          "statContext": "Down as of Tuesday morning."
         },
         {
-          "id": "sensex-stat",
-          "statLabel": "SENSEX (India)",
-          "statValue": "83,072.75",
-          "statContext": "Opened lower but recovered, down 0.25% initially, then rising to 83,422 (+0.25%)"
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "-0.8%",
+          "statContext": "Steeper decline as of Tuesday morning."
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures",
+          "statValue": "-0.3%",
+          "statContext": "Down as of Tuesday morning."
         }
       ]
     },
@@ -71,44 +75,64 @@
       "layout": "grid",
       "items": [
         {
-          "id": "infosys-gainer",
-          "headline": "Infosys Leads Indian Market Gains",
-          "summary": "Infosys Ltd. surged due to positive sectoral trends and favorable market sentiment.",
-          "ticker": "$INFY",
-          "price": "₹1406.90",
-          "change": "+₹41.13",
-          "changePercent": "+3.02%",
-          "direction": "up"
+          "id": "zim-gainer",
+          "headline": "ZIM Integrated Shipping Soars on Acquisition News",
+          "ticker": "$ZIM",
+          "price": "$35.00 (acquisition price)",
+          "change": "+$9.15 (approx)",
+          "changePercent": "+36%",
+          "direction": "up",
+          "summary": "Shares jumped after Hapag-Lloyd agreed to acquire the shipper for $35 per share in cash, representing a 58% premium over its previous closing price."
         },
         {
-          "id": "itc-gainer",
-          "headline": "ITC Rises on Price Hike Expectations",
-          "summary": "ITC Ltd. advanced after reports of price hikes in some categories, attracting investor interest.",
-          "ticker": "$ITC",
-          "price": "₹324.40",
-          "change": "+₹6.46",
-          "changePercent": "+2.03%",
-          "direction": "up"
+          "id": "ocular-gainer",
+          "headline": "Ocular Therapeutix Climbs Ahead of Phase 3 Results",
+          "ticker": "$OCUL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+35%",
+          "direction": "up",
+          "summary": "The stock climbed ahead of the company's webcast to review topline results from its SOL-1 Phase 3 superiority trial of AXPAXLI for wet AMD."
         },
         {
-          "id": "kwalitywalls-loser",
-          "headline": "Kwality Wall's Slides in Early Trade",
-          "summary": "Kwality Wall's (India) was among the biggest losers in the Indian market's opening session.",
-          "ticker": "$KWIL",
-          "price": "₹180.00",
-          "change": "-₹8.95",
-          "changePercent": "-4.79%",
-          "direction": "down"
+          "id": "compass-gainer",
+          "headline": "COMPASS Pathways Surges on Psilocybin Treatment Data Release",
+          "ticker": "$CMPS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+28%",
+          "direction": "up",
+          "summary": "Shares surged ahead of the release of new Phase 3 data for its COMP360 psilocybin treatment for treatment-resistant depression."
         },
         {
-          "id": "hindalco-loser",
-          "headline": "Hindalco Industries Down as Metal Stocks Drag",
-          "summary": "Hindalco Industries saw declines as metal stocks broadly weighed on the market.",
-          "ticker": "$HINDALCO",
-          "price": "₹885.50",
-          "change": "-₹22.13",
-          "changePercent": "-2.44%",
-          "direction": "down"
+          "id": "flutter-loser",
+          "headline": "Flutter Entertainment Falls on Trading Conditions",
+          "ticker": "$FLUT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.46%",
+          "direction": "down",
+          "summary": "The stock fell as investors reacted to recent trading and liquidity conditions."
+        },
+        {
+          "id": "constellation-loser",
+          "headline": "Constellation Brands Declines Amid Leadership Changes",
+          "ticker": "$STZ",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.04%",
+          "direction": "down",
+          "summary": "Shares declined following announcements regarding upcoming leadership and governance changes within the company."
+        },
+        {
+          "id": "nvr-loser",
+          "headline": "NVR Slips After Price Target Reduction",
+          "ticker": "$NVR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.27%",
+          "direction": "down",
+          "summary": "The homebuilder's shares slipped after UBS reduced its price target for the stock."
         }
       ]
     },
@@ -120,51 +144,72 @@
       "items": [
         {
           "id": "ai-disruption",
-          "headline": "AI Disruption Fears Continue to Impact High-Valuation Sectors",
-          "summary": "Concerns over increasingly sophisticated AI tools, such as Anthropic PBC's Claude Cowork, are intensifying fears of structural pressure on traditional software business models. This has contributed to a risk-averse sentiment and sell-offs across US equities, particularly in technology and communication services sectors.",
+          "headline": "AI Disruption Fears Continue to Pressure Tech and Financial Sectors",
+          "summary": "Concerns over the disruptive potential of artificial intelligence continue to weigh heavily on market sentiment, particularly impacting software, real estate, and financial services companies. Investors are rotating out of tech stocks due to worries about overstretched AI valuations and the sustainability of the AI trade.",
           "tags": [
             "AI",
             "Technology",
-            "Market Sentiment"
+            "Sector Rotation",
+            "Financials"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Value Outperforms Growth as Sector Rotation Intensifies",
-          "summary": "Sector rotation is intensifying, with value stocks outperforming growth. Cyclical sectors like Energy ($XLE), Materials ($XLB), and Industrials ($XLI) are leading, alongside Consumer Staples ($XLP) and Healthcare ($XLV), as investors seek stability. Conversely, Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) are lagging.",
-          "tags": [
-            "Sector Analysis",
-            "Value Stocks",
-            "Growth Stocks"
-          ]
-        },
-        {
-          "id": "us-economic-data",
-          "headline": "Key US Economic Data and Fed Speeches on Today's Docket",
-          "summary": "Today's calendar includes the ADP Employment Change Weekly report and the NY Empire State Manufacturing Index. Investors are also monitoring speeches from Fed Vice Chair for Supervision Barr and FOMC Member Daly for insights into monetary policy. FOMC meeting minutes from January, which saw the federal funds rate unchanged at 3.50%-3.75%, are highly anticipated later this week.",
+          "id": "economic-data-cpi",
+          "headline": "Soft January CPI Data Released",
+          "summary": "The Department of Labor reported that the Consumer Price Index (CPI) rose 0.2% month-over-month in January, below the consensus estimate of 0.3%. The year-over-year headline CPI was up 2.4%. Core CPI, excluding volatile food and energy, increased 0.3% month-over-month and 2.5% year-over-year. This softer inflation data, however, did not significantly boost market enthusiasm.",
           "tags": [
             "Economic Data",
-            "Federal Reserve",
-            "Monetary Policy"
+            "Inflation",
+            "CPI"
           ]
         },
         {
-          "id": "earnings-watch",
-          "headline": "Earnings Season Continues with Medtronic, Constellation Energy, and Palo Alto Networks Reporting Today",
-          "summary": "Major companies reporting earnings today, February 17, 2026, include Medtronic ($MDT), Constellation Energy ($CEG), and Palo Alto Networks ($PANW). Investors will also look ahead to Q4 results from Walmart ($WMT), DoorDash ($DASH), and Nvidia ($NVDA) later this week.",
+          "id": "earnings-medtronic",
+          "headline": "Medtronic Reports Strong Q3 Fiscal 2026 Results",
+          "summary": "Medtronic plc ($MDT) announced robust financial results for its third quarter of fiscal year 2026. The company reported revenue of $9.0 billion, an increase of 8.7% as reported, and non-GAAP diluted earnings per share of $1.36, exceeding guidance. The cardiovascular portfolio saw an 11% year-over-year increase, with Cardiac Ablation Solutions growing 80%.",
           "tags": [
             "Earnings",
-            "Corporate News"
+            "Healthcare",
+            "$MDT"
           ]
         },
         {
-          "id": "geopolitical-impact",
-          "headline": "Geopolitical Developments and Holiday-Thinned Trading Influence Markets",
-          "summary": "Ongoing high-stakes nuclear negotiations between the United States and Iran in Geneva, coupled with an Iranian military drill and a US naval buildup, are contributing to market uncertainty. Additionally, Lunar New Year holidays across Asia have led to subdued trading volumes globally, making active exchanges susceptible to exaggerated price movements.",
+          "id": "earnings-genuineparts",
+          "headline": "Genuine Parts Company Releases Q4 and Full-Year 2025 Earnings",
+          "summary": "Genuine Parts Company ($GPC) reported its results for the fourth quarter and full year ended December 31, 2025. The company posted adjusted net income of $216 million, or $1.55 per diluted earnings per share.",
+          "tags": [
+            "Earnings",
+            "Automotive",
+            "Industrial",
+            "$GPC"
+          ]
+        },
+        {
+          "id": "earnings-hercholdings",
+          "headline": "Herc Holdings Beats Q4 Earnings Estimates",
+          "summary": "Herc Holdings ($HRI) announced fourth-quarter earnings that surpassed analyst estimates, delivering an earnings surprise of +12.70%.",
+          "tags": [
+            "Earnings",
+            "Equipment Rental",
+            "$HRI"
+          ]
+        },
+        {
+          "id": "upcoming-economic-data",
+          "headline": "Key Economic Reports Awaited This Week",
+          "summary": "Investors are looking ahead to several key economic data releases this week, including delayed NAHB housing data for November and December, the Personal Consumption Expenditures (PCE) index for December, retail sales, FOMC Minutes, the ADP Employment report, and initial jobless claims.",
+          "tags": [
+            "Economic Calendar",
+            "Fed Policy"
+          ]
+        },
+        {
+          "id": "geopolitical-tensions",
+          "headline": "US-Iran Talks Resume Amid Heightened Geopolitical Uncertainty",
+          "summary": "High-stakes nuclear negotiations between the United States and Iran resumed today in Geneva, contributing to a cautious trading environment. The talks are taking place against a backdrop of an Iranian military drill and a significant U.S. naval buildup, raising geopolitical risks.",
           "tags": [
             "Geopolitics",
-            "Global Markets",
-            "Trading Volume"
+            "International Relations"
           ]
         }
       ]
