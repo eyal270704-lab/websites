@@ -1,70 +1,53 @@
 {
-  "generatedAt": "2026-02-17T12:38:00Z",
+  "generatedAt": "2026-02-17T17:01:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, February 17, 2026",
+  "subtitle": "February 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb17",
-          "headline": "U.S. Futures Dip as AI Concerns and Geopolitical Risks Weigh on Market Sentiment",
-          "summary": "U.S. stock futures opened lower on Tuesday, following a mixed close for major indices on Friday that capped off a losing week. Investor sentiment remains cautious, largely influenced by ongoing concerns surrounding artificial intelligence (AI) disruption across various sectors and heightened geopolitical risks from U.S.-Iran talks. Soft inflation data released recently failed to significantly boost market participants. Trading volumes are thinner due to Lunar New Year holidays in several Asian markets.",
+          "id": "market-summary-001",
+          "headline": "Uneasy Trading Dominates as AI Concerns Persist Amid Mixed Economic Data",
+          "summary": "U.S. equity markets experienced a mixed to lower session today as concerns surrounding the impact of artificial intelligence on various sectors and cautious consumer sentiment weighed on investor mood. While some major indices saw marginal gains or slight declines, the overall tone remained uneasy. Futures had indicated a softer opening following a holiday-shortened week, with a focus on upcoming economic data and earnings reports.",
           "tags": [
-            "Market Overview",
-            "AI Concerns",
-            "Geopolitics"
-          ]
+            "Market Sentiment",
+            "AI Impact",
+            "Economic Data"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500 (Previous Close)",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "6,836.17",
-          "statContext": "+0.1% on Friday, after -1.4% last week."
+          "statContext": "Closed mixed, with some reports showing a slight gain of 0.1%, while others indicated a fall of 0.5% after earlier gains."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite (Previous Close)",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
           "statValue": "22,546.67",
-          "statContext": "-0.2% on Friday, after -2.1% last week."
+          "statContext": "Slid 0.2% due to weak performance from AI-related stocks. Other reports indicated a larger drop of 0.7% to 1.2% lower."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Average (Previous Close)",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,500.93",
-          "statContext": "-0.1% on Friday, after -1.2% last week."
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "-0.4%",
-          "statContext": "Down as of Tuesday morning."
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "-0.8%",
-          "statContext": "Steeper decline as of Tuesday morning."
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Futures",
-          "statValue": "-0.3%",
-          "statContext": "Down as of Tuesday morning."
+          "statContext": "Fell 0.1% after a choppy session. Some reports noted a decline of 167 points, or 0.3%."
         }
       ]
     },
@@ -77,62 +60,62 @@
         {
           "id": "zim-gainer",
           "headline": "ZIM Integrated Shipping Soars on Acquisition News",
+          "summary": "Shares of ZIM Integrated Shipping jumped 31% after Hapag-Lloyd agreed to acquire the shipper for $35 per share in cash, representing a significant premium.",
           "ticker": "$ZIM",
-          "price": "$35.00 (acquisition price)",
-          "change": "+$9.15 (approx)",
-          "changePercent": "+36%",
-          "direction": "up",
-          "summary": "Shares jumped after Hapag-Lloyd agreed to acquire the shipper for $35 per share in cash, representing a 58% premium over its previous closing price."
-        },
-        {
-          "id": "ocular-gainer",
-          "headline": "Ocular Therapeutix Climbs Ahead of Phase 3 Results",
-          "ticker": "$OCUL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+35%",
-          "direction": "up",
-          "summary": "The stock climbed ahead of the company's webcast to review topline results from its SOL-1 Phase 3 superiority trial of AXPAXLI for wet AMD."
+          "changePercent": "+31.00%",
+          "direction": "up"
         },
         {
-          "id": "compass-gainer",
-          "headline": "COMPASS Pathways Surges on Psilocybin Treatment Data Release",
-          "ticker": "$CMPS",
+          "id": "amat-gainer",
+          "headline": "Applied Materials Inc. Rises on Strong Earnings",
+          "summary": "Applied Materials Inc. saw its shares climb 8.1% following a report of strong first-quarter fiscal 2026 adjusted earnings of $2.38 per share, surpassing analyst estimates.",
+          "ticker": "$AMAT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+28%",
-          "direction": "up",
-          "summary": "Shares surged ahead of the release of new Phase 3 data for its COMP360 psilocybin treatment for treatment-resistant depression."
+          "changePercent": "+8.10%",
+          "direction": "up"
         },
         {
-          "id": "flutter-loser",
-          "headline": "Flutter Entertainment Falls on Trading Conditions",
-          "ticker": "$FLUT",
+          "id": "roku-gainer",
+          "headline": "Roku Inc. Jumps After Exceeding Earnings Estimates",
+          "summary": "Roku Inc. shares surged 8.6% after the company reported fourth-quarter 2025 adjusted earnings of $0.53 per share, significantly exceeding the Zacks Consensus Estimate.",
+          "ticker": "$ROKU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.46%",
-          "direction": "down",
-          "summary": "The stock fell as investors reacted to recent trading and liquidity conditions."
+          "changePercent": "+8.60%",
+          "direction": "up"
         },
         {
-          "id": "constellation-loser",
-          "headline": "Constellation Brands Declines Amid Leadership Changes",
-          "ticker": "$STZ",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.04%",
-          "direction": "down",
-          "summary": "Shares declined following announcements regarding upcoming leadership and governance changes within the company."
+          "id": "kwality-loser",
+          "headline": "Kwality Wall's Experiences Significant Drop",
+          "summary": "Kwality Wall's (India) shares fell 5.00% to ₹27.95, hitting a day's low on its second day of listing and now down 30% from its demerger price.",
+          "ticker": "N/A",
+          "price": "₹27.95",
+          "change": "-₹1.47",
+          "changePercent": "-5.00%",
+          "direction": "down"
         },
         {
-          "id": "nvr-loser",
-          "headline": "NVR Slips After Price Target Reduction",
-          "ticker": "$NVR",
+          "id": "gis-loser",
+          "headline": "General Mills Declines on Consumer Confidence Concerns",
+          "summary": "General Mills sank 7.2% after the company indicated that customers are feeling less confident, leading to a cut in its profit forecast for 2026.",
+          "ticker": "$GIS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.27%",
-          "direction": "down",
-          "summary": "The homebuilder's shares slipped after UBS reduced its price target for the stock."
+          "changePercent": "-7.20%",
+          "direction": "down"
+        },
+        {
+          "id": "eil-loser",
+          "headline": "Engineers India Falls Amid Profit Booking",
+          "summary": "Shares of state-owned Engineers India (EIL) closed 5% lower on the NSE, as investors engaged in profit booking after a significant rally on Monday.",
+          "ticker": "$EIL",
+          "price": "₹215.27",
+          "change": "N/A",
+          "changePercent": "-5.00%",
+          "direction": "down"
         }
       ]
     },
@@ -143,74 +126,60 @@
       "layout": "list",
       "items": [
         {
-          "id": "ai-disruption",
-          "headline": "AI Disruption Fears Continue to Pressure Tech and Financial Sectors",
-          "summary": "Concerns over the disruptive potential of artificial intelligence continue to weigh heavily on market sentiment, particularly impacting software, real estate, and financial services companies. Investors are rotating out of tech stocks due to worries about overstretched AI valuations and the sustainability of the AI trade.",
+          "id": "sector-performance-overview",
+          "headline": "Mixed Sector Performance: IT and PSU Banks Lead, Metals and Realty Lag",
+          "summary": "Today's market saw a divergence in sector performance. In India, PSU Bank surged 2.36%, followed by IT (1.15%), Industrials (1.13%), and FMCG (0.87%). Conversely, the Metal and Realty sectors were among the primary laggards, grappling with a softening global demand outlook and elevated interest rates.",
           "tags": [
-            "AI",
-            "Technology",
-            "Sector Rotation",
-            "Financials"
-          ]
+            "Sector Analysis",
+            "Indian Market",
+            "Global Trends"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         },
         {
-          "id": "economic-data-cpi",
-          "headline": "Soft January CPI Data Released",
-          "summary": "The Department of Labor reported that the Consumer Price Index (CPI) rose 0.2% month-over-month in January, below the consensus estimate of 0.3%. The year-over-year headline CPI was up 2.4%. Core CPI, excluding volatile food and energy, increased 0.3% month-over-month and 2.5% year-over-year. This softer inflation data, however, did not significantly boost market enthusiasm.",
+          "id": "economic-inflation-report",
+          "headline": "Inflation Ticks Down in Canada and U.S.",
+          "summary": "Canada's annual inflation rate eased to 2.3% in January, down from 2.4% in December, largely attributed to lower gas prices and easing shelter costs. In the U.S., the consumer price index (CPI) rose 0.2% month-over-month in January, below the 0.3% consensus estimate, with the year-over-year headline CPI at 2.4%.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "CPI"
-          ]
+            "Canada",
+            "United States"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         },
         {
-          "id": "earnings-medtronic",
-          "headline": "Medtronic Reports Strong Q3 Fiscal 2026 Results",
-          "summary": "Medtronic plc ($MDT) announced robust financial results for its third quarter of fiscal year 2026. The company reported revenue of $9.0 billion, an increase of 8.7% as reported, and non-GAAP diluted earnings per share of $1.36, exceeding guidance. The cardiovascular portfolio saw an 11% year-over-year increase, with Cardiac Ablation Solutions growing 80%.",
+          "id": "earnings-medtronic-leidos",
+          "headline": "Medtronic and Leidos Report Strong Earnings",
+          "summary": "Medtronic ($MDT) announced robust third-quarter fiscal 2026 results, achieving 6% organic revenue growth, surpassing its guidance. Leidos ($LDOS) also exceeded expectations with fourth-quarter earnings of $2.76 per share, beating the Zacks Consensus Estimate. Other companies scheduled to report earnings today include Axcelis Technologies ($ACLS) and Cadence Design ($CDNS).",
           "tags": [
-            "Earnings",
+            "Earnings Report",
             "Healthcare",
-            "$MDT"
-          ]
+            "Technology"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         },
         {
-          "id": "earnings-genuineparts",
-          "headline": "Genuine Parts Company Releases Q4 and Full-Year 2025 Earnings",
-          "summary": "Genuine Parts Company ($GPC) reported its results for the fourth quarter and full year ended December 31, 2025. The company posted adjusted net income of $216 million, or $1.55 per diluted earnings per share.",
+          "id": "macro-ai-disruption",
+          "headline": "AI Disruption Fears Continue to Shape Market Sentiment",
+          "summary": "Artificial intelligence-related disruption fears continue to impact market sentiment, especially weighing on tech and financial stocks. Some sectors like software, financial services, and media have experienced sell-offs as investors assess potential losers in an AI-remade world.",
           "tags": [
-            "Earnings",
-            "Automotive",
-            "Industrial",
-            "$GPC"
-          ]
+            "Macro Trends",
+            "Artificial Intelligence",
+            "Market Risk"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         },
         {
-          "id": "earnings-hercholdings",
-          "headline": "Herc Holdings Beats Q4 Earnings Estimates",
-          "summary": "Herc Holdings ($HRI) announced fourth-quarter earnings that surpassed analyst estimates, delivering an earnings surprise of +12.70%.",
+          "id": "global-lunar-new-year",
+          "headline": "Asian Markets Closed for Lunar New Year",
+          "summary": "Most Asian markets were closed today in observance of the Lunar New Year holidays, leading to a quieter trading day in the region. China is looking to boost domestic consumption during this festive period.",
           "tags": [
-            "Earnings",
-            "Equipment Rental",
-            "$HRI"
-          ]
-        },
-        {
-          "id": "upcoming-economic-data",
-          "headline": "Key Economic Reports Awaited This Week",
-          "summary": "Investors are looking ahead to several key economic data releases this week, including delayed NAHB housing data for November and December, the Personal Consumption Expenditures (PCE) index for December, retail sales, FOMC Minutes, the ADP Employment report, and initial jobless claims.",
-          "tags": [
-            "Economic Calendar",
-            "Fed Policy"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions",
-          "headline": "US-Iran Talks Resume Amid Heightened Geopolitical Uncertainty",
-          "summary": "High-stakes nuclear negotiations between the United States and Iran resumed today in Geneva, contributing to a cautious trading environment. The talks are taking place against a backdrop of an Iranian military drill and a significant U.S. naval buildup, raising geopolitical risks.",
-          "tags": [
-            "Geopolitics",
-            "International Relations"
-          ]
+            "Global Markets",
+            "Asia",
+            "Holiday Impact"
+          ],
+          "timestamp": "2026-02-17T17:01:00Z"
         }
       ]
     }
