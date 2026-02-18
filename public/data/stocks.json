@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-18T07:49:00Z",
+  "generatedAt": "2026-02-18T12:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 18, 2026",
-  "subtitle": "A professional overview of today's market performance and key financial news.",
+  "title": "Daily Market Digest",
+  "subtitle": "Wednesday, February 18, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,170 +13,185 @@
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "U.S. Stocks Trade Mixed Amid AI Concerns and Apple's Rebound",
-          "summary": "U.S. equities saw a mixed performance today, with major indices recovering from early losses. While concerns over artificial intelligence spending continued to weigh on some tech stocks, a significant jump in Apple's share price and a rally in airline stocks provided a boost to the broader market. Economic data for the day was mixed, contributing to cautious sentiment. Not financial advice.",
+          "id": "market-summary-feb18",
+          "headline": "U.S. Stocks Edge Higher Amid Cautious Optimism; Futures Climb Pre-Market",
+          "summary": "U.S. stock markets closed slightly higher on Tuesday, February 17, with all three major indices posting modest gains despite underlying swings and lingering concerns about artificial intelligence's impact on tech. Pre-market trading for Wednesday, February 18, shows futures advancing, suggesting a positive open. Overall market sentiment reflects cautious optimism, driven by a mix of economic data, geopolitical events, and upcoming central bank signals. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "AI",
-            "Tech",
-            "Economic Data"
-          ],
-          "timestamp": "2026-02-18T16:00:00Z"
+            "Market Overview",
+            "Sentiment",
+            "AI"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices (February 17, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
           "statValue": "6,843.22",
-          "statContext": "+0.10% (+7.05 points)"
+          "statContext": "+0.1% (⬆️ 7.05 points)"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "49,553.19",
-          "statContext": "+0.10% (+32.26 points)"
-        },
-        {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,578.38",
-          "statContext": "+0.10% (+31.71 points)"
+          "statContext": "+0.1% (⬆️ 31.71 points)"
+        },
+        {
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,553.19",
+          "statContext": "+0.1% (⬆️ 32.26 points)"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 E-mini Futures (Pre-market)",
+          "statValue": "+0.5%",
+          "statContext": "⬆️"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures (Pre-market)",
+          "statValue": "+0.6%",
+          "statContext": "⬆️"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures (Pre-market)",
+          "statValue": "+0.4%",
+          "statContext": "⬆️"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (February 17-18, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "aapl-gainer",
-          "headline": "Apple (AAPL) Jumps on Product Launch Announcement",
-          "ticker": "$AAPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.00%",
-          "direction": "up",
-          "summary": "Apple shares surged after the company announced plans for a product launch on March 4, with several new devices expected in the coming weeks."
-        },
-        {
-          "id": "para-gainer",
-          "headline": "Paramount (PARA) Rises on Acquisition Bid News",
+          "id": "paramount",
+          "headline": "Paramount Skydance surges on Warner Bros. bid prospects",
           "ticker": "$PARA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.90%",
+          "changePercent": "+4.9%",
           "direction": "up",
-          "summary": "Paramount Global (formerly Paramount Skydance) saw its stock climb after Warner Bros. Discovery indicated it would consider Paramount's 'best and final' bid to acquire the entertainment company."
+          "summary": "Paramount Skydance gained significantly after Warner Bros. Discovery announced it would allow Paramount a chance to submit its 'best and final' bid to acquire the entertainment company."
         },
         {
-          "id": "jpm-gainer",
-          "headline": "JPMorgan Chase (JPM) Among Financial Outperformers",
-          "ticker": "$JPM",
+          "id": "apple",
+          "headline": "Apple sees gains among AI leaders",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.50%",
+          "changePercent": "+3.2%",
           "direction": "up",
-          "summary": "Financials outperformed today, with JPMorgan Chase showing strength following comments from a Federal Reserve Governor regarding interest rates."
+          "summary": "Apple benefited from selective positioning within AI leaders, contributing to its rise."
         },
         {
-          "id": "gis-loser",
-          "headline": "General Mills (GIS) Sinks on Lowered Guidance",
+          "id": "citigroup",
+          "headline": "Citigroup outperforms as financials show resilience",
+          "ticker": "$C",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.7%",
+          "direction": "up",
+          "summary": "Citigroup's stock rose as the financial sector outperformed, reinforced by expectations for resilient net interest margins following comments from Fed Governor Michael Barr."
+        },
+        {
+          "id": "general-mills",
+          "headline": "General Mills tumbles on uneasy customer outlook",
           "ticker": "$GIS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.00%",
+          "changePercent": "-7.0%",
           "direction": "down",
-          "summary": "General Mills shares fell significantly after the company lowered its full-year organic net sales forecast, citing unease among consumers."
+          "summary": "General Mills' stock sank after the company warned that its customers are feeling uneasy, leading to a cut in its profit forecast for 2026."
         },
         {
-          "id": "vmc-loser",
-          "headline": "Vulcan Materials (VMC) Drops on Ebitda Forecast Miss",
-          "ticker": "$VMC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.00%",
-          "direction": "down",
-          "summary": "Vulcan Materials experienced a notable decline after forecasting full-year adjusted Ebitda below analyst consensus."
-        },
-        {
-          "id": "gpc-loser",
-          "headline": "Genuine Parts (GPC) Plunges Amid Weak Results and Split Plans",
+          "id": "genuine-parts",
+          "headline": "Genuine Parts drops on weaker results and planned split",
           "ticker": "$GPC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14.60%",
+          "changePercent": "-14.6%",
           "direction": "down",
-          "summary": "Genuine Parts' stock dropped after reporting weaker-than-expected quarterly results and announcing plans to split into two separate publicly traded companies by early 2027."
+          "summary": "Genuine Parts reported weaker results for the latest quarter than analysts expected and plans to split into two separate publicly traded companies by early 2027."
+        },
+        {
+          "id": "salesforce",
+          "headline": "Salesforce declines amid rotation out of software stocks",
+          "ticker": "$CRM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.9%",
+          "direction": "down",
+          "summary": "Investors continued to rotate out of richly valued software stocks, causing Salesforce's share price to fall."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-1",
-          "headline": "Sector Rotation: Industrials, Energy, Materials Leading as Tech Lags",
-          "summary": "Throughout February 2026, 'tangible sectors' like Industrials ($XLI), Energy ($XLE), and Materials ($XLB) have shown strong leadership, with Staples also outperforming. Conversely, Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) have generally been lagging. However, financials did see some outperformance today. Not financial advice.",
+          "id": "sector-analysis",
+          "headline": "Sector Performance: Utilities, Real Estate Lead; Tech, Financials Lag",
+          "summary": "On Tuesday, the Utilities Select Sector SPDR ($XLU) advanced 2.8%, the Real Estate Select Sector SPDR ($XLRE) gained 1.5%, and the Health Care Select Sector SPDR ($XLV) rose 1.1%. The Materials Select Sector SPDR ($XLB) also saw a 0.9% increase. Conversely, the technology and financials sectors continue to lag, with a notable rotation towards energy, materials, and industrials. AI disruption fears persist, particularly affecting software stocks, with companies like CrowdStrike ($CRWD) and ServiceNow ($NOW) experiencing declines. Not financial advice.",
           "tags": [
             "Sector Analysis",
-            "Industrials",
-            "Energy",
-            "Materials",
             "Technology",
-            "Financials"
+            "Financials",
+            "Utilities",
+            "Real Estate"
           ]
         },
         {
-          "id": "mn-2",
-          "headline": "Fed Officials Offer Mixed Signals on Interest Rate Outlook",
-          "summary": "Chicago Fed President Austan Goolsbee suggested further rate cuts are possible if inflation trends towards the 2% target, while Fed Governor Michael Barr indicated that rates may need to remain steady for some time. The Federal Open Market Committee (FOMC) minutes are a key focus for investors seeking clarity on future monetary policy.",
+          "id": "fomc-minutes",
+          "headline": "FOMC Minutes Release Eyed by Investors for Rate Clues",
+          "summary": "The minutes from the Federal Reserve's January meeting are scheduled for release today, February 18, 2026. Traders are closely watching these minutes for clearer guidance on the trajectory of interest rates and to assess policymakers' leanings on future rate cuts or sustained restrictive policy. Not financial advice.",
           "tags": [
+            "Economic News",
             "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Economic Policy"
+            "Interest Rates"
           ]
         },
         {
-          "id": "mn-3",
-          "headline": "Economic Data Mixed: Housing Weakens, Manufacturing Holds Steady",
-          "summary": "U.S. economic data released today presented a mixed picture. The February NAHB housing market index unexpectedly declined to a five-month low of 36. In contrast, the February Empire manufacturing general business conditions survey fell by a smaller margin than anticipated, to 7.1.",
+          "id": "economic-data",
+          "headline": "Key Economic Data Releases: Housing, Durable Goods",
+          "summary": "Today's economic calendar includes the release of data on New Residential Construction (Building Permits, Housing Starts) and Durable Goods Orders. These figures will provide further insights into the health of the U.S. economy. Additionally, the U.S. 10-year Treasury yield is near 4.07%, while WTI crude oil futures are trending higher around $62.61 per barrel. Not financial advice.",
           "tags": [
-            "Economic Data",
-            "Housing Market",
+            "Economic News",
+            "Housing",
             "Manufacturing"
           ]
         },
         {
-          "id": "mn-4",
-          "headline": "Key Earnings Reports: iA Financial, DoorDash, and Palo Alto Networks in Focus",
-          "summary": "iA Financial ($IAG) held its Q4 2025 earnings call today. Other companies with anticipated earnings reports included DoorDash ($DASH), Lloyd's, Moody's, and ADI. Palo Alto Networks ($PANW) reported earnings above expectations but saw volatility in after-hours trading. Republic Services ($RSG) and Cadence Design Systems ($CDNS) also reported earnings above expectations.",
+          "id": "earnings-reports",
+          "headline": "Major Companies Report Earnings: Moody's, Dana, Openlane",
+          "summary": "Moody's Corporation ($MCO) and Dana Incorporated ($DAN) announced their fourth-quarter and full-year 2025 financial results today. Openlane ($OPLN) also posted its quarterly earnings. Other companies expected to release results today include Booking Holdings ($BKNG), Occidental Petroleum ($OXY), Analog Devices ($ADI), Carvana ($CVNA), Garmin Ltd. ($GRMN), and Bausch Health Companies Inc. ($BHC). Not financial advice.",
           "tags": [
-            "Earnings Reports",
-            "Corporate News"
+            "Economic News",
+            "Earnings Reports"
           ]
         },
         {
-          "id": "mn-5",
-          "headline": "AI Investment Scrutiny Continues to Impact Tech Sector",
-          "summary": "Concerns persist regarding the return on investment from significant capital spending on artificial intelligence, impacting investor sentiment towards some technology companies. This ongoing scrutiny has contributed to the mixed performance seen in the tech sector. Not financial advice.",
+          "id": "ai-impact-news",
+          "headline": "AI Dominates Industry News: Chip Shortages, Autonomous Driving, Cybersecurity",
+          "summary": "The ongoing boom in artificial intelligence continues to shape industry news. Reports suggest that the launch of Sony's PlayStation 6 may be delayed due to a shortage of memory chips, exacerbated by the demand from AI data centers. Meanwhile, Continental is set to open the Tire Technology Expo with a presentation on tire technologies specifically for autonomous driving, highlighting the integration of AI in automotive advancements. In cybersecurity, fears of AI impacting existing business models continue to weigh on software stocks. Not financial advice.",
           "tags": [
+            "Industry News",
             "AI",
-            "Technology Sector",
-            "Investment Trends"
+            "Technology",
+            "Automotive"
           ]
         }
       ]
