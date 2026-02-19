@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-19T07:48:00Z",
+  "generatedAt": "2026-02-19T12:39:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for February 19, 2026",
+  "subtitle": "February 19, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,109 +13,153 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb19",
-          "headline": "U.S. Stocks Edge Higher, Led by AI Optimism and Strong Earnings",
-          "summary": "The U.S. stock market advanced on Wednesday, February 19, 2026, driven by a rally in technology shares, particularly those involved in artificial intelligence. Major indices recorded gains, with Nvidia leading the charge following a significant AI partnership announcement. Overall market sentiment reflected cautious optimism, although investors continued to weigh concerns about AI spending and the Federal Reserve's interest rate outlook. Several positive earnings reports also contributed to the upward momentum.",
+          "id": "overall-summary",
+          "headline": "U.S. Stocks Edge Higher, Led by AI Enthusiasm and Strong Earnings",
+          "summary": "The U.S. stock market saw a positive close on Wednesday, primarily driven by strong performance in technology shares, particularly those related to artificial intelligence. Major indices posted gains, reflecting cautious optimism despite ongoing discussions about the Federal Reserve's interest rate path and some lingering concerns regarding AI investments. Pre-market indicators for Thursday suggest a continued upward trend.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
             "AI",
-            "Earnings"
-          ],
-          "timestamp": "2026-02-19T07:48:00Z"
+            "Tech"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (Wednesday, Feb 18)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-perf",
           "statLabel": "S&P 500",
           "statValue": "6,881.31",
-          "statContext": "Up 0.6% on February 19, 2026."
+          "statContext": "+0.56% (+38.09 points)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-perf",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,753.63",
-          "statContext": "Gained 0.8% on February 19, 2026."
+          "statContext": "+0.78% (+175.25 points)"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-perf",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "49,662.66",
-          "statContext": "Added 129 points (0.3%) on February 19, 2026."
+          "statContext": "+0.26% (+129.47 points)"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Pre-market Thursday)",
+          "statValue": "Up",
+          "statContext": "+0.2%"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "Nasdaq 100 Futures (Pre-market Thursday)",
+          "statValue": "Up",
+          "statContext": "+0.3%"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures (Pre-market Thursday)",
+          "statValue": "Up",
+          "statContext": "+0.1%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Wednesday, Feb 18)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "nvda-gainer",
-          "headline": "Nvidia Rises on Meta AI Partnership",
-          "summary": "Nvidia climbed 1.6% after Meta Platforms announced a long-term partnership to utilize millions of Nvidia's chips for its artificial-intelligence data centers.",
+          "headline": "Nvidia Rises on Meta Partnership",
+          "summary": "Nvidia ($NVDA) climbed 1.6% after Meta Platforms announced a multi-year partnership to utilize millions of Nvidia's AI chips and other equipment for its data centers.",
           "ticker": "$NVDA",
           "price": "N/A",
-          "change": "+1.6%",
-          "changePercent": "+1.60%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+1.6%",
+          "direction": "up",
+          "tags": [
+            "AI",
+            "Tech",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "mu-gainer",
+          "headline": "Micron Surges on Increased Institutional Stake",
+          "summary": "Micron ($MU) surged over 5% following disclosures that a large institutional investor (Appaloosa Management) boosted its position.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.3%",
+          "direction": "up",
+          "tags": [
+            "Semiconductors",
+            "Institutional Investment"
+          ]
+        },
+        {
+          "id": "amzn-gainer",
+          "headline": "Amazon Gains on Pershing Square Stake Increase",
+          "summary": "Amazon ($AMZN) rose nearly 2% after regulatory filings revealed Pershing Square increased its stake by 65% in the fourth quarter, making it the fund's third-largest holding.",
+          "ticker": "$AMZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.8%",
+          "direction": "up",
+          "tags": [
+            "Tech",
+            "E-commerce",
+            "Institutional Investment"
+          ]
         },
         {
           "id": "cadence-gainer",
-          "headline": "Cadence Design Systems Jumps on Earnings Beat",
-          "summary": "Cadence Design Systems surged 7.6% after reporting profit and revenue for its latest quarter that exceeded analysts' expectations.",
-          "ticker": "$CDNS",
+          "headline": "Cadence Design Systems Beats Earnings Estimates",
+          "summary": "Cadence Design Systems ($CDN-US) climbed 7.6% after reporting profit and revenue for the latest quarter that exceeded analysts' expectations.",
+          "ticker": "$CDN-US",
           "price": "N/A",
-          "change": "+7.6%",
-          "changePercent": "+7.60%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+7.6%",
+          "direction": "up",
+          "tags": [
+            "Software",
+            "Earnings"
+          ]
         },
         {
-          "id": "micron-gainer",
-          "headline": "Micron Surges on Investment Plans and Hedge Fund Stake",
-          "summary": "Micron Technology ($MU) gained 5.3% amidst plans to invest $200 billion to increase memory production and reports of Appaloosa Management boosting its stake.",
-          "ticker": "$MU",
+          "id": "dash-gainer",
+          "headline": "DoorDash Jumps on Strong Operating Metrics",
+          "summary": "DoorDash ($DASH) surged over 10% as investors focused on robust operating metrics, including a 32% rise in total orders and a 39% climb in gross order value, despite minor misses on revenue and EPS.",
+          "ticker": "$DASH",
           "price": "N/A",
-          "change": "+5.3%",
-          "changePercent": "+5.30%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+10%",
+          "direction": "up",
+          "tags": [
+            "Gig Economy",
+            "Delivery",
+            "Earnings"
+          ]
         },
         {
-          "id": "amazon-gainer",
-          "headline": "Amazon Outperforms Following Increased Stake by Pershing Square",
-          "summary": "Amazon ($AMZN) rose 1.8% after regulatory filings revealed Pershing Square had significantly increased its stake in the e-commerce giant during the fourth quarter.",
-          "ticker": "$AMZN",
-          "price": "N/A",
-          "change": "+1.8%",
-          "changePercent": "+1.80%",
-          "direction": "up"
-        },
-        {
-          "id": "paloalto-loser",
-          "headline": "Palo Alto Networks Drops on Reduced Profit Forecast",
-          "summary": "Palo Alto Networks saw its shares decline after the company trimmed its annual profit forecast.",
+          "id": "panw-loser",
+          "headline": "Palo Alto Networks Falls on Trimmed Profit Outlook",
+          "summary": "Palo Alto Networks dropped after cutting its full-year profit outlook.",
           "ticker": "$PANW",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "N/A",
-          "direction": "down"
-        },
-        {
-          "id": "amd-loser",
-          "headline": "AMD Slips Amidst Sector Competition",
-          "summary": "Advanced Micro Devices ($AMD) fell 1.5% as its rival Nvidia led gains in the chip sector.",
-          "ticker": "$AMD",
-          "price": "N/A",
-          "change": "-1.5%",
-          "changePercent": "-1.50%",
-          "direction": "down"
+          "direction": "down",
+          "tags": [
+            "Cybersecurity",
+            "Earnings"
+          ]
         }
       ]
     },
@@ -126,42 +170,54 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-ai-focus",
-          "headline": "Technology Sector Leads, Driven by AI Development",
-          "summary": "The technology sector, particularly companies involved in artificial intelligence, led the market higher. Investors are increasingly focused on the upside of AI development, although concerns persist regarding the significant spending by companies like Meta on AI infrastructure and the potential for AI to disrupt other industries. Energy and financial stocks also ranked among leading sector gainers.",
+          "id": "sector-analysis-ai-tech",
+          "headline": "Technology and AI Drive Market Gains, but Defensive Sectors Also Show Strength",
+          "summary": "The technology sector, fueled by AI-related advancements and strong performances from companies like Nvidia and Amazon, led market gains. The S&P 500 software and services sector rebounded, supported by positive earnings. However, a defensive rotation is also evident, with sectors like Energy ($XLE), Materials ($XLB), Healthcare ($XLV), Consumer Staples ($XLP), Industrials ($XLI), Utilities ($XLU), and Real Estate ($XLRE) showing strength, indicating investor caution amid broader market uncertainties. Conversely, Technology ($XLK), Consumer Discretionary ($XLY), and Communication Services ($XLC) were noted as lagging.",
           "tags": [
             "Sector Analysis",
+            "AI",
             "Technology",
-            "AI"
+            "Defensive Sectors"
           ]
         },
         {
           "id": "fed-minutes",
-          "headline": "Fed Minutes Show Division on Future Rate Path",
-          "summary": "Minutes from the Federal Reserve's January meeting revealed that officials were in nearly unanimous agreement to hold interest rates steady, but remained split on future actions. While traders slightly pared bets on rate cuts, expectations still point to two 25 basis-point reductions in 2026.",
+          "headline": "Fed Minutes Reveal Steady Rate Stance, Division on Future Path",
+          "summary": "Minutes from the Federal Reserve's January meeting showed broad support for maintaining current interest rates (3.5%-3.75%). However, policymakers remained divided on the future trajectory, with some open to further rate hikes if inflationary pressures persist. Markets are currently pricing in approximately a 50% chance of a rate cut by June.",
           "tags": [
-            "Economic News",
             "Federal Reserve",
-            "Interest Rates"
+            "Interest Rates",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "earnings-reports-feb19",
-          "headline": "Key Earnings Reports from Walmart, Southern Co., and Quanta Services",
-          "summary": "Major companies reporting earnings before market open on February 19, 2026, included Walmart Inc. ($WMT), Southern Company ($SO), and Quanta Services, Inc. ($PWR). Walmart's consensus EPS forecast was $0.73, up 10.61% year-over-year. Southern Company was projected to report EPS of $0.56, an increase of 12.00% year-over-year, and Quanta Services with an anticipated EPS of $2.77, up 1.09% year-over-year. eBay also announced a beat on both earnings and revenue.",
+          "id": "economic-data",
+          "headline": "Better-Than-Expected Economic Data Signals Continued Strength",
+          "summary": "Recent economic reports indicated stronger-than-expected performance, with industrial production improving last month and orders for durable manufactured goods (excluding airplanes) rising more than anticipated in December. Additionally, homebuilders broke ground on more new homes than forecasted in December. These positive indicators contributed to a rise in Treasury yields.",
           "tags": [
-            "Economic News",
-            "Earnings"
+            "Economic Data",
+            "Industrial Production",
+            "Housing"
           ]
         },
         {
-          "id": "macro-trends",
-          "headline": "Macro Trends: Oil Prices Rise, Global Economic Data Strong",
-          "summary": "Oil prices experienced a significant rally amidst heightened concerns about US-Iran tensions. Concurrently, robust jobs data from Australia and a decline in UK inflation contributed to a positive global economic backdrop. Japan's exports also surged, primarily driven by strong demand for AI chips.",
+          "id": "earnings-walmart",
+          "headline": "Walmart Earnings in Focus Amid Consumer Spending Scrutiny",
+          "summary": "Walmart ($WMT) is scheduled to report earnings today (February 19), with investors closely watching for insights into consumer spending trends and any commentary regarding the company's AI initiatives. Other companies like Southern Co. ($SO), Quanta Services Inc. ($PWR), and Teck Resources Ltd. ($TECK) are also reporting earnings pre-market.",
           "tags": [
-            "Economic News",
-            "Macro Trends",
-            "Commodities"
+            "Earnings",
+            "Retail",
+            "Consumer Spending"
+          ]
+        },
+        {
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions Drive Oil Prices Higher",
+          "summary": "Oil prices surged over 4% on Wednesday and continued to climb on Thursday due to heightened geopolitical tensions in the Middle East, specifically concerns about supply risks in the Strait of Hormuz. Brent crude and West Texas Intermediate (WTI) crude saw notable increases.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Geopolitics"
           ]
         }
       ]
