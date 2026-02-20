@@ -1,191 +1,154 @@
 {
-  "generatedAt": "2026-02-20T12:35:00Z",
+  "generatedAt": "2026-02-20T16:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 20, 2026",
-  "subtitle": "Mixed Sentiment as Indices Drift, Geopolitical Tensions Persist, and Key Economic Data Awaited",
-  "badge": "Mid-day Update",
+  "title": "Daily Market Digest",
+  "subtitle": "February 20, 2026 Market Summary",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb2026",
-          "headline": "U.S. Futures Climb Ahead of Inflation Data; Global Markets Show Mixed Performance Amid Geopolitical Concerns",
-          "summary": "U.S. stock futures advanced early Friday as investors anticipated key Personal Consumption Expenditures (PCE) index data. This follows a downturn in major U.S. indices on Thursday, driven by ongoing geopolitical tensions between the United States and Iran, alongside concerns in the private credit market. Meanwhile, Indian equities experienced a rebound, and European markets opened higher, indicating a divergence in global sentiment.",
+          "id": "market-summary-feb20",
+          "headline": "U.S. Stocks Retreat Amid Private Credit Concerns, Geopolitical Tensions, and Mixed Economic Data",
+          "summary": "U.S. stock markets closed lower today, reversing recent gains as investors reacted to concerns regarding private credit providers and ongoing geopolitical tensions between the United States and Iran. Mixed economic data, including slower-than-expected GDP growth and elevated inflation, also weighed on sentiment, leading to a 'risk-off' environment.",
           "tags": [
-            "Market Overview",
-            "Global",
-            "Economic Data",
+            "Market Sentiment",
+            "Economy",
             "Geopolitics"
-          ]
+          ],
+          "timestamp": "2026-02-20T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500 (Thursday Close)",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "6,861.89",
           "statContext": "Down 0.2%"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite (Thursday Close)",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
           "statValue": "22,682.73",
           "statContext": "Down 0.3%"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average (Thursday Close)",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,395.16",
-          "statContext": "Down 0.5% (267.50 points)"
-        },
-        {
-          "id": "us-futures-friday",
-          "statLabel": "U.S. Stock Futures (Friday Morning)",
-          "statValue": "Mixed Up",
-          "statContext": "S&P 500 futures +0.24%, Nasdaq 100 futures +0.35%, Dow futures +0.16% at 5:29 a.m. EST."
+          "statContext": "Down 0.5%"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "open-gainer",
-          "headline": "Opendoor Technologies",
-          "ticker": "$OPEN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14%",
-          "direction": "up",
-          "summary": "Shares surged after Q4 revenue and adjusted EBITDA exceeded expectations, with the company highlighting progress in its turnaround strategy."
-        },
-        {
-          "id": "de-gainer",
-          "headline": "Deere & Co.",
+          "id": "deere-gainer",
+          "headline": "Deere & Co. ($DE) Surges on Strong Outlook",
+          "summary": "Deere & Co. ($DE) jumped 11.6% after raising its full-year profit outlook, signaling robust performance ahead.",
           "ticker": "$DE",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+11.6%",
-          "direction": "up",
-          "summary": "The agricultural equipment manufacturer's stock jumped following strong first-quarter fiscal 2026 adjusted earnings results."
+          "direction": "up"
         },
         {
           "id": "etsy-gainer",
-          "headline": "Etsy Inc.",
+          "headline": "Etsy Inc. ($ETSY) Climbs on Q4 Earnings Beat",
+          "summary": "Etsy Inc. ($ETSY) climbed 9.3% after reporting stronger-than-expected adjusted earnings for the fourth quarter of 2025.",
           "ticker": "$ETSY",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+9.3%",
-          "direction": "up",
-          "summary": "The e-commerce platform saw its shares climb after reporting adjusted earnings of $0.92 per share for Q4 2025, surpassing analyst estimates."
+          "direction": "up"
         },
         {
-          "id": "epam-loser",
-          "headline": "EPAM Systems",
+          "id": "epm-loser",
+          "headline": "EPAM Systems ($EPAM) Tumbles on Cautious Guidance",
+          "summary": "EPAM Systems ($EPAM) slumped 17% today after issuing cautious guidance for the upcoming period, disappointing investors.",
           "ticker": "$EPAM",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-17%",
-          "direction": "down",
-          "summary": "The IT services company's stock slumped after issuing cautious guidance."
+          "direction": "down"
         },
         {
-          "id": "carvana-loser",
-          "headline": "Carvana",
-          "ticker": "$CVNA",
+          "id": "akam-loser",
+          "headline": "Akamai Technologies ($AKAM) Drops on Weak Profit Forecast",
+          "summary": "Akamai Technologies ($AKAM) saw a 10.2% decline after its profit forecast for the upcoming year fell short of analyst estimates.",
+          "ticker": "$AKAM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8%",
-          "direction": "down",
-          "summary": "Shares declined as the online used car retailer missed analyst estimates in its latest earnings report."
-        },
-        {
-          "id": "evrg-loser",
-          "headline": "Evergy Inc.",
-          "ticker": "$EVRG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.1%",
-          "direction": "down",
-          "summary": "The utility company's stock fell after its Q4 2025 adjusted earnings of $0.42 per share missed consensus estimates."
+          "changePercent": "-10.2%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-feb20",
-          "headline": "Energy and Technology Lead U.S. Sectors; Utilities and Real Estate Lag",
-          "summary": "On Friday, the Energy Select Sector SPDR ($XLE) saw a 1.9% rise, while the Technology Select Sector SPDR ($XLK) gained 1%. Conversely, the Utilities Select Sector SPDR ($XLU) fell 1.7%, and the Real Estate Select Sector SPDR ($XLRE) was down 1.3%. This indicates a mixed performance with some cyclical sectors showing strength.",
+          "id": "economic-gdp-inflation",
+          "headline": "U.S. GDP Growth Slows, Inflation Accelerates in Q4 2025",
+          "summary": "The U.S. economy's Gross Domestic Product (GDP) increased at a slower-than-expected 1.4% annual rate in the fourth quarter of 2025, down significantly from 4.4% in the third quarter. This slowdown was attributed to a downturn in government and consumer spending. Simultaneously, the Personal Consumption Expenditures (PCE) price index rose 2.9% year-over-year in December, with core PCE hitting 3.0%, surpassing the Federal Reserve's 2% target.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Technology",
-            "Utilities",
-            "Real Estate"
-          ]
-        },
-        {
-          "id": "sector-rotation-trend",
-          "headline": "Rotation from Tech to 'Tangible' Sectors Continues Broadly",
-          "summary": "A broader trend of rotation from technology to more 'tangible' sectors like Industrials, Energy, and Materials has been observed year-to-date, with these sectors leading the pack. However, daily movements can show temporary divergence, as seen with Technology's gain today. Consumer Staples are also experiencing a strong rally, potentially indicating a defensive shift in the market.",
-          "tags": [
-            "Sector Rotation",
-            "Technology",
-            "Industrials",
-            "Materials",
-            "Consumer Staples"
-          ]
-        },
-        {
-          "id": "economic-data-us",
-          "headline": "U.S. Jobless Claims Fall, Trade Deficit Widens; Key Inflation and GDP Data Pending",
-          "summary": "Initial jobless claims for the week ended February 14 decreased by 23,000 to 206,000, outperforming estimates. However, continuing claims rose by 17,000 to 1.869 million for the week ended February 7. The U.S. trade deficit expanded to $70.3 billion in December, exceeding expectations. Markets are now awaiting the release of the fourth-quarter GDP advance estimate and December PCE inflation data later today.",
-          "tags": [
-            "Economic Data",
-            "U.S. Economy",
-            "Jobless Claims",
-            "Trade Deficit",
+            "Economy",
+            "GDP",
             "Inflation"
           ]
         },
         {
-          "id": "geopolitical-tensions",
-          "headline": "U.S.-Iran Tensions Continue to Fuel Market Uncertainty and Oil Price Surge",
-          "summary": "Heightened geopolitical tensions between the United States and Iran remain a significant factor influencing global markets. Concerns over a potential escalation are contributing to a substantial rise in oil prices, with crude oil futures tracking for a weekly gain of over 5%.",
+          "id": "fed-rate-hikes-possibility",
+          "headline": "Fed Minutes Hint at Potential Rate Hikes Amid Persistent Inflation",
+          "summary": "Minutes from the Federal Reserve's January meeting, released this week, revealed that several officials discussed the possibility of raising interest rates if inflation remains above the target level. This hawkish sentiment comes despite extended forecasts for rate cuts potentially capping gains across U.S. indices.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Global Markets"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "eurozone-uk-pmi",
-          "headline": "Eurozone and UK Business Activity Accelerates in February",
-          "summary": "Business activity in the eurozone accelerated in February, with the HCOB Flash Eurozone Purchasing Managers' Index (PMI) rising to 51.9, indicating growth. Similarly, both the services and manufacturing sectors in the UK showed stronger-than-expected growth in February, with the flash UK composite output index reaching a 22-month high of 53.9 points.",
+          "id": "sector-rotation-away-from-tech",
+          "headline": "Significant Sector Rotation Underway Towards 'Real Economy' Stocks",
+          "summary": "A notable sector rotation is continuing, with industrial, consumer defensive, and energy stocks leading the market higher. These 'real economy' sectors are outperforming technology, communication services, consumer cyclicals, and financials, as investors look beyond AI-driven returns for stability and growth. The Energy Select Sector SPDR (XLE) rose 1.9%, and the Technology Select Sector SPDR (XLK) rose 1%. Conversely, the Utilities Select Sector SPDR (XLU) fell 1.7%, and Real Estate Select Sector SPDR (XLRE) fell 1.3%.",
           "tags": [
-            "Economic Data",
-            "Eurozone",
-            "UK",
-            "PMI"
+            "Sector Analysis",
+            "Market Rotation",
+            "Industrials",
+            "Energy"
+          ]
+        },
+        {
+          "id": "geopolitical-oil-tensions",
+          "headline": "U.S.-Iran Tensions Drive Oil to Six-Month High",
+          "summary": "Geopolitical tensions between the United States and Iran have intensified, pushing Brent crude oil towards $72 a barrel, marking a six-month high. This rise in oil prices contributes to inflation concerns and adds to the risk-off sentiment in the markets."
+        },
+        {
+          "id": "supreme-court-tariffs",
+          "headline": "Supreme Court Strikes Down Trump-Era Tariffs",
+          "summary": "The U.S. Supreme Court struck down President Donald Trump's sweeping tariffs, which had previously caused market panic. This decision is expected to reduce the overall average effective tariff rate for consumers.",
+          "tags": [
+            "Trade",
+            "Policy",
+            "Supreme Court"
           ]
         }
       ]
