@@ -1,208 +1,195 @@
 {
-  "generatedAt": "2026-02-21T17:00:00Z",
+  "generatedAt": "2026-02-21T16:34:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, February 21, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market insights for Friday, February 20, 2026",
+  "badge": "Updated Today",
   "sections": [
     {
-      "id": "market-pulse-20260221",
+      "id": "market-pulse-20260220",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "U.S. Equities Show Resilience; Tech Leads Gains",
-          "summary": "The U.S. stock market demonstrated a broadly positive session today, with major indices closing higher. Stronger-than-expected manufacturing data and continued optimism around corporate earnings fueled a cautious rally. Technology and healthcare sectors were notable leaders, while consumer staples and financials lagged. The market maintains a cautiously optimistic sentiment as investors digest recent economic indicators.",
+          "id": "market-summary-20260220",
+          "headline": "US Stocks Stage Late-Day Rally on Tariff Reversal, Major Indices Close Higher for the Week",
+          "summary": "U.S. equity markets closed Friday, February 20, 2026, with gains across major indices, staging a significant reversal from earlier losses. This turnaround was largely propelled by a Supreme Court ruling that struck down sweeping tariffs imposed under emergency powers, sparking a broad relief rally. Despite initial concerns over weaker-than-expected Q4 GDP growth and mixed economic data, and lingering geopolitical tensions between the US and Iran, investor sentiment shifted positively, with technology and energy sectors leading the charge.",
           "tags": [
-            "Market Update",
+            "Market Summary",
+            "Tariffs",
             "Economic Data",
-            "Sector Performance"
+            "Geopolitics"
           ],
-          "timestamp": "2026-02-21T16:55:00Z"
+          "timestamp": "2026-02-20T21:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260221",
+      "id": "major-indices-20260220",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "5,255.45",
-          "statContext": "+23.65 (+0.45%)",
+          "id": "sp500-20260220",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "6,909.51",
+          "statContext": "Increased 0.7% on Friday. For the week, the S&P 500 advanced roughly 1%.",
           "ticker": "$SPX",
-          "price": "5255.45",
-          "change": "+23.65",
-          "changePercent": "+0.45%",
+          "change": "+47.62",
+          "changePercent": "+0.7%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "17,210.80",
-          "statContext": "+103.26 (+0.60%)",
+          "id": "nasdaq-20260220",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "22,886.07",
+          "statContext": "Gained 0.9% on Friday. The Nasdaq Composite climbed more than 1% for the week.",
           "ticker": "$IXIC",
-          "price": "17210.80",
-          "change": "+103.26",
-          "changePercent": "+0.60%",
+          "change": "+203.34",
+          "changePercent": "+0.9%",
           "direction": "up"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "39,870.12",
-          "statContext": "+119.61 (+0.30%)",
+          "id": "dow-20260220",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "49,625.97",
+          "statContext": "Added 0.5% on Friday. The Dow Jones Industrial Average recorded a smaller but still positive increase for the week (0.3%).",
           "ticker": "$DJI",
-          "price": "39870.12",
-          "change": "+119.61",
-          "changePercent": "+0.30%",
+          "change": "+230.81",
+          "changePercent": "+0.5%",
           "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-20260221",
-      "title": "Top Movers",
+      "id": "top-movers-20260220",
+      "title": "Top Movers (Dow Components)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "NVIDIA Soars on AI Optimism",
-          "summary": "NVIDIA ($NVDA) shares surged, continuing a strong trend as investor enthusiasm for artificial intelligence and its impact on chip demand remains high. The company's innovative product roadmap continues to impress analysts.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Semiconductors"
-          ],
-          "ticker": "$NVDA",
-          "price": "$905.75",
-          "change": "+$30.70",
-          "changePercent": "+3.51%",
+          "id": "amzn-gainer-20260220",
+          "headline": "Amazon",
+          "ticker": "$AMZN",
+          "price": "$210.17",
+          "change": "+$5.31",
+          "changePercent": "+2.59%",
+          "direction": "up",
+          "summary": "E-commerce companies rallied following the Supreme Court's tariff reversal."
+        },
+        {
+          "id": "trv-gainer-20260220",
+          "headline": "Travelers",
+          "ticker": "$TRV",
+          "price": "$304.93",
+          "change": "+$5.03",
+          "changePercent": "+1.68%",
           "direction": "up"
         },
         {
-          "id": "crm-gainer",
-          "headline": "Salesforce Up on Analyst Upgrade",
-          "summary": "Salesforce ($CRM) saw a significant gain following an analyst upgrade citing strong cloud growth prospects and improved enterprise spending forecasts. The software giant's performance suggests robust demand in its core business.",
-          "tags": [
-            "Software",
-            "Cloud Computing",
-            "Enterprise Tech"
-          ],
-          "ticker": "$CRM",
-          "price": "$295.10",
-          "change": "+$8.05",
-          "changePercent": "+2.80%",
+          "id": "aapl-gainer-20260220",
+          "headline": "Apple",
+          "ticker": "$AAPL",
+          "price": "$264.58",
+          "change": "+$4.00",
+          "changePercent": "+1.54%",
           "direction": "up"
         },
         {
-          "id": "pfe-gainer",
-          "headline": "Pfizer Jumps on Drug Development News",
-          "summary": "Pfizer ($PFE) shares climbed after positive news regarding a late-stage clinical trial for one of its key pipeline drugs. This development potentially opens new revenue streams for the pharmaceutical giant.",
-          "tags": [
-            "Healthcare",
-            "Pharmaceuticals",
-            "Biotechnology"
-          ],
-          "ticker": "$PFE",
-          "price": "$43.50",
-          "change": "+$0.89",
-          "changePercent": "+2.09%",
-          "direction": "up"
-        },
-        {
-          "id": "tsla-loser",
-          "headline": "Tesla Slips Amid Production Concerns",
-          "summary": "Tesla ($TSLA) shares declined today on renewed concerns over production targets and increasing competition in the EV market. Analyst reports highlighted potential softening demand in key international markets.",
-          "tags": [
-            "Automotive",
-            "EV",
-            "Manufacturing"
-          ],
-          "ticker": "$TSLA",
-          "price": "$180.20",
-          "change": "-$3.68",
-          "changePercent": "-2.00%",
+          "id": "jnj-loser-20260220",
+          "headline": "Johnson & Johnson",
+          "ticker": "$JNJ",
+          "price": "$242.49",
+          "change": "-$4.42",
+          "changePercent": "-1.79%",
           "direction": "down"
         },
         {
-          "id": "wmt-loser",
-          "headline": "Walmart Down on Consumer Outlook",
-          "summary": "Walmart ($WMT) experienced a pullback as investors reacted to cautious commentary from a peer regarding consumer spending habits. Concerns over a potential slowdown in discretionary purchasing weighed on the retail sector.",
-          "tags": [
-            "Retail",
-            "Consumer Staples",
-            "Inflation"
-          ],
+          "id": "wmt-loser-20260220",
+          "headline": "Walmart",
           "ticker": "$WMT",
-          "price": "$178.60",
-          "change": "-$2.71",
-          "changePercent": "-1.50%",
-          "direction": "down"
+          "price": "$122.99",
+          "change": "-$1.88",
+          "changePercent": "-1.51%",
+          "direction": "down",
+          "summary": "Walmart's strong quarterly results were overshadowed by disappointing guidance, contributing to its decline."
         },
         {
-          "id": "bac-loser",
-          "headline": "Bank of America Pullback",
-          "summary": "Bank of America ($BAC) shares ended lower, participating in a broader pullback within the financial sector. While no specific news impacted the bank, general interest rate outlooks contributed to investor caution.",
-          "tags": [
-            "Financials",
-            "Banking",
-            "Interest Rates"
-          ],
-          "ticker": "$BAC",
-          "price": "$38.95",
-          "change": "-$0.40",
-          "changePercent": "-1.02%",
+          "id": "ba-loser-20260220",
+          "headline": "Boeing",
+          "ticker": "$BA",
+          "price": "$232.03",
+          "change": "-$1.68",
+          "changePercent": "-0.72%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-20260221",
+      "id": "market-news-20260220",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mfg-pmi-article",
-          "headline": "Manufacturing PMI Exceeds Expectations",
-          "summary": "The latest manufacturing Purchasing Managers' Index (PMI) data released this morning came in stronger than anticipated, suggesting a healthier industrial sector than previously thought. This positive economic indicator contributed to today's market uplift.",
-          "tags": [
-            "Economic Data",
-            "Manufacturing",
-            "Macroeconomics"
-          ],
-          "timestamp": "2026-02-21T10:00:00Z"
-        },
-        {
-          "id": "sector-rotation-article",
-          "headline": "Technology and Healthcare Lead Sector Rotation",
-          "summary": "Today's trading saw a clear rotation into technology and healthcare stocks, indicating investor confidence in innovation and defensive growth. Conversely, consumer staples and financials experienced outflows as investors adjusted portfolios.",
+          "id": "sector-rotation-20260220",
+          "headline": "Technology and Energy Lead Rally, Defensive Sectors Lag",
+          "summary": "On Friday, the Technology and Energy sectors spearheaded the market rally, with the Energy Select Sector SPDR (XLE) rising 1.9% and the Technology Select Sector SPDR (XLK) gaining 1%. This occurred as investors looked beyond AI to 'real economy' stocks, though AI-linked companies regained traction late in the week. Conversely, defensive 'bond proxy' sectors such as Utilities (XLU, down 1.7%) and Real Estate (XLRE, down 1.3%) lagged, weighed down by a hawkish Federal Reserve stance.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare",
-            "Investment Trends"
-          ],
-          "timestamp": "2026-02-21T16:30:00Z"
+            "Energy",
+            "Utilities",
+            "Real Estate"
+          ]
         },
         {
-          "id": "tech-earnings-impact",
-          "headline": "Major Tech Earnings Continue to Drive Sentiment",
-          "summary": "Following strong earnings reports from several major technology companies earlier this week, positive sentiment continues to ripple through the market. Robust guidance and better-than-expected profitability are setting a constructive tone for the sector.",
+          "id": "economic-data-20260220",
+          "headline": "Mixed Economic Data: GDP Slows, Jobless Claims Fall",
+          "summary": "The U.S. economy's Gross Domestic Product (GDP) increased at an annual rate of 1.4% in the fourth quarter of 2025, a significant slowdown from 4.4% in the third quarter and below consensus estimates, partly due to a government shutdown. However, initial jobless claims for the week ended February 14 decreased by 23,000 to 206,000, outperforming expectations. The trade deficit for December widened to $70.3 billion.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "Corporate News"
-          ],
-          "timestamp": "2026-02-21T13:45:00Z"
+            "Economic Data",
+            "GDP",
+            "Unemployment",
+            "Trade Deficit"
+          ]
+        },
+        {
+          "id": "fed-stance-20260220",
+          "headline": "Federal Reserve Remains Hawkish Amid Inflation Concerns",
+          "summary": "Minutes from the Federal Open Market Committee's January meeting revealed that while most members supported holding interest rates steady at 3.5%-3.75%, several participants were open to considering future rate hikes if inflation remains above the 2% target. The Personal Consumption Expenditures (PCE) price index increased 2.9% in Q4 2025, and December PCE prices rose 0.4% month-over-month, slightly above consensus.",
+          "tags": [
+            "Federal Reserve",
+            "Monetary Policy",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "tariff-ruling-20260220",
+          "headline": "Supreme Court Strikes Down Tariffs, New Duties Imposed",
+          "summary": "The Supreme Court delivered a significant ruling today, striking down President Trump's sweeping tariffs previously enacted under the International Emergency Economic Powers Act (IEEPA), which led to a market relief rally. Following the decision, President Trump announced the imposition of new temporary 10% global tariffs under Section 122 of the Trade Act of 1974.",
+          "tags": [
+            "Trade Policy",
+            "Supreme Court",
+            "Tariffs"
+          ]
+        },
+        {
+          "id": "earnings-notes-20260220",
+          "headline": "Earnings Season Continues: PPL Reports, NVIDIA Anticipated",
+          "summary": "PPL Corporation ($PPL) reported its 2025 earnings results and provided a 2026 earnings forecast, projecting 7.2% growth over 2025 ongoing earnings. While Walmart ($WMT) had better-than-expected quarterly results, its guidance was disappointing. Looking ahead, investors are keenly awaiting fourth-quarter earnings reports next week from major technology companies, including NVIDIA ($NVDA), which is seen as a bellwether for global AI demand.",
+          "tags": [
+            "Earnings Reports",
+            "PPL",
+            "Walmart",
+            "NVIDIA"
+          ]
         }
       ]
     }
