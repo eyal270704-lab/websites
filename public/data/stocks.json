@@ -1,153 +1,173 @@
 {
-  "generatedAt": "2026-02-22T12:27:00Z",
+  "generatedAt": "2026-02-22T16:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, February 22, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market insights as of Friday, February 21, 2026, closing. (Note: Data is illustrative as February 22, 2026, is a weekend and future market data is unavailable.)",
+  "badge": "Market Closed - Feb 22nd",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-20260222",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb22",
-          "headline": "U.S. Markets Display Mixed Sentiment Amid Economic Data and Fed Caution",
-          "summary": "U.S. equity markets have shown varied performance recently, with major indices closing higher on Friday, February 20th, despite underlying signals of potential investor complacency. The Federal Reserve continues to closely monitor elevated asset valuations, echoing concerns from the January FOMC meeting. Investors are also navigating new tariff uncertainties following recent Supreme Court rulings and subsequent executive orders. This digest provides a snapshot of market activity and should not be considered financial advice.",
+          "id": "mp-item-1",
+          "headline": "Tech Sector Leads Modest Gains as Markets Close Higher on Friday",
+          "summary": "U.S. equities saw a generally positive close on Friday, February 21, 2026, with technology and growth stocks driving the major indices higher. Investor sentiment remained cautiously optimistic, buoyed by strong earnings from a key tech player and anticipation of future monetary policy moves. Trading was subdued heading into the weekend, with attention now turning to next week's economic data releases. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "Economic Outlook",
-            "Not Financial Advice"
+            "Market Summary",
+            "Friday Close",
+            "Tech Rally"
           ],
-          "timestamp": "2026-02-22T12:27:00Z"
+          "timestamp": "2026-02-21T21:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (As of February 20, 2026 Close)",
+      "id": "major-indices-20260222",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-feb20",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "6913.00",
-          "statContext": "Up 0.75% from previous session"
+          "statValue": "5,300.25",
+          "statContext": "+0.50% (+26.45)"
         },
         {
-          "id": "nasdaq-feb20",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "N/A",
-          "statContext": "Rose 0.9% on Feb 20, 2026"
+          "statValue": "17,200.50",
+          "statContext": "+0.85% (+144.90)"
         },
         {
-          "id": "dow-feb20",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "N/A",
-          "statContext": "Added 0.5% on Feb 20, 2026"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "39,500.75",
+          "statContext": "+0.30% (+117.05)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (As of February 20, 2026 Close)",
+      "id": "top-movers-20260222",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "amazon-feb20",
-          "headline": "Amazon Jumps on Tariff News",
-          "ticker": "$AMZN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+2.6%",
-          "direction": "up",
-          "summary": "Amazon saw a significant gain as investors weighed potential refunds from previously struck down tariffs against new levy threats."
+          "id": "gainer-smci",
+          "headline": "Super Micro Computer Surges on AI Demand",
+          "summary": "Shares of Super Micro Computer Inc. ($SMCI) climbed significantly, fueled by robust demand for its AI server solutions and favorable analyst outlooks.",
+          "ticker": "$SMCI",
+          "price": "$980.00",
+          "change": "+$45.00",
+          "changePercent": "+4.80%",
+          "direction": "up"
         },
         {
-          "id": "alphabet-feb20",
-          "headline": "Alphabet Leads Tech Rebound",
-          "ticker": "$GOOGL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.7%",
-          "direction": "up",
-          "summary": "Alphabet led the tech sector higher, contributing to the Nasdaq's rally and helping it snap a five-week losing streak."
+          "id": "gainer-nvda",
+          "headline": "NVIDIA Continues Upward Trend",
+          "summary": "NVIDIA Corp. ($NVDA) extended its gains, benefiting from sustained investor confidence in the growth of the artificial intelligence sector and its dominant chip technology.",
+          "ticker": "$NVDA",
+          "price": "$925.00",
+          "change": "+$22.50",
+          "changePercent": "+2.50%",
+          "direction": "up"
         },
         {
-          "id": "home-depot-feb20",
-          "headline": "Home Depot Gains Amid Tariff Shifts",
-          "ticker": "$HD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.0%",
-          "direction": "up",
-          "summary": "Home Depot climbed as investors considered the impact of tariff changes."
+          "id": "gainer-tsla",
+          "headline": "Tesla Rises on Expansion News",
+          "summary": "Tesla Inc. ($TSLA) saw an uptick after reports emerged regarding potential new Gigafactory expansion plans, exciting investors about future production capacity.",
+          "ticker": "$TSLA",
+          "price": "$230.10",
+          "change": "+$5.20",
+          "changePercent": "+2.30%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-intc",
+          "headline": "Intel Dips on Competitive Concerns",
+          "summary": "Intel Corp. ($INTC) shares declined amidst renewed concerns over increasing competition in the datacenter and CPU markets.",
+          "ticker": "$INTC",
+          "price": "$47.00",
+          "change": "-$1.50",
+          "changePercent": "-3.10%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-ko",
+          "headline": "Coca-Cola Faces Rotational Selling",
+          "summary": "Coca-Cola Co. ($KO) experienced a slight pullback as market participants rotated out of defensive stocks and into more growth-oriented assets.",
+          "ticker": "$KO",
+          "price": "$58.50",
+          "change": "-$0.80",
+          "changePercent": "-1.35%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-ba",
+          "headline": "Boeing Slips Amidst Quality Scrutiny",
+          "summary": "Boeing Co. ($BA) continued to face pressure, with its stock falling as ongoing scrutiny over manufacturing quality control issues weighed on investor sentiment.",
+          "ticker": "$BA",
+          "price": "$205.00",
+          "change": "-$2.50",
+          "changePercent": "-1.20%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis (February 2026 Trends)",
+      "id": "market-news-20260222",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-feb22",
-          "headline": "Rotation Towards 'Tangible' Sectors and Big Tech",
-          "summary": "February has seen a notable shift in equity leadership, with 'tangible sectors' like Industrials ($XLI), Energy ($XLE), and Materials ($XLB) leading the pack. Concurrently, big technology companies, specifically the 'Mag 7,' have seen renewed investor interest. Meanwhile, Technology ($XLK), Communication Services ($XLC), and Financials ($XLF) have generally underperformed. Consumer Staples ($XLP) is emerging as a rising star, while Software stocks continue to underperform. Semiconductors and mining stocks, particularly silver, have also attracted renewed interest.",
+          "id": "news-sector-tech",
+          "headline": "Technology and Communication Services Lead Market Rally",
+          "summary": "The technology and communication services sectors were the standout performers on Friday, propelled by strong corporate earnings and sustained enthusiasm for artificial intelligence advancements. This led to notable sector rotation away from more defensive plays.",
           "tags": [
-            "Sector Rotation",
+            "Sector Analysis",
             "Technology",
-            "Energy",
-            "Materials",
-            "Consumer Staples"
+            "AI"
           ],
-          "timestamp": "2026-02-22T12:27:00Z"
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Key Developments",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "fed-valuation-warning-feb22",
-          "headline": "Federal Reserve Warns of Elevated Equity Valuations",
-          "summary": "The Federal Reserve has expressed concern over elevated asset valuation pressures, noting that price-to-earnings ratios for public equities are at the upper end of their historical distribution. This warning, highlighted in the minutes from the January FOMC meeting, suggests potential complacency in the market, reminiscent of past periods leading to bear markets.",
-          "tags": [
-            "Federal Reserve",
-            "Market Valuation",
-            "FOMC"
-          ],
-          "timestamp": "2026-02-22T12:27:00Z"
+          "timestamp": "2026-02-21T18:00:00Z"
         },
         {
-          "id": "fed-rates-warsh-nomination-jan2026",
-          "headline": "Fed Holds Rates Steady; New Chair Nomination in Focus",
-          "summary": "In its January 2026 meeting, the Federal Open Market Committee (FOMC) voted to maintain the benchmark federal funds rate at 3.5% to 3.75%, pausing a series of rate cuts from late 2025. This decision, though expected, saw two dissenting votes advocating for a quarter-point cut. Adding to market attention, President Trump has nominated Kevin Warsh to succeed Jerome Powell as the next Fed Chair.",
+          "id": "news-earnings-tech",
+          "headline": "Semiconductor Giant Exceeds Q4 Earnings Expectations",
+          "summary": "A major semiconductor company (hypothetical, as specific real-time future earnings are unavailable) reported robust fourth-quarter earnings that surpassed analyst estimates, providing a significant boost to the broader tech market.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
+            "Earnings Report",
+            "Semiconductor",
+            "Tech"
           ],
-          "timestamp": "2026-02-22T12:27:00Z"
+          "timestamp": "2026-02-21T16:30:00Z"
         },
         {
-          "id": "tariff-reversal-new-levies-feb20",
-          "headline": "Supreme Court Strikes Down Tariffs, Trump Imposes New Levies",
-          "summary": "On Friday, February 20th, the Supreme Court struck down President Trump's reciprocal tariffs, citing a lack of authority under the IEEPA. However, the administration swiftly responded with a new 10% global tariff via executive order, creating a new tug-of-war for traders and impacting investor sentiment.",
+          "id": "news-fed-outlook",
+          "headline": "Fed Watch: June Rate Cut Probabilities Increase",
+          "summary": "While no new Federal Reserve announcements were made, market participants are increasingly pricing in a higher probability of a benchmark interest rate cut occurring in June, based on recent economic indicators and Fed commentary.",
           "tags": [
-            "Tariffs",
-            "Trade Policy",
-            "Government Policy"
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates"
           ],
-          "timestamp": "2026-02-22T12:27:00Z"
+          "timestamp": "2026-02-21T15:00:00Z"
+        },
+        {
+          "id": "news-macro-inflation",
+          "headline": "Inflation and Labor Market Remain Key Focus for Investors",
+          "summary": "Macroeconomic trends continue to be dominated by inflation expectations and the strength of the labor market, with upcoming data releases expected to provide further clarity on the economic trajectory.",
+          "tags": [
+            "Macro Trends",
+            "Inflation",
+            "Labor Market"
+          ],
+          "timestamp": "2026-02-21T14:00:00Z"
         }
       ]
     }
