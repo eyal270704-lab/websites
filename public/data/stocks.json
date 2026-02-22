@@ -1,194 +1,203 @@
 {
-  "generatedAt": "2026-02-21T16:34:00Z",
+  "generatedAt": "2026-02-22T07:34:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for Friday, February 20, 2026",
-  "badge": "Updated Today",
+  "subtitle": "February 22, 2026 - Markets Closed for Weekend (Recap of February 20, 2026)",
+  "badge": "Updated",
   "sections": [
     {
-      "id": "market-pulse-20260220",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260220",
-          "headline": "US Stocks Stage Late-Day Rally on Tariff Reversal, Major Indices Close Higher for the Week",
-          "summary": "U.S. equity markets closed Friday, February 20, 2026, with gains across major indices, staging a significant reversal from earlier losses. This turnaround was largely propelled by a Supreme Court ruling that struck down sweeping tariffs imposed under emergency powers, sparking a broad relief rally. Despite initial concerns over weaker-than-expected Q4 GDP growth and mixed economic data, and lingering geopolitical tensions between the US and Iran, investor sentiment shifted positively, with technology and energy sectors leading the charge.",
+          "id": "market-summary",
+          "headline": "U.S. Markets Closed for Weekend; Recap of Friday's Gains Amid Tariff Ruling and Mixed Economic Data",
+          "summary": "U.S. stock markets are closed today, Sunday, February 22, 2026. On the last trading day, Friday, February 20, 2026, major U.S. indices finished higher, driven by a broad relief rally following the Supreme Court's decision to strike down President Donald Trump's sweeping tariffs. Sentiment was cautiously optimistic despite discouraging reports of slowing economic growth and accelerating inflation. Technology stocks led the gains, though trading remained tentative as investors weighed future tariff implications.",
           "tags": [
-            "Market Summary",
+            "Market Close",
+            "Weekend",
             "Tariffs",
             "Economic Data",
-            "Geopolitics"
+            "Tech Rally"
           ],
-          "timestamp": "2026-02-20T21:00:00Z"
+          "timestamp": "2026-02-22T07:34:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260220",
-      "title": "Major Indices",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Last Trading Day: Feb 20, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260220",
+          "id": "sp500-performance",
           "headline": "S&P 500",
           "statLabel": "Close",
           "statValue": "6,909.51",
-          "statContext": "Increased 0.7% on Friday. For the week, the S&P 500 advanced roughly 1%.",
+          "statContext": "Rose 47.62 points (+0.7%) on Friday.",
           "ticker": "$SPX",
+          "price": "6,909.51",
           "change": "+47.62",
           "changePercent": "+0.7%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-20260220",
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "49,625.97",
+          "statContext": "Rose 230.81 points (+0.5%) on Friday.",
+          "ticker": "$DJIA",
+          "price": "49,625.97",
+          "change": "+230.81",
+          "changePercent": "+0.5%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq-performance",
           "headline": "NASDAQ Composite",
           "statLabel": "Close",
           "statValue": "22,886.07",
-          "statContext": "Gained 0.9% on Friday. The Nasdaq Composite climbed more than 1% for the week.",
+          "statContext": "Rose 203.34 points (+0.9%) on Friday.",
           "ticker": "$IXIC",
+          "price": "22,886.07",
           "change": "+203.34",
           "changePercent": "+0.9%",
           "direction": "up"
         },
         {
-          "id": "dow-20260220",
-          "headline": "Dow Jones Industrial Average",
+          "id": "russell2000-performance",
+          "headline": "Russell 2000",
           "statLabel": "Close",
-          "statValue": "49,625.97",
-          "statContext": "Added 0.5% on Friday. The Dow Jones Industrial Average recorded a smaller but still positive increase for the week (0.3%).",
-          "ticker": "$DJI",
-          "change": "+230.81",
-          "changePercent": "+0.5%",
-          "direction": "up"
+          "statValue": "2,663.78",
+          "statContext": "Fell 1.31 points (-0.1%) on Friday.",
+          "ticker": "$RUT",
+          "price": "2,663.78",
+          "change": "-1.31",
+          "changePercent": "-0.1%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-20260220",
-      "title": "Top Movers (Dow Components)",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Last Trading Day: Feb 20, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "amzn-gainer-20260220",
-          "headline": "Amazon",
-          "ticker": "$AMZN",
-          "price": "$210.17",
-          "change": "+$5.31",
-          "changePercent": "+2.59%",
-          "direction": "up",
-          "summary": "E-commerce companies rallied following the Supreme Court's tariff reversal."
-        },
-        {
-          "id": "trv-gainer-20260220",
-          "headline": "Travelers",
-          "ticker": "$TRV",
-          "price": "$304.93",
-          "change": "+$5.03",
-          "changePercent": "+1.68%",
+          "id": "gainer-tlx",
+          "headline": "Telix Pharmaceuticals Surges on Earnings",
+          "summary": "Australian healthcare company Telix Pharmaceuticals Ltd. ($TLX) rocketed up 14.24% following the release of its latest earnings report, delighting the market.",
+          "ticker": "$TLX",
+          "price": "$10.43",
+          "change": "+1.30",
+          "changePercent": "+14.24%",
           "direction": "up"
         },
         {
-          "id": "aapl-gainer-20260220",
-          "headline": "Apple",
-          "ticker": "$AAPL",
-          "price": "$264.58",
-          "change": "+$4.00",
-          "changePercent": "+1.54%",
+          "id": "gainer-comfort-systems",
+          "headline": "Comfort Systems Reports Strong Profit",
+          "summary": "Comfort Systems rose 3% after the provider of heating, ventilation, air conditioning, and electrical services reported a stronger profit for the latest quarter than analysts expected.",
+          "ticker": "$FIX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.0%",
           "direction": "up"
         },
         {
-          "id": "jnj-loser-20260220",
-          "headline": "Johnson & Johnson",
-          "ticker": "$JNJ",
-          "price": "$242.49",
-          "change": "-$4.42",
-          "changePercent": "-1.79%",
+          "id": "gainer-hindalco",
+          "headline": "Hindalco Leads Indian Gains",
+          "summary": "Hindalco Industries Ltd. ($HINDALCO) was among the top gainers in the Indian NIFTY50 index, rising 3.32%.",
+          "ticker": "$HINDALCO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.32%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-akamai",
+          "headline": "Akamai Technologies Suffers Sharp Decline",
+          "summary": "Akamai Technologies ($AKAM) dropped 12.6%, marking one of the market's sharpest losses.",
+          "ticker": "$AKAM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-12.6%",
           "direction": "down"
         },
         {
-          "id": "wmt-loser-20260220",
-          "headline": "Walmart",
-          "ticker": "$WMT",
-          "price": "$122.99",
-          "change": "-$1.88",
-          "changePercent": "-1.51%",
-          "direction": "down",
-          "summary": "Walmart's strong quarterly results were overshadowed by disappointing guidance, contributing to its decline."
+          "id": "loser-kwality-walls",
+          "headline": "Kwality Walls (India) Among Top Losers",
+          "summary": "Kwality Walls (India) saw a significant decline of 3.01% on Friday.",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.01%",
+          "direction": "down"
         },
         {
-          "id": "ba-loser-20260220",
-          "headline": "Boeing",
-          "ticker": "$BA",
-          "price": "$232.03",
-          "change": "-$1.68",
-          "changePercent": "-0.72%",
+          "id": "loser-infosys",
+          "headline": "Infosys Down on Friday",
+          "summary": "Infosys Ltd. ($INFY) experienced a decline of 1.31% during Friday's trading session.",
+          "ticker": "$INFY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.31%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-20260220",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-20260220",
-          "headline": "Technology and Energy Lead Rally, Defensive Sectors Lag",
-          "summary": "On Friday, the Technology and Energy sectors spearheaded the market rally, with the Energy Select Sector SPDR (XLE) rising 1.9% and the Technology Select Sector SPDR (XLK) gaining 1%. This occurred as investors looked beyond AI to 'real economy' stocks, though AI-linked companies regained traction late in the week. Conversely, defensive 'bond proxy' sectors such as Utilities (XLU, down 1.7%) and Real Estate (XLRE, down 1.3%) lagged, weighed down by a hawkish Federal Reserve stance.",
+          "id": "supreme-court-tariffs",
+          "headline": "Supreme Court Strikes Down Trump's Tariffs, Sparks Relief Rally",
+          "summary": "The U.S. Supreme Court struck down President Donald Trump's sweeping tariffs, leading to a broad relief rally in equity markets despite earlier concerns about slowing growth and inflation. President Trump, however, pledged to impose tariffs through other means, contributing to tentative trading.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy",
-            "Utilities",
-            "Real Estate"
+            "Supreme Court",
+            "Tariffs",
+            "Trade Policy",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "economic-data-20260220",
-          "headline": "Mixed Economic Data: GDP Slows, Jobless Claims Fall",
-          "summary": "The U.S. economy's Gross Domestic Product (GDP) increased at an annual rate of 1.4% in the fourth quarter of 2025, a significant slowdown from 4.4% in the third quarter and below consensus estimates, partly due to a government shutdown. However, initial jobless claims for the week ended February 14 decreased by 23,000 to 206,000, outperforming expectations. The trade deficit for December widened to $70.3 billion.",
+          "id": "economic-data-gdp-pce",
+          "headline": "Mixed Economic Data: Slower Q4 GDP, Warmer PCE Figures",
+          "summary": "Fourth-quarter 2025 GDP grew by a slower-than-expected 1.4% year over year, down from the previous quarter, partly due to a prolonged government shutdown. Conversely, December's Personal Consumption Expenditures (PCE) showed warmer-than-anticipated results.",
           "tags": [
-            "Economic Data",
             "GDP",
-            "Unemployment",
-            "Trade Deficit"
-          ]
-        },
-        {
-          "id": "fed-stance-20260220",
-          "headline": "Federal Reserve Remains Hawkish Amid Inflation Concerns",
-          "summary": "Minutes from the Federal Open Market Committee's January meeting revealed that while most members supported holding interest rates steady at 3.5%-3.75%, several participants were open to considering future rate hikes if inflation remains above the 2% target. The Personal Consumption Expenditures (PCE) price index increased 2.9% in Q4 2025, and December PCE prices rose 0.4% month-over-month, slightly above consensus.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
+            "PCE",
+            "Economic Indicators",
             "Inflation"
           ]
         },
         {
-          "id": "tariff-ruling-20260220",
-          "headline": "Supreme Court Strikes Down Tariffs, New Duties Imposed",
-          "summary": "The Supreme Court delivered a significant ruling today, striking down President Trump's sweeping tariffs previously enacted under the International Emergency Economic Powers Act (IEEPA), which led to a market relief rally. Following the decision, President Trump announced the imposition of new temporary 10% global tariffs under Section 122 of the Trade Act of 1974.",
+          "id": "sector-performance",
+          "headline": "Technology and Communication Services Lead Gains; Energy Shares Run Hot",
+          "summary": "Technology and Communication Services sectors were among the best performers on Friday, with industrials also seeing gains. Energy shares performed well, supported by rising oil prices amid U.S.-Iran geopolitical tensions. Consumer defensives, utilities, and real estate lagged.",
           "tags": [
-            "Trade Policy",
-            "Supreme Court",
-            "Tariffs"
+            "Sector Analysis",
+            "Technology",
+            "Energy",
+            "Market Trends"
           ]
         },
         {
-          "id": "earnings-notes-20260220",
-          "headline": "Earnings Season Continues: PPL Reports, NVIDIA Anticipated",
-          "summary": "PPL Corporation ($PPL) reported its 2025 earnings results and provided a 2026 earnings forecast, projecting 7.2% growth over 2025 ongoing earnings. While Walmart ($WMT) had better-than-expected quarterly results, its guidance was disappointing. Looking ahead, investors are keenly awaiting fourth-quarter earnings reports next week from major technology companies, including NVIDIA ($NVDA), which is seen as a bellwether for global AI demand.",
+          "id": "upcoming-earnings",
+          "headline": "Major Earnings Reports Await Next Week",
+          "summary": "Investors are looking ahead to a busy week of earnings reports, with major companies including Nvidia ($NVDA), Berkshire Hathaway ($BRK.A), Salesforce ($CRM), and Intuit ($INTU) scheduled to release their latest results.",
           "tags": [
-            "Earnings Reports",
-            "PPL",
-            "Walmart",
-            "NVIDIA"
+            "Earnings Season",
+            "Nvidia",
+            "Tech Earnings"
           ]
         }
       ]
