@@ -1,173 +1,156 @@
 {
-  "generatedAt": "2026-02-22T16:35:00Z",
+  "generatedAt": "2026-02-23T07:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market insights as of Friday, February 21, 2026, closing. (Note: Data is illustrative as February 22, 2026, is a weekend and future market data is unavailable.)",
-  "badge": "Market Closed - Feb 22nd",
+  "title": "Daily Market Digest: Tariff Concerns Weigh on US Futures",
+  "subtitle": "February 23, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-20260222",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "Tech Sector Leads Modest Gains as Markets Close Higher on Friday",
-          "summary": "U.S. equities saw a generally positive close on Friday, February 21, 2026, with technology and growth stocks driving the major indices higher. Investor sentiment remained cautiously optimistic, buoyed by strong earnings from a key tech player and anticipation of future monetary policy moves. Trading was subdued heading into the weekend, with attention now turning to next week's economic data releases. Not financial advice.",
+          "id": "market-summary",
+          "headline": "US Futures Drop Amid Renewed Tariff Uncertainty; Asian Markets Mixed",
+          "summary": "US stock futures are trading lower this Monday morning, February 23, 2026, as President Donald Trump's statement about increasing global tariffs to 15% following a Supreme Court decision striking down his previous 'reciprocal' tariff policy has injected fresh uncertainty into the markets. This comes after Wall Street saw a volatile but ultimately higher close on Friday. Asian markets displayed mixed reactions, with Hong Kong leading gains while the Shanghai Composite declined. Overall market sentiment remains cautious, with the CNN Money Fear and Greed index indicating 'Fear' at the end of last week. Investors are also looking ahead to a busy week of economic data and key earnings reports, notably Nvidia's on Wednesday. Not financial advice.",
           "tags": [
-            "Market Summary",
-            "Friday Close",
-            "Tech Rally"
-          ],
-          "timestamp": "2026-02-21T21:00:00Z"
+            "Futures",
+            "Tariffs",
+            "Geopolitics",
+            "Market Sentiment"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-20260222",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (Pre-Market Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "5,300.25",
-          "statContext": "+0.50% (+26.45)"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Down 0.72%",
+          "statContext": "Indicates cautious open for broader market."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "17,200.50",
-          "statContext": "+0.85% (+144.90)"
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "Down 0.98%",
+          "statContext": "Tech-heavy index futures under pressure."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "39,500.75",
-          "statContext": "+0.30% (+117.05)"
+          "id": "dow-futures",
+          "statLabel": "DOW Futures",
+          "statValue": "Down 0.64%",
+          "statContext": "Industrial average futures reflecting broader dip."
         }
       ]
     },
     {
-      "id": "top-movers-20260222",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (Pre-Market/Early Trading)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "gainer-smci",
-          "headline": "Super Micro Computer Surges on AI Demand",
-          "summary": "Shares of Super Micro Computer Inc. ($SMCI) climbed significantly, fueled by robust demand for its AI server solutions and favorable analyst outlooks.",
-          "ticker": "$SMCI",
-          "price": "$980.00",
-          "change": "+$45.00",
-          "changePercent": "+4.80%",
-          "direction": "up"
+          "id": "idfc-first-bank",
+          "headline": "IDFC First Bank Shares Slip on Fraud Allegations",
+          "summary": "IDFC First Bank shares are reportedly slipping in pre-market trading today following allegations of a $65 million fraud. This incident adds to a period of financial strain for the bank, including a significant net profit decline in Q4 FY25.",
+          "ticker": "$IDFCFIRSTB.NS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
+          "direction": "down",
+          "tags": [
+            "Banking",
+            "Fraud",
+            "India Market"
+          ]
         },
         {
-          "id": "gainer-nvda",
-          "headline": "NVIDIA Continues Upward Trend",
-          "summary": "NVIDIA Corp. ($NVDA) extended its gains, benefiting from sustained investor confidence in the growth of the artificial intelligence sector and its dominant chip technology.",
-          "ticker": "$NVDA",
-          "price": "$925.00",
-          "change": "+$22.50",
-          "changePercent": "+2.50%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-tsla",
-          "headline": "Tesla Rises on Expansion News",
-          "summary": "Tesla Inc. ($TSLA) saw an uptick after reports emerged regarding potential new Gigafactory expansion plans, exciting investors about future production capacity.",
-          "ticker": "$TSLA",
-          "price": "$230.10",
-          "change": "+$5.20",
-          "changePercent": "+2.30%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-intc",
-          "headline": "Intel Dips on Competitive Concerns",
-          "summary": "Intel Corp. ($INTC) shares declined amidst renewed concerns over increasing competition in the datacenter and CPU markets.",
-          "ticker": "$INTC",
-          "price": "$47.00",
-          "change": "-$1.50",
-          "changePercent": "-3.10%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-ko",
-          "headline": "Coca-Cola Faces Rotational Selling",
-          "summary": "Coca-Cola Co. ($KO) experienced a slight pullback as market participants rotated out of defensive stocks and into more growth-oriented assets.",
-          "ticker": "$KO",
-          "price": "$58.50",
-          "change": "-$0.80",
-          "changePercent": "-1.35%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-ba",
-          "headline": "Boeing Slips Amidst Quality Scrutiny",
-          "summary": "Boeing Co. ($BA) continued to face pressure, with its stock falling as ongoing scrutiny over manufacturing quality control issues weighed on investor sentiment.",
-          "ticker": "$BA",
-          "price": "$205.00",
-          "change": "-$2.50",
-          "changePercent": "-1.20%",
-          "direction": "down"
+          "id": "premarket-note",
+          "headline": "Specific US Pre-Market Movers Awaiting Further Data",
+          "summary": "As of early Monday morning UTC, specific real-time top gainers and losers for the US market's pre-market session on February 23, 2026, with confirmed price and percentage changes, are still developing or not widely reported in current real-time feeds. Market participants are closely monitoring the impact of the latest tariff announcements.",
+          "tags": [
+            "Pre-Market",
+            "Market Dynamics"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-20260222",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-sector-tech",
-          "headline": "Technology and Communication Services Lead Market Rally",
-          "summary": "The technology and communication services sectors were the standout performers on Friday, propelled by strong corporate earnings and sustained enthusiasm for artificial intelligence advancements. This led to notable sector rotation away from more defensive plays.",
+          "id": "tariff-impact",
+          "headline": "Trump's Renewed Tariff Plans Spark Market Uncertainty",
+          "summary": "President Donald Trump's intent to raise global tariffs to 15% after a Supreme Court ruling against his previous 'reciprocal' tariff policy is a primary driver of today's cautious market sentiment. This new layer of trade policy uncertainty is impacting global trade dynamics and investor confidence.",
+          "tags": [
+            "Tariffs",
+            "Trade Policy",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Fed Remains Cautious on Rate Cuts, Awaiting Further Inflation Data",
+          "summary": "Federal Reserve officials reiterated at their last meeting that they require further evidence of falling inflation before they would consider additional rate cuts. This stance keeps interest rate expectations in focus for investors.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "earnings-week-ahead",
+          "headline": "Nvidia Earnings Lead a Busy Week for Corporate Reports",
+          "summary": "This week features several significant earnings reports, with Nvidia ($NVDA) on Wednesday drawing considerable attention for insights into the artificial intelligence sector. Other companies scheduled to report include Lucid ($LCID), Home Depot ($HD), AMC Entertainment ($AMC), Salesforce ($CRM), Snowflake ($SNOW), Baidu ($BIDU), and Warner Bros. Discovery ($WBD).",
+          "tags": [
+            "Earnings",
+            "Nvidia",
+            "AI",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Releases Scheduled for the Week",
+          "summary": "Investors will be monitoring a series of economic data releases throughout the week. Today, factory orders data is expected. Tuesday will bring the S&P Case-Shiller Home Price Index, wholesale inventories, and consumer confidence. Later in the week, initial jobless claims on Thursday and the Producer Price Index (PPI) on Friday will provide further economic indicators.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Consumer Confidence"
+          ]
+        },
+        {
+          "id": "commodity-moves",
+          "headline": "Crude Oil Dips, Gold and Silver Rise in Early Trading",
+          "summary": "In early Monday trading, benchmark U.S. crude oil prices have fallen. Conversely, the prices of gold and silver have seen increases, with gold up 1.9% and silver up 5.5%, potentially reflecting safe-haven demand amidst market uncertainty.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Gold",
+            "Silver"
+          ]
+        },
+        {
+          "id": "sector-trends",
+          "headline": "Small Caps Outperformed in January; Tech and Materials Show Mixed Trends",
+          "summary": "In January, small-cap stocks (Russell 2000) surged, outperforming large-cap counterparts, driven by lower interest rates and a rotation towards more cyclical and domestically focused sectors. Energy and Materials led sector gains for the month. While information technology and communication services showed strong Q4 earnings growth, the IT sector was among the worst performers in the S&P 500 in January, indicating shifting leadership.",
           "tags": [
             "Sector Analysis",
+            "Small Caps",
             "Technology",
-            "AI"
-          ],
-          "timestamp": "2026-02-21T18:00:00Z"
-        },
-        {
-          "id": "news-earnings-tech",
-          "headline": "Semiconductor Giant Exceeds Q4 Earnings Expectations",
-          "summary": "A major semiconductor company (hypothetical, as specific real-time future earnings are unavailable) reported robust fourth-quarter earnings that surpassed analyst estimates, providing a significant boost to the broader tech market.",
-          "tags": [
-            "Earnings Report",
-            "Semiconductor",
-            "Tech"
-          ],
-          "timestamp": "2026-02-21T16:30:00Z"
-        },
-        {
-          "id": "news-fed-outlook",
-          "headline": "Fed Watch: June Rate Cut Probabilities Increase",
-          "summary": "While no new Federal Reserve announcements were made, market participants are increasingly pricing in a higher probability of a benchmark interest rate cut occurring in June, based on recent economic indicators and Fed commentary.",
-          "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-02-21T15:00:00Z"
-        },
-        {
-          "id": "news-macro-inflation",
-          "headline": "Inflation and Labor Market Remain Key Focus for Investors",
-          "summary": "Macroeconomic trends continue to be dominated by inflation expectations and the strength of the labor market, with upcoming data releases expected to provide further clarity on the economic trajectory.",
-          "tags": [
-            "Macro Trends",
-            "Inflation",
-            "Labor Market"
-          ],
-          "timestamp": "2026-02-21T14:00:00Z"
+            "Materials"
+          ]
         }
       ]
     }
