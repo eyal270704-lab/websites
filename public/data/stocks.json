@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-23T07:53:00Z",
+  "generatedAt": "2026-02-23T12:39:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Tariff Concerns Weigh on US Futures",
-  "subtitle": "February 23, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "February 23, 2026 - Not financial advice",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,73 +13,109 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Futures Drop Amid Renewed Tariff Uncertainty; Asian Markets Mixed",
-          "summary": "US stock futures are trading lower this Monday morning, February 23, 2026, as President Donald Trump's statement about increasing global tariffs to 15% following a Supreme Court decision striking down his previous 'reciprocal' tariff policy has injected fresh uncertainty into the markets. This comes after Wall Street saw a volatile but ultimately higher close on Friday. Asian markets displayed mixed reactions, with Hong Kong leading gains while the Shanghai Composite declined. Overall market sentiment remains cautious, with the CNN Money Fear and Greed index indicating 'Fear' at the end of last week. Investors are also looking ahead to a busy week of economic data and key earnings reports, notably Nvidia's on Wednesday. Not financial advice.",
+          "id": "market-summary-20260223",
+          "headline": "U.S. Equities Show Resilience Amid Tariff Uncertainty and Mixed Economic Signals",
+          "summary": "U.S. major indices concluded Friday's session with gains, continuing weekly positive trends. However, Monday's pre-market saw S&P 500 futures dip 0.6%, Nasdaq 100 contracts fall 0.7%, and Dow futures drop 0.4% following President Trump's announcement of new 15% global tariffs under Section 122, coming after a Supreme Court ruling against his previous emergency levies. Overall market sentiment remains cautious with mixed feelings, as traders closely monitor economic indicators and ongoing geopolitical tensions.",
           "tags": [
-            "Futures",
+            "Market Overview",
             "Tariffs",
-            "Geopolitics",
-            "Market Sentiment"
-          ]
+            "Economic Data"
+          ],
+          "timestamp": "2026-02-23T12:39:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Pre-Market Futures)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Down 0.72%",
-          "statContext": "Indicates cautious open for broader market."
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "6,909.51",
+          "statContext": "+0.7% today"
         },
         {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "Down 0.98%",
-          "statContext": "Tech-heavy index futures under pressure."
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ",
+          "statValue": "22,886.07",
+          "statContext": "+0.9% today"
         },
         {
-          "id": "dow-futures",
-          "statLabel": "DOW Futures",
-          "statValue": "Down 0.64%",
-          "statContext": "Industrial average futures reflecting broader dip."
+          "id": "dow-performance",
+          "statLabel": "DOW",
+          "statValue": "49,625.97",
+          "statContext": "+0.5% (230.81 pts) today"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market/Early Trading)",
+      "title": "Top Movers",
       "cardType": "stock",
-      "layout": "list",
+      "layout": "grid",
       "items": [
         {
-          "id": "idfc-first-bank",
-          "headline": "IDFC First Bank Shares Slip on Fraud Allegations",
-          "summary": "IDFC First Bank shares are reportedly slipping in pre-market trading today following allegations of a $65 million fraud. This incident adds to a period of financial strain for the bank, including a significant net profit decline in Q4 FY25.",
-          "ticker": "$IDFCFIRSTB.NS",
+          "id": "amzn-gainer",
+          "headline": "Amazon.com, Inc. ($AMZN)",
+          "summary": "Amazon was a major gainer on the Dow today.",
+          "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "tags": [
-            "Banking",
-            "Fraud",
-            "India Market"
-          ]
+          "changePercent": "+2.6%",
+          "direction": "up"
         },
         {
-          "id": "premarket-note",
-          "headline": "Specific US Pre-Market Movers Awaiting Further Data",
-          "summary": "As of early Monday morning UTC, specific real-time top gainers and losers for the US market's pre-market session on February 23, 2026, with confirmed price and percentage changes, are still developing or not widely reported in current real-time feeds. Market participants are closely monitoring the impact of the latest tariff announcements.",
-          "tags": [
-            "Pre-Market",
-            "Market Dynamics"
-          ]
+          "id": "glw-gainer",
+          "headline": "Corning ($GLW)",
+          "summary": "Corning saw significant gains today.",
+          "ticker": "$GLW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.32%",
+          "direction": "up"
+        },
+        {
+          "id": "fix-gainer",
+          "headline": "Comfort Systems USA ($FIX)",
+          "summary": "Comfort Systems USA advanced after reporting strong Q4 and full year 2025 results and a higher dividend.",
+          "ticker": "$FIX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.46%",
+          "direction": "up"
+        },
+        {
+          "id": "nbis-loser",
+          "headline": "Nebius Group ($NBIS)",
+          "summary": "Nebius Group experienced a notable decline.",
+          "ticker": "$NBIS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.00%",
+          "direction": "down"
+        },
+        {
+          "id": "crwv-loser",
+          "headline": "CoreWeave ($CRWV)",
+          "summary": "CoreWeave fell amidst concerns surrounding AI data center financing and ownership changes.",
+          "ticker": "$CRWV",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.12%",
+          "direction": "down"
+        },
+        {
+          "id": "net-loser",
+          "headline": "Cloudflare ($NET)",
+          "summary": "Cloudflare shares dropped as security stocks pulled back following reactions to Claude Code Security headlines.",
+          "ticker": "$NET",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.05%",
+          "direction": "down"
         }
       ]
     },
@@ -90,66 +126,48 @@
       "layout": "list",
       "items": [
         {
-          "id": "tariff-impact",
-          "headline": "Trump's Renewed Tariff Plans Spark Market Uncertainty",
-          "summary": "President Donald Trump's intent to raise global tariffs to 15% after a Supreme Court ruling against his previous 'reciprocal' tariff policy is a primary driver of today's cautious market sentiment. This new layer of trade policy uncertainty is impacting global trade dynamics and investor confidence.",
-          "tags": [
-            "Tariffs",
-            "Trade Policy",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Fed Remains Cautious on Rate Cuts, Awaiting Further Inflation Data",
-          "summary": "Federal Reserve officials reiterated at their last meeting that they require further evidence of falling inflation before they would consider additional rate cuts. This stance keeps interest rate expectations in focus for investors.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "earnings-week-ahead",
-          "headline": "Nvidia Earnings Lead a Busy Week for Corporate Reports",
-          "summary": "This week features several significant earnings reports, with Nvidia ($NVDA) on Wednesday drawing considerable attention for insights into the artificial intelligence sector. Other companies scheduled to report include Lucid ($LCID), Home Depot ($HD), AMC Entertainment ($AMC), Salesforce ($CRM), Snowflake ($SNOW), Baidu ($BIDU), and Warner Bros. Discovery ($WBD).",
-          "tags": [
-            "Earnings",
-            "Nvidia",
-            "AI",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Releases Scheduled for the Week",
-          "summary": "Investors will be monitoring a series of economic data releases throughout the week. Today, factory orders data is expected. Tuesday will bring the S&P Case-Shiller Home Price Index, wholesale inventories, and consumer confidence. Later in the week, initial jobless claims on Thursday and the Producer Price Index (PPI) on Friday will provide further economic indicators.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Consumer Confidence"
-          ]
-        },
-        {
-          "id": "commodity-moves",
-          "headline": "Crude Oil Dips, Gold and Silver Rise in Early Trading",
-          "summary": "In early Monday trading, benchmark U.S. crude oil prices have fallen. Conversely, the prices of gold and silver have seen increases, with gold up 1.9% and silver up 5.5%, potentially reflecting safe-haven demand amidst market uncertainty.",
-          "tags": [
-            "Commodities",
-            "Oil",
-            "Gold",
-            "Silver"
-          ]
-        },
-        {
-          "id": "sector-trends",
-          "headline": "Small Caps Outperformed in January; Tech and Materials Show Mixed Trends",
-          "summary": "In January, small-cap stocks (Russell 2000) surged, outperforming large-cap counterparts, driven by lower interest rates and a rotation towards more cyclical and domestically focused sectors. Energy and Materials led sector gains for the month. While information technology and communication services showed strong Q4 earnings growth, the IT sector was among the worst performers in the S&P 500 in January, indicating shifting leadership.",
+          "id": "sector-analysis-20260223",
+          "headline": "Sector Performance: Communication Services Lead, Energy and IT Lag",
+          "summary": "The Communication Services Select Sector SPDR (XLC) surged by 2.7%, with Consumer Discretionary (XLY) up 1.3% and Financials (XLF) gaining 0.7% among leading sectors. Conversely, the Energy Select Sector SPDR (XLE) declined by 0.7%. In the Indian market, the Nifty IT sector notably fell 1.42%, with IT stocks globally facing pressure due to concerns over AI-related disruptions and global brokerage downgrades.",
           "tags": [
             "Sector Analysis",
-            "Small Caps",
+            "Communication Services",
+            "Consumer Discretionary",
+            "Financials",
+            "Energy",
+            "Information Technology"
+          ]
+        },
+        {
+          "id": "tariff-impact-20260223",
+          "headline": "U.S. Supreme Court Strikes Down Tariffs, New 15% Global Tariff Announced",
+          "summary": "The U.S. Supreme Court issued a 6-3 ruling, asserting that President Trump lacked the authority to impose tariffs under the International Emergency Economic Powers Act (IEEPA). Immediately following this, President Trump announced a new 15% global tariff under Section 122 of the Trade Act of 1974, set to take effect on February 24th for a period of 150 days. This decision initially provided some market relief but then injected fresh uncertainty, leading to a dip in U.S. stock futures.",
+          "tags": [
+            "Economic Policy",
+            "Trade",
+            "Supreme Court"
+          ]
+        },
+        {
+          "id": "economic-data-20260223",
+          "headline": "U.S. GDP Misses Estimates, Fed Watch on Inflation Continues",
+          "summary": "The U.S. economy's Gross Domestic Product (GDP) expanded at an annualized rate of 1.4% in Q4 2025, falling short of the consensus estimate of 2.9%. The Federal Reserve maintains a hawkish stance, with officials emphasizing the need for further declines in inflation before considering rate cuts, as the core PCE price index is running at 3% year-over-year.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "Inflation",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "nvidia-earnings-20260223",
+          "headline": "Nvidia Earnings Anticipated Mid-Week, Q4 Earnings Season Nears Close",
+          "summary": "Investor attention is keenly focused on Nvidia's ($NVDA) earnings report, expected after the market close on Wednesday, February 25. This report is considered a key event for equity markets given the company's influence in the AI sector. Q4 U.S. earnings season is concluding, with blended earnings growth for S&P 500 constituents currently exceeding 14%, significantly higher than earlier estimates. Other companies reporting Q4 2025 earnings this week include Axsome Therapeutics, Domino's Pizza, and Dominion Energy.",
+          "tags": [
+            "Earnings Report",
+            "Nvidia",
             "Technology",
-            "Materials"
+            "AI"
           ]
         }
       ]
