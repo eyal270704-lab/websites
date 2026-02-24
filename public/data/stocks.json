@@ -1,238 +1,193 @@
 {
-  "generatedAt": "2026-02-23T17:03:00Z",
+  "generatedAt": "2026-02-24T07:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Tariffs Spark Broad Sell-off",
-  "subtitle": "February 23, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "February 24, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-20260223",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260223",
-          "headline": "US Equities Plunge Amid Renewed Tariff Uncertainty",
-          "summary": "U.S. stock markets experienced a significant downturn today, with all major indices diving more than 1.5% in a high-velocity sell-off. The aggressive downturn followed a pivotal Supreme Court ruling that struck down President Donald Trump's sweeping emergency tariff policies, triggering an immediate and fiery retaliation from the White House with new 15% across-the-board tariffs. Overall market sentiment was highly cautious, with trading volume surging amid panic selling and reflecting broad-based declines across sectors.",
+          "id": "market-summary-1",
+          "headline": "US Futures Stabilize Amid Tariff and AI Concerns; Market Sentiment Shifting",
+          "summary": "US stock futures show signs of stabilization on Tuesday, following a significant selloff in the prior session. Market sentiment remains influenced by ongoing concerns regarding rapid advancements in artificial intelligence leading to economic disruption, coupled with uncertainty surrounding US trade policy and escalating geopolitical tensions. Notably, a broader market rotation is underway, with smaller and mid-cap stocks demonstrating strength over the previously dominant mega-cap technology firms. This is not financial advice.",
           "tags": [
-            "Market Summary",
+            "Market Sentiment",
+            "AI",
             "Tariffs",
-            "Economic Policy"
-          ]
+            "Geopolitics"
+          ],
+          "timestamp": "2026-02-24T07:50:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260223",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260223",
-          "statLabel": "S&P 500",
-          "statValue": "6,829.79",
-          "statContext": "Down 79.72 points (-1.15%)"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500 (Feb 24)",
+          "statValue": "6857",
+          "statContext": "Up 0.29% from previous session"
         },
         {
-          "id": "nasdaq-20260223",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,560.00",
-          "statContext": "Down 326.07 points (-1.42%)"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones (Feb 24 Open Est.)",
+          "statValue": "49,625.97",
+          "statContext": "Opened flat to +50 points; closed up 0.47% on Friday"
         },
         {
-          "id": "dow-20260223",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48,854.05",
-          "statContext": "Down 771.92 points (-1.56%)"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ (Feb 23 Close)",
+          "statValue": "Declined",
+          "statContext": "Dropped 1.13% on Monday"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.27%",
+          "statContext": "As of Feb 23, 2026 pre-market"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "-0.45%",
+          "statContext": "As of Feb 23, 2026 pre-market"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "-0.26%",
+          "statContext": "As of Feb 23, 2026 pre-market"
         }
       ]
     },
     {
-      "id": "top-movers-20260223",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (Pre-Market / Feb 23 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-arcellx-20260223",
-          "headline": "Arcellx ($ACLX) Surges on Acquisition News",
-          "summary": "Shares of Arcellx jumped 78% after Gilead Sciences agreed to acquire the biotech for $115 per share in cash plus a CVR, valuing the deal at approximately $7.8 billion.",
+          "id": "gainer-nby",
+          "headline": "NovaBay Pharmaceuticals Inc. Soars",
+          "summary": "Shares of NovaBay Pharmaceuticals Inc. ($NBY) surged significantly in pre-market trading.",
+          "ticker": "$NBY",
+          "price": "$2.80",
+          "change": "+$2.05",
+          "changePercent": "+365.74%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-aclx",
+          "headline": "Arcellx, Inc. Rises on Pre-Market Activity",
+          "summary": "Arcellx, Inc. ($ACLX) experienced a substantial gain during the pre-market session.",
           "ticker": "$ACLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+78%",
+          "price": "$114.19",
+          "change": "+$49.99",
+          "changePercent": "+78.12%",
           "direction": "up"
         },
         {
-          "id": "gainer-vanda-20260223",
-          "headline": "Vanda Pharmaceuticals ($VNDA) Rises on FDA Approval",
-          "summary": "Vanda Pharmaceuticals shares surged 49% following FDA approval of Bysanti (milsaperidone) for bipolar I disorder and schizophrenia.",
+          "id": "gainer-vnda",
+          "headline": "Vanda Pharmaceuticals Up on FDA News",
+          "summary": "Vanda Pharmaceuticals Inc. ($VNDA) saw a significant increase, likely buoyed by news of FDA approval for BYSANTI™ (milsape...).",
           "ticker": "$VNDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+49%",
+          "price": "$8.04",
+          "change": "+$2.28",
+          "changePercent": "+39.58%",
           "direction": "up"
         },
         {
-          "id": "gainer-veris-20260223",
-          "headline": "Veris Residential ($VRE) Climbs on Acquisition Deal",
-          "summary": "Multifamily REIT Veris Residential saw shares climb 12% after exceeding Q4 results and agreeing to be acquired by an investor group for $19 per share in cash.",
-          "ticker": "$VRE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-gossamer-20260223",
-          "headline": "Gossamer Bio ($GOSS) Plummets",
-          "summary": "Gossamer Bio, Inc. experienced a significant drop, closing down 80.38% today.",
+          "id": "loser-goss",
+          "headline": "Gossamer Bio, Inc. Plummets",
+          "summary": "Gossamer Bio, Inc. ($GOSS) witnessed a sharp decline in pre-market trading.",
           "ticker": "$GOSS",
-          "price": "$0.418",
-          "change": "N/A",
-          "changePercent": "-80.38%",
+          "price": "$0.60",
+          "change": "-$1.50",
+          "changePercent": "-71.83%",
           "direction": "down"
         },
         {
-          "id": "loser-unitedhomes-20260223",
-          "headline": "United Homes Group ($UHG) Faces Steep Decline",
-          "summary": "United Homes Group, Inc. shares fell sharply, down 50.42%.",
+          "id": "loser-uhg",
+          "headline": "United Homes Group, Inc. Halves in Value",
+          "summary": "United Homes Group, Inc. ($UHG) saw its stock price cut in half in pre-market activity.",
           "ticker": "$UHG",
-          "price": "$1.180",
-          "change": "N/A",
-          "changePercent": "-50.42%",
+          "price": "$1.19",
+          "change": "-$1.19",
+          "changePercent": "-50.00%",
           "direction": "down"
         },
         {
-          "id": "loser-novo-nordisk-20260223",
-          "headline": "Novo Nordisk ($NVO) Drops After Drug Trial Failure",
-          "summary": "Shares of Novo Nordisk plunged 15% after its experimental obesity drug CagriSema failed to meet a key endpoint.",
+          "id": "loser-nvo",
+          "headline": "Novo Nordisk A/S Declines",
+          "summary": "Novo Nordisk A/S ($NVO) fell significantly, reflecting market concerns over its future performance.",
           "ticker": "$NVO",
-          "price": "$40.17",
-          "change": "N/A",
-          "changePercent": "-15%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-tesla-20260223",
-          "headline": "Tesla ($TSLA) Slides Amid Broader Tech Weakness",
-          "summary": "Tesla dropped 3.31% today to $398.20 as 'Magnificent Seven' stocks took a hit.",
-          "ticker": "$TSLA",
-          "price": "$398.20",
-          "change": "N/A",
-          "changePercent": "-3.31%",
+          "price": "$40.04",
+          "change": "-$7.37",
+          "changePercent": "-15.56%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-20260223",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "supreme-court-tariffs-20260223",
-          "headline": "Supreme Court Rules Against Trump Tariffs, New Tariffs Imposed",
-          "summary": "The U.S. Supreme Court ruled 6-3 that President Trump did not have the authority to impose tariffs under the International Emergency Economic Powers Act (IEEPA). In response, President Trump announced new 15% across-the-board tariffs, leading to market jitters.",
-          "tags": [
-            "Economic Policy",
-            "Trade",
-            "Tariffs"
-          ]
-        },
-        {
-          "id": "fed-waller-speech-20260223",
-          "headline": "Fed Governor Waller Expresses Skepticism on Jobs Data, Hints at March Rate Cut",
-          "summary": "Federal Reserve Board Governor Christopher Waller spoke on the economic outlook, expressing skepticism regarding the January jobs surge and suggesting a possible 25-basis-point reduction in the policy rate could be appropriate at the March meeting if February labor market data is weak.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Labor Market"
-          ]
-        },
-        {
-          "id": "gdp-inflation-data-20260223",
-          "headline": "Q4 2025 GDP Misses Estimates, Core PCE Accelerates",
-          "summary": "The U.S. GDP for Q4 2025 grew at an annual rate of 1.4%, missing the consensus estimate of 2.9%. Core Personal Consumption Expenditures (PCE) accelerated to 3.0%, higher than expectations, driven largely by inflation in services prices.",
-          "tags": [
-            "Economic Data",
-            "GDP",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions-20260223",
-          "headline": "Geopolitical Tensions Drive Up Gold, Oil Prices",
-          "summary": "Rising US-Iran tensions have contributed to an increase in oil and gold prices. Gold surged over 2% to $5,200 an ounce today, while Brent crude experienced a slight decline to USD 71.49 per barrel. Bitcoin also dipped below $66,000, signaling risk-off sentiment.",
-          "tags": [
-            "Geopolitics",
-            "Commodities",
-            "Gold",
-            "Oil",
-            "Bitcoin"
-          ]
-        },
-        {
-          "id": "amc-earnings-20260223",
-          "headline": "AMC Entertainment Holdings Reports Q4 and Full Year 2025 Results",
-          "summary": "AMC Entertainment Holdings, Inc. ($AMC) reported its financial results for the fourth quarter and full year ended December 31, 2025.",
-          "tags": [
-            "Earnings Report",
-            "Company News",
-            "Entertainment"
-          ]
-        },
-        {
-          "id": "it-sector-aidoff-20260223",
-          "headline": "IT Stocks Face Headwinds from AI Disruption and Downgrades",
-          "summary": "Globally, IT stocks, particularly in the Indian market, were among the top losers today. Analysts attributed the correction to AI-driven disruption in the IT sector and global brokerage downgrades.",
+          "id": "sector-rotation",
+          "headline": "Shift in Market Leadership: Small-Caps Outperform Mega-Cap Tech",
+          "summary": "Early 2026 data indicates a significant market rotation, with the equal-weighted S&P 500 (RSP) outperforming the traditional market-cap-weighted S&P 500 (SPX). Small-cap stocks, as represented by the Russell 2000, are showing pronounced strength, suggesting a notable shift in investor capital towards cyclical and defensive sectors and away from the concentrated dominance of mega-cap technology firms.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Artificial Intelligence"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sector-analysis-20260223",
-      "title": "Sector Analysis (US)",
-      "cardType": "stat",
-      "layout": "list",
-      "items": [
-        {
-          "id": "sector-comm-services-20260223",
-          "statLabel": "Communication Services (XLC)",
-          "statValue": "$116.74",
-          "statContext": "-0.05%"
+            "Market Rotation",
+            "Small-Cap",
+            "Tech"
+          ],
+          "timestamp": "2026-02-24T07:50:00Z"
         },
         {
-          "id": "sector-energy-20260223",
-          "statLabel": "Energy (XLE)",
-          "statValue": "$54.87",
-          "statContext": "-0.02%"
+          "id": "ai-tariff-impact",
+          "headline": "AI Disruption Fears and New Tariffs Continue to Weigh on Markets",
+          "summary": "Concerns over AI-led economic disruption persist, especially impacting software and payment companies, which saw significant losses on Monday. Adding to the anxiety, President Donald Trump immediately imposed a new 10% global tariff on all imports after the Supreme Court struck down his reciprocal tariffs, leading to warnings from Europe about potential jeopardized trade deals.",
+          "tags": [
+            "Economic News",
+            "AI",
+            "Trade Policy",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-02-24T07:50:00Z"
         },
         {
-          "id": "sector-consumer-discretionary-20260223",
-          "statLabel": "Consumer Discretionary (XLY)",
-          "statValue": "N/A",
-          "statContext": "Slightly positive movement on Friday, but likely down in today's broader market decline."
+          "id": "earnings-reports",
+          "headline": "Key Earnings Reports on Tap for Tuesday",
+          "summary": "Several major companies are scheduled to release their earnings reports prior to market open today, February 24, 2026. These include Home Depot, Inc. ($HD), Amer Sports, Inc. ($AS), Expeditors International of Washington, Inc. ($EXPD), Westlake Corporation ($WLK), and Leonardo DRS, Inc. ($DRS). Home Depot's consensus earnings per share forecast is $2.52, representing a 19.49% decrease compared to the same quarter last year.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
+          ],
+          "timestamp": "2026-02-24T07:50:00Z"
         },
         {
-          "id": "sector-financial-20260223",
-          "statLabel": "Financial (XLF)",
-          "statValue": "$52.20",
-          "statContext": "-0.55%"
-        },
-        {
-          "id": "sector-technology-20260223",
-          "statLabel": "Technology (XLK)",
-          "statValue": "N/A",
-          "statContext": "Faced headwinds due to broader market decline and AI disruption."
+          "id": "economic-data-releases",
+          "headline": "Economic Data Releases Expected Today",
+          "summary": "The economic calendar for February 24, 2026, includes releases such as the FHFA Home Price Index, the Richmond Fed Index, and various Treasury Auctions. Investors will be monitoring these releases for further indications of economic health. Last week's Q4 GDP growth came in at 1.4%, below the 2.5% expectation, reflecting declines in federal and consumer spending.",
+          "tags": [
+            "Economic Data",
+            "Fed",
+            "Treasury"
+          ],
+          "timestamp": "2026-02-24T07:50:00Z"
         }
       ]
     }
