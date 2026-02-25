@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-24T17:09:00Z",
+  "generatedAt": "2026-02-25T14:30:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 24, 2026",
-  "subtitle": "Market attempts a rebound amid lingering tariff and AI concerns",
+  "title": "Daily Market Digest",
+  "subtitle": "February 25, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,49 +13,54 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb24",
-          "headline": "U.S. Stocks Steadier After Monday's Slide",
-          "summary": "U.S. equities showed signs of stabilizing on Tuesday, attempting a rebound after significant losses on Monday. The market remains cautious as investors navigate uncertainties around new global tariffs and ongoing concerns over artificial intelligence's disruptive impact on various sectors. While major indices edged higher in morning trading, fears of an AI-induced shake-up in the tech sector and geopolitical tensions continue to influence sentiment.",
+          "id": "market-summary-feb25",
+          "headline": "U.S. Markets Exhibit Mixed Trading Amid AI Optimism and Fed Caution",
+          "summary": "U.S. equities saw mixed movements today as investors weighed continued optimism surrounding artificial intelligence developments against the Federal Reserve's cautious stance on interest rate cuts. A rally in technology shares, particularly those involved in AI, extended into the session, driving some benchmarks higher. However, concerns about inflation remaining at 3% are leading Fed officials to emphasize a prolonged pause in rate adjustments, impacting overall market sentiment.",
           "tags": [
-            "Market Rebound",
-            "Tariffs",
-            "AI Concerns"
+            "Market Summary",
+            "AI",
+            "Fed Policy"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-feb24",
-          "statLabel": "S&P 500 (SPX)",
-          "statValue": "$6879.77",
-          "statContext": "Up 0.61% (as of 11:54 AM ET). On Monday, it lost 1.04% to close at 6,837.75.",
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "6897.00",
+          "statContext": "Up 0.10% today",
+          "ticker": "$SPX",
+          "price": "6897.00",
+          "change": "+6.89",
+          "changePercent": "+0.10%",
           "direction": "up"
         },
         {
-          "id": "dow-feb24",
-          "statLabel": "Dow Jones Industrial Average (DJIA)",
-          "statValue": "+219 points",
-          "statContext": "Up 0.4% (as of 10:05 AM ET). On Monday, it fell 1.7% to close at 48,804.06.",
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "23041.53",
+          "statContext": "Up 0.10% today",
+          "ticker": "$IXIC",
+          "price": "23041.53",
+          "change": "+23.03",
+          "changePercent": "+0.10%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-feb24",
-          "statLabel": "NASDAQ Composite (IXIC)",
-          "statValue": "+0.2%",
-          "statContext": "Up 0.2% (as of 10:05 AM ET). On Monday, it declined 1.1% to close at 22,627.27.",
-          "direction": "up"
-        },
-        {
-          "id": "vix-feb23",
-          "statLabel": "CBOE Volatility Index (VIX)",
-          "statValue": "21.01",
-          "statContext": "Increased by 10.1% on Monday",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49220.00",
+          "statContext": "Up 0.05% today",
+          "ticker": "$DJI",
+          "price": "49220.00",
+          "change": "+24.61",
+          "changePercent": "+0.05%",
           "direction": "up"
         }
       ]
@@ -67,200 +72,91 @@
       "layout": "grid",
       "items": [
         {
-          "id": "vir-gainer",
-          "headline": "Vir Biotechnology surges on prostate cancer drug partnership",
-          "ticker": "$VIR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+30%",
-          "direction": "up",
-          "summary": "Shares of Vir Biotechnology surged after announcing a partnership with Astellas Pharma to develop and commercialize a CD3 T-cell engager for metastatic castration-resistant prostate cancer."
-        },
-        {
-          "id": "clvt-gainer",
-          "headline": "Clarivate jumps on upbeat Q4 and potential divestiture",
-          "ticker": "$CLVT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+30%",
-          "direction": "up",
-          "summary": "Clarivate's shares soared following strong Q4 results and news of active discussions to sell its Life Sciences & Healthcare segment, aiming to reduce leverage and strengthen its balance sheet."
-        },
-        {
-          "id": "keys-gainer",
-          "headline": "Keysight Technologies rallies on strong FQ1 and outlook",
-          "ticker": "$KEYS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+21%",
-          "direction": "up",
-          "summary": "Keysight Technologies saw a significant jump after its FQ1 results and outlook surpassed estimates, driven by robust demand from AI, aerospace and defense, and semiconductor test markets."
-        },
-        {
           "id": "amd-gainer",
-          "headline": "AMD climbs on Meta AI infrastructure partnership",
+          "headline": "AMD Surges on Meta AI Deal",
+          "summary": "Advanced Micro Devices ($AMD) rallied significantly following news of a multiyear deal to supply chips to Meta Platforms for its AI data centers.",
           "ticker": "$AMD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7%",
-          "direction": "up",
-          "summary": "Advanced Micro Devices shares climbed after announcing a multi-year AI infrastructure partnership with Meta Platforms, which could involve Meta deploying up to 6 gigawatts of AMD Instinct chips."
+          "price": "$214.85",
+          "change": "+$18.30",
+          "changePercent": "+9.28%",
+          "direction": "up"
         },
         {
-          "id": "hd-gainer",
-          "headline": "Home Depot gains on earnings beat and dividend hike",
-          "ticker": "$HD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+2.7%",
-          "direction": "up",
-          "summary": "Home Depot rose after reporting stronger-than-expected profits and revenue for the end of 2025, and also increased its quarterly dividend."
+          "id": "hcltech-gainer",
+          "headline": "HCL Technologies Continues Climb",
+          "summary": "Indian IT major HCL Technologies ($HCLTECH) saw strong gains, benefiting from positive sectoral momentum in the technology space.",
+          "ticker": "$HCLTECH",
+          "price": "₹1500.20",
+          "change": "+₹48.33",
+          "changePercent": "+3.31%",
+          "direction": "up"
         },
         {
-          "id": "nvo-loser",
-          "headline": "Novo Nordisk tumbles on CagriSema trial data",
-          "ticker": "$NVO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-16.4%",
-          "direction": "down",
-          "summary": "U.S.-traded shares of Novo Nordisk tumbled after trial data for its CagriSema drug showed people lost a smaller percentage of weight than with a rival drug from Eli Lilly."
+          "id": "dillards-loser",
+          "headline": "Dillard's Stock Retreats",
+          "summary": "Retailer Dillard's ($DDS) saw its shares decline today, continuing a trend of profit booking and concerns over consumer spending in the sector.",
+          "ticker": "$DDS",
+          "price": "$385.10",
+          "change": "-$28.20",
+          "changePercent": "-6.82%",
+          "direction": "down"
         },
         {
-          "id": "crwd-loser",
-          "headline": "CrowdStrike drops amid AI disruption fears in cybersecurity",
-          "ticker": "$CRWD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.8%",
-          "direction": "down",
-          "summary": "CrowdStrike Holdings, Inc. fell sharply, as the cybersecurity industry faced worries of disruption following Anthropic's unveiling of a new AI-powered code-scanning tool."
-        },
-        {
-          "id": "appl-loser",
-          "headline": "AppLovin sinks on AI competition worries",
-          "ticker": "N/A",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.1%",
-          "direction": "down",
-          "summary": "AppLovin sank amidst rising concerns that AI competition will impact software companies by stealing customers and fundamentally reshaping their industries."
-        },
-        {
-          "id": "ual-loser",
-          "headline": "Airlines fall due to widespread flight cancellations",
-          "ticker": "$UAL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.2%",
-          "direction": "down",
-          "summary": "United Airlines lost ground as heavy snow and high winds led to the cancellation of thousands of flights across the busy Northeast."
-        },
-        {
-          "id": "msft-loser",
-          "headline": "Microsoft declines as tech stocks face AI disruption concerns",
-          "ticker": "$MSFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.2%",
-          "direction": "down",
-          "summary": "Microsoft Corporation's shares fell as tech stocks continued to be weighed down by concerns over AI-induced disruption in the market."
+          "id": "expeditors-loser",
+          "headline": "Expeditors International Faces Headwinds",
+          "summary": "Logistics firm Expeditors International of Washington ($EXPD) experienced a notable drop in share price, potentially due to broader market volatility and sector-specific challenges.",
+          "ticker": "$EXPD",
+          "price": "$115.75",
+          "change": "-$10.87",
+          "changePercent": "-8.58%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-2026",
-          "headline": "Rotation Towards 'Real Economy' Stocks Continues",
-          "summary": "Industrial, consumer defensive, and energy sectors are leading the stock market higher in 2026, outperforming technology as investors seek returns beyond the AI trade. Industrials, up over 16% this year, are benefiting from the AI data center buildout with companies like Caterpillar ($CAT) supplying generators. Consumer defensives, up 13.3% led by Walmart ($WMT) and Costco ($COST), are gaining from slowing consumer spending. Energy stocks, up more than 22% with Exxon Mobil ($XOM) and Chevron ($CVX) at the forefront, are propelled by rising oil prices.",
+          "id": "fed-caution",
+          "headline": "Fed Officials Maintain Cautious Stance on Rate Cuts Amid 3% Inflation",
+          "summary": "Federal Reserve officials continue to emphasize the need for patience regarding interest rate cuts, citing inflation remaining at 3%. Chicago Fed President Austan Goolsbee highlighted the risks of easing monetary policy too soon, reinforcing the Fed's commitment to its 2% inflation target.",
           "tags": [
-            "Sector Rotation",
-            "Industrials",
-            "Consumer Defensives",
-            "Energy",
-            "Tech Slowdown"
+            "Fed",
+            "Monetary Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "tech-lagging",
-          "headline": "Technology and Communication Services Lag Amid AI Disruption Fears",
-          "summary": "Technology and Communication Services sectors are among those faltering, as fears of AI-induced disruption intensify. The U.S. Software sector has already dropped 22% this month due to concerns that AI tools could replace software services and lead to widespread job losses.",
+          "id": "ai-optimism",
+          "headline": "AI Developments Drive Tech Sector Rebound",
+          "summary": "Optimism surrounding artificial intelligence has spurred a rebound in technology shares, with major deals like AMD supplying chips to Meta Platforms boosting sentiment. This comes after weeks of turmoil for some tech stocks amid concerns over AI's disruptive potential.",
           "tags": [
+            "AI",
             "Technology",
-            "Communication Services",
-            "AI Impact"
+            "Sector Performance"
           ]
         },
         {
-          "id": "financials-underperform",
-          "headline": "Financials Underperform, VIX Rises",
-          "summary": "On Monday, the Financials Select Sector SPDR ($XLF) fell 3.3%, indicating significant underperformance. The CBOE Volatility Index (VIX), a fear gauge, increased by 10.1% to 21.01, reflecting heightened market uncertainty.",
+          "id": "q42025-earnings",
+          "headline": "Key Companies Report Q4 2025 Earnings",
+          "summary": "Today sees several companies releasing their fourth-quarter 2025 earnings. Notable reports include Grupo Aeroportuario del Sureste ($ASUR) with its earnings call, and Bureau Veritas SA ($BVI) surpassing adjusted operating margin estimates. NVIDIA Corporation ($NVDA) earnings are also closely watched, given their significant impact on the technology sector.",
           "tags": [
-            "Financials",
-            "Volatility",
-            "Market Sentiment"
+            "Earnings",
+            "Q4 2025",
+            "Corporate News"
           ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Trends",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
+        },
         {
-          "id": "consumer-confidence-feb26",
-          "headline": "U.S. Consumer Confidence Improves in February",
-          "summary": "The Conference Board Consumer Confidence Index increased by 2.2 points to 91.2 in February, up from a revised 89.0 in January. Consumers showed less pessimism about future business conditions, despite some softening in planned spending on services. This data, with a cutoff of February 17, 2026, suggests a slight easing in pessimistic expectations.",
+          "id": "economic-data",
+          "headline": "Eurozone CPI and U.S. Business Employment Data Released Today",
+          "summary": "Today's economic calendar includes the final January CPI for the Eurozone and the release of Quarterly Data Series on Business Employment Dynamics for Q2 2025 in the U.S. These data points provide insights into European inflation trends and U.S. labor market conditions, respectively.",
           "tags": [
             "Economic Data",
-            "Consumer Confidence"
-          ]
-        },
-        {
-          "id": "fed-rates-comment",
-          "headline": "Fed Governor Signals 'Coin Flip' on March Rate Cut",
-          "summary": "Federal Reserve Governor Christopher Waller stated on Monday that there's a 'coin flip' chance on whether the Fed will cut its main interest rate at its next meeting in March or maintain current levels.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "trump-tariffs-feb24",
-          "headline": "New 10% Global Tariffs Take Effect, Causing Trade Uncertainty",
-          "summary": "New 10% global tariffs went live today, February 24, 2026, utilizing Trade Act authority after the U.S. Supreme Court blocked earlier reciprocal levies. This policy change is fueling a 2% spike in gold prices as a safe-haven asset, and Japan has expressed intentions to scrutinize the impact on its industries. The uncertainty surrounding U.S. trade policy continues to weigh on market sentiment.",
-          "tags": [
-            "Trade Policy",
-            "Tariffs",
-            "Geopolitics",
-            "Gold"
-          ]
-        },
-        {
-          "id": "earnings-homedepot-keysight",
-          "headline": "Home Depot and Keysight Deliver Strong Earnings",
-          "summary": "Home Depot ($HD) announced fourth-quarter and fiscal 2025 results that exceeded analyst expectations for both profit and revenue, also raising its quarterly dividend. Keysight Technologies ($KEYS) reported FQ1 results and an outlook that topped estimates, driven by demand in AI, aerospace and defense, and semiconductor test markets.",
-          "tags": [
-            "Earnings Reports",
-            "Retail",
-            "Technology"
-          ]
-        },
-        {
-          "id": "nvidia-earnings-preview",
-          "headline": "Nvidia Q4 Earnings Expected Tomorrow, Key for AI Sector",
-          "summary": "Nvidia ($NVDA) is scheduled to release its results for the fourth quarter of fiscal year 2026 tomorrow, February 25, 2026, after market close. This report is highly anticipated and will be a critical reference point for the semiconductor and broader AI sector, influencing discussions on the 'peak AI' narrative.",
-          "tags": [
-            "Earnings Preview",
-            "AI",
-            "Semiconductors"
+            "CPI",
+            "Employment"
           ]
         }
       ]
