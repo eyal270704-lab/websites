@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-25T14:30:00Z",
+  "generatedAt": "2026-02-25T12:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "February 25, 2026",
+  "title": "Daily Market Digest: February 25, 2026",
+  "subtitle": "Market sentiment cautiously optimistic ahead of key earnings.",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb25",
-          "headline": "U.S. Markets Exhibit Mixed Trading Amid AI Optimism and Fed Caution",
-          "summary": "U.S. equities saw mixed movements today as investors weighed continued optimism surrounding artificial intelligence developments against the Federal Reserve's cautious stance on interest rate cuts. A rally in technology shares, particularly those involved in AI, extended into the session, driving some benchmarks higher. However, concerns about inflation remaining at 3% are leading Fed officials to emphasize a prolonged pause in rate adjustments, impacting overall market sentiment.",
+          "id": "market-summary-20260225",
+          "headline": "U.S. Futures Edge Up as Investors Await Nvidia Earnings; AI Optimism Resurfaces",
+          "summary": "U.S. stock futures climbed early Wednesday, reflecting a cautiously optimistic market sentiment as investors geared up for several major earnings reports, most notably AI leader Nvidia ($NVDA) after the bell. This pre-market rise follows Tuesday's broad gains across major indices, with a renewed focus on technology stocks as AI optimism resurfaced after recent fears of disruption.",
           "tags": [
-            "Market Summary",
+            "Market Overview",
             "AI",
-            "Fed Policy"
+            "Earnings"
           ]
         }
       ]
@@ -31,37 +31,40 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-20260225",
+          "headline": "S&P 500 Performance",
           "statLabel": "S&P 500",
-          "statValue": "6897.00",
-          "statContext": "Up 0.10% today",
+          "statValue": "6904.00",
+          "statContext": "Up 0.20% today, following a 0.77% gain on Tuesday.",
           "ticker": "$SPX",
-          "price": "6897.00",
-          "change": "+6.89",
-          "changePercent": "+0.10%",
-          "direction": "up"
+          "change": "+13.80",
+          "changePercent": "+0.20%",
+          "direction": "up",
+          "summary": "The S&P 500 rose 0.20% to 6904 points today, extending gains from Tuesday when it climbed 0.77%. S&P 500 futures were up 0.12% in early Wednesday trading."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-20260225",
+          "headline": "NASDAQ Performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "23041.53",
-          "statContext": "Up 0.10% today",
+          "statValue": "N/A",
+          "statContext": "Futures up 0.17% today, gained 1.04% on Tuesday.",
           "ticker": "$IXIC",
-          "price": "23041.53",
-          "change": "+23.03",
-          "changePercent": "+0.10%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+0.17% (futures)",
+          "direction": "up",
+          "summary": "NASDAQ Composite futures were up 0.17% early Wednesday. On Tuesday, the Nasdaq Composite gained 1.04%."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-20260225",
+          "headline": "Dow Jones Performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49220.00",
-          "statContext": "Up 0.05% today",
-          "ticker": "$DJI",
-          "price": "49220.00",
-          "change": "+24.61",
-          "changePercent": "+0.05%",
-          "direction": "up"
+          "statValue": "N/A",
+          "statContext": "Futures up 0.10% today, rose 0.76% on Tuesday.",
+          "ticker": "$DJIA",
+          "change": "N/A",
+          "changePercent": "+0.10% (futures)",
+          "direction": "up",
+          "summary": "Dow Jones Industrial Average futures were up 0.10% early Wednesday. The DJIA rose 0.76% on Tuesday."
         }
       ]
     },
@@ -72,44 +75,64 @@
       "layout": "grid",
       "items": [
         {
-          "id": "amd-gainer",
-          "headline": "AMD Surges on Meta AI Deal",
-          "summary": "Advanced Micro Devices ($AMD) rallied significantly following news of a multiyear deal to supply chips to Meta Platforms for its AI data centers.",
+          "id": "axon-gainer-20260225",
+          "headline": "Axon Enterprise Soars on Strong Outlook",
+          "ticker": "$AXON",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16%",
+          "direction": "up",
+          "summary": "Axon Enterprise shares jumped 16% after the Taser and body-camera maker surpassed quarterly expectations and projected robust 2026 revenue growth of 27%–30%. The company also set ambitious 2028 targets, citing rising demand across hardware, software, and AI-driven products."
+        },
+        {
+          "id": "cava-gainer-20260225",
+          "headline": "CAVA Group Advances on Upbeat Guidance",
+          "ticker": "$CAVA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9%",
+          "direction": "up",
+          "summary": "CAVA Group shares advanced 9% after the company topped Wall Street estimates and issued upbeat guidance for fiscal year 2026."
+        },
+        {
+          "id": "amd-gainer-20260225",
+          "headline": "AMD Surges on Meta Platforms Deal",
           "ticker": "$AMD",
-          "price": "$214.85",
-          "change": "+$18.30",
-          "changePercent": "+9.28%",
-          "direction": "up"
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.8%",
+          "direction": "up",
+          "summary": "Advanced Micro Devices ($AMD) gained 8.8% on Tuesday following the announcement of a multiyear, 6 gigawatt deal to supply computing capacity to Meta Platforms."
         },
         {
-          "id": "hcltech-gainer",
-          "headline": "HCL Technologies Continues Climb",
-          "summary": "Indian IT major HCL Technologies ($HCLTECH) saw strong gains, benefiting from positive sectoral momentum in the technology space.",
-          "ticker": "$HCLTECH",
-          "price": "₹1500.20",
-          "change": "+₹48.33",
-          "changePercent": "+3.31%",
-          "direction": "up"
+          "id": "salesforce-loser-20260225",
+          "headline": "Salesforce Down Amid AI Disruption Fears",
+          "ticker": "$CRM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-30% (YTD)",
+          "direction": "down",
+          "summary": "Salesforce ($CRM) has seen its shares drop 30% year-to-date amid concerns that new AI tools will disrupt software businesses. The company is scheduled to report its Q4 2026 earnings today."
         },
         {
-          "id": "dillards-loser",
-          "headline": "Dillard's Stock Retreats",
-          "summary": "Retailer Dillard's ($DDS) saw its shares decline today, continuing a trend of profit booking and concerns over consumer spending in the sector.",
-          "ticker": "$DDS",
-          "price": "$385.10",
-          "change": "-$28.20",
-          "changePercent": "-6.82%",
-          "direction": "down"
+          "id": "intuit-loser-20260225",
+          "headline": "Intuit Slumps on AI Concerns",
+          "ticker": "$INTU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-46% (YTD)",
+          "direction": "down",
+          "summary": "Intuit shares have slumped approximately 46% year-to-date due to anxieties surrounding AI disruption in the software industry. The company is set to report its earnings on Thursday."
         },
         {
-          "id": "expeditors-loser",
-          "headline": "Expeditors International Faces Headwinds",
-          "summary": "Logistics firm Expeditors International of Washington ($EXPD) experienced a notable drop in share price, potentially due to broader market volatility and sector-specific challenges.",
-          "ticker": "$EXPD",
-          "price": "$115.75",
-          "change": "-$10.87",
-          "changePercent": "-8.58%",
-          "direction": "down"
+          "id": "copart-loser-20260225",
+          "headline": "Copart Shares Decline on Slow Volume Growth",
+          "ticker": "$CPRT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-13.15% (1-month)",
+          "direction": "down",
+          "summary": "Copart, Inc. ($CPRT) experienced a 13.15% decline over the past month and a 37.30% loss over 52 weeks, attributed to slower volume growth resulting from changes in auto insurance market dynamics."
         }
       ]
     },
@@ -120,43 +143,53 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-caution",
-          "headline": "Fed Officials Maintain Cautious Stance on Rate Cuts Amid 3% Inflation",
-          "summary": "Federal Reserve officials continue to emphasize the need for patience regarding interest rate cuts, citing inflation remaining at 3%. Chicago Fed President Austan Goolsbee highlighted the risks of easing monetary policy too soon, reinforcing the Fed's commitment to its 2% inflation target.",
-          "tags": [
-            "Fed",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "ai-optimism",
-          "headline": "AI Developments Drive Tech Sector Rebound",
-          "summary": "Optimism surrounding artificial intelligence has spurred a rebound in technology shares, with major deals like AMD supplying chips to Meta Platforms boosting sentiment. This comes after weeks of turmoil for some tech stocks amid concerns over AI's disruptive potential.",
-          "tags": [
-            "AI",
-            "Technology",
-            "Sector Performance"
-          ]
-        },
-        {
-          "id": "q42025-earnings",
-          "headline": "Key Companies Report Q4 2025 Earnings",
-          "summary": "Today sees several companies releasing their fourth-quarter 2025 earnings. Notable reports include Grupo Aeroportuario del Sureste ($ASUR) with its earnings call, and Bureau Veritas SA ($BVI) surpassing adjusted operating margin estimates. NVIDIA Corporation ($NVDA) earnings are also closely watched, given their significant impact on the technology sector.",
+          "id": "nvidia-earnings-focus-20260225",
+          "headline": "Nvidia Earnings Eyed as Key Market Driver",
+          "summary": "All eyes are on chip giant Nvidia ($NVDA) as it prepares to release its Q4 2026 results after the market closes today. Analysts view Nvidia's earnings as a crucial bellwether for AI enthusiasm and the overall tech sector's mood, given the company's dominant role in artificial intelligence.",
           "tags": [
             "Earnings",
-            "Q4 2025",
-            "Corporate News"
+            "AI",
+            "Technology"
+          ],
+          "timestamp": "2026-02-25T16:00:00Z"
+        },
+        {
+          "id": "sector-rotation-20260225",
+          "headline": "Market Leadership Shifts Away from Tech and Financials",
+          "summary": "Recent weeks have witnessed a clear shift in market leadership, with technology and financial stocks losing their edge. Sectors that typically perform well in the later stages of the business cycle, such as Energy and Consumer Staples, are gaining prominence. The S&P 500 software and services index is notably down 23% year-to-date.",
+          "tags": [
+            "Sector Analysis",
+            "Market Trends"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Eurozone CPI and U.S. Business Employment Data Released Today",
-          "summary": "Today's economic calendar includes the final January CPI for the Eurozone and the release of Quarterly Data Series on Business Employment Dynamics for Q2 2025 in the U.S. These data points provide insights into European inflation trends and U.S. labor market conditions, respectively.",
+          "id": "economic-data-20260225",
+          "headline": "Strong Hiring Figures, Fed Holds Rates Steady",
+          "summary": "Fresh figures from ADP reveal that private employers added approximately 12,750 jobs per week over the past month, marking the fastest pace since late November. Meanwhile, the Federal Reserve maintained interest rates in January and is anticipated to implement one or two rate cuts in 2026. However, some Fed officials have considered a potential rate hike if inflation persists above target.",
           "tags": [
-            "Economic Data",
-            "CPI",
-            "Employment"
+            "Economic News",
+            "Employment",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "trump-tariffs-20260225",
+          "headline": "Trump Reasserts Tariff Stance Following Supreme Court Ruling",
+          "summary": "During his State of the Union address on Tuesday, President Trump reaffirmed his commitment to tariffs, vowing to replace those recently deemed illegal by the Supreme Court. He announced a new 10% tax on most imports into the U.S., asserting that congressional action would not be necessary and that tariffs would 'substantially replace the modern-day system of income tax.'",
+          "tags": [
+            "Economic News",
+            "Tariffs",
+            "Politics"
+          ]
+        },
+        {
+          "id": "mortgage-rates-20260225",
+          "headline": "Mortgage Rates Decline; Housing Market Challenges Remain",
+          "summary": "National mortgage rates were mostly lower this week, with the 30-year fixed rate decreasing by 0.15% to 6.04%. Despite the lower rates, high home prices, a stagnant job market, and economic uncertainty continue to deter potential homebuyers. The Federal Reserve is expected to maintain its benchmark rate at the upcoming March meeting.",
+          "tags": [
+            "Economic News",
+            "Housing",
+            "Interest Rates"
           ]
         }
       ]
