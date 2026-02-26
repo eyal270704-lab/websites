@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-25T17:11:00Z",
+  "generatedAt": "2026-02-26T07:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: February 25, 2026",
-  "subtitle": "Market closes higher with AI and tech leading the charge",
+  "title": "Daily Market Digest",
+  "subtitle": "February 26, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,42 +13,41 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb25",
-          "headline": "U.S. Stocks Climb on AI Optimism and Economic Data",
-          "summary": "U.S. equity markets closed higher on Wednesday, February 25, 2026, as investors rotated back into technology and artificial intelligence stocks. The rally was fueled by renewed optimism surrounding AI spending, easing concerns over software disruption, and positive economic indicators. Major indices advanced, with the Dow, S&P 500, and Nasdaq all finishing in positive territory.",
+          "id": "market-summary-01",
+          "headline": "AI Optimism and Tariff Jitters Drive Mixed Sentiment",
+          "summary": "Wall Street extended gains for a second consecutive session, fueled by Nvidia's upbeat revenue forecast which revived confidence in the AI trade. The Nasdaq 100 led the rebound, with the S&P 500 and Dow Jones erasing earlier tariff-driven losses. While momentum appears positive in the near term, thinning futures volume and major psychological resistance levels suggest that a straightforward break to new highs may not be imminent. Market sentiment remains cautious, especially following Salesforce's softer guidance and ongoing geopolitical developments concerning tariffs. U.S. stock futures showed a slight decline in early trading, indicating a potentially softer open.",
           "tags": [
-            "Market Summary",
+            "Market Sentiment",
             "AI",
-            "Technology",
-            "Economic Data"
+            "Tariffs"
           ],
-          "timestamp": "2026-02-25T21:00:00Z"
+          "timestamp": "2026-02-26T07:50:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "6,927.93",
-          "statContext": "+0.55% today"
+          "id": "sp500-perf",
+          "statLabel": "S&P 500 (Previous Close)",
+          "statValue": "6,946.13",
+          "statContext": "+0.81% (Feb 25, 2026). Futures were down 0.15% in early trading."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "23,044.10",
-          "statContext": "+0.79% today"
+          "id": "nasdaq-perf",
+          "statLabel": "NASDAQ Composite (Previous Close)",
+          "statValue": "22,863.68",
+          "statContext": "+1.3% (Feb 25, 2026). Futures were down 0.35% in early trading."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,369.65",
-          "statContext": "+0.40% today"
+          "id": "dow-perf",
+          "statLabel": "Dow Jones Industrial Average (Previous Close)",
+          "statValue": "Up 307 points",
+          "statContext": "+0.6% (Feb 25, 2026). Futures were down 0.20% in early trading."
         }
       ]
     },
@@ -59,54 +58,60 @@
       "layout": "grid",
       "items": [
         {
-          "id": "cava-gainer",
-          "headline": "Cava Group Surges on Strong Earnings",
-          "summary": "Shares of Cava Group ($CAVA) jumped 18% after the fast-casual Mediterranean restaurant chain reported better-than-expected profit and revenue for the latest quarter and issued upbeat FY2026 guidance.",
-          "ticker": "$CAVA",
+          "id": "gainer-nvda",
+          "headline": "Nvidia's Earnings Beat Drives Continued AI Focus",
+          "summary": "Nvidia ($NVDA) reported better-than-expected Q4 2026 earnings and revenue after market close on February 25. The stock initially jumped 3.5% after hours, though it later faded below $200 and remained relatively flat in extended trading despite the strong results, as investors assessed the broader implications for the tech sector.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+18.0%",
+          "changePercent": "N/A",
           "direction": "up"
         },
         {
-          "id": "axon-gainer",
-          "headline": "Axon Enterprise Beats Expectations",
-          "summary": "Axon Enterprise ($AXON), the maker of Tasers and body cameras, leaped 16% after reporting stronger-than-anticipated quarterly profit and revenue, alongside a robust 27%-30% revenue growth projection for 2026.",
-          "ticker": "$AXON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+16.0%",
-          "direction": "up"
+          "id": "gainer-tata-motors",
+          "headline": "Tata Motors Leads Indian Market Gains",
+          "ticker": "$TATAMOTORS.NS",
+          "price": "₹390.00",
+          "change": "+₹8.13",
+          "changePercent": "+2.13%",
+          "direction": "up",
+          "tags": [
+            "Indian Market"
+          ]
         },
         {
-          "id": "intel-gainer",
-          "headline": "Intel Rises on Renewed Optimism",
-          "summary": "Intel ($INTC) gained 5.71% to $46.12, driven by renewed optimism in its manufacturing outlook.",
-          "ticker": "$INTC",
-          "price": "$46.12",
-          "change": "N/A",
-          "changePercent": "+5.71%",
-          "direction": "up"
-        },
-        {
-          "id": "firstsolar-loser",
-          "headline": "First Solar Drops on Disappointing Profit",
-          "summary": "First Solar ($FSLR) experienced a 14.2% drop after reporting a weaker profit than analysts had expected.",
-          "ticker": "$FSLR",
+          "id": "gainer-persistent",
+          "headline": "Persistent Systems Shows Strong Performance",
+          "ticker": "$PERSISTENT.NS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14.2%",
+          "changePercent": "+3.24%",
+          "direction": "up",
+          "tags": [
+            "Indian Market"
+          ]
+        },
+        {
+          "id": "loser-crm",
+          "headline": "Salesforce Falls on Disappointing Outlook",
+          "summary": "Salesforce ($CRM) shares fell approximately 5% after the company issued a softer-than-expected Fiscal 2027 revenue guidance.",
+          "ticker": "$CRM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.00%",
           "direction": "down"
         },
         {
-          "id": "waaree-energies-loser",
-          "headline": "Waaree Energies Falls on U.S. Tariffs",
-          "summary": "Waaree Energies saw a significant decline of 10.4% after the United States imposed preliminary duties on solar imports from India.",
-          "ticker": "Waaree Energies",
+          "id": "loser-united-spirits",
+          "headline": "United Spirits Declines in Indian Trading",
+          "ticker": "$UNITDSPR.NS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.4%",
-          "direction": "down"
+          "changePercent": "-0.98%",
+          "direction": "down",
+          "tags": [
+            "Indian Market"
+          ]
         }
       ]
     },
@@ -117,60 +122,43 @@
       "layout": "list",
       "items": [
         {
-          "id": "nvidia-earnings-preview",
-          "headline": "Nvidia Q4 Earnings in Focus Post-Market",
-          "summary": "Nvidia ($NVDA) is set to report its highly anticipated fourth-quarter earnings after the market closes today. Analysts project a surge in Q4 earnings of over 70% and Q1 earnings growth nearing 99%, with expected revenues around $65.56 billion. The report is considered a key indicator for the broader AI sector.",
+          "id": "sector-tech-ai",
+          "headline": "Technology and AI Sectors Remain in Focus",
+          "summary": "Technology stocks, particularly those linked to Artificial Intelligence, continue to drive market movements. While Nvidia's strong earnings fueled optimism, some software companies have experienced declines due to concerns about AI disruption. Communication Services and Healthcare also showed strength.",
+          "tags": [
+            "Sectors",
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Jobless Claims and PPI Data Awaited",
+          "summary": "Investors are looking ahead to the release of weekly jobless claims data today and the January Producer Price Index (PPI) report on Friday, which could provide further insights into the economic landscape. The Federal Trade Commission is also hosting a workshop today on measuring injuries and benefits in the data-driven economy.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "PPI"
+          ]
+        },
+        {
+          "id": "corporate-earnings",
+          "headline": "Key Earnings Reports Continue",
+          "summary": "Today brings a fresh batch of earnings reports from major companies. Royal Bank of Canada ($RY), TD Bank ($TD), Canadian Imperial Bank of Commerce ($CM), Warner Bros. Discovery ($WBD), Sempra ($SRE), and Vistra ($VST) are among those reporting prior to market open. After hours, Dell Technologies ($DELL) and Intuit ($INTU) are scheduled to release their results, keeping the AI infrastructure story alive. Northland Power Inc. ($NPI), WSP Global Inc., KION Group, and WPP plc also released their latest financial results today.",
           "tags": [
             "Earnings",
-            "Nvidia",
-            "AI",
-            "Technology"
-          ],
-          "timestamp": "2026-02-25T16:00:00Z"
+            "Corporate News"
+          ]
         },
         {
-          "id": "economic-data-release",
-          "headline": "Positive Economic Data Supports Market Sentiment",
-          "summary": "Recent economic data showed U.S. private employers increased employment in early February, and wholesale inventories rose by 0.2% in December. Furthermore, consumer confidence improved to 91.2 in February from 89 in January, exceeding analyst forecasts.",
+          "id": "tariff-tensions",
+          "headline": "Global Tariff Policies Resurface as Market Influence",
+          "summary": "Geopolitical tensions, particularly concerning global tariff policies, are influencing market sentiment. President Trump recently signed an executive order raising global tariffs to 15% from 10%, adding a layer of caution for investors.",
           "tags": [
-            "Economy",
-            "Jobs",
-            "Consumer Confidence"
-          ],
-          "timestamp": "2026-02-25T14:00:00Z"
-        },
-        {
-          "id": "ai-integrations-boost-tech",
-          "headline": "Anthropic's New AI Integrations Lift Software Stocks",
-          "summary": "Anthropic launched new artificial intelligence integrations aimed at enterprise customers, easing fears of software disruption and boosting shares of companies like Salesforce ($CRM), which rose 4.1%, and DocuSign ($DOCU), up 2.6%.",
-          "tags": [
-            "AI",
-            "Software",
-            "Tech"
-          ],
-          "timestamp": "2026-02-25T15:30:00Z"
-        },
-        {
-          "id": "trump-policy-signals",
-          "headline": "President Trump's Policy Signals and Tariff Comments Impact Markets",
-          "summary": "President Donald Trump's 2026 State of the Union address included policy proposals such as a government-backed 401(k) and a call to ban institutional investors from buying single-family homes. However, renewed tariff-focused comments also reignited global trade concerns.",
-          "tags": [
-            "Politics",
-            "Trade",
-            "Tariffs"
-          ],
-          "timestamp": "2026-02-25T10:00:00Z"
-        },
-        {
-          "id": "fed-stance-rates",
-          "headline": "Federal Reserve Holds Rates Steady",
-          "summary": "The Federal Open Market Committee (FOMC) is widely expected to have held the federal funds rate target range steady at 3.50%–3.75% at its January 27–28, 2026 meeting, marking the second consecutive pause after three 25-basis-point cuts in late 2025.",
-          "tags": [
-            "Fed",
-            "Interest Rates",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-02-25T09:00:00Z"
+            "Geopolitics",
+            "Tariffs",
+            "Macro Trends"
+          ]
         }
       ]
     }
