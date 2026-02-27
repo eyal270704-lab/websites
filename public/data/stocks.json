@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T12:35:00Z",
+  "generatedAt": "2026-02-27T16:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -13,14 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Markets Mixed Amid AI Concerns and Geopolitical Tensions",
-          "summary": "Wall Street experienced a mixed close, with the Dow Jones Industrial Average posting a modest gain while the Nasdaq Composite and S&P 500 declined. Investor sentiment was shaped by ongoing assessments of U.S.-Iran talks, a fresh batch of fourth-quarter earnings, and persistent fears surrounding a potential AI bubble and its disruptive economic impact. US stock futures were trading lower on Friday, indicating a cautious start to the day. The CBOE Volatility Index (VIX) increased by 3.9% to 18.63.",
+          "id": "market-summary-20260227",
+          "headline": "Inflation Fears and AI Disruption Weigh Heavily on Markets",
+          "summary": "U.S. stocks are sinking on Friday, marking a tumultuous end to February, as investors grapple with hotter-than-expected inflation data and escalating concerns over the disruptive impact of artificial intelligence on various sectors. Geopolitical tensions related to U.S.-Iran talks are also contributing to a cautious sentiment, pushing oil prices higher. Pre-market futures for major indices had signaled a weaker opening, with Nvidia's significant drop setting a negative tone for technology shares.",
           "tags": [
-            "US Market",
-            "AI Concerns",
+            "Inflation",
+            "AI Disruption",
             "Geopolitics",
-            "Earnings"
+            "Market Sentiment"
           ]
         }
       ]
@@ -32,22 +32,25 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-20260227",
           "statLabel": "S&P 500",
-          "statValue": "6,908.86",
-          "statContext": "Down 0.5%"
+          "statValue": "6,855.04",
+          "statContext": "Down 0.78% on Friday. Closed Thursday at 6,908.86, down 0.5%.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-20260227",
           "statLabel": "NASDAQ Composite",
-          "statValue": "22,878.38",
-          "statContext": "Down 1.2% (-273.69 points)"
+          "statValue": "22,654.80",
+          "statContext": "Down 0.98% on Friday. Closed Thursday at 22,878.38, down 1.2% (273.69 points).",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-20260227",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,499.20",
-          "statContext": "Up 0.03% (+17.05 points)"
+          "statValue": "48,746.58",
+          "statContext": "Down 1.57% (752.62 points) on Friday. Closed Thursday at 49,499.20, up 0.03% (17.05 points).",
+          "direction": "down"
         }
       ]
     },
@@ -59,53 +62,63 @@
       "items": [
         {
           "id": "dell-gainer",
-          "headline": "Dell Technologies Surges on Strong AI Server Outlook",
+          "headline": "Dell Surges on Strong AI Server Outlook",
+          "summary": "Dell Technologies ($DELL) shares were up more than 11% in premarket trading, extending to a gain of +$20.48, after the company reported robust Q4 earnings and projected a doubling of its AI server revenue in fiscal year 2027. The company also announced a 20% dividend hike and a $10 billion stock buyback program.",
           "ticker": "$DELL",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11%",
-          "direction": "up",
-          "summary": "Dell Technologies saw an 11% surge following a robust sales forecast for its AI servers, indicating strong demand in the AI infrastructure build-out."
+          "change": "+$20.48",
+          "changePercent": "+11.0%",
+          "direction": "up"
         },
         {
           "id": "netflix-gainer",
           "headline": "Netflix Rises After Exiting Warner Bros. Bid",
+          "summary": "Netflix ($NFLX) saw its shares climb approximately $8 in premarket trading. The surge came after the company reportedly walked away from a deal to acquire Warner Bros. Discovery's studio, following a raised bid from Paramount.",
           "ticker": "$NFLX",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7%",
-          "direction": "up",
-          "summary": "Netflix Inc. rose 7% in pre-market trading after withdrawing its bid to acquire Warner Bros. Discovery's studio and streaming business."
+          "change": "+$7.97",
+          "changePercent": "N/A",
+          "direction": "up"
         },
         {
-          "id": "salesforce-gainer",
-          "headline": "Salesforce Climbs on Better-Than-Expected Earnings",
-          "ticker": "$CRM",
+          "id": "block-gainer",
+          "headline": "Block Inc. Gains on Workforce Reduction News",
+          "summary": "Block Inc. ($SQ) gained +$8.48, as investors reacted to CEO Jack Dorsey's announcement of a nearly 50% workforce reduction, attributing the move to the efficiency brought by AI tools.",
+          "ticker": "$SQ",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4%",
-          "direction": "up",
-          "summary": "Salesforce climbed 4% after reporting a stronger profit for the latest quarter than analysts had anticipated."
+          "change": "+$8.48",
+          "changePercent": "N/A",
+          "direction": "up"
         },
         {
           "id": "nvidia-loser",
-          "headline": "Nvidia Drops Despite Strong Earnings, AI Bubble Worries Persist",
+          "headline": "Nvidia Leads Tech Sell-off Amid AI Concerns",
+          "summary": "Nvidia ($NVDA) shares dropped 5.6% in early Friday trading, contributing significantly to the broader tech sector's decline. The semiconductor giant's results, while beating forecasts, failed to sustain the intense artificial intelligence-driven momentum, leading investors to unwind crowded AI positions.",
           "ticker": "$NVDA",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.5%",
-          "direction": "down",
-          "summary": "Nvidia's stock sank 5.5%, marking its worst loss since April, despite reporting stellar quarterly profit growth and a revenue forecast that topped expectations. Investors appear to be concerned that such blowout performances are becoming typical, leading to worries about the sustainability of customer spending on AI investments."
+          "change": "-$10.67",
+          "changePercent": "-5.46%",
+          "direction": "down"
         },
         {
-          "id": "wbd-loser",
-          "headline": "Warner Bros. Discovery Slips After Q4 Loss",
-          "ticker": "WBD",
+          "id": "salesforce-loser",
+          "headline": "Salesforce Shares Decline Despite Positive Earnings",
+          "summary": "Salesforce ($CRM) shares fell 3.7% on Friday, paring back most of its 4% gain from the previous day. Despite reporting better-than-expected profits, investor sentiment turned negative amid broader market concerns.",
+          "ticker": "$CRM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-0.3%",
-          "direction": "down",
-          "summary": "Warner Bros. Discovery shares edged down 0.3% after the entertainment giant reported a $252 million loss for the fourth quarter."
+          "changePercent": "-3.7%",
+          "direction": "down"
+        },
+        {
+          "id": "zoom-loser",
+          "headline": "Zoom Communications Plunges on Mixed Q4 Earnings Reaction",
+          "summary": "Zoom Communications ($ZM) experienced a sharp decline of 11.58% following its Q4 earnings report, as guidance and margin commentary drew mixed reactions from investors.",
+          "ticker": "$ZM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.58%",
+          "direction": "down"
         }
       ]
     },
@@ -116,56 +129,44 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Sector Rotation Continues Away from Tech Amid AI Scare",
-          "summary": "The market is witnessing a continued rotation from technology to non-tech sectors. While seven of the 11 broad S&P 500 sectors ended in positive territory, the Information Technology, Communication Services, and Consumer Discretionary sectors lagged, falling 1.8%, 0.8%, and 0.4% respectively. The Financials sector, however, rose 1.3%. Investors are increasingly moving into international markets and companies tied to broader economic growth, driven by fears of an 'AI bubble' and the technology's disruptive potential.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Financials",
-            "AI"
-          ]
-        },
-        {
           "id": "economic-data-ppi",
-          "headline": "US Producer Price Index (PPI) Data Anticipated Today",
-          "summary": "The U.S. Producer Price Index (PPI) data is scheduled for release later today. Economists are expecting producer prices to have risen 2.6% year-on-year in January, a decrease from 3.0% in December. Core producer prices are forecast to increase by 3.0%, down from 3.3% in December. This data will be closely watched for its implications on the Federal Reserve's monetary policy stance.",
+          "headline": "Wholesale Inflation Surges, Exceeding Expectations",
+          "summary": "The Producer Price Index (PPI) for January rose 0.5%, surpassing the anticipated 0.3% increase. Even more concerning, core PPI, excluding volatile food and energy prices, jumped 0.8%, double the 0.3% rise analysts expected. This data has fueled fears that the Federal Reserve may maintain higher interest rates for a longer period.",
           "tags": [
-            "Economic Data",
             "Inflation",
             "PPI",
-            "Fed"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "fed-policy-uncertainty",
-          "headline": "Federal Reserve Remains Cautious Amid Inflation and Policy Divisions",
-          "summary": "The Federal Reserve faces continued uncertainty regarding interest rates. Although some officials suggest additional rate cuts might be appropriate if inflation declines, others advocate for caution due to persistent price pressures. The federal funds rate target range was held steady at 3.5% to 3.75% last month, and the probability of a June rate cut has decreased recently.",
-          "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "us-iran-tensions",
-          "headline": "US-Iran Talks Fuel Geopolitical Concerns, Impacting Market Sentiment",
-          "summary": "Stalled U.S.-Iran talks are contributing to global geopolitical risks, fueling demand for safe-haven assets and heightening risk aversion among investors. These tensions were a key factor influencing the mixed performance of Wall Street today.",
+          "id": "geopolitical-tensions",
+          "headline": "U.S.-Iran Talks Collapse, Pushing Oil Prices Higher",
+          "summary": "U.S.-Iran nuclear discussions in Geneva concluded without an agreement, intensifying geopolitical risks and contributing to a rise in oil prices. Brent crude, the international benchmark, jumped 2.7% to US$72.73 per barrel. This escalation adds further inflationary pressure to the global economy.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Safe Haven"
+            "U.S.-Iran"
           ]
         },
         {
-          "id": "treasury-yields-gold-oil",
-          "headline": "Treasury Yields Dip, Gold Holds Steady, Oil Prices Fluctuate",
-          "summary": "Ten-year Treasury yields dipped below 4%, on track for their best month in a year. Gold consolidated below the $5,200 level, while Brent crude oil rose 2% to $72.16 a barrel. The movements in these assets reflect ongoing market caution and reactions to geopolitical developments.",
+          "id": "sector-rotation-ai",
+          "headline": "Sector Rotation Amid AI Disruption Fears",
+          "summary": "The technology and communication services sectors led declines, while the Financials Select Sector SPDR ($XLF) showed resilience, rising 1.3% on Thursday. Investors are rotating out of software companies and other businesses perceived as vulnerable to artificial intelligence disruption. The Philadelphia Semiconductor Index declined 3.2%, threatening its 10-week winning streak, as investors unwound crowded AI positions.",
           "tags": [
-            "Treasury Yields",
-            "Commodities",
-            "Gold",
-            "Oil"
+            "Sector Analysis",
+            "AI",
+            "Technology",
+            "Financials"
+          ]
+        },
+        {
+          "id": "earnings-season-updates",
+          "headline": "Key Earnings Reports and Market Reactions",
+          "summary": "Beyond Dell and Salesforce, several companies are scheduled to report earnings today, including Endeavour Silver ($EXK), Globalstar ($GSAT), Hawaiian Electric ($HE), and Gogo ($GOGO). Earlier, Zoom Communications ($ZM) dropped 11.58% and Everpure ($PSTG) fell 10.30% after their respective Q4 earnings reports.",
+          "tags": [
+            "Earnings",
+            "Q4 2025",
+            "Corporate News"
           ]
         }
       ]
