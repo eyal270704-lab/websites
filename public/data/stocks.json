@@ -1,136 +1,155 @@
 {
-  "generatedAt": "2026-02-28T16:31:00Z",
+  "generatedAt": "2026-03-01T07:31:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, February 28, 2026",
-  "badge": "LIVE",
+  "subtitle": "March 01, 2026 Market Close Recap",
+  "badge": "Updated Today",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb28",
-          "headline": "U.S. Stocks Retreat Amid Inflation Data and AI Disruption Concerns",
-          "summary": "U.S. stock markets experienced declines on Friday as hotter-than-expected inflation data and ongoing fears regarding the economic impact of artificial intelligence weighed heavily on investor sentiment. Geopolitical tensions involving the U.S. and Iran also contributed to market unease, particularly impacting oil prices. A notable sector rotation was observed, with 'old economy' stocks like Energy and Utilities showing resilience amidst the broader market struggles.",
+          "id": "market-sentiment-03012026",
+          "headline": "U.S. Stocks Retreat Amid Inflation Fears and AI Disruption",
+          "summary": "U.S. stocks experienced a broad sell-off on Friday, February 27, 2026, driven by persistent investor concerns over a surprisingly discouraging inflation report and continued apprehension regarding the impact of artificial intelligence on traditional businesses. Wall Street continued to penalize companies perceived as potential losers in the AI revolution. The S&P 500 concluded what is likely its second losing month in the last ten, while the Dow managed to secure its tenth consecutive month of gains, a streak not seen since early 2018. Not financial advice.",
           "tags": [
             "Market Sentiment",
             "Inflation",
-            "AI Fears",
-            "Geopolitics"
+            "AI Impact"
           ],
-          "timestamp": "2026-02-28T16:30:00Z"
+          "timestamp": "2026-02-27T21:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-feb28",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,817.88",
-          "statContext": "Down 61 points, or 0.9%"
+          "statValue": "6878.88",
+          "statContext": "Fell 0.4% (-29.98 points) on Feb 27, 2026."
         },
         {
-          "id": "nasdaq-feb28",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "22,358.04",
-          "statContext": "Sank 1.3%"
+          "statValue": "22668.21",
+          "statContext": "Sank 0.9% (-210.17 points) on Feb 27, 2026."
         },
         {
-          "id": "dow-feb28",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48,276.92",
-          "statContext": "Tumbled 701 points, or 1.4%"
+          "statValue": "48977.92",
+          "statContext": "Dropped 1.1% (-521.28 points) on Feb 27, 2026."
+        },
+        {
+          "id": "premarket-futures",
+          "statLabel": "Pre-market Futures (Feb 27)",
+          "statValue": "Mixed",
+          "statContext": "S&P 500 and Nasdaq futures each fell 0.4%, Dow Jones futures sank 0.6%."
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "slno-gainer",
-          "headline": "Soleno Therapeutics Surges on Strong Q4 Earnings",
-          "summary": "Soleno Therapeutics ($SLNO) climbed in pre-market trading after reporting a significant beat on its Q4 2025 earnings and revenue, driven by the successful launch of its drug VYKAT XR. This performance marks a pivotal shift to profitability for the company.",
-          "ticker": "$SLNO",
+          "id": "block-gainer",
+          "headline": "Block Inc. Surges on Workforce Reduction",
+          "summary": "Shares of Block Inc. ($SQ), the company behind Cash App and Square, jumped 16.8% on February 27, 2026, after CEO Jack Dorsey announced plans to cut 40% of its workforce, emphasizing a shift towards becoming an 'intelligence-native company' driven by AI tools.",
+          "ticker": "$SQ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.2%",
+          "changePercent": "+16.8%",
           "direction": "up"
         },
         {
-          "id": "nflx-gainer",
-          "headline": "Netflix Rises After Exiting Warner Bros. Discovery Bidding War",
-          "summary": "Netflix ($NFLX) saw gains following its withdrawal from the bidding war for Warner Bros. Discovery, opting not to overpay after Paramount Skydance raised its bid. The company is poised to receive a $2.8 billion deal breakup fee.",
+          "id": "netflix-gainer",
+          "headline": "Netflix Up After Abandoning Acquisition Bid",
+          "summary": "Netflix ($NFLX) shares rose 7.3% in premarket trading on February 27, 2026, after the streaming giant withdrew its bid to acquire Warner Bros. Discovery's studio and streaming business.",
           "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.75%",
+          "changePercent": "+7.3%",
           "direction": "up"
         },
         {
-          "id": "xyz-gainer",
-          "headline": "Block Jumps on Workforce Reduction News",
-          "summary": "Block ($XYZ) shares jumped after the company announced plans to cut 40% of its workforce, a move attributed to advancements in artificial intelligence.",
-          "ticker": "$XYZ",
+          "id": "dell-gainer",
+          "headline": "Dell Technologies Jumps on AI Server Demand",
+          "summary": "Dell Technologies ($DELL) surged 21.8% on February 27, 2026, driven by strong demand for its AI-optimized servers and the announcement of a substantial share buyback program.",
+          "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15%",
+          "changePercent": "+21.8%",
           "direction": "up"
         },
         {
-          "id": "nvda-loser",
-          "headline": "Nvidia Extends Post-Earnings Slide Amid AI Jitters",
-          "summary": "Nvidia ($NVDA) continued its decline, extending its post-earnings slide and turning negative for 2026, as concerns over the AI sector amplified a broader sell-off in tech stocks.",
+          "id": "nvidia-loser",
+          "headline": "Nvidia Extends Slide on AI Spending Concerns",
+          "summary": "Nvidia ($NVDA) experienced a 4.1% drop on February 27, 2026, as skepticism continued to grow regarding the long-term sustainability of significant AI capital expenditures by major technology firms.",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.16%",
+          "changePercent": "-4.1%",
           "direction": "down"
         },
         {
-          "id": "axp-loser",
-          "headline": "American Express Pulls Back on AI Disruption Fears",
-          "summary": "American Express ($AXP) experienced a significant pullback over the last week of February, with fears that stablecoin-based technology could disrupt traditional card networks impacting the stock.",
-          "ticker": "$AXP",
-          "price": "$308.90",
+          "id": "apollo-loser",
+          "headline": "Apollo Global Management Falls on Private Credit Fears",
+          "summary": "Apollo Global Management ($APO) declined 8.6% on February 27, 2026, amidst concerns of private credit contagion impacting financial heavyweights.",
+          "ticker": "$APO",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.77% (weekly)",
+          "changePercent": "-8.6%",
+          "direction": "down"
+        },
+        {
+          "id": "salesforce-loser",
+          "headline": "Salesforce Declines on AI Disruption Worries",
+          "summary": "Salesforce ($CRM) fell 3.7% on February 27, 2026, as investors expressed renewed worries that AI tools could disrupt traditional software business models, impacting demand for services.",
+          "ticker": "$CRM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.7%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Sector Rotation Shifts Focus to 'Old Economy' Stocks",
-          "summary": "February witnessed a notable rotation of investment funds away from technology and communication sectors towards 'old economy' stocks. Energy and Utilities emerged as leading sectors, with Energy posting a 9.43% gain and Utilities a 10.35% increase in February, partly driven by anticipated earnings boosts from AI capital spending and declining interest rates making dividend yields more attractive. The materials sector, particularly copper mining, is also showing a constructive long-term outlook.",
+          "id": "sector-rotation-analysis",
+          "headline": "Sector Rotation Underway: Defensive and 'Old Economy' Outperform Tech",
+          "summary": "A significant sector rotation is observed in early 2026, with defensive sectors such as consumer staples, healthcare, and utilities outperforming as investors seek safer havens. Simultaneously, 'old economy' sectors including basic materials, industrials, and energy are gaining favor, showing strong gains. Conversely, the technology sector, particularly chips and software, is weighing on indices due to lingering AI disruption fears and cooling euphoria following its strong 2025 performance.",
           "tags": [
             "Sector Analysis",
-            "Energy",
+            "Technology",
+            "Consumer Staples",
+            "Healthcare",
             "Utilities",
-            "Technology"
+            "Basic Materials",
+            "Industrials",
+            "Energy"
           ]
         },
         {
-          "id": "economic-data-inflation",
-          "headline": "Hotter-Than-Expected January PPI Fuels Fed Rate Cut Concerns",
-          "summary": "U.S. producer prices rose 0.5% month-on-month in January, exceeding economists' expectations. Core Producer Price Index (PPI) also jumped from 3.3% to 3.6% in January. This hotter-than-expected inflation data has intensified worries that the Federal Reserve may delay interest rate cuts.",
+          "id": "inflation-report-impact",
+          "headline": "Hotter-Than-Expected Inflation Report Dampens Market Sentiment",
+          "summary": "A surprisingly discouraging inflation update on February 27, 2026, revealed that wholesale inflation reached 2.9% last month, significantly exceeding economists' expectation of 1.6%. This hotter-than-expected Producer Price Index reinforced market expectations that the U.S. Federal Reserve is unlikely to implement interest rate cuts in the immediate future, dampening overall market sentiment.",
           "tags": [
             "Economic Data",
             "Inflation",
@@ -138,44 +157,33 @@
           ]
         },
         {
-          "id": "geopolitical-oil",
-          "headline": "Geopolitical Tensions Drive Oil Price Increases",
-          "summary": "Escalating geopolitical tensions between the United States and Iran, particularly concerning a potential nuclear deal, led to a rise in crude oil prices. West Texas Intermediate (WTI) crude oil futures were up about 16% year-to-date in 2026.",
+          "id": "fed-rate-hike-expectations",
+          "headline": "Fed Poised to Hold Rates Amid Economic Data",
+          "summary": "Market participants are pricing in a high probability that the Federal Reserve will maintain its current benchmark interest rate at the upcoming March meeting. The Fed had already held rates steady in the 3.5% to 3.75% range at its January meeting, with strategists noting low odds for a rate cut in March.",
           "tags": [
-            "Geopolitics",
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "oil-prices-geopolitical",
+          "headline": "Oil Prices Climb Amid Middle East Tensions",
+          "summary": "Oil prices surged on February 27, 2026, with U.S. benchmark crude rising 2.8% to settle at $67.02 per barrel. The increase was attributed to heightened worries regarding tensions between the United States and Iran over Iran's nuclear program, signaling ongoing geopolitical risks impacting energy markets.",
+          "tags": [
+            "Macro Trends",
             "Oil Prices",
-            "Global Economy"
+            "Geopolitics"
           ]
         },
         {
-          "id": "earnings-sqm",
-          "headline": "SQM Reports Strong 2025 Earnings Driven by Lithium and Iodine",
-          "summary": "Sociedad Química y Minera de Chile S.A. ($SQM) reported net income of US$588.1 million for the twelve months ended December 31, 2025, a significant reversal from a prior-year loss. The company's revenues reached US$4,576.2 million, with strong performance in both its lithium and iodine divisions, particularly record iodine prices amid tight supply and strong demand.",
+          "id": "wilmar-earnings",
+          "headline": "Wilmar International Reports Strong 2H2025 Performance",
+          "summary": "Agribusiness giant Wilmar International (SGX: F34) announced a robust 38.3% surge in its net profit for the second half of 2025, reaching US$815.9 million. This strong performance was primarily bolstered by improved crushing margins within its Feed and Industrial Products segment and gains from sugar merchandising.",
           "tags": [
             "Earnings Report",
-            "SQM",
-            "Lithium",
-            "Iodine"
-          ]
-        },
-        {
-          "id": "carters-earnings",
-          "headline": "Carter's Inc. Beats Q4 Earnings Expectations",
-          "summary": "Carter's, Inc. ($CRI) reported its Q4 2025 earnings, with an EPS of $1.90 beating estimates by $0.20, and revenue of $925.45 million surpassing expectations by $2.59 million, marking a 7.65% year-over-year increase.",
-          "tags": [
-            "Earnings Report",
-            "Carter's Inc.",
-            "Retail"
-          ]
-        },
-        {
-          "id": "china-gdp",
-          "headline": "China's Economy Expands 5% in 2025, Surpassing 140 Trillion Yuan",
-          "summary": "China's economy expanded by 5% year-on-year in 2025, with its Gross Domestic Product (GDP) exceeding 140 trillion yuan ($20.4 trillion) for the first time. The country remains the world's second-largest economy and contributed approximately 30% to global economic expansion.",
-          "tags": [
-            "Global Economy",
-            "China",
-            "GDP"
+            "Agriculture",
+            "Wilmar International"
           ]
         }
       ]
