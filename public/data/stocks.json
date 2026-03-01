@@ -1,53 +1,52 @@
 {
-  "generatedAt": "2026-03-01T12:27:00Z",
+  "generatedAt": "2026-03-01T16:33:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Closed: Sunday, March 1, 2026 - Friday's Close Summary",
-  "badge": "Market Closed",
+  "subtitle": "March 01, 2026 - Weekend Edition",
+  "badge": "Updated: Feb 28 Market Close",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Wall Street Slides on Inflation and AI Fears",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Markets Close Week Lower Amid Inflationary Pressures and AI Uncertainty",
-          "summary": "U.S. equity markets concluded the trading week on Friday, February 28, 2026, with a significant slide across major indices. Investors reacted negatively to a surprisingly discouraging update on producer price inflation and persistent worries surrounding the artificial intelligence (AI) boom's sustainability. The overall sentiment remains cautiously bearish heading into the weekend. Not financial advice.",
+          "id": "market-summary-feb28",
+          "headline": "Wall Street Ends Week Lower Amid Inflation and AI Concerns",
+          "summary": "U.S. equities concluded Friday, February 28, 2026, with a significant slide, capping a challenging week. Concerns over hotter-than-expected inflation data, particularly the January Producer Price Index, intensified stagflation fears among traders. Adding to the market's unease were ongoing anxieties about the disruptive impact of artificial intelligence on employment, exemplified by major corporate workforce reductions. The major indices, including the S&P 500, Nasdaq, and Dow, all posted declines for the day and the week.",
           "tags": [
-            "market-close",
-            "inflation",
-            "AI concerns",
-            "geopolitics"
+            "Market Sentiment",
+            "Inflation",
+            "AI Impact"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (February 28, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "snp500-feb28",
           "statLabel": "S&P 500",
           "statValue": "6,878.88",
-          "statContext": "-0.43% (-29.98)"
+          "statContext": "Down 0.4% (-29.98 points) on Friday."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Comp.",
+          "id": "nasdaq-feb28",
+          "statLabel": "NASDAQ Composite",
           "statValue": "22,668.21",
-          "statContext": "-0.92% (-210.17)"
+          "statContext": "Down 0.9% (-210.17 points) on Friday."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
+          "id": "dow-feb28",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "48,977.92",
-          "statContext": "-1.05% (-521.28)"
+          "statContext": "Down 1.1% (-521.28 points) on Friday."
         }
       ]
     },
@@ -55,101 +54,162 @@
       "id": "top-movers",
       "title": "Top Movers (February 28, 2026)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "gainer-aaoi",
-          "headline": "Applied Optoelectronics Surges",
-          "ticker": "$AAOI",
-          "price": "$84.23",
-          "change": "+$30.56",
-          "changePercent": "+56.88%",
+          "id": "gainer-crcl",
+          "headline": "Circle Internet Group Surges on Strong Q4",
+          "summary": "Circle Internet Group ($CRCL) saw a significant weekly gain of +32.40% to $83.44, driven by better-than-expected Q4 earnings and revenue, with USDC in circulation climbing 72% year-over-year.",
+          "ticker": "$CRCL",
+          "price": "$83.44",
+          "change": "+$20.40",
+          "changePercent": "+32.40% (WoW)",
           "direction": "up",
-          "summary": "Applied Optoelectronics ($AAOI) experienced a significant surge, closing as one of the top gainers."
+          "tags": [
+            "Earnings",
+            "Cryptocurrency",
+            "Fintech"
+          ]
         },
         {
-          "id": "gainer-dell",
-          "headline": "Dell Soars on Positive Outlook",
-          "ticker": "$DELL",
-          "price": "$148.08",
-          "change": "+$26.69",
-          "changePercent": "+21.93%",
+          "id": "gainer-sq",
+          "headline": "Block Soars on AI-Driven Workforce Cut",
+          "summary": "Payments firm Block ($SQ) jumped 16.8% on Friday after announcing plans to cut nearly half its workforce, citing AI tools enabling a significantly smaller team to achieve more.",
+          "ticker": "$SQ",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16.8%",
           "direction": "up",
-          "summary": "Dell Technologies ($DELL) shares climbed considerably after investors responded positively to its growth forecast."
+          "tags": [
+            "AI",
+            "Layoffs",
+            "Earnings"
+          ]
         },
         {
-          "id": "loser-run",
-          "headline": "Sunrun Shares Decline Sharply",
-          "ticker": "$RUN",
-          "price": "$13.25",
-          "change": "-$7.17",
-          "changePercent": "-35.11%",
-          "direction": "down",
-          "summary": "Sunrun Inc. ($RUN) saw a sharp decline in its share price during Friday's session."
+          "id": "gainer-nflx",
+          "headline": "Netflix Jumps After Dropping Warner Bros. Bid",
+          "summary": "Netflix ($NFLX) climbed 13.8% on Friday after abandoning its bid for Warner Bros. Discovery's studio and streaming business.",
+          "ticker": "$NFLX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.8%",
+          "direction": "up",
+          "tags": [
+            "M&A",
+            "Media",
+            "Streaming"
+          ]
         },
         {
           "id": "loser-amph",
-          "headline": "Amphastar Plummets on Earnings Miss",
+          "headline": "Amphastar Plunges on Q4 Earnings Miss",
+          "summary": "Amphastar Pharmaceuticals ($AMPH) plummeted 24% on Friday following its Q4 2025 earnings report, which significantly missed profitability and revenue estimates and offered weak 2026 guidance.",
           "ticker": "$AMPH",
-          "price": "$15.93",
-          "change": "-$5.04",
-          "changePercent": "-24.00%",
+          "price": "$20.23",
+          "change": "N/A",
+          "changePercent": "-24%",
           "direction": "down",
-          "summary": "Amphastar Pharmaceuticals ($AMPH) shares plummeted following its Q4 2025 earnings report, which missed both profitability and revenue consensus estimates."
+          "tags": [
+            "Earnings Miss",
+            "Pharmaceuticals",
+            "Guidance"
+          ]
+        },
+        {
+          "id": "loser-nvda",
+          "headline": "NVIDIA Slumps Despite Record Earnings",
+          "summary": "Despite reporting a 'historic beat' for fiscal Q4 2026 earnings with record revenue and strong guidance, NVIDIA ($NVDA) fell approximately 10% over two days. Investor skepticism about sustaining elevated growth and broader 'AI jitters' weighed on the stock.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-10% (2-day)",
+          "direction": "down",
+          "tags": [
+            "AI",
+            "Earnings",
+            "Tech"
+          ]
+        },
+        {
+          "id": "loser-nu",
+          "headline": "Nu Holdings Declines Despite Record Revenue",
+          "summary": "Nu Holdings ($NU) dropped 14.55% week-over-week to $14.98. While the digital banking platform reported record Q4 revenue that exceeded estimates, a decrease in its efficiency ratio led to the decline.",
+          "ticker": "$NU",
+          "price": "$14.98",
+          "change": "N/A",
+          "changePercent": "-14.55% (WoW)",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Fintech"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-inflation",
-          "headline": "Producer Price Index Surprises Higher, Fuels Rate Cut Concerns",
-          "summary": "The January Producer Price Index (PPI) data, released on Friday, showed wholesale prices increasing by 0.8% month-over-month, significantly more than economists had predicted. This surprisingly discouraging inflation update pressured expectations for Federal Reserve interest rate cuts, contributing to the market's downturn.",
+          "id": "economic-data-ppi",
+          "headline": "Wholesale Inflation Surges, Fueling Rate Cut Concerns",
+          "summary": "The January Producer Price Index (PPI) report, released on February 27, showed headline producer prices rising 0.5% month-over-month, with core PPI surging 0.8%—the hottest reading in over a year. This unexpectedly high inflation data pressured market expectations for future rate cuts and contributed to the broad market selloff.",
           "tags": [
-            "economic-news",
-            "inflation",
-            "Fed",
-            "interest-rates"
-          ],
-          "timestamp": "2026-02-28T10:00:00Z"
+            "Inflation",
+            "Economic Data",
+            "Interest Rates"
+          ]
         },
         {
-          "id": "sector-tech-ai-jitters",
-          "headline": "Tech Sector Slips Amid AI Volatility and Inflation Worries",
-          "summary": "The technology-heavy NASDAQ Composite led the declines, as tech stocks experienced a downturn fueled by ongoing uncertainty regarding the artificial intelligence (AI) boom and broader inflation jitters. Nvidia ($NVDA) notably fell by 4.2%. This signals a potential shift as investors move from growth to more cyclical sectors.",
+          "id": "ai-disruption-fears",
+          "headline": "AI Job Displacement Fears Grips Wall Street",
+          "summary": "Concerns over AI's impact on the workforce intensified after companies like Block announced significant job cuts, attributing them to the capabilities of AI tools. This trend is sparking fears about potential widespread job displacement and its broader economic implications.",
           "tags": [
-            "sector-analysis",
-            "technology",
             "AI",
-            "growth-stocks"
-          ],
-          "timestamp": "2026-02-28T16:00:00Z"
+            "Job Market",
+            "Technology"
+          ]
         },
         {
-          "id": "geopolitical-tensions-oil",
-          "headline": "Geopolitical Tensions Escalate, Driving Oil Prices Higher",
-          "summary": "Reports of the U.S. launching combat operations in Iran on Saturday exacerbated geopolitical tensions, which had already contributed to rising oil prices. The price for a barrel of benchmark U.S. crude rose 2.8% to settle at US$67.02 on Friday, reflecting market concerns about potential disruptions to global oil flow.",
+          "id": "sector-rotation",
+          "headline": "Market Sees Rotation from Growth to Value",
+          "summary": "The dominant market narrative for the week was a rotation from growth to value stocks. The 'Magnificent Seven' tech giants experienced declines year-to-date, while sectors like Consumer Staples and Energy outperformed, signaling a shift in investor preference. The iShares Expanded Tech-Software ETF alone lost nearly 10% in February.",
           "tags": [
-            "geopolitics",
-            "oil-prices",
-            "middle-east"
-          ],
-          "timestamp": "2026-02-28T14:00:00Z"
+            "Sector Rotation",
+            "Growth Stocks",
+            "Value Stocks"
+          ]
         },
         {
-          "id": "earnings-season-wrap",
-          "headline": "Q4 Earnings Season Nears Close; Retailers Show Resilience",
-          "summary": "With over 90% of S&P 500 companies having reported Q4 earnings, the season is wrapping up. Blowout reports from tech giants like Nvidia and several retailers, including TJX, boosted Q4 EPS growth, which topped 13%. Attention now shifts to Q1 2026 guidance as trade risk returns to the forefront.",
+          "id": "gdp-labor-update",
+          "headline": "Q4 2025 GDP Misses, Labor Market Holds Firm",
+          "summary": "Fourth-quarter 2025 GDP grew at an annualized rate of 1.4%, missing consensus estimates of 2.5%, partly due to a government shutdown. Despite this, the labor market showed resilience, with initial jobless claims coming in below estimates and continuing claims dropping.",
           "tags": [
-            "earnings",
-            "corporate-reports",
-            "retail"
-          ],
-          "timestamp": "2026-02-28T17:30:00Z"
+            "Economic Data",
+            "GDP",
+            "Labor Market"
+          ]
+        },
+        {
+          "id": "berkshire-hathaway-q4",
+          "headline": "Berkshire Hathaway's Q4 Operating Earnings Decline",
+          "summary": "Berkshire Hathaway ($BRK.A, $BRK.B) reported a 30% year-over-year drop in Q4 operating earnings, although its cash pile reached $373.3 billion. The report was released over the weekend, setting a tone for discussions on corporate America's health.",
+          "tags": [
+            "Earnings",
+            "Conglomerate"
+          ]
+        },
+        {
+          "id": "consumer-sentiment",
+          "headline": "Consumer Confidence Improves Slightly in February",
+          "summary": "The Conference Board Consumer Confidence Index edged up to 91.2 in February, a 2.2-point increase. The University of Michigan's final February consumer sentiment reading was 56.6, slightly down from preliminary figures but up from January. One-year inflation expectations also saw a decrease.",
+          "tags": [
+            "Consumer Confidence",
+            "Economic Data"
+          ]
         }
       ]
     }
