@@ -1,214 +1,175 @@
 {
-  "generatedAt": "2026-03-01T16:33:00Z",
+  "generatedAt": "2026-03-02T07:48:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 01, 2026 - Weekend Edition",
-  "badge": "Updated: Feb 28 Market Close",
+  "subtitle": "Monday, March 02, 2026 - Pre-market Update",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-today",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-feb28",
-          "headline": "Wall Street Ends Week Lower Amid Inflation and AI Concerns",
-          "summary": "U.S. equities concluded Friday, February 28, 2026, with a significant slide, capping a challenging week. Concerns over hotter-than-expected inflation data, particularly the January Producer Price Index, intensified stagflation fears among traders. Adding to the market's unease were ongoing anxieties about the disruptive impact of artificial intelligence on employment, exemplified by major corporate workforce reductions. The major indices, including the S&P 500, Nasdaq, and Dow, all posted declines for the day and the week.",
+          "id": "market-summary-030226",
+          "headline": "Geopolitical Tensions Drive US Futures Lower as Oil Surges",
+          "summary": "US stock index futures are pointing to a significantly lower open on Monday, March 2, 2026, as escalating tensions in the Middle East, including US-Israeli strikes on Iran and the resulting surge in crude oil prices, rattle global markets. Investors are shifting towards safe-haven assets amidst increased risk aversion.",
           "tags": [
-            "Market Sentiment",
-            "Inflation",
-            "AI Impact"
+            "Market Open",
+            "Geopolitics",
+            "Oil Prices",
+            "Risk-Off"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices",
+      "id": "major-indices-performance",
+      "title": "Major Indices - Pre-market Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "snp500-feb28",
-          "statLabel": "S&P 500",
-          "statValue": "6,878.88",
-          "statContext": "Down 0.4% (-29.98 points) on Friday."
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Down ~1.00%",
+          "statContext": "S&P 500 E-mini futures fell around 1% in early trading, breaking below a key technical support level."
         },
         {
-          "id": "nasdaq-feb28",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,668.21",
-          "statContext": "Down 0.9% (-210.17 points) on Friday."
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "Down ~1.00%",
+          "statContext": "Nasdaq E-mini futures also dropped around 1% due to geopolitical concerns and ongoing sensitivity to AI capex concerns."
         },
         {
-          "id": "dow-feb28",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48,977.92",
-          "statContext": "Down 1.1% (-521.28 points) on Friday."
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Down ~1.00%",
+          "statContext": "Dow Jones Industrial Average futures declined approximately 1% as global risk aversion mounted."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (February 28, 2026)",
+      "id": "top-movers-expected",
+      "title": "Top Movers (Expected Impact)",
       "cardType": "stock",
       "layout": "list",
       "items": [
         {
-          "id": "gainer-crcl",
-          "headline": "Circle Internet Group Surges on Strong Q4",
-          "summary": "Circle Internet Group ($CRCL) saw a significant weekly gain of +32.40% to $83.44, driven by better-than-expected Q4 earnings and revenue, with USDC in circulation climbing 72% year-over-year.",
-          "ticker": "$CRCL",
-          "price": "$83.44",
-          "change": "+$20.40",
-          "changePercent": "+32.40% (WoW)",
-          "direction": "up",
+          "id": "oil-companies-gainers",
+          "headline": "Upstream Oil Producers Expected to Gain",
+          "summary": "Upstream oil producers such as $ONGC and Oil India may see positive sentiment and improved realizations as crude oil prices surge due to Middle East tensions.",
           "tags": [
-            "Earnings",
-            "Cryptocurrency",
-            "Fintech"
-          ]
-        },
-        {
-          "id": "gainer-sq",
-          "headline": "Block Soars on AI-Driven Workforce Cut",
-          "summary": "Payments firm Block ($SQ) jumped 16.8% on Friday after announcing plans to cut nearly half its workforce, citing AI tools enabling a significantly smaller team to achieve more.",
-          "ticker": "$SQ",
+            "Energy",
+            "Gainers"
+          ],
+          "ticker": "$OIL_PRODUCERS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.8%",
-          "direction": "up",
-          "tags": [
-            "AI",
-            "Layoffs",
-            "Earnings"
-          ]
+          "changePercent": "Expected Up",
+          "direction": "up"
         },
         {
-          "id": "gainer-nflx",
-          "headline": "Netflix Jumps After Dropping Warner Bros. Bid",
-          "summary": "Netflix ($NFLX) climbed 13.8% on Friday after abandoning its bid for Warner Bros. Discovery's studio and streaming business.",
-          "ticker": "$NFLX",
+          "id": "defense-stocks-gainers",
+          "headline": "Defense Stocks Could See Positive Sentiment",
+          "summary": "Companies in the defense sector, including $HAL and $BEL, may experience positive sentiment amidst the escalating geopolitical conflict.",
+          "tags": [
+            "Defense",
+            "Gainers"
+          ],
+          "ticker": "$DEFENSE_SECTOR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.8%",
-          "direction": "up",
-          "tags": [
-            "M&A",
-            "Media",
-            "Streaming"
-          ]
+          "changePercent": "Expected Up",
+          "direction": "up"
         },
         {
-          "id": "loser-amph",
-          "headline": "Amphastar Plunges on Q4 Earnings Miss",
-          "summary": "Amphastar Pharmaceuticals ($AMPH) plummeted 24% on Friday following its Q4 2025 earnings report, which significantly missed profitability and revenue estimates and offered weak 2026 guidance.",
-          "ticker": "$AMPH",
-          "price": "$20.23",
-          "change": "N/A",
-          "changePercent": "-24%",
-          "direction": "down",
+          "id": "oil-marketing-losers",
+          "headline": "Oil Marketing Companies Under Pressure",
+          "summary": "Sectors sensitive to crude prices, such as oil marketing companies, paints, tyres, aviation, and chemicals, are likely to face pressure on margins due to rising input costs.",
           "tags": [
-            "Earnings Miss",
-            "Pharmaceuticals",
-            "Guidance"
-          ]
-        },
-        {
-          "id": "loser-nvda",
-          "headline": "NVIDIA Slumps Despite Record Earnings",
-          "summary": "Despite reporting a 'historic beat' for fiscal Q4 2026 earnings with record revenue and strong guidance, NVIDIA ($NVDA) fell approximately 10% over two days. Investor skepticism about sustaining elevated growth and broader 'AI jitters' weighed on the stock.",
-          "ticker": "$NVDA",
+            "Energy",
+            "Losers"
+          ],
+          "ticker": "$OMC_SECTOR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10% (2-day)",
-          "direction": "down",
-          "tags": [
-            "AI",
-            "Earnings",
-            "Tech"
-          ]
+          "changePercent": "Expected Down",
+          "direction": "down"
         },
         {
-          "id": "loser-nu",
-          "headline": "Nu Holdings Declines Despite Record Revenue",
-          "summary": "Nu Holdings ($NU) dropped 14.55% week-over-week to $14.98. While the digital banking platform reported record Q4 revenue that exceeded estimates, a decrease in its efficiency ratio led to the decline.",
-          "ticker": "$NU",
-          "price": "$14.98",
-          "change": "N/A",
-          "changePercent": "-14.55% (WoW)",
-          "direction": "down",
+          "id": "tech-and-financials-losers",
+          "headline": "Tech and Financial Sectors Continue to Face Headwinds",
+          "summary": "Following declines on the previous trading day, tech and financial sectors are expected to remain under pressure, as investors trim exposure to crowded AI and growth trades.",
           "tags": [
-            "Earnings",
-            "Fintech"
-          ]
+            "Technology",
+            "Financials",
+            "Losers"
+          ],
+          "ticker": "$TECH_FIN_SECTORS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "Expected Down",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-today",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-ppi",
-          "headline": "Wholesale Inflation Surges, Fueling Rate Cut Concerns",
-          "summary": "The January Producer Price Index (PPI) report, released on February 27, showed headline producer prices rising 0.5% month-over-month, with core PPI surging 0.8%—the hottest reading in over a year. This unexpectedly high inflation data pressured market expectations for future rate cuts and contributed to the broad market selloff.",
+          "id": "geopolitical-escalation",
+          "headline": "Middle East Conflict Escalates, Driving Risk Aversion",
+          "summary": "Joint US-Israeli strikes on Iran over the weekend, resulting in the death of Iran's Supreme Leader, have significantly heightened geopolitical risks. This escalation is a primary factor behind the broad market sell-off and flight to safety.",
           "tags": [
-            "Inflation",
+            "Geopolitics",
+            "Middle East",
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "oil-price-spike",
+          "headline": "Crude Oil Prices Soar Amid Supply Concerns",
+          "summary": "Brent crude prices jumped by as much as 13% in early trading, reaching a 14-month high of $82 per barrel, as the effective closure of the Strait of Hormuz intensifies concerns over global oil supplies.",
+          "tags": [
+            "Oil",
+            "Commodities",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "safe-haven-demand",
+          "headline": "Gold Rises as Investors Seek Safety",
+          "summary": "Gold futures saw a rise of approximately 2% as investors moved into safe-haven assets in response to the heightened global uncertainty.",
+          "tags": [
+            "Gold",
+            "Safe Haven",
+            "Investments"
+          ]
+        },
+        {
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Releases Expected Today",
+          "summary": "The US economic calendar for March 2, 2026, includes the ISM Manufacturing Index, Construction Spending SA M/M, ISM Manufacturing Price SA, and ISM Manufacturing SA, all scheduled for release.",
+          "tags": [
             "Economic Data",
-            "Interest Rates"
+            "ISM Manufacturing",
+            "Construction Spending"
           ]
         },
         {
-          "id": "ai-disruption-fears",
-          "headline": "AI Job Displacement Fears Grips Wall Street",
-          "summary": "Concerns over AI's impact on the workforce intensified after companies like Block announced significant job cuts, attributing them to the capabilities of AI tools. This trend is sparking fears about potential widespread job displacement and its broader economic implications.",
-          "tags": [
-            "AI",
-            "Job Market",
-            "Technology"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Market Sees Rotation from Growth to Value",
-          "summary": "The dominant market narrative for the week was a rotation from growth to value stocks. The 'Magnificent Seven' tech giants experienced declines year-to-date, while sectors like Consumer Staples and Energy outperformed, signaling a shift in investor preference. The iShares Expanded Tech-Software ETF alone lost nearly 10% in February.",
-          "tags": [
-            "Sector Rotation",
-            "Growth Stocks",
-            "Value Stocks"
-          ]
-        },
-        {
-          "id": "gdp-labor-update",
-          "headline": "Q4 2025 GDP Misses, Labor Market Holds Firm",
-          "summary": "Fourth-quarter 2025 GDP grew at an annualized rate of 1.4%, missing consensus estimates of 2.5%, partly due to a government shutdown. Despite this, the labor market showed resilience, with initial jobless claims coming in below estimates and continuing claims dropping.",
-          "tags": [
-            "Economic Data",
-            "GDP",
-            "Labor Market"
-          ]
-        },
-        {
-          "id": "berkshire-hathaway-q4",
-          "headline": "Berkshire Hathaway's Q4 Operating Earnings Decline",
-          "summary": "Berkshire Hathaway ($BRK.A, $BRK.B) reported a 30% year-over-year drop in Q4 operating earnings, although its cash pile reached $373.3 billion. The report was released over the weekend, setting a tone for discussions on corporate America's health.",
+          "id": "earnings-season-ahead",
+          "headline": "Major Earnings Reports in Focus This Week",
+          "summary": "While no major US earnings are expected before market open today, the first week of March is anticipated to be busy with reports from companies in cybersecurity, retail, AI, and e-commerce, including $CRWD, $TGT, $AVGO, $OKTA, $RGTI, $COST, and $JD.",
           "tags": [
             "Earnings",
-            "Conglomerate"
-          ]
-        },
-        {
-          "id": "consumer-sentiment",
-          "headline": "Consumer Confidence Improves Slightly in February",
-          "summary": "The Conference Board Consumer Confidence Index edged up to 91.2 in February, a 2.2-point increase. The University of Michigan's final February consumer sentiment reading was 56.6, slightly down from preliminary figures but up from January. One-year inflation expectations also saw a decrease.",
-          "tags": [
-            "Consumer Confidence",
-            "Economic Data"
+            "Corporate News",
+            "AI"
           ]
         }
       ]
