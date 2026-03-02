@@ -1,175 +1,173 @@
 {
-  "generatedAt": "2026-03-02T07:48:00Z",
+  "generatedAt": "2026-03-02T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Monday, March 02, 2026 - Pre-market Update",
+  "subtitle": "March 02, 2026: Geopolitical Tensions Dominate Markets",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-today",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Global Markets Plunge Amid Middle East Escalation",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-030226",
-          "headline": "Geopolitical Tensions Drive US Futures Lower as Oil Surges",
-          "summary": "US stock index futures are pointing to a significantly lower open on Monday, March 2, 2026, as escalating tensions in the Middle East, including US-Israeli strikes on Iran and the resulting surge in crude oil prices, rattle global markets. Investors are shifting towards safe-haven assets amidst increased risk aversion.",
+          "id": "market-summary-1",
+          "headline": "Geopolitical Tensions Drive Broad Sell-Off, Oil and Gold Surge",
+          "summary": "Global stock markets experienced a sharp downturn on Monday, March 2, 2026, as escalating geopolitical tensions in the Middle East, specifically US and Israeli strikes on Iran, triggered a broad risk-off sentiment. Crude oil prices surged dramatically, with Brent crude climbing by as much as 13%, and gold hitting record highs as investors flocked to safe-haven assets. US equity futures pointed to a significantly lower open, reflecting widespread investor caution. Not financial advice.",
           "tags": [
-            "Market Open",
+            "Global Markets",
             "Geopolitics",
-            "Oil Prices",
-            "Risk-Off"
+            "Oil",
+            "Gold"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices - Pre-market Performance",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Pre-market/Opening Indications)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-futures",
           "statLabel": "S&P 500 Futures",
-          "statValue": "Down ~1.00%",
-          "statContext": "S&P 500 E-mini futures fell around 1% in early trading, breaking below a key technical support level."
+          "statValue": "-1.4%",
+          "statContext": "Signaling a sharply lower open for US markets.",
+          "direction": "down"
         },
         {
           "id": "nasdaq-futures",
           "statLabel": "NASDAQ Futures",
-          "statValue": "Down ~1.00%",
-          "statContext": "Nasdaq E-mini futures also dropped around 1% due to geopolitical concerns and ongoing sensitivity to AI capex concerns."
+          "statValue": "-1.7%",
+          "statContext": "Tech-heavy index poised for significant losses at the open.",
+          "direction": "down"
         },
         {
           "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Down ~1.00%",
-          "statContext": "Dow Jones Industrial Average futures declined approximately 1% as global risk aversion mounted."
+          "statLabel": "DOW Jones Futures",
+          "statValue": "-1.2%",
+          "statContext": "Industrial average futures indicating a negative start to trading.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-expected",
-      "title": "Top Movers (Expected Impact)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
-      "layout": "list",
+      "layout": "grid",
       "items": [
         {
-          "id": "oil-companies-gainers",
-          "headline": "Upstream Oil Producers Expected to Gain",
-          "summary": "Upstream oil producers such as $ONGC and Oil India may see positive sentiment and improved realizations as crude oil prices surge due to Middle East tensions.",
-          "tags": [
-            "Energy",
-            "Gainers"
-          ],
-          "ticker": "$OIL_PRODUCERS",
+          "id": "top-gainer-dell",
+          "headline": "Dell Technologies",
+          "summary": "Jumped after strong Q4 results and upbeat FY27 guidance.",
+          "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Expected Up",
+          "changePercent": "+21.93%",
           "direction": "up"
         },
         {
-          "id": "defense-stocks-gainers",
-          "headline": "Defense Stocks Could See Positive Sentiment",
-          "summary": "Companies in the defense sector, including $HAL and $BEL, may experience positive sentiment amidst the escalating geopolitical conflict.",
-          "tags": [
-            "Defense",
-            "Gainers"
-          ],
-          "ticker": "$DEFENSE_SECTOR",
+          "id": "top-gainer-block",
+          "headline": "Block Inc.",
+          "summary": "Gained on a Q4 beat, major cost cuts, and upbeat analyst reactions.",
+          "ticker": "$SQ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Expected Up",
+          "changePercent": "+16.82%",
           "direction": "up"
         },
         {
-          "id": "oil-marketing-losers",
-          "headline": "Oil Marketing Companies Under Pressure",
-          "summary": "Sectors sensitive to crude prices, such as oil marketing companies, paints, tyres, aviation, and chemicals, are likely to face pressure on margins due to rising input costs.",
-          "tags": [
-            "Energy",
-            "Losers"
-          ],
-          "ticker": "$OMC_SECTOR",
+          "id": "top-gainer-netflix",
+          "headline": "Netflix",
+          "summary": "Surged as Netflix exited the Warner Bros. deal, received a significant break fee, and multiple analyst upgrades.",
+          "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Expected Down",
+          "changePercent": "+13.77%",
+          "direction": "up"
+        },
+        {
+          "id": "top-loser-coreweave",
+          "headline": "CoreWeave",
+          "summary": "Fell after mixed Q4 results and a series of cautious analyst price target cuts.",
+          "ticker": "$CRWV",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-18.51%",
           "direction": "down"
         },
         {
-          "id": "tech-and-financials-losers",
-          "headline": "Tech and Financial Sectors Continue to Face Headwinds",
-          "summary": "Following declines on the previous trading day, tech and financial sectors are expected to remain under pressure, as investors trim exposure to crowded AI and growth trades.",
-          "tags": [
-            "Technology",
-            "Financials",
-            "Losers"
-          ],
-          "ticker": "$TECH_FIN_SECTORS",
+          "id": "top-loser-nebius",
+          "headline": "Nebius Group",
+          "summary": "Declined amidst broader market weakness.",
+          "ticker": "$NBIS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Expected Down",
+          "changePercent": "-13.05%",
+          "direction": "down"
+        },
+        {
+          "id": "top-loser-zscaler",
+          "headline": "Zscaler",
+          "summary": "Dropped as earnings, guidance, and multiple target cuts failed to support recent expectations.",
+          "ticker": "$ZS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-12.17%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-today",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Economic Drivers",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-escalation",
-          "headline": "Middle East Conflict Escalates, Driving Risk Aversion",
-          "summary": "Joint US-Israeli strikes on Iran over the weekend, resulting in the death of Iran's Supreme Leader, have significantly heightened geopolitical risks. This escalation is a primary factor behind the broad market sell-off and flight to safety.",
+          "id": "geopolitical-impact",
+          "headline": "Middle East Conflict Fuels Commodity Rally and Risk Aversion",
+          "summary": "The US and Israeli military campaign against Iran, including coordinated strikes and the death of Iran's Supreme Leader, has dramatically impacted global markets. Fears of supply disruptions in the Strait of Hormuz drove Brent crude oil up to 13% and WTI crude by 7.3% to 9.2%. Gold prices surged to record highs above $5,300 per ounce, as investors sought safe-haven assets amidst the heightened uncertainty. Not financial advice.",
           "tags": [
             "Geopolitics",
-            "Middle East",
-            "Market Sentiment"
-          ]
-        },
-        {
-          "id": "oil-price-spike",
-          "headline": "Crude Oil Prices Soar Amid Supply Concerns",
-          "summary": "Brent crude prices jumped by as much as 13% in early trading, reaching a 14-month high of $82 per barrel, as the effective closure of the Strait of Hormuz intensifies concerns over global oil supplies.",
-          "tags": [
-            "Oil",
-            "Commodities",
+            "Oil Prices",
+            "Gold Prices",
             "Inflation"
           ]
         },
         {
-          "id": "safe-haven-demand",
-          "headline": "Gold Rises as Investors Seek Safety",
-          "summary": "Gold futures saw a rise of approximately 2% as investors moved into safe-haven assets in response to the heightened global uncertainty.",
+          "id": "sector-analysis",
+          "headline": "Defense and Energy Lead, Tech and Airlines Lag Amidst Sector Rotation",
+          "summary": "A clear sector rotation is underway, with investors moving out of higher-risk technology stocks and into more defensive sectors. Defense contractors like Lockheed Martin, Northrop Grumman, and RTX saw gains of 2-3%, while energy giants such as Exxon Mobil and Chevron were up 3-5%. Gold mining stocks also rallied. Conversely, tech stocks (e.g., $NVDA, $AAPL, $MSFT) fell 3-5%, and airlines (e.g., $UAL, $RYAAY, $AAL) dropped 4-8% due to higher fuel costs and travel concerns.",
           "tags": [
-            "Gold",
-            "Safe Haven",
-            "Investments"
+            "Sector Analysis",
+            "Energy",
+            "Defense",
+            "Technology",
+            "Airlines"
           ]
         },
         {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Releases Expected Today",
-          "summary": "The US economic calendar for March 2, 2026, includes the ISM Manufacturing Index, Construction Spending SA M/M, ISM Manufacturing Price SA, and ISM Manufacturing SA, all scheduled for release.",
+          "id": "fed-outlook",
+          "headline": "Federal Reserve Holds Rates Steady, Monitors Inflation Outlook",
+          "summary": "The Federal Reserve maintained its benchmark interest rate at 3.5% to 3.75% at its January meeting, and market expectations for a rate cut in March are low. Fed Governor Christopher J. Waller indicated that while January's headline CPI was below expectations, core CPI inflation showed a strong increase. The surge in oil prices due to geopolitical events adds complexity to the inflation outlook and future Federal Reserve policy decisions. Not financial advice.",
           "tags": [
-            "Economic Data",
-            "ISM Manufacturing",
-            "Construction Spending"
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
           ]
         },
         {
-          "id": "earnings-season-ahead",
-          "headline": "Major Earnings Reports in Focus This Week",
-          "summary": "While no major US earnings are expected before market open today, the first week of March is anticipated to be busy with reports from companies in cybersecurity, retail, AI, and e-commerce, including $CRWD, $TGT, $AVGO, $OKTA, $RGTI, $COST, and $JD.",
+          "id": "earnings-reports",
+          "headline": "Key Earnings Reports Provide Company-Specific Insights",
+          "summary": "ADT ($ADT) reported its Q4 and full-year 2025 earnings, showing a 1% and 5% increase in total revenue, respectively. Senior ($SNR) also announced a 20% annual profit rise for H2 2025. This week, investors anticipate Q4 2026 or Q4 2025 earnings from companies including MongoDB ($MDB), EchoStar ($SATS), Credo Technology Group Holding ($CRDO), and Viking Holdings ($VIK), which will offer insights into their financial health and forward guidance.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "AI"
+            "Corporate News"
           ]
         }
       ]
