@@ -1,33 +1,31 @@
 {
-  "generatedAt": "2026-03-03T12:34:00Z",
+  "generatedAt": "2026-03-03T16:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 03, 2026",
-  "badge": "LIVE",
+  "subtitle": "March 03, 2026: Geopolitical Tensions & Inflation Concerns Weigh on Markets",
+  "badge": "Updated Today",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overview-03-03-2026",
-          "headline": "Global Markets Face 'Risk-Off' Sentiment Amid Geopolitical Tensions and Inflation Worries",
-          "summary": "Global stock markets are experiencing a 'Risk-Off' sentiment today, largely stemming from the Asia-Pacific region and impacting U.S. technology benchmarks. Geopolitical tensions, particularly surrounding the Iran conflict and the reported closure of the Strait of Hormuz, have caused oil prices to surge, raising renewed inflation concerns. U.S. stock futures pointed lower this morning, with E mini S&P 500 contracts down about 1.5%, Nasdaq 100 futures off nearly 2%, and small-cap Russell 2000 futures lower by approximately 2.6%. The U.S. 10-year Treasury yield remains elevated near 4.04%, contributing to higher borrowing costs for businesses and households. Despite a mixed close on Monday, where the S&P 500 posted a small gain, the Dow dipped, and the Nasdaq rose, today's market opened under pressure. Economic data releases, including US ISM Manufacturing and Services PMIs, Unemployment Claims, Non-Farm Payrolls, and Retail Sales, are anticipated later in the week, which could further influence market direction. Not financial advice.",
+          "id": "market-summary-03-03-2026",
+          "headline": "Wall Street Navigates Geopolitical Storm Amidst Mixed Close",
+          "summary": "U.S. equities experienced a mixed close today, March 3, 2026, following a volatile trading session marked by heightened geopolitical tensions in the Middle East and persistent inflation concerns. While technology and energy sectors showed resilience, broader market sentiment remained cautious, with major indices seeing a mixed performance by the end of the day. Early trading saw significant declines across the board, only to recover partly by the close.",
           "tags": [
-            "Global Markets",
+            "Market Sentiment",
             "Geopolitics",
-            "Inflation",
-            "Oil Prices",
-            "Risk-Off"
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
@@ -36,141 +34,113 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "6,881.62",
-          "statContext": "Ended up 0.04% on March 3. Futures down 1.5% in pre-market.",
+          "statContext": "+2.74 points (0.04%)",
+          "ticker": "$SPX",
+          "price": "6,881.62",
+          "change": "+2.74",
+          "changePercent": "+0.04%",
           "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,748.86",
-          "statContext": "Rose 0.36% on March 3. Futures off nearly 2% in pre-market.",
+          "statContext": "+80.65 points (0.4%)",
+          "ticker": "$IXIC",
+          "price": "22,748.86",
+          "change": "+80.65",
+          "changePercent": "+0.4%",
           "direction": "up"
         },
         {
           "id": "dow-performance",
-          "statLabel": "DOW Jones Industrial Average",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "48,904.78",
-          "statContext": "Dipped 0.15% on March 3. Futures fell 1.6% in pre-market.",
+          "statContext": "-73.14 points (-0.2%)",
+          "ticker": "$DJI",
+          "price": "48,904.78",
+          "change": "-73.14",
+          "changePercent": "-0.2%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "plug-gainer",
-          "headline": "Plug Power Surges on Strong Q4 Earnings Beat",
-          "summary": "Shares of Plug Power ($PLUG) climbed 10% after reporting a Q4 earnings beat, highlighting approximately 13% year-over-year revenue growth and a significant gross margin improvement to +2.4% from -122.5% in Q4 2024. The company also reported a record $187 million in electrolyzer revenue for 2025.",
-          "ticker": "$PLUG",
+          "id": "tgt-gainer",
+          "headline": "Target Rises on Strong Earnings",
+          "summary": "Target Corporation ($TGT) saw a gain of 3.3% after reporting better-than-expected profits for its latest quarter, with Q4 net sales aligning with company expectations and adjusted EPS favorable to last year.",
+          "ticker": "$TGT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10%",
+          "changePercent": "+3.3%",
           "direction": "up"
         },
         {
-          "id": "vg-gainer",
-          "headline": "Venture Global Jumps on Strong Earnings and New LNG Deal",
-          "summary": "Venture Global ($VG) shares surged 17.44% following strong Q4 and full-year earnings, coupled with news of a new long-term LNG deal.",
-          "ticker": "$VG",
+          "id": "ual-loser",
+          "headline": "Airlines Decline Amid Geopolitical Tensions",
+          "summary": "United Airlines ($UAL) fell 5%, American Airlines ($AAL) sank 4.4%, and Delta Air Lines ($DAL) dropped 4% today, as escalating geopolitical tensions and rising oil prices negatively impacted the airline sector. The conflict has also led to canceled flights and stranded passengers.",
+          "ticker": "$UAL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.44%",
-          "direction": "up"
-        },
-        {
-          "id": "coherent-gainer",
-          "headline": "Coherent Climbs as Barclays Raises Price Target",
-          "summary": "Coherent ($COHR) stock gained 15.44% after Barclays raised its price target and NVIDIA participated in a large private placement.",
-          "ticker": "$COHR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15.44%",
-          "direction": "up"
-        },
-        {
-          "id": "mdb-loser",
-          "headline": "MongoDB Plunges on Mixed Guidance",
-          "summary": "MongoDB ($MDB) shares plunged 24% after the company issued mixed guidance, with investors focusing on softer near-term expectations despite otherwise solid results.",
-          "ticker": "$MDB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-24%",
-          "direction": "down"
-        },
-        {
-          "id": "el-loser",
-          "headline": "Estée Lauder Companies Falls",
-          "summary": "Estée Lauder Companies ($EL) shares fell 8.48% today.",
-          "ticker": "$EL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.48%",
-          "direction": "down"
-        },
-        {
-          "id": "elv-loser",
-          "headline": "Elevance Health Slips After Executive Transition",
-          "summary": "Elevance Health ($ELV) slipped 8.10% following an executive leadership transition and an advisor role update.",
-          "ticker": "$ELV",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.10%",
+          "changePercent": "-5.0%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-iran-conflict",
-          "headline": "Iran Conflict Escalates, Fueling Oil Price Surge and Economic Uncertainty",
-          "summary": "The ongoing U.S.-Israeli attacks against Iran and Iran's reported closure of the Strait of Hormuz are significantly impacting global markets. Oil prices surged due to threats to world energy supplies, with benchmark U.S. crude rising to $74.47 a barrel and Brent crude to $81.30 a barrel on Monday. The International Monetary Fund (IMF) stated that these developments make the global economic outlook more uncertain. While the U.S. economy is more buffered from energy shocks, the global impact on trade, prices, and investment could undermine growth. Inflation worries are renewed, particularly in regions like Tokyo, where rising oil prices fueled a further stock plunge today.",
+          "id": "sector-analysis-03-03-2026",
+          "headline": "Energy and Technology Show Strength, Consumer Staples Lagging",
+          "summary": "Today's market saw a mixed performance across sectors. The Energy Select Sector SPDR ($XLE) advanced 1.30%, while the Technology Select Sector SPDR ($XLK) saw a 0.9% gain. Conversely, the Consumer Staples Select Sector SPDR ($XLP) declined 1.4%, with Communication Services ($XLC) down 1.60% and Financials ($XLF) down 1.29%. Utilities ETFs are also in demand due to the increasing energy needs of data centers.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Inflation",
-            "Global Economy"
-          ]
-        },
-        {
-          "id": "fed-interest-rates",
-          "headline": "Fed Expected to Hold Rates Steady Amid Market Volatility",
-          "summary": "The CME Group's FedWatch tool indicates a 97.3% likelihood of the Federal Reserve leaving current interest rates unchanged in March. Historically, the S&P 500 has achieved a median one-year return of 10% following interest rate cuts, with an 11% return when cuts made during recessions are excluded.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "earnings-reports-today",
-          "headline": "Key Companies Report Earnings; Broadcom Anticipated Tomorrow",
-          "summary": "Several companies reported earnings today, March 3, 2026. AutoZone ($AZO) and Best Buy ($BBY) both beat Q4 earnings estimates. Thor Industries ($THO), Sea Limited ($SE), and Marex Group ($MRX) were also among those reporting. On ($ONON) announced annual net sales exceeding CHF 3.0 billion for the first time and anticipates at least 23% year-over-year growth in 2026. Broadcom ($AVGO) is slated to deliver its Q1 2026 earnings after market close on Wednesday, March 4, with semiconductors and infrastructure software in focus.",
-          "tags": [
-            "Earnings",
-            "Q4 2025",
-            "Q1 2026",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Energy and Materials Lead as 'Underdogs' Emerge in Early 2026",
-          "summary": "In early 2026, 'underdog' sectors such as Energy, Materials, and Industrials are leading the way, a trend that often foreshadows increases in economic activity and earnings. These sectors, along with technology and healthcare, are expected to be top American industries for the year, driven by structural tailwinds including federal policy support and technological advancement. The communication services and information technology sectors have demonstrated strong performance over the last three and ten years, respectively, largely fueled by advancements in artificial intelligence. Conversely, in the ASX 200, Industrials, Communications, Utilities, and Financials were lagging today.",
-          "tags": [
-            "Sector Analysis",
+            "Sector Performance",
             "Energy",
             "Technology",
-            "Materials",
-            "Industrials"
+            "Consumer Staples"
+          ]
+        },
+        {
+          "id": "economic-data-inflation",
+          "headline": "Inflation and Geopolitics Drive Economic Concerns",
+          "summary": "Economic data released today included U.S. Domestic Vehicle Sales and Eurozone preliminary CPI flash estimates for February, expected to show moderating trends. However, January's producer inflation spiked to 0.8%, reigniting fears of stagflation. Federal Reserve officials, including New York Fed President John C. Williams, acknowledge solid growth but note inflation remains above the 2% target, currently around 3%. The market anticipates rate cuts later in the year, likely not before June.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Federal Reserve",
+            "Stagflation"
+          ]
+        },
+        {
+          "id": "earnings-reports-updates",
+          "headline": "Key Companies Report Earnings, Best Buy's Sales Decline",
+          "summary": "Several major companies released earnings today. Best Buy Co., Inc. ($BBY) reported a 0.8% decrease in comparable sales for Q4 FY26, though diluted EPS was $2.56. Progressive ($PGR) also held its Q4 2025 earnings call. On Holding AG ($ONON) announced full-year net sales surpassing CHF 3.0 billion for the first time.",
+          "tags": [
+            "Earnings Reports",
+            "Best Buy",
+            "Progressive",
+            "On Holding"
+          ]
+        },
+        {
+          "id": "macro-trends-middle-east",
+          "headline": "Middle East Conflict Fuels Oil Price Surge and Market Volatility",
+          "summary": "Macroeconomic trends are heavily influenced by the escalating Middle East conflict, particularly the U.S.-Israel military actions against Iran and the potential closure of the Strait of Hormuz. This has led to a significant surge in oil prices, with Brent crude leaping 7.5% and U.S. crude rising 7.6% today. The uncertainty is driving market volatility and risk-off sentiment globally.",
+          "tags": [
+            "Macro Trends",
+            "Geopolitics",
+            "Oil Prices",
+            "Market Volatility"
           ]
         }
       ]
