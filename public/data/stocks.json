@@ -1,146 +1,179 @@
 {
-  "generatedAt": "2026-03-03T16:54:00Z",
+  "generatedAt": "2026-03-04T07:36:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 03, 2026: Geopolitical Tensions & Inflation Concerns Weigh on Markets",
-  "badge": "Updated Today",
+  "subtitle": "March 04, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-03-03-2026",
-          "headline": "Wall Street Navigates Geopolitical Storm Amidst Mixed Close",
-          "summary": "U.S. equities experienced a mixed close today, March 3, 2026, following a volatile trading session marked by heightened geopolitical tensions in the Middle East and persistent inflation concerns. While technology and energy sectors showed resilience, broader market sentiment remained cautious, with major indices seeing a mixed performance by the end of the day. Early trading saw significant declines across the board, only to recover partly by the close.",
+          "id": "mp-1",
+          "headline": "Global Markets Face Volatility Amid Escalating Middle East Tensions and Soaring Oil Prices",
+          "summary": "Global stock markets experienced significant volatility, with major U.S. indices paring earlier steep losses but still closing lower on Tuesday, March 3rd. The ongoing conflict in the Middle East continues to fuel investor anxiety, driving crude oil prices higher and intensifying concerns about inflation and its potential impact on economic growth.",
           "tags": [
-            "Market Sentiment",
-            "Geopolitics",
-            "Inflation"
+            "Global Markets",
+            "Geopolitical Risk",
+            "Inflation",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (March 3, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "mi-sp500",
           "statLabel": "S&P 500",
-          "statValue": "6,881.62",
-          "statContext": "+2.74 points (0.04%)",
-          "ticker": "$SPX",
-          "price": "6,881.62",
-          "change": "+2.74",
-          "changePercent": "+0.04%",
-          "direction": "up"
+          "statValue": "6,816.63",
+          "statContext": "Down 0.9% (-64.99 points)"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,748.86",
-          "statContext": "+80.65 points (0.4%)",
-          "ticker": "$IXIC",
-          "price": "22,748.86",
-          "change": "+80.65",
-          "changePercent": "+0.4%",
-          "direction": "up"
-        },
-        {
-          "id": "dow-performance",
+          "id": "mi-dow",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48,904.78",
-          "statContext": "-73.14 points (-0.2%)",
-          "ticker": "$DJI",
-          "price": "48,904.78",
-          "change": "-73.14",
-          "changePercent": "-0.2%",
-          "direction": "down"
+          "statValue": "48,501.27",
+          "statContext": "Down 0.8% (-403.51 points)"
+        },
+        {
+          "id": "mi-nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "22,516.69",
+          "statContext": "Down 1.0% (-232.17 points)"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (March 3-4, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "tgt-gainer",
-          "headline": "Target Rises on Strong Earnings",
-          "summary": "Target Corporation ($TGT) saw a gain of 3.3% after reporting better-than-expected profits for its latest quarter, with Q4 net sales aligning with company expectations and adjusted EPS favorable to last year.",
+          "id": "tm-g-tgt",
+          "headline": "Target Reports Stronger-Than-Expected Earnings",
           "ticker": "$TGT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.3%",
-          "direction": "up"
+          "changePercent": "+6.7%",
+          "direction": "up",
+          "summary": "Target rose significantly after the retailer reported better quarterly profit than analysts expected on Tuesday."
         },
         {
-          "id": "ual-loser",
-          "headline": "Airlines Decline Amid Geopolitical Tensions",
-          "summary": "United Airlines ($UAL) fell 5%, American Airlines ($AAL) sank 4.4%, and Delta Air Lines ($DAL) dropped 4% today, as escalating geopolitical tensions and rising oil prices negatively impacted the airline sector. The conflict has also led to canceled flights and stranded passengers.",
-          "ticker": "$UAL",
+          "id": "tm-g-pltr",
+          "headline": "Palantir Gains on Defense Spending Hopes",
+          "ticker": "$PLTR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.0%",
-          "direction": "down"
+          "changePercent": "+1.4%",
+          "direction": "up",
+          "summary": "Palantir Technologies continued its upward trend, gaining on Tuesday following a 5.8% rise in the previous session, as the company benefits from renewed focus on defense and intelligence spending."
+        },
+        {
+          "id": "tm-g-ongc",
+          "headline": "Oil & Natural Gas Corpn Ltd Advances",
+          "ticker": "$ONGC",
+          "price": "₹282.2",
+          "change": "+₹2.50",
+          "changePercent": "+0.89%",
+          "direction": "up",
+          "summary": "Oil & Natural Gas Corpn Ltd saw gains in Wednesday's Indian trading session."
+        },
+        {
+          "id": "tm-l-nvda",
+          "headline": "Nvidia Shares Decline",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.3%",
+          "direction": "down",
+          "summary": "Influential Big Tech stocks struggled on Tuesday, with Nvidia among those experiencing a decline."
+        },
+        {
+          "id": "tm-l-tatasteel",
+          "headline": "Tata Steel Leads Indian Market Losers",
+          "ticker": "$TATASTEEL",
+          "price": "₹196.26",
+          "change": "-₹14.67",
+          "changePercent": "-6.99%",
+          "direction": "down",
+          "summary": "Tata Steel Ltd experienced a sharp retreat in Wednesday's Indian trading session."
+        },
+        {
+          "id": "tm-l-lt",
+          "headline": "Larsen & Toubro Sees Significant Drop",
+          "ticker": "$LT",
+          "price": "₹3806.4",
+          "change": "-₹260.0",
+          "changePercent": "-6.40%",
+          "direction": "down",
+          "summary": "Larsen & Toubro Ltd slipped substantially during Wednesday's trading in India."
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-03-03-2026",
-          "headline": "Energy and Technology Show Strength, Consumer Staples Lagging",
-          "summary": "Today's market saw a mixed performance across sectors. The Energy Select Sector SPDR ($XLE) advanced 1.30%, while the Technology Select Sector SPDR ($XLK) saw a 0.9% gain. Conversely, the Consumer Staples Select Sector SPDR ($XLP) declined 1.4%, with Communication Services ($XLC) down 1.60% and Financials ($XLF) down 1.29%. Utilities ETFs are also in demand due to the increasing energy needs of data centers.",
+          "id": "mn-1",
+          "headline": "Middle East Conflict Drives Oil Prices Higher, Intensifying Inflation Concerns",
+          "summary": "The escalating conflict in the Middle East has continued to push crude oil prices higher, with Brent crude briefly surpassing $84 and settling at $81.40, up 4.7%. U.S. benchmark crude also rose 4.7% to $74.56. This surge in energy costs is a central fear for investors, raising concerns that it could exacerbate inflation and potentially slow global economic growth. President Donald Trump's vow to escort oil tankers through the Strait of Hormuz provided some relief, moderating earlier steep market losses.",
           "tags": [
-            "Sector Performance",
-            "Energy",
-            "Technology",
-            "Consumer Staples"
-          ]
-        },
-        {
-          "id": "economic-data-inflation",
-          "headline": "Inflation and Geopolitics Drive Economic Concerns",
-          "summary": "Economic data released today included U.S. Domestic Vehicle Sales and Eurozone preliminary CPI flash estimates for February, expected to show moderating trends. However, January's producer inflation spiked to 0.8%, reigniting fears of stagflation. Federal Reserve officials, including New York Fed President John C. Williams, acknowledge solid growth but note inflation remains above the 2% target, currently around 3%. The market anticipates rate cuts later in the year, likely not before June.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve",
-            "Stagflation"
-          ]
-        },
-        {
-          "id": "earnings-reports-updates",
-          "headline": "Key Companies Report Earnings, Best Buy's Sales Decline",
-          "summary": "Several major companies released earnings today. Best Buy Co., Inc. ($BBY) reported a 0.8% decrease in comparable sales for Q4 FY26, though diluted EPS was $2.56. Progressive ($PGR) also held its Q4 2025 earnings call. On Holding AG ($ONON) announced full-year net sales surpassing CHF 3.0 billion for the first time.",
-          "tags": [
-            "Earnings Reports",
-            "Best Buy",
-            "Progressive",
-            "On Holding"
-          ]
-        },
-        {
-          "id": "macro-trends-middle-east",
-          "headline": "Middle East Conflict Fuels Oil Price Surge and Market Volatility",
-          "summary": "Macroeconomic trends are heavily influenced by the escalating Middle East conflict, particularly the U.S.-Israel military actions against Iran and the potential closure of the Strait of Hormuz. This has led to a significant surge in oil prices, with Brent crude leaping 7.5% and U.S. crude rising 7.6% today. The uncertainty is driving market volatility and risk-off sentiment globally.",
-          "tags": [
-            "Macro Trends",
             "Geopolitics",
             "Oil Prices",
-            "Market Volatility"
+            "Inflation",
+            "Economy"
+          ]
+        },
+        {
+          "id": "mn-2",
+          "headline": "Federal Reserve Holds Rates Steady, Eyes Inflation Ahead of March Meeting",
+          "summary": "The Federal Reserve maintained its benchmark interest rate at 3.5% to 3.75% at its January meeting. While market participants generally expect further easing in 2026, the odds of a rate cut at the upcoming March 17-18 FOMC meeting are considered low. Some Fed officials are reportedly focusing on the possibility of upward adjustments to rates if inflation, which was 2.9% in December 2025 (core PCE at 3.0%), remains above the 2% target.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "mn-3",
+          "headline": "Key Companies Report Earnings on March 4th",
+          "summary": "Several companies are scheduled to release their earnings reports today, March 4, 2026. These include Dycom Industries ($DY), Nexgen Energy Ltd. ($NXE), Bath & Body Works ($BBWI), Abercrombie & Fitch ($ANF), Wix.com Ltd. ($WIX), National Vision Holdings ($EYE), EyePoint Inc. ($EYPT), Genius Sports Limited ($GENI), and Daktronics Inc. ($DAKT). HOOKIPA Pharma ($HOOK) also has an earnings report. Continental also presented preliminary results for its 2025 fiscal year, anticipating higher earnings in 2026.",
+          "tags": [
+            "Earnings Reports",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "mn-4",
+          "headline": "Sector Performance: Energy Leads, Technology and Financials Lag",
+          "summary": "As of early March, the Energy and Consumer Staples sectors are showing impressive strength and leading the market. In contrast, sectors such as Technology, Financials, and Consumer Discretionary are currently lagging. Materials, Industrials, and Health Care also performed poorly on Tuesday, March 3rd, with the materials and oil & gas sectors experiencing selling pressure in the Indian market on Wednesday.",
+          "tags": [
+            "Sector Analysis",
+            "Energy Sector",
+            "Technology Sector"
+          ]
+        },
+        {
+          "id": "mn-5",
+          "headline": "Economic Growth Slows in Q4 2025, Rebound Expected in H1 2026",
+          "summary": "Real GDP growth in the U.S. slowed to an annualized rate of 1.4% in the fourth quarter of 2025. However, a rebound with solid, above-trend growth is anticipated for the first half of 2026. Knowledge-intensive industries, particularly those related to AI, are making outsized contributions to GDP growth.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "AI Impact"
           ]
         }
       ]
