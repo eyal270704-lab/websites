@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-03-05T12:37:00Z",
+  "generatedAt": "2026-03-05T18:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions & Pre-Market Movements",
-  "subtitle": "March 05, 2026 - Early Trading Session",
+  "title": "Daily Market Digest",
+  "subtitle": "Market insights for March 5, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-001",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-001",
-          "headline": "Global Markets Navigate Middle East Conflict; U.S. Futures Mixed",
-          "summary": "Geopolitical tensions stemming from the escalating Middle East conflict continue to heavily influence global financial markets. While Asian equities rebounded sharply, U.S. stock futures are showing mixed signals in early trading, as investors weigh ongoing conflict against better-than-expected U.S. economic data from Wednesday. Oil prices remain elevated, fueling inflation concerns.",
+          "id": "market-summary-today",
+          "headline": "U.S. Markets Decline Amid Geopolitical Tensions and Rising Oil Prices",
+          "summary": "U.S. stocks moved lower on Thursday, March 5, as investor skittishness returned due to ongoing geopolitical tensions between the U.S., Israel, and Iran, leading to concerns over energy supply disruptions and upward pressure on crude prices. Major indices experienced declines, contrasting with a rebound seen on Wednesday.",
           "tags": [
-            "Global Markets",
+            "Market Downturn",
             "Geopolitics",
             "Oil Prices"
           ]
@@ -25,187 +25,161 @@
       ]
     },
     {
-      "id": "major-indices-001",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat-001",
-          "statLabel": "S&P 500 (Mar 4 Close)",
-          "statValue": "6,869.50",
-          "statContext": "+0.78% on Wednesday"
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Current",
+          "statValue": "47,891.67",
+          "statContext": "Down 847.74 points (-1.74%)",
+          "change": "-$847.74",
+          "changePercent": "-1.74%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat-001",
-          "statLabel": "NASDAQ Composite (Mar 4 Close)",
-          "statValue": "22,807.48",
-          "statContext": "+1.3% on Wednesday"
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Current",
+          "statValue": "6,807.79",
+          "statContext": "Down 61.71 points (-0.90%)",
+          "change": "-$61.71",
+          "changePercent": "-0.90%",
+          "direction": "down"
         },
         {
-          "id": "dow-stat-001",
-          "statLabel": "Dow Jones Industrial Average (Mar 4 Close)",
-          "statValue": "48,739.41",
-          "statContext": "+0.49% on Wednesday"
-        },
-        {
-          "id": "sp500-pre-market-001",
-          "statLabel": "S&P 500 Futures (Pre-Market)",
-          "statValue": "Mixed",
-          "statContext": "+0.10% to -0.1% in early trading"
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Current",
+          "statValue": "22,660.23",
+          "statContext": "Down 147.25 points (-0.65%)",
+          "change": "-$147.25",
+          "changePercent": "-0.65%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-001",
-      "title": "Top Movers (Pre-Market)",
+      "id": "top-movers",
+      "title": "Top Movers (Selected S&P 500 Holdings)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-ibo-001",
-          "headline": "Impact BioMedical Inc. surges in early trading.",
-          "ticker": "$IBO",
-          "price": "$0.69",
-          "change": "+$0.28",
-          "changePercent": "+66.97%",
-          "direction": "up",
-          "summary": "Impact BioMedical Inc. leads pre-market gainers."
-        },
-        {
-          "id": "gainer-bhat-001",
-          "headline": "Blue Hat Interactive up significantly.",
-          "ticker": "$BHAT",
-          "price": "$0.04",
-          "change": "+$0.01",
-          "changePercent": "+38.80%",
-          "direction": "up",
-          "summary": "Blue Hat Interactive Entertainment Technology sees strong pre-market gains."
-        },
-        {
-          "id": "gainer-pdyn-001",
-          "headline": "Palladyne AI Corp. climbs ahead of market open.",
-          "ticker": "$PDYN",
-          "price": "$10.21",
-          "change": "+$2.77",
-          "changePercent": "+37.42%",
-          "direction": "up",
-          "summary": "Palladyne AI Corp. rose in pre-market, with the company expected to report quarterly loss at $0.18 per share on revenue of $809 thousand."
-        },
-        {
-          "id": "loser-asns-001",
-          "headline": "Actelis Networks, Inc. experiences sharp decline.",
-          "ticker": "$ASNS",
-          "price": "$0.39",
-          "change": "-$0.16",
-          "changePercent": "-28.52%",
-          "direction": "down",
-          "summary": "Actelis Networks, Inc. is among the top pre-market losers."
-        },
-        {
-          "id": "loser-go-001",
-          "headline": "Grocery Outlet Holding Corp. down in early trading.",
-          "ticker": "$GO",
-          "price": "$6.63",
-          "change": "-$2.17",
-          "changePercent": "-24.57%",
-          "direction": "down",
-          "summary": "Grocery Outlet Holding Corp. shows a significant pre-market decrease."
-        },
-        {
-          "id": "loser-mobx-001",
-          "headline": "Mobix Labs, Inc. falls in pre-market.",
-          "ticker": "$MOBX",
-          "price": "$0.63",
-          "change": "-$0.19",
-          "changePercent": "-22.95%",
-          "direction": "down",
-          "summary": "Mobix Labs, Inc. is one of the biggest decliners before the market opens."
-        },
-        {
-          "id": "gainer-veev-001",
-          "headline": "Veeva Systems Inc. soars on strong earnings.",
-          "ticker": "$VEEV",
+          "id": "mrna-gainer",
+          "headline": "Moderna Rallies",
+          "summary": "Moderna saw a significant increase today, likely driven by positive company-specific developments or broader market sentiment in the biotechnology sector.",
+          "ticker": "$MRNA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.3%",
-          "direction": "up",
-          "summary": "Shares of Veeva Systems Inc. gained 11.3% in pre-market trading following upbeat Q4 results and robust FY27 guidance."
+          "changePercent": "+15.99%",
+          "direction": "up"
         },
         {
-          "id": "gainer-avgo-001",
-          "headline": "Broadcom gains after earnings report.",
-          "ticker": "$AVGO",
-          "price": "$340.34",
+          "id": "lyb-gainer",
+          "headline": "LyondellBasell Up",
+          "summary": "LyondellBasell experienced positive movement, possibly due to favorable developments in the materials or chemicals industry.",
+          "ticker": "$LYB",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.18%",
-          "direction": "up",
-          "summary": "Broadcom shares are climbing after its earnings report, with the chip maker noting AI is not disrupting its software business."
+          "changePercent": "+6.37%",
+          "direction": "up"
         },
         {
-          "id": "loser-ses-001",
-          "headline": "SES AI Corporation tumbles after Q4 report.",
-          "ticker": "$SES",
-          "price": "$1.38",
+          "id": "fix-gainer",
+          "headline": "Comfort Systems Gains",
+          "summary": "Comfort Systems showed solid gains, potentially benefiting from strong demand in the industrial or construction services sector.",
+          "ticker": "$FIX",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-19.30%",
-          "direction": "down",
-          "summary": "SES AI Corporation saw its stock crumble after its Q4 earnings report."
+          "changePercent": "+2.82%",
+          "direction": "up"
+        },
+        {
+          "id": "apa-loser",
+          "headline": "APA Corp. Declines",
+          "summary": "APA Corp., an energy company, fell despite overall rising crude prices, which could indicate profit-taking, specific company news, or market sentiment affecting individual energy stocks.",
+          "ticker": "$APA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.35%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-001",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-me-conflict-001",
-          "headline": "Middle East Conflict Escalates, Driving Oil Prices Higher",
-          "summary": "The ongoing conflict in the Middle East, marked by Iran's missile launches at Israel and earlier strikes by the U.S. and Israel against Iran, continues to rattle global financial markets. The disruption has sent both major oil benchmarks climbing nearly 20% since Friday, raising concerns about a renewed inflation surge.",
+          "id": "energy-leading",
+          "headline": "Energy Sector Shows Strength Amid Rising Oil Prices",
+          "summary": "The energy sector demonstrated resilience and strength on Thursday as crude oil prices resumed their rally, pushing past the $84 mark due to ongoing geopolitical disruptions in the Middle East. Oil stocks have been notably surging this year.",
           "tags": [
-            "Geopolitics",
             "Energy",
-            "Inflation"
+            "Commodities",
+            "Geopolitics"
           ]
         },
         {
-          "id": "news-china-gdp-001",
-          "headline": "China Sets Economic Growth Target of 4.5%-5% for 2026",
-          "summary": "China has set its economic growth target for 2026 at 4.5% to 5%, according to a government work report submitted on Thursday. Other key targets include urban unemployment around 5.5% and a consumer price index increase of approximately 2%.",
+          "id": "tech-lagging-trend",
+          "headline": "Technology Sector Continues to Lag Broader Market",
+          "summary": "While U.S. markets saw declines today, the technology sector continued its trend of lagging behind the broader market. This reflects a waning investor enthusiasm for AI as they await tangible returns from AI spending, with other sectors like Basic Materials and Industrials showing stronger year-to-date performance."
+        },
+        {
+          "id": "other-lagging-sectors",
+          "headline": "Financials, Real Estate, and Utilities Face Headwinds",
+          "summary": "Several sectors including Financials, Real Estate, Utilities, Consumer Staples, and Industrials also experienced declines on Thursday, contributing to the broader market downturn."
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "fed-beige-book",
+          "headline": "Fed's Beige Book Indicates Slight Economic Activity Increase",
+          "summary": "The Federal Reserve's latest Beige Book report, released on Wednesday, indicated that U.S. economic activity had slightly increased in recent weeks, with prices continuing to rise and employment levels generally stable. The report also suggested the U.S. economy remained solid."
+        },
+        {
+          "id": "jobless-claims",
+          "headline": "U.S. Initial Jobless Claims Below Estimates, Continuing Claims Rise",
+          "summary": "New Initial Jobless Claims for the past week came in at 213,000, which was 2,000 claims lower than estimated, signaling a still-favorable labor market. However, Continuing Jobless Claims saw a jump to 1.87 million in the latest report.",
           "tags": [
-            "Economy",
-            "China"
+            "Labor Market",
+            "Economic Data"
           ]
         },
         {
-          "id": "news-us-tariffs-001",
-          "headline": "U.S. Judge Orders $175 Billion Tariff Refunds; New Tariffs Loom",
-          "summary": "A federal judge has ordered the U.S. government to initiate a $175 billion refund process for invalidated Trump tariffs. Meanwhile, President Donald Trump's new 15% global tariff is expected to take effect later this week, potentially impacting trade and consumer costs.",
-          "tags": [
-            "U.S. Economy",
-            "Trade Policy"
-          ]
-        },
-        {
-          "id": "news-earnings-liquida-001",
-          "headline": "Liquidia Reports Strong Q4 2025 Results",
-          "summary": "Liquidia Corporation ($LQDA) announced strong fourth-quarter and full-year 2025 financial results, reporting $148.3 million in YUTREPIA® sales for 2025 and achieving its second consecutive quarter of profitability.",
+          "id": "kroger-earnings",
+          "headline": "Kroger Co. Reports Q4 and FY2025 Results, Issues 2026 Guidance",
+          "summary": "The Kroger Co. ($KR) reported its fourth-quarter and fiscal year 2025 results on March 5, 2026. The supermarket chain saw identical sales without fuel increase by 2.4% and an operating profit of $1,246 million, with EPS at $1.35. The company also provided its guidance for 2026.",
           "tags": [
             "Earnings",
-            "Healthcare"
+            "Retail",
+            "$KR"
           ]
         },
         {
-          "id": "news-fed-outlook-001",
-          "headline": "BlackRock Maintains Optimistic Outlook Amidst AI-Driven Earnings",
-          "summary": "BlackRock's March 2026 commentary indicates a cautiously optimistic outlook for the U.S. economy and stock market, driven by 'mega forces' like artificial intelligence. Strategists anticipate a resilient U.S. labor market, which will likely reinforce the Fed's hawkish stance and maintain current interest rates.",
+          "id": "other-earnings",
+          "headline": "Additional Companies Announce Earnings Today",
+          "summary": "Other notable companies reporting earnings today include Canadian Natural Resources Limited ($CNQ), Ciena Corporation ($CIEN), JD.com, Inc. ($JD), Burlington Stores ($BURL), BJ's Wholesale Club ($BJ), The Toro Company ($TTC), Bilibili Inc. ($BILI), Evaxion A/S ($EVAX), and ITV ($ITV).",
           "tags": [
-            "Economic Outlook",
-            "Monetary Policy",
-            "AI"
+            "Earnings"
           ]
+        },
+        {
+          "id": "macro-outlook",
+          "headline": "Geopolitical Conflict Continues to Drive Market Volatility",
+          "summary": "The ongoing U.S.-Iran conflict remains a significant macro trend, contributing to market skittishness and the volatility of oil prices, which continue to influence global financial markets."
         }
       ]
     }
