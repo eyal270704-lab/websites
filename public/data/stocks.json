@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-05T07:40:00Z",
+  "generatedAt": "2026-03-05T12:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "March 05, 2026",
+  "title": "Daily Market Digest: Geopolitical Tensions & Pre-Market Movements",
+  "subtitle": "March 05, 2026 - Early Trading Session",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,12 +13,12 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-001",
-          "headline": "US Stocks Show Mixed Performance Amid Global Developments",
-          "summary": "The U.S. stock market is exhibiting mixed signals today, with the S&P 500 experiencing a slight decline, while the Nasdaq Composite continues its upward momentum. Investor sentiment remains a blend of optimism and caution, influenced by recent robust economic data and moderating oil prices, though ongoing Middle East tensions contribute to underlying uncertainty.",
+          "id": "mp-item-001",
+          "headline": "Global Markets Navigate Middle East Conflict; U.S. Futures Mixed",
+          "summary": "Geopolitical tensions stemming from the escalating Middle East conflict continue to heavily influence global financial markets. While Asian equities rebounded sharply, U.S. stock futures are showing mixed signals in early trading, as investors weigh ongoing conflict against better-than-expected U.S. economic data from Wednesday. Oil prices remain elevated, fueling inflation concerns.",
           "tags": [
-            "Market Sentiment",
-            "Global Economy",
+            "Global Markets",
+            "Geopolitics",
             "Oil Prices"
           ]
         }
@@ -31,90 +31,126 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "6858.00",
-          "statContext": "Fell 0.17% today"
+          "id": "sp500-stat-001",
+          "statLabel": "S&P 500 (Mar 4 Close)",
+          "statValue": "6,869.50",
+          "statContext": "+0.78% on Wednesday"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "Up >1%",
-          "statContext": "Surged over 1% today"
+          "id": "nasdaq-stat-001",
+          "statLabel": "NASDAQ Composite (Mar 4 Close)",
+          "statValue": "22,807.48",
+          "statContext": "+1.3% on Wednesday"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48823.00",
-          "statContext": "Gained 0.66% on March 4, 2026"
+          "id": "dow-stat-001",
+          "statLabel": "Dow Jones Industrial Average (Mar 4 Close)",
+          "statValue": "48,739.41",
+          "statContext": "+0.49% on Wednesday"
+        },
+        {
+          "id": "sp500-pre-market-001",
+          "statLabel": "S&P 500 Futures (Pre-Market)",
+          "statValue": "Mixed",
+          "statContext": "+0.10% to -0.1% in early trading"
         }
       ]
     },
     {
       "id": "top-movers-001",
-      "title": "Top Movers",
+      "title": "Top Movers (Pre-Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-msft",
-          "ticker": "$MSFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "id": "gainer-ibo-001",
+          "headline": "Impact BioMedical Inc. surges in early trading.",
+          "ticker": "$IBO",
+          "price": "$0.69",
+          "change": "+$0.28",
+          "changePercent": "+66.97%",
           "direction": "up",
-          "headline": "Microsoft leads tech rally.",
-          "summary": "Tech shares, including Microsoft, have been significant drivers of market performance, contributing to the Nasdaq's recent surge."
+          "summary": "Impact BioMedical Inc. leads pre-market gainers."
         },
         {
-          "id": "gainer-nvda",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.7% (Mar 4)",
+          "id": "gainer-bhat-001",
+          "headline": "Blue Hat Interactive up significantly.",
+          "ticker": "$BHAT",
+          "price": "$0.04",
+          "change": "+$0.01",
+          "changePercent": "+38.80%",
           "direction": "up",
-          "headline": "Nvidia continues strong performance.",
-          "summary": "Nvidia was a notable tech mover on Wednesday, gaining 1.7%, reflecting strong investor interest in technology stocks."
+          "summary": "Blue Hat Interactive Entertainment Technology sees strong pre-market gains."
         },
         {
-          "id": "gainer-tsla",
-          "ticker": "$TSLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.4% (Mar 4)",
+          "id": "gainer-pdyn-001",
+          "headline": "Palladyne AI Corp. climbs ahead of market open.",
+          "ticker": "$PDYN",
+          "price": "$10.21",
+          "change": "+$2.77",
+          "changePercent": "+37.42%",
           "direction": "up",
-          "headline": "Tesla sees significant gains.",
-          "summary": "Tesla experienced a 3.4% rise on Wednesday, contributing to the tech sector's robust performance."
+          "summary": "Palladyne AI Corp. rose in pre-market, with the company expected to report quarterly loss at $0.18 per share on revenue of $809 thousand."
         },
         {
-          "id": "loser-buru",
-          "ticker": "$BURU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-41.24% (Mar 4)",
+          "id": "loser-asns-001",
+          "headline": "Actelis Networks, Inc. experiences sharp decline.",
+          "ticker": "$ASNS",
+          "price": "$0.39",
+          "change": "-$0.16",
+          "changePercent": "-28.52%",
           "direction": "down",
-          "headline": "Nuburu, Inc. drops sharply.",
-          "summary": "Nuburu, Inc. saw a substantial decline of 41.24% on March 4, 2026, following news of a transatlantic defense manufacturing joint venture."
+          "summary": "Actelis Networks, Inc. is among the top pre-market losers."
         },
         {
-          "id": "loser-alur",
-          "ticker": "$ALUR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-40.08% (Mar 4)",
+          "id": "loser-go-001",
+          "headline": "Grocery Outlet Holding Corp. down in early trading.",
+          "ticker": "$GO",
+          "price": "$6.63",
+          "change": "-$2.17",
+          "changePercent": "-24.57%",
           "direction": "down",
-          "headline": "Allurion Technologies faces delisting notice.",
-          "summary": "Allurion Technologies, Inc. shares fell 40.08% on March 4, 2026, after the company announced its intention to appeal a NYSE notice of delisting."
+          "summary": "Grocery Outlet Holding Corp. shows a significant pre-market decrease."
         },
         {
-          "id": "loser-pulm",
-          "ticker": "$PULM",
+          "id": "loser-mobx-001",
+          "headline": "Mobix Labs, Inc. falls in pre-market.",
+          "ticker": "$MOBX",
+          "price": "$0.63",
+          "change": "-$0.19",
+          "changePercent": "-22.95%",
+          "direction": "down",
+          "summary": "Mobix Labs, Inc. is one of the biggest decliners before the market opens."
+        },
+        {
+          "id": "gainer-veev-001",
+          "headline": "Veeva Systems Inc. soars on strong earnings.",
+          "ticker": "$VEEV",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-36.79% (Mar 4)",
+          "changePercent": "+11.3%",
+          "direction": "up",
+          "summary": "Shares of Veeva Systems Inc. gained 11.3% in pre-market trading following upbeat Q4 results and robust FY27 guidance."
+        },
+        {
+          "id": "gainer-avgo-001",
+          "headline": "Broadcom gains after earnings report.",
+          "ticker": "$AVGO",
+          "price": "$340.34",
+          "change": "N/A",
+          "changePercent": "+7.18%",
+          "direction": "up",
+          "summary": "Broadcom shares are climbing after its earnings report, with the chip maker noting AI is not disrupting its software business."
+        },
+        {
+          "id": "loser-ses-001",
+          "headline": "SES AI Corporation tumbles after Q4 report.",
+          "ticker": "$SES",
+          "price": "$1.38",
+          "change": "N/A",
+          "changePercent": "-19.30%",
           "direction": "down",
-          "headline": "Pulmatrix, Inc. impacted by merger termination.",
-          "summary": "Pulmatrix, Inc. experienced a 36.79% decrease on March 4, 2026, following the termination of a previously planned merger."
+          "summary": "SES AI Corporation saw its stock crumble after its Q4 earnings report."
         }
       ]
     },
@@ -125,42 +161,50 @@
       "layout": "list",
       "items": [
         {
-          "id": "news-china-gdp",
-          "headline": "China Sets Lower Economic Growth Target for 2026",
-          "summary": "China's Premier Li Qiang announced a lower economic growth target of 4.5% to 5% for 2026, signaling continuity in economic policy amidst a prolonged property slump and other domestic and international challenges. This is the lowest growth target since 1991.",
+          "id": "news-me-conflict-001",
+          "headline": "Middle East Conflict Escalates, Driving Oil Prices Higher",
+          "summary": "The ongoing conflict in the Middle East, marked by Iran's missile launches at Israel and earlier strikes by the U.S. and Israel against Iran, continues to rattle global financial markets. The disruption has sent both major oil benchmarks climbing nearly 20% since Friday, raising concerns about a renewed inflation surge.",
           "tags": [
-            "Global Economy",
-            "China",
-            "GDP"
-          ]
-        },
-        {
-          "id": "news-fed-outlook",
-          "headline": "Upcoming Fed Decision and Economic Data Releases",
-          "summary": "The Federal Open Market Committee (FOMC) is scheduled to hold its next meeting and make an interest rate decision on March 18, 2026. Investors are also closely awaiting the latest weekly jobless claims data, and the February 2026 Employment Situation report, due March 6.",
-          "tags": [
-            "Federal Reserve",
-            "Economic Data",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "news-earnings-today",
-          "headline": "Key Companies Report Earnings; Amplify Energy Delays",
-          "summary": "Several companies are reporting earnings today, March 5, 2026, including Kroger ($KR), Costco Wholesale, and Marvell Technology. Canadian Natural Resources Limited ($CNQ), Ciena Corporation ($CIEN), JD.com ($JD), Burlington Stores, Inc. ($BURL), BJ's Wholesale Club Holdings, Inc. ($BJ), Toro Company ($TTC), Bilibili Inc. ($BILI), Victoria's Secret & Co. ($VSCO), Liquidia Corporation ($LQDA), and Global Ship Lease, Inc. ($GSL) are also expected to report. Amplify Energy Corp. ($AMPY) has delayed its Q4 2025 earnings release until March 9, 2026. Rumble ($RUM) hosted its Q4 2025 earnings call today.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "news-market-drivers",
-          "headline": "Macro Trends Influencing Market Direction",
-          "summary": "Stronger-than-expected private job growth and easing inflation pressures, as indicated by recent ADP data, are providing some positive sentiment. However, the ongoing geopolitical tensions in the Middle East continue to be a significant factor, with oil prices resuming their ascent today. Treasury Secretary Scott Bessent's indication of measures to support Persian Gulf oil flows helped moderate crude prices yesterday.",
-          "tags": [
-            "Macroeconomics",
             "Geopolitics",
-            "Energy Prices"
+            "Energy",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "news-china-gdp-001",
+          "headline": "China Sets Economic Growth Target of 4.5%-5% for 2026",
+          "summary": "China has set its economic growth target for 2026 at 4.5% to 5%, according to a government work report submitted on Thursday. Other key targets include urban unemployment around 5.5% and a consumer price index increase of approximately 2%.",
+          "tags": [
+            "Economy",
+            "China"
+          ]
+        },
+        {
+          "id": "news-us-tariffs-001",
+          "headline": "U.S. Judge Orders $175 Billion Tariff Refunds; New Tariffs Loom",
+          "summary": "A federal judge has ordered the U.S. government to initiate a $175 billion refund process for invalidated Trump tariffs. Meanwhile, President Donald Trump's new 15% global tariff is expected to take effect later this week, potentially impacting trade and consumer costs.",
+          "tags": [
+            "U.S. Economy",
+            "Trade Policy"
+          ]
+        },
+        {
+          "id": "news-earnings-liquida-001",
+          "headline": "Liquidia Reports Strong Q4 2025 Results",
+          "summary": "Liquidia Corporation ($LQDA) announced strong fourth-quarter and full-year 2025 financial results, reporting $148.3 million in YUTREPIA® sales for 2025 and achieving its second consecutive quarter of profitability.",
+          "tags": [
+            "Earnings",
+            "Healthcare"
+          ]
+        },
+        {
+          "id": "news-fed-outlook-001",
+          "headline": "BlackRock Maintains Optimistic Outlook Amidst AI-Driven Earnings",
+          "summary": "BlackRock's March 2026 commentary indicates a cautiously optimistic outlook for the U.S. economy and stock market, driven by 'mega forces' like artificial intelligence. Strategists anticipate a resilient U.S. labor market, which will likely reinforce the Fed's hawkish stance and maintain current interest rates.",
+          "tags": [
+            "Economic Outlook",
+            "Monetary Policy",
+            "AI"
           ]
         }
       ]
