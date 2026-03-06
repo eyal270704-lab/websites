@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-05T18:07:00Z",
+  "generatedAt": "2026-03-06T07:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for March 5, 2026",
+  "subtitle": "March 06, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,100 +13,195 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Markets Decline Amid Geopolitical Tensions and Rising Oil Prices",
-          "summary": "U.S. stocks moved lower on Thursday, March 5, as investor skittishness returned due to ongoing geopolitical tensions between the U.S., Israel, and Iran, leading to concerns over energy supply disruptions and upward pressure on crude prices. Major indices experienced declines, contrasting with a rebound seen on Wednesday.",
+          "id": "market-summary-03062026",
+          "headline": "Global Markets Cautious Amid Geopolitical Tensions and Surging Oil Prices",
+          "summary": "Global markets are navigating a landscape of heightened caution on Friday, March 6, 2026, driven by ongoing geopolitical tensions in the Middle East and their impact on crude oil prices. U.S. stock futures showed modest gains in early trading after Wall Street closed significantly lower on Thursday. Asian markets presented a mixed picture, with some indices declining while others, like Japan's Nikkei 225, saw slight advances. The market's focus remains on inflation risks and the Federal Reserve's monetary policy outlook, particularly ahead of today's February jobs report release. Not financial advice.",
           "tags": [
-            "Market Downturn",
+            "Global Markets",
             "Geopolitics",
-            "Oil Prices"
-          ]
+            "Oil Prices",
+            "Inflation",
+            "Fed"
+          ],
+          "timestamp": "2026-03-06T07:37:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Current",
-          "statValue": "47,891.67",
-          "statContext": "Down 847.74 points (-1.74%)",
-          "change": "-$847.74",
-          "changePercent": "-1.74%",
-          "direction": "down"
+          "id": "sp500-03052026",
+          "headline": "S&P 500 (Thursday Close)",
+          "statLabel": "S&P 500",
+          "statValue": "6,830.71",
+          "statContext": "Down 0.56% (Previous Close)",
+          "tags": [
+            "S&P 500",
+            "US Market"
+          ],
+          "timestamp": "2026-03-05T21:00:00Z"
         },
         {
-          "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Current",
-          "statValue": "6,807.79",
-          "statContext": "Down 61.71 points (-0.90%)",
-          "change": "-$61.71",
-          "changePercent": "-0.90%",
-          "direction": "down"
+          "id": "nasdaq-03052026",
+          "headline": "NASDAQ Composite (Thursday Close)",
+          "statLabel": "NASDAQ",
+          "statValue": "22,748.99",
+          "statContext": "Down 0.26% (Previous Close)",
+          "tags": [
+            "NASDAQ",
+            "US Market"
+          ],
+          "timestamp": "2026-03-05T21:00:00Z"
         },
         {
-          "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Current",
-          "statValue": "22,660.23",
-          "statContext": "Down 147.25 points (-0.65%)",
-          "change": "-$147.25",
-          "changePercent": "-0.65%",
-          "direction": "down"
+          "id": "dow-03052026",
+          "headline": "Dow Jones Industrial Average (Thursday Close)",
+          "statLabel": "DOW",
+          "statValue": "47,954.74",
+          "statContext": "Down 1.61% (Previous Close)",
+          "tags": [
+            "DOW",
+            "US Market"
+          ],
+          "timestamp": "2026-03-05T21:00:00Z"
+        },
+        {
+          "id": "sp500-futures-03062026",
+          "headline": "S&P 500 Futures (Friday Pre-market)",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "+0.2%",
+          "statContext": "Gained ahead of market open",
+          "tags": [
+            "Futures",
+            "US Market"
+          ],
+          "timestamp": "2026-03-06T07:00:00Z"
+        },
+        {
+          "id": "dow-futures-03062026",
+          "headline": "Dow Futures (Friday Pre-market)",
+          "statLabel": "Dow Futures",
+          "statValue": "+0.3%",
+          "statContext": "Gained ahead of market open",
+          "tags": [
+            "Futures",
+            "US Market"
+          ],
+          "timestamp": "2026-03-06T07:00:00Z"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Selected S&P 500 Holdings)",
+      "title": "Top Movers (Thursday, March 5, 2026, US Market Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mrna-gainer",
-          "headline": "Moderna Rallies",
-          "summary": "Moderna saw a significant increase today, likely driven by positive company-specific developments or broader market sentiment in the biotechnology sector.",
-          "ticker": "$MRNA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15.99%",
-          "direction": "up"
+          "id": "wday-gainer-03052026",
+          "headline": "Workday Leads S&P 500 Gainers",
+          "summary": "Workday Inc. ($WDAY) saw significant gains of 7.16% to close at $143.61, reflecting positive investor sentiment.",
+          "ticker": "$WDAY",
+          "price": "$143.61",
+          "change": "+$9.59",
+          "changePercent": "+7.16%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Technology"
+          ]
         },
         {
-          "id": "lyb-gainer",
-          "headline": "LyondellBasell Up",
-          "summary": "LyondellBasell experienced positive movement, possibly due to favorable developments in the materials or chemicals industry.",
-          "ticker": "$LYB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.37%",
-          "direction": "up"
+          "id": "bby-gainer-03052026",
+          "headline": "Best Buy Co. Among Top Performers",
+          "summary": "Best Buy Co. ($BBY) also recorded strong performance, rising 7.08% to $65.95 in Thursday's session.",
+          "ticker": "$BBY",
+          "price": "$65.95",
+          "change": "+$4.36",
+          "changePercent": "+7.08%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Retail"
+          ]
         },
         {
-          "id": "fix-gainer",
-          "headline": "Comfort Systems Gains",
-          "summary": "Comfort Systems showed solid gains, potentially benefiting from strong demand in the industrial or construction services sector.",
-          "ticker": "$FIX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+2.82%",
-          "direction": "up"
+          "id": "tgt-gainer-03052026",
+          "headline": "Target Rises on Positive Profit Report",
+          "summary": "Target Corporation ($TGT) shares increased 6.74% to $120.80 after the retailer reported a better-than-expected quarterly profit.",
+          "ticker": "$TGT",
+          "price": "$120.80",
+          "change": "+$7.61",
+          "changePercent": "+6.74%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Retail"
+          ]
         },
         {
-          "id": "apa-loser",
-          "headline": "APA Corp. Declines",
-          "summary": "APA Corp., an energy company, fell despite overall rising crude prices, which could indicate profit-taking, specific company news, or market sentiment affecting individual energy stocks.",
-          "ticker": "$APA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.35%",
-          "direction": "down"
+          "id": "mu-loser-03052026",
+          "headline": "Micron Technology Leads S&P 500 Losers",
+          "summary": "Micron Technology ($MU) experienced a notable decline of 7.99%, closing at $379.68.",
+          "ticker": "$MU",
+          "price": "$379.68",
+          "change": "-$32.96",
+          "changePercent": "-7.99%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Technology",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "nem-loser-03052026",
+          "headline": "Newmont Shares Decline",
+          "summary": "Newmont Corporation ($NEM) saw its stock fall 7.73% to $118.52 in Thursday's trading.",
+          "ticker": "$NEM",
+          "price": "$118.52",
+          "change": "-$9.86",
+          "changePercent": "-7.73%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Mining",
+            "Gold"
+          ]
+        },
+        {
+          "id": "nrg-loser-03052026",
+          "headline": "NRG Energy Down Significantly",
+          "summary": "NRG Energy ($NRG) shares dropped sharply by 7.70%, closing at $162.06 during the session.",
+          "ticker": "$NRG",
+          "price": "$162.06",
+          "change": "-$13.57",
+          "changePercent": "-7.70%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Utilities",
+            "Energy"
+          ]
+        },
+        {
+          "id": "ual-loser-03052026",
+          "headline": "Airline Stocks Hit by Soaring Oil Prices",
+          "summary": "United Airlines Holdings Inc. ($UAL) declined 5.03% to $95.43 as higher oil prices pushed up fuel costs amid the Middle East conflict.",
+          "ticker": "$UAL",
+          "price": "$95.43",
+          "change": "-$5.05",
+          "changePercent": "-5.03%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Airlines",
+            "Energy Prices"
+          ]
         }
       ]
     },
@@ -117,69 +212,106 @@
       "layout": "list",
       "items": [
         {
-          "id": "energy-leading",
-          "headline": "Energy Sector Shows Strength Amid Rising Oil Prices",
-          "summary": "The energy sector demonstrated resilience and strength on Thursday as crude oil prices resumed their rally, pushing past the $84 mark due to ongoing geopolitical disruptions in the Middle East. Oil stocks have been notably surging this year.",
+          "id": "sector-us-thursday-03052026",
+          "headline": "US Sectors Show Divergent Performance on Thursday",
+          "summary": "On Thursday, Industrials, Materials, and Healthcare sectors in the S&P 500 each fell more than 2%. The Passenger Airlines sub-sector experienced a tumble of 5.4% due to rising fuel costs. In contrast, Energy and Technology stocks helped limit overall market losses, with S&P technology stocks rising 0.4% and energy companies gaining from the prospect of higher revenues on elevated energy prices.",
           "tags": [
+            "Sectors",
+            "US Market",
+            "Industrials",
+            "Materials",
+            "Healthcare",
+            "Airlines",
             "Energy",
-            "Commodities",
-            "Geopolitics"
+            "Technology"
           ]
         },
         {
-          "id": "tech-lagging-trend",
-          "headline": "Technology Sector Continues to Lag Broader Market",
-          "summary": "While U.S. markets saw declines today, the technology sector continued its trend of lagging behind the broader market. This reflects a waning investor enthusiasm for AI as they await tangible returns from AI spending, with other sectors like Basic Materials and Industrials showing stronger year-to-date performance."
+          "id": "sector-australia-friday-03062026",
+          "headline": "Australian Market Sectors Mixed on Friday",
+          "summary": "In Australia, the S&P/ASX 200 Information Technology Index surged 4.57% on Friday, March 6. Communications shares also performed strongly, jumping 1.73%. Consumer Discretionary, Healthcare, Utilities, and Energy sectors also saw modest gains. However, Gold stocks continued to lag, crashing by another 5.85%.",
+          "tags": [
+            "Sectors",
+            "Australia Market",
+            "Technology",
+            "Communications",
+            "Energy",
+            "Gold"
+          ]
         },
         {
-          "id": "other-lagging-sectors",
-          "headline": "Financials, Real Estate, and Utilities Face Headwinds",
-          "summary": "Several sectors including Financials, Real Estate, Utilities, Consumer Staples, and Industrials also experienced declines on Thursday, contributing to the broader market downturn."
+          "id": "sector-trends-2026",
+          "headline": "Value Outperforms Growth in Broader 2026 Sector Rotation",
+          "summary": "A broader trend in 2026 indicates that sector rotation has intensified, with Value stocks outperforming Growth. Since the beginning of the year, Staples (up 15%), Industrials (up 12%), Energy (up 21%), and Materials (up 17%) have significantly outperformed the overall market.",
+          "tags": [
+            "Sector Rotation",
+            "Value vs Growth",
+            "Staples",
+            "Industrials",
+            "Energy",
+            "Materials"
+          ]
         }
       ]
     },
     {
       "id": "economic-news",
-      "title": "Economic News",
+      "title": "Economic News & Key Events",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-beige-book",
-          "headline": "Fed's Beige Book Indicates Slight Economic Activity Increase",
-          "summary": "The Federal Reserve's latest Beige Book report, released on Wednesday, indicated that U.S. economic activity had slightly increased in recent weeks, with prices continuing to rise and employment levels generally stable. The report also suggested the U.S. economy remained solid."
-        },
-        {
-          "id": "jobless-claims",
-          "headline": "U.S. Initial Jobless Claims Below Estimates, Continuing Claims Rise",
-          "summary": "New Initial Jobless Claims for the past week came in at 213,000, which was 2,000 claims lower than estimated, signaling a still-favorable labor market. However, Continuing Jobless Claims saw a jump to 1.87 million in the latest report.",
+          "id": "jobs-report-03062026",
+          "headline": "February Jobs Report Due Today",
+          "summary": "The highly anticipated February 2026 jobs report is scheduled for release later today, March 6. Wall Street analysts are anticipating a gain of approximately 50,000 new jobs. This report will provide critical data for the Federal Reserve's upcoming monetary policy decisions.",
           "tags": [
-            "Labor Market",
-            "Economic Data"
+            "Economic Data",
+            "Jobs Report",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "kroger-earnings",
-          "headline": "Kroger Co. Reports Q4 and FY2025 Results, Issues 2026 Guidance",
-          "summary": "The Kroger Co. ($KR) reported its fourth-quarter and fiscal year 2025 results on March 5, 2026. The supermarket chain saw identical sales without fuel increase by 2.4% and an operating profit of $1,246 million, with EPS at $1.35. The company also provided its guidance for 2026.",
+          "id": "fed-outlook-03062026",
+          "headline": "Fed Expected to Hold Rates Steady, Inflation Concerns Linger",
+          "summary": "The Federal Reserve is widely expected to hold interest rates steady at its next FOMC meeting on March 18, maintaining the target federal-funds rate in the 3.50%-3.75% range. However, minutes from a recent Fed meeting indicated that some officials are considering potential rate hikes if inflation, currently at 2.9%, remains above the 2.0% target.",
           "tags": [
-            "Earnings",
-            "Retail",
-            "$KR"
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "other-earnings",
-          "headline": "Additional Companies Announce Earnings Today",
-          "summary": "Other notable companies reporting earnings today include Canadian Natural Resources Limited ($CNQ), Ciena Corporation ($CIEN), JD.com, Inc. ($JD), Burlington Stores ($BURL), BJ's Wholesale Club ($BJ), The Toro Company ($TTC), Bilibili Inc. ($BILI), Evaxion A/S ($EVAX), and ITV ($ITV).",
+          "id": "middle-east-conflict-03062026",
+          "headline": "Middle East Conflict Continues to Drive Oil Prices and Market Caution",
+          "summary": "The ongoing Middle East conflict remains a dominant factor influencing global markets, contributing to elevated crude oil prices and fueling worries about inflation and economic growth. On Thursday, U.S. crude prices surged 8.5% to $81 per barrel, while global benchmark Brent crude rose 4.9% to $85.41, marking its highest level since July 2024.",
           "tags": [
-            "Earnings"
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation",
+            "Global Economy"
           ]
         },
         {
-          "id": "macro-outlook",
-          "headline": "Geopolitical Conflict Continues to Drive Market Volatility",
-          "summary": "The ongoing U.S.-Iran conflict remains a significant macro trend, contributing to market skittishness and the volatility of oil prices, which continue to influence global financial markets."
+          "id": "premarket-earnings-03062026",
+          "headline": "Several Companies Report Q4 2025 Earnings Pre-Market",
+          "summary": "Companies including Embraer S.A. ($EMBJ), Kingstone Companies, Inc. ($KINS), Genesco Inc. ($GCO), Methode Electronics, Inc. ($MEI), NewLake Capital Partners ($NLCP), Cohen & Company Inc. ($COHN), and Banco De Chile ($BCH) released their fourth-quarter and/or full-year 2025 financial results prior to market open today.",
+          "tags": [
+            "Earnings Reports",
+            "Q4 2025",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "ai-economy-outlook",
+          "headline": "AI Economy Expansion and Potential Chip Export Regulations",
+          "summary": "The AI economy continues its expansion, particularly in data centers, GPUs, software, and cybersecurity. Meanwhile, there are discussions around potential U.S. requirements for permits for AI chip sales, which could impact the technology sector.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Semiconductors",
+            "Trade Policy"
+          ]
         }
       ]
     }
