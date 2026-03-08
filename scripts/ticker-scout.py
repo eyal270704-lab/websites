@@ -89,8 +89,9 @@ def fetch_transcript(video_id):
     """Fetch plain text transcript using youtube-transcript-api."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'en-US'])
-        return ' '.join(entry['text'] for entry in transcript_list)
+        api = YouTubeTranscriptApi()
+        transcript = api.fetch(video_id, languages=['en', 'en-US'])
+        return ' '.join(snippet.text for snippet in transcript)
     except ImportError:
         log("Error: youtube-transcript-api not installed. Run: pip install youtube-transcript-api")
         sys.exit(1)
