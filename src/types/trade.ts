@@ -15,6 +15,8 @@ export interface TradeSetup {
   riskScore: number    // 1-10
   footerTag: string    // e.g., "High Confidence"
   setupType: SetupType
+  currentPrice?: string // e.g., "$182.50" — real-time price from Google Search
+  source?: string       // e.g., "Watchlist" | "Micha Stocks YouTube"
 }
 
 export type SetupType = 'perfect' | 'momentum' | 'breakout' | 'risky' | 'avoid'

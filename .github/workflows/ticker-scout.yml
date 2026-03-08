@@ -1,0 +1,64 @@
+name: Ticker Scout
+
+on:
+  workflow_dispatch:
+    inputs:
+      youtube_url:
+        description: 'YouTube URL (Micha Stocks livestream or video)'
+        required: true
+        type: string
+      ticker_count:
+        description: 'Number of tickers to extract and analyze'
+        required: false
+        default: '3'
+        type: string
+      source_label:
+        description: 'Source label shown on trade cards'
+        required: false
+        default: 'Micha Stocks YouTube'
+        type: string
+
+jobs:
+  scout:
+    name: Scout → Analyze → Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install google-genai youtube-transcript-api
+
+      - name: Run Ticker Scout
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/ticker-scout.py \
+            --url "${{ github.event.inputs.youtube_url }}" \
+            --count ${{ github.event.inputs.ticker_count }} \
+            --source "${{ github.event.inputs.source_label }}"
+
+      - name: Commit updated trades
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/trades.json
+          git diff --staged --quiet || git commit -m "📺 Ticker Scout: ${{ github.event.inputs.source_label }} - $(date +'%Y-%m-%d %H:%M UTC')"
+
+      - name: Push
+        run: git pull --rebase && git push
+
+      - name: Summary
+        run: |
+          echo "### Ticker Scout Complete" >> $GITHUB_STEP_SUMMARY
+          echo "- **Source**: ${{ github.event.inputs.source_label }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Tickers extracted**: ${{ github.event.inputs.ticker_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **View results**: [Trade Watcher](https://eyal270704-lab.github.io/websites/trade-watcher)" >> $GITHUB_STEP_SUMMARY

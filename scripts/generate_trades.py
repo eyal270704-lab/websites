@@ -143,6 +143,18 @@ def generate_trades_with_gemini(prompt, api_key, quiet=False):
         return None
 
 
+def load_existing_trades(output_path):
+    """Load existing trades array from trades.json, returns [] if missing."""
+    if not output_path.exists():
+        return []
+    try:
+        with open(output_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('trades', [])
+    except Exception:
+        return []
+
+
 def validate_trade(trade):
     """Validate a single trade setup matches expected schema."""
     required_fields = [
@@ -171,6 +183,8 @@ def main():
     parser = argparse.ArgumentParser(description='Generate trade setups using Gemini AI')
     parser.add_argument('--quiet', '-q', action='store_true', help='Output only JSON')
     parser.add_argument('--tickers', '-t', help='Comma-separated list of tickers (e.g., AAPL,MSFT,TSLA)')
+    parser.add_argument('--source', '-s', default='Watchlist', help='Source label for these trades (default: Watchlist)')
+    parser.add_argument('--append', '-a', action='store_true', help='Append to existing trades.json instead of overwriting')
     args = parser.parse_args()
 
     log("\nGenerating trade setups...\n", args.quiet)
@@ -193,10 +207,11 @@ def main():
 
     log("Loaded TradeAnalyzer prompt", args.quiet)
 
-    # Add today's date and tickers to prompt
+    # Add today's date, tickers, and source to prompt
     today = datetime.now().strftime("%B %d, %Y")
     prompt = prompt.replace("{{DATE}}", today)
     prompt = prompt.replace("{{TICKERS}}", ", ".join(f"${t}" for t in tickers))
+    prompt = prompt.replace("{{SOURCE}}", args.source)
 
     # Get API key
     api_key = os.environ.get('GEMINI_API_KEY')
@@ -225,6 +240,18 @@ def main():
 
     log(f"Validated {len(valid_trades)} trades", args.quiet)
 
+    # Determine output path early (needed for --append)
+    repo_root = Path(__file__).parent.parent
+    output_path = repo_root / 'public' / 'data' / 'trades.json'
+
+    # Merge with existing trades if --append
+    if args.append:
+        existing = load_existing_trades(output_path)
+        new_tickers = {t['ticker'] for t in valid_trades}
+        kept = [t for t in existing if t['ticker'] not in new_tickers]
+        valid_trades = kept + valid_trades
+        log(f"Appended: {len(valid_trades)} total trades ({len(kept)} kept + {len(new_tickers)} new)", args.quiet)
+
     # Create output structure
     output = {
         "generatedAt": datetime.utcnow().isoformat() + "Z",
@@ -232,10 +259,6 @@ def main():
         "tradeCount": len(valid_trades),
         "trades": valid_trades
     }
-
-    # Determine output path
-    repo_root = Path(__file__).parent.parent
-    output_path = repo_root / 'public' / 'data' / 'trades.json'
 
     # Ensure directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)

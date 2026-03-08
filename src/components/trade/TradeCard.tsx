@@ -16,10 +16,25 @@ export default function TradeCard({ data }: TradeCardProps) {
           </span>
           <span className="text-xs text-text-muted mt-1">{data.name}</span>
         </div>
-        <span className="bg-white/5 text-text-muted px-3 py-1.5 rounded-md text-xs uppercase font-semibold tracking-wide">
-          {data.sector}
-        </span>
+        <div className="flex flex-col items-end gap-1.5">
+          <span className="bg-white/5 text-text-muted px-3 py-1.5 rounded-md text-xs uppercase font-semibold tracking-wide">
+            {data.sector}
+          </span>
+          {data.source && data.source !== 'Watchlist' && (
+            <span className="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded-full">
+              📺 {data.source}
+            </span>
+          )}
+        </div>
       </div>
+
+      {/* Current Price Bar */}
+      {data.currentPrice && (
+        <div className="flex justify-between items-center bg-black/20 px-3 py-2 rounded-md mb-4 text-sm">
+          <span className="text-text-muted text-xs uppercase">Current Price</span>
+          <span className="font-bold font-mono text-text-main">{data.currentPrice}</span>
+        </div>
+      )}
 
       {/* Data Grid */}
       <div className="grid grid-cols-2 gap-4 mb-5">

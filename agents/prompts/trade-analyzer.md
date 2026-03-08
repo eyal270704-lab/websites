@@ -30,6 +30,7 @@ Return a JSON array where each trade setup matches this EXACT structure:
   "ticker": "$SYMBOL",
   "name": "Full Company Name",
   "sector": "Sector Name",
+  "currentPrice": "$XX.XX",
   "entry": "$XX.XX",
   "stop": "$XX.XX",
   "structure": "Technical structure (e.g., '0.618 Fib', '0.5 Fib', 'Support Test')",
@@ -38,13 +39,15 @@ Return a JSON array where each trade setup matches this EXACT structure:
   "analysis": "2-3 sentence technical thesis explaining the setup",
   "riskScore": 1-10,
   "footerTag": "Setup classification (e.g., 'High Confidence', 'Momentum', 'Accumulation', 'High Risk')",
-  "setupType": "Category: perfect|momentum|breakout|risky|avoid"
+  "setupType": "Category: perfect|momentum|breakout|risky|avoid",
+  "source": "{{SOURCE}}"
 }
 ```
 
 ### 3) Field Guidelines
 
 - **ticker**: Always include $ prefix
+- **currentPrice**: Latest market price (use Google Search for real-time data, format as "$XX.XX")
 - **entry**: The ideal entry zone price
 - **stop**: Stop loss level (use technical levels, not arbitrary %)
 - **structure**: Primary technical structure driving the setup
@@ -53,6 +56,7 @@ Return a JSON array where each trade setup matches this EXACT structure:
 - **riskScore**: 1-3 (low risk), 4-6 (medium), 7-10 (high) - factor in catalysts
 - **footerTag**: If earnings within 5 days, use 'High Risk - Earnings'
 - **setupType**: 'avoid' if no valid setup found
+- **source**: Do not change - already set to "{{SOURCE}}" by the calling script
 
 ### 4) Output Constraints
 
@@ -69,6 +73,7 @@ Return a JSON array where each trade setup matches this EXACT structure:
     "ticker": "$TSLA",
     "name": "Tesla Inc.",
     "sector": "Consumer Cyclical",
+    "currentPrice": "$187.30",
     "entry": "$182.50",
     "stop": "$175.00",
     "structure": "0.618 Fib",
@@ -77,7 +82,8 @@ Return a JSON array where each trade setup matches this EXACT structure:
     "analysis": "Stock is flagging above the 150-day MA. Just touched the Golden Zone on the daily chart with volume drying up, suggesting sellers are exhausted.",
     "riskScore": 3,
     "footerTag": "High Confidence",
-    "setupType": "perfect"
+    "setupType": "perfect",
+    "source": "Watchlist"
   }
 ]
 ```
