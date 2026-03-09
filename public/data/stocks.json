@@ -1,180 +1,168 @@
 {
-  "generatedAt": "2026-03-09T07:49:00Z",
+  "generatedAt": "2026-03-09T12:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
   "subtitle": "March 9, 2026",
-  "badge": "Updated Now",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-today",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "overall-market-summary",
-          "headline": "Geopolitical Tensions and Weak Jobs Data Fuel 'Risk-Off' Sentiment",
-          "summary": "U.S. equities concluded the week ending March 7, 2026, lower across all major indices as escalating geopolitical tensions in the Middle East drove a sharp rise in crude oil prices, coupled with a weaker-than-expected U.S. employment report. This combination fostered a 'risk-off' environment, particularly impacting small and mid-cap stocks. Investors are also digesting ongoing inflation concerns and the Federal Reserve's stance on interest rates, with expectations firm for no change at the upcoming FOMC meeting. Not financial advice.",
+          "id": "market-summary-030926",
+          "headline": "Global Markets Tumble as Middle East Tensions Escalate and Oil Prices Surge",
+          "summary": "Global markets are experiencing a significant downturn today, Monday, March 9, 2026, as geopolitical tensions in the Middle East escalate and crude oil prices surge past $110 a barrel. This has led to broad-based sell-offs and a cautious sentiment across major indices worldwide. US stock futures tumbled, with Dow and S&P 500 futures recording declines, and the Nasdaq 100 futures also dropping. Asian markets, including Korea's KOSPI and Japan's Nikkei 225, also saw steep losses.",
           "tags": [
-            "Market Sentiment",
+            "Global Market",
             "Geopolitics",
-            "Economic Data",
-            "Inflation",
-            "Fed"
+            "Oil Prices",
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "6,740.02",
-          "statContext": "Last Week: -2.0%"
+          "id": "sp500-030926",
+          "headline": "S&P 500",
+          "statLabel": "Current Value",
+          "statValue": "6678.00",
+          "statContext": "Down 0.91% from previous session; futures down 1.6% in early trading.",
+          "ticker": "$US500",
+          "price": "6678.00",
+          "change": "-61.02",
+          "changePercent": "-0.91%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,387.68",
-          "statContext": "Last Week: -1.2%"
+          "id": "nasdaq-030926",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Futures Movement",
+          "statValue": "Down 2.0%",
+          "statContext": "Nasdaq 100 futures dropped 2% as of Monday morning, indicating a negative opening.",
+          "ticker": "$NDX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.00%",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "47,501.55",
-          "statContext": "Last Week: -3.0%"
+          "id": "dow-030926",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Futures Movement",
+          "statValue": "Down 1.3%",
+          "statContext": "Dow Jones Industrial Average futures fell 1.3% in early trading.",
+          "ticker": "$DJIA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.30%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Week Ending March 7, 2026)",
+      "id": "top-movers-today",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-gemi",
-          "headline": "Gemini Space Station Soars",
-          "summary": "Smallcap stock Gemini Space Station led gainers with a significant jump.",
-          "ticker": "$GEMI",
-          "price": "$8.94",
-          "change": "+$2.91",
-          "changePercent": "+48.26%",
+          "id": "top-gainer-IOT",
+          "headline": "IonQ Surges Amidst Broad Market Decline",
+          "summary": "While the broader market experiences a downturn, IonQ ($IOT) shows significant upward movement.",
+          "ticker": "$IOT",
+          "price": "35.36",
+          "change": "+5.77",
+          "changePercent": "+19.54%",
           "direction": "up"
         },
         {
-          "id": "gainer-crcl",
-          "headline": "Circle Internet Group Rises Amid Crypto Volatility",
-          "summary": "Blockchain-native capital marketplace Circle Internet Group saw strong gains.",
-          "ticker": "$CRCL",
-          "price": "$101.91",
-          "change": "+$18.47",
-          "changePercent": "+22.14%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-msft",
-          "headline": "Microsoft Posts Weekly Gain Despite Regulatory Scrutiny",
-          "summary": "Microsoft shares advanced, rebounding amidst broader software stock struggles.",
-          "ticker": "$MSFT",
-          "price": "$408.96",
-          "change": "+$16.14",
-          "changePercent": "+4.13%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-lite",
-          "headline": "Lumentum Holdings Plunges",
-          "summary": "Lumentum Holdings was among the week's worst performers.",
-          "ticker": "$LITE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-24.65%",
+          "id": "top-loser-GAP",
+          "headline": "Gap Inc. Shares Drop Significantly",
+          "summary": "Gap Inc. ($GAP) is among today's notable losers, reflecting the overall negative market sentiment.",
+          "ticker": "$GAP",
+          "price": "23.28",
+          "change": "-3.95",
+          "changePercent": "-14.41%",
           "direction": "down"
         },
         {
-          "id": "loser-rkt",
-          "headline": "Rocket Companies Dips on Partnership News",
-          "summary": "Rocket Companies shed value after a competitor's AI partnership announcement.",
-          "ticker": "$RKT",
-          "price": "$14.95",
-          "change": "-$3.23",
-          "changePercent": "-17.81%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-mdb",
-          "headline": "MongoDB Falls on Weak Guidance",
-          "summary": "MongoDB shares slumped following disappointing Q1 revenue guidance.",
-          "ticker": "$MDB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-16.23%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-shw",
-          "headline": "Sherwin-Williams Declines as Consumer Staples Face Pressure",
-          "summary": "Consumer staples stock Sherwin-Williams saw a notable decline.",
-          "ticker": "$SHW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.02%",
+          "id": "top-loser-LRCX",
+          "headline": "Lam Research Experiences Decline",
+          "summary": "Lam Research Corporation ($LRCX) sees a notable drop in early trading, aligning with the broader market's negative trend.",
+          "ticker": "$LRCX",
+          "price": "199.33",
+          "change": "-15.34",
+          "changePercent": "-7.15%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-030926",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-jobs",
-          "headline": "U.S. Economy Loses 92,000 Jobs in February",
-          "summary": "The U.S. labor market contracted sharply in February, with the economy losing 92,000 nonfarm payrolls and the unemployment rate climbing to 4.4%. This data, contrary to expectations of job growth, intensified concerns about an economic slowdown.",
+          "id": "economic-data-030926",
+          "headline": "Light Economic Data Day with Focus on Inflation Expectations",
+          "summary": "Today is a relatively light day for major economic data releases in the U.S., with the Consumer Inflation Expectations for February being released at 10:00 a.m. ET. Investors are keenly awaiting the US CPI report for February, expected mid-week, which will provide an updated picture of inflation.",
           "tags": [
             "Economic Data",
-            "Jobs Report",
-            "Unemployment"
+            "Inflation",
+            "Consumer Sentiment"
           ]
         },
         {
-          "id": "geopolitical-oil-surge",
-          "headline": "Middle East Conflict Drives Oil Prices Above $90, Market Uncertainty Soars",
-          "summary": "Crude oil prices surged by 35.5%, finishing the week near $91 per barrel, as an escalating conflict in the Middle East, triggered by the killing of an Iranian Supreme Leader, raised fears over oil supply chains. This geopolitical turmoil has created significant market uncertainty and contributed to inflationary pressures.",
+          "id": "earnings-reports-030926",
+          "headline": "HPE, Casey's General Stores, Vail Resorts Report Earnings Today",
+          "summary": "Major companies reporting earnings today include Hewlett Packard Enterprise ($HPE), Casey's General Stores, and Vail Resorts. Oracle ($ORCL) and Adobe ($ADBE) are also set to release their fiscal Q1 earnings later this week, serving as early indicators for the Q1 2026 earnings season.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "geopolitical-impact-030926",
+          "headline": "Middle East Conflict and Surging Oil Prices Dominate Market Concerns",
+          "summary": "The ongoing US-Iran conflict and its impact on global oil supplies, with prices topping $110 a barrel, remain the primary drivers of market volatility. This geopolitical tension is raising concerns about inflation and potentially impacting the global economy, food security, and even the AI sector.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Inflation"
+            "Market Volatility"
           ]
         },
         {
-          "id": "fed-outlook-march",
-          "headline": "Federal Reserve Expected to Hold Rates Steady in March",
-          "summary": "Despite recent economic data, market consensus strongly indicates the Federal Reserve will maintain its benchmark interest rate at 3.50%-3.75% at the upcoming FOMC meeting on March 17-18, 2026. While one or two rate cuts are anticipated for 2026, they are generally not expected until summer at the earliest.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "sector-rotation-software",
-          "headline": "Software Stocks See Rebound Amid Sector Rotation",
-          "summary": "Amid the broader market downturn, software-adjacent stocks like IBM, Microsoft, and Salesforce experienced a rebound last week. This indicates a rotational trade as investors moved away from consumer staples and manufacturing names, which faced pressure from rising costs and economic uncertainty.",
+          "id": "sector-rotation-030926",
+          "headline": "Energy and Industrials Lead, Technology Lags in March Sector Rotation",
+          "summary": "According to a March 7, 2026 analysis, the Energy ($XLE), Industrials ($XLI), Real Estate ($XLRE), and Communication Services ($XLC) sectors are currently leading in sector rotation. In contrast, the Technology ($XLK) sector is identified as lagging. Year-to-date, value sectors like Energy, Materials, Industrials, and Staples have strongly outperformed growth sectors.",
           "tags": [
             "Sector Analysis",
+            "Energy",
+            "Industrials",
             "Technology",
-            "Consumer Staples",
-            "Rotation"
+            "Value vs Growth"
+          ]
+        },
+        {
+          "id": "valuation-concerns-030926",
+          "headline": "S&P 500 Valuation at 25-Year High Amidst Economic Weakness",
+          "summary": "The S&P 500 reached its most expensive valuation in 25 years in February, with a cyclically adjusted price-to-earnings (CAPE) ratio of 39.8. This raises concerns among investors about rich valuations, particularly in artificial intelligence stocks, and potential economic weakness following slower U.S. economic expansion and job growth in 2025.",
+          "tags": [
+            "Valuation",
+            "S&P 500",
+            "AI Stocks",
+            "Economic Outlook"
           ]
         }
       ]
