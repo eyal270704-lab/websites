@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-10T07:39:00Z",
+  "generatedAt": "2026-03-10T12:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions & Tech Sector Reassessment Dominate",
-  "subtitle": "Tuesday, March 10, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "March 10, 2026: Market Sentiment Rebounds on Easing Geopolitical Tensions",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-03102026",
-          "headline": "Global Markets Exhibit Mixed Trends Amidst Geopolitical Concerns and Sector Rotation",
-          "summary": "U.S. stock futures experienced a dip following a rebound, as geopolitical developments in the Middle East and fluctuating oil prices continue to shape investor sentiment. Monday saw major U.S. indices recover from early losses, with the S&P 500 gaining 0.8%, the Dow rising 0.5%, and the Nasdaq climbing 1.4%. However, early Tuesday trading indicated a more cautious outlook. The market is also undergoing a notable rotation away from large-cap technology stocks towards value, cyclical, and international equities, alongside ongoing reevaluation of the AI sector.",
+          "id": "market-summary-01",
+          "headline": "Global Markets Rally as Oil Prices Retreat on Hopes for Iran Conflict De-escalation",
+          "summary": "Global shares surged on Tuesday, echoing a rally on Wall Street, as investor sentiment improved significantly. The positive shift comes amidst signals from President Trump indicating that the war with Iran may conclude 'very soon,' leading to a sharp decline in crude oil prices. This has assuaged fears of escalating energy costs and geopolitical instability, despite earlier volatility.",
           "tags": [
             "Global Market",
-            "Geopolitics",
             "Oil Prices",
-            "Sector Rotation"
-          ],
-          "timestamp": "2026-03-10T07:39:00Z"
+            "Geopolitics"
+          ]
         }
       ]
     },
@@ -33,128 +31,92 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-03102026",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6774.00",
-          "statContext": "Down 0.33% (as of March 10, 2026, from previous session). Closed at 6,795.99 on March 9, 2026, up 0.8%."
+          "statValue": "6812",
+          "statContext": "Up 0.23% Today",
+          "ticker": "$SPX",
+          "change": "+15.65",
+          "changePercent": "+0.23%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-03102026",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22899.75",
-          "statContext": "Mixed US close (previous session, -0.07%). Closed at 22,695.95 on March 9, 2026, up 1.4%."
+          "id": "nasdaq100-performance",
+          "statLabel": "NASDAQ 100",
+          "statValue": "611.40 (P.M.)",
+          "statContext": "Up 0.55% in Pre-market",
+          "ticker": "$NDX",
+          "change": "+3.34",
+          "changePercent": "+0.55%",
+          "direction": "up"
         },
         {
-          "id": "dowjones-03102026",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "47761.79",
-          "statContext": "Mixed US close (previous session, +0.50%). Closed at 47,740.80 on March 9, 2026, up 0.5%."
+          "id": "dowjones-performance",
+          "statLabel": "Dow Jones",
+          "statValue": "47970.00 (P.M.)",
+          "statContext": "Up 0.38% in Pre-market",
+          "ticker": "$DJIA",
+          "change": "+182.28",
+          "changePercent": "+0.38%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Indian Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-soc",
-          "headline": "Sable Offshore Corp. ($SOC)",
-          "summary": "Sable Offshore Corp. emerged as a top performer for March 2026, leading with a significant gain.",
-          "ticker": "$SOC",
-          "price": "$23.15",
-          "change": "+$9.10",
-          "changePercent": "+64.77%",
-          "direction": "up",
-          "tags": [
-            "Energy",
-            "Monthly Gainer"
-          ]
+          "id": "shriram-finance-gainer",
+          "headline": "Shriram Finance Leads Gains",
+          "summary": "Indian financial services firm Shriram Finance surged, benefiting from renewed investor confidence.",
+          "ticker": "$SHRIRAMFIN",
+          "price": "₹1,066.70",
+          "change": "+₹79.50",
+          "changePercent": "+8.05%",
+          "direction": "up"
         },
         {
-          "id": "gainer-redington",
-          "headline": "Redington Ltd. ($REDY)",
-          "summary": "Redington shares jumped over 11% as Indian equity markets recovered, supported by increased cloud and IT infrastructure investments in the GCCL region.",
-          "ticker": "$REDY",
-          "price": "₹260.00",
-          "change": "+₹25.68",
-          "changePercent": "+10.97%",
-          "direction": "up",
-          "tags": [
-            "IT Infrastructure",
-            "India Market"
-          ]
+          "id": "eicher-motors-gainer",
+          "headline": "Eicher Motors Climbs on Strong Sentiment",
+          "summary": "Automotive manufacturer Eicher Motors saw significant gains as risk sentiment improved across the market.",
+          "ticker": "$EICHERMOT",
+          "price": "₹7,545.00",
+          "change": "+₹279.00",
+          "changePercent": "+3.84%",
+          "direction": "up"
         },
         {
-          "id": "gainer-shriramfinance",
-          "headline": "Shriram Finance Ltd.",
-          "summary": "Shriram Finance Ltd. saw a strong gain in the current trading session.",
-          "ticker": "$SHFL",
-          "price": "₹1023.10",
-          "change": "+₹35.98",
-          "changePercent": "+3.64%",
-          "direction": "up",
-          "tags": [
-            "Financials",
-            "India Market"
-          ]
+          "id": "tata-motors-pv-gainer",
+          "headline": "Tata Motors PV Rises",
+          "summary": "Tata Motors' passenger vehicle unit experienced an uptick, aligning with the broader market rebound.",
+          "ticker": "$TMPV",
+          "price": "₹344.40",
+          "change": "+₹12.40",
+          "changePercent": "+3.73%",
+          "direction": "up"
         },
         {
-          "id": "loser-rbot",
-          "headline": "Vicarious Surgical Inc. ($RBOT)",
-          "summary": "Vicarious Surgical experienced a substantial decline after receiving a delisting notice from NYSE.",
-          "ticker": "$RBOT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-53.18%",
-          "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Delisting News"
-          ]
+          "id": "infosys-loser",
+          "headline": "Infosys Declines Amid Sector Underperformance",
+          "summary": "Indian IT giant Infosys closed lower as the technology sector faced pressure.",
+          "ticker": "$INFY",
+          "price": "₹1,296.50",
+          "change": "-₹18.50",
+          "changePercent": "-1.41%",
+          "direction": "down"
         },
         {
-          "id": "loser-mdcx",
-          "headline": "Medicus Pharma Ltd. ($MDCX)",
-          "summary": "Despite reporting positive Phase 2 topline data, Medicus Pharma Ltd. shares saw a significant drop.",
-          "ticker": "$MDCX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-50.88%",
-          "direction": "down",
-          "tags": [
-            "Pharmaceuticals",
-            "Earnings Reaction"
-          ]
-        },
-        {
-          "id": "loser-buru",
-          "headline": "Nuburu, Inc. ($BURU)",
-          "summary": "Nuburu, Inc. shares declined following news of a transatlantic defense manufacturing joint venture.",
-          "ticker": "$BURU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-41.24%",
-          "direction": "down",
-          "tags": [
-            "Manufacturing",
-            "Joint Venture News"
-          ]
-        },
-        {
-          "id": "loser-ongc",
-          "headline": "Oil & Natural Gas Corpn Ltd.",
-          "summary": "Oil & Natural Gas Corpn Ltd. retreated in the current trading session.",
-          "ticker": "$ONGC",
-          "price": "₹266.25",
-          "change": "-₹4.54",
-          "changePercent": "-1.68%",
-          "direction": "down",
-          "tags": [
-            "Energy",
-            "India Market"
-          ]
+          "id": "eternal-loser",
+          "headline": "Eternal (Zomato) Faces Losses",
+          "summary": "Food delivery platform Eternal (Zomato) was among the top losers for the day.",
+          "ticker": "$ZOMATO",
+          "price": "₹226.70",
+          "change": "-₹2.86",
+          "changePercent": "-1.25%",
+          "direction": "down"
         }
       ]
     },
@@ -165,60 +127,49 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-cpi-pce",
-          "headline": "Upcoming Inflation Data Eyed by Investors",
-          "summary": "Investors are awaiting the February CPI report on Wednesday and January's PCE price index on Friday for further clues on inflation trends. Recent data showed US unemployment edged up to 4.4% in February, and US consumer credit rose less than expected in January.",
+          "id": "sector-performance-india",
+          "headline": "Indian Sectors See Rotation; Auto Leads, IT Lags",
+          "summary": "In the Indian market, the Nifty Auto index emerged as the top performer, surging 3.10%, with Consumer Durables also showing strong gains at 2.67%. Fertilizer stocks rallied significantly due to new government policies and hopes of de-escalation in the US-Iran conflict. Conversely, the Nifty IT and Nifty Oil and Gas indices were among the worst performers.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "CPI",
-            "PCE",
-            "Unemployment"
+            "Sector Analysis",
+            "India Market",
+            "Auto",
+            "IT",
+            "Fertilizer"
           ]
         },
         {
-          "id": "earnings-hpe-oracle-bntx",
-          "headline": "Key Earnings Reports: HPE Delivers, Oracle and BioNTech on Deck",
-          "summary": "Hewlett Packard Enterprise ($HPE) delivered solid first-quarter fiscal 2026 earnings, with revenue up 18% year-over-year and non-GAAP EPS up 33%, prompting management to raise its full-year outlook. Oracle ($ORCL) is scheduled to release its third-quarter fiscal 2026 earnings after market close today. BioNTech SE ($BNTX) is also hosting its Q4 2025 earnings call today.",
+          "id": "global-economy-iran-war",
+          "headline": "Iran Conflict's Economic Impact Monitored Amidst De-escalation Hopes",
+          "summary": "While markets reacted positively to de-escalation signals, the war with Iran continues to have a collateral impact on the world economy, driving up energy and fertilizer prices and threatening food shortages. The International Monetary Fund warns that every 10% increase in oil prices could push global inflation up by 0.4 percentage points. G7 energy ministers are scheduled to discuss releasing oil reserves.",
           "tags": [
-            "Earnings",
-            "HPE",
-            "Oracle",
-            "BioNTech"
-          ]
-        },
-        {
-          "id": "geopolitical-oil-iran",
-          "headline": "Geopolitical Tensions Continue to Drive Oil Price Volatility",
-          "summary": "The ongoing conflict in the Middle East, particularly the Iran war, is a primary driver of volatility in oil markets. Prices have surged above $100 per barrel before pulling back towards $90, as shifting headlines create uncertainty about global energy supplies and potential disruptions in the Strait of Hormuz.",
-          "tags": [
+            "Economic News",
             "Geopolitics",
             "Oil Prices",
-            "Middle East",
-            "Energy Security"
+            "Inflation"
           ]
         },
         {
-          "id": "sector-rotation-tech-value",
-          "headline": "Market Sees Continued Rotation from Tech to Value and Cyclical Sectors",
-          "summary": "A significant sector rotation is underway, with investors shifting from large-cap technology stocks to small-cap, value, and cyclical industries such as Energy, Utilities, Materials, and Industrials. This move reflects a reassessment of growth valuations and a preference for 'real economy' sectors amidst AI anxiety and mixed economic signals.",
+          "id": "fed-outlook-treasury-yields",
+          "headline": "Federal Reserve Poised to Hold Rates, Treasury Yields Decline",
+          "summary": "The CME Group's FedWatch tool indicates a 97.4% likelihood of the Federal Reserve maintaining current interest rates in March. Concurrently, the U.S. 10-year Treasury yield saw a decrease, floating near 4.10%.",
           "tags": [
-            "Sector Rotation",
-            "Technology",
-            "Value Stocks",
-            "Cyclical Stocks",
-            "AI Impact"
+            "Economic Data",
+            "Federal Reserve",
+            "Interest Rates",
+            "Treasury Yields"
           ]
         },
         {
-          "id": "software-ai-impact",
-          "headline": "Software Industry Grapples with 'Death of SaaS' Narrative Amidst AI Advancements",
-          "summary": "The software industry, particularly 'Software as a Service' (SaaS) companies, is experiencing heightened volatility. Concerns about rapidly advancing AI technology and its potential to disrupt traditional business models have led to a 'death of SaaS' narrative, forcing a reevaluation of pricing structures and competitive landscapes.",
+          "id": "earnings-reports-march-10",
+          "headline": "Key Earnings Reports: Kohl's Surpasses, Oracle Anticipated, Vail Resorts Down",
+          "summary": "Kohl's ($KSS) surpassed its Q4 earnings estimates with a 25.29% surprise. Oracle Corp. ($ORCL) is expected to report its earnings after the closing bell. Meanwhile, Vail Resorts Inc. ($MTN) saw a 1.28% decline after reporting downbeat Q2 earnings and reduced fiscal 2026 guidance. Apyx Medical ($APYX) also had its Q4 2025 earnings call today.",
           "tags": [
-            "Software",
-            "SaaS",
-            "Artificial Intelligence",
-            "Industry Trends"
+            "Earnings Report",
+            "Kohl's",
+            "Oracle",
+            "Vail Resorts",
+            "Apyx Medical"
           ]
         }
       ]
