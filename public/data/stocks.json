@@ -1,193 +1,173 @@
 {
-  "generatedAt": "2026-03-11T12:36:00Z",
+  "generatedAt": "2026-03-11T16:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 11, 2026",
-  "badge": "Updated Daily",
+  "subtitle": "Wednesday, March 11, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-03-11-2026",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-001",
-          "headline": "US Futures Rise Ahead of CPI, Geopolitical Tensions Weigh on Global Markets",
-          "summary": "U.S. stock futures are showing upward movement on Wednesday, March 11, driven by improved investor sentiment, a decrease in oil prices, and anticipation of easing inflation. Traders are closely watching the upcoming Consumer Price Index (CPI) report, which is a critical economic data release that could influence the Federal Reserve's future interest-rate decisions. However, this positive sentiment for futures contrasts with major U.S. indexes ending mostly lower in Tuesday's regular trading session due to ongoing developments in the conflict with Iran. Meanwhile, global markets, particularly in India, experienced declines on Wednesday, March 11, amid heightened geopolitical tensions in the Middle East.",
+          "id": "market-summary-today",
+          "headline": "US Markets Mixed as Geopolitical Tensions Weigh, Inflation Meets Expectations",
+          "summary": "US stock market indices opened on a mixed note today, with the S&P 500 and tech-heavy Nasdaq Composite showing gains, while the Dow Jones Industrial Average slipped. Investor sentiment remained fragile amidst escalating tensions in the Middle East, which kept crude oil prices elevated. Despite these geopolitical concerns, the latest Consumer Price Index (CPI) data for February came in line with expectations, offering a measure of stability on the inflation front. The International Energy Agency (IEA) announced a record release of emergency oil reserves to help calm surging prices.",
           "tags": [
             "Market Sentiment",
-            "CPI",
             "Geopolitics",
+            "Inflation",
             "Oil Prices"
-          ]
+          ],
+          "timestamp": "2026-03-11T16:57:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-03-11-2026",
-      "title": "Major Indices (Previous Close: March 10, 2026)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "Slightly Lower",
-          "statContext": "Slipped 0.2% on March 10, trading around 6,800 on March 11."
+          "statValue": "6,755.11",
+          "statContext": "Fell 0.39% from previous session.",
+          "ticker": "$SPX"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "Slightly Higher",
-          "statContext": "Inched slightly higher on March 10."
+          "statValue": "22,697.10",
+          "statContext": "Rose 0.01%, or 1.16 points.",
+          "ticker": "$IXIC"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "Slightly Lower",
-          "statContext": "Slipped 0.1% on March 10."
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "47,706.51",
+          "statContext": "Slipped 0.1%, or 34.29 points.",
+          "ticker": "$DJI"
         }
       ]
     },
     {
-      "id": "top-movers-03-11-2026",
-      "title": "Top Movers (March 11, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-soc",
-          "headline": "Sable Offshore Corp. Leads Monthly Gains",
-          "summary": "Sable Offshore Corp. has been a top performer in March, reflecting strong investor interest.",
-          "ticker": "$SOC",
-          "price": "$23.15",
-          "change": "+67.56%",
-          "changePercent": "+67.56%",
-          "direction": "up",
-          "tags": [
-            "Energy"
-          ]
-        },
-        {
-          "id": "gainer-zip",
-          "headline": "ZipRecruiter Sees Significant Rise",
-          "summary": "ZipRecruiter continues its upward trend in March, indicating positive momentum in the Communication Services sector.",
-          "ticker": "$ZIP",
-          "price": "$5.03",
-          "change": "+56.59%",
-          "changePercent": "+56.59%",
-          "direction": "up",
-          "tags": [
-            "Communication Services"
-          ]
-        },
-        {
-          "id": "gainer-sfix",
-          "headline": "Stitch Fix Surges Today",
-          "summary": "Stitch Fix showed notable gains in early trading today.",
-          "ticker": "$SFIX",
+          "id": "oracle-gainer",
+          "headline": "Oracle Soars on Strong Q3 Earnings and AI Demand",
+          "summary": "Shares of Oracle Corp. ($ORCL) surged over 13% in early trade after reporting robust FQ3 results and guidance that surpassed Wall Street expectations. Revenue increased 22% year-over-year, primarily driven by a 44% rise in cloud revenue and an 84% surge in cloud infrastructure revenue. The company also highlighted a significant $553 billion backlog fueled by escalating AI demands, positioning it strongly in the global technology revolution.",
+          "ticker": "$ORCL",
           "price": "N/A",
-          "change": "+5.32%",
-          "changePercent": "+5.32%",
-          "direction": "up",
-          "tags": [
-            "Retail"
-          ]
+          "change": "N/A",
+          "changePercent": "+13.8%",
+          "direction": "up"
         },
         {
-          "id": "loser-obai",
-          "headline": "Our Bond Experiences Sharp Decline",
-          "summary": "Our Bond saw a significant drop in its share price today.",
-          "ticker": "$OBAI",
+          "id": "ballard-power-gainer",
+          "headline": "Ballard Power Systems Jumps on Major Fuel Cell Engine Deal",
+          "summary": "Ballard Power Systems ($BLDP) saw its shares rise 15% following the announcement of a commercial agreement with New Flyer, part of NFI Group. The deal involves supplying 500 FCmove-HD+ fuel cell engines, totaling 50 MW, for zero-emission public transit buses across North America.",
+          "ticker": "$BLDP",
           "price": "N/A",
-          "change": "-89.3%",
-          "changePercent": "-89.3%",
-          "direction": "down",
-          "tags": [
-            "Biotechnology"
-          ]
+          "change": "N/A",
+          "changePercent": "+15%",
+          "direction": "up"
         },
         {
-          "id": "loser-limn",
-          "headline": "Liminatus Pharma Shares Fall",
-          "summary": "Liminatus Pharma recorded a substantial loss, making it one of the day's biggest losers.",
-          "ticker": "$LIMN",
+          "id": "nebius-gainer",
+          "headline": "Nebius Rises on Nvidia Investment and AI Partnership",
+          "summary": "Nebius ($NBIS) shares gained 15% after Nvidia ($NVDA) announced a $2 billion investment and a strategic partnership aimed at developing next-generation hyperscale AI cloud infrastructure.",
+          "ticker": "$NBIS",
           "price": "N/A",
-          "change": "-86.8%",
-          "changePercent": "-86.8%",
-          "direction": "down",
-          "tags": [
-            "Pharmaceuticals"
-          ]
+          "change": "N/A",
+          "changePercent": "+15%",
+          "direction": "up"
         },
         {
-          "id": "loser-bmbl",
-          "headline": "Bumble Drops Amid Market Volatility",
-          "summary": "Bumble's stock declined, reflecting broader market pressures and potentially company-specific news.",
-          "ticker": "$BMBL",
+          "id": "pg-loser",
+          "headline": "Procter & Gamble Among Dow Decliners",
+          "summary": "Procter & Gamble ($PG) was among the declining firms impacting the Dow Jones Industrial Average today, slipping 2.06%.",
+          "ticker": "$PG",
           "price": "N/A",
-          "change": "-5.07%",
-          "changePercent": "-5.07%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Social Media"
-          ]
+          "change": "N/A",
+          "changePercent": "-2.06%",
+          "direction": "down"
+        },
+        {
+          "id": "sherwin-williams-loser",
+          "headline": "Sherwin-Williams Sees Decline",
+          "summary": "Shares of Sherwin-Williams ($SHW) experienced a decline of 1.67% today, contributing to the broader downturn in the Dow Jones.",
+          "ticker": "$SHW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.67%",
+          "direction": "down"
+        },
+        {
+          "id": "caterpillar-loser",
+          "headline": "Caterpillar Down Amid Market Headwinds",
+          "summary": "Caterpillar ($CAT) saw its stock fall by 1.55% as broader market pressures and geopolitical concerns affected industrial stocks.",
+          "ticker": "$CAT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.55%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-03-11-2026",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-cpi-fed",
-          "headline": "Investors Await Crucial CPI Report and Fed's Stance",
-          "summary": "Markets are keenly focused on the February Consumer Price Index (CPI) report, expected to show headline inflation rising at a 2.4% year-over-year rate. This data is critical as the Federal Open Market Committee (FOMC) is anticipated to hold interest rates steady at 3.5% to 3.75% at its upcoming March 18 meeting. Discussions within the Fed are intense, with divergent views on whether artificial intelligence will lead to disinflation or contribute to economic overheating.",
+          "id": "cpi-report",
+          "headline": "February CPI Aligns with Expectations, Inflation Steady Ahead of Conflict Escalation",
+          "summary": "The U.S. Consumer Price Index (CPI) for February 2026 increased 0.3% month-over-month on a seasonally adjusted basis, meeting consensus estimates. The annual inflation rate stood at 2.4%, consistent with expectations and suggesting inflation had eased before the recent escalation of the Middle East conflict. Core CPI, excluding food and energy, rose 0.2% monthly and 2.5% annually, also in line with forecasts.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "Federal Reserve",
-            "Monetary Policy"
+            "CPI"
           ]
         },
         {
-          "id": "news-earnings",
-          "headline": "Key Companies Report Earnings; Oracle Boosted by AI Demand",
-          "summary": "Several companies are reporting earnings today, March 11, including Campbell Soup ($CPB), which is hosting its Q2 2026 earnings call, and Kamada Ltd. ($KMDA), which announced record 2025 results and affirmed strong 2026 guidance. Notably, Oracle's stock surged 9% on Tuesday, March 10, after exceeding earnings expectations, primarily driven by robust demand for its AI infrastructure.",
+          "id": "middle-east-conflict",
+          "headline": "Middle East Tensions Drive Oil Volatility, IEA Releases Record Reserves",
+          "summary": "Ongoing tensions in the Middle East, particularly the Iran crisis, continued to fuel volatility in crude oil prices and global energy markets. The International Energy Agency (IEA) announced its largest-ever release of strategic oil reserves, 400 million barrels, in an effort to curb surging prices and stabilize supply. The G7 nations also voiced support for using strategic oil reserves. Concerns remain regarding disruptions to shipping through the Strait of Hormuz, with UNCTAD warning of widespread impacts on global supply chains and food prices.",
           "tags": [
-            "Earnings Reports",
-            "Technology",
-            "AI",
-            "Biopharma",
-            "Consumer Goods"
+            "Geopolitics",
+            "Oil Market",
+            "Energy Crisis",
+            "Supply Chain"
           ]
         },
         {
-          "id": "news-sectors",
-          "headline": "Sector Rotations Continue Amid AI and Geopolitical Influences",
-          "summary": "A notable rotation from growth to value stocks is observed in March. While the tech sector had a rocky start to 2026, losing 5.56%, strong demand for AI infrastructure continues to fuel growth for specific companies. Industrials, Consumer Defensive, and Communication Services are among the top-performing sectors for March gainers. In India, auto and private banking sectors experienced significant declines due to Middle East tensions, while pharma and oil & gas saw slight gains.",
+          "id": "sector-rotation",
+          "headline": "Geopolitical Events Reshape Sector Performance: Energy and Utilities Lead, Financials Lag",
+          "summary": "The ongoing Middle East conflict is significantly reshuffling sector performance. Over the past month, the Utilities and Energy sectors have emerged as notable winners, driven by tightening global energy supplies and demand for safety in economically uncertain times. Conversely, the Financials sector has been identified as a significant laggard, showing weakness even before the recent geopolitical events. This indicates a broader rotation out of growth and into value stocks.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Growth vs Value",
-            "Geopolitics",
-            "AI"
+            "Energy Sector",
+            "Utilities Sector",
+            "Financials Sector"
           ]
         },
         {
-          "id": "news-geopolitics",
-          "headline": "Middle East Tensions Drive Crude Oil Volatility and Market Uncertainty",
-          "summary": "Continuing geopolitical tensions in the Middle East, particularly the ongoing conflict with Iran, are a central source of risk, contributing to significant volatility in crude oil prices. This instability has weighed on global markets and raised concerns about potential disruptions to supply chains and broader economic impacts. The S&P 500 continues to trade below a key pivot point amidst this uncertainty.",
+          "id": "earnings-overview",
+          "headline": "Key Companies Report Earnings, Oracle Shines",
+          "summary": "Today saw several companies reporting earnings, with Oracle ($ORCL) being a standout performer due to strong cloud growth and AI demand. Other major companies scheduled to report earnings today included Campbell Soup ($CPB), UiPath ($PATH), Descartes Systems Group Inc ($DSGX), Petco Health and Wellness Company ($WOOF), Bumble ($BMBL), and Stitch Fix ($SFIX), among others.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Risk",
-            "Macro Trends"
+            "Earnings Reports",
+            "Corporate News"
           ]
         }
       ]
