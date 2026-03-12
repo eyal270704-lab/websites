@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-12T12:35:00Z",
+  "generatedAt": "2026-03-12T17:01:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Thursday, March 12, 2026",
+  "subtitle": "March 12, 2026 - Geopolitical Tensions Drive Oil Higher, Markets Mixed",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,14 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "Geopolitical Tensions and Oil Prices Weigh on Global Markets",
-          "summary": "U.S. stock futures trended lower early Thursday as rising oil prices, fueled by escalating conflict in the Middle East, impacted investor sentiment. Brent crude surged towards $100 a barrel, intensifying concerns over inflation and global supply chains. While overall market sentiment remains cautious, a slight optimism persists amidst mixed economic signals.",
+          "id": "market-summary-03122026",
+          "headline": "Oil Surge and Geopolitical Concerns Lead to Mixed Market Close",
+          "summary": "U.S. stock markets closed mixed on Thursday, March 12, as elevated crude oil prices, fueled by the ongoing Middle East conflict, heightened inflation fears and kept investors cautious. The Dow and S&P 500 ended in negative territory, while the Nasdaq Composite managed a slight gain. Early trading saw steeper declines across all major indices as Brent crude briefly surpassed $100 per barrel.",
           "tags": [
-            "Geopolitics",
+            "Market Summary",
             "Oil Prices",
-            "Inflation"
-          ]
+            "Geopolitics"
+          ],
+          "timestamp": "2026-03-12T16:00:00Z"
         }
       ]
     },
@@ -31,45 +32,41 @@
       "layout": "grid",
       "items": [
         {
-          "id": "mi-spx",
+          "id": "sp500-03122026",
           "statLabel": "S&P 500",
-          "statValue": "6,748",
-          "statContext": "Down 0.41% on March 12, 2026. Futures were down 0.50% pre-market."
+          "statValue": "6,775.80",
+          "statContext": "Down 0.1%"
         },
         {
-          "id": "mi-ndx",
+          "id": "nasdaq-03122026",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,716.14",
-          "statContext": "Gained 0.08% on Wednesday, March 11. Futures were down 0.49% pre-market on March 12."
+          "statContext": "Up 0.1%"
         },
         {
-          "id": "mi-djia",
-          "statLabel": "Dow Jones Ind. Average",
+          "id": "dow-03122026",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "47,417.27",
-          "statContext": "Fell 0.61% on Wednesday, March 11. Futures were down 0.59% pre-market on March 12."
+          "statContext": "Down 0.6% (-289.24 points)"
+        },
+        {
+          "id": "vix-03122026",
+          "statLabel": "CBOE Volatility Index (VIX)",
+          "statValue": "24.23",
+          "statContext": "Down 2.8%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (US Market)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "tm-g-bmbl",
-          "headline": "Bumble Surges on Strong Q4 Performance",
-          "summary": "Shares of the dating app company rallied after exceeding top-line expectations in its fourth-quarter earnings report.",
-          "ticker": "$BMBL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+22%",
-          "direction": "up"
-        },
-        {
-          "id": "tm-g-orcl",
-          "headline": "Oracle Jumps on Robust Earnings",
-          "summary": "The tech giant saw its stock climb after reporting stronger-than-expected profit and revenue for its latest quarter, partly driven by demand for cloud computing in AI.",
+          "id": "gainer-oracle-03122026",
+          "headline": "Oracle Jumps on Strong AI Cloud Demand",
+          "summary": "Oracle Corp. ($ORCL) surged 9.2% after reporting stronger-than-expected Q3 FY26 earnings and revenue, driven by explosive growth in cloud infrastructure for AI workloads.",
           "ticker": "$ORCL",
           "price": "N/A",
           "change": "N/A",
@@ -77,43 +74,53 @@
           "direction": "up"
         },
         {
-          "id": "tm-g-cxm",
-          "headline": "Sprinklr Beats Earnings Estimates",
-          "summary": "Sprinklr Inc. shares gained after the company posted fourth-quarter 2025 adjusted earnings of $0.13 per share, surpassing the Zacks Consensus Estimate of $0.10 per share.",
-          "ticker": "$CXM",
-          "price": "N/A",
+          "id": "gainer-kpigreen-03122026",
+          "headline": "KPI Green Energy Ltd. Shows Robust Intraday Performance",
+          "summary": "KPI Green Energy Ltd. (N/A) saw an 8.36% surge, hitting an intraday high of Rs 394.05, bucking the broader market trend and signaling strength within the power sector.",
+          "ticker": "N/A",
+          "price": "₹394.05",
           "change": "N/A",
-          "changePercent": "+6.1%",
+          "changePercent": "+8.36%",
           "direction": "up"
         },
         {
-          "id": "tm-l-cdre",
-          "headline": "Cadre Holdings Plunges on Q4 Miss",
-          "summary": "Cadre Holdings Inc. shares fell significantly after reporting fourth-quarter 2025 adjusted earnings of $0.27 per share, missing the Zacks Consensus Estimate of $0.41 per share.",
-          "ticker": "$CDRE",
+          "id": "gainer-soc-03122026",
+          "headline": "Sable Offshore Corp. Leads March Gainers",
+          "summary": "Sable Offshore Corp. ($SOC) led monthly performance gainers for March, up 92.79% as of March 12, 2026.",
+          "ticker": "$SOC",
+          "price": "$23.15",
+          "change": "N/A",
+          "changePercent": "+92.79% (Month-to-date)",
+          "direction": "up"
+        },
+        {
+          "id": "loser-unitedairlines-03122026",
+          "headline": "United Airlines Tumbles on High Fuel Costs",
+          "summary": "United Airlines ($UAL) plummeted 33.7% as concerns over rising crude oil prices directly impacted companies with significant fuel bills.",
+          "ticker": "$UAL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.5%",
+          "changePercent": "-33.7%",
           "direction": "down"
         },
         {
-          "id": "tm-l-cpb",
-          "headline": "Campbell Soup Cuts Forecasts, Shares Decline",
-          "summary": "Campbell Soup Company's stock dropped after the company reported a weaker profit for the latest quarter than analysts expected and cut its annual forecasts, citing struggles in its snack business and tariff pressures.",
-          "ticker": "$CPB",
-          "price": "N/A",
+          "id": "loser-piramal-03122026",
+          "headline": "Piramal Pharma Among Top Losers",
+          "summary": "Piramal Pharma (N/A) was one of the worst performers, falling 6.36% to ₹145.54, its lowest level since June 2024.",
+          "ticker": "N/A",
+          "price": "₹145.54",
           "change": "N/A",
-          "changePercent": "-7.1%",
+          "changePercent": "-6.36%",
           "direction": "down"
         },
         {
-          "id": "tm-l-aerovironment",
-          "headline": "AeroVironment Down on Disappointing Profit Outlook",
-          "summary": "The defense contractor's shares declined after forecasting 2026 adjusted profit below market estimates.",
-          "ticker": "AeroVironment",
+          "id": "loser-dollargeneral-03122026",
+          "headline": "Dollar General Drops on Weak Forecast",
+          "summary": "Dollar General ($DG) shares tumbled 7.8% after the retailer provided a weaker-than-expected forecast for revenue growth in the upcoming fiscal year.",
+          "ticker": "$DG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.3%",
+          "changePercent": "-7.8%",
           "direction": "down"
         }
       ]
@@ -125,64 +132,61 @@
       "layout": "list",
       "items": [
         {
-          "id": "mn-1",
-          "headline": "PPI Data Released, Jobless Claims Due",
-          "summary": "The Producer Price Index (PPI) data for February 2026, including core figures, was released this morning. Later today, the U.S. will release its weekly unemployment claims figures, a key indicator for labor market health.",
+          "id": "sector-rotation-03122026",
+          "headline": "Consumer Staples Outperform Tech Amid Defensive Pivot",
+          "summary": "A significant sector rotation is underway, with investors moving out of high-growth technology stocks and into the more defensive Consumer Staples sector. The Consumer Staples Select Sector SPDR Fund ($XLP) has gained 13.2% year-to-date, becoming the top-performing S&P 500 sector, while the Technology sector ($XLK) has seen a 4.6% loss. This indicates a shift in investor psychology towards predictable earnings and inflation-resistant dividends.",
           "tags": [
-            "Economic Data",
-            "PPI",
-            "Jobless Claims"
-          ]
+            "Sector Analysis",
+            "Consumer Staples",
+            "Technology",
+            "Market Sentiment"
+          ],
+          "timestamp": "2026-03-12T15:30:00Z"
         },
         {
-          "id": "mn-2",
-          "headline": "U.S. Trade Deficit Narrows in January",
-          "summary": "The U.S. Census Bureau and Bureau of Economic Analysis announced that the goods and services deficit in January 2026 was $54.5 billion, a notable decrease of 25.3% from December.",
+          "id": "economic-data-cpi-03122026",
+          "headline": "February CPI Aligns with Expectations; Fed Rate Hike Pause Expected",
+          "summary": "The February Consumer Price Index (CPI) report showed headline inflation at 2.4% year-over-year and core CPI at 2.5%, largely in line with forecasts. Prediction markets indicate a 99% conviction that the Federal Reserve will hold interest rates steady at its March 17-18 meeting, with market expectations narrowing to just one rate cut for all of 2026, likely in December.",
           "tags": [
             "Economic Data",
-            "Trade Deficit"
-          ]
-        },
-        {
-          "id": "mn-3",
-          "headline": "Fed Expected to Hold Rates Ahead of March Meeting",
-          "summary": "Investors widely anticipate the Federal Reserve to keep interest rates unchanged at its upcoming policy meeting on March 17-18. Policymakers are assessing the risks of rising energy prices alongside signs of a cooling labor market.",
-          "tags": [
+            "CPI",
             "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
-          ]
+            "Interest Rates"
+          ],
+          "timestamp": "2026-03-12T14:45:00Z"
         },
         {
-          "id": "mn-4",
-          "headline": "KLA Corporation Announces Share Buyback and Dividend Increase",
-          "summary": "KLA Corporation ($KLAC) held its Investor Day, announcing a new $7 billion share repurchase program and a 21% increase in its quarterly dividend to $2.30 per share. The company also reaffirmed its March 2026 guidance.",
+          "id": "oil-geopolitical-03122026",
+          "headline": "Crude Oil Prices Remain Elevated Amid Middle East Tensions",
+          "summary": "Crude oil prices continued to climb due to severe supply concerns stemming from the ongoing conflict in the Middle East, particularly Iranian attacks on commercial shipping in the Strait of Hormuz. Brent crude briefly spiked above $100 per barrel before settling lower. The International Energy Agency (IEA) announced a release of 400 million barrels from strategic reserves to help calm markets.",
           "tags": [
-            "Earnings",
-            "Dividends",
-            "Share Repurchase",
-            "$KLAC"
-          ]
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation Risk"
+          ],
+          "timestamp": "2026-03-12T13:00:00Z"
         },
         {
-          "id": "mn-5",
-          "headline": "BMW Group Reports Stable 2025 Earnings Amid Headwinds",
-          "summary": "The BMW Group announced stable Group earnings before tax of over €10 billion in 2025 despite significant headwinds, including tariffs. However, the company anticipates a moderate decline in Group earnings before tax for 2026 due to higher tariffs and raw material costs.",
+          "id": "earnings-news-03122026",
+          "headline": "Adobe and USA Rare Earth Earnings on Watch",
+          "summary": "Investors are closely monitoring earnings reports today from Adobe ($ADBE) and USA Rare Earth for insights into the technology and critical minerals sectors. Earlier, Campbell's reported weaker-than-expected profit and cut its forecasts, leading to a 7.1% stock decline.",
           "tags": [
-            "Automotive",
-            "Earnings",
-            "$BMWYY"
-          ]
+            "Earnings Reports",
+            "Technology",
+            "Retail"
+          ],
+          "timestamp": "2026-03-12T11:00:00Z"
         },
         {
-          "id": "mn-6",
-          "headline": "Oil and Gas, Technology Lead US Sectors Yesterday",
-          "summary": "On Wednesday, Energy, Technology, and Communication Services were the only U.S. sectors to close in positive territory, with clean energy funds also performing strongly. Broader market weakness was observed across other sectors.",
+          "id": "industry-highlights-03122026",
+          "headline": "Power and Renewable Energy Sectors Outperform",
+          "summary": "Despite broader market weakness, power and renewable energy stocks demonstrated strong gains. Companies like NTPC Green Energy, Adani Power, and JSW Energy were among the top performers of the day, with NTPC Green Energy specifically up 11.84%.",
           "tags": [
             "Sector Performance",
             "Energy",
-            "Technology"
-          ]
+            "Renewables"
+          ],
+          "timestamp": "2026-03-12T10:00:00Z"
         }
       ]
     }
