@@ -1,179 +1,156 @@
 {
-  "generatedAt": "2026-03-13T07:43:00Z",
+  "generatedAt": "2026-03-13T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, March 13, 2026 – Pre-Market Update",
+  "subtitle": "March 13, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-001",
-          "headline": "U.S. Futures Show Modest Gains Ahead of Key Inflation Data; Geopolitical Tensions Remain a Headwind",
-          "summary": "U.S. stock futures are trending modestly higher this Friday morning, hinting at a potential stabilization after a sharp downturn on Thursday. However, overall market sentiment remains cautious as investors await crucial U.S. inflation data and Q4 GDP revisions. The ongoing conflict in Iran and persistently elevated crude oil prices continue to fuel stagflation fears, impacting risk appetite across global markets. Brent crude remains above $100 a barrel, with West Texas Intermediate around $95.3 per barrel.",
+          "id": "market-summary-1",
+          "headline": "Global Markets Decline as Geopolitical Tensions and Oil Prices Fuel Inflation Fears",
+          "summary": "U.S. equities, including the S&P 500, NASDAQ, and Dow Jones Industrial Average, experienced significant declines, with all major indices closing at or near their lowest points for 2026. The downturn is largely attributed to escalating geopolitical conflict in the Middle East and a surge in oil prices, pushing Brent crude above $100 a barrel and WTI above $95 a barrel, intensifying inflation concerns and leading to a broad 'risk-off' sentiment among investors. Pre-market futures also indicated weakness.",
           "tags": [
-            "Pre-Market",
-            "Inflation",
+            "Market Overview",
             "Geopolitics",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
+            "Inflation"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-1",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "+0.34%",
-          "statContext": "Modestly higher in pre-market trading, following a 1.52% decline on Thursday to 6,672.58."
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "6,672.62",
+          "statContext": "Down 1.5% (-103.18 points), lowest close in 2026."
         },
         {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "+0.30%",
-          "statContext": "Showing positive momentum in pre-market, after falling 1.78% to 22,311.98 on Thursday."
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "22,311.98",
+          "statContext": "Plummeted 1.8% (-404.16 points), lowest close so far this year."
         },
         {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "+0.47%",
-          "statContext": "Advancing in pre-market trading, contrasting with Thursday's 1.56% drop to 46,677.85."
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "46,677.85",
+          "statContext": "Tumbled 1.6% (-739.42 points), lowest close in 2026 and first close below 47,000."
+        },
+        {
+          "id": "vix-stat",
+          "statLabel": "CBOE Volatility Index (VIX)",
+          "statValue": "27.29",
+          "statContext": "Up 12.6%, reflecting heightened market fear."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Pre-Market)",
+      "id": "top-movers-1",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ccl-loser",
-          "headline": "Carnival Corp.",
-          "ticker": "$CCL",
-          "price": "$25.02",
-          "change": "-$0.95",
-          "changePercent": "-3.66%",
-          "direction": "down",
-          "summary": "Cruise line operator sees declines in early pre-market trading."
+          "id": "dow-gainer",
+          "headline": "Dow Inc. Rallies on Oil Price Surge and Upgrade",
+          "ticker": "$DOW",
+          "price": "$37.58",
+          "change": "+$3.19",
+          "changePercent": "+9.3%",
+          "direction": "up",
+          "summary": "Shares rallied due to increased oil prices benefiting the company's cost advantage and a 'Buy' upgrade from Citigroup."
         },
         {
-          "id": "dal-loser",
-          "headline": "Delta Air Lines",
-          "ticker": "$DAL",
-          "price": "$57.19",
-          "change": "-$1.95",
-          "changePercent": "-3.30%",
-          "direction": "down",
-          "summary": "Airline stocks continue to be impacted by surging oil prices and broader market concerns."
+          "id": "soc-gainer",
+          "headline": "Sable Offshore Corp. Leads Monthly Gains",
+          "ticker": "$SOC",
+          "price": "$23.15",
+          "change": "N/A",
+          "changePercent": "+102.91%",
+          "direction": "up",
+          "summary": "Sable Offshore Corp. showed significant gains, leading March 2026 performance among selected stocks."
         },
         {
-          "id": "luv-loser",
-          "headline": "Southwest Airlines Co.",
-          "ticker": "$LUV",
-          "price": "$40.49",
-          "change": "-$1.36",
-          "changePercent": "-3.25%",
+          "id": "adbe-loser",
+          "headline": "Adobe Shares Decline Amid Tech Sell-off",
+          "ticker": "$ADBE",
+          "price": "$246.94",
+          "change": "-$22.84",
+          "changePercent": "-8.47%",
           "direction": "down",
-          "summary": "Following suit with other airline carriers, Southwest experiences pre-market decline."
+          "summary": "Adobe shares experienced a notable decline during the tech sector's weak performance."
         },
         {
-          "id": "lrcx-loser",
-          "headline": "Lam Research Corp.",
-          "ticker": "$LRCX",
-          "price": "$211.75",
-          "change": "-$7.12",
-          "changePercent": "-3.25%",
+          "id": "par-loser",
+          "headline": "PAR Technology Corp. Drops Sharply",
+          "ticker": "$PAR",
+          "price": "$12.41",
+          "change": "-$3.44",
+          "changePercent": "-21.7%",
           "direction": "down",
-          "summary": "Semiconductor equipment supplier shows weakness in pre-market."
-        },
-        {
-          "id": "rok-loser",
-          "headline": "Rockwell Automation Inc.",
-          "ticker": "$ROK",
-          "price": "$361.61",
-          "change": "-$11.64",
-          "changePercent": "-3.12%",
-          "direction": "down",
-          "summary": "Industrial automation firm among top pre-market losers."
+          "summary": "PAR Technology Corp. saw a significant decrease in its stock price."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-1",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-001",
-          "headline": "Key U.S. Economic Data Expected Today: PCE and Q4 GDP Revision",
-          "summary": "Investors are closely watching today's release of the Personal Consumption Expenditures (PCE) report, a key inflation gauge for the Federal Reserve. Consensus forecasts project headline PCE to rise 0.3% month-over-month and 2.9% year-over-year. The first revision of Q4 U.S. GDP growth and the preliminary March Consumer Sentiment index are also scheduled for release.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "GDP",
-            "Consumer Sentiment"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
-        },
-        {
-          "id": "corporate-earnings-bnl",
-          "headline": "Butler National Corporation Reports Strong Q3 FY2026 Results",
-          "summary": "Butler National Corporation ($BNL) announced third-quarter fiscal year 2026 financial results today, with revenue increasing 27% to $26.9 million. Operating income surged 129% to $9.2 million, and net income rose 98% to $6.7 million, translating to earnings per share of $0.10.",
-          "tags": [
-            "Earnings",
-            "Corporate News",
-            "$BNL"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
-        },
-        {
-          "id": "corporate-earnings-veon",
-          "headline": "VEON Ltd. Delivers Strong Q4 and Full Year 2025 Financial Results",
-          "summary": "VEON Ltd. ($VEON), a global digital operator, reported robust financial and operating results for Q4 and full year ended December 31, 2025, today. Fourth-quarter total revenue grew 17.4% year-on-year to $1,171 million, and EBITDA increased 29.1% year-on-year to $527 million.",
-          "tags": [
-            "Earnings",
-            "Corporate News",
-            "$VEON"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
-        },
-        {
           "id": "geopolitical-impact",
-          "headline": "Iran Conflict and Oil Prices Continue to Weigh on Market Sentiment",
-          "summary": "The ongoing geopolitical tensions surrounding the Iran conflict are a primary driver of market caution. Surging crude oil prices, with Brent remaining above $100 per barrel, are contributing to fears of stagflation and have led traders to reconsider expectations for Federal Reserve rate cuts in 2026.",
+          "headline": "US-Iran Conflict Drives Global Market Uncertainty and Oil Surge",
+          "summary": "The ongoing US-Iran conflict and Iran's vow to keep the Strait of Hormuz shut have pushed Brent crude oil prices above $100 per barrel, fueling global inflation fears and contributing to widespread equity market declines across the US, Europe, and Asia.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Inflation",
-            "Fed Policy"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
+            "Global Markets"
+          ]
         },
         {
-          "id": "sector-performance-overview",
-          "headline": "Industrials, Consumer Discretionary, and Health Sectors Lagged Yesterday",
-          "summary": "On Thursday, eight of the eleven S&P sectors concluded the session in negative territory, with Industrials, Consumer Discretionary, and Health sectors experiencing the most significant declines. The surge in oil prices particularly affected airline stocks.",
+          "id": "sector-rotation",
+          "headline": "Energy Sector Leads as Financials and Tech Lag",
+          "summary": "The Energy Select Sector SPDR ($XLE) rose 2.5%, indicating a rotation into energy as oil prices climb. Conversely, the Financial sector was particularly hard hit, with major players like Morgan Stanley and JPMorgan seeing declines, amplified by stagflation risks. Technology and consumer staples also faced downward pressure.",
           "tags": [
             "Sector Analysis",
-            "Industrials",
-            "Consumer Discretionary",
-            "Health",
-            "Airline Stocks"
-          ],
-          "timestamp": "2026-03-13T07:43:00Z"
+            "Energy",
+            "Financials",
+            "Technology"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Jobless Claims Dip; Treasury Yields Rise",
+          "summary": "Initial jobless claims decreased slightly to 213,000 for the week ended March 7. Meanwhile, the benchmark US 10-year Treasury note yield climbed to 4.255%, its highest since February 5, reflecting market jitters and potentially revised expectations for Fed rate cuts.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "Treasury Yields"
+          ]
+        },
+        {
+          "id": "earnings-reports",
+          "headline": "Mixed Earnings Signals for Tech; Butler National Reports Strong Q3",
+          "summary": "Butler National Corporation ($BUKS) announced robust Q3 FY2026 results, with revenue up 27% and net income up 98%. In the broader tech sector, while Q4 earnings were generally solid, investor skepticism regarding the long-term returns on substantial AI investments led to share price losses for some software companies like Adobe and Microsoft.",
+          "tags": [
+            "Earnings",
+            "Corporate News",
+            "Technology",
+            "AI"
+          ]
         }
       ]
     }
