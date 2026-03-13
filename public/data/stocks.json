@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-13T12:35:00Z",
+  "generatedAt": "2026-03-13T16:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 13, 2026",
+  "subtitle": "Friday, March 13, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,12 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Global Markets Decline as Geopolitical Tensions and Oil Prices Fuel Inflation Fears",
-          "summary": "U.S. equities, including the S&P 500, NASDAQ, and Dow Jones Industrial Average, experienced significant declines, with all major indices closing at or near their lowest points for 2026. The downturn is largely attributed to escalating geopolitical conflict in the Middle East and a surge in oil prices, pushing Brent crude above $100 a barrel and WTI above $95 a barrel, intensifying inflation concerns and leading to a broad 'risk-off' sentiment among investors. Pre-market futures also indicated weakness.",
+          "id": "market-pulse-item-1",
+          "headline": "U.S. Stocks Plummet Amid Geopolitical Tensions and Surging Oil Prices",
+          "summary": "U.S. stock markets experienced a significant downturn on Friday, March 13, 2026, with all three major indices closing in negative territory and marking their lowest closes so far this year. Investor sentiment was heavily impacted by intensified geopolitical conflicts in the Middle East and a continued surge in crude oil prices, which disrupted global supply chains. Decliners significantly outnumbered advancers on both the NYSE and Nasdaq, reflecting broad-based selling pressure across the market.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
             "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         }
@@ -31,28 +32,34 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
+          "id": "sp500-stat-1",
+          "headline": "S&P 500",
+          "statLabel": "Close",
           "statValue": "6,672.62",
-          "statContext": "Down 1.5% (-103.18 points), lowest close in 2026."
+          "statContext": "Down 1.5% (-103.18 points)",
+          "direction": "down",
+          "change": "-$103.18",
+          "changePercent": "-1.5%"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-stat-1",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
           "statValue": "22,311.98",
-          "statContext": "Plummeted 1.8% (-404.16 points), lowest close so far this year."
+          "statContext": "Down 1.8% (-404.16 points)",
+          "direction": "down",
+          "change": "-$404.16",
+          "changePercent": "-1.8%"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-stat-1",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
           "statValue": "46,677.85",
-          "statContext": "Tumbled 1.6% (-739.42 points), lowest close in 2026 and first close below 47,000."
-        },
-        {
-          "id": "vix-stat",
-          "statLabel": "CBOE Volatility Index (VIX)",
-          "statValue": "27.29",
-          "statContext": "Up 12.6%, reflecting heightened market fear."
+          "statContext": "Down 1.6% (-739.42 points)",
+          "direction": "down",
+          "change": "-$739.42",
+          "changePercent": "-1.6%"
         }
       ]
     },
@@ -63,93 +70,131 @@
       "layout": "grid",
       "items": [
         {
-          "id": "dow-gainer",
-          "headline": "Dow Inc. Rallies on Oil Price Surge and Upgrade",
-          "ticker": "$DOW",
-          "price": "$37.58",
-          "change": "+$3.19",
-          "changePercent": "+9.3%",
-          "direction": "up",
-          "summary": "Shares rallied due to increased oil prices benefiting the company's cost advantage and a 'Buy' upgrade from Citigroup."
-        },
-        {
-          "id": "soc-gainer",
-          "headline": "Sable Offshore Corp. Leads Monthly Gains",
-          "ticker": "$SOC",
-          "price": "$23.15",
+          "id": "gainer-cvx",
+          "headline": "Chevron Corp. Gains on Oil Surge",
+          "summary": "Shares of Chevron Corp. advanced as U.S. benchmark West Texas Intermediate (WTI) futures jumped over 9.7% to settle at $95.73 per barrel, and Brent futures climbed 9.2% to settle at $100.46 per barrel.",
+          "ticker": "$CVX",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+102.91%",
-          "direction": "up",
-          "summary": "Sable Offshore Corp. showed significant gains, leading March 2026 performance among selected stocks."
+          "changePercent": "+2.7%",
+          "direction": "up"
         },
         {
-          "id": "adbe-loser",
-          "headline": "Adobe Shares Decline Amid Tech Sell-off",
+          "id": "gainer-xom",
+          "headline": "Exxon Mobil Corp. Rises with Crude Prices",
+          "summary": "Exxon Mobil Corp. saw its stock price increase, benefiting from the significant climb in crude oil prices amid geopolitical tensions.",
+          "ticker": "$XOM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.3%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-jpm",
+          "headline": "JPMorgan Moves Higher in Mixed Market",
+          "summary": "JPMorgan's stock rose, contributing to the gains seen in some financial sector stocks within the otherwise declining S&P 500.",
+          "ticker": "$JPM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.1%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-ulta",
+          "headline": "Ulta Beauty Leads S&P 500 Declines",
+          "summary": "Ulta Beauty experienced the steepest decline among S&P 500 stocks after its latest quarterly results missed analysts' profit targets, compounded by a substantial increase in administrative expenses.",
+          "ticker": "$ULTA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-10.5%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-adbe",
+          "headline": "Adobe Falls Despite Earnings Beat",
+          "summary": "Software maker Adobe's shares dropped as investors were reportedly underwhelmed by the company's forecast for its recurring subscription revenue, despite reporting sales and profit figures that beat Wall Street expectations.",
           "ticker": "$ADBE",
-          "price": "$246.94",
-          "change": "-$22.84",
-          "changePercent": "-8.47%",
-          "direction": "down",
-          "summary": "Adobe shares experienced a notable decline during the tech sector's weak performance."
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.0%",
+          "direction": "down"
         },
         {
-          "id": "par-loser",
-          "headline": "PAR Technology Corp. Drops Sharply",
-          "ticker": "$PAR",
-          "price": "$12.41",
-          "change": "-$3.44",
-          "changePercent": "-21.7%",
-          "direction": "down",
-          "summary": "PAR Technology Corp. saw a significant decrease in its stock price."
+          "id": "loser-giii",
+          "headline": "GIII Apparel Group Plummets on Earnings Miss",
+          "summary": "GIII Apparel Group saw a sharp drop in its stock price after reporting fourth-quarter fiscal 2026 adjusted earnings that significantly lagged the Zacks Consensus Estimate.",
+          "ticker": "$GIII",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.4%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-1",
-      "title": "Market News",
+      "id": "sector-analysis-1",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-impact",
-          "headline": "US-Iran Conflict Drives Global Market Uncertainty and Oil Surge",
-          "summary": "The ongoing US-Iran conflict and Iran's vow to keep the Strait of Hormuz shut have pushed Brent crude oil prices above $100 per barrel, fueling global inflation fears and contributing to widespread equity market declines across the US, Europe, and Asia.",
+          "id": "sector-analysis-item-1",
+          "headline": "Energy Sector Outperforms Amid Broad Market Declines",
+          "summary": "Amid a challenging market, the Energy Select Sector SPDR (XLE) was a notable outlier, rising 2.5%. This positive movement was largely attributed to the sustained surge in crude oil prices driven by Middle East geopolitical instability. Conversely, nine out of the eleven S&P 500 sectors ended in negative territory, with the Consumer Staples Select Sector SPDR (XLP) falling 1.3% and the Real Estate Select Sector SPDR (XLRE) declining 1.2%. The technology sector also experienced weak performance.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Global Markets"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Energy Sector Leads as Financials and Tech Lag",
-          "summary": "The Energy Select Sector SPDR ($XLE) rose 2.5%, indicating a rotation into energy as oil prices climb. Conversely, the Financial sector was particularly hard hit, with major players like Morgan Stanley and JPMorgan seeing declines, amplified by stagflation risks. Technology and consumer staples also faced downward pressure.",
-          "tags": [
-            "Sector Analysis",
             "Energy",
-            "Financials",
-            "Technology"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Jobless Claims Dip; Treasury Yields Rise",
-          "summary": "Initial jobless claims decreased slightly to 213,000 for the week ended March 7. Meanwhile, the benchmark US 10-year Treasury note yield climbed to 4.255%, its highest since February 5, reflecting market jitters and potentially revised expectations for Fed rate cuts.",
-          "tags": [
-            "Economic Data",
-            "Jobless Claims",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "earnings-reports",
-          "headline": "Mixed Earnings Signals for Tech; Butler National Reports Strong Q3",
-          "summary": "Butler National Corporation ($BUKS) announced robust Q3 FY2026 results, with revenue up 27% and net income up 98%. In the broader tech sector, while Q4 earnings were generally solid, investor skepticism regarding the long-term returns on substantial AI investments led to share price losses for some software companies like Adobe and Microsoft.",
-          "tags": [
-            "Earnings",
-            "Corporate News",
             "Technology",
-            "AI"
+            "Consumer Staples",
+            "Real Estate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news-1",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "economic-news-item-1",
+          "headline": "Q4 2025 GDP Growth Revised Down to 0.7%",
+          "summary": "The second estimate for the fourth quarter of 2025 indicated that real gross domestic product (GDP) increased at a subdued annual rate of 0.7%. This figure represents a downward revision of 0.7 percentage points from the advance estimate, primarily reflecting lower revisions to exports, consumer spending, government spending, and investment. For the entirety of 2025, real GDP grew by 2.1%.",
+          "tags": [
+            "GDP",
+            "Economic Data",
+            "Q4 2025"
+          ]
+        },
+        {
+          "id": "economic-news-item-2",
+          "headline": "Inflation Measures Show Modest Increases",
+          "summary": "The Federal Reserve's preferred inflation gauge, the personal consumption expenditures (PCE) price index, increased 2.8% year-over-year in January, slightly down from December's 2.9%. Excluding volatile food and energy components, the core PCE price index rose 3.1% year-over-year, marking its largest increase since March 2024. February consumer prices also saw a 0.3% rise, with headline CPI up 2.4% year-over-year.",
+          "tags": [
+            "Inflation",
+            "PCE Index",
+            "CPI"
+          ]
+        },
+        {
+          "id": "economic-news-item-3",
+          "headline": "Federal Reserve Poised to Hold Rates; Capital Requirements to Ease",
+          "summary": "Economists have adjusted their expectations for a Federal Reserve interest rate cut, now anticipating it in June rather than March, with a virtual certainty that rates will remain unchanged at the upcoming March 18th meeting. Separately, the Federal Reserve Board announced proposals to revise bank capital requirements in the coming week, which are expected to result in a 'small amount' of decrease for overall capital requirements, particularly larger reductions for smaller banks.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy",
+            "Banking Regulation"
+          ]
+        },
+        {
+          "id": "economic-news-item-4",
+          "headline": "Mixed Labor Market Data Released",
+          "summary": "Initial jobless claims decreased by 1,000 to 213,000 for the week ended March 7, slightly above consensus estimates. Continuing claims also saw a decrease, falling by 21,000 to 1.85 million for the week ended February 28. Additionally, U.S. job openings in January jumped to nearly 7 million.",
+          "tags": [
+            "Labor Market",
+            "Jobless Claims",
+            "Job Openings"
           ]
         }
       ]
