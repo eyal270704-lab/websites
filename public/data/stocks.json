@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-15T12:30:00Z",
+  "generatedAt": "2026-03-15T16:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 15, 2026 - Navigating Geopolitical Headwinds",
-  "badge": "LIVE",
+  "subtitle": "March 15, 2026 - Weekend Edition",
+  "badge": "Updated Today",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,15 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Stocks Retreat Amid Escalating Geopolitical Tensions and Inflation Concerns",
-          "summary": "U.S. equities concluded the week on a bearish note, pressured by an escalating conflict in the Gulf and fresh economic data signaling slowing growth and persistent inflation. Market sentiment has shifted decidedly towards caution, with investors rotating into more defensive sectors.",
+          "id": "market-summary-friday",
+          "headline": "Wall Street Ends Week Lower Amid Geopolitical Tensions and Inflationary Pressures",
+          "summary": "U.S. equities concluded the trading week on Friday, March 14, 2026, with major indices posting losses as investors grappled with escalating geopolitical tensions in the Middle East and persistent concerns over inflation. Rising crude oil prices, climbing above $100 a barrel, significantly contributed to the downbeat sentiment. The financial sector emerged as the worst-performing group for the third consecutive week. In contrast, Bitcoin showcased remarkable resilience, surging past the $72,000 mark.",
           "tags": [
-            "Market Sentiment",
+            "Market Summary",
             "Geopolitics",
-            "Inflation"
-          ],
-          "timestamp": "2026-03-15T12:00:00Z"
+            "Inflation",
+            "Oil Prices"
+          ]
         }
       ]
     },
@@ -34,68 +34,88 @@
         {
           "id": "sp500-perf",
           "statLabel": "S&P 500",
-          "statValue": "6,632.00",
-          "statContext": "Down 1.6% for the week. The index is down 3.1% year-to-date."
+          "statValue": "6,632.19",
+          "statContext": "Down 0.6% on Friday, marking a 1.60% weekly decline."
         },
         {
           "id": "nasdaq-perf",
           "statLabel": "NASDAQ Composite",
-          "statValue": "24,000.00",
-          "statContext": "Nasdaq 100 slipped 0.62% for the week, with the Composite surpassing 24,000 recently."
+          "statValue": "22,105.36",
+          "statContext": "Fell 0.9% on Friday, contributing to a 1.26% weekly dip."
         },
         {
           "id": "dow-perf",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "49,000.00",
-          "statContext": "Lost approximately 2% for the week. The three-week sell-off appears to be continuing."
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "46,558.47",
+          "statContext": "Declined 0.3% on Friday, resulting in a 1.98% loss for the week."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Daily Estimates)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-orka",
-          "ticker": "$ORKA",
-          "price": "$55.75",
-          "change": "+$11.15",
-          "changePercent": "+25.00%",
+          "id": "soc-gainer",
+          "headline": "Sable Offshore Corp.",
+          "ticker": "$SOC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+95.7%",
           "direction": "up",
-          "headline": "Oruka Therapeutics ($ORKA) Leads Gains",
-          "summary": "Oruka Therapeutics saw significant upward movement today, building on strong performance."
+          "summary": "Sable Offshore Corp. led the gainers in March 2026, reflecting strong performance."
         },
         {
-          "id": "gainer-apei",
-          "ticker": "$APEI",
-          "price": "$29.50",
-          "change": "+$5.15",
-          "changePercent": "+21.20%",
+          "id": "iren-gainer",
+          "headline": "IREN",
+          "ticker": "$IREN",
+          "price": "$41.58",
+          "change": "N/A",
+          "changePercent": "+13.30%",
           "direction": "up",
-          "headline": "American Public Education ($APEI) Rises",
-          "summary": "American Public Education experienced a notable increase, reflecting positive investor sentiment in the sector."
+          "summary": "IREN was a top gainer for the week, shrugging off broader market concerns."
         },
         {
-          "id": "gainer-np",
-          "ticker": "$NP",
-          "price": "$41.90",
-          "change": "+$7.05",
-          "changePercent": "+20.20%",
+          "id": "hpe-gainer",
+          "headline": "Hewlett Packard Enterprise",
+          "ticker": "$HPE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.00%",
           "direction": "up",
-          "headline": "Neptune Insurance ($NP) Posts Strong Gains",
-          "summary": "Neptune Insurance continued its upward trend, with investors showing confidence."
+          "summary": "Shares rose after the company released its first quarter fiscal 2026 results, exceeding EPS estimates."
         },
         {
-          "id": "loser-ual",
-          "ticker": "$UAL",
-          "price": "$43.20",
-          "change": "-$1.85",
-          "changePercent": "-4.10%",
+          "id": "adbe-loser",
+          "headline": "Adobe",
+          "ticker": "$ADBE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.00%",
           "direction": "down",
-          "headline": "United Airlines ($UAL) Falls on Fuel Cost Concerns",
-          "summary": "Airlines, including United Airlines Holdings Inc., faced pressure as climbing jet fuel costs weighed on sentiment."
+          "summary": "Shares tumbled in Friday's premarket despite record Q1 revenue, impacted by CEO transition and cautious guidance."
+        },
+        {
+          "id": "ulta-loser",
+          "headline": "Ulta Beauty",
+          "ticker": "$ULTA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.00%",
+          "direction": "down",
+          "summary": "Stock fell after the company reported strong fourth-quarter sales but missed profit expectations and provided weaker guidance for FY2026."
+        },
+        {
+          "id": "wfc-loser",
+          "headline": "Wells Fargo",
+          "ticker": "$WFC",
+          "price": "$74.10",
+          "change": "N/A",
+          "changePercent": "-7.86%",
+          "direction": "down",
+          "summary": "Wells Fargo shares extended losses for a seventh consecutive session, contributing to its weekly decline."
         }
       ]
     },
@@ -106,45 +126,54 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-outlook-1",
-          "headline": "Fed to Maintain Rates Amid Stagflation Fears",
-          "summary": "The Federal Reserve is widely expected to keep interest rates unchanged at 3.50%-3.75% next week, despite a weakened labor market and rising CPI. Economic data, including a revised Q4 GDP growth of 0.7%, indicate slowing growth alongside persistent inflation, fueling concerns about stagflation.",
+          "id": "sector-analysis-article",
+          "headline": "Energy and Utilities Lead, Financials and Consumer Cyclicals Lag",
+          "summary": "For the week ending March 14, 2026, the energy sector was the best-performing, up 1.88%, followed by utilities, which gained 0.39%. In contrast, financial services were the worst-performing sector, falling 3.37%, with consumer cyclical stocks also experiencing significant declines of 3.07%. Financials have been the weakest group in the S&P 500 sectors year-to-date.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "GDP"
-          ]
-        },
-        {
-          "id": "sector-rotation-1",
-          "headline": "Energy and Utilities Lead as Investors Seek Safety",
-          "summary": "In a clear rotation, Energy and Utilities sectors emerged as leaders, benefiting from surging oil and natural gas prices driven by the Iran conflict. Conversely, Technology and other growth-oriented sectors experienced declines, reflecting a 'risk-off' sentiment.",
-          "tags": [
-            "Sector Analysis",
+            "Sector Performance",
             "Energy",
             "Utilities",
-            "Tech"
+            "Financials"
           ]
         },
         {
-          "id": "oil-impact-1",
-          "headline": "Crude Oil Prices Soar Amid Middle East Conflict",
-          "summary": "Geopolitical tensions, particularly the ongoing Iran war, have pushed crude oil prices higher, with Brent crude surpassing $100 and WTI near $99 per barrel. This surge is a primary driver of current market weakness and inflation anxieties.",
+          "id": "geopolitical-tensions",
+          "headline": "Iran Conflict Escalates, Fueling Oil Price Surge and Market Volatility",
+          "summary": "Geopolitical tensions stemming from the ongoing Iran conflict continued to weigh heavily on global markets. Crude oil prices surpassed $100 a barrel, exacerbating inflationary fears. A drone attack on the Dubai International Financial Center on Friday, March 14, caused minor damage, further highlighting the economic ramifications of the conflict in the Middle East.",
           "tags": [
-            "Oil Prices",
             "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-season-wrap",
-          "headline": "Q4 Earnings Strong, But Future Outlook Uncertain",
-          "summary": "The S&P 500's recent pullback follows a generally positive Q4 earnings season that saw an average growth of over 13%. However, concerns about the broader economic environment and AI disruption are tempering the outlook for future corporate performance.",
+          "id": "economic-talks-us-china",
+          "headline": "U.S. and China Begin Economic and Trade Talks in Paris",
+          "summary": "Top economic officials from China and the United States commenced a new round of talks in Paris on Sunday, March 15, aimed at addressing economic and trade issues of mutual concern. These discussions are intended to smooth the path for a potential summit between U.S. President Donald Trump and Chinese President Xi Jinping later this month.",
+          "tags": [
+            "Economic Data",
+            "International Trade",
+            "US-China"
+          ]
+        },
+        {
+          "id": "upcoming-earnings",
+          "headline": "Key Earnings Reports and Fed Announcements Await Next Week",
+          "summary": "Investors are looking ahead to a busy week with several major companies reporting earnings, including Lululemon Athletica ($LULU) and FedEx ($FDX). The Federal Open Market Committee (FOMC) is also scheduled to make an announcement and release its Summary of Economic Projections on Wednesday, March 18, followed by a press briefing from Fed Chair Jerome Powell. Origin Materials ($ORGN) is set to release its Q4 2025 earnings before market open on Sunday, March 16.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "AI Disruption"
+            "Fed",
+            "Economic Calendar"
+          ]
+        },
+        {
+          "id": "shiller-pe-ratio",
+          "headline": "S&P 500 Nears Historically Expensive Levels, Shiller P/E at 39.2",
+          "summary": "The S&P 500 is currently trading at historically expensive valuations, with the Shiller price-to-earnings (P/E) ratio, or CAPE ratio, standing at 39.2. This level approaches the highest seen since mid-2000, raising questions for investors about future market trajectory.",
+          "tags": [
+            "Market Valuation",
+            "S&P 500",
+            "CAPE Ratio"
           ]
         }
       ]
