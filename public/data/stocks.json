@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T12:46:00Z",
+  "generatedAt": "2026-03-16T17:06:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -7,185 +7,164 @@
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "pulse-item-1",
-          "headline": "Geopolitical Tensions Drive Market Volatility and Oil Prices Upward",
-          "summary": "Global markets commenced the week with continued volatility as escalating geopolitical tensions in the Middle East, particularly the US-Iran conflict, exerted significant pressure. Crude oil prices have surged above $100 per barrel, with Brent crude topping $106, exacerbating inflation concerns. This instability is influencing investor sentiment, leading to fund shifts from Wall Street to other exchanges. U.S. stock futures showed early Monday gains after a challenging previous week, while major central banks globally prepare for crucial policy decisions later in the week.",
+          "id": "market-summary-1",
+          "headline": "U.S. Markets Open Higher Amid Geopolitical Tensions and AI Optimism",
+          "summary": "U.S. stock markets are rebounding at the start of the week, with major indices opening in positive territory, aiming to snap a three-week losing streak for the S&P 500. Despite the positive open, overall market sentiment remains mixed, influenced by ongoing geopolitical conflicts in the Middle East and persistently high crude oil prices. Investors are also closely watching the Federal Reserve's upcoming interest rate decision this week and fresh economic data. Optimism around artificial intelligence (AI) innovation continues to drive gains in the technology sector.",
           "tags": [
+            "Market Sentiment",
             "Geopolitics",
-            "Oil Prices",
-            "Inflation",
-            "Market Volatility"
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "stat-sp500",
           "statLabel": "S&P 500",
-          "statValue": "6,684 points",
-          "statContext": "Rose 0.78% on Monday, March 16, following a 1.6% decline last week that marked its third straight losing week."
+          "statValue": "6,674.37",
+          "statContext": "Up 0.64% (42.2 points) at open."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite (Futures)",
-          "statValue": "+0.52%",
-          "statContext": "Showed gains in pre-market trading, after falling 1.3% last week for its third consecutive weekly loss."
+          "id": "stat-nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "22,340.388",
+          "statContext": "Climbed 1.06% (235 points) at open."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average (Futures)",
-          "statValue": "+0.20%",
-          "statContext": "Posted gains in pre-market trading, following a 2% decline last week, marking its third straight week of losses."
+          "id": "stat-dow",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "46,707.4",
+          "statContext": "Rose 0.32% (148.9 points) at open."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-mu",
-          "headline": "Micron Technology Surges on Expansion Plans",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.4%",
-          "direction": "up",
-          "summary": "Shares climbed after the company announced plans to build a second chip manufacturing facility in Taiwan, aimed at expanding DRAM products to meet growing AI-driven demand."
-        },
-        {
-          "id": "gainer-meta",
-          "headline": "Meta Platforms Sees Gains Amid Market Stabilization Hopes",
+          "id": "mover-meta",
+          "headline": "Meta Platforms",
+          "summary": "Shares are up around 2.6%-3% (pre-market +2.98%) following reports of planned major AI-related job cuts to manage costs and a significant $27 billion deal with Dutch cloud provider Nebius for AI capacity.",
           "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.6%",
-          "direction": "up",
-          "summary": "Stock rose, following slight gains in other 'Magnificent Seven' stocks, as markets looked to stabilize after a weak week for equities, with investors closely watching the US-Iran conflict."
+          "changePercent": "+2.6-3%",
+          "direction": "up"
         },
         {
-          "id": "gainer-iti",
-          "headline": "ITI Ltd Leads Indian Gainers on Strong Demand",
-          "ticker": "$ITI",
-          "price": "₹287.60",
+          "id": "mover-micron",
+          "headline": "Micron Technology",
+          "summary": "The stock surged about 4.4% (pre-market +5.46%) after a brokerage firm raised its price target and the company announced plans to build a second manufacturing site in Taiwan to boost advanced DRAM products supply.",
+          "ticker": "$MU",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+18.70%",
-          "direction": "up",
-          "summary": "This Indian telecom equipment stock recorded a notable surge on the NSE, driven by significant demand during Monday's session."
+          "changePercent": "+4.4%",
+          "direction": "up"
         },
         {
-          "id": "gainer-mrpl",
-          "headline": "Mangalore Refinery and Petrochemicals Shows Strong Momentum",
-          "ticker": "$MRPL",
-          "price": "₹206.77",
+          "id": "mover-nvidia",
+          "headline": "Nvidia",
+          "summary": "Gained approximately 1% (pre-market +2.11%) as investors anticipate major announcements from its annual GTC conference today, focusing on new AI chips and platforms like the 'Vera Rubin' AI architecture.",
+          "ticker": "$NVDA",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16%",
-          "direction": "up",
-          "summary": "Shares of Mangalore Refinery and Petrochemicals Ltd rose sharply on the NSE, propelled by strong momentum in refinery stocks and intensified buying interest."
+          "changePercent": "+1%",
+          "direction": "up"
         },
         {
-          "id": "loser-ulta",
-          "headline": "Ulta Beauty Plummets Amid Market Weakness",
+          "id": "mover-nebius",
+          "headline": "Nebius Group",
+          "summary": "Experience a significant jump of +13.06% (pre-market +14.27%) due to its substantial $27 billion deal to supply Meta Platforms with dedicated AI capacity.",
+          "ticker": "$NBIS",
+          "price": "N/A",
+          "change": "+$14.75",
+          "changePercent": "+13.06%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-ulta",
+          "headline": "Ulta Beauty Inc.",
+          "summary": "Was a major loser on Friday, plummeting 14.2%.",
           "ticker": "$ULTA",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-14.2%",
-          "direction": "down",
-          "summary": "Ulta Beauty Inc. was a major loser among Wall Street's main benchmark components."
+          "direction": "down"
         },
         {
-          "id": "loser-ipx",
-          "headline": "IperionX Limited Experiences Steepest Fall in Australia",
-          "ticker": "$IPX",
-          "price": "$4.090",
-          "change": "-$1.170",
-          "changePercent": "-22.244%",
-          "direction": "down",
-          "summary": "The industrial stock saw the steepest decline on the ASX, falling significantly during Monday's trading session."
-        },
-        {
-          "id": "loser-dyl",
-          "headline": "Deep Yellow Limited Retreats in Australian Trading",
-          "ticker": "$DYL",
-          "price": "$1.775",
-          "change": "-$0.225",
-          "changePercent": "-11.250%",
-          "direction": "down",
-          "summary": "Shares retreated in Monday's session amidst cautious investor sentiment in the Australian market."
+          "id": "mover-dollartree",
+          "headline": "Dollar Tree",
+          "summary": "Fell 6% after reporting mixed fourth-quarter results, with earnings beating expectations but revenue slightly missing forecasts.",
+          "ticker": "$DLTR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-fed-fomc",
-          "headline": "Fed FOMC Meeting in Focus Amid Inflationary Pressures",
-          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) meeting on March 18 is a key event this week. While the fed funds target rate is widely expected to remain unchanged, signals on future rate cuts will be closely scrutinized, especially given rising oil prices and persistent inflation concerns stemming from the Middle East conflict. Investors have scaled back rate-cut expectations, now anticipating perhaps only one cut by year-end.",
-          "tags": [
-            "Federal Reserve",
-            "FOMC",
-            "Interest Rates",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "news-us-china-talks",
-          "headline": "US-China Trade Negotiations Underway in Paris",
-          "summary": "The second day of US-China trade negotiations in Paris on Monday, March 16, is a central geoeconomic event. Markets are keenly watching for potential indicators on easing trade tensions, tariff policies, industrial exports, and their impact on global supply chains and commodity demand, particularly in the semiconductor sector.",
-          "tags": [
-            "US-China",
-            "Trade",
-            "Geopolitics",
-            "Supply Chain"
-          ]
-        },
-        {
-          "id": "news-sector-rotation",
-          "headline": "Energy Sector Leads Amid Geopolitical Risks, Tech and Discretionary Lag",
-          "summary": "The Energy sector continues to be a market leader, propelled by a significant 'geopolitical risk premium' as crude oil prices surge due to Middle East tensions. Conversely, sectors like Consumer Discretionary, Industrials, and Information Technology showed notable weakness, continuing a trend from the previous week. In India, the Nifty Metal and Auto sectors showed positive movement, while Nifty Media lagged.",
+          "id": "news-sector-analysis",
+          "headline": "Sector Performance: Tech and Energy Lead, Consumer Discretionary Lags",
+          "summary": "Technology and AI-related companies are currently leading the market. The energy sector has also been a top performer year-to-date due to high oil prices, with a noticeable rotation towards defensive areas like consumer staples and utilities. Conversely, consumer discretionary was the only sector experiencing an earnings decline in Q4, and it, along with Industrials and Information Technology, tumbled on Friday.",
           "tags": [
             "Sector Analysis",
-            "Energy",
             "Technology",
-            "Geopolitics"
+            "Energy",
+            "Consumer Discretionary"
           ]
         },
         {
-          "id": "news-economic-data",
-          "headline": "Key Economic Data Releases Expected This Week",
-          "summary": "Aside from central bank decisions, several important economic data releases are scheduled this week. These include February industrial production and the New York Fed survey on Monday, February producer prices on Wednesday, and weekly jobless claims and January new home sales on Thursday. China's industrial production data for February is also due.",
+          "id": "news-fed-economic",
+          "headline": "Fed Meeting and Key Economic Data Ahead This Week",
+          "summary": "The Federal Reserve's interest rate decision is a central focus for markets this week, with expectations for the Fed to hold rates steady at 3.50%-3.75%. Today, the U.S. is releasing industrial production data for February, anticipated to show a 0.2% increase. February's Producer Price Index (PPI) is also expected later in the week. Recent data indicated steady but sticky inflation pressures in February and January, while Q4 2025 U.S. GDP growth was revised down to 0.7%. A U.S. district judge recently blocked the Justice Department's subpoenas against the Federal Reserve and Chair Jerome Powell.",
           "tags": [
+            "Federal Reserve",
             "Economic Data",
-            "Industrial Production",
             "Inflation",
-            "Jobless Claims"
+            "GDP"
           ]
         },
         {
-          "id": "news-earnings-reports",
-          "headline": "Select Companies Report Earnings on March 16",
-          "summary": "Several companies are scheduled to report earnings today, March 16. These include Dollar Tree ($DLTR), Agenus ($AGEN), Ocean Power Technologies ($OPTT), Weight Watchers ($WW), and WaterBridge ($WBI), providing fresh insights into corporate performance.",
+          "id": "news-earnings",
+          "headline": "Q4 Earnings Season Nearing End with Strong Results; Key Reports Today",
+          "summary": "The S&P 500's Q4 earnings season is concluding with robust results, achieving 13.6% earnings growth and 9.2% revenue gains, with ten out of eleven sectors reporting growth. Today, companies such as Agenus ($AGEN), Assertio Therapeutics ($ASRT), Dollar Tree ($DLTR), Ocean Power Technologies ($OPTT), and IHS Holding Limited ($IHS) are expected to report earnings. Last week, Oracle's strong earnings fueled AI investment optimism, while Adobe saw shares drop despite beating forecasts due to a CEO departure.",
           "tags": [
             "Earnings",
-            "Corporate News"
+            "Corporate Reports"
+          ]
+        },
+        {
+          "id": "news-macro-trends",
+          "headline": "Geopolitical Tensions, Oil Prices, and AI Continue to Shape Market Landscape",
+          "summary": "The ongoing Middle East conflict remains a significant macroeconomic factor, contributing to market uncertainty and elevated crude oil prices near $100 per barrel. Disruptions in the Strait of Hormuz are a key concern for energy supply. Artificial intelligence development continues to be a primary driver for equity markets and corporate earnings. U.S.-China trade negotiations are ongoing in Paris, potentially impacting global supply chains. The credit market is showing signs of stress with downgrades outnumbering upgrades for the fifth consecutive week and rising delinquency rates.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "AI",
+            "Trade",
+            "Credit Market"
           ]
         }
       ]
