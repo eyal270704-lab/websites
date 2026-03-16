@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T08:06:00Z",
+  "generatedAt": "2026-03-16T12:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -7,167 +7,185 @@
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-031626",
-          "headline": "Geopolitical Tensions Drive Market Volatility Amid Surging Oil Prices and Fed Rate Speculation",
-          "summary": "Global markets are grappling with significant volatility as the Iran conflict enters its third week, triggering an oil supply shock and pushing Brent crude prices above $100 per barrel. This has amplified inflationary pressures and led to scaled-back expectations for Federal Reserve interest rate cuts, with the Fed widely anticipated to hold rates steady at its upcoming policy meeting. Despite a challenging close to last week for major indices, U.S. stock futures show some optimism this morning. Investors are also closely watching the NVIDIA GTC conference this week for signals on the AI sector. Not financial advice.",
+          "id": "pulse-item-1",
+          "headline": "Geopolitical Tensions Drive Market Volatility and Oil Prices Upward",
+          "summary": "Global markets commenced the week with continued volatility as escalating geopolitical tensions in the Middle East, particularly the US-Iran conflict, exerted significant pressure. Crude oil prices have surged above $100 per barrel, with Brent crude topping $106, exacerbating inflation concerns. This instability is influencing investor sentiment, leading to fund shifts from Wall Street to other exchanges. U.S. stock futures showed early Monday gains after a challenging previous week, while major central banks globally prepare for crucial policy decisions later in the week.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
             "Inflation",
-            "Federal Reserve",
-            "AI"
+            "Market Volatility"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Up 0.5%",
-          "statContext": "Pre-market movement today. The S&P 500 fell 0.6% to 6,632.19 on Friday, marking a 1.6% drop for the week."
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "6,684 points",
+          "statContext": "Rose 0.78% on Monday, March 16, following a 1.6% decline last week that marked its third straight losing week."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "Up 0.5%",
-          "statContext": "Pre-market movement today. The Nasdaq Composite finished 0.9% lower on Friday at 22,105.36, losing 1.3% for the week."
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite (Futures)",
+          "statValue": "+0.52%",
+          "statContext": "Showed gains in pre-market trading, after falling 1.3% last week for its third consecutive weekly loss."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Up 0.4%",
-          "statContext": "Pre-market movement today. The Dow Jones Industrial Average lost 0.3% to 46,558.47 on Friday, with a 2.0% decline for the week."
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average (Futures)",
+          "statValue": "+0.20%",
+          "statContext": "Posted gains in pre-market trading, following a 2% decline last week, marking its third straight week of losses."
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-soc",
-          "headline": "Sable Offshore Corp. ($SOC)",
-          "ticker": "$SOC",
-          "price": "$23.15",
-          "change": "+$11.31",
-          "changePercent": "+95.7%",
-          "direction": "up",
-          "summary": "Sable Offshore Corp. leads the month of March with significant gains, showing strong short-term momentum."
-        },
-        {
-          "id": "gainer-zip",
-          "headline": "ZipRecruiter, Inc. ($ZIP)",
-          "ticker": "$ZIP",
-          "price": "$5.03",
-          "change": "+$1.79",
-          "changePercent": "+55.49%",
-          "direction": "up",
-          "summary": "ZipRecruiter, Inc. experienced a substantial rise, contributing to the Communication Services sector's strong performance in March."
-        },
-        {
-          "id": "gainer-ampx",
-          "headline": "Amprius Technologies, Inc. ($AMPX)",
-          "ticker": "$AMPX",
-          "price": "$8.14",
-          "change": "+$2.89",
-          "changePercent": "+54.87%",
-          "direction": "up",
-          "summary": "Amprius Technologies, Inc. saw a considerable increase, reflecting strong short-term momentum in the Industrials sector."
-        },
-        {
-          "id": "loser-adbe",
-          "headline": "Adobe ($ADBE)",
-          "ticker": "$ADBE",
+          "id": "gainer-mu",
+          "headline": "Micron Technology Surges on Expansion Plans",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.6%",
-          "direction": "down",
-          "summary": "Adobe shares dropped last week due to doubts about the company's AI strategy following its CEO's departure, despite beating earnings forecasts."
+          "changePercent": "+3.4%",
+          "direction": "up",
+          "summary": "Shares climbed after the company announced plans to build a second chip manufacturing facility in Taiwan, aimed at expanding DRAM products to meet growing AI-driven demand."
         },
         {
-          "id": "loser-aapl",
-          "headline": "Apple ($AAPL)",
-          "ticker": "$AAPL",
+          "id": "gainer-meta",
+          "headline": "Meta Platforms Sees Gains Amid Market Stabilization Hopes",
+          "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.15%",
-          "direction": "down",
-          "summary": "Apple was among the laggards on Friday, contributing to the Dow's decline."
+          "changePercent": "+2.6%",
+          "direction": "up",
+          "summary": "Stock rose, following slight gains in other 'Magnificent Seven' stocks, as markets looked to stabilize after a weak week for equities, with investors closely watching the US-Iran conflict."
         },
         {
-          "id": "loser-msft",
-          "headline": "Microsoft ($MSFT)",
-          "ticker": "$MSFT",
+          "id": "gainer-iti",
+          "headline": "ITI Ltd Leads Indian Gainers on Strong Demand",
+          "ticker": "$ITI",
+          "price": "₹287.60",
+          "change": "N/A",
+          "changePercent": "+18.70%",
+          "direction": "up",
+          "summary": "This Indian telecom equipment stock recorded a notable surge on the NSE, driven by significant demand during Monday's session."
+        },
+        {
+          "id": "gainer-mrpl",
+          "headline": "Mangalore Refinery and Petrochemicals Shows Strong Momentum",
+          "ticker": "$MRPL",
+          "price": "₹206.77",
+          "change": "N/A",
+          "changePercent": "+16%",
+          "direction": "up",
+          "summary": "Shares of Mangalore Refinery and Petrochemicals Ltd rose sharply on the NSE, propelled by strong momentum in refinery stocks and intensified buying interest."
+        },
+        {
+          "id": "loser-ulta",
+          "headline": "Ulta Beauty Plummets Amid Market Weakness",
+          "ticker": "$ULTA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.57%",
+          "changePercent": "-14.2%",
           "direction": "down",
-          "summary": "Microsoft's shares fell on Friday, leading to a weaker close for the Dow."
+          "summary": "Ulta Beauty Inc. was a major loser among Wall Street's main benchmark components."
+        },
+        {
+          "id": "loser-ipx",
+          "headline": "IperionX Limited Experiences Steepest Fall in Australia",
+          "ticker": "$IPX",
+          "price": "$4.090",
+          "change": "-$1.170",
+          "changePercent": "-22.244%",
+          "direction": "down",
+          "summary": "The industrial stock saw the steepest decline on the ASX, falling significantly during Monday's trading session."
+        },
+        {
+          "id": "loser-dyl",
+          "headline": "Deep Yellow Limited Retreats in Australian Trading",
+          "ticker": "$DYL",
+          "price": "$1.775",
+          "change": "-$0.225",
+          "changePercent": "-11.250%",
+          "direction": "down",
+          "summary": "Shares retreated in Monday's session amidst cautious investor sentiment in the Australian market."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-031626",
-          "headline": "Federal Reserve Poised to Maintain Rates Amid Inflationary Pressures",
-          "summary": "The Federal Reserve is widely expected to keep the federal funds target rate unchanged at 3.50%-3.75% during its policy decision on Wednesday, marking the second consecutive meeting without a change. This decision comes as rising oil prices, fueled by the Iran conflict, contribute to higher inflation expectations, reducing the likelihood of rate cuts in the near term. The Fed will also release updated economic projections and its 'dot-plot' forecasts for interest rates. Key U.S. economic data releases this week include February industrial production on Monday and February producer prices on Wednesday.",
+          "id": "news-fed-fomc",
+          "headline": "Fed FOMC Meeting in Focus Amid Inflationary Pressures",
+          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) meeting on March 18 is a key event this week. While the fed funds target rate is widely expected to remain unchanged, signals on future rate cuts will be closely scrutinized, especially given rising oil prices and persistent inflation concerns stemming from the Middle East conflict. Investors have scaled back rate-cut expectations, now anticipating perhaps only one cut by year-end.",
           "tags": [
             "Federal Reserve",
+            "FOMC",
             "Interest Rates",
-            "Inflation",
-            "Economic Data"
+            "Inflation"
           ]
         },
         {
-          "id": "geopolitical-impact",
-          "headline": "Iran Conflict Escalates, Driving Oil Prices Higher and Fueling Stagflation Concerns",
-          "summary": "The ongoing conflict in Iran, now in its third week, continues to be a major factor in global markets, leading to a significant oil supply shock. Brent crude is trading near $105 per barrel, up 1.6% today, while U.S. benchmark crude gained 1% to $99.68. The effective closure of the Strait of Hormuz has intensified inflationary pressures and is contributing to fears of stagflation, characterized by low growth and high inflation, as U.S. Q4 GDP was revised down to a sluggish 0.7%. Japan has begun releasing oil reserves to mitigate potential supply disruptions.",
+          "id": "news-us-china-talks",
+          "headline": "US-China Trade Negotiations Underway in Paris",
+          "summary": "The second day of US-China trade negotiations in Paris on Monday, March 16, is a central geoeconomic event. Markets are keenly watching for potential indicators on easing trade tensions, tariff policies, industrial exports, and their impact on global supply chains and commodity demand, particularly in the semiconductor sector.",
           "tags": [
+            "US-China",
+            "Trade",
             "Geopolitics",
-            "Oil Prices",
-            "Stagflation",
-            "Global Economy"
+            "Supply Chain"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Energy Sector Leads as Tech Lags Amid Valuation Concerns",
-          "summary": "The Energy sector is currently leading the market, driven by the substantial spike in oil prices due to geopolitical tensions. Conversely, the Information Technology sector is deeply lagging, facing a 'valuation squeeze' as rising 10-year Treasury yields negatively impact high-multiple growth stocks. Other lagging sectors include Financials, Consumer Discretionary (due to high gasoline prices), and Basic Materials. Communication Services, Consumer Defensive, and Consumer Cyclical sectors have shown strong performance in March.",
+          "id": "news-sector-rotation",
+          "headline": "Energy Sector Leads Amid Geopolitical Risks, Tech and Discretionary Lag",
+          "summary": "The Energy sector continues to be a market leader, propelled by a significant 'geopolitical risk premium' as crude oil prices surge due to Middle East tensions. Conversely, sectors like Consumer Discretionary, Industrials, and Information Technology showed notable weakness, continuing a trend from the previous week. In India, the Nifty Metal and Auto sectors showed positive movement, while Nifty Media lagged.",
           "tags": [
             "Sector Analysis",
             "Energy",
             "Technology",
-            "Market Trends"
+            "Geopolitics"
           ]
         },
         {
-          "id": "earnings-watch",
-          "headline": "Earnings Season Continues: Micron and FedEx Among Key Reports This Week",
-          "summary": "While no major U.S. earnings reports are expected before market open today, companies like Hon Hai Precision ADR and DocuSign ($DOCU) are scheduled to report. Investors are looking ahead to significant earnings from Micron Technology ($MU) on Wednesday after market close and FedEx ($FDX) on Thursday after market close. Last week, Oracle's ($ORCL) robust earnings fueled optimism in AI investments, though Adobe ($ADBE) saw a drop despite beating forecasts. The NVIDIA GTC conference, starting today, is also a key event for the AI and semiconductor industries.",
+          "id": "news-economic-data",
+          "headline": "Key Economic Data Releases Expected This Week",
+          "summary": "Aside from central bank decisions, several important economic data releases are scheduled this week. These include February industrial production and the New York Fed survey on Monday, February producer prices on Wednesday, and weekly jobless claims and January new home sales on Thursday. China's industrial production data for February is also due.",
           "tags": [
-            "Earnings Reports",
-            "Tech",
-            "AI",
-            "NVIDIA"
+            "Economic Data",
+            "Industrial Production",
+            "Inflation",
+            "Jobless Claims"
+          ]
+        },
+        {
+          "id": "news-earnings-reports",
+          "headline": "Select Companies Report Earnings on March 16",
+          "summary": "Several companies are scheduled to report earnings today, March 16. These include Dollar Tree ($DLTR), Agenus ($AGEN), Ocean Power Technologies ($OPTT), Weight Watchers ($WW), and WaterBridge ($WBI), providing fresh insights into corporate performance.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
           ]
         }
       ]
