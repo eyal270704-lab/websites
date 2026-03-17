@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-17T07:52:00Z",
+  "generatedAt": "2026-03-17T12:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, March 17, 2026",
+  "subtitle": "March 17, 2026 Market Close",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,15 +13,16 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-01",
-          "headline": "Global Markets Exhibit Caution Amid Geopolitical Tensions and Anticipated Fed Decision",
-          "summary": "Global markets are displaying a cautious sentiment today, with U.S. futures showing slight declines after a Monday rebound, while Asian markets are mixed. Investors are closely monitoring the ongoing geopolitical conflict in West Asia and the impending Federal Reserve policy decision. The Reserve Bank of Australia, however, raised interest rates, citing inflationary pressures. Not financial advice.",
+          "id": "market-summary",
+          "headline": "U.S. Stocks Rally as Oil Concerns Ease, AI Trade Regains Ground",
+          "summary": "U.S. stock markets closed higher on Tuesday, rebounding from earlier lows. All three major indexes ended in positive territory, driven by a decline in crude oil prices that eased inflationary concerns and a resurgence in AI-related stocks. However, geopolitical conflicts in the Middle East and rising oil prices continued to contribute to mixed global market sentiment, with U.S. futures slipping early in the day.",
           "tags": [
-            "Global Market",
-            "Geopolitics",
-            "Fed Decision"
+            "Market Sentiment",
+            "Oil Prices",
+            "AI",
+            "Geopolitics"
           ],
-          "timestamp": "2026-03-17T07:52:00Z"
+          "timestamp": "2026-03-17T16:00:00Z"
         }
       ]
     },
@@ -32,112 +33,99 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6672.00",
-          "statContext": "Down 0.41% on March 17, 2026"
+          "statValue": "6,699.38",
+          "statContext": "+1.00% (+66.33 pts)",
+          "tags": [
+            "Index",
+            "S&P 500"
+          ]
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "22374.18",
-          "statContext": "Gained 1.2% on Monday"
+          "statValue": "22,374.18",
+          "statContext": "+1.20% (+268.82 pts)",
+          "tags": [
+            "Index",
+            "NASDAQ"
+          ]
         },
         {
-          "id": "dow-stat",
-          "statLabel": "DOW Jones Industrial Average",
-          "statValue": "46946.41",
-          "statContext": "Added 0.8% on Monday"
-        },
-        {
-          "id": "sensex-stat",
-          "statLabel": "BSE Sensex (India)",
-          "statValue": "75422.73",
-          "statContext": "Down 0.11% on March 17, 2026"
-        },
-        {
-          "id": "nifty-stat",
-          "statLabel": "NSE Nifty (India)",
-          "statValue": "23387.00",
-          "statContext": "Slipped 0.09% on March 17, 2026"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "46,946.41",
+          "statContext": "+0.80% (+387.94 pts)",
+          "tags": [
+            "Index",
+            "Dow Jones"
+          ]
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Current & Recent)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "soc-gainer",
-          "headline": "Sable Offshore Corp. Leads March Gainers",
+          "id": "gainer-soc",
+          "headline": "Sable Offshore Corp. ($SOC)",
+          "summary": "Sable Offshore Corp. led the monthly gains for March 2026, reflecting strong investor interest in the energy sector.",
           "ticker": "$SOC",
           "price": "$16.13",
-          "change": "+$7.51",
+          "change": "+$7.53",
           "changePercent": "+87.56%",
           "direction": "up",
-          "summary": "Sable Offshore Corp. is the best-performing stock in March 2026, as of March 17."
+          "tags": [
+            "Gainer",
+            "Energy"
+          ]
         },
         {
-          "id": "ampx-gainer",
-          "headline": "Amprius Technologies Continues Strong March Performance",
+          "id": "gainer-ampx",
+          "headline": "Amprius Technologies, Inc. ($AMPX)",
+          "summary": "Amprius Technologies showed significant upward momentum, indicating positive developments or market sentiment towards industrial innovations.",
           "ticker": "$AMPX",
           "price": "$18.69",
           "change": "+$7.13",
           "changePercent": "+61.26%",
           "direction": "up",
-          "summary": "Amprius Technologies, Inc. ranks among the top gainers for March 2026."
+          "tags": [
+            "Gainer",
+            "Industrials"
+          ]
         },
         {
-          "id": "pnr-gainer",
-          "headline": "Pantoro Gold Ltd. Surges on Gold Demand",
-          "ticker": "$PNR",
-          "price": "$3.81",
-          "change": "+$0.41",
-          "changePercent": "+12.02%",
+          "id": "gainer-zip",
+          "headline": "ZipRecruiter, Inc. ($ZIP)",
+          "summary": "ZipRecruiter experienced a notable surge, possibly driven by positive news in the communication services sector or a favorable outlook on the job market.",
+          "ticker": "$ZIP",
+          "price": "$2.77",
+          "change": "+$0.95",
+          "changePercent": "+52.20%",
           "direction": "up",
-          "summary": "Australian gold miner Pantoro Gold Ltd. spiked as gold stocks were in high demand on Tuesday."
+          "tags": [
+            "Gainer",
+            "Communication Services"
+          ]
         },
         {
-          "id": "gmdc-gainer",
-          "headline": "GMDC Up on Rare Earth Elements Collaboration",
-          "ticker": "$GMDC",
+          "id": "loser-futures",
+          "headline": "U.S. Futures Slip Amid Rising Oil Prices",
+          "summary": "While major indexes closed higher, U.S. stock futures for the S&P 500, Nasdaq 100, and Dow Jones Industrial Average showed declines in pre-market trading, reflecting renewed concerns over oil price spikes due to ongoing U.S.-Iran tensions.",
+          "ticker": "N/A",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3%",
-          "direction": "up",
-          "summary": "GMDC gained 3% after signing an MoU with NMDC Limited to collaborate on developing an integrated Rare Earth Elements value chain."
-        },
-        {
-          "id": "redington-loser",
-          "headline": "Redington Down Amid Geopolitical Tensions",
-          "ticker": "$REDINGTON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4%",
+          "changePercent": "N/A",
           "direction": "down",
-          "summary": "Redington fell over 4% after informing that geopolitical tensions in the Gulf region are causing logistical delays and increased freight costs for its subsidiary."
-        },
-        {
-          "id": "infosys-loser",
-          "headline": "Infosys Drops in Early Trading",
-          "ticker": "$INFY",
-          "price": "$1228.50",
-          "change": "-$21.05",
-          "changePercent": "-1.69%",
-          "direction": "down",
-          "summary": "Infosys declined in early Indian trading on Tuesday, March 17, 2026."
-        },
-        {
-          "id": "hcltech-loser",
-          "headline": "HCL Technologies Slips",
-          "ticker": "$HCLTECH",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.06%",
-          "direction": "down",
-          "summary": "HCL Technologies experienced a slip in early Indian trading on Tuesday."
+          "tags": [
+            "Loser",
+            "Market Futures",
+            "Oil Prices"
+          ]
         }
       ]
     },
@@ -148,67 +136,46 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-01",
-          "headline": "Federal Reserve Gathers Amid Inflation and Geopolitical Headwinds",
-          "summary": "The Federal Open Market Committee (FOMC) meets today, March 17-18, with a policy statement expected tomorrow. The Fed is widely anticipated to hold interest rates steady at 3.50%-3.75%, but will assess the economic impact of the Iran conflict, surging oil prices, and new global tariffs. Political pressure for rate cuts is also a factor.",
-          "tags": [
-            "Fed",
-            "FOMC",
-            "Interest Rates",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "rba-hike-01",
-          "headline": "Reserve Bank of Australia Raises Interest Rates to 4.1%",
-          "summary": "The Reserve Bank of Australia increased its cash rate by 25 basis points to 4.1% on Tuesday. This decision was driven by persistent local inflation and concerns over the inflationary effects of the Middle East conflict, leading to higher fuel prices.",
-          "tags": [
-            "RBA",
-            "Interest Rates",
-            "Australia",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "sector-rotation-01",
-          "headline": "Sector Rotation Continues Towards Value and Defensive Stocks",
-          "summary": "A trend of sector rotation is observable, with capital shifting towards asset-heavy and defensive sectors such as Energy, Utilities, Materials, and Industrials. This comes as Technology and Consumer Discretionary sectors show weakness, partly influenced by AI disruption fears and geopolitical risks.",
+          "id": "sector-analysis",
+          "headline": "Sector Performance: Utilities and Technology Lead, Materials Lag",
+          "summary": "The Utilities Select Sector SPDR (XLU) rose 1%, while the Materials Select Sector SPDR (XLB) fell 1%. Technology stocks, especially those related to AI, led the broader rally following advancements announced at Nvidia's GTC 2026 keynote. Other leading sectors in monthly rankings include Healthcare, Industrials, and Consumer Defensive.",
           "tags": [
             "Sector Analysis",
-            "Value Stocks",
-            "Growth Stocks",
             "Technology",
-            "Energy"
+            "Utilities",
+            "Materials",
+            "AI"
           ]
         },
         {
-          "id": "oil-prices-01",
-          "headline": "Oil Prices Surge as Geopolitical Tensions Persist",
-          "summary": "Crude oil prices continue to climb, with Brent crude reaching nearly $103.17 a barrel and WTI crude at $96.20 on Tuesday. The ongoing conflict in the Middle East and concerns over supply disruptions are primary drivers.",
+          "id": "fed-meeting-preview",
+          "headline": "FOMC Meeting Underway Amid Inflationary Pressures and Geopolitical Conflict",
+          "summary": "The Federal Open Market Committee (FOMC) meets today, March 17-18, 2026, with a high probability of holding interest rates steady in the 3.50% to 3.75% range. This decision is influenced by the economic impact of the Iran conflict and surging oil prices. Updated economic projections and the 'dot plot' are expected tomorrow, March 18.",
           "tags": [
-            "Oil Prices",
-            "Commodities",
+            "Fed",
+            "Interest Rates",
+            "FOMC",
+            "Inflation",
             "Geopolitics"
           ]
         },
         {
-          "id": "earnings-reports-01",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Lufax ($LU) and PSQ Holdings ($PSQH) have announced their Q4 2025 earnings today. Additionally, earnings reports are anticipated from companies including Lululemon, Docusign, and Oklo.",
+          "id": "economic-data",
+          "headline": "Mixed Economic Data Released for February",
+          "summary": "February saw industrial production rise by 0.2%, with manufacturing output up 0.2% and mining growing 0.8%. However, utilities output fell 0.6%, and the NY Empire State Index for manufacturing unexpectedly declined to -0.2. Capacity utilization edged up to 76.3%.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Economic Data",
+            "Industrial Production",
+            "Manufacturing"
           ]
         },
         {
-          "id": "us-tariffs-01",
-          "headline": "U.S. Considers New High Tariffs, Raising Stagflation Concerns",
-          "summary": "The United States is investigating new high-tariff policies, a move that could escalate global economic turmoil. This comes amidst soaring energy prices and growing worries of worldwide stagflation, where rising prices coincide with an economic downturn.",
+          "id": "earnings-reports",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Lululemon Athletica ($LULU), DocuSign ($DOCU), and Oklo ($OKLO) are among the notable companies scheduled to report earnings today. Steel Dynamics, Inc. ($STLD) also provided its first quarter 2026 earnings guidance, expecting meaningfully higher profitability from steel operations.",
           "tags": [
-            "Trade Policy",
-            "Tariffs",
-            "Stagflation",
-            "Global Economy"
+            "Earnings",
+            "Q1 2026"
           ]
         }
       ]
