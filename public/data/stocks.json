@@ -1,168 +1,159 @@
 {
-  "generatedAt": "2026-03-17T12:45:00Z",
+  "generatedAt": "2026-03-17T17:06:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 17, 2026 Market Close",
+  "subtitle": "March 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Rally as Oil Concerns Ease, AI Trade Regains Ground",
-          "summary": "U.S. stock markets closed higher on Tuesday, rebounding from earlier lows. All three major indexes ended in positive territory, driven by a decline in crude oil prices that eased inflationary concerns and a resurgence in AI-related stocks. However, geopolitical conflicts in the Middle East and rising oil prices continued to contribute to mixed global market sentiment, with U.S. futures slipping early in the day.",
+          "id": "market-summary-1",
+          "headline": "U.S. Equities Close Higher Amid FOMC Anticipation and Easing Oil Fears",
+          "summary": "U.S. stock markets closed higher on Tuesday, extending gains from Monday's sharp rebound. The positive momentum was largely attributed to an initial retreat in oil prices, following reports of successful navigation through the Strait of Hormuz, which temporarily eased energy-shock fears. However, oil prices later resumed their climb, and overall market sentiment remained cautious ahead of the Federal Open Market Committee (FOMC) meeting, with a focus on potential interest rate projections. The VIX, a key fear gauge, eased to 23.47, indicating some reduction in market volatility.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
             "Oil Prices",
-            "AI",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-03-17T16:00:00Z"
+            "FOMC",
+            "Sentiment"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "6,699.38",
-          "statContext": "+1.00% (+66.33 pts)",
-          "tags": [
-            "Index",
-            "S&P 500"
-          ]
+          "statValue": "6,699",
+          "statContext": "+1.01% Today",
+          "ticker": "$SPX",
+          "change": "+66.99",
+          "changePercent": "+1.01%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "22,374.18",
-          "statContext": "+1.20% (+268.82 pts)",
-          "tags": [
-            "Index",
-            "NASDAQ"
-          ]
+          "statValue": "22,374",
+          "statContext": "+1.22% Today",
+          "ticker": "$IXIC",
+          "change": "+273",
+          "changePercent": "+1.22%",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,946.41",
-          "statContext": "+0.80% (+387.94 pts)",
-          "tags": [
-            "Index",
-            "Dow Jones"
-          ]
+          "statValue": "46,946",
+          "statContext": "+0.83% Today",
+          "ticker": "$DJI",
+          "change": "+390",
+          "changePercent": "+0.83%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-soc",
-          "headline": "Sable Offshore Corp. ($SOC)",
-          "summary": "Sable Offshore Corp. led the monthly gains for March 2026, reflecting strong investor interest in the energy sector.",
-          "ticker": "$SOC",
-          "price": "$16.13",
-          "change": "+$7.53",
-          "changePercent": "+87.56%",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Energy"
-          ]
-        },
-        {
-          "id": "gainer-ampx",
-          "headline": "Amprius Technologies, Inc. ($AMPX)",
-          "summary": "Amprius Technologies showed significant upward momentum, indicating positive developments or market sentiment towards industrial innovations.",
-          "ticker": "$AMPX",
-          "price": "$18.69",
-          "change": "+$7.13",
-          "changePercent": "+61.26%",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Industrials"
-          ]
-        },
-        {
-          "id": "gainer-zip",
-          "headline": "ZipRecruiter, Inc. ($ZIP)",
-          "summary": "ZipRecruiter experienced a notable surge, possibly driven by positive news in the communication services sector or a favorable outlook on the job market.",
-          "ticker": "$ZIP",
-          "price": "$2.77",
-          "change": "+$0.95",
-          "changePercent": "+52.20%",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Communication Services"
-          ]
-        },
-        {
-          "id": "loser-futures",
-          "headline": "U.S. Futures Slip Amid Rising Oil Prices",
-          "summary": "While major indexes closed higher, U.S. stock futures for the S&P 500, Nasdaq 100, and Dow Jones Industrial Average showed declines in pre-market trading, reflecting renewed concerns over oil price spikes due to ongoing U.S.-Iran tensions.",
-          "ticker": "N/A",
+          "id": "mover-dal",
+          "headline": "Delta Air Lines",
+          "summary": "Shares surged after the airline raised its revenue outlook for the first quarter of 2026, citing accelerating demand from both corporate and leisure travelers into March, despite higher jet fuel costs.",
+          "ticker": "$DAL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Market Futures",
-            "Oil Prices"
-          ]
+          "changePercent": "+4.9% to +5%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-uber",
+          "headline": "Uber Technologies",
+          "summary": "Jumped significantly following the announcement of an expanded partnership with Nvidia to launch a fleet of autonomous vehicles utilizing the chipmaker's technology.",
+          "ticker": "$UBER",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.2% to +5.6%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-aal",
+          "headline": "American Airlines",
+          "summary": "Gained on an optimistic demand outlook, benefiting from the broader positive sentiment in the airline sector.",
+          "ticker": "$AAL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4% to +4.4%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-hon",
+          "headline": "Honeywell International",
+          "summary": "Shares declined due to the anticipated impact on revenue from the ongoing Middle East conflict.",
+          "ticker": "$HON",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.3%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Sector Performance: Utilities and Technology Lead, Materials Lag",
-          "summary": "The Utilities Select Sector SPDR (XLU) rose 1%, while the Materials Select Sector SPDR (XLB) fell 1%. Technology stocks, especially those related to AI, led the broader rally following advancements announced at Nvidia's GTC 2026 keynote. Other leading sectors in monthly rankings include Healthcare, Industrials, and Consumer Defensive.",
+          "id": "news-fomc-meeting",
+          "headline": "FOMC Meeting Underway: Rates Expected to Hold Steady Amid Inflation Concerns",
+          "summary": "The Federal Open Market Committee (FOMC) began its two-day policy meeting today, with widespread expectations that interest rates will remain unchanged in the 3.50%-3.75% range. Attention is firmly on the updated quarterly dot plot, which will provide clues on policymakers' projections for future rate cuts, especially given sticky inflation and a dismal February jobs report.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Utilities",
-            "Materials",
-            "AI"
-          ]
-        },
-        {
-          "id": "fed-meeting-preview",
-          "headline": "FOMC Meeting Underway Amid Inflationary Pressures and Geopolitical Conflict",
-          "summary": "The Federal Open Market Committee (FOMC) meets today, March 17-18, 2026, with a high probability of holding interest rates steady in the 3.50% to 3.75% range. This decision is influenced by the economic impact of the Iran conflict and surging oil prices. Updated economic projections and the 'dot plot' are expected tomorrow, March 18.",
-          "tags": [
-            "Fed",
-            "Interest Rates",
             "FOMC",
+            "Interest Rates",
             "Inflation",
-            "Geopolitics"
+            "Economic Data"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Mixed Economic Data Released for February",
-          "summary": "February saw industrial production rise by 0.2%, with manufacturing output up 0.2% and mining growing 0.8%. However, utilities output fell 0.6%, and the NY Empire State Index for manufacturing unexpectedly declined to -0.2. Capacity utilization edged up to 76.3%.",
+          "id": "news-oil-geopolitics",
+          "headline": "Oil Prices Resume Climb Amid Middle East Tensions, Impacting Global Inflation Outlook",
+          "summary": "Crude oil prices resumed their upward trajectory, with Brent hovering around $102-$103 per barrel, as the ongoing conflict involving the U.S. and Iran continues to fuel geopolitical tensions and concerns over global energy supplies. This resurgence in oil prices is intensifying inflationary pressures and prompting central banks, like the Reserve Bank of Australia which hiked rates overnight, to adopt a more cautious stance.",
+          "tags": [
+            "Oil",
+            "Geopolitics",
+            "Inflation",
+            "Energy Sector"
+          ]
+        },
+        {
+          "id": "news-nvidia-ai",
+          "headline": "Nvidia CEO Foresees $1 Trillion in AI Chip Demand, Boosting Tech Sentiment",
+          "summary": "Nvidia CEO Jensen Huang announced expectations of $1 trillion in orders for the company's Blackwell and Vera Rubin AI systems through 2027 during the GTC conference. This significant forecast for AI chip demand is a key driver for technology stocks and contributed to the NASDAQ's strong performance.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Nvidia",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "news-economic-data",
+          "headline": "Mixed U.S. Economic Data Released",
+          "summary": "Recent economic data showed industrial production rose 0.2% in February, exceeding expectations, with manufacturing output also up. However, the NY Empire State Index for manufacturing unexpectedly fell, and capacity utilization was slightly below estimates, painting a mixed picture of the U.S. economy.",
           "tags": [
             "Economic Data",
             "Industrial Production",
@@ -170,12 +161,12 @@
           ]
         },
         {
-          "id": "earnings-reports",
+          "id": "news-earnings-today",
           "headline": "Key Companies Report Earnings Today",
-          "summary": "Lululemon Athletica ($LULU), DocuSign ($DOCU), and Oklo ($OKLO) are among the notable companies scheduled to report earnings today. Steel Dynamics, Inc. ($STLD) also provided its first quarter 2026 earnings guidance, expecting meaningfully higher profitability from steel operations.",
+          "summary": "Several major companies, including Lululemon Athletica ($LULU), DocuSign ($DOCU), Tencent Music Entertainment Group ($TME), and Marwynn ($MWYN), are scheduled to report earnings today. Steel Dynamics ($STLD) also provided Q1 2026 earnings guidance, expecting significantly higher profitability from steel operations.",
           "tags": [
-            "Earnings",
-            "Q1 2026"
+            "Earnings Reports",
+            "Corporate News"
           ]
         }
       ]
