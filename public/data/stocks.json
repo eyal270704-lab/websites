@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-16T17:06:00Z",
+  "generatedAt": "2026-03-17T07:52:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 16, 2026",
+  "subtitle": "Tuesday, March 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,14 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Markets Open Higher Amid Geopolitical Tensions and AI Optimism",
-          "summary": "U.S. stock markets are rebounding at the start of the week, with major indices opening in positive territory, aiming to snap a three-week losing streak for the S&P 500. Despite the positive open, overall market sentiment remains mixed, influenced by ongoing geopolitical conflicts in the Middle East and persistently high crude oil prices. Investors are also closely watching the Federal Reserve's upcoming interest rate decision this week and fresh economic data. Optimism around artificial intelligence (AI) innovation continues to drive gains in the technology sector.",
+          "id": "market-summary-01",
+          "headline": "Global Markets Exhibit Caution Amid Geopolitical Tensions and Anticipated Fed Decision",
+          "summary": "Global markets are displaying a cautious sentiment today, with U.S. futures showing slight declines after a Monday rebound, while Asian markets are mixed. Investors are closely monitoring the ongoing geopolitical conflict in West Asia and the impending Federal Reserve policy decision. The Reserve Bank of Australia, however, raised interest rates, citing inflationary pressures. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Global Market",
             "Geopolitics",
-            "AI"
-          ]
+            "Fed Decision"
+          ],
+          "timestamp": "2026-03-17T07:52:00Z"
         }
       ]
     },
@@ -31,90 +32,112 @@
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "6,674.37",
-          "statContext": "Up 0.64% (42.2 points) at open."
+          "statValue": "6672.00",
+          "statContext": "Down 0.41% on March 17, 2026"
         },
         {
-          "id": "stat-nasdaq",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "22,340.388",
-          "statContext": "Climbed 1.06% (235 points) at open."
+          "statValue": "22374.18",
+          "statContext": "Gained 1.2% on Monday"
         },
         {
-          "id": "stat-dow",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,707.4",
-          "statContext": "Rose 0.32% (148.9 points) at open."
+          "id": "dow-stat",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "46946.41",
+          "statContext": "Added 0.8% on Monday"
+        },
+        {
+          "id": "sensex-stat",
+          "statLabel": "BSE Sensex (India)",
+          "statValue": "75422.73",
+          "statContext": "Down 0.11% on March 17, 2026"
+        },
+        {
+          "id": "nifty-stat",
+          "statLabel": "NSE Nifty (India)",
+          "statValue": "23387.00",
+          "statContext": "Slipped 0.09% on March 17, 2026"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Current & Recent)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-meta",
-          "headline": "Meta Platforms",
-          "summary": "Shares are up around 2.6%-3% (pre-market +2.98%) following reports of planned major AI-related job cuts to manage costs and a significant $27 billion deal with Dutch cloud provider Nebius for AI capacity.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+2.6-3%",
-          "direction": "up"
+          "id": "soc-gainer",
+          "headline": "Sable Offshore Corp. Leads March Gainers",
+          "ticker": "$SOC",
+          "price": "$16.13",
+          "change": "+$7.51",
+          "changePercent": "+87.56%",
+          "direction": "up",
+          "summary": "Sable Offshore Corp. is the best-performing stock in March 2026, as of March 17."
         },
         {
-          "id": "mover-micron",
-          "headline": "Micron Technology",
-          "summary": "The stock surged about 4.4% (pre-market +5.46%) after a brokerage firm raised its price target and the company announced plans to build a second manufacturing site in Taiwan to boost advanced DRAM products supply.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.4%",
-          "direction": "up"
+          "id": "ampx-gainer",
+          "headline": "Amprius Technologies Continues Strong March Performance",
+          "ticker": "$AMPX",
+          "price": "$18.69",
+          "change": "+$7.13",
+          "changePercent": "+61.26%",
+          "direction": "up",
+          "summary": "Amprius Technologies, Inc. ranks among the top gainers for March 2026."
         },
         {
-          "id": "mover-nvidia",
-          "headline": "Nvidia",
-          "summary": "Gained approximately 1% (pre-market +2.11%) as investors anticipate major announcements from its annual GTC conference today, focusing on new AI chips and platforms like the 'Vera Rubin' AI architecture.",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1%",
-          "direction": "up"
+          "id": "pnr-gainer",
+          "headline": "Pantoro Gold Ltd. Surges on Gold Demand",
+          "ticker": "$PNR",
+          "price": "$3.81",
+          "change": "+$0.41",
+          "changePercent": "+12.02%",
+          "direction": "up",
+          "summary": "Australian gold miner Pantoro Gold Ltd. spiked as gold stocks were in high demand on Tuesday."
         },
         {
-          "id": "mover-nebius",
-          "headline": "Nebius Group",
-          "summary": "Experience a significant jump of +13.06% (pre-market +14.27%) due to its substantial $27 billion deal to supply Meta Platforms with dedicated AI capacity.",
-          "ticker": "$NBIS",
-          "price": "N/A",
-          "change": "+$14.75",
-          "changePercent": "+13.06%",
-          "direction": "up"
-        },
-        {
-          "id": "mover-ulta",
-          "headline": "Ulta Beauty Inc.",
-          "summary": "Was a major loser on Friday, plummeting 14.2%.",
-          "ticker": "$ULTA",
+          "id": "gmdc-gainer",
+          "headline": "GMDC Up on Rare Earth Elements Collaboration",
+          "ticker": "$GMDC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14.2%",
-          "direction": "down"
+          "changePercent": "+3%",
+          "direction": "up",
+          "summary": "GMDC gained 3% after signing an MoU with NMDC Limited to collaborate on developing an integrated Rare Earth Elements value chain."
         },
         {
-          "id": "mover-dollartree",
-          "headline": "Dollar Tree",
-          "summary": "Fell 6% after reporting mixed fourth-quarter results, with earnings beating expectations but revenue slightly missing forecasts.",
-          "ticker": "$DLTR",
+          "id": "redington-loser",
+          "headline": "Redington Down Amid Geopolitical Tensions",
+          "ticker": "$REDINGTON",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6%",
-          "direction": "down"
+          "changePercent": "-4%",
+          "direction": "down",
+          "summary": "Redington fell over 4% after informing that geopolitical tensions in the Gulf region are causing logistical delays and increased freight costs for its subsidiary."
+        },
+        {
+          "id": "infosys-loser",
+          "headline": "Infosys Drops in Early Trading",
+          "ticker": "$INFY",
+          "price": "$1228.50",
+          "change": "-$21.05",
+          "changePercent": "-1.69%",
+          "direction": "down",
+          "summary": "Infosys declined in early Indian trading on Tuesday, March 17, 2026."
+        },
+        {
+          "id": "hcltech-loser",
+          "headline": "HCL Technologies Slips",
+          "ticker": "$HCLTECH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.06%",
+          "direction": "down",
+          "summary": "HCL Technologies experienced a slip in early Indian trading on Tuesday."
         }
       ]
     },
@@ -125,46 +148,67 @@
       "layout": "list",
       "items": [
         {
-          "id": "news-sector-analysis",
-          "headline": "Sector Performance: Tech and Energy Lead, Consumer Discretionary Lags",
-          "summary": "Technology and AI-related companies are currently leading the market. The energy sector has also been a top performer year-to-date due to high oil prices, with a noticeable rotation towards defensive areas like consumer staples and utilities. Conversely, consumer discretionary was the only sector experiencing an earnings decline in Q4, and it, along with Industrials and Information Technology, tumbled on Friday.",
+          "id": "fed-meeting-01",
+          "headline": "Federal Reserve Gathers Amid Inflation and Geopolitical Headwinds",
+          "summary": "The Federal Open Market Committee (FOMC) meets today, March 17-18, with a policy statement expected tomorrow. The Fed is widely anticipated to hold interest rates steady at 3.50%-3.75%, but will assess the economic impact of the Iran conflict, surging oil prices, and new global tariffs. Political pressure for rate cuts is also a factor.",
+          "tags": [
+            "Fed",
+            "FOMC",
+            "Interest Rates",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "rba-hike-01",
+          "headline": "Reserve Bank of Australia Raises Interest Rates to 4.1%",
+          "summary": "The Reserve Bank of Australia increased its cash rate by 25 basis points to 4.1% on Tuesday. This decision was driven by persistent local inflation and concerns over the inflationary effects of the Middle East conflict, leading to higher fuel prices.",
+          "tags": [
+            "RBA",
+            "Interest Rates",
+            "Australia",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "sector-rotation-01",
+          "headline": "Sector Rotation Continues Towards Value and Defensive Stocks",
+          "summary": "A trend of sector rotation is observable, with capital shifting towards asset-heavy and defensive sectors such as Energy, Utilities, Materials, and Industrials. This comes as Technology and Consumer Discretionary sectors show weakness, partly influenced by AI disruption fears and geopolitical risks.",
           "tags": [
             "Sector Analysis",
+            "Value Stocks",
+            "Growth Stocks",
             "Technology",
-            "Energy",
-            "Consumer Discretionary"
+            "Energy"
           ]
         },
         {
-          "id": "news-fed-economic",
-          "headline": "Fed Meeting and Key Economic Data Ahead This Week",
-          "summary": "The Federal Reserve's interest rate decision is a central focus for markets this week, with expectations for the Fed to hold rates steady at 3.50%-3.75%. Today, the U.S. is releasing industrial production data for February, anticipated to show a 0.2% increase. February's Producer Price Index (PPI) is also expected later in the week. Recent data indicated steady but sticky inflation pressures in February and January, while Q4 2025 U.S. GDP growth was revised down to 0.7%. A U.S. district judge recently blocked the Justice Department's subpoenas against the Federal Reserve and Chair Jerome Powell.",
+          "id": "oil-prices-01",
+          "headline": "Oil Prices Surge as Geopolitical Tensions Persist",
+          "summary": "Crude oil prices continue to climb, with Brent crude reaching nearly $103.17 a barrel and WTI crude at $96.20 on Tuesday. The ongoing conflict in the Middle East and concerns over supply disruptions are primary drivers.",
           "tags": [
-            "Federal Reserve",
-            "Economic Data",
-            "Inflation",
-            "GDP"
+            "Oil Prices",
+            "Commodities",
+            "Geopolitics"
           ]
         },
         {
-          "id": "news-earnings",
-          "headline": "Q4 Earnings Season Nearing End with Strong Results; Key Reports Today",
-          "summary": "The S&P 500's Q4 earnings season is concluding with robust results, achieving 13.6% earnings growth and 9.2% revenue gains, with ten out of eleven sectors reporting growth. Today, companies such as Agenus ($AGEN), Assertio Therapeutics ($ASRT), Dollar Tree ($DLTR), Ocean Power Technologies ($OPTT), and IHS Holding Limited ($IHS) are expected to report earnings. Last week, Oracle's strong earnings fueled AI investment optimism, while Adobe saw shares drop despite beating forecasts due to a CEO departure.",
+          "id": "earnings-reports-01",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Lufax ($LU) and PSQ Holdings ($PSQH) have announced their Q4 2025 earnings today. Additionally, earnings reports are anticipated from companies including Lululemon, Docusign, and Oklo.",
           "tags": [
             "Earnings",
-            "Corporate Reports"
+            "Corporate News"
           ]
         },
         {
-          "id": "news-macro-trends",
-          "headline": "Geopolitical Tensions, Oil Prices, and AI Continue to Shape Market Landscape",
-          "summary": "The ongoing Middle East conflict remains a significant macroeconomic factor, contributing to market uncertainty and elevated crude oil prices near $100 per barrel. Disruptions in the Strait of Hormuz are a key concern for energy supply. Artificial intelligence development continues to be a primary driver for equity markets and corporate earnings. U.S.-China trade negotiations are ongoing in Paris, potentially impacting global supply chains. The credit market is showing signs of stress with downgrades outnumbering upgrades for the fifth consecutive week and rising delinquency rates.",
+          "id": "us-tariffs-01",
+          "headline": "U.S. Considers New High Tariffs, Raising Stagflation Concerns",
+          "summary": "The United States is investigating new high-tariff policies, a move that could escalate global economic turmoil. This comes amidst soaring energy prices and growing worries of worldwide stagflation, where rising prices coincide with an economic downturn.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "AI",
-            "Trade",
-            "Credit Market"
+            "Trade Policy",
+            "Tariffs",
+            "Stagflation",
+            "Global Economy"
           ]
         }
       ]
