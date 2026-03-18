@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-17T17:06:00Z",
+  "generatedAt": "2026-03-18T07:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "March 17, 2026",
+  "title": "Daily Market Digest: March 18, 2026",
+  "subtitle": "Market sentiment cautiously optimistic ahead of Fed decision; oil prices ease slightly",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,14 +14,15 @@
       "items": [
         {
           "id": "market-summary-1",
-          "headline": "U.S. Equities Close Higher Amid FOMC Anticipation and Easing Oil Fears",
-          "summary": "U.S. stock markets closed higher on Tuesday, extending gains from Monday's sharp rebound. The positive momentum was largely attributed to an initial retreat in oil prices, following reports of successful navigation through the Strait of Hormuz, which temporarily eased energy-shock fears. However, oil prices later resumed their climb, and overall market sentiment remained cautious ahead of the Federal Open Market Committee (FOMC) meeting, with a focus on potential interest rate projections. The VIX, a key fear gauge, eased to 23.47, indicating some reduction in market volatility.",
+          "headline": "US Stock Futures Climb as Investors Await Fed Decision",
+          "summary": "US equity futures are trading higher this morning as the market anticipates the Federal Reserve's interest rate decision later today. Crude oil prices have eased slightly due to news of resumed exports via Turkey, although geopolitical tensions in the Middle East continue to influence sentiment.",
           "tags": [
-            "Market Overview",
+            "US Market",
+            "Fed",
             "Oil Prices",
-            "FOMC",
-            "Sentiment"
-          ]
+            "Geopolitics"
+          ],
+          "timestamp": "2026-03-18T07:50:00Z"
         }
       ]
     },
@@ -32,82 +33,90 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "6,699",
-          "statContext": "+1.01% Today",
-          "ticker": "$SPX",
-          "change": "+66.99",
-          "changePercent": "+1.01%",
-          "direction": "up"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Up 0.39%",
+          "statContext": "Pre-market movement as of 12:30 a.m. EST"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,374",
-          "statContext": "+1.22% Today",
-          "ticker": "$IXIC",
-          "change": "+273",
-          "changePercent": "+1.22%",
-          "direction": "up"
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "Up 0.50%",
+          "statContext": "Pre-market movement as of 12:30 a.m. EST"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,946",
-          "statContext": "+0.83% Today",
-          "ticker": "$DJI",
-          "change": "+390",
-          "changePercent": "+0.83%",
-          "direction": "up"
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Up 0.41%",
+          "statContext": "Pre-market movement as of 12:30 a.m. EST"
+        },
+        {
+          "id": "sp500-close",
+          "statLabel": "S&P 500 Close (Mar 17)",
+          "statValue": "6,716.09",
+          "statContext": "+0.25% from previous session"
+        },
+        {
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite Close (Mar 17)",
+          "statValue": "22,479.53",
+          "statContext": "+0.47% from previous session"
+        },
+        {
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average Close (Mar 17)",
+          "statValue": "46,993.26",
+          "statContext": "+0.1% from previous session"
         }
       ]
     },
     {
       "id": "top-movers-stocks",
-      "title": "Top Movers",
+      "title": "Top Movers (US Market - Previous Day's Extended Trading)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-dal",
-          "headline": "Delta Air Lines",
-          "summary": "Shares surged after the airline raised its revenue outlook for the first quarter of 2026, citing accelerating demand from both corporate and leisure travelers into March, despite higher jet fuel costs.",
-          "ticker": "$DAL",
+          "id": "docu-gainer",
+          "headline": "DocuSign Rises on Strong Earnings",
+          "ticker": "$DOCU",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.9% to +5%",
-          "direction": "up"
+          "change": "+1.5%",
+          "changePercent": "+1.5%",
+          "direction": "up",
+          "summary": "DocuSign shares rose 1.5% in extended trading on March 17 following stronger-than-expected earnings results.",
+          "tags": [
+            "Gainers",
+            "Earnings"
+          ]
         },
         {
-          "id": "mover-uber",
-          "headline": "Uber Technologies",
-          "summary": "Jumped significantly following the announcement of an expanded partnership with Nvidia to launch a fleet of autonomous vehicles utilizing the chipmaker's technology.",
-          "ticker": "$UBER",
+          "id": "lululemon-loser",
+          "headline": "Lululemon Declines After Disappointing Results",
+          "ticker": "$LULU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.2% to +5.6%",
-          "direction": "up"
+          "changePercent": ">1% decline",
+          "direction": "down",
+          "summary": "Lululemon shares declined over 1% in extended trading on March 17, reacting to disappointing quarterly results.",
+          "tags": [
+            "Losers",
+            "Earnings"
+          ]
         },
         {
-          "id": "mover-aal",
-          "headline": "American Airlines",
-          "summary": "Gained on an optimistic demand outlook, benefiting from the broader positive sentiment in the airline sector.",
-          "ticker": "$AAL",
+          "id": "oklo-loser",
+          "headline": "Oklo Falls on Weak Quarterly Performance",
+          "ticker": "$OKLO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4% to +4.4%",
-          "direction": "up"
-        },
-        {
-          "id": "mover-hon",
-          "headline": "Honeywell International",
-          "summary": "Shares declined due to the anticipated impact on revenue from the ongoing Middle East conflict.",
-          "ticker": "$HON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "changePercent": ">2% decline",
+          "direction": "down",
+          "summary": "Oklo saw its stock fall more than 2% in extended trading on March 17, attributed to disappointing quarterly results.",
+          "tags": [
+            "Losers",
+            "Earnings"
+          ]
         }
       ]
     },
@@ -118,55 +127,47 @@
       "layout": "list",
       "items": [
         {
-          "id": "news-fomc-meeting",
-          "headline": "FOMC Meeting Underway: Rates Expected to Hold Steady Amid Inflation Concerns",
-          "summary": "The Federal Open Market Committee (FOMC) began its two-day policy meeting today, with widespread expectations that interest rates will remain unchanged in the 3.50%-3.75% range. Attention is firmly on the updated quarterly dot plot, which will provide clues on policymakers' projections for future rate cuts, especially given sticky inflation and a dismal February jobs report.",
+          "id": "fed-meeting-anticipation",
+          "headline": "Federal Reserve's Policy Meeting and Powell's Commentary in Focus",
+          "summary": "Investors are keenly awaiting the outcome of the US Federal Reserve's policy meeting later today, March 18. While the central bank is widely expected to keep interest rates steady in the 3.5%-3.75% range, guidance from Fed Chair Jerome Powell regarding the influence of surging oil prices on future policy and inflation will be closely scrutinized.",
           "tags": [
-            "FOMC",
+            "Fed",
             "Interest Rates",
             "Inflation",
-            "Economic Data"
+            "Jerome Powell"
           ]
         },
         {
-          "id": "news-oil-geopolitics",
-          "headline": "Oil Prices Resume Climb Amid Middle East Tensions, Impacting Global Inflation Outlook",
-          "summary": "Crude oil prices resumed their upward trajectory, with Brent hovering around $102-$103 per barrel, as the ongoing conflict involving the U.S. and Iran continues to fuel geopolitical tensions and concerns over global energy supplies. This resurgence in oil prices is intensifying inflationary pressures and prompting central banks, like the Reserve Bank of Australia which hiked rates overnight, to adopt a more cautious stance.",
+          "id": "oil-market-dynamics",
+          "headline": "Crude Oil Prices Ease Amid Export Deal, Geopolitical Risks Persist",
+          "summary": "Crude oil prices have seen a decline on March 18, with Brent crude trading around $101.13 a barrel (down 2.23%) and WTI at $93.19 a barrel (down 3.14%), primarily due to reports of rising US inventories and a deal to resume exports via Turkey's Ceyhan port. However, Brent crude remains above $100 as risks from the Iran conflict continue to loom.",
           "tags": [
-            "Oil",
+            "Oil Prices",
+            "Commodities",
             "Geopolitics",
-            "Inflation",
-            "Energy Sector"
+            "Energy"
           ]
         },
         {
-          "id": "news-nvidia-ai",
-          "headline": "Nvidia CEO Foresees $1 Trillion in AI Chip Demand, Boosting Tech Sentiment",
-          "summary": "Nvidia CEO Jensen Huang announced expectations of $1 trillion in orders for the company's Blackwell and Vera Rubin AI systems through 2027 during the GTC conference. This significant forecast for AI chip demand is a key driver for technology stocks and contributed to the NASDAQ's strong performance.",
+          "id": "sector-performance-snapshot",
+          "headline": "Energy, Consumer Discretionary, and Communication Services Lead S&P Sectors",
+          "summary": "As of March 17's close, eight of the 11 S&P sectors closed higher, with Energy, Consumer Discretionary, and Communication Services leading the gains. Conversely, consumer staples and healthcare sectors experienced declines. In the Indian market, Nifty IT jumped over 4%, while the Nifty Metal sector lagged.",
           "tags": [
-            "Technology",
-            "AI",
-            "Nvidia",
-            "Earnings"
+            "Sector Analysis",
+            "Energy",
+            "Tech",
+            "Financials"
           ]
         },
         {
-          "id": "news-economic-data",
-          "headline": "Mixed U.S. Economic Data Released",
-          "summary": "Recent economic data showed industrial production rose 0.2% in February, exceeding expectations, with manufacturing output also up. However, the NY Empire State Index for manufacturing unexpectedly fell, and capacity utilization was slightly below estimates, painting a mixed picture of the U.S. economy.",
+          "id": "upcoming-earnings",
+          "headline": "Key Earnings Reports Expected Today: Micron Technology, Five Below, and Lufax",
+          "summary": "Several major companies are scheduled to release their quarterly earnings reports after market hours on Wednesday, March 18. Micron Technology ($MU) and Five Below ($FIVE) are among those expected to report, with investors watching for their performance. Lufax ($LU) also announced earnings today.",
           "tags": [
-            "Economic Data",
-            "Industrial Production",
-            "Manufacturing"
-          ]
-        },
-        {
-          "id": "news-earnings-today",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several major companies, including Lululemon Athletica ($LULU), DocuSign ($DOCU), Tencent Music Entertainment Group ($TME), and Marwynn ($MWYN), are scheduled to report earnings today. Steel Dynamics ($STLD) also provided Q1 2026 earnings guidance, expecting significantly higher profitability from steel operations.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News"
+            "Earnings",
+            "Micron Technology",
+            "Five Below",
+            "Lufax"
           ]
         }
       ]
