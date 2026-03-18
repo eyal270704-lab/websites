@@ -1,173 +1,185 @@
 {
-  "generatedAt": "2026-03-18T07:50:00Z",
+  "generatedAt": "2026-03-18T12:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: March 18, 2026",
-  "subtitle": "Market sentiment cautiously optimistic ahead of Fed decision; oil prices ease slightly",
+  "title": "Daily Market Digest",
+  "subtitle": "March 18, 2026: Navigating Geopolitical Tensions and Fed Decisions",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "US Stock Futures Climb as Investors Await Fed Decision",
-          "summary": "US equity futures are trading higher this morning as the market anticipates the Federal Reserve's interest rate decision later today. Crude oil prices have eased slightly due to news of resumed exports via Turkey, although geopolitical tensions in the Middle East continue to influence sentiment.",
+          "id": "market-pulse-item-1",
+          "headline": "Markets Eye Fed Decision Amid Geopolitical Uncertainty and Oil Price Volatility",
+          "summary": "U.S. stock futures advanced Wednesday as investors keenly await the Federal Reserve's interest rate decision, with expectations for rates to hold steady at 3.5%-3.75%. This comes amidst prevailing market uncertainty fueled by geopolitical tensions in the Middle East and fluctuating crude oil prices. While Tuesday saw all three major U.S. indices close higher, market sentiment remains cautious as participants look to Fed Chair Jerome Powell's post-FOMC statement for guidance on inflation and future monetary policy. Brent crude prices, though still elevated due to ongoing conflicts, saw a slight dip following news of Iraq and Turkey agreeing to resume oil exports through the Ceyhan port, easing some immediate supply concerns.",
           "tags": [
-            "US Market",
+            "Market Sentiment",
             "Fed",
-            "Oil Prices",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-03-18T07:50:00Z"
+            "Geopolitics",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices-1",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Up 0.39%",
-          "statContext": "Pre-market movement as of 12:30 a.m. EST"
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "Up 0.50%",
-          "statContext": "Pre-market movement as of 12:30 a.m. EST"
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Up 0.41%",
-          "statContext": "Pre-market movement as of 12:30 a.m. EST"
-        },
-        {
-          "id": "sp500-close",
-          "statLabel": "S&P 500 Close (Mar 17)",
+          "id": "sp500-stat-1",
+          "statLabel": "S&P 500",
           "statValue": "6,716.09",
-          "statContext": "+0.25% from previous session"
+          "statContext": "Tuesday Close: +0.3% (+0.5% in Wednesday futures)",
+          "ticker": "$SPX",
+          "price": "$6716.09",
+          "change": "+20.15",
+          "changePercent": "+0.3%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-close",
-          "statLabel": "NASDAQ Composite Close (Mar 17)",
+          "id": "nasdaq-stat-1",
+          "statLabel": "NASDAQ Composite",
           "statValue": "22,479.53",
-          "statContext": "+0.47% from previous session"
+          "statContext": "Tuesday Close: +0.5% (+0.6% in Wednesday futures)",
+          "ticker": "$IXIC",
+          "price": "$22479.53",
+          "change": "+105.35",
+          "changePercent": "+0.5%",
+          "direction": "up"
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Industrial Average Close (Mar 17)",
+          "id": "dow-stat-1",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "46,993.26",
-          "statContext": "+0.1% from previous session"
+          "statContext": "Tuesday Close: +0.1% (+0.5% in Wednesday futures)",
+          "ticker": "$DJIA",
+          "price": "$46993.26",
+          "change": "+46.99",
+          "changePercent": "+0.1%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (US Market - Previous Day's Extended Trading)",
+      "id": "top-movers-1",
+      "title": "Top Movers (U.S. Markets)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "docu-gainer",
-          "headline": "DocuSign Rises on Strong Earnings",
-          "ticker": "$DOCU",
+          "id": "wdc-gainer-1",
+          "headline": "Western Digital Corp. Surges",
+          "summary": "The computer storage device manufacturer, Western Digital Corp. ($WDC), jumped 9.6% on Tuesday, contributing significantly to the Nasdaq's strong performance.",
+          "ticker": "$WDC",
           "price": "N/A",
-          "change": "+1.5%",
-          "changePercent": "+1.5%",
-          "direction": "up",
-          "summary": "DocuSign shares rose 1.5% in extended trading on March 17 following stronger-than-expected earnings results.",
-          "tags": [
-            "Gainers",
-            "Earnings"
-          ]
+          "change": "N/A",
+          "changePercent": "+9.6%",
+          "direction": "up"
         },
         {
-          "id": "lululemon-loser",
-          "headline": "Lululemon Declines After Disappointing Results",
+          "id": "baba-gainer-1",
+          "headline": "Alibaba Group Sees Gains",
+          "summary": "Alibaba Group ($BABA) shares gained 3% in Wednesday's pre-market trading after the company announced price increases of up to 34% across its AI computing and cloud storage offerings, signaling strong demand and rising infrastructure costs.",
+          "ticker": "$BABA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3%",
+          "direction": "up"
+        },
+        {
+          "id": "docu-gainer-1",
+          "headline": "DocuSign Rises on Strong Earnings",
+          "summary": "DocuSign ($DOCU) shares rose 2% in pre-market trading after the company delivered a strong Q4 performance, beating estimates across key metrics with revenue rising 8% year-over-year.",
+          "ticker": "$DOCU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2%",
+          "direction": "up"
+        },
+        {
+          "id": "lulu-loser-1",
+          "headline": "Lululemon Athletica Dips",
+          "summary": "Lululemon Athletica ($LULU) declined over 1% in Tuesday's extended trading hours following the release of disappointing quarterly results.",
           "ticker": "$LULU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": ">1% decline",
-          "direction": "down",
-          "summary": "Lululemon shares declined over 1% in extended trading on March 17, reacting to disappointing quarterly results.",
-          "tags": [
-            "Losers",
-            "Earnings"
-          ]
+          "changePercent": ">-1%",
+          "direction": "down"
         },
         {
-          "id": "oklo-loser",
-          "headline": "Oklo Falls on Weak Quarterly Performance",
+          "id": "oklo-loser-1",
+          "headline": "Oklo Experiences Decline",
+          "summary": "Oklo ($OKLO) shares dropped over 2% in extended trading on Tuesday, also attributed to disappointing quarterly results.",
           "ticker": "$OKLO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": ">2% decline",
-          "direction": "down",
-          "summary": "Oklo saw its stock fall more than 2% in extended trading on March 17, attributed to disappointing quarterly results.",
-          "tags": [
-            "Losers",
-            "Earnings"
-          ]
+          "changePercent": ">-2%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news-1",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-anticipation",
-          "headline": "Federal Reserve's Policy Meeting and Powell's Commentary in Focus",
-          "summary": "Investors are keenly awaiting the outcome of the US Federal Reserve's policy meeting later today, March 18. While the central bank is widely expected to keep interest rates steady in the 3.5%-3.75% range, guidance from Fed Chair Jerome Powell regarding the influence of surging oil prices on future policy and inflation will be closely scrutinized.",
+          "id": "fed-announcement-article-1",
+          "headline": "Fed's FOMC Meeting Concludes: Rates Expected to Hold Steady",
+          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) meeting concludes today, March 18. Market analysts widely anticipate the central bank to maintain the federal funds rate in the 3.5%-3.75% range. All eyes are on Fed Chair Jerome Powell's subsequent press conference and the release of the 'dot plot' for insights into future monetary policy, especially in light of recent inflation pressures from elevated oil prices.",
           "tags": [
             "Fed",
-            "Interest Rates",
+            "Monetary Policy",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "economic-data-article-1",
+          "headline": "Mixed Economic Data Released and Anticipated",
+          "summary": "February's pending home sales unexpectedly rose by 1.8%, contrasting with expectations of a 1% decline. Meanwhile, the Producer Price Index (PPI) data for February is due for release today, with experts forecasting a 0.3% increase. Recent labor market reports indicate a slight increase in U.S. jobless claims, with 92,000 jobs cut in February, pushing the unemployment rate to 4.4%.",
+          "tags": [
+            "Economic Data",
+            "Housing",
             "Inflation",
-            "Jerome Powell"
+            "Labor Market"
           ]
         },
         {
-          "id": "oil-market-dynamics",
-          "headline": "Crude Oil Prices Ease Amid Export Deal, Geopolitical Risks Persist",
-          "summary": "Crude oil prices have seen a decline on March 18, with Brent crude trading around $101.13 a barrel (down 2.23%) and WTI at $93.19 a barrel (down 3.14%), primarily due to reports of rising US inventories and a deal to resume exports via Turkey's Ceyhan port. However, Brent crude remains above $100 as risks from the Iran conflict continue to loom.",
-          "tags": [
-            "Oil Prices",
-            "Commodities",
-            "Geopolitics",
-            "Energy"
-          ]
-        },
-        {
-          "id": "sector-performance-snapshot",
-          "headline": "Energy, Consumer Discretionary, and Communication Services Lead S&P Sectors",
-          "summary": "As of March 17's close, eight of the 11 S&P sectors closed higher, with Energy, Consumer Discretionary, and Communication Services leading the gains. Conversely, consumer staples and healthcare sectors experienced declines. In the Indian market, Nifty IT jumped over 4%, while the Nifty Metal sector lagged.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Tech",
-            "Financials"
-          ]
-        },
-        {
-          "id": "upcoming-earnings",
-          "headline": "Key Earnings Reports Expected Today: Micron Technology, Five Below, and Lufax",
-          "summary": "Several major companies are scheduled to release their quarterly earnings reports after market hours on Wednesday, March 18. Micron Technology ($MU) and Five Below ($FIVE) are among those expected to report, with investors watching for their performance. Lufax ($LU) also announced earnings today.",
+          "id": "earnings-article-1",
+          "headline": "Key Earnings Reports Impacting Market",
+          "summary": "Several major companies are reporting earnings today. Chipmaker Micron ($MU) is in focus, with its stock up 62% year-to-date driven by strong AI-related demand. Other companies scheduled to report include Tencent Holdings ($TCEHY), Macy's ($M), and General Mills ($GIS). DocuSign ($DOCU) already announced strong Q4 results, while Lululemon ($LULU) and Oklo ($OKLO) reported disappointing quarterly performances.",
           "tags": [
             "Earnings",
-            "Micron Technology",
-            "Five Below",
-            "Lufax"
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "sector-analysis-article-1",
+          "headline": "Sector Rotation Underway as Technology Leadership Softens",
+          "summary": "A significant sector rotation is observed, with capital moving away from high-flying technology giants towards defensive and cyclical areas such as Energy, Industrials, Materials, and Consumer Staples. On Tuesday, Information Technology and Consumer Discretionary led gains in the S&P 500, while Consumer Staples and Healthcare lagged. This shift reflects a market adapting to maturing economic cycles and a preference for 'real-world' stability and tangible earnings amidst higher interest rates. The AI revolution, while a driver, is also forcing investors to consider the actual costs and timelines of infrastructure buildout, benefiting sectors like Industrials and Materials.",
+          "tags": [
+            "Sector Analysis",
+            "Sector Rotation",
+            "Technology",
+            "Value Stocks"
+          ]
+        },
+        {
+          "id": "macro-trends-article-1",
+          "headline": "Geopolitical Tensions Drive Macro Trends and Inflation Concerns",
+          "summary": "Ongoing geopolitical conflicts in the Middle East continue to significantly influence macro trends, keeping crude oil prices elevated and fueling inflation concerns globally. While an agreement between Iraq and Turkey to resume oil exports offered some relief to Brent crude prices, the broader conflict is expected to push inflation higher, with economists projecting inflation could remain around 3% by late 2026. This environment presents a challenging balancing act for central banks like the Fed, as they weigh inflation control against supporting economic growth amid signs of a softening labor market.",
+          "tags": [
+            "Macro Trends",
+            "Inflation",
+            "Geopolitics",
+            "Oil Market"
           ]
         }
       ]
