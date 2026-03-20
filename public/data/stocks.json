@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-19T17:01:00Z",
+  "generatedAt": "2026-03-20T07:44:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 19, 2026",
-  "badge": "LIVE",
+  "subtitle": "Friday, March 20, 2026",
+  "badge": "Pre-Market Update",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Global Markets Decline Amid Inflation Fears and Geopolitical Tensions",
-          "summary": "U.S. equities experienced a significant sell-off, with major indices closing sharply lower as hotter-than-expected inflation data and escalating geopolitical tensions in the Middle East fueled concerns. The Producer Price Index (PPI) for February rose more than anticipated, while surging crude oil prices further intensified inflation worries. The Federal Reserve, after holding interest rates steady, acknowledged increased uncertainty due to these factors, impacting market sentiment. The S&P 500 notably broke below its 200-day moving average, reaching its lowest point in four months. (Not financial advice)",
+          "id": "mp-1",
+          "headline": "U.S. Futures Edge Higher Amid Geopolitical Easing and Economic Data Ahead",
+          "summary": "U.S. stock futures are showing modest gains in pre-market trading this morning, Friday, March 20, 2026. This positive sentiment follows comments from Israel's Prime Minister Benjamin Netanyahu, which helped to alleviate some concerns regarding the U.S.-Iran conflict. Despite the positive start, market participants remain vigilant, especially after major indices closed lower on Thursday, driven by inflation concerns and Federal Reserve Chair Jerome Powell's warnings about surging energy costs impacting inflation expectations.",
           "tags": [
-            "Market Sentiment",
-            "Inflation",
+            "Pre-market",
             "Geopolitics",
+            "Inflation",
             "Fed"
           ]
         }
@@ -27,144 +27,123 @@
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "6,624.70",
-          "statContext": "Down 1.4% today, lowest close in 2026"
+          "id": "si-1",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Up 0.12%",
+          "statContext": "At 12:30 a.m. EDT.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "22,152.42",
-          "statContext": "Down 1.5% today"
+          "id": "si-2",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "Up 0.06%",
+          "statContext": "At 12:30 a.m. EDT.",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,225.15",
-          "statContext": "Down 1.6% today, lowest close in 2026"
+          "id": "si-3",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Up 0.19%",
+          "statContext": "At 12:30 a.m. EDT.",
+          "direction": "up"
+        },
+        {
+          "id": "si-4",
+          "statLabel": "Yesterday's S&P 500 Close",
+          "statValue": "Down 0.3%",
+          "statContext": "Thursday, March 19, 2026.",
+          "direction": "down"
+        },
+        {
+          "id": "si-5",
+          "statLabel": "Yesterday's NASDAQ Close",
+          "statValue": "Down 0.3%",
+          "statContext": "Thursday, March 19, 2026.",
+          "direction": "down"
+        },
+        {
+          "id": "si-6",
+          "statLabel": "Yesterday's Dow Close",
+          "statValue": "Down 0.4%",
+          "statContext": "Thursday, March 19, 2026.",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Pre-Market Indication)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "five-below-gainer",
-          "headline": "Five Below Soars on Strong Earnings",
-          "ticker": "$FIVE",
-          "price": "N/A",
-          "change": "+$21.53",
-          "changePercent": "+10.0%",
-          "direction": "up",
-          "summary": "Shares surged after the retailer reported a strong Q4 beat with robust revenue and adjusted EPS, along with optimistic guidance."
-        },
-        {
-          "id": "swarmer-gainer",
-          "headline": "Swarmer Leads Gainers",
-          "ticker": "$SWMR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+77.4%",
-          "direction": "up",
-          "summary": "Swarmer posted significant daily gains."
-        },
-        {
-          "id": "cheniere-energy-gainer",
-          "headline": "Cheniere Energy Sees Strong Rise",
-          "ticker": "$LNG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.28%",
-          "direction": "up",
-          "summary": "Cheniere Energy shares climbed today."
-        },
-        {
-          "id": "alcoaa-loser",
-          "headline": "Alcoa Plunges",
-          "ticker": "$AA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.19%",
-          "direction": "down",
-          "summary": "Alcoa experienced a sharp decline in its stock price today."
-        },
-        {
-          "id": "microstrategy-loser",
-          "headline": "MicroStrategy Tumbles",
-          "ticker": "$MSTR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.5%",
-          "direction": "down",
-          "summary": "The Bitcoin treasury company's stock tumbled."
-        },
-        {
-          "id": "soundhound-ai-loser",
-          "headline": "SoundHound AI Sinks on CFO Resignation",
-          "ticker": "$SOUN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.0%",
-          "direction": "down",
-          "summary": "SoundHound AI shares fell following the announcement of its CFO's resignation, adding to investor uncertainty."
+          "id": "tm-1",
+          "headline": "Specific top individual stock movers for the regular U.S. trading session are not yet available as the market has not opened for March 20, 2026. Futures indicate a generally positive start.",
+          "summary": "Pre-market activity suggests a slightly upward trend for the broader indices, influenced by geopolitical developments. Individual stock movements will become clearer once the market opens later today.",
+          "tags": [
+            "Pre-market",
+            "Equities"
+          ],
+          "ticker": null,
+          "price": null,
+          "change": null,
+          "changePercent": null,
+          "direction": "flat"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-1",
-          "headline": "Energy Sector Leads as Broad Market Declines",
-          "summary": "Eight out of 11 S&P 500 sectors closed in negative territory. The Energy Select Sector SPDR (XLE) was a notable outperformer, rising 1.1% amidst surging oil prices. Conversely, sectors like Materials (-1.74%), Technology (-1.24%), Consumer Discretionary (-0.92%), and Financials (-0.90%) experienced significant declines.",
-          "tags": [
-            "Sector Performance",
-            "Energy",
-            "Technology"
-          ]
-        },
-        {
-          "id": "economic-news-fed-ppi",
-          "headline": "Fed Holds Rates Steady, PPI Exceeds Expectations",
-          "summary": "The Federal Reserve concluded its March meeting by keeping the federal funds rate unchanged at 3.50%-3.75% for the second consecutive meeting. Fed officials now anticipate only one rate cut in 2026, and the inflation outlook for 2026 was revised higher to 2.7%. Meanwhile, the Department of Labor reported that the Producer Price Index (PPI) for February rose 0.7%, surpassing the 0.4% consensus estimate, with the core PPI increasing by 0.3%. Both year-over-year headline PPI (3.4%) and core PPI (3.9%) remain above the Fed's 2% target.",
-          "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Inflation",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "earnings-micron-accenture",
-          "headline": "Micron and Accenture Report Earnings",
-          "summary": "Micron ($MU) reported impressive fiscal Q2 earnings, with EPS of $12.20 and revenue of $23.86 billion, significantly beating estimates. However, shares fell due to concerns over increased capital expenditure guidance. Accenture ($ACN) also announced strong Q2 fiscal 2026 results, including record new bookings of $22.1 billion and revenues at the top end of its guided range, while projecting 3% to 5% revenue growth for the full fiscal year 2026.",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "Semiconductors",
-            "Consulting"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Middle East Tensions Drive Oil Prices Higher",
-          "summary": "The ongoing intensification of the Middle East conflict has led to a significant surge in crude oil prices. Brent futures settled up 3.8% at $107.38 per barrel, and U.S. benchmark West Texas Intermediate (WTI) futures rose 0.4% to $96.32 per barrel. This escalation in energy prices is contributing to global inflation concerns and impacting central bank policy expectations.",
+          "id": "mn-1",
+          "headline": "Geopolitical Developments Ease Market Tensions",
+          "summary": "Comments from Israel's Prime Minister Benjamin Netanyahu have reportedly eased worries surrounding the U.S.-Iran war, contributing to the uptick in U.S. stock futures this morning. This development led to a drop in WTI crude oil futures, which often impacts market sentiment.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Inflation"
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "mn-2",
+          "headline": "Inflation Concerns Persist Following Fed Chair Powell's Remarks",
+          "summary": "Federal Reserve Chair Jerome Powell's recent warnings about surging energy costs potentially pressuring inflation expectations continue to weigh on market sentiment. Traders are now pricing in higher odds of no rate cuts for the remainder of 2026. This follows a Thursday close where major indices fell due to concerns over central bank monetary tightening to control inflation amid the ongoing conflict in Iran.",
+          "tags": [
+            "Federal Reserve",
+            "Inflation",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "mn-3",
+          "headline": "Key Economic Data Releases Scheduled for Today",
+          "summary": "Investors will be closely watching several economic data releases throughout Friday, March 20, 2026. Scheduled reports include Jobless Claims, the Philadelphia Fed Manufacturing Index, New Home Sales, Business Inventories, Leading Indicators, and Wholesale Inventories (Preliminary) at 8:30 AM ET and 10:00 AM ET, respectively. The EIA Natural Gas Report is also due at 10:30 AM ET.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "Manufacturing",
+            "Housing"
+          ]
+        },
+        {
+          "id": "mn-4",
+          "headline": "Earnings Reports from Lufax, UnitedHealth Group, and Carnival on Deck",
+          "summary": "Today features earnings reports from several notable companies. Lufax (NYSE: $LU) is among those reporting earnings today, following news earlier this month of the company setting a new 1-year low due to weak earnings. UnitedHealth Group Incorporated ($UNH) is also expected to release its earnings report today. Additionally, Carnival Cruise Line ($CCL) and Carnival Plc ($CUK) are slated to report pre-market, with estimated EPS and revenue figures available.",
+          "tags": [
+            "Earnings",
+            "$LU",
+            "$UNH",
+            "$CCL",
+            "$CUK"
           ]
         }
       ]
