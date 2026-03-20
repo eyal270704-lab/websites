@@ -1,6 +1,8 @@
 name: Ticker Scout
 
 on:
+  schedule:
+    - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
       youtube_url:
@@ -40,25 +42,33 @@ jobs:
       - name: Run Ticker Scout
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_URL: ${{ github.event.inputs.youtube_url || 'https://www.youtube.com/@MichaStocks' }}
+          TICKER_COUNT: ${{ github.event.inputs.ticker_count || '3' }}
+          SOURCE_LABEL: ${{ github.event.inputs.source_label || 'Micha Stocks YouTube' }}
         run: |
           python scripts/ticker-scout.py \
-            --url "${{ github.event.inputs.youtube_url }}" \
-            --count ${{ github.event.inputs.ticker_count }} \
-            --source "${{ github.event.inputs.source_label }}"
+            --url "$YOUTUBE_URL" \
+            --count $TICKER_COUNT \
+            --source "$SOURCE_LABEL"
 
       - name: Commit updated trades
+        env:
+          SOURCE_LABEL: ${{ github.event.inputs.source_label || 'Micha Stocks YouTube' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/trades.json
-          git diff --staged --quiet || git commit -m "📺 Ticker Scout: ${{ github.event.inputs.source_label }} - $(date +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "📺 Ticker Scout: $SOURCE_LABEL - $(date +'%Y-%m-%d %H:%M UTC')"
 
       - name: Push
         run: git pull --rebase && git push
 
       - name: Summary
+        env:
+          SOURCE_LABEL: ${{ github.event.inputs.source_label || 'Micha Stocks YouTube' }}
+          TICKER_COUNT: ${{ github.event.inputs.ticker_count || '3' }}
         run: |
           echo "### Ticker Scout Complete" >> $GITHUB_STEP_SUMMARY
-          echo "- **Source**: ${{ github.event.inputs.source_label }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Tickers extracted**: ${{ github.event.inputs.ticker_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Source**: $SOURCE_LABEL" >> $GITHUB_STEP_SUMMARY
+          echo "- **Tickers extracted**: $TICKER_COUNT" >> $GITHUB_STEP_SUMMARY
           echo "- **View results**: [Trade Watcher](https://eyal270704-lab.github.io/websites/trade-watcher)" >> $GITHUB_STEP_SUMMARY
