@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-20T07:44:00Z",
+  "generatedAt": "2026-03-20T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, March 20, 2026",
-  "badge": "Pre-Market Update",
+  "subtitle": "March 20, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,137 +13,184 @@
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "U.S. Futures Edge Higher Amid Geopolitical Easing and Economic Data Ahead",
-          "summary": "U.S. stock futures are showing modest gains in pre-market trading this morning, Friday, March 20, 2026. This positive sentiment follows comments from Israel's Prime Minister Benjamin Netanyahu, which helped to alleviate some concerns regarding the U.S.-Iran conflict. Despite the positive start, market participants remain vigilant, especially after major indices closed lower on Thursday, driven by inflation concerns and Federal Reserve Chair Jerome Powell's warnings about surging energy costs impacting inflation expectations.",
+          "id": "market-summary-today",
+          "headline": "U.S. Markets Face Continued Headwinds; Futures Signal Cautious Open",
+          "summary": "U.S. stock markets closed lower on Thursday, marking their lowest closes in months for the Dow and S&P 500, as concerns over Middle East geopolitical tensions and persistent inflationary pressures weighed heavily on investor sentiment. All three major indices are on track for their fourth consecutive weekly decline. Pre-market trading for Friday indicates a cautious start, with futures for major indices showing slight declines after an earlier wobble despite easing fears regarding the U.S.-Iran conflict.",
           "tags": [
-            "Pre-market",
+            "Market Overview",
             "Geopolitics",
-            "Inflation",
-            "Fed"
+            "Inflation"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Futures)",
+      "title": "Major Indices (Thursday's Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "si-1",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Up 0.12%",
-          "statContext": "At 12:30 a.m. EDT.",
-          "direction": "up"
-        },
-        {
-          "id": "si-2",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "Up 0.06%",
-          "statContext": "At 12:30 a.m. EDT.",
-          "direction": "up"
-        },
-        {
-          "id": "si-3",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Up 0.19%",
-          "statContext": "At 12:30 a.m. EDT.",
-          "direction": "up"
-        },
-        {
-          "id": "si-4",
-          "statLabel": "Yesterday's S&P 500 Close",
-          "statValue": "Down 0.3%",
-          "statContext": "Thursday, March 19, 2026.",
+          "id": "sp500-close",
+          "statLabel": "S&P 500",
+          "statValue": "6,606.49",
+          "statContext": "Down 0.3% (-18.21 pts). Lowest close in four months, below its 200-day moving average.",
+          "ticker": "$SPX",
+          "price": "6606.49",
+          "change": "-18.21",
+          "changePercent": "-0.3%",
           "direction": "down"
         },
         {
-          "id": "si-5",
-          "statLabel": "Yesterday's NASDAQ Close",
-          "statValue": "Down 0.3%",
-          "statContext": "Thursday, March 19, 2026.",
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "22,090.69",
+          "statContext": "Slid 0.3% (-61.73 pts). Closed below its 200-day moving average.",
+          "ticker": "$IXIC",
+          "price": "22090.69",
+          "change": "-61.73",
+          "changePercent": "-0.3%",
           "direction": "down"
         },
         {
-          "id": "si-6",
-          "statLabel": "Yesterday's Dow Close",
-          "statValue": "Down 0.4%",
-          "statContext": "Thursday, March 19, 2026.",
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "46,021.43",
+          "statContext": "Fell 0.4% (-203.72 pts). Marked the lowest close for 2026, below its 200-day moving average.",
+          "ticker": "$DJI",
+          "price": "46021.43",
+          "change": "-203.72",
+          "changePercent": "-0.4%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market Indication)",
+      "title": "Top Movers",
       "cardType": "stock",
-      "layout": "list",
+      "layout": "grid",
       "items": [
         {
-          "id": "tm-1",
-          "headline": "Specific top individual stock movers for the regular U.S. trading session are not yet available as the market has not opened for March 20, 2026. Futures indicate a generally positive start.",
-          "summary": "Pre-market activity suggests a slightly upward trend for the broader indices, influenced by geopolitical developments. Individual stock movements will become clearer once the market opens later today.",
+          "id": "mu-loser",
+          "headline": "Micron Technology Inc. Tumbles on Disappointing Guidance",
+          "summary": "The AI-powered semiconductor giant saw its stock tumble 3.9% as its third-quarter fiscal 2026 guidance failed to impress the market.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.9%",
+          "direction": "down",
           "tags": [
-            "Pre-market",
-            "Equities"
-          ],
-          "ticker": null,
-          "price": null,
-          "change": null,
-          "changePercent": null,
-          "direction": "flat"
+            "Loser",
+            "Semiconductors",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "ucar-loser",
+          "headline": "U Power Limited Plummets on Dilutive Public Offering",
+          "summary": "Shares of U Power Limited plunged 65.08% after the company announced and priced a $6 million public offering of units at a significant discount, triggering panic selling due to heavy dilution.",
+          "ticker": "$UCAR",
+          "price": "$0.157",
+          "change": "N/A",
+          "changePercent": "-65.08%",
+          "direction": "down",
+          "tags": [
+            "Loser",
+            "EV",
+            "Public Offering"
+          ]
+        },
+        {
+          "id": "rvph-loser",
+          "headline": "Reviva Pharmaceuticals Holdings Down on Discounted Offering",
+          "summary": "Reviva Pharmaceuticals saw a 55.43% decline following the pricing of a $10 million public offering of shares plus warrants at a discount to its prior close, a common trigger for selling in biotech stocks.",
+          "ticker": "$RVPH",
+          "price": "$0.833",
+          "change": "N/A",
+          "changePercent": "-55.43%",
+          "direction": "down",
+          "tags": [
+            "Loser",
+            "Biotech",
+            "Public Offering"
+          ]
+        },
+        {
+          "id": "tlys-gainer-monthly",
+          "headline": "Tilly's Inc. Leads March Monthly Gainers",
+          "summary": "Tilly's Inc. has been a standout performer for the month of March, showing a significant gain of +158.7%.",
+          "ticker": "$TLYS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+158.7% (March MTD)",
+          "direction": "up",
+          "tags": [
+            "Gainer",
+            "Retail",
+            "Monthly Performance"
+          ]
+        },
+        {
+          "id": "soc-gainer-monthly",
+          "headline": "SOC Continues Strong Monthly Performance",
+          "summary": "SOC has seen robust performance in March, climbing +96.0% month-to-date.",
+          "ticker": "$SOC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+96.0% (March MTD)",
+          "direction": "up",
+          "tags": [
+            "Gainer",
+            "Monthly Performance"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Calendar",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-1",
-          "headline": "Geopolitical Developments Ease Market Tensions",
-          "summary": "Comments from Israel's Prime Minister Benjamin Netanyahu have reportedly eased worries surrounding the U.S.-Iran war, contributing to the uptick in U.S. stock futures this morning. This development led to a drop in WTI crude oil futures, which often impacts market sentiment.",
+          "id": "geopolitical-tensions",
+          "headline": "Geopolitical Tensions Continue to Drive Oil Volatility",
+          "summary": "The ongoing Middle East conflict between the U.S.-Israel and Iran remains a primary driver of market uncertainty, particularly impacting crude oil and natural gas prices and fueling inflationary concerns. While comments from Israel's Prime Minister briefly eased worries, oil prices continued to show volatility.",
           "tags": [
             "Geopolitics",
-            "Oil Prices",
-            "Market Sentiment"
+            "Energy",
+            "Inflation"
           ]
         },
         {
-          "id": "mn-2",
-          "headline": "Inflation Concerns Persist Following Fed Chair Powell's Remarks",
-          "summary": "Federal Reserve Chair Jerome Powell's recent warnings about surging energy costs potentially pressuring inflation expectations continue to weigh on market sentiment. Traders are now pricing in higher odds of no rate cuts for the remainder of 2026. This follows a Thursday close where major indices fell due to concerns over central bank monetary tightening to control inflation amid the ongoing conflict in Iran.",
+          "id": "fed-policy-inflation",
+          "headline": "Fed Holds Rates Steady Amid Inflationary Concerns",
+          "summary": "The Federal Reserve maintained its federal funds rate range of 3.5-3.75% at its March FOMC meeting. Chairman Jerome Powell emphasized the need for clearer progress on inflation before considering rate cuts, with the latest dot-plot indicating only one 25-basis-point cut in 2026.",
           "tags": [
             "Federal Reserve",
-            "Inflation",
-            "Monetary Policy"
+            "Interest Rates",
+            "Inflation"
           ]
         },
         {
-          "id": "mn-3",
-          "headline": "Key Economic Data Releases Scheduled for Today",
-          "summary": "Investors will be closely watching several economic data releases throughout Friday, March 20, 2026. Scheduled reports include Jobless Claims, the Philadelphia Fed Manufacturing Index, New Home Sales, Business Inventories, Leading Indicators, and Wholesale Inventories (Preliminary) at 8:30 AM ET and 10:00 AM ET, respectively. The EIA Natural Gas Report is also due at 10:30 AM ET.",
+          "id": "sector-rotation-trends",
+          "headline": "Defensive and 'Real Economy' Sectors Outperforming Tech in Ongoing Rotation",
+          "summary": "An observable market rotation continues in 2026, with industrial, consumer defensive, and energy sectors leading gains as technology stocks face challenges. Investors are diversifying beyond AI-focused names towards 'real economy' stocks amid broader market uncertainty. On Thursday, all 11 S&P 500 sectors closed in negative territory, with Consumer Discretionary, Health Care, and Consumer Staples among the biggest decliners.",
+          "tags": [
+            "Sector Analysis",
+            "Market Rotation",
+            "AI Impact"
+          ]
+        },
+        {
+          "id": "economic-data-mixed",
+          "headline": "Mixed Economic Data Presents Unclear Picture for Economy",
+          "summary": "Recent economic data includes a decrease in initial jobless claims for the week ended March 14 to 205,000, below consensus estimates. However, new home sales in January missed expectations, while the Philadelphia Fed Index for March reached its highest level for 2026.",
           "tags": [
             "Economic Data",
-            "Jobless Claims",
-            "Manufacturing",
+            "Job Market",
             "Housing"
-          ]
-        },
-        {
-          "id": "mn-4",
-          "headline": "Earnings Reports from Lufax, UnitedHealth Group, and Carnival on Deck",
-          "summary": "Today features earnings reports from several notable companies. Lufax (NYSE: $LU) is among those reporting earnings today, following news earlier this month of the company setting a new 1-year low due to weak earnings. UnitedHealth Group Incorporated ($UNH) is also expected to release its earnings report today. Additionally, Carnival Cruise Line ($CCL) and Carnival Plc ($CUK) are slated to report pre-market, with estimated EPS and revenue figures available.",
-          "tags": [
-            "Earnings",
-            "$LU",
-            "$UNH",
-            "$CCL",
-            "$CUK"
           ]
         }
       ]
