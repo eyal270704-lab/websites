@@ -1,196 +1,145 @@
 {
-  "generatedAt": "2026-03-20T12:35:00Z",
+  "generatedAt": "2026-03-20T16:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 20, 2026",
+  "subtitle": "March 20, 2026: Markets Retreat Amid Geopolitical Tensions and Inflation Concerns",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Markets Face Continued Headwinds; Futures Signal Cautious Open",
-          "summary": "U.S. stock markets closed lower on Thursday, marking their lowest closes in months for the Dow and S&P 500, as concerns over Middle East geopolitical tensions and persistent inflationary pressures weighed heavily on investor sentiment. All three major indices are on track for their fourth consecutive weekly decline. Pre-market trading for Friday indicates a cautious start, with futures for major indices showing slight declines after an earlier wobble despite easing fears regarding the U.S.-Iran conflict.",
-          "tags": [
-            "Market Overview",
-            "Geopolitics",
-            "Inflation"
-          ]
+          "id": "market-summary",
+          "headline": "US Equities Close Lower as Geopolitical Worries and Rising Yields Dampen Sentiment",
+          "summary": "US stock markets closed lower on Friday after a choppy session, with all three major indices ending in negative territory. Investor pessimism surged, with 52% of respondents to the latest AAII survey holding a bearish outlook for the next six months, a notable increase fueled by the ongoing conflict in the Middle East. Rising Treasury yields, which increase borrowing costs, also weighed on market sentiment. Despite early pre-market futures showing slight gains on eased geopolitical worries, the overall mood remained cautious amid mixed economic data and persistent inflation concerns."
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Thursday's Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "6,606.49",
-          "statContext": "Down 0.3% (-18.21 pts). Lowest close in four months, below its 200-day moving average.",
-          "ticker": "$SPX",
-          "price": "6606.49",
-          "change": "-18.21",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "statContext": "Down 0.3% to its lowest close in four months, breaking below its 200-day moving average."
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,090.69",
-          "statContext": "Slid 0.3% (-61.73 pts). Closed below its 200-day moving average.",
-          "ticker": "$IXIC",
-          "price": "22090.69",
-          "change": "-61.73",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "statContext": "Slipped 0.3% due to weak performance from corporate bigwigs, also closing below its 200-day moving average."
         },
         {
-          "id": "dow-close",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "46,021.43",
-          "statContext": "Fell 0.4% (-203.72 pts). Marked the lowest close for 2026, below its 200-day moving average.",
-          "ticker": "$DJI",
-          "price": "46021.43",
-          "change": "-203.72",
-          "changePercent": "-0.4%",
-          "direction": "down"
+          "statContext": "Fell 203.72 points (-0.4%), marking its lowest close for 2026 and ending below its 200-day moving average."
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "mu-loser",
-          "headline": "Micron Technology Inc. Tumbles on Disappointing Guidance",
-          "summary": "The AI-powered semiconductor giant saw its stock tumble 3.9% as its third-quarter fiscal 2026 guidance failed to impress the market.",
+          "headline": "Micron Technology (MU)",
+          "summary": "Shares tumbled 3.9% after its third-quarter fiscal 2026 guidance failed to impress the market.",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-3.9%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Semiconductors",
-            "Earnings"
-          ]
+          "direction": "down"
+        },
+        {
+          "id": "smci-loser",
+          "headline": "Super Micro Computer (SMCI)",
+          "summary": "Plunged 28.2% after US authorities accused a senior executive and two affiliates of conspiring to smuggle advanced Nvidia-based servers to China.",
+          "ticker": "$SMCI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-28.2%",
+          "direction": "down"
         },
         {
           "id": "ucar-loser",
-          "headline": "U Power Limited Plummets on Dilutive Public Offering",
-          "summary": "Shares of U Power Limited plunged 65.08% after the company announced and priced a $6 million public offering of units at a significant discount, triggering panic selling due to heavy dilution.",
+          "headline": "U Power Limited (UCAR)",
+          "summary": "Dived 65.08% after announcing and pricing a heavily dilutive $6 million public offering of units.",
           "ticker": "$UCAR",
           "price": "$0.157",
           "change": "N/A",
           "changePercent": "-65.08%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "EV",
-            "Public Offering"
-          ]
+          "direction": "down"
         },
         {
-          "id": "rvph-loser",
-          "headline": "Reviva Pharmaceuticals Holdings Down on Discounted Offering",
-          "summary": "Reviva Pharmaceuticals saw a 55.43% decline following the pricing of a $10 million public offering of shares plus warrants at a discount to its prior close, a common trigger for selling in biotech stocks.",
-          "ticker": "$RVPH",
-          "price": "$0.833",
-          "change": "N/A",
-          "changePercent": "-55.43%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Biotech",
-            "Public Offering"
-          ]
-        },
-        {
-          "id": "tlys-gainer-monthly",
-          "headline": "Tilly's Inc. Leads March Monthly Gainers",
-          "summary": "Tilly's Inc. has been a standout performer for the month of March, showing a significant gain of +158.7%.",
-          "ticker": "$TLYS",
+          "id": "fdx-gainer",
+          "headline": "FedEx (FDX)",
+          "summary": "Rose 2.8% after reporting quarterly earnings that exceeded analysts' expectations.",
+          "ticker": "$FDX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+158.7% (March MTD)",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Retail",
-            "Monthly Performance"
-          ]
+          "changePercent": "+2.8%",
+          "direction": "up"
         },
         {
-          "id": "soc-gainer-monthly",
-          "headline": "SOC Continues Strong Monthly Performance",
-          "summary": "SOC has seen robust performance in March, climbing +96.0% month-to-date.",
-          "ticker": "$SOC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+96.0% (March MTD)",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Monthly Performance"
-          ]
+          "id": "dell-gainer",
+          "headline": "Dell Technologies (DELL)",
+          "summary": "Showed early gains, up +6.28, in a generally down market.",
+          "ticker": "$DELL",
+          "price": "$163.03",
+          "change": "+$6.28",
+          "changePercent": "N/A",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Analysis",
+      "id": "market-news-articles",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-tensions",
-          "headline": "Geopolitical Tensions Continue to Drive Oil Volatility",
-          "summary": "The ongoing Middle East conflict between the U.S.-Israel and Iran remains a primary driver of market uncertainty, particularly impacting crude oil and natural gas prices and fueling inflationary concerns. While comments from Israel's Prime Minister briefly eased worries, oil prices continued to show volatility.",
+          "id": "sector-analysis-article",
+          "headline": "S&P 500 Sectors Universally Negative; Software and Auto Industries Lagging",
+          "summary": "All 11 sectors of the broad-market S&P 500 ended in negative territory today. Consumer Discretionary (XLY) slipped 2.6%, Health Care (XLV) by 2.5%, and Consumer Staples (XLP) by 2.1%. The software industry continues to be the worst-performing sector, with 97% of its companies down 20% or more, followed by automobiles (75%) and media & entertainment (63%). In contrast, the Energy and Utilities sectors have shown resilience, with no energy stocks experiencing a 20% drawdown and only 6% of utility stocks doing so. Energy stocks had surged 25% year-to-date as of early March, benefiting from rising oil prices amid geopolitical tensions.",
           "tags": [
-            "Geopolitics",
-            "Energy",
-            "Inflation"
+            "Sector Analysis",
+            "S&P 500",
+            "Technology",
+            "Energy"
           ]
         },
         {
-          "id": "fed-policy-inflation",
-          "headline": "Fed Holds Rates Steady Amid Inflationary Concerns",
-          "summary": "The Federal Reserve maintained its federal funds rate range of 3.5-3.75% at its March FOMC meeting. Chairman Jerome Powell emphasized the need for clearer progress on inflation before considering rate cuts, with the latest dot-plot indicating only one 25-basis-point cut in 2026.",
+          "id": "fed-economic-article",
+          "headline": "Fed Holds Rates Steady, Inflation Concerns Persist Amid Geopolitical Conflict",
+          "summary": "The Federal Open Market Committee (FOMC) maintained the federal funds rate at the 3.5%-3.75% range, though one governor dissented, favoring a 25-basis-point cut. The committee acknowledged robust economic growth but noted that inflation has exceeded expectations, with heightened uncertainty due to the ongoing war in Iran impacting energy prices. Federal Reserve Chair Jerome Powell warned that surging energy costs could pressure inflation expectations, leading traders to anticipate no rate cuts for the remainder of 2026. Economic data released today was mixed; the Philadelphia Fed Index surged to 18.1 in March, its highest level in 2026, significantly above estimates. However, Leading Indicators fell 0.1% month-over-month in January, and wholesale inventories also decreased by 0.5%. Job openings in January slightly increased to 6.9 million.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Inflation"
+            "Inflation",
+            "Economic Data"
           ]
         },
         {
-          "id": "sector-rotation-trends",
-          "headline": "Defensive and 'Real Economy' Sectors Outperforming Tech in Ongoing Rotation",
-          "summary": "An observable market rotation continues in 2026, with industrial, consumer defensive, and energy sectors leading gains as technology stocks face challenges. Investors are diversifying beyond AI-focused names towards 'real economy' stocks amid broader market uncertainty. On Thursday, all 11 S&P 500 sectors closed in negative territory, with Consumer Discretionary, Health Care, and Consumer Staples among the biggest decliners.",
+          "id": "macro-trends-article",
+          "headline": "Middle East Conflict Fuels Inflationary Pressure, Treasury Yields Climb",
+          "summary": "The ongoing Middle East conflict between the U.S.-Israel and Iran continues to be a dominant macro trend, driving crude oil and natural gas prices higher and fueling concerns about inflationary pressure. Brent crude remained elevated, trading around $108-$110 per barrel. In fixed-income markets, the yield on the 10-year US Treasury climbed to 4.32%, up from 4.25% late Thursday, reflecting concerns that prolonged disruptions to energy supply could push inflation higher and lead to increased borrowing costs. The S&P 500 also broke its 200-day moving average after a 214-day streak, which some analysts view as a bearish sign. Today's 'quadruple witching' event, involving the simultaneous expiration of trillions in derivatives, was expected to amplify intraday market swings.",
           "tags": [
-            "Sector Analysis",
-            "Market Rotation",
-            "AI Impact"
-          ]
-        },
-        {
-          "id": "economic-data-mixed",
-          "headline": "Mixed Economic Data Presents Unclear Picture for Economy",
-          "summary": "Recent economic data includes a decrease in initial jobless claims for the week ended March 14 to 205,000, below consensus estimates. However, new home sales in January missed expectations, while the Philadelphia Fed Index for March reached its highest level for 2026.",
-          "tags": [
-            "Economic Data",
-            "Job Market",
-            "Housing"
+            "Geopolitics",
+            "Oil Prices",
+            "Treasury Yields",
+            "Market Trends"
           ]
         }
       ]
