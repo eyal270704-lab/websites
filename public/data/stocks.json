@@ -1,161 +1,126 @@
 {
-  "generatedAt": "2026-03-22T07:37:00Z",
+  "generatedAt": "2026-03-22T12:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Close: Friday, March 21, 2026",
-  "badge": "Updated March 22, 2026",
+  "subtitle": "March 22, 2026 - Weekend Market Wrap",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260321",
-          "headline": "Stocks Decline Amid Surging Oil Prices and Shifting Fed Expectations",
-          "summary": "U.S. equities concluded Friday, March 21, with broad declines, marking the fourth consecutive losing week for the S&P 500. A sharp rise in crude oil prices, fueled by ongoing geopolitical tensions, has significantly altered market sentiment, pushing Treasury yields higher and causing traders to re-evaluate the likelihood of Federal Reserve interest rate cuts in 2026. Concerns over persistent inflation and potential Fed rate hikes now dominate the outlook. Not financial advice.",
+          "id": "market-pulse-headline",
+          "headline": "U.S. Stocks Conclude Fourth Consecutive Losing Week Amid Geopolitical Tensions and Surging Oil Prices",
+          "summary": "U.S. equity markets ended Friday, March 20, 2026, lower, marking the fourth straight week of declines for the S&P 500. Investor sentiment was primarily weighed down by escalating Middle East tensions and a significant surge in crude oil prices, which fueled inflation concerns and led to defensive positioning. Major indices closed notably down, with technology and growth stocks facing broad selling pressure.",
           "tags": [
-            "Market Summary",
-            "Inflation",
-            "Interest Rates",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-03-21T16:00:00Z"
+            "Market Sentiment",
+            "Geopolitics",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260321",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,506.48",
-          "statContext": "Down 1.5% on Friday, marking fourth straight losing week.",
-          "ticker": "$SPX",
-          "price": "6,506.48",
-          "change": "-100.01",
-          "changePercent": "-1.5%",
-          "direction": "down"
+          "statContext": "(-1.5% Friday, -1.9% Weekly)"
         },
         {
-          "id": "dow-20260321",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "45,577.47",
-          "statContext": "Dropped 1% on Friday.",
-          "ticker": "$DJIA",
-          "price": "45,577.47",
-          "change": "-443.96",
-          "changePercent": "-1.0%",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-20260321",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "21,647.61",
-          "statContext": "Sank 2% on Friday.",
-          "ticker": "$IXIC",
-          "price": "21,647.61",
-          "change": "-443.08",
-          "changePercent": "-2.0%",
-          "direction": "down"
+          "statContext": "(-2% Friday, -1.88% Weekly)"
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "45,577.47",
+          "statContext": "(-1% Friday, -1% Weekly)"
+        },
+        {
+          "id": "ytd-sp500",
+          "statLabel": "S&P 500 YTD",
+          "statValue": "-6.8%",
+          "statContext": "From January Highs"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Week/Month Ending March 21, 2026)",
+      "title": "Top Movers (Friday, March 20, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "tlys-gainer-20260321",
-          "headline": "Tilly's, Inc. Surges in March",
-          "summary": "Tilly's, Inc. ($TLYS) recorded a significant gain of 167.4% through March 21, leading the monthly performance for stocks with market caps over $100 million.",
-          "ticker": "$TLYS",
-          "price": "$3.69",
-          "change": "+2.31",
-          "changePercent": "+167.4%",
+          "id": "gainer-sedg",
+          "headline": "SolarEdge Technologies",
+          "ticker": "$SEDG",
+          "price": "$51.69",
+          "change": null,
+          "changePercent": "+38.06%",
           "direction": "up",
-          "tags": [
-            "Gainer",
-            "Consumer Cyclical"
-          ]
+          "summary": "Topped the list of performers among US-listed stocks covered by Morningstar analysts."
         },
         {
-          "id": "soc-gainer-20260321",
-          "headline": "Sable Offshore Corp. Sees Strong Monthly Performance",
-          "summary": "Sable Offshore Corp. ($SOC) was among the top monthly performers, climbing 89.3% by March 21.",
-          "ticker": "$SOC",
-          "price": "$16.28",
-          "change": "+7.67",
-          "changePercent": "+89.3%",
+          "id": "gainer-anna",
+          "headline": "ALEANNA INC",
+          "ticker": "$ANNA",
+          "price": "$7.48",
+          "change": null,
+          "changePercent": "+97.36%",
           "direction": "up",
-          "tags": [
-            "Gainer",
-            "Energy"
-          ]
+          "summary": "Showed positive momentum during Friday's session."
         },
         {
-          "id": "bw-gainer-20260321",
-          "headline": "Babcock & Wilcox Enterprise Climbs",
-          "summary": "Babcock & Wilcox Enterprise ($BW) saw a substantial monthly gain of 68.67% by March 21.",
-          "ticker": "$BW",
-          "price": "$15.18",
-          "change": "+6.18",
-          "changePercent": "+68.67%",
+          "id": "gainer-curv",
+          "headline": "TORRID HOLDINGS INC",
+          "ticker": "$CURV",
+          "price": "$1.63",
+          "change": null,
+          "changePercent": "+30.4%",
           "direction": "up",
-          "tags": [
-            "Gainer",
-            "Industrials"
-          ]
+          "summary": "Investors celebrated after the company reported fourth quarter and fiscal 2025 results and initiated fiscal 2026 guidance."
         },
         {
-          "id": "tme-loser-20260320",
-          "headline": "Tencent Music Entertainment Group Leads Weekly Losers",
-          "summary": "Tencent Music Entertainment Group ($TME) was the worst-performing U.S.-listed stock for the week ending March 20, falling 28.94%.",
-          "ticker": "$TME",
-          "price": "$10.09",
-          "change": "-4.10",
-          "changePercent": "-28.94%",
+          "id": "loser-ucar",
+          "headline": "U Power Limited",
+          "ticker": "$UCAR",
+          "price": "$0.157",
+          "change": null,
+          "changePercent": "-65.08%",
           "direction": "down",
-          "tags": [
-            "Loser",
-            "Communication Services"
-          ]
+          "summary": "Experienced panic selling following an announced and priced $6 million public offering of units, which was heavily dilutive."
         },
         {
-          "id": "klar-loser-20260320",
-          "headline": "Klarna Group Experiences Steep Weekly Decline",
-          "summary": "Klarna Group ($KLAR) saw a 20.79% decline for the week ending March 20, trading at a significant discount to its fair value estimate.",
-          "ticker": "$KLAR",
-          "price": "$12.61",
-          "change": "-3.31",
-          "changePercent": "-20.79%",
+          "id": "loser-rvph",
+          "headline": "Reviva Pharmaceuticals Holdings, Inc.",
+          "ticker": "$RVPH",
+          "price": "$0.833",
+          "change": null,
+          "changePercent": "-55.43%",
           "direction": "down",
-          "tags": [
-            "Loser",
-            "Financial Services"
-          ]
+          "summary": "Fell significantly after pricing a $10 million public offering of shares plus warrants at a discount, following recent weakness and a reverse split."
         },
         {
-          "id": "regaal-loser-20260320",
-          "headline": "Regaal Resourcess Among Small-Cap Decliners",
-          "summary": "Small-cap Regaal Resourcess experienced a 23% fall over five trading sessions ending March 20.",
-          "ticker": "$REG",
-          "price": "$70.00",
-          "change": "-21.00",
-          "changePercent": "-23.0%",
+          "id": "loser-smci",
+          "headline": "Super Micro Computer Inc.",
+          "ticker": "$SMCI",
+          "price": "$20.55",
+          "change": null,
+          "changePercent": "-33.26%",
           "direction": "down",
-          "tags": [
-            "Loser",
-            "Small Cap"
-          ]
+          "summary": "Shares decreased following a press release about a fraud investigation. This also raised concerns about export controls and supply chain risk across the AI sector."
         }
       ]
     },
@@ -166,53 +131,48 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-policy-shift-20260321",
-          "headline": "Fed Rate Hike Bets Rise as Oil Prices Surge, Threatening Stagflation",
-          "summary": "Wall Street has shifted from anticipating Federal Reserve interest rate cuts to now considering potential hikes later in 2026. This comes as surging oil prices push Brent crude above $109 and U.S. crude to $98, fueling inflation concerns and raising the risk of stagflation. The Fed held rates steady on March 18, but market-based pricing now indicates over 60% odds of a hike by October. Fed Chair Jerome Powell emphasized the central bank's independence in setting monetary policy.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Oil Prices",
-            "Stagflation"
-          ],
-          "timestamp": "2026-03-21T14:00:00Z"
-        },
-        {
-          "id": "sector-rotation-20260321",
-          "headline": "Defensive and Energy Sectors Lead Amid Risk-Off Sentiment",
-          "summary": "A notable sector rotation is underway, with defensive sectors like Utilities ($XLU) and Consumer Staples ($XLP), along with Energy ($XLE), demonstrating leadership as risk-off sentiment prevails. Conversely, Consumer Discretionary ($XLY), Real Estate ($XLRE), and Technology ($XLK) are lagging. This shift suggests investors are prioritizing stability over growth due to economic headwinds and inflationary pressures.",
+          "id": "sector-analysis-energy-leading",
+          "headline": "Energy Sector Leads as Utilities and Tech Lag",
+          "summary": "The energy sector was the best-performing sector for the week ending March 20, rising roughly 3%, driven by surging oil prices. In contrast, sectors like utilities, basic materials, software, real estate, technology, and consumer discretionary were among the worst performers. This rotation into energy highlights the market's reaction to the ongoing Middle East conflict and its impact on commodities.",
           "tags": [
             "Sector Analysis",
             "Energy",
             "Utilities",
-            "Consumer Staples",
             "Technology"
-          ],
-          "timestamp": "2026-03-21T12:00:00Z"
+          ]
         },
         {
-          "id": "oil-gas-prices-20260321",
-          "headline": "Gas Prices Climb Nationwide as Crude Oil Costs Soar",
-          "summary": "Retail fuel prices are rising across the U.S., with the national average for regular gasoline hitting $3.925 on March 21, a 28-cent increase from the previous week. Crude oil prices remain elevated, with Brent futures trading around $112 a barrel on Friday, up 70% since the start of the Iran conflict. Economists warn that sustained high oil prices could push inflation higher and potentially trigger a recession if they reach $140-$175 a barrel.",
+          "id": "fed-announcement-march-2026",
+          "headline": "Federal Reserve Holds Rates Steady Amid Geopolitical Uncertainty",
+          "summary": "The Federal Open Market Committee (FOMC) decided to keep the federal funds rate target range unchanged at 3.50%-3.75% at its March 18, 2026 meeting. There was one dissenting vote in favor of a cut. The FOMC's Summary of Economic Projections (SEP) showed upward revisions to inflation and growth forecasts for 2026 and 2027. Chair Powell emphasized data dependence and the 'uncertain' implications of Middle East developments on the U.S. economy, especially concerning oil prices.",
           "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "macro-trends-geopolitical",
+          "headline": "Geopolitical Tensions Drive Oil Prices Higher and Fuel Inflation Concerns",
+          "summary": "The ongoing conflict in the Middle East, including the Iranian blockade of the Strait of Hormuz, has led to a significant surge in oil prices, with Brent crude moving above $112 and WTI near $97.91 per barrel. This has amplified headline inflation pressures, leading traders to speculate that the Federal Reserve may be unable to cut rates this year. The uncertainty surrounding the conflict continues to shape market sentiment and macroeconomic outlooks globally.",
+          "tags": [
+            "Macro Trends",
             "Oil Prices",
-            "Gas Prices",
-            "Inflation",
-            "Consumer Impact"
-          ],
-          "timestamp": "2026-03-21T10:00:00Z"
+            "Geopolitics",
+            "Inflation"
+          ]
         },
         {
-          "id": "oracle-earnings-20260321",
-          "headline": "Oracle Reports Massive Backlog Amidst Software Rout",
-          "summary": "Oracle ($ORCL) announced its fiscal third-quarter earnings, revealing a substantial $553 billion in remaining purchase obligations, a 325% year-over-year increase. Despite this, the stock is down approximately 21% year-to-date, caught in a broader 'software stock rout' of 2026 driven by investor fears of AI disruption, even as Oracle pivots towards an AI-heavy business model.",
+          "id": "economic-data-labor-market",
+          "headline": "Labor Market Shows Softening Amid Mixed Economic Data",
+          "summary": "Recent economic data has been mixed, with job growth accelerating in January but reversing sharply in February, resulting in 92,000 net jobs lost. The unemployment rate ticked up to 4.4% in February. This softening in the labor market, combined with rising inflation from higher oil prices, presents a challenging balancing act for the Federal Reserve.",
           "tags": [
-            "Earnings Report",
-            "Technology",
-            "AI",
-            "Oracle"
-          ],
-          "timestamp": "2026-03-21T09:00:00Z"
+            "Economic News",
+            "Labor Market",
+            "Unemployment",
+            "Inflation"
+          ]
         }
       ]
     }
