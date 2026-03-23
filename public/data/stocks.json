@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-23T08:00:00Z",
+  "generatedAt": "2026-03-23T12:42:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 23, 2026: Geopolitical Tensions Weigh Heavily on Global Markets",
-  "badge": "LIVE",
+  "subtitle": "Sunday, March 23, 2026: Markets Closed, Reviewing Friday's Performance and Weekend News",
+  "badge": "Updated",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,110 +13,97 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260323",
-          "headline": "Global Markets Plunge Amid Escalating Geopolitical Conflict and Surging Oil Prices",
-          "summary": "Equity markets worldwide experienced significant downturns on Monday, March 23, 2026, as geopolitical tensions, particularly the escalating conflict in the Middle East, intensified investor anxiety. Surging energy prices and inflation concerns are driving market volatility, with US stock futures indicating a lower open.",
+          "id": "mp-1",
+          "headline": "Weekend Review: Geopolitical Tensions and Inflation Fears Dominate Market Outlook",
+          "summary": "U.S. equity markets closed significantly lower on Friday, marking a fourth consecutive week of declines for major indices. Escalating geopolitical tensions in the Middle East, particularly the ongoing conflict in Iran, continue to drive oil prices higher, fueling inflation concerns and prompting speculation about the Federal Reserve's monetary policy path. Investors are bracing for a volatile week ahead as markets grapple with the implications of persistent inflation and a potentially hawkish Fed.",
           "tags": [
-            "Global Market",
+            "Market Sentiment",
             "Geopolitics",
-            "Oil Prices",
             "Inflation"
-          ],
-          "timestamp": "2026-03-23T08:00:00Z"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Friday, March 21, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260323",
+          "id": "sp500",
           "statLabel": "S&P 500",
-          "statValue": "6486 points",
-          "statContext": "Down 0.31% on March 23, 2026, from previous session."
+          "statValue": "6,506.48",
+          "statContext": "Down 1.5% (100.01 points) on Friday, marking its fourth straight weekly decline.",
+          "change": "-$100.01",
+          "changePercent": "-1.5%",
+          "direction": "down"
         },
         {
-          "id": "dow-20260323",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "45577 points (March 20 close)",
-          "statContext": "US stock futures edged lower on Monday, March 23. The index closed down 0.96% on Friday, March 20, amidst escalating Middle East conflict and surging energy prices."
-        },
-        {
-          "id": "nasdaq-20260323",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "21,647.61 points (March 20 close)",
-          "statContext": "US stock futures edged lower on Monday, March 23. The index closed down 2.01% on Friday, March 20, hitting six-month lows."
+          "statValue": "21,647.61",
+          "statContext": "Fell 2% (443.08 points) on Friday.",
+          "change": "-$443.08",
+          "changePercent": "-2.0%",
+          "direction": "down"
+        },
+        {
+          "id": "dow",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "45,577.47",
+          "statContext": "Declined 1% (443.96 points) on Friday.",
+          "change": "-$443.96",
+          "changePercent": "-1.0%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Previous Trading Day - March 20, 2026)",
+      "title": "Top Movers (March 2026 Month-to-Date)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vzn-gainer",
-          "headline": "Verizon Leads Dow Gainers",
-          "ticker": "$VZ",
-          "price": "N/A",
-          "change": "+1.29%",
-          "changePercent": "+1.29%",
-          "direction": "up",
-          "summary": "Verizon was among the top gainers on the Dow Jones Industrial Average on Friday, March 20."
+          "id": "tlys-gainer",
+          "headline": "Tilly's surges over 167% in March",
+          "summary": "Specialty retailer Tilly's, Inc. has been the top performer month-to-date.",
+          "ticker": "$TLYS",
+          "price": "$3.69",
+          "change": "",
+          "changePercent": "+167.39%",
+          "direction": "up"
         },
         {
-          "id": "visa-gainer",
-          "headline": "Visa Posts Modest Gains",
-          "ticker": "$V",
-          "price": "N/A",
-          "change": "+0.66%",
-          "changePercent": "+0.66%",
-          "direction": "up",
-          "summary": "Visa recorded a gain among Dow components on Friday, March 20."
+          "id": "soc-gainer",
+          "headline": "Sable Offshore continues strong performance",
+          "summary": "Sable Offshore Corp. shows significant gains in March, driven by sector trends.",
+          "ticker": "$SOC",
+          "price": "$16.28",
+          "change": "",
+          "changePercent": "+89.3%",
+          "direction": "up"
         },
         {
-          "id": "gs-gainer",
-          "headline": "Goldman Sachs Up",
-          "ticker": "$GS",
+          "id": "vivo-loser",
+          "headline": "VivoPower PLC plunges on corporate announcement",
+          "summary": "VivoPower PLC experienced a sharp decline following its announcement regarding a new stock ticker and corporate name change.",
+          "ticker": "$VIVO",
           "price": "N/A",
-          "change": "+0.63%",
-          "changePercent": "+0.63%",
-          "direction": "up",
-          "summary": "Goldman Sachs saw positive movement on Friday, March 20."
+          "change": "",
+          "changePercent": "-94.85%",
+          "direction": "down"
         },
         {
-          "id": "hon-loser",
-          "headline": "Honeywell International Declines",
-          "ticker": "$HON",
+          "id": "mi-loser",
+          "headline": "MI NFT Limited drops significantly",
+          "summary": "NFT Ltd. saw a substantial loss after pricing a registered direct offering.",
+          "ticker": "$MI",
           "price": "N/A",
-          "change": "-3.28%",
-          "changePercent": "-3.28%",
-          "direction": "down",
-          "summary": "Honeywell International led losses among Dow components on Friday, March 20."
-        },
-        {
-          "id": "nvda-loser",
-          "headline": "Nvidia Faces Losses",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "-3.17%",
-          "changePercent": "-3.17%",
-          "direction": "down",
-          "summary": "Nvidia experienced a significant drop on Friday, March 20, amidst broader market weakness."
-        },
-        {
-          "id": "ba-loser",
-          "headline": "Boeing Down",
-          "ticker": "$BA",
-          "price": "N/A",
-          "change": "-3.00%",
-          "changePercent": "-3.00%",
-          "direction": "down",
-          "summary": "Boeing was among the top losers on the Dow Jones Industrial Average on Friday, March 20."
+          "change": "",
+          "changePercent": "-82.97%",
+          "direction": "down"
         }
       ]
     },
@@ -127,49 +114,49 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-20260323",
-          "headline": "Sector Rotation Continues Amidst Geopolitical Volatility",
-          "summary": "A defined market rotation is underway, with the energy sector continuing to lead, gaining approximately 2.99% for the week ending March 20. Utilities and basic materials were among the worst-performing sectors, down 5.0% and 4.82% respectively for the same period. Investors are reportedly shifting away from software towards defense and energy stocks.",
+          "id": "fed-announcement",
+          "headline": "Federal Reserve Holds Rates Steady Amid Inflation Concerns",
+          "summary": "The Federal Open Market Committee (FOMC) decided to keep the federal funds rate unchanged at 3.50% to 3.75% during its March 18 meeting. The decision, largely anticipated by markets, comes as rising gas prices and a weakening labor market complicate the economic outlook. The Fed's latest projections still hint at one rate cut this year, despite an upward revision to inflation forecasts, reflecting ongoing concerns about price stability.",
+          "tags": [
+            "Fed",
+            "Interest Rates",
+            "Inflation",
+            "Economic Data"
+          ],
+          "timestamp": "2026-03-18T14:00:00Z"
+        },
+        {
+          "id": "iran-war-oil",
+          "headline": "Iran Conflict Escalates, Driving Oil Prices Higher and Fueling Stagflation Fears",
+          "summary": "The ongoing conflict in Iran continues to be a major headwind for global markets, pushing Brent crude prices above $112 per barrel by Friday's close. The sustained surge in energy costs is intensifying inflation worries and contributing to a 'stagflation geometry' in the Treasury market, where growth expectations are rolling over while inflation remains hot. This geopolitical uncertainty is a key factor impacting market sentiment and future monetary policy.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation",
+            "Global Economy"
+          ],
+          "timestamp": "2026-03-22T04:42:00Z"
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Energy and Financials Lead as Utilities and Basic Materials Lag Last Week",
+          "summary": "For the week ending March 20, the energy sector emerged as a top performer, gaining 2.99%, followed by financial services, up 0.35%. In contrast, the utilities sector saw a significant decline of 5.0%, and basic materials fell 4.82%, indicating a flight to defensive sectors amid market volatility.",
           "tags": [
             "Sector Analysis",
             "Energy",
-            "Utilities",
-            "Defense"
-          ],
-          "timestamp": "2026-03-23T08:00:00Z"
+            "Financials",
+            "Utilities"
+          ]
         },
         {
-          "id": "economic-data-20260323",
-          "headline": "Inflation Concerns Persist as Fed Holds Rates; PMI Data Expected",
-          "summary": "The Federal Reserve maintained interest rates between 3.50% and 3.75% earlier this week, with inflation concerns still prominent following a 0.7% month-over-month rise in US producer prices in February. Investors are awaiting flash US PMI data due Tuesday for further economic insights. No noteworthy economic indicators were released today, March 23.",
-          "tags": [
-            "Economic News",
-            "Fed",
-            "Inflation",
-            "PMI"
-          ],
-          "timestamp": "2026-03-23T08:00:00Z"
-        },
-        {
-          "id": "earnings-wuxiapptec-20260323",
-          "headline": "WuXi AppTec Scheduled to Report Earnings Today",
-          "summary": "WuXi AppTec ($WUXI) is scheduled to report key corporate earnings today, Monday, March 23, 2026.",
+          "id": "upcoming-earnings",
+          "headline": "Key Earnings Reports Expected This Week",
+          "summary": "While today, March 23, sees limited corporate earnings (Bioline RX Ltd, Lithium Argentina, MBX Biosciences), the upcoming week features highly anticipated reports. GameStop Corp. ($GME) is set to release its quarterly earnings on Tuesday, followed by pet retailer Chewy, Inc. ($CHWY) on Wednesday. Thursday will bring results from Commercial Metals Co., Shoe Carnival, Lovesac, and Lantern Pharma.",
           "tags": [
             "Earnings",
-            "WuXi AppTec"
+            "Corporate News"
           ],
-          "timestamp": "2026-03-23T08:00:00Z"
-        },
-        {
-          "id": "mideast-conflict-impact-20260323",
-          "headline": "Middle East Conflict Escalation Fuels Oil Price Surge and Global Economic Threat",
-          "summary": "The ongoing war in the Middle East has entered its fourth week, leading to a significant surge in crude oil prices, with WTI crude hovering near $100 per barrel. The head of the International Energy Agency warned today that the global economy faces a 'major, major threat' from the escalating conflict, which has already caused Asian markets to plunge.",
-          "tags": [
-            "Geopolitics",
-            "Oil Market",
-            "Global Economy"
-          ],
-          "timestamp": "2026-03-23T08:00:00Z"
+          "timestamp": "2026-03-23T09:39:00Z"
         }
       ]
     }
