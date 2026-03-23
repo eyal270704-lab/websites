@@ -1,203 +1,175 @@
 {
-  "generatedAt": "2026-03-22T16:35:00Z",
+  "generatedAt": "2026-03-23T08:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 22, 2026 - Weekend Edition (Reflecting Friday's Close)",
-  "badge": "Market Closed",
+  "subtitle": "March 23, 2026: Geopolitical Tensions Weigh Heavily on Global Markets",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-001",
-          "headline": "U.S. Stocks End Week Lower Amid Oil Price Surge and Rate Cut Uncertainty",
-          "summary": "U.S. stock markets concluded the trading week on a downbeat note, with major indices recording their fourth consecutive weekly loss on Friday, March 20, 2026. The prevailing market sentiment was dominated by escalating geopolitical tensions in the Middle East, which sent oil prices soaring, and growing skepticism regarding potential interest rate cuts by the Federal Reserve this year. This combination fueled a broad risk-off trading environment.",
+          "id": "market-summary-20260323",
+          "headline": "Global Markets Plunge Amid Escalating Geopolitical Conflict and Surging Oil Prices",
+          "summary": "Equity markets worldwide experienced significant downturns on Monday, March 23, 2026, as geopolitical tensions, particularly the escalating conflict in the Middle East, intensified investor anxiety. Surging energy prices and inflation concerns are driving market volatility, with US stock futures indicating a lower open.",
           "tags": [
-            "Market Sentiment",
-            "Geopolitical Risk",
-            "Interest Rates"
-          ]
+            "Global Market",
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
+          ],
+          "timestamp": "2026-03-23T08:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-20260323",
           "statLabel": "S&P 500",
-          "statValue": "6,506.48",
-          "statContext": "Down 1.5% (-100.01 points) on Friday. Down 1.9% for the week.",
-          "ticker": "$SPX",
-          "price": "$6,506.48",
-          "change": "-$100.01",
-          "changePercent": "-1.5%",
-          "direction": "down"
+          "statValue": "6486 points",
+          "statContext": "Down 0.31% on March 23, 2026, from previous session."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "21,647.61",
-          "statContext": "Down 2.0% (-443.08 points) on Friday. Down 2.1% for the week.",
-          "ticker": "$IXIC",
-          "price": "$21,647.61",
-          "change": "-$443.08",
-          "changePercent": "-2.0%",
-          "direction": "down"
-        },
-        {
-          "id": "dow-stat",
+          "id": "dow-20260323",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "45,577.47",
-          "statContext": "Down 1.0% (-443.96 points) on Friday. Down 2.1% for the week.",
-          "ticker": "$DJI",
-          "price": "$45,577.47",
-          "change": "-$443.96",
-          "changePercent": "-1.0%",
-          "direction": "down"
+          "statValue": "45577 points (March 20 close)",
+          "statContext": "US stock futures edged lower on Monday, March 23. The index closed down 0.96% on Friday, March 20, amidst escalating Middle East conflict and surging energy prices."
+        },
+        {
+          "id": "nasdaq-20260323",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "21,647.61 points (March 20 close)",
+          "statContext": "US stock futures edged lower on Monday, March 23. The index closed down 2.01% on Friday, March 20, hitting six-month lows."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (Friday, March 20/21, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (Previous Trading Day - March 20, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "tm-fdx",
-          "headline": "FedEx Tops Earnings Expectations",
-          "ticker": "$FDX",
+          "id": "vzn-gainer",
+          "headline": "Verizon Leads Dow Gainers",
+          "ticker": "$VZ",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "change": "+1.29%",
+          "changePercent": "+1.29%",
           "direction": "up",
-          "summary": "FedEx reported better-than-expected earnings per share of $5.25 for its fiscal Q1 2026, surpassing estimates by $1.13. Revenue also exceeded forecasts at $24 billion, up 8.3% year-over-year. The shipping giant cited growth in its express, ground, and freight divisions, and the ability to pass on fuel surcharges."
+          "summary": "Verizon was among the top gainers on the Dow Jones Industrial Average on Friday, March 20."
         },
         {
-          "id": "tm-mu",
-          "headline": "Micron Technology Soars on AI Demand",
-          "ticker": "$MU",
+          "id": "visa-gainer",
+          "headline": "Visa Posts Modest Gains",
+          "ticker": "$V",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "change": "+0.66%",
+          "changePercent": "+0.66%",
           "direction": "up",
-          "summary": "Micron Technology posted a sharp surge in Q2 fiscal 2026 earnings, driven by booming demand for memory chips used in artificial intelligence and data centers. The company set new records across revenue, gross margin, EPS, and free cash flow, and its board approved a 30% increase in the quarterly dividend. Citi also raised its price target for $MU to $510 from $430."
+          "summary": "Visa recorded a gain among Dow components on Friday, March 20."
         },
         {
-          "id": "tm-pl",
-          "headline": "Planet Labs Rockets on Strong Q4 Results",
-          "ticker": "$PL",
+          "id": "gs-gainer",
+          "headline": "Goldman Sachs Up",
+          "ticker": "$GS",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+26%",
+          "change": "+0.63%",
+          "changePercent": "+0.63%",
           "direction": "up",
-          "summary": "Earth observation specialist Planet Labs saw its stock rocket approximately 26% higher on March 20 after reporting breakeven adjusted EPS in Q4 alongside 41% revenue growth, both significantly beating Wall Street's expectations."
+          "summary": "Goldman Sachs saw positive movement on Friday, March 20."
         },
         {
-          "id": "tm-nke",
-          "headline": "Nike Hits 52-Week Low",
-          "ticker": "$NKE",
-          "price": "~ $52",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "summary": "Nike's stock hit a fresh 52-week low near $52 on March 20, weighing on the consumer discretionary sector. The company is reportedly navigating a challenging market environment."
-        },
-        {
-          "id": "tm-lulu",
-          "headline": "Lululemon Shares Struggle on Downbeat Guidance",
-          "ticker": "$LULU",
+          "id": "hon-loser",
+          "headline": "Honeywell International Declines",
+          "ticker": "$HON",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "change": "-3.28%",
+          "changePercent": "-3.28%",
           "direction": "down",
-          "summary": "Despite beating Q4 earnings expectations, Lululemon Athletica shares struggled for direction on Friday. The movement was influenced by downbeat guidance, increased tariff costs, and continued weakness in its Americas segment."
+          "summary": "Honeywell International led losses among Dow components on Friday, March 20."
         },
         {
-          "id": "tm-smci",
-          "headline": "Super Micro Computer Plunges",
-          "ticker": "$SMCI",
+          "id": "nvda-loser",
+          "headline": "Nvidia Faces Losses",
+          "ticker": "$NVDA",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-28.2%",
+          "change": "-3.17%",
+          "changePercent": "-3.17%",
           "direction": "down",
-          "summary": "Shares of Super Micro Computer plunged 28.2% on March 20 after U.S. authorities accused a senior executive and two affiliates of conspiring to smuggle advanced Nvidia-based servers to China."
+          "summary": "Nvidia experienced a significant drop on Friday, March 20, amidst broader market weakness."
+        },
+        {
+          "id": "ba-loser",
+          "headline": "Boeing Down",
+          "ticker": "$BA",
+          "price": "N/A",
+          "change": "-3.00%",
+          "changePercent": "-3.00%",
+          "direction": "down",
+          "summary": "Boeing was among the top losers on the Dow Jones Industrial Average on Friday, March 20."
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-fed-announcement",
-          "headline": "Federal Reserve Holds Rates Steady Amid Inflation Concerns",
-          "summary": "The Federal Open Market Committee (FOMC) decided to maintain the target range for the federal funds rate at 3.50% to 3.75% during its March 18, 2026 meeting. This decision, with only one dissent in favor of a cut, comes despite an upgrade to inflation projections. The Fed is balancing a war-driven energy price shock and a weakening labor market, with the market now pricing in no rate cuts and even a small probability of a rate hike this year.",
+          "id": "sector-rotation-20260323",
+          "headline": "Sector Rotation Continues Amidst Geopolitical Volatility",
+          "summary": "A defined market rotation is underway, with the energy sector continuing to lead, gaining approximately 2.99% for the week ending March 20. Utilities and basic materials were among the worst-performing sectors, down 5.0% and 4.82% respectively for the same period. Investors are reportedly shifting away from software towards defense and energy stocks.",
           "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Utilities",
+            "Defense"
+          ],
+          "timestamp": "2026-03-23T08:00:00Z"
+        },
+        {
+          "id": "economic-data-20260323",
+          "headline": "Inflation Concerns Persist as Fed Holds Rates; PMI Data Expected",
+          "summary": "The Federal Reserve maintained interest rates between 3.50% and 3.75% earlier this week, with inflation concerns still prominent following a 0.7% month-over-month rise in US producer prices in February. Investors are awaiting flash US PMI data due Tuesday for further economic insights. No noteworthy economic indicators were released today, March 23.",
+          "tags": [
+            "Economic News",
             "Fed",
-            "Interest Rates",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "mn-oil-prices",
-          "headline": "Soaring Oil Prices Fuel Inflation Worries and Impact Markets",
-          "summary": "Retail fuel prices are climbing nationwide due to rising crude oil costs, with the national average for regular gasoline reaching $3.925 on March 21, 2026, a 28-cent increase from the previous week. The ongoing conflict in the Middle East, particularly disruptions to shipments through the Strait of Hormuz, is a primary driver of this surge. Elevated oil prices are intensifying inflation concerns and impacting central bank policy expectations globally.",
-          "tags": [
-            "Oil Prices",
             "Inflation",
-            "Geopolitics"
-          ]
+            "PMI"
+          ],
+          "timestamp": "2026-03-23T08:00:00Z"
         },
         {
-          "id": "mn-economic-data",
-          "headline": "Producer Prices Rise as Labor Market Shows Weakness",
-          "summary": "New Producer Price Index (PPI) data released recently showed that producer prices rose more than twice as fast as expected last month. This comes as the labor market continued to show cracks in February, with nonfarm payrolls falling by 92,000 jobs. These economic indicators suggest persistent inflationary pressures alongside a weakening job environment.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Labor Market"
-          ]
-        },
-        {
-          "id": "mn-oracle-growth",
-          "headline": "Oracle's AI Empire Drives Strong Earnings Growth",
-          "summary": "Oracle ($ORCL) reported that its fiscal third-quarter revenue and earnings both grew at least 20%, marking the first time the company has achieved such growth in 15 years. This performance is attributed to Oracle's growing presence in cloud infrastructure services, particularly those purpose-built for AI workloads. The company ended the quarter with a significant $553 billion in remaining purchase obligations.",
+          "id": "earnings-wuxiapptec-20260323",
+          "headline": "WuXi AppTec Scheduled to Report Earnings Today",
+          "summary": "WuXi AppTec ($WUXI) is scheduled to report key corporate earnings today, Monday, March 23, 2026.",
           "tags": [
             "Earnings",
-            "Technology",
-            "AI"
-          ]
+            "WuXi AppTec"
+          ],
+          "timestamp": "2026-03-23T08:00:00Z"
         },
         {
-          "id": "mn-musk-verdict",
-          "headline": "Elon Musk Found Liable in Twitter Shareholder Fraud Case",
-          "summary": "A federal jury found Elon Musk liable on claims he defrauded Twitter shareholders by attempting to drive down the social media company's stock price to renegotiate or withdraw from his $44 billion takeover in 2022. Damages in the case will be determined at a later date.",
+          "id": "mideast-conflict-impact-20260323",
+          "headline": "Middle East Conflict Escalation Fuels Oil Price Surge and Global Economic Threat",
+          "summary": "The ongoing war in the Middle East has entered its fourth week, leading to a significant surge in crude oil prices, with WTI crude hovering near $100 per barrel. The head of the International Energy Agency warned today that the global economy faces a 'major, major threat' from the escalating conflict, which has already caused Asian markets to plunge.",
           "tags": [
-            "Legal",
-            "Social Media",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "mn-auto-sector-woes",
-          "headline": "NTN Driveshaft Plant Closure Signals Automotive Sector Headwinds",
-          "summary": "NTN USA Corp. announced the closure of its CVJ East Plant in Columbus, Indiana, within the next two years. Experts suggest this move, partly influenced by tariffs and declining U.S. auto sales, could be a sign of broader weakness in the automotive manufacturing sector and the local economy.",
-          "tags": [
-            "Automotive",
-            "Manufacturing",
-            "Economic Impact"
-          ]
+            "Geopolitics",
+            "Oil Market",
+            "Global Economy"
+          ],
+          "timestamp": "2026-03-23T08:00:00Z"
         }
       ]
     }
