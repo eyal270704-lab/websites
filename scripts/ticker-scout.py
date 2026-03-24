@@ -161,6 +161,11 @@ def main():
     # Single stage: Gemini + Google Search grounding extracts tickers directly
     log("Asking Gemini to analyze video and select tickers...")
     tickers = select_tickers_with_gemini(video_url, api_key, args.count, args.quiet)
+
+    if not tickers:
+        log("No tickers found in video. Nothing to analyze.")
+        sys.exit(0)
+
     log(f"\nTop {args.count} picks: {', '.join(tickers)}")
 
     if args.no_trades:
