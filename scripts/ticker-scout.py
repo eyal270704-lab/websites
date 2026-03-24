@@ -83,7 +83,7 @@ def select_tickers_with_gemini(video_url, api_key, count, quiet=False):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-pro',
+            model='gemini-2.5-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[grounding_tool],
