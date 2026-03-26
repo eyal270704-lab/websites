@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-26T08:01:00Z",
+  "generatedAt": "2026-03-26T12:51:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 26, 2026",
+  "subtitle": "Thursday, March 26, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,13 +14,13 @@
       "items": [
         {
           "id": "market-summary-20260326",
-          "headline": "US Market Shows Positive Performance Amid Geopolitical Uncertainty",
-          "summary": "The U.S. stock market demonstrated positive performance on March 26, 2026, initially buoyed by news of a planned US-Iran ceasefire. This development fostered a sense of potential stability on Wall Street. However, market sentiment remains vigilant as reports surfaced of Iran's rejection of the proposed US peace plan, leading to continued fluctuations in crude oil prices and persistent geopolitical uncertainty. Concurrently, the technology sector, particularly semiconductor companies, experienced a notable rebound after facing losses in previous sessions.",
+          "headline": "U.S. Futures Decline Amid Geopolitical Tensions; Oil Prices Rise",
+          "summary": "U.S. stock futures are trading lower this Thursday, indicating a potential reversal of Wednesday's gains, as renewed uncertainty surrounding the U.S.-Iran conflict weighs on investor sentiment. Oil prices have moved higher, contributing to concerns over inflation and global supply chains. Asian and European markets also opened lower.",
           "tags": [
-            "Market Overview",
+            "Global Markets",
             "Geopolitics",
             "Oil Prices",
-            "Tech Rebound"
+            "Inflation"
           ]
         }
       ]
@@ -33,89 +33,77 @@
       "items": [
         {
           "id": "sp500-20260326",
-          "statLabel": "S&P 500",
-          "statValue": "6,591.90",
-          "statContext": "+0.54%"
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.65%",
+          "statContext": "Pre-market movement"
         },
         {
           "id": "nasdaq-20260326",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "21,929.83",
-          "statContext": "+0.77%"
+          "statLabel": "NASDAQ Futures",
+          "statValue": "-0.8%",
+          "statContext": "Pre-market movement"
         },
         {
           "id": "dow-20260326",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,429.49",
-          "statContext": "+0.66%"
+          "statLabel": "Dow Jones Futures",
+          "statValue": "-0.6%",
+          "statContext": "Pre-market movement"
+        },
+        {
+          "id": "sp500-early-20260326",
+          "statLabel": "S&P 500 (Early Trade)",
+          "statValue": "6,576.25",
+          "statContext": "-0.07% as of 4:00 AM EST"
+        },
+        {
+          "id": "nasdaq-early-20260326",
+          "statLabel": "NASDAQ (Early Trade)",
+          "statValue": "21,840.05",
+          "statContext": "-0.49% as of 4:00 AM EST"
+        },
+        {
+          "id": "dow-early-20260326",
+          "statLabel": "Dow Jones (Early Trade)",
+          "statValue": "46,256.88",
+          "statContext": "+0.10% as of 4:00 AM EST"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (March 25, 2026 Close)",
+      "title": "Top Movers (Early Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ugro-gainer",
-          "headline": "urban-gro, Inc. leads gainers",
-          "ticker": "$UGRO",
-          "price": "$36.30",
-          "change": "+$29.28",
-          "changePercent": "+417.09%",
+          "id": "smci-gainer-20260326",
+          "headline": "Super Micro Computer Inc. Rises",
+          "ticker": "$SMCI",
+          "price": "$24.05",
+          "change": "+$1.82",
+          "changePercent": "+8.19%",
           "direction": "up",
-          "summary": "urban-gro, Inc. experienced a significant surge."
+          "summary": "Shares of Super Micro Computer Inc. are showing early gains."
         },
         {
-          "id": "rmsg-gainer",
-          "headline": "Real Messenger Corporation also rises",
-          "ticker": "$RMSG",
-          "price": "$0.64",
-          "change": "+$0.29",
-          "changePercent": "+82.92%",
-          "direction": "up",
-          "summary": "Real Messenger Corporation showed strong gains."
-        },
-        {
-          "id": "nxtt-gainer",
-          "headline": "Next Technology Holding Inc. sees considerable increase",
-          "ticker": "$NXTT",
-          "price": "$1.73",
-          "change": "+$0.73",
-          "changePercent": "+73.00%",
-          "direction": "up",
-          "summary": "Next Technology Holding Inc. posted a notable increase."
-        },
-        {
-          "id": "batl-loser",
-          "headline": "Battalion Oil Corporation among top losers",
-          "ticker": "$BATL",
-          "price": "$5.04",
-          "change": "-$4.09",
-          "changePercent": "-44.81%",
+          "id": "skhynix-loser-20260326",
+          "headline": "SK Hynix Shares Decline",
+          "ticker": "$SKHY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.2%",
           "direction": "down",
-          "summary": "Battalion Oil Corporation saw a significant decline."
+          "summary": "SK Hynix, a key memory chip maker for AI, saw its shares drop amidst news of a Google breakthrough impacting memory demand."
         },
         {
-          "id": "fchl-loser",
-          "headline": "Fitness Champs Holdings Limited drops",
-          "ticker": "$FCHL",
-          "price": "$1.71",
-          "change": "-$1.23",
-          "changePercent": "-41.92%",
+          "id": "mu-loser-20260326",
+          "headline": "Micron Technology Falls",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.9% (After-hours)",
           "direction": "down",
-          "summary": "Fitness Champs Holdings Limited experienced a sharp drop."
-        },
-        {
-          "id": "elab-loser",
-          "headline": "PMGC Holdings Inc. also falls",
-          "ticker": "$ELAB",
-          "price": "$1.79",
-          "change": "-$1.10",
-          "changePercent": "-38.06%",
-          "direction": "down",
-          "summary": "PMGC Holdings Inc. was down considerably."
+          "summary": "Micron Technology shares continued their decline after hours, following a 3.4% loss on Wednesday due to the same Google AI memory news."
         }
       ]
     },
@@ -126,42 +114,53 @@
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-oil",
-          "headline": "Geopolitical Tensions and Oil Prices Influence Markets",
-          "summary": "Initial hopes for a US-Iran ceasefire provided market support, but diplomatic complexities, including reports of Iran's rejection of the US peace proposal and ongoing regional conflicts, led to volatility in oil prices. West Texas Intermediate (WTI) crude saw an initial retreat, while Brent crude later rose, reflecting sustained uncertainty in the Middle East and its impact on global energy markets.",
+          "id": "iran-conflict-20260326",
+          "headline": "U.S.-Iran Conflict Escalates Concerns, Pushing Oil Higher",
+          "summary": "Hopes for a ceasefire in the U.S.-Iran conflict have diminished today as Tehran reportedly rejected peace proposals, leading to a rebound in crude oil prices. Brent crude is up 3.4% to $100.61 per barrel, and WTI crude is 3.2% higher at $93.25 a barrel. The ongoing tensions are a primary driver of current market uncertainty.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Energy Sector"
+            "Global Economy"
           ]
         },
         {
-          "id": "tech-sector-rebound",
-          "headline": "Technology Sector Leads Gains as Semiconductors Rebound",
-          "summary": "The technology sector emerged as the best-performing segment on March 26, registering a 1.3% gain. This rebound was largely driven by strong performance from semiconductor companies, with AMD jumping over 7% and Nvidia gaining 2%, indicating a rotation back into growth stocks after recent declines.",
+          "id": "tech-sector-impact-20260326",
+          "headline": "Technology Sector Faces Headwinds from AI Memory Breakthrough",
+          "summary": "Despite being a strong performer recently, the technology sector, particularly memory manufacturers like SK Hynix and Micron Technology, is experiencing declines today. This follows news of a Google breakthrough in AI memory, raising concerns about future demand for existing memory technologies.",
           "tags": [
-            "Sector Analysis",
             "Technology",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "economic-data-fed",
-          "headline": "Jobless Claims and Fed Speeches in Focus",
-          "summary": "Investors are closely monitoring upcoming U.S. labor market data, with the release of initial jobless claims for the past week expected around 211,000. Additionally, Federal Reserve members Stephen Miran and Lisa Cook are scheduled to deliver speeches today, March 26, which could offer fresh perspectives on monetary policy and the broader economic outlook.",
-          "tags": [
-            "Economic Data",
-            "Fed",
-            "Labor Market"
+            "AI",
+            "Semiconductors",
+            "Sector Analysis"
           ]
         },
         {
           "id": "earnings-reports-20260326",
-          "headline": "Key Companies Release Earnings Today",
-          "summary": "March 26, 2026, saw several companies release their earnings reports. Pony.ai ($PONY) announced its Q4 2025 earnings. Enerpac Tool Group ($EPAC) reported its second-quarter fiscal 2026 results, indicating a 6% increase in net sales but a decline in net earnings and diluted EPS. 22nd Century Group, Inc. ($XXII) also hosted a webcast to discuss its Q4 and full-year 2025 results. Lufax ($LU) reported Q4 2025 earnings and was observed trading down following an earnings miss.",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Several companies are scheduled to report earnings today. Lovesac ($LOVE) is holding its Q4 2026 earnings call. Commercial Metals Company ($CMC), Rockwell Medical ($RMTI), Blink Charging Co ($BLNK), and Veritone ($VERI) are also among those expected to release their results. After market close, companies like AAR Corp ($AIR), Braze ($BRZE), Argan ($AGX), and Torrid ($CURV) have earnings pending.",
           "tags": [
             "Earnings",
             "Corporate News"
+          ]
+        },
+        {
+          "id": "meta-layoffs-20260326",
+          "headline": "Meta Platforms Announces Further Job Cuts",
+          "summary": "Meta Platforms ($META) has reportedly slashed approximately 700 jobs across various teams, including Reality Labs and social media divisions, as the company seeks greater cost control amid its substantial investments in AI infrastructure.",
+          "tags": [
+            "Technology",
+            "Layoffs",
+            "Meta"
+          ]
+        },
+        {
+          "id": "economic-outlook-sgv-20260326",
+          "headline": "San Gabriel Valley Economic Forecast Warns of 'Neutral Gear' Economy",
+          "summary": "A new report for the San Gabriel Valley indicates modest economic growth for 2026 but warns that persistent uncertainty, supply chain bottlenecks, and rising operating costs are hindering momentum and straining small businesses. The report describes the regional economy as 'stuck in neutral,' avoiding recession but constrained by these factors.",
+          "tags": [
+            "Economy",
+            "Regional Economy",
+            "Business Conditions"
           ]
         }
       ]
