@@ -1,157 +1,171 @@
 {
-  "generatedAt": "2026-03-27T07:58:00Z",
+  "generatedAt": "2026-03-27T12:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 27, 2026",
+  "subtitle": "March 27, 2026 - Wall Street Experiences Broad Decline Amid Geopolitical Tensions",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Cautious Optimism Amid Geopolitical Tensions",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260327",
-          "headline": "Global Markets Mixed as Middle East Fears Persist, Inflation Worries Mount",
-          "summary": "As of Friday, March 27, 2026, global markets are exhibiting mixed sentiment. US futures are showing a modest bounce after Wall Street experienced its steepest declines since the onset of the Iran conflict. Persistent geopolitical tensions and surging energy prices continue to fuel inflation worries and heightened stagflation concerns. While individual investors are surprisingly still buying, overall market sentiment remains in 'risk-off territory' for many. Economic data releases today, including consumer sentiment and remarks from Fed officials, are closely watched for further direction.",
+          "id": "overall-summary",
+          "headline": "U.S. Equities Close Lower as Iran Tensions Escalate and Oil Prices Rise",
+          "summary": "Wall Street concluded Thursday with significant losses across major indices, marking its worst day since the onset of the Iran conflict. Investors reacted cautiously to escalating geopolitical risks, a rebound in crude oil prices, and surging bond yields, prompting a move away from riskier assets. The Nasdaq Composite entered 'correction' territory.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
             "Geopolitics",
-            "Inflation"
-          ]
+            "Oil Prices"
+          ],
+          "timestamp": "2026-03-27T12:40:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (As of Thursday's Close, Pre-market Friday)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,477.16",
-          "statContext": "Down 1.74% on Thursday. US500 CFD gained 0.68% to 6521 on Friday.",
-          "direction": "down"
+          "statContext": "-1.7% (-114.74)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "21,408.08",
-          "statContext": "Tumbled 2.38% on Thursday, entering correction territory.",
-          "direction": "down"
+          "statContext": "-2.4% (-524.36)"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "45,960.11",
-          "statContext": "Fell 1.01% on Thursday.",
-          "direction": "down"
-        },
-        {
-          "id": "us-futures-premarket",
-          "statLabel": "US Futures",
-          "statValue": "+0.3%",
-          "statContext": "Up more than 0.3% pre-market Friday, pointing to a firmer open.",
-          "direction": "up"
+          "statContext": "-1.0% (-469.38)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers & Notable Stock Activity",
+      "title": "Top Movers (S&P 500 - March 26 data for reference)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ccl-earnings",
-          "headline": "Carnival Faces Margin Pressure Ahead of Earnings",
-          "summary": "Carnival Corporation ($CCL) is scheduled to report Q1 earnings before market open today. The stock has dropped significantly since the Iran war began, with surging fuel costs pressuring margins. Analysts expect $0.18 EPS on $6.14 billion in revenue.",
-          "ticker": "$CCL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "flat"
-        },
-        {
-          "id": "ivf-split",
-          "headline": "INVO Fertility Completes 1-for-5 Reverse Stock Split",
-          "summary": "INVO Fertility, Inc. ($IVF) commenced trading on a post-split basis today after a 1-for-5 reverse stock split, aiming to raise its per-share price. This change is effective pre-market, March 27, 2026.",
-          "ticker": "$IVF",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "flat"
-        },
-        {
-          "id": "smci-gain-march26",
-          "headline": "Super Micro Computer Led March 26 Premarket Gains",
-          "summary": "On Thursday, Super Micro Computer Inc. ($SMCI) gained over 8.19% in premarket trading, leading early movers in the AI infrastructure space amidst strong demand for high-performance computing hardware.",
-          "ticker": "$SMCI",
-          "price": "~$24.05",
-          "change": "+$1.82",
-          "changePercent": "+8.19%",
+          "id": "gainer-bfb",
+          "headline": "Brown-Forman Leads Gainers",
+          "summary": "Brown-Forman (BF-B) saw a significant jump of 9.6% on Thursday, making it the top S&P 500 gainer.",
+          "ticker": "$BF-B",
+          "price": "$25.74",
+          "change": "+$2.25",
+          "changePercent": "+9.58%",
           "direction": "up"
         },
         {
-          "id": "hpe-gain-march26",
-          "headline": "Hewlett Packard Enterprise Rises on Sector Rotation",
-          "summary": "Hewlett Packard Enterprise Co. ($HPE) saw strong gains of about 7.87% in premarket on Thursday, benefiting from sector rotation and positive momentum in hardware tied to data center expansion.",
-          "ticker": "$HPE",
-          "price": "~$25.78",
-          "change": "+$1.88",
-          "changePercent": "+7.87%",
+          "id": "gainer-vlo",
+          "headline": "Valero Energy Rises Amid Oil Gains",
+          "summary": "Valero Energy (VLO) gained 5.8% as oil prices continued to climb, benefitting the energy sector.",
+          "ticker": "$VLO",
+          "price": "$248.14",
+          "change": "+$13.60",
+          "changePercent": "+5.80%",
           "direction": "up"
+        },
+        {
+          "id": "loser-lite",
+          "headline": "Lumentum Plunges",
+          "summary": "Lumentum (LITE) was among the biggest S&P 500 losers, falling 11.4%.",
+          "ticker": "$LITE",
+          "price": "N/A",
+          "change": "-11.4%",
+          "changePercent": "-11.4%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-cien",
+          "headline": "Ciena Drops Sharply",
+          "summary": "Ciena (CIEN) also experienced a significant decline of 11.4% on Thursday.",
+          "ticker": "$CIEN",
+          "price": "N/A",
+          "change": "-11.4%",
+          "changePercent": "-11.4%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-nvda",
+          "headline": "NVIDIA Shares Fall",
+          "summary": "NVIDIA Corporation ($NVDA) was a major loser for the Dow, with its stock price falling 4.2%.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "-4.2%",
+          "changePercent": "-4.2%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-sentiment",
-          "headline": "Consumer Sentiment Dips to Lowest of the Year",
-          "summary": "The University of Michigan's consumer sentiment index dipped about 2% to its lowest reading of the year. This decline is largely attributed to the impact of the military action in Iran and rising gasoline prices.",
+          "id": "iran-conflict-impact",
+          "headline": "Iran Conflict and Oil Prices Weigh on Global Markets",
+          "summary": "Global shares were mostly lower and oil prices gained after Wall Street's significant decline, driven by uncertainty surrounding the Iran conflict and rising energy costs. Brent crude topped $110 per barrel.",
           "tags": [
-            "Economic Data",
-            "Consumer Confidence"
-          ]
-        },
-        {
-          "id": "fed-speak-inflation",
-          "headline": "Fed Officials to Speak, Inflation Remains a Key Concern",
-          "summary": "Federal Reserve Bank officials Mary Daly and Thomas Barkin are scheduled to speak today, with markets listening for clues on monetary policy. Earlier this week, Fed Vice Chair Philip Jefferson warned that high energy prices could exacerbate inflation. The Federal Reserve maintained the federal funds rate in its March meeting.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "oil-geopolitics",
-          "headline": "Oil Prices Remain Elevated Amid Iran Conflict",
-          "summary": "Brent crude futures are hovering around $107.8 a barrel as persistent concerns over prolonged tensions in the Middle East continue to impact oil supply and global inflationary pressures. The Strait of Hormuz remains largely closed.",
-          "tags": [
-            "Commodities",
             "Geopolitics",
-            "Oil Prices"
-          ]
+            "Oil Prices",
+            "Global Markets"
+          ],
+          "timestamp": "2026-03-27T04:48:00Z"
         },
         {
-          "id": "sector-rotation",
-          "headline": "Healthcare Sector Accelerates, Technology Faces Selling Pressure",
-          "summary": "A market rotation is underway, with the Healthcare sector showing an aggressive positive momentum shift. Meanwhile, Information Technology is experiencing intense selling pressure and moving towards a lagging position, while Energy and Utilities remain strong.",
+          "id": "sector-performance",
+          "headline": "Communication Services, Tech, and Industrials Lead Declines; Energy Gains",
+          "summary": "On Thursday, the Communication Services, Information Technology, and Industrials sectors saw the largest declines, falling 3.5%, 2.7%, and 2.3% respectively. In contrast, the Energy sector managed to rise by 1.6%.",
           "tags": [
             "Sector Analysis",
-            "Healthcare",
-            "Technology"
+            "Technology",
+            "Energy"
           ]
+        },
+        {
+          "id": "consumer-sentiment",
+          "headline": "Retail Investors Continue Buying Amid Market Worries",
+          "summary": "Despite market crash fears, rising oil prices, and inflation concerns, a new survey indicates that 58% of individual investors plan to buy more stocks in 2026, with Gen Z and millennials leading the trend.",
+          "tags": [
+            "Investor Sentiment",
+            "Economy",
+            "Retail Investors"
+          ],
+          "timestamp": "2026-03-27T08:00:00Z"
+        },
+        {
+          "id": "economic-data-unemployment",
+          "headline": "Unemployment Claims Show Further Decrease",
+          "summary": "Initial jobless claims decreased by 250, with the 4-week moving average at 210,500. Continuing claims also fell, reaching their lowest level since October 5, 2024.",
+          "tags": [
+            "Economic Data",
+            "Labor Market"
+          ],
+          "timestamp": "2026-03-27T08:30:00Z"
+        },
+        {
+          "id": "govt-shutdown-deal",
+          "headline": "Senate Paves Way to End DHS Partial Shutdown",
+          "summary": "The Senate advanced a deal to fund the Department of Homeland Security, including TSA workers, potentially ending a partial government shutdown. The agreement notably excludes funding for immigration operations.",
+          "tags": [
+            "Government",
+            "Economic Policy"
+          ],
+          "timestamp": "2026-03-27T12:18:00Z"
         }
       ]
     }
