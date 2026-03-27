@@ -1,32 +1,31 @@
 {
-  "generatedAt": "2026-03-27T12:40:00Z",
+  "generatedAt": "2026-03-27T16:59:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 27, 2026 - Wall Street Experiences Broad Decline Amid Geopolitical Tensions",
+  "subtitle": "March 27, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "overall-summary",
-          "headline": "U.S. Equities Close Lower as Iran Tensions Escalate and Oil Prices Rise",
-          "summary": "Wall Street concluded Thursday with significant losses across major indices, marking its worst day since the onset of the Iran conflict. Investors reacted cautiously to escalating geopolitical risks, a rebound in crude oil prices, and surging bond yields, prompting a move away from riskier assets. The Nasdaq Composite entered 'correction' territory.",
+          "id": "market-overview-20260327",
+          "headline": "US Equities Slide as Geopolitical Tensions and Inflation Fears Mount",
+          "summary": "U.S. equities closed lower on Friday, marking what could be the longest weekly losing streak in nearly four years, as escalating geopolitical tensions surrounding the Iran conflict and rising oil prices dampened investor sentiment. The Nasdaq Composite officially entered correction territory, dropping more than 10% from its October peak. Consumer sentiment also saw a significant decline in March, driven by concerns over higher gasoline prices and volatile financial markets. Crude oil benchmarks, Brent and WTI, continued their upward trajectory, topping $104 and $97 per barrel respectively.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
             "Geopolitics",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-03-27T12:40:00Z"
+            "Inflation"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
@@ -35,137 +34,158 @@
           "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,477.16",
-          "statContext": "-1.7% (-114.74)"
+          "statContext": "Down 1.7% (-114.74 pts)"
         },
         {
           "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "21,408.08",
-          "statContext": "-2.4% (-524.36)"
+          "statContext": "Down 2.4% (-521 pts)"
         },
         {
           "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "45,960.11",
-          "statContext": "-1.0% (-469.38)"
+          "statContext": "Down 1.0% (-469.38 pts)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (S&P 500 - March 26 data for reference)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-bfb",
-          "headline": "Brown-Forman Leads Gainers",
-          "summary": "Brown-Forman (BF-B) saw a significant jump of 9.6% on Thursday, making it the top S&P 500 gainer.",
-          "ticker": "$BF-B",
-          "price": "$25.74",
-          "change": "+$2.25",
-          "changePercent": "+9.58%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-vlo",
-          "headline": "Valero Energy Rises Amid Oil Gains",
-          "summary": "Valero Energy (VLO) gained 5.8% as oil prices continued to climb, benefitting the energy sector.",
+          "id": "vlo-gainer",
           "ticker": "$VLO",
-          "price": "$248.14",
-          "change": "+$13.60",
+          "price": "N/A",
+          "change": "+5.80%",
           "changePercent": "+5.80%",
-          "direction": "up"
+          "direction": "up",
+          "headline": "Valero Energy Surges on Price Target Hikes",
+          "summary": "Valero Energy ($VLO) jumped 5.80% following fresh price target increases from Raymond James and BofA."
         },
         {
-          "id": "loser-lite",
-          "headline": "Lumentum Plunges",
-          "summary": "Lumentum (LITE) was among the biggest S&P 500 losers, falling 11.4%.",
-          "ticker": "$LITE",
+          "id": "oxy-gainer",
+          "ticker": "$OXY",
           "price": "N/A",
-          "change": "-11.4%",
-          "changePercent": "-11.4%",
-          "direction": "down"
+          "change": "+4.06%",
+          "changePercent": "+4.06%",
+          "direction": "up",
+          "headline": "Occidental Petroleum Rises Amid CEO Retirement Reports",
+          "summary": "Occidental Petroleum ($OXY) added 4.06% after reports indicated CEO Vicki Hollub is preparing to retire."
         },
         {
-          "id": "loser-cien",
-          "headline": "Ciena Drops Sharply",
-          "summary": "Ciena (CIEN) also experienced a significant decline of 11.4% on Thursday.",
-          "ticker": "$CIEN",
+          "id": "cf-gainer",
+          "ticker": "$CF",
           "price": "N/A",
-          "change": "-11.4%",
-          "changePercent": "-11.4%",
-          "direction": "down"
+          "change": "+3.47%",
+          "changePercent": "+3.47%",
+          "direction": "up",
+          "headline": "CF Industries Climbs After UBS Price Target Increase",
+          "summary": "CF Industries Holdings ($CF) climbed 3.47% after UBS raised its price target on the fertilizer producer."
         },
         {
-          "id": "loser-nvda",
-          "headline": "NVIDIA Shares Fall",
-          "summary": "NVIDIA Corporation ($NVDA) was a major loser for the Dow, with its stock price falling 4.2%.",
+          "id": "nvda-loser",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "-4.2%",
           "changePercent": "-4.2%",
-          "direction": "down"
+          "direction": "down",
+          "headline": "NVIDIA Leads Dow Losers",
+          "summary": "NVIDIA Corporation ($NVDA) was the Dow's major loser, with its stock price falling 4.2%."
+        },
+        {
+          "id": "lite-loser",
+          "ticker": "$LITE",
+          "price": "N/A",
+          "change": "-11.37%",
+          "changePercent": "-11.37%",
+          "direction": "down",
+          "headline": "Lumentum Holdings Drops on New Facility Investment News",
+          "summary": "Lumentum Holdings ($LITE) dropped 11.37% after announcing a major new U.S. manufacturing facility investment."
+        },
+        {
+          "id": "cien-loser",
+          "ticker": "$CIEN",
+          "price": "N/A",
+          "change": "-11.36%",
+          "changePercent": "-11.36%",
+          "direction": "down",
+          "headline": "Ciena Falls Despite Analyst Upgrade",
+          "summary": "Ciena ($CIEN) fell 11.36% despite a recent price target increase from Stifel."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "iran-conflict-impact",
-          "headline": "Iran Conflict and Oil Prices Weigh on Global Markets",
-          "summary": "Global shares were mostly lower and oil prices gained after Wall Street's significant decline, driven by uncertainty surrounding the Iran conflict and rising energy costs. Brent crude topped $110 per barrel.",
+          "id": "economic-sentiment-iran-war",
+          "headline": "Consumer Sentiment Dips as Iran War Fuels Inflation Concerns",
+          "summary": "U.S. consumer sentiment dropped to 53.3 in March, the lowest level since December 2025, primarily due to the ongoing Iran conflict and the resultant surge in gas prices. Americans' inflation expectations for the next 12 months rose to 3.8% from 3.4% in February, marking the largest one-month increase in nearly a year.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Global Markets"
-          ],
-          "timestamp": "2026-03-27T04:48:00Z"
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Communication Services, Tech, and Industrials Lead Declines; Energy Gains",
-          "summary": "On Thursday, the Communication Services, Information Technology, and Industrials sectors saw the largest declines, falling 3.5%, 2.7%, and 2.3% respectively. In contrast, the Energy sector managed to rise by 1.6%.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
+            "Economic Data",
+            "Consumer Sentiment",
+            "Inflation",
+            "Geopolitics"
           ]
         },
         {
-          "id": "consumer-sentiment",
-          "headline": "Retail Investors Continue Buying Amid Market Worries",
-          "summary": "Despite market crash fears, rising oil prices, and inflation concerns, a new survey indicates that 58% of individual investors plan to buy more stocks in 2026, with Gen Z and millennials leading the trend.",
+          "id": "fed-barkin-comments",
+          "headline": "Fed's Barkin Highlights Iran War's Complications on Economic Outlook",
+          "summary": "Richmond Fed President Thomas Barkin stated that the Iran war has significantly complicated the economic outlook, posing risks to both inflation and consumer demand. He noted that holding interest rates steady in March was a prudent decision given the elevated uncertainty.",
           "tags": [
-            "Investor Sentiment",
-            "Economy",
-            "Retail Investors"
-          ],
-          "timestamp": "2026-03-27T08:00:00Z"
+            "Federal Reserve",
+            "Economic Outlook",
+            "Monetary Policy"
+          ]
         },
         {
-          "id": "economic-data-unemployment",
-          "headline": "Unemployment Claims Show Further Decrease",
-          "summary": "Initial jobless claims decreased by 250, with the 4-week moving average at 210,500. Continuing claims also fell, reaching their lowest level since October 5, 2024.",
+          "id": "oil-market-geopolitics",
+          "headline": "Oil Prices Climb Amid Continued Strait of Hormuz Closure and Geopolitical Uncertainty",
+          "summary": "Despite President Trump's repeated extensions of the deadline for Iran to reopen the Strait of Hormuz, the waterway remains effectively closed, contributing to a sustained rise in global oil prices. Brent crude is trading above $104 per barrel, and WTI around $97 per barrel, significantly higher than pre-conflict levels. This geopolitical instability remains a dominant market driver.",
           "tags": [
-            "Economic Data",
-            "Labor Market"
-          ],
-          "timestamp": "2026-03-27T08:30:00Z"
+            "Energy Markets",
+            "Geopolitics",
+            "Oil Prices"
+          ]
         },
         {
-          "id": "govt-shutdown-deal",
-          "headline": "Senate Paves Way to End DHS Partial Shutdown",
-          "summary": "The Senate advanced a deal to fund the Department of Homeland Security, including TSA workers, potentially ending a partial government shutdown. The agreement notably excludes funding for immigration operations.",
+          "id": "sector-performance-overview",
+          "headline": "Energy Sector Shows Resilience, Tech and Industrials Lag",
+          "summary": "While the broader market faced declines, the Energy sector demonstrated resilience with gains. In contrast, the Communication Services, Information Technology, and Industrials sectors were among the day's biggest decliners. Metals and mining stocks have experienced substantial losses since the onset of the Iran war.",
           "tags": [
-            "Government",
-            "Economic Policy"
-          ],
-          "timestamp": "2026-03-27T12:18:00Z"
+            "Sector Analysis",
+            "Energy",
+            "Technology",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "earnings-reports-summary",
+          "headline": "Major Companies Report Earnings, Analyst Ratings Updated",
+          "summary": "Carnival ($CCL), Kopin ($KOPN), Autolus Therapeutics ($AUTL), TMC the metals company Inc. ($TMC), Humacyte ($HUMA), and Legence Corp. Class A ($LGN) are among the companies expected to report earnings today. Analysts at Wedbush reiterated an outperform rating on Apple ($AAPL), while Wells Fargo maintained an overweight rating on Nvidia ($NVDA) and Alphabet ($GOOG).",
+          "tags": [
+            "Earnings",
+            "Company News",
+            "Analyst Ratings"
+          ]
+        },
+        {
+          "id": "china-trade-probes",
+          "headline": "China Initiates Retaliatory Trade Probes Against U.S.",
+          "summary": "Adding to market jitters, China's Commerce Ministry launched two retaliatory trade probes against the U.S. This move comes in response to earlier U.S. trade investigations and could heighten tensions between the two economic powers.",
+          "tags": [
+            "Trade Relations",
+            "Geopolitics",
+            "China",
+            "United States"
+          ]
         }
       ]
     }
