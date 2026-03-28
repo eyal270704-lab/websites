@@ -1,23 +1,24 @@
 {
-  "generatedAt": "2026-03-27T16:59:00Z",
+  "generatedAt": "2026-03-28T07:42:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "March 27, 2026",
+  "title": "Daily Market Digest: Major Indices Enter Correction Amid Geopolitical Tensions",
+  "subtitle": "March 28, 2026 Market Close",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overview-20260327",
-          "headline": "US Equities Slide as Geopolitical Tensions and Inflation Fears Mount",
-          "summary": "U.S. equities closed lower on Friday, marking what could be the longest weekly losing streak in nearly four years, as escalating geopolitical tensions surrounding the Iran conflict and rising oil prices dampened investor sentiment. The Nasdaq Composite officially entered correction territory, dropping more than 10% from its October peak. Consumer sentiment also saw a significant decline in March, driven by concerns over higher gasoline prices and volatile financial markets. Crude oil benchmarks, Brent and WTI, continued their upward trajectory, topping $104 and $97 per barrel respectively.",
+          "id": "market-summary-20260328",
+          "headline": "Stocks Tumble as Dow Confirms Correction Territory, Fifth Straight Weekly Decline for Major Indices",
+          "summary": "U.S. equities experienced a significant downturn on Friday, March 28, 2026, marking the fifth consecutive week of losses, the longest streak in nearly four years. Escalating Middle East tensions, surging oil prices, and persistent inflation concerns fueled a broad market sell-off, pushing the Dow Jones Industrial Average into correction territory. Consumer sentiment also eased to a three-month low, reflecting growing economic uncertainty.",
           "tags": [
-            "Market Summary",
+            "Market Sentiment",
+            "Correction",
             "Geopolitics",
             "Inflation"
           ]
@@ -25,166 +26,141 @@
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-20260328",
           "statLabel": "S&P 500",
-          "statValue": "6,477.16",
-          "statContext": "Down 1.7% (-114.74 pts)"
+          "statValue": "6,368.85",
+          "statContext": "Down 1.67%",
+          "change": "-108.31",
+          "changePercent": "-1.67%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "21,408.08",
-          "statContext": "Down 2.4% (-521 pts)"
-        },
-        {
-          "id": "dow-stat",
+          "id": "dow-20260328",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "45,960.11",
-          "statContext": "Down 1.0% (-469.38 pts)"
+          "statValue": "45,166.64",
+          "statContext": "Down 1.73%",
+          "change": "-793.47",
+          "changePercent": "-1.73%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-20260328",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "20,948.36",
+          "statContext": "Down 2.15%",
+          "change": "-459.72",
+          "changePercent": "-2.15%",
+          "direction": "down"
+        },
+        {
+          "id": "vix-20260328",
+          "statLabel": "CBOE Volatility Index ($VIX)",
+          "statValue": "31.05",
+          "statContext": "Up 3.61 points, highest close since April 21",
+          "change": "+3.61",
+          "changePercent": "",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vlo-gainer",
-          "ticker": "$VLO",
+          "id": "xom-gainer-20260328",
+          "headline": "Energy Sector Outperforms Amid Surging Oil Prices",
+          "summary": "Exxon Mobil ($XOM) saw gains as U.S. crude prices climbed 5.46% to settle at $99.64 a barrel, driven by geopolitical tensions.",
+          "ticker": "$XOM",
           "price": "N/A",
-          "change": "+5.80%",
-          "changePercent": "+5.80%",
-          "direction": "up",
-          "headline": "Valero Energy Surges on Price Target Hikes",
-          "summary": "Valero Energy ($VLO) jumped 5.80% following fresh price target increases from Raymond James and BofA."
+          "change": "N/A",
+          "changePercent": "+3.5%",
+          "direction": "up"
         },
         {
-          "id": "oxy-gainer",
-          "ticker": "$OXY",
+          "id": "amzn-loser-20260328",
+          "headline": "Amazon Drags on S&P 500",
+          "summary": "Megacap technology stocks were a significant drag on the market, with Amazon ($AMZN) experiencing a notable decline.",
+          "ticker": "$AMZN",
           "price": "N/A",
-          "change": "+4.06%",
-          "changePercent": "+4.06%",
-          "direction": "up",
-          "headline": "Occidental Petroleum Rises Amid CEO Retirement Reports",
-          "summary": "Occidental Petroleum ($OXY) added 4.06% after reports indicated CEO Vicki Hollub is preparing to retire."
+          "change": "N/A",
+          "changePercent": "-4.0%",
+          "direction": "down"
         },
         {
-          "id": "cf-gainer",
-          "ticker": "$CF",
+          "id": "nclh-loser-20260328",
+          "headline": "Consumer Discretionary Sector Weakness",
+          "summary": "Norwegian Cruise Line Holdings ($NCLH) was among the companies selling non-essential goods and services that sank sharply as consumer sentiment weakened.",
+          "ticker": "$NCLH",
           "price": "N/A",
-          "change": "+3.47%",
-          "changePercent": "+3.47%",
-          "direction": "up",
-          "headline": "CF Industries Climbs After UBS Price Target Increase",
-          "summary": "CF Industries Holdings ($CF) climbed 3.47% after UBS raised its price target on the fertilizer producer."
+          "change": "N/A",
+          "changePercent": "-6.9%",
+          "direction": "down"
         },
         {
-          "id": "nvda-loser",
-          "ticker": "$NVDA",
+          "id": "meta-loser-20260328",
+          "headline": "Meta Platforms Experiences Steep Decline",
+          "summary": "Meta Platforms ($META) fell significantly as the technology sector faced intense selling pressure.",
+          "ticker": "$META",
           "price": "N/A",
-          "change": "-4.2%",
-          "changePercent": "-4.2%",
-          "direction": "down",
-          "headline": "NVIDIA Leads Dow Losers",
-          "summary": "NVIDIA Corporation ($NVDA) was the Dow's major loser, with its stock price falling 4.2%."
-        },
-        {
-          "id": "lite-loser",
-          "ticker": "$LITE",
-          "price": "N/A",
-          "change": "-11.37%",
-          "changePercent": "-11.37%",
-          "direction": "down",
-          "headline": "Lumentum Holdings Drops on New Facility Investment News",
-          "summary": "Lumentum Holdings ($LITE) dropped 11.37% after announcing a major new U.S. manufacturing facility investment."
-        },
-        {
-          "id": "cien-loser",
-          "ticker": "$CIEN",
-          "price": "N/A",
-          "change": "-11.36%",
-          "changePercent": "-11.36%",
-          "direction": "down",
-          "headline": "Ciena Falls Despite Analyst Upgrade",
-          "summary": "Ciena ($CIEN) fell 11.36% despite a recent price target increase from Stifel."
+          "change": "N/A",
+          "changePercent": "-4.83%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-sentiment-iran-war",
-          "headline": "Consumer Sentiment Dips as Iran War Fuels Inflation Concerns",
-          "summary": "U.S. consumer sentiment dropped to 53.3 in March, the lowest level since December 2025, primarily due to the ongoing Iran conflict and the resultant surge in gas prices. Americans' inflation expectations for the next 12 months rose to 3.8% from 3.4% in February, marking the largest one-month increase in nearly a year.",
+          "id": "geopolitical-tensions-20260328",
+          "headline": "Middle East Tensions Drive Oil Prices Higher, Fuel Inflation Fears",
+          "summary": "Escalating geopolitical tensions in the Middle East, particularly the ongoing conflict involving Iran and concerns over the Strait of Hormuz, continue to exert significant pressure on global financial markets. Oil prices surged, with U.S. crude settling up 5.46% at $99.64 a barrel, intensifying inflation anxieties and contributing to broad-based equity losses.",
           "tags": [
-            "Economic Data",
-            "Consumer Sentiment",
-            "Inflation",
-            "Geopolitics"
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
           ]
         },
         {
-          "id": "fed-barkin-comments",
-          "headline": "Fed's Barkin Highlights Iran War's Complications on Economic Outlook",
-          "summary": "Richmond Fed President Thomas Barkin stated that the Iran war has significantly complicated the economic outlook, posing risks to both inflation and consumer demand. He noted that holding interest rates steady in March was a prudent decision given the elevated uncertainty.",
+          "id": "fed-outlook-20260328",
+          "headline": "Fed Maintains Rates, Rate Cut Hopes Fade Amid Inflation Concerns",
+          "summary": "The Federal Reserve kept interest rates unchanged at its March 18 meeting. With inflation remaining above the Fed's target and surging energy prices, markets are now factoring in no further rate cuts for 2026, with some pricing in a modest chance of a rate hike.",
           "tags": [
             "Federal Reserve",
-            "Economic Outlook",
-            "Monetary Policy"
+            "Interest Rates",
+            "Inflation"
           ]
         },
         {
-          "id": "oil-market-geopolitics",
-          "headline": "Oil Prices Climb Amid Continued Strait of Hormuz Closure and Geopolitical Uncertainty",
-          "summary": "Despite President Trump's repeated extensions of the deadline for Iran to reopen the Strait of Hormuz, the waterway remains effectively closed, contributing to a sustained rise in global oil prices. Brent crude is trading above $104 per barrel, and WTI around $97 per barrel, significantly higher than pre-conflict levels. This geopolitical instability remains a dominant market driver.",
-          "tags": [
-            "Energy Markets",
-            "Geopolitics",
-            "Oil Prices"
-          ]
-        },
-        {
-          "id": "sector-performance-overview",
-          "headline": "Energy Sector Shows Resilience, Tech and Industrials Lag",
-          "summary": "While the broader market faced declines, the Energy sector demonstrated resilience with gains. In contrast, the Communication Services, Information Technology, and Industrials sectors were among the day's biggest decliners. Metals and mining stocks have experienced substantial losses since the onset of the Iran war.",
+          "id": "sector-performance-20260328",
+          "headline": "Energy Leads, Tech and Consumer Discretionary Lag Amid Market Downturn",
+          "summary": "For the week ending March 27, the energy sector was the best-performing, gaining 6.12%. In contrast, communication services and technology were the worst-performing sectors, falling 4.46% and 3.51% respectively, as megacap tech stocks faced selling pressure.",
           "tags": [
             "Sector Analysis",
             "Energy",
             "Technology",
-            "Industrials"
+            "Consumer Discretionary"
           ]
         },
         {
-          "id": "earnings-reports-summary",
-          "headline": "Major Companies Report Earnings, Analyst Ratings Updated",
-          "summary": "Carnival ($CCL), Kopin ($KOPN), Autolus Therapeutics ($AUTL), TMC the metals company Inc. ($TMC), Humacyte ($HUMA), and Legence Corp. Class A ($LGN) are among the companies expected to report earnings today. Analysts at Wedbush reiterated an outperform rating on Apple ($AAPL), while Wells Fargo maintained an overweight rating on Nvidia ($NVDA) and Alphabet ($GOOG).",
+          "id": "consumer-sentiment-20260328",
+          "headline": "U.S. Consumer Sentiment Eases to Three-Month Low in March",
+          "summary": "U.S. consumer sentiment data for March revealed a decline to a three-month low, raising concerns about the broader economic outlook. This weakened sentiment contributed to the market's cautious tone.",
           "tags": [
-            "Earnings",
-            "Company News",
-            "Analyst Ratings"
-          ]
-        },
-        {
-          "id": "china-trade-probes",
-          "headline": "China Initiates Retaliatory Trade Probes Against U.S.",
-          "summary": "Adding to market jitters, China's Commerce Ministry launched two retaliatory trade probes against the U.S. This move comes in response to earlier U.S. trade investigations and could heighten tensions between the two economic powers.",
-          "tags": [
-            "Trade Relations",
-            "Geopolitics",
-            "China",
-            "United States"
+            "Economic Data",
+            "Consumer Sentiment"
           ]
         }
       ]
