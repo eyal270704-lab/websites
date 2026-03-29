@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-28T16:39:00Z",
+  "generatedAt": "2026-03-29T07:51:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Wall Street Caps Fifth Straight Losing Week Amid Geopolitical Turmoil",
-  "subtitle": "Market insights for March 28, 2026",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: Geopolitical Tensions Drive Weekly Losses",
+  "subtitle": "Market Recap for Friday, March 27, 2026, and the Week Ending March 28, 2026",
+  "badge": "Updated March 29, 2026",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,14 +13,16 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-03282026",
-          "headline": "Wall Street Ends Fifth Straight Losing Week as Geopolitical Tensions and Inflation Fears Drive Sell-Off",
-          "summary": "Major U.S. stock indices concluded their fifth consecutive week of declines on Friday, marking the longest losing streak in nearly four years. Heightened geopolitical instability, particularly related to the Iran conflict, propelled oil prices above $100 per barrel, exacerbating inflation concerns and fostering a broad 'risk-off' sentiment among investors. Both the Dow Jones Industrial Average and the Nasdaq Composite have officially entered 'correction' territory, having fallen more than 10% from their recent peak levels. Consumer sentiment has simultaneously deteriorated, slipping to multi-month lows. Not financial advice.",
+          "id": "market-summary-032926",
+          "headline": "U.S. Stocks End Week Lower Amid Geopolitical Uncertainty and Surging Oil Prices",
+          "summary": "U.S. major indices concluded their fifth consecutive week of losses, with the S&P 500 posting its worst performance since the start of the Iran war. Escalating tensions in the Middle East, rising crude oil prices, and climbing Treasury yields fueled a risk-off sentiment, pushing investors toward defensive sectors. Recession odds have reached their highest level in years following weak labor market data and revised GDP figures.",
           "tags": [
-            "Market Summary",
+            "Market Sentiment",
             "Geopolitics",
+            "Oil Prices",
             "Inflation"
-          ]
+          ],
+          "timestamp": "2026-03-29T07:51:00Z"
         }
       ]
     },
@@ -31,105 +33,111 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-03282026",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "6,368.85",
-          "statContext": "Down 1.7% today",
-          "ticker": "^GSPC",
-          "price": "6,368.85",
-          "change": "-108.31",
-          "changePercent": "-1.70%",
-          "direction": "down"
+          "statContext": "Down 1.7% Friday, 2.1% Weekly, 7% YTD."
         },
         {
-          "id": "dow-03282026",
-          "statLabel": "DOW",
-          "statValue": "45,166.64",
-          "statContext": "Lost 1.7% today",
-          "ticker": "^DJI",
-          "price": "45,166.64",
-          "change": "-793.47",
-          "changePercent": "-1.70%",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-03282026",
-          "statLabel": "NASDAQ",
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
           "statValue": "20,948.36",
-          "statContext": "Sank 2.1% today",
-          "ticker": "^IXIC",
-          "price": "20,948.36",
-          "change": "-459.72",
-          "changePercent": "-2.10%",
-          "direction": "down"
+          "statContext": "Down 2.1% Friday, 3.2% Weekly, 9.9% YTD. Entered correction territory."
+        },
+        {
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "45,166.64",
+          "statContext": "Down 1.7% Friday, 1.7% Weekly, 6% YTD."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Week Ending March 28, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nflx-gainer-03282026",
-          "headline": "Netflix Rises on Price Hikes",
-          "summary": "Netflix saw a slight gain today following its announcement of service price increases in the United States.",
-          "ticker": "$NFLX",
+          "id": "gainer-fnf",
+          "headline": "Fidelity National Financial Leads Financial Gainers",
+          "summary": "Fidelity National Financial added 5.59% for the week.",
+          "ticker": "$FNF",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+0.3%",
+          "changePercent": "+5.59%",
           "direction": "up"
         },
         {
-          "id": "nclh-loser-03282026",
-          "headline": "Norwegian Cruise Line Holdings Falls",
-          "summary": "Consumer discretionary stocks were hit hard by rising fuel costs and recession fears, with Norwegian Cruise Line Holdings experiencing a significant drop.",
-          "ticker": "$NCLH",
-          "price": "N/A",
+          "id": "gainer-hsbc",
+          "headline": "HSBC Holdings Rises Amid De-escalation Hopes",
+          "summary": "HSBC Holdings gained 2.91% week-over-week, reportedly benefiting from President Trump's remarks about U.S.-Iran discussions.",
+          "ticker": "$HSBC",
+          "price": "$79.19",
           "change": "N/A",
-          "changePercent": "-6.9%",
-          "direction": "down"
+          "changePercent": "+2.91%",
+          "direction": "up",
+          "tags": [
+            "Financials",
+            "Geopolitics"
+          ]
         },
         {
-          "id": "amzn-loser-03282026",
-          "headline": "Amazon Among Big Tech Declines",
-          "summary": "Big Tech stocks weighed heavily on the market, with Amazon shares falling amidst a broader tech-sector underperformance.",
-          "ticker": "$AMZN",
+          "id": "gainer-rtx",
+          "headline": "Defense Stocks Surge on Geopolitical Risks",
+          "summary": "Defense contractors like RTX saw a month-to-date increase of 22.1% as global uncertainties heightened.",
+          "ticker": "$RTX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.1%",
-          "direction": "down"
+          "changePercent": "+22.1% (MTD)",
+          "direction": "up",
+          "tags": [
+            "Defense",
+            "Geopolitics"
+          ]
         },
         {
-          "id": "meta-loser-03282026",
-          "headline": "Meta Platforms Experiences Dip",
-          "summary": "Meta Platforms saw a notable decline as tech stocks continued to underperform, partly due to concerns over multiple compression and regulatory risks.",
+          "id": "loser-crcl",
+          "headline": "Crypto Stocks Plunge, Circle Internet Group Leads Declines",
+          "summary": "Crypto-related stocks experienced significant losses, with Circle Internet Group falling 25.68% week-over-week.",
+          "ticker": "$CRCL",
+          "price": "$93.66",
+          "change": "N/A",
+          "changePercent": "-25.68%",
+          "direction": "down",
+          "tags": [
+            "Cryptocurrency",
+            "Technology"
+          ]
+        },
+        {
+          "id": "loser-coin",
+          "headline": "Coinbase Global Among Top Weekly Losers",
+          "summary": "Coinbase Global shed 18.41% over the week as crypto markets faced a downturn.",
+          "ticker": "$COIN",
+          "price": "$161.14",
+          "change": "N/A",
+          "changePercent": "-18.41%",
+          "direction": "down",
+          "tags": [
+            "Cryptocurrency",
+            "Technology"
+          ]
+        },
+        {
+          "id": "loser-meta",
+          "headline": "Meta Platforms Drops After Legal Setback",
+          "summary": "Meta Platforms saw an 11.5% decline after losing a landmark lawsuit, impacting the Communication Services sector.",
           "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.5%",
-          "direction": "down"
-        },
-        {
-          "id": "sbux-loser-03282026",
-          "headline": "Starbucks Shares Sink",
-          "summary": "As consumer spending faces pressure from rising gasoline prices, non-essential retail companies like Starbucks saw their shares sink.",
-          "ticker": "$SBUX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.8%",
-          "direction": "down"
-        },
-        {
-          "id": "cmg-loser-03282026",
-          "headline": "Chipotle Mexican Grill Drops",
-          "summary": "Chipotle Mexican Grill was among the consumer discretionary stocks to fall sharply as concerns over consumer spending habits grew.",
-          "ticker": "$CMG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.1%",
-          "direction": "down"
+          "changePercent": "-11.5%",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Communication Services",
+            "Legal"
+          ]
         }
       ]
     },
@@ -140,46 +148,44 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-03282026",
-          "headline": "Energy and Defense Sectors Lead, Consumer Discretionary and Tech Lag",
-          "summary": "The energy sector continued its strong performance, rising 18% month-to-date as oil prices surged above $100 per barrel amidst the Iran conflict. Defense stocks also saw significant gains, with companies like RTX and Lockheed Martin up over 19% month-to-date. Conversely, the consumer discretionary sector plummeted 12% in March, impacted by fears of rising fuel costs and a potential recession. The tech-heavy Nasdaq underperformed due to 'multiple compression' and regulatory concerns, with the broader Financials, Technology, Communications, and Health Care sectors also lagging the S&P 500 year-to-date.",
+          "id": "sector-rotation-risk-off",
+          "headline": "Risk-Off Sentiment Fuels Rotation to Defensive Sectors",
+          "summary": "Investors are actively rotating out of large-cap growth and AI hyperscalers, seeking safety in defensive sectors such as Energy, Materials, Utilities, and Consumer Staples. Technology and Consumer Discretionary were notable laggards for the week.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Defense",
-            "Consumer Discretionary",
-            "Technology"
+            "Market Sentiment",
+            "Risk-Off"
           ]
         },
         {
-          "id": "economic-news-03282026",
-          "headline": "Fed Discusses Balance Sheet Reduction; Economic Data Shows Slowdown",
-          "summary": "Federal Reserve Board Governor Stephen Miran addressed the prospects of shrinking the Fed's balance sheet, suggesting a gradual reduction of $1-$2 trillion to avoid market disruption. Economic data released today indicated a slowdown in U.S. business activity, with the flash Composite PMI declining to an 11-month low of 51.4 in March. Additionally, consumer sentiment has fallen to 56.4, below the 60-point threshold historically associated with recessionary consumer behavior, while inflation expectations have jumped to their highest level in a year.",
+          "id": "iran-war-oil-inflation",
+          "headline": "U.S.-Iran Conflict Drives Oil Above $100, Intensifies Inflation Fears",
+          "summary": "The ongoing U.S.-Iran conflict and stalled diplomatic efforts pushed crude oil prices above $100 per barrel, contributing to fears of global inflation. The closure of the Strait of Hormuz continues to fuel global stagflation concerns.",
           "tags": [
-            "Economic Data",
-            "Federal Reserve",
-            "Inflation",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "earnings-reports-03282026",
-          "headline": "Mixed Q4 2025 and Q3 2026 Earnings Season Continues",
-          "summary": "Cintas ($CTAS) and Paychex ($PAYX) delivered strong fiscal Q3 results, beating analyst estimates for both EPS and revenue and showing consistent year-over-year growth. Carnival Corporation ($CCL) also exceeded Q1 expectations, though management subsequently lowered its FY2026 adjusted EBITDA and EPS forecasts, impacting investor sentiment. Meanwhile, Talon Metals ($TLO) and TeraGo ($TGO) announced their Q4 2025 earnings today. Braskem S.A. ($BAK) reported a Q4 2025 EPS miss, along with a revenue decline.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "macro-trends-03282026",
-          "headline": "Iran Conflict and Oil Prices Erase Trillions in Market Value",
-          "summary": "The escalating conflict with Iran has been a dominant macro trend, driving significant market volatility. Estimates suggest that approximately $4 trillion to $5 trillion in market value has been wiped out over the last 28 days due to the persistent decline, as the conflict fuels surging oil prices and renewed inflation fears. The S&P 500's price-to-earnings (P/E) multiple has consequently dropped from 21x to 19x over the past month. The uncertainty surrounding energy prices and geopolitical developments remains a critical factor for market direction.",
-          "tags": [
-            "Macro Trends",
             "Geopolitics",
             "Oil Prices",
-            "Market Valuation"
+            "Inflation"
+          ]
+        },
+        {
+          "id": "fed-rates-unchanged",
+          "headline": "Federal Reserve Holds Rates Steady, Eyes Economic Data",
+          "summary": "The Federal Reserve maintained interest rates in the range of 3.5% to 3.75% at its latest meeting, with markets anticipating rates to remain stable for the year. Upcoming economic data, including Fed Chair Jerome Powell's speech and the March jobs report, will be closely watched for monetary policy cues.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Economic Data"
+          ]
+        },
+        {
+          "id": "economic-slowdown-recession-fears",
+          "headline": "Weak Labor Market and GDP Revisions Elevate Recession Odds",
+          "summary": "Recent economic data, including a loss of 92,000 jobs in the U.S. and a downward revision of GDP from 1.4% to 0.7%, have pushed recession odds to their highest level in years. Consumer sentiment also fell to its lowest point since December 2025.",
+          "tags": [
+            "Economy",
+            "Recession",
+            "Labor Market",
+            "GDP"
           ]
         }
       ]
