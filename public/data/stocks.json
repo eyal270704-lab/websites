@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-30T08:20:00Z",
+  "generatedAt": "2026-03-30T12:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "March 30, 2026 – Pre-Market Update",
+  "subtitle": "Monday, March 30, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,14 +13,16 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Futures Point Lower as Geopolitical Tensions Escalate",
-          "summary": "U.S. stock futures are broadly lower this Monday, March 30, 2026, as persistent geopolitical tensions in the Middle East continue to drive risk aversion and a surge in global oil prices. The market enters a holiday-shortened week with caution, following a challenging previous week where major indices extended their losing streaks, with the Dow and Nasdaq officially entering correction territory.",
+          "id": "market-summary-30mar2026",
+          "headline": "Global Markets React to Geopolitical Tensions, US Futures Edge Up",
+          "summary": "U.S. stock futures are showing modest gains this Monday as Wall Street begins a holiday-shortened week, which will see markets closed on Friday for Good Friday. This follows a challenging previous Friday where major U.S. indices, including the Nasdaq and Dow Jones Industrial Average, entered correction territory. Asian markets largely dipped today amid escalating concerns over soaring oil prices and the ongoing U.S. war with Iran. European shares, however, saw moderate rises in early trading. Indian equities also opened significantly lower, driven by geopolitical concerns and foreign fund outflows.",
           "tags": [
-            "Pre-Market",
+            "Global Markets",
+            "Futures",
             "Geopolitics",
             "Oil Prices"
-          ]
+          ],
+          "timestamp": "2026-03-30T12:54:00Z"
         }
       ]
     },
@@ -33,88 +35,96 @@
         {
           "id": "sp500-futures",
           "statLabel": "S&P 500 Futures",
-          "statValue": "Down",
-          "statContext": "S&P 500 futures were down approximately 0.06% in early trading on March 30, 2026, amid rising global concerns. The S&P 500 index closed Friday, March 27, down 1.7% at 6,368.85, marking its worst week since the Iran conflict began."
+          "statValue": "6,445.00",
+          "statContext": "Up 0.5% in pre-market trading."
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures",
+          "statValue": "45,625.00",
+          "statContext": "Up 0.4% in pre-market trading."
         },
         {
           "id": "nasdaq-futures",
           "statLabel": "NASDAQ Futures",
-          "statValue": "Down",
-          "statContext": "NASDAQ 100 futures dipped around 0.13% in early Monday trading. On Friday, March 27, the Nasdaq composite sank 2.1% to 20,948.36, officially placing it in correction territory."
+          "statValue": "N/A",
+          "statContext": "Edging higher in pre-market trading."
         },
         {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Down",
-          "statContext": "Dow Jones Industrial Average futures were down roughly 0.11% as of early March 30. The Dow Jones Industrial Average fell 1.7% on Friday, March 27, to 45,166.64, entering correction territory."
+          "id": "previous-friday-us-close",
+          "statLabel": "Previous Friday Close (US)",
+          "statValue": "Declined",
+          "statContext": "Nasdaq and Dow entered correction territory; S&P 500 also lost ground."
+        },
+        {
+          "id": "nikkei-225",
+          "statLabel": "Nikkei 225 (Japan)",
+          "statValue": "51,885.85",
+          "statContext": "Slipped 2.8% on Monday."
+        },
+        {
+          "id": "nifty-50",
+          "statLabel": "Nifty 50 (India)",
+          "statValue": "22,331.40",
+          "statContext": "Slumped 2.14% on Monday."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (March 27, 2026 - US Close)",
+      "title": "Top Movers (Indian Markets Today)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "etr-gainer",
-          "headline": "Entergy Corporation Leads Gainers",
-          "ticker": "$ETR",
-          "price": "$109.88",
-          "change": "+$7.00",
-          "changePercent": "+6.82%",
+          "id": "hindalco-gainer",
+          "headline": "Hindalco Leads Gains",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.05%",
           "direction": "up",
-          "summary": "Entergy Corporation was among the top S&P 500 gainers on Friday, March 27, reflecting potential defensive positioning amidst broader market uncertainty."
+          "summary": "Hindalco was among the top gainers in the Indian Nifty50."
         },
         {
-          "id": "cpb-gainer",
-          "headline": "Campbell's Company Shows Strength",
-          "ticker": "$CPB",
-          "price": "$21.99",
-          "change": "+$1.04",
-          "changePercent": "+4.96%",
+          "id": "coal-india-gainer",
+          "headline": "Coal India Up",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.22%",
           "direction": "up",
-          "summary": "The Campbell's Company saw a notable rise on Friday, March 27, as investors sought stability in consumer staples."
+          "summary": "Coal India saw positive movement in the Indian Nifty50."
         },
         {
-          "id": "hal-gainer",
-          "headline": "Halliburton Rises with Oil Prices",
-          "ticker": "$HAL",
-          "price": "$40.42",
-          "change": "+$1.63",
-          "changePercent": "+4.20%",
-          "direction": "up",
-          "summary": "Halliburton Company climbed on Friday, March 27, likely benefiting from the continued surge in crude oil prices driven by Middle East tensions."
-        },
-        {
-          "id": "ddog-loser",
-          "headline": "Datadog Among Top Losers",
-          "ticker": "$DDOG",
-          "price": "$114.48",
-          "change": "-$9.83",
-          "changePercent": "-7.90%",
+          "id": "bajaj-finance-loser",
+          "headline": "Bajaj Finance Plunges",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.01%",
           "direction": "down",
-          "summary": "Datadog, Inc. experienced a significant decline on Friday, March 27, as technology stocks faced renewed pressure in a risk-off environment."
+          "summary": "Bajaj Finance was the top loser in the Indian BSE Sensex and Nifty50."
         },
         {
-          "id": "mrna-loser",
-          "headline": "Moderna Falls Sharply",
-          "ticker": "$MRNA",
-          "price": "$49.56",
-          "change": "-$4.01",
-          "changePercent": "-7.49%",
+          "id": "kwality-walls-loser",
+          "headline": "Kwality Wall's Down",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.79%",
           "direction": "down",
-          "summary": "Moderna, Inc. was a significant loser on Friday, March 27, as broader market fears impacted growth-oriented sectors."
+          "summary": "Kwality Wall's experienced significant declines in the Indian BSE Sensex."
         },
         {
-          "id": "coin-loser",
-          "headline": "Coinbase Global Declines",
-          "ticker": "$COIN",
-          "price": "$161.14",
-          "change": "-$12.22",
-          "changePercent": "-7.06%",
+          "id": "sbi-loser",
+          "headline": "SBI Falls",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.94%",
           "direction": "down",
-          "summary": "Coinbase Global, Inc. saw a considerable drop on Friday, March 27, amidst a wider sell-off in riskier assets."
+          "summary": "State Bank of India (SBI) was among the top losers in both the Nifty50 and BSE Sensex."
         }
       ]
     },
@@ -125,33 +135,42 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-1",
-          "headline": "Energy Sector Shows Resilience Amid Tech Headwinds",
-          "summary": "In the broader market, the energy sector has shown relative resilience, while technology and consumer discretionary sectors have led losses. This indicates a rotation away from growth-oriented stocks as investors prioritize defensive plays. PSU banks in India also experienced significant plunges.",
+          "id": "geopolitical-tensions",
+          "headline": "Geopolitical Tensions Drive Market Downturn",
+          "summary": "Escalating geopolitical tensions in the Middle East, particularly the ongoing U.S. war with Iran and reported missile strikes, are significantly impacting global market sentiment. This has pushed crude oil prices higher, raising concerns over inflation and macro stability for oil-importing economies.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Technology"
-          ]
-        },
-        {
-          "id": "economic-data-outlook",
-          "headline": "Key Economic Data and Earnings to Watch This Week",
-          "summary": "Investors are closely awaiting crucial U.S. labor market data this week, including the Nonfarm Payrolls report and the ISM Purchasing Managers' Index. Earlier data showed that U.S. consumer sentiment deteriorated more than previously estimated in March. On the earnings front, major companies such as Nike ($NKE), McCormick & Company ($MKC), and Conagra Brands ($CAG) are scheduled to report results. Additionally, Oxbridge Re Holdings Ltd ($OXBR) and INmune Bio ($INMB) are hosting their Q4 2025 earnings calls today, March 30, 2026.",
-          "tags": [
-            "Economic News",
-            "Earnings Reports",
-            "Labor Data"
-          ]
-        },
-        {
-          "id": "geopolitical-impact",
-          "headline": "Middle East Conflict Continues to Drive Market Uncertainty and Oil Prices",
-          "summary": "The ongoing conflict in the Middle East, now in its fifth week, remains a dominant macro trend affecting global markets, fueling risk aversion and significant increases in crude oil prices. Brent crude has soared to around $115-116 per barrel. This prolonged uncertainty is prompting investors to reconsider the long-term economic implications, contributing to the recent market downturn.",
-          "tags": [
-            "Macro Trends",
             "Geopolitics",
-            "Oil Market"
+            "Oil Prices",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "crude-oil-surge",
+          "headline": "Crude Oil Prices Soar Amid Middle East Conflict",
+          "summary": "Benchmark U.S. crude jumped $1.95 to $101.59 a barrel, while Brent crude soared $3.41 to $115.98 a barrel. The conflict in Iran is causing significant worries about access to the Strait of Hormuz, crucial for oil shipments, leading investors to brace for prolonged inflation.",
+          "tags": [
+            "Oil",
+            "Commodities",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "holiday-shortened-week",
+          "headline": "US Markets Face Holiday-Shortened Week",
+          "summary": "U.S. markets are operating on a holiday-shortened week, with a closure scheduled for Friday in observance of Good Friday. This follows a period of deep declines on Wall Street last Friday.",
+          "tags": [
+            "Market Schedule",
+            "Holidays"
+          ]
+        },
+        {
+          "id": "asian-european-performance",
+          "headline": "Mixed Performance Across Asian and European Markets",
+          "summary": "Asian shares largely dipped on Monday due to ongoing concerns about oil prices and the Iran conflict, with Japan's Nikkei 225 slipping 2.8%. In contrast, European shares saw moderate gains in early trading, with France's CAC 40 up 0.2%, Germany's DAX adding 0.1%, and Britain's FTSE 100 up 0.8%.",
+          "tags": [
+            "International Markets",
+            "Asia",
+            "Europe"
           ]
         }
       ]
