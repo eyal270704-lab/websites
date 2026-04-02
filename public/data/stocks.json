@@ -1,140 +1,221 @@
 {
-  "generatedAt": "2026-04-01T17:00:00Z",
+  "generatedAt": "2026-04-02T08:05:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "April 01, 2026",
+  "title": "Daily Market Digest: Geopolitical Tensions Dominate Trading",
+  "subtitle": "April 02, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-01",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-01",
-          "headline": "Stocks Rally Worldwide, Oil Prices Ease on Hopes for Iran Ceasefire",
-          "summary": "Global markets are showing cautious optimism on April 1, 2026, as President Trump's statements about a potential ceasefire with Iran have boosted investor sentiment, leading to easing oil prices. While major indices saw strong gains on Tuesday, Wednesday's trading continued positive, though some analysts view the recent surge as a 'dead cat bounce' amidst underlying bearish trends and elevated volatility.",
+          "id": "market-summary-geopolitics",
+          "headline": "Geopolitical Tensions Drive Market Downturn After Initial Optimism",
+          "summary": "Global equities experienced a volatile session today, initially buoyed by hopes of de-escalation in the Middle East, which saw oil prices ease. However, market sentiment sharply reversed after a speech by President Donald Trump warning of impending strong action against Iran, pushing major indices into negative territory and reigniting inflation concerns as crude oil spiked. Investors are closely watching for further developments in the West Asia conflict.",
           "tags": [
-            "Global Markets",
             "Geopolitics",
-            "Oil Prices"
+            "Market Sentiment",
+            "Oil Prices",
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-01",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,600.92",
-          "statContext": "+1.1% (+$72.40)",
-          "ticker": "$SPX",
-          "change": "+$72.40",
-          "changePercent": "+1.1%",
-          "direction": "up"
+          "statValue": "6,508.00",
+          "statContext": "Down 1.02% today. Futures fell sharply after President Trump's speech."
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "21,944.50",
-          "statContext": "+1.6% (+$353.87)",
-          "ticker": "$IXIC",
-          "change": "+$353.87",
-          "changePercent": "+1.6%",
-          "direction": "up"
+          "statValue": "Declining",
+          "statContext": "US equity futures fell sharply on Thursday following geopolitical news. Yesterday, it rose 1.16% to 21,840.95."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,756.96",
-          "statContext": "+0.9% (+$415.45)",
-          "ticker": "$DJI",
-          "change": "+$415.45",
-          "changePercent": "+0.9%",
-          "direction": "up"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "Declining",
+          "statContext": "US equity futures fell sharply today. Yesterday, it rose 0.48% to 46,565.74."
         }
       ]
     },
     {
-      "id": "top-movers-01",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (Select Stocks)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-alphabet",
-          "headline": "Alphabet Surges as Big Tech Leads Rally",
-          "ticker": "$GOOG",
-          "price": "$295.58",
-          "change": "+$8.72",
-          "changePercent": "+3.0%",
-          "direction": "up",
-          "summary": "Big Tech stocks, including Alphabet, provided significant upward momentum to the broader market today."
+          "id": "karoon-gainer",
+          "headline": "Karoon Energy Surges on ASX",
+          "summary": "Australian energy company Karoon Energy Ltd (ASX: KAR) was a top gainer, despite no specific company news.",
+          "ticker": "$KAR.AX",
+          "price": "$2.12",
+          "change": "+$0.13",
+          "changePercent": "+6.53%",
+          "direction": "up"
         },
         {
-          "id": "stock-tesla",
-          "headline": "Tesla Gains Amid Broad Market Optimism",
-          "ticker": "$TSLA",
-          "price": "$381.98",
-          "change": "+$10.23",
-          "changePercent": "+2.8%",
-          "direction": "up",
-          "summary": "Tesla saw notable gains as investor sentiment improved across the market on hopes of de-escalating geopolitical tensions."
+          "id": "sandisk-gainer",
+          "headline": "SanDisk Corp. Sees Significant Gains",
+          "summary": "SanDisk Corp. advanced, benefitting from a broader rise in travel, mining, and technology shares noted yesterday.",
+          "ticker": "$SNDK",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "~+9%",
+          "direction": "up"
+        },
+        {
+          "id": "hcltech-gainer",
+          "headline": "HCL Technologies Posts Modest Gain",
+          "summary": "Indian IT services firm HCL Technologies Ltd showed resilience in a declining broader market.",
+          "ticker": "$HCLTECH.NS",
+          "price": "₹1362.2",
+          "change": "+₹7.87",
+          "changePercent": "+0.58%",
+          "direction": "up"
+        },
+        {
+          "id": "sunpharma-loser",
+          "headline": "Sun Pharmaceutical Industries Leads Declines",
+          "summary": "Shares of Sun Pharmaceutical Industries Ltd experienced a sharp decline amidst broad market weakness in India.",
+          "ticker": "$SUNPHARMA.NS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.52%",
+          "direction": "down"
+        },
+        {
+          "id": "eternal-loser",
+          "headline": "Eternal Ltd Retreats Significantly",
+          "summary": "Eternal Ltd was among the notable laggards in the Indian market today.",
+          "ticker": "$ETERNAL.NS",
+          "price": "₹225.12",
+          "change": "-₹11.39",
+          "changePercent": "-4.82%",
+          "direction": "down"
+        },
+        {
+          "id": "nike-loser",
+          "headline": "Nike Sinks on Weak Outlook",
+          "summary": "Nike shares fell sharply following a weak outlook, contributing to broader market downside.",
+          "ticker": "$NKE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": ">-15%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-01",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-energy",
-          "headline": "Technology and Energy Lead, Financials and Consumer Discretionary Lag",
-          "summary": "Technology and communication services sectors were prominent leaders in today's gains, with semiconductors broadly rebounding. Energy remained the only sector to post gains in the first quarter, fueled by higher oil prices. Conversely, financials, consumer discretionary, and information technology were among the worst-performing sectors in Q1 2026.",
+          "id": "sector-rotation-geopolitics",
+          "headline": "Energy Sector Volatility Amid Geopolitical Swings",
+          "summary": "Initially, the energy sector faced pressure as oil prices eased on de-escalation hopes. However, President Trump's speech caused crude oil to spike towards $105, indicating a potential rebound or increased volatility for energy stocks.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
             "Energy",
-            "Financials"
+            "Oil",
+            "Geopolitics"
           ]
         },
         {
-          "id": "economic-data-jobs",
-          "headline": "Job Openings and Quits Decline in February",
-          "summary": "Newly released economic data for February 2026 indicates a drop in US job openings to 6.88 million, falling below expectations. US job quits also decreased to 2.97 million, marking the lowest level since August 2020.",
+          "id": "consumer-staples-utilities-lead",
+          "headline": "Consumer Staples and Utilities Outperform in Australia",
+          "summary": "In the Australian market, the Consumer Staples sector (ASX: XSJ) led gains, rising 1.32%, alongside Utilities (ASX: XUJ), which jumped 0.92%, reflecting a defensive shift amidst market uncertainty.",
           "tags": [
-            "Economic Data",
-            "Labor Market"
+            "Consumer Staples",
+            "Utilities",
+            "Defensive Stocks"
           ]
         },
         {
-          "id": "earnings-nike",
-          "headline": "Nike Plunges on Lackluster Financial Forecasts",
-          "summary": "Despite reporting stronger-than-expected profits for the latest quarter, Nike experienced a significant drop of 14.3% in its stock price due to lackluster financial forecasts.",
+          "id": "tech-mining-healthcare-lag",
+          "headline": "Tech, Gold, Mining, and Healthcare Lagging",
+          "summary": "Globally, and notably in Australia, sectors like Information Technology (ASX: XIJ, -3.93%), Gold (ASX: XGD, -3.34%), broader Materials/Mining (ASX: XMJ, -2.76%), and Healthcare (ASX: XHJ, -2.14%) were significant laggards, continuing trends seen in Q1 where tech and communication services stocks led losses.",
+          "tags": [
+            "Technology",
+            "Mining",
+            "Healthcare",
+            "Lagging Sectors"
+          ]
+        },
+        {
+          "id": "indian-sector-weakness",
+          "headline": "Indian Sectors See Broad Weakness",
+          "summary": "In India, sectors such as PSU Bank, Realty, and Pharma experienced declines of over 3% amidst the broader market sell-off triggered by geopolitical tensions, while the auto sector showed some resilience.",
+          "tags": [
+            "India Market",
+            "Banking",
+            "Real Estate",
+            "Pharma",
+            "Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "iran-conflict-impact",
+          "headline": "Trump's Iran Speech Escalates Geopolitical Concerns",
+          "summary": "President Donald Trump's address on the Iran conflict, threatening severe action, has significantly heightened geopolitical tensions and is a primary driver of today's negative market sentiment and rising crude oil prices.",
+          "tags": [
+            "Geopolitics",
+            "Middle East",
+            "Oil Prices",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "airsculpt-earnings",
+          "headline": "AirSculpt Technologies Reports Q4 2025 Earnings",
+          "summary": "AirSculpt Technologies ($AIRS) released its Q4 2025 earnings report today and is hosting a conference call to discuss its financial performance.",
           "tags": [
             "Earnings",
-            "Company News",
-            "Retail"
+            "AIRS",
+            "Healthcare Services"
           ]
         },
         {
-          "id": "macro-iran-oil",
-          "headline": "Geopolitical Hopes Drive Oil Price Easing",
-          "summary": "Hopes for a resolution to the conflict with Iran continue to be a dominant macro trend, leading to easing oil prices. Brent crude moved towards $100 per barrel, although volatility remains elevated with the Cboe Volatility Index (VIX) still above 25.",
+          "id": "denso-foodventures",
+          "headline": "DENSO Expands Agricultural Footprint with FoodVentures Partnership",
+          "summary": "DENSO CORPORATION announced a capital partnership with FoodVentures, making FoodVentures a consolidated subsidiary. This move aims to strengthen their collaboration in deploying integrated agricultural production solutions globally amidst rising food security concerns.",
           "tags": [
-            "Macro Trends",
-            "Geopolitics",
-            "Oil Prices",
-            "Volatility"
+            "Agriculture",
+            "Acquisition",
+            "DENSO",
+            "FoodVentures"
+          ]
+        },
+        {
+          "id": "q1-economic-data",
+          "headline": "January 2026 Personal Income and Outlays Show Increases",
+          "summary": "The U.S. Bureau of Economic Analysis (BEA) reported increases in personal income (0.4%) and disposable personal income (0.9%) for January 2026, alongside a 0.4% rise in personal consumption expenditures.",
+          "tags": [
+            "Economic Data",
+            "Personal Income",
+            "Consumer Spending"
           ]
         }
       ]
