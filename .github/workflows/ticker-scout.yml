@@ -42,7 +42,7 @@ jobs:
       - name: Run Ticker Scout
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          YOUTUBE_URL: ${{ github.event.inputs.youtube_url || 'https://www.youtube.com/@MichaStocks' }}
+          YOUTUBE_URL: ${{ github.event.inputs.youtube_url || 'https://www.youtube.com/MichaStocks' }}
           TICKER_COUNT: ${{ github.event.inputs.ticker_count || '3' }}
           SOURCE_LABEL: ${{ github.event.inputs.source_label || 'Micha Stocks YouTube' }}
         run: |
