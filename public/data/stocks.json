@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-03T12:39:00Z",
+  "generatedAt": "2026-04-03T16:47:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Markets Closed for Good Friday",
-  "subtitle": "Friday, April 03, 2026",
+  "title": "Daily Market Digest: April 3, 2026",
+  "subtitle": "US Markets Closed for Good Friday; Geopolitical Tensions and Jobs Report in Focus",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,123 +13,104 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-040326",
-          "headline": "U.S. Markets Closed for Good Friday; Cautious Optimism Prevails",
-          "summary": "U.S. stock markets, including the Nasdaq and the New York Stock Exchange, are closed today, April 3, 2026, in observance of Good Friday. Overall market sentiment remains a blend of cautious optimism and volatility, as investors weigh recent economic data against ongoing geopolitical uncertainties, particularly the Iran conflict. Positive signals from the US labor market have provided a boost to the dollar, while oil prices saw a significant surge on Thursday.",
+          "id": "mp-1",
+          "headline": "US Markets Closed for Good Friday Amid Geopolitical Concerns and Strong Jobs Data",
+          "summary": "U.S. equity markets are closed today for the Good Friday holiday, leaving investors to digest a stronger-than-expected March jobs report and ongoing geopolitical tensions in the Middle East. Futures for major indices showed slight declines in quiet trading. Overall market sentiment remains cautious, heavily influenced by the Iran war and its impact on oil prices, alongside persistent inflation worries.",
           "tags": [
-            "Market Closure",
-            "Sentiment",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-04-03T12:39:00Z"
+            "Market Close",
+            "Good Friday",
+            "Geopolitics",
+            "Jobs Report",
+            "Inflation"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Prior Day / Recent Trends)",
+      "title": "Major Indices (Previous Close / Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-overview",
-          "statLabel": "S&P 500",
-          "statValue": "6,582.69 (April 2)",
-          "statContext": "S&P 500 futures slipped nearly 0.3% to 6,604.50. The index had eked out modest gains on Thursday. It is down 4.6% after Q1 2026."
+          "id": "sp500-prev",
+          "statLabel": "S&P 500 (Apr 2 Close)",
+          "statValue": "6,582.69",
+          "statContext": "+0.11%"
         },
         {
-          "id": "nasdaq-overview",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "Recent Correction",
-          "statContext": "The Nasdaq 100 index has entered a correction, down 10% from its all-time highs. It also saw modest gains on Thursday."
+          "id": "nasdaq-prev",
+          "statLabel": "NASDAQ Comp. (Apr 2 Close)",
+          "statValue": "21,879.18",
+          "statContext": "+0.18%"
         },
         {
-          "id": "dow-overview",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "Recent Slip",
-          "statContext": "Dow futures were down 0.3% at 46,615.00. The Dow slipped on Thursday."
+          "id": "dow-prev",
+          "statLabel": "Dow Jones (Apr 2 Close)",
+          "statValue": "46,504.67",
+          "statContext": "-0.13%"
+        },
+        {
+          "id": "sp500-fut",
+          "statLabel": "S&P 500 Futures (Apr 3)",
+          "statValue": "6,604.50",
+          "statContext": "-0.30% (approx.)"
+        },
+        {
+          "id": "dow-fut",
+          "statLabel": "Dow Futures (Apr 3)",
+          "statValue": "46,615.00",
+          "statContext": "-0.30% (approx.)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (April 2026 YTD / Recent)",
+      "title": "Top Movers (April 2 & Pre-Market April 3)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "gainer-fc",
-          "headline": "Franklin Covey Leads April Gainers",
+          "headline": "Franklin Covey Co. Leads Monthly Gains",
           "ticker": "$FC",
-          "price": "$23.32",
-          "change": "",
-          "changePercent": "+44.4%",
-          "direction": "up",
-          "summary": "Franklin Covey Co. ($FC) has been the best performing stock in April 2026 so far.",
-          "tags": [
-            "Gainer",
-            "Consumer Defensive"
-          ]
-        },
-        {
-          "id": "gainer-plug",
-          "headline": "Plug Power Surges on Earnings",
-          "ticker": "$PLUG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.11%",
+          "changePercent": "+44.4%",
           "direction": "up",
-          "summary": "Plug Power shares rose following strong fourth-quarter earnings reported on March 2nd, with shares still 25% higher a month later.",
-          "tags": [
-            "Gainer",
-            "Earnings",
-            "Energy"
-          ]
+          "summary": "Franklin Covey Co. is noted as a top performer for April 2026 so far, with a monthly gain of 44.4%."
+        },
+        {
+          "id": "gainer-sbac",
+          "headline": "SBA Communications Up on April 2nd",
+          "ticker": "$SBAC",
+          "price": "$204.04",
+          "change": "N/A",
+          "changePercent": "+18.93%",
+          "direction": "up",
+          "summary": "SBA Communications Corporation saw a significant rise, closing up 18.93% on April 2, 2026.",
+          "timestamp": "2026-04-02T16:00:00Z"
         },
         {
           "id": "loser-lpcn",
-          "headline": "Lipocine Inc. Plummets on Trial Failure",
+          "headline": "Lipocine Inc. Plunges on Trial Results",
           "ticker": "$LPCN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-77-78%",
+          "changePercent": "-77.84%",
           "direction": "down",
-          "summary": "Lipocine Inc. experienced a significant decline after its Phase 3 trial for a postpartum depression drug missed its primary endpoint.",
-          "tags": [
-            "Loser",
-            "Biotech",
-            "Clinical Trial"
-          ]
+          "summary": "Lipocine Inc. experienced a severe decline, down 77.84% in early April, following the report of topline safety and efficacy results for its drug LPCN 1154, which missed its primary endpoint."
         },
         {
-          "id": "loser-hoth",
-          "headline": "Hoth Therapeutics Declines on Offering",
-          "ticker": "$HOTH",
+          "id": "loser-elab",
+          "headline": "PMGC Holdings Sees Pre-Market Drop",
+          "ticker": "$ELAB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-34.86%",
+          "changePercent": "-59%",
           "direction": "down",
-          "summary": "Hoth Therapeutics, Inc. saw a substantial drop following the announcement of a $2.0 Million Registered Direct Offering.",
-          "tags": [
-            "Loser",
-            "Biotech",
-            "Offering"
-          ]
-        },
-        {
-          "id": "loser-tsla",
-          "headline": "Tesla Shares Down on Q1 Deliveries",
-          "ticker": "$TSLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": ">-5%",
-          "direction": "down",
-          "summary": "Tesla reported that first-quarter deliveries and production rose year-on-year but fell from the prior quarter, sending shares down more than 5% on Thursday, April 2nd.",
-          "tags": [
-            "Loser",
-            "Automotive",
-            "Earnings"
-          ]
+          "summary": "PMGC Holdings showed a pre-market decline of approximately 59% on April 3, attributed to a sharp reversal after recent gains and potential profit-taking.",
+          "timestamp": "2026-04-03T09:00:00Z"
         }
       ]
     },
@@ -140,60 +121,47 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-jobs",
-          "headline": "U.S. Employment Situation: March Payrolls Up, Unemployment Stable",
-          "summary": "The U.S. Bureau of Labor Statistics reported today that total nonfarm payroll employment increased by 178,000 in March 2026. The unemployment rate remained largely unchanged at 4.3 percent. Job gains were noted in health care, construction, and transportation and warehousing, while federal government employment continued its decline.",
+          "id": "mn-1",
+          "headline": "Strong March Jobs Report Exceeds Expectations",
+          "summary": "The U.S. economy added 178,000 nonfarm payrolls in March, significantly surpassing the consensus forecast of 60,000. The unemployment rate also edged down to 4.3%. This robust data reinforces expectations that the Federal Reserve will maintain current interest rates, pushing back against the likelihood of near-term rate cuts.",
           "tags": [
             "Economic Data",
-            "Employment",
-            "BLS"
-          ],
-          "timestamp": "2026-04-03T08:30:00Z"
+            "Jobs Report",
+            "Fed Policy"
+          ]
         },
         {
-          "id": "fed-rates-outlook",
-          "headline": "Federal Reserve Holds Rates Steady, Future Cuts Uncertain",
-          "summary": "The Federal Reserve held interest rates steady at its March meeting with an 11-1 vote, maintaining the federal funds rate in the 3.5% to 3.75% range. While some members forecast at least one additional rate cut this year, the possibility of another cut is not guaranteed, and one FOMC member even penciled in a rate hike for 2027.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-04-03T12:39:00Z"
-        },
-        {
-          "id": "sector-rotation-2026",
-          "headline": "Energy, Materials, and Industrials Outperforming Tech in 2026",
-          "summary": "So far in 2026, there has been a notable sector rotation, with Energy, Materials, and Industrials stocks significantly outperforming Technology. Energy stocks (XLE) are up 21.5%, Materials (XLB) are up 17.6%, and Industrials (XLI) have climbed 12.3%, while Technology stocks are down 3%. This shift is attributed to factors like 'AI fatigue' in tech, economic optimism, AI infrastructure buildout, and rising oil prices.",
+          "id": "mn-2",
+          "headline": "Energy and Defensive Sectors Lead Amid Caution",
+          "summary": "On April 3rd, defensive sectors like Utilities ($XLU) and Consumer Staples ($XLP) continued to outperform, signaling a cautious stance among investors favoring stability. Energy ($XLE) and Materials ($XLB) also showed leadership, while Technology ($XLK) and Consumer Discretionary ($XLY) were observed lagging. This rotation reflects ongoing economic uncertainty.",
           "tags": [
             "Sector Analysis",
             "Energy",
-            "Materials",
-            "Industrials",
-            "Technology"
-          ],
-          "timestamp": "2026-04-03T12:39:00Z"
+            "Defensive Stocks",
+            "Market Rotation"
+          ]
         },
         {
-          "id": "oil-price-surge",
-          "headline": "Oil Prices Surge Amid Geopolitical Tensions",
-          "summary": "U.S. oil futures recorded their biggest gain in six years on Thursday, with prices climbing more than $11 a barrel to close at $111.54. This surge is largely driven by ongoing worries of a prolonged Iran conflict, which continues to influence global markets.",
+          "id": "mn-3",
+          "headline": "Oil Prices Surge as Iran War Fuels Inflation Concerns",
+          "summary": "Oil prices continued their upward trend, with Brent crude nearing $110 per barrel, driven by persistent worries of a prolonged Iran war and potential disruptions in the Strait of Hormuz. This surge in energy costs is a key factor in the worsening inflation outlook, with economists now projecting 2026 inflation to be in the 3%-4% range.",
           "tags": [
             "Oil Prices",
-            "Commodities",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-04-03T12:39:00Z"
+            "Geopolitics",
+            "Inflation",
+            "Energy Sector"
+          ]
         },
         {
-          "id": "earnings-banc",
-          "headline": "Banc of California to Release Q1 Earnings April 22nd",
-          "summary": "Banc of California, Inc. ($BANC) announced it will release its financial results for the first quarter ended March 31, 2026, after market close on Wednesday, April 22, 2026. The company will host a conference call on April 23, 2026.",
+          "id": "mn-4",
+          "headline": "Consumer Sentiment Plunges to Near-Historic Low",
+          "summary": "The University of Michigan's consumer sentiment index for April 3, 2026, plummeted to 53.3, marking its third-lowest reading in 75 years. This significant drop reflects growing household concern over the economic fallout from the Middle East conflict, including skyrocketing energy costs and a volatile stock market.",
           "tags": [
-            "Earnings Report",
-            "Financials"
-          ],
-          "timestamp": "2026-04-03T12:39:00Z"
+            "Consumer Sentiment",
+            "Economic Outlook",
+            "Inflation",
+            "Geopolitics"
+          ]
         }
       ]
     }
