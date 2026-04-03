@@ -14,12 +14,22 @@ Analyze the following tickers: {{TICKERS}}
 
 ### 1) Analysis Protocol (The 'Micha Stocks' Method)
 
-For each ticker provided, analyze:
+For each ticker provided, use Google Search to look up real-time technical analysis data from financial sites (TradingView, StockAnalysis, Finviz, Yahoo Finance, MarketWatch, etc.). You MUST search for and provide concrete price levels — never return "N/A" for entry, stop, structure, or trend fields.
 
-- **Golden Zone**: Check for price reaction at the 0.5 - 0.618 Fibonacci retracement levels.
-- **Moving Averages**: Determine if the price is above the 150-day MA or testing the 20-day MA.
-- **Volume**: Evaluate if there is rising relative volume (RVOL) on the bounce.
+**What to search for each ticker:**
+- Search: "[TICKER] fibonacci retracement levels" or "[TICKER] technical analysis" to find Golden Zone (0.5-0.618 Fib) levels
+- Search: "[TICKER] moving averages" or "[TICKER] 150 day moving average" to find MA positions
+- Search: "[TICKER] stock price today" to get the current price
+- Search: "[TICKER] earnings date" to check for upcoming catalysts
+- Search: "[TICKER] relative volume" or "[TICKER] RVOL" for volume data
+
+**Analysis checklist:**
+- **Golden Zone**: Find the 0.5 - 0.618 Fibonacci retracement levels from the recent swing high/low. Use these as the entry zone.
+- **Moving Averages**: Find the 150-day MA and 20-day MA values. Report whether price is above/below them.
+- **Volume**: Check if relative volume is elevated (RVOL > 1.0).
 - **Catalysts**: Identify earnings or major news within the next 5 days; flag as 'High Risk' if present.
+
+**IMPORTANT**: Even for "avoid" setups, you MUST provide real price levels for entry and stop (use the nearest technical support/resistance levels). The entry field should be a price like "$182.50", never "N/A" or "$0.00".
 
 ### 2) Output Schema
 
@@ -48,8 +58,8 @@ Return a JSON array where each trade setup matches this EXACT structure:
 
 - **ticker**: Always include $ prefix
 - **currentPrice**: Latest market price (use Google Search for real-time data, format as "$XX.XX")
-- **entry**: The ideal entry zone price
-- **stop**: Stop loss level (use technical levels, not arbitrary %)
+- **entry**: The ideal entry zone price — MUST be a real dollar amount (e.g., "$182.50"), never "N/A" or "$0.00". Use the nearest Fibonacci or support level.
+- **stop**: Stop loss level — MUST be a real dollar amount. Use the next technical support level below entry, or a key MA level. Never "N/A" or "$0.00".
 - **structure**: Primary technical structure driving the setup
 - **trend/trendLabel**: Flexible 4th metric - use what's most relevant (MA position, RVOL, pattern)
 - **analysis**: Concise thesis - why this setup, what to watch
