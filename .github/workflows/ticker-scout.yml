@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       youtube_url:
-        description: 'YouTube URL (Micha Stocks livestream or video)'
-        required: true
+        description: 'YouTube URL (leave empty to auto-detect latest Micha Stocks video)'
+        required: false
         type: string
       ticker_count:
         description: 'Number of tickers to extract and analyze'
