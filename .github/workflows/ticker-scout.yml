@@ -42,14 +42,23 @@ jobs:
       - name: Run Ticker Scout
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          YOUTUBE_URL: ${{ github.event.inputs.youtube_url || 'https://www.youtube.com/MichaStocks' }}
+          YOUTUBE_URL: ${{ github.event.inputs.youtube_url || '' }}
           TICKER_COUNT: ${{ github.event.inputs.ticker_count || '3' }}
           SOURCE_LABEL: ${{ github.event.inputs.source_label || 'Micha Stocks YouTube' }}
         run: |
-          python scripts/ticker-scout.py \
-            --url "$YOUTUBE_URL" \
-            --count $TICKER_COUNT \
-            --source "$SOURCE_LABEL"
+          if [ -n "$YOUTUBE_URL" ]; then
+            # Manual dispatch with explicit URL — run ticker-scout directly
+            python scripts/ticker-scout.py \
+              --url "$YOUTUBE_URL" \
+              --count $TICKER_COUNT \
+              --source "$SOURCE_LABEL"
+          else
+            # Scheduled run — use Gemini to find latest video, then scout
+            python scripts/watch_youtube_channel.py \
+              --count $TICKER_COUNT \
+              --source "$SOURCE_LABEL" \
+              --no-git
+          fi
 
       - name: Commit updated trades
         env:
