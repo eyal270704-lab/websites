@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T10:42:59.561887Z",
+  "generatedAt": "2026-04-05T14:42:06.898072Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 15,
+  "tradeCount": 16,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,38 +98,6 @@
       "footerTag": "Avoid - No Clear Setup",
       "setupType": "avoid",
       "source": "Watchlist"
-    },
-    {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors",
-      "currentPrice": "$176.70",
-      "entry": "N/A",
-      "stop": "N/A",
-      "structure": "N/A",
-      "trend": "N/A",
-      "trendLabel": "N/A",
-      "analysis": "A deep dive technical analysis requiring charting for Fibonacci retracement levels, moving averages (150-day and 20-day), and rising relative volume cannot be performed with the available tools. NVIDIA's next confirmed earnings date is May 20, 2026, which is outside the next 5 days. Therefore, no immediate high-risk catalyst is identified.",
-      "riskScore": 5,
-      "footerTag": "No Setup Identified",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Automobiles",
-      "currentPrice": "$360.59",
-      "entry": "N/A",
-      "stop": "N/A",
-      "structure": "N/A",
-      "trend": "N/A",
-      "trendLabel": "N/A",
-      "analysis": "A deep dive technical analysis requiring charting for Fibonacci retracement levels, moving averages (150-day and 20-day), and rising relative volume cannot be performed with the available tools. Tesla's next confirmed earnings date is April 22, 2026, which is outside the next 5 days. Therefore, no immediate high-risk catalyst is identified.",
-      "riskScore": 5,
-      "footerTag": "No Setup Identified",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
     },
     {
       "ticker": "$PLTR",
@@ -241,6 +209,54 @@
       "riskScore": 9,
       "footerTag": "High Risk",
       "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "sector": "Technology Hardware, Storage and Peripherals",
+      "currentPrice": "$23.22",
+      "entry": "$22.50",
+      "stop": "$21.50",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "SMCI is in a strong downtrend, trading significantly below its 200-day moving average. Current volume is below average. An entry at $22.50 targets a potential bounce off the 20-day moving average and previous support levels, with a tight stop below.",
+      "riskScore": 7,
+      "footerTag": "Avoid - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$176.70",
+      "entry": "$165.00",
+      "stop": "$158.00",
+      "structure": "Key Support Zone",
+      "trend": "Bearish Crossover",
+      "trendLabel": "Pattern",
+      "analysis": "NVDA is in a short-term downtrend, exhibiting a bearish crossover of its moving averages and potentially forming a head and shoulders pattern. Volume is below average. An entry at $165.00 targets a bounce from the identified critical support band of $160-$164, with a stop below the neckline break point.",
+      "riskScore": 8,
+      "footerTag": "Avoid - Bearish Trend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$360.59",
+      "entry": "$352.00",
+      "stop": "$345.00",
+      "structure": "Recent Low Support",
+      "trend": "Strong Sell",
+      "trendLabel": "Trend",
+      "analysis": "TSLA is experiencing a strong downtrend, with all major moving averages indicating a sell signal and a bearish crossover. While relative volume is elevated, this occurs during a significant decline. An entry at $352.00 aims for a bounce from the recent low, setting a stop below this key support.",
+      "riskScore": 9,
+      "footerTag": "Avoid - Strong Downtrend",
+      "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
   ]
