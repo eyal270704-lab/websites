@@ -1,114 +1,181 @@
 {
-  "generatedAt": "2026-04-05T07:53:00Z",
+  "generatedAt": "2026-04-05T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "April 05, 2026 - Pre-Market Update",
-  "badge": "Pre-Market Update",
+  "title": "Daily Market Digest: April 5, 2026",
+  "subtitle": "Recap of Week Ending April 4, 2026, and Weekend Outlook",
+  "badge": "Latest Update: April 5, 2026",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Geopolitical Tensions & Fed Expectations Drive Caution",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-04052026",
-          "headline": "Futures Signal Cautious Open Amid Geopolitical Concerns and Firm Fed Stance",
-          "summary": "U.S. equity futures are trending lower this morning as investors continue to digest strong jobs data from March, reinforcing expectations that the Federal Reserve will maintain its current interest rate policy. Elevated geopolitical tensions in the Middle East, pushing oil prices higher, further contribute to a cautious market sentiment, with some analysts noting a return of 'stagflationary fears'. Not financial advice.",
+          "id": "market-summary-040526",
+          "headline": "US Markets Closed for Easter Holiday on Friday, Major Indices Posted Weekly Gains",
+          "summary": "U.S. stock markets were closed on Friday, April 4, 2026, in observance of the Easter holiday, after a trading week marked by a rebound in major indices. Investors spent the weekend digesting a stronger-than-expected March jobs report and ongoing geopolitical developments in the Middle East. Overall market sentiment remains cautious, influenced by inflation fears and fluctuating energy prices. Consumer sentiment has notably slumped, signaling distress among American shoppers.",
           "tags": [
-            "Market Sentiment",
-            "Geopolitics",
-            "Fed Policy"
+            "Market Overview",
+            "Holiday",
+            "Geopolitics"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Futures Performance)",
+      "title": "Major Indices (Week Ending April 4, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "-0.30%",
-          "statContext": "U.S. stock futures indicate a lower open for the S&P 500."
+          "id": "sp500-weekly",
+          "statLabel": "S&P 500",
+          "statValue": "+3.4%",
+          "statContext": "Weekly gain, closing Thursday at 6,582.69.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "-0.40%",
-          "statContext": "Nasdaq futures are also down, reflecting broader pre-market weakness in tech."
+          "id": "nasdaq-weekly",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "+4.4%",
+          "statContext": "Weekly gain, closing Thursday at 21,879.18.",
+          "direction": "up"
         },
         {
-          "id": "dow-futures",
-          "statLabel": "DOW Futures",
-          "statValue": "-0.20%",
-          "statContext": "Dow Jones Industrial Average futures are modestly lower ahead of market open."
+          "id": "dow-weekly",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "+3.0%",
+          "statContext": "Weekly gain, closing Thursday at 46,504.67.",
+          "direction": "up"
+        },
+        {
+          "id": "sp500-ytd",
+          "statLabel": "S&P 500 YTD",
+          "statValue": "-3.8%",
+          "statContext": "Year-to-date performance as of April 2.",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-ytd",
+          "statLabel": "NASDAQ Composite YTD",
+          "statValue": "-5.9%",
+          "statContext": "Year-to-date performance as of April 2.",
+          "direction": "down"
+        },
+        {
+          "id": "dow-ytd",
+          "statLabel": "Dow Jones YTD",
+          "statValue": "-3.2%",
+          "statContext": "Year-to-date performance as of April 2.",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market)",
+      "title": "Top Movers (April 4, 2026 - Previous Trading Day / Monthly Performance)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-turb",
-          "headline": "Turbo Energy Surges on Continued Oil Price Rally",
-          "summary": "Energy-related stocks are seeing continued positive momentum in pre-market trading, fueled by the ongoing surge in global crude oil prices amid Middle East tensions.",
-          "ticker": "$TURB",
-          "price": "$4.10",
-          "change": "+$0.53",
-          "changePercent": "+14.85%",
-          "direction": "up",
+          "id": "lcn-loser",
+          "headline": "Lipocine Inc. Plunges on Clinical Trial Results",
+          "summary": "Lipocine Inc. shares ($LPCN) experienced a significant decline of 77.84% on April 4, following the announcement of topline safety and efficacy results for its drug candidate LPCN 1154 in patients with Postpartum Depression.",
+          "ticker": "$LPCN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-77.84%",
+          "direction": "down",
           "tags": [
-            "Energy",
-            "Oil Prices"
+            "Biotechnology",
+            "Clinical Trials"
           ]
         },
         {
-          "id": "gainer-elek",
-          "headline": "Elektros Highlights EV Charging Tech Amid Rising Gas Prices",
-          "summary": "Elektros ($ELEK) is gaining traction after highlighting its patented charging technology, positioning itself to address growing consumer demand for electric vehicles amidst rising gasoline prices.",
-          "ticker": "$ELEK",
-          "price": "$8.75",
-          "change": "+$0.65",
-          "changePercent": "+8.03%",
-          "direction": "up",
+          "id": "kttaw-loser",
+          "headline": "Pasithea Therapeutics Warrants Fall on FDA Designation News",
+          "summary": "Pasithea Therapeutics Corp. Warrants ($KTTAW) dropped 53.98% on April 4. This movement occurred despite the company announcing that the FDA granted Fast Track Designation to PAS-004 for Neurofibromatosis Type 1 (NF1) associated plexiform neurofibromas.",
+          "ticker": "$KTTAW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-53.98%",
+          "direction": "down",
           "tags": [
-            "Electric Vehicles",
-            "Technology"
+            "Biotechnology",
+            "FDA"
           ]
         },
         {
-          "id": "loser-lcid",
-          "headline": "Lucid Group Declines on Q1 Delivery Disruptions",
-          "summary": "Lucid Group ($LCID) shares are lower in pre-market after the company reported Q1 2026 production and deliveries, revealing disruptions due to a supplier quality issue with second-row seats, despite reaffirming full-year guidance.",
-          "ticker": "$LCID",
-          "price": "$3.20",
-          "change": "-$0.24",
-          "changePercent": "-6.98%",
+          "id": "ino-loser",
+          "headline": "Inovio Pharmaceuticals Down on Public Offering",
+          "summary": "Inovio Pharmaceuticals, Inc. ($INO) saw its stock decline by 35.06% on April 4, following the announcement of a proposed public offering.",
+          "ticker": "$INO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-35.06%",
+          "direction": "down",
+          "tags": [
+            "Pharmaceuticals",
+            "Public Offering"
+          ]
+        },
+        {
+          "id": "fc-gainer",
+          "headline": "Franklin Covey Leads Monthly Gainers in April",
+          "summary": "Franklin Covey Co. ($FC) is noted as the best-performing stock in April 2026, with a gain of +44.4% as of April 4, trading at $23.32.",
+          "ticker": "$FC",
+          "price": "$23.32",
+          "change": "N/A",
+          "changePercent": "+44.4%",
+          "direction": "up",
+          "tags": [
+            "Consumer Defensive",
+            "Monthly Performance"
+          ]
+        },
+        {
+          "id": "kodk-gainer",
+          "headline": "Eastman Kodak Posts Strong Monthly Gains",
+          "summary": "Eastman Kodak Company ($KODK) recorded a monthly gain of +20.32% as of April 4, with its stock price at $11.25.",
+          "ticker": "$KODK",
+          "price": "$11.25",
+          "change": "N/A",
+          "changePercent": "+20.32%",
+          "direction": "up",
+          "tags": [
+            "Industrials",
+            "Monthly Performance"
+          ]
+        },
+        {
+          "id": "spir-gainer",
+          "headline": "Spire Global Shows Robust Monthly Performance",
+          "summary": "Spire Global, Inc. ($SPIR) shares increased by +18.91% in April, trading at $15.91 as of April 4.",
+          "ticker": "$SPIR",
+          "price": "$15.91",
+          "change": "N/A",
+          "changePercent": "+18.91%",
+          "direction": "up",
+          "tags": [
+            "Industrials",
+            "Monthly Performance"
+          ]
+        },
+        {
+          "id": "tsla-fall",
+          "headline": "Tesla Shares Decline Amid Q1 Delivery Miss",
+          "summary": "Tesla ($TSLA) shares fell more than 5% on Thursday, April 2, after the company's first-quarter deliveries fell short of analyst estimates.",
+          "ticker": "$TSLA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.0%+",
           "direction": "down",
           "tags": [
             "Automotive",
-            "Supply Chain"
-          ]
-        },
-        {
-          "id": "loser-rdgt",
-          "headline": "Ridgetech Reacts to Upcoming Reverse Stock Split",
-          "summary": "Ridgetech ($RDGT) shares are down in pre-market following the announcement of a 1-for-150 reverse share split set to become effective on April 7, 2026.",
-          "ticker": "$RDGT",
-          "price": "$0.05",
-          "change": "-$0.01",
-          "changePercent": "-16.67%",
-          "direction": "down",
-          "tags": [
-            "Corporate Action"
+            "Earnings"
           ]
         }
       ]
@@ -120,47 +187,54 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-rates",
-          "headline": "Fed Poised to Hold Rates, Markets Price Out 2026 Cuts",
-          "summary": "The Federal Reserve is widely expected to hold interest rates steady at its upcoming April 29 FOMC meeting, with markets now pricing out nearly all rate cuts for 2026. This stance is influenced by a stable labor market, persistent inflation, and heightened geopolitical risks driving oil prices higher.",
+          "id": "sector-analysis-040526",
+          "headline": "Technology and Communication Services Led Weekly Gains, Energy Lagged",
+          "summary": "For the week ending April 2, the Technology sector was the best performer, gaining 4.61%, followed by Communication Services, up 4.36%. In contrast, the Energy sector was the worst performer, declining 5.1%, while Consumer Defensives saw a modest rise of 0.72%. There is an observable rotation in market leadership, with investors favoring growth and momentum assets over energy and yield, and a shift away from the 'Magnificent Seven' towards a broader range of S&P 500 stocks year-to-date.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-04-05T02:00:00Z"
+            "Sector Performance",
+            "Technology",
+            "Energy"
+          ]
         },
         {
-          "id": "economic-jobs-report",
-          "headline": "March Jobs Report Strengthens Hawkish Fed Outlook",
-          "summary": "Recently released U.S. jobs data for March showed a stronger-than-expected addition of 178,000 new jobs and a dip in the unemployment rate to 4.3%. This robust employment picture has further solidified the market's belief that the Fed will maintain higher rates for longer.",
+          "id": "economic-data-040526",
+          "headline": "Strong March Jobs Report Reinforces Fed 'Higher for Longer' Stance; Consumer Sentiment Slumps",
+          "summary": "The U.S. labor market report for March, released on Friday, indicated a robust addition of 178,000 jobs and a decrease in the unemployment rate to 4.3%. This data largely supports expectations that the Federal Reserve will maintain its federal funds rate, with a 97.7% probability of no change at the upcoming April 2026 FOMC meeting. However, consumer sentiment has hit a concerning 56.6 as of April 3, reflecting distress amid geopolitical tensions and rising energy costs, with national average gasoline prices surging.",
           "tags": [
-            "Jobs Report",
             "Economic Data",
-            "Fed Policy"
+            "Fed Policy",
+            "Labor Market",
+            "Consumer Sentiment"
           ]
         },
         {
-          "id": "sector-energy-strength",
-          "headline": "Energy Sector Continues Outperformance Amid Geopolitical Turmoil",
-          "summary": "Energy and utility stocks are extending their run as definitive safe havens, with the Energy Select Sector SPDR Fund (XLE) having posted a strong return in Q1 2026. Rising crude prices, exacerbated by geopolitical tensions and a 'deliverability gap' in the Strait of Hormuz, are driving this sector's strength.",
+          "id": "geopolitical-oil-040526",
+          "headline": "Middle East Tensions Drive Oil Prices Higher, Fueling Inflation Fears",
+          "summary": "Ongoing geopolitical tensions in the Middle East continue to significantly impact global markets. WTI crude oil futures briefly soared above $112 per barrel on April 3, contributing to rising energy bills and broader inflation concerns. This situation, including disruptions in the Strait of Hormuz, is expected to continue affecting commodity prices and supply chains, with potential price shocks for the U.S. market, particularly in California.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
             "Geopolitics",
-            "Oil Prices"
+            "Oil Prices",
+            "Inflation"
           ]
         },
         {
-          "id": "sector-materials-outlook",
-          "headline": "Materials Sector 'More Favored' on Manufacturing Recovery and AI Demand",
-          "summary": "The materials sector is viewed as 'More Favored' for its potential to benefit from a recovery in global manufacturing and increased demand for specialty materials driven by data center expansion.",
+          "id": "earnings-outlook-040526",
+          "headline": "Major Earnings Reports Loom in Mid-April",
+          "summary": "While corporate earnings were subdued on April 4 due to the holiday, major companies are slated to report in mid-to-late April. Delta Air Lines ($DAL) is expected to release its Q1 results on April 8, with an anticipated EPS of $0.64. Amazon ($AMZN), Meta Platforms ($META), and Microsoft ($MSFT) are projected to announce their next earnings around April 28-29. Other notable reports are expected from Fastenal, Interactive Brokers Group, Goldman Sachs Group, BlackRock, Citigroup, Johnson & Johnson, JPMorgan Chase & Co., Wells Fargo & Company, and ASML starting April 13.",
           "tags": [
-            "Sector Analysis",
-            "Materials",
-            "Manufacturing",
-            "AI"
+            "Earnings Season",
+            "Corporate Reports",
+            "Q1 Outlook"
+          ]
+        },
+        {
+          "id": "ai-impact-040526",
+          "headline": "AI Continues to Reshape Sector Fortunes: AMD Gains, Software Stocks Hit",
+          "summary": "Artificial Intelligence remains a dominant theme, driving significant movements across sectors. Advanced Micro Devices ($AMD) bucked the broader market sell-off in March with a 2.5% gain, anticipating strong performance in 2026 fueled by AI chip shipments. Conversely, software stocks have been particularly hard-hit in Q1 2026 due to growing fears of AI disruption to existing business models.",
+          "tags": [
+            "AI Impact",
+            "Semiconductors",
+            "Software"
           ]
         }
       ]
