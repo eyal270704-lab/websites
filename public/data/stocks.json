@@ -1,175 +1,166 @@
 {
-  "generatedAt": "2026-04-04T16:40:00Z",
+  "generatedAt": "2026-04-05T07:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 04, 2026 - Weekend Market Update",
-  "badge": "Market Closed",
+  "subtitle": "April 05, 2026 - Pre-Market Update",
+  "badge": "Pre-Market Update",
   "sections": [
     {
-      "id": "market-pulse-id",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Geopolitical Tensions & Fed Expectations Drive Caution",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-pulse-item",
-          "headline": "U.S. Markets Closed for Weekend Amid Geopolitical Tensions and Inflation Watch",
-          "summary": "U.S. stock markets are closed today, Saturday, April 4, 2026. Trading activity for the week concluded on Thursday, April 2, with Friday being observed as Good Friday. The past week saw the S&P 500 achieve its best weekly gain in four months, despite an underlying sentiment influenced by persistent geopolitical tensions in the Middle East and concerns over sticky inflation. Investors are re-evaluating risks following a strong U.S. labor market report for March, which continues to shape expectations for Federal Reserve policy, while oil prices remain elevated."
+          "id": "market-summary-04052026",
+          "headline": "Futures Signal Cautious Open Amid Geopolitical Concerns and Firm Fed Stance",
+          "summary": "U.S. equity futures are trending lower this morning as investors continue to digest strong jobs data from March, reinforcing expectations that the Federal Reserve will maintain its current interest rate policy. Elevated geopolitical tensions in the Middle East, pushing oil prices higher, further contribute to a cautious market sentiment, with some analysts noting a return of 'stagflationary fears'. Not financial advice.",
+          "tags": [
+            "Market Sentiment",
+            "Geopolitics",
+            "Fed Policy"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-id",
-      "title": "Major Indices (Last Close: April 2, 2026)",
+      "id": "major-indices",
+      "title": "Major Indices (Futures Performance)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "6,582.69",
-          "statContext": "+0.1% for the day, +3.4% for the week, -3.8% YTD",
-          "direction": "up"
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.30%",
+          "statContext": "U.S. stock futures indicate a lower open for the S&P 500."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "21,879.18",
-          "statContext": "+0.2% for the day, +4.4% for the week, -5.9% YTD",
-          "direction": "up"
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "-0.40%",
+          "statContext": "Nasdaq futures are also down, reflecting broader pre-market weakness in tech."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,504.67",
-          "statContext": "-0.1% for the day, +3.0% for the week, -3.2% YTD",
-          "direction": "down"
-        },
-        {
-          "id": "russell2000-stat",
-          "statLabel": "Russell 2000",
-          "statValue": "2,530.04",
-          "statContext": "+0.7% for the day, +3.3% for the week, +1.9% YTD",
-          "direction": "up"
+          "id": "dow-futures",
+          "statLabel": "DOW Futures",
+          "statValue": "-0.20%",
+          "statContext": "Dow Jones Industrial Average futures are modestly lower ahead of market open."
         }
       ]
     },
     {
-      "id": "top-movers-id",
-      "title": "Top Movers (Latest Available US Market Data)",
+      "id": "top-movers",
+      "title": "Top Movers (Pre-Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-intel",
-          "headline": "Intel Soars on Sector Sentiment",
-          "summary": "Intel Corporation saw a significant jump on Thursday, April 2nd, rising on strong semiconductor sector sentiment.",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.89%",
-          "direction": "up"
+          "id": "gainer-turb",
+          "headline": "Turbo Energy Surges on Continued Oil Price Rally",
+          "summary": "Energy-related stocks are seeing continued positive momentum in pre-market trading, fueled by the ongoing surge in global crude oil prices amid Middle East tensions.",
+          "ticker": "$TURB",
+          "price": "$4.10",
+          "change": "+$0.53",
+          "changePercent": "+14.85%",
+          "direction": "up",
+          "tags": [
+            "Energy",
+            "Oil Prices"
+          ]
         },
         {
-          "id": "gainer-persistent",
-          "headline": "Persistent Systems Ltd (India) Jumps",
-          "summary": "Persistent Systems Ltd, an Indian IT company, recorded a strong performance on April 4th, reflecting positive movement in its local market.",
-          "ticker": "N/A",
-          "price": "5227.70",
-          "change": "N/A",
-          "changePercent": "+3.54%",
-          "direction": "up"
+          "id": "gainer-elek",
+          "headline": "Elektros Highlights EV Charging Tech Amid Rising Gas Prices",
+          "summary": "Elektros ($ELEK) is gaining traction after highlighting its patented charging technology, positioning itself to address growing consumer demand for electric vehicles amidst rising gasoline prices.",
+          "ticker": "$ELEK",
+          "price": "$8.75",
+          "change": "+$0.65",
+          "changePercent": "+8.03%",
+          "direction": "up",
+          "tags": [
+            "Electric Vehicles",
+            "Technology"
+          ]
         },
         {
-          "id": "loser-tesla",
-          "headline": "Tesla Plunges on Delivery Concerns",
-          "summary": "Tesla, Inc. experienced a notable decline on Thursday, April 2nd, after its first-quarter deliveries fell short of estimates.",
-          "ticker": "$TSLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.42%",
-          "direction": "down"
+          "id": "loser-lcid",
+          "headline": "Lucid Group Declines on Q1 Delivery Disruptions",
+          "summary": "Lucid Group ($LCID) shares are lower in pre-market after the company reported Q1 2026 production and deliveries, revealing disruptions due to a supplier quality issue with second-row seats, despite reaffirming full-year guidance.",
+          "ticker": "$LCID",
+          "price": "$3.20",
+          "change": "-$0.24",
+          "changePercent": "-6.98%",
+          "direction": "down",
+          "tags": [
+            "Automotive",
+            "Supply Chain"
+          ]
         },
         {
-          "id": "loser-ge-aerospace",
-          "headline": "GE Aerospace Weighs on Industrials",
-          "summary": "GE Aerospace's shares dropped on Thursday, April 2nd, contributing negatively to the industrial average.",
-          "ticker": "$GE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.94%",
-          "direction": "down"
+          "id": "loser-rdgt",
+          "headline": "Ridgetech Reacts to Upcoming Reverse Stock Split",
+          "summary": "Ridgetech ($RDGT) shares are down in pre-market following the announcement of a 1-for-150 reverse share split set to become effective on April 7, 2026.",
+          "ticker": "$RDGT",
+          "price": "$0.05",
+          "change": "-$0.01",
+          "changePercent": "-16.67%",
+          "direction": "down",
+          "tags": [
+            "Corporate Action"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-id",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-fed",
-          "headline": "Federal Reserve Expected to Hold Rates in April Meeting",
-          "summary": "Prediction markets indicate a high probability that the Federal Reserve will not change interest rates after its April 2026 meeting. This follows the release of a strong U.S. labor market report for March, which could maintain high government bond yields and reduce the likelihood of rapid easing by the Fed.",
+          "id": "economic-fed-rates",
+          "headline": "Fed Poised to Hold Rates, Markets Price Out 2026 Cuts",
+          "summary": "The Federal Reserve is widely expected to hold interest rates steady at its upcoming April 29 FOMC meeting, with markets now pricing out nearly all rate cuts for 2026. This stance is influenced by a stable labor market, persistent inflation, and heightened geopolitical risks driving oil prices higher.",
           "tags": [
-            "Fed",
+            "Federal Reserve",
             "Interest Rates",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "economic-news-inflation",
-          "headline": "Sticky Inflation and Geopolitical Tensions Drive Oil Prices Higher",
-          "summary": "Market participants are contending with sticky inflation and rising bond yields. Geopolitical tensions, particularly the ongoing war in Iran, are driving oil prices higher, with U.S. crude trading around $111.54 per barrel. European ministers are even calling for profit caps on energy companies due to surging prices.",
-          "tags": [
             "Inflation",
-            "Geopolitics",
-            "Oil Prices",
-            "Energy Sector"
-          ]
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-04-05T02:00:00Z"
         },
         {
-          "id": "sector-news-tech-ai",
-          "headline": "Technology Sector Faces Headwinds Amid AI Concerns",
-          "summary": "While the S&P 500 has seen a recent rally, the technology sector has lagged year-to-date. Concerns about artificial intelligence's impact on software and broader technology business models, as well as geopolitical tensions, are creating headwinds for semiconductor stocks. Capital is reportedly rotating out of overvalued software into more tangible assets.",
+          "id": "economic-jobs-report",
+          "headline": "March Jobs Report Strengthens Hawkish Fed Outlook",
+          "summary": "Recently released U.S. jobs data for March showed a stronger-than-expected addition of 178,000 new jobs and a dip in the unemployment rate to 4.3%. This robust employment picture has further solidified the market's belief that the Fed will maintain higher rates for longer.",
           "tags": [
-            "Technology Sector",
-            "AI",
-            "Semiconductors",
-            "Sector Rotation"
-          ]
-        },
-        {
-          "id": "sector-news-leading",
-          "headline": "Energy, Materials, and Staples Lead YTD Performance",
-          "summary": "For the year-to-date, Energy, Materials, and Consumer Staples sectors have been the best-performing. Utilities are also expected to benefit from increased demand from data centers and infrastructure updates.",
-          "tags": [
-            "Sector Performance",
-            "Energy",
-            "Materials",
-            "Consumer Staples",
-            "Utilities"
-          ]
-        },
-        {
-          "id": "economic-news-earnings",
-          "headline": "Major IT Earnings on the Horizon for Next Week",
-          "summary": "India's top IT companies, including TCS, Infosys, Wipro, HCL Technologies, and Tech Mahindra, are scheduled to release their Q4 FY26 earnings reports starting next week. Meanwhile, Meta Platforms' next earnings report is anticipated around April 28th.",
-          "tags": [
-            "Earnings Reports",
-            "IT Sector"
-          ]
-        },
-        {
-          "id": "economic-news-activity",
-          "headline": "U.S. Private Sector Activity Slows in March",
-          "summary": "U.S. private-sector activity experienced a marked slowdown in March, with growth nearly stalling. This downturn was primarily driven by a contraction in services activity and weakening overall demand conditions.",
-          "tags": [
+            "Jobs Report",
             "Economic Data",
-            "PMI",
-            "Services Sector"
+            "Fed Policy"
+          ]
+        },
+        {
+          "id": "sector-energy-strength",
+          "headline": "Energy Sector Continues Outperformance Amid Geopolitical Turmoil",
+          "summary": "Energy and utility stocks are extending their run as definitive safe havens, with the Energy Select Sector SPDR Fund (XLE) having posted a strong return in Q1 2026. Rising crude prices, exacerbated by geopolitical tensions and a 'deliverability gap' in the Strait of Hormuz, are driving this sector's strength.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Geopolitics",
+            "Oil Prices"
+          ]
+        },
+        {
+          "id": "sector-materials-outlook",
+          "headline": "Materials Sector 'More Favored' on Manufacturing Recovery and AI Demand",
+          "summary": "The materials sector is viewed as 'More Favored' for its potential to benefit from a recovery in global manufacturing and increased demand for specialty materials driven by data center expansion.",
+          "tags": [
+            "Sector Analysis",
+            "Materials",
+            "Manufacturing",
+            "AI"
           ]
         }
       ]
