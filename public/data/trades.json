@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-06T07:21:45.067371Z",
+  "generatedAt": "2026-04-06T13:25:14.993859Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$717.22",
+      "entry": "$705.00",
+      "stop": "$640.00",
+      "structure": "Above 20-day MA Support",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is trading above its key moving averages, indicating a long-term uptrend. However, the stock has recently broken the floor of its rising trend channel, suggesting a potential slowdown or sideways movement. Upcoming earnings present a significant near-term risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$321.63",
+      "entry": "$318.00",
+      "stop": "$337.00",
+      "structure": "Testing 52-week low support",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Home Depot is in a strong downtrend, trading below all significant moving averages and approaching its 52-week low. Technical indicators are predominantly bearish. No immediate earnings catalyst, but the overall technical posture suggests an avoid.",
+      "riskScore": 9,
+      "footerTag": "Avoid - Strong Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc.",
+      "sector": "Real Estate Management and Development",
+      "currentPrice": "$40.64",
+      "entry": "$39.50",
+      "stop": "$42.00",
+      "structure": "New 52-week low",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Zillow Group is experiencing a significant downtrend, trading below all major moving averages and making new 52-week lows. Technical analysis consistently points to bearish signals, making this a high-risk setup to avoid.",
+      "riskScore": 10,
+      "footerTag": "Avoid - Strong Downtrend / New Lows",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
