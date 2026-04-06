@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-06T14:57:07.961830Z",
+  "generatedAt": "2026-04-06T19:12:17.108944Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 12,
+  "tradeCount": 14,
   "trades": [
     {
       "ticker": "$APP",
@@ -164,22 +164,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "currentPrice": "$176.70",
-      "entry": "$171.00",
-      "stop": "$165.17",
-      "structure": "Below key moving averages",
-      "trend": "Short-term Downtrend",
-      "trendLabel": "Trend",
-      "analysis": "NVDA is currently in a short-term downtrend, trading below its 20, 50, and 200-day moving averages. Volume analysis shows a negative correlation with price, indicating weakness. The technical picture suggests a bearish sentiment despite strong long-term performance.",
-      "riskScore": 7,
-      "footerTag": "Bearish Trend",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$TSLA",
       "name": "Tesla, Inc.",
       "sector": "Consumer Cyclical",
@@ -192,6 +176,54 @@
       "analysis": "Tesla is in a strong falling trend channel, trading significantly below all key moving averages. Technical analysis indicates a strong sell signal. Despite some signs of accumulation on up days, the overall trend is bearish. Upcoming earnings on April 22, 2026, add high risk to this setup.",
       "riskScore": 9,
       "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$176.65",
+      "entry": "$171.00",
+      "stop": "$165.00",
+      "structure": "Support Test / Horizontal Channel",
+      "trend": "Below 20MA & 50MA",
+      "trendLabel": "MA Trend",
+      "analysis": "NVIDIA is currently trading within an approximate horizontal trend channel. The stock is below its 20-day and 50-day moving averages, with the 50-day MA recently crossing below the 200-day MA (death cross), indicating a bearish trend. Volume is lower than average, suggesting a lack of strong buying interest.",
+      "riskScore": 7,
+      "footerTag": "Uncertain Trend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Software",
+      "currentPrice": "$244.06",
+      "entry": "$238.00",
+      "stop": "$230.00",
+      "structure": "Ascending Support Trendline",
+      "trend": "Below 20MA & 50MA",
+      "trendLabel": "MA Trend",
+      "analysis": "Adobe's price has returned to a primary ascending support trendline, which has anchored price action since 2018. However, the stock is currently trading below its 20-day, 50-day, and 200-day moving averages, indicating a short-to-medium term downtrend. Current volume is low compared to the average.",
+      "riskScore": 6,
+      "footerTag": "Support Test",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Software",
+      "currentPrice": "$144.22",
+      "entry": "$141.50",
+      "stop": "$135.00",
+      "structure": "Near Support",
+      "trend": "Below 20MA, 50MA, 200MA",
+      "trendLabel": "MA Trend",
+      "analysis": "Oracle is in a strong downtrend, with its price significantly below the 20-day, 50-day, and 200-day moving averages, and moving averages showing a strong sell outlook. The stock has recently broken down through a previous support level of $154. Recent news of CFO appointment and reported layoffs add to uncertainty.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Downtrend",
       "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
