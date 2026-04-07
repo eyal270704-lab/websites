@@ -2,12 +2,6 @@
   "nba-news.yml": {
     "attempts": [
       {
-        "timestamp": "2026-02-05T05:46:53.776372",
-        "failure_type": "permission_denied",
-        "action": "fix_permission_denied",
-        "success": false
-      },
-      {
         "timestamp": "2026-02-05T07:42:33.698492",
         "failure_type": "permission_denied",
         "action": "fix_permission_denied",
@@ -300,18 +294,18 @@
         "failure_type": "unknown",
         "action": "fix_unknown",
         "success": false
+      },
+      {
+        "timestamp": "2026-04-07T16:03:30.707137",
+        "failure_type": "unknown",
+        "action": "fix_unknown",
+        "success": false
       }
     ],
-    "last_attempt": "2026-04-07T14:25:15.110675"
+    "last_attempt": "2026-04-07T16:03:30.707137"
   },
   "stock-news.yml": {
     "attempts": [
-      {
-        "timestamp": "2026-03-06T13:45:22.305938",
-        "failure_type": "api_quota",
-        "action": "fix_api_quota",
-        "success": true
-      },
       {
         "timestamp": "2026-03-06T15:26:32.454801",
         "failure_type": "api_quota",
@@ -605,18 +599,18 @@
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
-      }
-    ],
-    "last_attempt": "2026-04-07T14:25:15.335216"
-  },
-  "trade-watcher.yml": {
-    "attempts": [
+      },
       {
-        "timestamp": "2026-04-04T01:09:26.527279",
+        "timestamp": "2026-04-07T16:03:30.745224",
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
-      },
+      }
+    ],
+    "last_attempt": "2026-04-07T16:03:30.745224"
+  },
+  "trade-watcher.yml": {
+    "attempts": [
       {
         "timestamp": "2026-04-04T04:06:02.688456",
         "failure_type": "api_quota",
@@ -910,8 +904,14 @@
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
+      },
+      {
+        "timestamp": "2026-04-07T16:03:30.783077",
+        "failure_type": "api_quota",
+        "action": "fix_api_quota",
+        "success": true
       }
     ],
-    "last_attempt": "2026-04-07T14:25:15.384141"
+    "last_attempt": "2026-04-07T16:03:30.783077"
   }
 }
