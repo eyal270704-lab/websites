@@ -2,12 +2,6 @@
   "nba-news.yml": {
     "attempts": [
       {
-        "timestamp": "2026-02-05T12:35:07.968694",
-        "failure_type": "permission_denied",
-        "action": "fix_permission_denied",
-        "success": false
-      },
-      {
         "timestamp": "2026-02-05T13:58:34.075596",
         "failure_type": "api_quota",
         "action": "fix_api_quota",
@@ -300,18 +294,18 @@
         "failure_type": "unknown",
         "action": "fix_unknown",
         "success": false
+      },
+      {
+        "timestamp": "2026-04-07T23:28:04.753989",
+        "failure_type": "unknown",
+        "action": "fix_unknown",
+        "success": false
       }
     ],
-    "last_attempt": "2026-04-07T21:33:48.787812"
+    "last_attempt": "2026-04-07T23:28:04.753989"
   },
   "stock-news.yml": {
     "attempts": [
-      {
-        "timestamp": "2026-03-06T20:19:32.936206",
-        "failure_type": "api_quota",
-        "action": "fix_api_quota",
-        "success": true
-      },
       {
         "timestamp": "2026-03-06T22:16:26.247020",
         "failure_type": "api_quota",
@@ -605,18 +599,18 @@
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
-      }
-    ],
-    "last_attempt": "2026-04-07T21:33:48.827821"
-  },
-  "trade-watcher.yml": {
-    "attempts": [
+      },
       {
-        "timestamp": "2026-04-04T09:26:58.867003",
+        "timestamp": "2026-04-07T23:28:04.791519",
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
-      },
+      }
+    ],
+    "last_attempt": "2026-04-07T23:28:04.791519"
+  },
+  "trade-watcher.yml": {
+    "attempts": [
       {
         "timestamp": "2026-04-04T11:20:11.181630",
         "failure_type": "api_quota",
@@ -910,8 +904,14 @@
         "failure_type": "api_quota",
         "action": "fix_api_quota",
         "success": true
+      },
+      {
+        "timestamp": "2026-04-07T23:28:04.827406",
+        "failure_type": "api_quota",
+        "action": "fix_api_quota",
+        "success": true
       }
     ],
-    "last_attempt": "2026-04-07T21:33:48.867402"
+    "last_attempt": "2026-04-07T23:28:04.827406"
   }
 }
