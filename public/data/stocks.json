@@ -1,188 +1,185 @@
 {
-  "generatedAt": "2026-04-07T11:39:00Z",
+  "generatedAt": "2026-04-07T12:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions & Earnings in Focus",
-  "subtitle": "April 07, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "April 07, 2026 - Early Trading & Key Insights",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Equities Show Mixed Sentiment Amid Geopolitical Uncertainty",
-          "summary": "US stocks displayed a mixed performance today, with major indices navigating elevated oil prices and ongoing geopolitical tensions surrounding the US-Iran conflict. While some pre-market indicators suggested slight gains, the S&P 500 notably dipped, reflecting cautious sentiment. Earnings reports from key companies like LG Electronics provided positive highlights, yet the broader market remains sensitive to macro trends and upcoming economic data.",
+          "id": "market-sentiment-001",
+          "headline": "Cautious Sentiment Prevails Amid Geopolitical Tensions and Awaited Economic Data",
+          "summary": "Global markets are displaying a cautious sentiment in early trading on April 7, 2026, as investors weigh ongoing geopolitical tensions, particularly regarding President Trump's deadline for Iran to reopen the Strait of Hormuz, against upcoming economic data and earnings reports. Oil prices are also seeing upward movement amidst the uncertainty.",
           "tags": [
             "Market Sentiment",
             "Geopolitics",
-            "Earnings"
-          ]
+            "Oil Prices"
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "stat-sp500",
           "statLabel": "S&P 500",
           "statValue": "6,593.00",
-          "statContext": "Down 0.28% today, closing at 6,611.83 on Monday, April 6, up 0.44%"
+          "statContext": "Down 0.28% today (Apr 7, 2026). Futures inched up less than 0.1% to 6,652.50. Closed Monday up 0.44% at 6,612.02.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-perf",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "21,996.34",
-          "statContext": "Up 0.54% on Monday, April 6, closing at 21,996.34. Futures showed slight upward trend for today"
+          "id": "stat-nasdaq",
+          "statLabel": "NASDAQ",
+          "statValue": "21,839.34",
+          "statContext": "Down 0.65% today (Apr 7, 2026). Closed Monday up 0.5% at 21,996.34.",
+          "direction": "down"
         },
         {
-          "id": "dow-perf",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "46,669.88",
-          "statContext": "Up 0.4% on Monday, April 6, closing at 46,669.88. Futures up 0.1% for today"
+          "id": "stat-dow",
+          "statLabel": "DOW",
+          "statValue": "46,458.88",
+          "statContext": "Down 0.45% today (Apr 7, 2026). Futures up 0.1% at 46,963.00. Closed Monday up 0.4% at 46,669.88.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (April 6, 2026 - US Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "FC-gainer",
-          "headline": "Franklin Covey Leads Monthly Gains",
-          "ticker": "$FC",
+          "id": "stock-aapl-gain",
+          "headline": "Apple Rises",
+          "summary": "Apple saw gains of 1.1% on Monday, April 6, 2026.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+44.0%",
-          "direction": "up",
-          "summary": "Franklin Covey Co. is among the best-performing stocks for April, showing significant monthly gains."
+          "changePercent": "+1.1%",
+          "direction": "up"
         },
         {
-          "id": "AGL-gainer",
-          "headline": "AGL Continues Upward Momentum",
-          "ticker": "$AGL",
+          "id": "stock-amzn-gain",
+          "headline": "Amazon Advances",
+          "summary": "Amazon shares added 1.4% during Monday's trading session.",
+          "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+43.2%",
-          "direction": "up",
-          "summary": "AGL has demonstrated strong performance early in April, contributing to its status as a top gainer this month."
+          "changePercent": "+1.4%",
+          "direction": "up"
         },
         {
-          "id": "FUBO-gainer",
-          "headline": "FUBO Sees Strong Monthly Rise",
-          "ticker": "$FUBO",
+          "id": "stock-jpm-gain",
+          "headline": "JPMorgan Chase Climbs",
+          "summary": "Bank stocks were strong, with JPMorgan Chase rising 1.3% on Monday.",
+          "ticker": "$JPM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+31.2%",
-          "direction": "up",
-          "summary": "FUBO is another notable gainer in April, reflecting positive market activity."
+          "changePercent": "+1.3%",
+          "direction": "up"
         },
         {
-          "id": "Medpal-gainer",
-          "headline": "Medpal AI Surges on Strong March Trading",
-          "ticker": "Medpal AI PLC",
-          "price": "3p",
-          "change": "N/A",
-          "changePercent": "+26%",
-          "direction": "up",
-          "summary": "Medpal AI PLC surged today following a record March, with prescription items dispensed increasing by 28% from February."
-        },
-        {
-          "id": "Jubilant-loser",
-          "headline": "Jubilant FoodWorks Drops on Mixed Earnings",
-          "ticker": "Jubilant FoodWorks",
-          "price": "₹413.00",
-          "change": "N/A",
-          "changePercent": "-10.5%",
-          "direction": "down",
-          "summary": "Jubilant FoodWorks fell in the NIFTY Midcap 100 after reporting a 19.1% YoY jump in consolidated Q4 FY26 revenue, but a slower 6.2% YoY rise in standalone revenue."
-        },
-        {
-          "id": "LPCN-loser",
-          "headline": "Lipocine Inc. Experiences Significant Decline",
-          "ticker": "$LPCN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-77.84%",
-          "direction": "down",
-          "summary": "Lipocine Inc. recorded a substantial loss in April, attributed to topline safety and efficacy results for its LPCN 1154 drug."
-        },
-        {
-          "id": "MOBX-loser",
-          "headline": "Mobix Labs Faces Steep Weekly Drop",
-          "ticker": "$MOBX",
-          "price": "$0.350",
-          "change": "N/A",
-          "changePercent": "-89.72%",
-          "direction": "down",
-          "summary": "Mobix Labs, Inc. has seen a significant decline over the past week."
-        },
-        {
-          "id": "TSLA-loser",
-          "headline": "Tesla Slips in Tech Sector",
+          "id": "stock-tsla-loser",
+          "headline": "Tesla Slides",
+          "summary": "Tesla experienced a decline, sliding 2.2% on Monday.",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-2.2%",
-          "direction": "down",
-          "summary": "Tesla Inc. shares slid on Monday as the tech sector saw mixed performance."
+          "direction": "down"
+        },
+        {
+          "id": "stock-msft-loser",
+          "headline": "Microsoft Dips",
+          "summary": "Microsoft shares fell 0.2% in Monday's trading.",
+          "ticker": "$MSFT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.2%",
+          "direction": "down"
+        },
+        {
+          "id": "stock-lpcn-loser",
+          "headline": "Lipocine Inc. Biggest Decline in Early April",
+          "summary": "Lipocine Inc. ($LPCN) saw a significant decline of 77.84% in early April, following news regarding topline safety and efficacy results for LPCN 1154.",
+          "ticker": "$LPCN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-77.84%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-main",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-impact",
-          "headline": "Geopolitical Tensions Drive Market Volatility and Oil Prices",
-          "summary": "Global markets continue to be shaped by escalating geopolitical tensions, particularly the US-Iran conflict over the Strait of Hormuz. Oil prices remain elevated, with Brent crude near $109 per barrel and WTI above $112, reflecting concerns over supply disruptions. This uncertainty has kept market volatility high.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Volatility"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Tech and Materials Lead, Consumer Discretionary Lags in Q1",
-          "summary": "While the S&P 500 experienced a negative first quarter, sector performance was highly divergent. Energy, Telecom, and Space were among the top sectors in Q1 2026. In India, IT, Realty, and Metal sectors outperformed today. However, technology and consumer discretionary sectors lagged due to stubborn inflation and shifting interest rate expectations.",
+          "id": "sector-performance-001",
+          "headline": "Consumer Discretionary, Energy, and Consumer Staples Led on Monday; Tech Sector Facing Headwinds",
+          "summary": "On Monday, April 6, US markets saw Consumer Discretionary, Energy, and Consumer Staples sectors as top performers. However, the tech sector is noted to be lagging, with companies like ASML impacted by new US export restrictions on equipment shipments to China, contributing to a narrative of 'US AI downgrades' and regulatory pressure. Financials were also strong on Monday.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Materials",
-            "Consumer Discretionary"
-          ]
+            "Energy"
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
         },
         {
-          "id": "earnings-updates",
-          "headline": "LG Electronics Reports Record Q1; US Companies Await Results",
-          "summary": "LG Electronics Inc. announced record preliminary first-quarter 2026 consolidated revenue of KRW 23.73 trillion and operating profit of KRW 1.67 trillion. Meanwhile, several major US companies, including Aehr Test Systems ($AEHR), Greenbrier Companies ($GBX), and Levi Strauss & Co ($LEVI), are scheduled to report earnings today.",
+          "id": "economic-data-001",
+          "headline": "Durable Goods Orders and Inflation Data Awaited This Week",
+          "summary": "Investors are closely monitoring upcoming economic data, with durable goods orders scheduled for release on Tuesday, April 7, and key inflation figures expected on Friday. These reports will provide further insights into the economic landscape.",
+          "tags": [
+            "Economic Data",
+            "Inflation"
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
+        },
+        {
+          "id": "earnings-reports-001",
+          "headline": "Key Companies Reporting Earnings Today",
+          "summary": "Several notable companies are slated to report earnings on April 7, 2026, including Aehr Test Systems ($AEHR), Greenbrier Companies ($GBX), Kura Sushi USA ($KRUS), Levi Strauss & Co ($LEVI), and Direct Digital ($DRCT) for its Q4 2025 results.",
           "tags": [
             "Earnings",
             "Corporate News"
-          ]
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
         },
         {
-          "id": "economic-data",
-          "headline": "Durable Goods Data and Inflation Signals on Watch",
-          "summary": "Investors are awaiting durable goods data in the US, which could provide further insights into economic strength. A recent report indicated that US services sectors grew for the 21st consecutive month in March, though growth was slower than anticipated, and an acceleration in a measure of prices signals potential inflation concerns.",
+          "id": "macro-iran-tensions",
+          "headline": "Geopolitical Tensions in Middle East Continue to Drive Market Caution",
+          "summary": "Geopolitical developments, particularly President Donald Trump's deadline for Iran to reopen the Strait of Hormuz, remain a significant macro trend influencing market volatility and oil prices. The uncertainty contributes to a cautious market outlook.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "US Economy"
-          ]
+            "Geopolitics",
+            "Macro Trends",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
+        },
+        {
+          "id": "macro-dimon-remarks",
+          "headline": "JPMorgan CEO Highlights Resilient Economy, Warns on High Asset Prices",
+          "summary": "Jamie Dimon, CEO of JPMorgan Chase, noted in his annual letter that the US economy remains resilient and businesses healthy. However, he cautioned that high prices for stocks and other assets could lead to a 'dramatic impact on global markets' if outcomes are less than positive.",
+          "tags": [
+            "Macro Trends",
+            "Banking",
+            "Economy"
+          ],
+          "timestamp": "2026-04-07T12:57:00Z"
         }
       ]
     }
