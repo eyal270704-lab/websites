@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import TradeWatcher from './pages/TradeWatcher'
+import WorkflowDashboard from './pages/WorkflowDashboard'
 import NewsFeed from './components/feed/NewsFeed'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/trade-watcher" element={<TradeWatcher />} />
+      <Route path="/workflows" element={<WorkflowDashboard />} />
       <Route
         path="/basketball-news"
         element={

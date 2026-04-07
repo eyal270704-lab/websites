@@ -75,6 +75,10 @@ export default function Home() {
               <span className="inline-block w-2 h-2 bg-blue-400 rounded-full"></span>
               <span>AI-Powered Content</span>
             </div>
+            <Link to="/workflows" className="flex items-center gap-2 hover:text-white transition-colors">
+              <span className="inline-block w-2 h-2 bg-purple-400 rounded-full"></span>
+              <span>Workflow Status</span>
+            </Link>
           </div>
         </header>
 
