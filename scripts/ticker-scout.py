@@ -20,6 +20,7 @@ import sys
 import io
 import re
 import json
+import time
 import argparse
 import subprocess
 from pathlib import Path
@@ -81,27 +82,49 @@ def select_tickers_with_gemini(video_url, api_key, count, quiet=False):
         google_search=types.GoogleSearch()
     )
 
-    try:
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                tools=[grounding_tool],
-            ),
-        )
-    except Exception as e:
-        error_msg = str(e)
-        if '429' in error_msg or 'RESOURCE_EXHAUSTED' in error_msg:
-            log("Error: Gemini API quota exhausted. Retry later.")
-        else:
-            log(f"Error calling Gemini API: {e}")
-        sys.exit(1)
+    max_retries = 3
+    backoff = [10, 20, 30]
+    content = None
 
-    if not response or not response.text:
-        log("Error: Gemini returned empty response")
-        sys.exit(1)
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    tools=[grounding_tool],
+                ),
+            )
+        except Exception as e:
+            error_msg = str(e)
+            if '429' in error_msg or 'RESOURCE_EXHAUSTED' in error_msg:
+                log("Error: Gemini API quota exhausted. Retry later.")
+                sys.exit(1)
+            log(f"Attempt {attempt + 1}/{max_retries}: Gemini API error: {e}")
+            if attempt < max_retries - 1:
+                log(f"Retrying in {backoff[attempt]}s...")
+                time.sleep(backoff[attempt])
+                continue
+            log("All retries exhausted.")
+            sys.exit(1)
 
-    content = response.text.strip()
+        if response and response.text:
+            content = response.text.strip()
+            break
+
+        log(f"Attempt {attempt + 1}/{max_retries}: Gemini returned empty response")
+        if response:
+            candidates = getattr(response, 'candidates', None)
+            if candidates:
+                log(f"  candidates[0].finish_reason: {getattr(candidates[0], 'finish_reason', 'N/A')}")
+
+        if attempt < max_retries - 1:
+            log(f"Retrying in {backoff[attempt]}s...")
+            time.sleep(backoff[attempt])
+
+    if not content:
+        log("Error: Gemini returned empty response after all retries")
+        sys.exit(1)
 
     if not quiet:
         log(f"Gemini response: {content[:200]}")
