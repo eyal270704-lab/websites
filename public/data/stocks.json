@@ -1,185 +1,165 @@
 {
-  "generatedAt": "2026-04-07T12:57:00Z",
+  "generatedAt": "2026-04-07T17:04:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 07, 2026 - Early Trading & Key Insights",
+  "subtitle": "April 07, 2026 - Geopolitical Tensions Weigh on Markets",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-sentiment-001",
-          "headline": "Cautious Sentiment Prevails Amid Geopolitical Tensions and Awaited Economic Data",
-          "summary": "Global markets are displaying a cautious sentiment in early trading on April 7, 2026, as investors weigh ongoing geopolitical tensions, particularly regarding President Trump's deadline for Iran to reopen the Strait of Hormuz, against upcoming economic data and earnings reports. Oil prices are also seeing upward movement amidst the uncertainty.",
+          "id": "market-summary-0407",
+          "headline": "U.S. Stocks Decline as Iran Deadline Looms and Ceasefire Hopes Fade",
+          "summary": "U.S. stock markets are largely in the red today as investors react to escalating geopolitical tensions in the Middle East and President Trump's deadline for Iran to reopen the Strait of Hormuz. Hopes for a ceasefire are fading, leading to a cautious market sentiment and notable declines across major indices. Oil prices have surged amidst the uncertainty.",
           "tags": [
-            "Market Sentiment",
             "Geopolitics",
+            "Market Sentiment",
             "Oil Prices"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
+          "id": "sp500-0407",
           "statLabel": "S&P 500",
-          "statValue": "6,593.00",
-          "statContext": "Down 0.28% today (Apr 7, 2026). Futures inched up less than 0.1% to 6,652.50. Closed Monday up 0.44% at 6,612.02.",
-          "direction": "down"
+          "statValue": "6,546.61",
+          "statContext": "Down 0.99% (66.46 points) in early trade today."
         },
         {
-          "id": "stat-nasdaq",
-          "statLabel": "NASDAQ",
-          "statValue": "21,839.34",
-          "statContext": "Down 0.65% today (Apr 7, 2026). Closed Monday up 0.5% at 21,996.34.",
-          "direction": "down"
+          "id": "nasdaq-0407",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "21,677.16",
+          "statContext": "Down 1.45% (326.15 points) in early trade today."
         },
         {
-          "id": "stat-dow",
-          "statLabel": "DOW",
-          "statValue": "46,458.88",
-          "statContext": "Down 0.45% today (Apr 7, 2026). Futures up 0.1% at 46,963.00. Closed Monday up 0.4% at 46,669.88.",
-          "direction": "down"
+          "id": "dow-0407",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "46,261.01",
+          "statContext": "Down 0.88% (408.87 points) in early trade today."
+        },
+        {
+          "id": "vix-0407",
+          "statLabel": "CBOE Volatility Index (VIX)",
+          "statValue": "24.17",
+          "statContext": "Up 1.26%, indicating elevated market uncertainty."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (April 6, 2026 - US Market)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-aapl-gain",
-          "headline": "Apple Rises",
-          "summary": "Apple saw gains of 1.1% on Monday, April 6, 2026.",
+          "id": "unh-gainer",
+          "headline": "UnitedHealth Group Leads Gainers on Policy News",
+          "ticker": "$UNH",
+          "price": "$308.86",
+          "change": "+$27.50",
+          "changePercent": "+9.77%",
+          "direction": "up",
+          "summary": "UnitedHealth Group Inc. jumped after the Trump administration finalized a better-than-feared Medicare Advantage payment rate."
+        },
+        {
+          "id": "cvs-gainer",
+          "headline": "CVS Health Climbs",
+          "ticker": "$CVS",
+          "price": "$78.35",
+          "change": "+$5.07",
+          "changePercent": "+6.92%",
+          "direction": "up",
+          "summary": "CVS Health also saw significant gains in today's trading."
+        },
+        {
+          "id": "aapl-loser",
+          "headline": "Apple Shares Fall",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.1%",
-          "direction": "up"
+          "changePercent": "-4.73%",
+          "direction": "down",
+          "summary": "Apple was among the biggest decliners today."
         },
         {
-          "id": "stock-amzn-gain",
-          "headline": "Amazon Advances",
-          "summary": "Amazon shares added 1.4% during Monday's trading session.",
-          "ticker": "$AMZN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.4%",
-          "direction": "up"
-        },
-        {
-          "id": "stock-jpm-gain",
-          "headline": "JPMorgan Chase Climbs",
-          "summary": "Bank stocks were strong, with JPMorgan Chase rising 1.3% on Monday.",
-          "ticker": "$JPM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.3%",
-          "direction": "up"
-        },
-        {
-          "id": "stock-tsla-loser",
-          "headline": "Tesla Slides",
-          "summary": "Tesla experienced a decline, sliding 2.2% on Monday.",
+          "id": "tsla-loser",
+          "headline": "Tesla Experiences Decline",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.2%",
-          "direction": "down"
+          "changePercent": "-3.83%",
+          "direction": "down",
+          "summary": "Tesla shares slid amidst broader market declines."
         },
         {
-          "id": "stock-msft-loser",
-          "headline": "Microsoft Dips",
-          "summary": "Microsoft shares fell 0.2% in Monday's trading.",
-          "ticker": "$MSFT",
+          "id": "nke-loser",
+          "headline": "Nike Reports Losses",
+          "ticker": "$NKE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-0.2%",
-          "direction": "down"
-        },
-        {
-          "id": "stock-lpcn-loser",
-          "headline": "Lipocine Inc. Biggest Decline in Early April",
-          "summary": "Lipocine Inc. ($LPCN) saw a significant decline of 77.84% in early April, following news regarding topline safety and efficacy results for LPCN 1154.",
-          "ticker": "$LPCN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-77.84%",
-          "direction": "down"
+          "changePercent": "-3.27%",
+          "direction": "down",
+          "summary": "Nike also experienced notable losses during today's trading."
         }
       ]
     },
     {
-      "id": "market-news-main",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-001",
-          "headline": "Consumer Discretionary, Energy, and Consumer Staples Led on Monday; Tech Sector Facing Headwinds",
-          "summary": "On Monday, April 6, US markets saw Consumer Discretionary, Energy, and Consumer Staples sectors as top performers. However, the tech sector is noted to be lagging, with companies like ASML impacted by new US export restrictions on equipment shipments to China, contributing to a narrative of 'US AI downgrades' and regulatory pressure. Financials were also strong on Monday.",
+          "id": "geopolitical-impact",
+          "headline": "Geopolitical Tensions Drive Market Uncertainty and Oil Price Surge",
+          "summary": "Markets are highly sensitive to the unfolding situation in the Middle East. President Trump's ultimatum to Iran regarding the Strait of Hormuz has intensified fears, contributing to a risk-off sentiment. Crude oil prices have surged, with U.S. West Texas Intermediate (WTI) crude trading near $115.40 per barrel. This geopolitical backdrop is overshadowing other market fundamentals.",
+          "tags": [
+            "Geopolitics",
+            "Oil Market",
+            "Middle East"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Technology Stocks Lag Amidst Broader Market Weakness, Energy Remains Volatile",
+          "summary": "While Monday saw gains in consumer staples, consumer discretionary, and information technology sectors, today's trading indicates technology stocks are dragging down major indices. The energy sector continues to experience high volatility due to the geopolitical conflict. Goldman Sachs, however, suggests a 'generational opportunity' in tech stocks, noting valuations are lower than pre-2000 bubble levels.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "Energy"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
+          ]
         },
         {
-          "id": "economic-data-001",
-          "headline": "Durable Goods Orders and Inflation Data Awaited This Week",
-          "summary": "Investors are closely monitoring upcoming economic data, with durable goods orders scheduled for release on Tuesday, April 7, and key inflation figures expected on Friday. These reports will provide further insights into the economic landscape.",
+          "id": "economic-data",
+          "headline": "Mixed Economic Data Released; Fed Expected to Hold Rates",
+          "summary": "Today's economic releases offered a mixed picture. ADP's Weekly Employment Change showed its largest rise since inception, with private employers adding an average of 26,000 jobs per week in the four-week period ending March 21. However, U.S. durable goods orders fell 1.4% month-on-month in February, missing analysts' expectations. The ISM Manufacturing and Services PMIs for March were distorted by supply-chain disruptions, with services employment contracting sharply and price pressures surging. Markets are pricing in a 99.5% likelihood that the Federal Reserve will leave interest rates unchanged in its April meeting.",
           "tags": [
             "Economic Data",
-            "Inflation"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
+            "Employment",
+            "Inflation",
+            "Federal Reserve"
+          ]
         },
         {
-          "id": "earnings-reports-001",
-          "headline": "Key Companies Reporting Earnings Today",
-          "summary": "Several notable companies are slated to report earnings on April 7, 2026, including Aehr Test Systems ($AEHR), Greenbrier Companies ($GBX), Kura Sushi USA ($KRUS), Levi Strauss & Co ($LEVI), and Direct Digital ($DRCT) for its Q4 2025 results.",
+          "id": "earnings-outlook",
+          "headline": "Robust Earnings Season Anticipated Despite Headwinds",
+          "summary": "Despite current market volatility and geopolitical concerns, the upcoming earnings season is expected to show robust performance in the U.S. market. JPMorgan Chase CEO Jamie Dimon noted the U.S. economy remains resilient and businesses are healthy, though he cautioned on high asset prices.",
           "tags": [
             "Earnings",
-            "Corporate News"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
-        },
-        {
-          "id": "macro-iran-tensions",
-          "headline": "Geopolitical Tensions in Middle East Continue to Drive Market Caution",
-          "summary": "Geopolitical developments, particularly President Donald Trump's deadline for Iran to reopen the Strait of Hormuz, remain a significant macro trend influencing market volatility and oil prices. The uncertainty contributes to a cautious market outlook.",
-          "tags": [
-            "Geopolitics",
-            "Macro Trends",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
-        },
-        {
-          "id": "macro-dimon-remarks",
-          "headline": "JPMorgan CEO Highlights Resilient Economy, Warns on High Asset Prices",
-          "summary": "Jamie Dimon, CEO of JPMorgan Chase, noted in his annual letter that the US economy remains resilient and businesses healthy. However, he cautioned that high prices for stocks and other assets could lead to a 'dramatic impact on global markets' if outcomes are less than positive.",
-          "tags": [
-            "Macro Trends",
-            "Banking",
-            "Economy"
-          ],
-          "timestamp": "2026-04-07T12:57:00Z"
+            "Corporate News",
+            "Economic Outlook"
+          ]
         }
       ]
     }
