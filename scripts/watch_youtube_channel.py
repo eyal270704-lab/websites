@@ -45,7 +45,6 @@ REPO_ROOT = Path(__file__).parent.parent
 
 DEFAULT_COUNT = 3
 DEFAULT_SOURCE = "Micha Stocks YouTube"
-MODEL = "gemini-2.5-pro"
 
 def log(msg):
     print(msg, file=sys.stderr)
@@ -76,13 +75,13 @@ def fetch_latest_video(api_key):
     backoff = [10, 20, 30]
     content = None
     is_503 = False
-
+    model = "gemini-2.5-flash"
     for attempt in range(max_retries):
         try:
             if is_503:
-                MODEL = 'gemini-2.5-pro'
+                model = 'gemini-2.5-pro'
             response = client.models.generate_content(
-                model=MODEL,
+                model=model,
                 contents=prompt,
                 config=types.GenerateContentConfig(tools=[grounding_tool]),
             )
