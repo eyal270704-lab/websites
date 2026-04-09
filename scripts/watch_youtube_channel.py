@@ -45,7 +45,7 @@ REPO_ROOT = Path(__file__).parent.parent
 
 DEFAULT_COUNT = 3
 DEFAULT_SOURCE = "Micha Stocks YouTube"
-
+MODEL = 'gemini-2.5-pro'
 
 def log(msg):
     print(msg, file=sys.stderr)
@@ -79,18 +79,14 @@ def fetch_latest_video(api_key):
 
     for attempt in range(max_retries):
         try:
-            if not is_503:
-                response = client.models.generate_content(
-                    model='gemini-2.5-flash',
-                    contents=prompt,
-                    config=types.GenerateContentConfig(tools=[grounding_tool]),
-                )
-            else:
-                response = client.models.generate_content(
-                    model='gemini-2.5-pro',
-                    contents=prompt,
-                    config=types.GenerateContentConfig(tools=[grounding_tool]),
-                )
+            if is_503:
+                MODEL = 'gemini-2.5-pro'
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(tools=[grounding_tool]),
+            )
+            
         except Exception as e:
             error_msg = str(e)
             if '429' in error_msg or 'RESOURCE_EXHAUSTED' in error_msg:
