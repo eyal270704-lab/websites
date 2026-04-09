@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T11:43:14.330766Z",
+  "generatedAt": "2026-04-09T10:37:07.000814Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$CTRA",
+      "name": "Coterra Energy Inc.",
+      "sector": "Oil & Gas",
+      "currentPrice": "$33.46",
+      "entry": "$32.93",
+      "stop": "$30.58",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Coterra Energy is maintaining an uptrend, trading above its 200-day moving average, but has recently experienced a pullback below its 20-day moving average. The stock is approaching a key support level at $32.93, offering a potential entry for a bounce.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$EQT",
+      "name": "EQT Corporation",
+      "sector": "Oil & Gas",
+      "currentPrice": "$60.18",
+      "entry": "$60.27",
+      "stop": "$58.73",
+      "structure": "50MA Support",
+      "trend": "RVOL > 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "EQT is in a long-term uptrend, trading above its 200-day moving average, and has pulled back to test its 50-day moving average, which may act as support. Elevated relative volume suggests increased interest. However, with earnings scheduled for April 21, 2026, the setup carries a significant near-term risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TXT",
+      "name": "Textron Inc.",
+      "sector": "Aerospace & Defense",
+      "currentPrice": "$91.37",
+      "entry": "$87.47",
+      "stop": "$85.35",
+      "structure": "Support Test",
+      "trend": "> 200MA (Mixed short-term)",
+      "trendLabel": "Trend",
+      "analysis": "Textron is trading above its long-term 200-day moving average, but is exhibiting conflicting short-term technical signals and negative sentiment from some analyses. While key support levels are present, the mixed short-term outlook and below-average volume warrant caution.",
+      "riskScore": 7,
+      "footerTag": "Caution",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
