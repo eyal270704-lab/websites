@@ -17,6 +17,7 @@ import sys
 import io
 import json
 import re
+import time
 import argparse
 from pathlib import Path
 from datetime import datetime, timezone
@@ -173,17 +174,49 @@ def generate_json_with_gemini(prompt, api_key, feed_type):
 
         print("Calling Gemini API with Google Search grounding...", file=sys.stderr)
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=full_prompt,
-            config=gen_config,
-        )
+        max_retries = 3
+        backoff = [10, 20, 30]
+        content = None
+        is_503 = False
+        model = "gemini-2.5-flash"
 
-        if not response or not response.text:
-            print("Gemini API returned empty response", file=sys.stderr)
+        for attempt in range(max_retries):
+            try:
+                if is_503:
+                    model = "gemini-2.5-pro"
+                response = client.models.generate_content(
+                    model=model,
+                    contents=full_prompt,
+                    config=gen_config,
+                )
+            except Exception as e:
+                error_msg = str(e)
+                if '429' in error_msg or 'RESOURCE_EXHAUSTED' in error_msg:
+                    print("Error: Gemini API quota exhausted. Retry later.", file=sys.stderr)
+                    return None
+                print(f"Attempt {attempt + 1}/{max_retries}: Gemini API error: {e}", file=sys.stderr)
+                if attempt < max_retries - 1:
+                    if '503' in error_msg:
+                        print("not your fault: this model is experiencing high demand, switching to another one", file=sys.stderr)
+                        is_503 = True
+                    print(f"Retrying in {backoff[attempt]}s...", file=sys.stderr)
+                    time.sleep(backoff[attempt])
+                    continue
+                print("All retries exhausted.", file=sys.stderr)
+                return None
+
+            if response and response.text:
+                content = response.text
+                break
+
+            print(f"Attempt {attempt + 1}/{max_retries}: Gemini returned empty response", file=sys.stderr)
+            if attempt < max_retries - 1:
+                print(f"Retrying in {backoff[attempt]}s...", file=sys.stderr)
+                time.sleep(backoff[attempt])
+
+        if not content:
+            print("Gemini API returned empty response after all retries", file=sys.stderr)
             return None
-
-        content = response.text
 
         # Extract JSON from response
         # Try to find JSON object in code block first
