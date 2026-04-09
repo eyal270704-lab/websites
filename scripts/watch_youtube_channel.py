@@ -45,7 +45,7 @@ REPO_ROOT = Path(__file__).parent.parent
 
 DEFAULT_COUNT = 3
 DEFAULT_SOURCE = "Micha Stocks YouTube"
-MODEL = 'gemini-2.5-pro'
+MODEL = "gemini-2.5-pro"
 
 def log(msg):
     print(msg, file=sys.stderr)
