@@ -75,14 +75,22 @@ def fetch_latest_video(api_key):
     max_retries = 3
     backoff = [10, 20, 30]
     content = None
+    is_503 = False
 
     for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(tools=[grounding_tool]),
-            )
+            if not is_503:
+                response = client.models.generate_content(
+                    model='gemini-2.5-flash',
+                    contents=prompt,
+                    config=types.GenerateContentConfig(tools=[grounding_tool]),
+                )
+            else:
+                response = client.models.generate_content(
+                    model='gemini-2.5-pro',
+                    contents=prompt,
+                    config=types.GenerateContentConfig(tools=[grounding_tool]),
+                )
         except Exception as e:
             error_msg = str(e)
             if '429' in error_msg or 'RESOURCE_EXHAUSTED' in error_msg:
@@ -90,6 +98,9 @@ def fetch_latest_video(api_key):
                 sys.exit(1)
             log(f"Attempt {attempt + 1}/{max_retries}: Gemini API error: {e}")
             if attempt < max_retries - 1:
+                if '503' in error_msg:
+                    log("not your fault: this model is experiencing high demand, switching to another one")
+                    is_503 =  True
                 log(f"Retrying in {backoff[attempt]}s...")
                 time.sleep(backoff[attempt])
                 continue
