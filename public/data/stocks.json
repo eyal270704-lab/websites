@@ -1,195 +1,215 @@
 {
-  "generatedAt": "2026-04-11T12:34:00Z",
+  "generatedAt": "2026-04-11T16:41:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions Weigh on Sentiment",
-  "subtitle": "Market insights as of April 11, 2026",
-  "badge": "Updated Apr 10, 2026 EOD",
+  "title": "Daily Market Digest",
+  "subtitle": "April 11, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-april-11",
-          "headline": "U.S. Markets Close Mixed Amid Geopolitical Concerns and Inflation Data",
-          "summary": "U.S. equities closed a choppy session on Friday, April 10, largely mixed as investors digested new inflation data and continued to monitor the fragile U.S.-Iran ceasefire talks. The S&P 500 and Dow Jones saw slight declines, while the Nasdaq managed a modest gain. Overall market sentiment remains cautious, influenced by persistent geopolitical tensions in the Middle East and their impact on global supply chains and energy prices, alongside a significant dip in consumer sentiment.",
+          "id": "market-summary-04-11-2026",
+          "headline": "U.S. Markets Close Mixed After Strong Weekly Gains Amid Geopolitical Watch",
+          "summary": "U.S. stock markets ended Friday's session with mixed performance, capping off a week of significant gains for all major indices. Investors showed caution ahead of the weekend as they continued to monitor Middle East negotiations. Trading volume was below average, suggesting a pause in activity.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
             "Geopolitics",
-            "Inflation"
+            "Trading Volume"
           ],
-          "timestamp": "2026-04-10T20:00:00Z"
+          "timestamp": "2026-04-11T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (April 10, 2026 Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,816.89",
-          "statContext": "Down 0.1% for the day. For the week, the S&P 500 surged over 3%."
+          "statContext": "Down 0.11% today, Up 3.6% for the week"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,902.89",
-          "statContext": "Up 0.4% for the day. The Nasdaq is set to climb more than 4% for the week."
+          "statContext": "Up 0.35% today, Up 4.7% for the week"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "47,916.57",
-          "statContext": "Down 0.6% for the day. The Dow has advanced roughly 3% for the week."
+          "statContext": "Down 0.56% today, Up 3.0% for the week"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (April 10, 2026 Close)",
+      "id": "top-movers-today",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-fuse",
-          "headline": "Fusemachines Inc.",
-          "ticker": "$FUSE",
-          "price": "$1.830",
-          "change": "+1.01",
-          "changePercent": "+115.29%",
+          "id": "gainer-broadcom",
+          "headline": "Broadcom Leads Chipmakers Higher",
+          "summary": "Chipmakers demonstrated strong performance today, with Broadcom ($AVGO) leading the gains. The sector saw a boost from general investor interest in AI-related technologies.",
+          "ticker": "$AVGO",
+          "price": "N/A",
+          "change": "+4.70%",
+          "changePercent": "+4.70%",
           "direction": "up",
-          "summary": "Fusemachines Inc. experienced a significant surge."
+          "tags": [
+            "Gainers",
+            "Technology",
+            "AI"
+          ]
         },
         {
-          "id": "gainer-raya",
-          "headline": "Erayak Power Solution Group Inc.",
-          "ticker": "$RAYA",
-          "price": "$0.951",
-          "change": "+0.49",
-          "changePercent": "+107.94%",
+          "id": "gainer-nvidia",
+          "headline": "Nvidia Climbs on AI Enthusiasm",
+          "summary": "Nvidia ($NVDA) continued its upward trend, benefiting from ongoing enthusiasm for artificial intelligence stocks. The company is a key player in the AI hardware space.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "+2.60%",
+          "changePercent": "+2.60%",
           "direction": "up",
-          "summary": "Erayak Power Solution Group Inc. was among the top performers."
+          "tags": [
+            "Gainers",
+            "Technology",
+            "AI"
+          ]
         },
         {
-          "id": "gainer-creg",
-          "headline": "Smart Powerr Corp.",
-          "ticker": "$CREG",
-          "price": "$0.632",
-          "change": "+0.29",
-          "changePercent": "+85.41%",
+          "id": "gainer-meta",
+          "headline": "Meta Platforms Jumps on New AI Model",
+          "summary": "Meta Platforms ($META) saw its shares rise following the introduction of its new AI model by Meta Superintelligence Labs, signaling strong innovation in the AI sector.",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "+2.60%",
+          "changePercent": "+2.60%",
           "direction": "up",
-          "summary": "Smart Powerr Corp. saw substantial gains."
+          "tags": [
+            "Gainers",
+            "Technology",
+            "AI",
+            "Social Media"
+          ]
         },
         {
-          "id": "loser-yddl",
-          "headline": "One and one Green Technologies. Inc",
-          "ticker": "$YDDL",
-          "price": "$5.16",
-          "change": "-8.64",
-          "changePercent": "-62.90%",
+          "id": "loser-financials",
+          "headline": "Financial Sector Lags Ahead of Earnings",
+          "summary": "Financial stocks experienced a downturn as investors awaited major bank earnings reports. The sector is under scrutiny amid concerns over private credit risks.",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
           "direction": "down",
-          "summary": "One and one Green Technologies. Inc faced a sharp decline."
+          "tags": [
+            "Losers",
+            "Financials"
+          ]
         },
         {
-          "id": "loser-kwm",
-          "headline": "K Wave Media Ltd.",
-          "ticker": "$KWM",
-          "price": "$0.453",
-          "change": "-0.23",
-          "changePercent": "-33.83%",
+          "id": "loser-energy",
+          "headline": "Energy Sector Declines Amid Slipping Oil Prices",
+          "summary": "The energy sector, particularly represented by the Energy Select Sector SPDR (XLE), faced declines as oil prices continued to slip ahead of planned U.S.-Iran talks.",
+          "ticker": "$XLE",
+          "price": "N/A",
+          "change": "-1.20%",
+          "changePercent": "-1.20%",
           "direction": "down",
-          "summary": "K Wave Media Ltd. was a notable loser."
-        },
-        {
-          "id": "loser-dki",
-          "headline": "Darkiris Inc.",
-          "ticker": "$DKI",
-          "price": "$0.641",
-          "change": "-0.32",
-          "changePercent": "-33.50%",
-          "direction": "down",
-          "summary": "Darkiris Inc. experienced significant losses."
+          "tags": [
+            "Losers",
+            "Energy",
+            "Commodities"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-rates-hold",
-          "headline": "Federal Reserve Holds Rates Steady, Chair Transition Looms",
-          "summary": "The Federal Reserve has maintained its federal funds rate at 3.50% to 3.75%. The next FOMC meeting is scheduled for April 28, potentially marking Jerome Powell's final meeting as Chair before Kevin Warsh assumes the role on May 15. The market is currently pricing in one to two rate cuts for 2026, potentially delayed until September or later.",
-          "tags": [
-            "Fed",
-            "Interest Rates",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-04-11T11:19:00Z"
-        },
-        {
-          "id": "march-cpi-surge",
-          "headline": "March CPI Jumps 0.9%, Driven by Energy Prices",
-          "summary": "The Consumer Price Index (CPI) surged by 0.9% in March, primarily fueled by a 12.5% year-over-year increase in energy prices, with the gasoline index alone jumping 21.2% over the month. However, core CPI, excluding volatile food and energy components, rose by a more modest 0.2%, falling below consensus estimates.",
+          "id": "economic-cpi-inflation",
+          "headline": "March CPI Matches Expectations at 3.3%, Core Inflation Eases",
+          "summary": "The Consumer Price Index (CPI) for March showed inflation rising by 3.3%, aligning with economists' expectations. A surge in gasoline prices, up 21.2%, was a primary driver, though core inflation, excluding volatile food and energy, came in lower than anticipated. However, Fed officials like San Francisco Fed President Mary Daly indicated that oil shocks could delay the return to the 2% inflation target.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "CPI"
-          ],
-          "timestamp": "2026-04-10T08:30:00Z"
+            "CPI",
+            "Federal Reserve"
+          ]
         },
         {
-          "id": "consumer-sentiment-plunges",
-          "headline": "Consumer Sentiment Sinks Amid Iran Conflict Concerns",
-          "summary": "Consumer sentiment in April plunged approximately 11%, extending a decline initiated by the Middle East conflict and now stands about 9% below year-ago levels. Consumers cited increased concerns over high prices and weakened asset values. Year-ahead inflation expectations surged from 3.8% in March to 4.8% in April, the largest one-month increase since April 2025.",
+          "id": "consumer-sentiment-drops",
+          "headline": "Consumer Sentiment Hits Record Low in Michigan Survey",
+          "summary": "Consumer sentiment experienced a significant drop, reaching a record low according to a University of Michigan survey. Short-term expectations also fell to their lowest level since 1980, reflecting growing pessimism among consumers.",
           "tags": [
-            "Consumer Confidence",
-            "Geopolitics",
-            "Inflation"
-          ],
-          "timestamp": "2026-04-11T10:00:00Z"
+            "Economic Data",
+            "Consumer Sentiment"
+          ]
         },
         {
-          "id": "geopolitical-supply-chain-chaos",
-          "headline": "Middle East Conflict Causes Global Supply Chain Chaos and Economic Scars",
-          "summary": "The ongoing conflict in the Middle East has led to chaos in global supply chains and a warning from the IMF head, Kristalina Georgieva, that the war will permanently scar the global economy. This has created diesel and jet fuel shortages and disrupted a fragile global energy system. The Bank of England governor also warned of a potential 2008-style financial crisis stemming from the private credit market due to the conflict.",
+          "id": "fed-rate-cut-expectations",
+          "headline": "Fed Rate Cut Expectations for 2026 Vanish Amid Inflation Concerns",
+          "summary": "Markets are no longer anticipating any interest rate cuts from the Federal Reserve in 2026. This represents a notable shift in expectations, primarily influenced by persistent inflation concerns and ongoing geopolitical uncertainties.",
           "tags": [
-            "Geopolitics",
-            "Energy",
-            "Supply Chain"
-          ],
-          "timestamp": "2026-04-11T09:00:00Z"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
         },
         {
-          "id": "nike-q3-earnings",
-          "headline": "Nike Reports Flat Q3 Revenue, Net Income Down 35%",
-          "summary": "Nike ($NKE) released its Q3 earnings last week, reporting flat revenues at $11.3 billion, a 3% decline on a currency-neutral basis. Net income fell by 35% year-over-year to $520 million, and gross margin declined by 130 basis points due to tariff-related product costs. The stock dropped over 8% following the report despite beating EPS estimates.",
+          "id": "nasdaq100-sandisk",
+          "headline": "SanDisk to Join Nasdaq-100 Index, Signaling Tech Shift",
+          "summary": "SanDisk Corporation ($SNDK) is set to be included in the Nasdaq-100 Index on April 20, 2026, replacing Atlassian Corp Plc. This move highlights a broader market trend towards hardware and infrastructure companies crucial for the expanding artificial intelligence and data economy. SanDisk's current market capitalization is approximately $125.72 billion.",
           "tags": [
-            "Earnings",
-            "Retail",
-            "$NKE"
-          ],
-          "timestamp": "2026-04-11T07:15:00Z"
+            "Sector News",
+            "Technology",
+            "Nasdaq-100",
+            "AI"
+          ]
         },
         {
-          "id": "ppl-earnings-guidance",
-          "headline": "PPL Releases FY 2026 Earnings Guidance",
-          "summary": "PPL ($PPL) updated its fiscal year 2026 earnings guidance on Saturday morning, providing an EPS guidance of $1.90-$1.98, aligning with the consensus estimate of $1.95.",
+          "id": "earnings-outlook",
+          "headline": "Q1 Earnings Season Expected to Show Robust S&P 500 Profit Growth",
+          "summary": "The upcoming earnings season is projected to bring positive news, with S&P 500 profit growth estimated at 13.9%. Major companies like ASML Holding ($ASML) and Taiwan Semiconductor Manufacturing ($TSM) are slated to release their quarterly results next week, on April 15 and 16, respectively.",
           "tags": [
-            "Earnings",
-            "Utilities",
-            "$PPL"
-          ],
-          "timestamp": "2026-04-11T08:00:00Z"
+            "Earnings Season",
+            "Corporate Earnings"
+          ]
+        },
+        {
+          "id": "market-sentiment-lost-decade",
+          "headline": "S&P 500 Indicator Suggests Risk of 'Lost Decade' for Stocks",
+          "summary": "A rare market signal has emerged as the S&P 500's 5-year rolling return has dipped below its 15-year return. Historically, this pattern has preceded major bear markets, suggesting an elevated risk of a 'lost decade' for stock market returns. Investors are urged to prioritize risk management in this cyclical environment.",
+          "tags": [
+            "Market Sentiment",
+            "Market Analysis",
+            "Risk Management"
+          ]
+        },
+        {
+          "id": "tech-valuations-ai",
+          "headline": "Tech Valuations Revert to Pre-AI Boom Levels",
+          "summary": "Valuations within the technology sector have seen a compression, with forward P/E ratios dropping from 40x to 20x. This brings tech valuations back to levels observed before the recent artificial intelligence boom gained momentum.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Valuations",
+            "AI"
+          ]
         }
       ]
     }
