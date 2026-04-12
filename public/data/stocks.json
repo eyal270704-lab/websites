@@ -1,33 +1,34 @@
 {
-  "generatedAt": "2026-04-11T16:41:00Z",
+  "generatedAt": "2026-04-12T08:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 11, 2026",
-  "badge": "LIVE",
+  "subtitle": "April 12, 2026 - Weekend Edition",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-04-11-2026",
-          "headline": "U.S. Markets Close Mixed After Strong Weekly Gains Amid Geopolitical Watch",
-          "summary": "U.S. stock markets ended Friday's session with mixed performance, capping off a week of significant gains for all major indices. Investors showed caution ahead of the weekend as they continued to monitor Middle East negotiations. Trading volume was below average, suggesting a pause in activity.",
+          "id": "mp-item-1",
+          "headline": "U.S. Markets Closed for Weekend; Focus Shifts to Next Week's Open",
+          "summary": "As of Saturday, April 12, 2026, U.S. stock markets are closed. Trading activity for the week concluded on Friday, April 11, 2026. The past week saw a sharp rebound in markets, largely driven by optimism surrounding a temporary ceasefire between the U.S. and Iran, which helped ease oil prices and stagflation concerns. However, overall market sentiment remains mixed, with consumer confidence plunging due to geopolitical tensions and high inflation. Investors will be evaluating weekend news for impacts on Monday's opening.",
           "tags": [
-            "Market Summary",
+            "Market Closed",
+            "Weekend Review",
             "Geopolitics",
-            "Trading Volume"
+            "Inflation"
           ],
-          "timestamp": "2026-04-11T16:00:00Z"
+          "timestamp": "2026-04-12T08:02:00Z"
         }
       ]
     },
     {
       "id": "major-indices-performance",
-      "title": "Major Indices",
+      "title": "Major Indices (Friday, April 11, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
@@ -35,180 +36,126 @@
           "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,816.89",
-          "statContext": "Down 0.11% today, Up 3.6% for the week"
+          "statContext": "Down 0.1% for the day, up 3.6% for the week. Down 0.4% year-to-date."
         },
         {
           "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "22,902.89",
-          "statContext": "Up 0.35% today, Up 4.7% for the week"
+          "statContext": "Up 0.4% for the day, up 4.7% for the week. Down 1.5% year-to-date."
         },
         {
           "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "47,916.57",
-          "statContext": "Down 0.56% today, Up 3.0% for the week"
+          "statContext": "Down 0.6% for the day, up 3% for the week. Down 0.3% year-to-date."
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Friday, April 11, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-broadcom",
-          "headline": "Broadcom Leads Chipmakers Higher",
-          "summary": "Chipmakers demonstrated strong performance today, with Broadcom ($AVGO) leading the gains. The sector saw a boost from general investor interest in AI-related technologies.",
-          "ticker": "$AVGO",
-          "price": "N/A",
-          "change": "+4.70%",
-          "changePercent": "+4.70%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "gainer-nvidia",
-          "headline": "Nvidia Climbs on AI Enthusiasm",
-          "summary": "Nvidia ($NVDA) continued its upward trend, benefiting from ongoing enthusiasm for artificial intelligence stocks. The company is a key player in the AI hardware space.",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Leads Tech Gains",
+          "summary": "Technology stocks provided a boost on Friday, with Nvidia showing strength amidst broader market declines for many S&P 500 companies.",
           "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "+2.60%",
+          "price": "N/A (Last Close)",
+          "change": "+2.6%",
           "changePercent": "+2.60%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "AI"
-          ]
+          "direction": "up"
         },
         {
-          "id": "gainer-meta",
-          "headline": "Meta Platforms Jumps on New AI Model",
-          "summary": "Meta Platforms ($META) saw its shares rise following the introduction of its new AI model by Meta Superintelligence Labs, signaling strong innovation in the AI sector.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "+2.60%",
-          "changePercent": "+2.60%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "AI",
-            "Social Media"
-          ]
+          "id": "avgo-gainer",
+          "headline": "Broadcom Surges on Strong Performance",
+          "summary": "Broadcom continued its strong performance from last week, contributing to the positive movement in the technology sector.",
+          "ticker": "$AVGO",
+          "price": "N/A (Last Close)",
+          "change": "+4.7%",
+          "changePercent": "+4.70%",
+          "direction": "up"
         },
         {
-          "id": "loser-financials",
-          "headline": "Financial Sector Lags Ahead of Earnings",
-          "summary": "Financial stocks experienced a downturn as investors awaited major bank earnings reports. The sector is under scrutiny amid concerns over private credit risks.",
-          "ticker": "N/A",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Financials"
-          ]
+          "id": "eli-lilly-loser",
+          "headline": "Eli Lilly Falls",
+          "summary": "Health care stocks were among those that lost ground, contributing to the broader decline in many S&P 500 constituents.",
+          "ticker": "$LLY",
+          "price": "N/A (Last Close)",
+          "change": "-1.6%",
+          "changePercent": "-1.60%",
+          "direction": "down"
         },
         {
-          "id": "loser-energy",
-          "headline": "Energy Sector Declines Amid Slipping Oil Prices",
-          "summary": "The energy sector, particularly represented by the Energy Select Sector SPDR (XLE), faced declines as oil prices continued to slip ahead of planned U.S.-Iran talks.",
-          "ticker": "$XLE",
-          "price": "N/A",
-          "change": "-1.20%",
-          "changePercent": "-1.20%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Energy",
-            "Commodities"
-          ]
+          "id": "charles-schwab-loser",
+          "headline": "Charles Schwab Declines",
+          "summary": "Financial company stocks experienced declines on Friday, with Charles Schwab closing lower.",
+          "ticker": "$SCHW",
+          "price": "N/A (Last Close)",
+          "change": "-2.5%",
+          "changePercent": "-2.50%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-articles",
-      "title": "Market News",
+      "id": "market-news-summary",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-cpi-inflation",
-          "headline": "March CPI Matches Expectations at 3.3%, Core Inflation Eases",
-          "summary": "The Consumer Price Index (CPI) for March showed inflation rising by 3.3%, aligning with economists' expectations. A surge in gasoline prices, up 21.2%, was a primary driver, though core inflation, excluding volatile food and energy, came in lower than anticipated. However, Fed officials like San Francisco Fed President Mary Daly indicated that oil shocks could delay the return to the 2% inflation target.",
+          "id": "news-geopolitical",
+          "headline": "Ceasefire Optimism Drives Market Rebound Amid Fragile Peace Talks",
+          "summary": "A temporary ceasefire between the U.S. and Iran led to a surge in stock markets and a drop in oil prices, easing stagflation fears. High-level talks are underway, but the agreement's durability remains a market concern.",
           "tags": [
-            "Economic Data",
+            "Geopolitics",
+            "Oil Prices",
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "news-inflation",
+          "headline": "Inflation Concerns Persist as Consumer Prices Rise",
+          "summary": "March saw consumer prices rise 3.3% annually, the highest in over two years, with new car prices up 12.6%. Core CPI increased 2.6% year-over-year, while the Fed's preferred PCE gauge showed a 2.8% increase. Year-ahead inflation expectations surged to 4.8% in April.",
+          "tags": [
             "Inflation",
-            "CPI",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "consumer-sentiment-drops",
-          "headline": "Consumer Sentiment Hits Record Low in Michigan Survey",
-          "summary": "Consumer sentiment experienced a significant drop, reaching a record low according to a University of Michigan survey. Short-term expectations also fell to their lowest level since 1980, reflecting growing pessimism among consumers.",
-          "tags": [
             "Economic Data",
-            "Consumer Sentiment"
+            "Consumer Spending"
           ]
         },
         {
-          "id": "fed-rate-cut-expectations",
-          "headline": "Fed Rate Cut Expectations for 2026 Vanish Amid Inflation Concerns",
-          "summary": "Markets are no longer anticipating any interest rate cuts from the Federal Reserve in 2026. This represents a notable shift in expectations, primarily influenced by persistent inflation concerns and ongoing geopolitical uncertainties.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "nasdaq100-sandisk",
-          "headline": "SanDisk to Join Nasdaq-100 Index, Signaling Tech Shift",
-          "summary": "SanDisk Corporation ($SNDK) is set to be included in the Nasdaq-100 Index on April 20, 2026, replacing Atlassian Corp Plc. This move highlights a broader market trend towards hardware and infrastructure companies crucial for the expanding artificial intelligence and data economy. SanDisk's current market capitalization is approximately $125.72 billion.",
-          "tags": [
-            "Sector News",
-            "Technology",
-            "Nasdaq-100",
-            "AI"
-          ]
-        },
-        {
-          "id": "earnings-outlook",
-          "headline": "Q1 Earnings Season Expected to Show Robust S&P 500 Profit Growth",
-          "summary": "The upcoming earnings season is projected to bring positive news, with S&P 500 profit growth estimated at 13.9%. Major companies like ASML Holding ($ASML) and Taiwan Semiconductor Manufacturing ($TSM) are slated to release their quarterly results next week, on April 15 and 16, respectively.",
+          "id": "news-earnings",
+          "headline": "Q1 Earnings Season Kicks Off Next Week with Major Banks and Tech",
+          "summary": "The first-quarter earnings season begins next week, with major banks including Goldman Sachs, JPMorgan, Citigroup, Bank of America, and Wells Fargo, as well as tech giant Netflix, scheduled to report. Over half of S&P 500 companies have issued positive EPS guidance for Q1.",
           "tags": [
             "Earnings Season",
-            "Corporate Earnings"
+            "Corporate Reports",
+            "Banking",
+            "Technology"
           ]
         },
         {
-          "id": "market-sentiment-lost-decade",
-          "headline": "S&P 500 Indicator Suggests Risk of 'Lost Decade' for Stocks",
-          "summary": "A rare market signal has emerged as the S&P 500's 5-year rolling return has dipped below its 15-year return. Historically, this pattern has preceded major bear markets, suggesting an elevated risk of a 'lost decade' for stock market returns. Investors are urged to prioritize risk management in this cyclical environment.",
+          "id": "news-tech-sector",
+          "headline": "Tech Sector Faces Rotation Amid Strong AI Demand and Valuation Compression",
+          "summary": "Despite strong underlying demand for AI and positive earnings from key players like Microsoft, the tech-heavy NASDAQ has seen a downturn, with investors rotating out of the sector. Tech valuations have compressed back to pre-AI boom levels.",
           "tags": [
-            "Market Sentiment",
-            "Market Analysis",
-            "Risk Management"
-          ]
-        },
-        {
-          "id": "tech-valuations-ai",
-          "headline": "Tech Valuations Revert to Pre-AI Boom Levels",
-          "summary": "Valuations within the technology sector have seen a compression, with forward P/E ratios dropping from 40x to 20x. This brings tech valuations back to levels observed before the recent artificial intelligence boom gained momentum.",
-          "tags": [
-            "Sector Analysis",
             "Technology",
+            "AI",
             "Valuations",
-            "AI"
+            "Sector Rotation"
+          ]
+        },
+        {
+          "id": "news-consumer-sentiment",
+          "headline": "Consumer Sentiment Plunges to Multi-Decade Lows in April",
+          "summary": "U.S. consumer sentiment plummeted by 11% in April, reaching multi-decade lows. Consumers expressed increased concerns over high prices, weaker asset values, and the ongoing Iran conflict.",
+          "tags": [
+            "Consumer Sentiment",
+            "Economic Indicators",
+            "Geopolitical Impact"
           ]
         }
       ]
