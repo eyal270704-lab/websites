@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-12T12:38:00Z",
+  "generatedAt": "2026-04-12T16:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: April 12, 2026",
-  "subtitle": "Market closes week with gains amid geopolitical developments and inflation data",
-  "badge": "Weekend Edition",
+  "title": "Daily Market Digest",
+  "subtitle": "Weekend Edition: Review of Friday, April 11, 2026, Market Close",
+  "badge": "Weekend Review",
   "sections": [
     {
       "id": "market-pulse-summary",
@@ -13,145 +13,202 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-apr12",
-          "headline": "Markets Closed for Weekend; Friday Saw Mixed Close, Strong Weekly Gains",
-          "summary": "U.S. equity markets are closed today, Saturday, April 12, 2026. The previous trading day, Friday, April 11, concluded with a mixed performance across major indices as investors weighed ongoing U.S.-Iran ceasefire talks and recent inflation data. Despite a cautious Friday, the S&P 500 and Nasdaq Composite recorded their best weekly gains since November. Overall market sentiment remains influenced by geopolitical tensions, energy prices, and the anticipation of Q1 earnings season, which kicks off next week. Not financial advice.",
+          "id": "market-pulse-item-1",
+          "headline": "U.S. Equities Close Mixed on Friday, Nasdaq Posts Strong Weekly Gain",
+          "summary": "U.S. stock markets closed mixed on Friday, April 11, 2026, wrapping up a choppy trading session influenced by a mixed inflation report and ongoing geopolitical developments. The tech-heavy Nasdaq Composite managed to eke out a gain, contributing to its best weekly performance since November, while the S&P 500 and Dow Jones Industrial Average saw slight declines. Overall market sentiment remains cautious amid persistent inflation concerns and upcoming economic data. Trading on Saturday, April 12, 2026, is suspended due to the weekend.",
           "tags": [
-            "Market Overview",
+            "Market Close",
             "Weekend",
-            "Geopolitics",
-            "Inflation"
-          ],
-          "timestamp": "2026-04-12T05:00:00Z"
+            "Inflation",
+            "Geopolitics"
+          ]
         }
       ]
     },
     {
       "id": "major-indices-performance",
-      "title": "Major Indices (Close April 11, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-apr11",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "6,816.89",
-          "statContext": "Down 0.1% on Friday, Up 3.6% for the week"
+          "statContext": "Down 0.1% on Friday, +3.6% for the week."
         },
         {
-          "id": "dow-apr11",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "47,916.57",
-          "statContext": "Down 0.6% on Friday, Up 3% for the week"
-        },
-        {
-          "id": "nasdaq-apr11",
-          "statLabel": "Nasdaq Composite",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
           "statValue": "22,902.89",
-          "statContext": "Up 0.4% on Friday, Up 4.7% for the week"
+          "statContext": "Up 0.4% on Friday, +4.7% for the week."
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "47,916.57",
+          "statContext": "Down 0.6% on Friday, +3.0% for the week."
+        },
+        {
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "2,630.59",
+          "statContext": "Down 0.2% on Friday, +4.0% for the week."
         }
       ]
     },
     {
-      "id": "top-movers-apr11",
-      "title": "Top Movers (April 11, 2026 / Week Ending April 11, 2026)",
+      "id": "top-movers-daily",
+      "title": "Top Movers (Friday, April 11, 2026)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "nvda-mover",
-          "headline": "Nvidia Extends Winning Streak",
-          "summary": "Nvidia ($NVDA) climbed 2.6% on Friday, continuing an eight-day winning streak, its longest since November 2023. Other chipmakers also saw gains.",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Leads Tech Gains",
+          "summary": "Nvidia continued its strong performance amidst a broader rotation out of tech earlier in the year.",
           "ticker": "$NVDA",
           "price": "N/A",
-          "change": "+2.6%",
-          "changePercent": "+2.6%",
-          "direction": "up"
+          "change": "+$4.76",
+          "changePercent": "+2.59%",
+          "direction": "up",
+          "tags": [
+            "Technology",
+            "AI"
+          ]
         },
         {
-          "id": "ogn-mover",
-          "headline": "Organon Surges on M&A Speculation",
-          "summary": "Organon ($OGN) soared 27.8% on Friday following reports of a potential $12 billion acquisition offer.",
-          "ticker": "$OGN",
+          "id": "amzn-gainer",
+          "headline": "Amazon Rises",
+          "summary": "Amazon saw a modest gain, reflecting continued investor interest in e-commerce and cloud computing sectors.",
+          "ticker": "$AMZN",
           "price": "N/A",
-          "change": "+27.8%",
-          "changePercent": "+27.8%",
-          "direction": "up"
+          "change": "+$4.78",
+          "changePercent": "+2.0%",
+          "direction": "up",
+          "tags": [
+            "E-commerce",
+            "Technology"
+          ]
         },
         {
-          "id": "vstm-mover",
-          "headline": "Verastem Experiences Decline",
-          "summary": "Verastem ($VSTM), a biopharma company, saw its stock price decline by 5.01% on Friday.",
-          "ticker": "$VSTM",
+          "id": "tsla-gainer",
+          "headline": "Tesla Moves Higher",
+          "summary": "Tesla experienced an uptick, though specific catalysts for the day's movement were not immediately clear.",
+          "ticker": "$TSLA",
           "price": "N/A",
-          "change": "-5.01%",
-          "changePercent": "-5.01%",
-          "direction": "down"
+          "change": "+$3.14",
+          "changePercent": "+0.9%",
+          "direction": "up",
+          "tags": [
+            "Automotive",
+            "EV"
+          ]
         },
         {
-          "id": "bbot-mover",
-          "headline": "BridgeBio Oncology Therapeutics Down",
-          "summary": "BridgeBio Oncology Therapeutics ($BBOT) decreased by 5.14% on Friday.",
-          "ticker": "$BBOT",
+          "id": "goog-loser",
+          "headline": "Alphabet Sees Slight Dip",
+          "summary": "Alphabet (Google) stock experienced a minor decline.",
+          "ticker": "$GOOG",
           "price": "N/A",
-          "change": "-5.14%",
-          "changePercent": "-5.14%",
-          "direction": "down"
+          "change": "-$0.67",
+          "changePercent": "-0.2%",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Search"
+          ]
+        },
+        {
+          "id": "msft-loser",
+          "headline": "Microsoft Declines",
+          "summary": "Microsoft shares edged lower during Friday's trading session.",
+          "ticker": "$MSFT",
+          "price": "N/A",
+          "change": "-$2.25",
+          "changePercent": "-0.6%",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Software"
+          ]
+        },
+        {
+          "id": "lpcn-loser",
+          "headline": "Lipocine Inc. Plummets",
+          "summary": "Lipocine Inc. saw a significant decline following the release of topline safety and efficacy results for LPCN 1154 in patients with Postpartum Depression.",
+          "ticker": "$LPCN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-77.84%",
+          "direction": "down",
+          "tags": [
+            "Biotechnology",
+            "Earnings"
+          ],
+          "timestamp": "April 2026"
         }
       ]
     },
     {
-      "id": "market-news-summary",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-apr11",
-          "headline": "Inflation Data Highlights Energy Prices and Fed Outlook",
-          "summary": "Consumer prices rose 3.3% annually in March, with core CPI at 2.6%. The PCE price index, the Fed's preferred measure, increased by 2.8% in February, with core PCE at 3%. High energy prices due to the Middle East conflict are cited as a significant driver of inflation. The market is not currently pricing in any Fed rate cuts for 2026, despite earlier guidance for one cut. Consumer sentiment has also dropped to multi-decade lows.",
+          "id": "sector-optimism",
+          "headline": "Information Technology and Semiconductors Lead Q1 Earnings Optimism",
+          "summary": "Despite high market volatility, over 50% of S&P 500 companies that have issued Q1 earnings guidance expect to beat Wall Street estimates. The Information Technology sector, especially semiconductors, shows the most optimism, with 59 companies (about 54%) issuing positive EPS guidance, well above historical averages.",
+          "tags": [
+            "Sector Analysis",
+            "Earnings",
+            "Technology",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "inflation-concerns",
+          "headline": "March CPI Report Shows Sharp Inflation Spike Driven by Energy Costs",
+          "summary": "The Consumer Price Index (CPI) for March 2026 increased 0.9% on a seasonally adjusted basis, with the all-items index up 3.3% over the last 12 months. This sharp spike was largely driven by a 10.9% surge in the energy index, and a 21.2% increase in the gasoline index. The Federal Reserve continues to monitor inflation closely, with some members expressing concerns about persistent inflationary pressures.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "Fed Policy",
-            "Consumer Sentiment"
-          ],
-          "timestamp": "2026-04-11T16:00:00Z"
+            "CPI",
+            "Fed"
+          ]
         },
         {
-          "id": "geopolitical-impact-apr11",
-          "headline": "Middle East Ceasefire Talks Influence Oil Prices and Supply Chains",
-          "summary": "U.S.-Iran ceasefire talks have led to a slip in oil prices, though the broader conflict in the Middle East continues to impact global supply chains and raise concerns about a permanent scar on the global economy, according to the IMF.",
+          "id": "upcoming-earnings",
+          "headline": "Key Earnings Reports Slated for Next Week, Q1 Season Kicks Off",
+          "summary": "The first-quarter earnings season officially begins the week of April 13, 2026. Major companies expected to report include Morgan Stanley ($MS) on Wednesday, April 15, and Citizens Financial ($CFG) and Snap-On Inc ($SNA) on Thursday, April 16. These reports will provide further insights into corporate performance amidst current economic conditions.",
+          "tags": [
+            "Earnings Season",
+            "Corporate News",
+            "Financials",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "geopolitical-impact",
+          "headline": "Geopolitical Tensions Continue to Influence Oil Prices and Market Volatility",
+          "summary": "Ongoing geopolitical tensions, particularly the Middle East conflict, are contributing to market volatility and influencing oil prices. This dynamic continues to impact inflation forecasts and global economic growth, creating a cautious overall market sentiment.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Supply Chains"
-          ],
-          "timestamp": "2026-04-11T15:30:00Z"
+            "Market Sentiment"
+          ]
         },
         {
-          "id": "q1-earnings-kickoff",
-          "headline": "Q1 Earnings Season to Begin Next Week with Major Banks",
-          "summary": "The first-quarter earnings season is set to commence next week, with major financial institutions including Goldman Sachs ($GS), JPMorgan ($JPM), Citigroup ($C), Bank of America ($BAC), Morgan Stanley ($MS), and Wells Fargo ($WFC) scheduled to report. Netflix ($NFLX) is also on the docket. Optimism regarding earnings guidance, particularly from the information technology sector and semiconductors, has been noted.",
+          "id": "tech-valuation-shift",
+          "headline": "Tech Valuations Revert to Pre-AI Boom Levels, Presenting Opportunities",
+          "summary": "Technology sector valuations, as measured by forward P/E ratios, have compressed significantly from 40x to 20x, returning to levels seen before the recent AI boom. This shift, despite strong earnings growth in some key technology players, may present attractive opportunities for savvy investors.",
           "tags": [
-            "Earnings Season",
-            "Corporate Earnings",
-            "Banking",
-            "Technology"
-          ],
-          "timestamp": "2026-04-11T17:00:00Z"
-        },
-        {
-          "id": "sector-performance-weekly",
-          "headline": "Industrials and Consumer Cyclicals Led Weekly Sector Gains",
-          "summary": "For the week ending April 10, the Industrials sector was the best performer, rising 5.60%, followed by Consumer Cyclical, up 5.50%. Energy was the worst-performing sector, down 3.77%, while Healthcare saw a modest gain of 0.25%. In Q1 2026, Energy was a clear standout, gaining 37.91%.",
-          "tags": [
-            "Sector Analysis",
-            "Industrials",
-            "Consumer Cyclical",
-            "Energy"
-          ],
-          "timestamp": "2026-04-11T16:30:00Z"
+            "Technology",
+            "Valuation",
+            "AI",
+            "Investment Trends"
+          ]
         }
       ]
     }
