@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-12T14:50:12.480875Z",
+  "generatedAt": "2026-04-13T22:53:41.037820Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 15,
+  "tradeCount": 16,
   "trades": [
     {
       "ticker": "$APP",
@@ -148,22 +148,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors & Semiconductor Equipment",
-      "currentPrice": "$188.63",
-      "entry": "$167.50",
-      "stop": "$165.00",
-      "structure": "Support Test / 0.382 Fib",
-      "trend": "> 20MA, > 200MA",
-      "trendLabel": "Moving Averages",
-      "analysis": "NVIDIA is currently trading above its 20-day and 200-day moving averages, indicating a strong uptrend. However, the stock's RSI suggests it may be overbought. A potential swing trade entry is identified at the $167.50 support level, which aligns with previous technical support and a 0.382 Fibonacci retracement. A stop loss would be placed at $165.00, just below this key support. This setup anticipates a healthy pullback before a continuation of the upward trend.",
-      "riskScore": 6,
-      "footerTag": "Accumulation",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$INTC",
       "name": "Intel Corporation",
       "sector": "Semiconductors & Semiconductor Equipment",
@@ -241,6 +225,38 @@
       "riskScore": 5,
       "footerTag": "Accumulation",
       "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$189.31",
+      "entry": "$167.50",
+      "stop": "$160.00",
+      "structure": "Support Test / 0.382 Fib",
+      "trend": "> 20MA, > 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently near resistance and trading with below-average volume. While the overall trend is bullish above key moving averages, a swing entry would require a significant pullback to established support levels or the 0.382 Fibonacci retracement for a more favorable risk/reward.",
+      "riskScore": 4,
+      "footerTag": "Potential Pullback",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "currentPrice": "$384.37",
+      "entry": "$352.00",
+      "stop": "$345.00",
+      "structure": "Falling Channel Support",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Microsoft is exhibiting weak development within a falling trend channel in the medium term, trading below its 200-day moving average. While a potential bounce from the $352 support level could occur, the overall negative sentiment and approaching earnings present a high-risk scenario.",
+      "riskScore": 7,
+      "footerTag": "Falling Channel / Approaching Earnings",
+      "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
   ]
