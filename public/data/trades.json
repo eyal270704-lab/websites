@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T17:15:15.166875Z",
+  "generatedAt": "2026-04-15T22:51:14.303214Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 17,
+  "tradeCount": 18,
   "trades": [
     {
       "ticker": "$APP",
@@ -180,38 +180,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$TSLA",
-      "name": "Tesla Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$348.95",
-      "entry": "$329.50",
-      "stop": "$300.00",
-      "structure": "Fibonacci Support",
-      "trend": "< 20MA, < 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Tesla is currently in a strong downtrend, trading below its key moving averages. The price is approaching a significant Fibonacci support level which could act as a bounce zone. However, upcoming earnings present a high-risk catalyst.",
-      "riskScore": 9,
-      "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors",
-      "currentPrice": "$189.31",
-      "entry": "$167.50",
-      "stop": "$160.00",
-      "structure": "Support Test / 0.382 Fib",
-      "trend": "> 20MA, > 200MA",
-      "trendLabel": "Trend",
-      "analysis": "NVIDIA is currently near resistance and trading with below-average volume. While the overall trend is bullish above key moving averages, a swing entry would require a significant pullback to established support levels or the 0.382 Fibonacci retracement for a more favorable risk/reward.",
-      "riskScore": 4,
-      "footerTag": "Potential Pullback",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$MSFT",
       "name": "Microsoft Corporation",
       "sector": "Technology",
@@ -273,6 +241,54 @@
       "riskScore": 9,
       "footerTag": "High Risk - Volatile Downtrend",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SMCI",
+      "name": "Super Micro Computer Inc.",
+      "sector": "Technology",
+      "currentPrice": "$27.09",
+      "entry": "$26.93",
+      "stop": "$26.73",
+      "structure": "Fibonacci Pivot Support",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Super Micro Computer is currently trading above its 20-day and 200-day moving averages, indicating a bullish short to long-term trend. A pullback to the Classic S1 Pivot offers a potential entry with a tight stop at the S2 Pivot for a bounce play.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$198.87",
+      "entry": "$189.00",
+      "stop": "$183.00",
+      "structure": "Resistance-turned-Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is exhibiting strong upward momentum, with the stock trading well above its 20-day and 200-day moving averages, supported by elevated relative volume. A pullback to the prior resistance level at $189.00, which now acts as support, presents a high-confidence entry for continued upside.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$391.95",
+      "entry": "$360.81",
+      "stop": "$350.00",
+      "structure": "0.5 Fib Retracement",
+      "trend": "Below 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is in a short-term bearish trend, trading below its 50-day and 200-day moving averages. Despite elevated relative volume, this setup carries higher risk. A potential entry could be considered on a bounce from the 0.5 Fibonacci retracement level at $360.81, targeting a short-term rebound.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
   ]
