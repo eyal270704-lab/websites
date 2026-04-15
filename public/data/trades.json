@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T22:53:41.037820Z",
+  "generatedAt": "2026-04-15T17:15:15.166875Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 16,
+  "tradeCount": 17,
   "trades": [
     {
       "ticker": "$APP",
@@ -196,38 +196,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$CAT",
-      "name": "Caterpillar Inc.",
-      "sector": "Industrials",
-      "currentPrice": "$790.66",
-      "entry": "$783.50",
-      "stop": "$745.00",
-      "structure": "Uptrend Pullback",
-      "trend": "> 20MA, > 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Caterpillar is exhibiting strong bullish momentum, trading above both its 20-day and 200-day moving averages. A shallow pullback towards the 20-day MA presents a potential entry for trend continuation.",
-      "riskScore": 4,
-      "footerTag": "Momentum",
-      "setupType": "momentum",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$HD",
-      "name": "The Home Depot, Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$337.48",
-      "entry": "$333.50",
-      "stop": "$325.00",
-      "structure": "20-day MA Support",
-      "trend": "> 20MA, < 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Home Depot is showing short-term strength, trading above its 20-day moving average, but remains below its longer-term 200-day MA. A retest of the 20-day MA could provide an entry for a bounce within its current range.",
-      "riskScore": 5,
-      "footerTag": "Accumulation",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$NVDA",
       "name": "NVIDIA Corporation",
       "sector": "Semiconductors",
@@ -256,6 +224,54 @@
       "analysis": "Microsoft is exhibiting weak development within a falling trend channel in the medium term, trading below its 200-day moving average. While a potential bounce from the $352 support level could occur, the overall negative sentiment and approaching earnings present a high-risk scenario.",
       "riskScore": 7,
       "footerTag": "Falling Channel / Approaching Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$338.12",
+      "entry": "$337.00",
+      "stop": "$330.00",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Home Depot is trading just above its 200-day moving average, which historically acts as a key support level. The stock is currently consolidating near short-term averages, suggesting a neutral to risky outlook due to conflicting technical signals from various sources.",
+      "riskScore": 7,
+      "footerTag": "Consolidation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Machinery",
+      "currentPrice": "$794.25",
+      "entry": "$710.20",
+      "stop": "$679.00",
+      "structure": "Pullback to EMA20",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is in a strong long-term uptrend, trading well above its key moving averages and recently breaking through resistance. However, the price is currently extended, indicating that a significant pullback to key support levels would be ideal before considering a new swing trade entry.",
+      "riskScore": 6,
+      "footerTag": "Extended - Wait for Pullback",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$QUBT",
+      "name": "Quantum Computing Inc.",
+      "sector": "Information Technology",
+      "currentPrice": "$8.99",
+      "entry": "$7.75",
+      "stop": "$6.80",
+      "structure": "Pullback to 50MA",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Quantum Computing is experiencing high volatility with a recent price gap-up, yet its long-term trend remains bearish as it trades below its 200-day moving average. The technical outlook is poor, and finding a reliable entry is challenging due to erratic price movements and overall negative trend.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Volatile Downtrend",
       "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
