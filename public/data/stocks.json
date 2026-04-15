@@ -1,156 +1,205 @@
 {
-  "generatedAt": "2026-04-14T08:24:00Z",
+  "generatedAt": "2026-04-15T08:26:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 14, 2026: Market Rallies on Geopolitical Optimism",
+  "subtitle": "Market insights for April 15, 2026 (based on April 14th close for US markets)",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-apr-14-2026",
-          "headline": "U.S. Stocks Rally as Hopes for Renewed U.S.-Iran Talks Emerge",
-          "summary": "Wall Street experienced a significant rally on Monday, April 13, recovering losses incurred from the U.S.-Iran conflict. The positive sentiment was largely driven by expectations of a possible second round of talks between the United States and Iran aimed at resolving the ongoing war. Technology stocks led the upward movement across major indices.",
+          "id": "market-pulse-headline-1",
+          "headline": "Wall Street Surges on US-Iran Peace Talk Hopes, S&P 500 Nears All-Time High",
+          "summary": "Optimism surrounding potential renewed US-Iran peace talks fueled a significant rally across Wall Street on Tuesday, April 14, driving major indices sharply higher. The S&P 500 closed within 1% of its record high, while the Nasdaq extended its winning streak to ten consecutive sessions. This positive sentiment was bolstered by easing oil prices and favorable inflation data.",
           "tags": [
-            "Market Sentiment",
+            "Market Rally",
             "Geopolitics",
-            "U.S. Stocks"
-          ]
+            "Inflation",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-04-15T08:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "stat-sp500",
           "statLabel": "S&P 500",
-          "statValue": "6,886.24",
-          "statContext": "+1.0% (+69.35 points)"
+          "statValue": "6,967.38",
+          "statContext": "+1.18% (+81.14 points) - Tuesday's close."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "stat-nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "23,183.74",
-          "statContext": "+1.2% (+280.84 points)"
+          "statValue": "23,639.08",
+          "statContext": "+1.96% (+455.35 points) - Tuesday's close, 10-day winning streak."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "48,218.25",
-          "statContext": "+0.6% (+301.68 points)"
+          "id": "stat-dow",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "48,535.99",
+          "statContext": "+0.66% (+317.74 points) - Tuesday's close."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (April 14, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "oracle-gainer",
-          "headline": "Oracle Soars on AI Infrastructure Strength",
-          "summary": "Oracle Corporation ($ORCL) was a top gainer, surging on Monday as investors recognized its strengthening position in the AI infrastructure race. The company reported an extraordinary increase in its remaining performance obligations and deepened its partnership with Nvidia.",
+          "id": "stock-be",
+          "headline": "Bloom Energy",
+          "ticker": "$BE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+23.98%",
+          "direction": "up",
+          "summary": "Surged following news of an expanded partnership with Oracle."
+        },
+        {
+          "id": "stock-orcl",
+          "headline": "Oracle",
           "ticker": "$ORCL",
-          "price": "$155.62",
-          "change": "+$17.55",
-          "changePercent": "+12.69%",
-          "direction": "up"
+          "price": "$163.00",
+          "change": "+$7.38",
+          "changePercent": "+4.74%",
+          "direction": "up",
+          "summary": "Gained on a bullish broader market sentiment due to Iran talks optimism and its expanded partnership with Bloom Energy."
         },
         {
-          "id": "servicenow-gainer",
-          "headline": "ServiceNow Climbs Amid Broader Tech Gains",
-          "summary": "ServiceNow ($NOW) posted significant gains, reflecting the strong performance of technology stocks fueled by positive market sentiment and the broader rally.",
-          "ticker": "$NOW",
-          "price": "$89.06",
-          "change": "+$6.06",
-          "changePercent": "+7.30%",
-          "direction": "up"
-        },
-        {
-          "id": "goldman-sachs-loser",
-          "headline": "Goldman Sachs Dips Despite Strong Earnings",
-          "summary": "Goldman Sachs ($GS) shares dropped despite the investment bank reporting better-than-expected quarterly profits. The decline was attributed to disappointment on Wall Street regarding lower-than-expected fixed-income revenue.",
-          "ticker": "$GS",
+          "id": "stock-amzn",
+          "headline": "Amazon",
+          "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.9%",
-          "direction": "down"
+          "changePercent": "+3.8%",
+          "direction": "up",
+          "summary": "Among the mega-cap tech names driving market gains."
         },
         {
-          "id": "lipocine-loser",
-          "headline": "Lipocine Plummets on Trial Results",
-          "summary": "Lipocine Inc. ($LPCN) experienced a sharp decline after reporting its topline safety and efficacy results for LPCN 1154, a treatment for Postpartum Depression.",
-          "ticker": "$LPCN",
+          "id": "stock-nvda",
+          "headline": "Nvidia",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-77.84%",
-          "direction": "down"
+          "changePercent": "+3.8%",
+          "direction": "up",
+          "summary": "Continued its powerful run as AI-linked equities extended gains."
+        },
+        {
+          "id": "stock-aal",
+          "headline": "American Airlines",
+          "ticker": "$AAL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8%",
+          "direction": "up",
+          "summary": "Spiked on reports of a potential merger proposal with United Airlines."
+        },
+        {
+          "id": "stock-akam",
+          "headline": "Akamai Technologies",
+          "ticker": "$AKAM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-16.66%",
+          "direction": "down",
+          "summary": "One of the S&P 500's top losers."
+        },
+        {
+          "id": "stock-fico",
+          "headline": "Fair Isaac",
+          "ticker": "$FICO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-13.99%",
+          "direction": "down",
+          "summary": "Among the significant decliners."
+        },
+        {
+          "id": "stock-wti",
+          "headline": "WTI Crude Oil",
+          "ticker": "N/A",
+          "price": "$91.28/barrel",
+          "change": "N/A",
+          "changePercent": "-7.87%",
+          "direction": "down",
+          "summary": "Oil prices collapsed due to optimism over renewed US-Iran peace talks."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis-overview",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-optimism",
-          "headline": "Geopolitical Optimism Fuels Market Rally",
-          "summary": "Hopes for renewed talks between the U.S. and Iran regarding the ongoing conflict, despite initial failed peace talks, have significantly boosted market sentiment, leading to a broad rally across major U.S. indices on Monday.",
-          "tags": [
-            "Geopolitics",
-            "Market Sentiment"
-          ]
-        },
-        {
-          "id": "q1-earnings-banks",
-          "headline": "Q1 Earnings Season Kicks Off with Mixed Bank Results",
-          "summary": "The first-quarter earnings season is underway, with major banks like JPMorgan Chase ($JPM), Wells Fargo ($WFC), and Citigroup ($C) set to report today, April 14. Goldman Sachs ($GS) already saw its stock drop despite beating profit expectations, due to disappointing fixed-income revenue.",
-          "tags": [
-            "Earnings",
-            "Banking Sector"
-          ]
-        },
-        {
-          "id": "oil-prices-retreat",
-          "headline": "Oil Prices Retreat Amid Diplomacy Hopes",
-          "summary": "Brent crude prices fell below $100 per barrel on Tuesday, paring earlier gains, as renewed optimism for U.S.-Iran talks eased concerns over supply disruptions in the Strait of Hormuz.",
-          "tags": [
-            "Commodities",
-            "Oil Prices",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "china-exports-slow",
-          "headline": "China's Export Growth Slows Amid Iran War Uncertainty",
-          "summary": "China reported a significant slowdown in export growth for March, rising only 2.5%, well below analysts' estimates. This deceleration is attributed to the Iran war's impact on global demand and supply chains.",
-          "tags": [
-            "Global Economy",
-            "China",
-            "Trade"
-          ]
-        },
-        {
-          "id": "ai-sector-outlook",
-          "headline": "AI Sector Sees Clear Winners and Losers in 2026",
-          "summary": "The artificial intelligence boom continues to shape market performance, with companies like Oracle ($ORCL) significantly benefiting from the demand for AI infrastructure. Conversely, some software stocks, such as Atlassian ($TEAM), are facing challenges and declines due to investor fears of AI disruption.",
+          "id": "sector-lead-tech",
+          "headline": "Tech and Financials Lead the Rally, Energy Drags",
+          "summary": "Tech stocks led the market surge, with the Philadelphia Semiconductor Index gaining 2% and software climbing 1.6%. Financials also joined the broad-based rally. Conversely, the energy sector was the sole decliner, falling 2.2% as crude oil prices plummeted on de-escalation hopes in the Middle East. Industrials and Healthcare are also seen as favorable sectors.",
           "tags": [
             "Technology",
-            "AI",
-            "Sector Analysis"
-          ]
+            "Financials",
+            "Energy",
+            "Sector Rotation"
+          ],
+          "timestamp": "2026-04-15T08:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "economic-news-updates",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "eco-news-inflation",
+          "headline": "Cooling Inflation and Stable Expectations",
+          "summary": "The US Producer Price Index (PPI) for March rose less than expected, with core PPI increasing by only 0.1% monthly, easing concerns about inflation and reducing pressure on the Federal Reserve for further rate hikes. Long-term consumer inflation expectations also remained stable, according to the NY Fed.",
+          "tags": [
+            "Inflation",
+            "PPI",
+            "Federal Reserve"
+          ],
+          "timestamp": "2026-04-15T08:20:00Z"
+        },
+        {
+          "id": "eco-news-earnings",
+          "headline": "Key Earnings Reports for April 15, 2026",
+          "summary": "ASML Holding NV ($ASML) reported strong Q1 2026 results, beating analyst expectations with a net income of $3.23 billion and revenue of $10.26 billion. BlackRock, Citigroup, and Johnson & Johnson also reported earnings that were well-received by the market. Investors are awaiting results from Bank of America ($BAC), Morgan Stanley ($MS), and PNC Financial Services Group ($PNC) today. Aduro Clean Technologies ($ADUR) and Greystone Logistics ($GLGI) also released their latest earnings.",
+          "tags": [
+            "Earnings",
+            "ASML",
+            "Banking",
+            "Financials"
+          ],
+          "timestamp": "2026-04-15T08:25:00Z"
+        },
+        {
+          "id": "eco-news-geopolitics",
+          "headline": "Geopolitical Optimism and Economic Outlooks",
+          "summary": "Hopes for renewed US-Iran peace talks significantly boosted market sentiment and led to a sharp decline in oil prices. While the IMF cut its global growth outlook for 2026 to 3.1% due to the Middle East conflict and warned of potential recession if the conflict escalates, US Treasury Secretary Scott Bessent maintains a strong outlook for the US economy, projecting growth over 3-3.5%.",
+          "tags": [
+            "Geopolitics",
+            "Global Economy",
+            "Oil Prices",
+            "IMF"
+          ],
+          "timestamp": "2026-04-15T08:25:30Z"
         }
       ]
     }
