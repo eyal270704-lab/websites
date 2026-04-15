@@ -1,205 +1,195 @@
 {
-  "generatedAt": "2026-04-15T08:26:00Z",
+  "generatedAt": "2026-04-15T17:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for April 15, 2026 (based on April 14th close for US markets)",
+  "subtitle": "Wednesday, April 15, 2026 - Not financial advice",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-pulse-headline-1",
-          "headline": "Wall Street Surges on US-Iran Peace Talk Hopes, S&P 500 Nears All-Time High",
-          "summary": "Optimism surrounding potential renewed US-Iran peace talks fueled a significant rally across Wall Street on Tuesday, April 14, driving major indices sharply higher. The S&P 500 closed within 1% of its record high, while the Nasdaq extended its winning streak to ten consecutive sessions. This positive sentiment was bolstered by easing oil prices and favorable inflation data.",
+          "id": "market-summary-apr-15-2026",
+          "headline": "U.S. Stocks Trade Mixed; S&P 500 Nears All-Time High Amid Geopolitical Hopes and Strong Earnings",
+          "summary": "U.S. stock markets are trading with mixed results on Wednesday, April 15, 2026, as optimism builds around potential U.S.-Iran peace talks and a strong start to the Q1 2026 earnings season. The S&P 500 has eclipsed the 7,000 level and is hovering near its all-time high set in January, while the Nasdaq Composite continues its impressive winning streak. The Dow Jones Industrial Average, however, is showing slight declines. Technology and Financial sectors are leading the gains, while Energy and certain Consumer sectors lag due to easing oil prices and mixed economic data.",
           "tags": [
-            "Market Rally",
+            "Market Summary",
             "Geopolitics",
-            "Inflation",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-04-15T08:00:00Z"
+            "Earnings Season"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "6,967.38",
-          "statContext": "+1.18% (+81.14 points) - Tuesday's close."
+          "statValue": "6,999.00 - 7,000.00+",
+          "statContext": "Up 0.3%-0.49% on Wednesday, closing at 6,967.38 (+1.1%) on Tuesday. Nearing all-time high of 7,002.28."
         },
         {
-          "id": "stat-nasdaq",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "23,639.08",
-          "statContext": "+1.96% (+455.35 points) - Tuesday's close, 10-day winning streak."
+          "statValue": "23,760.86 - 23,800.00+",
+          "statContext": "Up 0.8%-1.18% on Wednesday, closing at 23,639.08 (+2%) on Tuesday, marking 10th consecutive gain."
         },
         {
-          "id": "stat-dow",
-          "statLabel": "DOW Jones Industrial Average",
-          "statValue": "48,535.99",
-          "statContext": "+0.66% (+317.74 points) - Tuesday's close."
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "48,387.97 - 48,400.00",
+          "statContext": "Down 0.3%-0.45% on Wednesday, closing at 48,535.99 (+0.7%) on Tuesday."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (April 14, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-be",
-          "headline": "Bloom Energy",
-          "ticker": "$BE",
+          "id": "eose-gainer",
+          "headline": "Eos Energy ($EOSE) Soars on AI Data Center Partnership",
+          "summary": "Shares of Eos Energy ($EOSE) jumped 15% after the company announced a partnership with TURBINE-X Energy to develop private power infrastructure for AI data centers, planning to deploy up to 2 GWh of storage systems.",
+          "ticker": "$EOSE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+23.98%",
+          "changePercent": "+15%",
           "direction": "up",
-          "summary": "Surged following news of an expanded partnership with Oracle."
-        },
-        {
-          "id": "stock-orcl",
-          "headline": "Oracle",
-          "ticker": "$ORCL",
-          "price": "$163.00",
-          "change": "+$7.38",
-          "changePercent": "+4.74%",
-          "direction": "up",
-          "summary": "Gained on a bullish broader market sentiment due to Iran talks optimism and its expanded partnership with Bloom Energy."
-        },
-        {
-          "id": "stock-amzn",
-          "headline": "Amazon",
-          "ticker": "$AMZN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.8%",
-          "direction": "up",
-          "summary": "Among the mega-cap tech names driving market gains."
-        },
-        {
-          "id": "stock-nvda",
-          "headline": "Nvidia",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.8%",
-          "direction": "up",
-          "summary": "Continued its powerful run as AI-linked equities extended gains."
-        },
-        {
-          "id": "stock-aal",
-          "headline": "American Airlines",
-          "ticker": "$AAL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8%",
-          "direction": "up",
-          "summary": "Spiked on reports of a potential merger proposal with United Airlines."
-        },
-        {
-          "id": "stock-akam",
-          "headline": "Akamai Technologies",
-          "ticker": "$AKAM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-16.66%",
-          "direction": "down",
-          "summary": "One of the S&P 500's top losers."
-        },
-        {
-          "id": "stock-fico",
-          "headline": "Fair Isaac",
-          "ticker": "$FICO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.99%",
-          "direction": "down",
-          "summary": "Among the significant decliners."
-        },
-        {
-          "id": "stock-wti",
-          "headline": "WTI Crude Oil",
-          "ticker": "N/A",
-          "price": "$91.28/barrel",
-          "change": "N/A",
-          "changePercent": "-7.87%",
-          "direction": "down",
-          "summary": "Oil prices collapsed due to optimism over renewed US-Iran peace talks."
-        }
-      ]
-    },
-    {
-      "id": "sector-analysis-overview",
-      "title": "Sector Analysis",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "sector-lead-tech",
-          "headline": "Tech and Financials Lead the Rally, Energy Drags",
-          "summary": "Tech stocks led the market surge, with the Philadelphia Semiconductor Index gaining 2% and software climbing 1.6%. Financials also joined the broad-based rally. Conversely, the energy sector was the sole decliner, falling 2.2% as crude oil prices plummeted on de-escalation hopes in the Middle East. Industrials and Healthcare are also seen as favorable sectors.",
           "tags": [
-            "Technology",
+            "Gainers",
+            "AI",
+            "Energy Storage"
+          ]
+        },
+        {
+          "id": "allbirds-gainer",
+          "headline": "Allbirds ($BIRD) Skyrockets with Pivot to AI Infrastructure",
+          "summary": "Allbirds ($BIRD) saw an extraordinary surge of over 630% after announcing a complete strategic shift from sustainable footwear to artificial intelligence compute infrastructure, rebranding as NewBird AI.",
+          "ticker": "$BIRD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+630.52%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "AI",
+            "Company Restructuring"
+          ]
+        },
+        {
+          "id": "snap-gainer",
+          "headline": "Snap ($SNAP) Rallies on Workforce Reduction Announcement",
+          "summary": "Snap ($SNAP) shares rallied over 6% after CEO Evan Spiegel announced a restructuring, including laying off 1,000 employees (16% of the workforce), aiming to reduce annualized expenses by over $500 million and refocus on core priorities.",
+          "ticker": "$SNAP",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.43%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Social Media",
+            "Restructuring"
+          ]
+        },
+        {
+          "id": "asml-loser",
+          "headline": "ASML ($ASML) Drops Despite Strong Q1, Weak Q2 Forecast Weighs",
+          "summary": "ASML ($ASML), a key manufacturer of photolithography machines, fell 4.1% on Wednesday. Despite reporting strong first-quarter earnings and raising full-year net sales guidance due to intense AI demand, weaker-than-expected sales forecasts for Q2 spooked investors.",
+          "ticker": "$ASML",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.1%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Semiconductors",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "wells-fargo-loser",
+          "headline": "Wells Fargo Suffers Decline on Weaker Q1 Revenue",
+          "summary": "Wells Fargo experienced a 5.7% drop after reporting weaker revenue for the latest quarter than analysts had expected.",
+          "ticker": "$WFC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.7%",
+          "direction": "down",
+          "tags": [
+            "Losers",
             "Financials",
-            "Energy",
-            "Sector Rotation"
-          ],
-          "timestamp": "2026-04-15T08:15:00Z"
+            "Earnings"
+          ]
         }
       ]
     },
     {
-      "id": "economic-news-updates",
-      "title": "Economic News",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "eco-news-inflation",
-          "headline": "Cooling Inflation and Stable Expectations",
-          "summary": "The US Producer Price Index (PPI) for March rose less than expected, with core PPI increasing by only 0.1% monthly, easing concerns about inflation and reducing pressure on the Federal Reserve for further rate hikes. Long-term consumer inflation expectations also remained stable, according to the NY Fed.",
-          "tags": [
-            "Inflation",
-            "PPI",
-            "Federal Reserve"
-          ],
-          "timestamp": "2026-04-15T08:20:00Z"
-        },
-        {
-          "id": "eco-news-earnings",
-          "headline": "Key Earnings Reports for April 15, 2026",
-          "summary": "ASML Holding NV ($ASML) reported strong Q1 2026 results, beating analyst expectations with a net income of $3.23 billion and revenue of $10.26 billion. BlackRock, Citigroup, and Johnson & Johnson also reported earnings that were well-received by the market. Investors are awaiting results from Bank of America ($BAC), Morgan Stanley ($MS), and PNC Financial Services Group ($PNC) today. Aduro Clean Technologies ($ADUR) and Greystone Logistics ($GLGI) also released their latest earnings.",
-          "tags": [
-            "Earnings",
-            "ASML",
-            "Banking",
-            "Financials"
-          ],
-          "timestamp": "2026-04-15T08:25:00Z"
-        },
-        {
-          "id": "eco-news-geopolitics",
-          "headline": "Geopolitical Optimism and Economic Outlooks",
-          "summary": "Hopes for renewed US-Iran peace talks significantly boosted market sentiment and led to a sharp decline in oil prices. While the IMF cut its global growth outlook for 2026 to 3.1% due to the Middle East conflict and warned of potential recession if the conflict escalates, US Treasury Secretary Scott Bessent maintains a strong outlook for the US economy, projecting growth over 3-3.5%.",
+          "id": "us-iran-talks",
+          "headline": "Hopes for US-Iran Peace Talks Drive Market Optimism and Ease Oil Prices",
+          "summary": "Optimism for renewed peace talks between the United States and Iran is a primary driver of current market sentiment, with expectations of a ceasefire extension. This has led to easing crude oil prices, with WTI settling at $91.28 a barrel on Tuesday, down 7.87%. Brent crude is trading around $94.95, still above pre-war levels but significantly down from its peak.",
           "tags": [
             "Geopolitics",
-            "Global Economy",
             "Oil Prices",
-            "IMF"
-          ],
-          "timestamp": "2026-04-15T08:25:30Z"
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "q1-earnings-banking",
+          "headline": "Major Banks Report Strong Q1 2026 Earnings",
+          "summary": "The Q1 2026 earnings season has started positively, particularly for the banking sector. Citigroup ($C) reported adjusted EPS of $3.06, beating estimates by 15.8%, with revenues up 14%. BlackRock ($BLK) surpassed expectations with adjusted EPS of $12.53 and revenues up 27%. Morgan Stanley ($MS) and Bank of America ($BAC) also reported stronger-than-forecast earnings, contributing to a rally in financial stocks.",
+          "tags": [
+            "Earnings",
+            "Financials",
+            "Banking"
+          ]
+        },
+        {
+          "id": "ai-sector-boom",
+          "headline": "AI-Driven Demand Fuels Tech and Semiconductor Growth",
+          "summary": "The robust demand for Artificial Intelligence (AI) continues to be a significant market driver. Companies like ASML ($ASML) and Broadcom ($AVGO) are benefiting from increased semiconductor production driven by AI spending. The technology sector, especially AI giants and software companies, is leading market gains, while quantum computing stocks also surged on World Quantum Day.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Semiconductors",
+            "Sector Analysis"
+          ]
+        },
+        {
+          "id": "economic-data-release",
+          "headline": "Mixed Economic Data Released for March and April 2026",
+          "summary": "Real average hourly earnings saw a modest increase of 0.3% from March 2025 to March 2026. Import prices for March came in lower than expected at +0.8% headline, while export prices rose 1.6% month-over-month. The NAHB/Wells Fargo Housing Market Index for April is anticipated to be 37. The IMF downgraded global economic growth to 3.1% and inflation to 4.4% for this year.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Earnings",
+            "Labor Market"
+          ]
+        },
+        {
+          "id": "small-business-tax-cuts",
+          "headline": "Small Businesses Benefit from Permanent Tax Deduction",
+          "summary": "The National Federation of Independent Business (NFIB) released reports detailing the economic benefits and significant tax savings for small business owners following the permanent enactment of the 20% Small Business Deduction. This initiative aims to free up resources for businesses to grow and invest.",
+          "tags": [
+            "Economic Policy",
+            "Small Business",
+            "Taxation"
+          ]
         }
       ]
     }
