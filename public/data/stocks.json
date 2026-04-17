@@ -1,172 +1,199 @@
 {
-  "generatedAt": "2026-04-16T17:19:00Z",
+  "generatedAt": "2026-04-17T08:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market insights for April 16, 2026",
+  "title": "Daily Market Digest: Geopolitical Hopes Lift Indices to Records Amid Mixed Economic Signals",
+  "subtitle": "Friday, April 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "U.S. Stocks Hover Near Record Highs Amid Geopolitical Optimism and Strong Earnings",
-          "summary": "U.S. equity markets saw mixed movements today following a strong Wednesday session where the S&P 500 and Nasdaq Composite reached new record highs. Optimism surrounding a potential U.S.-Iran deal and robust first-quarter earnings from major companies are buoying sentiment, despite warnings about lingering geopolitical risks and potential inflation. Technology and communication services led gains, while healthcare and financials lagged. Not financial advice.",
+          "id": "market-summary",
+          "headline": "Wall Street Hits New Records, Driven by Geopolitical Optimism and Strong Earnings",
+          "summary": "U.S. major indices surged to new all-time highs today, fueled by cautious optimism stemming from a ceasefire agreement between Israel and Lebanon, alongside stronger-than-expected corporate earnings. However, lingering concerns about the broader Middle East conflict's impact on oil prices and inflation continue to temper overall sentiment. The technology sector notably led gains, while healthcare experienced a downturn.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
             "Geopolitics",
-            "Earnings"
+            "Earnings",
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "headline": "S&P 500",
-          "statLabel": "Current Price",
-          "statValue": "7,038.90",
-          "statContext": "Up 0.23% in intraday trading. Closed at a record 7,022.95 on Wednesday, up 0.8%."
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,041.28",
+          "statContext": "+0.26% today, +3.3% this week",
+          "ticker": "$SPX",
+          "price": "7,041.28",
+          "change": "+18.33",
+          "changePercent": "+0.26%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Current Status",
-          "statValue": "Up 0.18%",
-          "statContext": "Gained 47 points today. Finished above 24,000 on Wednesday, rising 1.6% after an 11th consecutive gain."
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "24,102.70",
+          "statContext": "+0.36% today, +5.2% this week (12-day rally)",
+          "ticker": "$IXIC",
+          "price": "24,102.70",
+          "change": "+86.69",
+          "changePercent": "+0.36%",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Current Status",
-          "statValue": "Up 0.18%",
-          "statContext": "Gained 86 points today. Slipped 0.2% to close at 48,463.72 on Wednesday."
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "48,578.72",
+          "statContext": "+0.24% today, +1% this week",
+          "ticker": "$DJIA",
+          "price": "48,578.72",
+          "change": "+115.00",
+          "changePercent": "+0.24%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers (U.S. Market)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-aehr",
-          "headline": "Aehr Test Systems",
-          "ticker": "$AEHR",
+          "id": "pep-gainer",
+          "headline": "PepsiCo Surges on Strong Q1 Results",
+          "summary": "PepsiCo ($PEP) gained 2.3% today after reporting better-than-expected first-quarter earnings and revenue.",
+          "ticker": "$PEP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17%",
-          "direction": "up",
-          "summary": "Shares surged after securing a record $41M follow-on order for burn-in testing of custom AI ASICs, reinforcing strong demand tied to data center workloads."
+          "changePercent": "+2.3%",
+          "direction": "up"
         },
         {
-          "id": "gainer-on",
-          "headline": "ON Semiconductor",
-          "ticker": "$ON",
+          "id": "jbht-gainer",
+          "headline": "J.B. Hunt Transport Services Climbs on Robust Earnings",
+          "summary": "U.S. logistics company J.B. Hunt Transport Services ($JBHT) saw its shares rise by 6.3% following the announcement of stronger-than-expected quarterly results.",
+          "ticker": "$JBHT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.75%",
-          "direction": "up",
-          "summary": "Led gains among S&P 500 components today."
+          "changePercent": "+6.3%",
+          "direction": "up"
         },
         {
-          "id": "gainer-hims",
-          "headline": "Hims & Hers Health, Inc.",
-          "ticker": "$HIMS",
+          "id": "myseum-gainer",
+          "headline": "Myseum (Myseum.AI) Jumps on AI Rebranding",
+          "summary": "Myseum surged 129% after rebranding to Myseum.AI, highlighting continued speculative interest in artificial intelligence-related companies.",
+          "ticker": "N/A",
+          "price": "$3.60",
+          "change": "N/A",
+          "changePercent": "+129%",
+          "direction": "up"
+        },
+        {
+          "id": "nflx-loser",
+          "headline": "Netflix Plunges on Weak Guidance, Chairman Transition",
+          "summary": "Netflix ($NFLX) shares dropped 9.6% in extended trading. Despite beating earnings and revenue expectations, the streaming giant issued a weak second-quarter outlook and announced co-founder and chairman Reed Hastings would step down in June.",
+          "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.15%",
-          "direction": "up",
-          "summary": "Extended its rally as the FDA is reportedly considering moving several peptides out of restrictive categories, a potential regulatory tailwind."
+          "changePercent": "-9.6%",
+          "direction": "down"
         },
         {
-          "id": "loser-abt",
-          "headline": "Abbott Laboratories",
+          "id": "abt-loser",
+          "headline": "Abbott Laboratories Falls on Reduced Outlook",
+          "summary": "Medical device maker Abbott Laboratories ($ABT) declined 6% after beating earnings estimates but subsequently lowering its full-year profit forecast.",
           "ticker": "$ABT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.15%",
-          "direction": "down",
-          "summary": "Among the worst-performing stocks in the S&P 500 today."
+          "changePercent": "-6.0%",
+          "direction": "down"
         },
         {
-          "id": "loser-schw",
-          "headline": "Charles Schwab Corp.",
+          "id": "schw-loser",
+          "headline": "Charles Schwab Drops as Revenue Misses Estimates",
+          "summary": "Brokerage firm Charles Schwab ($SCHW) saw its shares fall 7.6% after reporting earnings that beat expectations, but revenue figures that missed analyst consensus.",
           "ticker": "$SCHW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.92%",
-          "direction": "down",
-          "summary": "Experienced declines in today's trading."
-        },
-        {
-          "id": "loser-tsm",
-          "headline": "Taiwan Semiconductor Manufacturing Co.",
-          "ticker": "$TSM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.26%",
-          "direction": "down",
-          "summary": "Despite reporting a 58% jump in profit, shares saw a decline, possibly due to profit-taking or other market factors."
+          "changePercent": "-7.6%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-1",
-          "headline": "Sector Performance: Tech and Communication Services Lead, Energy and Healthcare Lag",
-          "summary": "On Wednesday, Consumer Discretionary, Information Technology, Communication Services, and Real Estate sectors showed strong performance. Today, Energy, Communication Services, and Technology stocks are leading advances among S&P 500 components. Conversely, Health Care, Financials, and Cyclicals are among the decliners. The Energy Select Sector SPDR (XLE) tumbled 2% on Wednesday.",
+          "id": "geopolitical-ceasefire",
+          "headline": "Israel-Lebanon Ceasefire Lifts Market Sentiment, Oil Prices Decline",
+          "summary": "A 10-day ceasefire agreement between Israel and Lebanon, announced by U.S. President Donald Trump, significantly boosted market sentiment, raising hopes for a de-escalation of Middle East tensions. This optimism contributed to a decline in oil prices, with Brent crude falling 1.1% to $98.31 per barrel and U.S. crude down 1.4% to $89.90 a barrel.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
-          ]
-        },
-        {
-          "id": "news-2",
-          "headline": "Fed Issues Enforcement Action; Economic Outlook Remains Uncertain",
-          "summary": "The Federal Reserve Board today announced an enforcement action. Earlier this month, on April 8, the minutes of the Federal Open Market Committee (FOMC) meeting from March 17–18, 2026, were released. At that meeting, the FOMC decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. The economic outlook remains highly uncertain, particularly due to the effects of the Middle East conflict, with real GDP growth expected between 2% and 2.5% this year.",
-          "tags": [
-            "Economic News",
-            "Fed Policy",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "news-3",
-          "headline": "Key Earnings Reports Drive Market Activity",
-          "summary": "Taiwan Semiconductor Manufacturing Company ($TSM) reported a significant 58% jump in first-quarter profit, beating estimates and setting new records, largely driven by strong AI demand. PepsiCo ($PEP) also exceeded expectations with its first-quarter earnings, reporting an 8.5% increase in net revenue. Other major companies scheduled to report earnings today include Abbott Laboratories ($ABT), Netflix ($NFLX), Alcoa ($AA), and Charles Schwab ($SCHW).",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "Consumer Goods"
-          ]
-        },
-        {
-          "id": "news-4",
-          "headline": "Geopolitical Tensions and Oil Prices Influence Market Sentiment",
-          "summary": "Optimism around a potential U.S.-Iran deal to extend a ceasefire has significantly lifted market sentiment, contributing to recent record highs in major indices. However, oil prices have continued to climb, with Brent crude rising to $96.32 per barrel and WTI crude to $92.51 per barrel. JPMorgan CEO Jamie Dimon warned about the possibility of inflation reigniting due to energy shocks and increasing geopolitical risks, including tensions in the Middle East, Ukraine, and with China.",
-          "tags": [
-            "Macro Trends",
             "Geopolitics",
             "Oil Prices",
-            "Inflation"
-          ]
+            "Market Sentiment"
+          ],
+          "timestamp": "2026-04-17T08:00:00Z"
+        },
+        {
+          "id": "fed-inflation-warning",
+          "headline": "Fed Official Warns of War-Driven Inflation, 'Wait-and-See' Approach to Rates",
+          "summary": "New York Fed President John Williams stated that the Middle East war is already increasing inflationary pressures through higher energy and supply-chain costs. He indicated that the Federal Reserve remains in a 'wait-and-see' mode regarding interest rate policy, with Deutsche Bank expecting rates to hold steady through 2026.",
+          "tags": [
+            "Federal Reserve",
+            "Inflation",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-04-17T07:30:00Z"
+        },
+        {
+          "id": "tech-sector-ai",
+          "headline": "Technology Sector Leads Gains Driven by AI Investments",
+          "summary": "The technology sector demonstrated strong performance, with a rally lifting the Nasdaq Composite toward new records. This surge is largely attributed to significant investments in artificial intelligence, including Uber's reported move to acquire autonomous vehicles.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Sector Performance"
+          ],
+          "timestamp": "2026-04-17T07:00:00Z"
+        },
+        {
+          "id": "jet-fuel-shortage",
+          "headline": "Looming Jet Fuel Shortage Threatens Air Travel, Higher Fares Expected",
+          "summary": "A potential jet fuel shortage in Europe and Asia, resulting from the Iran war and the closure of the Strait of Hormuz, could lead to significant disruptions in global air travel within weeks. Airlines are facing higher airfares and potential flight cancellations.",
+          "tags": [
+            "Energy",
+            "Aviation",
+            "Supply Chain"
+          ],
+          "timestamp": "2026-04-17T06:45:00Z"
+        },
+        {
+          "id": "economic-data",
+          "headline": "Mixed Economic Signals: Jobless Claims Fall, Manufacturing Data Mixed",
+          "summary": "Economic data presented a mixed picture today. U.S. jobless claims fell more than expected, suggesting a stable labor market. However, regional Fed manufacturing data showed divergent results, with the Philadelphia Fed index surging but the New York Fed services index remaining negative.",
+          "tags": [
+            "Economic Data",
+            "Labor Market",
+            "Manufacturing"
+          ],
+          "timestamp": "2026-04-17T06:30:00Z"
         }
       ]
     }
