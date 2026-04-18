@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-18T12:38:00Z",
+  "generatedAt": "2026-04-18T16:48:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, April 18, 2026",
-  "badge": "LIVE",
+  "subtitle": "April 18, 2026 - Market Rally Continues Amid Geopolitical Developments",
+  "badge": "Updated Today",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,14 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Wall Street Rallies to Record Highs as Hormuz Reopens, Oil Prices Plunge",
-          "summary": "U.S. equities surged today, with the Dow, S&P 500, and Nasdaq all closing at or near record highs. The broad market optimism was primarily fueled by the confirmed reopening of the Strait of Hormuz, easing geopolitical tensions and triggering a sharp decline in oil prices. This 'risk-on' sentiment has re-energized investor confidence, although underlying concerns about AI stock valuations and persistent inflation continue to suggest a cautious approach. Not financial advice.",
+          "id": "market-summary-apr18",
+          "headline": "U.S. Stocks Extend Gains on Easing Middle East Tensions and Strong Earnings",
+          "summary": "U.S. equities continued their upward trajectory, with major indices closing higher, propelled by positive developments regarding the Strait of Hormuz and better-than-expected corporate earnings. The market displayed robust sentiment, largely shrugging off earlier concerns about an AI valuation bubble and geopolitical risks, though underlying economic challenges from the Iran conflict remain a point of discussion.",
           "tags": [
-            "Market Rally",
-            "Geopolitics",
-            "Oil Prices",
-            "Record Highs"
+            "Market Overview",
+            "Global Events",
+            "Earnings"
           ]
         }
       ]
@@ -32,28 +31,37 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,121.76",
-          "statContext": "Up 1.20% today, reaching a new all-time high."
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "7,126.00",
+          "statContext": "Up 1.2% for the day. Set new all-time high.",
+          "tags": [
+            "S&P 500",
+            "Index Performance"
+          ]
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
           "statValue": "24,468.48",
-          "statContext": "Climbed 1.52% today, marking its 13th consecutive day of gains."
+          "statContext": "Up 1.5% for the day. Achieved 13th consecutive day of gains.",
+          "tags": [
+            "NASDAQ",
+            "Index Performance"
+          ]
         },
         {
-          "id": "dow-stat",
-          "statLabel": "DOW Jones Ind. Avg.",
-          "statValue": "49,462.00",
-          "statContext": "Rose 1.82% today, closing at a fresh record."
-        },
-        {
-          "id": "ytd-sp500",
-          "statLabel": "S&P 500 YTD",
-          "statValue": "+2.9%",
-          "statContext": "Year-to-date performance, indicating a recovery after a sluggish start to 2026."
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "49,447.43",
+          "statContext": "Up 1.8% for the day.",
+          "tags": [
+            "DOW",
+            "Index Performance"
+          ]
         }
       ]
     },
@@ -64,64 +72,90 @@
       "layout": "grid",
       "items": [
         {
-          "id": "ual-gainer",
-          "headline": "United Airlines ($UAL)",
-          "summary": "Shares soared amid easing oil prices and potential merger rumors, making it a top performer today.",
-          "ticker": "$UAL",
-          "price": "$105.00",
-          "change": "+$6.94",
-          "changePercent": "+7.1%",
-          "direction": "up"
+          "id": "hims-gainer",
+          "headline": "Hims & Hers Health Leads Weekly Gainers",
+          "summary": "The telehealth platform experienced a significant weekly surge.",
+          "ticker": "$HIMS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+48.37%",
+          "direction": "up",
+          "tags": [
+            "Healthcare",
+            "Weekly Gainer"
+          ]
         },
         {
-          "id": "ally-gainer",
-          "headline": "Ally Financial Inc. ($ALLY)",
-          "summary": "The stock surged following its strong first-quarter 2026 earnings results.",
-          "ticker": "$ALLY",
-          "price": "$45.36",
-          "change": "+$3.40",
-          "changePercent": "+8.1%",
-          "direction": "up"
+          "id": "affirm-gainer",
+          "headline": "Affirm Continues Upward Trend",
+          "summary": "The 'Buy Now, Pay Later' financial technology company showed strong weekly performance.",
+          "ticker": "$AFRM",
+          "price": "$64.49",
+          "change": "N/A",
+          "changePercent": "+32.93%",
+          "direction": "up",
+          "tags": [
+            "Fintech",
+            "Weekly Gainer"
+          ]
         },
         {
-          "id": "alv-gainer",
-          "headline": "Autoliv Inc. ($ALV)",
-          "summary": "Reported solid first-quarter earnings, contributing to a significant stock increase.",
-          "ticker": "$ALV",
-          "price": "$118.92",
-          "change": "+$7.59",
-          "changePercent": "+6.82%",
-          "direction": "up"
+          "id": "robinhood-gainer",
+          "headline": "Robinhood Rallies on Investor Sentiment",
+          "summary": "The trading platform saw considerable gains, partly due to a broader crypto market rally.",
+          "ticker": "$HOOD",
+          "price": "$90.80",
+          "change": "+$3.95",
+          "changePercent": "+4.55%",
+          "direction": "up",
+          "tags": [
+            "Fintech",
+            "Crypto",
+            "Daily Gainer"
+          ]
         },
         {
-          "id": "nflx-loser",
-          "headline": "Netflix ($NFLX)",
-          "summary": "Shares tumbled after the company's Q2 guidance fell short of market expectations, overshadowing an EPS beat.",
+          "id": "badger-loser",
+          "headline": "Badger Meter Falls Sharply",
+          "summary": "The water technology company was among the biggest weekly decliners.",
+          "ticker": "$BMI",
+          "price": "$115.58",
+          "change": "N/A",
+          "changePercent": "-25.57%",
+          "direction": "down",
+          "tags": [
+            "Industrials",
+            "Weekly Loser"
+          ]
+        },
+        {
+          "id": "dowinc-loser",
+          "headline": "Dow Inc. Drops Significantly",
+          "summary": "The materials science company experienced a notable daily decline.",
+          "ticker": "$DOW",
+          "price": "$35.60",
+          "change": "-$4.32",
+          "changePercent": "-10.82%",
+          "direction": "down",
+          "tags": [
+            "Materials",
+            "Daily Loser"
+          ]
+        },
+        {
+          "id": "netflix-loser",
+          "headline": "Netflix Shares Slip on Cautious Guidance",
+          "summary": "Despite strong Q1 results, Netflix's stock fell due to a weaker Q2 revenue outlook.",
           "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.0%+",
-          "direction": "down"
-        },
-        {
-          "id": "bmi-loser",
-          "headline": "Badger Meter Inc. ($BMI)",
-          "summary": "Experienced a significant drop following its first-quarter earnings report.",
-          "ticker": "$BMI",
-          "price": "$115.54",
-          "change": "-$36.79",
-          "changePercent": "-24.13%",
-          "direction": "down"
-        },
-        {
-          "id": "eric-loser",
-          "headline": "Telefonaktiebolaget L M Ericsson ($ERIC)",
-          "summary": "Fell sharply after announcing its first-quarter 2026 earnings results.",
-          "ticker": "$ERIC",
-          "price": "$11.37",
-          "change": "-$0.80",
-          "changePercent": "-6.57%",
-          "direction": "down"
+          "changePercent": "-10%+",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Streaming",
+            "Earnings"
+          ]
         }
       ]
     },
@@ -132,63 +166,56 @@
       "layout": "list",
       "items": [
         {
-          "id": "news-hormuz-oil",
-          "headline": "Strait of Hormuz Reopens, Driving Oil Prices Down Sharply",
-          "summary": "The key shipping lane in the Persian Gulf is now fully open for commercial vessels, significantly easing geopolitical tensions and causing benchmark U.S. crude to plunge 9.4% to $82.59 per barrel, while Brent crude fell 9.1% to $90.38.",
-          "tags": [
-            "Geopolitics",
-            "Oil Market",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "news-sector-rotation",
-          "headline": "Technology and Consumer Cyclicals Lead as Sectors Rotate",
-          "summary": "Amid the broader market rally, the technology and consumer cyclicals sectors were the best performers. Conversely, energy and utilities lagged today. Health care and industrials also showed signs of lagging.",
+          "id": "sector-analysis-tech-energy",
+          "headline": "Technology and Consumer Cyclicals Lead, Energy Lags Amid Volatility",
+          "summary": "For the week ending April 17, Technology (+8.23%) and Consumer Cyclicals (+6.35%) were the best-performing sectors. Conversely, Energy (-3.54%) and Utilities (-1.43%) were the worst-performing. This reflects a dynamic market responding to both geopolitical shifts and ongoing debates around AI valuations.",
           "tags": [
             "Sector Analysis",
             "Technology",
+            "Energy",
             "Consumer Cyclicals"
           ]
         },
         {
-          "id": "news-boj-dilemma",
-          "headline": "Bank of Japan Faces Dilemma Over Next Rate Hike",
-          "summary": "The Bank of Japan is weighing whether to raise its policy interest rate at its April 27-28 meeting, balancing inflation control against potential economic dampening effects, especially given soaring crude oil prices.",
+          "id": "fed-rates-speculation",
+          "headline": "Fed Rate Cut Expectations Rise with New Nominee",
+          "summary": "Speculation is mounting that a new Federal Reserve Chairman nominee, Kevin Warsh, will face White House pressure to cut interest rates from the current 3.5%-3.75% range. The Fed also released details of its Global Market Shock component for bank stress tests.",
           "tags": [
-            "Central Banks",
             "Monetary Policy",
+            "Federal Reserve",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "q1-earnings-strength",
+          "headline": "Strong Q1 Earnings Reports Drive Market Optimism",
+          "summary": "The Q1 earnings season is in full swing, with 85% of early S&P 500 reporters beating EPS estimates. JPMorgan Chase, Citigroup, Bank of America, Morgan Stanley, and BlackRock all reported stronger-than-expected results, particularly in investment banking and AI-driven technology infrastructure.",
+          "tags": [
+            "Earnings Reports",
+            "Financials",
+            "Corporate Performance"
+          ]
+        },
+        {
+          "id": "hormuz-tension-resurfaces",
+          "headline": "Strait of Hormuz Tensions Reignite, Threatening Energy Stability",
+          "summary": "After an initial reopening that caused oil prices to plummet and fueled market rallies, Iran's military has announced a reimposition of restrictions on the Strait of Hormuz, firing on passing ships. This escalation poses a renewed threat to global energy supply and highlights a potential disconnect between market optimism and the severe, ongoing energy disruptions.",
+          "tags": [
+            "Geopolitics",
+            "Energy Markets",
+            "Oil Prices",
             "Global Economy"
           ]
         },
         {
-          "id": "news-ai-valuations",
-          "headline": "Investor Scrutiny on AI Stock Valuations Intensifies",
-          "summary": "While AI-related stocks continue to perform strongly, investors are increasingly concerned about their steep valuations and the significant capital expenditures by companies like Oracle, Microsoft, and Alphabet, leading to some defensive positioning.",
+          "id": "ai-market-dynamics",
+          "headline": "AI Valuations and Dividend Stocks in Focus",
+          "summary": "While investors generally shrug off fears of an AI bubble, concerns remain about whether AI stocks can justify their steep valuations and high capital expenditures. This sentiment is driving some investors towards defensive plays, with dividend stocks currently outperforming growth stocks.",
           "tags": [
+            "Technology",
             "Artificial Intelligence",
-            "Valuations",
-            "Growth Stocks"
-          ]
-        },
-        {
-          "id": "news-india-economy",
-          "headline": "India's Economy Projected to Sustain Robust Growth Above 6%",
-          "summary": "Qatar National Bank (QNB) predicts India's economy will continue its strong growth trajectory, maintaining expansion above 6% despite global challenges, driven by resilient private consumption and improving labor market conditions.",
-          "tags": [
-            "Global Economy",
-            "Emerging Markets",
-            "India"
-          ]
-        },
-        {
-          "id": "news-fed-minutes",
-          "headline": "FOMC Minutes from March 2026 Released, Detail Reserve Discussions",
-          "summary": "The Federal Open Market Committee minutes from March 17-18, 2026, were released, indicating discussions around the levels of reserves and the future pace of reserve management operations, with a likely reduction after April.",
-          "tags": [
-            "Federal Reserve",
-            "FOMC",
-            "Monetary Policy"
+            "Investment Trends",
+            "Dividend Stocks"
           ]
         }
       ]
