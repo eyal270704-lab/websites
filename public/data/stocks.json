@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-19T08:04:00Z",
+  "generatedAt": "2026-04-19T12:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "April 19, 2026 - Pre-Market Update",
+  "title": "Daily Market Digest: April 19, 2026",
+  "subtitle": "Global Markets Rally as Geopolitical Tensions Ease, Tech and Travel Lead Gains",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-sentiment",
-          "headline": "Futures Show Positive Momentum Ahead of Market Open on Geopolitical Easing and Earnings Watch",
-          "summary": "U.S. equity futures are indicating a positive open for markets this morning, extending gains from the previous week. Sentiment remains largely optimistic, driven by the news of the Strait of Hormuz reopening and ongoing positive reactions to corporate earnings. Crude oil prices have seen a significant plunge, contributing to the upbeat mood. Investors are also closely monitoring upcoming economic data and major company earnings reports scheduled for the week ahead. Not financial advice.",
+          "id": "market-overview-001",
+          "headline": "Global Equities Surge as Strait of Hormuz Reopens, Risk-On Sentiment Prevails",
+          "summary": "The equity market experienced a significant surge this week, driven by optimism surrounding the reopening of the Strait of Hormuz, which eased concerns about energy-driven stagflation. All major indices posted strong gains, with technology and growth sectors regaining leadership. While overall market sentiment leaned towards 'risk-on,' investors remain cautious about broader macro risks and the sustainability of the rally.",
           "tags": [
-            "Market Sentiment",
-            "Pre-Market",
-            "Geopolitics",
-            "Earnings"
-          ]
+            "Market Overview",
+            "Global Economy",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-04-19T12:37:00Z"
         }
       ]
     },
@@ -32,151 +32,176 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "7,164.25",
-          "statContext": "+1.23% (as of Apr 17, 2026, 4:59 PM EDT)",
-          "ticker": "$ES=F",
-          "change": "+87.25",
-          "changePercent": "+1.23%",
-          "direction": "up"
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "7,126.00",
+          "statContext": "Closed Friday, Apr 17 (+1.20%)"
         },
         {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "26,840.75",
-          "statContext": "+1.32% (as of Apr 17, 2026, 4:59 PM EDT)",
-          "ticker": "$NQ=F",
-          "change": "+353.50",
-          "changePercent": "+1.32%",
-          "direction": "up"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,672.00",
+          "statContext": "Closed Friday, Apr 17 (+1.29%)"
         },
         {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "49,663.00",
-          "statContext": "+1.84% (as of Apr 17, 2026, 4:59 PM EDT)",
-          "ticker": "$YM=F",
-          "change": "+896.00",
-          "changePercent": "+1.84%",
-          "direction": "up"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,447.00",
+          "statContext": "Closed Friday, Apr 17 (+1.79%)"
         }
       ]
     },
     {
-      "id": "top-movers-premarket",
-      "title": "Top Movers (Pre-Market, April 17, 2026)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (As of Friday, April 17, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-efoi",
-          "headline": "Energy Focus Leads Pre-Market Gainers",
-          "ticker": "$EFOI",
-          "price": "$5.32",
-          "change": "+$3.23",
-          "changePercent": "+154.55%",
+          "id": "tsla-gainer",
+          "headline": "Tesla Surges on Market Optimism",
+          "ticker": "$TSLA",
+          "price": "$400.41",
+          "change": "+$11.51",
+          "changePercent": "+2.96%",
           "direction": "up",
-          "summary": "Energy Focus, Inc. saw a significant surge in pre-market trading, leading the gainers list."
+          "summary": "Tesla shares saw a notable increase, reflecting broader market optimism."
         },
         {
-          "id": "gainer-pbm",
-          "headline": "Psyence Biomedical Up on Pre-Market Activity",
-          "ticker": "$PBM",
-          "price": "$9.83",
-          "change": "+$3.96",
-          "changePercent": "+67.46%",
+          "id": "rcl-gainer",
+          "headline": "Royal Caribbean Cruises Gains Momentum",
+          "ticker": "$RCL",
+          "price": "$285.48",
+          "change": "+$19.53",
+          "changePercent": "+7.34%",
           "direction": "up",
-          "summary": "Psyence Biomedical Ltd. experienced a strong upward movement in pre-market, placing it among the top gainers."
+          "summary": "Royal Caribbean Cruises experienced significant gains, as the travel sector benefited from eased geopolitical risks and lower oil prices."
         },
         {
-          "id": "gainer-yxt",
-          "headline": "YXT.COM Group Holding Sees Strong Pre-Market Gains",
-          "ticker": "$YXT",
-          "price": "$0.57",
-          "change": "+$0.20",
-          "changePercent": "+55.11%",
+          "id": "lly-gainer",
+          "headline": "Eli Lilly Rises on Positive Drug Data",
+          "ticker": "$LLY",
+          "price": "$927.03",
+          "change": "+$23.04",
+          "changePercent": "+2.55%",
           "direction": "up",
-          "summary": "YXT.COM Group Holding Limited showed substantial gains in the pre-market session."
+          "summary": "Eli Lilly stock climbed after the company reported strong data for its new oral drug."
         },
         {
-          "id": "loser-fchl",
-          "headline": "Fitness Champs Holdings Leads Pre-Market Losers",
-          "ticker": "$FCHL",
-          "price": "$0.51",
-          "change": "-$1.03",
-          "changePercent": "-66.82%",
-          "direction": "down",
-          "summary": "Fitness Champs Holdings Limited recorded a sharp decline in pre-market trading."
+          "id": "sofi-gainer",
+          "headline": "SoFi Technologies Up After Earnings Beat",
+          "ticker": "$SOFI",
+          "price": "$19.43",
+          "change": "+$0.40",
+          "changePercent": "+2.10%",
+          "direction": "up",
+          "summary": "SoFi Technologies shares rose after the company beat Q1 EPS and revenue estimates."
         },
         {
-          "id": "loser-jlhl",
-          "headline": "Julong Holding Experiences Significant Pre-Market Drop",
-          "ticker": "$JLHL",
-          "price": "$7.50",
-          "change": "-$2.22",
-          "changePercent": "-22.84%",
-          "direction": "down",
-          "summary": "Julong Holding Limited was among the biggest pre-market losers."
+          "id": "ccl-gainer",
+          "headline": "Carnival Cruises Jumps Amid Travel Sector Strength",
+          "ticker": "$CCL",
+          "price": "$29.32",
+          "change": "+$0.11",
+          "changePercent": "+0.39%",
+          "direction": "up",
+          "summary": "Carnival Corporation saw its stock price increase, buoyed by positive sentiment in the travel and leisure industry."
         },
         {
-          "id": "loser-zspc",
-          "headline": "zSpace, Inc. Declines in Pre-Market",
-          "ticker": "$ZSPC",
-          "price": "$0.07",
-          "change": "-$0.02",
-          "changePercent": "-22.62%",
+          "id": "sndk-gainer",
+          "headline": "SanDisk Continues Upward Trend",
+          "ticker": "$SNDK",
+          "price": "$920.99",
+          "change": "+$1.52",
+          "changePercent": "+0.17%",
+          "direction": "up",
+          "summary": "SanDisk shares continued their ascent, reflecting strong performance over the past year and its upcoming inclusion in the Nasdaq-100."
+        },
+        {
+          "id": "nflx-loser",
+          "headline": "Netflix Shares Drop on Weak Guidance",
+          "ticker": "$NFLX",
+          "price": "$97.84",
+          "change": "-$9.95",
+          "changePercent": "-9.23%",
           "direction": "down",
-          "summary": "zSpace, Inc. saw a notable drop in its pre-market share price."
+          "summary": "Netflix experienced a significant drop after-hours due to a weak Q2 guidance, despite beating Q1 revenue. Reed Hastings' departure from the board was also noted."
+        },
+        {
+          "id": "vlo-loser",
+          "headline": "Valero Energy Falls as Oil Prices Decline",
+          "ticker": "$VLO",
+          "price": "$223.65",
+          "change": "-$18.09",
+          "changePercent": "-7.48%",
+          "direction": "down",
+          "summary": "Valero Energy's stock fell as oil prices continued to decline, impacting the energy sector negatively."
+        },
+        {
+          "id": "cvx-loser",
+          "headline": "Chevron Shares Retreat with Dropping Oil",
+          "ticker": "$CVX",
+          "price": "$183.99",
+          "change": "-$4.16",
+          "changePercent": "-2.21%",
+          "direction": "down",
+          "summary": "Chevron's stock declined as lower oil prices put pressure on energy companies."
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-update",
-          "headline": "Strait of Hormuz Reopens, Easing Geopolitical Tensions and Boosting Market Sentiment",
-          "summary": "Reports indicate that Iran has declared the Strait of Hormuz completely open for commercial traffic following a ceasefire, leading to a significant drop in crude oil prices. This development has largely contributed to the positive market sentiment seen in pre-market futures. President Trump has also indicated a peace deal with Iran is 'very close'.",
+          "id": "economic-news-001",
+          "headline": "Strait of Hormuz Reopening Fuels Market Optimism",
+          "summary": "The reopening of the Strait of Hormuz by Iran has been a primary catalyst for this week's market rally, significantly easing concerns about global energy supply and inflation.",
           "tags": [
             "Geopolitics",
-            "Oil Prices",
+            "Energy",
             "Market Sentiment"
           ]
         },
         {
-          "id": "tech-ai-leading-sectors",
-          "headline": "Technology and AI Sectors Continue to Show Strength",
-          "summary": "The technology sector, particularly AI-driven companies, is demonstrating continued strength. Nvidia's new AI model has driven gains in quantum computing stocks, while Microsoft advanced following price increases for its Surface line. This highlights ongoing investor interest in innovation and growth areas.",
+          "id": "sector-tech-ai-001",
+          "headline": "Tech and AI Sectors Lead Market Gains",
+          "summary": "Nasdaq and micro-caps, particularly in Big Tech and AI, led the recent rally. Risk-on sentiment favored growth, momentum, tech, consumer cyclicals, and blockchain sectors, with AI continuing to be a core market theme.",
           "tags": [
-            "Sector Analysis",
             "Technology",
             "AI",
-            "Quantum Computing"
+            "Sector Performance"
           ]
         },
         {
-          "id": "earnings-watch",
-          "headline": "Key Earnings Reports on the Horizon",
-          "summary": "Investors are looking ahead to a busy earnings week. Tesla ($TSLA) is scheduled to report on April 22, while tech giants Microsoft ($MSFT), Alphabet ($GOOG), Amazon, and Meta are all set to release their Q1 2026 results on April 29. Daiwa Securities Group ($DSEEY) is also expected to release earnings on April 26.",
+          "id": "sector-energy-travel-001",
+          "headline": "Energy Sector Declines as Travel Industry Benefits from Lower Oil Prices",
+          "summary": "Lower oil prices, while boosting travel-related companies like airlines and cruise lines, led to declines in the energy sector and related industries such as chemicals.",
+          "tags": [
+            "Energy",
+            "Travel",
+            "Sector Rotation"
+          ]
+        },
+        {
+          "id": "earnings-q1-2026",
+          "headline": "S&P 500 Q1 Earnings Show Strong Growth, Beating Estimates",
+          "summary": "Early Q1 2026 earnings reports indicate robust performance, with approximately 88% of S&P 500 companies reporting EPS above estimates and 84% beating revenue expectations. Overall, Q1 earnings growth for the S&P 500 is projected at around 13.2%.",
           "tags": [
             "Earnings",
-            "Q1 2026",
-            "Tech Stocks"
+            "Corporate News"
           ]
         },
         {
-          "id": "economic-data-glance",
-          "headline": "Recent Economic Data Provides Mixed Signals",
-          "summary": "Recent economic data includes a 0.5% fall in U.S. Industrial Production for March, while the Philadelphia Fed Index unexpectedly jumped in April. U.S. Jobless Claims also pulled back more than anticipated. Singapore's Non-Oil Domestic Export Data is due to be released today. The 10-year Treasury yield remains above 4.3%.",
+          "id": "macro-outlook-001",
+          "headline": "Macroeconomic Headwinds Persist Amidst Market Optimism",
+          "summary": "Despite the current market surge, macroeconomic risks remain, including the U.S. 10-year yield rising to 4.25% and warnings from the IMF regarding escalating U.S. and global debt levels. Analysts suggest a 'digestion phase' for gains may follow due to 'extremely overbought' conditions.",
           "tags": [
-            "Economic Data",
-            "Industrial Production",
-            "Jobless Claims",
-            "Treasury Yields"
+            "Macroeconomics",
+            "Interest Rates",
+            "Global Debt"
           ]
         }
       ]
