@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-23T07:26:25.634493Z",
+  "generatedAt": "2026-04-23T22:55:57.800949Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "currentPrice": "$273.05",
+      "entry": "$257.00",
+      "stop": "$250.00",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is approaching its earnings report on April 30, 2026, which presents significant short-term volatility risk. While the stock's long-term trend remains positive, immediate uncertainty due to this catalyst makes it an 'avoid' setup for the time being. The entry is set at a key support level to observe potential post-earnings reactions.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$387.51",
+      "entry": "$368.00",
+      "stop": "$350.00",
+      "structure": "20-day MA Support",
+      "trend": "< 200MA, > 20MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla shows signs of accumulation, with recent price action indicating a potential bottoming formation and a recapture of the 20-day moving average. The stock is attempting a breakout above this key short-term MA, suggesting a shift in momentum. Recent earnings have passed, and the next report is not within 5 days, reducing immediate catalyst risk.",
+      "riskScore": 3,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Technology",
+      "currentPrice": "$187.50",
+      "entry": "$162.18",
+      "stop": "$150.00",
+      "structure": "Pullback to 20-day EMA / Double Bottom Retest",
+      "trend": "> 20MA/50MA",
+      "trendLabel": "Trend",
+      "analysis": "Oracle exhibits strong bullish momentum, having broken out of a double bottom formation and currently trading above its 20-day and 50-day moving averages. A positive volume balance indicates robust buying interest. While the price is near resistance, a pullback to the 20-day exponential moving average could offer a favorable entry point.",
+      "riskScore": 4,
+      "footerTag": "Breakout",
+      "setupType": "breakout",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
