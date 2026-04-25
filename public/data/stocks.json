@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-23T17:23:00Z",
+  "generatedAt": "2026-04-25T08:04:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 23, 2026 - Market Close",
-  "badge": "Updated Today",
+  "subtitle": "April 25, 2026 - Tech-Led Rally Continues Amid Geopolitical Optimism",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,16 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Major Indices Close Higher Amid Mixed Economic Signals and Geopolitical Tensions",
-          "summary": "U.S. major stock indices concluded Thursday's trading session in positive territory, with the S&P 500 reaching an all-time high. The rally comes despite persistent geopolitical concerns in the Middle East, which led to some early-day pressure on markets and swinging oil prices. Investor sentiment was bolstered by news of a ceasefire extension with Iran and a robust earnings season for many S&P 500 companies. This digest provides actionable market insights and is not financial advice.",
+          "id": "market-summary-apr25",
+          "headline": "U.S. Equities Rally on Tech Strength and Hopes for Mideast De-escalation",
+          "summary": "U.S. stock markets closed Friday on a high note, extending a 'risk-on' posture seen throughout April. The Nasdaq Composite and S&P 500 both reached new all-time highs, driven largely by robust performance in the technology and semiconductor sectors. Investor sentiment was further boosted by optimism surrounding potential US-Iran peace talks and clarity on Federal Reserve leadership. The Dow Jones Industrial Average, however, lagged, showing a bifurcation in market performance. Global tensions, particularly in the Middle East, continue to influence commodity markets, though investors appear to be focusing on long-term economic fundamentals. Not financial advice.",
           "tags": [
-            "Market Close",
-            "Positive Sentiment",
-            "Economic Data",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-04-23T20:00:00Z"
+            "Market Summary",
+            "Tech Rally",
+            "Geopolitics",
+            "Fed"
+          ]
         }
       ]
     },
@@ -35,35 +34,20 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,137.90",
-          "statContext": "+73.89 (+1.1%)",
-          "ticker": "$SPX",
-          "price": "7,137.90",
-          "change": "+73.89",
-          "changePercent": "+1.1%",
-          "direction": "up"
+          "statValue": "7,165.08",
+          "statContext": "+0.80% Today, New All-Time High."
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "24,657.57",
-          "statContext": "+1.6%",
-          "ticker": "$IXIC",
-          "price": "24,657.57",
-          "change": "N/A",
-          "changePercent": "+1.6%",
-          "direction": "up"
+          "statValue": "24,836.60",
+          "statContext": "+1.63% Today, New All-Time High."
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,490.03",
-          "statContext": "+340.65 (+0.7%)",
-          "ticker": "$DJI",
-          "price": "49,490.03",
-          "change": "+340.65",
-          "changePercent": "+0.7%",
-          "direction": "up"
+          "statValue": "49,230.71",
+          "statContext": "-0.16% Today."
         }
       ]
     },
@@ -74,87 +58,44 @@
       "layout": "grid",
       "items": [
         {
-          "id": "uri-gainer",
-          "headline": "United Rentals Surges on Strong Q1 and Raised Outlook",
-          "summary": "Shares of United Rentals ($URI) climbed significantly after the company reported a solid first-quarter earnings beat and subsequently raised its full-year outlook, signaling continued strong demand across construction and industrial activities.",
-          "ticker": "$URI",
+          "id": "intel-gainer",
+          "headline": "Intel Surges on Strong Earnings",
+          "summary": "Intel ($INTC) shares surged approximately 23% to an all-time high after reporting a stunning first-quarter earnings beat and providing a positive forecast. Foundry revenue climbed 16% year-over-year, and data center and AI revenue rose 22% amid increasing demand for its CPUs.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+20.06%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Guidance",
-            "Industrials"
-          ]
+          "changePercent": "+23%",
+          "direction": "up"
         },
         {
-          "id": "txn-gainer",
-          "headline": "Texas Instruments Jumps on Upbeat Guidance",
-          "summary": "Texas Instruments ($TXN) stock saw a notable rise today, driven by a strong first-quarter earnings beat and an optimistic guidance for the upcoming period, indicating improving demand trends.",
-          "ticker": "$TXN",
+          "id": "amd-gainer",
+          "headline": "AMD Continues Upward Trend",
+          "summary": "Advanced Micro Devices ($AMD) saw its stock price soar 14% today, benefiting from the broader semiconductor rally and strong demand in the tech sector.",
+          "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.23%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Guidance",
-            "Technology"
-          ]
+          "changePercent": "+14%",
+          "direction": "up"
         },
         {
-          "id": "wst-gainer",
-          "headline": "West Pharmaceutical Services Shows Strong Performance",
-          "summary": "West Pharmaceutical Services Inc. ($WST) ended the day with significant gains, reflecting positive market sentiment.",
-          "ticker": "$WST",
+          "id": "infosys-loser",
+          "headline": "Infosys Plunges on Muted Outlook",
+          "summary": "Infosys ($INFY) shares plunged seven percent on Friday, closing at Rs 1,154.80. The decline was triggered by disappointing earnings and a cautious muted revenue outlook, which impacted the entire IT sector.",
+          "ticker": "$INFY",
+          "price": "Rs 1,154.80",
+          "change": "N/A",
+          "changePercent": "-7.00%",
+          "direction": "down"
+        },
+        {
+          "id": "hca-loser",
+          "headline": "HCA Healthcare Falls Short on Earnings",
+          "summary": "HCA Healthcare ($HCA) experienced an 8.76% decline in its stock price after its latest earnings report fell short of analyst expectations, leading the healthcare sector lower.",
+          "ticker": "$HCA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.73%",
-          "direction": "up",
-          "tags": [
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "car-loser",
-          "headline": "Avis Budget Group Plummets Amid Downgrade Concerns",
-          "summary": "Avis Budget Group ($CAR) experienced a sharp decline in its stock price, influenced by a JPMorgan downgrade due to valuation concerns.",
-          "ticker": "$CAR",
-          "price": "$250.00",
-          "change": "-$195.96",
-          "changePercent": "-43.69%",
-          "direction": "down",
-          "tags": [
-            "Downgrade",
-            "Valuation"
-          ]
-        },
-        {
-          "id": "asgn-loser",
-          "headline": "ASGN Incorporated Sees Significant Drop",
-          "summary": "ASGN Incorporated ($ASGN) shares fell sharply during today's trading.",
-          "ticker": "$ASGN",
-          "price": "$23.70",
-          "change": "-$16.83",
-          "changePercent": "-41.38%",
-          "direction": "down",
-          "tags": [
-            "Market Movement"
-          ]
-        },
-        {
-          "id": "medp-loser",
-          "headline": "Medpace Holdings Declines",
-          "summary": "Medpace Holdings Inc. ($MEDP) saw a considerable drop in its stock value today.",
-          "ticker": "$MEDP",
-          "price": "$392.59",
-          "change": "-$116.31",
-          "changePercent": "-22.79%",
-          "direction": "down",
-          "tags": [
-            "Market Movement"
-          ]
+          "changePercent": "-8.76%",
+          "direction": "down"
         }
       ]
     },
@@ -165,59 +106,74 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-overview",
-          "headline": "Technology, Communication Services, and Energy Lead Sectors; Real Estate Lags",
-          "summary": "Information Technology, Communication Services, and Energy sectors were among the top performers today. Conversely, the Real Estate sector experienced declines. There is a noted rotation from the energy sector towards technology, driven by attractive valuations and strong earnings growth potential. Healthcare also shows early signs of rebound.",
+          "id": "sector-tech-semiconductor-rally",
+          "headline": "Technology and Semiconductor Sectors Lead Market Gains",
+          "summary": "Information Technology was the top-performing sector, gaining 2.46% on Friday, with the semiconductor sector extending its record-breaking streak to 18 consecutive days of gains. Companies like Intel and AMD led the charge, reflecting continued strong demand and investor confidence in tech and AI-related growth.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Energy",
-            "Healthcare"
-          ],
-          "timestamp": "2026-04-23T16:30:00Z"
+            "Semiconductors",
+            "AI"
+          ]
         },
         {
-          "id": "nasdaq-earnings",
-          "headline": "Nasdaq Inc Reports Strong Q1 2026 Results, Beats Expectations",
-          "summary": "Nasdaq Inc ($NDAQ) announced robust first-quarter 2026 financial results, with net revenue increasing 14% year-over-year to $1.4 billion, exceeding analysts' expectations. The company highlighted broad-based growth across all operational segments and increased its quarterly dividend.",
+          "id": "sector-healthcare-lagging",
+          "headline": "Healthcare Sector Lags Amid Earnings Misses",
+          "summary": "The healthcare sector was the worst-performing on Friday, down 1.37%. This was largely due to several large-cap names, including HCA Healthcare, posting disappointing earnings reports that fell short of expectations.",
+          "tags": [
+            "Sector Analysis",
+            "Healthcare",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "economic-fed-leadership",
+          "headline": "New Fed Chair Appointment Boosts Market Confidence",
+          "summary": "Optimism surrounding the future of monetary policy increased as Kevin Warsh was cleared to take the helm of the U.S. central bank as the new Federal Reserve Chair. This development, along with the Trump administration's decision to suspend legal investigations, has bolstered expectations for a more accommodative policy outlook.",
+          "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "economic-earnings-united-bankshares",
+          "headline": "United Bankshares Reports Strong Q1 Earnings",
+          "summary": "United Bankshares Inc. ($UBSI) announced first-quarter 2026 earnings of $124.2 million, or $0.89 per diluted share. The company highlighted strong earnings, sound asset quality, and efficient capital allocation despite geopolitical and macroeconomic uncertainties.",
           "tags": [
             "Earnings Report",
-            "Financials",
-            "NDAQ"
-          ],
-          "timestamp": "2026-04-23T10:00:00Z"
+            "Financials"
+          ]
         },
         {
-          "id": "geopolitical-tensions",
-          "headline": "Middle East Tensions Continue to Influence Oil Markets",
-          "summary": "Geopolitical tensions in the Middle East, particularly concerning the war in Iran and the Strait of Hormuz, continue to create uncertainty and cause swings in oil prices. President Trump's announcement of a ceasefire extension with Iran provided some relief, but the situation remains a key macro factor.",
+          "id": "economic-earnings-dow-inc",
+          "headline": "Dow Inc. Reports Q1 Net Loss, Cites Middle East Conflict Impact",
+          "summary": "Dow Inc. ($DOW) reported a GAAP net loss of $445 million for the first quarter of 2026, with net sales down 6% year-over-year. The company noted that its Industrial Intermediates & Infrastructure segment was particularly impacted by the ongoing Middle East conflict.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Macroeconomics"
-          ],
-          "timestamp": "2026-04-23T15:00:00Z"
+            "Earnings Report",
+            "Materials",
+            "Geopolitics"
+          ]
         },
         {
-          "id": "economic-data-ai-tariffs",
-          "headline": "Census Bureau Releases AI Adoption Data; Report Criticizes Trump's Tariffs",
-          "summary": "The U.S. Census Bureau published new data from its Business Trends and Outlook Survey (BTOS), revealing insights into artificial intelligence (AI) adoption across various businesses. Separately, a report from the Joint Economic Committee criticized President Trump's tariffs, alleging harm to small manufacturers.",
+          "id": "macro-middle-east-tensions",
+          "headline": "Middle East Tensions Continue to Affect Energy Markets",
+          "summary": "The global natural gas market is expected to remain tight through 2027 due to ongoing Mideast conflict disrupting shipping and delaying LNG supply. Oil prices also climbed on Friday, driven by fears of prolonged supply disruptions through the Strait of Hormuz.",
           "tags": [
-            "Economic Data",
-            "AI Adoption",
-            "Trade Policy"
-          ],
-          "timestamp": "2026-04-23T14:00:00Z"
+            "Macro Trends",
+            "Energy Markets",
+            "Geopolitics"
+          ]
         },
         {
-          "id": "major-earnings-summary",
-          "headline": "Major Companies Report Q1 Earnings: Mixed Reactions for IBM, Tesla, American Airlines, Lockheed Martin, Keurig Dr Pepper, NewMarket",
-          "summary": "Several major companies released their Q1 earnings. IBM ($IBM) saw its stock slide despite beating profit and revenue estimates, with investors focusing on decelerating software growth. Tesla ($TSLA) also fell despite better-than-expected results. American Airlines ($AAL) reported record Q1 revenue but a net loss. Lockheed Martin ($LMT), Keurig Dr Pepper ($KDP), and NewMarket Corporation ($NEU) also released their latest financial results.",
+          "id": "macro-q1-earnings-magnificent7",
+          "headline": "Magnificent 7 Earnings Focus Shifts to AI Return on Investment",
+          "summary": "As the remaining 'Magnificent 7' companies (Nvidia, Apple, Microsoft, Amazon, Alphabet, Meta) prepare to report earnings, investors are shifting their focus from pure AI and datacenter capital expenditures to the return on investment (ROI) from these significant investments.",
           "tags": [
+            "Macro Trends",
             "Earnings Season",
-            "Corporate News"
-          ],
-          "timestamp": "2026-04-23T18:00:00Z"
+            "AI"
+          ]
         }
       ]
     }
