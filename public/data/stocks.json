@@ -1,169 +1,180 @@
 {
-  "generatedAt": "2026-04-26T12:41:00Z",
+  "generatedAt": "2026-04-26T16:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 26, 2026: Weekend Edition",
-  "badge": "Markets Closed",
+  "subtitle": "April 26, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: A Look Back at Friday's Session",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "S&P 500 and Nasdaq Close at Record Highs; Dow Slips",
-          "summary": "U.S. equity markets concluded the week with mixed performance on Friday, April 25, 2026, as the S&P 500 and Nasdaq Composite surged to new all-time highs. Investor sentiment was largely buoyed by strong performances in the technology and semiconductor sectors, fueled by ongoing enthusiasm for artificial intelligence and positive corporate earnings. The Dow Jones Industrial Average, however, experienced a slight decline. Geopolitical tensions, including a security scare involving Donald Trump and continued concerns in the Middle East, introduced some volatility throughout the trading week, though bullish momentum in growth sectors largely prevailed.",
+          "id": "market-summary-apr-26",
+          "headline": "Tech-Led Rally Pushes Indices to Record Highs Amid Shifting Sentiment",
+          "summary": "The U.S. stock market experienced a strong risk-on mood, primarily driven by the technology and semiconductor sectors, pushing major indices like the S&P 500 and Nasdaq to new record highs. Investor confidence was bolstered by robust earnings momentum and continued demand for artificial intelligence technologies. However, a slightly cautious undertone emerged with some analysts noting waning bullishness and potential overvaluation in certain ETFs. Geopolitical tensions, particularly concerns around the Strait of Hormuz, continued to influence oil prices, which held near $95 a barrel. The U.S. 10-year yield climbed to 4.31%, indicating ongoing rate pressure.",
           "tags": [
-            "Market Summary",
-            "AI Rally",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-04-25T16:00:00Z"
+            "Market Sentiment",
+            "Tech Rally",
+            "AI",
+            "Geopolitics",
+            "Interest Rates"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (April 25, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,165.08",
           "statContext": "+0.80% (Record High)"
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "24,836.60",
-          "statContext": "+1.63% (Record High)"
+          "statValue": "27,303",
+          "statContext": "+1.95% (Record High)"
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "49,230.71",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,230",
           "statContext": "-0.16%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (April 25, 2026)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "intel-gainer",
-          "headline": "Intel Surges on Strong Earnings",
-          "summary": "Intel Corporation ($INTC) saw a massive surge of 23.6% to $82.55, marking its best single day since 1987. This impressive gain was driven by the company's strong first-quarter revenue and earnings per share, which significantly beat consensus expectations.",
+          "id": "intc-gainer",
+          "headline": "Intel Surges on Strong Earnings and AI Demand",
           "ticker": "$INTC",
-          "price": "$82.55",
-          "change": "+$15.70",
-          "changePercent": "+23.6%",
+          "price": "N/A",
+          "change": "+23.60%",
+          "changePercent": "+23.60%",
           "direction": "up",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "Earnings"
-          ]
+          "summary": "Intel Corporation saw a massive one-day surge of 23.60% after reporting strong earnings that beat expectations and providing a firm outlook, driven by significant AI-driven demand."
         },
         {
-          "id": "nvidia-gainer",
-          "headline": "Nvidia Extends AI-Driven Rally",
-          "summary": "Nvidia Corporation ($NVDA) continued its upward trajectory, closing up 4.32% and retaking a $5 trillion market capitalization. The ongoing demand for artificial intelligence and semiconductors remains a primary catalyst for the stock's performance.",
-          "ticker": "$NVDA",
-          "price": "Market Data Not Available",
-          "change": "Market Data Not Available",
-          "changePercent": "+4.32%",
+          "id": "amd-gainer",
+          "headline": "AMD Rises in Sympathy with Intel's AI-Driven Gains",
+          "ticker": "$AMD",
+          "price": "N/A",
+          "change": "+23.06%",
+          "changePercent": "+23.06%",
           "direction": "up",
-          "tags": [
-            "AI",
-            "Semiconductors",
-            "Technology"
-          ]
+          "summary": "Advanced Micro Devices, Inc. jumped 23.06% last week, benefiting from positive sentiment surrounding Intel's strong earnings and the broader demand for AI-related semiconductor products."
         },
         {
-          "id": "servicenow-loser",
-          "headline": "ServiceNow Experiences Significant Drop",
-          "summary": "ServiceNow ($NOW) faced an 18% earnings collapse on Thursday, contributing to its decline. Concerns about AI/SaaS cannibalization fears in the software sector have impacted investor confidence.",
-          "ticker": "$NOW",
-          "price": "Market Data Not Available",
-          "change": "Market Data Not Available",
-          "changePercent": "-18.00%",
-          "direction": "down",
-          "tags": [
-            "Software",
-            "SaaS",
-            "Earnings"
-          ]
+          "id": "arm-gainer",
+          "headline": "Arm Holdings Gains on Semiconductor Sector Momentum",
+          "ticker": "$ARM",
+          "price": "N/A",
+          "change": "+40.15%",
+          "changePercent": "+40.15%",
+          "direction": "up",
+          "summary": "Arm Holdings plc gained 40.15% last week, also moving higher in sympathy with Intel Corporation's strong Q1 financial results, highlighting the robust performance in the semiconductor space."
         },
         {
-          "id": "tesla-loser",
-          "headline": "Tesla Shares Decline Despite Earnings Beat",
-          "summary": "Tesla ($TSLA) shares experienced a sell-off despite beating first-quarter revenue and earnings expectations. Analysis revealed that a significant portion of the boosted profits came from one-time reliefs related to warranty and tariffs, raising questions about underlying performance.",
-          "ticker": "$TSLA",
-          "price": "Market Data Not Available",
-          "change": "Market Data Not Available",
-          "changePercent": "Market Data Not Available",
+          "id": "lpcn-loser",
+          "headline": "Lipocine Plummets on Disappointing Drug Trial Results",
+          "ticker": "$LPCN",
+          "price": "N/A",
+          "change": "-77.84%",
+          "changePercent": "-77.84%",
           "direction": "down",
-          "tags": [
-            "Automotive",
-            "EV",
-            "Earnings"
-          ]
+          "summary": "Lipocine Inc. experienced a significant decline of 77.84% after reporting topline safety and efficacy results for its drug LPCN 1154 in patients with postpartum depression."
+        },
+        {
+          "id": "asns-loser",
+          "headline": "Actelis Networks Drops Following Nasdaq Delisting Decision",
+          "ticker": "$ASNS",
+          "price": "N/A",
+          "change": "-73.39%",
+          "changePercent": "-73.39%",
+          "direction": "down",
+          "summary": "Actelis Networks Inc. fell 73.39% as the company announced its transition to the OTC Market after a Nasdaq Panel decision."
+        },
+        {
+          "id": "repl-loser",
+          "headline": "Replimune Shares Tumble on FDA Complete Response Letter",
+          "ticker": "$REPL",
+          "price": "N/A",
+          "change": "-64.29%",
+          "changePercent": "-64.29%",
+          "direction": "down",
+          "summary": "Replimune Group, Inc. saw its stock decrease by 64.29% after receiving a Complete Response Letter from the FDA for its RP1 Biologics License Application for advanced melanoma treatment."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-chair-nomination",
-          "headline": "Kevin Warsh Poised for Fed Chair Amid Independence Pledge",
-          "summary": "Kevin Warsh's path to becoming the next Fed Chair appears clearer after the Department of Justice dropped its probe into Jerome Powell, removing a major hurdle. During his confirmation hearing, Warsh emphasized his commitment to independence and hinted at a 'different, new inflation framework,' suggesting a potential shift in monetary policy approach. The next FOMC decision, expected April 28-29, is widely anticipated to result in a hold on interest rates, with a 99.5% probability priced in by futures.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Economic Outlook"
-          ]
-        },
-        {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Reveals Mixed Signals",
-          "summary": "Recent economic data presented a mixed picture. The University of Michigan's final April sentiment index recorded its lowest reading since 1952 at 49.8, with year-ahead inflation expectations at 4.7%. Conversely, pending home sales rose by 1.5% month-over-month. The April flash composite PMI hit 52.0, with manufacturing reaching its highest level since May 2022 at 54.0, but deteriorating supplier delivery times indicated potential 'stagflation' rather than reacceleration. Initial jobless claims increased to 214,000.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "sector-rotation-tech-ai",
-          "headline": "Technology and AI Continue to Drive Market Leadership",
-          "summary": "The technology and semiconductor sectors continued to demonstrate robust leadership, particularly in the month of April. From April 1 to April 21, the tech sector was the best-performing S&P 500 sector, up over 15%, reversing a challenging first quarter. This rebound is largely attributed to strong demand for artificial intelligence and related computing infrastructure.",
+          "id": "sector-lead-lag",
+          "headline": "Technology and Communication Services Lead Market, Energy Gains Momentum",
+          "summary": "Technology, Communication Services, and Industrials have been leading sectors, posting gains above 100% in the current bull market. Specifically in April, Consumer Cyclical, Technology, and Communication Services are identified as top-performing sectors. Conversely, Health Care experienced its steepest monthly decline in March since 2009, and Technology faced pressure for a fifth consecutive month in March before its April rally. Energy also emerged as a clear leader in March, buoyed by a sharp spike in oil prices due to disruptions near the Strait of Hormuz.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI",
+            "Communication Services",
+            "Energy"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Federal Reserve Expected to Maintain Rates Amid Powell's Final Meeting",
+          "summary": "The Federal Reserve Board of Governors is scheduled to meet this week, with expectations widespread that policymakers will maintain the current interest-rate range of 3.50% to 3.75%. This gathering marks what could be Jerome Powell's final meeting as Federal Reserve chair before his term expires on May 15.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "earnings-season-highlights",
+          "headline": "Lam Research Beats Earnings Expectations, Big Tech Reports on Deck",
+          "summary": "Lam Research Corporation ($LRCX) reported positive third-quarter results, with revenues in line with predictions and a statutory profit of $1.45 per share modestly exceeding expectations. Analysts have since upgraded their 2027 revenue and EPS forecasts for the company. Major technology firms, including Apple ($AAPL), Amazon ($AMZN), Microsoft ($MSFT), Alphabet ($GOOGL), and Meta Platforms ($META), are scheduled to report earnings later this week, with Apple's report anticipated on Thursday.",
+          "tags": [
+            "Earnings",
+            "Technology",
             "Semiconductors"
           ]
         },
         {
-          "id": "geopolitical-volatility",
-          "headline": "Geopolitical Tensions Add Layer of Uncertainty",
-          "summary": "Geopolitical events continued to be a source of market volatility. A security scare involving Donald Trump and ongoing tensions in the Middle East, including the closure of the Strait of Hormuz, are contributing to investor anxiety. Oil prices continue to move higher due to the Strait of Hormuz disruption, impacting inflation expectations.",
+          "id": "ai-impact-software",
+          "headline": "AI Fears Reshape Software Loan Market, Investors Differentiate Risk",
+          "summary": "Concerns over artificial intelligence are rattling the market for software-company loans, leading to significant declines. Investors are, however, picking winners and losers, with vertical software and cybersecurity firms showing more resilience. In contrast, horizontal software and software-engineering tools companies are facing greater scrutiny due to their perceived exposure to AI disruption.",
           "tags": [
-            "Geopolitics",
-            "Market Volatility",
-            "Oil Prices"
+            "AI",
+            "Software",
+            "Credit Risk"
+          ]
+        },
+        {
+          "id": "us-households-financial-distress",
+          "headline": "Federal Report Reveals Millions of Utility Shutoffs, Signaling Financial Distress",
+          "summary": "A federal report last week disclosed that utility companies carried out 13.4 million electricity shutoffs and 1.7 million gas shutoffs across the U.S. in 2024. This newly collected data, significantly higher than previous estimates, signals a surprisingly high rate of extreme financial distress among American households.",
+          "tags": [
+            "Economic Data",
+            "Consumer Distress",
+            "Utilities"
           ]
         }
       ]
