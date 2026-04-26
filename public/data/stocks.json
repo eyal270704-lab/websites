@@ -1,190 +1,169 @@
 {
-  "generatedAt": "2026-04-26T08:14:00Z",
+  "generatedAt": "2026-04-26T12:41:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 26, 2026 - Weekend Edition",
-  "badge": "Updated: Sunday",
+  "subtitle": "April 26, 2026: Weekend Edition",
+  "badge": "Markets Closed",
   "sections": [
     {
-      "id": "market-pulse-20260426",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: A Look Back at Friday's Session",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260426",
-          "headline": "Tech Rally Drives S&P 500 and Nasdaq to New Records on Friday",
-          "summary": "U.S. equities closed out the week on a strong note, with the S&P 500 and Nasdaq Composite achieving new all-time highs on Friday, April 24, 2026. A surge in technology and semiconductor stocks, fueled by strong earnings reports, propelled the market upward, overshadowing lingering geopolitical tensions and oil price concerns. The Dow Jones Industrial Average, however, experienced a slight dip.",
+          "id": "market-summary-friday",
+          "headline": "S&P 500 and Nasdaq Close at Record Highs; Dow Slips",
+          "summary": "U.S. equity markets concluded the week with mixed performance on Friday, April 25, 2026, as the S&P 500 and Nasdaq Composite surged to new all-time highs. Investor sentiment was largely buoyed by strong performances in the technology and semiconductor sectors, fueled by ongoing enthusiasm for artificial intelligence and positive corporate earnings. The Dow Jones Industrial Average, however, experienced a slight decline. Geopolitical tensions, including a security scare involving Donald Trump and continued concerns in the Middle East, introduced some volatility throughout the trading week, though bullish momentum in growth sectors largely prevailed.",
           "tags": [
             "Market Summary",
-            "Tech Stocks",
-            "Record Highs"
-          ]
+            "AI Rally",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-04-25T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260426",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance (April 25, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260426",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
           "statValue": "7,165.08",
-          "statContext": "Up +0.80% (+55.68 points) on Friday"
+          "statContext": "+0.80% (Record High)"
         },
         {
-          "id": "nasdaq-20260426",
-          "statLabel": "NASDAQ",
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite",
           "statValue": "24,836.60",
-          "statContext": "Up +1.63% (+398.09 points) on Friday"
+          "statContext": "+1.63% (Record High)"
         },
         {
-          "id": "dow-20260426",
-          "statLabel": "DOW",
+          "id": "dow-close",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "49,230.71",
-          "statContext": "Down -0.16% (-79.61 points) on Friday"
+          "statContext": "-0.16%"
         }
       ]
     },
     {
-      "id": "top-movers-20260426",
-      "title": "Top Movers (Friday, April 24, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (April 25, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "INTC-gainer-20260426",
-          "headline": "Intel Corp",
+          "id": "intel-gainer",
+          "headline": "Intel Surges on Strong Earnings",
+          "summary": "Intel Corporation ($INTC) saw a massive surge of 23.6% to $82.55, marking its best single day since 1987. This impressive gain was driven by the company's strong first-quarter revenue and earnings per share, which significantly beat consensus expectations.",
           "ticker": "$INTC",
-          "price": "Reported strong Q1 earnings and upbeat guidance.",
-          "change": "+23.60%",
-          "changePercent": "+23.60%",
+          "price": "$82.55",
+          "change": "+$15.70",
+          "changePercent": "+23.6%",
           "direction": "up",
-          "summary": "Intel's stock soared after beating Wall Street's first-quarter earnings forecasts and offering better-than-expected second-quarter guidance, especially on strong data center sales."
-        },
-        {
-          "id": "AMD-gainer-20260426",
-          "headline": "Advanced Micro Devices",
-          "ticker": "$AMD",
-          "price": "Driven by AI chip demand and positive analyst ratings.",
-          "change": "+13.91%",
-          "changePercent": "+13.91%",
-          "direction": "up",
-          "summary": "AMD shares surged following a price target raise by analysts and strong demand for AI chips."
-        },
-        {
-          "id": "MXL-gainer-20260426",
-          "headline": "MaxLinear Inc",
-          "ticker": "$MXL",
-          "price": "Upgraded on data center demand outlook.",
-          "change": "+70.22%",
-          "changePercent": "+70.22%",
-          "direction": "up",
-          "summary": "MaxLinear experienced a significant climb after Needham upgraded its stock rating due to data center demand."
-        },
-        {
-          "id": "CHTR-loser-20260426",
-          "headline": "Charter Communications",
-          "ticker": "$CHTR",
-          "price": "Fell after Q1 earnings report, competition concerns.",
-          "change": "-25.50%",
-          "changePercent": "-25.50%",
-          "direction": "down",
-          "summary": "Charter Communications' stock declined following its earnings report and intensifying broadband competition concerns."
-        },
-        {
-          "id": "CMCSA-loser-20260426",
-          "headline": "Comcast Corporation",
-          "ticker": "$CMCSA",
-          "price": "Broadband competition and stalled growth weighed on shares.",
-          "change": "-12.90%",
-          "changePercent": "-12.90%",
-          "direction": "down",
-          "summary": "Comcast shares plummeted due to intensifying broadband competition and concerns over stalled growth."
-        },
-        {
-          "id": "HCA-loser-20260426",
-          "headline": "HCA Healthcare, Inc.",
-          "ticker": "$HCA",
-          "price": "Experienced a decline in trading.",
-          "change": "-8.77%",
-          "changePercent": "-8.77%",
-          "direction": "down",
-          "summary": "HCA Healthcare saw its stock fall during Friday's trading session."
-        }
-      ]
-    },
-    {
-      "id": "sector-analysis-20260426",
-      "title": "Sector Analysis (Weekly Ending April 24, 2026)",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "leading-sectors-20260426",
-          "headline": "Technology and Energy Lead Market Performance",
-          "summary": "For the week ending April 24, 2026, the technology sector continued its robust performance, driven by strong semiconductor and AI-related stocks. The energy sector also saw significant gains, rising 3.46%, despite fluctuating oil prices and geopolitical tensions. Information Technology and Financials also showed strong year-over-year earnings growth.",
           "tags": [
             "Technology",
-            "Energy",
-            "Sector Performance"
+            "Semiconductors",
+            "Earnings"
           ]
         },
         {
-          "id": "lagging-sectors-20260426",
-          "headline": "Healthcare and Communication Services Lag",
-          "summary": "Conversely, the healthcare sector was among the worst performers for the week, declining by 3.15%. Communication services also lagged, falling by 2.49%. Both sectors reported year-over-year declines in earnings."
+          "id": "nvidia-gainer",
+          "headline": "Nvidia Extends AI-Driven Rally",
+          "summary": "Nvidia Corporation ($NVDA) continued its upward trajectory, closing up 4.32% and retaking a $5 trillion market capitalization. The ongoing demand for artificial intelligence and semiconductors remains a primary catalyst for the stock's performance.",
+          "ticker": "$NVDA",
+          "price": "Market Data Not Available",
+          "change": "Market Data Not Available",
+          "changePercent": "+4.32%",
+          "direction": "up",
+          "tags": [
+            "AI",
+            "Semiconductors",
+            "Technology"
+          ]
+        },
+        {
+          "id": "servicenow-loser",
+          "headline": "ServiceNow Experiences Significant Drop",
+          "summary": "ServiceNow ($NOW) faced an 18% earnings collapse on Thursday, contributing to its decline. Concerns about AI/SaaS cannibalization fears in the software sector have impacted investor confidence.",
+          "ticker": "$NOW",
+          "price": "Market Data Not Available",
+          "change": "Market Data Not Available",
+          "changePercent": "-18.00%",
+          "direction": "down",
+          "tags": [
+            "Software",
+            "SaaS",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "tesla-loser",
+          "headline": "Tesla Shares Decline Despite Earnings Beat",
+          "summary": "Tesla ($TSLA) shares experienced a sell-off despite beating first-quarter revenue and earnings expectations. Analysis revealed that a significant portion of the boosted profits came from one-time reliefs related to warranty and tariffs, raising questions about underlying performance.",
+          "ticker": "$TSLA",
+          "price": "Market Data Not Available",
+          "change": "Market Data Not Available",
+          "changePercent": "Market Data Not Available",
+          "direction": "down",
+          "tags": [
+            "Automotive",
+            "EV",
+            "Earnings"
+          ]
         }
       ]
     },
     {
-      "id": "economic-news-20260426",
-      "title": "Economic News",
+      "id": "market-news",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-probe-20260426",
-          "headline": "DOJ Drops Probe into Federal Reserve Chair Jerome Powell",
-          "summary": "The Department of Justice has dropped its criminal investigation into Federal Reserve Chair Jerome Powell regarding allegations of false or misleading statements to Congress about the cost and scope of a Fed headquarters renovation. This development could smooth the way for Kevin Warsh's potential appointment to the Fed.",
+          "id": "fed-chair-nomination",
+          "headline": "Kevin Warsh Poised for Fed Chair Amid Independence Pledge",
+          "summary": "Kevin Warsh's path to becoming the next Fed Chair appears clearer after the Department of Justice dropped its probe into Jerome Powell, removing a major hurdle. During his confirmation hearing, Warsh emphasized his commitment to independence and hinted at a 'different, new inflation framework,' suggesting a potential shift in monetary policy approach. The next FOMC decision, expected April 28-29, is widely anticipated to result in a hold on interest rates, with a 99.5% probability priced in by futures.",
           "tags": [
-            "Fed",
-            "DOJ",
-            "Jerome Powell"
+            "Federal Reserve",
+            "Monetary Policy",
+            "Economic Outlook"
           ]
         },
         {
-          "id": "iran-tensions-20260426",
-          "headline": "Geopolitical Tensions and Oil Prices Remain a Factor",
-          "summary": "Geopolitical tensions, particularly surrounding the Iran conflict, continued to influence market sentiment and oil prices throughout the week. The U.S. Department of the Treasury announced sanctions targeting entities involved in Iran's oil trade and shadow fleet. Oil prices, while seeing some intraday swings, were largely flat on Friday but remain elevated.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Iran"
-          ]
-        },
-        {
-          "id": "earnings-q1-20260426",
-          "headline": "Q1 2026 Earnings Season Shows Resilience",
-          "summary": "The first-quarter 2026 earnings season is demonstrating resilience, with a higher-than-average percentage of S&P 500 companies reporting positive earnings surprises. Intel's strong earnings beat was a major market driver on Friday. Other notable companies like Procter & Gamble ($PG) and Union Pacific ($UNP) also reported earnings beats.",
-          "tags": [
-            "Earnings Season",
-            "Q1 2026",
-            "Corporate Results"
-          ]
-        },
-        {
-          "id": "economic-data-20260426",
-          "headline": "Consumer Sentiment at Record Lows Amid Inflation Concerns",
-          "summary": "U.S. Consumer Sentiment for April registered a significant drop, hitting a record low, largely influenced by the ongoing Iran war and inflation expectations. The four-week moving average for initial unemployment claims increased slightly to 210,750.",
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Reveals Mixed Signals",
+          "summary": "Recent economic data presented a mixed picture. The University of Michigan's final April sentiment index recorded its lowest reading since 1952 at 49.8, with year-ahead inflation expectations at 4.7%. Conversely, pending home sales rose by 1.5% month-over-month. The April flash composite PMI hit 52.0, with manufacturing reaching its highest level since May 2022 at 54.0, but deteriorating supplier delivery times indicated potential 'stagflation' rather than reacceleration. Initial jobless claims increased to 214,000.",
           "tags": [
             "Economic Data",
-            "Consumer Sentiment",
-            "Inflation"
+            "Inflation",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "sector-rotation-tech-ai",
+          "headline": "Technology and AI Continue to Drive Market Leadership",
+          "summary": "The technology and semiconductor sectors continued to demonstrate robust leadership, particularly in the month of April. From April 1 to April 21, the tech sector was the best-performing S&P 500 sector, up over 15%, reversing a challenging first quarter. This rebound is largely attributed to strong demand for artificial intelligence and related computing infrastructure.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "AI",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "geopolitical-volatility",
+          "headline": "Geopolitical Tensions Add Layer of Uncertainty",
+          "summary": "Geopolitical events continued to be a source of market volatility. A security scare involving Donald Trump and ongoing tensions in the Middle East, including the closure of the Strait of Hormuz, are contributing to investor anxiety. Oil prices continue to move higher due to the Strait of Hormuz disruption, impacting inflation expectations.",
+          "tags": [
+            "Geopolitics",
+            "Market Volatility",
+            "Oil Prices"
           ]
         }
       ]
