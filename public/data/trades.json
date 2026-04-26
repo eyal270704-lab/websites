@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T16:54:24.390716Z",
+  "generatedAt": "2026-04-26T16:55:25.410539Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 10,
+  "tradeCount": 12,
   "trades": [
     {
       "ticker": "$APP",
@@ -116,22 +116,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$ASTS",
-      "name": "AST SpaceMobile, Inc.",
-      "sector": "Technology",
-      "currentPrice": "$76.40",
-      "entry": "$69.73",
-      "stop": "$68.00",
-      "structure": "Support Test",
-      "trend": "Below 20MA",
-      "trendLabel": "Trend",
-      "analysis": "ASTS is in a short-term negative trend, trading below its 20-day and 50-day moving averages. While the 200-day MA suggests a bullish long-term outlook, recent volume on down moves indicates selling pressure. A potential entry exists at the key support level of $69.73, with a stop below for risk management.",
-      "riskScore": 7,
-      "footerTag": "Avoid",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$RDW",
       "name": "Redwire Corporation",
       "sector": "Aerospace & Defense",
@@ -161,6 +145,54 @@
       "riskScore": 6,
       "footerTag": "Momentum",
       "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ASTS",
+      "name": "AST SpaceMobile, Inc.",
+      "sector": "Communication Equipment",
+      "currentPrice": "$76.67",
+      "entry": "$73.00",
+      "stop": "$69.00",
+      "structure": "Support Test",
+      "trend": "Below 20MA/50MA",
+      "trendLabel": "Trend",
+      "analysis": "ASTS is currently trading below its 20-day and 50-day moving averages, indicating short to medium-term bearish momentum. While above the 200-day MA, the stock has broken a rising trend channel, suggesting a potential downtrend. Volume is below average. There are no immediate earnings catalysts within the next 5 days.",
+      "riskScore": 7,
+      "footerTag": "Technical Weakness",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SQ",
+      "name": "Block, Inc.",
+      "sector": "Financial Services",
+      "currentPrice": "$71.63",
+      "entry": "$70.00",
+      "stop": "$68.00",
+      "structure": "Support Test",
+      "trend": "Below 20MA/50MA",
+      "trendLabel": "Trend",
+      "analysis": "Block is trading below its 20-day and 50-day moving averages, but remains above its 200-day MA. The short to medium-term trend is bearish, while the long-term trend is bullish. The next earnings report is estimated within 5 days, posing a high-risk catalyst. Volume is significantly below its average.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$IRDM",
+      "name": "Iridium Communications Inc.",
+      "sector": "Telecom Services",
+      "currentPrice": "$38.96",
+      "entry": "$37.50",
+      "stop": "$31.00",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Iridium Communications is in a strong uptrend, trading above its 20-day, 50-day, and 200-day moving averages. Volume is slightly above average, confirming interest. Earnings were recently reported and there are no immediate catalysts within the next 5 days. A pullback to a key support level could offer a high confidence entry.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
       "source": "Micha Stocks YouTube"
     }
   ]
