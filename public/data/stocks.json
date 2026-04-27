@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-26T16:50:00Z",
+  "generatedAt": "2026-04-27T17:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 26, 2026",
-  "badge": "LIVE",
+  "subtitle": "April 27, 2026: Market Closes Mixed Amid Geopolitical Tensions",
+  "badge": "Closing Bell",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,15 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-apr-26",
-          "headline": "Tech-Led Rally Pushes Indices to Record Highs Amid Shifting Sentiment",
-          "summary": "The U.S. stock market experienced a strong risk-on mood, primarily driven by the technology and semiconductor sectors, pushing major indices like the S&P 500 and Nasdaq to new record highs. Investor confidence was bolstered by robust earnings momentum and continued demand for artificial intelligence technologies. However, a slightly cautious undertone emerged with some analysts noting waning bullishness and potential overvaluation in certain ETFs. Geopolitical tensions, particularly concerns around the Strait of Hormuz, continued to influence oil prices, which held near $95 a barrel. The U.S. 10-year yield climbed to 4.31%, indicating ongoing rate pressure.",
+          "id": "market-summary-april27",
+          "headline": "U.S. Equities Mixed as Investors Weigh Geopolitical Tensions and Upcoming Earnings",
+          "summary": "U.S. stock indices closed mixed on Monday, April 27, 2026, as geopolitical tensions surrounding U.S.-Iran peace talks and elevated crude oil prices influenced market sentiment. The Nasdaq Composite saw a decline, while the Dow Jones Industrial Average eased, and the S&P 500 slipped. Investors are also bracing for a busy week of major tech earnings reports and the Federal Reserve's policy meeting.",
           "tags": [
-            "Market Sentiment",
-            "Tech Rally",
-            "AI",
+            "Market Summary",
             "Geopolitics",
-            "Interest Rates"
+            "Earnings Season"
           ]
         }
       ]
@@ -33,22 +31,25 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,165.08",
-          "statContext": "+0.80% (Record High)"
+          "statValue": "7,158.70",
+          "statContext": "-0.09% (-6.44 points)",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "27,303",
-          "statContext": "+1.95% (Record High)"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ",
+          "statValue": "24,772.02",
+          "statContext": "-0.26% (-64.40 points)",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,230",
-          "statContext": "-0.16%"
+          "id": "dow-stat",
+          "statLabel": "DOW",
+          "statValue": "49,118.56",
+          "statContext": "-0.23% (-113.17 points)",
+          "direction": "down"
         }
       ]
     },
@@ -59,122 +60,137 @@
       "layout": "grid",
       "items": [
         {
-          "id": "intc-gainer",
-          "headline": "Intel Surges on Strong Earnings and AI Demand",
-          "ticker": "$INTC",
+          "id": "qcom-gainer",
+          "headline": "Qualcomm Surges on OpenAI Partnership Speculation",
+          "summary": "Qualcomm ($QCOM) shares gained 10% on news that OpenAI is reportedly exploring partnerships with the company to develop smartphone processors.",
+          "ticker": "$QCOM",
           "price": "N/A",
-          "change": "+23.60%",
-          "changePercent": "+23.60%",
-          "direction": "up",
-          "summary": "Intel Corporation saw a massive one-day surge of 23.60% after reporting strong earnings that beat expectations and providing a firm outlook, driven by significant AI-driven demand."
+          "change": "N/A",
+          "changePercent": "+10.00%",
+          "direction": "up"
         },
         {
-          "id": "amd-gainer",
-          "headline": "AMD Rises in Sympathy with Intel's AI-Driven Gains",
-          "ticker": "$AMD",
+          "id": "vz-gainer",
+          "headline": "Verizon Rises After Strong Q1 Earnings and Upbeat Outlook",
+          "summary": "Verizon ($VZ) climbed 3.5% after the communications giant exceeded first-quarter profit and subscriber expectations and subsequently raised its fiscal 2026 adjusted earnings outlook.",
+          "ticker": "$VZ",
           "price": "N/A",
-          "change": "+23.06%",
-          "changePercent": "+23.06%",
-          "direction": "up",
-          "summary": "Advanced Micro Devices, Inc. jumped 23.06% last week, benefiting from positive sentiment surrounding Intel's strong earnings and the broader demand for AI-related semiconductor products."
+          "change": "N/A",
+          "changePercent": "+3.50%",
+          "direction": "up"
         },
         {
-          "id": "arm-gainer",
-          "headline": "Arm Holdings Gains on Semiconductor Sector Momentum",
-          "ticker": "$ARM",
+          "id": "mu-gainer",
+          "headline": "Micron Technology Gains on Analyst Upgrade and AI Demand",
+          "summary": "Micron Technology ($MU) saw its shares rise 3.2% after analysts initiated coverage with a 'buy' rating, citing strong AI-driven demand for high-bandwidth memory (HBM) chips.",
+          "ticker": "$MU",
           "price": "N/A",
-          "change": "+40.15%",
-          "changePercent": "+40.15%",
-          "direction": "up",
-          "summary": "Arm Holdings plc gained 40.15% last week, also moving higher in sympathy with Intel Corporation's strong Q1 financial results, highlighting the robust performance in the semiconductor space."
+          "change": "N/A",
+          "changePercent": "+3.20%",
+          "direction": "up"
         },
         {
-          "id": "lpcn-loser",
-          "headline": "Lipocine Plummets on Disappointing Drug Trial Results",
-          "ticker": "$LPCN",
-          "price": "N/A",
-          "change": "-77.84%",
-          "changePercent": "-77.84%",
-          "direction": "down",
-          "summary": "Lipocine Inc. experienced a significant decline of 77.84% after reporting topline safety and efficacy results for its drug LPCN 1154 in patients with postpartum depression."
+          "id": "cmpx-loser",
+          "headline": "Compass Therapeutics Plummets on Clinical Trial Miss",
+          "summary": "Compass Therapeutics ($CMPX) shares dropped 54.87% after the company announced that its Tovecimig treatment did not meet the overall survival secondary endpoint in a clinical trial.",
+          "ticker": "$CMPX",
+          "price": "$2.27",
+          "change": "N/A",
+          "changePercent": "-54.87%",
+          "direction": "down"
         },
         {
-          "id": "asns-loser",
-          "headline": "Actelis Networks Drops Following Nasdaq Delisting Decision",
-          "ticker": "$ASNS",
-          "price": "N/A",
-          "change": "-73.39%",
-          "changePercent": "-73.39%",
-          "direction": "down",
-          "summary": "Actelis Networks Inc. fell 73.39% as the company announced its transition to the OTC Market after a Nasdaq Panel decision."
+          "id": "poet-loser",
+          "headline": "POET Technologies Experiences Significant Decline After Order Cancellation",
+          "summary": "POET Technologies ($POET) shares fell nearly 50% following the company's announcement of canceling all purchase orders from Celestial AI.",
+          "ticker": "$POET",
+          "price": "$8.20",
+          "change": "N/A",
+          "changePercent": "-45.70%",
+          "direction": "down"
         },
         {
-          "id": "repl-loser",
-          "headline": "Replimune Shares Tumble on FDA Complete Response Letter",
-          "ticker": "$REPL",
+          "id": "dpz-loser",
+          "headline": "Domino's Pizza Falls on Disappointing Earnings Report",
+          "summary": "Domino's Pizza ($DPZ) tumbled 9.56% after reporting worse-than-expected first-quarter financial results, missing both earnings and sales estimates.",
+          "ticker": "$DPZ",
           "price": "N/A",
-          "change": "-64.29%",
-          "changePercent": "-64.29%",
-          "direction": "down",
-          "summary": "Replimune Group, Inc. saw its stock decrease by 64.29% after receiving a Complete Response Letter from the FDA for its RP1 Biologics License Application for advanced melanoma treatment."
+          "change": "N/A",
+          "changePercent": "-9.56%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-lead-lag",
-          "headline": "Technology and Communication Services Lead Market, Energy Gains Momentum",
-          "summary": "Technology, Communication Services, and Industrials have been leading sectors, posting gains above 100% in the current bull market. Specifically in April, Consumer Cyclical, Technology, and Communication Services are identified as top-performing sectors. Conversely, Health Care experienced its steepest monthly decline in March since 2009, and Technology faced pressure for a fifth consecutive month in March before its April rally. Energy also emerged as a clear leader in March, buoyed by a sharp spike in oil prices due to disruptions near the Strait of Hormuz.",
+          "id": "energy-leads",
+          "headline": "Energy Sector Outperforms Amid Rising Oil Prices",
+          "summary": "The energy sector showed strength today, with shares jumping 1% as crude oil prices continued to climb due to prolonged disruptions in Middle East energy exports and stalled US-Iran peace talks.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Communication Services",
-            "Energy"
+            "Energy",
+            "Oil",
+            "Commodities"
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Federal Reserve Expected to Maintain Rates Amid Powell's Final Meeting",
-          "summary": "The Federal Reserve Board of Governors is scheduled to meet this week, with expectations widespread that policymakers will maintain the current interest-rate range of 3.50% to 3.75%. This gathering marks what could be Jerome Powell's final meeting as Federal Reserve chair before his term expires on May 15.",
+          "id": "consumer-discretionary-lags",
+          "headline": "Consumer Discretionary Stocks Lagged Market",
+          "summary": "Consumer discretionary stocks experienced a downturn, falling 0.9% on Monday.",
+          "tags": [
+            "Consumer Discretionary"
+          ]
+        },
+        {
+          "id": "tech-mixed-outlook",
+          "headline": "Technology Sector Shows Mixed Performance; Long-Term Underperformance Risk Noted",
+          "summary": "While some individual tech stocks saw gains, the broader Nasdaq Composite declined, indicating some weakness in the tech sector today. Separately, a steepening yield curve is signaling potential underperformance for tech and communications sector earnings over the next 18 months.",
+          "tags": [
+            "Technology",
+            "Yield Curve",
+            "Market Trends"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "fed-meeting-preview",
+          "headline": "Federal Reserve Set for Key Policy Meeting This Week",
+          "summary": "The Federal Reserve is scheduled to begin a two-day policy meeting tomorrow, April 28-29. Analysts widely anticipate the Fed will hold interest rates steady at their current range of 3.50%-3.75%. This meeting is also notable as it could be Jerome Powell's final appearance as Fed Chair, with Kevin Warsh expected to take over in May.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Monetary Policy"
+            "FOMC"
           ]
         },
         {
-          "id": "earnings-season-highlights",
-          "headline": "Lam Research Beats Earnings Expectations, Big Tech Reports on Deck",
-          "summary": "Lam Research Corporation ($LRCX) reported positive third-quarter results, with revenues in line with predictions and a statutory profit of $1.45 per share modestly exceeding expectations. Analysts have since upgraded their 2027 revenue and EPS forecasts for the company. Major technology firms, including Apple ($AAPL), Amazon ($AMZN), Microsoft ($MSFT), Alphabet ($GOOGL), and Meta Platforms ($META), are scheduled to report earnings later this week, with Apple's report anticipated on Thursday.",
+          "id": "big-tech-earnings",
+          "headline": "Big Tech Earnings Bonanza Kicks Off This Week",
+          "summary": "The market is entering a crucial period with several 'Magnificent Seven' tech giants set to report quarterly earnings this week, including Microsoft ($MSFT), Alphabet ($GOOGL), Amazon ($AMZN), Meta Platforms ($META), and Apple ($AAPL). These reports will be closely watched for insights into AI investments and overall market direction.",
           "tags": [
-            "Earnings",
+            "Earnings Reports",
             "Technology",
-            "Semiconductors"
+            "Big Tech"
           ]
         },
         {
-          "id": "ai-impact-software",
-          "headline": "AI Fears Reshape Software Loan Market, Investors Differentiate Risk",
-          "summary": "Concerns over artificial intelligence are rattling the market for software-company loans, leading to significant declines. Investors are, however, picking winners and losers, with vertical software and cybersecurity firms showing more resilience. In contrast, horizontal software and software-engineering tools companies are facing greater scrutiny due to their perceived exposure to AI disruption.",
+          "id": "oil-prices-rise",
+          "headline": "Oil Prices Remain Elevated Amid Geopolitical Tensions",
+          "summary": "Crude oil prices continued their upward trend, with Brent crude futures rising around 2% to touch a three-week high of $107.97 a barrel. This surge is attributed to stalled U.S.-Iran peace talks and ongoing restrictions in the Strait of Hormuz, impacting global energy exports.",
           "tags": [
-            "AI",
-            "Software",
-            "Credit Risk"
-          ]
-        },
-        {
-          "id": "us-households-financial-distress",
-          "headline": "Federal Report Reveals Millions of Utility Shutoffs, Signaling Financial Distress",
-          "summary": "A federal report last week disclosed that utility companies carried out 13.4 million electricity shutoffs and 1.7 million gas shutoffs across the U.S. in 2024. This newly collected data, significantly higher than previous estimates, signals a surprisingly high rate of extreme financial distress among American households.",
-          "tags": [
-            "Economic Data",
-            "Consumer Distress",
-            "Utilities"
+            "Oil",
+            "Crude Oil",
+            "Geopolitics"
           ]
         }
       ]
