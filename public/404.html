@@ -15,7 +15,7 @@
         window.location.origin + '/websites/?p=' +
         encodeURIComponent(path.replace('/websites', '')) +
         (search ? '&q=' + encodeURIComponent(search) : '') +
-        hash
+        (hash ? '#' + encodeURIComponent(hash.slice(1)) : '')
       );
     </script>
   </head>

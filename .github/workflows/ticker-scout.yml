@@ -20,6 +20,9 @@ on:
         default: 'Micha Stocks YouTube'
         type: string
 
+permissions:
+  contents: read
+
 jobs:
   scout:
     name: Scout → Analyze → Publish

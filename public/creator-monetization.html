@@ -93,12 +93,6 @@
             <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="comparison">
                 Comparison
             </button>
-            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="ai-strategy">
-                ✨ AI Strategy
-            </button>
-            <button class="tab-btn text-sm md:text-base font-medium py-3 px-5 rounded-full shadow-sm" data-tab="ai-ideas">
-                ✨ Content Ideas
-            </button>
         </nav>
 
         <main>
@@ -149,83 +143,6 @@
                 </p>
                 <div class="stat-card p-4 sm:p-6 overflow-x-auto">
                     <div id="comparison-table-container"></div>
-                </div>
-            </div>
-
-            <div id="ai-strategy" class="tab-content">
-                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
-                    Select your channel type and primary goal to get a custom monetization strategy, powered by Gemini.
-                </p>
-                <div class="stat-card max-w-2xl mx-auto p-6">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                        <div>
-                            <label for="channel-type" class="block text-sm font-medium text-stone-600 mb-1">Channel Type</label>
-                            <select id="channel-type" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
-                                <option>Gaming</option>
-                                <option>Vlogging / Lifestyle</option>
-                                <option>Education</option>
-                                <option>Cooking</option>
-                                <option>Tech Reviews</option>
-                                <option>Fashion & Beauty</option>
-                                <option>Comedy</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="primary-goal" class="block text-sm font-medium text-stone-600 mb-1">Primary Goal</label>
-                            <select id="primary-goal" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
-                                <option>Maximize Income</option>
-                                <option>Build a Personal Brand</option>
-                                <option>Create a Side Hustle</option>
-                                <option>Grow an Audience</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="generate-strategy-btn" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2">
-                        ✨ Generate Strategy
-                    </button>
-                    <div id="ai-loading" class="text-center text-stone-500 py-4" style="display: none;">
-                        Generating strategy...
-                    </div>
-                    <div id="ai-result" class="mt-6 p-4 bg-neutral-100 rounded-md border border-neutral-200" style="display: none;">
-                    </div>
-                </div>
-            </div>
-
-            <div id="ai-ideas" class="tab-content">
-                <p class="text-center text-stone-600 text-lg mb-8 max-w-2xl mx-auto">
-                    Get monetization-focused content ideas for your channel, powered by Gemini.
-                </p>
-                <div class="stat-card max-w-2xl mx-auto p-6">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                        <div>
-                            <label for="ideas-channel-type" class="block text-sm font-medium text-stone-600 mb-1">Channel Type</label>
-                            <select id="ideas-channel-type" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
-                                <option>Gaming</option>
-                                <option>Vlogging / Lifestyle</option>
-                                <option>Education</option>
-                                <option>Cooking</option>
-                                <option>Tech Reviews</option>
-                                <option>Fashion & Beauty</option>
-                                <option>Comedy</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="ideas-platform" class="block text-sm font-medium text-stone-600 mb-1">Target Platform</label>
-                            <select id="ideas-platform" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500">
-                                <option>YouTube (Long-form & YPP)</option>
-                                <option>TikTok (Creativity Program, 1min+)</option>
-                                <option>Instagram (Brand Deals & Reels)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="generate-ideas-btn" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2">
-                        ✨ Generate Content Ideas
-                    </button>
-                    <div id="ai-ideas-loading" class="text-center text-stone-500 py-4" style="display: none;">
-                        Generating ideas...
-                    </div>
-                    <div id="ai-ideas-result" class="mt-6 p-4 bg-neutral-100 rounded-md border border-neutral-200" style="display: none;">
-                    </div>
                 </div>
             </div>
 
@@ -340,7 +257,7 @@
                 return html;
             }
 
-            document.getElementById('generate-strategy-btn').addEventListener('click', async () => {
+            document.getElementById('generate-strategy-btn')?.addEventListener('click', async () => {
                 const btn = document.getElementById('generate-strategy-btn');
                 const loading = document.getElementById('ai-loading');
                 const resultDiv = document.getElementById('ai-result');
@@ -375,7 +292,7 @@
                 }
             });
 
-            document.getElementById('generate-ideas-btn').addEventListener('click', async () => {
+            document.getElementById('generate-ideas-btn')?.addEventListener('click', async () => {
                 const btn = document.getElementById('generate-ideas-btn');
                 const loading = document.getElementById('ai-ideas-loading');
                 const resultDiv = document.getElementById('ai-ideas-result');
