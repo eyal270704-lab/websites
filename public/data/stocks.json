@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-27T17:25:00Z",
+  "generatedAt": "2026-04-28T13:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "April 27, 2026: Market Closes Mixed Amid Geopolitical Tensions",
-  "badge": "Closing Bell",
+  "subtitle": "April 28, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-april27",
-          "headline": "U.S. Equities Mixed as Investors Weigh Geopolitical Tensions and Upcoming Earnings",
-          "summary": "U.S. stock indices closed mixed on Monday, April 27, 2026, as geopolitical tensions surrounding U.S.-Iran peace talks and elevated crude oil prices influenced market sentiment. The Nasdaq Composite saw a decline, while the Dow Jones Industrial Average eased, and the S&P 500 slipped. Investors are also bracing for a busy week of major tech earnings reports and the Federal Reserve's policy meeting.",
+          "id": "market-summary-apr-28",
+          "headline": "U.S. Equities Show Mixed Performance Amid Geopolitical Tensions and Key Earnings",
+          "summary": "U.S. equities closed Monday on a subdued note, with the S&P 500 and Nasdaq Composite posting modest gains and reaching new record highs, while the Dow Jones Industrial Average experienced a slight decline. Overall market sentiment reflects caution as investors balance improving geopolitical signals with lingering uncertainties surrounding the ongoing U.S.-Iran conflict, which continues to impact oil prices. Strong technology earnings and the persistent 'AI theme' are providing underlying resilience and driving momentum in certain sectors. Pre-market futures for Tuesday showed the Nasdaq 100 and S&P 500 futures slightly down, while Dow futures were up.",
           "tags": [
-            "Market Summary",
+            "Market Overview",
+            "Sentiment",
             "Geopolitics",
-            "Earnings Season"
+            "Earnings"
           ]
         }
       ]
@@ -31,24 +32,30 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,158.70",
-          "statContext": "-0.09% (-6.44 points)",
-          "direction": "down"
+          "statValue": "7,173.93",
+          "statContext": "+0.1% (+8.85 points)",
+          "change": "+8.85",
+          "changePercent": "+0.1%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ",
-          "statValue": "24,772.02",
-          "statContext": "-0.26% (-64.40 points)",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "24,887.10",
+          "statContext": "+0.2% (+50.50 points)",
+          "change": "+50.50",
+          "changePercent": "+0.2%",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "DOW",
-          "statValue": "49,118.56",
-          "statContext": "-0.23% (-113.17 points)",
+          "id": "dow-performance",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "49,168.04",
+          "statContext": "-0.1% (-62.67 points)",
+          "change": "-62.67",
+          "changePercent": "-0.1%",
           "direction": "down"
         }
       ]
@@ -60,137 +67,133 @@
       "layout": "grid",
       "items": [
         {
-          "id": "qcom-gainer",
-          "headline": "Qualcomm Surges on OpenAI Partnership Speculation",
-          "summary": "Qualcomm ($QCOM) shares gained 10% on news that OpenAI is reportedly exploring partnerships with the company to develop smartphone processors.",
-          "ticker": "$QCOM",
+          "id": "sndk-gainer",
+          "headline": "Sandisk Surges on Strong Performance",
+          "summary": "Sandisk Corporation ($SNDK) notably gained 8.1%, contributing to the positive movement in the technology sector.",
+          "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.00%",
+          "changePercent": "+8.1%",
           "direction": "up"
         },
         {
-          "id": "vz-gainer",
-          "headline": "Verizon Rises After Strong Q1 Earnings and Upbeat Outlook",
-          "summary": "Verizon ($VZ) climbed 3.5% after the communications giant exceeded first-quarter profit and subscriber expectations and subsequently raised its fiscal 2026 adjusted earnings outlook.",
-          "ticker": "$VZ",
-          "price": "N/A",
+          "id": "clf-gainer",
+          "headline": "Cleveland-Cliffs Jumps on Rare-Earth Optimism",
+          "summary": "Cleveland-Cliffs ($CLF) saw an 8.71% increase, closing at $10.61, boosted by optimism surrounding rare-earth materials and geopolitical developments.",
+          "ticker": "$CLF",
+          "price": "$10.61",
           "change": "N/A",
-          "changePercent": "+3.50%",
+          "changePercent": "+8.71%",
           "direction": "up"
         },
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Gains on Analyst Upgrade and AI Demand",
-          "summary": "Micron Technology ($MU) saw its shares rise 3.2% after analysts initiated coverage with a 'buy' rating, citing strong AI-driven demand for high-bandwidth memory (HBM) chips.",
-          "ticker": "$MU",
-          "price": "N/A",
+          "id": "fsly-gainer",
+          "headline": "Fastly Gains Ahead of Earnings",
+          "summary": "Fastly ($FSLY) rose 8.59% to $25.80 as investors repositioned ahead of its upcoming earnings report.",
+          "ticker": "$FSLY",
+          "price": "$25.80",
           "change": "N/A",
-          "changePercent": "+3.20%",
+          "changePercent": "+8.59%",
           "direction": "up"
         },
         {
-          "id": "cmpx-loser",
-          "headline": "Compass Therapeutics Plummets on Clinical Trial Miss",
-          "summary": "Compass Therapeutics ($CMPX) shares dropped 54.87% after the company announced that its Tovecimig treatment did not meet the overall survival secondary endpoint in a clinical trial.",
-          "ticker": "$CMPX",
-          "price": "$2.27",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Continues AI-Driven Ascent",
+          "summary": "Nvidia ($NVDA) jumped 4%, extending its recent strength and pushing its market capitalization above $5 trillion, underscoring continued AI leadership.",
+          "ticker": "$NVDA",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-54.87%",
-          "direction": "down"
+          "changePercent": "+4.0%",
+          "direction": "up"
         },
         {
-          "id": "poet-loser",
-          "headline": "POET Technologies Experiences Significant Decline After Order Cancellation",
-          "summary": "POET Technologies ($POET) shares fell nearly 50% following the company's announcement of canceling all purchase orders from Celestial AI.",
-          "ticker": "$POET",
-          "price": "$8.20",
+          "id": "intc-gainer",
+          "headline": "Intel Rises Amid Upbeat Earnings and AI Demand",
+          "summary": "Intel Corporation ($INTC) added 3% on the day, with its shares also noted for a substantial 93% return over the last month and trading at 52-week highs, fueled by strong quarterly results and AI demand.",
+          "ticker": "$INTC",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-45.70%",
-          "direction": "down"
+          "changePercent": "+3.0%",
+          "direction": "up"
         },
         {
           "id": "dpz-loser",
-          "headline": "Domino's Pizza Falls on Disappointing Earnings Report",
-          "summary": "Domino's Pizza ($DPZ) tumbled 9.56% after reporting worse-than-expected first-quarter financial results, missing both earnings and sales estimates.",
+          "headline": "Domino's Pizza Falls on Disappointing Sales",
+          "summary": "Domino's Pizza experienced an 8.8% decline following disappointing first-quarter sales results.",
           "ticker": "$DPZ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.56%",
+          "changePercent": "-8.8%",
+          "direction": "down"
+        },
+        {
+          "id": "spot-loser",
+          "headline": "Spotify Profit Forecast Out of Tune",
+          "summary": "Spotify ($SPOT) saw downward pressure as its profit forecast disappointed investors, despite hitting 293 million subscribers.",
+          "ticker": "$SPOT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "energy-leads",
-          "headline": "Energy Sector Outperforms Amid Rising Oil Prices",
-          "summary": "The energy sector showed strength today, with shares jumping 1% as crude oil prices continued to climb due to prolonged disruptions in Middle East energy exports and stalled US-Iran peace talks.",
-          "tags": [
-            "Energy",
-            "Oil",
-            "Commodities"
-          ]
-        },
-        {
-          "id": "consumer-discretionary-lags",
-          "headline": "Consumer Discretionary Stocks Lagged Market",
-          "summary": "Consumer discretionary stocks experienced a downturn, falling 0.9% on Monday.",
-          "tags": [
-            "Consumer Discretionary"
-          ]
-        },
-        {
-          "id": "tech-mixed-outlook",
-          "headline": "Technology Sector Shows Mixed Performance; Long-Term Underperformance Risk Noted",
-          "summary": "While some individual tech stocks saw gains, the broader Nasdaq Composite declined, indicating some weakness in the tech sector today. Separately, a steepening yield curve is signaling potential underperformance for tech and communications sector earnings over the next 18 months.",
-          "tags": [
-            "Technology",
-            "Yield Curve",
-            "Market Trends"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "fed-meeting-preview",
-          "headline": "Federal Reserve Set for Key Policy Meeting This Week",
-          "summary": "The Federal Reserve is scheduled to begin a two-day policy meeting tomorrow, April 28-29. Analysts widely anticipate the Fed will hold interest rates steady at their current range of 3.50%-3.75%. This meeting is also notable as it could be Jerome Powell's final appearance as Fed Chair, with Kevin Warsh expected to take over in May.",
+          "id": "fed-meeting-apr-28",
+          "headline": "Federal Reserve Begins Two-Day Meeting Amid Inflation Concerns",
+          "summary": "The Federal Reserve commenced its two-day policy meeting today, April 28, 2026. The central bank is widely anticipated to maintain the federal funds rate unchanged within its current range of 3.5% to 3.75%. This meeting marks Federal Reserve Chair Jerome Powell's final rate decision before his term expires on May 15. The FOMC's statement and Powell's press conference on Wednesday will be closely watched for insights into the Fed's stance on inflation, particularly given the elevated energy prices stemming from the U.S.-Iran conflict.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "FOMC"
+            "Monetary Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "big-tech-earnings",
-          "headline": "Big Tech Earnings Bonanza Kicks Off This Week",
-          "summary": "The market is entering a crucial period with several 'Magnificent Seven' tech giants set to report quarterly earnings this week, including Microsoft ($MSFT), Alphabet ($GOOGL), Amazon ($AMZN), Meta Platforms ($META), and Apple ($AAPL). These reports will be closely watched for insights into AI investments and overall market direction.",
+          "id": "tech-sector-leadership",
+          "headline": "Technology Sector Continues to Lead, Driven by AI Momentum",
+          "summary": "The technology sector remains a significant driver of market performance, fueled by robust demand for AI products and strong earnings. The Philadelphia Semiconductor Index (SOX) has achieved an impressive 18-day winning streak, having surged 44% since March 31, significantly contributing to the sector's gains. This leadership, however, highlights an increasing market concentration.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "AI",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "q1-earnings-reports",
+          "headline": "Key Companies Release First Quarter 2026 Earnings",
+          "summary": "Several major companies reported their first-quarter 2026 results today: S&P Global ($SPGI) announced its Q1 performance. United Parcel Service ($UPS) reported consolidated revenues of $21.2 billion and diluted EPS of $1.02, reaffirming its full-year guidance. JetBlue Airways Corporation ($JBLU) delivered strong Q1 revenue performance exceeding expectations. Centene Corporation ($CNC) posted adjusted diluted EPS of $3.37, better than anticipated, and raised its 2026 guidance. Corning Incorporated ($GLW) announced strong Q1 core sales growth of 18% and core EPS growth of 30%, driven by Gen AI and new solar products. General Motors (GM) raised its adjusted-profit guidance, while BP's profits doubled due to higher oil prices. Hilton Worldwide also boosted its 2026 growth projections.",
           "tags": [
             "Earnings Reports",
-            "Technology",
-            "Big Tech"
+            "Corporate News"
           ]
         },
         {
-          "id": "oil-prices-rise",
-          "headline": "Oil Prices Remain Elevated Amid Geopolitical Tensions",
-          "summary": "Crude oil prices continued their upward trend, with Brent crude futures rising around 2% to touch a three-week high of $107.97 a barrel. This surge is attributed to stalled U.S.-Iran peace talks and ongoing restrictions in the Strait of Hormuz, impacting global energy exports.",
+          "id": "geopolitical-oil",
+          "headline": "Iran Conflict Pushes Oil Prices Higher, Affecting Global Markets",
+          "summary": "Geopolitical tensions stemming from the U.S.-Iran conflict and the effective closure of the Strait of Hormuz continue to exert upward pressure on oil prices. Brent crude was up 2.81% to $111.27 per barrel, and WTI crude gained 3.12% to $99.38 early Tuesday. This situation is a key factor in inflation concerns and broader economic uncertainty.",
           "tags": [
-            "Oil",
-            "Crude Oil",
-            "Geopolitics"
+            "Economic News",
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "labor-market-update",
+          "headline": "U.S. Private Employers Add Jobs in Early April",
+          "summary": "Preliminary estimates from the ADP National Employment Report for April 28, 2026, indicate that U.S. private employers added an average of 39,250 jobs per week for the four weeks ending April 11, 2026. This data provides an ongoing look at the health of the labor market.",
+          "tags": [
+            "Economic Data",
+            "Labor Market",
+            "ADP Report"
           ]
         }
       ]
