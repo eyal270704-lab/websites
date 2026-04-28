@@ -335,6 +335,7 @@ gh run view <run-id> --log
 
 ## Notes for Claude
 
+- **ALWAYS `git fetch` and check `git log HEAD..origin/main` at the start of a session, and `git pull --rebase origin main` before making any edits.** The Monitor Agent and content workflows push to `main` continuously (often hourly), so a local checkout can fall hundreds of commits behind within days. Reading or editing files based on stale local state has produced wrong conclusions and risks merge conflicts on push.
 - Monitor Agent is COMPLETE - detects both newsfeed and trade workflows
 - React migration is COMPLETE - all pages working
 - TradeAnalyzer uses `{{TICKERS}}` placeholder - replaced by script
