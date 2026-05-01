@@ -1,166 +1,207 @@
 {
-  "generatedAt": "2026-05-01T08:59:00Z",
+  "generatedAt": "2026-05-01T17:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 01, 2026 Market Update",
+  "subtitle": "Friday, May 01, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-01",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-01",
-          "headline": "Wall Street Sees New Records, Capping Strong April; May Opens with Cautious Optimism",
-          "summary": "U.S. equities closed higher on Thursday, April 30th, with the S&P 500 and Nasdaq Composite reaching new record highs, driven by robust earnings and a perceived easing of geopolitical tensions. April proved to be a robust month for stocks, as the S&P 500 gained over 10%. However, May traditionally presents a weaker market, though recent history shows an average 1.5% return for the S&P 500 in May since 2013. As May 1st begins, overall market sentiment is characterized by a mix of caution and optimism. Ongoing geopolitical concerns, particularly related to the Iran conflict, continue to influence the outlook.",
+          "id": "market-summary",
+          "headline": "U.S. Stocks Extend Gains on Strong Earnings, S&P 500 and Nasdaq Hit Record Highs",
+          "summary": "U.S. stock markets are largely higher today, extending April's record-setting momentum as strong quarterly earnings, particularly from major technology companies, fuel investor optimism. The S&P 500 and Nasdaq Composite both reached new intraday and closing highs. Despite the positive sentiment, some market commentators express caution regarding valuations and potential divergences from economic reality. The rally appears concentrated in a handful of mega-cap stocks. Concerns around the ongoing Middle East conflict and its impact on oil prices and inflation continue to be monitored.",
           "tags": [
-            "Market Summary",
-            "Record Highs",
-            "Geopolitics",
-            "Sentiment"
+            "Market Overview",
+            "Earnings",
+            "Tech"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-01",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-01",
+          "id": "sp500",
           "statLabel": "S&P 500",
-          "statValue": "7,209.01",
-          "statContext": "+1.02% Thursday, +10.4% April"
+          "statValue": "7,254.82",
+          "statContext": "+0.64% Today, extending gains after closing at an all-time high on Thursday."
         },
         {
-          "id": "nasdaq-01",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "24,892.31",
-          "statContext": "+0.89% Thursday, +15.3% April"
+          "statValue": "25,163.49",
+          "statContext": "+1.07% Today, reaching new intraday and closing highs."
         },
         {
-          "id": "dowjones-01",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "49,652.14",
-          "statContext": "+1.62% Thursday, +7.1% April"
+          "id": "dow",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,668.01",
+          "statContext": "+0.04% Today."
         }
       ]
     },
     {
-      "id": "top-movers-01",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-googl-01",
-          "headline": "Alphabet Soars on Strong Q1 and Cloud Growth",
-          "ticker": "$GOOGL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10%",
+          "id": "aapl-gainer",
+          "headline": "Apple (AAPL) Jumps on Strong iPhone Demand",
+          "summary": "Apple Inc. ($AAPL) shares climbed 4.46% during midday trading to a reported price of $185.50 after the company exceeded Wall Street's second-quarter earnings expectations, driven by \"extraordinary\" demand for its latest iPhone 17 lineup.",
+          "ticker": "$AAPL",
+          "price": "$185.50",
+          "change": "+$7.93",
+          "changePercent": "+4.46%",
           "direction": "up",
-          "summary": "Alphabet Inc. surged 10% on Thursday, April 30th, after reporting first-quarter earnings and revenue that exceeded expectations, driven by a 63% increase in its cloud revenue."
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "gainer-cat-01",
-          "headline": "Caterpillar Jumps on Robust Quarterly Results",
-          "ticker": "$CAT",
+          "id": "el-gainer",
+          "headline": "Estée Lauder (EL) Surges on Upbeat Outlook",
+          "summary": "Estée Lauder Companies Inc. ($EL) surged 12% in premarket trading, extending gains after the cosmetics giant posted third-quarter results that surpassed analyst expectations and subsequently raised its full-year financial outlook.",
+          "ticker": "$EL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10%",
+          "changePercent": "+12.00%",
           "direction": "up",
-          "summary": "Caterpillar Inc. shares climbed nearly 10% on Thursday following the release of stronger-than-expected quarterly results."
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "gainer-qcom-01",
-          "headline": "Qualcomm Defies Guidance, Shares Surge",
-          "ticker": "$QCOM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15%",
+          "id": "team-gainer",
+          "headline": "Atlassian (TEAM) Soars on Raised Forecast",
+          "summary": "Atlassian Corporation Plc ($TEAM) saw its shares surge 23.68% during early trading, reaching $84.83, after the enterprise software maker lifted its annual forecast, signaling strong performance.",
+          "ticker": "$TEAM",
+          "price": "$84.83",
+          "change": "+$16.24",
+          "changePercent": "+23.68%",
           "direction": "up",
-          "summary": "QUALCOMM Incorporated saw its shares surge 15%, despite the company issuing weaker-than-expected guidance for the current quarter."
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "loser-meta-01",
-          "headline": "Meta Platforms Declines on Increased Capex and User Miss",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.6%",
+          "id": "creg-loser",
+          "headline": "Smart Powerr Corp (CREG) Plummets",
+          "summary": "Smart Powerr Corp. ($CREG) experienced a significant decline today, with shares falling 41.26% to $0.520.",
+          "ticker": "$CREG",
+          "price": "$0.520",
+          "change": "-$0.364",
+          "changePercent": "-41.26%",
           "direction": "down",
-          "summary": "Meta Platforms Inc. shares dropped nearly 8% after the company raised its projected capital spending for 2026 to between $125 billion and $145 billion, and reported first-quarter daily active users below expectations."
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "loser-msft-01",
-          "headline": "Microsoft Falls Despite Cloud Growth Forecast",
-          "ticker": "$MSFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.9%",
+          "id": "sdot-loser",
+          "headline": "Sadot Group Inc. (SDOT) Sees Steep Drop",
+          "summary": "Sadot Group Inc. ($SDOT) shares dropped 34.47% to $0.639.",
+          "ticker": "$SDOT",
+          "price": "$0.639",
+          "change": "-$0.336",
+          "changePercent": "-34.47%",
           "direction": "down",
-          "summary": "Microsoft Corp. saw its shares decline by 3.9% after the company announced plans for capital expenditure to reach as much as $190 billion this year, despite forecasting accelerating cloud growth."
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "loser-nvda-01",
-          "headline": "NVIDIA Shares Drop Amidst Tech Sector Pressure",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.6%",
+          "id": "hubc-loser",
+          "headline": "HUB Cyber Security (HUBC) Falls Sharply",
+          "summary": "HUB Cyber Security Ltd. ($HUBC) shares decreased by 34.33% to $0.541.",
+          "ticker": "$HUBC",
+          "price": "$0.541",
+          "change": "-$0.283",
+          "changePercent": "-34.33%",
           "direction": "down",
-          "summary": "NVIDIA Corporation's shares fell by 4.6%. The broader technology sector has also faced pressure following news regarding OpenAI missing financial targets."
+          "timestamp": "2026-05-01T17:00:00Z"
+        },
+        {
+          "id": "rblx-loser",
+          "headline": "Roblox (RBLX) Tumbles on Revenue Miss and Outlook Cut",
+          "summary": "Roblox Corporation ($RBLX) saw its shares tumble 15.95% to $46.43 after the video-game company missed revenue estimates and slashed its annual bookings forecast. The company cited child-protection safeguards impacting user numbers.",
+          "ticker": "$RBLX",
+          "price": "$46.43",
+          "change": "-$8.81",
+          "changePercent": "-15.95%",
+          "direction": "down",
+          "timestamp": "2026-05-01T17:00:00Z"
         }
       ]
     },
     {
-      "id": "sector-analysis-01",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-01",
-          "headline": "Industrials, Utilities, and Communication Services Lead Gains; Tech Lags",
-          "summary": "On Thursday, April 30th, utilities, communication services, and industrials sectors recorded the largest gains. In contrast, information technology stocks moved against the broader market trend, closing lower. The first quarter of 2026 has seen a rotation in market leadership, with industrial, consumer defensive, and energy stocks outperforming, offsetting declines in technology, communication services, and consumer cyclicals. Energy stocks notably outperformed.",
+          "id": "fed-rate-decision",
+          "headline": "Federal Reserve Holds Rates Steady Amid Dissent and Inflation Concerns",
+          "summary": "The Federal Reserve maintained its benchmark interest rate in the range of 3.5% to 3.75% following its latest meeting. The decision, however, was met with an unusually high four dissents from FOMC members, with some citing ongoing uncertainty regarding inflation and downside risks to the job market, particularly due to rising oil prices. Fed Chair Jerome Powell's term concludes on May 15, 2026.",
           "tags": [
-            "Sector Performance",
-            "Market Rotation"
-          ]
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation",
+            "Economic Policy"
+          ],
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "cloud-ai-growth-01",
-          "headline": "Cloud Services Drive Growth, Fueled by AI Demand",
-          "summary": "The cloud services sector, exemplified by Amazon Web Services (AWS) and Microsoft Azure, is experiencing robust growth, primarily driven by surging demand for artificial intelligence infrastructure. Amazon's AWS reported its fastest cloud growth in over three years during Q1 2026, with net sales increasing by 28%."
-        }
-      ]
-    },
-    {
-      "id": "economic-news-01",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "economic-data-01",
-          "headline": "Mixed Economic Data: GDP Growth, Persistent Inflation, and Falling Jobless Claims",
-          "summary": "U.S. GDP grew at an annualized rate of 2% in the first quarter of 2026, slightly below the 2.1% forecast but a significant improvement from the 0.5% growth in Q4 2025. The personal consumption expenditures (PCE) index, a key inflation gauge for the Federal Reserve, rose to 3.5% in March, with the structural PCE at 3.2%, indicating persistent inflationary pressures. Positively, initial jobless claims dropped to their lowest level since 2022. However, the Conference Board Leading Economic Index (LEI) for the US declined by 0.6% in March 2026, signaling a potential economic slowdown, leading to a revised US GDP growth forecast of 1.6% for 2026. The FOMC kept interest rates unchanged on April 29th, within the 3.50% to 3.75% range."
+          "id": "q1-gdp-report",
+          "headline": "U.S. Q1 GDP Expands 2%, Driven by Business Investment in AI",
+          "summary": "The U.S. economy grew at an annualized rate of 2% in the first quarter of 2026, a notable increase from the 0.5% growth in the last three months of 2025. Business investment, particularly in AI data center construction, was a primary driver, contributing 1.39 percentage points to the headline figure. Conversely, consumer spending decelerated, suggesting a reliance on savings.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "AI",
+            "Business Investment"
+          ],
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "earnings-reports-01",
-          "headline": "Key Earnings Reports: Apple Soars, Amazon's Cloud Thrives, Others Report",
-          "summary": "Apple ($AAPL) saw its shares rise 1.9% in after-hours trading on April 30th, following a report of record quarterly results driven by strong iPhone sales and double-digit growth across all regions. The company also announced a significant share buyback program and a dividend increase. Amazon ($AMZN) experienced its fastest cloud growth in over three years during Q1 2026, with its Amazon Web Services (AWS) unit showing a 28% increase in net sales, attributed to robust AI demand. Federated Hermes, Inc. reported record assets under management with its Q1 2026 earnings, reaching a total of $907.1 billion. Huntsman Corporation ($HUN) reported Q1 2026 revenues of $1.42 billion, with an adjusted net loss of $35 million, citing impacts from rising feedstock costs due to the Middle East conflict. Nasdaq ($NDAQ) reported 14% net revenue growth across all divisions in Q1 2026. ExxonMobil ($XOM) and Chevron ($CVX) were anticipated to report their earnings on May 1st."
+          "id": "tech-sector-dominance",
+          "headline": "Tech Sector Leads Market as AI Hyperscalers Report Strong Earnings",
+          "summary": "Technology stocks are leading today's market rally, bolstered by robust earnings reports from major AI 'hyperscaler' companies including Alphabet ($GOOG), Amazon ($AMZN), Microsoft ($MSFT), and Apple ($AAPL). These companies generally exceeded revenue and profit estimates, especially in cloud computing and consumer hardware, reinforcing the federal AI spending narrative with new Pentagon deals. Nvidia ($NVDA) and Alphabet are currently vying for the title of the world's most valuable company.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Earnings",
+            "AI",
+            "Mega-Caps"
+          ],
+          "timestamp": "2026-05-01T17:00:00Z"
         },
         {
-          "id": "macro-trends-01",
-          "headline": "Geopolitical Tensions and Oil Prices Continue to Influence Markets",
-          "summary": "Geopolitical developments in the Middle East, particularly the ongoing Iran conflict and the effective closure of the Strait of Hormuz, continue to contribute to market volatility and keep oil prices elevated, with Brent crude around $111 per barrel. Despite these tensions, the market is also being buoyed by enthusiasm surrounding the AI-driven growth outlook and strong corporate earnings."
+          "id": "energy-sector-earnings",
+          "headline": "Oil Giants Exxon Mobil (XOM) and Chevron (CVX) Beat Earnings, Profits Decline Amid High Oil Prices",
+          "summary": "Energy majors Exxon Mobil ($XOM) and Chevron ($CVX) both reported first-quarter earnings that surpassed Wall Street expectations. However, both companies experienced a drop in profits, which they attributed to surging oil prices stemming from the ongoing Middle East conflict. Oil prices have soared since the conflict began in February, leading to disruptions in the Strait of Hormuz.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Earnings",
+            "Oil Prices",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-05-01T17:00:00Z"
+        },
+        {
+          "id": "may-day-protests",
+          "headline": "May Day Protests Call for Economic Blackout Amid Rising Costs",
+          "summary": "Thousands across the U.S. are participating in 'May Day Strong' protests today, calling for an 'economic blackout' with calls for 'no school, no work, no shopping.' Organized demonstrations are demanding higher wages, better working conditions, and an end to the Iran war, which activists link to rising energy costs and shrinking purchasing power.",
+          "tags": [
+            "Economic News",
+            "Labor",
+            "Social Issues",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-05-01T17:00:00Z"
         }
       ]
     }
