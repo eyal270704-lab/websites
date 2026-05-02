@@ -1,207 +1,186 @@
 {
-  "generatedAt": "2026-05-01T17:00:00Z",
+  "generatedAt": "2026-05-02T08:19:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, May 01, 2026",
-  "badge": "LIVE",
+  "subtitle": "Friday, May 2, 2026",
+  "badge": "Updated May 2, 2026",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Extend Gains on Strong Earnings, S&P 500 and Nasdaq Hit Record Highs",
-          "summary": "U.S. stock markets are largely higher today, extending April's record-setting momentum as strong quarterly earnings, particularly from major technology companies, fuel investor optimism. The S&P 500 and Nasdaq Composite both reached new intraday and closing highs. Despite the positive sentiment, some market commentators express caution regarding valuations and potential divergences from economic reality. The rally appears concentrated in a handful of mega-cap stocks. Concerns around the ongoing Middle East conflict and its impact on oil prices and inflation continue to be monitored.",
+          "id": "market-pulse-summary",
+          "headline": "S&P 500 and Nasdaq hit record highs, Dow slips amid tech earnings and shifting oil prices.",
+          "summary": "U.S. equities closed out the week with the S&P 500 and Nasdaq Composite reaching new record highs on Friday, May 1, largely propelled by strong corporate earnings from major tech companies like Apple. The Dow Jones Industrial Average, however, experienced a slight decline. Market sentiment remains largely confident, fueled by the ongoing AI boom and robust earnings growth, although geopolitical tensions and the path of AI spending continue to be closely watched by investors. Oil prices saw a drop following a new peace proposal from Iran, easing some market concerns.",
           "tags": [
             "Market Overview",
-            "Earnings",
-            "Tech"
+            "Tech Earnings",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices",
+      "id": "major-indices-performance",
+      "title": "Major Indices (as of market close May 1, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,254.82",
-          "statContext": "+0.64% Today, extending gains after closing at an all-time high on Thursday."
+          "statValue": "7,230.12",
+          "statContext": "Up 0.3% (21.11 points)"
         },
         {
-          "id": "nasdaq",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,163.49",
-          "statContext": "+1.07% Today, reaching new intraday and closing highs."
+          "statValue": "25,114.44",
+          "statContext": "Up 0.9% (222.13 points)"
         },
         {
-          "id": "dow",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,668.01",
-          "statContext": "+0.04% Today."
+          "statValue": "49,499.27",
+          "statContext": "Down 0.3% (152.87 points)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (as of market close May 1, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "aapl-gainer",
-          "headline": "Apple (AAPL) Jumps on Strong iPhone Demand",
-          "summary": "Apple Inc. ($AAPL) shares climbed 4.46% during midday trading to a reported price of $185.50 after the company exceeded Wall Street's second-quarter earnings expectations, driven by \"extraordinary\" demand for its latest iPhone 17 lineup.",
+          "headline": "Apple surges on strong earnings and outlook.",
           "ticker": "$AAPL",
-          "price": "$185.50",
-          "change": "+$7.93",
-          "changePercent": "+4.46%",
-          "direction": "up",
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "el-gainer",
-          "headline": "Estée Lauder (EL) Surges on Upbeat Outlook",
-          "summary": "Estée Lauder Companies Inc. ($EL) surged 12% in premarket trading, extending gains after the cosmetics giant posted third-quarter results that surpassed analyst expectations and subsequently raised its full-year financial outlook.",
-          "ticker": "$EL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+12.00%",
+          "changePercent": "+3.26%",
           "direction": "up",
-          "timestamp": "2026-05-01T17:00:00Z"
+          "summary": "Apple Inc. saw its stock jump following a robust Q1 2026 earnings report, exceeding expectations with a 17% year-over-year revenue increase and a 22% climb in EPS. The company also announced a $100 billion stock buyback program and a 4% dividend hike."
+        },
+        {
+          "id": "sndk-gainer",
+          "headline": "SanDisk revenues more than triple on AI demand.",
+          "ticker": "$SNDK",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.25%",
+          "direction": "up",
+          "summary": "SanDisk Corp. experienced a significant rise after reporting quarterly revenue that more than tripled to $5.95 billion, with profits far exceeding expectations, driven by strong demand for NAND memory in AI systems. The company also announced a $6 billion share buyback."
         },
         {
           "id": "team-gainer",
-          "headline": "Atlassian (TEAM) Soars on Raised Forecast",
-          "summary": "Atlassian Corporation Plc ($TEAM) saw its shares surge 23.68% during early trading, reaching $84.83, after the enterprise software maker lifted its annual forecast, signaling strong performance.",
+          "headline": "Atlassian boosts guidance after strong Q3.",
           "ticker": "$TEAM",
-          "price": "$84.83",
-          "change": "+$16.24",
-          "changePercent": "+23.68%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+29.6%",
           "direction": "up",
-          "timestamp": "2026-05-01T17:00:00Z"
+          "summary": "Atlassian Corp. shares soared after the software company reported a fiscal third-quarter beat and raised its full-year guidance for cloud and data center revenue."
         },
         {
-          "id": "creg-loser",
-          "headline": "Smart Powerr Corp (CREG) Plummets",
-          "summary": "Smart Powerr Corp. ($CREG) experienced a significant decline today, with shares falling 41.26% to $0.520.",
-          "ticker": "$CREG",
-          "price": "$0.520",
-          "change": "-$0.364",
-          "changePercent": "-41.26%",
+          "id": "amgn-loser",
+          "headline": "Amgen declines despite beating earnings estimates.",
+          "ticker": "$AMGN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.7%",
           "direction": "down",
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "sdot-loser",
-          "headline": "Sadot Group Inc. (SDOT) Sees Steep Drop",
-          "summary": "Sadot Group Inc. ($SDOT) shares dropped 34.47% to $0.639.",
-          "ticker": "$SDOT",
-          "price": "$0.639",
-          "change": "-$0.336",
-          "changePercent": "-34.47%",
-          "direction": "down",
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "hubc-loser",
-          "headline": "HUB Cyber Security (HUBC) Falls Sharply",
-          "summary": "HUB Cyber Security Ltd. ($HUBC) shares decreased by 34.33% to $0.541.",
-          "ticker": "$HUBC",
-          "price": "$0.541",
-          "change": "-$0.283",
-          "changePercent": "-34.33%",
-          "direction": "down",
-          "timestamp": "2026-05-01T17:00:00Z"
+          "summary": "Amgen Inc. saw its stock fall. Despite beating earnings estimates, the company's strong results were overshadowed by modest guidance targets, creating downward pressure on the Dow-weighted stock."
         },
         {
           "id": "rblx-loser",
-          "headline": "Roblox (RBLX) Tumbles on Revenue Miss and Outlook Cut",
-          "summary": "Roblox Corporation ($RBLX) saw its shares tumble 15.95% to $46.43 after the video-game company missed revenue estimates and slashed its annual bookings forecast. The company cited child-protection safeguards impacting user numbers.",
+          "headline": "Roblox plunges on reduced annual bookings forecast.",
           "ticker": "$RBLX",
-          "price": "$46.43",
-          "change": "-$8.81",
-          "changePercent": "-15.95%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-17.5%",
           "direction": "down",
-          "timestamp": "2026-05-01T17:00:00Z"
+          "summary": "Roblox Corp. shares plunged after the company cut its annual bookings forecast, disappointing investors."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-headlines",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-rate-decision",
-          "headline": "Federal Reserve Holds Rates Steady Amid Dissent and Inflation Concerns",
-          "summary": "The Federal Reserve maintained its benchmark interest rate in the range of 3.5% to 3.75% following its latest meeting. The decision, however, was met with an unusually high four dissents from FOMC members, with some citing ongoing uncertainty regarding inflation and downside risks to the job market, particularly due to rising oil prices. Fed Chair Jerome Powell's term concludes on May 15, 2026.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Economic Policy"
-          ],
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "q1-gdp-report",
-          "headline": "U.S. Q1 GDP Expands 2%, Driven by Business Investment in AI",
-          "summary": "The U.S. economy grew at an annualized rate of 2% in the first quarter of 2026, a notable increase from the 0.5% growth in the last three months of 2025. Business investment, particularly in AI data center construction, was a primary driver, contributing 1.39 percentage points to the headline figure. Conversely, consumer spending decelerated, suggesting a reliance on savings.",
+          "id": "economic-growth-q1",
+          "headline": "U.S. Economy Grows 2% in Q1 2026 Amid Geopolitical Headwinds.",
+          "summary": "The U.S. economy expanded at a 2% annualized pace in the first quarter of 2026, marking an acceleration from the previous quarter but falling slightly short of economists' forecasts. Geopolitical tensions, particularly the ongoing conflict in Iran, and sustained high oil prices are noted as potential headwinds for future growth, keeping the Federal Reserve cautious on interest rate cuts.",
           "tags": [
             "Economic Data",
             "GDP",
-            "AI",
-            "Business Investment"
-          ],
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "tech-sector-dominance",
-          "headline": "Tech Sector Leads Market as AI Hyperscalers Report Strong Earnings",
-          "summary": "Technology stocks are leading today's market rally, bolstered by robust earnings reports from major AI 'hyperscaler' companies including Alphabet ($GOOG), Amazon ($AMZN), Microsoft ($MSFT), and Apple ($AAPL). These companies generally exceeded revenue and profit estimates, especially in cloud computing and consumer hardware, reinforcing the federal AI spending narrative with new Pentagon deals. Nvidia ($NVDA) and Alphabet are currently vying for the title of the world's most valuable company.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Earnings",
-            "AI",
-            "Mega-Caps"
-          ],
-          "timestamp": "2026-05-01T17:00:00Z"
-        },
-        {
-          "id": "energy-sector-earnings",
-          "headline": "Oil Giants Exxon Mobil (XOM) and Chevron (CVX) Beat Earnings, Profits Decline Amid High Oil Prices",
-          "summary": "Energy majors Exxon Mobil ($XOM) and Chevron ($CVX) both reported first-quarter earnings that surpassed Wall Street expectations. However, both companies experienced a drop in profits, which they attributed to surging oil prices stemming from the ongoing Middle East conflict. Oil prices have soared since the conflict began in February, leading to disruptions in the Strait of Hormuz.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Earnings",
-            "Oil Prices",
+            "Inflation",
             "Geopolitics"
-          ],
-          "timestamp": "2026-05-01T17:00:00Z"
+          ]
         },
         {
-          "id": "may-day-protests",
-          "headline": "May Day Protests Call for Economic Blackout Amid Rising Costs",
-          "summary": "Thousands across the U.S. are participating in 'May Day Strong' protests today, calling for an 'economic blackout' with calls for 'no school, no work, no shopping.' Organized demonstrations are demanding higher wages, better working conditions, and an end to the Iran war, which activists link to rising energy costs and shrinking purchasing power.",
+          "id": "spirit-airlines-ceases-operations",
+          "headline": "Spirit Airlines ceases operations after financial struggles.",
+          "summary": "Low-cost carrier Spirit Airlines announced it would cease operations effective immediately on May 2, 2026. The airline had been battling escalating financial difficulties, including a failed bid for a $500 million federal bailout and increased competition, compounded by soaring jet fuel prices due to the Iran war.",
           "tags": [
-            "Economic News",
-            "Labor",
-            "Social Issues",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-01T17:00:00Z"
+            "Airline Industry",
+            "Company News"
+          ]
+        },
+        {
+          "id": "tech-giants-ai-spending",
+          "headline": "Big Tech ramps up AI investments, raising capex projections.",
+          "summary": "Major tech companies like Meta, Alphabet, Amazon, and Microsoft are significantly increasing their capital expenditure projections for 2026 to fund massive AI infrastructure. Meta projects up to $145 billion, Alphabet $180-$190 billion, and Microsoft around $190 billion, while Amazon maintains its $200 billion plan. This extensive spending highlights the industry's commitment to AI but also raises investor scrutiny on future profitability.",
+          "tags": [
+            "AI",
+            "Tech Sector",
+            "Capital Expenditure"
+          ]
+        },
+        {
+          "id": "iran-sanctions-treasury",
+          "headline": "U.S. Treasury targets Iranian shadow banking networks.",
+          "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) designated three Iranian foreign currency exchange houses and their associated front companies as part of 'Economic Fury.' This action aims to disrupt financial lifelines supporting the Iranian regime's war efforts.",
+          "tags": [
+            "Geopolitics",
+            "Sanctions",
+            "Financial Crime"
+          ]
+        },
+        {
+          "id": "aon-earnings",
+          "headline": "AON reports strong Q1 2026 results and reaffirms guidance.",
+          "summary": "AON plc delivered strong first-quarter 2026 results, with 5% organic revenue growth and total revenue increasing to $5.0 billion. Adjusted operating margin expanded by 70 basis points, and adjusted EPS rose 14% to $6.48. The company reaffirmed its 2026 guidance and plans over $1 billion in share repurchases.",
+          "tags": [
+            "Earnings Report",
+            "Financial Services"
+          ]
+        },
+        {
+          "id": "berkshire-hathaway-earnings",
+          "headline": "Berkshire Hathaway's Q1 2026 earnings due today.",
+          "summary": "Berkshire Hathaway is expected to release its quarterly report today, May 2, 2026. This report is anticipated to provide key insights into corporate earnings quality across various sectors, including insurance, rail transportation, and energy.",
+          "tags": [
+            "Earnings Report",
+            "Conglomerate"
+          ]
+        },
+        {
+          "id": "dow-q1-results",
+          "headline": "Dow reports decreased net sales and loss per share in Q1.",
+          "summary": "Dow Inc. reported Q1 2026 net sales of $9.8 billion, a 6% decrease year-over-year. Volume declined by 2%, impacted by the Middle East conflict. The company reported a GAAP net loss of $445 million and an operating loss per share of $0.14.",
+          "tags": [
+            "Earnings Report",
+            "Chemicals",
+            "Industrial"
+          ]
         }
       ]
     }
