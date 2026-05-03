@@ -1,185 +1,186 @@
 {
-  "generatedAt": "2026-05-03T08:45:00Z",
+  "generatedAt": "2026-05-03T12:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 03, 2026 - Weekend Recap",
-  "badge": "Updated May 3, 2026",
+  "subtitle": "May 3, 2026 - Market Closed, Reviewing Friday's Performance",
+  "badge": "Pre-Market Update",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overall",
-          "headline": "Mixed Signals as S&P 500 and Nasdaq Hit Record Highs, Dow Dips",
-          "summary": "The U.S. stock market closed out the week with a mixed performance on Friday, May 2, 2026. Both the S&P 500 and the Nasdaq Composite reached new record highs, propelled by robust earnings from major technology companies. However, the Dow Jones Industrial Average experienced a slight decline, indicating a divergence in market leadership. Overall sentiment remained cautious amid ongoing concerns about inflation, elevated oil prices due to Middle East tensions, and a perceived 'froth' in some market segments. AI-linked investments continued to drive significant movements, though investors showed increased scrutiny of capital expenditure plans.",
+          "id": "market-summary-may-1",
+          "headline": "S&P 500 and Nasdaq Hit New Records on Friday, Dow Slips as Q1 Earnings Season Kicks Off Strong",
+          "summary": "U.S. equity markets closed a robust week on Friday, May 1, 2026, with the S&P 500 and Nasdaq Composite reaching new all-time highs. Strong first-quarter earnings reports, particularly from major technology companies, largely fueled the gains. The Dow Jones Industrial Average, however, saw a slight decline. Easing oil prices also contributed to a generally positive market sentiment. The upcoming week will bring a fresh wave of earnings and key economic data, including the monthly jobs report. Not financial advice.",
           "tags": [
             "Market Overview",
-            "Record Highs",
-            "Inflation Concerns"
-          ]
+            "Earnings",
+            "Economy"
+          ],
+          "timestamp": "2026-05-01T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (Friday, May 1, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-daily",
-          "statLabel": "S&P 500 (Daily)",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "7,230.12",
-          "statContext": "+0.29% (+21.11 points)"
+          "statContext": "+0.3% (+21.11 points), New Record High"
         },
         {
-          "id": "sp500-weekly",
-          "statLabel": "S&P 500 (Weekly)",
-          "statValue": "+0.9%",
-          "statContext": "Fifth straight weekly gain"
-        },
-        {
-          "id": "nasdaq-daily",
-          "statLabel": "NASDAQ Composite (Daily)",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
           "statValue": "25,114.44",
-          "statContext": "+0.94% (+222.13 points)"
+          "statContext": "+0.9% (+222.13 points), New Record High"
         },
         {
-          "id": "nasdaq-weekly",
-          "statLabel": "NASDAQ Composite (Weekly)",
-          "statValue": "+1.1%",
-          "statContext": "Strongest month since April 2020"
-        },
-        {
-          "id": "dow-daily",
-          "statLabel": "Dow Jones Ind. Average (Daily)",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,499.27",
-          "statContext": "-0.31% (-152.87 points)"
-        },
-        {
-          "id": "dow-weekly",
-          "statLabel": "Dow Jones Ind. Average (Weekly)",
-          "statValue": "+0.5%",
-          "statContext": "Lagged peers for the week"
+          "statContext": "-0.3% (-152.87 points)"
         }
       ]
     },
     {
-      "id": "top-movers-daily",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (Friday, May 1, 2026 & Weekly)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-cboe",
-          "headline": "Cboe Global Markets Rises on Strong Day",
-          "ticker": "$CBOE",
+          "id": "aapl-gainer",
+          "headline": "Apple Surges on Strong Earnings",
+          "summary": "Apple's stock ($AAPL) jumped over 3% on Friday after reporting robust quarterly earnings and providing optimistic guidance for the period ahead.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.0%",
-          "direction": "up",
-          "summary": "Cboe Global Markets saw significant gains on Friday."
+          "changePercent": "+3.0%+ (approx)",
+          "direction": "up"
         },
         {
-          "id": "gainer-psky",
-          "headline": "Paramount Skydance Jumps",
-          "ticker": "$PSKY",
+          "id": "team-gainer",
+          "headline": "Atlassian Corp. Leads Gainers",
+          "summary": "Atlassian Corp. ($TEAM) was among the top performers on Friday, seeing a significant increase following market activity.",
+          "ticker": "$TEAM",
+          "price": "$88.88",
+          "change": "+$20.29",
+          "changePercent": "+29.58%",
+          "direction": "up"
+        },
+        {
+          "id": "crm-gainer",
+          "headline": "Salesforce Posts Gains",
+          "summary": "Salesforce ($CRM) was a notable gainer within the Dow Jones Industrial Average on Friday, contributing positively to the index.",
+          "ticker": "$CRM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.3%",
-          "direction": "up",
-          "summary": "Paramount Skydance posted strong performance for the day."
+          "changePercent": "+4.13%",
+          "direction": "up"
         },
         {
-          "id": "gainer-sndk",
-          "headline": "SanDisk Climbs Higher",
-          "ticker": "$SNDK",
+          "id": "rblx-loser",
+          "headline": "Roblox Tumbles on Weak Outlook",
+          "summary": "Roblox ($RBLX) stock tumbled 24% in premarket trading on Friday after the online game platform slashed its full-year 2026 bookings guidance, signaling a weaker outlook.",
+          "ticker": "$RBLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.3%",
-          "direction": "up",
-          "summary": "SanDisk was among the top gainers by market close."
+          "changePercent": "-24.0%",
+          "direction": "down"
         },
         {
-          "id": "loser-tsco",
-          "headline": "Tractor Supply Co. Declines",
-          "ticker": "$TSCO",
-          "price": "$33.83",
-          "change": "-$1.27",
-          "changePercent": "-3.62%",
-          "direction": "down",
-          "summary": "Tractor Supply Co. experienced a notable drop in share price."
+          "id": "meta-loser",
+          "headline": "Meta Drops Amid AI Spending Concerns",
+          "summary": "Meta Platforms ($META) experienced a significant weekly decline of 9.8%, despite reporting better-than-expected earnings, as investor concerns grew over increased capital expenditure estimates for AI infrastructure.",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.8% (weekly)",
+          "direction": "down"
         },
         {
-          "id": "loser-grmn",
-          "headline": "Garmin Sees Downturn",
-          "ticker": "$GRMN",
-          "price": "$242.42",
-          "change": "-$8.72",
-          "changePercent": "-3.47%",
-          "direction": "down",
-          "summary": "Garmin shares fell as the market closed."
-        },
-        {
-          "id": "loser-aph",
-          "headline": "Amphenol Reports Losses",
-          "ticker": "$APH",
-          "price": "$142.30",
-          "change": "-$4.97",
-          "changePercent": "-3.37%",
-          "direction": "down",
-          "summary": "Amphenol's stock recorded a decline on Friday."
+          "id": "hood-loser",
+          "headline": "Robinhood Markets Disappoints",
+          "summary": "Robinhood Markets ($HOOD) saw a weekly decline of 13.04%, closing at $73.66, after its quarterly earnings release failed to impress the market.",
+          "ticker": "$HOOD",
+          "price": "$73.66",
+          "change": "N/A",
+          "changePercent": "-13.04% (weekly)",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-earnings-drive",
-          "headline": "Big Tech Earnings Propel Markets; AI Capex Under Scrutiny",
-          "summary": "Major technology companies continued to influence market movements this week. Alphabet ($GOOGL) exceeded expectations, with shares rising approximately 10% on Thursday, April 30, following strong earnings. Apple ($AAPL) also contributed to market strength, jumping 3.2% on Friday after reporting higher-than-expected fiscal second-quarter profits. Conversely, Meta Platforms ($META) disappointed investors with increased capital expenditure forecasts for AI and a decline in monthly active users, causing its stock to fall. Microsoft ($MSFT) also saw its shares decline despite beating earnings, as increased AI-related spending and expected drops in its PC and gaming segments raised concerns. The market is now closely scrutinizing AI capital expenditures, rewarding those tied to revenue acceleration and penalizing those without clear monetization paths.",
+          "id": "earnings-season-q1-2026",
+          "headline": "Q1 2026 Earnings Season Shows Robust Growth",
+          "summary": "The first-quarter 2026 earnings season is in full swing, with the S&P 500's blended earnings growth rate for the quarter currently at 27.1% year-over-year. A significant 84% of S&P 500 companies have reported actual EPS above estimates, surpassing historical averages.",
           "tags": [
-            "Technology",
             "Earnings",
-            "AI Investment"
-          ]
+            "Corporate"
+          ],
+          "timestamp": "2026-05-03T07:55:00Z"
         },
         {
-          "id": "economic-data-inflation",
-          "headline": "Inflationary Pressures Persist Amid Mixed Economic Data",
-          "summary": "Economic data released this week painted a mixed picture, with persistent inflationary pressures. The Core PCE, a key inflation gauge, rose 0.3% month-over-month and 3.2% year-over-year, marking its highest core reading since November 2023. Initial jobless claims for the week ended April 25 hit a 50-year low of 189,000, suggesting a strong labor market. However, the April Michigan sentiment was revised down to a record low of 49.8, with year-ahead inflation expectations spiking to 4.7%. ISM Manufacturing held steady at 52.7, but the prices-paid component reached a four-year high. The Federal Reserve held interest rates steady midweek, with Chairman Powell maintaining a balanced tone.",
+          "id": "fed-holds-rates",
+          "headline": "Federal Reserve Holds Interest Rates Steady",
+          "summary": "The Federal Reserve Board maintained interest rates in the 3.50% – 3.75% range, as widely anticipated. Recent economic data showed March PCE inflation rising to 3.5% and core PCE to 3.2%.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve"
+            "Fed",
+            "Monetary Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "geopolitical-oil",
-          "headline": "Geopolitical Tensions Keep Oil Prices Elevated; S&P 500 Inclusion for Veeva Systems",
-          "summary": "Geopolitical tensions, particularly the ongoing conflict in Iran, continued to keep oil prices elevated, with Brent crude pushing above $111 per barrel. This contributes to broader inflationary concerns and remains a key risk for the markets. In other news, Veeva Systems ($VEEV) saw its shares jump approximately 10-11% in after-hours and pre-market trading, following the announcement of its inclusion in the S&P 500 index, effective May 7, 2026.",
+          "id": "q1-gdp-growth",
+          "headline": "First Quarter GDP Growth at 2.0%",
+          "summary": "The preliminary first-quarter GDP reading indicated an annual growth rate of 2.0%, slightly below analysts' expectations but remaining modestly positive.",
+          "tags": [
+            "Economy",
+            "GDP"
+          ]
+        },
+        {
+          "id": "iran-peace-proposal-oil",
+          "headline": "Iran Peace Proposal Cools Oil Prices",
+          "summary": "Oil prices experienced a drop, with U.S. crude falling 3% and Brent crude down 2%, following news of Iran submitting a new peace proposal via Pakistan. This raised hopes for a potential U.S.-Iran settlement and the eventual resumption of oil exports.",
           "tags": [
             "Geopolitics",
-            "Oil Prices",
-            "Sector News"
+            "Oil",
+            "Energy"
           ]
         },
         {
-          "id": "berkshire-hathaway-earnings",
-          "headline": "Berkshire Hathaway Reports Strong Q1 2026 Earnings",
-          "summary": "Berkshire Hathaway Inc. ($BRK.A, $BRK.B) announced its first-quarter 2026 earnings on Saturday, May 2, 2026. The company reported net earnings attributable to shareholders of $10.106 billion, a significant increase from $4.603 billion in the first quarter of 2025. This strong performance was primarily driven by operating earnings of $11.346 billion.",
+          "id": "upcoming-earnings-may-4",
+          "headline": "Major Earnings Ahead: Pfizer, AMD, Disney and More",
+          "summary": "The week of May 4, 2026, is set to be another busy one for earnings, with 128 S&P 500 companies scheduled to report. Notable companies include Pfizer ($PFE), Advanced Micro Devices ($AMD), Emerson Electric ($EMR), Walt Disney ($DIS), McDonald's ($MCD), and Zoetis ($ZTS).",
           "tags": [
-            "Earnings Report",
-            "Conglomerate",
-            "Warren Buffett"
+            "Earnings",
+            "Upcoming"
+          ]
+        },
+        {
+          "id": "ai-spending-big-tech",
+          "headline": "Big Tech Ramps Up AI Spending, Driving Sector Activity",
+          "summary": "Major technology companies are significantly increasing their borrowing to fund massive AI spending, with total planned spending reaching approximately $725 billion this year. This trend is a major driver of activity within the tech sector.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Sector Analysis"
           ]
         }
       ]
