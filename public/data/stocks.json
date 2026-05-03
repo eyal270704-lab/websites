@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-02T16:54:00Z",
+  "generatedAt": "2026-05-03T08:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 02, 2026",
-  "badge": "LIVE",
+  "subtitle": "May 03, 2026 - Weekend Recap",
+  "badge": "Updated May 3, 2026",
   "sections": [
     {
       "id": "market-pulse-summary",
@@ -13,14 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-item",
-          "headline": "Mixed Sentiment as Geopolitical Tensions Persist; S&P 500 Hits Record",
-          "summary": "Global markets are navigating a complex environment characterized by resilient equities, supported by strong corporate earnings and artificial intelligence optimism, yet overshadowed by ongoing geopolitical triggers and rising oil prices. The U.S. economy demonstrated continued growth in the first quarter of 2026, expanding at a 2% annualized pace, an acceleration from the previous quarter's 0.5% increase, although it fell slightly short of economists' forecasts of 2.3%. The Federal Reserve remains hesitant to cut interest rates amid the ongoing conflict in Iran and oil prices exceeding $100 a gallon. The S&P 500 closed April at a fresh record high, marking a 10.4% monthly gain, its strongest performance since November 2020.",
+          "id": "market-overall",
+          "headline": "Mixed Signals as S&P 500 and Nasdaq Hit Record Highs, Dow Dips",
+          "summary": "The U.S. stock market closed out the week with a mixed performance on Friday, May 2, 2026. Both the S&P 500 and the Nasdaq Composite reached new record highs, propelled by robust earnings from major technology companies. However, the Dow Jones Industrial Average experienced a slight decline, indicating a divergence in market leadership. Overall sentiment remained cautious amid ongoing concerns about inflation, elevated oil prices due to Middle East tensions, and a perceived 'froth' in some market segments. AI-linked investments continued to drive significant movements, though investors showed increased scrutiny of capital expenditure plans.",
           "tags": [
-            "Market Sentiment",
-            "Economy",
-            "Geopolitics",
-            "AI"
+            "Market Overview",
+            "Record Highs",
+            "Inflation Concerns"
           ]
         }
       ]
@@ -32,160 +31,155 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
+          "id": "sp500-daily",
+          "statLabel": "S&P 500 (Daily)",
           "statValue": "7,230.12",
-          "statContext": "Up 0.3% on May 1st, 2026. Up 10.4% for April. Up 5.6% YTD."
+          "statContext": "+0.29% (+21.11 points)"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
+          "id": "sp500-weekly",
+          "statLabel": "S&P 500 (Weekly)",
+          "statValue": "+0.9%",
+          "statContext": "Fifth straight weekly gain"
+        },
+        {
+          "id": "nasdaq-daily",
+          "statLabel": "NASDAQ Composite (Daily)",
           "statValue": "25,114.44",
-          "statContext": "Up 0.9% on May 1st, 2026. Strongest monthly gain since 2020 for April. Up 8.1% YTD."
+          "statContext": "+0.94% (+222.13 points)"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "nasdaq-weekly",
+          "statLabel": "NASDAQ Composite (Weekly)",
+          "statValue": "+1.1%",
+          "statContext": "Strongest month since April 2020"
+        },
+        {
+          "id": "dow-daily",
+          "statLabel": "Dow Jones Ind. Average (Daily)",
           "statValue": "49,499.27",
-          "statContext": "Down 0.3% on May 1st, 2026. Best monthly performance since November 2024 for April. Up 3% YTD."
+          "statContext": "-0.31% (-152.87 points)"
+        },
+        {
+          "id": "dow-weekly",
+          "statLabel": "Dow Jones Ind. Average (Weekly)",
+          "statValue": "+0.5%",
+          "statContext": "Lagged peers for the week"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (May 1-2, 2026)",
+      "id": "top-movers-daily",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "aapl-gainer",
-          "headline": "Apple (AAPL)",
-          "ticker": "$AAPL",
+          "id": "gainer-cboe",
+          "headline": "Cboe Global Markets Rises on Strong Day",
+          "ticker": "$CBOE",
           "price": "N/A",
-          "change": "+3.24%",
-          "changePercent": "+3.24%",
+          "change": "N/A",
+          "changePercent": "+9.0%",
           "direction": "up",
-          "summary": "Shares rose after a strong first-quarter earnings report and a better-than-expected outlook for the current quarter."
+          "summary": "Cboe Global Markets saw significant gains on Friday."
         },
         {
-          "id": "sndk-gainer",
-          "headline": "SanDisk (SNDK)",
+          "id": "gainer-psky",
+          "headline": "Paramount Skydance Jumps",
+          "ticker": "$PSKY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.3%",
+          "direction": "up",
+          "summary": "Paramount Skydance posted strong performance for the day."
+        },
+        {
+          "id": "gainer-sndk",
+          "headline": "SanDisk Climbs Higher",
           "ticker": "$SNDK",
           "price": "N/A",
-          "change": "+8.25%",
-          "changePercent": "+8.25%",
+          "change": "N/A",
+          "changePercent": "+8.3%",
           "direction": "up",
-          "summary": "The memory chip supplier saw a significant jump following strong first-quarter earnings."
+          "summary": "SanDisk was among the top gainers by market close."
         },
         {
-          "id": "veev-gainer",
-          "headline": "Veeva Systems Inc. (VEEV)",
-          "ticker": "$VEEV",
-          "price": "$171.60 (approx.)",
-          "change": "+$16.92 (approx.)",
-          "changePercent": "+10.92%",
-          "direction": "up",
-          "summary": "The stock surged following its inclusion in the S&P 500 benchmark, strong cloud-software demand, and an upbeat growth outlook."
-        },
-        {
-          "id": "shph-loser",
-          "headline": "Shuttle Pharmaceuticals Holdings, Inc. (SHPH)",
-          "ticker": "$SHPH",
-          "price": "$0.692",
-          "change": "-$0.33",
-          "changePercent": "-32.84%",
+          "id": "loser-tsco",
+          "headline": "Tractor Supply Co. Declines",
+          "ticker": "$TSCO",
+          "price": "$33.83",
+          "change": "-$1.27",
+          "changePercent": "-3.62%",
           "direction": "down",
-          "summary": "Experienced a significant decline, partly attributed to news regarding United Dogecoin going public in a merger."
+          "summary": "Tractor Supply Co. experienced a notable drop in share price."
         },
         {
-          "id": "cohn-loser",
-          "headline": "Cohen & Company Inc (COHN)",
-          "ticker": "$COHN",
-          "price": "$18.42",
-          "change": "-$5.07",
-          "changePercent": "-21.55%",
+          "id": "loser-grmn",
+          "headline": "Garmin Sees Downturn",
+          "ticker": "$GRMN",
+          "price": "$242.42",
+          "change": "-$8.72",
+          "changePercent": "-3.47%",
           "direction": "down",
-          "summary": "Fell after the company reported its first-quarter 2026 financial results."
+          "summary": "Garmin shares fell as the market closed."
         },
         {
-          "id": "gro-loser",
-          "headline": "Brazil Potash Corp. (GRO)",
-          "ticker": "$GRO",
-          "price": "N/A",
-          "change": "-10.89%",
-          "changePercent": "-10.89%",
+          "id": "loser-aph",
+          "headline": "Amphenol Reports Losses",
+          "ticker": "$APH",
+          "price": "$142.30",
+          "change": "-$4.97",
+          "changePercent": "-3.37%",
           "direction": "down",
-          "summary": "Declined following the announcement of its $55 million public offering of common shares and pre-funded warrants."
+          "summary": "Amphenol's stock recorded a decline on Friday."
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-growth-q1",
-          "headline": "U.S. Economy Grows 2% in Q1 2026 Amid Geopolitical Headwinds",
-          "summary": "The U.S. economy expanded at a 2% annualized rate in the first quarter of 2026, marking an acceleration from the previous quarter but falling short of economists' projections. Challenges such as the ongoing conflict involving Iran and elevated oil prices are seen as potential headwinds for future growth.",
+          "id": "tech-earnings-drive",
+          "headline": "Big Tech Earnings Propel Markets; AI Capex Under Scrutiny",
+          "summary": "Major technology companies continued to influence market movements this week. Alphabet ($GOOGL) exceeded expectations, with shares rising approximately 10% on Thursday, April 30, following strong earnings. Apple ($AAPL) also contributed to market strength, jumping 3.2% on Friday after reporting higher-than-expected fiscal second-quarter profits. Conversely, Meta Platforms ($META) disappointed investors with increased capital expenditure forecasts for AI and a decline in monthly active users, causing its stock to fall. Microsoft ($MSFT) also saw its shares decline despite beating earnings, as increased AI-related spending and expected drops in its PC and gaming segments raised concerns. The market is now closely scrutinizing AI capital expenditures, rewarding those tied to revenue acceleration and penalizing those without clear monetization paths.",
           "tags": [
-            "Economy",
-            "GDP",
-            "Geopolitics"
+            "Technology",
+            "Earnings",
+            "AI Investment"
           ]
         },
         {
-          "id": "fed-rate-uncertainty",
-          "headline": "Federal Reserve Holds Rates Steady, Internal Divisions Emerge",
-          "summary": "The Federal Reserve's FOMC voted 8-4 to leave interest rates unchanged, a decision widely anticipated but notable for the four dissenting votes—the highest number since late 1992, signaling a hawkish stance. Outgoing Fed Chair Jerome Powell confirmed he would remain on the Board of Governors, while Kevin Warsh is slated to become the new Chair. Minneapolis Fed President Neel Kashkari suggested the committee should signal flexibility for either a rate cut or hike, given the economic uncertainty linked to the Iran conflict.",
+          "id": "economic-data-inflation",
+          "headline": "Inflationary Pressures Persist Amid Mixed Economic Data",
+          "summary": "Economic data released this week painted a mixed picture, with persistent inflationary pressures. The Core PCE, a key inflation gauge, rose 0.3% month-over-month and 3.2% year-over-year, marking its highest core reading since November 2023. Initial jobless claims for the week ended April 25 hit a 50-year low of 189,000, suggesting a strong labor market. However, the April Michigan sentiment was revised down to a record low of 49.8, with year-ahead inflation expectations spiking to 4.7%. ISM Manufacturing held steady at 52.7, but the prices-paid component reached a four-year high. The Federal Reserve held interest rates steady midweek, with Chairman Powell maintaining a balanced tone.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
+            "Economic Data",
+            "Inflation",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions Keep Oil Prices Elevated; S&P 500 Inclusion for Veeva Systems",
+          "summary": "Geopolitical tensions, particularly the ongoing conflict in Iran, continued to keep oil prices elevated, with Brent crude pushing above $111 per barrel. This contributes to broader inflationary concerns and remains a key risk for the markets. In other news, Veeva Systems ($VEEV) saw its shares jump approximately 10-11% in after-hours and pre-market trading, following the announcement of its inclusion in the S&P 500 index, effective May 7, 2026.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Sector News"
           ]
         },
         {
           "id": "berkshire-hathaway-earnings",
-          "headline": "Berkshire Hathaway's Q1 Operating Earnings Jump, Cash Pile Nears $400 Billion",
-          "summary": "Berkshire Hathaway Inc. released its first-quarter 2026 earnings, reporting operating earnings of $11.35 billion, an 18% increase year-over-year. The conglomerate's cash reserves surged to a record high of nearly $400 billion.",
+          "headline": "Berkshire Hathaway Reports Strong Q1 2026 Earnings",
+          "summary": "Berkshire Hathaway Inc. ($BRK.A, $BRK.B) announced its first-quarter 2026 earnings on Saturday, May 2, 2026. The company reported net earnings attributable to shareholders of $10.106 billion, a significant increase from $4.603 billion in the first quarter of 2025. This strong performance was primarily driven by operating earnings of $11.346 billion.",
           "tags": [
-            "Earnings",
-            "Berkshire Hathaway"
-          ]
-        },
-        {
-          "id": "meta-capex-concerns",
-          "headline": "Meta Platforms Shares Decline on Increased AI Capital Expenditure Outlook",
-          "summary": "Shares of Meta Platforms declined approximately 10% over the past week following its first-quarter 2026 update. The company raised its 2026 capital expenditure outlook to between $125 billion and $145 billion, citing higher component costs, particularly memory pricing, which concerned investors. Despite this, Q1 revenue grew 33% year-over-year to $56.3 billion.",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "AI",
-            "Meta Platforms"
-          ]
-        },
-        {
-          "id": "oil-prices-geopolitical",
-          "headline": "Oil Prices Surge to $120 Amid Middle East Conflict",
-          "summary": "Oil prices briefly crossed $120 a barrel this week, the first time since 2022, primarily driven by the escalating conflict involving Iran, which has disrupted global energy flows and raised concerns about higher inflation and slower global growth. Brent crude later fell 3.41% to $114.01 per barrel after eight consecutive upward sessions.",
-          "tags": [
-            "Commodities",
-            "Oil",
-            "Geopolitics",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "sector-performance-overview",
-          "headline": "Tech and Energy Lead, Software and Advertising Lag in Sector Performance",
-          "summary": "Technology and software stocks were among the top performers on May 1st. Year-to-date, semiconductor equipment and materials are up 47.6%, and computer hardware stocks are up 45.3%. The Energy sector has also seen strong performance due to surging oil prices. Conversely, software application stocks are the worst performers, down 22.7% YTD, followed by advertising, down 20.9% YTD, and gambling, down 20.7% YTD.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy",
-            "Software",
-            "Advertising"
+            "Earnings Report",
+            "Conglomerate",
+            "Warren Buffett"
           ]
         }
       ]
