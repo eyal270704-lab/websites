@@ -1,170 +1,260 @@
 {
-  "generatedAt": "2026-05-04T09:16:00Z",
+  "generatedAt": "2026-05-04T13:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 4, 2026 - Market Trends and Key Movers",
+  "subtitle": "Monday, May 04, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-001",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-001",
-          "headline": "Tech Sector Surges as Q1 Earnings Impress; Broader Market Mixed Amid Geopolitical Concerns",
-          "summary": "U.S. equities saw a mixed start to the week, building on Friday's record closes for the S&P 500 and Nasdaq, largely driven by robust corporate earnings, particularly from the technology sector. Gains were concentrated in mega-cap AI names, narrowing market breadth. Geopolitical tensions in the Middle East, coupled with high oil prices, continue to be a significant wildcard, though oil prices saw some fluctuation today following news of a U.S. initiative to guide ships through the Strait of Hormuz. Investors are closely watching upcoming economic data and a busy week of earnings reports.",
+          "id": "market-summary-1",
+          "headline": "Risk-On Sentiment Prevails as Hormuz Reopening Fuels Global Markets; AI Rally Continues",
+          "summary": "Global markets are experiencing a 'risk-on' sentiment this Monday, driven by the announcement of plans to reopen commercial shipping through the Strait of Hormuz, a key geopolitical development. This comes as US equities closed Friday at fresh record highs, largely propelled by a tireless AI-driven tech rally. However, concerns about a creeping energy-inflation drag persist. US stock futures are mixed in early Monday trading, with the S&P 500 and Dow futures showing modest gains, while Nasdaq 100 futures dipped slightly. Asian and European bourses saw broad gains, with South Korea's KOSPI surging over 4% to a new all-time high.",
           "tags": [
             "Market Overview",
-            "Tech",
-            "Earnings",
-            "Geopolitics"
+            "Global",
+            "Geopolitics",
+            "AI"
           ],
-          "timestamp": "2026-05-04T09:16:00Z"
+          "timestamp": "2026-05-04T13:21:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-001",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-stat",
-          "statLabel": "S&P 500",
+          "statLabel": "S&P 500 (Friday Close)",
           "statValue": "7,230.12",
-          "statContext": "Last close (May 1, up 0.29%). Futures were nearly unchanged on May 4."
+          "statContext": "+0.29% (Record High)"
         },
         {
           "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
+          "statLabel": "NASDAQ Composite (Friday Close)",
           "statValue": "25,114.44",
-          "statContext": "Last close (May 1, up 0.89%), a record high. Futures slipped 0.05% on May 4."
+          "statContext": "+0.89% (Record High)"
         },
         {
           "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
+          "statLabel": "Dow Jones Ind. Avg. (Friday Close)",
           "statValue": "49,499.27",
-          "statContext": "Last close (May 1, down 0.31%). Futures shed 0.3% on May 4."
+          "statContext": "-0.31%"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Monday Morning)",
+          "statValue": "7,268.50",
+          "statContext": "+0.14%"
+        },
+        {
+          "id": "nasdaq100-futures",
+          "statLabel": "Nasdaq 100 Futures (Monday Morning)",
+          "statValue": "27,823.5",
+          "statContext": "-0.05%"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures (Monday Morning)",
+          "statValue": "Up",
+          "statContext": "+0.1%"
         }
       ]
     },
     {
-      "id": "top-movers-001",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Leads Gains on Strong Earnings",
-          "summary": "Apple's stock surged after the company delivered better-than-expected fiscal Q2 earnings and reported 17% revenue growth, leading the S&P 500 higher. Improved revenue guidance was a key catalyst.",
+          "id": "gainer-aios",
+          "headline": "AIOS Tech Surges on Strong Performance",
+          "ticker": "$AIOS",
+          "price": "$22.00",
+          "change": "+$12.70",
+          "changePercent": "+136.05%",
+          "direction": "up",
+          "summary": "AIOS Tech Inc. experienced a significant surge in early trading today."
+        },
+        {
+          "id": "gainer-cue",
+          "headline": "Cue Biopharma Posts Triple-Digit Gains",
+          "ticker": "$CUE",
+          "price": "$30.46",
+          "change": "+$15.68",
+          "changePercent": "+106.64%",
+          "direction": "up",
+          "summary": "Cue Biopharma, Inc. was among the top gainers, reflecting strong market interest."
+        },
+        {
+          "id": "gainer-coag",
+          "headline": "Hemab Therapeutics Hldgs Rises Sharply",
+          "ticker": "$COAG",
+          "price": "$34.24",
+          "change": "+$16.20",
+          "changePercent": "+90.24%",
+          "direction": "up",
+          "summary": "Hemab Therapeutics Holdings saw a substantial increase in its stock price today."
+        },
+        {
+          "id": "loser-sobr",
+          "headline": "Sobr Safe Declines Significantly",
+          "ticker": "$SOBR",
+          "price": "$0.97",
+          "change": "-$3.38",
+          "changePercent": "-77.54%",
+          "direction": "down",
+          "summary": "Sobr Safe Inc. was among the biggest decliners in today's trading."
+        },
+        {
+          "id": "loser-dhy-r",
+          "headline": "Credit Suisse High Yield Credit Fund Rights Plummets",
+          "ticker": "$DHYr",
+          "price": "$0.00",
+          "change": "-$0.00",
+          "changePercent": "-76.01%",
+          "direction": "down",
+          "summary": "Credit Suisse High Yield Credit Fund Rights experienced a sharp decline. This financial instrument is set to expire on May 14, 2026."
+        },
+        {
+          "id": "loser-sdot",
+          "headline": "Sadot Group Experiences Significant Drop",
+          "ticker": "$SDOT",
+          "price": "$0.47",
+          "change": "-$0.51",
+          "changePercent": "-51.8%",
+          "direction": "down",
+          "summary": "Sadot Group shares fell substantially in early trading."
+        },
+        {
+          "id": "mover-aapl",
+          "headline": "Apple (AAPL) Jumps on Strong Q2 Earnings Beat",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.3%",
-          "direction": "up"
-        },
-        {
-          "id": "googl-gainer",
-          "headline": "Alphabet Soars on AI-Driven Cloud Revenue",
-          "summary": "Alphabet experienced a significant jump, driven by robust enterprise AI demand which propelled a massive 63% year-over-year increase in its cloud revenue.",
-          "ticker": "$GOOGL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.0%",
-          "direction": "up"
-        },
-        {
-          "id": "shph-loser",
-          "headline": "Shuttle Pharmaceuticals Holdings Plummets",
-          "summary": "Shuttle Pharmaceuticals Holdings Inc. was among the day's biggest losers, experiencing a substantial decline in its stock price.",
-          "ticker": "$SHPH",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-32.84%",
-          "direction": "down"
-        },
-        {
-          "id": "meta-loser",
-          "headline": "Meta Platforms Declines Despite Earnings Beat",
-          "summary": "Meta Platforms' shares plunged despite beating earnings estimates, as investors scrutinized the company's lack of significant AI-related growth to justify massive capital expenditures and increased debt for buildout.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.0%",
-          "direction": "down"
+          "changePercent": "+3%",
+          "direction": "up",
+          "summary": "Apple shares rose approximately 3% on Friday after the company reported better-than-expected fiscal Q2 earnings, with revenue up 17% year-over-year to $111.2 billion and earnings per share increasing 22% to $2.01. This performance significantly contributed to the S&P 500 and Nasdaq 100 reaching new all-time highs."
         }
       ]
     },
     {
-      "id": "market-news-001",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "earnings-q1-2026",
-          "headline": "Q1 2026 Earnings Season Exceeds Expectations",
-          "summary": "The first-quarter 2026 earnings season is past the halfway mark, with approximately 80% of S&P 500 companies reporting profits up roughly 31% year-on-year, significantly surprising analysts to the upside. This week is particularly busy with over 100 S&P 500 companies, including Advanced Micro Devices ($AMD) and Palantir ($PLTR), scheduled to release their reports. Palantir ($PLTR) is reporting after market close today, with high expectations surrounding its commercial Artificial Intelligence Platform (AIP) contract growth.",
-          "tags": [
-            "Earnings",
-            "Q1 2026",
-            "Corporate Performance"
-          ],
-          "timestamp": "2026-05-04T09:16:00Z"
-        },
-        {
-          "id": "middle-east-conflict",
-          "headline": "Middle East Conflict and Oil Prices Remain Key Market Drivers",
-          "summary": "The ongoing conflict in the Middle East, particularly concerning the Strait of Hormuz, remains a significant factor influencing global markets and oil prices. Oil prices saw a rebound today, with Brent crude climbing over $2 a barrel to $110.40, following reports of a U.S. initiative, dubbed 'Project Freedom,' to guide ships through the Strait. However, Iran has reportedly rejected the plan. High oil prices continue to weigh on consumer confidence.",
+          "id": "news-hormuz-reopening",
+          "headline": "Strait of Hormuz Reopening Boosts Global Risk Sentiment",
+          "summary": "The US announcement of plans to begin reopening commercial shipping through the Strait of Hormuz has triggered a broad 'risk-on' response across Asian and European markets this Monday. This development is helping to sharpen a market already balancing a strong AI rally against rising energy inflation.",
           "tags": [
             "Geopolitics",
-            "Oil Prices",
-            "Strait of Hormuz"
-          ],
-          "timestamp": "2026-05-04T09:16:00Z"
+            "Energy",
+            "Global Markets"
+          ]
         },
         {
-          "id": "fed-policy-outlook",
-          "headline": "Fed Maintains Rates Amid Divisions, Non-Farm Payrolls Awaited",
-          "summary": "The Federal Reserve concluded its FOMC meeting on April 28-29, opting to keep interest rates steady at 3.5-3.75%. Notably, four members dissented, marking the highest level of internal disagreement in over three decades, indicating differing views within the Fed regarding future policy. Markets are currently pricing in the Fed holding steady through mid-year. Looking ahead, investors are keenly awaiting the April Non-Farm Payrolls report on Friday, with consensus expecting 49,000 jobs added and unemployment at 4.3%.",
+          "id": "news-fed-outlook",
+          "headline": "Fed Expected to Hold Rates Steady Amidst Inflation Concerns",
+          "summary": "Markets are currently pricing in a 94.8% likelihood that the Federal Reserve will maintain current interest rates unchanged during its June meeting. The Fed recently kept rates at 3.5-3.75% after its April 28-29 meeting, with several dissenting votes signaling internal divisions.",
           "tags": [
-            "Federal Reserve",
             "Monetary Policy",
-            "Economic Data"
-          ],
-          "timestamp": "2026-05-04T09:16:00Z"
+            "Federal Reserve",
+            "Interest Rates"
+          ]
         },
         {
-          "id": "sector-rotation-ai-capex",
-          "headline": "Tech and Cyclicals Lead Amid AI Spending Scrutiny",
-          "summary": "The technology, communication services, and consumer discretionary sectors are currently leading market performance, driven by strong earnings and investor rotation into economically sensitive names. This shift suggests a potential 'soft-ish landing' scenario for the economy. However, concerns persist regarding the substantial scale of AI capital expenditure, projected at $751 billion for 2026, and whether it will deliver the expected return on investment. Microsoft ($MSFT) and Meta ($META) experienced declines due to concerns over their AI spending versus revenue guidance.",
+          "id": "news-economic-data-week",
+          "headline": "Key Economic Data Releases This Week",
+          "summary": "Investors are keenly awaiting several economic data releases this week, including the April non-farm payrolls report on Friday (consensus expects 62,000 jobs added), March JOLTS data on Tuesday, and the ISM Services PMI for April, also due Tuesday. These reports will provide further insights into the labor market and broader economic health.",
+          "tags": [
+            "Economic Data",
+            "Employment",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "news-alphabet-earnings",
+          "headline": "Alphabet's Q1 Earnings Soar, Google Cloud Leads AI Growth",
+          "summary": "Alphabet ($GOOGL) reported stellar Q1 results, with net sales up 24% year-over-year to $94.66 billion and earnings per share surging 82% to $5.11, significantly beating estimates. Google Cloud saw its fastest growth rate ever, with revenue soaring 63% year-over-year to $20 billion, driven by robust demand for its enterprise AI infrastructure and Gemini-based solutions.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "AI",
+            "$GOOGL"
+          ]
+        },
+        {
+          "id": "news-tyson-foods-earnings",
+          "headline": "Tyson Foods (TSN) Reports Q2 2026 Results",
+          "summary": "Tyson Foods, Inc. ($TSN) announced its second quarter fiscal 2026 results today. The company reported sales of $13,653 million, up 4.4% from the prior year, and a GAAP operating income of $435 million, an increase of $335 million from the previous year.",
+          "tags": [
+            "Earnings",
+            "Food Industry",
+            "$TSN"
+          ]
+        },
+        {
+          "id": "news-oil-prices",
+          "headline": "Oil Prices Rebound Amid Hormuz Developments and OPEC+ Output",
+          "summary": "Crude oil futures are trading higher today, with WTI crude hovering around $103.46 per barrel and Brent crude jumping $2.23 to $110.40 a barrel. This rebound is influenced by geopolitical events surrounding the Strait of Hormuz and OPEC+'s decision to raise oil output by 188,000 barrels per day.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Geopolitics",
+            "OPEC"
+          ]
+        },
+        {
+          "id": "news-sector-tech-lead",
+          "headline": "Technology Sector Continues to Lead, Driven by AI and Semiconductors",
+          "summary": "The technology sector, particularly AI and semiconductor-related names, continues to be a leading force in the market. Strong buying in tech stocks pushed shares sharply higher in Asian markets, with South Korea's KOSPI and Taiwan's Taiex experiencing significant gains. However, market breadth has narrowed, with gains concentrated in a few mega-cap AI stocks.",
           "tags": [
             "Sector Analysis",
-            "AI",
             "Technology",
-            "Cyclical Stocks"
-          ],
-          "timestamp": "2026-05-04T09:16:00Z"
-        }
-      ]
-    },
-    {
-      "id": "disclaimer-001",
-      "title": "Disclaimer",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
+            "AI",
+            "Semiconductors"
+          ]
+        },
         {
-          "id": "financial-advice-disclaimer",
-          "headline": "Not Financial Advice",
-          "summary": "This market digest is for informational purposes only and does not constitute specific investment advice. Please consult with a qualified financial professional before making any investment decisions. The information provided is based on publicly available data and market observations as of May 4, 2026.",
-          "tags": [],
-          "timestamp": "2026-05-04T09:16:00Z"
+          "id": "news-dow-lagging-sectors",
+          "headline": "Healthcare and Industrials Weigh on Dow Performance",
+          "summary": "The Dow Jones Industrial Average lagged behind other major indices, primarily weighed down by underperformance in the healthcare and industrials sectors.",
+          "tags": [
+            "Sector Analysis",
+            "Healthcare",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "news-consumer-sentiment",
+          "headline": "Consumer Sentiment Hits Record Low in April",
+          "summary": "The Index of Consumer Sentiment, published by the University of Michigan, reached a record low of 47.6 in April. This signals that a large segment of the consuming public is under financial stress and is pulling back on spending, a significant factor given that consumers drive roughly 70% of the U.S. economy.",
+          "tags": [
+            "Economic Indicator",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "news-palantir-earnings",
+          "headline": "Palantir (PLTR) Earnings Expected After Market Close",
+          "summary": "Palantir Technologies Inc. ($PLTR) is scheduled to report its earnings after the market closes today. Expectations are high, and market focus will be on commercial Artificial Intelligence Platform (AIP) contract growth and enterprise AI adoption pace.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "$PLTR"
+          ]
         }
       ]
     }
