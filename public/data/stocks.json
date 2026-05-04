@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-05-03T16:56:00Z",
+  "generatedAt": "2026-05-04T09:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 03, 2026 - Weekend Market Wrap",
-  "badge": "Market Closed",
+  "subtitle": "May 4, 2026 - Market Trends and Key Movers",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Tech Drives Indices to Record Highs Amid Geopolitical Tensions",
+      "id": "market-pulse-001",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-050226",
-          "headline": "S&P 500 and Nasdaq Reach Record Closings as Tech Sector Surges on Strong Earnings; Dow Ends Lower.",
-          "summary": "On Friday, May 2, 2026, the S&P 500 and Nasdaq Composite advanced to new record closing highs, propelled by robust corporate earnings and significant gains in technology stocks. The Dow Jones Industrial Average, however, closed modestly lower. Overall market sentiment was influenced by a strong earnings season, particularly from major tech companies, though geopolitical risks, including escalating oil prices and the ongoing conflict involving Iran, continued to cast a shadow of uncertainty over global markets. With the weekend ahead, markets are currently closed for trading.",
+          "id": "market-summary-001",
+          "headline": "Tech Sector Surges as Q1 Earnings Impress; Broader Market Mixed Amid Geopolitical Concerns",
+          "summary": "U.S. equities saw a mixed start to the week, building on Friday's record closes for the S&P 500 and Nasdaq, largely driven by robust corporate earnings, particularly from the technology sector. Gains were concentrated in mega-cap AI names, narrowing market breadth. Geopolitical tensions in the Middle East, coupled with high oil prices, continue to be a significant wildcard, though oil prices saw some fluctuation today following news of a U.S. initiative to guide ships through the Strait of Hormuz. Investors are closely watching upcoming economic data and a busy week of earnings reports.",
           "tags": [
             "Market Overview",
+            "Tech",
             "Earnings",
-            "Tech Stocks",
             "Geopolitics"
           ],
-          "timestamp": "2026-05-02T20:00:00Z"
+          "timestamp": "2026-05-04T09:16:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (May 2, 2026)",
+      "id": "major-indices-001",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
@@ -36,35 +36,32 @@
           "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,230.12",
-          "statContext": "+0.29% (+0.9% weekly)",
-          "direction": "up"
+          "statContext": "Last close (May 1, up 0.29%). Futures were nearly unchanged on May 4."
         },
         {
           "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,114.44",
-          "statContext": "+0.89% (+1.1% weekly)",
-          "direction": "up"
+          "statContext": "Last close (May 1, up 0.89%), a record high. Futures slipped 0.05% on May 4."
         },
         {
           "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,499.27",
-          "statContext": "-0.31% (+0.5% weekly)",
-          "direction": "down"
+          "statContext": "Last close (May 1, down 0.31%). Futures shed 0.3% on May 4."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (May 2, 2026)",
+      "id": "top-movers-001",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "aapl-gainer",
-          "headline": "Apple (AAPL) Advances on Strong Sales Forecast",
-          "summary": "Apple shares advanced, buoyed by a solid sales forecast and strong demand for its flagship iPhone 17 and MacBook Neo.",
+          "headline": "Apple Leads Gains on Strong Earnings",
+          "summary": "Apple's stock surged after the company delivered better-than-expected fiscal Q2 earnings and reported 17% revenue growth, leading the S&P 500 higher. Improved revenue guidance was a key catalyst.",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
@@ -72,134 +69,102 @@
           "direction": "up"
         },
         {
-          "id": "team-gainer",
-          "headline": "Atlassian (TEAM) Soars on Earnings Beat and Raised Outlook",
-          "summary": "Atlassian stock soared after the software company reported a strong fiscal third-quarter beat and subsequently raised its full-year guidance.",
-          "ticker": "$TEAM",
+          "id": "googl-gainer",
+          "headline": "Alphabet Soars on AI-Driven Cloud Revenue",
+          "summary": "Alphabet experienced a significant jump, driven by robust enterprise AI demand which propelled a massive 63% year-over-year increase in its cloud revenue.",
+          "ticker": "$GOOGL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+29.6%",
+          "changePercent": "+10.0%",
           "direction": "up"
         },
         {
-          "id": "rdit-gainer",
-          "headline": "Reddit (RDDT) Jumps on Upbeat Revenue Forecast",
-          "summary": "Reddit's stock jumped following an upbeat quarterly revenue forecast, signaling positive investor sentiment.",
-          "ticker": "$RDDT",
+          "id": "shph-loser",
+          "headline": "Shuttle Pharmaceuticals Holdings Plummets",
+          "summary": "Shuttle Pharmaceuticals Holdings Inc. was among the day's biggest losers, experiencing a substantial decline in its stock price.",
+          "ticker": "$SHPH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.1%",
-          "direction": "up"
-        },
-        {
-          "id": "cnc-gainer",
-          "headline": "Centene (CNC) Rallies on Boosted Profit Outlook",
-          "summary": "Centene experienced a significant weekly gain after the health insurer boosted its profit outlook for the year and reported a first-quarter beat.",
-          "ticker": "$CNC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+28% (weekly)",
-          "direction": "up"
-        },
-        {
-          "id": "rblx-loser",
-          "headline": "Roblox (RBLX) Falls on Bookings Forecast Cut",
-          "summary": "Roblox shares fell sharply after the company cut its annual bookings forecast, leading to investor concerns.",
-          "ticker": "$RBLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-18.3%",
+          "changePercent": "-32.84%",
           "direction": "down"
         },
         {
-          "id": "amgn-loser",
-          "headline": "Amgen (AMGN) Dives on FDA Concerns",
-          "summary": "Amgen stock dived following investor concerns over the FDA's proposal to withdraw approval for its blood vessel inflammation drug, Tavneos, after it was linked to several cases of serious liver injuries.",
-          "ticker": "$AMGN",
+          "id": "meta-loser",
+          "headline": "Meta Platforms Declines Despite Earnings Beat",
+          "summary": "Meta Platforms' shares plunged despite beating earnings estimates, as investors scrutinized the company's lack of significant AI-related growth to justify massive capital expenditures and increased debt for buildout.",
+          "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.8%",
-          "direction": "down"
-        },
-        {
-          "id": "clx-loser",
-          "headline": "Clorox (CLX) Drops on Slashed EPS Guidance",
-          "summary": "Clorox experienced its worst weekly drop since 2022 after the company slashed its full-year EPS guidance and reported a third-quarter organic sales miss.",
-          "ticker": "$CLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12% (weekly)",
-          "direction": "down"
-        },
-        {
-          "id": "ma-loser",
-          "headline": "Mastercard (MA) Declines Despite Earnings Beat Amid Transaction Slowdown",
-          "summary": "Mastercard saw a weekly decline even after delivering better-than-expected Q1 earnings and revenue, as April trends showed a slowdown in cross-border transaction growth.",
-          "ticker": "$MA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.73% (weekly)",
+          "changePercent": "-9.0%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "id": "market-news-001",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-leads-sectors",
-          "headline": "Technology Sector Leads Market Gains, Energy Lags",
-          "summary": "Technology stocks enjoyed the biggest percentage gains on Friday, contributing significantly to the S&P 500 and Nasdaq's record highs. Conversely, energy shares experienced the most significant drops. Communication Services and Information Technology sectors continue to be highly concentrated in a few individual stocks, presenting potential idiosyncratic risks.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
-          ]
-        },
-        {
-          "id": "q1-earnings-growth",
-          "headline": "S&P 500 Companies Report Strong Q1 Earnings Growth",
-          "summary": "Analysts now estimate aggregate first-quarter earnings growth of 27.8% year-on-year for S&P 500 companies, marking the biggest earnings growth since Q4 2021. This surge is partly attributed to the 'Magnificent Seven' group of AI-related stocks.",
+          "id": "earnings-q1-2026",
+          "headline": "Q1 2026 Earnings Season Exceeds Expectations",
+          "summary": "The first-quarter 2026 earnings season is past the halfway mark, with approximately 80% of S&P 500 companies reporting profits up roughly 31% year-on-year, significantly surprising analysts to the upside. This week is particularly busy with over 100 S&P 500 companies, including Advanced Micro Devices ($AMD) and Palantir ($PLTR), scheduled to release their reports. Palantir ($PLTR) is reporting after market close today, with high expectations surrounding its commercial Artificial Intelligence Platform (AIP) contract growth.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "AI"
-          ]
+            "Q1 2026",
+            "Corporate Performance"
+          ],
+          "timestamp": "2026-05-04T09:16:00Z"
         },
         {
-          "id": "fed-uncertainty-kashkari",
-          "headline": "Minneapolis Fed President Signals Rate Uncertainty Amid Geopolitical Conflict",
-          "summary": "Minneapolis Fed President Neel Kashkari stated that the economy is too uncertain due to the ongoing conflict involving Iran to signal rate cuts. He suggested the next rate change could be either a cut or a hike, depending on economic evolution, especially concerning potential oil price surges from Strait of Hormuz disruptions.",
+          "id": "middle-east-conflict",
+          "headline": "Middle East Conflict and Oil Prices Remain Key Market Drivers",
+          "summary": "The ongoing conflict in the Middle East, particularly concerning the Strait of Hormuz, remains a significant factor influencing global markets and oil prices. Oil prices saw a rebound today, with Brent crude climbing over $2 a barrel to $110.40, following reports of a U.S. initiative, dubbed 'Project Freedom,' to guide ships through the Strait. However, Iran has reportedly rejected the plan. High oil prices continue to weigh on consumer confidence.",
           "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Interest Rates",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "gdp-inflation-report",
-          "headline": "GDP Weaker Than Expected, Inflation Higher Than Target",
-          "summary": "Recent GDP data came in at a decent 2%, though weaker than anticipated, with business investments in AI infrastructure being a significant component. Personal Consumption Expenditures (PCE) inflation stands at 3.5%, notably higher than the Federal Reserve's 2% target.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "GDP"
-          ]
-        },
-        {
-          "id": "oil-prices-tariffs",
-          "headline": "Oil Prices Surge to $120 Amid Iran Conflict; New Tariffs on European Autos Announced",
-          "summary": "Oil prices briefly crossed $120 a barrel this week, the first time since 2022, primarily due to the ongoing conflict involving Iran and disruptions in global energy flows, particularly through the Strait of Hormuz. Additionally, the Trump administration announced the imposition of a 25% tariff on European automobiles, adding to market volatility.",
-          "tags": [
-            "Macro Trends",
-            "Oil",
             "Geopolitics",
-            "Trade"
-          ]
+            "Oil Prices",
+            "Strait of Hormuz"
+          ],
+          "timestamp": "2026-05-04T09:16:00Z"
+        },
+        {
+          "id": "fed-policy-outlook",
+          "headline": "Fed Maintains Rates Amid Divisions, Non-Farm Payrolls Awaited",
+          "summary": "The Federal Reserve concluded its FOMC meeting on April 28-29, opting to keep interest rates steady at 3.5-3.75%. Notably, four members dissented, marking the highest level of internal disagreement in over three decades, indicating differing views within the Fed regarding future policy. Markets are currently pricing in the Fed holding steady through mid-year. Looking ahead, investors are keenly awaiting the April Non-Farm Payrolls report on Friday, with consensus expecting 49,000 jobs added and unemployment at 4.3%.",
+          "tags": [
+            "Federal Reserve",
+            "Monetary Policy",
+            "Economic Data"
+          ],
+          "timestamp": "2026-05-04T09:16:00Z"
+        },
+        {
+          "id": "sector-rotation-ai-capex",
+          "headline": "Tech and Cyclicals Lead Amid AI Spending Scrutiny",
+          "summary": "The technology, communication services, and consumer discretionary sectors are currently leading market performance, driven by strong earnings and investor rotation into economically sensitive names. This shift suggests a potential 'soft-ish landing' scenario for the economy. However, concerns persist regarding the substantial scale of AI capital expenditure, projected at $751 billion for 2026, and whether it will deliver the expected return on investment. Microsoft ($MSFT) and Meta ($META) experienced declines due to concerns over their AI spending versus revenue guidance.",
+          "tags": [
+            "Sector Analysis",
+            "AI",
+            "Technology",
+            "Cyclical Stocks"
+          ],
+          "timestamp": "2026-05-04T09:16:00Z"
+        }
+      ]
+    },
+    {
+      "id": "disclaimer-001",
+      "title": "Disclaimer",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "financial-advice-disclaimer",
+          "headline": "Not Financial Advice",
+          "summary": "This market digest is for informational purposes only and does not constitute specific investment advice. Please consult with a qualified financial professional before making any investment decisions. The information provided is based on publicly available data and market observations as of May 4, 2026.",
+          "tags": [],
+          "timestamp": "2026-05-04T09:16:00Z"
         }
       ]
     }
