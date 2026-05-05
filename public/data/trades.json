@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T08:22:36.781888Z",
+  "generatedAt": "2026-05-05T23:01:53.482864Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -52,22 +52,6 @@
       "source": "Watchlist"
     },
     {
-      "ticker": "$IREN",
-      "name": "IREN Limited",
-      "sector": "Technology",
-      "currentPrice": "$45.66",
-      "entry": "$43.50",
-      "stop": "$41.50",
-      "structure": "Support Retest",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "IREN is in a long-term uptrend, trading above its 20-day, 50-day, and 200-day moving averages. Price is pulling back towards a strong support area around $43.50. However, volume is currently below average, and upcoming earnings on May 7th introduce significant short-term risk, warranting caution.",
-      "riskScore": 9,
-      "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
-      "source": "Watchlist"
-    },
-    {
       "ticker": "$KTOS",
       "name": "Kratos Defense & Security Solutions, Inc.",
       "sector": "Industrials",
@@ -98,6 +82,54 @@
       "footerTag": "High Confidence",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$IREN",
+      "name": "IREN Limited",
+      "sector": "Technology",
+      "currentPrice": "$50.05",
+      "entry": "$50.11",
+      "stop": "$47.00",
+      "structure": "Fibonacci Pivot",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "IREN is trading above its key moving averages, indicating a bullish trend. The price is currently at a Fibonacci pivot point, suggesting a potential area of interest for a bounce. However, upcoming earnings on May 7, 2026, pose significant short-term risk, potentially leading to high volatility.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Transportation",
+      "currentPrice": "$75.12",
+      "entry": "$73.50",
+      "stop": "$68.00",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "UBER is currently in a medium-long term downtrend, trading below its 150-day and 200-day moving averages. While exhibiting elevated relative volume and short-term bullish momentum, the stock faces extreme risk with earnings scheduled for May 6, 2026. A bounce from current support levels near the 50-day MA is possible, but the earnings event introduces high volatility and uncertainty.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ARM",
+      "name": "Arm Holdings plc",
+      "sector": "Semiconductors",
+      "currentPrice": "$208.84",
+      "entry": "$180.00",
+      "stop": "$160.00",
+      "structure": "Support Retest",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "ARM exhibits a strong bullish trend, trading well above its major moving averages. However, the impending Q4 earnings report on May 6, 2026, creates extreme near-term risk and high volatility. A hypothetical entry could be considered on a deep pullback to previous support levels, with a strict stop loss due to the high-risk earnings catalyst.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
