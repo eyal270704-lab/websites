@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-08T07:20:42.601407Z",
+  "generatedAt": "2026-05-08T14:05:55.341762Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Neutral / No Clear Setup",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$322.64",
+      "entry": "$317.00",
+      "stop": "$309.00",
+      "structure": "Support Test at $316.00",
+      "trend": "< 150MA, RVOL > 1.0",
+      "trendLabel": "Trend/RVOL",
+      "analysis": "Home Depot is currently in a downtrend, trading below its 150-day moving average. The stock is approaching a key support level around $316.00, which could present a bounce opportunity. Relative volume is elevated, indicating increased interest.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$908.09",
+      "entry": "$903.87",
+      "stop": "$880.00",
+      "structure": "0.618 Fib Retracement",
+      "trend": "> 150MA, RVOL > 1.0",
+      "trendLabel": "Trend/RVOL",
+      "analysis": "Caterpillar is in a strong bullish uptrend, trading well above its key moving averages. The current price is pulling back to the 0.618 Fibonacci retracement level from a recent swing, offering a potential entry for trend continuation. Relative volume is elevated, confirming interest.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc. Class C Capital Stock",
+      "sector": "Communication Services",
+      "currentPrice": "$45.57",
+      "entry": "$39.50",
+      "stop": "$38.50",
+      "structure": "Support Test (52-week low area)",
+      "trend": "< 150MA, RVOL > 1.0",
+      "trendLabel": "Trend/RVOL",
+      "analysis": "Zillow Group is in a strong long-term downtrend, trading below its key moving averages. Earnings were just reported on May 6, 2026. Price is near the 52-week low area, suggesting a potential bounce from oversold levels if it retests support around $39.05, but carries high risk due to recent earnings and bearish trend. Relative volume is elevated.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
