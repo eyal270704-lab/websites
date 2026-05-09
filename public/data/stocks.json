@@ -1,172 +1,164 @@
 {
-  "generatedAt": "2026-05-08T17:22:00Z",
+  "generatedAt": "2026-05-09T08:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 08, 2026",
+  "subtitle": "May 09, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-050826",
-          "headline": "U.S. Stocks Rally on Strong Job Data, Shrug Off Middle East Tensions",
-          "summary": "U.S. equities rallied today, with major indices showing positive momentum. A stronger-than-expected April jobs report bolstered investor confidence, largely overshadowing ongoing geopolitical tensions in the Middle East. Semiconductor and memory stocks led the charge, contributing to the market's upward trend.",
+          "id": "market-summary-050926",
+          "headline": "AI Rally Propels S&P 500 and Nasdaq to Fresh Record Highs Amid Strong Jobs Data",
+          "summary": "Wall Street closed higher on May 8, with both the S&P 500 and Nasdaq Composite achieving new record highs. This surge was primarily driven by continued investor enthusiasm for artificial intelligence (AI)-linked stocks, despite ongoing geopolitical tensions in the Middle East. Positive sentiment was further bolstered by stronger-than-expected April jobs data, reinforcing expectations that the Federal Reserve will maintain current interest rates through year-end. Technology stocks were the clear leaders, while utilities lagged.",
           "tags": [
-            "Market Overview",
-            "Economic Data",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-08T17:00:00Z"
+            "AI",
+            "Record Highs",
+            "Jobs Report",
+            "Fed"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,386.27",
-          "statContext": "+49.16 (+0.67%)"
+          "id": "sp500-050926",
+          "headline": "S&P 500",
+          "statLabel": "Close (May 8)",
+          "statValue": "7,398.93",
+          "statContext": "Up 0.84%",
+          "ticker": "$SPX",
+          "price": "7,398.93",
+          "change": "+61.64",
+          "changePercent": "+0.84%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,118.20",
-          "statContext": "+312.00 (+1.21%)"
+          "id": "nasdaq-050926",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close (May 8)",
+          "statValue": "26,247.08",
+          "statContext": "Up 1.71%",
+          "ticker": "$IXIC",
+          "price": "26,247.08",
+          "change": "+441.76",
+          "changePercent": "+1.71%",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,602.91",
-          "statContext": "+5.94 (+0.01%)"
+          "id": "dow-050926",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close (May 8)",
+          "statValue": "49,609.16",
+          "statContext": "Up 0.02%",
+          "ticker": "$DJIA",
+          "price": "49,609.16",
+          "change": "+12.19",
+          "changePercent": "+0.02%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-today",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "inod-gainer",
-          "headline": "Innodata Climbs on Boosted Revenue Forecast",
-          "summary": "Innodata (INOD) surged 39% after the professional services company significantly boosted its revenue forecast for the full year.",
-          "ticker": "$INOD",
+          "id": "mu-gainer-050926",
+          "headline": "Micron Technology",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+39.00%",
-          "direction": "up"
+          "changePercent": "+15.5%",
+          "direction": "up",
+          "summary": "Memory and storage firm Micron Technology surged over 15% on optimism regarding booming demand tied to AI data center expansion."
         },
         {
-          "id": "akam-gainer",
-          "headline": "Akamai Technologies Jumps on Strong Results and Major Cloud Deal",
-          "summary": "Akamai Technologies ($AKAM) leaped 28.5% after reporting first-quarter results that surpassed expectations and announcing a substantial $1.8 billion cloud infrastructure services deal.",
-          "ticker": "$AKAM",
+          "id": "intc-gainer-050926",
+          "headline": "Intel Corp.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+28.50%",
-          "direction": "up"
+          "changePercent": "+13.96%",
+          "direction": "up",
+          "summary": "Intel shares rose significantly, between 10% and 19%, after reports emerged of a preliminary agreement for Intel Foundry to manufacture processors for Apple devices."
         },
         {
-          "id": "flnc-gainer",
-          "headline": "Fluence Energy Surges on Strong Quarterly Results",
-          "summary": "Fluence Energy ($FLNC) rose 23% following strong quarterly results, with analysts upgrading recommendations on growing orders.",
-          "ticker": "$FLNC",
+          "id": "cloudflare-loser-050926",
+          "headline": "Cloudflare Inc.",
+          "ticker": "$NET",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+23.00%",
-          "direction": "up"
+          "changePercent": "-24%",
+          "direction": "down",
+          "summary": "Cloudflare tumbled 24% after the company announced job cuts and provided weaker-than-expected revenue guidance."
         },
         {
-          "id": "zts-loser",
-          "headline": "Zoetis Inc. Plummets After Missing Earnings Estimates",
-          "summary": "Zoetis Inc. ($ZTS) saw its shares plummet 21.5% after the company reported first-quarter 2026 earnings per share that missed the Zacks Consensus Estimate.",
-          "ticker": "$ZTS",
+          "id": "tradedesk-loser-050926",
+          "headline": "The Trade Desk",
+          "ticker": "$TTD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-21.50%",
-          "direction": "down"
-        },
-        {
-          "id": "fwrd-loser",
-          "headline": "Forward Air Plunges as Sale Proposals Fail",
-          "summary": "Forward Air ($FWRD) shares plunged 45% after the transportation services firm announced it received no actionable proposals for a sale.",
-          "ticker": "$FWRD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-45.00%",
-          "direction": "down"
-        },
-        {
-          "id": "meli-loser",
-          "headline": "MercadoLibre Falls on Missed Earnings Despite Revenue Growth",
-          "summary": "MercadoLibre ($MELI) fell 11.7% as the e-commerce and fintech giant missed first-quarter earnings expectations, despite reporting strong revenue growth.",
-          "ticker": "$MELI",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-11.70%",
-          "direction": "down"
+          "changePercent": "-1.8%",
+          "direction": "down",
+          "summary": "The Trade Desk fell 1.8% on soft revenue forecasts, with pre-market indications showing a larger drop of 12%."
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-050826",
-          "headline": "Sector Performance: Semiconductor and Memory Stocks Lead, Materials and Energy Lag",
-          "summary": "Semiconductor and memory stocks were notable leaders today, contributing significantly to the broader market rally. This contrasts with Thursday's performance where Materials, Energy, and Industrials were among the worst performers. While the information sector continues to see some contraction, essential services like healthcare and logistics are propping up the S&P 500. The energy sector also saw strong upgrades in Q2 2026 EPS forecasts.",
+          "id": "economic-data-050926",
+          "headline": "April Jobs Report Exceeds Expectations",
+          "summary": "America's employers added a surprising 115,000 new jobs in April, surpassing forecasters' expectations of 65,000, despite economic pressures from the Iran war. The unemployment rate held steady at a low 4.3%. Average hourly earnings rose 0.2% month-on-month, below the 0.3% forecast, indicating a decelerating wage growth trend that may ease inflation concerns.",
+          "tags": [
+            "Economic Data",
+            "Jobs Report",
+            "Unemployment",
+            "Wages"
+          ]
+        },
+        {
+          "id": "sector-performance-050926",
+          "headline": "Technology and Semiconductors Lead Market Gains",
+          "summary": "The technology sector spearheaded market performance, with the S&P 500 technology index jumping 2.7%. The Philadelphia Semiconductor Index continued its strong run, extending its second-quarter gain to 55%, driven by robust demand for AI infrastructure. In contrast, the utilities sector experienced a decline of 0.9%.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Energy"
-          ],
-          "timestamp": "2026-05-08T17:00:00Z"
+            "Semiconductors",
+            "AI"
+          ]
         },
         {
-          "id": "economic-data-050826",
-          "headline": "Strong April Jobs Report, Mixed Consumer Sentiment",
-          "summary": "The U.S. labor market showed surprising resilience, adding 115,000 jobs in April, significantly exceeding the 65,000 forecast. The unemployment rate held steady at 4.3%, while wage growth moderated to an annual rate of 3.6%. However, preliminary consumer sentiment for May plummeted to a new record low of 48.2, largely attributed to surging national gas prices, currently averaging $4.54. Construction spending rose 0.6% in March, and Q1 2026 nonfarm productivity increased by 0.8%.",
+          "id": "earnings-season-050926",
+          "headline": "Q1 Earnings Season Surpasses Expectations",
+          "summary": "The first-quarter earnings season has significantly outperformed expectations, with 83% of reporting S&P 500 companies beating analysts' estimates. First-quarter S&P 500 earnings are projected to climb nearly 29% year-over-year, marking a sixth consecutive quarter of double-digit earnings growth. The magnitude of these beats averaged 12.3%, well above the five-year average.",
           "tags": [
-            "Economic Data",
-            "Employment",
-            "Consumer Sentiment"
-          ],
-          "timestamp": "2026-05-08T17:00:00Z"
+            "Earnings",
+            "Corporate Reports",
+            "S&P 500"
+          ]
         },
         {
-          "id": "geopolitical-update-050826",
-          "headline": "Geopolitical Tensions and Oil Prices Remain Key Market Factors",
-          "summary": "Geopolitical tensions surrounding the U.S.-Iran conflict and the Strait of Hormuz continue to influence market sentiment. While uncertainty persists, some hopes for a diplomatic resolution emerged, with President Trump noting the ceasefire agreement 'remains intact.' Oil prices were mixed, with West Texas Intermediate crude slightly down at $94.75 per barrel, and Brent crude up at $100.20 per barrel.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Sentiment"
-          ],
-          "timestamp": "2026-05-08T17:00:00Z"
-        },
-        {
-          "id": "earnings-season-050826",
-          "headline": "Earnings Season Continues Strong; Q2 EPS Forecasts Raised",
-          "summary": "The earnings season continues to show strength, with many S&P 500 companies reporting solid profits. Analysts have raised Q2 2026 EPS forecasts for S&P 500 companies by 2.1%, indicating broad-based growth expectations. Notable companies like JFrog ($FROG), Monster Beverage ($MNST), and MasterCraft Boat Holdings ($MCFT) beat earnings estimates, while others like Zoetis Inc. ($ZTS) and MercadoLibre ($MELI) missed expectations.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate Performance"
-          ],
-          "timestamp": "2026-05-08T17:00:00Z"
+          "id": "fed-outlook-050926",
+          "headline": "Federal Reserve Poised to Maintain Interest Rates",
+          "summary": "Investor sentiment suggests that the Federal Reserve is likely to keep interest rates unchanged through the end of 2026, with traders betting on the central bank holding rates in the 3.50% to 3.75% range. This outlook is supported by recent jobs data that, while strong, shows decelerating wage growth, easing immediate inflationary pressures."
         }
       ]
     }
