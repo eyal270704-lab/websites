@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-10T13:44:00.260834Z",
+  "generatedAt": "2026-05-10T17:04:03.770761Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 12,
+  "tradeCount": 14,
   "trades": [
     {
       "ticker": "$APP",
@@ -192,6 +192,38 @@
       "analysis": "Advanced Micro Devices is in a strong bullish uptrend, trading well above its 20-day and 150-day moving averages. Relative volume is elevated, indicating strong interest. The RSI is overbought at 84.045, suggesting potential for a short-term pullback to nearest support around $443.00 for an entry.",
       "riskScore": 6,
       "footerTag": "Momentum - Overbought",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$INTC",
+      "name": "Intel Corporation",
+      "sector": "Technology",
+      "currentPrice": "$124.92",
+      "entry": "$111.80",
+      "stop": "$105.00",
+      "structure": "Strong Uptrend, Overbought RSI",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Intel is currently in a strong uptrend and has seen a significant price surge, pushing its RSI into overbought territory. While in a bullish trend, the current price is extended, suggesting a high probability of a pullback. A hypothetical entry on a retracement to the $111.80 area (near the day's low/previous resistance turn support) with a stop below the $105.00 level (below 50-day MA) would be speculative. Given the overbought conditions, this is currently an 'avoid' for aggressive entry.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Overbought",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$215.20",
+      "entry": "$201.00",
+      "stop": "$188.00",
+      "structure": "Strong Uptrend, Near 52-week High",
+      "trend": "RVOL > 2.0",
+      "trendLabel": "RVOL",
+      "analysis": "NVIDIA is experiencing a strong uptrend, trading near its 52-week high with significantly elevated relative volume. Upcoming earnings on May 20, 2026, present a high-risk catalyst. Given the current extended price and imminent earnings, aggressive entry is not recommended. A hypothetical entry on a pullback to the 20-day EMA around $201.00 with a stop below the 50-day SMA at $188.00 would be highly speculative due to earnings.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
       "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
