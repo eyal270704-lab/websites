@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-10T08:51:00Z",
+  "generatedAt": "2026-05-10T12:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market Close: May 8, 2026, and Weekend Review",
-  "badge": "Updated",
+  "title": "Weekend Market Digest",
+  "subtitle": "May 10, 2026: Reflecting Friday's Close & Weekend Outlook",
+  "badge": "Updated May 10, 2026",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may8",
-          "headline": "AI Rally Propels S&P 500 and Nasdaq to New Records as Investors Shrug Off Geopolitical Tensions",
-          "summary": "U.S. equities closed Friday's trading session higher, with the S&P 500 and Nasdaq Composite reaching fresh record highs, fueled by strong investor interest in artificial intelligence (AI) related stocks. The market's resilience was noted despite escalating tensions in the Middle East and rising oil prices. Strong corporate earnings and robust April jobs data further contributed to a broadly positive sentiment.",
+          "id": "market-summary-1",
+          "headline": "Tech-Led Rally Pushes S&P 500 and Nasdaq to Record Highs, Breadth Concerns Persist",
+          "summary": "U.S. equity markets concluded the trading week on Friday, May 9, 2026, with both the S&P 500 and Nasdaq Composite achieving fresh all-time highs. This surge was primarily driven by continued investor optimism in technology and artificial intelligence sectors. However, the rally's concentration, with a small number of mega-cap tech stocks accounting for a significant portion of gains, raises concerns about overall market breadth. Persistent geopolitical tensions and evolving expectations for Federal Reserve policy, including an increased likelihood of a rate hike, are factors influencing market sentiment over the weekend.",
           "tags": [
-            "Market Overview",
-            "AI",
-            "Record Highs"
+            "Market Summary",
+            "AI Rally",
+            "Tech Stocks"
           ]
         }
       ]
@@ -31,212 +31,157 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,398.93",
-          "statContext": "+0.84% on May 8, 2026 (Record High)"
+          "statContext": "+0.80% (+61.82 points) on Friday, May 9, 2026."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,247.08",
-          "statContext": "+1.71% on May 8, 2026 (Record High)"
+          "statValue": "26,247.00",
+          "statContext": "+1.71% (+441.74 points) on Friday, May 9, 2026."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,609.16",
-          "statContext": "+0.02% on May 8, 2026"
-        },
-        {
-          "id": "market-status",
-          "statLabel": "Market Status",
-          "statValue": "Closed",
-          "statContext": "U.S. Markets are closed for the weekend (May 10-11, 2026)."
+          "statValue": "49,609.00",
+          "statContext": "+0.02% (+12 points) on Friday, May 9, 2026."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (May 8, 2026)",
+      "title": "Top Movers (Friday, May 9, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "tsla-gainer",
+          "headline": "Tesla Surges on Market Optimism",
+          "ticker": "$TSLA",
+          "price": "$427.99",
+          "change": "+$16.20",
+          "changePercent": "+3.9%",
+          "direction": "up",
+          "summary": "Tesla saw significant gains amidst broader market optimism."
+        },
+        {
           "id": "nvda-gainer",
-          "headline": "Nvidia Leads Chip Stocks",
+          "headline": "Nvidia Continues AI-Driven Ascent",
           "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.8%",
+          "price": "$215.16",
+          "change": "+$3.66",
+          "changePercent": "+1.7%",
           "direction": "up",
-          "summary": "Chip giant Nvidia saw gains, contributing to the broader rally in AI-linked stocks."
+          "summary": "Nvidia maintained its upward momentum, reflecting strong sentiment around artificial intelligence and semiconductor demand."
         },
         {
-          "id": "mu-gainer",
-          "headline": "Memory Firms Surge on AI Demand",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "> +15%",
+          "id": "amzn-gainer",
+          "headline": "Amazon Posts Modest Gains",
+          "ticker": "$AMZN",
+          "price": "$272.66",
+          "change": "+$1.49",
+          "changePercent": "+0.5%",
           "direction": "up",
-          "summary": "Micron Technology surged over 15% amid optimism for booming demand tied to AI data center expansion."
+          "summary": "Amazon recorded gains, contributing to the tech sector's strong performance."
         },
         {
-          "id": "sndk-gainer",
-          "headline": "Sandisk Rises on AI Optimism",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "> +15%",
+          "id": "goog-gainer",
+          "headline": "Alphabet Edges Higher",
+          "ticker": "$GOOG",
+          "price": "$396.94",
+          "change": "+$1.64",
+          "changePercent": "+0.4%",
           "direction": "up",
-          "summary": "Sandisk also experienced a significant jump of over 15% due to strong demand in AI data center expansion."
+          "summary": "Alphabet shares closed higher as the tech sector led market advances."
         },
         {
-          "id": "csco-gainer",
-          "headline": "Cisco Systems Advances",
-          "ticker": "$CSCO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.77%",
-          "direction": "up",
-          "summary": "Cisco Systems was among the top performers on the Dow Jones, indicating strength in networking."
-        },
-        {
-          "id": "clfl-loser",
-          "headline": "Cloudflare Tumbles on Weak Guidance",
-          "ticker": "$NET",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-24%",
+          "id": "meta-loser",
+          "headline": "Meta Faces Headwinds",
+          "ticker": "$META",
+          "price": "$609.53",
+          "change": "-$7.28",
+          "changePercent": "-1.2%",
           "direction": "down",
-          "summary": "Cloudflare shares declined sharply following job cuts and weaker-than-expected revenue guidance."
+          "summary": "Meta Platforms experienced a slight decline."
         },
         {
-          "id": "tdsk-loser",
-          "headline": "Trade Desk Falls on Revenue Forecast",
-          "ticker": "$TTD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.8%",
+          "id": "msft-loser",
+          "headline": "Microsoft Dips Amid Tech Volatility",
+          "ticker": "$MSFT",
+          "price": "$415.17",
+          "change": "-$5.60",
+          "changePercent": "-1.3%",
           "direction": "down",
-          "summary": "The Trade Desk saw a drop after providing soft revenue forecasts."
-        },
-        {
-          "id": "crm-loser",
-          "headline": "Salesforce Declines",
-          "ticker": "$CRM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.02%",
-          "direction": "down",
-          "summary": "Salesforce was one of the biggest decliners on Friday, reflecting broader pressures on software stocks."
-        },
-        {
-          "id": "mcd-loser",
-          "headline": "McDonald's Sees Dip",
-          "ticker": "$MCD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.80%",
-          "direction": "down",
-          "summary": "McDonald's experienced a notable decline on Friday."
+          "summary": "Microsoft shares pulled back slightly."
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-leads",
-          "headline": "Technology Sector Continues to Lead Rally, Semiconductors Outperform",
-          "summary": "The Technology sector, particularly semiconductors, remained the primary driver of market gains, with the S&P 500 technology index jumping 2.7%. This extends a strong rotation into technology since late March. The Philadelphia Semiconductor Index surged, extending its second-quarter gain to 55%.",
+          "id": "news-1",
+          "headline": "Semiconductor Sector Drives Rally, AI Infrastructure in Focus",
+          "summary": "The semiconductor and semiconductor-equipment sectors were major contributors to the S&P 500's market-cap increase, with AI infrastructure identified as a key theme driving gains. This highlights the concentrated nature of the current market rally.",
           "tags": [
-            "Technology",
-            "Semiconductors",
-            "Sector Rotation"
+            "Sector Analysis",
+            "AI",
+            "Semiconductors"
           ]
         },
         {
-          "id": "energy-lags",
-          "headline": "Energy Sector Becomes Laggard Despite Oil Price Rises",
-          "summary": "While Energy was a year-to-date leader, it shifted to a laggard status over the past month. Utilities also slipped 0.9% on Friday.",
+          "id": "news-2",
+          "headline": "Strong April Jobs Report Supports Economic Resilience",
+          "summary": "U.S. nonfarm payrolls increased by 115,000 in April, surpassing forecasts, and the unemployment rate held steady at 4.3%. This stronger-than-expected labor data signals a gaining momentum in the job market, which could influence future Federal Reserve decisions.",
           "tags": [
-            "Energy",
-            "Utilities",
-            "Lagging Sectors"
+            "Economic Data",
+            "Jobs Report",
+            "Fed Policy"
           ]
         },
         {
-          "id": "software-underperforms",
-          "headline": "Large-Cap Software Stocks Under Pressure Amid AI Fears",
-          "summary": "Major software stocks such as Salesforce, Intuit, Adobe, Workday, and ServiceNow have seen significant declines over the past year, as fears grow that artificial intelligence could impact demand for traditional software solutions. This contrasts with the strong performance of small-cap tech.",
-          "tags": [
-            "Software",
-            "AI Impact",
-            "Tech Subsectors"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "fed-rates-jobs",
-          "headline": "Strong April Jobs Data Bolsters Expectations for Stable Fed Rates, But Hike Odds Rise",
-          "summary": "Stronger-than-expected April jobs data, with nonfarm payrolls increasing by 115,000, reinforced expectations that the Federal Reserve will likely maintain interest rates through year-end. However, futures traders are increasingly pricing in a potential Fed rate hike this year, with inflation currently at 3.3%. The Consumer Price Index (CPI) for April is due on May 12th.",
+          "id": "news-3",
+          "headline": "Fed Rate Hike Odds Increase, New Chair Nomination Looms",
+          "summary": "Futures traders are now assigning a higher probability to a Federal Reserve rate hike by year-end 2026, a notable shift from earlier expectations of cuts. This comes as President Donald Trump's nomination of Kevin Warsh to succeed Jerome Powell as Fed Chair, effective May 15, introduces potential changes to monetary policy.",
           "tags": [
             "Federal Reserve",
-            "Jobs Report",
             "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "news-4",
+          "headline": "Geopolitical Tensions and Oil Prices Continue to Impact Sentiment",
+          "summary": "Renewed clashes between the U.S. and Iran in the Strait of Hormuz, despite a maintained ceasefire, have led to volatility in oil prices. While oil prices eased from earlier highs, the ongoing geopolitical situation and its impact on fuel and commodity prices are contributing to inflation concerns and affecting overall market confidence.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         },
         {
-          "id": "q1-earnings-strong",
-          "headline": "Q1 Earnings Season Shows Strong Performance for S&P 500 Companies",
-          "summary": "First-quarter earnings have largely supported equities, with 83% of the 440 S&P 500 companies reporting so far beating analysts' expectations. Leading the charge are AI-heavyweights and hyperscalers, reaffirming strong AI capital expenditure cycles.",
+          "id": "news-5",
+          "headline": "Consumer Sentiment Reflects Persistent Price Concerns",
+          "summary": "Consumer sentiment remained largely unchanged, with a notable increase in concerns over high prices impacting personal finances and major purchases. This indicates that inflationary pressures continue to weigh on consumer outlook.",
           "tags": [
-            "Earnings Season",
-            "Corporate Earnings",
-            "AI Capex"
+            "Economic Data",
+            "Consumer Sentiment",
+            "Inflation"
           ]
         },
         {
-          "id": "middle-east-tensions",
-          "headline": "Middle East Tensions Continue to Affect Global Energy Markets",
-          "summary": "Renewed attacks involving U.S. and Iranian forces in the Gulf have kept Brent crude prices above US$100 per barrel amidst concerns over disruptions to oil flows through the Strait of Hormuz. Aramco announced strong Q1 2026 results, highlighting operational resilience in a complex geopolitical environment. The ongoing conflict is causing higher fuel costs and supply disruptions, particularly impacting economies in Asia.",
+          "id": "news-6",
+          "headline": "Value and Defensive Sectors Lag Amid Growth Stock Dominance",
+          "summary": "While technology and growth stocks have driven recent market highs, value and defensive sectors, along with commodities like oil, have generally lagged. This reflects a concentrated market environment where momentum and high-beta growth stocks are leading.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Energy Security",
-            "Global Economy"
-          ]
-        },
-        {
-          "id": "upcoming-earnings-may12",
-          "headline": "Key Earnings Reports Expected on Monday, May 12, 2026",
-          "summary": "Investors will be watching several companies reporting earnings on Monday, May 12th, including Talkspace ($TALK) and T1 Energy ($TE), which are scheduled to release Q1 2026 results. Cisco Systems ($CSCO) is set to report its fiscal third-quarter earnings after Wednesday's close.",
-          "tags": [
-            "Earnings Calendar",
-            "Upcoming Reports"
-          ]
-        },
-        {
-          "id": "trump-xi-summit",
-          "headline": "Trump-Xi Summit Looms Amidst Trade and Geopolitical Challenges",
-          "summary": "President Donald Trump is scheduled to visit Beijing for a highly anticipated summit with Chinese leader Xi Jinping next week. The discussions are expected to focus on extending the current trade truce, preserving access to U.S. technology, and addressing broader economic challenges, including a global oil shock and high compute demand.",
-          "tags": [
-            "Geopolitics",
-            "Trade Relations",
-            "US-China"
+            "Sector Analysis",
+            "Growth Stocks",
+            "Value Stocks"
           ]
         }
       ]
