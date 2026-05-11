@@ -1,158 +1,172 @@
 {
-  "generatedAt": "2026-05-11T10:37:00Z",
+  "generatedAt": "2026-05-11T14:26:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 11, 2026",
-  "subtitle": "Market sentiment cautiously bullish amid geopolitical tensions; major indices see record highs but face inflation concerns.",
+  "title": "Daily Market Digest: Geopolitical Tensions Weigh on Indices Amid Mixed Earnings",
+  "subtitle": "May 11, 2026 Market Close",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "US Futures Edge Lower as Geopolitical Tensions Reignite Oil Price Fears",
-          "summary": "Monday, May 11, 2026, sees U.S. stock futures open cautiously, with oil prices surging over 4% after President Trump rejected Iran's latest peace proposal, amplifying concerns over prolonged disruption in the Strait of Hormuz and global energy supplies. This follows a week where major indices reached new record highs.",
+          "id": "market-summary-1",
+          "headline": "U.S. Stocks Edge Lower as Mideast Tensions Persist; Oil Prices Climb",
+          "summary": "U.S. equities saw a cautious start to the week, with major indices generally slipping as investors reacted to ongoing geopolitical developments between the U.S. and Iran, which fueled a rise in oil prices. Despite record highs for the S&P 500 and Nasdaq Composite at Friday's close, Monday's trading reflected a pullback.",
           "tags": [
+            "Market Overview",
             "Geopolitics",
-            "Oil Prices",
-            "Market Sentiment"
-          ],
-          "timestamp": "2026-05-11T10:30:00Z"
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
-      "title": "Major Indices Performance (as of Friday, May 8, 2026)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,398.93",
-          "statContext": "+0.8% (New Record High)"
+          "statValue": "-0.12%",
+          "statContext": "Slipped on Monday."
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,247.08",
-          "statContext": "+1.7% (New Record High)"
+          "statValue": "-0.34%",
+          "statContext": "Declined amidst broader market caution."
         },
         {
-          "id": "dow-stat",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,609.16",
-          "statContext": "+0.02%"
+          "statValue": "Flat",
+          "statContext": "Remained unchanged."
+        },
+        {
+          "id": "russell2000-performance",
+          "statLabel": "Russell 2000",
+          "statValue": "+0.76%",
+          "statContext": "Small-cap index showed strength."
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers (May 11, 2026, & Recent)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "mrna-gainer",
+          "headline": "Moderna Soars on Vaccine News",
+          "ticker": "$MRNA",
+          "price": "$135.00",
+          "change": "+$9.45",
+          "changePercent": "+7.5%",
+          "direction": "up",
+          "summary": "Shares of Moderna spiked after the biotech company announced it was already developing a hantavirus vaccine."
+        },
+        {
+          "id": "intc-gainer",
+          "headline": "Intel Jumps on Apple Chip Deal Report",
+          "ticker": "$INTC",
+          "price": "$55.70",
+          "change": "+$3.00",
+          "changePercent": "+5.7%",
+          "direction": "up",
+          "summary": "Intel gained following reports of a preliminary agreement with Apple to manufacture some of its device chips."
+        },
+        {
           "id": "lite-gainer",
-          "headline": "Lumentum Holdings ($LITE) Surges on Nasdaq-100 Inclusion",
+          "headline": "Lumentum Added to Nasdaq Index",
           "ticker": "$LITE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.0%",
+          "price": "$63.00",
+          "change": "+$3.00",
+          "changePercent": "+5.0%",
           "direction": "up",
-          "summary": "Shares of Lumentum Holdings rose on Monday after Nasdaq Global Indexes announced the company would join the Nasdaq-100 Index."
+          "summary": "Lumentum climbed after Nasdaq announced its addition to the index."
         },
         {
-          "id": "csco-gainer",
-          "headline": "Cisco Systems ($CSCO) Continues Strong Performance",
-          "ticker": "$CSCO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.8%",
-          "direction": "up",
-          "summary": "Cisco Systems Inc. was a major gainer in the Dow Jones Industrial Average on Friday, May 8, surging 4.8%."
-        },
-        {
-          "id": "docn-gainer",
-          "headline": "DigitalOcean ($DOCN) Driven by AI Services Growth",
-          "ticker": "$DOCN",
-          "price": "$164.00",
-          "change": "N/A",
-          "changePercent": "+9.44%",
-          "direction": "up",
-          "summary": "DigitalOcean's aggressive expansion into AI services has led to a significant year-to-date increase, with shares up 9.44% on Monday and 240% in 2026."
-        },
-        {
-          "id": "wen-loser",
-          "headline": "Wendy's Company ($WEN) Drops on Downgrade",
-          "ticker": "$WEN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.0%",
+          "id": "ggg-loser",
+          "headline": "W.W. Grainger Slides on Profit-Taking",
+          "ticker": "$GGG",
+          "price": "$600.00",
+          "change": "-$130.40",
+          "changePercent": "-18.0%",
           "direction": "down",
-          "summary": "The Wendy's Company shares fell on Monday after JPMorgan Chase & Co. downgraded the stock to Underweight, citing continued sales declines."
+          "summary": "Industrial supply company W.W. Grainger saw a significant decline as traders appeared to lock in recent gains after the stock hit record highs last week."
         },
         {
-          "id": "xle-loser",
-          "headline": "Energy Sector ($XLE) Underperforms",
-          "ticker": "$XLE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.8%",
+          "id": "vtr-loser",
+          "headline": "Ventas Falls After Price Target Cut",
+          "ticker": "$VTR",
+          "price": "$90.00",
+          "change": "-$4.50",
+          "changePercent": "-5.0%",
           "direction": "down",
-          "summary": "The Energy Select Sector SPDR fell 1.8% on Friday, May 8, as nine out of 11 S&P 500 sectors ended in negative territory."
+          "summary": "Ventas shares fell following a price target cut by JPMorgan."
+        },
+        {
+          "id": "pltr-loser",
+          "headline": "Palantir Drops Amid Valuation Concerns",
+          "ticker": "$PLTR",
+          "price": "$134.25",
+          "change": "-$3.55",
+          "changePercent": "-2.57%",
+          "direction": "down",
+          "summary": "Palantir Technologies experienced a premarket dip due to valuation concerns and profit-taking, despite reporting strong Q1 earnings on May 5."
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-fed-chair",
-          "headline": "Kevin Warsh Expected to be Confirmed as Next Fed Chair This Week",
-          "summary": "Jerome Powell's term as Federal Reserve Chair concludes this Friday, May 15, with Kevin Warsh anticipated to be confirmed as his successor by the US Senate this week. Warsh is perceived as more open to rate cuts, though a reduction is deemed unlikely without substantially softer inflation data. Goldman Sachs has delayed its forecast for Fed rate cuts to December 2026 and March 2027, citing persistent high energy prices and inflation.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "news-cpi",
-          "headline": "April CPI Release Set to Be This Week's Major Economic Catalyst",
-          "summary": "Investors are keenly awaiting the release of April's Consumer Price Index (CPI) on Tuesday, May 12, at 8:30 AM ET, which is considered the single biggest market catalyst for the week. Consensus estimates project headline CPI to rise 0.6% month-over-month and 3.7% year-over-year, with core CPI expected at 0.3% MoM and 2.7% YoY. The University of Michigan's preliminary Consumer Sentiment Index for May registered 48.2%, falling below expectations and marking the lowest reading since June 2022.",
+          "id": "economic-outlook-1",
+          "headline": "Inflation Data, Fed Transition Eyed This Week",
+          "summary": "Investors are closely watching for key economic data releases this week, including April's Consumer Price Index (CPI) and Producer Price Index (PPI) reports, which are expected to show inflation pushing above 3.5% year-over-year. The end of Jerome Powell's term as Fed Chair on Friday, with Kevin Warsh expected to be confirmed as his successor, also remains a focal point.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "CPI"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "news-sector-rotation",
-          "headline": "Semiconductors, Energy, Defense, and Industrials Lead in 2026; REITs, Discretionary, and Utilities Lag",
-          "summary": "Year-to-date, sectors such as semiconductors, energy, defense, and industrials have demonstrated strong leadership in the S&P 500, with companies like Nvidia ($NVDA), Broadcom ($AVGO), Exxon Mobil ($XOM), Lockheed Martin ($LMT), and Caterpillar ($CAT) driving performance. Conversely, commercial REITs, consumer discretionary, and utilities have been lagging, often attributed to rate sensitivity and slower growth prospects. On Friday, nine of eleven S&P 500 sectors closed lower, including Energy, Industrials, Materials, and Utilities.",
+          "id": "earnings-update-1",
+          "headline": "Q1 Earnings Season Winds Down with Strong Growth",
+          "summary": "The first-quarter 2026 earnings season is nearing its conclusion, with S&P 500 companies showing robust performance. Analysts' consensus forecasts indicate an aggregate EPS growth of 18.0% year-over-year for Q1, with full-year estimates implying 24.0% growth for 2026. This week, major companies like Cisco ($CSCO), Alibaba ($BABA), and Applied Materials ($AMAT) are scheduled to report.",
+          "tags": [
+            "Earnings Season",
+            "Corporate Earnings"
+          ]
+        },
+        {
+          "id": "sector-rotation-1",
+          "headline": "Technology Maintains Momentum, Energy Bolstered by Oil Prices",
+          "summary": "While the broader market faced headwinds, the technology sector continued to show resilience, supported by strong earnings outlooks and ongoing demand for AI infrastructure. Conversely, rising oil prices, driven by the U.S.-Iran conflict, provided a boost to the energy sector, which remains a strong performer in 2026.",
           "tags": [
             "Sector Analysis",
-            "Market Trends",
+            "Technology",
+            "Energy",
             "AI"
           ]
         },
         {
-          "id": "news-earnings",
-          "headline": "Key Earnings Reports from Cisco, Alibaba, and Applied Materials Expected This Week",
-          "summary": "Major companies reporting earnings this week include Cisco ($CSCO), Alibaba ($BABA), and Applied Materials ($AMAT). Cisco's stock surged 4.8% on Friday, May 8. Alibaba's earnings on Wednesday, May 13, are closely watched amid cautious expectations, while Applied Materials reports Thursday, May 14. Icon ($ICLR) also reported its Q1 2026 earnings today after market close.",
+          "id": "consumer-sentiment",
+          "headline": "Consumer Sentiment Dips to Lowest Since June 2022",
+          "summary": "The University of Michigan reported that its preliminary index for consumer sentiment in May came in at 48.2%, marking the lowest reading since June 2022 and falling below consensus estimates.",
           "tags": [
-            "Earnings Reports",
-            "Corporate News",
-            "Tech"
+            "Economic Data",
+            "Consumer Confidence"
           ]
         }
       ]
