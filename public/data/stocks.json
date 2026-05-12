@@ -1,186 +1,198 @@
 {
-  "generatedAt": "2026-05-11T17:57:00Z",
+  "generatedAt": "2026-05-12T13:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Monday, May 11, 2026",
+  "subtitle": "Tuesday, May 12, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Inflation Concerns Weigh on Wall Street",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "AI-Driven Optimism Tempered by Geopolitical Concerns as Major Indices Show Mixed Performance",
-          "summary": "U.S. stock markets are exhibiting mixed performance today, with AI and chipmaker stocks continuing their rally, largely offsetting concerns about rising oil prices and geopolitical tensions between the U.S. and Iran. While the S&P 500 and Nasdaq Composite edged higher, the Dow Jones Industrial Average remained largely flat. Investors are balancing strong Q1 2026 earnings and AI momentum against inflationary pressures and global uncertainties.",
+          "id": "market-summary-may12",
+          "headline": "Major Indices Dip as Hotter-than-Expected CPI Fuels Inflation Fears",
+          "summary": "U.S. equities are showing a downturn today, May 12, with the S&P 500, Nasdaq, and Dow Jones Industrial Average all trading lower. A hotter-than-expected Consumer Price Index (CPI) report for April, coupled with persistent geopolitical tensions surrounding the Iran war and rising oil prices, is dampening market sentiment. While some AI-related stocks continued to show resilience, broader market performance reflects concerns over inflation and potential shifts in monetary policy.",
           "tags": [
-            "Market Summary",
-            "AI Rally",
-            "Oil Prices"
+            "Inflation",
+            "CPI",
+            "Oil Prices",
+            "Geopolitics"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-perf",
           "statLabel": "S&P 500",
-          "statValue": "7,424.04",
-          "statContext": "Up 0.34% midday. Closed Friday at 7,398.93, up 0.8%. Weekly gain of 2.3%.",
-          "change": "+0.34%",
-          "direction": "up"
+          "statValue": "Down 0.5%",
+          "statContext": "Dipped 38 points amid inflation concerns."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,346.51",
-          "statContext": "Up 0.38% midday. Closed Friday at 26,247.08, up 1.7%. Weekly gain of 4.5%.",
-          "change": "+0.38%",
-          "direction": "up"
+          "id": "nasdaq-perf",
+          "statLabel": "NASDAQ",
+          "statValue": "Down 0.92%",
+          "statContext": "Fell 270 points, with technology stocks experiencing pullbacks."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,604.50",
-          "statContext": "Down 0.01% midday. Closed Friday at 49,609.16, up 0.02%. Weekly gain of 0.2%.",
-          "change": "-0.01%",
-          "direction": "down"
+          "id": "dow-perf",
+          "statLabel": "DOW",
+          "statValue": "Down 0.11%",
+          "statContext": "Lower by 50 points."
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Down 0.4%",
+          "statContext": "Slipped before the opening bell."
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "Down 0.9%",
+          "statContext": "Slipped ahead of market open."
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "DOW Futures",
+          "statValue": "Down 0.1%",
+          "statContext": "Fell prior to market opening."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers: Notable Gainers and Losers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "odys-gainer",
-          "ticker": "$ODYS",
-          "price": "$9.28",
-          "change": "+$4.84",
-          "changePercent": "+108.04%",
-          "direction": "up",
-          "headline": "Odysight.ai Surges on U.S. Navy Collaboration",
-          "summary": "Odysight.ai Inc. saw a significant pre-market surge after signing a Cooperative Research and Development Agreement (CRADA) with the U.S. Navy to advance AI-driven visual sensing."
+          "id": "zbra-gainer",
+          "headline": "Zebra Technologies Soars on Earnings Beat",
+          "summary": "Zebra Technologies ($ZBRA) surged 15.4% in pre-market trading after the asset-tracking technology company reported stronger-than-expected quarterly earnings.",
+          "ticker": "$ZBRA",
+          "price": "N/A",
+          "change": "+28.79",
+          "changePercent": "+13.27%",
+          "direction": "up"
         },
         {
-          "id": "qcom-gainer",
-          "ticker": "$QCOM",
+          "id": "amtm-gainer",
+          "headline": "Amentum Holdings Rises on Strong Earnings",
+          "summary": "Amentum Holdings ($AMTM) gained 3.4% in pre-market trading after surpassing quarterly earnings estimates.",
+          "ticker": "$AMTM",
+          "price": "N/A",
+          "change": "+1.21",
+          "changePercent": "+10.41%",
+          "direction": "up"
+        },
+        {
+          "id": "nvda-gainer-context",
+          "headline": "NVIDIA Continues Upward Momentum on AI Demand",
+          "summary": "NVIDIA ($NVDA) rose 2% (May 11 data), with analysts reiterating 'overweight' ratings and raising price targets ahead of its May 20 earnings, driven by sustained AI infrastructure demand.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.3%",
-          "direction": "up",
-          "headline": "Qualcomm Rises on Analyst Upgrade and AI Demand",
-          "summary": "Qualcomm Inc. surged in early trading, boosted by an analyst upgrade and increasing demand for its chips in the artificial intelligence sector."
+          "changePercent": "+2.00%",
+          "direction": "up"
         },
         {
-          "id": "csco-gainer",
-          "ticker": "$CSCO",
+          "id": "intc-loser",
+          "headline": "Intel Dips Amid Profit-Taking",
+          "summary": "Intel ($INTC) was down 4.3% in pre-market trading, largely attributed to profit-taking following previous gains.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.8%",
-          "direction": "up",
-          "headline": "Cisco Systems Leads Dow Gainers",
-          "summary": "Cisco Systems Inc. was a major gainer in the Dow Jones Industrial Average, with its stock price surging 4.8%."
+          "changePercent": "-4.3%",
+          "direction": "down"
         },
         {
-          "id": "ttd-loser",
-          "ticker": "$TTD",
+          "id": "dva-loser",
+          "headline": "DaVita Slips on Profit-Taking",
+          "summary": "Shares of DaVita ($DVA) slipped 4% in pre-market, with analysts citing profit-taking after a significant rally.",
+          "ticker": "$DVA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.0%",
-          "direction": "down",
-          "headline": "The Trade Desk Drops on Missed Earnings",
-          "summary": "The Trade Desk Inc. experienced a decline after missing Wall Street's earnings expectations and issuing weaker-than-expected second-quarter guidance."
+          "changePercent": "-4.0%",
+          "direction": "down"
         },
         {
-          "id": "dg-loser",
-          "ticker": "$DG",
+          "id": "pltr-loser",
+          "headline": "Palantir Down in Premarket Trading",
+          "summary": "Palantir Technologies ($PLTR) shares were down 1.3% in pre-market, despite news of its collaboration with Ukraine on AI-based drone defense.",
+          "ticker": "$PLTR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.8%",
-          "direction": "down",
-          "headline": "Dollar General Slips on Soft Outlook",
-          "summary": "Dollar General Corp. saw its shares slip following soft fiscal 2026 guidance and investor uncertainty amid a leadership transition announcement."
-        },
-        {
-          "id": "sdot-loser",
-          "ticker": "$SDOT",
-          "price": "$0.49",
-          "change": "-$0.48",
-          "changePercent": "-49.74%",
-          "direction": "down",
-          "headline": "Sadot Group Inc. Experiences Significant Decline",
-          "summary": "Sadot Group Inc. was among the top losers today, with its stock price falling nearly 50%."
+          "changePercent": "-1.3%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News: Economic Data, Geopolitics, and Earnings",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Technology and AI Lead While Energy and Materials Face Headwinds",
-          "summary": "The technology sector, particularly AI and semiconductors, continues to lead market performance, supported by strong earnings and investor enthusiasm. Conversely, sectors like Energy, Industrials, Materials, and Utilities saw declines at Friday's close. Healthcare is also experiencing an earnings decline.",
+          "id": "cpi-report-impact",
+          "headline": "April CPI Exceeds Expectations, Fueling Inflation Worries",
+          "summary": "The Consumer Price Index (CPI) for April came in hotter than anticipated, rising 3.8% annually, with core CPI increasing 0.4% monthly and 2.8% annually. This indicates inflation remains stubbornly above the Federal Reserve's 2% target, prompting investor concern.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "AI",
-            "Energy",
-            "Healthcare"
+            "Inflation",
+            "CPI",
+            "Economic Data"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Consumer Sentiment Wanes as Key Inflation Data Awaits",
-          "summary": "The University of Michigan's preliminary consumer sentiment index for May came in lower than expected at 48.2%, marking its lowest reading since June 2022. This week, investors anticipate crucial economic data releases, including the April Consumer Price Index (CPI) on Tuesday, the Producer Price Index (PPI) on Wednesday, and retail sales on Thursday.",
+          "id": "fed-chair-transition",
+          "headline": "Kevin Warsh Poised to Become New Fed Chair This Week",
+          "summary": "Kevin Warsh's nomination for Federal Reserve Chair cleared a key Senate hurdle and he is expected to succeed Jerome Powell by Friday, May 16. Warsh is viewed as more hawkish and inflation-focused, which could influence future monetary policy.",
           "tags": [
-            "Economic Data",
-            "Consumer Sentiment",
+            "Federal Reserve",
+            "Monetary Policy",
+            "Leadership Change"
+          ]
+        },
+        {
+          "id": "iran-war-oil",
+          "headline": "Iran War Escalation Drives Oil Prices Higher, Stoking Inflation",
+          "summary": "Uncertainty surrounding the Iran war continues to push oil prices upwards, with Brent crude trading above $101-$107 per barrel. President Trump's rejection of Iran's peace proposal has raised fears of a prolonged conflict and disruptions to global oil supply, contributing significantly to inflationary pressures.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Federal Reserve Leadership Transition Signals Potential Policy Shift",
-          "summary": "Kevin Warsh is expected to be confirmed as the next Federal Reserve Chair, with current Chair Jerome Powell remaining as a governor. This transition suggests a reduced likelihood of interest rate cuts and a higher probability of a rate hike before year-end, according to market expectations.",
+          "id": "q1-earnings-season",
+          "headline": "Q1 Earnings Season Nears End with Strong Tech Performance",
+          "summary": "The Q1 2026 earnings season is in its final 'peak week,' with the S&P 500 projected to deliver a robust 27.7% earnings growth, largely propelled by a 50% expansion in the Information Technology sector. Approximately 84% of reporting S&P 500 companies have beaten EPS estimates.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Interest Rates"
+            "Earnings",
+            "Corporate Profits",
+            "Technology Sector"
           ]
         },
         {
-          "id": "earnings-season",
-          "headline": "Q1 Earnings Season Strong, Constellation Energy and Liquidia Report Positive Results",
-          "summary": "The Q1 2026 earnings season has been robust, with 89% of reporting firms showing a 25% increase in earnings year-over-year on 10% revenue growth. Today, Constellation Energy Corporation ($CEG) reported strong Q1 results with a GAAP Net Income of $4.49 per share, affirming its full-year guidance. Liquidia Corporation ($LQDA) also reported its third consecutive quarter of profitability, with a net income of $52.9 million.",
+          "id": "sector-performance",
+          "headline": "Energy and Materials Lead, Technology and Communication Services Lag",
+          "summary": "Today's market saw the Energy Select Sector SPDR ($XLE) advance 2.6%, and Materials Select Sector SPDR ($XLB) rise 1.4%, benefiting from higher commodity prices. Conversely, the Communication Services Select Sector SPDR ($XLC) declined 2.3%, and the Technology Select Sector SPDR ($XLK) fell 1.11%, indicating some profit-taking and rotation out of growth sectors.",
           "tags": [
-            "Earnings Season",
-            "Corporate Earnings",
-            "$CEG",
-            "$LQDA"
-          ]
-        },
-        {
-          "id": "geopolitical-impact",
-          "headline": "Oil Prices Jump Amid U.S.-Iran Tensions",
-          "summary": "Oil prices surged, with WTI crude trading at $98 a barrel midday, due to global oil supply disruption concerns and stalled U.S.-Iran negotiations over the Strait of Hormuz. This geopolitical uncertainty continues to temper overall market optimism.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Risk"
+            "Sector Analysis",
+            "Energy",
+            "Materials",
+            "Technology",
+            "Communication Services"
           ]
         }
       ]
