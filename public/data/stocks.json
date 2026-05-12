@@ -1,199 +1,189 @@
 {
-  "generatedAt": "2026-05-12T13:53:00Z",
+  "generatedAt": "2026-05-12T18:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, May 12, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market insights for May 12, 2026",
+  "badge": "Daily Digest",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Inflation Concerns Weigh on Wall Street",
+      "id": "market-pulse-summary",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may12",
-          "headline": "Major Indices Dip as Hotter-than-Expected CPI Fuels Inflation Fears",
-          "summary": "U.S. equities are showing a downturn today, May 12, with the S&P 500, Nasdaq, and Dow Jones Industrial Average all trading lower. A hotter-than-expected Consumer Price Index (CPI) report for April, coupled with persistent geopolitical tensions surrounding the Iran war and rising oil prices, is dampening market sentiment. While some AI-related stocks continued to show resilience, broader market performance reflects concerns over inflation and potential shifts in monetary policy.",
+          "id": "market-summary-item",
+          "headline": "Wall Street Retreats as Inflation Fears and Tech Selloff Weigh",
+          "summary": "U.S. stocks saw a broad retreat on Tuesday, with major indices closing lower as hotter-than-expected inflation data and rising oil prices fueled investor concerns. A notable selloff in artificial intelligence-linked technology shares further cooled the market's recent record-setting rally. Geopolitical tensions, particularly surrounding the prolonged Iran conflict, also contributed to a cautious sentiment among investors. Not financial advice.",
           "tags": [
+            "Market Summary",
             "Inflation",
-            "CPI",
-            "Oil Prices",
-            "Geopolitics"
-          ]
+            "Tech Selloff",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-05-12T18:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "Down 0.5%",
-          "statContext": "Dipped 38 points amid inflation concerns."
+          "statValue": "Closed: -0.6%",
+          "statContext": "Fell 0.6 percent amid inflation fears and tech selloff.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-perf",
-          "statLabel": "NASDAQ",
-          "statValue": "Down 0.92%",
-          "statContext": "Fell 270 points, with technology stocks experiencing pullbacks."
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "Closed: -0.9%",
+          "statContext": "Declined 0.9 percent, weighed down by AI-linked stocks.",
+          "direction": "down"
         },
         {
-          "id": "dow-perf",
-          "statLabel": "DOW",
-          "statValue": "Down 0.11%",
-          "statContext": "Lower by 50 points."
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Down 0.4%",
-          "statContext": "Slipped before the opening bell."
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "Down 0.9%",
-          "statContext": "Slipped ahead of market open."
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "DOW Futures",
-          "statValue": "Down 0.1%",
-          "statContext": "Fell prior to market opening."
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "Closed: -0.6%",
+          "statContext": "Dropped 288 points, or 0.6 percent.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: Notable Gainers and Losers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "zbra-gainer",
-          "headline": "Zebra Technologies Soars on Earnings Beat",
-          "summary": "Zebra Technologies ($ZBRA) surged 15.4% in pre-market trading after the asset-tracking technology company reported stronger-than-expected quarterly earnings.",
-          "ticker": "$ZBRA",
-          "price": "N/A",
-          "change": "+28.79",
-          "changePercent": "+13.27%",
-          "direction": "up"
-        },
-        {
-          "id": "amtm-gainer",
-          "headline": "Amentum Holdings Rises on Strong Earnings",
-          "summary": "Amentum Holdings ($AMTM) gained 3.4% in pre-market trading after surpassing quarterly earnings estimates.",
-          "ticker": "$AMTM",
-          "price": "N/A",
-          "change": "+1.21",
-          "changePercent": "+10.41%",
-          "direction": "up"
-        },
-        {
-          "id": "nvda-gainer-context",
-          "headline": "NVIDIA Continues Upward Momentum on AI Demand",
-          "summary": "NVIDIA ($NVDA) rose 2% (May 11 data), with analysts reiterating 'overweight' ratings and raising price targets ahead of its May 20 earnings, driven by sustained AI infrastructure demand.",
-          "ticker": "$NVDA",
+          "id": "qubt-gainer",
+          "headline": "Quantum Computing surges on strong Q1 results",
+          "ticker": "$QUBT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.00%",
-          "direction": "up"
+          "changePercent": "+18%",
+          "direction": "up",
+          "summary": "Shares jumped after reporting Q1 2026 results that featured a massive year-over-year revenue increase and a narrower-than-expected loss, driven by acquisitions of Luminar Semiconductors and NuCrypt."
+        },
+        {
+          "id": "se-gainer",
+          "headline": "Sea Limited gains on robust Q1 revenue growth",
+          "ticker": "$SE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11%",
+          "direction": "up",
+          "summary": "Shares advanced after delivering strong Q1 revenue growth that topped expectations, driven by robust momentum across its e-commerce and fintech businesses."
+        },
+        {
+          "id": "plug-gainer",
+          "headline": "Plug Power up after topping Q1 expectations",
+          "ticker": "$PLUG",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3%",
+          "direction": "up",
+          "summary": "Shares surged after reporting Q1 results that topped expectations, with top-line growth driven by strength in its material handling and electrolyzer businesses. Management reiterated its FY2026 outlook."
         },
         {
           "id": "intc-loser",
-          "headline": "Intel Dips Amid Profit-Taking",
-          "summary": "Intel ($INTC) was down 4.3% in pre-market trading, largely attributed to profit-taking following previous gains.",
+          "headline": "Intel falls amid AI-linked stock selloff",
           "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.3%",
-          "direction": "down"
+          "changePercent": "-4.7%",
+          "direction": "down",
+          "summary": "Intel Corporation shares fell as chipmakers and AI-focused companies led declines after a blistering rally earlier this year."
         },
         {
-          "id": "dva-loser",
-          "headline": "DaVita Slips on Profit-Taking",
-          "summary": "Shares of DaVita ($DVA) slipped 4% in pre-market, with analysts citing profit-taking after a significant rally.",
-          "ticker": "$DVA",
+          "id": "mu-loser",
+          "headline": "Micron Technology declines with broader tech weakness",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.0%",
-          "direction": "down"
+          "changePercent": "-4%",
+          "direction": "down",
+          "summary": "Micron Technology dropped as the technology sector experienced a selloff, particularly in AI-linked stocks."
         },
         {
-          "id": "pltr-loser",
-          "headline": "Palantir Down in Premarket Trading",
-          "summary": "Palantir Technologies ($PLTR) shares were down 1.3% in pre-market, despite news of its collaboration with Ukraine on AI-based drone defense.",
-          "ticker": "$PLTR",
-          "price": "N/A",
+          "id": "psix-loser",
+          "headline": "Power Solutions International plunges",
+          "ticker": "$PSIX",
+          "price": "$36.98",
           "change": "N/A",
-          "changePercent": "-1.3%",
-          "direction": "down"
+          "changePercent": "-40.78%",
+          "direction": "down",
+          "summary": "Power Solutions International, Inc. saw a significant decline today, marking it as one of the biggest percentage losers."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News: Economic Data, Geopolitics, and Earnings",
+      "id": "market-news-articles",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "cpi-report-impact",
-          "headline": "April CPI Exceeds Expectations, Fueling Inflation Worries",
-          "summary": "The Consumer Price Index (CPI) for April came in hotter than anticipated, rising 3.8% annually, with core CPI increasing 0.4% monthly and 2.8% annually. This indicates inflation remains stubbornly above the Federal Reserve's 2% target, prompting investor concern.",
+          "id": "cpi-report-news",
+          "headline": "April CPI Report Reveals Hotter-Than-Expected Inflation",
+          "summary": "The Consumer Price Index (CPI) for April 2026 showed a 0.6% increase month-over-month and a 3.8% rise year-over-year, exceeding expectations. Core CPI, excluding volatile food and energy, also increased by 0.4% month-over-month and 2.8% year-over-year, indicating inflation remains well above the Federal Reserve's 2% target. Energy prices, particularly gasoline, contributed significantly to the surge.",
           "tags": [
             "Inflation",
-            "CPI",
-            "Economic Data"
-          ]
+            "Economic Data",
+            "CPI"
+          ],
+          "timestamp": "2026-05-12T08:30:00Z"
         },
         {
-          "id": "fed-chair-transition",
-          "headline": "Kevin Warsh Poised to Become New Fed Chair This Week",
-          "summary": "Kevin Warsh's nomination for Federal Reserve Chair cleared a key Senate hurdle and he is expected to succeed Jerome Powell by Friday, May 16. Warsh is viewed as more hawkish and inflation-focused, which could influence future monetary policy.",
+          "id": "fed-leadership-news",
+          "headline": "Kevin Warsh Confirmed as Federal Reserve Governor",
+          "summary": "Kevin Warsh was confirmed as a Federal Reserve governor today and is expected to be confirmed as Fed Chair, succeeding Jerome Powell, as early as Wednesday. This leadership transition comes as the market assesses the Fed's future monetary policy in light of persistent inflation.",
           "tags": [
             "Federal Reserve",
             "Monetary Policy",
             "Leadership Change"
-          ]
-        },
-        {
-          "id": "iran-war-oil",
-          "headline": "Iran War Escalation Drives Oil Prices Higher, Stoking Inflation",
-          "summary": "Uncertainty surrounding the Iran war continues to push oil prices upwards, with Brent crude trading above $101-$107 per barrel. President Trump's rejection of Iran's peace proposal has raised fears of a prolonged conflict and disruptions to global oil supply, contributing significantly to inflationary pressures.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "q1-earnings-season",
-          "headline": "Q1 Earnings Season Nears End with Strong Tech Performance",
-          "summary": "The Q1 2026 earnings season is in its final 'peak week,' with the S&P 500 projected to deliver a robust 27.7% earnings growth, largely propelled by a 50% expansion in the Information Technology sector. Approximately 84% of reporting S&P 500 companies have beaten EPS estimates.",
-          "tags": [
-            "Earnings",
-            "Corporate Profits",
-            "Technology Sector"
-          ]
+          ],
+          "timestamp": "2026-05-12T13:08:00Z"
         },
         {
           "id": "sector-performance",
-          "headline": "Energy and Materials Lead, Technology and Communication Services Lag",
-          "summary": "Today's market saw the Energy Select Sector SPDR ($XLE) advance 2.6%, and Materials Select Sector SPDR ($XLB) rise 1.4%, benefiting from higher commodity prices. Conversely, the Communication Services Select Sector SPDR ($XLC) declined 2.3%, and the Technology Select Sector SPDR ($XLK) fell 1.11%, indicating some profit-taking and rotation out of growth sectors.",
+          "headline": "Technology Leads Market Downturn; Energy Sector Shows Resilience",
+          "summary": "The technology sector, particularly AI-linked stocks, led the market lower today. In contrast, the Energy Select Sector SPDR ($XLE) advanced 2.6% on Monday, with Materials ($XLB) and Industrials ($XLI) also showing gains, signaling potential sector rotation. Rising oil prices, influenced by Middle East tensions, benefited energy companies.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Materials",
             "Technology",
-            "Communication Services"
-          ]
+            "Energy",
+            "Market Trends"
+          ],
+          "timestamp": "2026-05-12T18:00:00Z"
+        },
+        {
+          "id": "earnings-zebra-tech",
+          "headline": "Zebra Technologies Reports Strong Q1 2026 Results",
+          "summary": "Zebra Technologies Corporation ($ZBRA) announced robust first-quarter 2026 results, with net sales increasing 14.3% year-over-year to $1,495 million. Non-GAAP diluted EPS saw a year-over-year increase to $4.75.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "ZBRA"
+          ],
+          "timestamp": "2026-05-12T00:00:00Z"
+        },
+        {
+          "id": "earnings-venture-global",
+          "headline": "Venture Global Delivers Strong Q1 2026 Performance",
+          "summary": "Venture Global, Inc. ($VG) reported strong Q1 2026 financial results, with revenue reaching $4.6 billion, a 59% increase from Q1 2025. Net income also rose by 23% to $488 million.",
+          "tags": [
+            "Earnings",
+            "Energy",
+            "VG"
+          ],
+          "timestamp": "2026-05-12T00:00:00Z"
         }
       ]
     }
