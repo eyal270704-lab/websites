@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-14T08:30:05.168093Z",
+  "generatedAt": "2026-05-14T21:20:06.633469Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 1,
+  "tradeCount": 4,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,6 +18,54 @@
       "footerTag": "Accumulation",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$235.74",
+      "entry": "$203.00",
+      "stop": "$188.00",
+      "structure": "Breakout from horizontal channel",
+      "trend": "> 200MA, RVOL > 1.0",
+      "trendLabel": "Trend, Volume",
+      "analysis": "Nvidia is in a strong uptrend, trading above all major moving averages with elevated relative volume and near its 52-week high. However, the stock is currently overbought with earnings confirmed within the next five days, presenting significant short-term risk for a swing trade.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$445.43",
+      "entry": "$390.00",
+      "stop": "$373.00",
+      "structure": "Breakout from falling trend channel",
+      "trend": "> 200MA, RVOL < 1.0",
+      "trendLabel": "Trend, Volume",
+      "analysis": "Tesla has broken out of a falling trend channel and is trading above its key moving averages. However, it appears overbought with below-average relative volume, suggesting a potential pullback to the 50-day moving average or prior support is needed before a safer swing entry.",
+      "riskScore": 7,
+      "footerTag": "Overbought - Low Volume",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$298.60",
+      "entry": "$275.00",
+      "stop": "$260.00",
+      "structure": "Breakout from rectangle formation",
+      "trend": "> 200MA, RVOL < 1.0",
+      "trendLabel": "Trend, Volume",
+      "analysis": "Apple is experiencing a strong uptrend, breaking out of a rectangle formation and trading above major moving averages. However, it is currently overbought with declining relative volume, indicating a potential for a short-term correction before an optimal entry at a deeper support level.",
+      "riskScore": 7,
+      "footerTag": "Overbought - Low Volume",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
