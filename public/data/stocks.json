@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-15T09:46:00Z",
+  "generatedAt": "2026-05-15T13:29:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 15, 2026 - Market Insights",
+  "subtitle": "Market Overview for May 15, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,196 +13,211 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Futures Slide Following Record Thursday, Inflation Concerns Weigh",
-          "summary": "U.S. stock futures are trending lower on Friday, May 15, 2026, as investors weigh persistent geopolitical tensions surrounding the Iran conflict, rising oil prices, and ongoing inflation concerns. This comes after all three major indices closed at or near record highs on Thursday, driven by strong corporate earnings, particularly in the tech sector. The incoming Federal Reserve Chair, Kevin Warsh, takes the helm today amid expectations of no rate cuts in 2026 due to elevated inflation.",
+          "id": "market-summary-001",
+          "headline": "US Futures Dip After Thursday's Record Highs Amid Inflation Concerns",
+          "summary": "U.S. stock futures are showing declines on Friday, May 15, following Thursday's record-setting performance across major indices. Investor sentiment is being weighed down by persistent inflation fears, escalating oil prices, and geopolitical uncertainties, despite continued strong performance from AI-driven technology stocks. The anticipated transition of the Federal Reserve chairmanship is also a key area of market focus today. Not financial advice.",
           "tags": [
             "Market Sentiment",
-            "Futures",
             "Inflation",
+            "Oil Prices",
             "Geopolitics"
           ],
-          "timestamp": "2026-05-15T09:46:00Z"
+          "timestamp": "2026-05-15T13:29:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Thursday's Close & Friday's Futures)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
-          "statLabel": "S&P 500 (Thu Close)",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "7,501.24",
-          "statContext": "+0.8% (+56.99 points), new all-time high"
+          "statContext": "Closed up 0.77% Thursday, futures down 1.09% Friday"
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones (Thu Close)",
-          "statValue": "50,063.46",
-          "statContext": "+0.7% (+370 points), above 50,000 for first time since Iran war began"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,635",
+          "statContext": "Closed up 0.88% Thursday, Nasdaq 100 futures down 1.54% Friday"
         },
         {
-          "id": "nasdaq-close",
-          "statLabel": "NASDAQ (Thu Close)",
-          "statValue": "26,635.22",
-          "statContext": "+0.9% (+232.88 points), new all-time high"
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures (Fri Pre-market)",
-          "statValue": "7,440.50",
-          "statContext": "-1.1%"
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures (Fri Pre-market)",
-          "statValue": "49,763.0",
-          "statContext": "-0.6%"
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures (Fri Pre-market)",
-          "statValue": "29,224.25",
-          "statContext": "-1.5%"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "50,063",
+          "statContext": "Closed up 0.75% Thursday, futures down 0.67% Friday"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Previous Trading Day - May 14, 2026)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "csco-gainer",
-          "headline": "Cisco Systems",
-          "summary": "Shares surged after reporting better-than-expected quarterly profit and revenue, leading a tech rally.",
+          "id": "figma-gainer",
+          "ticker": "$FIG",
+          "price": "N/A",
+          "change": "+10.92%",
+          "changePercent": "+10.92%",
+          "direction": "up",
+          "headline": "Figma Surges on Strong Q1 Results and AI Adoption",
+          "summary": "Shares of Figma (FIG) jumped over 10% in premarket trading after the company reported stronger-than-expected first-quarter results and raised its full-year sales guidance, largely attributed to broad seat expansion and growing adoption of its AI products.",
+          "tags": [
+            "Software",
+            "AI",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "cisco-gainer",
           "ticker": "$CSCO",
           "price": "N/A",
-          "change": "+N/A",
-          "changePercent": "+13.4%",
-          "direction": "up"
+          "change": "+$6.50",
+          "changePercent": "+13.41%",
+          "direction": "up",
+          "headline": "Cisco Systems Rallies on Robust Earnings and Restructuring",
+          "summary": "Cisco Systems (CSCO) saw a significant increase on Thursday following the release of stronger-than-expected quarterly results and an announcement of job cuts.",
+          "tags": [
+            "Technology",
+            "Networking",
+            "Earnings"
+          ]
         },
         {
-          "id": "cbrs-gainer",
-          "headline": "Cerebras Systems",
-          "summary": "The AI processor company saw its shares leap on its Nasdaq debut after a $5.55 billion IPO, contributing to the AI-driven market strength.",
-          "ticker": "$CBRS",
-          "price": "N/A",
-          "change": "+N/A",
-          "changePercent": "+68.1%",
-          "direction": "up"
-        },
-        {
-          "id": "nvda-gainer",
-          "headline": "Nvidia",
-          "summary": "Continued its strong performance, surging amidst robust demand for AI technology and investor optimism.",
+          "id": "nvidia-gainer",
           "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "+N/A",
+          "price": "$235.75",
+          "change": "+$9.92",
           "changePercent": "+4.39%",
-          "direction": "up"
+          "direction": "up",
+          "headline": "NVIDIA Continues AI-Driven Ascent, Gains on Chip Approvals",
+          "summary": "NVIDIA (NVDA) extended its gains on Thursday, propelled by sustained investor enthusiasm for AI infrastructure and chip demand, further boosted by reports of U.S. clearance for H200 chip shipments to Chinese firms.",
+          "tags": [
+            "Semiconductors",
+            "AI",
+            "Technology"
+          ]
         },
         {
-          "id": "sdot-loser",
-          "headline": "Sadot Group Inc.",
-          "summary": "Experienced a significant drop, though specific news for the decline was not immediately available.",
-          "ticker": "$SDOT",
-          "price": "$0.49",
-          "change": "-$0.48",
-          "changePercent": "-49.74%",
-          "direction": "down"
+          "id": "pjz_gainer",
+          "ticker": "$PZZA",
+          "price": "N/A",
+          "change": "+5%",
+          "changePercent": "+5%",
+          "direction": "up",
+          "headline": "Papa John's Rises on Potential Takeover Bid",
+          "summary": "Papa John's (PZZA) shares rose Friday morning after reports surfaced that its largest franchisee plans to join a potential takeover bid for the pizza chain.",
+          "tags": [
+            "Restaurant",
+            "M&A News"
+          ]
         },
         {
-          "id": "creg-loser",
-          "headline": "Smart Powerr Corp.",
-          "summary": "Showed high volatility, appearing as a significant gainer earlier in the week but closing with a substantial loss.",
-          "ticker": "$CREG",
-          "price": "$0.56",
-          "change": "-$0.32",
-          "changePercent": "-36.28%",
-          "direction": "down"
+          "id": "amat-loser",
+          "ticker": "$AMAT",
+          "price": "N/A",
+          "change": "-3.08%",
+          "changePercent": "-3.08%",
+          "direction": "down",
+          "headline": "Applied Materials Dips Despite Strong Earnings, Trade Concerns Linger",
+          "summary": "Applied Materials (AMAT) was down in premarket trading despite reporting better-than-expected second-quarter financial results and issuing strong third-quarter guidance, potentially reflecting broader concerns over semiconductor trade restrictions.",
+          "tags": [
+            "Semiconductors",
+            "Trade Tensions",
+            "Earnings"
+          ]
         },
         {
-          "id": "rgnx-loser",
-          "headline": "REGENXBIO Inc.",
-          "summary": "Faced a notable decline, with specific catalysts for the drop not detailed in available reports.",
-          "ticker": "$RGNX",
-          "price": "$6.25",
-          "change": "-$3.80",
-          "changePercent": "-37.80%",
-          "direction": "down"
+          "id": "ba-loser",
+          "ticker": "$BA",
+          "price": "N/A",
+          "change": "-4.73%",
+          "changePercent": "-4.73%",
+          "direction": "down",
+          "headline": "Boeing Shares Decline Amid Broader Market Weakness",
+          "summary": "Boeing Co. (BA) experienced a decline in Thursday's trading session.",
+          "tags": [
+            "Aerospace",
+            "Industrial"
+          ]
+        },
+        {
+          "id": "amzn-loser",
+          "ticker": "$AMZN",
+          "price": "$267.03",
+          "change": "-$3.10",
+          "changePercent": "-1.15%",
+          "direction": "down",
+          "headline": "Amazon Shares Edge Lower",
+          "summary": "Amazon (AMZN) saw its shares decline on Thursday.",
+          "tags": [
+            "E-commerce",
+            "Technology"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Factors",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-1",
-          "headline": "New Federal Reserve Chair Kevin Warsh Takes Office Today",
-          "summary": "Jerome Powell's term as Fed Chair concludes today, with Kevin Warsh assuming the role. Warsh inherits an economy grappling with elevated inflation, and analysts do not anticipate interest rate cuts in 2026. Some even suggest a 30% chance of a rate hike if energy disruptions from the Middle East conflict persist.",
+          "id": "fed-transition",
+          "headline": "Federal Reserve Leadership Transition Underway: Warsh to Replace Powell",
+          "summary": "Jerome Powell's term as Federal Reserve Chair concludes today, May 15, with Kevin Warsh anticipated to assume the role. This leadership change is being closely watched by markets, as Warsh's historical stance suggests a potential shift in the Fed's approach to inflation policy, which could introduce market volatility. The CME Group's FedWatch tool indicates a 99.4% probability of the Federal Reserve maintaining current interest rates in June.",
           "tags": [
-            "Fed",
+            "Federal Reserve",
             "Monetary Policy",
-            "Leadership Change",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-05-15T09:46:00Z"
+            "Inflation"
+          ]
         },
         {
-          "id": "economic-news-2",
-          "headline": "Inflation Concerns Mount as CPI Expectations Rise",
-          "summary": "April's Consumer Price Index (CPI) registered at 3.8%, exceeding expectations, and the Federal Reserve Bank of Cleveland forecasts May's CPI to climb further to 4.2%. Persistent inflation, partly fueled by the Iran war and its impact on energy prices, remains a significant concern for the market. The US 10-year Treasury yield surged above 4.5%, hitting a one-year high due to these inflation fears.",
+          "id": "sector-focus",
+          "headline": "Technology and Semiconductors Lead as Consumer Sectors Face Headwinds",
+          "summary": "Technology and semiconductor stocks continue to drive market performance, fueled by robust demand and investment in Artificial Intelligence. Conversely, sectors like Consumer Discretionary and Consumer Staples are experiencing pressure from elevated inflation, rising energy costs, and higher interest rates, impacting consumer spending habits.",
           "tags": [
-            "Inflation",
-            "CPI",
-            "Treasury Yields",
-            "Economic Data"
-          ],
-          "timestamp": "2026-05-15T09:46:00Z"
-        },
-        {
-          "id": "sector-news-1",
-          "headline": "Tech Sector Leads, AI Continues to Drive Growth",
-          "summary": "Technology stocks, particularly those involved in artificial intelligence and semiconductors, continue to be primary drivers of market growth and earnings. The 'Magnificent Seven' tech giants have seen combined gains of $4.8 trillion since early April, although concerns about market concentration are noted.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Semiconductors",
-            "Sector Performance"
-          ],
-          "timestamp": "2026-05-15T09:46:00Z"
-        },
-        {
-          "id": "sector-news-2",
-          "headline": "Consumer Discretionary and Staples Face Headwinds",
-          "summary": "Consumer Discretionary (including home builders, automakers, and specialty retailers) and Consumer Staples sectors are identified as vulnerable. Elevated interest rates, high energy costs, and general inflationary pressures are impacting consumer spending and profit margins in these areas.",
-          "tags": [
-            "Consumer Discretionary",
-            "Consumer Staples",
             "Sector Analysis",
-            "Economic Headwinds"
-          ],
-          "timestamp": "2026-05-15T09:46:00Z"
+            "Technology",
+            "Consumer Discretionary",
+            "AI"
+          ]
         },
         {
-          "id": "geopolitical-news-1",
-          "headline": "Iran Conflict and Oil Prices Fuel Market Caution",
-          "summary": "The ongoing war with Iran and the closure of the Strait of Hormuz continue to impact global oil supplies, pushing Brent crude prices above $107 per barrel. Geopolitical uncertainty, combined with resilient U.S. retail sales and a stable labor market, contribute to a complex market sentiment.",
+          "id": "economic-data",
+          "headline": "Inflation Remains Elevated; Retail Sales Show Strength",
+          "summary": "Recent data shows wholesale prices surged 6% annually, and core CPI remained well above the Federal Reserve's 2% target in April. Despite persistent inflation, U.S. retail sales recorded a third consecutive monthly increase in April, signaling resilient consumer spending. The 10-year Treasury bond is yielding 4.54%, with the two-year bond at 4.06%. The Empire State Manufacturing survey for May and April's industrial production and capacity utilization reports are due later today.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Retail Sales",
+            "Treasury Yields"
+          ]
+        },
+        {
+          "id": "geopolitical-impact",
+          "headline": "Geopolitical Tensions and Oil Prices Influence Market Sentiment",
+          "summary": "Global markets continue to be sensitive to geopolitical developments, including the ongoing Iran conflict, which has contributed to rising oil prices with Brent crude above $107 per barrel and WTI crude near $105 per barrel. Additionally, the outcomes of US-China trade discussions are influencing market sentiment and impacting sectors like semiconductors.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Energy",
-            "Market Risk"
-          ],
-          "timestamp": "2026-05-15T09:46:00Z"
+            "Trade Relations"
+          ]
+        },
+        {
+          "id": "earnings-overview",
+          "headline": "Key Companies Report Earnings, More Expected Today",
+          "summary": "Figma ($FIG), Applied Materials ($AMAT), Winnebago Industries ($WGO), and Cisco Systems ($CSCO) recently reported stronger-than-expected earnings. Companies scheduled to release their earnings reports today, May 15, include Diana Shipping ($DSX), RBC Bearings ($RBC), Sachem Capital ($SACH), Skillz ($SKLZ), ARS Pharmaceuticals ($SPRY), SurgePays ($SURG), and VolitionRx Limited.",
+          "tags": [
+            "Earnings Reports",
+            "Corporate News"
+          ]
         }
       ]
     }
