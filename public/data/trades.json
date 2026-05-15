@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-14T23:04:25.516007Z",
+  "generatedAt": "2026-05-15T21:14:01.443043Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 4,
+  "tradeCount": 5,
   "trades": [
     {
       "ticker": "$APP",
@@ -20,22 +20,6 @@
       "source": "Watchlist"
     },
     {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors",
-      "currentPrice": "$235.71",
-      "entry": "$196.00",
-      "stop": "$183.00",
-      "structure": "Support Test at Previous Resistance",
-      "trend": "> 20MA & > 200MA",
-      "trendLabel": "Trend",
-      "analysis": "NVDA is trading near its 52-week highs, showing strong bullish momentum above its 20-day and 200-day moving averages. Relative volume is elevated at approximately 1.13x average, indicating increased interest. A potential entry on a pullback to the previous resistance zone around $196.00, which has acted as support, offers a favorable risk/reward. The company's earnings are confirmed for May 20, 2026, introducing high risk.",
-      "riskScore": 8,
-      "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$AAPL",
       "name": "Apple Inc.",
       "sector": "Consumer Electronics",
@@ -52,19 +36,51 @@
       "source": "Micha Stocks YouTube"
     },
     {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$227.24",
+      "entry": "$222.25",
+      "stop": "$212.50",
+      "structure": "MA Support Test",
+      "trend": "4.44x",
+      "trendLabel": "RVOL",
+      "analysis": "NVIDIA is trading near its 52-week high, with elevated relative volume. The stock is facing an immediate pullback towards its 50-day exponential moving average, which could offer a potential entry. However, an earnings announcement is confirmed for May 20, 2026, posing significant near-term risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
       "ticker": "$TSLA",
       "name": "Tesla, Inc.",
-      "sector": "Automotive",
-      "currentPrice": "$445.43",
-      "entry": "$379.23",
-      "stop": "$350.00",
-      "structure": "0.5 Fib Retracement",
-      "trend": "> 20MA & > 200MA",
+      "sector": "Automobiles",
+      "currentPrice": "$442.40",
+      "entry": "$380.00",
+      "stop": "$370.00",
+      "structure": "0.618 Fib Retracement",
+      "trend": "> 150MA",
       "trendLabel": "Trend",
-      "analysis": "TSLA is currently in a strong bullish trend, trading significantly above its 20-day and 200-day moving averages. Current volume is below average at approximately 0.76x, suggesting less immediate buying pressure. A potential swing trade entry could be found on a pullback to the 0.5 Fibonacci retracement level around $379.23, offering a re-test of this key structural level. There are no immediate earnings catalysts within the next 5 days.",
-      "riskScore": 5,
+      "analysis": "Tesla is currently trading significantly above a previously identified Fibonacci Golden Zone support at $380.00, which has historically led to rallies. The stock is above its 150-day moving average, indicating a bullish long-term trend. A pullback to the identified Fib support would present a potential swing trade opportunity.",
+      "riskScore": 4,
       "footerTag": "Accumulation",
-      "setupType": "perfect",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MRNA",
+      "name": "Moderna, Inc.",
+      "sector": "Biotechnology",
+      "currentPrice": "$48.39",
+      "entry": "$36.31",
+      "stop": "$30.00",
+      "structure": "200-day MA Support",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Moderna is currently trading above its 150-day and 200-day moving averages, suggesting a longer-term bullish trend despite recent short-term weakness. A deep pullback to the 200-day moving average at $36.31 could offer a long-term accumulation opportunity. Relative volume is not elevated.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
   ]
