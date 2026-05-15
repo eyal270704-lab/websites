@@ -1,161 +1,208 @@
 {
-  "generatedAt": "2026-05-14T17:55:00Z",
+  "generatedAt": "2026-05-15T09:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 14, 2026",
-  "subtitle": "Wall Street Rallies, Tech Leads Gains on Strong Earnings and US-China Optimism",
+  "title": "Daily Market Digest",
+  "subtitle": "May 15, 2026 - Market Insights",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-sentiment-may-14-2026",
-          "headline": "Wall Street Extends Rally, Major Indices Hit New Highs Amid Positive Sentiment",
-          "summary": "U.S. equity markets advanced broadly on Thursday, with the S&P 500 and Nasdaq Composite touching fresh intraday and closing record highs. The Dow Jones Industrial Average reclaimed the psychologically significant 50,000 level. Overall market sentiment was buoyed by strong corporate earnings, particularly from Cisco Systems, optimism surrounding the ongoing US-China diplomatic summit, and robust April retail sales data. Investors also showed increasing confidence that geopolitical tensions related to the Iran conflict would not escalate further, easing some risk-off sentiment. The market continues to be heavily influenced by advancements in artificial intelligence, with its impact broadening across various sectors."
+          "id": "market-summary-1",
+          "headline": "Futures Slide Following Record Thursday, Inflation Concerns Weigh",
+          "summary": "U.S. stock futures are trending lower on Friday, May 15, 2026, as investors weigh persistent geopolitical tensions surrounding the Iran conflict, rising oil prices, and ongoing inflation concerns. This comes after all three major indices closed at or near record highs on Thursday, driven by strong corporate earnings, particularly in the tech sector. The incoming Federal Reserve Chair, Kevin Warsh, takes the helm today amid expectations of no rate cuts in 2026 due to elevated inflation.",
+          "tags": [
+            "Market Sentiment",
+            "Futures",
+            "Inflation",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (Thursday's Close & Friday's Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,500.00",
-          "statContext": "Gained +0.7% to +0.9%, hitting a new all-time high."
+          "id": "sp500-close",
+          "statLabel": "S&P 500 (Thu Close)",
+          "statValue": "7,501.24",
+          "statContext": "+0.8% (+56.99 points), new all-time high"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,495.19",
-          "statContext": "Advanced +0.8% to +1.0%, also reaching a new record high."
+          "id": "dow-close",
+          "statLabel": "Dow Jones (Thu Close)",
+          "statValue": "50,063.46",
+          "statContext": "+0.7% (+370 points), above 50,000 for first time since Iran war began"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,044.13",
-          "statContext": "Climbed +0.7% to +0.8%, crossing above the 50,000 mark."
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ (Thu Close)",
+          "statValue": "26,635.22",
+          "statContext": "+0.9% (+232.88 points), new all-time high"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Fri Pre-market)",
+          "statValue": "7,440.50",
+          "statContext": "-1.1%"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures (Fri Pre-market)",
+          "statValue": "49,763.0",
+          "statContext": "-0.6%"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures (Fri Pre-market)",
+          "statValue": "29,224.25",
+          "statContext": "-1.5%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Previous Trading Day - May 14, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "cisco-gainer",
-          "headline": "Cisco Systems Surges on Strong Earnings and AI Restructuring",
+          "id": "csco-gainer",
+          "headline": "Cisco Systems",
+          "summary": "Shares surged after reporting better-than-expected quarterly profit and revenue, leading a tech rally.",
           "ticker": "$CSCO",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14.03% to +15.5%",
-          "direction": "up",
-          "summary": "Cisco Systems surged between 14.03% and 15.5% after reporting better-than-expected third-quarter earnings and raising its full-year guidance. The networking giant also unveiled an AI-focused restructuring plan, including approximately 4,000 job cuts, to reallocate resources towards AI infrastructure and high-speed networking."
+          "change": "+N/A",
+          "changePercent": "+13.4%",
+          "direction": "up"
         },
         {
-          "id": "poet-gainer",
-          "headline": "POET Technologies Jumps on Strategic Optical Networking Agreement",
-          "ticker": "$POET",
+          "id": "cbrs-gainer",
+          "headline": "Cerebras Systems",
+          "summary": "The AI processor company saw its shares leap on its Nasdaq debut after a $5.55 billion IPO, contributing to the AI-driven market strength.",
+          "ticker": "$CBRS",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+24% to +28%",
-          "direction": "up",
-          "summary": "Shares of POET Technologies climbed significantly, gaining between 24% and 28%. This surge followed the announcement of a strategic optical networking agreement with Lumilens, which includes an initial $50 million purchase order for optical engines."
+          "change": "+N/A",
+          "changePercent": "+68.1%",
+          "direction": "up"
         },
         {
-          "id": "nvidia-gainer",
-          "headline": "Nvidia Rallies as US Clears AI Chip Sales to China",
+          "id": "nvda-gainer",
+          "headline": "Nvidia",
+          "summary": "Continued its strong performance, surging amidst robust demand for AI technology and investor optimism.",
           "ticker": "$NVDA",
-          "price": "$234.00",
-          "change": "+$8.17",
-          "changePercent": "+3.2% to +4.2%",
-          "direction": "up",
-          "summary": "Chipmaker Nvidia saw its shares rise between 3.2% and 4.2% after Reuters reported that the U.S. had cleared approximately 10 Chinese firms to purchase Nvidia's H200 artificial intelligence chip. This development lifted Nvidia's market valuation and contributed to the broader tech rally."
-        },
-        {
-          "id": "doximity-loser",
-          "headline": "Doximity Tumbles on Q4 Earnings Miss and Disappointing Guidance",
-          "ticker": "$DOCS",
-          "price": "$17.99",
-          "change": "N/A",
-          "changePercent": "-23.09% to -26.1%",
-          "direction": "down",
-          "summary": "Doximity's stock declined significantly, falling between 23.09% and 26.1%. The healthcare professional network missed Wall Street's fourth-quarter earnings expectations and provided disappointing guidance for the upcoming period."
-        },
-        {
-          "id": "canadian-solar-loser",
-          "headline": "Canadian Solar Shares Decline on Mixed Q1 and Weak Q2 Outlook",
-          "ticker": "$CSIQ",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-14.41% to -15.16%",
-          "direction": "down",
-          "summary": "Canadian Solar shares dropped between 14.41% and 15.16% after the company reported a mixed first-quarter performance and issued weaker-than-expected revenue guidance for the second quarter."
+          "change": "+N/A",
+          "changePercent": "+4.39%",
+          "direction": "up"
+        },
+        {
+          "id": "sdot-loser",
+          "headline": "Sadot Group Inc.",
+          "summary": "Experienced a significant drop, though specific news for the decline was not immediately available.",
+          "ticker": "$SDOT",
+          "price": "$0.49",
+          "change": "-$0.48",
+          "changePercent": "-49.74%",
+          "direction": "down"
+        },
+        {
+          "id": "creg-loser",
+          "headline": "Smart Powerr Corp.",
+          "summary": "Showed high volatility, appearing as a significant gainer earlier in the week but closing with a substantial loss.",
+          "ticker": "$CREG",
+          "price": "$0.56",
+          "change": "-$0.32",
+          "changePercent": "-36.28%",
+          "direction": "down"
+        },
+        {
+          "id": "rgnx-loser",
+          "headline": "REGENXBIO Inc.",
+          "summary": "Faced a notable decline, with specific catalysts for the drop not detailed in available reports.",
+          "ticker": "$RGNX",
+          "price": "$6.25",
+          "change": "-$3.80",
+          "changePercent": "-37.80%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Factors",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-release-may-14",
-          "headline": "April Retail Sales Up 0.5%, Import Prices Surge 1.9%",
-          "summary": "U.S. retail sales rose 0.5% in April, largely in line with economists' estimates, though analysts noted part of the increase likely reflected higher inflation. Separately, U.S. import prices surged 1.9% in April, marking the largest increase in four years, signaling persistent inflationary pressures. Initial jobless claims moderately increased last week, yet the labor market continues to show resilience.",
+          "id": "economic-news-1",
+          "headline": "New Federal Reserve Chair Kevin Warsh Takes Office Today",
+          "summary": "Jerome Powell's term as Fed Chair concludes today, with Kevin Warsh assuming the role. Warsh inherits an economy grappling with elevated inflation, and analysts do not anticipate interest rate cuts in 2026. Some even suggest a 30% chance of a rate hike if energy disruptions from the Middle East conflict persist.",
           "tags": [
-            "Economic Data",
+            "Fed",
+            "Monetary Policy",
+            "Leadership Change",
+            "Interest Rates"
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
+        },
+        {
+          "id": "economic-news-2",
+          "headline": "Inflation Concerns Mount as CPI Expectations Rise",
+          "summary": "April's Consumer Price Index (CPI) registered at 3.8%, exceeding expectations, and the Federal Reserve Bank of Cleveland forecasts May's CPI to climb further to 4.2%. Persistent inflation, partly fueled by the Iran war and its impact on energy prices, remains a significant concern for the market. The US 10-year Treasury yield surged above 4.5%, hitting a one-year high due to these inflation fears.",
+          "tags": [
             "Inflation",
-            "Retail Sales"
-          ]
+            "CPI",
+            "Treasury Yields",
+            "Economic Data"
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
         },
         {
-          "id": "fed-leadership-change",
-          "headline": "Kevin Warsh Confirmed as Next Federal Reserve Chair",
-          "summary": "The Senate confirmed Kevin Warsh as the next Federal Reserve Chair, succeeding Jerome Powell whose term ends on May 15. This leadership change comes amidst ongoing concerns about surging inflation and an unstable economy, potentially leading to increased market volatility as Warsh's policy stance on inflation is closely watched.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "us-china-summit-optimism",
-          "headline": "US-China Summit Fosters Optimism, Leaders Agree on Strait of Hormuz",
-          "summary": "High-level diplomatic discussions between the U.S. and China generated broadly positive market sentiment. President Donald Trump and Chinese President Xi Jinping reportedly agreed that the Strait of Hormuz should remain open, easing fears of supply disruption and stabilizing oil prices. China also reportedly agreed to buy 200 Boeing aircraft.",
-          "tags": [
-            "Geopolitics",
-            "Trade",
-            "Oil Markets"
-          ]
-        },
-        {
-          "id": "technology-sector-dominance",
-          "headline": "Technology Sector Leads Market Gains, AI Investment Continues to Drive Growth",
-          "summary": "The technology sector continued its leading performance, with the S&P 500 technology index rising 1%. Substantial investment by 'Big Tech' in artificial intelligence (AI) infrastructure and next-generation data centers remains a primary driver for the U.S. stock market's record-setting performance throughout the year. The impact of AI is broadening across semiconductors, infrastructure, and even parts of the industrial economy.",
+          "id": "sector-news-1",
+          "headline": "Tech Sector Leads, AI Continues to Drive Growth",
+          "summary": "Technology stocks, particularly those involved in artificial intelligence and semiconductors, continue to be primary drivers of market growth and earnings. The 'Magnificent Seven' tech giants have seen combined gains of $4.8 trillion since early April, although concerns about market concentration are noted.",
           "tags": [
             "Technology",
             "AI",
+            "Semiconductors",
             "Sector Performance"
-          ]
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
         },
         {
-          "id": "earnings-season-update",
-          "headline": "Earnings Season Reinforces AI-Led Market; Key Reports Today",
-          "summary": "Corporate earnings reported this season have consistently reinforced the narrative of an AI-led market. Beyond Cisco, companies like StubHub Holdings, Viking Holdings, and Yeti Holdings also reported better-than-expected profits. Several other companies, including Applied Materials ($AMAT), Urban One ($UONEK), and KeyCorp ($KEY), are scheduled to report earnings today.",
+          "id": "sector-news-2",
+          "headline": "Consumer Discretionary and Staples Face Headwinds",
+          "summary": "Consumer Discretionary (including home builders, automakers, and specialty retailers) and Consumer Staples sectors are identified as vulnerable. Elevated interest rates, high energy costs, and general inflationary pressures are impacting consumer spending and profit margins in these areas.",
           "tags": [
-            "Earnings",
-            "Corporate News"
-          ]
+            "Consumer Discretionary",
+            "Consumer Staples",
+            "Sector Analysis",
+            "Economic Headwinds"
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
+        },
+        {
+          "id": "geopolitical-news-1",
+          "headline": "Iran Conflict and Oil Prices Fuel Market Caution",
+          "summary": "The ongoing war with Iran and the closure of the Strait of Hormuz continue to impact global oil supplies, pushing Brent crude prices above $107 per barrel. Geopolitical uncertainty, combined with resilient U.S. retail sales and a stable labor market, contribute to a complex market sentiment.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Energy",
+            "Market Risk"
+          ],
+          "timestamp": "2026-05-15T09:46:00Z"
         }
       ]
     }
