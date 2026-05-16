@@ -1,212 +1,242 @@
 {
-  "generatedAt": "2026-05-16T08:46:00Z",
+  "generatedAt": "2026-05-16T12:58:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 16, 2026",
-  "subtitle": "Closing Bell: May 15, 2026 Summary",
-  "badge": "Updated",
+  "title": "Daily Market Digest",
+  "subtitle": "May 16, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-1",
-          "headline": "U.S. Stocks Retreat from Record Highs Amid Rising Yields and Oil Prices",
-          "summary": "U.S. equities concluded Friday's trading session lower, pulling back from recent record highs as surging oil prices and climbing Treasury yields led investors to anticipate a potential Federal Reserve interest rate hike later this year. The market also saw widespread profit-taking in the technology sector and caution following the Trump-Xi summit.",
+          "headline": "U.S. Stocks Retreat from Records Amid Surging Oil Prices and Tech Sell-Off",
+          "summary": "The U.S. stock market experienced a broad-based decline on Friday, May 15, 2026, as major indices pulled back from recent record highs. The downturn was primarily driven by a surge in oil prices, climbing Treasury yields, and significant profit-taking in the technology sector, particularly among AI-related stocks. Overall market sentiment turned cautious amid inflation concerns and a re-evaluation of high valuations.",
           "tags": [
             "Market Overview",
-            "Economy",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-15T20:00:00Z"
+            "Inflation",
+            "Technology"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,408.50",
-          "statContext": "Down 1.24%"
+          "statContext": "Down 92.74 points (-1.24%)",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,225.15",
-          "statContext": "Down 1.54%"
+          "statValue": "26,225.14",
+          "statContext": "Down 410.08 points (-1.54%)",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
+          "id": "dowjones-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,526.17",
-          "statContext": "Down 1.07%"
+          "statContext": "Down 537.29 points (-1.07%)",
+          "direction": "down"
         },
         {
-          "id": "russell2000-stat",
+          "id": "russell2000-performance",
           "statLabel": "Russell 2000",
-          "statValue": "-",
-          "statContext": "Down approx. 2.0%"
+          "statValue": "N/A",
+          "statContext": "Down 2.4%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers (May 15, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (May 15, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "hcwb-gainer",
-          "headline": "HCW Biologics Inc. ($HCWB)",
-          "ticker": "$HCWB",
-          "price": "$1.22",
-          "change": "+$0.86",
-          "changePercent": "+262.02%",
-          "direction": "up",
-          "summary": "Led daily gains with a significant percentage increase."
-        },
-        {
-          "id": "piii-gainer",
-          "headline": "P3 Health Partners Inc. ($PIII)",
-          "ticker": "$PIII",
-          "price": "$11.29",
-          "change": "+$7.29",
-          "changePercent": "+180.15%",
-          "direction": "up",
-          "summary": "Experienced a substantial rally during Friday's trading."
-        },
-        {
           "id": "msft-gainer",
-          "headline": "Microsoft ($MSFT)",
+          "headline": "Microsoft Rises on Investor Position",
           "ticker": "$MSFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.05%",
+          "price": "$421.87",
+          "change": "+$12.44",
+          "changePercent": "+3.0%",
           "direction": "up",
-          "summary": "Climbed after billionaire investor Bill Ackman's Pershing Square Capital Management revealed a significant new position in the software giant."
+          "summary": "Microsoft bucked the broader tech sell-off, climbing after billionaire investor Bill Ackman's Pershing Square Capital Management revealed a significant new position in the software giant."
         },
         {
-          "id": "elpw-loser",
-          "headline": "Elong Power Holding Limited ($ELPW)",
-          "ticker": "$ELPW",
-          "price": "$0.950",
-          "change": "-$0.99",
-          "changePercent": "-51.03%",
-          "direction": "down",
-          "summary": "Was among the day's biggest decliners."
-        },
-        {
-          "id": "wok-loser",
-          "headline": "WORK Medical Technology Group LTD ($WOK)",
-          "ticker": "$WOK",
-          "price": "$0.660",
-          "change": "-$0.64",
-          "changePercent": "-49.23%",
-          "direction": "down",
-          "summary": "Saw a significant drop in its share price."
-        },
-        {
-          "id": "lnza-loser",
-          "headline": "LanzaTech Global, Inc. ($LNZA)",
-          "ticker": "$LNZA",
-          "price": "$9.73",
-          "change": "-$7.47",
-          "changePercent": "-43.27%",
-          "direction": "down",
-          "summary": "Experienced a sharp decline during Friday's trading."
-        },
-        {
-          "id": "cbrs-loser",
-          "headline": "Cerebras Systems ($CBRS)",
-          "ticker": "$CBRS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.08%",
-          "direction": "down",
-          "summary": "Shed value after its explosive public debut the previous session, indicating profit-taking."
-        },
-        {
-          "id": "intc-loser",
-          "headline": "Intel ($INTC)",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.1%",
-          "direction": "down",
-          "summary": "Fell as the technology sector experienced widespread profit-taking."
+          "id": "csco-gainer",
+          "headline": "Cisco Systems Continues Upward Trend",
+          "ticker": "$CSCO",
+          "price": "$118.21",
+          "change": "+$2.67",
+          "changePercent": "+2.3%",
+          "direction": "up",
+          "summary": "Cisco Systems recorded gains, reaching a 52-week high, amidst a generally down market."
         },
         {
           "id": "nvda-loser",
-          "headline": "Nvidia ($NVDA)",
+          "headline": "Nvidia Leads Tech Sector Decline",
           "ticker": "$NVDA",
+          "price": "$225.39",
+          "change": "-$10.35",
+          "changePercent": "-4.4%",
+          "direction": "down",
+          "summary": "Nvidia, a key beneficiary of the AI revolution, was the heaviest weight on the S&P 500, dropping sharply as investors took profits from the recent rally in technology stocks."
+        },
+        {
+          "id": "mu-loser",
+          "headline": "Micron Technology Falls Amid Profit-Taking",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.42%",
+          "changePercent": "-6.6%",
           "direction": "down",
-          "summary": "Retreated amid broader technology sell-off and news of China blocking its chip sales for review."
+          "summary": "Micron Technology was another significant decliner, falling as investors pulled back from high-performing semiconductor stocks."
+        },
+        {
+          "id": "intc-loser",
+          "headline": "Intel Experiences Sharp Decline",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.18%",
+          "direction": "down",
+          "summary": "Intel shares fell more than 6% as the technology sector saw widespread profit-taking."
+        },
+        {
+          "id": "tsla-loser",
+          "headline": "Tesla Shares Drop",
+          "ticker": "$TSLA",
+          "price": "$422.30",
+          "change": "-$21.00",
+          "changePercent": "-4.7%",
+          "direction": "down",
+          "summary": "Tesla's stock saw a notable decline, contributing to the broader market's cautious sentiment."
         }
       ]
     },
     {
-      "id": "market-news-1",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-1",
-          "headline": "Inflation Concerns Mount, Fed Rate Hike Probability Rises",
-          "summary": "Rising Treasury yields, with the 30-year U.S. Treasury bond topping 5.1%, and sustained increases in energy costs are reigniting inflation fears. This has led financial market participants to price in a nearly 51% probability of a Federal Reserve interest rate increase as early as December 2026.",
+          "id": "energy-leading",
+          "headline": "Energy Sector Outperforms Amid Rising Oil Prices",
+          "summary": "The energy sector was a notable outlier, advancing by 2.32% on the S&P 500, benefiting from surging crude oil prices. West Texas Intermediate crude for June delivery rose 4.2% to settle at $105.42 a barrel.",
           "tags": [
-            "Economic Data",
-            "Fed Policy",
+            "Energy",
+            "Commodities"
+          ]
+        },
+        {
+          "id": "tech-lagging",
+          "headline": "Technology Sector Leads Market Sell-Off",
+          "summary": "Technology stocks experienced widespread profit-taking, leading declines across the market. The sector's downturn was a sharp turnaround after a meteoric rise for much of the year, driven by artificial intelligence euphoria.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Profit-Taking"
+          ]
+        },
+        {
+          "id": "materials-utilities-lagging",
+          "headline": "Materials and Utilities Among Lagging Sectors",
+          "summary": "Beyond technology, the materials and utilities sectors were also significant underperformers, dropping 2.74% and 2.4% respectively on the S&P 500.",
+          "tags": [
+            "Materials",
+            "Utilities"
+          ]
+        },
+        {
+          "id": "consumer-realestate-lagging",
+          "headline": "Consumer Cyclical and Real Estate Face Headwinds",
+          "summary": "The consumer cyclical sector fell 3.29%, and real estate declined by 2.89%, indicating broader weakness beyond the tech-heavy segments.",
+          "tags": [
+            "Consumer Cyclical",
+            "Real Estate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "fed-chair-transition",
+          "headline": "Kevin Warsh Confirmed as New Fed Chair; Powell Serves Interim",
+          "summary": "The Senate confirmed Kevin Warsh to a 14-year term as a Fed governor and as the new Federal Reserve Chair. Jerome Powell will serve as interim Fed chair until Warsh is sworn in, as Powell's second four-year term officially ended on Friday.",
+          "tags": [
+            "Federal Reserve",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "treasury-yields-climb",
+          "headline": "Treasury Yields Climb on Inflation Concerns",
+          "summary": "Treasury yields continued to rise, with the 10-year Treasury note yield increasing to 4.59% from 4.47% and the 30-year Treasury bond yield topping 5.1%. This movement reflects growing inflation worries and increased expectations of a potential Fed interest rate hike later in the year, with a nearly 51% probability priced in for December.",
+          "tags": [
+            "Treasury Yields",
+            "Inflation",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "oil-prices-surge",
+          "headline": "Oil Prices Surge, Rattling Bond Market",
+          "summary": "Global oil prices surged, with Brent crude rising 3.3% to settle at $109.26 per barrel. This increase contributed to inflation fears and put pressure on the bond market, adding to the day's market downturn.",
+          "tags": [
+            "Oil Prices",
+            "Commodities",
             "Inflation"
           ]
         },
         {
-          "id": "energy-sector-1",
-          "headline": "Energy Sector Bucks Trend Amid Surging Oil Prices",
-          "summary": "While most sectors faced declines, the energy sector advanced 2.32% on Friday, driven by surging oil prices. West Texas Intermediate crude for June delivery settled at $105.42 a barrel, and Brent crude for July delivery reached $109.26 a barrel, primarily due to ongoing geopolitical frictions in the Middle East.",
+          "id": "economic-data-mixed",
+          "headline": "Mixed Economic Data Released",
+          "summary": "U.S. industrial production improved more than economists expected, and manufacturing in New York state showed expansion. However, U.S. unemployment claims rose to 211,000 in early May 2026, missing market expectations. U.S. retail sales in April rose 0.5% month-over-month and 4.9% year-over-year, indicating continued consumer spending.",
           "tags": [
-            "Sector Analysis",
-            "Commodities",
-            "Geopolitics"
+            "Economic Data",
+            "Industrial Production",
+            "Unemployment",
+            "Retail Sales"
           ]
         },
         {
-          "id": "tech-profit-taking-1",
-          "headline": "Tech Stocks See Widespread Profit-Taking After Recent Rally",
-          "summary": "The technology sector, which has experienced significant gains recently, saw widespread profit-taking. Major players like Intel, Advanced Micro Devices, Micron Technology, and Nvidia all retreated more than 5%. Concerns about the sustainability of the AI-driven rally and rising yields contributed to the sell-off.",
+          "id": "amat-earnings",
+          "headline": "Applied Materials Beats Q2 Expectations, Strong Outlook",
+          "summary": "Applied Materials ($AMAT) reported stronger-than-expected Q2 earnings, with EPS of $2.86 beating by $0.18 and revenue of $7.91 billion exceeding estimates by $219.16 million. The company provided an optimistic Q3 revenue forecast of $8.95 billion and non-GAAP EPS of $3.36, projecting over 30% growth in semiconductor equipment for 2026.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Profit Taking"
+            "Earnings",
+            "Semiconductors",
+            "Applied Materials"
           ]
         },
         {
-          "id": "jackson-financial-earnings-1",
-          "headline": "Jackson Financial (JFN) Q1 Earnings Miss, Market Reacts Favorably",
-          "summary": "Jackson Financial reported first-quarter earnings that missed revenue ($2.90 billion, down 22.6% YoY) and adjusted EPS ($5.15 vs. $5.96 consensus) forecasts. However, the market reacted favorably due to strong demand for retail annuity products, particularly Registered Index-Linked Annuities (RILAs) and a new Fixed Indexed Annuity (FIA).",
+          "id": "jackson-financial-earnings",
+          "headline": "Jackson Financial's Q1 Earnings Miss Forecasts, Market Reacts Favorably",
+          "summary": "Jackson Financial ($JFN) reported first-quarter revenue of $2.90 billion, a 22.6% decline year-over-year, and adjusted EPS of $5.15, missing analyst estimates. Despite the misses, the market reacted favorably due to strong demand for retail annuity products, particularly Registered Index-Linked Annuities (RILAs) and Fixed Indexed Annuities (FIAs).",
           "tags": [
-            "Earnings Report",
-            "Financials"
-          ]
-        },
-        {
-          "id": "china-economy-1",
-          "headline": "China to Prioritize Real Economy; Germany Forecasts Q2 Slowdown",
-          "summary": "China's President Xi Jinping emphasized strengthening and expanding the real economy, with a focus on prioritizing the manufacturing sector. Meanwhile, Germany's Federal Ministry for Economic Affairs and Energy forecasts a clear slowdown in the German economy during Q2 2026, citing rising prices, supply chain issues, and uncertainty from the Middle East conflict.",
-          "tags": [
-            "Economic News",
-            "Global Economy"
+            "Earnings",
+            "Financials",
+            "Jackson Financial"
           ]
         }
       ]
