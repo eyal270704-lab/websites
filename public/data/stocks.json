@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-17T12:55:00Z",
+  "generatedAt": "2026-05-17T17:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 17, 2026",
-  "subtitle": "Market closes the week down amid inflation fears and tech sell-off.",
-  "badge": "LIVE",
+  "title": "Daily Market Digest",
+  "subtitle": "Friday, May 15, 2026 Market Close Summary",
+  "badge": "Friday Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,14 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Inflation Concerns Drive Market Lower; Tech Sector Leads Decline",
-          "summary": "U.S. equities concluded the week on a downturn, with major indices experiencing losses following an unexpectedly high April Consumer Price Index (CPI) report. The data intensified fears of persistent inflation, curbing hopes for imminent Federal Reserve interest rate cuts. The technology sector, particularly sensitive to rising borrowing costs, bore the brunt of the sell-off as investors took profits after a strong AI-driven rally.",
+          "id": "market-sentiment-1",
+          "headline": "U.S. Equities Retreat from Record Highs on Inflation Fears and Geopolitical Tensions",
+          "summary": "U.S. equities experienced broad selling pressure on Friday, reversing recent optimism, as investors adopted a cautious stance. Rising Treasury yields, higher crude oil prices, and persistent inflation concerns weighed heavily on market sentiment. The closely watched summit between U.S. President Donald Trump and Chinese President Xi Jinping concluded without major breakthroughs, further contributing to the cautious mood. Technology stocks, especially those in the AI sector, led the declines as traders engaged in profit-taking after a robust rally. The CBOE Volatility Index surged, signaling expectations for continued market fluctuations.",
           "tags": [
             "Market Sentiment",
             "Inflation",
-            "Tech Sell-off",
-            "Fed Policy"
+            "Treasury Yields"
           ]
         }
       ]
@@ -32,90 +31,206 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,408.50",
-          "statContext": "Down 1.24% on Friday"
+          "statContext": "Down 92.74 points (-1.2%) on Friday. Up 0.1% for the week."
         },
         {
-          "id": "nasdaq",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,225.14",
-          "statContext": "Fell 1.54% on Friday"
+          "statContext": "Down 410.08 points (-1.5%) on Friday. Down 0.1% for the week."
         },
         {
-          "id": "dow",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "49,526.17",
-          "statContext": "Slipped 1.07% on Friday"
+          "statContext": "Down 537.29 points (-1.1%) on Friday. Down 0.2% for the week."
+        },
+        {
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "2,793.30",
+          "statContext": "Down 69.79 points (-2.4%) on Friday."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday's Close/Recent Activity)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "sooun",
-          "headline": "SoundHound AI ($SOUN) Drops on Inflation News",
-          "ticker": "$SOUN",
+          "id": "gainers-apa",
+          "headline": "APA Corp.",
+          "ticker": "$APA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.03%",
+          "direction": "up",
+          "summary": "Gained as the energy sector outperformed amidst surging oil prices."
+        },
+        {
+          "id": "gainers-dvn",
+          "headline": "Devon Energy Corp.",
+          "ticker": "$DVN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.78%",
+          "direction": "up",
+          "summary": "Benefited from the strength in the energy sector due to elevated crude oil prices."
+        },
+        {
+          "id": "gainers-oxy",
+          "headline": "Occidental Petroleum Corp.",
+          "ticker": "$OXY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.88%",
+          "direction": "up",
+          "summary": "Rose with other energy stocks as oil prices continued their climb."
+        },
+        {
+          "id": "gainers-xom",
+          "headline": "Exxon Mobil Corp.",
+          "ticker": "$XOM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.07%",
+          "direction": "up",
+          "summary": "Posted solid gains, driven by the overall positive momentum in the energy sector."
+        },
+        {
+          "id": "gainers-eog",
+          "headline": "EOG Resources Inc.",
+          "ticker": "$EOG",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.11%",
+          "direction": "up",
+          "summary": "Advanced as oil prices surged, boosting the performance of exploration and production companies."
+        },
+        {
+          "id": "gainers-msft",
+          "headline": "Microsoft Corp.",
+          "ticker": "$MSFT",
+          "price": "$421.92",
+          "change": "+$12.49",
+          "changePercent": "+3.05%",
+          "direction": "up",
+          "summary": "Saw an uptick in its share price during Friday's trading."
+        },
+        {
+          "id": "gainers-crm",
+          "headline": "Salesforce Inc.",
+          "ticker": "$CRM",
+          "price": "$173.51",
+          "change": "+$5.93",
+          "changePercent": "+3.54%",
+          "direction": "up",
+          "summary": "Showed strong performance, with its stock moving positively on Friday."
+        },
+        {
+          "id": "losers-wix",
+          "headline": "Wix.com Ltd.",
+          "ticker": "$WIX",
+          "price": "$54.74",
+          "change": "N/A",
+          "changePercent": "-31.74%",
+          "direction": "down",
+          "summary": "Was the worst-performing U.S.-listed stock for the week, experiencing a significant decline."
+        },
+        {
+          "id": "losers-optu",
+          "headline": "Optimum Communications",
+          "ticker": "$OPTU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-28.82%",
+          "direction": "down",
+          "summary": "Fell sharply, making it one of the largest weekly losers."
+        },
+        {
+          "id": "losers-sabr",
+          "headline": "Sabre Corp.",
+          "ticker": "$SABR",
+          "price": "$1.59",
+          "change": "N/A",
+          "changePercent": "-22.2%",
+          "direction": "down",
+          "summary": "Experienced a notable drop in its stock price over the week."
+        },
+        {
+          "id": "losers-birk",
+          "headline": "Birkenstock Holding Ltd.",
+          "ticker": "$BIRK",
+          "price": "$31.15",
+          "change": "N/A",
+          "changePercent": "-20.72%",
+          "direction": "down",
+          "summary": "Saw its stock price decline significantly, contributing to weekly losses."
+        },
+        {
+          "id": "losers-nvda",
+          "headline": "NVIDIA Corp.",
+          "ticker": "$NVDA",
+          "price": "$225.32",
+          "change": "-$10.42",
+          "changePercent": "-4.42%",
+          "direction": "down",
+          "summary": "AI bellwether lagged as traders pulled away from higher-risk assets and locked in profits after a sharp rally."
+        },
+        {
+          "id": "losers-intc",
+          "headline": "Intel Corp.",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": ">-6%",
+          "direction": "down",
+          "summary": "Fell more than 6% as technology stocks retreated."
+        },
+        {
+          "id": "losers-amd",
+          "headline": "Advanced Micro Devices Inc.",
+          "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-5.7%",
           "direction": "down",
-          "summary": "Shares fell sharply after the April CPI report, with fading expectations for Federal Reserve rate cuts impacting growth-oriented technology stocks."
+          "summary": "Declined amidst the broader sell-off in the technology sector."
         },
         {
-          "id": "hubs",
-          "headline": "HubSpot ($HUBS) Declines Amid Broader Tech Sell-off",
-          "ticker": "$HUBS",
+          "id": "losers-mu",
+          "headline": "Micron Technology Inc.",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.3%",
+          "changePercent": "-6.6%",
           "direction": "down",
-          "summary": "The cloud-based software company saw its stock decline as investors reassessed valuations in the wake of higher-than-expected inflation data."
+          "summary": "Saw a significant drop as investors took profits in semiconductor stocks."
         },
         {
-          "id": "akam",
-          "headline": "Akamai ($AKAM) Experiences Losses",
-          "ticker": "$AKAM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.4%",
+          "id": "losers-ba",
+          "headline": "The Boeing Co.",
+          "ticker": "$BA",
+          "price": "$220.49",
+          "change": "-$8.72",
+          "changePercent": "-3.80%",
           "direction": "down",
-          "summary": "Akamai shares dropped, aligning with the broader tech sector's retreat as inflation concerns pushed bond yields higher."
+          "summary": "Among the components leading the losses in the Dow Jones Index."
         },
         {
-          "id": "hilo",
-          "headline": "Helios Technologies ($HLIO) Surges Earlier This Week",
-          "ticker": "$HLIO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.5%",
-          "direction": "up",
-          "summary": "Motion control and electronic systems manufacturer Helios Technologies gained significantly earlier this week after reporting strong first-quarter 2026 results and raising its full-year forecast."
-        },
-        {
-          "id": "rxt",
-          "headline": "Rackspace Technology ($RXT) Continues Monthly Surge",
-          "ticker": "$RXT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+228.8% (May)",
-          "direction": "up",
-          "summary": "Rackspace Technology has been a top performer in May, with gains driven by AI infrastructure hyperscaler partnerships and raised guidance."
-        },
-        {
-          "id": "pifi",
-          "headline": "P3 Health Partners Inc. ($PIII) Leads Monthly Gainers",
-          "ticker": "$PIII",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+285.3% (May)",
-          "direction": "up",
-          "summary": "P3 Health Partners Inc. stands out as a top performing stock in May 2026, demonstrating substantial monthly gains."
+          "id": "losers-cat",
+          "headline": "Caterpillar Inc.",
+          "ticker": "$CAT",
+          "price": "$888.31",
+          "change": "-$31.91",
+          "changePercent": "-3.47%",
+          "direction": "down",
+          "summary": "Contributed to the Dow's decline with a notable drop in share price."
         }
       ]
     },
@@ -126,65 +241,114 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-cpi",
-          "headline": "April CPI Exceeds Expectations, Fueling Rate Hike Concerns",
-          "summary": "The Consumer Price Index (CPI) for April reported an annual increase of 3.8%, surpassing economists' predictions. This higher-than-expected inflation data has reduced the likelihood of the Federal Reserve lowering interest rates, putting pressure on growth-oriented sectors like technology.",
+          "id": "economic-news-1",
+          "headline": "Treasury Yields Hit One-Year High Amid Inflation Fears",
+          "summary": "The benchmark 10-year U.S. Treasury yield rose to 4.56%-4.60%, its highest level in nearly a year, driven by hotter-than-expected April inflation data and rising geopolitical risks. The 30-year Treasury yield also climbed above 5.1%.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "Federal Reserve"
+            "Treasury Yields"
           ]
         },
         {
-          "id": "fed-leadership",
-          "headline": "Kevin Warsh Assumes Federal Reserve Chairmanship",
-          "summary": "Kevin Warsh has been confirmed as the new Chair of the Federal Reserve, succeeding Jerome Powell. His appointment comes amidst a brewing disagreement within the Fed regarding how artificial intelligence (AI) will impact future monetary policy, with views split between disinflationary and inflationary outcomes.",
+          "id": "economic-news-2",
+          "headline": "Crude Oil Prices Surge Above $100 Per Barrel",
+          "summary": "WTI crude oil prices surged to over $100-$105.90 per barrel, marking an 11.85% increase for the week, with Brent crude futures climbing 3%. This rise is largely attributed to the ongoing conflict in Iran and continued restrictions on traffic through the Strait of Hormuz, fueling inflation concerns.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Leadership"
+            "Economic Data",
+            "Oil Prices",
+            "Geopolitics"
           ]
         },
         {
-          "id": "sector-tech-profit-taking",
-          "headline": "Technology Sector Sees Profit-Taking Post-AI Rally",
-          "summary": "After a robust AI-driven rally, the technology sector experienced a significant pullback. Major chipmakers and software companies recorded losses as investors took profits and reacted to surging Treasury yields and concerns over further interest rate hikes.",
+          "id": "economic-news-3",
+          "headline": "April Inflation Data Shows Persistent Pressures",
+          "summary": "April's Consumer Price Index (CPI) accelerated to +3.8% year-over-year and +0.6% month-over-month. Core CPI, excluding volatile food and energy prices, rose 2.8%. The Producer Price Index (PPI) surged even higher, by +6.0% year-over-year and +1.4% month-over-month, surprising analysts and indicating rising business costs.",
+          "tags": [
+            "Economic Data",
+            "CPI",
+            "PPI"
+          ]
+        },
+        {
+          "id": "economic-news-4",
+          "headline": "Jobless Claims Tick Up, Retail Sales Meet Expectations",
+          "summary": "Initial jobless claims for the week ended May 9 increased by 12,000 to 211,000, remaining within the 200,000 to 250,000 range seen since 2022. Meanwhile, retail sales in April grew +0.5%, aligning with market expectations.",
+          "tags": [
+            "Economic Data",
+            "Job Market",
+            "Retail Sales"
+          ]
+        },
+        {
+          "id": "fed-news-1",
+          "headline": "Kevin Warsh Confirmed as New Federal Reserve Chair",
+          "summary": "Kevin Warsh has been confirmed as the new Chair of the Federal Reserve Board of Governors. Jerome Powell will serve as chair pro tempore until Warsh is officially sworn in. Warsh assumes leadership at a challenging time, facing a tenuously stable labor market, reaccelerating inflation, and a divided Fed Board on monetary policy direction.",
+          "tags": [
+            "Fed Announcement",
+            "Monetary Policy",
+            "Leadership Change"
+          ]
+        },
+        {
+          "id": "earnings-news-1",
+          "headline": "Q1 Earnings Season Nears End with Strong Growth",
+          "summary": "The first-quarter earnings season for S&P 500 companies is largely concluded, with approximately 91% of companies having reported results. The blended earnings growth rate stands at a robust 27.7%, significantly outpacing initial estimates.",
+          "tags": [
+            "Earnings Report",
+            "S&P 500",
+            "Corporate Earnings"
+          ]
+        },
+        {
+          "id": "earnings-news-2",
+          "headline": "Cisco Reports Strong Q3 Amid AI Demand",
+          "summary": "Cisco Systems ($CSCO) announced strong third-quarter fiscal 2026 non-GAAP earnings of $1.06 per share, surpassing estimates. Revenues reached $15.841 billion, driven by substantial demand for the company's products to support the significant growth of AI-powered network traffic.",
+          "tags": [
+            "Earnings Report",
+            "$CSCO",
+            "AI"
+          ]
+        },
+        {
+          "id": "earnings-news-3",
+          "headline": "Upcoming Earnings: Nvidia, Walmart, Home Depot",
+          "summary": "Next week will feature key earnings reports from major companies. Nvidia ($NVDA) is set to release its Q1 2027 fiscal results. Retail giants Walmart ($WMT) and Home Depot ($HD) will also provide insights into consumer health and spending trends.",
+          "tags": [
+            "Earnings Outlook",
+            "$NVDA",
+            "$WMT",
+            "$HD"
+          ]
+        },
+        {
+          "id": "macro-news-1",
+          "headline": "Trump-Xi Summit Concludes Without Major Breakthroughs",
+          "summary": "The highly anticipated summit between U.S. President Donald Trump and Chinese President Xi Jinping concluded in Beijing without the announcement of any major trade agreements or policy breakthroughs, contributing to investor caution in the market.",
+          "tags": [
+            "Geopolitics",
+            "Trade Relations",
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "macro-news-2",
+          "headline": "U.S. National Debt Exceeds GDP, Economists Call it 'Symbolic'",
+          "summary": "The U.S. national debt has surpassed the size of the American economy, with a debt-to-GDP ratio of 100.2% as of March 2026. While a notable milestone, Northeastern University economists largely consider this development symbolic rather than an immediate economic crisis.",
+          "tags": [
+            "Economic Indicator",
+            "National Debt",
+            "GDP"
+          ]
+        },
+        {
+          "id": "sector-news-1",
+          "headline": "Energy Sector Leads as Tech Lags on Friday",
+          "summary": "On Friday, the Energy sector emerged as the top-performing sector, buoyed by surging crude oil prices. Conversely, the Information Technology sector, particularly AI-related stocks, led the declines as investors engaged in profit-taking. For the week, while Information Technology and Communication Services were among leading sectors, Consumer Discretionary and Real Estate showed weakness.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "AI",
-            "Profit Taking"
-          ]
-        },
-        {
-          "id": "earnings-geogroup",
-          "headline": "GEO Group Reports Strong Q1 2026 Earnings",
-          "summary": "GEO Group announced strong first-quarter 2026 results, beating analyst estimates for revenue, EPS, and adjusted EBITDA. The company cited the activation of previously idled facilities and steady demand for secure transportation services as key drivers.",
-          "tags": [
-            "Earnings",
-            "Company News",
-            "$GEO"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Oil Prices Remain High Amid Geopolitical Tensions",
-          "summary": "Rising oil prices, driven in part by geopolitical tensions in the Middle East, continue to be a significant factor in the market. This trend is impacting various sectors, including energy and basic materials, and contributing to broader inflation concerns.",
-          "tags": [
-            "Macro Trends",
             "Energy",
-            "Geopolitics",
-            "Oil Prices"
-          ]
-        },
-        {
-          "id": "china-russia-expo",
-          "headline": "China-Russia Expo Highlights Strengthening Economic Ties",
-          "summary": "The 10th China-Russia Expo, opening in Harbin, China, underscores the deepening economic relationship between the two nations. Trade volumes continue to expand, with a notable shift towards higher-value segments like mechanical and electrical goods, and high-tech products.",
-          "tags": [
-            "International Relations",
-            "Economy",
-            "Trade"
+            "Technology"
           ]
         }
       ]
