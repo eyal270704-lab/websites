@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T11:05:00Z",
+  "generatedAt": "2026-05-18T14:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -7,129 +7,177 @@
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-1",
-          "headline": "Inflation Concerns and Geopolitical Tensions Weigh on Markets",
-          "summary": "Global equity markets are experiencing a cautious start to the week, with major U.S. indices showing declines in pre-market and early trading. Intensifying inflation fears, driven by surging oil prices and rising Treasury yields, coupled with ongoing geopolitical uncertainties surrounding the U.S.-Iran conflict, are contributing to a risk-off sentiment. Investors are also keenly anticipating key economic data and major earnings reports later this week.",
+          "headline": "Markets Face Geopolitical Headwinds, AI Momentum Continues",
+          "summary": "U.S. equities experienced early pressure on Monday, May 18, 2026, as geopolitical tensions stemming from the U.S.-Iran conflict continued to weigh on investor sentiment, driving oil prices higher and fueling inflation concerns. Despite the initial cautious tone, major indices showed some resilience throughout the session. The ongoing Artificial Intelligence (AI) boom remains a significant market driver, particularly for technology and semiconductor stocks, although poor market breadth indicates gains are concentrated in a few mega-cap companies. Investors are also closely watching a busy week of earnings reports from major corporations, including Nvidia and Walmart.",
           "tags": [
             "Market Sentiment",
-            "Inflation",
-            "Geopolitics"
+            "Geopolitics",
+            "AI",
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices-1",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-today",
-          "statLabel": "S&P 500 (Early Trade)",
-          "statValue": "7,380.46",
-          "statContext": "Down 0.38% from previous session. (Friday's close: 7,408.50, down 1.24%)"
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "7,424.00",
+          "statContext": "+0.22% today. Closed Friday at 7,408.50.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-today",
-          "statLabel": "NASDAQ Composite (Early Trade)",
-          "statValue": "N/A",
-          "statContext": "Futures were down 0.70% in pre-market. (Friday's close: 26,225.15, down 1.54%)"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,289.49",
+          "statContext": "+0.25% at open. Closed Friday at 26,225.14.",
+          "direction": "up"
         },
         {
-          "id": "dow-today",
-          "statLabel": "Dow Jones (Early Trade)",
-          "statValue": "N/A",
-          "statContext": "Futures were down 0.93% in pre-market. (Friday's close: 49,526.17, down 1.07%)"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,481.04",
+          "statContext": "-0.09% at open. Closed Friday at 49,526.17.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-today",
+      "id": "top-movers-1",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "regn-loser",
-          "headline": "Regeneron Pharma Tumbles on Trial Results",
-          "summary": "Regeneron Pharmaceuticals ($REGN) experienced a significant decline in pre-market trading, tumbling 11.92% after its Phase 3 trials for metastatic melanoma did not achieve statistical significance.",
+          "id": "dominion-gainer",
+          "headline": "Dominion Energy Surges on Buyout Talks",
+          "ticker": "$D",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+14.3%",
+          "direction": "up",
+          "summary": "Dominion Energy shares surged over 14% in premarket trading on reports of potential buyout talks with rival utility giant NextEra Energy ($NEE), aiming to create the world's largest regulated electric utility."
+        },
+        {
+          "id": "bio-rad-gainer",
+          "headline": "Bio-Rad Laboratories Jumps on Activist Stake",
+          "ticker": "$BIO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.8%",
+          "direction": "up",
+          "summary": "Bio-Rad Laboratories gained in premarket as activist investor Elliott Investment Management reportedly built a significant stake in the company to boost its stock price."
+        },
+        {
+          "id": "liveramp-gainer",
+          "headline": "LiveRamp Climbs on Acquisition News",
+          "ticker": "$RAMP",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+27%",
+          "direction": "up",
+          "summary": "LiveRamp saw a substantial gain as Publicis Groupe SA agreed to acquire the online data broker for approximately $2.5 billion in cash."
+        },
+        {
+          "id": "regeneron-loser",
+          "headline": "Regeneron Falls on Trial Failure",
           "ticker": "$REGN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.92%",
+          "changePercent": "-10.5%",
           "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Biopharma"
-          ]
+          "summary": "Regeneron Pharmaceuticals fell significantly in premarket after its Phase 3 trial for metastatic melanoma did not achieve statistical significance."
         },
         {
-          "id": "energy-gainer-sector",
-          "headline": "Energy Sector Shows Resilience Amidst Oil Surge",
-          "summary": "While the broader market experienced a sell-off, the energy sector demonstrated strength, collectively rising 2.3% as crude oil prices surged on ongoing supply concerns and geopolitical tensions.",
-          "ticker": "N/A",
+          "id": "unitedhealth-loser",
+          "headline": "UnitedHealth Group Declines",
+          "ticker": "$UNH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.3% (Sector)",
-          "direction": "up",
-          "tags": [
-            "Energy",
-            "Commodities"
-          ]
+          "changePercent": "-4.8%",
+          "direction": "down",
+          "summary": "UnitedHealth Group experienced a drop in premarket trading."
+        },
+        {
+          "id": "amber-loser",
+          "headline": "Amber Enterprises Crashes on Weak Earnings",
+          "ticker": "N/A",
+          "price": "₹7,153.50",
+          "change": "N/A",
+          "changePercent": "-16%",
+          "direction": "down",
+          "summary": "Shares of Amber Enterprises crashed 16% on weaker-than-expected March quarter results, marking its worst single-day drop in nearly four years."
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news-1",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-inflation",
-          "headline": "April US Inflation Jumps to 3.8%, Fueling Rate Hike Concerns",
-          "summary": "U.S. inflation surged to 3.8% in April, higher than anticipated, primarily driven by the ongoing U.S.-Iran conflict and its impact on energy prices. This data is leading traders to rule out Federal Reserve rate cuts this year and raises prospects for potential future rate hikes.",
+          "id": "geopolitical-tensions",
+          "headline": "U.S.-Iran Conflict Fuels Market Uncertainty and Oil Prices",
+          "summary": "Uncertainty surrounding the U.S.-Iran conflict continues to impact global markets, with oil prices, particularly Brent crude, surging above $111 a barrel. This geopolitical backdrop is contributing to inflation fears and affecting supply chains, notably the chip shortage due to disruptions in helium production.",
           "tags": [
-            "Inflation",
-            "Economic Data",
-            "Fed Policy"
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Minutes and Housing Data Expected This Week",
-          "summary": "The Federal Reserve's FOMC meeting minutes, due on Thursday, will be closely scrutinized for signals regarding future interest rate paths, especially after recent inflation data. Additionally, the U.S. May NAHB Housing Market Index and other housing-related indicators are scheduled for release this week.",
+          "id": "ai-boom-continues",
+          "headline": "AI Revolution Sustains Tech Sector Momentum",
+          "summary": "The artificial intelligence revolution remains a powerful catalyst for the market, especially driving gains in technology and semiconductor stocks. Companies like Nvidia ($NVDA) are in focus ahead of their earnings reports, with analysts expecting strong results due to increasing demand for AI infrastructure.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Nvidia",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "earnings-season-focus",
+          "headline": "Key Earnings Reports on Deck This Week",
+          "summary": "Investors are preparing for a significant week of corporate earnings. Nvidia ($NVDA) is set to report on Wednesday, followed by Walmart ($WMT) on Thursday. Home Depot ($HD) and Target ($TGT) are also among the major companies scheduled to release their quarterly results, providing further insights into consumer health and broader economic trends.",
+          "tags": [
+            "Earnings",
+            "Nvidia",
+            "Walmart"
+          ]
+        },
+        {
+          "id": "fed-inflation-outlook",
+          "headline": "Inflation Pressures Suggest No Near-Term Fed Rate Cuts",
+          "summary": "Recent inflation data, including a 3.8% annual inflation rate in April, suggests the Federal Reserve is unlikely to cut interest rates in the near future. Elevated oil costs from the Middle East conflict are exacerbating price pressures, leading financial markets to anticipate interest rates remaining in restrictive territory.",
           "tags": [
             "Federal Reserve",
-            "Monetary Policy",
-            "Economic Calendar"
+            "Inflation",
+            "Interest Rates"
           ]
         },
         {
-          "id": "earnings-watch",
-          "headline": "Nvidia Earnings Eyed Amidst Tech Pullback; Walmart & Home Depot Also Reporting",
-          "summary": "Investors are keenly awaiting Nvidia's ($NVDA) earnings report on Tuesday, a critical event for the AI-driven tech sector, which has seen profit-taking. Major retailers like Walmart ($WMT) on Thursday, and Home Depot ($HD), Lowe's ($LOW), and Target ($TGT) earlier in the week, are also slated to report, offering insights into consumer behavior amidst inflation.",
+          "id": "sector-rotations",
+          "headline": "Mixed Sector Performance Amidst Market Dynamics",
+          "summary": "Sector performance is mixed; while Energy saw gains last week, and Utilities and Communication Services were strong monthly performers in May, other sectors like Materials and Industrials experienced declines on Friday. The Information Technology sector has been a dominant leader, though market breadth remains narrow.",
           "tags": [
-            "Earnings Season",
-            "Technology",
-            "Retail"
-          ]
-        },
-        {
-          "id": "oil-geopolitics",
-          "headline": "Oil Prices Surge to Two-Week Highs on Middle East Tensions",
-          "summary": "Crude oil prices have climbed past $110, reaching their highest levels in two weeks, as prospects for an end to the U.S.-Iran conflict remain uncertain following an attack on a nuclear facility in the UAE and President Trump's warnings to Iran. This surge contributes to broader inflation worries.",
-          "tags": [
-            "Commodities",
-            "Geopolitics",
-            "Oil"
+            "Sector Analysis",
+            "Energy",
+            "Utilities",
+            "Technology"
           ]
         }
       ]
