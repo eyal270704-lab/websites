@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T21:19:16.956013Z",
+  "generatedAt": "2026-05-18T23:12:27.152201Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 7,
+  "tradeCount": 10,
   "trades": [
     {
       "ticker": "$APP",
@@ -112,6 +112,54 @@
       "analysis": "Uber's price is consolidating around the $75.00 level, aligning with a 50% Fibonacci retracement and acting as a support test. While short-term moving averages show mixed signals, the stock remains below its 150-day moving average, indicating a prevailing long-term downtrend. Volume is currently below its 20-day average, suggesting a lack of strong conviction from buyers or sellers.",
       "riskScore": 6,
       "footerTag": "Consolidation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MRNA",
+      "name": "Moderna, Inc.",
+      "sector": "Biotechnology",
+      "currentPrice": "$48.22",
+      "entry": "$46.00",
+      "stop": "$43.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Moderna has pulled back significantly from its recent surge, currently trading below its 20-day moving average but remains above its longer-term 150-day moving average. It is approaching a key technical support level at $46, which could present an entry opportunity if it holds. Volume is currently low, indicating reduced buying interest.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$222.32",
+      "entry": "$220.00",
+      "stop": "$208.00",
+      "structure": "Pullback to Support",
+      "trend": "> 150MA, > 20MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is in a strong uptrend, trading above both its 20-day and 150-day moving averages, but has pulled back from recent highs. It is nearing a potential support level around $220, offering a dip-buying opportunity. However, earnings are scheduled in two days, presenting a high-risk catalyst. Volume is currently below average.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Automobile Manufacturers",
+      "currentPrice": "$409.99",
+      "entry": "$405.00",
+      "stop": "$385.00",
+      "structure": "Support Test",
+      "trend": "> 150MA, > 20MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is currently trading above both its 20-day and 200-day moving averages, indicating a bullish trend despite a recent pullback. The stock has shown support near the $405 level. An entry near this support, with a stop below the 50-day moving average, could offer a swing trade opportunity. Volume is currently below average.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
       "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
