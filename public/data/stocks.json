@@ -1,354 +1,135 @@
 {
-  "generatedAt": "2026-05-17T17:00:00Z",
+  "generatedAt": "2026-05-18T11:05:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, May 15, 2026 Market Close Summary",
-  "badge": "Friday Close",
+  "subtitle": "May 18, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-sentiment-1",
-          "headline": "U.S. Equities Retreat from Record Highs on Inflation Fears and Geopolitical Tensions",
-          "summary": "U.S. equities experienced broad selling pressure on Friday, reversing recent optimism, as investors adopted a cautious stance. Rising Treasury yields, higher crude oil prices, and persistent inflation concerns weighed heavily on market sentiment. The closely watched summit between U.S. President Donald Trump and Chinese President Xi Jinping concluded without major breakthroughs, further contributing to the cautious mood. Technology stocks, especially those in the AI sector, led the declines as traders engaged in profit-taking after a robust rally. The CBOE Volatility Index surged, signaling expectations for continued market fluctuations.",
+          "id": "market-summary-1",
+          "headline": "Inflation Concerns and Geopolitical Tensions Weigh on Markets",
+          "summary": "Global equity markets are experiencing a cautious start to the week, with major U.S. indices showing declines in pre-market and early trading. Intensifying inflation fears, driven by surging oil prices and rising Treasury yields, coupled with ongoing geopolitical uncertainties surrounding the U.S.-Iran conflict, are contributing to a risk-off sentiment. Investors are also keenly anticipating key economic data and major earnings reports later this week.",
           "tags": [
             "Market Sentiment",
             "Inflation",
-            "Treasury Yields"
+            "Geopolitics"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,408.50",
-          "statContext": "Down 92.74 points (-1.2%) on Friday. Up 0.1% for the week."
+          "id": "sp500-today",
+          "statLabel": "S&P 500 (Early Trade)",
+          "statValue": "7,380.46",
+          "statContext": "Down 0.38% from previous session. (Friday's close: 7,408.50, down 1.24%)"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,225.14",
-          "statContext": "Down 410.08 points (-1.5%) on Friday. Down 0.1% for the week."
+          "id": "nasdaq-today",
+          "statLabel": "NASDAQ Composite (Early Trade)",
+          "statValue": "N/A",
+          "statContext": "Futures were down 0.70% in pre-market. (Friday's close: 26,225.15, down 1.54%)"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,526.17",
-          "statContext": "Down 537.29 points (-1.1%) on Friday. Down 0.2% for the week."
-        },
-        {
-          "id": "russell2000-stat",
-          "statLabel": "Russell 2000",
-          "statValue": "2,793.30",
-          "statContext": "Down 69.79 points (-2.4%) on Friday."
+          "id": "dow-today",
+          "statLabel": "Dow Jones (Early Trade)",
+          "statValue": "N/A",
+          "statContext": "Futures were down 0.93% in pre-market. (Friday's close: 49,526.17, down 1.07%)"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-today",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainers-apa",
-          "headline": "APA Corp.",
-          "ticker": "$APA",
+          "id": "regn-loser",
+          "headline": "Regeneron Pharma Tumbles on Trial Results",
+          "summary": "Regeneron Pharmaceuticals ($REGN) experienced a significant decline in pre-market trading, tumbling 11.92% after its Phase 3 trials for metastatic melanoma did not achieve statistical significance.",
+          "ticker": "$REGN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.03%",
+          "changePercent": "-11.92%",
+          "direction": "down",
+          "tags": [
+            "Healthcare",
+            "Biopharma"
+          ]
+        },
+        {
+          "id": "energy-gainer-sector",
+          "headline": "Energy Sector Shows Resilience Amidst Oil Surge",
+          "summary": "While the broader market experienced a sell-off, the energy sector demonstrated strength, collectively rising 2.3% as crude oil prices surged on ongoing supply concerns and geopolitical tensions.",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.3% (Sector)",
           "direction": "up",
-          "summary": "Gained as the energy sector outperformed amidst surging oil prices."
-        },
-        {
-          "id": "gainers-dvn",
-          "headline": "Devon Energy Corp.",
-          "ticker": "$DVN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.78%",
-          "direction": "up",
-          "summary": "Benefited from the strength in the energy sector due to elevated crude oil prices."
-        },
-        {
-          "id": "gainers-oxy",
-          "headline": "Occidental Petroleum Corp.",
-          "ticker": "$OXY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.88%",
-          "direction": "up",
-          "summary": "Rose with other energy stocks as oil prices continued their climb."
-        },
-        {
-          "id": "gainers-xom",
-          "headline": "Exxon Mobil Corp.",
-          "ticker": "$XOM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.07%",
-          "direction": "up",
-          "summary": "Posted solid gains, driven by the overall positive momentum in the energy sector."
-        },
-        {
-          "id": "gainers-eog",
-          "headline": "EOG Resources Inc.",
-          "ticker": "$EOG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.11%",
-          "direction": "up",
-          "summary": "Advanced as oil prices surged, boosting the performance of exploration and production companies."
-        },
-        {
-          "id": "gainers-msft",
-          "headline": "Microsoft Corp.",
-          "ticker": "$MSFT",
-          "price": "$421.92",
-          "change": "+$12.49",
-          "changePercent": "+3.05%",
-          "direction": "up",
-          "summary": "Saw an uptick in its share price during Friday's trading."
-        },
-        {
-          "id": "gainers-crm",
-          "headline": "Salesforce Inc.",
-          "ticker": "$CRM",
-          "price": "$173.51",
-          "change": "+$5.93",
-          "changePercent": "+3.54%",
-          "direction": "up",
-          "summary": "Showed strong performance, with its stock moving positively on Friday."
-        },
-        {
-          "id": "losers-wix",
-          "headline": "Wix.com Ltd.",
-          "ticker": "$WIX",
-          "price": "$54.74",
-          "change": "N/A",
-          "changePercent": "-31.74%",
-          "direction": "down",
-          "summary": "Was the worst-performing U.S.-listed stock for the week, experiencing a significant decline."
-        },
-        {
-          "id": "losers-optu",
-          "headline": "Optimum Communications",
-          "ticker": "$OPTU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-28.82%",
-          "direction": "down",
-          "summary": "Fell sharply, making it one of the largest weekly losers."
-        },
-        {
-          "id": "losers-sabr",
-          "headline": "Sabre Corp.",
-          "ticker": "$SABR",
-          "price": "$1.59",
-          "change": "N/A",
-          "changePercent": "-22.2%",
-          "direction": "down",
-          "summary": "Experienced a notable drop in its stock price over the week."
-        },
-        {
-          "id": "losers-birk",
-          "headline": "Birkenstock Holding Ltd.",
-          "ticker": "$BIRK",
-          "price": "$31.15",
-          "change": "N/A",
-          "changePercent": "-20.72%",
-          "direction": "down",
-          "summary": "Saw its stock price decline significantly, contributing to weekly losses."
-        },
-        {
-          "id": "losers-nvda",
-          "headline": "NVIDIA Corp.",
-          "ticker": "$NVDA",
-          "price": "$225.32",
-          "change": "-$10.42",
-          "changePercent": "-4.42%",
-          "direction": "down",
-          "summary": "AI bellwether lagged as traders pulled away from higher-risk assets and locked in profits after a sharp rally."
-        },
-        {
-          "id": "losers-intc",
-          "headline": "Intel Corp.",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": ">-6%",
-          "direction": "down",
-          "summary": "Fell more than 6% as technology stocks retreated."
-        },
-        {
-          "id": "losers-amd",
-          "headline": "Advanced Micro Devices Inc.",
-          "ticker": "$AMD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.7%",
-          "direction": "down",
-          "summary": "Declined amidst the broader sell-off in the technology sector."
-        },
-        {
-          "id": "losers-mu",
-          "headline": "Micron Technology Inc.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.6%",
-          "direction": "down",
-          "summary": "Saw a significant drop as investors took profits in semiconductor stocks."
-        },
-        {
-          "id": "losers-ba",
-          "headline": "The Boeing Co.",
-          "ticker": "$BA",
-          "price": "$220.49",
-          "change": "-$8.72",
-          "changePercent": "-3.80%",
-          "direction": "down",
-          "summary": "Among the components leading the losses in the Dow Jones Index."
-        },
-        {
-          "id": "losers-cat",
-          "headline": "Caterpillar Inc.",
-          "ticker": "$CAT",
-          "price": "$888.31",
-          "change": "-$31.91",
-          "changePercent": "-3.47%",
-          "direction": "down",
-          "summary": "Contributed to the Dow's decline with a notable drop in share price."
+          "tags": [
+            "Energy",
+            "Commodities"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-today",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-1",
-          "headline": "Treasury Yields Hit One-Year High Amid Inflation Fears",
-          "summary": "The benchmark 10-year U.S. Treasury yield rose to 4.56%-4.60%, its highest level in nearly a year, driven by hotter-than-expected April inflation data and rising geopolitical risks. The 30-year Treasury yield also climbed above 5.1%.",
+          "id": "economic-data-inflation",
+          "headline": "April US Inflation Jumps to 3.8%, Fueling Rate Hike Concerns",
+          "summary": "U.S. inflation surged to 3.8% in April, higher than anticipated, primarily driven by the ongoing U.S.-Iran conflict and its impact on energy prices. This data is leading traders to rule out Federal Reserve rate cuts this year and raises prospects for potential future rate hikes.",
           "tags": [
-            "Economic Data",
             "Inflation",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "economic-news-2",
-          "headline": "Crude Oil Prices Surge Above $100 Per Barrel",
-          "summary": "WTI crude oil prices surged to over $100-$105.90 per barrel, marking an 11.85% increase for the week, with Brent crude futures climbing 3%. This rise is largely attributed to the ongoing conflict in Iran and continued restrictions on traffic through the Strait of Hormuz, fueling inflation concerns.",
-          "tags": [
             "Economic Data",
-            "Oil Prices",
-            "Geopolitics"
+            "Fed Policy"
           ]
         },
         {
-          "id": "economic-news-3",
-          "headline": "April Inflation Data Shows Persistent Pressures",
-          "summary": "April's Consumer Price Index (CPI) accelerated to +3.8% year-over-year and +0.6% month-over-month. Core CPI, excluding volatile food and energy prices, rose 2.8%. The Producer Price Index (PPI) surged even higher, by +6.0% year-over-year and +1.4% month-over-month, surprising analysts and indicating rising business costs.",
+          "id": "fed-outlook",
+          "headline": "Fed Minutes and Housing Data Expected This Week",
+          "summary": "The Federal Reserve's FOMC meeting minutes, due on Thursday, will be closely scrutinized for signals regarding future interest rate paths, especially after recent inflation data. Additionally, the U.S. May NAHB Housing Market Index and other housing-related indicators are scheduled for release this week.",
           "tags": [
-            "Economic Data",
-            "CPI",
-            "PPI"
-          ]
-        },
-        {
-          "id": "economic-news-4",
-          "headline": "Jobless Claims Tick Up, Retail Sales Meet Expectations",
-          "summary": "Initial jobless claims for the week ended May 9 increased by 12,000 to 211,000, remaining within the 200,000 to 250,000 range seen since 2022. Meanwhile, retail sales in April grew +0.5%, aligning with market expectations.",
-          "tags": [
-            "Economic Data",
-            "Job Market",
-            "Retail Sales"
-          ]
-        },
-        {
-          "id": "fed-news-1",
-          "headline": "Kevin Warsh Confirmed as New Federal Reserve Chair",
-          "summary": "Kevin Warsh has been confirmed as the new Chair of the Federal Reserve Board of Governors. Jerome Powell will serve as chair pro tempore until Warsh is officially sworn in. Warsh assumes leadership at a challenging time, facing a tenuously stable labor market, reaccelerating inflation, and a divided Fed Board on monetary policy direction.",
-          "tags": [
-            "Fed Announcement",
+            "Federal Reserve",
             "Monetary Policy",
-            "Leadership Change"
+            "Economic Calendar"
           ]
         },
         {
-          "id": "earnings-news-1",
-          "headline": "Q1 Earnings Season Nears End with Strong Growth",
-          "summary": "The first-quarter earnings season for S&P 500 companies is largely concluded, with approximately 91% of companies having reported results. The blended earnings growth rate stands at a robust 27.7%, significantly outpacing initial estimates.",
+          "id": "earnings-watch",
+          "headline": "Nvidia Earnings Eyed Amidst Tech Pullback; Walmart & Home Depot Also Reporting",
+          "summary": "Investors are keenly awaiting Nvidia's ($NVDA) earnings report on Tuesday, a critical event for the AI-driven tech sector, which has seen profit-taking. Major retailers like Walmart ($WMT) on Thursday, and Home Depot ($HD), Lowe's ($LOW), and Target ($TGT) earlier in the week, are also slated to report, offering insights into consumer behavior amidst inflation.",
           "tags": [
-            "Earnings Report",
-            "S&P 500",
-            "Corporate Earnings"
+            "Earnings Season",
+            "Technology",
+            "Retail"
           ]
         },
         {
-          "id": "earnings-news-2",
-          "headline": "Cisco Reports Strong Q3 Amid AI Demand",
-          "summary": "Cisco Systems ($CSCO) announced strong third-quarter fiscal 2026 non-GAAP earnings of $1.06 per share, surpassing estimates. Revenues reached $15.841 billion, driven by substantial demand for the company's products to support the significant growth of AI-powered network traffic.",
+          "id": "oil-geopolitics",
+          "headline": "Oil Prices Surge to Two-Week Highs on Middle East Tensions",
+          "summary": "Crude oil prices have climbed past $110, reaching their highest levels in two weeks, as prospects for an end to the U.S.-Iran conflict remain uncertain following an attack on a nuclear facility in the UAE and President Trump's warnings to Iran. This surge contributes to broader inflation worries.",
           "tags": [
-            "Earnings Report",
-            "$CSCO",
-            "AI"
-          ]
-        },
-        {
-          "id": "earnings-news-3",
-          "headline": "Upcoming Earnings: Nvidia, Walmart, Home Depot",
-          "summary": "Next week will feature key earnings reports from major companies. Nvidia ($NVDA) is set to release its Q1 2027 fiscal results. Retail giants Walmart ($WMT) and Home Depot ($HD) will also provide insights into consumer health and spending trends.",
-          "tags": [
-            "Earnings Outlook",
-            "$NVDA",
-            "$WMT",
-            "$HD"
-          ]
-        },
-        {
-          "id": "macro-news-1",
-          "headline": "Trump-Xi Summit Concludes Without Major Breakthroughs",
-          "summary": "The highly anticipated summit between U.S. President Donald Trump and Chinese President Xi Jinping concluded in Beijing without the announcement of any major trade agreements or policy breakthroughs, contributing to investor caution in the market.",
-          "tags": [
+            "Commodities",
             "Geopolitics",
-            "Trade Relations",
-            "Market Sentiment"
-          ]
-        },
-        {
-          "id": "macro-news-2",
-          "headline": "U.S. National Debt Exceeds GDP, Economists Call it 'Symbolic'",
-          "summary": "The U.S. national debt has surpassed the size of the American economy, with a debt-to-GDP ratio of 100.2% as of March 2026. While a notable milestone, Northeastern University economists largely consider this development symbolic rather than an immediate economic crisis.",
-          "tags": [
-            "Economic Indicator",
-            "National Debt",
-            "GDP"
-          ]
-        },
-        {
-          "id": "sector-news-1",
-          "headline": "Energy Sector Leads as Tech Lags on Friday",
-          "summary": "On Friday, the Energy sector emerged as the top-performing sector, buoyed by surging crude oil prices. Conversely, the Information Technology sector, particularly AI-related stocks, led the declines as investors engaged in profit-taking. For the week, while Information Technology and Communication Services were among leading sectors, Consumer Discretionary and Real Estate showed weakness.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Technology"
+            "Oil"
           ]
         }
       ]
