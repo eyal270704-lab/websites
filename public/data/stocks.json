@@ -1,28 +1,26 @@
 {
-  "generatedAt": "2026-05-19T10:35:00Z",
+  "generatedAt": "2026-05-19T14:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 19, 2026",
-  "subtitle": "Market closes mixed as tech lags amid inflation concerns and geopolitical tensions, energy gains.",
+  "title": "Daily Market Digest",
+  "subtitle": "May 19, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall-summary",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Stocks Close Mixed Amid Geopolitical Unrest and Inflation Fears",
-          "summary": "U.S. equity markets concluded Tuesday's trading session with a mixed performance. The Nasdaq Composite and S&P 500 dipped, largely influenced by surging oil prices, elevated Treasury yields, and a notable retreat in technology shares. The Dow Jones Industrial Average, however, managed a modest gain, buoyed by strength in energy and industrial sectors. Investors are currently navigating persistent inflation risks, concerns over the Iran war, and the implications of higher bond yields, which continue to drive sector rotations. Not financial advice.",
+          "id": "market-summary-001",
+          "headline": "US Futures Fall Amid Tech Sell-off and Geopolitical Uncertainty",
+          "summary": "U.S. stock futures opened lower today as investors remained cautious due to ongoing Middle East tensions and a continued tech sell-off. The S&P 500 and Nasdaq were pressured, with concerns over elevated oil prices and bond yields reviving inflation fears. Despite this, strong buying in information technology stocks helped to limit overall losses in some markets.",
           "tags": [
-            "Market Summary",
-            "Inflation",
+            "Market Overview",
             "Geopolitics",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-05-19T10:35:00Z"
+            "Inflation"
+          ]
         }
       ]
     },
@@ -33,37 +31,22 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,403.05",
-          "statContext": "Down 0.1%",
-          "ticker": "$SPX",
-          "price": "7403.05",
-          "change": "-5.45",
-          "changePercent": "-0.1%",
-          "direction": "down"
+          "statValue": "-0.32%",
+          "statContext": "Down 24 points amid tech pullback."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,090.73",
-          "statContext": "Down 0.5%",
-          "ticker": "$IXIC",
-          "price": "26090.73",
-          "change": "-134.41",
-          "changePercent": "-0.5%",
-          "direction": "down"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ",
+          "statValue": "-0.62%",
+          "statContext": "Down 182 points, pressured by tech sector weakness."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "49,686.12",
-          "statContext": "Up 0.3%",
-          "ticker": "$DJIA",
-          "price": "49686.12",
-          "change": "+159.95",
-          "changePercent": "+0.3%",
-          "direction": "up"
+          "id": "dow-stat",
+          "statLabel": "DOW",
+          "statValue": "-0.17%",
+          "statContext": "Down 85 points in a mixed session."
         }
       ]
     },
@@ -74,145 +57,118 @@
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-agys",
-          "headline": "Agilysys Surges on Strong Q4 and Upbeat Outlook",
-          "summary": "Shares of Agilysys jumped significantly after the company reported stronger-than-expected Q4 results and issued an upbeat FY2027 guidance, with adjusted EPS of $0.63 and revenue of $82.9M, both surpassing Wall Street estimates.",
-          "ticker": "$AGYS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14%",
+          "id": "gainer-fox",
+          "headline": "Fox Corporation Rises on Strong Pre-Market Activity",
+          "ticker": "$FOX",
+          "price": "$63.20",
+          "change": "+$4.21",
+          "changePercent": "+7.14%",
           "direction": "up",
-          "tags": [
-            "Software",
-            "Earnings"
-          ]
+          "summary": "Fox Corporation saw significant gains in pre-market trading today."
         },
         {
-          "id": "gainer-d",
-          "headline": "Dominion Rallies on Acquisition News",
-          "summary": "Dominion shares rallied following the announcement that NextEra Energy agreed to acquire the utility in an all-stock deal, poised to create the world's largest regulated electric utility by market value.",
-          "ticker": "$D",
+          "id": "gainer-mpc",
+          "headline": "Marathon Petroleum Surges in Pre-Market",
+          "ticker": "$MPC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.4%",
+          "changePercent": "+7.5%",
           "direction": "up",
-          "tags": [
-            "Utilities",
-            "M&A"
-          ]
+          "summary": "Shares of Marathon Petroleum were surging in pre-market trading."
         },
         {
-          "id": "gainer-bsx",
-          "headline": "Boston Scientific Climbs on Share Buyback Program",
-          "summary": "Boston Scientific saw its stock climb after the company announced plans to spend $2 billion of its previously announced $5 billion stock buyback program by the end of June, a move that typically boosts per-share earnings.",
-          "ticker": "$BSX",
-          "price": "N/A",
+          "id": "loser-btm",
+          "headline": "Bitcoin Depot Experiences Significant Decline",
+          "ticker": "$BTM",
+          "price": "$0.784",
           "change": "N/A",
-          "changePercent": "+6.2%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Share Buyback"
-          ]
-        },
-        {
-          "id": "loser-regn",
-          "headline": "Regeneron Drops on Disappointing Drug Trial Results",
-          "summary": "Regeneron Pharmaceuticals experienced a significant drop after reporting discouraging data from a trial of its melanoma treatment drug, failing to meet its main goal.",
-          "ticker": "$REGN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.8%",
+          "changePercent": "-73.24%",
           "direction": "down",
-          "tags": [
-            "Biotechnology",
-            "Clinical Trials"
-          ]
+          "summary": "Bitcoin Depot Inc. recorded one of the largest percentage losses today."
         },
         {
-          "id": "loser-stx",
-          "headline": "Seagate Technology Falls on AI Demand Concerns",
-          "summary": "Seagate Technology's stock dropped after its CEO commented that the company might struggle to keep up with the surging demand for AI-related storage, raising questions about future supply.",
-          "ticker": "$STX",
+          "id": "loser-phm",
+          "headline": "PulteGroup Plunges in Early Trading",
+          "ticker": "$PHM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.9%",
+          "changePercent": "-16.8%",
           "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI"
-          ]
+          "summary": "Homebuilder PulteGroup saw a sharp decline in pre-market trading."
         },
         {
-          "id": "loser-mu",
-          "headline": "Micron Technology Declines Amid Broader Tech Selloff",
-          "summary": "Micron Technology's shares fell, contributing to a broader decline in memory chip and other AI-related stocks as the technology sector faced pressure from rising oil prices and Treasury yields.",
-          "ticker": "$MU",
+          "id": "loser-hd",
+          "headline": "Home Depot Shares Decline Despite Earnings Beat",
+          "ticker": "$HD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.95%",
+          "changePercent": "-2.2%",
           "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "Home Depot's stock fell in early trade despite reporting quarterly earnings that exceeded analyst expectations, as sales growth at comparable stores missed some estimates."
+        },
+        {
+          "id": "loser-akam",
+          "headline": "Akamai Technologies Drops Following Convertible Note Announcement",
+          "ticker": "$AKAM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.9%",
+          "direction": "down",
+          "summary": "Akamai Technologies experienced a decline in early trade after announcing plans to raise $2.6 billion through a convertible note offering."
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-chair-warsh-sworn-in",
-          "headline": "Kevin Warsh to be Sworn in as New Fed Chair Amid Inflation Concerns",
-          "summary": "Kevin Warsh is set to be sworn in as the new Federal Reserve Chair on Friday by President Trump, replacing Jerome Powell. His appointment comes at a time when Fed officials are signaling patience on rate cuts, with persistent inflation concerns remaining a key focus, and market expectations for a rate hike in 2026 increasing. Federal Reserve Board Governor Christopher Waller also participated in a policy panel today.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
-          ],
-          "timestamp": "2026-05-19T10:35:00Z"
-        },
-        {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Shows Housing Market Improvement, Persistent Inflation",
-          "summary": "The US NAHB/Wells Fargo Housing Market Index rose to 37 in May 2026 from 34 in April, exceeding forecasts of 35, indicating some resilience in the housing sector. Meanwhile, the US Consumer Price Index (CPI) increased 3.8% year-over-year in April, the highest reading since May 2023, largely driven by elevated oil and gasoline prices, underscoring ongoing inflation pressures.",
+          "id": "economic-news-001",
+          "headline": "Fed Governor Waller Participates in Policy Panel; New Fed Chair Confirmed",
+          "summary": "Federal Reserve Board Governor Christopher Waller is participating in a policy panel today. Meanwhile, Kevin Warsh has been confirmed as the new Federal Reserve Chair, concluding Jerome Powell's eight-year term. Market expectations for a possible rate hike by the US Federal Reserve in 2026 have risen to approximately 28% for the December meeting.",
           "tags": [
             "Economic Data",
-            "Housing",
-            "Inflation",
-            "CPI"
+            "Fed",
+            "Interest Rates"
           ],
-          "timestamp": "2026-05-19T10:35:00Z"
+          "timestamp": "2026-05-19T07:00:00Z"
         },
         {
-          "id": "major-earnings-reports",
-          "headline": "Home Depot Reports Q1 Earnings; Nvidia Anticipated Later This Week",
-          "summary": "Home Depot ($HD) is reporting its fiscal Q1 FY27 earnings today before the market open, with analysts anticipating EPS near $3.41 on revenues around $41.5 billion. This report is being closely watched for insights into housing and consumer spending trends. Additionally, Nvidia's ($NVDA) highly anticipated earnings report is expected on Wednesday, with Target ($TGT) and Walmart ($WMT) also scheduled to release their quarterly results later this week.",
+          "id": "earnings-report-hd",
+          "headline": "Home Depot Reports Q1 Fiscal 2026 Results, Reaffirms Guidance",
+          "summary": "The Home Depot announced first-quarter fiscal 2026 sales of $41.8 billion, an increase of 4.8% from the prior year. Net earnings were $3.3 billion, or $3.30 per diluted share, compared with $3.4 billion, or $3.45 per diluted share, in the same period last year. The company reaffirmed its fiscal 2026 guidance.",
           "tags": [
             "Earnings",
-            "Retail",
-            "Technology",
-            "Housing"
+            "Retail"
           ],
-          "timestamp": "2026-05-19T10:35:00Z"
+          "timestamp": "2026-05-19T05:19:00Z"
         },
         {
-          "id": "sector-performance-insights",
-          "headline": "Energy Sector Leads as Tech Lags Amid AI Boom Divergence",
-          "summary": "The energy sector demonstrated leadership today, propelled by elevated crude oil prices which remained near $110 per barrel due to ongoing geopolitical tensions related to the Iran war. Conversely, the technology sector continued to lag, particularly software stocks, as investors weighed fears of AI disruption against the surging performance of hardware, semiconductor, and memory firms benefiting from the AI boom. This has created a significant performance gap within the tech sector itself.",
+          "id": "sector-analysis-tech",
+          "headline": "Tech Sector Experiences Wide Performance Dispersion",
+          "summary": "The technology sector is exhibiting a significant split in performance, continuing a trend observed since 2021. While hardware stocks tied to data center storage and semiconductors have seen surges, software stocks are lagging due to concerns that AI could disrupt their business models.",
           "tags": [
             "Sector Analysis",
-            "Energy",
             "Technology",
-            "AI",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-05-19T10:35:00Z"
+            "AI"
+          ]
+        },
+        {
+          "id": "oil-geopolitics",
+          "headline": "Oil Prices Ease as Geopolitical Tensions Cool Slightly",
+          "summary": "Oil prices were falling today after President Donald Trump announced a pause in fresh military strikes on Iran, indicating ongoing discussions towards a peace deal. Brent crude traded 1.80% lower at $110 per barrel, while West Texas Intermediate crude fell 1.38% to $102.90 per barrel.",
+          "tags": [
+            "Commodities",
+            "Geopolitics",
+            "Energy"
+          ]
+        },
+        {
+          "id": "consumer-sentiment",
+          "headline": "Consumer Uncertainty and Housing Market Pressures Persist",
+          "summary": "American consumers remain cautious amid rising costs and other economic concerns. Sales of previously occupied U.S. homes were essentially flat in April, reflecting a continued slump in the housing market due to elevated mortgage rates and housing affordability pressures."
         }
       ]
     }
