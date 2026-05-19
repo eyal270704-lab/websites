@@ -1,173 +1,218 @@
 {
-  "generatedAt": "2026-05-18T18:03:00Z",
+  "generatedAt": "2026-05-19T10:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "May 18, 2026",
+  "title": "Daily Market Digest: May 19, 2026",
+  "subtitle": "Market closes mixed as tech lags amid inflation concerns and geopolitical tensions, energy gains.",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Geopolitical Tensions & Yields Drive Mixed Trading",
+      "id": "market-pulse-overall-summary",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Markets Close Mixed Amid Geopolitical Concerns and Soaring Bond Yields",
-          "summary": "U.S. equities experienced a mixed trading session today as investors grappled with persistent geopolitical tensions in the Middle East, particularly concerning the US-Iran conflict, and the continued climb in Treasury yields. Inflation concerns resurfaced following recent economic data, pushing bond yields to multi-year highs. While early trading showed some resilience, major indices ultimately delivered varied performance, with technology stocks feeling the pressure. The market remains keenly focused on upcoming earnings reports from major tech and retail giants later this week.",
+          "id": "market-summary-today",
+          "headline": "U.S. Stocks Close Mixed Amid Geopolitical Unrest and Inflation Fears",
+          "summary": "U.S. equity markets concluded Tuesday's trading session with a mixed performance. The Nasdaq Composite and S&P 500 dipped, largely influenced by surging oil prices, elevated Treasury yields, and a notable retreat in technology shares. The Dow Jones Industrial Average, however, managed a modest gain, buoyed by strength in energy and industrial sectors. Investors are currently navigating persistent inflation risks, concerns over the Iran war, and the implications of higher bond yields, which continue to drive sector rotations. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Market Summary",
+            "Inflation",
             "Geopolitics",
-            "Treasury Yields"
-          ]
+            "Interest Rates"
+          ],
+          "timestamp": "2026-05-19T10:35:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,393.67",
-          "statContext": "Down 14.83 points (-0.20%)"
+          "statValue": "7,403.05",
+          "statContext": "Down 0.1%",
+          "ticker": "$SPX",
+          "price": "7403.05",
+          "change": "-5.45",
+          "changePercent": "-0.1%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,083.95",
-          "statContext": "Down 141.19 points (-0.54%)"
+          "statValue": "26,090.73",
+          "statContext": "Down 0.5%",
+          "ticker": "$IXIC",
+          "price": "26090.73",
+          "change": "-134.41",
+          "changePercent": "-0.5%",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,622.43",
-          "statContext": "Up 96.26 points (+0.19%)"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "49,686.12",
+          "statContext": "Up 0.3%",
+          "ticker": "$DJIA",
+          "price": "49686.12",
+          "change": "+159.95",
+          "changePercent": "+0.3%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers of the Day",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ramp-gainer",
-          "headline": "LiveRamp Surges on Acquisition News",
-          "ticker": "$RAMP",
+          "id": "gainer-agys",
+          "headline": "Agilysys Surges on Strong Q4 and Upbeat Outlook",
+          "summary": "Shares of Agilysys jumped significantly after the company reported stronger-than-expected Q4 results and issued an upbeat FY2027 guidance, with adjusted EPS of $0.63 and revenue of $82.9M, both surpassing Wall Street estimates.",
+          "ticker": "$AGYS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+27%",
+          "changePercent": "+14%",
           "direction": "up",
-          "summary": "LiveRamp Holdings shares surged by 27% following news that advertising firm Publicis Groupe is set to acquire the company in an all-cash deal valued at $2.5 billion."
+          "tags": [
+            "Software",
+            "Earnings"
+          ]
         },
         {
-          "id": "d-gainer",
-          "headline": "Dominion Energy Climbs on Merger Agreement",
+          "id": "gainer-d",
+          "headline": "Dominion Rallies on Acquisition News",
+          "summary": "Dominion shares rallied following the announcement that NextEra Energy agreed to acquire the utility in an all-stock deal, poised to create the world's largest regulated electric utility by market value.",
           "ticker": "$D",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11%",
+          "changePercent": "+9.4%",
           "direction": "up",
-          "summary": "Dominion Energy saw an 11% increase after confirming a merger agreement with NextEra Energy in an all-stock deal valued at approximately $67 billion, which would create the world's largest regulated electric utility."
+          "tags": [
+            "Utilities",
+            "M&A"
+          ]
         },
         {
-          "id": "bio-gainer",
-          "headline": "Bio-Rad Laboratories Gains on Activist Investor Stake",
-          "ticker": "$BIO",
+          "id": "gainer-bsx",
+          "headline": "Boston Scientific Climbs on Share Buyback Program",
+          "summary": "Boston Scientific saw its stock climb after the company announced plans to spend $2 billion of its previously announced $5 billion stock buyback program by the end of June, a move that typically boosts per-share earnings.",
+          "ticker": "$BSX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8%",
+          "changePercent": "+6.2%",
           "direction": "up",
-          "summary": "Bio-Rad Laboratories gained 8% after reports emerged that activist investor Elliott Investment Management has built a significant stake in the company, aiming to boost its stock price."
+          "tags": [
+            "Healthcare",
+            "Share Buyback"
+          ]
         },
         {
-          "id": "regn-loser",
-          "headline": "Regeneron Pharmaceuticals Falls on Failed Trial",
+          "id": "loser-regn",
+          "headline": "Regeneron Drops on Disappointing Drug Trial Results",
+          "summary": "Regeneron Pharmaceuticals experienced a significant drop after reporting discouraging data from a trial of its melanoma treatment drug, failing to meet its main goal.",
           "ticker": "$REGN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.04%",
+          "changePercent": "-9.8%",
           "direction": "down",
-          "summary": "Regeneron Pharmaceuticals shares dropped over 11% after announcing that its Phase 3 trial for metastatic melanoma did not achieve statistical significance."
+          "tags": [
+            "Biotechnology",
+            "Clinical Trials"
+          ]
         },
         {
-          "id": "unh-loser",
-          "headline": "UnitedHealth Group Declines as Berkshire Hathaway Exits Stake",
-          "ticker": "$UNH",
+          "id": "loser-stx",
+          "headline": "Seagate Technology Falls on AI Demand Concerns",
+          "summary": "Seagate Technology's stock dropped after its CEO commented that the company might struggle to keep up with the surging demand for AI-related storage, raising questions about future supply.",
+          "ticker": "$STX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.20%",
+          "changePercent": "-6.9%",
           "direction": "down",
-          "summary": "UnitedHealth Group experienced a decline of 2.20% today following news that Berkshire Hathaway had exited its stake in the health insurer."
+          "tags": [
+            "Technology",
+            "Semiconductors",
+            "AI"
+          ]
         },
         {
-          "id": "tsla-loser",
-          "headline": "Tesla Shares Dip",
-          "ticker": "$TSLA",
+          "id": "loser-mu",
+          "headline": "Micron Technology Declines Amid Broader Tech Selloff",
+          "summary": "Micron Technology's shares fell, contributing to a broader decline in memory chip and other AI-related stocks as the technology sector faced pressure from rising oil prices and Treasury yields.",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.54%",
+          "changePercent": "-5.95%",
           "direction": "down",
-          "summary": "Tesla shares were down 2.54% today, reflecting broader pressure on technology and growth stocks amidst rising Treasury yields."
+          "tags": [
+            "Technology",
+            "Semiconductors"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Key Market Stories",
+      "id": "market-news-stories",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-outlook",
-          "headline": "Rising Treasury Yields and Inflationary Pressures Impact Global Outlook",
-          "summary": "The bond market remained a central focus today as the U.S. 10-year Treasury yield surged above 4.60%, marking its highest point in a year, while the 30-year Treasury yield hit levels not seen since 2007. This rise is largely attributed to disappointing inflation reports last week and concerns stemming from the ongoing Middle East conflict, which is pushing energy prices higher. The International Monetary Fund (IMF) noted that global growth projections for 2026 are being revised downward due to the war's impact on energy prices, despite tailwinds from the AI boom.",
+          "id": "fed-chair-warsh-sworn-in",
+          "headline": "Kevin Warsh to be Sworn in as New Fed Chair Amid Inflation Concerns",
+          "summary": "Kevin Warsh is set to be sworn in as the new Federal Reserve Chair on Friday by President Trump, replacing Jerome Powell. His appointment comes at a time when Fed officials are signaling patience on rate cuts, with persistent inflation concerns remaining a key focus, and market expectations for a rate hike in 2026 increasing. Federal Reserve Board Governor Christopher Waller also participated in a policy panel today.",
           "tags": [
-            "Economy",
+            "Federal Reserve",
+            "Monetary Policy",
+            "Inflation"
+          ],
+          "timestamp": "2026-05-19T10:35:00Z"
+        },
+        {
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Shows Housing Market Improvement, Persistent Inflation",
+          "summary": "The US NAHB/Wells Fargo Housing Market Index rose to 37 in May 2026 from 34 in April, exceeding forecasts of 35, indicating some resilience in the housing sector. Meanwhile, the US Consumer Price Index (CPI) increased 3.8% year-over-year in April, the highest reading since May 2023, largely driven by elevated oil and gasoline prices, underscoring ongoing inflation pressures.",
+          "tags": [
+            "Economic Data",
+            "Housing",
             "Inflation",
-            "Treasury Yields",
-            "Geopolitics"
-          ]
+            "CPI"
+          ],
+          "timestamp": "2026-05-19T10:35:00Z"
         },
         {
-          "id": "oil-market",
-          "headline": "Oil Prices Remain Elevated Amidst Middle East Conflict",
-          "summary": "Brent crude prices, after an early scare, eased slightly but remained around $107.72 per barrel. The ongoing U.S.-Iran conflict continues to fuel uncertainty over global energy supply disruptions, maintaining upward pressure on oil markets. Higher oil prices are contributing to inflation concerns and affecting various sectors globally.",
-          "tags": [
-            "Oil Prices",
-            "Energy",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "upcoming-earnings",
-          "headline": "Investors Brace for Key Earnings Reports This Week",
-          "summary": "Wall Street is looking ahead to a busy week of corporate earnings, with highly anticipated reports from artificial intelligence leader Nvidia ($NVDA) on Wednesday, followed by retail giant Walmart ($WMT) on Thursday. Other major retailers like Target and Home Depot are also scheduled to report, offering insights into consumer health amidst inflationary pressures. Today, companies such as Baidu ($BIDU), Compugen ($CGEN), and NewHold Investment Corp III ($NHIC) are among those reporting.",
+          "id": "major-earnings-reports",
+          "headline": "Home Depot Reports Q1 Earnings; Nvidia Anticipated Later This Week",
+          "summary": "Home Depot ($HD) is reporting its fiscal Q1 FY27 earnings today before the market open, with analysts anticipating EPS near $3.41 on revenues around $41.5 billion. This report is being closely watched for insights into housing and consumer spending trends. Additionally, Nvidia's ($NVDA) highly anticipated earnings report is expected on Wednesday, with Target ($TGT) and Walmart ($WMT) also scheduled to release their quarterly results later this week.",
           "tags": [
             "Earnings",
-            "Nvidia",
-            "Walmart",
-            "AI",
-            "Retail"
-          ]
+            "Retail",
+            "Technology",
+            "Housing"
+          ],
+          "timestamp": "2026-05-19T10:35:00Z"
         },
         {
-          "id": "sector-spotlight",
-          "headline": "Technology Under Pressure, Energy Shows Strength; SpaceX IPO Plans Emerge",
-          "summary": "Rising Treasury yields continued to weigh on technology and growth stocks today. In contrast, the Energy sector ($XLE) showed resilience, rising 2.3% and leading upgrade activity. Meanwhile, the Utilities ($XLU), Materials ($XLB), and Industrials ($XLI) sectors experienced declines. In related news, Elon Musk's SpaceX is reportedly moving towards a Nasdaq debut as soon as June 12, with plans for a 5-for-1 stock split ahead of its IPO, highlighting continued interest in the aerospace and AI-driven technology space.",
+          "id": "sector-performance-insights",
+          "headline": "Energy Sector Leads as Tech Lags Amid AI Boom Divergence",
+          "summary": "The energy sector demonstrated leadership today, propelled by elevated crude oil prices which remained near $110 per barrel due to ongoing geopolitical tensions related to the Iran war. Conversely, the technology sector continued to lag, particularly software stocks, as investors weighed fears of AI disruption against the surging performance of hardware, semiconductor, and memory firms benefiting from the AI boom. This has created a significant performance gap within the tech sector itself.",
           "tags": [
             "Sector Analysis",
-            "Technology",
             "Energy",
-            "SpaceX",
-            "IPO"
-          ]
+            "Technology",
+            "AI",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-05-19T10:35:00Z"
         }
       ]
     }
