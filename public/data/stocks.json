@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-19T18:08:00Z",
+  "generatedAt": "2026-05-20T10:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "US Stocks Decline Amid Inflation, Yield Concerns, and Tech Pullback - May 19, 2026",
+  "subtitle": "May 20, 2026: Cautious Sentiment Amid Rising Yields and Geopolitical Tensions",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,11 +13,12 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may-19-2026",
-          "headline": "US Equities Retreat as Inflation Fears and Geopolitical Tensions Weigh on Investor Sentiment",
-          "summary": "U.S. equities extended losses on Tuesday, pulling back from recent record highs as concerns over persistent inflation, rising bond yields, and geopolitical uncertainties, particularly the Iran conflict, rattled investor confidence. Technology stocks, which had driven much of the market's earlier rally, experienced a significant cool-down. While some global markets saw mixed movements, Wall Street largely trended downward throughout the day, with major indices closing in negative territory. Traders are also looking ahead to Nvidia's critical earnings report due tomorrow.",
+          "id": "market-summary-20260520",
+          "headline": "U.S. Stocks Edge Lower Amidst Rising Bond Yields and Geopolitical Uncertainty; NVIDIA Earnings Anticipated",
+          "summary": "U.S. equities faced continued pressure as rising bond yields and persistent inflation concerns, exacerbated by geopolitical developments in the Middle East, weighed on investor sentiment. Technology stocks, in particular, showed signs of faltering ahead of NVIDIA's highly anticipated earnings report, due after market close. While the Dow Jones Industrial Average saw some rotation into defensive sectors, the broader market remained cautious.",
           "tags": [
             "Market Sentiment",
+            "Bond Yields",
             "Inflation",
             "Geopolitics",
             "Tech Stocks"
@@ -33,33 +34,39 @@
       "items": [
         {
           "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,338.90",
-          "statContext": "Down 0.87% (-64.15 points)",
-          "ticker": "$SPX",
-          "change": "-$64.15",
-          "changePercent": "-0.87%",
-          "direction": "down"
+          "statLabel": "S&P 500 (Tuesday Close)",
+          "statValue": "7,353.61",
+          "statContext": "Down 0.7% for third straight loss"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,716.59",
-          "statContext": "Down 1.43% (-374.14 points)",
-          "ticker": "$IXIC",
-          "change": "-$374.14",
-          "changePercent": "-1.43%",
-          "direction": "down"
+          "statLabel": "NASDAQ Composite (Tuesday Close)",
+          "statValue": "25,870.71",
+          "statContext": "Sank 0.8%"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,503.46",
-          "statContext": "Down 0.37% (-182.66 points)",
-          "ticker": "$DJIA",
-          "change": "-$182.66",
-          "changePercent": "-0.37%",
-          "direction": "down"
+          "statLabel": "Dow Jones Industrial Average (Tuesday Close)",
+          "statValue": "49,363.88",
+          "statContext": "Dropped 0.6%"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Pre-market)",
+          "statValue": "Up 0.15%",
+          "statContext": "Pointing to potential opening gains"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures (Pre-market)",
+          "statValue": "Up 0.4%",
+          "statContext": "Tech-heavy index showing pre-market strength"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures (Pre-market)",
+          "statValue": "Flat to down 0.1%",
+          "statContext": "Mixed pre-market movement"
         }
       ]
     },
@@ -70,89 +77,54 @@
       "layout": "grid",
       "items": [
         {
-          "id": "mpc-gainer",
-          "headline": "Marathon Petroleum Surges in Premarket",
-          "summary": "Shares of Marathon Petroleum ($MPC) were notably higher in premarket trading.",
-          "ticker": "$MPC",
+          "id": "eght-gainer",
+          "headline": "8x8 Inc. Surges on Strong Earnings",
+          "ticker": "$EGHT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.5%",
+          "changePercent": "+17%",
           "direction": "up",
-          "tags": [
-            "Energy",
-            "Premarket Gainer"
-          ]
+          "summary": "Shares jumped after reporting stronger-than-expected Q4 results and providing solid FY2027 guidance, exceeding Wall Street estimates."
         },
         {
-          "id": "fox-gainer",
-          "headline": "Fox Corporation Rises in Early Trading",
-          "summary": "Fox Corporation ($FOX) saw a strong gain in pre-market hours.",
-          "ticker": "$FOX",
-          "price": "$63.20",
-          "change": "+$4.21",
-          "changePercent": "+7.14%",
-          "direction": "up",
-          "tags": [
-            "Media",
-            "Premarket Gainer"
-          ]
-        },
-        {
-          "id": "vrsk-gainer",
-          "headline": "Verisk Analytics Posts Solid Premarket Gains",
-          "summary": "Verisk Analytics ($VRSK) climbed significantly during premarket activity.",
-          "ticker": "$VRSK",
+          "id": "amc-gainer",
+          "headline": "AMC Entertainment Rises on CEO Stock Purchase",
+          "ticker": "$AMC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.7%",
+          "changePercent": "+8%",
           "direction": "up",
-          "tags": [
-            "Data Analytics",
-            "Premarket Gainer"
-          ]
+          "summary": "The cinema chain's stock gained momentum following the CEO and Chairman Adam Aron's disclosure of purchasing 250,000 company shares."
         },
         {
-          "id": "phm-loser",
-          "headline": "PulteGroup Plunges in Premarket",
-          "summary": "Homebuilder PulteGroup ($PHM) experienced a sharp decline in premarket trading.",
-          "ticker": "$PHM",
+          "id": "cava-gainer",
+          "headline": "CAVA Group Posts Strong Q1 Results",
+          "ticker": "$CAVA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.8%",
-          "direction": "down",
-          "tags": [
-            "Homebuilding",
-            "Premarket Loser"
-          ]
-        },
-        {
-          "id": "bns-loser",
-          "headline": "Bank of Nova Scotia Falls in Early Trading",
-          "summary": "The Bank of Nova Scotia ($BNS) saw a significant drop in pre-market hours.",
-          "ticker": "$BNS",
-          "price": "$70.00",
-          "change": "-$7.26",
-          "changePercent": "-9.40%",
-          "direction": "down",
-          "tags": [
-            "Banking",
-            "Premarket Loser"
-          ]
+          "changePercent": "+7%",
+          "direction": "up",
+          "summary": "Shares rallied on robust Q1 revenue growth of 32% and strong same-restaurant sales, leading the company to raise its 2026 comparable sales growth outlook."
         },
         {
           "id": "akam-loser",
           "headline": "Akamai Technologies Declines on Convertible Note Offering",
-          "summary": "Akamai Technologies ($AKAM) fell after announcing plans to offer $2.6 billion in convertible senior notes, intended to fund expansion and share repurchases.",
           "ticker": "$AKAM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.0%",
+          "changePercent": "-6.3%",
           "direction": "down",
-          "tags": [
-            "Cybersecurity",
-            "Cloud Computing",
-            "Fundraising"
-          ]
+          "summary": "The cybersecurity and cloud computing company saw one of Wall Street's sharper losses after announcing plans to raise $2.6 billion through a convertible note offering."
+        },
+        {
+          "id": "hd-mover",
+          "headline": "Home Depot Up After Earnings",
+          "ticker": "$HD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+0.9%",
+          "direction": "up",
+          "summary": "The home improvement retailer recovered from early losses after its latest earnings report, with profit and revenue edging past analysts' expectations, despite comparable sales missing some forecasts."
         }
       ]
     },
@@ -163,50 +135,58 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Technology and Semiconductor Stocks Lead Market Decline; Energy Shows Resilience",
-          "summary": "The technology sector, particularly semiconductor stocks, faced significant pressure today, contributing heavily to the overall market's downturn. This comes after an extended period of strong gains fueled by AI optimism, with some analysts noting that valuations may have become stretched. The Philadelphia Semiconductor Index has notably fallen over 7% in the last three trading sessions. Conversely, the Energy sector demonstrated resilience, posting gains, with Information Technology and Consumer Staples also showing positive monthly trends amidst inflation concerns.",
+          "id": "nvidia-earnings",
+          "headline": "NVIDIA Earnings Set to Drive Tech Sector Direction",
+          "summary": "Investors are keenly awaiting NVIDIA's fiscal 2027 first-quarter earnings report, scheduled after market close today. As the largest company by market capitalization, its results are expected to significantly influence the direction of technology stocks, particularly given previous AI-driven rallies and concerns over high valuations. Analysts anticipate earnings of $1.78 per share on revenue of $79.2 billion.",
           "tags": [
-            "Sector Performance",
+            "Earnings",
+            "$NVDA",
             "Technology",
-            "Semiconductors",
-            "Energy",
             "AI"
           ]
         },
         {
-          "id": "economic-data-inflation",
-          "headline": "Producer Prices Rise 6.0% Annually in April; Fed Signals Patience on Rate Cuts",
-          "summary": "The Producer Price Index (PPI) for final demand climbed 6.0% year-over-year in April 2026, driven significantly by a 22.7% increase in energy prices. This continued inflationary pressure is influencing market sentiment, with analysts suggesting the Federal Reserve may delay interest rate cuts until the second half of 2027. Incoming Fed Chair Kevin Warsh, set to be sworn in on Friday, faces a challenging economic landscape.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "PPI",
-            "Federal Reserve",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "bond-yields-geopolitics",
-          "headline": "Treasury Yields Climb Higher Amid Geopolitical Uncertainty and Inflation Worries",
-          "summary": "Bond markets continued to exert pressure on stocks, with the yield on the benchmark 10-year Treasury rising to 4.67% and the 30-year U.S. Treasury yield reaching 5.185%, its highest since 2007. This rise in yields reflects ongoing concerns about high inflation and the broader economic impact of the lingering Iran conflict, despite a temporary pause in planned U.S. military strikes. Oil prices, though easing slightly, remained elevated above $110 per barrel.",
+          "id": "bond-market-pressure",
+          "headline": "Bond Market Turmoil Continues as Yields Hit Multi-Year Highs",
+          "summary": "U.S. Treasury yields continued their ascent, with the benchmark 10-year Treasury yield climbing to 4.69% and the 30-year yield approaching 5.2%. This surge, fueled by persistent inflation concerns and expectations of potential Federal Reserve tightening, is increasing borrowing costs and making stock valuations appear more expensive, thereby pressuring equity markets.",
           "tags": [
             "Bond Market",
-            "Treasury Yields",
-            "Geopolitics",
-            "Oil Prices"
+            "Interest Rates",
+            "Inflation",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "earnings-reports-nvidia-hd",
-          "headline": "Home Depot Reports Mixed Q1 Results; Nvidia Earnings Anticipated",
-          "summary": "Home Depot ($HD) announced first-quarter fiscal 2026 sales of $41.8 billion, a 4.8% increase, with comparable sales up 0.6%. However, the stock declined after sales growth missed some analyst estimates, despite diluted EPS of $3.30. All eyes are now on chipmaker Nvidia ($NVDA), whose highly anticipated quarterly earnings report is scheduled for Wednesday, expected to be a key indicator for the broader technology sector. Toll Brothers ($TOL) is also slated to report earnings after market close today.",
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions and Oil Prices Remain Key Market Drivers",
+          "summary": "Geopolitical risks, particularly the ongoing conflict involving Iran and its potential impact on the Strait of Hormuz, continue to keep oil prices elevated. Brent crude hovered above $110 per barrel, fueling inflation concerns globally. While President Trump postponed military action, uncertainty over peace negotiations persists, maintaining market volatility.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Energy Sector",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "lowes-earnings",
+          "headline": "Lowe's Reports Solid Q1 Earnings with Strong Online and Pro Sales",
+          "summary": "Lowe's Companies, Inc. ($LOW) announced Q1 2026 net earnings of $1.6 billion and diluted EPS of $2.90. Adjusted diluted EPS rose 3.8% to $3.03, with total sales reaching $23.1 billion. The company reported a 0.6% increase in comparable sales, driven by strong spring execution and growth in online, appliances, and Pro sales.",
           "tags": [
             "Earnings",
-            "Home Depot",
-            "Nvidia",
-            "Toll Brothers",
-            "Retail"
+            "$LOW",
+            "Retail",
+            "Home Improvement"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Defensive Sectors See Rotation Amidst Broader Tech Weakness",
+          "summary": "While technology stocks have been faltering due to high valuations and upcoming earnings, there's been a notable rotation into more defensive sectors, particularly within the Dow Jones Industrial Average. This indicates a cautious approach by investors seeking stability amidst current market uncertainties. Utilities and Healthcare were highlighted as top performing sectors for May, monthly.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Defensive Stocks",
+            "Market Trends"
           ]
         }
       ]
