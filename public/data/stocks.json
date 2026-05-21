@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T10:38:00Z",
+  "generatedAt": "2026-05-21T14:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -8,168 +8,179 @@
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Navigating Mixed Signals",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Futures Edge Higher Amid Nvidia Earnings and Geopolitical Tensions",
-          "summary": "U.S. stock futures showed modest gains this morning as investors digested Nvidia's robust earnings report, while remaining cautious due to persistent inflation concerns highlighted in the latest Federal Reserve minutes and ongoing geopolitical developments in the Middle East. Tech stocks are once again in focus, but broader market sentiment remains mixed. (Not financial advice)",
-          "tags": [
-            "Market Sentiment",
-            "Nvidia",
-            "Fed",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
+          "id": "market-summary-1",
+          "headline": "Stocks Decline Amid Geopolitical Tensions and Inflation Fears",
+          "summary": "U.S. stocks opened lower today, continuing a trend of declines, as concerns over rising oil prices and Treasury yields weighed on market sentiment. The S&P 500, Dow Jones Industrial Average, and Nasdaq all registered losses at the opening bell. Geopolitical developments surrounding Iran, including a directive from its Supreme Leader regarding enriched uranium, contributed to oil price volatility and heightened inflation concerns. Adding to the cautious outlook, U.S. business activity, while expanding in May, saw input costs rise at their steepest rate since late 2022, leading to lower sales and increased job losses in the services sector. Walmart's latest guidance further signaled a shift in consumer spending, with higher-income shoppers reportedly trading down to discount retailers."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance Today",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7432 points",
-          "statContext": "-0.01% (Current Day)"
+          "statValue": "7,409.00",
+          "statContext": "Down 0.32% today, after declining 0.45% at the opening bell."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ 100",
-          "statValue": "N/A",
-          "statContext": "-0.04% (Current Day)"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,114.36 (est)",
+          "statContext": "Fell 0.50% at the opening bell."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones",
-          "statValue": "N/A",
-          "statContext": "+0.01% (Current Day)"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "49,756.35 (est)",
+          "statContext": "Lost 0.48% at the opening bell."
+        },
+        {
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "2,820.00 (est)",
+          "statContext": "Gained 2.56% at the opening bell."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Gainers and Losers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "gtess-gainer",
+          "headline": "Gates Industrial surges on acquisition optimism",
+          "summary": "Power transmission belt maker Gates Industrial surged 15.8% in premarket trading amidst optimism surrounding its acquisition of The Timken Company's belts business.",
+          "ticker": "$GTES",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15.8%",
+          "direction": "up",
+          "tags": [
+            "Premarket",
+            "Acquisition"
+          ]
+        },
+        {
           "id": "apld-gainer",
-          "headline": "Applied Digital Soars on AI Campus Deal",
-          "summary": "Shares of Applied Digital ($APLD) surged by 8% after the company announced a 15-year lease agreement for its Polaris Forge 3 AI campus, valued at up to $18.2 billion.",
+          "headline": "Applied Digital soars on AI campus lease agreement",
+          "summary": "Shares of Applied Digital gained 9% after the company announced a 15-year take-or-pay lease agreement for its Polaris Forge 3 AI campus, valued at an estimated $7.5 billion in base contracted revenue.",
           "ticker": "$APLD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.00%",
-          "direction": "up"
-        },
-        {
-          "id": "aevx-gainer",
-          "headline": "AEVEX Jumps on Air Force Contracts and Strong Q1",
-          "summary": "AEVEX ($AVX) gained 6% after securing $15.6 million in U.S. Air Force contracts and reporting stronger-than-expected first-quarter results.",
-          "ticker": "$AVX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.00%",
-          "direction": "up"
+          "changePercent": "+9%",
+          "direction": "up",
+          "tags": [
+            "AI",
+            "Contracts"
+          ]
         },
         {
           "id": "elf-gainer",
-          "headline": "e.l.f. Beauty Up on Strong Q4 Performance",
-          "summary": "e.l.f. Beauty ($ELF) rose 6% after delivering a solid beat on both top and bottom lines in its fourth-quarter earnings report.",
+          "headline": "e.l.f. Beauty climbs on strong Q4 results",
+          "summary": "e.l.f. Beauty shares rose 9% following the release of stronger-than-expected FQ4 results, driven by robust growth from its Rhode and Naturium brands.",
           "ticker": "$ELF",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.00%",
-          "direction": "up"
+          "changePercent": "+9%",
+          "direction": "up",
+          "tags": [
+            "Earnings",
+            "Beauty"
+          ]
         },
         {
           "id": "intu-loser",
-          "headline": "Intuit Tumbles on Workforce Reduction Plans",
-          "summary": "Intuit ($INTU) shares fell 11% in after-hours trading after the company announced a 17% workforce reduction, despite beating third-quarter expectations.",
+          "headline": "Intuit tumbles on workforce cuts despite strong earnings",
+          "summary": "Intuit Inc. tumbled nearly 14% in premarket trading after the TurboTax and QuickBooks parent company announced plans to cut approximately 17% of its workforce, overshadowing better-than-expected earnings.",
           "ticker": "$INTU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.00%",
-          "direction": "down"
+          "changePercent": "-14%",
+          "direction": "down",
+          "tags": [
+            "Premarket",
+            "Layoffs",
+            "Earnings"
+          ]
         },
         {
-          "id": "tgt-loser",
-          "headline": "Target Drops Despite Earnings Beat, Cites Conservative Outlook",
-          "summary": "Target ($TGT) shares declined nearly 4% following its first-quarter 2027 results, as conservative full-year guidance and ongoing cost headwinds offset an earnings per share beat.",
-          "ticker": "$TGT",
+          "id": "wmt-loser",
+          "headline": "Walmart shares fall on weaker full-year outlook",
+          "summary": "Walmart shares declined nearly 2% after the retail giant issued a weaker-than-expected full-year outlook alongside its fiscal first-quarter results, citing higher fuel costs.",
+          "ticker": "$WMT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.00%",
-          "direction": "down"
+          "changePercent": "-2%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Retail"
+          ]
+        },
+        {
+          "id": "chpt-loser",
+          "headline": "ChargePoint Holdings declines",
+          "summary": "ChargePoint Holdings Inc. lost 4.2% in premarket trading.",
+          "ticker": "$CHPT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.2%",
+          "direction": "down",
+          "tags": [
+            "Premarket"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News and Economic Outlook",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-minutes",
-          "headline": "Fed Minutes Signal Potential for Rate Hikes Amid Inflation Concerns",
-          "summary": "Minutes from the April 28-29 Federal Reserve meeting revealed that a majority of policymakers are open to further rate hikes if inflation remains persistently above the 2% target. Consumer inflation is currently at 3.8% and wholesale prices at 6%.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
-        },
-        {
-          "id": "nvidia-earnings",
-          "headline": "Nvidia Delivers Strong Q1, Announces Buyback and Dividend Hike",
-          "summary": "Nvidia ($NVDA) reported strong first-quarter fiscal 2027 results, surpassing Wall Street estimates. The company also announced an $80 billion share buyback program and increased its quarterly dividend to $0.25 per share.",
-          "tags": [
-            "Earnings",
-            "Nvidia",
-            "Tech"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
-        },
-        {
-          "id": "geopolitical-tensions",
-          "headline": "Middle East Tensions and Oil Prices Remain a Market Factor",
-          "summary": "Geopolitical tensions in the Middle East, particularly concerning the U.S.-Iran situation, continue to influence market sentiment and contribute to rising oil prices. Hopes for a peace deal, however, have provided some intermittent relief.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Global Economy"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Technology Sector Leads in Asia, Mixed Performance in US",
-          "summary": "Asian markets saw a rally in technology shares, with South Korea's Kospi soaring 8.4% due to strong buying in tech giants like Samsung Electronics and SK Hynix. In the U.S., while tech stocks led a rally on Wednesday, pre-market signals suggest mixed performance with continued focus on AI-driven growth.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Asia Markets"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
-        },
-        {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Releases Expected Today",
-          "summary": "Today's economic calendar includes the release of Global S&P PMIs Flash for May, Japanese Trade Balance for April, and U.S. Initial Jobless Claims for the week ending May 16.",
+          "id": "economic-data-1",
+          "headline": "Jobless Claims Edge Lower, Business Activity Expands",
+          "summary": "U.S. applications for unemployment benefits fell by 3,000 to 209,000 in the week ending May 16, coming in below economist expectations. Meanwhile, the S&P Global Flash U.S. Composite PMI remained unchanged at 51.7 in May, indicating continued expansion in private sector business activity, though manufacturing showed improvement while services lagged. However, firms reported the steepest rise in input costs since late 2022, contributing to increased selling prices and job losses.",
           "tags": [
             "Economic Data",
+            "Labor Market",
             "PMI",
-            "Jobless Claims"
-          ],
-          "timestamp": "2026-05-21T10:38:00Z"
+            "Inflation"
+          ]
+        },
+        {
+          "id": "earnings-overview",
+          "headline": "Key Earnings Reports: Mixed Signals from Retail and Tech",
+          "summary": "Several major companies reported earnings today. Walmart ($WMT) disappointed investors with a weaker-than-expected full-year outlook, leading to a share decline. Intuit ($INTU) shares tumbled despite better-than-expected earnings, as the company announced significant workforce reductions. In contrast, Eli Lilly ($LLY) saw its shares rise following positive late-stage trial results for its next-generation obesity drug. Deere & Company ($DE) reported second-quarter net income of $1.773 billion, maintaining its fiscal 2026 outlook. NVIDIA ($NVDA), having reported strong quarterly results and an optimistic forecast late Wednesday, saw a muted stock reaction as investors potentially locked in profits. NIO Inc. ($NIO) announced a significant 112.2% increase in total revenues for Q1 2026 compared to the previous year.",
+          "tags": [
+            "Earnings",
+            "Corporate News",
+            "Retail",
+            "Tech",
+            "Healthcare"
+          ]
+        },
+        {
+          "id": "ai-quantum-investments",
+          "headline": "Government Boosts Quantum Computing, SpaceX Eyes IPO",
+          "summary": "The Trump administration is reportedly awarding $2 billion in grants to nine quantum computing firms, including government equity stakes, to boost the nascent industry. Separately, Elon Musk's SpaceX is targeting a Starship launch today, following reports of its IPO filing.",
+          "tags": [
+            "Technology",
+            "Government Funding",
+            "Space"
+          ]
         }
       ]
     }
