@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-21T14:40:00Z",
+  "generatedAt": "2026-05-22T10:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 21, 2026",
+  "subtitle": "May 22, 2026 - Not financial advice",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,9 +13,9 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Stocks Decline Amid Geopolitical Tensions and Inflation Fears",
-          "summary": "U.S. stocks opened lower today, continuing a trend of declines, as concerns over rising oil prices and Treasury yields weighed on market sentiment. The S&P 500, Dow Jones Industrial Average, and Nasdaq all registered losses at the opening bell. Geopolitical developments surrounding Iran, including a directive from its Supreme Leader regarding enriched uranium, contributed to oil price volatility and heightened inflation concerns. Adding to the cautious outlook, U.S. business activity, while expanding in May, saw input costs rise at their steepest rate since late 2022, leading to lower sales and increased job losses in the services sector. Walmart's latest guidance further signaled a shift in consumer spending, with higher-income shoppers reportedly trading down to discount retailers."
+          "id": "market-sentiment-overview",
+          "headline": "Global Equities Edge Higher Amid Geopolitical Hopes and Earnings, Caution Remains",
+          "summary": "US stock futures pointed to a higher open, signaling Wall Street's intention to conclude the week on a positive note, fueled by optimism surrounding potential US-Iran peace talks and robust corporate earnings. This positive sentiment helped temper concerns over oil prices, which had seen hour-to-hour swings before easing. However, lingering uncertainties around these diplomatic efforts continue to cap overall market enthusiasm. European markets also experienced gains, notably in chip and AI-related stocks. In Asia, major indices advanced, with Japan's Nikkei 225 recording a strong rally."
         }
       ]
     },
@@ -26,28 +26,40 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,409.00",
-          "statContext": "Down 0.32% today, after declining 0.45% at the opening bell."
-        },
-        {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,114.36 (est)",
-          "statContext": "Fell 0.50% at the opening bell."
-        },
-        {
-          "id": "dow-stat",
+          "id": "dow-jones",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "49,756.35 (est)",
-          "statContext": "Lost 0.48% at the opening bell."
+          "statValue": "50,285.66",
+          "statContext": "Up 0.6% to a record close"
         },
         {
-          "id": "russell2000-stat",
-          "statLabel": "Russell 2000",
-          "statValue": "2,820.00 (est)",
-          "statContext": "Gained 2.56% at the opening bell."
+          "id": "s-p-500",
+          "statLabel": "S&P 500",
+          "statValue": "7,445.72",
+          "statContext": "Gained 0.2%"
+        },
+        {
+          "id": "nasdaq-composite",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,293.10",
+          "statContext": "Added 0.1%"
+        },
+        {
+          "id": "sp-500-futures",
+          "statLabel": "S&P 500 Futures (SPX)",
+          "statValue": "+0.15%",
+          "statContext": "Up at 5:30 a.m. EDT"
+        },
+        {
+          "id": "nasdaq-100-futures",
+          "statLabel": "Nasdaq 100 Futures (NDX)",
+          "statValue": "+0.21%",
+          "statContext": "Up at 5:30 a.m. EDT"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures (DJIA)",
+          "statValue": "+0.19%",
+          "statContext": "Up at 5:30 a.m. EDT"
         }
       ]
     },
@@ -58,88 +70,64 @@
       "layout": "grid",
       "items": [
         {
-          "id": "gtess-gainer",
-          "headline": "Gates Industrial surges on acquisition optimism",
-          "summary": "Power transmission belt maker Gates Industrial surged 15.8% in premarket trading amidst optimism surrounding its acquisition of The Timken Company's belts business.",
-          "ticker": "$GTES",
+          "id": "ibm-gainer",
+          "headline": "IBM Surges on Quantum Computing Grants",
+          "ticker": "$IBM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.8%",
+          "changePercent": "+12.4%",
           "direction": "up",
-          "tags": [
-            "Premarket",
-            "Acquisition"
-          ]
+          "summary": "IBM surged as it reportedly received the largest funding allocation from a $2 billion US government grant for the quantum computing sector."
         },
         {
-          "id": "apld-gainer",
-          "headline": "Applied Digital soars on AI campus lease agreement",
-          "summary": "Shares of Applied Digital gained 9% after the company announced a 15-year take-or-pay lease agreement for its Polaris Forge 3 AI campus, valued at an estimated $7.5 billion in base contracted revenue.",
-          "ticker": "$APLD",
+          "id": "wday-gainer",
+          "headline": "Workday Beats Earnings Estimates, Shares Soar",
+          "ticker": "$WDAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
+          "changePercent": "+12.02%",
           "direction": "up",
-          "tags": [
-            "AI",
-            "Contracts"
-          ]
+          "summary": "Workday Inc. ($WDAY) saw its stock soar after reporting first-quarter earnings of $2.66 per share, exceeding the Street's estimate of $2.51. Quarterly revenue of $2.54 billion also beat the consensus of $2.52 billion."
         },
         {
-          "id": "elf-gainer",
-          "headline": "e.l.f. Beauty climbs on strong Q4 results",
-          "summary": "e.l.f. Beauty shares rose 9% following the release of stronger-than-expected FQ4 results, driven by robust growth from its Rhode and Naturium brands.",
-          "ticker": "$ELF",
+          "id": "rl-gainer",
+          "headline": "Ralph Lauren Jumps on Strong Quarterly Results",
+          "ticker": "$RL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
+          "changePercent": "+13.9%",
           "direction": "up",
-          "tags": [
-            "Earnings",
-            "Beauty"
-          ]
+          "summary": "Ralph Lauren surged following the release of stronger-than-expected quarterly financial results."
         },
         {
-          "id": "intu-loser",
-          "headline": "Intuit tumbles on workforce cuts despite strong earnings",
-          "summary": "Intuit Inc. tumbled nearly 14% in premarket trading after the TurboTax and QuickBooks parent company announced plans to cut approximately 17% of its workforce, overshadowing better-than-expected earnings.",
-          "ticker": "$INTU",
+          "id": "rost-gainer",
+          "headline": "Ross Stores Rises on Better-Than-Expected Q1",
+          "ticker": "$ROST",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14%",
-          "direction": "down",
-          "tags": [
-            "Premarket",
-            "Layoffs",
-            "Earnings"
-          ]
+          "changePercent": "+5.34%",
+          "direction": "up",
+          "summary": "Ross Stores Inc. ($ROST) rose in premarket trading after reporting better-than-expected first-quarter financial results and raising its full-year 2026 earnings guidance."
         },
         {
-          "id": "wmt-loser",
-          "headline": "Walmart shares fall on weaker full-year outlook",
-          "summary": "Walmart shares declined nearly 2% after the retail giant issued a weaker-than-expected full-year outlook alongside its fiscal first-quarter results, citing higher fuel costs.",
-          "ticker": "$WMT",
+          "id": "nvda-loser",
+          "headline": "Nvidia Dips Despite Strong Results",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2%",
+          "changePercent": "-1.8%",
           "direction": "down",
-          "tags": [
-            "Earnings",
-            "Retail"
-          ]
+          "summary": "Nvidia's shares fell despite reporting strong quarterly results, as market expectations reached 'Olympic-level high jump' levels."
         },
         {
-          "id": "chpt-loser",
-          "headline": "ChargePoint Holdings declines",
-          "summary": "ChargePoint Holdings Inc. lost 4.2% in premarket trading.",
-          "ticker": "$CHPT",
+          "id": "walmart-loser",
+          "headline": "Walmart Trades Lower on Disappointing Outlook",
+          "ticker": "N/A",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.2%",
+          "changePercent": "N/A",
           "direction": "down",
-          "tags": [
-            "Premarket"
-          ]
+          "summary": "Walmart shares traded weaker today after the company's earnings outlook disappointed investors."
         }
       ]
     },
@@ -150,37 +138,39 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-1",
-          "headline": "Jobless Claims Edge Lower, Business Activity Expands",
-          "summary": "U.S. applications for unemployment benefits fell by 3,000 to 209,000 in the week ending May 16, coming in below economist expectations. Meanwhile, the S&P Global Flash U.S. Composite PMI remained unchanged at 51.7 in May, indicating continued expansion in private sector business activity, though manufacturing showed improvement while services lagged. However, firms reported the steepest rise in input costs since late 2022, contributing to increased selling prices and job losses.",
-          "tags": [
-            "Economic Data",
-            "Labor Market",
-            "PMI",
-            "Inflation"
-          ]
+          "id": "fed-chair-warsh",
+          "headline": "Kevin Warsh Sworn In as New Federal Reserve Chairman",
+          "summary": "Kevin Warsh officially assumed the role of Chairman of the Federal Reserve Board today, succeeding Jerome Powell. His appointment marks a significant transition during a period of macroeconomic complexities and elevated inflation."
         },
         {
-          "id": "earnings-overview",
-          "headline": "Key Earnings Reports: Mixed Signals from Retail and Tech",
-          "summary": "Several major companies reported earnings today. Walmart ($WMT) disappointed investors with a weaker-than-expected full-year outlook, leading to a share decline. Intuit ($INTU) shares tumbled despite better-than-expected earnings, as the company announced significant workforce reductions. In contrast, Eli Lilly ($LLY) saw its shares rise following positive late-stage trial results for its next-generation obesity drug. Deere & Company ($DE) reported second-quarter net income of $1.773 billion, maintaining its fiscal 2026 outlook. NVIDIA ($NVDA), having reported strong quarterly results and an optimistic forecast late Wednesday, saw a muted stock reaction as investors potentially locked in profits. NIO Inc. ($NIO) announced a significant 112.2% increase in total revenues for Q1 2026 compared to the previous year.",
-          "tags": [
-            "Earnings",
-            "Corporate News",
-            "Retail",
-            "Tech",
-            "Healthcare"
-          ]
+          "id": "fed-rate-hike-odds",
+          "headline": "Markets Project Unchanged Fed Rates for June",
+          "summary": "The CME Group's FedWatch tool indicates a 97.2% probability that the Federal Reserve will maintain its current interest rates during the upcoming June meeting. This comes as Nomura forecasts no Fed rate cuts in 2026, citing persistent inflation and reduced support for easing among Fed officials."
         },
         {
-          "id": "ai-quantum-investments",
-          "headline": "Government Boosts Quantum Computing, SpaceX Eyes IPO",
-          "summary": "The Trump administration is reportedly awarding $2 billion in grants to nine quantum computing firms, including government equity stakes, to boost the nascent industry. Separately, Elon Musk's SpaceX is targeting a Starship launch today, following reports of its IPO filing.",
-          "tags": [
-            "Technology",
-            "Government Funding",
-            "Space"
-          ]
+          "id": "michigan-sentiment",
+          "headline": "US May Consumer Sentiment and Inflation Expectations in Focus",
+          "summary": "Investor attention is on the final release of the US May University of Michigan Consumer Sentiment data today. The market consensus anticipates the index to remain at 48.2. A key focus will be on the 1-year and 5-year inflation expectations, which directly influence Federal Reserve policy projections."
+        },
+        {
+          "id": "richemont-earnings",
+          "headline": "Richemont Reports Strong FY26 Sales and Profit Growth",
+          "summary": "Luxury goods group Richemont delivered robust financial results for the year ended March 31, 2026. Sales increased by 5% at actual exchange rates to €22,420 million, or 11% at constant exchange rates. Operating profit rose by 1% (23% at constant rates) to €4,492 million, achieving a 20.0% operating margin."
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Energy Sector Outperforms as Tech Lags in 2026",
+          "summary": "A notable market rotation continues in 2026, with the Energy sector vastly outperforming, gaining 21.5% year-to-date. In contrast, the Technology sector is down 3% year-to-date, indicating a shift from growth to more cyclical areas such as materials, which are up 17.6%. Morningstar suggests reallocating from growth to value stocks, as the undervaluation in technology has narrowed."
+        },
+        {
+          "id": "geopolitical-impact",
+          "headline": "Iran Peace Talk Hopes Buoy Sentiment, Oil Volatility Remains",
+          "summary": "Hopes for a diplomatic resolution to the US-Iran conflict continue to support markets, easing oil worries and driving firmer risk appetite. However, persistent uncertainty over Iran's enriched uranium stockpile and the crucial Strait of Hormuz continues to cause volatility in crude oil prices."
+        },
+        {
+          "id": "european-economic-data",
+          "headline": "Mixed Economic Signals from Europe",
+          "summary": "Germany's IFO Business Climate index rose to 84.9 points, surpassing expectations. Conversely, the UK private sector experienced a contraction in May, with the flash composite PMI falling to 48.5 from 52.6, marking its first contraction in over a year."
         }
       ]
     }
