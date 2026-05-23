@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-23T09:00:00Z",
+  "generatedAt": "2026-05-23T12:59:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 23, 2026",
-  "subtitle": "Market closes higher on peace talks and strong earnings; Fed gets new Chair",
+  "title": "Daily Market Digest",
+  "subtitle": "Market Recap for Friday, May 23, 2026 (Based on May 22, 2026 Closing Data)",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may23",
-          "headline": "Wall Street rallies for an eighth consecutive weekly advance, driven by optimism over Middle East peace talks and robust corporate earnings.",
-          "summary": "The Dow Jones Industrial Average achieved a record closing high, while the S&P 500 continued its upward trend. Technology and AI-related stocks remained strong. However, consumer sentiment has reportedly fallen to a record low amidst persistent inflation concerns and elevated oil prices. Kevin Warsh has been sworn in as the new Federal Reserve Chair. This information is for journalistic purposes only and not financial advice.",
+          "id": "market-summary-20260523",
+          "headline": "U.S. Stocks Extend Winning Streak Amid Strong Earnings, Consumer Sentiment Dips",
+          "summary": "U.S. equities closed out an eighth consecutive week of gains, the longest such streak since 2023, with major indices nearing all-time highs. This rally is largely fueled by a robust corporate earnings season. However, a survey indicates U.S. consumer sentiment has fallen to a record low, primarily due to inflation concerns exacerbated by the war in Iran. AI momentum and a strong healthcare sector are key drivers, while the utilities sector faces headwinds.",
           "tags": [
-            "Market Close",
-            "Earnings",
-            "Geopolitics",
-            "Fed"
-          ],
-          "timestamp": "2026-05-23T09:00:00Z"
+            "Market Sentiment",
+            "Earnings Season",
+            "Inflation"
+          ]
         }
       ]
     },
@@ -33,22 +31,28 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
+          "id": "sp500-20260523",
+          "headline": "S&P 500",
+          "statLabel": "Close",
           "statValue": "7,473.47",
-          "statContext": "+0.37% (27.75 pts)"
+          "statContext": "+0.4% (+27.75 points)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-20260523",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
           "statValue": "26,343.97",
-          "statContext": "+0.19% (50.87 pts)"
+          "statContext": "+0.2% (+50.87 points)",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-20260523",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
           "statValue": "50,579.70",
-          "statContext": "+0.58% (294.04 pts)"
+          "statContext": "+0.6% (+294.04 points)",
+          "direction": "up"
         }
       ]
     },
@@ -61,62 +65,62 @@
         {
           "id": "dell-gainer",
           "headline": "Dell Technologies",
-          "summary": "Shares surged ahead of anticipated robust earnings, fueled by confidence in its position in the AI boom.",
           "ticker": "$DELL",
           "price": "$295.19",
-          "change": "+$40.72",
-          "changePercent": "+16.00%",
-          "direction": "up"
-        },
-        {
-          "id": "hpq-gainer",
-          "headline": "HP Inc.",
-          "summary": "Rallied amidst strong performance from US computer makers.",
-          "ticker": "$HPQ",
-          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.00%",
-          "direction": "up"
+          "changePercent": "+16.0%",
+          "direction": "up",
+          "summary": "Dell Technologies surged on anticipation of strong earnings driven by confidence in the AI boom. Analysts expect a remarkable 52% annual revenue growth."
         },
         {
           "id": "el-gainer",
-          "headline": "Estée Lauder",
-          "summary": "Jumped after announcing the end of merger discussions with Spanish perfume maker Puig.",
+          "headline": "Estee Lauder",
           "ticker": "$EL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.90%",
-          "direction": "up"
-        },
-        {
-          "id": "rost-gainer",
-          "headline": "Ross Stores",
-          "summary": "Reported strong first-quarter profit and revenue, exceeding expectations due to robust customer traffic.",
-          "ticker": "$ROST",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.10%",
-          "direction": "up"
+          "changePercent": "+11.9%",
+          "direction": "up",
+          "summary": "Estee Lauder jumped after announcing it was no longer considering a merger with Puig."
         },
         {
           "id": "zm-gainer",
           "headline": "Zoom Communications",
-          "summary": "Delivered better-than-expected quarterly profit reports.",
           "ticker": "$ZM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.20%",
-          "direction": "up"
+          "changePercent": "+9.2%",
+          "direction": "up",
+          "summary": "Zoom Communications rose after delivering better-than-expected profit reports for the latest quarter."
+        },
+        {
+          "id": "rost-gainer",
+          "headline": "Ross Stores",
+          "ticker": "$ROST",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.1%",
+          "direction": "up",
+          "summary": "Ross Stores helped drive the market higher after reporting profit and revenue that cleared analysts' expectations, noting strong customer traffic."
         },
         {
           "id": "nvda-loser",
-          "headline": "Nvidia",
-          "summary": "The semiconductor leader experienced a slight dip in its stock price.",
+          "headline": "NVIDIA Corp",
           "ticker": "$NVDA",
           "price": "$215.42",
-          "change": "-$4.17",
-          "changePercent": "-1.90%",
-          "direction": "down"
+          "change": "-$4.09",
+          "changePercent": "-1.9%",
+          "direction": "down",
+          "summary": "Nvidia experienced a slight decline. While its strong earnings failed to significantly ignite the broader tech sector, market participants are reassessing AI-related memory demand."
+        },
+        {
+          "id": "goog-loser",
+          "headline": "Alphabet (Google)",
+          "ticker": "$GOOG",
+          "price": "$379.48",
+          "change": "-$3.99",
+          "changePercent": "-1.0%",
+          "direction": "down",
+          "summary": "Alphabet (Google) saw a modest decrease in its stock price."
         }
       ]
     },
@@ -127,43 +131,43 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-chair-warsh",
-          "headline": "Kevin Warsh Sworn In as New Federal Reserve Chair",
-          "summary": "Kevin Warsh officially took office as the Chair of the US Federal Reserve on Friday, May 23, 2026. His tenure begins at a critical juncture for the American economy, marked by surging petrol prices and high inflation. Fed Governor Christopher Waller indicated that the central bank might consider a rate hike, suggesting a shift away from an 'easing bias' in policy outlook.",
-          "tags": [
-            "Fed",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Healthcare, Utilities, Industrials, and Technology Lead Market Gains; Communication Services and Consumer Staples Lag",
-          "summary": "Among the eleven major S&P sectors, healthcare, utilities, industrials, and technology stocks were the primary drivers of gains. Notably, technology and semiconductor shares continued to bolster Wall Street's performance. Conversely, communication services and consumer staples sectors finished lower.",
+          "id": "sector-rotation",
+          "headline": "Sector Spotlight: Tech and Healthcare Lead, Utilities Lag",
+          "summary": "The technology sector has shown a strong resurgence in May, up 10.6% for the month, now being the second-best performing sector year-to-date with a 22.3% return, behind energy (34.5%). Healthcare also had its best week in six months, surging over 3%. In contrast, the utilities sector has slid 4.9% in May, possibly due to concerns about AI data centers' impact on electric grids.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare"
+            "Healthcare",
+            "Utilities"
           ]
         },
         {
-          "id": "economic-sentiment",
-          "headline": "US Consumer Sentiment Falls to Record Low Amidst Inflation Concerns",
-          "summary": "Despite an advancing stock market, a University of Michigan survey revealed that U.S. consumer sentiment plummeted to a record low. Households expressed increasing worry about persistent inflation, exacerbated by expensive oil prices. This widening divergence between Wall Street and Main Street reflects ongoing economic anxieties.",
+          "id": "economic-outlook",
+          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Fears; New Fed Chair Takes Oath",
+          "summary": "U.S. consumer sentiment has fallen to a record low, with households increasingly worried about inflation, forecasting it to worsen to 4.8% in the coming 12 months. This sentiment is largely influenced by expensive oil prices due to the ongoing war in Iran. Kevin Warsh is expected to take the oath as the new Federal Reserve chairman today, facing these economic challenges. The 10-year Treasury yield dropped to 4.56%.",
           "tags": [
-            "Consumer Sentiment",
-            "Economy",
-            "Inflation"
+            "Economic Data",
+            "Inflation",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "oil-prices",
-          "headline": "Brent Crude Stabilizes Above $100 as Middle East Peace Talks Progress",
-          "summary": "Brent crude oil for August delivery saw a 0.7% increase, settling at $100.21. Global energy markets are closely watching developments in US-Iran peace talks, which have shown signs of progress, contributing to a volatile but currently upward trend in oil prices.",
+          "id": "ai-momentum",
+          "headline": "AI Momentum Continues to Accelerate, Driving Tech Growth",
+          "summary": "The artificial intelligence (AI) trend continues to be a significant driver in the market. Companies like Dell Technologies are experiencing surges due to confidence in the AI boom, particularly with the transition towards generative AI applications. Institutional money is reportedly piling into AI plays, reinforcing the sector's strength.",
           "tags": [
-            "Oil Prices",
-            "Geopolitics",
-            "Commodities"
+            "AI",
+            "Technology",
+            "Growth"
+          ]
+        },
+        {
+          "id": "corporate-earnings",
+          "headline": "Strong Q1 Earnings Season Underpins Market Rally",
+          "summary": "The Q1 2026 earnings season has been robust, with 84% of S&P 500 companies reporting a positive EPS surprise and 81% reporting a positive revenue surprise. The blended earnings growth rate for the S&P 500 is 28.4%, marking the highest growth rate since Q4 2021. Companies like Ross Stores, Estee Lauder, Workday, and Zoom Communications exceeded analyst expectations.",
+          "tags": [
+            "Earnings Reports",
+            "Corporate Performance"
           ]
         }
       ]
