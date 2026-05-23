@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-23T12:59:00Z",
+  "generatedAt": "2026-05-23T17:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, May 23, 2026 (Based on May 22, 2026 Closing Data)",
+  "subtitle": "Market Wrap - May 23, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260523",
-          "headline": "U.S. Stocks Extend Winning Streak Amid Strong Earnings, Consumer Sentiment Dips",
-          "summary": "U.S. equities closed out an eighth consecutive week of gains, the longest such streak since 2023, with major indices nearing all-time highs. This rally is largely fueled by a robust corporate earnings season. However, a survey indicates U.S. consumer sentiment has fallen to a record low, primarily due to inflation concerns exacerbated by the war in Iran. AI momentum and a strong healthcare sector are key drivers, while the utilities sector faces headwinds.",
+          "id": "market-summary-052326",
+          "headline": "Wall Street Continues Upward Trend Amidst Record-Low Consumer Sentiment",
+          "summary": "U.S. equities extended their rally today, marking an impressive eighth consecutive winning week for the S&P 500, with all major indices closing higher. This robust market performance, however, contrasts sharply with a University of Michigan survey revealing consumer sentiment has fallen to a record low, primarily driven by persistent inflation concerns and high oil prices due to the ongoing conflict with Iran. AI-driven growth continues to be a significant market driver, alongside a notable resurgence in the healthcare sector.",
           "tags": [
-            "Market Sentiment",
-            "Earnings Season",
-            "Inflation"
+            "Market Summary",
+            "Inflation",
+            "Consumer Sentiment"
           ]
         }
       ]
@@ -31,28 +31,28 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260523",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "id": "sp500-052326",
+          "statLabel": "S&P 500",
           "statValue": "7,473.47",
-          "statContext": "+0.4% (+27.75 points)",
-          "direction": "up"
+          "statContext": "+0.37% (+27.75 points)"
         },
         {
-          "id": "nasdaq-20260523",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
+          "id": "nasdaq-052326",
+          "statLabel": "NASDAQ Composite",
           "statValue": "26,343.97",
-          "statContext": "+0.2% (+50.87 points)",
-          "direction": "up"
+          "statContext": "+0.19% (+50.87 points)"
         },
         {
-          "id": "dow-20260523",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "id": "dow-052326",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,579.70",
-          "statContext": "+0.6% (+294.04 points)",
-          "direction": "up"
+          "statContext": "+0.58% (+294.04 points)"
+        },
+        {
+          "id": "treasury-yield-052326",
+          "statLabel": "10-Year Treasury Yield",
+          "statValue": "4.56%",
+          "statContext": "Slightly down from 4.57%"
         }
       ]
     },
@@ -63,64 +63,74 @@
       "layout": "grid",
       "items": [
         {
-          "id": "dell-gainer",
-          "headline": "Dell Technologies",
-          "ticker": "$DELL",
-          "price": "$295.19",
-          "change": "N/A",
-          "changePercent": "+16.0%",
-          "direction": "up",
-          "summary": "Dell Technologies surged on anticipation of strong earnings driven by confidence in the AI boom. Analysts expect a remarkable 52% annual revenue growth."
-        },
-        {
-          "id": "el-gainer",
-          "headline": "Estee Lauder",
-          "ticker": "$EL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.9%",
-          "direction": "up",
-          "summary": "Estee Lauder jumped after announcing it was no longer considering a merger with Puig."
-        },
-        {
-          "id": "zm-gainer",
-          "headline": "Zoom Communications",
-          "ticker": "$ZM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.2%",
-          "direction": "up",
-          "summary": "Zoom Communications rose after delivering better-than-expected profit reports for the latest quarter."
-        },
-        {
-          "id": "rost-gainer",
-          "headline": "Ross Stores",
+          "id": "gainers-rost-052326",
+          "headline": "Ross Stores Rises on Strong Earnings",
+          "summary": "Ross Stores reported profit and revenue that comfortably beat analysts' expectations, leading to a significant rally.",
           "ticker": "$ROST",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+8.1%",
-          "direction": "up",
-          "summary": "Ross Stores helped drive the market higher after reporting profit and revenue that cleared analysts' expectations, noting strong customer traffic."
+          "direction": "up"
         },
         {
-          "id": "nvda-loser",
-          "headline": "NVIDIA Corp",
+          "id": "gainers-el-052326",
+          "headline": "Estee Lauder Jumps on Merger News",
+          "summary": "The beauty company saw its shares climb after announcing it was no longer considering a potential merger with Puig.",
+          "ticker": "$EL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11.9%",
+          "direction": "up"
+        },
+        {
+          "id": "gainers-wday-052326",
+          "headline": "Workday Exceeds Profit Expectations",
+          "summary": "Workday's stock rose following a better-than-anticipated profit report for the latest quarter.",
+          "ticker": "$WDAY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.2%",
+          "direction": "up"
+        },
+        {
+          "id": "gainers-zm-052326",
+          "headline": "Zoom Communications Posts Strong Profit",
+          "summary": "Zoom's shares advanced after the company delivered better profit results than analysts had expected.",
+          "ticker": "$ZM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9.2%",
+          "direction": "up"
+        },
+        {
+          "id": "losers-nvda-052326",
+          "headline": "Nvidia Shares Decline",
+          "summary": "Despite strong earnings, Nvidia's stock experienced a modest pullback today.",
           "ticker": "$NVDA",
-          "price": "$215.42",
-          "change": "-$4.09",
-          "changePercent": "-1.9%",
-          "direction": "down",
-          "summary": "Nvidia experienced a slight decline. While its strong earnings failed to significantly ignite the broader tech sector, market participants are reassessing AI-related memory demand."
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.86%",
+          "direction": "down"
         },
         {
-          "id": "goog-loser",
-          "headline": "Alphabet (Google)",
-          "ticker": "$GOOG",
-          "price": "$379.48",
-          "change": "-$3.99",
-          "changePercent": "-1.0%",
-          "direction": "down",
-          "summary": "Alphabet (Google) saw a modest decrease in its stock price."
+          "id": "losers-wmt-052326",
+          "headline": "Walmart Sees Modest Dip",
+          "summary": "Walmart's stock edged lower during Friday's trading session.",
+          "ticker": "$WMT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.82%",
+          "direction": "down"
+        },
+        {
+          "id": "losers-amzn-052326",
+          "headline": "Amazon Shares Close Down",
+          "summary": "Amazon's stock concluded the day with a slight decrease.",
+          "ticker": "$AMZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.71%",
+          "direction": "down"
         }
       ]
     },
@@ -131,9 +141,48 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Sector Spotlight: Tech and Healthcare Lead, Utilities Lag",
-          "summary": "The technology sector has shown a strong resurgence in May, up 10.6% for the month, now being the second-best performing sector year-to-date with a 22.3% return, behind energy (34.5%). Healthcare also had its best week in six months, surging over 3%. In contrast, the utilities sector has slid 4.9% in May, possibly due to concerns about AI data centers' impact on electric grids.",
+          "id": "economic-news-052326",
+          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Fears",
+          "summary": "A University of Michigan survey indicates U.S. consumer sentiment has plummeted to its lowest point in history, falling below the 2022 inflation peak. Households express deep concern over rising inflation, with forecasts predicting a worsening to 4.8% in the next 12 months. Gasoline prices exceeding $4.50 per gallon are a significant contributor to this sentiment.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "fed-outlook-052326",
+          "headline": "Fed Rate Cut Bets Vanish as Inflation Worries Persist",
+          "summary": "Traders on Wall Street have removed expectations for Federal Reserve interest rate cuts later this year, signaling heightened concerns about persistent inflation.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "earnings-season-052326",
+          "headline": "Q1 Earnings Season Strong as 100% of S&P 500 Firms Beat EPS Estimates",
+          "summary": "The first-quarter earnings season is concluding on a high note, with all 19 S&P 500 companies that reported this week exceeding EPS expectations. Notably, 79% of these firms also achieved year-over-year earnings growth.",
+          "tags": [
+            "Earnings Reports",
+            "Corporate Profits"
+          ]
+        },
+        {
+          "id": "nvidia-earnings-052326",
+          "headline": "Nvidia Crushes Expectations with $81.62 Billion Revenue",
+          "summary": "Nvidia ($NVDA) delivered stellar Q1 FY2027 results, reporting revenue of $81.62 billion, an 85% year-over-year increase, and significantly surpassing consensus estimates. The company also issued an optimistic Q2 guidance of $91 billion, further solidifying the AI infrastructure supercycle thesis.",
+          "tags": [
+            "Earnings Reports",
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "sector-rotation-052326",
+          "headline": "Tech and Healthcare Lead, Utilities Lag in Sector Performance",
+          "summary": "Technology stocks are showing a significant rebound, with the State Street Tech Select Sector SPDR ETF ($XLK) up 10.6% in May and 22.3% year-to-date. Healthcare also had its best week in six months, surging over 3%. Conversely, the utilities sector (State Street Utilities Select Sector SPDR ETF, $XLU) has been the biggest loser in May, sliding 4.9% amidst concerns about the impact of AI data centers on energy and water supplies.",
           "tags": [
             "Sector Analysis",
             "Technology",
@@ -142,32 +191,22 @@
           ]
         },
         {
-          "id": "economic-outlook",
-          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Fears; New Fed Chair Takes Oath",
-          "summary": "U.S. consumer sentiment has fallen to a record low, with households increasingly worried about inflation, forecasting it to worsen to 4.8% in the coming 12 months. This sentiment is largely influenced by expensive oil prices due to the ongoing war in Iran. Kevin Warsh is expected to take the oath as the new Federal Reserve chairman today, facing these economic challenges. The 10-year Treasury yield dropped to 4.56%.",
+          "id": "iran-war-oil-052326",
+          "headline": "War with Iran Continues to Drive Oil Prices and Inflation",
+          "summary": "The ongoing conflict with Iran continues to exert upward pressure on oil prices, contributing to elevated inflation and negatively impacting consumer sentiment.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve"
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
           ]
         },
         {
-          "id": "ai-momentum",
-          "headline": "AI Momentum Continues to Accelerate, Driving Tech Growth",
-          "summary": "The artificial intelligence (AI) trend continues to be a significant driver in the market. Companies like Dell Technologies are experiencing surges due to confidence in the AI boom, particularly with the transition towards generative AI applications. Institutional money is reportedly piling into AI plays, reinforcing the sector's strength.",
+          "id": "ipo-wave-052326",
+          "headline": "Wall Street Braces for Potential IPO Wave",
+          "summary": "Following Cerebras' successful semiconductor debut, Wall Street is anticipating an influx of high-profile IPOs. Companies like SpaceX and OpenAI are reportedly preparing for potential listings, indicating a readiness for new public offerings.",
           "tags": [
-            "AI",
-            "Technology",
-            "Growth"
-          ]
-        },
-        {
-          "id": "corporate-earnings",
-          "headline": "Strong Q1 Earnings Season Underpins Market Rally",
-          "summary": "The Q1 2026 earnings season has been robust, with 84% of S&P 500 companies reporting a positive EPS surprise and 81% reporting a positive revenue surprise. The blended earnings growth rate for the S&P 500 is 28.4%, marking the highest growth rate since Q4 2021. Companies like Ross Stores, Estee Lauder, Workday, and Zoom Communications exceeded analyst expectations.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate Performance"
+            "IPO",
+            "Market Trends"
           ]
         }
       ]
