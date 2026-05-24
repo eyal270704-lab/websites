@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-23T22:58:42.735139Z",
+  "generatedAt": "2026-05-24T11:22:13.466830Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 7,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -33,38 +33,6 @@
       "riskScore": 7,
       "footerTag": "Risky",
       "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$AAPL",
-      "name": "Apple Inc.",
-      "sector": "Technology",
-      "currentPrice": "$306.00",
-      "entry": "$286.50",
-      "stop": "$275.00",
-      "structure": "Fib Retracement",
-      "trend": "> 20MA",
-      "trendLabel": "Trend",
-      "analysis": "AAPL is exhibiting strong bullish momentum, trading above its key moving averages. A pullback entry around the $286.50 level is suggested, aligning with a significant Fibonacci retracement zone and established support. A stop loss at $275.00 is prudent, just below the 50% Fib level. Relative volume is slightly below average at ~0.98x.",
-      "riskScore": 3,
-      "footerTag": "High Confidence",
-      "setupType": "perfect",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors",
-      "currentPrice": "$215.33",
-      "entry": "$214.00",
-      "stop": "$195.00",
-      "structure": "20-day EMA Support",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "NVIDIA is in a strong long-term uptrend, trading above its 200-day moving average. The stock is currently testing its 20-day exponential moving average, which could act as dynamic support for a continuation of the upward trend. Relative volume is slightly elevated, indicating continued market interest.",
-      "riskScore": 5,
-      "footerTag": "Momentum",
-      "setupType": "momentum",
       "source": "Micha Stocks YouTube"
     },
     {
@@ -113,6 +81,54 @@
       "riskScore": 9,
       "footerTag": "High Risk / Oversold",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MRNA",
+      "name": "Moderna, Inc.",
+      "sector": "Biotechnology",
+      "currentPrice": "$46.88",
+      "entry": "$46.75",
+      "stop": "$45.31",
+      "structure": "Support Test (S3 Pivot)",
+      "trend": "< 20MA",
+      "trendLabel": "Trend",
+      "analysis": "Moderna is currently trading below its 20-day, 50-day, and 100-day moving averages, indicating a short-term bearish trend. Price is testing a pivot point support level, but without elevated relative volume or a clear Golden Zone retrace, it presents a higher risk setup for a long swing trade.",
+      "riskScore": 7,
+      "footerTag": "Avoid",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$215.33",
+      "entry": "$213.27",
+      "stop": "$196.81",
+      "structure": "0.618 Fib",
+      "trend": "1.01x",
+      "trendLabel": "RVOL",
+      "analysis": "NVIDIA is in a strong long-term uptrend, trading above its 20-day, 50-day, 100-day, and 200-day moving averages. The price has pulled back into an estimated Golden Zone (0.5-0.618 Fibonacci retracement) from its 52-week high, supported by slightly elevated relative volume, suggesting a potential rebound.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$304.99",
+      "entry": "$287.46",
+      "stop": "$269.49",
+      "structure": "Support Test (20MA)",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong bullish trend, trading significantly above its key moving averages. The Relative Strength Index (RSI) indicates an overbought condition, suggesting a potential near-term pullback. An entry at the 20-day moving average could offer a high-confidence dip-buying opportunity within the prevailing uptrend.",
+      "riskScore": 5,
+      "footerTag": "High Confidence",
+      "setupType": "momentum",
       "source": "Micha Stocks YouTube"
     }
   ]
