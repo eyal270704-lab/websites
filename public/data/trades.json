@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T11:22:13.466830Z",
+  "generatedAt": "2026-05-24T13:49:12.991250Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 8,
+  "tradeCount": 11,
   "trades": [
     {
       "ticker": "$APP",
@@ -128,6 +128,54 @@
       "analysis": "Apple is in a strong bullish trend, trading significantly above its key moving averages. The Relative Strength Index (RSI) indicates an overbought condition, suggesting a potential near-term pullback. An entry at the 20-day moving average could offer a high-confidence dip-buying opportunity within the prevailing uptrend.",
       "riskScore": 5,
       "footerTag": "High Confidence",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ARM",
+      "name": "ARM Holdings PLC",
+      "sector": "Semiconductors",
+      "currentPrice": "$306.51",
+      "entry": "$221.06",
+      "stop": "$178.22",
+      "structure": "Overbought / Consolidation Expected",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "ARM is currently in a strong uptrend, trading significantly above its key moving averages. However, the Relative Strength Index (RSI) indicates overbought conditions, suggesting a potential pullback or consolidation. Entry at current levels is high risk, awaiting a deeper retracement to previous support levels.",
+      "riskScore": 9,
+      "footerTag": "High Risk",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$71.87",
+      "entry": "$69.00",
+      "stop": "$68.00",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "UBER is currently in a bearish trend, trading below its 20-day and 200-day moving averages. While approaching a key support level at $69.00, there is no strong bullish catalyst or retracement pattern to suggest an immediate swing trade opportunity. It is an 'avoid' setup as it lacks clear bullish momentum.",
+      "riskScore": 7,
+      "footerTag": "Avoid - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$IREN",
+      "name": "IREN Limited",
+      "sector": "Technology",
+      "currentPrice": "$56.83",
+      "entry": "$52.71",
+      "stop": "$46.10",
+      "structure": "Uptrend / MA Support",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "IREN is in a strong uptrend, trading above its key moving averages, recently fueled by news of a significant NVIDIA deal. A potential entry could be a pullback to the 20-day simple moving average, with the 50-day simple moving average acting as a stop-loss. Relative volume is not currently elevated, but positive news provides a catalyst.",
+      "riskScore": 5,
+      "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Micha Stocks YouTube"
     }
