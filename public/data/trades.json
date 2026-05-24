@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T13:49:12.991250Z",
+  "generatedAt": "2026-05-24T21:04:49.406322Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 11,
+  "tradeCount": 12,
   "trades": [
     {
       "ticker": "$APP",
@@ -100,38 +100,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semiconductors",
-      "currentPrice": "$215.33",
-      "entry": "$213.27",
-      "stop": "$196.81",
-      "structure": "0.618 Fib",
-      "trend": "1.01x",
-      "trendLabel": "RVOL",
-      "analysis": "NVIDIA is in a strong long-term uptrend, trading above its 20-day, 50-day, 100-day, and 200-day moving averages. The price has pulled back into an estimated Golden Zone (0.5-0.618 Fibonacci retracement) from its 52-week high, supported by slightly elevated relative volume, suggesting a potential rebound.",
-      "riskScore": 4,
-      "footerTag": "Momentum",
-      "setupType": "perfect",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$AAPL",
-      "name": "Apple Inc.",
-      "sector": "Technology",
-      "currentPrice": "$304.99",
-      "entry": "$287.46",
-      "stop": "$269.49",
-      "structure": "Support Test (20MA)",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Apple is in a strong bullish trend, trading significantly above its key moving averages. The Relative Strength Index (RSI) indicates an overbought condition, suggesting a potential near-term pullback. An entry at the 20-day moving average could offer a high-confidence dip-buying opportunity within the prevailing uptrend.",
-      "riskScore": 5,
-      "footerTag": "High Confidence",
-      "setupType": "momentum",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$ARM",
       "name": "ARM Holdings PLC",
       "sector": "Semiconductors",
@@ -177,6 +145,54 @@
       "riskScore": 5,
       "footerTag": "Momentum",
       "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$215.33",
+      "entry": "$210.00",
+      "stop": "$207.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently trading above its 20-day and 150-day (using 200-day as proxy) moving averages, indicating an uptrend. The stock is approaching a key support level at $210.00, presenting a potential bounce opportunity. Next earnings are in August, reducing immediate catalyst risk.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$308.82",
+      "entry": "$303.00",
+      "stop": "$299.00",
+      "structure": "Pullback to MA",
+      "trend": "> 150MA, RVOL > 1.0",
+      "trendLabel": "Trend & Volume",
+      "analysis": "Apple is currently trading near its 52-week high and is indicated as overbought by its RSI. A potential entry could be on a pullback to the 20-day moving average and psychological support around $303.00. Volume is slightly above average. No immediate earnings catalysts identified.",
+      "riskScore": 6,
+      "footerTag": "Momentum Pullback",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$426.01",
+      "entry": "$408.00",
+      "stop": "$385.00",
+      "structure": "0.618 Fib / 20-day MA",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is in a strong uptrend, trading above its 20-day and 150-day (using 200-day as proxy) moving averages. A potential swing entry could be on a pullback towards the 0.618 Fibonacci retracement of a recent move, which aligns with the 20-day EMA around $408.00. Volume is currently below average. No immediate earnings catalysts.",
+      "riskScore": 5,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
       "source": "Micha Stocks YouTube"
     }
   ]
