@@ -1,180 +1,200 @@
 {
-  "generatedAt": "2026-05-24T12:59:00Z",
+  "generatedAt": "2026-05-24T17:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, May 23, 2026",
-  "badge": "FINAL",
+  "subtitle": "May 24, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-20260523",
-      "title": "Market Pulse: Bullish Momentum Continues Amid Strong Earnings",
+      "id": "market-pulse-summary",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "Wall Street Extends Winning Streak as Earnings Outperform",
-          "summary": "U.S. equities closed out an eighth consecutive winning week on Friday, driven by a robust corporate earnings season. The S&P 500, NASDAQ, and Dow Jones Industrial Average all posted gains, with the Dow reaching a new record high. Despite the bullish market, consumer sentiment dipped to a record low due to persistent inflation concerns.",
+          "id": "market-sentiment-overview",
+          "headline": "Bullish Sentiment Persists Amid Inflation Concerns and Sector Rotation",
+          "summary": "The S&P 500 has extended its rally for an eighth consecutive week, driven by strong dip-buying and minimal drawdowns, indicating persistent bullish sentiment. However, this optimism is tempered by underlying concerns, including accelerating inflation, potential market impact from large upcoming IPOs like SpaceX, and waning oil inventories. Consumer sentiment in May plummeted to a record low due to worries over cost of living and high gasoline prices. A significant tech rotation was observed in global markets, with Japan's Nikkei surging while NVIDIA faced profit-taking. US markets were closed on Monday, May 25, for Memorial Day, with economic data releases and major earnings anticipated later in the week.",
           "tags": [
-            "Market Overview",
-            "Earnings",
-            "Sentiment"
+            "Market Sentiment",
+            "Inflation",
+            "IPO",
+            "Sector Rotation"
           ],
-          "timestamp": "2026-05-23T20:00:00Z"
+          "timestamp": "2026-05-24T17:07:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260523",
-      "title": "Major Indices Performance",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Close of May 22, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,473.47",
-          "statContext": "Up 0.37% Friday, 0.9% for the week"
+          "statValue": "$7,473.47",
+          "statContext": "+0.37% (+27.75 points)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,343.97",
-          "statContext": "Up 0.19% Friday, 0.5% for the week"
+          "statValue": "$29,481.64",
+          "statContext": "+0.42% (+50.87 points)",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,579.70",
-          "statContext": "Up 0.58% Friday, 2.1% for the week (Record High)"
+          "statValue": "$50,579.70",
+          "statContext": "+0.58% (+294.04 points)",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-20260523",
-      "title": "Top Movers",
+      "id": "top-movers-daily",
+      "title": "Top Movers (May 22, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gs-gainer",
-          "headline": "Goldman Sachs Group Soars on SpaceX News",
-          "summary": "Goldman Sachs Group ($GS) advanced 5.09% for the week to $996.73, benefiting from reports that SpaceX selected the bank to lead a potentially record-breaking offering.",
-          "ticker": "$GS",
-          "price": "$996.73",
-          "change": "+$48.20 (W/W)",
-          "changePercent": "+5.09%",
-          "direction": "up"
+          "id": "qbt-gainer",
+          "headline": "D-Wave Quantum Inc. surges on government funding news",
+          "ticker": "$QBTS",
+          "price": "$29.40",
+          "change": "+$3.66",
+          "changePercent": "+14.22%",
+          "direction": "up",
+          "summary": "Shares surged following news of a proposed $100 million CHIPS Act funding package from the U.S. Department of Commerce, validating the company's quantum computing technology and growth prospects."
         },
         {
-          "id": "ire-gainer",
-          "headline": "IREN Jumps on Nvidia H100 GPU Rental Prices",
-          "summary": "IREN ($IREN) surged 7.35% for the week to $56.83. Shares gained traction after Nvidia revealed continued increases in rental prices for its H100 GPUs.",
-          "ticker": "$IREN",
-          "price": "$56.83",
-          "change": "+$3.90 (W/W)",
-          "changePercent": "+7.35%",
-          "direction": "up"
+          "id": "rgti-gainer",
+          "headline": "Rigetti Computing Inc. climbs amid quantum computing optimism",
+          "ticker": "$RGTI",
+          "price": "$26.42",
+          "change": "+$4.46",
+          "changePercent": "+19.87%",
+          "direction": "up",
+          "summary": "The quantum computing specialist experienced a significant surge, benefiting from strong investor optimism and being named a top beneficiary of the U.S. government's quantum computing investment initiative."
         },
         {
-          "id": "wday-gainer",
-          "headline": "Workday Beats Q1 Earnings Estimates",
-          "summary": "Workday ($WDAY) rose 5.2% on Friday after the company reported stronger first-quarter profits than analysts had expected.",
-          "ticker": "$WDAY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.2%",
-          "direction": "up"
+          "id": "gfs-gainer",
+          "headline": "GlobalFoundries Inc. rises on advanced foundry growth prospects",
+          "ticker": "$GFS",
+          "price": "$85.64",
+          "change": "+$4.29",
+          "changePercent": "+5.27%",
+          "direction": "up",
+          "summary": "Stock trended up amid investor optimism on advanced foundry growth, driven by a prospective $375 million CHIPS Act award and a focus on quantum technology solutions."
         },
         {
-          "id": "futu-loser",
-          "headline": "Futu Holdings Declines Amid Regulatory Scrutiny",
-          "summary": "Futu Holdings ($FUTU) led mid-cap losers, falling 33.33% for the week to $89.76. The decline follows a Chinese securities regulator's investigation into unlicensed cross-border trading.",
-          "ticker": "$FUTU",
-          "price": "$89.76",
-          "change": "-$44.88 (W/W)",
-          "changePercent": "-33.33%",
-          "direction": "down"
+          "id": "qcom-gainer",
+          "headline": "Qualcomm ($QCOM) surges as AI aspirations gain momentum",
+          "ticker": "$QCOM",
+          "price": "$238.16",
+          "change": "+$24.75",
+          "changePercent": "+11.60%",
+          "direction": "up",
+          "summary": "Shares surged as Wall Street reassessed the company's value amidst its pivotal role in the AI sector, reaching an all-time high."
         },
         {
-          "id": "ps-loser",
-          "headline": "Pershing Square Retreats",
-          "summary": "Pershing Square ($PS) was a significant loser, retreating 13.36% for the week to $35.67.",
-          "ticker": "$PS",
-          "price": "$35.67",
-          "change": "-$5.50 (W/W)",
-          "changePercent": "-13.36%",
-          "direction": "down"
+          "id": "aapl-gainer",
+          "headline": "Apple Inc. sees gains driven by strong demand and AI outlook",
+          "ticker": "$AAPL",
+          "price": "$308.82",
+          "change": "+$3.83",
+          "changePercent": "+1.26%",
+          "direction": "up",
+          "summary": "Apple shares rose, with analysts citing strong iPhone demand, a large installed base, and potential future growth from Services and AI/spatial computing."
         },
         {
-          "id": "axp-loser",
-          "headline": "American Express Affected by Consumer Sentiment Drop",
-          "summary": "American Express ($AXP) retreated 0.54% for the week to $311.78, impacted by a reported decline in consumer sentiment.",
-          "ticker": "$AXP",
-          "price": "$311.78",
-          "change": "-$1.69 (W/W)",
-          "changePercent": "-0.54%",
-          "direction": "down"
+          "id": "nvda-loser",
+          "headline": "NVIDIA Corp. dips due to profit-taking despite strong earnings",
+          "ticker": "$NVDA",
+          "price": "$215.33",
+          "change": "-$4.18",
+          "changePercent": "-1.90%",
+          "direction": "down",
+          "summary": "Shares dipped due to profit-taking and investor expectations for even higher revenue and earnings after a blockbuster earnings report."
+        },
+        {
+          "id": "engn-loser",
+          "headline": "enGene Therapeutics Inc. records a decline",
+          "ticker": "$ENGN",
+          "price": "$1.64",
+          "change": "-$0.09",
+          "changePercent": "-5.2%",
+          "direction": "down",
+          "summary": "enGene Therapeutics Inc. experienced a decline in its stock price."
+        },
+        {
+          "id": "btm-loser",
+          "headline": "Bitcoin Depot Inc. plunges amid bankruptcy and delisting news",
+          "ticker": "$BTM",
+          "price": "$0.4919",
+          "change": "-$0.0891",
+          "changePercent": "-15.34%",
+          "direction": "down",
+          "summary": "The company is facing significant challenges, including a voluntary Chapter 11 bankruptcy filing on May 18, 2026, and an upcoming Nasdaq delisting."
         }
       ]
     },
     {
-      "id": "market-news-20260523",
-      "title": "Market News and Analysis",
+      "id": "market-news-summary",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "earnings-beat-1",
-          "headline": "S&P 500 Firms Universally Beat Earnings Expectations",
-          "summary": "All reporting S&P 500 companies in Q1 2026 exceeded earnings expectations, with 79% also achieving year-over-year growth. Notable beats included Home Depot, Walmart, Lowe's, Nvidia, Deere & Company, and Target.",
+          "id": "fed-leadership-inflation",
+          "headline": "Fed Under New Leadership Amidst Inflationary Pressures",
+          "summary": "Kevin Warsh was sworn in as the new Federal Reserve Chair on May 22, 2026, inheriting an economy grappling with a 3.75% federal funds rate and elevated core PCE inflation. The FOMC maintained its benchmark rates at 3.50% to 3.75% in April. Discussions are ongoing regarding potential rate hikes in response to persistent inflation, partly fueled by geopolitical tensions and higher energy prices. Upcoming US inflation data this week will be closely watched, alongside the Q1 US Real GDP data expected on Thursday, May 28.",
           "tags": [
-            "Earnings",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "nvidia-earnings",
-          "headline": "NVIDIA's Strong Earnings Report Fuels AI Momentum",
-          "summary": "NVIDIA Corporation ($NVDA) surpassed fiscal first-quarter 2027 consensus estimates, driven by a substantial increase in hyperscaler AI infrastructure capital expenditures. The company's forward guidance signals continued market dominance in the semiconductor industry.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Earnings",
-            "$NVDA"
-          ]
-        },
-        {
-          "id": "consumer-sentiment",
-          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Worries",
-          "summary": "U.S. consumer sentiment declined for the third consecutive month in May, reaching a record low. This downturn is largely attributed to anxieties over inflation, exacerbated by the conflict in Iran and rising gasoline prices. Year-ahead inflation expectations increased to 4.8%.",
-          "tags": [
-            "Economic Data",
+            "Federal Reserve",
+            "Monetary Policy",
             "Inflation",
-            "Consumer Behavior"
-          ]
+            "Kevin Warsh"
+          ],
+          "timestamp": "2026-05-24T17:07:00Z"
         },
         {
-          "id": "sector-rotation",
-          "headline": "Healthcare and Energy Lead as Tech Rebounds",
-          "summary": "Healthcare experienced its best week in over six months, gaining more than 3%. Energy remained strong, while the technology sector continued its rebound, emerging as the second-best performing sector year-to-date. Investors are also rotating into REITs, Consumer Cyclical, and value equities.",
+          "id": "consumer-sentiment-low",
+          "headline": "Consumer Sentiment Plunges to Record Low",
+          "summary": "The University of Michigan's consumer sentiment index dropped to an all-time low of 44.8 in May 2026. This significant decline, the lowest since 1952, is primarily attributed to heightened concerns over the cost of living and rising gasoline prices. Wholesale inflation also hit a multiyear high in April, with manufacturing input prices surging in May, suggesting ongoing inflationary pressures.",
           "tags": [
-            "Sector Performance",
-            "Healthcare",
-            "Energy",
-            "Technology"
-          ]
+            "Consumer Sentiment",
+            "Economic Data",
+            "Inflation"
+          ],
+          "timestamp": "2026-05-24T17:07:00Z"
         },
         {
-          "id": "mortgage-rates",
-          "headline": "U.S. Mortgage Rates Climb to Nine-Month High",
-          "summary": "The average long-term U.S. mortgage rate rose to its highest level in nearly nine months, with the 30-year fixed rate reaching 6.51%. This increase is impacting homebuying costs during a traditionally busy period for the housing market.",
+          "id": "ai-boom-sector-performance",
+          "headline": "AI Boom Continues to Drive Sector Performance and Earnings",
+          "summary": "The technology sector has soared 18.1% year-to-date, largely propelled by optimism surrounding the artificial intelligence boom. Key companies like Apple are seeing growth driven by AI and services, while Qualcomm's stock surged as it strengthens its role in the AI sector. Upcoming earnings reports for the week of May 25-29, 2026, from major tech and retail companies, including HP Inc., Salesforce, Dell Technologies, and Costco Wholesale, will provide further insights into AI monetization strategies and broader market trends.",
           "tags": [
-            "Housing Market",
-            "Interest Rates",
-            "Economic Data"
-          ]
+            "AI",
+            "Technology Sector",
+            "Earnings",
+            "Sector Performance"
+          ],
+          "timestamp": "2026-05-24T17:07:00Z"
+        },
+        {
+          "id": "sector-geopolitical-trends",
+          "headline": "Sector Rotation and Geopolitical Tensions Shape Market Trends",
+          "summary": "Investors are actively rotating into small and microcap stocks, REITs, consumer cyclical, and value equities, moving away from large caps, certain commodities, and growth stocks. Energy remains a top-performing sector year-to-date, though it saw some cooling off recently, influenced by elevated oil prices stemming from the ongoing Iran conflict. The US-Israeli war with Iran has significantly impacted energy markets, pushing WTI crude prices to around $96.60 a barrel and contributing to inflationary pressures.",
+          "tags": [
+            "Sector Rotation",
+            "Geopolitics",
+            "Energy Sector",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-05-24T17:07:00Z"
         }
       ]
     }
