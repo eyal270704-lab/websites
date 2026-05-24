@@ -1,212 +1,193 @@
 {
-  "generatedAt": "2026-05-23T17:03:00Z",
+  "generatedAt": "2026-05-24T09:20:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Wrap - May 23, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market activity for May 23, 2026, and weekend outlook",
+  "badge": "Updated May 24, 2026",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Bullish Momentum Meets Consumer Jitters as Fed Swears in New Chair",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-052326",
-          "headline": "Wall Street Continues Upward Trend Amidst Record-Low Consumer Sentiment",
-          "summary": "U.S. equities extended their rally today, marking an impressive eighth consecutive winning week for the S&P 500, with all major indices closing higher. This robust market performance, however, contrasts sharply with a University of Michigan survey revealing consumer sentiment has fallen to a record low, primarily driven by persistent inflation concerns and high oil prices due to the ongoing conflict with Iran. AI-driven growth continues to be a significant market driver, alongside a notable resurgence in the healthcare sector.",
+          "id": "market-summary-may-24",
+          "headline": "Wall Street Continues Upward Trend, S&P 500 Achieves Eighth Straight Winning Week",
+          "summary": "U.S. equity markets closed higher on Friday, May 23, extending a period of broad market strength. The S&P 500 marked its eighth consecutive weekly gain, the longest unbroken run since December 2023, while the Dow Jones Industrial Average reached a new record high. This bullish sentiment is largely driven by strong corporate earnings, enthusiasm around artificial intelligence, and signs of progress in US-Iran peace negotiations.\n\nHowever, a growing divergence between Wall Street and Main Street is evident, as the University of Michigan Consumer Sentiment Index fell to a record low of 44.8 in May 2026, marking a third straight monthly decline. Consumers are increasingly worried about inflation, which they forecast to worsen in the coming 12 months, and high oil prices due to the ongoing Iran war.\n\nKevin Warsh was sworn in as the 17th Federal Reserve Chair on Friday, succeeding Jerome Powell. The Fed's latest Financial Stability Report highlighted geopolitical risks and AI financing as key concerns. Market participants are anticipating the Fed to hold rates steady for now, with some officials indicating potential rate hikes if inflation persists. (Not financial advice)",
           "tags": [
-            "Market Summary",
-            "Inflation",
-            "Consumer Sentiment"
-          ]
+            "Market Sentiment",
+            "Economic News",
+            "Fed",
+            "Inflation"
+          ],
+          "timestamp": "2026-05-24T09:20:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (May 23, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-052326",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,473.47",
-          "statContext": "+0.37% (+27.75 points)"
+          "statContext": "+0.37% on Friday; +9% YTD",
+          "ticker": "$SPX",
+          "change": "+27.75",
+          "changePercent": "+0.37%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-052326",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,343.97",
-          "statContext": "+0.19% (+50.87 points)"
+          "statContext": "+0.19% on Friday",
+          "ticker": "$IXIC",
+          "change": "+50.87",
+          "changePercent": "+0.19%",
+          "direction": "up"
         },
         {
-          "id": "dow-052326",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,579.70",
-          "statContext": "+0.58% (+294.04 points)"
-        },
-        {
-          "id": "treasury-yield-052326",
-          "statLabel": "10-Year Treasury Yield",
-          "statValue": "4.56%",
-          "statContext": "Slightly down from 4.57%"
+          "statContext": "+0.58% on Friday; New Record High",
+          "ticker": "$DJIA",
+          "change": "+294.04",
+          "changePercent": "+0.58%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (May 23, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainers-rost-052326",
-          "headline": "Ross Stores Rises on Strong Earnings",
-          "summary": "Ross Stores reported profit and revenue that comfortably beat analysts' expectations, leading to a significant rally.",
+          "id": "rost-gainer",
+          "headline": "Ross Stores Surges on Strong Earnings",
           "ticker": "$ROST",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+8.1%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "The off-price retailer reported profit and revenue for the latest quarter that easily cleared analysts' expectations, boosting its stock."
         },
         {
-          "id": "gainers-el-052326",
-          "headline": "Estee Lauder Jumps on Merger News",
-          "summary": "The beauty company saw its shares climb after announcing it was no longer considering a potential merger with Puig.",
+          "id": "el-gainer",
+          "headline": "Estee Lauder Jumps After Dropping Merger Talks",
           "ticker": "$EL",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+11.9%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "Estee Lauder jumped after announcing it was no longer considering a possible merger with Puig, the Spanish fragrance and beauty products company."
         },
         {
-          "id": "gainers-wday-052326",
-          "headline": "Workday Exceeds Profit Expectations",
-          "summary": "Workday's stock rose following a better-than-anticipated profit report for the latest quarter.",
-          "ticker": "$WDAY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.2%",
-          "direction": "up"
-        },
-        {
-          "id": "gainers-zm-052326",
-          "headline": "Zoom Communications Posts Strong Profit",
-          "summary": "Zoom's shares advanced after the company delivered better profit results than analysts had expected.",
+          "id": "zm-gainer",
+          "headline": "Zoom Communications Rises on Strong Profit Report",
           "ticker": "$ZM",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+9.2%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "Zoom Communications delivered a better profit report for the latest quarter than analysts expected."
         },
         {
-          "id": "losers-nvda-052326",
-          "headline": "Nvidia Shares Decline",
-          "summary": "Despite strong earnings, Nvidia's stock experienced a modest pullback today.",
+          "id": "arm-gainer",
+          "headline": "ARM Holdings Sees Historic Weekly Gain",
+          "ticker": "$ARM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "~+50% (weekly)",
+          "direction": "up",
+          "summary": "ARM Holdings ripped nearly 50% in a single week, contributing to the strong performance of the AI and chip sectors."
+        },
+        {
+          "id": "nvda-loser",
+          "headline": "Nvidia Pulls Back Amid Mixed Trading Activity",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.86%",
-          "direction": "down"
+          "changePercent": "-1.9%",
+          "direction": "down",
+          "summary": "Despite a blockbuster earnings report, Nvidia dropped amidst mixed trading activity, possibly due to valuation concerns."
         },
         {
-          "id": "losers-wmt-052326",
-          "headline": "Walmart Sees Modest Dip",
-          "summary": "Walmart's stock edged lower during Friday's trading session.",
+          "id": "wmt-loser",
+          "headline": "Walmart Declines on Cautious Sentiment and Guidance Miss",
           "ticker": "$WMT",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-0.82%",
-          "direction": "down"
-        },
-        {
-          "id": "losers-amzn-052326",
-          "headline": "Amazon Shares Close Down",
-          "summary": "Amazon's stock concluded the day with a slight decrease.",
-          "ticker": "$AMZN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.71%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Walmart's stock declined, reflecting cautious sentiment and being hit hard by a Thursday guidance miss."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News: Key Stories Affecting Investors",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-052326",
-          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Fears",
-          "summary": "A University of Michigan survey indicates U.S. consumer sentiment has plummeted to its lowest point in history, falling below the 2022 inflation peak. Households express deep concern over rising inflation, with forecasts predicting a worsening to 4.8% in the next 12 months. Gasoline prices exceeding $4.50 per gallon are a significant contributor to this sentiment.",
+          "id": "sector-analysis-summary",
+          "headline": "Sector Spotlight: Tech and Energy Lead Year-to-Date; Healthcare and Cyclicals Gain Momentum",
+          "summary": "The energy sector remains the biggest winner year-to-date, up over 30%, with technology stocks making a strong comeback, up 22.3% year-to-date and 10.6% in May alone. Healthcare was the strongest sector in the S&P 500 on Friday, rising 1.19%, posting its best week in six months.\n\nInvestors are also rotating into economically sensitive groups like Real Estate, Consumer Cyclical, and Small and Microcap stocks. Conversely, Communication Services was the only sector to finish in negative territory on Friday, declining 0.54%, partly due to weakness in Alphabet. The utilities sector has been a significant loser in May, sliding 4.9%, potentially due to concerns about the impact of AI data centers on electric grids.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Consumer Sentiment"
+            "Sector Analysis",
+            "Energy",
+            "Technology",
+            "Healthcare",
+            "Rotation"
           ]
         },
         {
-          "id": "fed-outlook-052326",
-          "headline": "Fed Rate Cut Bets Vanish as Inflation Worries Persist",
-          "summary": "Traders on Wall Street have removed expectations for Federal Reserve interest rate cuts later this year, signaling heightened concerns about persistent inflation.",
+          "id": "fed-chairman-warsh",
+          "headline": "Kevin Warsh Sworn In as New Fed Chair Amid Inflation Concerns",
+          "summary": "Kevin Warsh officially became the 17th Chairman of the Federal Reserve on Friday, May 23. His tenure begins at a challenging time, with recent economic data showing persistent inflation. Former Fed Chair Jerome Powell, in his final FOMC meeting, offered a reality check on inflation, stating it has not yet peaked due to the Iran war-driven energy supply shock. Fed Governor Christopher Waller has also indicated that rate hikes are possible if inflation does not abate soon.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
+            "Fed",
+            "Monetary Policy",
+            "Inflation",
+            "Kevin Warsh"
+          ]
+        },
+        {
+          "id": "consumer-sentiment-inflation",
+          "headline": "Consumer Sentiment Hits Record Low as Inflation Expectations Rise",
+          "summary": "The University of Michigan's consumer sentiment index dropped to a record low of 44.8 in May 2026, marking the third consecutive monthly decline. This fall is largely attributed to high prices and growing expectations among U.S. consumers that inflation will worsen. They are forecasting inflation to reach 4.8% in the next 12 months, up from 4.7% last month. The Consumer Price Index (CPI) and Producer Price Index (PPI) inflation figures are both at 3+ year highs.",
+          "tags": [
+            "Economic Data",
+            "Consumer Sentiment",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-season-052326",
-          "headline": "Q1 Earnings Season Strong as 100% of S&P 500 Firms Beat EPS Estimates",
-          "summary": "The first-quarter earnings season is concluding on a high note, with all 19 S&P 500 companies that reported this week exceeding EPS expectations. Notably, 79% of these firms also achieved year-over-year earnings growth.",
+          "id": "treasury-yields",
+          "headline": "Treasury Yields Climb Amidst Economic Headwinds",
+          "summary": "Yields on Treasury bonds rose sharply this week, with the 30-year note climbing over 5%, reaching its highest level in 19 years. The 10-year Treasury yield edged down to 4.56% on Friday but remains elevated. Rising borrowing costs could impact mortgage rates for consumers and potentially curtail corporate borrowing for initiatives like AI data centers, which have recently supported economic growth.",
+          "tags": [
+            "Economic Data",
+            "Treasury Yields",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "earnings-season-impact",
+          "headline": "Strong Earnings Reports Continue to Buoy Market Optimism",
+          "summary": "The ongoing earnings season continues to deliver strong results, with several companies surpassing analyst expectations. Ross Stores, Workday ($WDAY), and Zoom Communications ($ZM) are recent examples that reported better-than-expected profits. This cavalcade of strong corporate earnings has helped U.S. stocks remain near their record highs, reflecting the resilience of corporate profits despite broader economic uncertainties.",
           "tags": [
             "Earnings Reports",
             "Corporate Profits"
-          ]
-        },
-        {
-          "id": "nvidia-earnings-052326",
-          "headline": "Nvidia Crushes Expectations with $81.62 Billion Revenue",
-          "summary": "Nvidia ($NVDA) delivered stellar Q1 FY2027 results, reporting revenue of $81.62 billion, an 85% year-over-year increase, and significantly surpassing consensus estimates. The company also issued an optimistic Q2 guidance of $91 billion, further solidifying the AI infrastructure supercycle thesis.",
-          "tags": [
-            "Earnings Reports",
-            "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "sector-rotation-052326",
-          "headline": "Tech and Healthcare Lead, Utilities Lag in Sector Performance",
-          "summary": "Technology stocks are showing a significant rebound, with the State Street Tech Select Sector SPDR ETF ($XLK) up 10.6% in May and 22.3% year-to-date. Healthcare also had its best week in six months, surging over 3%. Conversely, the utilities sector (State Street Utilities Select Sector SPDR ETF, $XLU) has been the biggest loser in May, sliding 4.9% amidst concerns about the impact of AI data centers on energy and water supplies.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Healthcare",
-            "Utilities"
-          ]
-        },
-        {
-          "id": "iran-war-oil-052326",
-          "headline": "War with Iran Continues to Drive Oil Prices and Inflation",
-          "summary": "The ongoing conflict with Iran continues to exert upward pressure on oil prices, contributing to elevated inflation and negatively impacting consumer sentiment.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "ipo-wave-052326",
-          "headline": "Wall Street Braces for Potential IPO Wave",
-          "summary": "Following Cerebras' successful semiconductor debut, Wall Street is anticipating an influx of high-profile IPOs. Companies like SpaceX and OpenAI are reportedly preparing for potential listings, indicating a readiness for new public offerings.",
-          "tags": [
-            "IPO",
-            "Market Trends"
           ]
         }
       ]
