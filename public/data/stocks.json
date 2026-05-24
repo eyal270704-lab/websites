@@ -1,193 +1,179 @@
 {
-  "generatedAt": "2026-05-24T09:20:00Z",
+  "generatedAt": "2026-05-24T12:59:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market activity for May 23, 2026, and weekend outlook",
-  "badge": "Updated May 24, 2026",
+  "subtitle": "Market Recap for Friday, May 23, 2026",
+  "badge": "FINAL",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Bullish Momentum Meets Consumer Jitters as Fed Swears in New Chair",
+      "id": "market-pulse-20260523",
+      "title": "Market Pulse: Bullish Momentum Continues Amid Strong Earnings",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may-24",
-          "headline": "Wall Street Continues Upward Trend, S&P 500 Achieves Eighth Straight Winning Week",
-          "summary": "U.S. equity markets closed higher on Friday, May 23, extending a period of broad market strength. The S&P 500 marked its eighth consecutive weekly gain, the longest unbroken run since December 2023, while the Dow Jones Industrial Average reached a new record high. This bullish sentiment is largely driven by strong corporate earnings, enthusiasm around artificial intelligence, and signs of progress in US-Iran peace negotiations.\n\nHowever, a growing divergence between Wall Street and Main Street is evident, as the University of Michigan Consumer Sentiment Index fell to a record low of 44.8 in May 2026, marking a third straight monthly decline. Consumers are increasingly worried about inflation, which they forecast to worsen in the coming 12 months, and high oil prices due to the ongoing Iran war.\n\nKevin Warsh was sworn in as the 17th Federal Reserve Chair on Friday, succeeding Jerome Powell. The Fed's latest Financial Stability Report highlighted geopolitical risks and AI financing as key concerns. Market participants are anticipating the Fed to hold rates steady for now, with some officials indicating potential rate hikes if inflation persists. (Not financial advice)",
+          "id": "mp-item-1",
+          "headline": "Wall Street Extends Winning Streak as Earnings Outperform",
+          "summary": "U.S. equities closed out an eighth consecutive winning week on Friday, driven by a robust corporate earnings season. The S&P 500, NASDAQ, and Dow Jones Industrial Average all posted gains, with the Dow reaching a new record high. Despite the bullish market, consumer sentiment dipped to a record low due to persistent inflation concerns.",
           "tags": [
-            "Market Sentiment",
-            "Economic News",
-            "Fed",
-            "Inflation"
+            "Market Overview",
+            "Earnings",
+            "Sentiment"
           ],
-          "timestamp": "2026-05-24T09:20:00Z"
+          "timestamp": "2026-05-23T20:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (May 23, 2026)",
+      "id": "major-indices-20260523",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,473.47",
-          "statContext": "+0.37% on Friday; +9% YTD",
-          "ticker": "$SPX",
-          "change": "+27.75",
-          "changePercent": "+0.37%",
-          "direction": "up"
+          "statContext": "Up 0.37% Friday, 0.9% for the week"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,343.97",
-          "statContext": "+0.19% on Friday",
-          "ticker": "$IXIC",
-          "change": "+50.87",
-          "changePercent": "+0.19%",
-          "direction": "up"
+          "statContext": "Up 0.19% Friday, 0.5% for the week"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,579.70",
-          "statContext": "+0.58% on Friday; New Record High",
-          "ticker": "$DJIA",
-          "change": "+294.04",
-          "changePercent": "+0.58%",
-          "direction": "up"
+          "statContext": "Up 0.58% Friday, 2.1% for the week (Record High)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (May 23, 2026)",
+      "id": "top-movers-20260523",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "rost-gainer",
-          "headline": "Ross Stores Surges on Strong Earnings",
-          "ticker": "$ROST",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.1%",
-          "direction": "up",
-          "summary": "The off-price retailer reported profit and revenue for the latest quarter that easily cleared analysts' expectations, boosting its stock."
+          "id": "gs-gainer",
+          "headline": "Goldman Sachs Group Soars on SpaceX News",
+          "summary": "Goldman Sachs Group ($GS) advanced 5.09% for the week to $996.73, benefiting from reports that SpaceX selected the bank to lead a potentially record-breaking offering.",
+          "ticker": "$GS",
+          "price": "$996.73",
+          "change": "+$48.20 (W/W)",
+          "changePercent": "+5.09%",
+          "direction": "up"
         },
         {
-          "id": "el-gainer",
-          "headline": "Estee Lauder Jumps After Dropping Merger Talks",
-          "ticker": "$EL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.9%",
-          "direction": "up",
-          "summary": "Estee Lauder jumped after announcing it was no longer considering a possible merger with Puig, the Spanish fragrance and beauty products company."
+          "id": "ire-gainer",
+          "headline": "IREN Jumps on Nvidia H100 GPU Rental Prices",
+          "summary": "IREN ($IREN) surged 7.35% for the week to $56.83. Shares gained traction after Nvidia revealed continued increases in rental prices for its H100 GPUs.",
+          "ticker": "$IREN",
+          "price": "$56.83",
+          "change": "+$3.90 (W/W)",
+          "changePercent": "+7.35%",
+          "direction": "up"
         },
         {
-          "id": "zm-gainer",
-          "headline": "Zoom Communications Rises on Strong Profit Report",
-          "ticker": "$ZM",
+          "id": "wday-gainer",
+          "headline": "Workday Beats Q1 Earnings Estimates",
+          "summary": "Workday ($WDAY) rose 5.2% on Friday after the company reported stronger first-quarter profits than analysts had expected.",
+          "ticker": "$WDAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.2%",
-          "direction": "up",
-          "summary": "Zoom Communications delivered a better profit report for the latest quarter than analysts expected."
+          "changePercent": "+5.2%",
+          "direction": "up"
         },
         {
-          "id": "arm-gainer",
-          "headline": "ARM Holdings Sees Historic Weekly Gain",
-          "ticker": "$ARM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "~+50% (weekly)",
-          "direction": "up",
-          "summary": "ARM Holdings ripped nearly 50% in a single week, contributing to the strong performance of the AI and chip sectors."
+          "id": "futu-loser",
+          "headline": "Futu Holdings Declines Amid Regulatory Scrutiny",
+          "summary": "Futu Holdings ($FUTU) led mid-cap losers, falling 33.33% for the week to $89.76. The decline follows a Chinese securities regulator's investigation into unlicensed cross-border trading.",
+          "ticker": "$FUTU",
+          "price": "$89.76",
+          "change": "-$44.88 (W/W)",
+          "changePercent": "-33.33%",
+          "direction": "down"
         },
         {
-          "id": "nvda-loser",
-          "headline": "Nvidia Pulls Back Amid Mixed Trading Activity",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.9%",
-          "direction": "down",
-          "summary": "Despite a blockbuster earnings report, Nvidia dropped amidst mixed trading activity, possibly due to valuation concerns."
+          "id": "ps-loser",
+          "headline": "Pershing Square Retreats",
+          "summary": "Pershing Square ($PS) was a significant loser, retreating 13.36% for the week to $35.67.",
+          "ticker": "$PS",
+          "price": "$35.67",
+          "change": "-$5.50 (W/W)",
+          "changePercent": "-13.36%",
+          "direction": "down"
         },
         {
-          "id": "wmt-loser",
-          "headline": "Walmart Declines on Cautious Sentiment and Guidance Miss",
-          "ticker": "$WMT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.82%",
-          "direction": "down",
-          "summary": "Walmart's stock declined, reflecting cautious sentiment and being hit hard by a Thursday guidance miss."
+          "id": "axp-loser",
+          "headline": "American Express Affected by Consumer Sentiment Drop",
+          "summary": "American Express ($AXP) retreated 0.54% for the week to $311.78, impacted by a reported decline in consumer sentiment.",
+          "ticker": "$AXP",
+          "price": "$311.78",
+          "change": "-$1.69 (W/W)",
+          "changePercent": "-0.54%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News: Key Stories Affecting Investors",
+      "id": "market-news-20260523",
+      "title": "Market News and Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-summary",
-          "headline": "Sector Spotlight: Tech and Energy Lead Year-to-Date; Healthcare and Cyclicals Gain Momentum",
-          "summary": "The energy sector remains the biggest winner year-to-date, up over 30%, with technology stocks making a strong comeback, up 22.3% year-to-date and 10.6% in May alone. Healthcare was the strongest sector in the S&P 500 on Friday, rising 1.19%, posting its best week in six months.\n\nInvestors are also rotating into economically sensitive groups like Real Estate, Consumer Cyclical, and Small and Microcap stocks. Conversely, Communication Services was the only sector to finish in negative territory on Friday, declining 0.54%, partly due to weakness in Alphabet. The utilities sector has been a significant loser in May, sliding 4.9%, potentially due to concerns about the impact of AI data centers on electric grids.",
+          "id": "earnings-beat-1",
+          "headline": "S&P 500 Firms Universally Beat Earnings Expectations",
+          "summary": "All reporting S&P 500 companies in Q1 2026 exceeded earnings expectations, with 79% also achieving year-over-year growth. Notable beats included Home Depot, Walmart, Lowe's, Nvidia, Deere & Company, and Target.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
+            "Earnings",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "nvidia-earnings",
+          "headline": "NVIDIA's Strong Earnings Report Fuels AI Momentum",
+          "summary": "NVIDIA Corporation ($NVDA) surpassed fiscal first-quarter 2027 consensus estimates, driven by a substantial increase in hyperscaler AI infrastructure capital expenditures. The company's forward guidance signals continued market dominance in the semiconductor industry.",
+          "tags": [
             "Technology",
-            "Healthcare",
-            "Rotation"
+            "AI",
+            "Earnings",
+            "$NVDA"
           ]
         },
         {
-          "id": "fed-chairman-warsh",
-          "headline": "Kevin Warsh Sworn In as New Fed Chair Amid Inflation Concerns",
-          "summary": "Kevin Warsh officially became the 17th Chairman of the Federal Reserve on Friday, May 23. His tenure begins at a challenging time, with recent economic data showing persistent inflation. Former Fed Chair Jerome Powell, in his final FOMC meeting, offered a reality check on inflation, stating it has not yet peaked due to the Iran war-driven energy supply shock. Fed Governor Christopher Waller has also indicated that rate hikes are possible if inflation does not abate soon.",
+          "id": "consumer-sentiment",
+          "headline": "Consumer Sentiment Hits Record Low Amid Inflation Worries",
+          "summary": "U.S. consumer sentiment declined for the third consecutive month in May, reaching a record low. This downturn is largely attributed to anxieties over inflation, exacerbated by the conflict in Iran and rising gasoline prices. Year-ahead inflation expectations increased to 4.8%.",
           "tags": [
-            "Fed",
-            "Monetary Policy",
+            "Economic Data",
             "Inflation",
-            "Kevin Warsh"
+            "Consumer Behavior"
           ]
         },
         {
-          "id": "consumer-sentiment-inflation",
-          "headline": "Consumer Sentiment Hits Record Low as Inflation Expectations Rise",
-          "summary": "The University of Michigan's consumer sentiment index dropped to a record low of 44.8 in May 2026, marking the third consecutive monthly decline. This fall is largely attributed to high prices and growing expectations among U.S. consumers that inflation will worsen. They are forecasting inflation to reach 4.8% in the next 12 months, up from 4.7% last month. The Consumer Price Index (CPI) and Producer Price Index (PPI) inflation figures are both at 3+ year highs.",
+          "id": "sector-rotation",
+          "headline": "Healthcare and Energy Lead as Tech Rebounds",
+          "summary": "Healthcare experienced its best week in over six months, gaining more than 3%. Energy remained strong, while the technology sector continued its rebound, emerging as the second-best performing sector year-to-date. Investors are also rotating into REITs, Consumer Cyclical, and value equities.",
           "tags": [
-            "Economic Data",
-            "Consumer Sentiment",
-            "Inflation"
+            "Sector Performance",
+            "Healthcare",
+            "Energy",
+            "Technology"
           ]
         },
         {
-          "id": "treasury-yields",
-          "headline": "Treasury Yields Climb Amidst Economic Headwinds",
-          "summary": "Yields on Treasury bonds rose sharply this week, with the 30-year note climbing over 5%, reaching its highest level in 19 years. The 10-year Treasury yield edged down to 4.56% on Friday but remains elevated. Rising borrowing costs could impact mortgage rates for consumers and potentially curtail corporate borrowing for initiatives like AI data centers, which have recently supported economic growth.",
+          "id": "mortgage-rates",
+          "headline": "U.S. Mortgage Rates Climb to Nine-Month High",
+          "summary": "The average long-term U.S. mortgage rate rose to its highest level in nearly nine months, with the 30-year fixed rate reaching 6.51%. This increase is impacting homebuying costs during a traditionally busy period for the housing market.",
           "tags": [
-            "Economic Data",
-            "Treasury Yields",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "earnings-season-impact",
-          "headline": "Strong Earnings Reports Continue to Buoy Market Optimism",
-          "summary": "The ongoing earnings season continues to deliver strong results, with several companies surpassing analyst expectations. Ross Stores, Workday ($WDAY), and Zoom Communications ($ZM) are recent examples that reported better-than-expected profits. This cavalcade of strong corporate earnings has helped U.S. stocks remain near their record highs, reflecting the resilience of corporate profits despite broader economic uncertainties.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate Profits"
+            "Housing Market",
+            "Interest Rates",
+            "Economic Data"
           ]
         }
       ]
