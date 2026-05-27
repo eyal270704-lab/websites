@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-27T14:54:00Z",
+  "generatedAt": "2026-05-27T18:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, May 27, 2026",
+  "subtitle": "May 27, 2026 - End of Day",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,14 +14,15 @@
       "items": [
         {
           "id": "market-summary",
-          "headline": "Tech Rally Counters Geopolitical Jitters as Futures Point Higher",
-          "summary": "U.S. stock futures are showing upward movement this Wednesday, extending gains after the S&P 500 and Nasdaq Composite closed at fresh record highs on Tuesday. Investor sentiment is largely driven by optimism surrounding artificial intelligence (AI) and chipmakers, despite ongoing geopolitical uncertainties in the Middle East. Lower oil prices are also contributing to the positive sentiment.",
+          "headline": "Wall Street Shows Mixed Performance as AI Optimism and Easing Oil Prices Drive Sentiment",
+          "summary": "U.S. equities closed with mixed results on Wednesday, May 27, 2026, as persistent optimism surrounding artificial intelligence and declining oil prices influenced investor sentiment. The Dow Jones Industrial Average registered gains, while the S&P 500 and Nasdaq Composite experienced slight declines. Geopolitical developments in the Middle East continued to be monitored by market participants. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Market Summary",
             "AI",
-            "Geopolitics",
-            "Oil Prices"
-          ]
+            "Oil Prices",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-05-27T18:28:00Z"
         }
       ]
     },
@@ -32,25 +33,22 @@
       "layout": "grid",
       "items": [
         {
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,626.79",
+          "statContext": "Up 0.33% (+165.11 points)"
+        },
+        {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,543",
-          "statContext": "Up 0.31% today; Closed at 7,519.12 (+0.6%) on Tuesday.",
-          "direction": "up"
+          "statValue": "7,503.00",
+          "statContext": "Down 0.09%"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,656.18",
-          "statContext": "Closed at 26,656.18 (+1.2%) on Tuesday, a record high. Nasdaq 100 closed at 30,001 (+1.76%). Futures up 0.38% today.",
-          "direction": "up"
-        },
-        {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "50,461.68",
-          "statContext": "Slipped 0.2% on Tuesday, closing at 50,461.68. Futures up 0.46% today.",
-          "direction": "down"
+          "statValue": "",
+          "statContext": "Down 0.18%"
         }
       ]
     },
@@ -61,64 +59,44 @@
       "layout": "grid",
       "items": [
         {
-          "id": "apps-gainer",
-          "headline": "Digital Turbine Soars on Strong Earnings",
-          "ticker": "$APPS",
+          "id": "mover-vrrm",
+          "headline": "Verra Mobility Tumbles on EPS Cut and Contract Loss",
+          "summary": "Verra Mobility ($VRRM) shares plummeted 54% after the mobility software company reduced its full-year adjusted EPS guidance below analyst estimates and announced the termination of its contract with Avis Budget, leading to multiple analyst downgrades.",
+          "ticker": "$VRRM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+18%",
-          "direction": "up",
-          "summary": "Shares of Digital Turbine surged after the company reported a strong FQ4 earnings beat and issued FY2027 guidance above expectations."
+          "changePercent": "-54%",
+          "direction": "down"
         },
         {
-          "id": "dy-gainer",
-          "headline": "Dycom Industries Rallies on Revenue Beat",
-          "ticker": "$DY",
+          "id": "mover-mu",
+          "headline": "Micron Technology Continues AI-Driven Surge",
+          "summary": "Micron Technology ($MU) gained another 2.9% on Wednesday, extending its rally after surging 19.3% a day earlier to surpass the $1 trillion market valuation mark, driven by robust demand for AI technologies.",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+21%",
-          "direction": "up",
-          "summary": "Dycom Industries saw its shares rise significantly after reporting first-quarter contract revenue that exceeded average analyst estimates."
+          "changePercent": "+2.9%",
+          "direction": "up"
         },
         {
-          "id": "smtc-gainer",
-          "headline": "Semtech Gains on Positive Q1 and Q2 Outlook",
-          "ticker": "$SMTC",
+          "id": "mover-bbwi",
+          "headline": "Bath & Body Works Climbs After Reaffirming Outlook",
+          "summary": "Bath & Body Works ($BBWI) shares rose 14.5% after the company reaffirmed its adjusted earnings per share forecast for the full year.",
+          "ticker": "$BBWI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6%",
-          "direction": "up",
-          "summary": "Semtech shares rose after the company's Q1 results topped expectations, and it provided stronger-than-expected Q2 guidance."
+          "changePercent": "+14.5%",
+          "direction": "up"
         },
         {
-          "id": "zs-loser",
-          "headline": "Zscaler Drops on Weak Revenue Guidance",
-          "ticker": "$ZS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-19%",
-          "direction": "down",
-          "summary": "Zscaler experienced a significant drop in after-hours trading on Tuesday following the release of weak revenue guidance."
-        },
-        {
-          "id": "pdd-loser",
-          "headline": "PDD Holdings Declines After Q1 Revenue Miss",
+          "id": "mover-pdd",
+          "headline": "PDD ADRs Fall on Revenue Miss",
+          "summary": "PDD ADRs ($PDD) fell 8% after the company reported first-quarter revenue that missed average analyst estimates.",
           "ticker": "$PDD",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-8%",
-          "direction": "down",
-          "summary": "PDD ADRs fell after the company reported first-quarter revenue that missed the average analyst estimate."
-        },
-        {
-          "id": "podd-loser",
-          "headline": "Insulet Falls on Medical Device Correction",
-          "ticker": "$PODD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8%",
-          "direction": "down",
-          "summary": "Insulet shares declined in after-hours trading on Tuesday after announcing a medical device correction."
+          "direction": "down"
         }
       ]
     },
@@ -129,64 +107,61 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-lead",
-          "headline": "Technology and Chipmakers Continue to Lead Market Gains",
-          "summary": "The technology sector, particularly chipmakers, remains the strongest force lifting the market, fueled by sustained optimism surrounding artificial intelligence (AI) infrastructure and advanced computing systems. Energy, conversely, has been observed lagging.",
+          "id": "sector-ai-tech",
+          "headline": "Technology Sector Leads with Continued AI Optimism",
+          "summary": "The technology sector, particularly semiconductor and chip equipment companies, continued to lead the market rally, with shares like SK Hynix and Micron Technology ($MU) seeing significant advances, reflecting sustained investor enthusiasm for artificial intelligence infrastructure and advanced computing systems.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "AI",
-            "Energy"
+            "Semiconductors"
           ]
         },
         {
-          "id": "economic-data-consumer-confidence",
-          "headline": "U.S. Consumer Confidence Remains Stable in May",
-          "summary": "U.S. Consumer Confidence for May came in at 93.1, slightly above the consensus estimate of 92.9, indicating stable consumer sentiment. Additionally, Case-Shiller home prices for 10-City Composites increased 1.2% in March.",
+          "id": "sector-energy",
+          "headline": "Energy Sector Under Pressure Amid Falling Oil Prices",
+          "summary": "The energy sector lagged on Wednesday as crude oil prices declined. Brent crude fell 3.7% to $95.88 a barrel, and US benchmark crude dropped 4.5% to $89.72, impacting major oil and gas companies like Exxon Mobil and Chevron.",
           "tags": [
-            "Economic Data",
-            "Consumer Confidence",
-            "Housing"
+            "Sector Analysis",
+            "Energy",
+            "Oil Prices"
           ]
         },
         {
-          "id": "ecb-geopolitical-risk",
-          "headline": "ECB Warns Markets Underestimate Geopolitical and Fiscal Risks",
-          "summary": "The European Central Bank (ECB) issued a warning that investors are underestimating the risks posed by the Middle East conflict and rising government debts. The ECB noted that financial asset prices appear 'stretched by historical standards.'",
-          "tags": [
-            "Economic News",
-            "Geopolitics",
-            "ECB",
-            "Fiscal Risk"
-          ]
-        },
-        {
-          "id": "earnings-reports-today",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several major companies are scheduled to report earnings today, May 27, 2026, including PDD Holdings ($PDD), Salesforce ($CRM), Snowflake ($SNOW), HP, Inc. ($HPQ), Synopsys ($SNPS), and Marvell ($MRVL). Investors will be closely watching for financial updates and forward guidance.",
-          "tags": [
-            "Earnings",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "bmo-earnings",
-          "headline": "BMO Financial Group Exceeds Q2 Expectations",
-          "summary": "BMO Financial Group ($BMO) reported strong second-quarter 2026 results, with net income of $2,630 million and EPS of $3.53, both significantly higher than the prior year and exceeding expectations.",
-          "tags": [
-            "Earnings",
-            "Financial Services",
-            "BMO"
-          ]
-        },
-        {
-          "id": "usmca-review",
-          "headline": "U.S. and Mexico Announce USMCA Review Rounds",
-          "summary": "The United States and Mexico have announced a series of bilateral negotiating rounds related to the first Joint Review of the United States-Mexico-Canada Agreement (USMCA), with discussions on economic security and rules of origin for industrial goods starting this week.",
+          "id": "economic-consumer-confidence",
+          "headline": "Consumer Confidence Holds Steady in May",
+          "summary": "The Conference Board reported that U.S. consumer confidence for May came in at 93.1, slightly above the consensus estimate of 92.9, while the April figure was revised to 93.8.",
           "tags": [
             "Economic News",
-            "Trade Policy",
-            "USMCA"
+            "Consumer Confidence"
+          ]
+        },
+        {
+          "id": "economic-housing",
+          "headline": "Home Prices Rise in March",
+          "summary": "Case-Shiller home prices for 10-City Composites increased 1.2% in March, following a 0.6% rise in February. The 20-City Composites saw a 1% increase in March after a 0.4% rise the previous month.",
+          "tags": [
+            "Economic News",
+            "Housing Data"
+          ]
+        },
+        {
+          "id": "economic-mortgage-rates",
+          "headline": "Mortgage Rates Reach Nine-Month High",
+          "summary": "Average 30-year mortgage rates in the U.S. climbed to 6.65% for the week ending May 22nd, up from 6.56% the prior week, marking a nine-month high and contributing to an 8.3% weekly decline in mortgage applications.",
+          "tags": [
+            "Economic News",
+            "Interest Rates",
+            "Mortgage"
+          ]
+        },
+        {
+          "id": "earnings-anf",
+          "headline": "Abercrombie & Fitch Beats Q1 Earnings Estimates",
+          "summary": "Abercrombie & Fitch ($ANF) reported stronger-than-expected first-quarter earnings of $1.47 per share, surpassing the Zacks consensus estimate of $1.26, although revenues slightly missed expectations.",
+          "tags": [
+            "Earnings",
+            "Retail"
           ]
         }
       ]
