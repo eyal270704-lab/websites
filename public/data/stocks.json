@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-27T10:54:00Z",
+  "generatedAt": "2026-05-27T14:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: May 27, 2026",
-  "subtitle": "AI Optimism Drives Indices to Record Highs Amid Geopolitical Hopes",
+  "title": "Daily Market Digest",
+  "subtitle": "Wednesday, May 27, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,14 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-052726",
-          "headline": "S&P 500 and Nasdaq Reach Record Highs, Fueled by AI Optimism",
-          "summary": "U.S. equity markets saw a mixed session with the S&P 500 and Nasdaq Composite achieving new record closing highs on Tuesday, driven by robust AI-fueled optimism. While geopolitical concerns regarding the U.S.-Iran conflict persisted, investor sentiment was bolstered by hopes of progress in peace talks. Technology and semiconductor stocks led the charge, though the Dow Jones Industrial Average experienced a slight decline. Futures indicate a continued upward trend for the S&P 500 and Dow on Wednesday morning. Not financial advice.",
+          "id": "market-summary",
+          "headline": "Tech Rally Counters Geopolitical Jitters as Futures Point Higher",
+          "summary": "U.S. stock futures are showing upward movement this Wednesday, extending gains after the S&P 500 and Nasdaq Composite closed at fresh record highs on Tuesday. Investor sentiment is largely driven by optimism surrounding artificial intelligence (AI) and chipmakers, despite ongoing geopolitical uncertainties in the Middle East. Lower oil prices are also contributing to the positive sentiment.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
             "AI",
-            "Record Highs",
-            "Geopolitics"
+            "Geopolitics",
+            "Oil Prices"
           ]
         }
       ]
@@ -34,34 +34,22 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,519.12",
-          "statContext": "+0.61% (Tuesday Close)",
-          "ticker": "$SPX",
-          "price": "7,519.12",
-          "change": "+45.65",
-          "changePercent": "+0.61%",
+          "statValue": "7,543",
+          "statContext": "Up 0.31% today; Closed at 7,519.12 (+0.6%) on Tuesday.",
           "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,656.18",
-          "statContext": "+1.19% (Tuesday Close)",
-          "ticker": "$IXIC",
-          "price": "26,656.18",
-          "change": "+312.21",
-          "changePercent": "+1.19%",
+          "statContext": "Closed at 26,656.18 (+1.2%) on Tuesday, a record high. Nasdaq 100 closed at 30,001 (+1.76%). Futures up 0.38% today.",
           "direction": "up"
         },
         {
           "id": "dow-performance",
-          "statLabel": "DOW Jones Industrial Average",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "50,461.68",
-          "statContext": "-0.23% (Tuesday Close)",
-          "ticker": "$DJIA",
-          "price": "50,461.68",
-          "change": "-118.02",
-          "changePercent": "-0.23%",
+          "statContext": "Slipped 0.2% on Tuesday, closing at 50,461.68. Futures up 0.46% today.",
           "direction": "down"
         }
       ]
@@ -73,87 +61,64 @@
       "layout": "grid",
       "items": [
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Surges Past $1 Trillion Valuation",
-          "summary": "Micron Technology's shares rallied significantly on Tuesday, gaining 19% after UBS raised its price target for the stock, propelling its market value past the $1 trillion mark for the first time. The momentum continued in after-hours trading with an additional 4.5% gain.",
-          "ticker": "$MU",
-          "price": "Reported to have closed around $895.88 on Tuesday",
-          "change": "+19%",
-          "changePercent": "+19.00%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Semiconductors",
-            "AI"
-          ]
-        },
-        {
           "id": "apps-gainer",
-          "headline": "Digital Turbine Soars on Strong Earnings Beat",
-          "summary": "Digital Turbine ($APPS) saw an 18% increase in premarket trading after reporting a significant beat on its fourth-quarter earnings and issuing optimistic guidance for fiscal year 2027, exceeding analyst expectations.",
+          "headline": "Digital Turbine Soars on Strong Earnings",
           "ticker": "$APPS",
           "price": "N/A",
-          "change": "+18%",
-          "changePercent": "+18.00%",
+          "change": "N/A",
+          "changePercent": "+18%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Earnings"
-          ]
+          "summary": "Shares of Digital Turbine surged after the company reported a strong FQ4 earnings beat and issued FY2027 guidance above expectations."
         },
         {
-          "id": "omc-gainer",
-          "headline": "Omnicom Rises in Premarket Trading",
-          "summary": "Omnicom ($OMC) showed strong performance in premarket trading, indicating positive investor sentiment.",
-          "ticker": "$OMC",
+          "id": "dy-gainer",
+          "headline": "Dycom Industries Rallies on Revenue Beat",
+          "ticker": "$DY",
           "price": "N/A",
-          "change": "+11.23%",
-          "changePercent": "+11.23%",
+          "change": "N/A",
+          "changePercent": "+21%",
           "direction": "up",
-          "tags": [
-            "Gainers"
-          ]
+          "summary": "Dycom Industries saw its shares rise significantly after reporting first-quarter contract revenue that exceeded average analyst estimates."
+        },
+        {
+          "id": "smtc-gainer",
+          "headline": "Semtech Gains on Positive Q1 and Q2 Outlook",
+          "ticker": "$SMTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6%",
+          "direction": "up",
+          "summary": "Semtech shares rose after the company's Q1 results topped expectations, and it provided stronger-than-expected Q2 guidance."
         },
         {
           "id": "zs-loser",
-          "headline": "Zscaler Tumbles on Weak Revenue Forecast",
-          "summary": "Zscaler ($ZS) shares dropped more than 20% in after-hours trading on Tuesday after the company issued a revenue forecast for the current quarter that fell short of Wall Street's expectations.",
+          "headline": "Zscaler Drops on Weak Revenue Guidance",
           "ticker": "$ZS",
           "price": "N/A",
-          "change": "-20%",
-          "changePercent": "-20.00%",
+          "change": "N/A",
+          "changePercent": "-19%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Earnings"
-          ]
+          "summary": "Zscaler experienced a significant drop in after-hours trading on Tuesday following the release of weak revenue guidance."
         },
         {
-          "id": "ea-loser",
-          "headline": "Electronic Arts Declines in Premarket",
-          "summary": "Electronic Arts ($EA) experienced a notable decline in premarket trading.",
-          "ticker": "$EA",
+          "id": "pdd-loser",
+          "headline": "PDD Holdings Declines After Q1 Revenue Miss",
+          "ticker": "$PDD",
           "price": "N/A",
-          "change": "-15.46%",
-          "changePercent": "-15.46%",
+          "change": "N/A",
+          "changePercent": "-8%",
           "direction": "down",
-          "tags": [
-            "Losers"
-          ]
+          "summary": "PDD ADRs fell after the company reported first-quarter revenue that missed the average analyst estimate."
         },
         {
-          "id": "crbp-loser",
-          "headline": "Corbus Pharmaceuticals Experiences Significant Drop",
-          "summary": "Corbus Pharmaceuticals Holdings, Inc. ($CRBP) was among the biggest stock losers, experiencing a substantial decline.",
-          "ticker": "$CRBP",
-          "price": "7.91",
-          "change": "-30.31%",
-          "changePercent": "-30.31%",
+          "id": "podd-loser",
+          "headline": "Insulet Falls on Medical Device Correction",
+          "ticker": "$PODD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Biotech"
-          ]
+          "summary": "Insulet shares declined in after-hours trading on Tuesday after announcing a medical device correction."
         }
       ]
     },
@@ -164,45 +129,64 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-052726",
-          "headline": "Technology and Industrials Lead Market Gains; Energy and Healthcare Lag",
-          "summary": "On Tuesday, six of the eleven major S&P sectors finished in positive territory. Technology, Industrials, and Materials sectors led the gains, with semiconductor stocks experiencing a significant surge driven by AI demand. Conversely, Energy, Consumer Staples, and Healthcare stocks recorded the sharpest declines. Market dynamics suggest a continued rotation of capital towards the semiconductor space.",
+          "id": "sector-tech-lead",
+          "headline": "Technology and Chipmakers Continue to Lead Market Gains",
+          "summary": "The technology sector, particularly chipmakers, remains the strongest force lifting the market, fueled by sustained optimism surrounding artificial intelligence (AI) infrastructure and advanced computing systems. Energy, conversely, has been observed lagging.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Industrials",
+            "AI",
             "Energy"
           ]
         },
         {
-          "id": "fed-economy-052726",
-          "headline": "Economic Data and Fed Speakers on the Horizon; Consumer Confidence Holds Steady",
-          "summary": "Investors are awaiting economic data releases, including the Richmond Fed Manufacturing Index and the Survey of Business Uncertainty, later today. Dallas Fed President Lorie Logan delivered remarks on monetary policy, global oil balances, and population growth. The Conference Board index for May showed consumer confidence holding up. Futures markets are pricing in a 99.9% likelihood of the Federal Reserve maintaining current interest rates at its June meeting.",
+          "id": "economic-data-consumer-confidence",
+          "headline": "U.S. Consumer Confidence Remains Stable in May",
+          "summary": "U.S. Consumer Confidence for May came in at 93.1, slightly above the consensus estimate of 92.9, indicating stable consumer sentiment. Additionally, Case-Shiller home prices for 10-City Composites increased 1.2% in March.",
           "tags": [
-            "Economic News",
-            "Federal Reserve",
             "Economic Data",
-            "Consumer Confidence"
+            "Consumer Confidence",
+            "Housing"
           ]
         },
         {
-          "id": "earnings-reports-052726",
-          "headline": "Q1 Earnings Season Nearing End; Marvell Technology and Salesforce Earnings Eyed",
-          "summary": "The first-quarter earnings season is drawing to a close, with aggregate earnings growth projected at 29% year-on-year, a notable increase from earlier estimates. Key earnings reports to watch after market close today include Marvell Technology ($MRVL), with Salesforce ($CRM), HP ($HPQ), and PDD ($PDD) also on the earnings calendar.",
+          "id": "ecb-geopolitical-risk",
+          "headline": "ECB Warns Markets Underestimate Geopolitical and Fiscal Risks",
+          "summary": "The European Central Bank (ECB) issued a warning that investors are underestimating the risks posed by the Middle East conflict and rising government debts. The ECB noted that financial asset prices appear 'stretched by historical standards.'",
+          "tags": [
+            "Economic News",
+            "Geopolitics",
+            "ECB",
+            "Fiscal Risk"
+          ]
+        },
+        {
+          "id": "earnings-reports-today",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Several major companies are scheduled to report earnings today, May 27, 2026, including PDD Holdings ($PDD), Salesforce ($CRM), Snowflake ($SNOW), HP, Inc. ($HPQ), Synopsys ($SNPS), and Marvell ($MRVL). Investors will be closely watching for financial updates and forward guidance.",
           "tags": [
             "Earnings",
             "Corporate News"
           ]
         },
         {
-          "id": "geopolitical-oil-052726",
-          "headline": "US-Iran Peace Talks Offer Hope Amidst Middle East Tensions, Oil Prices Fluctuate",
-          "summary": "Global markets are balancing optimism for progress in U.S.-Iran peace talks against continued military tensions, which saw U.S. strikes in Iran earlier this week. Brent crude futures initially climbed on Tuesday but slipped on Wednesday as hopes for a diplomatic resolution eased concerns over oil supplies. The European Central Bank has warned that financial markets may be underestimating both geopolitical and fiscal risks.",
+          "id": "bmo-earnings",
+          "headline": "BMO Financial Group Exceeds Q2 Expectations",
+          "summary": "BMO Financial Group ($BMO) reported strong second-quarter 2026 results, with net income of $2,630 million and EPS of $3.53, both significantly higher than the prior year and exceeding expectations.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Middle East",
-            "ECB Warning"
+            "Earnings",
+            "Financial Services",
+            "BMO"
+          ]
+        },
+        {
+          "id": "usmca-review",
+          "headline": "U.S. and Mexico Announce USMCA Review Rounds",
+          "summary": "The United States and Mexico have announced a series of bilateral negotiating rounds related to the first Joint Review of the United States-Mexico-Canada Agreement (USMCA), with discussions on economic security and rules of origin for industrial goods starting this week.",
+          "tags": [
+            "Economic News",
+            "Trade Policy",
+            "USMCA"
           ]
         }
       ]
