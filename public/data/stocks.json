@@ -1,167 +1,218 @@
 {
-  "generatedAt": "2026-05-27T18:28:00Z",
+  "generatedAt": "2026-05-28T10:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "May 27, 2026 - End of Day",
+  "subtitle": "May 28, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Wall Street Shows Mixed Performance as AI Optimism and Easing Oil Prices Drive Sentiment",
-          "summary": "U.S. equities closed with mixed results on Wednesday, May 27, 2026, as persistent optimism surrounding artificial intelligence and declining oil prices influenced investor sentiment. The Dow Jones Industrial Average registered gains, while the S&P 500 and Nasdaq Composite experienced slight declines. Geopolitical developments in the Middle East continued to be monitored by market participants. Not financial advice.",
+          "id": "market-summary-20260528",
+          "headline": "US Futures Mixed Amid Geopolitical Tensions and Inflation Watch",
+          "summary": "US equity futures are signaling a mixed to lower open on Thursday, May 28, as investors weigh ongoing geopolitical tensions between the US and Iran against a backdrop of key inflation data releases. This follows a strong Wednesday session where all three major US indexes closed at record highs. Market sentiment remains cautious, influenced by rising oil prices due to the Strait of Hormuz closure and the Federal Reserve's commitment to taming persistent inflation. However, robust corporate earnings, particularly from the technology and artificial intelligence sectors, continue to provide underlying support to the market.",
           "tags": [
-            "Market Summary",
-            "AI",
-            "Oil Prices",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-27T18:28:00Z"
+            "Market Outlook",
+            "Inflation",
+            "Geopolitics",
+            "Earnings"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,626.79",
-          "statContext": "Up 0.33% (+165.11 points)"
+          "id": "sp500-20260528",
+          "headline": "S&P 500",
+          "statLabel": "Wednesday Close",
+          "statValue": "7,520.36",
+          "statContext": "Edged up 0.02% to another record close.. Futures down 0.1% on Thursday.",
+          "tags": [
+            "S&P 500",
+            "Record High"
+          ]
         },
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,503.00",
-          "statContext": "Down 0.09%"
+          "id": "nasdaq-20260528",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Wednesday Close",
+          "statValue": "26,674.73",
+          "statContext": "Added 0.07% to a record close.. Futures down 0.3% on Thursday.",
+          "tags": [
+            "NASDAQ",
+            "Tech",
+            "AI"
+          ]
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "",
-          "statContext": "Down 0.18%"
+          "id": "dowjones-20260528",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Wednesday Close",
+          "statValue": "50,644.28",
+          "statContext": "Rose 182.60 points (+0.36%) to a fresh intraday and closing high.. Futures down 0.1% on Thursday.",
+          "tags": [
+            "Dow Jones",
+            "Record High"
+          ]
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-20260528",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-vrrm",
-          "headline": "Verra Mobility Tumbles on EPS Cut and Contract Loss",
-          "summary": "Verra Mobility ($VRRM) shares plummeted 54% after the mobility software company reduced its full-year adjusted EPS guidance below analyst estimates and announced the termination of its contract with Avis Budget, leading to multiple analyst downgrades.",
-          "ticker": "$VRRM",
+          "id": "stock-gainer-SNOW",
+          "headline": "Snowflake Surges on AWS Spending & Earnings Beat",
+          "ticker": "$SNOW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-54%",
-          "direction": "down"
+          "changePercent": "+30%",
+          "direction": "up",
+          "summary": "Snowflake surged in extended trading on Wednesday after announcing plans to spend US$6 billion on Amazon Web Services over five years, coupled with quarterly earnings and revenue that exceeded expectations.",
+          "tags": [
+            "Technology",
+            "Cloud",
+            "Earnings"
+          ]
         },
         {
-          "id": "mover-mu",
-          "headline": "Micron Technology Continues AI-Driven Surge",
-          "summary": "Micron Technology ($MU) gained another 2.9% on Wednesday, extending its rally after surging 19.3% a day earlier to surpass the $1 trillion market valuation mark, driven by robust demand for AI technologies.",
+          "id": "stock-gainer-MU",
+          "headline": "Micron Soars on Strong Revenue Growth",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.9%",
-          "direction": "up"
+          "changePercent": "+5%",
+          "direction": "up",
+          "summary": "Micron Technology ($MU) shares surged by 5% today after the company reported a remarkable 20% increase in revenue year-over-year, driven by heightened demand for memory chips essential for various digital applications.",
+          "tags": [
+            "Semiconductors",
+            "Earnings",
+            "Technology"
+          ]
         },
         {
-          "id": "mover-bbwi",
-          "headline": "Bath & Body Works Climbs After Reaffirming Outlook",
-          "summary": "Bath & Body Works ($BBWI) shares rose 14.5% after the company reaffirmed its adjusted earnings per share forecast for the full year.",
-          "ticker": "$BBWI",
+          "id": "stock-gainer-APP",
+          "headline": "AppLovin Leads Gainers",
+          "ticker": "$APP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+14.5%",
-          "direction": "up"
+          "changePercent": "+10.42%",
+          "direction": "up",
+          "summary": "AppLovin ($APP) showed strong performance among US markets today, leading gainers.",
+          "tags": [
+            "Technology",
+            "Gainers"
+          ]
         },
         {
-          "id": "mover-pdd",
-          "headline": "PDD ADRs Fall on Revenue Miss",
-          "summary": "PDD ADRs ($PDD) fell 8% after the company reported first-quarter revenue that missed average analyst estimates.",
-          "ticker": "$PDD",
+          "id": "stock-loser-SIDU",
+          "headline": "Sidus Space Drops on Direct Offering",
+          "ticker": "$SIDU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8%",
-          "direction": "down"
+          "changePercent": "-15%",
+          "direction": "down",
+          "summary": "Sidus Space ($SIDU) shares fell significantly in early premarket trade after the company announced a $100 million registered direct offering.",
+          "tags": [
+            "Aerospace",
+            "Offering",
+            "Losers"
+          ]
+        },
+        {
+          "id": "stock-loser-VRRM",
+          "headline": "Verra Mobility Sees Sharp Decline",
+          "ticker": "$VRRM",
+          "price": "$3.850",
+          "change": "N/A",
+          "changePercent": "-70.57%",
+          "direction": "down",
+          "summary": "Verra Mobility Corporation ($VRRM) experienced a significant decline, losing over 70% of its value (data updated May 27, 2026).",
+          "tags": [
+            "Mobility",
+            "Losers"
+          ]
+        },
+        {
+          "id": "stock-loser-ZS",
+          "headline": "Zscaler Continues Slide",
+          "ticker": "$ZS",
+          "price": "$126.41",
+          "change": "N/A",
+          "changePercent": "-31.52%",
+          "direction": "down",
+          "summary": "Cloud security firm Zscaler ($ZS) continued its decline, with a notable drop (data updated May 27, 2026).",
+          "tags": [
+            "Cybersecurity",
+            "Technology",
+            "Losers"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-20260528",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-ai-tech",
-          "headline": "Technology Sector Leads with Continued AI Optimism",
-          "summary": "The technology sector, particularly semiconductor and chip equipment companies, continued to lead the market rally, with shares like SK Hynix and Micron Technology ($MU) seeing significant advances, reflecting sustained investor enthusiasm for artificial intelligence infrastructure and advanced computing systems.",
+          "id": "sector-analysis-20260528",
+          "headline": "Technology and AI Drive Market Gains, Utilities Lag",
+          "summary": "Technology and artificial intelligence-linked sectors are continuing to show strong momentum, driving overall market gains, bolstered by robust earnings from semiconductor giants. Conversely, the utilities sector has been identified as a significant laggard for May, potentially due to increasing concerns about the impact of AI data centers on power grids and water supplies. The energy sector, while a strong performer year-to-date, has seen its momentum stall.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "AI",
-            "Semiconductors"
+            "Utilities",
+            "Energy"
           ]
         },
         {
-          "id": "sector-energy",
-          "headline": "Energy Sector Under Pressure Amid Falling Oil Prices",
-          "summary": "The energy sector lagged on Wednesday as crude oil prices declined. Brent crude fell 3.7% to $95.88 a barrel, and US benchmark crude dropped 4.5% to $89.72, impacting major oil and gas companies like Exxon Mobil and Chevron.",
+          "id": "economic-data-pce-gdp-20260528",
+          "headline": "Key Economic Data Releases: PCE, GDP, and More",
+          "summary": "Today, May 28, 2026, marks a busy day for economic data releases, including the Personal Consumption Expenditures (PCE) price index – a crucial inflation indicator – and the second estimate for Q1 GDP. Additionally, personal income, personal spending, initial jobless claims, durable goods orders, and new home sales are all scheduled for release.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Oil Prices"
+            "Economic Data",
+            "Inflation",
+            "GDP",
+            "PCE"
           ]
         },
         {
-          "id": "economic-consumer-confidence",
-          "headline": "Consumer Confidence Holds Steady in May",
-          "summary": "The Conference Board reported that U.S. consumer confidence for May came in at 93.1, slightly above the consensus estimate of 92.9, while the April figure was revised to 93.8.",
+          "id": "fed-chair-warsh-inflation-20260528",
+          "headline": "New Fed Chair Kevin Warsh Confronts Inflationary Challenges",
+          "summary": "Kevin Warsh, sworn in as the new Federal Reserve Chair on May 22, faces an immediate challenge of combating an 'inflationary mess' attributed to ongoing price shocks, including new tariffs and the US-Iran conflict. His tenure is expected to focus heavily on taming inflation. Minneapolis Fed President Neel Kashkari also reiterated the Fed's commitment to inflation control today.",
           "tags": [
-            "Economic News",
-            "Consumer Confidence"
+            "Federal Reserve",
+            "Inflation",
+            "Monetary Policy",
+            "Kevin Warsh"
           ]
         },
         {
-          "id": "economic-housing",
-          "headline": "Home Prices Rise in March",
-          "summary": "Case-Shiller home prices for 10-City Composites increased 1.2% in March, following a 0.6% rise in February. The 20-City Composites saw a 1% increase in March after a 0.4% rise the previous month.",
+          "id": "earnings-reports-dell-costco-hormel-20260528",
+          "headline": "Major Companies Report Earnings: Dell, Costco, Hormel",
+          "summary": "Several major companies are reporting earnings today. Dell Technologies Inc. ($DELL) and Costco Wholesale Corporation ($COST) are scheduled to release their Q3 FY22 results after market close. Hormel Foods Corporation ($HRL) reported strong Q2 fiscal 2026 results, with net sales up 3% organically and diluted EPS of $0.29. Dollar Tree, Inc. ($DLTR) also reported Q1 results and provided Q2 EPS guidance. Overall, Q1 earnings season is concluding with 84% of S&P 500 companies beating estimates.",
           "tags": [
-            "Economic News",
-            "Housing Data"
-          ]
-        },
-        {
-          "id": "economic-mortgage-rates",
-          "headline": "Mortgage Rates Reach Nine-Month High",
-          "summary": "Average 30-year mortgage rates in the U.S. climbed to 6.65% for the week ending May 22nd, up from 6.56% the prior week, marking a nine-month high and contributing to an 8.3% weekly decline in mortgage applications.",
-          "tags": [
-            "Economic News",
-            "Interest Rates",
-            "Mortgage"
-          ]
-        },
-        {
-          "id": "earnings-anf",
-          "headline": "Abercrombie & Fitch Beats Q1 Earnings Estimates",
-          "summary": "Abercrombie & Fitch ($ANF) reported stronger-than-expected first-quarter earnings of $1.47 per share, surpassing the Zacks consensus estimate of $1.26, although revenues slightly missed expectations.",
-          "tags": [
-            "Earnings",
-            "Retail"
+            "Earnings Season",
+            "Corporate Earnings",
+            "Technology",
+            "Retail",
+            "Consumer Staples"
           ]
         }
       ]
