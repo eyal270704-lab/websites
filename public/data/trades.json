@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-28T09:52:21.610245Z",
+  "generatedAt": "2026-05-28T10:17:00.846409Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Risky - Low RVOL",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$QUBT",
+      "name": "Quantum Computing Inc.",
+      "sector": "Technology",
+      "currentPrice": "$11.42",
+      "entry": "$10.28",
+      "stop": "$9.80",
+      "structure": "20-day EMA Retest",
+      "trend": "Positive Volume Balance",
+      "trendLabel": "Volume",
+      "analysis": "QUBT is currently trading below its 200-day moving average but above its 20-day EMA. The stock has shown positive volume balance and recently broke out from an inverse head and shoulders formation, signaling potential further upside. A retest of the 20-day EMA at $10.28 offers a potential entry with support at $9.80.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TWLO",
+      "name": "Twilio Inc.",
+      "sector": "Technology",
+      "currentPrice": "$189.65",
+      "entry": "$178.24",
+      "stop": "$155.73",
+      "structure": "20-day EMA Retest",
+      "trend": "Below Average RVOL",
+      "trendLabel": "RVOL",
+      "analysis": "Twilio is in a strong uptrend, trading well above its 200-day and 20-day exponential moving averages. Current relative volume is below average, indicating reduced immediate interest, but the overall trend remains bullish. A pullback to the rising 20-day EMA at $178.24 could offer an entry point, with the 50-day EMA at $155.73 serving as a stop loss.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$LMND",
+      "name": "Lemonade, Inc.",
+      "sector": "Financials",
+      "currentPrice": "$58.50",
+      "entry": "$50.00",
+      "stop": "$48.00",
+      "structure": "Head & Shoulders Breakdown / Support Test",
+      "trend": "Slightly Elevated RVOL (Bearish Balance)",
+      "trendLabel": "RVOL/Volume Balance",
+      "analysis": "Lemonade is in a bearish trend, trading below its key moving averages. A head and shoulders formation is developing, suggesting further downside if support at $52.72 breaks. While relative volume is slightly elevated, the volume balance is negative, indicating selling pressure. A speculative entry could be considered at the major psychological support of $50.00, with a tight stop at $48.00, anticipating a bounce or capitulation.",
+      "riskScore": 9,
+      "footerTag": "High Risk",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
