@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-30T09:13:00Z",
+  "generatedAt": "2026-05-30T17:11:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "May 30, 2026",
-  "badge": "Pre-Market Update",
+  "title": "Daily Market Digest: May 30, 2026",
+  "subtitle": "Tech Sector Powers Gains Amid Shifting Sentiment",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,230 +13,191 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-may-30",
-          "headline": "US Stock Futures Edge Higher, Extending Record Rally on AI Optimism and Geopolitical Hopes",
-          "summary": "US stock futures are showing slight gains this morning, building on yesterday's record-setting rally. Investor sentiment remains cautiously optimistic, driven by continued strong demand for artificial intelligence (AI) computing and hopes for easing global tensions between the US and Iran. While technology stocks lead the charge, concerns about inflation and the sustainability of the extended AI rally persist.",
+          "id": "market-summary-may30",
+          "headline": "U.S. Stocks Climb, Led by Tech as AI Demand Boosts Earnings",
+          "summary": "U.S. equities closed higher on Friday, extending a record-setting rally, primarily driven by strong performances in the technology sector. Hopes for easing geopolitical tensions in the Middle East and impressive earnings reports from major tech firms, particularly those linked to artificial intelligence demand, fueled investor confidence. Despite these gains, overall market sentiment remains mixed, with some indicators suggesting potential overvaluation and consumer pessimism.",
           "tags": [
-            "Market Sentiment",
-            "Pre-Market",
+            "Market Overview",
+            "Technology",
             "AI",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-05-30T09:13:00Z"
+            "Earnings"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Pre-Market)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "+0.16%",
-          "statContext": "Pre-market movement."
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,580.06",
+          "statContext": "Up 0.22% on Friday, May 29. Gained 1.43% for the week and 6.4% month-to-date in May."
         },
         {
-          "id": "nasdaq-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "+0.24%",
-          "statContext": "Pre-market movement."
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,972.62",
+          "statContext": "Up 0.20% on Friday, May 29. Rose 2.39% for the week and 8.36% month-to-date in May."
         },
         {
-          "id": "dow-premarket",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "+0.20%",
-          "statContext": "Pre-market movement."
-        },
-        {
-          "id": "sp500-yesterday",
-          "statLabel": "S&P 500 (May 29 Close)",
-          "statValue": "7,580.08",
-          "statContext": "+0.22%"
-        },
-        {
-          "id": "nasdaq-yesterday",
-          "statLabel": "NASDAQ Composite (May 29 Close)",
-          "statValue": "26,972",
-          "statContext": "+0.26%"
-        },
-        {
-          "id": "dow-yesterday",
-          "statValue": "51,032",
-          "statLabel": "Dow Jones Ind. Avg (May 29 Close)",
-          "statContext": "+0.70%"
+          "id": "dow-performance",
+          "statLabel": "DOW Jones Industrial Avg",
+          "statValue": "51,032.34",
+          "statContext": "Up 0.72% on Friday, May 29. Climbed 0.9% for the week and 2.78% month-to-date in May."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market)",
+      "title": "Top Movers (Week Ending May 29, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "dell-gainer",
-          "headline": "Dell Technologies Surges on Blockbuster Earnings",
-          "summary": "Dell Technologies ($DELL) soared in pre-market trading after reporting first-quarter earnings that exceeded market expectations and raising its full-year outlook, primarily driven by strong demand for AI computing.",
+          "headline": "Dell Technologies",
           "ticker": "$DELL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+33.17%",
+          "price": "$255.37",
+          "change": "+42.59%",
+          "changePercent": "+42.59%",
           "direction": "up",
+          "summary": "Surged on robust Q1 earnings and heightened demand for AI computing."
+        },
+        {
+          "id": "snowflake-gainer",
+          "headline": "Snowflake",
+          "ticker": "$SNOW",
+          "price": "$255.37",
+          "change": "+48.24%",
+          "changePercent": "+48.24%",
+          "direction": "up",
+          "summary": "Led weekly gains among US-listed stocks."
+        },
+        {
+          "id": "okta-gainer",
+          "headline": "Okta",
+          "ticker": "$OKTA",
+          "price": "N/A",
+          "change": "+33.64%",
+          "changePercent": "+33.64%",
+          "direction": "up",
+          "summary": "Ranked third for weekly performance."
+        },
+        {
+          "id": "futu-loser",
+          "headline": "Futu Holdings",
+          "ticker": "$FUTU",
+          "price": "$104.07",
+          "change": "-$19.78",
+          "changePercent": "-15.98%",
+          "direction": "down",
+          "summary": "Declined significantly after its first-quarter earnings release."
+        },
+        {
+          "id": "fedexfreight-loser",
+          "headline": "FedEx Freight Holding Co Inc",
+          "ticker": "$FDXFw",
+          "price": "$160.37",
+          "change": "-$24.63",
+          "changePercent": "-13.31%",
+          "direction": "down",
+          "summary": "Experienced a notable decline."
+        },
+        {
+          "id": "stepstone-loser",
+          "headline": "StepStone Group",
+          "ticker": "$STEP",
+          "price": "$49.31",
+          "change": "-$5.43",
+          "changePercent": "-9.92%",
+          "direction": "down",
+          "summary": "Among the significant laggards for the week."
+        }
+      ]
+    },
+    {
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "tech-leads",
+          "headline": "Technology Sector Continues to Lead Market Gains",
+          "summary": "The technology sector remained the strongest performer, with a 19.79% surge in May, largely driven by the ongoing Artificial Intelligence rally. This concentration means a small group of large-cap tech stocks is heavily influencing the overall market indices.",
           "tags": [
-            "Gainers",
+            "Technology",
             "AI",
-            "Earnings"
+            "Sector Performance"
           ]
         },
         {
-          "id": "netapp-gainer",
-          "headline": "NetApp Rises on Strong Q4 Results",
-          "summary": "NetApp Inc ($NTAP) saw significant pre-market gains following strong fiscal fourth-quarter results and an uplifted forecast for the upcoming quarter and full year.",
-          "ticker": "$NTAP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+17.28%",
-          "direction": "up",
+          "id": "financials-rotation",
+          "headline": "Financials Show Strength Amid Sector Rotation",
+          "summary": "The financial sector saw gains for the week, up 0.56% on Friday, as traders rotated back into some lagging sectors. Shares of major investment banks like Goldman Sachs Group and Morgan Stanley reached all-time highs.",
           "tags": [
-            "Gainers",
-            "Earnings"
+            "Financials",
+            "Sector Rotation"
           ]
         },
         {
-          "id": "hpe-gainer",
-          "headline": "Hewlett Packard Enterprise Gains",
-          "summary": "Hewlett Packard Enterprise ($HPE) showed strong pre-market movement.",
-          "ticker": "$HPE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.22%",
-          "direction": "up",
+          "id": "energy-utilities-lag",
+          "headline": "Energy and Utilities Sectors Lag",
+          "summary": "The Energy sector was among the worst performers, falling 5.6% in May and 5.31% for the week ending May 29. Utilities also lagged, experiencing a 4.35% loss month-to-date.",
           "tags": [
-            "Gainers",
-            "Tech"
-          ]
-        },
-        {
-          "id": "autodesk-loser",
-          "headline": "Autodesk Slips Despite Earnings Beat",
-          "summary": "Autodesk Inc ($ADSK) experienced a pre-market decline despite reporting earnings that surpassed expectations, potentially due to guidance or profit-taking.",
-          "ticker": "$ADSK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.41%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Earnings"
-          ]
-        },
-        {
-          "id": "aero-loser",
-          "headline": "American Eagle Outfitters Falls on Weak Forecast",
-          "summary": "American Eagle Outfitters Inc ($AEO) dropped in pre-market trading after lowering its current-quarter forecast, despite beating first-quarter earnings and revenue expectations. Comparable sales also declined.",
-          "ticker": "$AEO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.1%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Retail",
-            "Guidance"
-          ]
-        },
-        {
-          "id": "echostar-loser",
-          "headline": "EchoStar Corp Experiences Pre-Market Dip",
-          "summary": "EchoStar Corp ($SATS) saw a decrease in pre-market activity.",
-          "ticker": "$SATS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.98%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Technology"
+            "Energy",
+            "Utilities",
+            "Lagging Sectors"
           ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "economic-news",
+      "title": "Economic News & Trends",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-sector-lead",
-          "headline": "Technology Sector Continues to Drive Market Rally",
-          "summary": "The technology sector remains a primary driver of market strength, fueled by ongoing robust demand for artificial intelligence infrastructure and related services. Companies involved in AI computing are seeing significant gains.",
+          "id": "inflation-concerns",
+          "headline": "Persistent Inflation Fuels Rate Hike Speculation",
+          "summary": "The Personal Consumption Expenditures (PCE) Index, the Federal Reserve's preferred inflation measure, rose 3.8% year-over-year, indicating stubbornly elevated inflation. Core PCE increased by 3.3%. This suggests the Fed may remain cautious about interest rate cuts, and discussions about potential rate hikes, a significant policy shift, are gaining traction under new Fed Chair Kevin Warsh.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "AI"
+            "Inflation",
+            "Federal Reserve",
+            "Interest Rates"
           ]
         },
         {
           "id": "geopolitical-optimism",
-          "headline": "Hopes for US-Iran Ceasefire Boost Investor Confidence",
-          "summary": "Investor sentiment is benefiting from reports indicating progress in US-Iran ceasefire negotiations, which are helping to ease geopolitical tensions and reduce pressure on energy markets.",
+          "headline": "Geopolitical Tensions Ease, Boosting Confidence",
+          "summary": "Hopes for easing geopolitical tensions, particularly concerning the US-Iran conflict and prospects of a ceasefire agreement, contributed to a boost in investor confidence. This also led to a decline in crude oil prices, with Brent crude falling to $92.10 a barrel.",
           "tags": [
-            "Economic News",
             "Geopolitics",
-            "Market Sentiment"
+            "Market Sentiment",
+            "Oil Prices"
           ]
         },
         {
-          "id": "oil-prices-cool",
-          "headline": "Cooling Oil Prices Alleviate Inflation Concerns",
-          "summary": "Brent crude dipped to $92.10 a barrel and US benchmark crude declined to $87.55 a barrel. Lower oil prices are contributing to eased inflation concerns among investors.",
+          "id": "consumer-sentiment-low",
+          "headline": "Consumer Sentiment Hits New Low Amid Market Rally",
+          "summary": "Despite the S&P 500 reaching new all-time highs, consumer sentiment has hit a new low this month, falling below its previous low in 2022. More investors are feeling pessimistic than optimistic, and the 'Buffett indicator' has reached a new all-time high of approximately 231%, signaling potential market overvaluation.",
           "tags": [
-            "Economic News",
-            "Inflation",
-            "Commodities"
+            "Consumer Confidence",
+            "Market Valuation"
           ]
         },
         {
-          "id": "fed-speakers-data",
-          "headline": "Key Economic Data and Fed Speeches on Today's Calendar",
-          "summary": "Today's economic calendar includes speeches from FOMC members Kashkari, Schmid, Bowman, and Daly. Additionally, Retail Inventories and Wholesale Inventories data are due at 8:30 AM ET, followed by the Chicago PMI at 9:45 AM ET. The Baker Hughes Rig Count will be released at 1:00 PM ET, and Farm Prices at 3:00 PM ET.",
+          "id": "upcoming-earnings",
+          "headline": "Key Earnings Reports on the Horizon",
+          "summary": "While many companies have already reported, investors are looking ahead to upcoming earnings. Five Below ($FIVE) is scheduled to report on June 2, 2026, with Hewlett Packard Enterprise, Palo Alto Networks, and Broadcom also slated for early June.",
           "tags": [
-            "Economic News",
-            "Fed",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "broadcom-downgrade",
-          "headline": "Broadcom Downgraded Amid Broader Chip Sector Caution",
-          "summary": "Broadcom ($AVGO) was downgraded to a 'Hold' rating by Wall Street Zen. This comes amidst some caution within the broader chip sector, with some analysts suggesting the AI/silicon rally may be becoming extended.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Chip Stocks",
-            "Analyst Ratings"
-          ]
-        },
-        {
-          "id": "costco-earnings",
-          "headline": "Costco Misses on Bottom Line, Shares Decline",
-          "summary": "Costco Holdings ($COST) shares fell after the company reported fiscal third-quarter earnings per share that missed analyst estimates, despite revenue exceeding projections.",
-          "tags": [
-            "Earnings",
-            "Retail"
-          ]
-        },
-        {
-          "id": "may-rally",
-          "headline": "'Sell in May' Theme Disregarded as Indices Post Strong Gains",
-          "summary": "The traditional 'Sell in May and go away' adage has been set aside this year, with major indices showing significant gains as the month concludes.",
-          "tags": [
-            "Market Trends",
-            "Seasonal Trends"
+            "Earnings Season",
+            "Company News"
           ]
         }
       ]
