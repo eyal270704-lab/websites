@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T18:40:23.848074Z",
+  "generatedAt": "2026-05-31T19:27:20.400467Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 12,
+  "tradeCount": 14,
   "trades": [
     {
       "ticker": "$APP",
@@ -33,22 +33,6 @@
       "riskScore": 6,
       "footerTag": "Accumulation",
       "setupType": "risky",
-      "source": "Watchlist"
-    },
-    {
-      "ticker": "$IREN",
-      "name": "IREN Limited",
-      "sector": "Technology",
-      "currentPrice": "$67.84",
-      "entry": "$65.10",
-      "stop": "$53.30",
-      "structure": "0.5 Fib Retracement",
-      "trend": "> 150MA",
-      "trendLabel": "Trend",
-      "analysis": "IREN is demonstrating strong bullish momentum, trading significantly above its key moving averages. The price is currently slightly above a recent 0.5 Fibonacci retracement level, suggesting a retest or breakout continuation. Elevated relative volume indicates sustained market interest.",
-      "riskScore": 4,
-      "footerTag": "Momentum",
-      "setupType": "momentum",
       "source": "Watchlist"
     },
     {
@@ -193,6 +177,54 @@
       "riskScore": 6,
       "footerTag": "Extended Price",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ARM",
+      "name": "Arm Holdings plc",
+      "sector": "Semiconductors",
+      "currentPrice": "$353.29",
+      "entry": "$330.00",
+      "stop": "$300.00",
+      "structure": "Consolidation/Retest",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "ARM is currently in a strong uptrend, trading well above its key moving averages after breaking out to new highs. A pullback to the $330.00 level could offer a low-risk entry, acting as new support. This setup anticipates a continuation of the bullish momentum.",
+      "riskScore": 7,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$70.77",
+      "entry": "$69.00",
+      "stop": "$68.46",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "UBER is in a clear bearish trend, trading below its major moving averages. It is currently testing a significant support level at $69.00. While a bounce from this level is possible, the overall bearish sentiment and downtrend indicate a high-risk counter-trend trade.",
+      "riskScore": 8,
+      "footerTag": "High Risk",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$IREN",
+      "name": "Iris Energy Ltd.",
+      "sector": "Technology",
+      "currentPrice": "$63.54",
+      "entry": "$63.00",
+      "stop": "$50.00",
+      "structure": "Breakout Retest",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "IREN has recently broken above and is retesting a significant resistance-turned-support level at $63.00. The stock is in a strong bullish trend, maintaining above its 20-day and 200-day moving averages with slightly elevated relative volume. This setup presents a high-confidence opportunity for further upside.",
+      "riskScore": 4,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
       "source": "Micha Stocks YouTube"
     }
   ]
