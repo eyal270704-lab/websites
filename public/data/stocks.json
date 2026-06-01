@@ -1,54 +1,56 @@
 {
-  "generatedAt": "2026-06-01T17:15:00Z",
+  "generatedAt": "2026-06-01T20:19:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 1, 2026",
-  "subtitle": "Tech Rally Continues Amid Geopolitical Tensions; Fed Cautions on Inflation Response",
+  "title": "Daily Market Digest",
+  "subtitle": "June 01, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Tech Rally Amid Geopolitical Tensions",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary",
-          "headline": "Tech Stocks Propel Market Near Record Highs as Oil Prices Fluctuate",
-          "summary": "U.S. equities saw mixed movements on Monday, with the tech-heavy Nasdaq and S&P 500 drifting higher, largely fueled by a continued rally in artificial intelligence (AI) stocks. Hopes for an imminent U.S.-Iran peace deal faded somewhat during the day, leading to a rise in oil prices that pressured oil-linked cyclicals and caused the Dow to dip. Overall market sentiment remains resilient, despite ongoing geopolitical uncertainties and inflation concerns.",
+          "headline": "Wall Street Hits Record Highs, Driven by Tech and AI Gains",
+          "summary": "U.S. financial markets extended their rally, with major indices reaching or nearing record highs on June 1, 2026. The market was largely propelled by a surge in technology and AI-related stocks, offsetting concerns stemming from renewed Middle East tensions and rising oil prices. Despite a mixed day for broader sectors, investor sentiment remained resilient due to strong corporate earnings and an optimistic outlook for AI spending.",
           "tags": [
             "Market Overview",
-            "Tech Rally",
-            "Oil Prices",
+            "AI",
+            "Technology",
             "Geopolitics"
-          ],
-          "timestamp": "2026-06-01T17:15:00Z"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,585.26",
-          "statContext": "+0.07% today"
+          "statValue": "7,580.07",
+          "statContext": "+0.2% (+16.44 points)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-perf",
-          "statLabel": "NASDAQ Comp.",
-          "statValue": "27,034.50",
-          "statContext": "+0.23% today"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,972.62",
+          "statContext": "+0.2% (+55.15 points)",
+          "direction": "up"
         },
         {
-          "id": "dow-perf",
-          "statLabel": "DOW Jones Ind.",
-          "statValue": "50,912.06",
-          "statContext": "-0.24% today"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,032.34",
+          "statContext": "+0.7% (+363.37 points)",
+          "direction": "up"
         }
       ]
     },
@@ -59,117 +61,129 @@
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "Nvidia Surges on New AI Chip Announcement",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "+4.44%",
-          "changePercent": "+4.44%",
-          "direction": "up",
-          "summary": "Nvidia jumped more than 4% today after unveiling a new AI-focused PC chip, boosting mega-cap tech stocks and easing concerns about potential delays in its AI roadmap."
-        },
-        {
           "id": "dell-gainer",
-          "headline": "Dell Technologies Continues Ascent on AI Demand",
+          "headline": "Dell Technologies ($DELL) Soars on Strong AI Demand",
+          "summary": "Dell Technologies (NYSE: $DELL) surged 32.8% after reporting an earnings beat, fueled by robust AI demand and an upward revision of its full-year guidance. The company's AI infrastructure and server business are seeing surging demand.",
           "ticker": "$DELL",
           "price": "N/A",
-          "change": "+8.00%",
-          "changePercent": "+8.00%",
-          "direction": "up",
-          "summary": "Dell Technologies gained 8% today, following a 32.8% surge on Friday, driven by strong earnings powered by robust AI demand and a raised full-year guidance."
+          "change": "N/A",
+          "changePercent": "+32.8%",
+          "direction": "up"
+        },
+        {
+          "id": "tmhc-gainer",
+          "headline": "Taylor Morrison Home ($TMHC) Jumps on Acquisition News",
+          "summary": "Taylor Morrison Home (NYSE: $TMHC) jumped 22.29% to $71.57 following an announcement of its acquisition by Berkshire Hathaway.",
+          "ticker": "$TMHC",
+          "price": "$71.57",
+          "change": "+$13.05",
+          "changePercent": "+22.29%",
+          "direction": "up"
         },
         {
           "id": "saic-gainer",
-          "headline": "Science Applications International Corp. Rises on Earnings Beat",
+          "headline": "Science Applications International Corp. ($SAIC) Rises on Earnings Beat",
+          "summary": "Science Applications International Corp. (NYSE: $SAIC) surged 12.3% after exceeding analysts' quarterly profit expectations and raising its financial outlook due to new contract wins.",
           "ticker": "$SAIC",
           "price": "N/A",
-          "change": "+12.30%",
-          "changePercent": "+12.30%",
-          "direction": "up",
-          "summary": "Science Applications International Corp. surged 12.3% after reporting quarterly profit that exceeded analysts' expectations and raising its financial outlook."
+          "change": "N/A",
+          "changePercent": "+12.3%",
+          "direction": "up"
         },
         {
           "id": "qcom-loser",
-          "headline": "Qualcomm Slips on PC Competition Fears",
+          "headline": "Qualcomm ($QCOM) Declines on PC Competition Fears",
+          "summary": "Qualcomm (NASDAQ: $QCOM) fell 7.84% to $231.33 amid concerns over intensified competition in the PC chip market.",
           "ticker": "$QCOM",
-          "price": "N/A",
-          "change": "-7.55%",
-          "changePercent": "-7.55%",
-          "direction": "down",
-          "summary": "Qualcomm fell by 7.55% today amidst fears of tougher competition in the PC market."
+          "price": "$231.33",
+          "change": "-$19.69",
+          "changePercent": "-7.84%",
+          "direction": "down"
         },
         {
           "id": "ual-loser",
-          "headline": "United Airlines Down as Oil Prices Rise",
+          "headline": "United Airlines ($UAL) Hit by Rising Oil Prices",
+          "summary": "United Airlines (NASDAQ: $UAL) experienced a 2.7% decline as rising crude oil prices, fueled by Middle East tensions, pressured companies with significant fuel costs.",
           "ticker": "$UAL",
           "price": "N/A",
-          "change": "-2.70%",
-          "changePercent": "-2.70%",
-          "direction": "down",
-          "summary": "United Airlines fell 2.7% as oil prices moved higher following renewed tensions around the U.S.-Iran ceasefire, impacting companies with significant fuel costs."
-        },
-        {
-          "id": "pg-loser",
-          "headline": "P&G Declines in Today's Session",
-          "ticker": "$PG",
-          "price": "N/A",
-          "change": "-2.27%",
-          "changePercent": "-2.27%",
-          "direction": "down",
-          "summary": "Procter & Gamble saw a 2.27% decline today."
+          "change": "N/A",
+          "changePercent": "-2.7%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Technology and Energy Lead While Consumer Staples Lag",
-          "summary": "Information Technology continued its strong performance, leading sectors today with a 1.67% gain, driven by AI optimism. The Energy sector also saw a 2.5% turnaround, propelled by rising gas prices. In contrast, Consumer Staples were among the worst performers, with the Consumer Staples Select Sector SPDR (XLP) losing 2%, and Financials and Health Care also showing weakness.",
+          "id": "tech-leads",
+          "headline": "Information Technology Leads, Consumer Staples Lag",
+          "summary": "The Information Technology sector was the top performer, gaining 1.9% to 2.48% on the day, driven by strong interest in AI and semiconductor stocks. In contrast, Consumer Staples were among the worst performers, with the Consumer Staples Select Sector SPDR (XLP) losing 2%. Nine of the eleven benchmark index sectors ended in negative territory, and Utilities led the downside with a 3.05% loss.",
           "tags": [
-            "Sector Performance",
-            "Tech",
-            "Energy",
-            "Consumer Staples"
-          ],
-          "timestamp": "2026-06-01T17:15:00Z"
+            "Sectors",
+            "Technology",
+            "Consumer Staples",
+            "Utilities"
+          ]
         },
         {
-          "id": "fed-commentary",
-          "headline": "Former Fed Chair Powell Defends Independence; Governor Bowman Cautions Against Rate Hikes",
-          "summary": "Former Federal Reserve Chair Jerome Powell, in one of his first public appearances since leaving office, used an award speech to defend the independence of institutions like the Fed from political pressure. Meanwhile, Fed Governor Michelle Bowman warned against raising interest rates in response to the current inflation spike, particularly if it's driven by temporary energy price inflation rather than broad-based pressures. Markets are generally anticipating the Fed to keep interest rates unchanged in the near term.",
-          "tags": [
-            "Economic Policy",
-            "Federal Reserve",
-            "Inflation"
-          ],
-          "timestamp": "2026-06-01T17:15:00Z"
-        },
+          "id": "energy-outlook",
+          "headline": "Energy Sector Shows Gains Amid Volatility",
+          "summary": "The Energy sector also saw gains, with the Energy Select Sector SPDR (XLE) up 0.52%, as oil prices rose due to ongoing geopolitical tensions. However, oil-linked cyclicals lagged overall market performance."
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News & Trends",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
         {
-          "id": "upcoming-economic-data",
-          "headline": "Key Economic Data Releases Expected This Week",
-          "summary": "This week's economic calendar includes several important data releases. Monday features the ISM Manufacturing PMI, ISM Manufacturing Employment, ISM Manufacturing Prices, and Construction Spending MoM. The Job Openings and Labor Turnover Survey (JOLTS) is due Tuesday, followed by the ADP Non-Farm Employment Change on Wednesday. The week concludes with the crucial BLS Employment Report on Friday, with expectations for 95,000 jobs added and a 4.3% unemployment rate.",
-          "tags": [
-            "Economic Calendar",
-            "Labor Market",
-            "Manufacturing"
-          ],
-          "timestamp": "2026-06-01T17:15:00Z"
-        },
-        {
-          "id": "earnings-season-focus",
-          "headline": "Major Earnings Reports Continue; Dell Shines",
-          "summary": "Earnings season continues to be a market driver, with Dell Technologies Inc. ($DELL) notably surging 32.8% on Friday due to strong first-quarter fiscal 2027 non-GAAP earnings and robust AI demand. This week, investors anticipate reports from several large tech and cybersecurity companies, including Broadcom ($AVGO), CrowdStrike ($CRWD), Palo Alto Networks ($PANW), and Hewlett Packard Enterprise ($HPE).",
+          "id": "q1-earnings-strong",
+          "headline": "Q1 2026 Earnings Season Concludes with Robust Growth",
+          "summary": "The first-quarter 2026 earnings season is drawing to a close, with S&P 500 companies reporting approximately 28% year-over-year earnings growth. Over 80% of companies surpassed expectations, driven largely by the technology sector, which contributed 52% of the year-over-year EPS growth.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "Tech"
-          ],
-          "timestamp": "2026-06-01T17:15:00Z"
+            "Corporate Profits",
+            "Technology"
+          ]
+        },
+        {
+          "id": "geopolitical-impact",
+          "headline": "Geopolitical Tensions Drive Oil Prices and Market Volatility",
+          "summary": "Renewed tensions surrounding the U.S.-Iran situation led to a rise in Brent crude oil prices by about 4-5% to around $95 per barrel. These geopolitical developments contribute to market volatility and inflationary pressures, although initial hopes for a peace deal had previously driven rallies.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "economic-data-ahead",
+          "headline": "Key Economic Data Releases Anticipated This Week",
+          "summary": "Investors are closely watching upcoming economic data, including the ISM Manufacturing PMI, Job Openings and Labor Turnover Survey (JOLTS), ADP Non-Farm Employment Change, and the official BLS Employment Report. The April Jobs Report showed payrolls rising by 115k, with the unemployment rate at 4.3% and cooler wage growth.",
+          "tags": [
+            "Economic Data",
+            "Labor Market",
+            "Inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "Important Information",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "not-financial-advice",
+          "headline": "Not Financial Advice",
+          "summary": "This digest is for informational purposes only and should not be considered investment advice. Investors should conduct their own research and consult with a qualified financial professional before making any investment decisions."
         }
       ]
     }
