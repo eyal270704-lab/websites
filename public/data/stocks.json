@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-03T11:54:00Z",
+  "generatedAt": "2026-06-03T16:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 03, 2026: Global Tensions and AI Enthusiasm Drive Markets",
+  "subtitle": "June 3, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,93 +13,109 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-06032026",
-          "headline": "US Futures Mixed as Geopolitical Tensions Persist, AI Enthusiasm Continues",
-          "summary": "US stock futures are exhibiting mixed to slightly down movements on Wednesday, June 3, 2026, following a strong close for major indices on Tuesday, largely propelled by optimism around artificial intelligence. Global market sentiment remains cautious, influenced by persistently rising crude oil prices and escalating geopolitical tensions in the Middle East. Today's economic calendar includes the release of the Federal Reserve's Beige Book, with investors also anticipating May ISM Services and April Factory Orders data.",
+          "id": "market-summary-001",
+          "headline": "U.S. Stocks Trade Mixed as Geopolitical Tensions and Rising Oil Prices Weigh on Sentiment, While AI Enthusiasm Persists Near Record Highs.",
+          "summary": "U.S. equities are displaying mixed performance today, hovering near recent record highs. The market is navigating a complex environment characterized by escalating U.S.-Iran tensions and a significant rise in Brent crude prices, nearing $100 per barrel. Despite these headwinds, Wall Street continues to find support from robust corporate earnings and an ongoing rally driven by artificial intelligence and semiconductor stocks. However, the rally appears narrow, with some broader market segments lagging. Inflation concerns are also reflected in rising bond yields. Not financial advice.",
           "tags": [
             "Market Overview",
-            "Global Economy",
-            "AI",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-06-03T11:54:00Z"
+            "Geopolitics",
+            "Oil Prices",
+            "AI Rally"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Pre-market/Futures - June 3, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Flat to Slightly Lower",
-          "statContext": "S&P 500 closed Tuesday at 7,609.78 (+0.1%)",
-          "direction": "flat"
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "Down",
+          "statContext": "-0.14%"
         },
         {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Industrial Average Futures",
-          "statValue": "-0.2%",
-          "statContext": "Dow closed Tuesday at 51,307.79 (+0.4%)",
-          "direction": "down"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ",
+          "statValue": "Up",
+          "statContext": "+0.01%"
         },
         {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "Mixed",
-          "statContext": "Nasdaq Composite closed Tuesday at 27,093.90 (+<0.1%)",
-          "direction": "flat"
+          "id": "dow-stat",
+          "statLabel": "DOW",
+          "statValue": "Down",
+          "statContext": "-0.56%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (As of June 2-3, 2026 Trading Sessions)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "top-gainer-vida",
-          "headline": "VIDA Global Inc. Leads Gainers",
-          "summary": "VIDA Global Inc. ($VIDA) is reported as a top performer in June, reflecting strong momentum.",
-          "ticker": "$VIDA",
-          "price": "$5.54",
-          "change": "+1.93",
-          "changePercent": "+53.46%",
-          "direction": "up"
+          "id": "gme-gainer",
+          "headline": "GameStop Jumps on Strong Earnings and Buyback",
+          "ticker": "$GME",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9.4%",
+          "direction": "up",
+          "summary": "GameStop surged after reporting a 14% increase in quarterly revenue and announcing a share buyback program of up to $2 billion."
         },
         {
-          "id": "top-gainer-mrvi",
-          "headline": "Marvell Technology Surges on AI Talk",
-          "summary": "Marvell Technology Inc. ($MRVL) saw a significant jump after Nvidia's CEO hinted it could be the next trillion-dollar company, highlighting continued strong sentiment in the AI sector.",
+          "id": "mrvl-gainer",
+          "headline": "Marvell Technology Continues AI-Driven Ascent",
           "ticker": "$MRVL",
-          "price": "$328.44",
-          "change": "+79.31",
-          "changePercent": "+32.5%",
-          "direction": "up"
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.0%",
+          "direction": "up",
+          "summary": "Marvell Technology extended its gains, fueled by bullish sentiment after Nvidia CEO Jensen Huang suggested it could be 'the next trillion-dollar company.'"
         },
         {
-          "id": "top-loser-hkit",
-          "headline": "Hitek Global Inc. Sees Sharp Decline",
-          "summary": "Hitek Global Inc. ($HKIT) experienced a substantial drop in the latest trading session.",
+          "id": "nn-gainer",
+          "headline": "NextNav Experiences Early Trading Surge",
+          "ticker": "$NN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.8%",
+          "direction": "up",
+          "summary": "NextNav saw a significant jump in early trading hours."
+        },
+        {
+          "id": "panw-loser",
+          "headline": "Palo Alto Networks Falls Despite Profit Beat",
+          "ticker": "$PANW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.3%",
+          "direction": "down",
+          "summary": "Palo Alto Networks declined despite exceeding profit expectations, as investors may have anticipated stronger results following a substantial year-to-date rally."
+        },
+        {
+          "id": "hkit-loser",
+          "headline": "Hitek Global Inc. Plummets on Reverse Split Concerns",
           "ticker": "$HKIT",
-          "price": "$0.620",
-          "change": "-6.69",
+          "price": "N/A",
+          "change": "N/A",
           "changePercent": "-90.58%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Hitek Global Inc. experienced a sharp decline, likely tied to a reverse stock split aimed at maintaining Nasdaq compliance and ongoing dilution concerns."
         },
         {
-          "id": "top-loser-fulc",
-          "headline": "Fulcrum Therapeutics Falls",
-          "summary": "Fulcrum Therapeutics, Inc. ($FULC) was among the significant decliners in recent trading.",
-          "ticker": "$FULC",
-          "price": "$3.140",
-          "change": "-3.30",
-          "changePercent": "-51.09%",
-          "direction": "down"
+          "id": "mlys-loser",
+          "headline": "Mineralys Therapeutics Sees Double-Digit Drop",
+          "ticker": "$MLYS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.2%",
+          "direction": "down",
+          "summary": "Mineralys Therapeutics recorded a notable fall in today's trading."
         }
       ]
     },
@@ -110,48 +126,67 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-ai-energy",
-          "headline": "AI and Energy Sectors Show Strength, Others Lag",
-          "summary": "Artificial intelligence continues to be a primary driver for semiconductor and technology stocks, demonstrating robust performance. The Information Technology sector now accounts for nearly 40% of the S&P 500, a record high. Energy shares are also strong, with crude oil prices rising for the third consecutive session. Conversely, real estate and utilities have shown lagging performance in the US, while the Indian IT sector experienced a significant decline of 5.57%. There is growing interest among investors for cyclicals, small caps, financials, and industrials, particularly if global tensions ease.",
+          "id": "economic-data-001",
+          "headline": "Key Economic Data Releases Underway Today",
+          "summary": "Today's economic calendar includes the ADP employment change for May, the ISM Services PMI for May, April Factory Orders, and EIA crude oil inventories. Additionally, the Federal Reserve's Beige Book is scheduled for release this afternoon, offering qualitative insights into economic conditions across various districts.",
+          "tags": [
+            "Economic Data",
+            "Fed",
+            "Employment",
+            "Manufacturing"
+          ]
+        },
+        {
+          "id": "geopolitical-oil-002",
+          "headline": "Oil Prices Surge Amid Renewed US-Iran Tensions",
+          "summary": "Brent crude climbed toward $98 per barrel following new developments in the Middle East, including reports of Iran firing missiles and subsequent U.S. strikes. These tensions are fueling concerns over energy supply risks and contributing to broader market caution.",
+          "tags": [
+            "Geopolitics",
+            "Oil Market",
+            "Energy"
+          ]
+        },
+        {
+          "id": "sector-rotation-003",
+          "headline": "Tech and Energy Lead While Financials and Healthcare Lag",
+          "summary": "Technology and semiconductor sectors continue to demonstrate strong performance driven by AI enthusiasm. The Energy sector is also leading due to geopolitical tensions and rising oil prices. In contrast, Financials and Healthcare sectors are among the clear laggards year-to-date, reflecting mixed rate expectations and valuation concerns.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "Energy",
-            "AI",
-            "Market Trends"
+            "Financials",
+            "Healthcare"
           ]
         },
         {
-          "id": "economic-data-fed",
-          "headline": "Fed Beige Book Released, Key Economic Data Ahead",
-          "summary": "The Federal Reserve released its June Beige Book today, offering qualitative insights into economic conditions across its districts. Recent JOLTS data indicated an increase in US job openings to 7.618 million in April, suggesting a hawkish stance on the Fed's rate path. Additionally, the May ISM Services data and ADP employment report are expected today, while Eurozone inflation rose to 3.2% in May, potentially prompting an ECB rate hike on June 11.",
-          "tags": [
-            "Economic News",
-            "Fed",
-            "Employment",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "earnings-reports-major",
-          "headline": "Macy's Beats Expectations, Broadcom Reports After Hours",
-          "summary": "Macy's Inc. ($M) reported strong first-quarter 2026 results before market open, with comparable sales up 3.0% and a raised full-year outlook, leading to a 3% pre-market rise in shares. Broadcom Inc. ($AVGO), whose earnings are closely watched as a barometer for AI infrastructure investment, is scheduled to release its second-quarter earnings after today's market close. Medtronic ($MDT) is also among companies reporting earnings today.",
+          "id": "earnings-broadcom-004",
+          "headline": "Broadcom Set to Release Q2 Earnings After Market Close",
+          "summary": "Broadcom ($AVGO) is slated to report its fiscal second-quarter results after the market closes today. The company has provided guidance for approximately $22 billion in quarterly revenue, with AI semiconductor revenue expected to reach $10.7 billion.",
           "tags": [
             "Earnings",
-            "Retail",
             "Technology",
-            "AI"
+            "Semiconductors"
           ]
         },
         {
-          "id": "geopolitical-trade",
-          "headline": "Middle East Tensions Escalate, US Proposes New Tariffs",
-          "summary": "Geopolitical instability continues with escalating tensions in the Middle East, contributing to higher crude oil prices. Concurrently, the US has proposed new tariffs of 10-12.5% on imports from 60 economies, including Japan, citing inadequate measures against goods produced with forced labor. The OECD has also lowered its 2026 global economic growth forecast to 2.8%.",
+          "id": "macro-inflation-005",
+          "headline": "Inflation Concerns Mount as Bond Yields Rise",
+          "summary": "The yield on the benchmark 10-year U.S. Treasury note rose to 4.48%, reflecting growing concerns about higher energy prices and persistent inflation. This macro trend is a key risk for global markets, potentially increasing borrowing costs for businesses and consumers.",
           "tags": [
-            "Geopolitics",
-            "Trade",
-            "Oil Prices",
-            "Global Economy"
+            "Macroeconomics",
+            "Inflation",
+            "Bond Market",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "meta-ai-006",
+          "headline": "Meta Launches Business AI Agent for Enterprise Market",
+          "summary": "Meta ($META) has introduced a new AI-powered business agent designed to help companies automate customer interactions, bookings, and sales. This move signifies a deeper push into the enterprise AI space, leveraging its extensive user base.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Enterprise"
           ]
         }
       ]
