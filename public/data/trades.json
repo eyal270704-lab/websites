@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-02T16:46:21.607815Z",
+  "generatedAt": "2026-06-03T21:24:15.239130Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 4,
+  "tradeCount": 7,
   "trades": [
     {
       "ticker": "$APP",
@@ -65,6 +65,54 @@
       "riskScore": 5,
       "footerTag": "Momentum",
       "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$929.38",
+      "entry": "$890.00",
+      "stop": "$845.00",
+      "structure": "Pullback to 20-day MA",
+      "trend": "> 150MA, > 20MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is in a strong uptrend, trading above its key moving averages. A pullback to the 20-day moving average presents a potential entry for continuation. The setup has good support below the entry point.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$311.21",
+      "entry": "$312.00",
+      "stop": "$285.00",
+      "structure": "Consolidation near 20-day MA",
+      "trend": "< 150MA, < 20MA (currently)",
+      "trendLabel": "Trend",
+      "analysis": "Home Depot is in a bearish trend, trading below its long-term moving averages. The current price is consolidating around the 20-day moving average. A move above this level could indicate a short-term bounce, but overall sentiment remains cautious due to macroeconomic headwinds.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc.",
+      "sector": "Real Estate Services",
+      "currentPrice": "$36.24",
+      "entry": "$35.00",
+      "stop": "$33.50",
+      "structure": "52-week Low Test",
+      "trend": "<< 150MA, << 20MA",
+      "trendLabel": "Trend",
+      "analysis": "Zillow is in a strong downtrend, trading significantly below all key moving averages and near its 52-week lows. Despite potential for a bounce off historical support, ongoing legal investigations and bearish technicals make this a high-risk 'avoid' setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Legal Issues",
+      "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
   ]
