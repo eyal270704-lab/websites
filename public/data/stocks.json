@@ -1,70 +1,52 @@
 {
-  "generatedAt": "2026-06-04T17:00:00Z",
+  "generatedAt": "2026-06-04T14:34:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 04, 2026 - Market Pulse",
+  "subtitle": "June 4, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Geopolitical Tensions Weigh on Indices; Mixed Futures Point to Caution",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-060426",
-          "headline": "U.S. Futures Mixed Amid Middle East Tensions After S&P 500 Breaks Nine-Day Streak",
-          "summary": "U.S. stock futures presented a mixed picture early Thursday, with Nasdaq 100 and S&P 500 futures declining, while Dow Jones Industrial Average futures showed slight gains. This follows a broad market selloff on Wednesday, triggered by rising Middle East tensions, which notably ended the S&P 500 Index's nine-session winning streak. Market sentiment, as indicated by the 'Fear and Greed index', shifted from 'Greed' to 'Neutral' on Wednesday. Oil prices, after a surge on Wednesday due to U.S.-Iran hostilities, edged lower on Thursday following a ceasefire agreement between Israel and Lebanon, though the broader regional conflict remains unresolved. Asian markets retreated, while European stocks advanced.",
+          "headline": "U.S. Stocks Mixed as Tech Sector Faces Headwinds, Geopolitical Tensions Ease Slightly",
+          "summary": "U.S. stocks showed mixed performance on Thursday, with major indices reacting to a blend of geopolitical developments, disappointing earnings in the AI chip sector, and a slight easing of oil prices. After closing lower on Wednesday, the Dow Jones Industrial Average saw early gains, while the S&P 500 and Nasdaq Composite experienced declines. Market sentiment remains cautious amid ongoing Middle East tensions and concerns over the Federal Reserve's potential interest rate hikes.",
           "tags": [
             "Market Overview",
             "Geopolitics",
-            "Futures"
+            "Tech Sector"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
-          "statLabel": "S&P 500 (Yesterday's Close)",
+          "id": "sp500-060426",
+          "statLabel": "S&P 500",
           "statValue": "7,553.68",
-          "statContext": "Down 0.7% on Wednesday, snapping a nine-day winning streak."
+          "statContext": "Down 0.74% (-56.10 points) in early Thursday trading."
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Ind. Avg. (Yesterday's Close)",
-          "statValue": "50,687.07",
-          "statContext": "Fell 1.2% on Wednesday."
-        },
-        {
-          "id": "nasdaq-close",
-          "statLabel": "NASDAQ Composite (Yesterday's Close)",
+          "id": "nasdaq-060426",
+          "statLabel": "NASDAQ Composite",
           "statValue": "26,853.98",
-          "statContext": "Declined 0.9% on Wednesday."
+          "statContext": "Down 0.89% (-239.92 points) in early Thursday trading."
         },
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures (Pre-market)",
-          "statValue": "-0.49%",
-          "statContext": "Down as of 5:45 a.m. EDT."
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures (Pre-market)",
-          "statValue": "+0.24%",
-          "statContext": "Up as of 5:45 a.m. EDT."
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures (Pre-market)",
-          "statValue": "-1.21%",
-          "statContext": "Down as of 5:45 a.m. EDT."
+          "id": "dow-060426",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,687.07",
+          "statContext": "Down 1.21% (-620.72 points) in early Thursday trading."
         }
       ]
     },
@@ -75,124 +57,90 @@
       "layout": "grid",
       "items": [
         {
-          "id": "lase-gainer",
-          "headline": "Laser Photonics Corporation Leads Monthly Gains",
-          "summary": "Laser Photonics Corp. ($LASE) has seen a significant monthly gain, currently up +237.47% as of early June 4, 2026.",
-          "ticker": "$LASE",
-          "price": "$3.13",
-          "change": "+$2.19",
-          "changePercent": "+237.47%",
-          "direction": "up"
+          "id": "rdw-gainer-060426",
+          "headline": "Redwire Surges on Strong Performance",
+          "ticker": "$RDW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16%",
+          "direction": "up",
+          "summary": "Redwire surged nearly 16% in early trading, demonstrating significant upward momentum."
         },
         {
-          "id": "jlhl-gainer",
-          "headline": "Julong Holding Limited Continues Strong Performance",
-          "summary": "Julong Holding Limited ($JLHL) recorded an impressive monthly increase of +82.22% as of early June 4, 2026.",
-          "ticker": "$JLHL",
-          "price": "$34.44",
-          "change": "+$15.55",
-          "changePercent": "+82.22%",
-          "direction": "up"
+          "id": "oscr-gainer-060426",
+          "headline": "Oscar Health Sees Double-Digit Gains",
+          "ticker": "$OSCR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+12.6%",
+          "direction": "up",
+          "summary": "Oscar Health experienced a notable gain of 12.6% in early trading today."
         },
         {
-          "id": "vida-gainer",
-          "headline": "VIDA Global Inc. Shows Robust Growth",
-          "summary": "VIDA Global Inc. ($VIDA) surged by +54.85% in early June, marking it as a top monthly performer.",
-          "ticker": "$VIDA",
-          "price": "$5.59",
-          "change": "+$1.98",
-          "changePercent": "+54.85%",
-          "direction": "up"
+          "id": "pvh-loser-060426",
+          "headline": "PVH Tumbles After Lowered Outlook",
+          "ticker": "$PVH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-21%",
+          "direction": "down",
+          "summary": "PVH tumbled 21% in pre-market trading after the apparel conglomerate beat earnings forecasts but lowered its full-year revenue outlook."
         },
         {
-          "id": "avgo-loser",
-          "headline": "Broadcom Tanks on Disappointing Earnings",
-          "summary": "Shares of Broadcom Inc. ($AVGO) plummeted approximately 12% in pre-market trading on Thursday following its fiscal second-quarter earnings report, which reportedly included disappointing revenues. Some reports indicated a drop of nearly 14% in extended trading on Wednesday.",
+          "id": "avgo-loser-060426",
+          "headline": "Broadcom Plunges on AI Chip Outlook",
           "ticker": "$AVGO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.00%",
-          "direction": "down"
-        },
-        {
-          "id": "crwd-loser",
-          "headline": "CrowdStrike Falls After Outlook Release",
-          "summary": "CrowdStrike Holdings Inc. ($CRWD) saw its stock drop over 10% in pre-market trading on Thursday after releasing its latest outlook. This follows a decline of more than 21% on Wednesday.",
-          "ticker": "$CRWD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.00%",
-          "direction": "down"
-        },
-        {
-          "id": "hkit-loser",
-          "headline": "HiTek Global Inc. Leads Monthly Declines",
-          "summary": "HiTek Global Inc. ($HKIT) recorded the biggest monthly decline so far in June 2026, falling -90.58%.",
-          "ticker": "$HKIT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-90.58%",
-          "direction": "down"
+          "changePercent": "-15%",
+          "direction": "down",
+          "summary": "Broadcom shares tumbled 15% in pre-market trading, leading a decline in AI-related stocks, after its artificial intelligence sales outlook missed high market expectations."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "sector-analysis-060426",
-          "headline": "Consumer Durables, Healthcare Lead Sector Gains; IT and Metals Lag",
-          "summary": "On Thursday, consumer-focused and healthcare segments emerged as leading sectors, with Nifty Consumer Durables gaining 1.31% and Nifty MidSmall Healthcare advancing 0.81%. Conversely, Information Technology and Metal stocks experienced pressure, with Nifty Metal declining 0.58% and Nifty IT falling 0.42%. This divergence reflects selective buying in defensive sectors amidst geopolitical concerns, while cyclical sectors like technology and metals face headwinds.",
+          "headline": "Defensive Sectors Outperform as Tech Lags",
+          "summary": "On Thursday, defensive sectors such as Consumer Durables, Healthcare, and Consumer Staples led the market, reflecting a selective risk appetite among investors. Conversely, the Information Technology and Metal sectors remained under pressure, with the Technology Select Sector SPDR ETF ($XLK) falling 2.20%. This divergence suggests a rotation away from high-growth tech into more stable areas.",
           "tags": [
             "Sector Analysis",
             "Consumer Durables",
             "Healthcare",
-            "Technology",
-            "Metals"
+            "Technology"
           ]
         },
         {
           "id": "economic-data-060426",
-          "headline": "Jobless Claims and Productivity Data Expected Today; ISM Services PMI Beats Estimates",
-          "summary": "Investors are awaiting the release of initial jobless claims and Q1 U.S. productivity data today. In other economic news, the ISM Services PMI for May rose to 54.5, exceeding market expectations and marking the strongest expansion in the services sector in three months. The labor market appears stable with the unemployment rate around 4.3% for the past year.",
+          "headline": "Mixed Economic Signals Ahead of Key Jobs Report",
+          "summary": "Several economic data points were released today, providing mixed signals. Revised first-quarter 2026 nonfarm business sector labor productivity increased by 0.3%. Initial jobless claims rose to a three-month high of 225,000, exceeding expectations. The ISM Services PMI for May unexpectedly rose to 54.5, beating forecasts. Investors are now looking ahead to Friday's May nonfarm payrolls report.",
           "tags": [
             "Economic Data",
-            "Jobs",
-            "PMI"
+            "Jobless Claims",
+            "Productivity",
+            "ISM Services"
           ]
         },
         {
-          "id": "fed-speak-060426",
-          "headline": "Fed Officials to Speak; Inflation Remains Above Target",
-          "summary": "Richmond Fed President Tom Barkin and Kansas City Fed President Jeff Schmid are scheduled to speak today. Dallas Fed President Lorie Logan highlighted on Wednesday that inflation, measured by PCE, is still running close to 4% over the past 12 months, taking too long to return to the FOMC's 2% target. The FOMC has held the federal funds rate unchanged at 3.50% to 3.75% so far this year.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "corporate-earnings-060426",
-          "headline": "Broadcom and CrowdStrike Lead Post-Earnings Drops; Other Major Companies Report",
-          "summary": "Broadcom ($AVGO) and CrowdStrike ($CRWD) experienced significant share price declines after their respective earnings reports and outlooks. Other major companies scheduled to report earnings today include Ciena ($CIEN), DocuSign ($DOCU), Lululemon Athletica ($LULU), and Planet Labs ($PL). PVH Corp. ($PVH) is also holding a conference call today to discuss its first-quarter results.",
+          "id": "earnings-reports-060426",
+          "headline": "Broadcom and CrowdStrike Earnings Disappoint Market Expectations",
+          "summary": "Major companies reported earnings today, with mixed reactions. Broadcom ($AVGO) saw its shares plunge after its AI chip sales outlook was deemed 'tepid' despite beating overall EPS and revenue estimates. Cybersecurity firm CrowdStrike ($CRWD) also fell after earnings, as rising operating expenses outweighed better-than-expected revenue and EPS. PVH ($PVH) and Five Below ($FIVE) also saw their stocks drop despite strong earnings, after lowering future guidance.",
           "tags": [
             "Earnings",
-            "Corporate News"
+            "Broadcom",
+            "CrowdStrike",
+            "AI Stocks"
           ]
         },
         {
           "id": "macro-trends-060426",
-          "headline": "Geopolitical Risks and AI Exuberance Shape Market Landscape",
-          "summary": "Geopolitical tensions, particularly renewed U.S.-Iran hostilities, continue to be a significant macro factor, driving risk-off sentiment and impacting oil prices. Meanwhile, the S&P 500's valuation is nearing dot-com bubble levels, fueled by exuberance over artificial intelligence and projected earnings growth. However, investors are keenly watching for revenue acceleration from AI investments. In international news, Russia's economic forum opens under the shadow of Ukrainian drone attacks.",
-          "tags": [
-            "Macro Trends",
-            "Geopolitics",
-            "AI",
-            "Inflation"
-          ]
+          "headline": "Geopolitical Tensions and AI Sector Concerns Influence Market Trends",
+          "summary": "Geopolitical tensions in the Middle East, particularly the U.S.-Iran conflict, continue to be a significant macroeconomic factor, though oil prices eased slightly today following a ceasefire agreement between Israel and Lebanon. A broader concern is the ongoing pressure on artificial intelligence stocks, with several major chipmakers experiencing declines due to outlooks that fell short of lofty market expectations. Additionally, rising Treasury yields and the Federal Reserve's monetary policy outlook remain key considerations for investors."
         }
       ]
     }
