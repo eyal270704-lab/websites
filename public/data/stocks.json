@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-05T10:24:00Z",
+  "generatedAt": "2026-06-05T17:58:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 05, 2026 - Mid-Day Update",
+  "subtitle": "June 05, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,13 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-060526",
-          "headline": "Tech Sector Drags Down Broader Market Amid Strong Jobs Report and AI Fatigue",
-          "summary": "U.S. equities are experiencing a mixed trading session today, June 5, 2026, as a stronger-than-expected May jobs report dampens hopes for immediate Federal Reserve rate cuts, and a significant sell-off in technology and semiconductor stocks weighs heavily on the Nasdaq and S&P 500. The Dow Jones Industrial Average, however, shows relative resilience. Market sentiment is characterized by concerns over the artificial intelligence rally showing signs of fatigue and ongoing geopolitical tensions.",
+          "id": "market-summary-001",
+          "headline": "Tech Sell-Off Drags Nasdaq and S&P 500 Lower Amid Strong Jobs Report, Dow Shows Resilience",
+          "summary": "U.S. equities experienced a mixed session on Friday, June 5, 2026, as a stronger-than-expected May jobs report fueled concerns about potential Federal Reserve rate hikes, triggering a significant sell-off in technology stocks. The Nasdaq Composite and S&P 500 closed lower, while the Dow Jones Industrial Average, after an earlier surge to a record high, retreated to close down, but showed some underlying resilience from banking and retail sectors. Overall market sentiment is under pressure due to fatigue in the AI-led equity rally and shifting expectations for monetary policy.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
             "Tech Sell-off",
-            "Jobs Report"
+            "Jobs Report",
+            "Fed Outlook"
           ]
         }
       ]
@@ -31,90 +32,60 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-060526",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "-0.7%",
-          "statContext": "Fell as tech stocks weighed down the broader market."
+          "statValue": "7,448.38",
+          "statContext": "Down 1.79%"
         },
         {
-          "id": "nasdaq-060526",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "-1.4%",
-          "statContext": "Slipped significantly due to big technology and semiconductor stock declines."
+          "statValue": "26,025.77",
+          "statContext": "Down 3.00%"
         },
         {
-          "id": "dow-060526",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "-0.2%",
-          "statContext": "Down 81 points; showed relative stability compared to tech-heavy indices."
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "51,154.09",
+          "statContext": "Down 0.79%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Early Trading)",
+      "title": "Top Movers (Month-to-Date as of June 5, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "lulu-loser-060526",
-          "headline": "Lululemon Plunges on Weak Guidance",
-          "summary": "Lululemon Athletica Inc. shares ($LULU) fell nearly 13% in premarket trading after the athletic apparel retailer issued a weak current-quarter outlook and lowered its full-year guidance.",
-          "ticker": "$LULU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13%",
-          "direction": "down"
+          "id": "gainer-sti",
+          "headline": "Solidion Technology Leads Monthly Gains",
+          "ticker": "$STI",
+          "price": "$22.71",
+          "change": "+$17.65",
+          "changePercent": "+360.65%",
+          "direction": "up",
+          "summary": "Solidion Technology, Inc. ($STI) has been the best performing stock in June, showing strong momentum."
         },
         {
-          "id": "mu-loser-060526",
-          "headline": "Micron Technology Down Amid Chip Rout",
-          "summary": "Micron Technology Inc. shares ($MU) fell 6.3% in early trading, part of a broader tech rout influenced by a pullback in the artificial intelligence rally and weakness in semiconductor shares.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.3%",
-          "direction": "down"
+          "id": "gainer-lase",
+          "headline": "Laser Photonics Continues Upward Trend",
+          "ticker": "$LASE",
+          "price": "$3.62",
+          "change": "+$2.70",
+          "changePercent": "+290.3%",
+          "direction": "up",
+          "summary": "Laser Photonics Corporation ($LASE) is among the top performers for June 2026."
         },
         {
-          "id": "avgo-loser-060526",
-          "headline": "Broadcom Slides Post-Earnings",
-          "summary": "Broadcom Inc. shares ($AVGO) slipped 3.8% in early trading following a disappointing reaction to its earnings report, particularly its AI chip business forecast.",
-          "ticker": "$AVGO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.8%",
-          "direction": "down"
-        },
-        {
-          "id": "fian-gainer-060526",
-          "headline": "First American Financial Gains",
-          "summary": "First American Financial Corp. shares gained 13% in premarket trading, indicating strong positive sentiment for the financial services company.",
-          "ticker": "$FAF",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13%",
-          "direction": "up"
-        },
-        {
-          "id": "lpx-gainer-060526",
-          "headline": "Louisiana-Pacific Rises",
-          "summary": "Louisiana-Pacific Corp. shares ($LPX) rose 5.2% in premarket trading.",
-          "ticker": "$LPX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.2%",
-          "direction": "up"
-        },
-        {
-          "id": "coo-gainer-060526",
-          "headline": "Cooper Companies Advances",
-          "summary": "Cooper Companies Inc. shares ($COO) advanced 5.1% in premarket trading.",
-          "ticker": "$COO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.1%",
-          "direction": "up"
+          "id": "gainer-indp",
+          "headline": "Indaptus Therapeutics Rallies",
+          "ticker": "$INDP",
+          "price": "$4.75",
+          "change": "+$2.84",
+          "changePercent": "+147.4%",
+          "direction": "up",
+          "summary": "Indaptus Therapeutics, Inc. ($INDP) recorded a substantial monthly gain."
         }
       ]
     },
@@ -125,53 +96,57 @@
       "layout": "list",
       "items": [
         {
-          "id": "jobs-report-060526",
-          "headline": "U.S. Jobs Report Exceeds Expectations in May",
-          "summary": "The U.S. economy added 172,000 nonfarm payroll jobs in May, surpassing analyst expectations of around 80,000-85,000. The unemployment rate held steady at 4.3%. Average hourly earnings increased by 0.3% month-over-month and 3.4% year-over-year. This strong report has diminished expectations for Federal Reserve interest rate cuts this year, leading to a surge in bond yields.",
+          "id": "economic-jobs-report",
+          "headline": "Strong May Jobs Report Beats Expectations, Dims Rate Cut Hopes",
+          "summary": "The U.S. Labor Department reported that total nonfarm payroll employment increased by 172,000 in May, significantly higher than economists' forecasts. The unemployment rate remained steady at 4.3%. This robust labor market data has led to reduced expectations for Federal Reserve interest rate cuts this year, with markets now largely pricing in a rate hike before year-end.",
           "tags": [
             "Economic Data",
-            "Fed Policy",
-            "Employment"
+            "Jobs Report",
+            "Federal Reserve",
+            "Interest Rates"
           ]
         },
         {
-          "id": "tech-sector-struggles-060526",
-          "headline": "Technology Sector Faces Headwinds, AI Rally Shows Fatigue",
-          "summary": "The technology sector is experiencing significant pressure today, with chip stocks leading declines. This downturn is attributed to a pullback in the artificial intelligence rally and disappointing forecasts, particularly from companies like Broadcom. Investors are rotating out of some technology names.",
+          "id": "tech-sector-selloff",
+          "headline": "Technology Sector Faces Sell-Off as AI Rally Shows Fatigue",
+          "summary": "The technology sector experienced a significant downturn, with major players like Broadcom ($AVGO) falling 12.6% after disappointing earnings and unchanged full-year AI chip targets. Nvidia ($NVDA) and Micron Technology ($MU) also saw notable declines. This broad sell-off is indicative of profit-taking and a reassessment of the artificial intelligence trade, leading investors to question if growth rates have peaked.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI",
-            "Semiconductors"
+            "AI Stocks",
+            "Profit Taking"
           ]
         },
         {
-          "id": "abm-earnings-060526",
-          "headline": "ABM Industries Reports Mixed Q2 Earnings",
-          "summary": "ABM Industries ($ABM) announced Q2 earnings of $0.90 per diluted share, falling short of the Zacks Consensus Estimate of $0.92. However, the company's revenue increased by 8.4% to $2.3 billion, exceeding estimates.",
+          "id": "sector-rotation",
+          "headline": "Investors Rotate Towards Cyclical, Healthcare, and Financial Sectors",
+          "summary": "Amid the tech sector's struggles, there was a notable rotation of investor capital into more stable and cyclical sectors. Healthcare stocks, represented by the Health Care Select Sector SPDR ($XLV), gained 3.1%, while Financials Select Sector SPDR ($XLF) rose 2.6%. The Dow's performance was bolstered by strong showings in banking and retail, particularly from UnitedHealth ($UNH) and JPMorgan ($JPM).",
           "tags": [
-            "Earnings Report",
-            "Industrials"
+            "Sector Analysis",
+            "Sector Rotation",
+            "Healthcare",
+            "Financials"
           ]
         },
         {
-          "id": "eurozone-economy-060526",
-          "headline": "Eurozone Economy Contracts in Q1 2026",
-          "summary": "The Eurozone's economy shrank by 0.2% in the first quarter of 2026, driven by declines in output in Ireland and France. This contraction complicates the European Central Bank's efforts to manage inflation without further impacting economic activity.",
+          "id": "economic-outlook",
+          "headline": "Inflation Concerns Persist, Fed Focuses on Private Credit Exposure",
+          "summary": "Inflation data remains elevated, contributing to the Federal Reserve's 'on hold' posture for interest rates. Additionally, the Fed has launched a new data-collection effort to gain greater transparency into banks' lending to the private credit sector, reflecting growing regulatory focus on potential systemic risks. Geopolitical tensions, particularly the ongoing Iran conflict, continue to impact oil prices and contribute to broader economic uncertainty.",
           "tags": [
-            "Macroeconomics",
-            "Global Economy",
-            "Eurozone"
+            "Economic Outlook",
+            "Inflation",
+            "Federal Reserve",
+            "Geopolitics"
           ]
         },
         {
-          "id": "oil-prices-060526",
-          "headline": "Oil Prices Decline Amid Iran Peace Hopes",
-          "summary": "Oil prices edged lower on Friday as optimism surrounding potential progress toward an Iran peace deal outweighed ongoing concerns about the Strait of Hormuz and broader geopolitical tensions.",
+          "id": "company-earnings",
+          "headline": "Key Earnings: GameStop Reports Record Profits, Lululemon Trims Guidance",
+          "summary": "In corporate earnings news, GameStop reported its highest quarterly net income in company history, with net sales up 14%. In contrast, Lululemon ($LULU) saw its shares fall after trimming its full-year revenue and profit forecasts, highlighting challenges in the athletic apparel retail sector.",
           "tags": [
-            "Commodities",
-            "Geopolitics",
-            "Oil"
+            "Earnings Reports",
+            "GameStop",
+            "Lululemon"
           ]
         }
       ]
