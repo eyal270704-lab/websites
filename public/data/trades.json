@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T09:36:12.303153Z",
+  "generatedAt": "2026-06-06T08:43:12.891279Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$310.83",
+      "entry": "$308.69",
+      "stop": "$306.50",
+      "structure": "Support Test (Classic Fib S1)",
+      "trend": "< 20MA, < 150MA",
+      "trendLabel": "Trend",
+      "analysis": "The Home Depot is currently trading below its 20-day and 150-day moving averages, indicating a bearish short to medium-term trend. It is testing the Classic Fibonacci S1 support level at $308.69. Relative volume is not elevated. Next earnings are in August, posing no immediate catalyst.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$923.74",
+      "entry": "$894.79",
+      "stop": "$827.00",
+      "structure": "20-day MA Support",
+      "trend": "> 20MA, > 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is in a strong uptrend, trading above its 20-day and 150-day moving averages. A pullback to the 20-day moving average around $894.79 presents a potential entry opportunity. Relative volume is not elevated. Next earnings are in August, posing no immediate catalyst.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$QUBT",
+      "name": "Quantum Computing Inc.",
+      "sector": "Technology",
+      "currentPrice": "$10.04",
+      "entry": "$10.00",
+      "stop": "$9.75",
+      "structure": "Inverse Head & Shoulders Breakout / Support Test",
+      "trend": "< 20MA, < 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Quantum Computing Inc. has shown an inverse head and shoulders breakout above $10.12, signaling a potential bullish reversal. However, the stock is currently trading below its 20-day and 150-day moving averages, and relative volume is not elevated. Next earnings are in August, posing no immediate catalyst. This is a speculative setup given the overall bearish sentiment from moving averages despite the pattern.",
+      "riskScore": 8,
+      "footerTag": "High Risk",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
