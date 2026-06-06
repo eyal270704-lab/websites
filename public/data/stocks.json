@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-05T17:58:00Z",
+  "generatedAt": "2026-06-06T09:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "June 05, 2026",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: Tech Sell-off Drags Indices Lower Amid Rate Hike Fears",
+  "subtitle": "Friday, June 05, 2026 - Market Close",
+  "badge": "Updated June 06, 2026",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,141 +13,177 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-001",
-          "headline": "Tech Sell-Off Drags Nasdaq and S&P 500 Lower Amid Strong Jobs Report, Dow Shows Resilience",
-          "summary": "U.S. equities experienced a mixed session on Friday, June 5, 2026, as a stronger-than-expected May jobs report fueled concerns about potential Federal Reserve rate hikes, triggering a significant sell-off in technology stocks. The Nasdaq Composite and S&P 500 closed lower, while the Dow Jones Industrial Average, after an earlier surge to a record high, retreated to close down, but showed some underlying resilience from banking and retail sectors. Overall market sentiment is under pressure due to fatigue in the AI-led equity rally and shifting expectations for monetary policy.",
+          "id": "mp-1",
+          "headline": "US Markets Experience Sharp Decline as Tech Stocks Plummet",
+          "summary": "The U.S. stock market recorded its worst day since October on Friday, June 5, 2026, primarily driven by a significant sell-off in high-flying technology and AI stocks. This downturn was exacerbated by a stronger-than-expected May jobs report, which fueled expectations of potential Federal Reserve interest rate hikes later in the year, and a surge in Treasury yields. Overall market sentiment is decidedly bearish, with Wall Street's VIX index, a key fear gauge, jumping over 39% in a single day.",
           "tags": [
-            "Market Summary",
+            "Market Downturn",
             "Tech Sell-off",
-            "Jobs Report",
-            "Fed Outlook"
-          ]
+            "Interest Rates",
+            "Jobs Report"
+          ],
+          "timestamp": "June 05, 2026"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,448.38",
-          "statContext": "Down 1.79%"
+          "statValue": "7,383.74",
+          "statContext": "Fell 2.64% (-200.57 points)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,025.77",
-          "statContext": "Down 3.00%"
+          "statValue": "25,709.43",
+          "statContext": "Plummeted 4.18% (-1,121.53 points)"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "51,154.09",
-          "statContext": "Down 0.79%"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,866.78",
+          "statContext": "Slipped 1.35% (-695.15 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Month-to-Date as of June 5, 2026)",
+      "title": "Top Movers (June 05, 2026)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "gainer-sti",
-          "headline": "Solidion Technology Leads Monthly Gains",
-          "ticker": "$STI",
-          "price": "$22.71",
-          "change": "+$17.65",
-          "changePercent": "+360.65%",
-          "direction": "up",
-          "summary": "Solidion Technology, Inc. ($STI) has been the best performing stock in June, showing strong momentum."
+          "id": "nvda-loser",
+          "headline": "NVIDIA Shares Plummet Amid Tech Sell-off",
+          "summary": "Shares of NVIDIA fell significantly as the semiconductor sector experienced a broad downturn and profit booking after a strong rally.",
+          "ticker": "$NVDA",
+          "price": "$205.70",
+          "change": "-$12.97",
+          "changePercent": "-5.9%",
+          "direction": "down"
         },
         {
-          "id": "gainer-lase",
-          "headline": "Laser Photonics Continues Upward Trend",
-          "ticker": "$LASE",
-          "price": "$3.62",
-          "change": "+$2.70",
-          "changePercent": "+290.3%",
-          "direction": "up",
-          "summary": "Laser Photonics Corporation ($LASE) is among the top performers for June 2026."
+          "id": "meta-loser",
+          "headline": "Meta Platforms Experiences Decline",
+          "summary": "Meta shares dropped following a broader tech sell-off and reports suggesting a potential new stock offering to fund AI infrastructure.",
+          "ticker": "$META",
+          "price": "$593.06",
+          "change": "-$34.51",
+          "changePercent": "-5.5%",
+          "direction": "down"
         },
         {
-          "id": "gainer-indp",
-          "headline": "Indaptus Therapeutics Rallies",
-          "ticker": "$INDP",
-          "price": "$4.75",
-          "change": "+$2.84",
-          "changePercent": "+147.4%",
-          "direction": "up",
-          "summary": "Indaptus Therapeutics, Inc. ($INDP) recorded a substantial monthly gain."
+          "id": "tsla-loser",
+          "headline": "Tesla Stock Falls with Broader Tech Market",
+          "summary": "Tesla shares were down as part of the wider retreat in technology stocks on Friday.",
+          "ticker": "$TSLA",
+          "price": "$391.53",
+          "change": "-$26.92",
+          "changePercent": "-6.4%",
+          "direction": "down"
+        },
+        {
+          "id": "amzn-loser",
+          "headline": "Amazon Shares Decrease",
+          "summary": "Amazon experienced a decline in its stock price amid the widespread sell-off in major technology companies.",
+          "ticker": "$AMZN",
+          "price": "$246.36",
+          "change": "-$7.43",
+          "changePercent": "-2.9%",
+          "direction": "down"
+        },
+        {
+          "id": "msft-loser",
+          "headline": "Microsoft Stock Records Losses",
+          "summary": "Microsoft shares fell as part of the broader market's negative reaction to economic data and tech sector profit-taking.",
+          "ticker": "$MSFT",
+          "price": "$417.15",
+          "change": "-$10.91",
+          "changePercent": "-2.5%",
+          "direction": "down"
+        },
+        {
+          "id": "goog-loser",
+          "headline": "Alphabet Shares See Slight Dip",
+          "summary": "Alphabet (Google's parent company) experienced a modest dip in its stock, outperforming many other tech giants during the sell-off.",
+          "ticker": "$GOOG",
+          "price": "$366.32",
+          "change": "-$2.95",
+          "changePercent": "-0.8%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-jobs-report",
-          "headline": "Strong May Jobs Report Beats Expectations, Dims Rate Cut Hopes",
-          "summary": "The U.S. Labor Department reported that total nonfarm payroll employment increased by 172,000 in May, significantly higher than economists' forecasts. The unemployment rate remained steady at 4.3%. This robust labor market data has led to reduced expectations for Federal Reserve interest rate cuts this year, with markets now largely pricing in a rate hike before year-end.",
+          "id": "economic-data-jobs",
+          "headline": "Strong May Jobs Report Fuels Rate Hike Speculation",
+          "summary": "The U.S. economy added a surprising 172,000 jobs in May, significantly exceeding analyst expectations, while the unemployment rate held steady at 4.3% for the third consecutive month. This robust labor market data heightened expectations that the Federal Reserve might implement further interest rate hikes later in the year, leading to a surge in US Treasury yields and contributing to market anxiety. Markets are now fully pricing in a rate hike before year-end.",
           "tags": [
-            "Economic Data",
             "Jobs Report",
             "Federal Reserve",
-            "Interest Rates"
-          ]
+            "Interest Rates",
+            "Treasury Yields"
+          ],
+          "timestamp": "June 05, 2026"
         },
         {
-          "id": "tech-sector-selloff",
-          "headline": "Technology Sector Faces Sell-Off as AI Rally Shows Fatigue",
-          "summary": "The technology sector experienced a significant downturn, with major players like Broadcom ($AVGO) falling 12.6% after disappointing earnings and unchanged full-year AI chip targets. Nvidia ($NVDA) and Micron Technology ($MU) also saw notable declines. This broad sell-off is indicative of profit-taking and a reassessment of the artificial intelligence trade, leading investors to question if growth rates have peaked.",
+          "id": "sector-tech-selloff",
+          "headline": "Technology and Semiconductor Sectors Lead Market Decline",
+          "summary": "The technology sector, particularly AI and semiconductor stocks, bore the brunt of Friday's sell-off. The PHLX chip index plummeted 10.3%, marking its steepest one-day loss since March 2020. Muted guidance from Broadcom earlier in the week, combined with overbought sentiment and profit-booking, triggered a rout that erased approximately $1.3 trillion in market value from US-traded chipmakers. This led to a notable rotation out of AI-related growth stocks and towards more cyclical and defensive sectors.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
+            "Technology Sector",
+            "Semiconductors",
             "AI Stocks",
-            "Profit Taking"
-          ]
+            "Sector Rotation"
+          ],
+          "timestamp": "June 05, 2026"
         },
         {
-          "id": "sector-rotation",
-          "headline": "Investors Rotate Towards Cyclical, Healthcare, and Financial Sectors",
-          "summary": "Amid the tech sector's struggles, there was a notable rotation of investor capital into more stable and cyclical sectors. Healthcare stocks, represented by the Health Care Select Sector SPDR ($XLV), gained 3.1%, while Financials Select Sector SPDR ($XLF) rose 2.6%. The Dow's performance was bolstered by strong showings in banking and retail, particularly from UnitedHealth ($UNH) and JPMorgan ($JPM).",
-          "tags": [
-            "Sector Analysis",
-            "Sector Rotation",
-            "Healthcare",
-            "Financials"
-          ]
-        },
-        {
-          "id": "economic-outlook",
-          "headline": "Inflation Concerns Persist, Fed Focuses on Private Credit Exposure",
-          "summary": "Inflation data remains elevated, contributing to the Federal Reserve's 'on hold' posture for interest rates. Additionally, the Fed has launched a new data-collection effort to gain greater transparency into banks' lending to the private credit sector, reflecting growing regulatory focus on potential systemic risks. Geopolitical tensions, particularly the ongoing Iran conflict, continue to impact oil prices and contribute to broader economic uncertainty.",
-          "tags": [
-            "Economic Outlook",
-            "Inflation",
-            "Federal Reserve",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "company-earnings",
-          "headline": "Key Earnings: GameStop Reports Record Profits, Lululemon Trims Guidance",
-          "summary": "In corporate earnings news, GameStop reported its highest quarterly net income in company history, with net sales up 14%. In contrast, Lululemon ($LULU) saw its shares fall after trimming its full-year revenue and profit forecasts, highlighting challenges in the athletic apparel retail sector.",
+          "id": "earnings-reports-impact",
+          "headline": "Key Earnings Reports Drive Individual Stock Movements",
+          "summary": "Broadcom's ($AVGO) weak report and muted guidance earlier in the week significantly impacted the semiconductor sector. Additionally, Lululemon slumped 8.6% after trimming its revenue and profit forecasts, while DocuSign also saw its shares fall by 4% after a less-than-impressive outlook. Oracle and Adobe are among the major companies scheduled to release earnings in the coming week.",
           "tags": [
             "Earnings Reports",
-            "GameStop",
-            "Lululemon"
-          ]
+            "Broadcom",
+            "Lululemon",
+            "DocuSign"
+          ],
+          "timestamp": "June 05, 2026"
+        },
+        {
+          "id": "geopolitical-concerns",
+          "headline": "Geopolitical Tensions Continue to Weigh on Market Sentiment",
+          "summary": "Ongoing geopolitical uncertainties, particularly tensions in West Asia and developments in the U.S.-Iran conflict, continue to influence energy markets, inflation expectations, and overall investor sentiment. Elevated oil prices could exert upward pressure on inflation if supply disruptions persist, adding another layer of complexity for central bank policies.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
+          ],
+          "timestamp": "June 06, 2026"
+        },
+        {
+          "id": "spacex-ipo-anticipation",
+          "headline": "Anticipation Builds for SpaceX IPO Amid Market Volatility",
+          "summary": "Elon Musk's SpaceX is preparing for a blockbuster initial public offering (IPO) as early as next week, with an expected initial market capitalization of $1.77 trillion. Analysts suggest that the immense demand for SpaceX stock could necessitate institutional investors selling other holdings, potentially leading to further market disruption, especially for large tech companies.",
+          "tags": [
+            "IPO",
+            "SpaceX",
+            "Market Impact",
+            "Tech Stocks"
+          ],
+          "timestamp": "June 06, 2026"
         }
       ]
     }
