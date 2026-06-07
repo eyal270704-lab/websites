@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T13:59:42.173547Z",
+  "generatedAt": "2026-06-07T11:55:26.745178Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 12,
+  "tradeCount": 15,
   "trades": [
     {
       "ticker": "$APP",
@@ -193,6 +193,54 @@
       "riskScore": 7,
       "footerTag": "High Risk",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Software",
+      "currentPrice": "$213.68",
+      "entry": "$205.00",
+      "stop": "$185.00",
+      "structure": "Pullback to 20-day MA",
+      "trend": "> 200MA & RVOL 1.14x",
+      "trendLabel": "Trend & RVOL",
+      "analysis": "Oracle has experienced a strong upward trend and is currently undergoing a healthy pullback towards its 20-day moving average, a common area for support. Elevated relative volume suggests continued institutional interest. The price remains well above the 200-day moving average.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$DELL",
+      "name": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "currentPrice": "$394.39",
+      "entry": "$388.00",
+      "stop": "$303.73",
+      "structure": "Fibonacci Pivot Support",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Dell is demonstrating strong bullish momentum, having broken above its medium-term rising trend channel. The price is significantly above its key moving averages, though recent relative volume is below average. Entry targets a minor retracement to a Fibonacci pivot point.",
+      "riskScore": 5,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SNOW",
+      "name": "Snowflake Inc.",
+      "sector": "Technology",
+      "currentPrice": "$238.26",
+      "entry": "$235.00",
+      "stop": "$225.00",
+      "structure": "Breakout from Falling Channel",
+      "trend": "RSI 68.05 (Overbought)",
+      "trendLabel": "RSI",
+      "analysis": "Snowflake has recently broken out of a falling trend channel with significant upward momentum, trading above all major moving averages. However, the stock's RSI indicates it is nearing overbought territory, suggesting caution and a potential for consolidation before further gains. Relative volume is also below average.",
+      "riskScore": 6,
+      "footerTag": "Momentum - Overbought",
+      "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
   ]
