@@ -1,208 +1,217 @@
 {
-  "generatedAt": "2026-06-06T13:07:00Z",
+  "generatedAt": "2026-06-07T17:22:00Z",
   "generatedBy": "stocks-agent",
+  "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 6, 2026 - Market Close Summary",
-  "badge": "Market Close - June 5, 2026",
+  "subtitle": "June 07, 2026",
+  "badge": "Updated Today",
   "sections": [
     {
-      "id": "market-pulse-overall",
-      "title": "Market Pulse: Tech Sell-off Drags Indices Lower Amid Rate Hike Fears",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-pulse-summary",
-          "headline": "U.S. Stocks Experience Significant Weekly Decline, Led by Tech Sector",
-          "summary": "U.S. stock markets posted their first meaningful weekly setback in several months, with major indices closing sharply lower for the week ending June 5, 2026. A stronger-than-expected May jobs report, rising Treasury yields, and a broad sell-off in technology and AI stocks fueled concerns about potential Federal Reserve interest rate hikes. The 'fear gauge,' VIX index, jumped over 39% in a single day, signaling increased market anxiety. Market sentiment is decidedly bearish, as investors reassess interest rate outlooks and brace for continued volatility. Not financial advice.",
+          "id": "market-summary-001",
+          "headline": "S&P 500's Nine-Week Rally Ends Amid Sharp Selloff; Nasdaq and S&P 500 Record Worst Day of the Year",
+          "summary": "The broader market experienced a significant downturn today, with the S&P 500 ending its nine-week rally and both the Nasdaq and S&P 500 recording their worst single-day performance of the year. A stronger-than-expected May employment report released on Friday triggered a risk-off sentiment, leading to a sharp increase in bond yields and a broad selloff in equities. Investors rotated out of high-beta, momentum, and growth stocks, particularly those in the AI and semiconductor sectors, and moved into more defensive and value-oriented assets, as well as energy.",
           "tags": [
-            "Market Sentiment",
-            "Interest Rates",
-            "Tech Sell-off"
+            "Market Downturn",
+            "Risk-Off",
+            "Economic Data",
+            "Tech Selloff"
           ],
-          "timestamp": "2026-06-05T20:00:00Z"
+          "timestamp": "2026-06-07T17:22:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices Performance (June 5, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,383.74",
-          "statContext": "Daily Change: -2.64% | Weekly Change: -2.6%",
+          "statContext": "Down 2.64% Today",
           "ticker": "$SPX",
           "price": "7,383.74",
-          "change": "-200.57",
+          "change": "",
           "changePercent": "-2.64%",
           "direction": "down"
         },
         {
-          "id": "stat-nasdaq",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,709.43",
-          "statContext": "Daily Change: -4.18% | Weekly Change: -4.7%",
+          "statValue": "28,957.60",
+          "statContext": "Down 4.77% Today",
           "ticker": "$IXIC",
-          "price": "25,709.43",
-          "change": "-1,121.53",
-          "changePercent": "-4.18%",
+          "price": "28,957.60",
+          "change": "",
+          "changePercent": "-4.77%",
           "direction": "down"
         },
         {
-          "id": "stat-dow",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "50,866.78",
-          "statContext": "Daily Change: -1.35% | Weekly Change: -0.3%",
+          "statContext": "Down 1.35% Today",
           "ticker": "$DJIA",
           "price": "50,866.78",
-          "change": "-695.15",
+          "change": "",
           "changePercent": "-1.35%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (S&P 500 - June 5, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-mu",
-          "headline": "Micron Technology Leads Losers",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.3%",
-          "direction": "down",
-          "summary": "Micron Technology experienced a significant downturn, leading the list of S&P 500 losers."
-        },
-        {
-          "id": "stock-ter",
-          "headline": "Teradyne Plummets",
-          "ticker": "$TER",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.0%",
-          "direction": "down",
-          "summary": "Teradyne saw a sharp decline, contributing to the broader tech sector sell-off."
-        },
-        {
-          "id": "stock-fslr",
-          "headline": "First Solar Down",
-          "ticker": "$FSLR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-11.4%",
-          "direction": "down",
-          "summary": "First Solar shares fell amidst a challenging day for the market."
-        },
-        {
-          "id": "stock-sndk",
-          "headline": "SanDisk Experiences Double-Digit Drop",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-11.4%",
-          "direction": "down",
-          "summary": "SanDisk was among the top S&P 500 losers with a notable percentage decrease."
-        },
-        {
-          "id": "stock-intc",
-          "headline": "Intel Falls Amid Chip Stock Weakness",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-11.3%",
-          "direction": "down",
-          "summary": "Intel shares dropped as semiconductor stocks faced significant pressure."
-        },
-        {
-          "id": "stock-coo",
-          "headline": "Cooper Companies Leads Gainers",
-          "ticker": "$COO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.6%",
+          "id": "gainer-sti",
+          "headline": "Solidion Technology Inc. Leads Monthly Gains",
+          "summary": "Solidion Technology, Inc. ($STI) was a top performer for the month, showing a remarkable gain of 624.54% with a price of $35.72, signaling strong momentum early in June.",
+          "ticker": "$STI",
+          "price": "$35.72",
+          "change": "",
+          "changePercent": "+624.54%",
           "direction": "up",
-          "summary": "Cooper Companies posted a strong gain, standing out against the general market decline."
+          "tags": [
+            "Industrials",
+            "Momentum"
+          ]
         },
         {
-          "id": "stock-fdxf",
-          "headline": "FedEx Freight Advances",
-          "ticker": "$FDXF",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.4%",
+          "id": "gainer-lase",
+          "headline": "Laser Photonics Corporation Sees Significant Monthly Jump",
+          "summary": "Laser Photonics Corporation ($LASE) also experienced a substantial monthly increase of 234.23%, trading at $3.1.",
+          "ticker": "$LASE",
+          "price": "$3.10",
+          "change": "",
+          "changePercent": "+234.23%",
           "direction": "up",
-          "summary": "FedEx Freight shares saw a healthy increase on an otherwise red day for equities."
+          "tags": [
+            "Industrials",
+            "Technology"
+          ]
         },
         {
-          "id": "stock-kmb",
-          "headline": "Kimberly-Clark Rises",
-          "ticker": "$KMB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.3%",
+          "id": "gainer-jlhl",
+          "headline": "Julong Holding Limited Continues Strong Monthly Performance",
+          "summary": "Julong Holding Limited ($JLHL) posted a monthly gain of 137.04% to reach $44.8, reflecting sustained buying interest.",
+          "ticker": "$JLHL",
+          "price": "$44.80",
+          "change": "",
+          "changePercent": "+137.04%",
           "direction": "up",
-          "summary": "Kimberly-Clark recorded a notable gain, demonstrating resilience in a down market."
+          "tags": [
+            "Industrials",
+            "Momentum"
+          ]
+        },
+        {
+          "id": "loser-abve",
+          "headline": "Above Food Ingredients Inc. Plummets After NASDAQ Letter",
+          "summary": "Above Food Ingredients Inc. ($ABVE) suffered an 80.57% decline after receiving a NASDAQ Determination Letter under listing rules 5250(c)(1) and 5250(c)(2).",
+          "ticker": "$ABVE",
+          "price": "",
+          "change": "",
+          "changePercent": "-80.57%",
+          "direction": "down",
+          "tags": [
+            "Food Industry",
+            "Compliance Issues"
+          ]
+        },
+        {
+          "id": "loser-jz",
+          "headline": "Jianzhi Education Technology Group Company Limited Down on Direct Offering",
+          "summary": "Jianzhi Education Technology Group Company Limited ($JZ) fell by 77.42% following the announcement of a $5 Million Registered Direct Offering.",
+          "ticker": "$JZ",
+          "price": "",
+          "change": "",
+          "changePercent": "-77.42%",
+          "direction": "down",
+          "tags": [
+            "Education Technology",
+            "Stock Offering"
+          ]
+        },
+        {
+          "id": "loser-rgti",
+          "headline": "Quantum Computing Stocks Tumble Amid Profit-Taking",
+          "summary": "Rigetti Computing, Inc. ($RGTI) dropped 14.55% as investors took profits in high-flying quantum computing names.",
+          "ticker": "$RGTI",
+          "price": "",
+          "change": "",
+          "changePercent": "-14.55%",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Quantum Computing",
+            "Profit-Taking"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-stories",
-      "title": "Market News & Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-economic-data",
-          "headline": "Strong May Jobs Report Fuels Rate Hike Concerns",
-          "summary": "The U.S. economy added 172,000 jobs in May, significantly exceeding forecasts and pushing the unemployment rate to 4.3%. This robust employment data has intensified fears that the Federal Reserve may be compelled to hike interest rates this year, impacting market valuations, especially in growth-oriented sectors.",
+          "id": "economic-data-jobs-report",
+          "headline": "Strong May Jobs Report Fuels Rate Hike Concerns and Market Selloff",
+          "summary": "The U.S. labor market showed robust growth in May, with 172,000 new nonfarm payroll jobs reported, significantly exceeding consensus expectations and keeping unemployment at 4.3%. This strong economic data, however, triggered a 'good news is bad news' scenario for the stock market, as it amplified concerns about potential Federal Reserve rate hikes to tame a hot economy. The 10-year Treasury yield jumped to 4.54%, and traders are now pricing in a 57% chance of a Fed rate hike this year.",
           "tags": [
             "Economic Data",
             "Fed Policy",
+            "Interest Rates",
             "Employment"
-          ]
+          ],
+          "timestamp": "2026-06-07T17:22:00Z"
         },
         {
-          "id": "news-sector-rotation",
-          "headline": "Technology Sector Leads Decline, Signs of Sector Rotation Emerge",
-          "summary": "Technology and AI-related stocks were at the forefront of the market's decline, with the semiconductor index plunging over 10%. Some analysts suggest this could be the beginning of a significant sector rotation, with money moving out of high-growth tech and into more cyclical sectors and Dow components. The Utilities sector, represented by $XLU, has been a notable laggard, down 4.25% for the week.",
+          "id": "sector-rotation-risk-off",
+          "headline": "Sector Rotation Sees Investors Exit Tech and Growth for Value and Defensives",
+          "summary": "Today's market witnessed a clear rotation away from high-beta, momentum, and growth stocks, particularly in the technology and AI sectors, towards more stable value, defensive, and energy plays. While Industrials, Technology, and Healthcare showed strong average monthly gains in June, the immediate market reaction saw consumer staples rise 1.6%, and financials and healthcare finding buyers, contrasting with sharp declines in chip stocks and quantum computing companies.",
           "tags": [
             "Sector Analysis",
+            "Risk-Off",
             "Technology",
-            "AI",
-            "Utilities"
+            "Defensive Stocks"
           ]
         },
         {
-          "id": "news-earnings-impact",
-          "headline": "Lululemon and Broadcom Earnings Stir Market Reaction",
-          "summary": "Lululemon ($LULU) shares fell 13% after the company lowered its full-year earnings and revenue guidance. Broadcom ($AVGO) also saw a sharp decline despite an otherwise strong earnings report, as investors reacted negatively to the company reiterating, rather than raising, its forward guidance amidst high AI expectations.",
+          "id": "earnings-outlook",
+          "headline": "Mixed Earnings Season with Focus on Upcoming Reports and AI Impact",
+          "summary": "The first quarter 2026 earnings season saw fewer companies outperforming forecasts, with an increase in earnings misses, indicating a challenging environment. Looking ahead, major earnings reports from Oracle ($ORCL) on June 10 and Adobe ($ADBE) on June 11 are highly anticipated. Zscaler ($ZS) experienced a significant sell-off after providing a disappointing outlook for its 2027 annualized recurring revenue growth, highlighting investor sensitivity to guidance.",
           "tags": [
-            "Earnings",
-            "Corporate News",
-            "LULU",
-            "AVGO"
+            "Earnings Reports",
+            "Corporate Performance",
+            "Tech Earnings",
+            "AI Impact"
           ]
         },
         {
-          "id": "news-treasury-yields",
-          "headline": "Rising Treasury Yields Add Pressure to Equities",
-          "summary": "Bond yields surged following the strong jobs report, with the 10-year Treasury yield climbing above 4.5% and the 30-year breaching 5%. Higher borrowing costs generally weigh on equity valuations, particularly affecting high-growth technology companies dependent on future earnings.",
+          "id": "fed-ecb-monetary-policy",
+          "headline": "Central Banks Under Scrutiny with ECB Rate Hike Expected",
+          "summary": "Beyond the Federal Reserve's next FOMC meeting on June 16-17, the European Central Bank (ECB) is widely expected to implement a 25 basis-point rate hike this week. The ongoing global environment, marked by geopolitical tensions and surging energy costs, continues to influence central bank decisions as they navigate between economic growth and inflation control.",
           "tags": [
-            "Treasury Yields",
-            "Bond Market",
-            "Interest Rates"
+            "Monetary Policy",
+            "Central Banks",
+            "ECB",
+            "Fed"
           ]
         }
       ]
     }
-  ],
-  "feedType": "stocks"
+  ]
 }
