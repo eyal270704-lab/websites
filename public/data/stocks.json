@@ -1,188 +1,164 @@
 {
-  "generatedAt": "2026-06-08T15:28:00Z",
+  "generatedAt": "2026-06-08T18:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market Overview for June 8, 2026 - Weekend Edition",
-  "badge": "Market Closed",
+  "title": "Daily Market Digest: June 8, 2026",
+  "subtitle": "A professional overview of today's market activities, without specific investment advice.",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Cautious Optimism After Friday's Close",
+      "id": "market-pulse-01",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-060826",
-          "headline": "Markets Close Higher on Friday, Futures Point to Steady Start Monday",
-          "summary": "U.S. equity markets concluded the week on a positive note Friday, with major indices showing gains driven by resilient tech performance and anticipation of key economic data next week. With markets closed for the weekend, investors are digesting the latest economic indicators and corporate earnings. Overall market sentiment remains cautiously optimistic as attention shifts to upcoming inflation reports and Fed commentary for directional cues.",
+          "id": "market-summary-01",
+          "headline": "U.S. Stocks Rebound as Chip Sector Leads Recovery; Geopolitical Tensions and Inflationary Concerns Persist",
+          "summary": "U.S. equity markets saw a notable rebound on Monday, with the Nasdaq leading the charge, as technology and semiconductor stocks recovered from last week's sharp selloff. Investors closely monitored ongoing geopolitical tensions in the Middle East, which continued to influence oil prices, and considered the implications of recent economic data on Federal Reserve policy. Market sentiment remained cautiously optimistic amidst inflation worries and the prospect of further interest rate adjustments.",
           "tags": [
-            "Market Summary",
-            "Weekend Outlook",
-            "Sentiment"
-          ],
-          "timestamp": "2026-06-08T15:28:00Z"
+            "Market Rebound",
+            "Tech Stocks",
+            "Geopolitics",
+            "Inflation"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (June 7, 2026 Close)",
+      "id": "major-indices-02",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-060726",
-          "headline": "S&P 500",
-          "statLabel": "Close",
-          "statValue": "5,345.10",
-          "statContext": "+0.52% ($27.70)",
-          "tags": [
-            "S&P 500",
-            "Index Performance"
-          ]
+          "id": "sp500-01",
+          "statLabel": "S&P 500",
+          "statValue": "Up ~0.9%",
+          "statContext": "+55 points, rebounding from Friday's decline"
         },
         {
-          "id": "nasdaq-060726",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "17,285.35",
-          "statContext": "+1.18% ($201.20)",
-          "tags": [
-            "NASDAQ",
-            "Index Performance"
-          ]
+          "id": "nasdaq-01",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "Up ~1.4%",
+          "statContext": "+392 points, surging on chip stock recovery"
         },
         {
-          "id": "dow-060726",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
-          "statValue": "38,990.25",
-          "statContext": "+0.28% ($109.15)",
-          "tags": [
-            "DOW",
-            "Index Performance"
-          ]
+          "id": "dow-01",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "Up ~0.5%",
+          "statContext": "+207 points, also recovering ground"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (June 7, 2026)",
+      "id": "top-movers-03",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gain-TECHX-060726",
-          "headline": "Tech Innovations Drive Growth",
-          "summary": "$TECHX surged on strong investor confidence following an analyst upgrade and positive news regarding its latest AI integration technologies.",
-          "ticker": "$TECHX",
-          "price": "$125.75",
-          "change": "+$9.20",
-          "changePercent": "+7.90%",
+          "id": "mrvel-gainer-01",
+          "headline": "Marvell Technology ($MRVL)",
+          "ticker": "$MRVL",
+          "price": "$287.05",
+          "change": "+$23.42",
+          "changePercent": "+9.00%",
           "direction": "up",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "AI"
-          ]
+          "summary": "Shares jumped following the announcement that the company will join the S&P 500 on June 22nd. This move, coupled with positive comments from NVIDIA's CEO, fueled significant investor interest in the AI chipmaker."
         },
         {
-          "id": "gain-BIOPHARMA-060726",
-          "headline": "Biopharma Boosted by Clinical Trial Success",
-          "summary": "$BIOPHARMA saw significant gains after announcing promising results from its Phase 3 clinical trials for a new therapeutic drug.",
-          "ticker": "$BIOPHARMA",
-          "price": "$68.10",
-          "change": "+$4.55",
-          "changePercent": "+7.16%",
+          "id": "mu-gainer-02",
+          "headline": "Micron Technology ($MU)",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.30%",
           "direction": "up",
-          "tags": [
-            "Gainer",
-            "Healthcare",
-            "Biotechnology"
-          ]
+          "summary": "The semiconductor giant rebounded sharply, recovering from a significant decline on Friday, as AI-linked stocks saw renewed buying interest."
         },
         {
-          "id": "loser-RETAILCO-060726",
-          "headline": "Retailer Slumps on Weak Sales Forecast",
-          "summary": "$RETAILCO shares fell sharply after the company issued a cautious outlook, citing weaker-than-expected consumer spending trends.",
-          "ticker": "$RETAILCO",
-          "price": "$45.20",
-          "change": "-$3.80",
-          "changePercent": "-7.75%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Retail",
-            "Consumer Spending"
-          ]
+          "id": "nrix-gainer-03",
+          "headline": "Nurix Therapeutics ($NRIX)",
+          "ticker": "$NRIX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+25.00%",
+          "direction": "up",
+          "summary": "Experienced a substantial gain after Roche agreed to pay the biopharmaceutical company up to $2.3 billion for rights to an experimental blood-cancer drug."
         },
         {
-          "id": "loser-ENERGYCORP-060726",
-          "headline": "Energy Sector Pressured by Oil Price Dip",
-          "summary": "$ENERGYCORP experienced a decline as global oil prices continued their downward trend amid concerns about oversupply.",
-          "ticker": "$ENERGYCORP",
-          "price": "$78.90",
-          "change": "-$4.90",
-          "changePercent": "-5.85%",
+          "id": "wix-loser-01",
+          "headline": "Wix.com ($WIX)",
+          "ticker": "$WIX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-15.00%",
           "direction": "down",
-          "tags": [
-            "Loser",
-            "Energy",
-            "Oil Prices"
-          ]
+          "summary": "Fell significantly after the web-platform company announced an expected $50 million reduction in bookings for 2026, attributed to a new organizational realignment and a slowdown in its Partners business."
+        },
+        {
+          "id": "tlk-loser-02",
+          "headline": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk ($TLK)",
+          "ticker": "$TLK",
+          "price": "N/A",
+          "change": "-$1.96",
+          "changePercent": "-12.61%",
+          "direction": "down",
+          "summary": "Was among the biggest pre-market losers, with specific reasons for the decline not immediately detailed in available reports."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Analysis",
+      "id": "market-news-04",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-healthcare",
-          "headline": "Technology and Healthcare Lead Market Gains",
-          "summary": "Technology and Healthcare sectors were the strongest performers, largely driven by innovation in AI and positive developments in pharmaceutical research respectively. Investors continue to favor growth-oriented tech stocks, while defensive healthcare stocks show resilience.",
+          "id": "sector-analysis-01",
+          "headline": "Technology and Energy Sectors Lead Market Gains; Financials and Real Estate Lag",
+          "summary": "Technology, particularly AI-linked semiconductor stocks, drove Monday's market recovery, benefiting from strong demand in AI infrastructure buildout. The energy sector also performed well as crude oil prices rose amidst Middle East tensions. Conversely, financial services and real estate sectors remain undervalued, with financials being the worst-performing sector year-to-date due to overestimation of net interest income growth.",
           "tags": [
-            "Sector Analysis",
+            "Sector Performance",
             "Technology",
-            "Healthcare"
-          ],
-          "timestamp": "2026-06-08T15:28:00Z"
+            "Energy",
+            "AI",
+            "Financials"
+          ]
         },
         {
-          "id": "sector-retail-energy",
-          "headline": "Retail and Energy Sectors Face Headwinds",
-          "summary": "Conversely, the Retail sector struggled with ongoing consumer spending concerns, and the Energy sector faced pressure from fluctuating crude oil prices. These sectors saw notable rotations out as investors sought more stable growth avenues.",
+          "id": "economic-data-02",
+          "headline": "May Jobs Report Fuels Fed Rate Hike Expectations; CPI and PPI Ahead This Week",
+          "summary": "The stronger-than-expected May jobs report, showing 172,000 nonfarm payroll additions and a steady 4.3% unemployment rate, has intensified expectations for a Federal Reserve rate hike. Markets are now pricing in a 71-72% probability of a December rate increase. Investors are keenly awaiting the May Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday, both of which are anticipated to reflect elevated inflationary pressures.",
           "tags": [
-            "Sector Analysis",
-            "Retail",
-            "Energy"
-          ],
-          "timestamp": "2026-06-08T15:28:00Z"
-        },
-        {
-          "id": "economic-inflation-outlook",
-          "headline": "Upcoming Inflation Data Eyed by Investors",
-          "summary": "Investors are keenly awaiting next week's inflation data, particularly the Consumer Price Index (CPI) report, which could significantly influence the Federal Reserve's monetary policy decisions. Market participants are hoping for signs of moderating inflation to support potential interest rate adjustments later in the year.",
-          "tags": [
-            "Economic News",
+            "Economic Data",
+            "Jobs Report",
+            "Federal Reserve",
             "Inflation",
-            "Federal Reserve"
-          ],
-          "timestamp": "2026-06-08T15:28:00Z"
+            "Interest Rates"
+          ]
         },
         {
-          "id": "earnings-overview",
-          "headline": "Key Earnings Reports Signal Mixed Corporate Health",
-          "summary": "Major companies released their latest earnings reports, presenting a mixed picture of corporate health. While some tech giants reported stronger-than-expected revenues, several industrial and consumer discretionary firms faced challenges, impacting their stock performance. This trend highlights a bifurcated market where robust growth areas continue to thrive amidst broader economic uncertainties.",
+          "id": "geopolitical-impact-03",
+          "headline": "Middle East Tensions Elevate Oil Prices Amid Israel-Iran Exchange",
+          "summary": "Geopolitical developments in the Middle East, marked by an exchange of strikes between Israel and Iran, continued to weigh on global markets. Crude oil prices, including Brent crude, rose above $97 per barrel due to renewed hostilities, contributing to broader inflationary concerns. While a ceasefire was urged, the ongoing situation introduces volatility.",
           "tags": [
-            "Economic News",
+            "Geopolitics",
+            "Oil Prices",
+            "Middle East"
+          ]
+        },
+        {
+          "id": "earnings-watch-04",
+          "headline": "Campbell's Reports Q3 Results; Oracle and Adobe Earnings on Deck",
+          "summary": "Campbell's ($CPB) reported its third-quarter fiscal 2026 results today, with net sales decreasing 4% and adjusted EPS falling 32% to $0.50, though the company reaffirmed its full-year guidance. Looking ahead, major earnings reports from Oracle ($ORCL) are expected on Wednesday evening, followed by Adobe ($ADBE) on Thursday.",
+          "tags": [
             "Earnings Reports",
-            "Corporate Performance"
-          ],
-          "timestamp": "2026-06-08T15:28:00Z"
+            "Campbell's",
+            "Oracle",
+            "Adobe"
+          ]
         }
       ]
     }
