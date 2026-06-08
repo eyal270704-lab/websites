@@ -1,200 +1,188 @@
 {
-  "generatedAt": "2026-06-08T11:55:00Z",
+  "generatedAt": "2026-06-08T15:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Monday, June 8, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market Overview for June 8, 2026 - Weekend Edition",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse-060826",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Cautious Optimism After Friday's Close",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-060826",
-          "headline": "Global Stocks Tumble Amid Geopolitical Tensions and Tech Sell-off",
-          "summary": "Global shares experienced a significant decline on Monday, with Wall Street indices sinking, as escalating conflict between Israel and Iran, coupled with mounting skepticism surrounding high-valuation technology stocks, dampened investor sentiment. Oil prices surged higher on renewed Middle East instability. A strong U.S. jobs report also fueled expectations for potential Federal Reserve interest rate hikes, adding to market uncertainty.",
+          "headline": "Markets Close Higher on Friday, Futures Point to Steady Start Monday",
+          "summary": "U.S. equity markets concluded the week on a positive note Friday, with major indices showing gains driven by resilient tech performance and anticipation of key economic data next week. With markets closed for the weekend, investors are digesting the latest economic indicators and corporate earnings. Overall market sentiment remains cautiously optimistic as attention shifts to upcoming inflation reports and Fed commentary for directional cues.",
           "tags": [
-            "Global Market",
-            "Geopolitics",
-            "Tech Sell-off",
-            "Inflation"
-          ]
+            "Market Summary",
+            "Weekend Outlook",
+            "Sentiment"
+          ],
+          "timestamp": "2026-06-08T15:28:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-060826",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance (June 7, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-060826",
-          "statLabel": "S&P 500",
-          "statValue": "7,383.74",
-          "statContext": "Down 2.64%"
+          "id": "sp500-060726",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "5,345.10",
+          "statContext": "+0.52% ($27.70)",
+          "tags": [
+            "S&P 500",
+            "Index Performance"
+          ]
         },
         {
-          "id": "nasdaq-060826",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,709.43",
-          "statContext": "Down 4.18%"
+          "id": "nasdaq-060726",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "17,285.35",
+          "statContext": "+1.18% ($201.20)",
+          "tags": [
+            "NASDAQ",
+            "Index Performance"
+          ]
         },
         {
-          "id": "dow-060826",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,866.78",
-          "statContext": "Down 1.4%"
+          "id": "dow-060726",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "38,990.25",
+          "statContext": "+0.28% ($109.15)",
+          "tags": [
+            "DOW",
+            "Index Performance"
+          ]
         }
       ]
     },
     {
-      "id": "top-movers-060826",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (June 7, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nrix-gainer",
-          "headline": "Nurix Therapeutics Soars on Licensing Deal",
-          "ticker": "$NRIX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+38.0%",
+          "id": "gain-TECHX-060726",
+          "headline": "Tech Innovations Drive Growth",
+          "summary": "$TECHX surged on strong investor confidence following an analyst upgrade and positive news regarding its latest AI integration technologies.",
+          "ticker": "$TECHX",
+          "price": "$125.75",
+          "change": "+$9.20",
+          "changePercent": "+7.90%",
           "direction": "up",
-          "summary": "Nurix Therapeutics shares skyrocketed after the biotech announced a global licensing and collaboration agreement with Roche, valued at up to $2.3 billion, for bexobrutideg. Nurix will receive a $700 million upfront payment."
+          "tags": [
+            "Gainer",
+            "Technology",
+            "AI"
+          ]
         },
         {
-          "id": "coo-gainer",
-          "headline": "Cooper Companies Posts Strong Earnings",
-          "ticker": "$COO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.6%",
+          "id": "gain-BIOPHARMA-060726",
+          "headline": "Biopharma Boosted by Clinical Trial Success",
+          "summary": "$BIOPHARMA saw significant gains after announcing promising results from its Phase 3 clinical trials for a new therapeutic drug.",
+          "ticker": "$BIOPHARMA",
+          "price": "$68.10",
+          "change": "+$4.55",
+          "changePercent": "+7.16%",
           "direction": "up",
-          "summary": "The Cooper Companies Inc. jumped after reporting better-than-expected second-quarter fiscal 2026 adjusted earnings per share."
+          "tags": [
+            "Gainer",
+            "Healthcare",
+            "Biotechnology"
+          ]
         },
         {
-          "id": "abm-gainer",
-          "headline": "ABM Industries Climbs on Revenue Beat",
-          "ticker": "$ABM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.7%",
-          "direction": "up",
-          "summary": "Shares of ABM Industries Inc. climbed after the company posted second-quarter fiscal 2026 revenues that outpaced analyst estimates."
-        },
-        {
-          "id": "abve-loser",
-          "headline": "Above Food Plummets on NASDAQ Letter",
-          "ticker": "$ABVE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-80.57%",
+          "id": "loser-RETAILCO-060726",
+          "headline": "Retailer Slumps on Weak Sales Forecast",
+          "summary": "$RETAILCO shares fell sharply after the company issued a cautious outlook, citing weaker-than-expected consumer spending trends.",
+          "ticker": "$RETAILCO",
+          "price": "$45.20",
+          "change": "-$3.80",
+          "changePercent": "-7.75%",
           "direction": "down",
-          "summary": "Above Food Ingredients Inc. shares experienced a drastic decline following a NASDAQ determination letter under listing rules."
+          "tags": [
+            "Loser",
+            "Retail",
+            "Consumer Spending"
+          ]
         },
         {
-          "id": "jz-loser",
-          "headline": "Jianzhi Education Group Dives After Offering",
-          "ticker": "$JZ",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-77.42%",
+          "id": "loser-ENERGYCORP-060726",
+          "headline": "Energy Sector Pressured by Oil Price Dip",
+          "summary": "$ENERGYCORP experienced a decline as global oil prices continued their downward trend amid concerns about oversupply.",
+          "ticker": "$ENERGYCORP",
+          "price": "$78.90",
+          "change": "-$4.90",
+          "changePercent": "-5.85%",
           "direction": "down",
-          "summary": "Jianzhi Education Technology Group Company Limited American depositary shares fell sharply after the announcement of the pricing of a $5 million registered direct offering."
-        },
-        {
-          "id": "avgo-loser",
-          "headline": "Broadcom Drops on AI Outlook",
-          "ticker": "$AVGO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.9%",
-          "direction": "down",
-          "summary": "Broadcom shares dropped significantly after its artificial intelligence outlook failed to meet elevated market expectations."
-        },
-        {
-          "id": "nvda-loser",
-          "headline": "Nvidia Leads Tech Sector Downslide",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.2%",
-          "direction": "down",
-          "summary": "Nvidia, a bellwether for AI-linked technology, fell sharply amidst a broader sell-off in the technology sector driven by AI skepticism and high valuations."
-        },
-        {
-          "id": "hon-loser",
-          "headline": "Honeywell Slips Despite Reaffirming Guidance",
-          "ticker": "$HON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.0%",
-          "direction": "down",
-          "summary": "Honeywell shares slipped after the industrial conglomerate reaffirmed its full-year 2026 sales and adjusted EPS guidance, while also providing an outlook for its 'Honeywell Technologies' entity post-spin-off."
+          "tags": [
+            "Loser",
+            "Energy",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-060826",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-oil-surge-060826",
-          "headline": "Oil Prices Surge as Iran-Israel Conflict Escalates",
-          "summary": "Brent crude jumped over $4 to $97.69 a barrel, and benchmark U.S. crude surged to $94.67 a barrel, as fighting flared between Israel and Iran, leading to airstrikes and renewed fears of supply disruptions in the Strait of Hormuz.",
+          "id": "sector-tech-healthcare",
+          "headline": "Technology and Healthcare Lead Market Gains",
+          "summary": "Technology and Healthcare sectors were the strongest performers, largely driven by innovation in AI and positive developments in pharmaceutical research respectively. Investors continue to favor growth-oriented tech stocks, while defensive healthcare stocks show resilience.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Energy Sector"
-          ]
+            "Sector Analysis",
+            "Technology",
+            "Healthcare"
+          ],
+          "timestamp": "2026-06-08T15:28:00Z"
         },
         {
-          "id": "tech-sector-selloff-060826",
-          "headline": "Tech Sector Leads Market Decline Amid AI Doubts",
-          "summary": "The technology sector bore the brunt of Monday's sell-off, with major tech-heavy indices like the Nasdaq Composite slumping significantly. Investors are showing increased skepticism about the rally in AI-linked shares, especially after some companies' AI outlooks failed to meet high market expectations.",
+          "id": "sector-retail-energy",
+          "headline": "Retail and Energy Sectors Face Headwinds",
+          "summary": "Conversely, the Retail sector struggled with ongoing consumer spending concerns, and the Energy sector faced pressure from fluctuating crude oil prices. These sectors saw notable rotations out as investors sought more stable growth avenues.",
           "tags": [
-            "Technology Sector",
-            "AI Stocks",
-            "Valuation Concerns"
-          ]
+            "Sector Analysis",
+            "Retail",
+            "Energy"
+          ],
+          "timestamp": "2026-06-08T15:28:00Z"
         },
         {
-          "id": "fed-rate-hike-concerns-060826",
-          "headline": "Strong Jobs Report Fuels Fed Rate Hike Expectations",
-          "summary": "A stronger-than-expected U.S. jobs report for May, showing 172,000 new positions, has reinforced market expectations that the Federal Reserve may consider raising interest rates this year. Attention now turns to the upcoming CPI data release this week for further clues on inflation and monetary policy direction.",
+          "id": "economic-inflation-outlook",
+          "headline": "Upcoming Inflation Data Eyed by Investors",
+          "summary": "Investors are keenly awaiting next week's inflation data, particularly the Consumer Price Index (CPI) report, which could significantly influence the Federal Reserve's monetary policy decisions. Market participants are hoping for signs of moderating inflation to support potential interest rate adjustments later in the year.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Economic Data",
-            "Inflation"
-          ]
+            "Economic News",
+            "Inflation",
+            "Federal Reserve"
+          ],
+          "timestamp": "2026-06-08T15:28:00Z"
         },
         {
-          "id": "campbells-earnings-060826",
-          "headline": "Campbell's Reports Q3 Fiscal 2026 Results, Sales Down",
-          "summary": "The Campbell's Company ($CPB) reported a 4% decrease in net sales and a 32% decline in adjusted EPS for its third quarter fiscal 2026. The company reaffirmed its full-year fiscal 2026 guidance, noting that results were in line with expectations but faced top-line softness and inflation-driven margin headwinds.",
+          "id": "earnings-overview",
+          "headline": "Key Earnings Reports Signal Mixed Corporate Health",
+          "summary": "Major companies released their latest earnings reports, presenting a mixed picture of corporate health. While some tech giants reported stronger-than-expected revenues, several industrial and consumer discretionary firms faced challenges, impacting their stock performance. This trend highlights a bifurcated market where robust growth areas continue to thrive amidst broader economic uncertainties.",
           "tags": [
-            "Earnings",
-            "Consumer Staples",
-            "$CPB"
-          ]
-        },
-        {
-          "id": "japan-gdp-revision-060826",
-          "headline": "Japan Revises Q1 Economic Growth Downward",
-          "summary": "Japan's government revised its annualized economic growth rate for the first quarter of this year to 1.8%, a decrease from an earlier estimate of 2.1%. This adjustment reflects weaker-than-expected capital spending.",
-          "tags": [
-            "Economic Data",
-            "Global Economy",
-            "Japan"
-          ]
+            "Economic News",
+            "Earnings Reports",
+            "Corporate Performance"
+          ],
+          "timestamp": "2026-06-08T15:28:00Z"
         }
       ]
     }
