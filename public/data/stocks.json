@@ -1,163 +1,184 @@
 {
-  "generatedAt": "2026-06-08T18:27:00Z",
+  "generatedAt": "2026-06-09T10:32:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 8, 2026",
-  "subtitle": "A professional overview of today's market activities, without specific investment advice.",
+  "title": "Daily Market Digest",
+  "subtitle": "June 09, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-01",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Tech Rebounds Amid Geopolitical Calm",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-01",
-          "headline": "U.S. Stocks Rebound as Chip Sector Leads Recovery; Geopolitical Tensions and Inflationary Concerns Persist",
-          "summary": "U.S. equity markets saw a notable rebound on Monday, with the Nasdaq leading the charge, as technology and semiconductor stocks recovered from last week's sharp selloff. Investors closely monitored ongoing geopolitical tensions in the Middle East, which continued to influence oil prices, and considered the implications of recent economic data on Federal Reserve policy. Market sentiment remained cautiously optimistic amidst inflation worries and the prospect of further interest rate adjustments.",
+          "headline": "World Shares Advance as Tech Stocks Recover; Oil Prices Slip on Ceasefire Hopes",
+          "summary": "Global stock markets were mostly higher on Tuesday, with technology shares leading the rebound after Wall Street experienced a sell-off last week. Oil prices retreated as reports indicated Israel and Iran agreed to a temporary halt in military actions. Investor sentiment was also buoyed by stronger-than-expected May jobs data from the U.S.",
           "tags": [
-            "Market Rebound",
-            "Tech Stocks",
+            "Global Markets",
+            "Tech Rebound",
+            "Oil Prices",
             "Geopolitics",
-            "Inflation"
-          ]
+            "Jobs Report"
+          ],
+          "timestamp": "2026-06-09T10:32:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-02",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-01",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "Up ~0.9%",
-          "statContext": "+55 points, rebounding from Friday's decline"
+          "statValue": "7,405.73",
+          "statContext": "Up 0.3% for the day",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-01",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "Up ~1.4%",
-          "statContext": "+392 points, surging on chip stock recovery"
+          "id": "nasdaq100-stat",
+          "statLabel": "NASDAQ 100",
+          "statValue": "Up 1.6%",
+          "statContext": "Led by tech sector rebound",
+          "direction": "up"
         },
         {
-          "id": "dow-01",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "Up ~0.5%",
-          "statContext": "+207 points, also recovering ground"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "Down 0.2%",
+          "statContext": "Slight dip despite broader gains",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-03",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers of the Day",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mrvel-gainer-01",
-          "headline": "Marvell Technology ($MRVL)",
-          "ticker": "$MRVL",
-          "price": "$287.05",
-          "change": "+$23.42",
-          "changePercent": "+9.00%",
-          "direction": "up",
-          "summary": "Shares jumped following the announcement that the company will join the S&P 500 on June 22nd. This move, coupled with positive comments from NVIDIA's CEO, fueled significant investor interest in the AI chipmaker."
+          "id": "gainer-intel",
+          "headline": "Intel Surges on AI Chip Order Reports",
+          "summary": "Intel Corporation ($INTC) saw a significant gain, up 11.2%, following reports that Alphabet placed a large order for its AI chips.",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11.2%",
+          "direction": "up"
         },
         {
-          "id": "mu-gainer-02",
-          "headline": "Micron Technology ($MU)",
+          "id": "gainer-micron",
+          "headline": "Micron Rebounds from Friday's Sell-off",
+          "summary": "Micron Technology ($MU) climbed 9.9%, recovering substantially after experiencing its largest S&P 500 loss on Friday.",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.30%",
-          "direction": "up",
-          "summary": "The semiconductor giant rebounded sharply, recovering from a significant decline on Friday, as AI-linked stocks saw renewed buying interest."
+          "changePercent": "+9.9%",
+          "direction": "up"
         },
         {
-          "id": "nrix-gainer-03",
-          "headline": "Nurix Therapeutics ($NRIX)",
-          "ticker": "$NRIX",
+          "id": "gainer-marvell",
+          "headline": "Marvell Technology Added to S&P 500",
+          "summary": "Marvell Technology ($MRVL) advanced 9.6% after S&P Dow Jones Indices announced its inclusion in the widely followed S&P 500 index.",
+          "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+25.00%",
-          "direction": "up",
-          "summary": "Experienced a substantial gain after Roche agreed to pay the biopharmaceutical company up to $2.3 billion for rights to an experimental blood-cancer drug."
+          "changePercent": "+9.6%",
+          "direction": "up"
         },
         {
-          "id": "wix-loser-01",
-          "headline": "Wix.com ($WIX)",
-          "ticker": "$WIX",
+          "id": "loser-apple",
+          "headline": "Apple Slips After AI Event Disappoints",
+          "summary": "Apple ($AAPL) shares declined 1.9% as its highly anticipated AI overhaul of Siri, unveiled at the annual Worldwide Developers Conference, reportedly underwhelmed investors.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-15.00%",
-          "direction": "down",
-          "summary": "Fell significantly after the web-platform company announced an expected $50 million reduction in bookings for 2026, attributed to a new organizational realignment and a slowdown in its Partners business."
+          "changePercent": "-1.9%",
+          "direction": "down"
         },
         {
-          "id": "tlk-loser-02",
-          "headline": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk ($TLK)",
-          "ticker": "$TLK",
+          "id": "loser-missionproduce",
+          "headline": "Mission Produce Reports Downbeat Q2 Results",
+          "summary": "Mission Produce Inc. ($AVO) fell 5.43% after the company announced weaker-than-expected second-quarter results following Monday's closing bell.",
+          "ticker": "$AVO",
           "price": "N/A",
-          "change": "-$1.96",
-          "changePercent": "-12.61%",
-          "direction": "down",
-          "summary": "Was among the biggest pre-market losers, with specific reasons for the decline not immediately detailed in available reports."
+          "change": "N/A",
+          "changePercent": "-5.43%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-04",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Key Market & Economic News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-01",
-          "headline": "Technology and Energy Sectors Lead Market Gains; Financials and Real Estate Lag",
-          "summary": "Technology, particularly AI-linked semiconductor stocks, drove Monday's market recovery, benefiting from strong demand in AI infrastructure buildout. The energy sector also performed well as crude oil prices rose amidst Middle East tensions. Conversely, financial services and real estate sectors remain undervalued, with financials being the worst-performing sector year-to-date due to overestimation of net interest income growth.",
+          "id": "economic-jobs",
+          "headline": "U.S. May Jobs Report Exceeds Expectations",
+          "summary": "The May 2026 Nonfarm Payrolls (NFP) report showed the U.S. economy added 172,000 jobs, significantly surpassing the 85,000 forecast. April's figure was also revised upward. Wage growth remained tame at +0.3% monthly and +3.4% annually, indicating an improving labor market without stoking wage inflation.",
           "tags": [
-            "Sector Performance",
-            "Technology",
+            "Economic Data",
+            "Jobs Report",
+            "NFP",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "economic-inflation",
+          "headline": "Consumer Inflation Expectations Ease Slightly in May",
+          "summary": "U.S. one-year-ahead inflation expectations in May slipped to 3.5% from 3.6%. Consumers anticipate slower price growth for gas, medical care, and college, but higher prices for homes, food, and rent.",
+          "tags": [
+            "Inflation",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Goldman Sachs Adjusts Fed Rate Cut Forecast",
+          "summary": "Goldman Sachs has withdrawn its projection for a December Fed interest rate cut, now expecting the Federal Reserve to maintain unchanged rates until cuts in June 2027 and December 2027.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Technology and Energy Lead Year-to-Date Sector Performance",
+          "summary": "Year-to-date, the Energy sector leads all sectors with approximately a 30% return, closely followed by Technology at 28%. Financials, Communication Services, and Consumer Discretionary sectors are currently lagging. The Philadelphia Semiconductor Index saw a notable 5.6% surge today.",
+          "tags": [
+            "Sector Analysis",
             "Energy",
-            "AI",
+            "Technology",
             "Financials"
           ]
         },
         {
-          "id": "economic-data-02",
-          "headline": "May Jobs Report Fuels Fed Rate Hike Expectations; CPI and PPI Ahead This Week",
-          "summary": "The stronger-than-expected May jobs report, showing 172,000 nonfarm payroll additions and a steady 4.3% unemployment rate, has intensified expectations for a Federal Reserve rate hike. Markets are now pricing in a 71-72% probability of a December rate increase. Investors are keenly awaiting the May Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday, both of which are anticipated to reflect elevated inflationary pressures.",
-          "tags": [
-            "Economic Data",
-            "Jobs Report",
-            "Federal Reserve",
-            "Inflation",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "geopolitical-impact-03",
-          "headline": "Middle East Tensions Elevate Oil Prices Amid Israel-Iran Exchange",
-          "summary": "Geopolitical developments in the Middle East, marked by an exchange of strikes between Israel and Iran, continued to weigh on global markets. Crude oil prices, including Brent crude, rose above $97 per barrel due to renewed hostilities, contributing to broader inflationary concerns. While a ceasefire was urged, the ongoing situation introduces volatility.",
+          "id": "geopolitical-oil",
+          "headline": "Oil Prices Retreat as Mideast Tensions Ease",
+          "summary": "Crude oil futures traded lower after Israel and Iran reportedly agreed to halt offensive operations, easing fears of broader conflict in the Middle East. Brent crude fell by 1.75%.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Middle East"
+            "Commodities"
           ]
         },
         {
-          "id": "earnings-watch-04",
-          "headline": "Campbell's Reports Q3 Results; Oracle and Adobe Earnings on Deck",
-          "summary": "Campbell's ($CPB) reported its third-quarter fiscal 2026 results today, with net sales decreasing 4% and adjusted EPS falling 32% to $0.50, though the company reaffirmed its full-year guidance. Looking ahead, major earnings reports from Oracle ($ORCL) are expected on Wednesday evening, followed by Adobe ($ADBE) on Thursday.",
+          "id": "earnings-season",
+          "headline": "Q1 2026 Earnings Season Nears End; Oracle, Adobe Anticipated",
+          "summary": "The first-quarter 2026 earnings season is drawing to a close, with technology being the largest contributor to year-over-year EPS growth. Markets are now awaiting upcoming earnings reports from Oracle on Wednesday and Adobe and Dollarama on Thursday.",
           "tags": [
             "Earnings Reports",
-            "Campbell's",
-            "Oracle",
-            "Adobe"
+            "Q1 2026",
+            "Tech Earnings"
           ]
         }
       ]
