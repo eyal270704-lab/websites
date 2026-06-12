@@ -1,259 +1,188 @@
 {
-  "generatedAt": "2026-06-12T20:00:00Z",
+  "generatedAt": "2026-06-12T18:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 12, 2026",
-  "subtitle": "U.S. Markets Surge on Geopolitical Optimism and AI Strength",
+  "title": "Daily Market Digest",
+  "subtitle": "June 12, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Peace Hopes Drive Strong Gains, SpaceX Debuts",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "pulse-summary",
-          "headline": "U.S. Stocks Rally Sharply on Iran Deal Hopes and Resurgent AI Trade",
-          "summary": "Major U.S. stock indices closed significantly higher today, marking their best single-day performance since April 8. Market sentiment was strongly bolstered by positive developments regarding a potential U.S.-Iran peace deal and a renewed rally in artificial intelligence (AI) related stocks. The Dow Jones, S&P 500, and Nasdaq Composite all posted substantial gains, while the highly anticipated SpaceX IPO also captured investor attention.",
+          "id": "market-summary-june12",
+          "headline": "U.S. Stocks Surge Amid Easing Geopolitical Tensions and SpaceX IPO",
+          "summary": "U.S. stock markets closed sharply higher today, rebounding from recent losses, as investor sentiment was bolstered by positive developments in Middle East geopolitical conflicts and the highly anticipated market debut of SpaceX. The broader market experienced a risk-on reversal, with lower oil prices and easing concerns contributing to a robust trading session. The AI trade also regained momentum, with key semiconductor stocks showing strong performance. Not financial advice.",
           "tags": [
-            "Market Summary",
-            "Geopolitical",
-            "AI",
-            "IPOs"
-          ],
-          "timestamp": "2026-06-12T16:00:00Z"
+            "Market Overview",
+            "Geopolitics",
+            "IPO",
+            "AI"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-stat",
-          "headline": "Dow Jones Industrial Average Climbs",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "50,848.75",
-          "statContext": "+1.9% (+929.97 points)"
-        },
-        {
-          "id": "sp500-stat",
-          "headline": "S&P 500 Posts Strong Gains",
+          "id": "sp500-perf",
           "statLabel": "S&P 500",
           "statValue": "7,393.30",
-          "statContext": "+1.8% (+127.31 points)"
+          "statContext": "+1.8% (+127.31 pts)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
-          "headline": "NASDAQ Composite Leads Rally",
+          "id": "nasdaq-perf",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,809.66",
-          "statContext": "+2.5% (+640.16 points)"
+          "statContext": "+2.5% (+640.16 pts)",
+          "direction": "up"
+        },
+        {
+          "id": "dow-perf",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "50,848.75",
+          "statContext": "+1.9% (+929.97 pts)",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers of the Day",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Soars on AI Semiconductor Strength",
-          "summary": "Micron Technology ($MU) saw its shares rally significantly, jumping 11.7%, as investor confidence in AI-powered semiconductor giants continued to surge.",
+          "id": "spacex-debut",
+          "headline": "SpaceX Soars in Landmark IPO",
+          "ticker": "$SPCX",
+          "price": "$150.00 (opened)",
+          "change": "+$15.00",
+          "changePercent": "+11.11% (from IPO price of $135)",
+          "direction": "up",
+          "summary": "Elon Musk's SpaceX made its highly anticipated market debut on Nasdaq, opening at $150 per share after a fixed offering price of $135, valuing the company at nearly $2 trillion. The debut created the world's first trillionaire, Elon Musk, and generated significant buzz in the aerospace and AI sectors."
+        },
+        {
+          "id": "micron-gain",
+          "headline": "Micron Technology Rallies",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+11.7%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "Shares of Micron Technology Inc. rallied significantly, benefiting from the broader rebound in AI-powered semiconductor stocks."
         },
         {
-          "id": "intc-gainer",
-          "headline": "Intel Corp. Experiences Strong Rally",
-          "summary": "Intel Corp. ($INTC) shares climbed 9.3%, benefiting from the broader positive sentiment and strong performance observed in the AI semiconductor sector today.",
+          "id": "intel-gain",
+          "headline": "Intel Jumps on AI Momentum",
           "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+9.3%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "Intel Corp. experienced a strong surge, recouping some losses amidst renewed investor confidence in the AI sector following positive geopolitical news."
         },
         {
-          "id": "amd-gainer",
-          "headline": "AMD Rallies on Anticipated AI Product Demand",
-          "summary": "Advanced Micro Devices ($AMD) rallied 8% today. Citi analysts maintain a 'buy' rating and a $575 price target, anticipating Meta will be a significant customer for AMD's AI GPUs.",
+          "id": "amd-gain",
+          "headline": "Advanced Micro Devices Up on Strong Outlook",
           "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+8.0%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "Advanced Micro Devices Inc. saw an 8% increase in its stock price. Analysts at Citi maintain a buy rating with a $575 price target, anticipating earnings exceeding $20 per share by 2028, largely driven by expected significant contributions from Meta's AI products."
         },
         {
-          "id": "crwd-gainer",
-          "headline": "CrowdStrike Holdings Climbs",
-          "summary": "CrowdStrike Holdings Inc. ($CRWD) gained +6.76%, closing at $691.53.",
-          "ticker": "$CRWD",
-          "price": "$691.53",
-          "change": "+$43.79",
-          "changePercent": "+6.76%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Cybersecurity"
-          ]
-        },
-        {
-          "id": "adbe-loser",
-          "headline": "Adobe Shares Dip Amid CFO Departure and Downgrades",
-          "summary": "Adobe Inc. ($ADBE) saw its stock drop over 7% in pre-market trading, continuing a decline despite beating Q2 earnings estimates. The departure of CFO Dan Durn and subsequent analyst downgrades weighed heavily on shares.",
+          "id": "adobe-fall",
+          "headline": "Adobe Shares Slip on CFO Departure News",
           "ticker": "$ADBE",
-          "price": "$218.80",
-          "change": "-$15.32",
-          "changePercent": "-7.00%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Software"
-          ]
-        },
-        {
-          "id": "spce-loser",
-          "headline": "Virgin Galactic Falls on Profit-Taking",
-          "summary": "Virgin Galactic Holdings Inc. ($SPCE) shares declined 10% in pre-market trading, following a significant surge in the previous session, suggesting profit-taking.",
-          "ticker": "$SPCE",
           "price": "N/A",
+          "change": "-$16.00 (approx)",
+          "changePercent": "-7.0% (premarket)",
+          "direction": "down",
+          "summary": "Adobe shares were under pressure despite reporting better-than-expected Q2 earnings with record revenue of $6.62 billion, driven by AI demand. The stock dropped following news of its CFO's exit, leading to multiple analyst downgrades from Stifel, Wolfe Research, and Evercore ISI."
+        },
+        {
+          "id": "oil-fall",
+          "headline": "Crude Oil Plunges on Peace Hopes",
+          "ticker": "WTI Crude",
+          "price": "$85.86/barrel",
           "change": "N/A",
-          "changePercent": "-10.0%",
+          "changePercent": "-5.4%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Aerospace",
-            "Space Tourism"
-          ]
-        },
-        {
-          "id": "mtd-loser",
-          "headline": "Mettler-Toledo International Inc. Declines",
-          "summary": "Mettler-Toledo International Inc. ($MTD) dropped 4.49% in pre-market trading, priced at $1090.00.",
-          "ticker": "$MTD",
-          "price": "$1090.00",
-          "change": "-$51.25",
-          "changePercent": "-4.49%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Manufacturing"
-          ]
+          "summary": "WTI crude oil prices settled at $85.86 per barrel, plunging 5.4% from its daily high. This significant drop was primarily driven by easing U.S.-Iran tensions and hopes for a peace deal that could lift oil sanctions and reopen the Strait of Hormuz."
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Key Market Stories",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-leads",
-          "headline": "Technology Sector Leads Market Rally Driven by Semiconductor Demand",
-          "summary": "The Technology sector (XLK) was a standout performer today, leading the market rally. This was primarily fueled by robust demand for semiconductors and strong performances from AI-focused companies.",
+          "id": "economic-data-ppi",
+          "headline": "May PPI Rises Sharply, Core PPI Slows",
+          "summary": "The U.S. Producer Price Index (PPI) for May rose 6.5% year-on-year, marking the largest increase since November 2022, primarily due to surging energy prices and transportation costs. However, core PPI, excluding volatile food and energy, unexpectedly slowed to 4.9% year-on-year, suggesting a widening gap with CPI that could squeeze corporate profit margins. Month-over-month, headline PPI increased 1.1%, surpassing estimates.",
           "tags": [
-            "Sector Performance",
-            "Technology",
-            "Semiconductors",
-            "AI"
-          ],
-          "timestamp": "2026-06-12T15:30:00Z"
-        },
-        {
-          "id": "energy-consumer-staples-rise",
-          "headline": "Consumer Staples and Energy Sectors See Gains",
-          "summary": "Despite falling oil prices, the Energy Select Sector SPDR (XLE) rose 1.5%, while the Consumer Staples Select Sector SPDR (XLP) advanced 1.7%.",
-          "tags": [
-            "Sector Performance",
-            "Energy",
-            "Consumer Staples"
-          ],
-          "timestamp": "2026-06-12T15:45:00Z"
-        },
-        {
-          "id": "defensive-sectors-lag",
-          "headline": "Defensive Sectors Lag Amid Growth Momentum",
-          "summary": "Sectors like Consumer Discretionary (XLY) and Utilities (XLU) struggled today, underperforming in a heightened growth expectation and 'risk-on' sentiment environment.",
-          "tags": [
-            "Sector Performance",
-            "Consumer Discretionary",
-            "Utilities"
+            "Economic Data",
+            "Inflation",
+            "PPI"
           ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
+        },
         {
-          "id": "iran-deal-hopes",
-          "headline": "U.S.-Iran Deal Hopes Drive Market Optimism and Lower Oil Prices",
-          "summary": "Optimism about a potential U.S.-Iran peace deal, which could be finalized as early as Sunday, significantly boosted market sentiment. The proposed deal includes lifting oil sanctions and reopening the Strait of Hormuz, contributing to a drop in oil prices by $3.50 to $84.21 a barrel.",
+          "id": "ecb-rate-hike",
+          "headline": "ECB Raises Rates for First Time Since 2023",
+          "summary": "The European Central Bank (ECB) raised its deposit rate to 2.250%, main refinancing rate to 2.400%, and marginal lending rate to 2.650%. This marks the first rate hike since 2023, aligning with market expectations and reflecting efforts to counter inflationary pressures exacerbated by geopolitical events.",
+          "tags": [
+            "Central Banks",
+            "Interest Rates",
+            "Europe"
+          ]
+        },
+        {
+          "id": "us-iran-tensions",
+          "headline": "U.S.-Iran Tensions Ease, Peace Deal Imminent",
+          "summary": "Market sentiment improved significantly on hopes of a nearing U.S.-Iran peace deal. President Trump announced the cancellation of planned strikes and stated that an agreement is largely finalized, potentially to be signed in Europe this weekend. This de-escalation is expected to lift oil sanctions and reopen the Strait of Hormuz.",
           "tags": [
             "Geopolitics",
-            "Oil Prices",
+            "Oil Market",
             "Market Sentiment"
-          ],
-          "timestamp": "2026-06-12T12:00:00Z"
+          ]
         },
         {
-          "id": "spacex-ipo-debut",
-          "headline": "SpaceX Makes Historic Nasdaq Debut at $1.77 Trillion Valuation",
-          "summary": "Elon Musk's SpaceX ($SPCX) made its highly anticipated public market debut on the Nasdaq today under the ticker SPCX. Shares were priced at $135, valuing the company at an estimated $1.77 trillion, marking what could be the largest initial public offering in history.",
+          "id": "sector-performance-june12",
+          "headline": "Mixed Sector Performance, AI Semiconductors Rebound",
+          "summary": "On the sector front, four out of eleven sectors of the S&P 500 finished in positive territory, while seven ended in negative territory. The Consumer Staples Select Sector SPDR ($XLP) rose 1.7% and the Energy Select Sector SPDR ($XLE) gained 1.5%. Conversely, the Information Technology Select Sector SPDR ($XLK), Industrials Select Sector SPDR ($XLI), and Materials Select Sector SPDR ($XLB) fell 2.3%, 3.4%, and 2.3% respectively. AI-powered semiconductor stocks, however, staged a strong rebound after recent losses.",
           "tags": [
-            "IPO",
-            "SpaceX",
+            "Sector Analysis",
             "Technology",
-            "Market Event"
-          ],
-          "timestamp": "2026-06-12T09:35:00Z"
+            "Energy"
+          ]
         },
         {
-          "id": "fed-inflation-focus",
-          "headline": "New Fed Chair Kevin Warsh Signals Continued Inflation Vigilance",
-          "summary": "New Federal Reserve Chair Kevin Warsh, appointed by President Donald Trump, is reportedly focused on combating inflation. Markets are keenly watching his approach to monetary policy, with expectations that the Fed will keep interest rates unchanged in the coming week but potentially leave room for future hikes.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
-          ],
-          "timestamp": "2026-06-12T13:00:00Z"
-        },
-        {
-          "id": "adobe-earnings",
-          "headline": "Adobe Beats Q2 Estimates But Shares Fall on CFO Departure News",
-          "summary": "Adobe Inc. ($ADBE) reported better-than-expected Q2 earnings with record revenue of $6.62 billion, driven by AI demand. However, the stock saw significant pressure and downgrades following news of CFO Dan Durn's departure.",
+          "id": "roots-earnings",
+          "headline": "Roots Corp. Reports Q1 Loss Despite Sales Increase",
+          "summary": "Roots Corp. announced a Q1 loss of $10.1 million, or 26 cents per share, compared to a $7.9 million loss a year prior. However, sales for the quarter increased to $42.6 million from $40.0 million year-over-year, driven by growth in both direct-to-consumer and partner channels. The company continues its strategic review, including a possible sale.",
           "tags": [
             "Earnings Report",
-            "Technology",
-            "Software"
+            "Retail"
+          ]
+        },
+        {
+          "id": "childrens-place-earnings",
+          "headline": "Children's Place (PLCE) Expected to Report Earnings",
+          "summary": "Children's Place ($PLCE) is among the major companies expected to report their earnings today, June 12, 2026. Investors are closely watching options activity for insights into potential post-earnings stock movements.",
+          "tags": [
+            "Earnings Report"
           ]
         }
       ]
