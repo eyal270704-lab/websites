@@ -1,207 +1,174 @@
 {
-  "generatedAt": "2026-06-13T09:55:00Z",
+  "generatedAt": "2026-06-13T13:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 13, 2026",
+  "subtitle": "Friday, June 13, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Geopolitical Optimism Fuels Rally",
+      "id": "market-pulse-overall-summary",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Rally on Mideast Peace Hopes and SpaceX IPO",
-          "summary": "U.S. stock indices concluded the week on a significantly positive note (June 12, 2026), driven by optimism surrounding a potential Middle East peace framework involving the U.S., Iran, and Israel, which is expected to ease geopolitical tensions. Investor sentiment also received a substantial boost from the historic debut of SpaceX's initial public offering. The 'fear index' (VIX) declined, signaling an improved risk appetite among investors.",
+          "id": "market-pulse-headline",
+          "headline": "Broad Market Ends Week Higher Amid Geopolitical Optimism and SpaceX IPO, But Underlying Caution Persists",
+          "summary": "Major U.S. indices concluded the week on a positive note, with Friday's session (June 12) seeing gains driven by optimism surrounding potential progress in a Middle East peace framework and the highly anticipated initial public offering of SpaceX. Despite the upward market movement, underlying investor sentiment, as indicated by the CNN Fear & Greed Index, remains in the 'Fear' zone, suggesting caution, while the Buffett Indicator points to elevated market valuations. Consumer sentiment showed a modest improvement in early June, rebounding from a record low, fueled by easing gasoline prices and a resilient labor market, though concerns about inflation persist.",
           "tags": [
             "Market Sentiment",
             "Geopolitics",
-            "IPO"
+            "IPO",
+            "Inflation"
           ],
-          "timestamp": "2026-06-12T20:00:00Z"
+          "timestamp": "2026-06-13T00:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Closing June 12, 2026)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,431.47",
-          "statContext": "+37.16 (+0.50%)"
+          "statContext": "Up +0.50% (+37.16 points) on Friday, June 12.",
+          "change": "+37.16",
+          "changePercent": "+0.50%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,888.84",
-          "statContext": "+79.18 (+0.31%)"
+          "statContext": "Up +0.31% (+79.18 points) on Friday, June 12.",
+          "change": "+79.18",
+          "changePercent": "+0.31%",
+          "direction": "up"
         },
         {
-          "id": "dow",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-performance",
+          "statLabel": "DOW Jones Ind. Avg.",
           "statValue": "51,207.11",
-          "statContext": "+353.04 (+0.69%)"
+          "statContext": "Up +0.69% (+353.04 points) on Friday, June 12.",
+          "change": "+353.04",
+          "changePercent": "+0.69%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Closing June 12, 2026)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "spcx-gainer",
-          "headline": "SpaceX Soars in Historic Public Debut",
-          "summary": "SpaceX ($SPCX) made its highly anticipated debut on the Nasdaq, with shares soaring and closing up 19.22% at $160.95 on its first trading day. The successful IPO reinforced confidence in equity markets.",
+          "headline": "SpaceX Soars in Public Debut",
+          "summary": "Elon Musk's rocket and satellite company, SpaceX, began public trading on NASDAQ, soaring 19.3% in its first day. Shares opened at $150 and closed at $161.11, significantly above its IPO price of $135, boosting investor confidence.",
           "ticker": "$SPCX",
-          "price": "$160.95",
-          "change": "+$25.95",
-          "changePercent": "+19.22%",
-          "direction": "up",
-          "tags": [
-            "IPO",
-            "Technology"
-          ]
+          "price": "$161.11",
+          "change": "+$26.11",
+          "changePercent": "+19.3%",
+          "direction": "up"
         },
         {
-          "id": "pwrl-gainer",
-          "headline": "Powerlaw Corp. Surges on SpaceX Hype",
-          "summary": "Powerlaw Corp. ($PWRL), a closed-end fund with SpaceX as its largest holding (approximately 19% of net assets), surged Friday pre-market, benefiting from the SpaceX IPO euphoria.",
-          "ticker": "$PWRL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "Surged",
-          "direction": "up",
-          "tags": [
-            "Fund",
-            "Technology"
-          ]
+          "id": "inhd-gainer",
+          "headline": "Inno Holdings Inc. Leads Monthly Gains",
+          "summary": "Inno Holdings Inc. has been the top-performing stock in June, showing substantial monthly gains.",
+          "ticker": "$INHD",
+          "price": "$39.49",
+          "change": "+2891.67%",
+          "changePercent": "+2891.67%",
+          "direction": "up"
         },
         {
-          "id": "alb-gainer",
-          "headline": "Albemarle Rises with Lithium Prices",
-          "summary": "Albemarle ($ALB) saw a significant gain of 7.40% as lithium prices, which had recently fallen, began to rise again.",
-          "ticker": "$ALB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.40%",
-          "direction": "up",
-          "tags": [
-            "Materials",
-            "Commodities"
-          ]
-        },
-        {
-          "id": "mos-gainer",
-          "headline": "Mosaic Company Boosted by EU Regulation Ease",
-          "summary": "Mosaic Company ($MOS) climbed 7.56% after the European Union agreed to ease regulations within the fertilizer industry.",
-          "ticker": "$MOS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.56%",
-          "direction": "up",
-          "tags": [
-            "Materials",
-            "Agriculture"
-          ]
+          "id": "stak-gainer",
+          "headline": "STAK Inc. Continues Strong Monthly Performance",
+          "summary": "STAK Inc. is among the top monthly gainers for June, reflecting strong market momentum.",
+          "ticker": "$STAK",
+          "price": "$7.72",
+          "change": "+691.79%",
+          "changePercent": "+691.79%",
+          "direction": "up"
         },
         {
           "id": "avgo-loser",
-          "headline": "Broadcom Plummets Post-Earnings",
-          "summary": "Broadcom ($AVGO) shares dropped 13% following disappointing earnings results that fell short of market expectations, impacting the broader semiconductor sector.",
+          "headline": "Broadcom Shares Plunge Post-Earnings",
+          "summary": "Broadcom's shares dropped significantly after the company reported disappointing earnings results, missing revenue expectations and impacting the broader semiconductor sector.",
           "ticker": "$AVGO",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.00%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "Earnings"
-          ]
+          "change": "-13%",
+          "changePercent": "-13%",
+          "direction": "down"
         },
         {
-          "id": "adbe-loser",
-          "headline": "Adobe Falls Amid CFO Departure News",
-          "summary": "Adobe ($ADBE) saw a notable decline of 6.8% despite reporting stronger-than-expected profit and revenue, with news of its Chief Financial Officer's departure weighing on the stock.",
-          "ticker": "$ADBE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.80%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Software"
-          ]
-        },
-        {
-          "id": "lly-loser",
-          "headline": "Eli Lilly Drops Amid Healthcare Sector Weakness",
-          "summary": "Eli Lilly ($LLY) was among several pharmaceutical stocks experiencing broad weakness, contributing to the healthcare sector's underperformance with a 2.39% drop.",
-          "ticker": "$LLY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.39%",
-          "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Pharmaceuticals"
-          ]
+          "id": "sofi-loser",
+          "headline": "SoFi Technologies Sees Significant Decline",
+          "summary": "SoFi Technologies shares plummeted nearly half their value, trading at $16.58, following a fair value analysis that indicated the stock was significantly overvalued.",
+          "ticker": "$SOFI",
+          "price": "$16.58",
+          "change": "-$15.67",
+          "changePercent": "-48.6%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Key Market News & Economic Data",
+      "id": "market-news-stories",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Sector Rotation Sees Inflows into Defensives and Basic Materials",
-          "summary": "Recent market movements indicate a shift, with Consumer Discretionary and Financials leading over the past month. For June 12, 2026, the Materials sector was the top performer, gaining 1.83%. Basic Materials, Blockchain, and Consumer Staples have attracted inflows, while the Healthcare sector faced the largest drawdown (-0.16% on June 12) and continues to lag with a year-to-date loss of -3.86%. Technology, despite strong trailing relative strength, shows signs of 'rolling over.'",
-          "tags": [
-            "Sector Analysis",
-            "Market Trends"
-          ]
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Fed Meeting Next Week: Focus on New Leadership and 'Dot Plot'",
-          "summary": "The Federal Open Market Committee (FOMC) is scheduled for June 16-17, marking new Chairman Kevin Warsh's first meeting. While markets largely anticipate a hold on interest rates, investor attention will be on the updated 'dot plot' projections for future rate paths and Warsh's initial guidance, particularly regarding accelerating inflation and labor market stability.",
+          "id": "fed-fomc-outlook",
+          "headline": "Federal Reserve's June FOMC Meeting Approaches Amidst Inflation Concerns",
+          "summary": "The Federal Reserve is set to conclude its two-day June FOMC meeting next Wednesday, June 17. While the market largely anticipates interest rates to remain unchanged, significant attention is on the monetary policy stance of new Fed Chair Kevin Warsh, especially as inflation has climbed above 4%. The Fed will also release its stress test results on June 24.",
           "tags": [
             "Federal Reserve",
             "Monetary Policy",
-            "Interest Rates"
-          ]
+            "Inflation"
+          ],
+          "timestamp": "2026-06-13T00:00:00Z"
         },
         {
-          "id": "economic-data",
-          "headline": "PPI Shows Elevated Wholesale Inflation; Consumer Sentiment Improves",
-          "summary": "The May Producer Price Index (PPI) revealed a 1.1% increase, pushing the 12-month wholesale inflation rate to 6.5%, the highest level since November 2022. Concurrently, the University of Michigan Consumer Sentiment Index for June unexpectedly rose to 48.9 (from 44.8 in May), primarily due to easing gasoline prices, although inflation concerns remain elevated.",
+          "id": "consumer-sentiment-rebound",
+          "headline": "Consumer Sentiment Improves in June, But Remains 'Dour'",
+          "summary": "The University of Michigan Consumer Sentiment Index rose to 48.9 in early June from 44.8 in May, surpassing analyst forecasts. This improvement is attributed to easing gasoline prices and a robust labor market. However, overall views of the economy are described as 'dour' due to persistent inflation concerns, despite a slight easing in one-year and five-year inflation expectations.",
           "tags": [
+            "Consumer Confidence",
             "Economic Data",
-            "Inflation",
-            "Consumer Sentiment"
-          ]
+            "Inflation"
+          ],
+          "timestamp": "2026-06-13T00:00:00Z"
         },
         {
-          "id": "oil-peace-deal",
-          "headline": "Oil Prices Ease on Hopes of US-Iran Peace Deal",
-          "summary": "Brent crude oil prices declined by 3.4% to $87.33 per barrel (June 12, 2026), deepening weekly losses, as reports indicated significant progress towards a potential US-Iran peace framework. An agreement could ease geopolitical tensions and potentially reopen the Strait of Hormuz, affecting global oil supply.",
+          "id": "sector-performance-highlights",
+          "headline": "Technology, Energy, and Basic Materials Lead Sector Gains, Healthcare Lags",
+          "summary": "Technology, Energy, and Basic Materials sectors are demonstrating strong performance, driving earnings growth and benefiting from upward earnings revisions. The Energy sector, in particular, is projected to see earnings increase by over 116%. Conversely, the healthcare sector remains a weak spot, with expected earnings contracting and estimates trending lower.",
           "tags": [
-            "Commodities",
-            "Geopolitics",
-            "Energy"
-          ]
+            "Sector Analysis",
+            "Technology",
+            "Energy",
+            "Healthcare"
+          ],
+          "timestamp": "2026-06-13T00:00:00Z"
+        },
+        {
+          "id": "key-earnings-reports",
+          "headline": "Oracle Reports Fiscal Q2 Earnings, Adobe and Broadcom Face Post-Earnings Challenges",
+          "summary": "Oracle ($ORCL) reported its fiscal May-quarter earnings. Adobe ($ADBE) beat Q2 revenue and earnings estimates, but its shares fell following news of its CFO's exit and subsequent analyst downgrades. Broadcom ($AVGO) experienced a significant 13% drop in share price after delivering disappointing earnings that missed revenue expectations.",
+          "tags": [
+            "Earnings Reports",
+            "Technology",
+            "Corporate News"
+          ],
+          "timestamp": "2026-06-13T00:00:00Z"
         }
       ]
     }
