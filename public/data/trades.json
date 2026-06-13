@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T17:39:26.748393Z",
+  "generatedAt": "2026-06-13T21:22:40.020089Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 19,
+  "tradeCount": 21,
   "trades": [
     {
       "ticker": "$APP",
@@ -180,22 +180,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$TSLA",
-      "name": "Tesla Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$391.32",
-      "entry": "$382.32",
-      "stop": "$379.00",
-      "structure": "Fibonacci Support Test",
-      "trend": "< 150MA",
-      "trendLabel": "Trend",
-      "analysis": "Tesla is currently trading below its 150-day moving average, indicating a bearish intermediate-term trend. The stock is approaching a significant Fibonacci support cluster around $379-$382, which could serve as a bounce area. Elevated relative volume suggests heightened investor activity during this pullback.",
-      "riskScore": 7,
-      "footerTag": "High Risk",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
@@ -305,6 +289,54 @@
       "riskScore": 7,
       "footerTag": "High Risk - Downtrend",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$PLTR",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Software - Infrastructure",
+      "currentPrice": "$130.92",
+      "entry": "$127.63",
+      "stop": "$122.00",
+      "structure": "Support Test",
+      "trend": "< 20MA, < 200MA",
+      "trendLabel": "Trend",
+      "analysis": "PLTR is currently trading below its key moving averages, indicating a bearish trend. The price is approaching a significant pivot support level at $127.63. A potential bounce from this level could offer a swing trade opportunity, but the overall trend remains down, making it a risky setup. Relative volume is not elevated.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "sector": "Consumer Finance",
+      "currentPrice": "$16.58",
+      "entry": "$16.44",
+      "stop": "$15.00",
+      "structure": "Fibonacci S1 / Key Support",
+      "trend": "> 20MA, < 200MA",
+      "trendLabel": "Trend",
+      "analysis": "SOFI is in a medium-term falling trend, but currently trading above its 20-day moving average and testing Fibonacci support at $16.44. A bounce from this level with confirmation of buying pressure could present a swing opportunity. Relative volume is not elevated.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$396.01",
+      "entry": "$387.00",
+      "stop": "$375.00",
+      "structure": "Support Retest",
+      "trend": "1.28x",
+      "trendLabel": "RVOL",
+      "analysis": "TSLA is currently trading below its 50-day and 200-day moving averages, but showing elevated relative volume. The price is retesting a previous day's low, which could act as a short-term support. A bounce from this level with continued elevated volume may indicate a potential short-term swing.",
+      "riskScore": 5,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
       "source": "Micha Stocks YouTube"
     }
   ]
