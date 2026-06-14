@@ -1,212 +1,156 @@
 {
-  "generatedAt": "2026-06-13T17:25:00Z",
+  "generatedAt": "2026-06-14T10:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 13, 2026: Weekend Edition Reviewing June 12, 2026 Trading Day",
-  "badge": "LATEST",
+  "subtitle": "June 14, 2026 - Market Pulse",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-jun12",
-          "headline": "U.S. Stocks Rally on Peace Hopes and Historic IPO",
-          "summary": "U.S. stock markets closed sharply higher on Friday, June 12, rebounding after two days of losses. Market sentiment was bolstered by positive developments regarding Middle East geopolitical conflicts and the highly anticipated public debut of SpaceX. The 'AI trade' also showed renewed momentum.",
+          "id": "market-overview-headline",
+          "headline": "U.S. Equities Close Higher as Investors Embrace Risk and Eye Geopolitical Developments",
+          "summary": "U.S. stock markets concluded the week with gains, as investors shifted focus past policy concerns and re-engaged with risk assets. The uplift was notably driven by renewed interest in high-growth technology and space-related companies. Optimism surrounding a potential U.S.-Iran peace agreement also contributed to improved market sentiment.",
           "tags": [
-            "Market Rebound",
-            "Geopolitics",
-            "IPO",
-            "AI"
-          ],
-          "timestamp": "2026-06-12T16:00:00Z"
+            "Market Overview",
+            "Sentiment",
+            "Risk-On"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "7,431.46",
-          "statContext": "Advanced 37.16 points, or 0.5%",
-          "ticker": "$SPX",
-          "change": "+$37.16",
-          "changePercent": "+0.5%",
-          "direction": "up"
+          "statContext": "Gained 0.50%"
         },
         {
-          "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "25,888.84",
-          "statContext": "Rose 79.18 points, or 0.3%",
-          "ticker": "$IXIC",
-          "change": "+$79.18",
-          "changePercent": "+0.3%",
-          "direction": "up"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ",
+          "statValue": "29,635.95",
+          "statContext": "Climbed 0.64%"
         },
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,202.26",
-          "statContext": "Climbed 353.51 points, or 0.7%",
-          "ticker": "$DJIA",
-          "change": "+$353.51",
-          "changePercent": "+0.7%",
-          "direction": "up"
+          "statContext": "Rose 0.70%"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "spcx-gainer",
-          "headline": "SpaceX Soars in Historic IPO Debut",
-          "summary": "Elon Musk's SpaceX ($SPCX) made its public debut, closing up 19.34% at $161.11 from its $135 IPO price, giving the company a $1.77 trillion valuation. This marked the largest initial public offering in history, signaling strong investor demand for AI-related and space-economy stocks.",
+          "id": "spacex-gainer",
+          "headline": "SpaceX Soars in Landmark IPO Debut",
           "ticker": "$SPCX",
-          "price": "$161.11",
-          "change": "+$26.11",
-          "changePercent": "+19.34%",
+          "price": "$161.00",
+          "change": "+$26.05",
+          "changePercent": "+19.22%",
           "direction": "up",
-          "tags": [
-            "IPO",
-            "AI",
-            "Aerospace"
-          ]
+          "summary": "SpaceX made its highly anticipated public debut on the Nasdaq, with shares jumping 19.22% and closing near $161. The IPO raised $75 billion, marking the largest public offering in history and valuing the company above $2 trillion."
         },
         {
-          "id": "mos-gainer",
-          "headline": "Mosaic Company Leads Materials Sector",
-          "summary": "Mosaic Company ($MOS) saw a significant gain after the European Union reportedly agreed to ease regulations across the fertilizer industry.",
-          "ticker": "$MOS",
+          "id": "goldman-sachs-gainer",
+          "headline": "Financials Show Strength",
+          "ticker": "$GS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.56%",
+          "changePercent": "+2.57%",
           "direction": "up",
-          "tags": [
-            "Materials",
-            "Agriculture"
-          ]
+          "summary": "Goldman Sachs was among the top performers, contributing to the Dow's overall gains."
         },
         {
-          "id": "alb-gainer",
-          "headline": "Albemarle Rises on Lithium Prices",
-          "summary": "Albemarle ($ALB) traded higher alongside rising lithium prices, which had seen declines in recent weeks.",
-          "ticker": "$ALB",
+          "id": "nike-loser",
+          "headline": "Nike Dips Amid Market Rally",
+          "ticker": "$NKE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.40%",
-          "direction": "up",
-          "tags": [
-            "Materials",
-            "Commodities"
-          ]
-        },
-        {
-          "id": "amd-gainer",
-          "headline": "AMD Continues Strong Performance",
-          "summary": "Advanced Micro Devices ($AMD) climbed, bolstered by a buy upgrade and strong institutional ownership, reinforcing its position as a leader in the technology sector.",
-          "ticker": "$AMD",
-          "price": "$516.15",
-          "change": "+$23.63",
-          "changePercent": "+4.6%",
-          "direction": "up",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI"
-          ]
-        },
-        {
-          "id": "adbe-loser",
-          "headline": "Adobe Slips Amid CFO Departure and Downgrades",
-          "summary": "Adobe ($ADBE) experienced a notable decline following news of its CFO Dan Durn's departure and subsequent analyst downgrades from Stifel, Wolfe Research, and Evercore ISI.",
-          "ticker": "$ADBE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.5% (after-hours)",
+          "changePercent": "-2.24%",
           "direction": "down",
-          "tags": [
-            "Software",
-            "Leadership Change"
-          ]
+          "summary": "Nike experienced a notable decline among the Dow components."
         },
         {
-          "id": "orcl-loser",
-          "headline": "Oracle Falls on AI Cloud Investment Concerns",
-          "summary": "Oracle ($ORCL) shares fell as investors questioned the significant cash cost associated with its AI cloud build-out, despite reporting strong quarterly results.",
-          "ticker": "$ORCL",
+          "id": "apple-loser",
+          "headline": "Tech Giant Sees Slight Pullback",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.5%",
+          "changePercent": "-1.52%",
           "direction": "down",
-          "tags": [
-            "Cloud Computing",
-            "AI",
-            "Enterprise Software"
-          ]
+          "summary": "Apple shares registered a decrease as other tech names saw renewed interest."
+        },
+        {
+          "id": "bitcoin-loser",
+          "headline": "Bitcoin Slips as Crypto Lags Risk-On Mood",
+          "ticker": "$BTC-USD",
+          "price": "$63,490.90",
+          "change": "-$500.26",
+          "changePercent": "-0.78%",
+          "direction": "down",
+          "summary": "Bitcoin saw a slight decline, lagging the broader risk-on sentiment in the equity markets."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-jun12",
-          "headline": "Materials and Financials Lead as Healthcare Lags",
-          "summary": "On Friday, the Materials sector was the top-performing sector, gaining 1.76%, followed by Financials with a 1.45% rise and Energy up 0.90%. Other leading sectors included Information Technology (+0.86%), Real Estate (+0.82%), Utilities (+0.82%), and Consumer Staples (+0.64%). In contrast, the Health Care sector remained flat at +0.00%, while Communication Services (+0.28%), Industrials (+0.21%), and Consumer Discretionary (+0.16%) showed more modest gains.",
+          "id": "economic-news-iran-deal",
+          "headline": "U.S.-Iran Peace Agreement Hopes Buoy Markets, Oil Prices Fall",
+          "summary": "Optimism surrounding a potential U.S.-Iran peace agreement is bolstering investor sentiment, fueled by expectations of reduced geopolitical risks and increased stability in energy markets. President Trump indicated a deal signing today, although Iran clarified the date is not yet final. Brent crude oil prices dropped 3.4%.",
           "tags": [
-            "Sector Performance",
-            "Materials",
-            "Financials",
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "consumer-sentiment-jun12",
-          "headline": "U.S. Consumer Sentiment Improves in Early June",
-          "summary": "U.S. consumer sentiment edged up in early June, with the University of Michigan's Consumer Sentiment Index rising to 48.9 from 44.8 in May. This improvement was largely attributed to easing gasoline prices, which offered some relief to households despite ongoing inflation concerns linked to the Middle East conflict.",
-          "tags": [
-            "Economic Data",
-            "Consumer Sentiment",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "producer-prices-may",
-          "headline": "May Producer Prices See Significant Yearly Jump",
-          "summary": "Producer prices in the U.S. rose 1.1% month-on-month and 6.5% year-on-year in May. This marked the fastest pace since November 2022, primarily driven by energy-related pressures stemming from the Iran conflict.",
-          "tags": [
-            "Economic Data",
-            "Producer Prices",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "iran-peace-deal-hopes",
-          "headline": "Hopes for U.S.-Iran Peace Deal Drive Oil Prices Down",
-          "summary": "Optimism surrounding a potential U.S.-Iran peace deal, which could be signed as early as Sunday, led to a notable drop in crude oil prices. Brent crude futures fell 2.9% to settle at $90.38 a barrel, while West Texas Intermediate (WTI) crude futures dropped 2.6% to $87.71 a barrel. The proposed deal includes lifting U.S. oil sanctions and Iran reopening the Strait of Hormuz.",
-          "tags": [
+            "Economic News",
             "Geopolitics",
-            "Oil Prices",
-            "Macro Trends"
+            "Oil"
+          ]
+        },
+        {
+          "id": "sector-analysis-tech-space",
+          "headline": "Technology and Space Sectors Lead Gains; Nasdaq-100 Rebalance Announced",
+          "summary": "High-growth technology and space-related names were key drivers of the market's ascent. The Nasdaq-100 Index announced its June 2026 rebalance, effective June 22, adding Astera Labs ($ALAB), CoreWeave ($CRWV), Nebius Group ($NBIS), Rocket Lab ($RKLB), and Teradyne ($TER).",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Space"
+          ]
+        },
+        {
+          "id": "macro-trends-inflation-fed",
+          "headline": "Inflation Concerns Persist Amid 'Trump Bull Market' and Fed Rate Discussions",
+          "summary": "While major indices reached new record highs in the 'Trump Bull Market,' inflation remains a serious concern for Wall Street. President Trump continues to advocate for lower interest rates, with the Federal Open Market Committee's (FOMC) current target range of 3.5% to 3.75% being above his preferred level.",
+          "tags": [
+            "Macro Trends",
+            "Inflation",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "earnings-watch",
+          "headline": "Upcoming Earnings Reports on Investor Radar",
+          "summary": "The week of June 15 will see earnings reports from several major companies, including Jabil Inc. ($JBL), CarMax, Inc. ($KMX), Accenture plc ($ACN), and The Kroger Co. ($KR). Oracle ($ORCL) reported earnings above expectations at $2.11 USD.",
+          "tags": [
+            "Earnings",
+            "Company News"
           ]
         }
       ]
