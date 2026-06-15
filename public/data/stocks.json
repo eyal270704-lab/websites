@@ -1,215 +1,185 @@
 {
-  "generatedAt": "2026-06-14T17:22:00Z",
+  "generatedAt": "2026-06-15T13:10:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 14, 2026",
-  "subtitle": "Market closes higher driven by tech and SpaceX IPO, Fed signals hawkish shift.",
+  "title": "Daily Market Digest",
+  "subtitle": "June 15, 2026: U.S.-Iran Peace Deal Fuels Global Rally",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-summary",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "pulse-item-1",
-          "headline": "U.S. Stocks End Week Higher, Driven by Tech Enthusiasm and SpaceX Debut",
-          "summary": "The U.S. stock market concluded the week on a positive note, with major indices extending gains as investors largely overlooked policy uncertainties and embraced risk-on assets. A significant catalyst was the highly anticipated public debut of SpaceX. However, the Federal Reserve's latest signals point to a potentially hawkish shift, with rate cuts appearing less imminent amid accelerating inflation. Economic data shows continued expansion, though energy costs and geopolitical tensions remain key concerns. Not financial advice.",
+          "id": "market-pulse-item-1",
+          "headline": "U.S.-Iran Peace Deal Spurs Global Market Optimism, Leading to Broad Gains",
+          "summary": "Global markets are rallying on Monday, driven by optimism surrounding a potential peace agreement between the United States and Iran. The deal, which aims to reopen the crucial Strait of Hormuz, has led to a significant drop in oil prices and a broad risk-on sentiment among investors. SpaceX's successful Nasdaq debut further amplified the positive mood. While U.S. consumer sentiment showed an upward revision for June, the upcoming Federal Reserve meeting later this week, along with lingering inflation concerns, remain key areas of focus for market participants. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Sentiment",
-            "Economy"
+            "Global Markets",
+            "Geopolitics",
+            "Oil Prices",
+            "IPO"
           ],
-          "timestamp": "2026-06-14T17:00:00Z"
+          "timestamp": "2026-06-15T13:10:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices-1",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
+          "id": "sp500-stat",
+          "ticker": "$SPX",
           "statLabel": "S&P 500",
-          "statValue": "7,431.46",
-          "statContext": "+0.50% Today, +24.34% YTD"
+          "statValue": "7524.00",
+          "statContext": "Up on peace deal hopes.",
+          "price": "$7524.00",
+          "change": "+$92.95",
+          "changePercent": "+1.25%",
+          "direction": "up"
         },
         {
-          "id": "stat-nasdaq",
-          "statLabel": "NASDAQ",
-          "statValue": "29,635.95",
-          "statContext": "+0.64% Today"
+          "id": "nasdaq-stat",
+          "ticker": "$IXIC",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26398.08",
+          "statContext": "Tech-heavy index buoyed by strong futures.",
+          "price": "$26398.08",
+          "change": "+$509.24",
+          "changePercent": "+1.97%",
+          "direction": "up"
         },
         {
-          "id": "stat-dow",
-          "statLabel": "DOW",
-          "statValue": "51,202.26",
-          "statContext": "+0.70% Today"
-        },
-        {
-          "id": "stat-treasury",
-          "statLabel": "10-Year Treasury Yield",
-          "statValue": "4.48%",
-          "statContext": "Steady amid market shifts"
+          "id": "dow-stat",
+          "ticker": "$DJI",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51688.19",
+          "statContext": "Nearing record highs amid renewed optimism.",
+          "price": "$51688.19",
+          "change": "+$485.93",
+          "changePercent": "+0.95%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers-1",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "stock-gainer-spcx",
-          "headline": "SpaceX Rockets on Debut",
-          "summary": "SpaceX made a historic public debut on Nasdaq, with shares soaring and reaching a valuation above $2 trillion, marking the largest public offering in history.",
+          "id": "spcx-gainer",
+          "headline": "SpaceX Soars on Nasdaq Debut",
+          "summary": "Space Exploration Technologies Corp. ($SPCX) saw a spectacular debut on the Nasdaq, surging 19.2% to close at $160.95 on its first day of trading, valuing the company at over $2 trillion.",
           "ticker": "$SPCX",
-          "price": "$161.00",
-          "change": "+$26.04",
-          "changePercent": "+19.22%",
-          "direction": "up",
-          "tags": [
-            "IPO",
-            "Technology"
-          ]
+          "price": "$160.95",
+          "change": "+$26.00",
+          "changePercent": "+19.20%",
+          "direction": "up"
         },
         {
-          "id": "stock-gainer-inhd",
-          "headline": "Inno Holdings Leads Monthly Gains",
-          "summary": "Inno Holdings Inc. emerged as the top-performing stock in June with a significant monthly price appreciation.",
-          "ticker": "$INHD",
-          "price": "$39.49",
-          "change": "+$38.15",
-          "changePercent": "+2891.67%",
-          "direction": "up",
-          "tags": [
-            "Basic Materials",
-            "Monthly Gainer"
-          ]
+          "id": "gs-gainer",
+          "headline": "Goldman Sachs Up as Lead Underwriter for SpaceX IPO",
+          "summary": "The Goldman Sachs Group, Inc. ($GS) rose 2.6% on Friday, benefiting from its role as lead underwriter for the record-breaking SpaceX IPO.",
+          "ticker": "$GS",
+          "price": "Not Reported",
+          "change": "+2.60%",
+          "changePercent": "+2.60%",
+          "direction": "up"
         },
         {
-          "id": "stock-gainer-roku",
-          "headline": "Roku Surges on Buyout Speculation",
-          "summary": "Roku shares skyrocketed on Friday following market rumors of a potential media company buyout.",
+          "id": "roku-gainer",
+          "headline": "Roku Jumps on Acquisition News",
+          "summary": "Roku ($ROKU) shares rose 2.84% in premarket trading following reports that Fox Corp. is acquiring the streaming platform in a cash-and-stock deal valued at approximately $22 billion.",
           "ticker": "$ROKU",
-          "price": "$85.50",
-          "change": "+$14.25",
-          "changePercent": "+20.00%",
-          "direction": "up",
-          "tags": [
-            "Media",
-            "Speculation"
-          ]
+          "price": "$147.74",
+          "change": "+$4.08",
+          "changePercent": "+2.84%",
+          "direction": "up"
         },
         {
-          "id": "stock-loser-aonc",
-          "headline": "Amer Oncology Network Shares Plummet",
-          "summary": "American Oncology Network A saw a dramatic monthly decline, potentially linked to specific corporate developments or market re-evaluation.",
-          "ticker": "$AONC",
-          "price": "$0.02",
-          "change": "-$2.38",
-          "changePercent": "-99.17%",
-          "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Significant Decline"
-          ]
+          "id": "rklb-loser",
+          "headline": "Rocket Lab Falls Post-SpaceX IPO",
+          "summary": "Rocket Lab USA, Inc. ($RKLB) experienced a decline of 10.8% on Friday, as investors engaged in profit-taking within the space sector following the massive SpaceX debut.",
+          "ticker": "$RKLB",
+          "price": "Not Reported",
+          "change": "-10.80%",
+          "changePercent": "-10.80%",
+          "direction": "down"
         },
         {
-          "id": "stock-loser-hkit",
-          "headline": "Hitek Global Drops After Offering",
-          "summary": "Hitek Global Inc. experienced a sharp monthly fall in stock price following its announcement of an $8 million registered direct offering.",
-          "ticker": "$HKIT",
-          "price": "$0.08",
-          "change": "-$0.77",
-          "changePercent": "-90.58%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Dilution Concerns"
-          ]
+          "id": "adbe-loser",
+          "headline": "Adobe Shares Dip on CFO Departure",
+          "summary": "Adobe Inc. ($ADBE) saw its shares decline by 6.8% after the company announced the exit of its CFO, Dan Durn.",
+          "ticker": "$ADBE",
+          "price": "Not Reported",
+          "change": "-6.80%",
+          "changePercent": "-6.80%",
+          "direction": "down"
         },
         {
-          "id": "stock-loser-nike",
-          "headline": "Nike Dips Among Dow Losers",
-          "summary": "Nike was among the biggest losers in the Dow Jones Industrial Average today.",
-          "ticker": "$NKE",
-          "price": "$98.25",
-          "change": "-$2.25",
-          "changePercent": "-2.24%",
-          "direction": "down",
-          "tags": [
-            "Consumer Discretionary"
-          ]
+          "id": "fox-loser",
+          "headline": "Fox Corp. Declines on Roku Acquisition Announcement",
+          "summary": "Fox Corp. ($FOX) shares fell 9.5% in premarket trading after news broke of its plan to acquire streaming platform Roku for approximately $22 billion.",
+          "ticker": "$FOX",
+          "price": "$53.33",
+          "change": "-$5.60",
+          "changePercent": "-9.50%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "market-news-1",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-article-1",
-          "headline": "Fed Signals Hawkish Pivot Amid Accelerating Inflation",
-          "summary": "The Federal Reserve's June FOMC meeting is anticipated to mark a significant policy shift, with the central bank expected to remove its easing bias. Accelerating core inflation, now running hotter than expected, and a stabilizing labor market are driving expectations for higher U.S. rates, potentially pushing rate cut forecasts into 2027.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-06-14T16:30:00Z"
-        },
-        {
-          "id": "news-article-2",
-          "headline": "AI Policy and Spending Drive Tech Sector Focus",
-          "summary": "Artificial intelligence continues to dominate market narratives, with an AI capital spending boom largely driving the S&P 500's year-to-date gains. Policy developments, including reports of the Trump administration moving to block foreign access to advanced AI models due to security concerns, highlight the increasing regulatory attention on the sector. Hyperscaler capital expenditure is projected to reach $720 billion in 2026.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Regulation",
-            "Sector Analysis"
-          ],
-          "timestamp": "2026-06-14T16:00:00Z"
-        },
-        {
-          "id": "news-article-3",
-          "headline": "Energy Market Shifts as Solar Surpasses Coal in U.S.",
-          "summary": "A significant macro signal emerged from the energy market, as solar power generated more electricity than coal in the U.S. for the first time in May. Solar supplied 12.8% of U.S. generation, topping coal's 12.2% share, despite ongoing government support for coal.",
-          "tags": [
-            "Energy",
-            "Macro Trends",
-            "Renewables"
-          ],
-          "timestamp": "2026-06-14T15:45:00Z"
-        },
-        {
-          "id": "news-article-4",
-          "headline": "Q2 Earnings Expectations High, Healthcare Sector Lags",
-          "summary": "S&P 500 companies posted strong Q1 2026 earnings growth of nearly 29%, with Q2 results potentially approaching 40%. However, the healthcare sector remains the lone contracting sector, with earnings expected to decline in Q2, while energy companies are forecasted for robust growth.",
-          "tags": [
-            "Earnings",
-            "Sector Performance",
-            "Healthcare",
-            "Energy"
-          ],
-          "timestamp": "2026-06-14T15:30:00Z"
-        },
-        {
-          "id": "news-article-5",
-          "headline": "Geopolitical Tensions Continue to Impact Oil Prices",
-          "summary": "Ongoing geopolitical factors, particularly the war in Iran and challenges in reopening the Strait of Hormuz, continue to influence oil prices and contribute to inflationary pressures.",
+          "id": "news-1",
+          "headline": "US-Iran Peace Deal Sends Oil Prices Tumbling and Boosts Risk Appetite",
+          "summary": "A significant breakthrough in U.S.-Iran relations, with a preliminary peace agreement announced to reopen the Strait of Hormuz, has dramatically impacted commodity markets. Brent crude fell by 4.9% to $83.74 a barrel, while WTI crude plunged 5.4% to $80.35, easing inflation concerns and lifting global equity markets.",
           "tags": [
             "Geopolitics",
             "Oil",
             "Inflation"
-          ],
-          "timestamp": "2026-06-14T15:15:00Z"
+          ]
+        },
+        {
+          "id": "news-2",
+          "headline": "Consumer Sentiment Improves, Fed Meeting Looms",
+          "summary": "The University of Michigan's consumer sentiment for June was revised upwards to 48.9, indicating improving consumer confidence despite lingering inflation concerns. This week, attention shifts to the Federal Reserve's FOMC meeting (June 16-17), where markets anticipate a hold on interest rates, with focus on updated economic projections and Chair Kevin Warsh's press conference.",
+          "tags": [
+            "Economic Data",
+            "Fed",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "news-3",
+          "headline": "Sector Rotations: Financials and Industrials Lead, Tech Shows Weakening Signs",
+          "summary": "Sector performance indicates a rotation, with Materials, Financials, and Utilities showing strength on Friday. Looking into the current week, Industrials and Health Care are emerging as primary overweights, while Financials are highlighted as the strongest momentum story. Conversely, the Information Technology sector is showing signs of weakening, advising caution on new exposure.",
+          "tags": [
+            "Sector Analysis",
+            "Market Trends",
+            "Technology",
+            "Financials"
+          ]
+        },
+        {
+          "id": "news-4",
+          "headline": "Key Earnings Reports This Week",
+          "summary": "The week of June 15, 2026, features earnings reports from several notable companies. Among the most anticipated are Kroger ($KR), Progressive ($PGR), Accenture ($ACN), Jabil ($JBL), CarMax ($KMX), and Dave & Busters Entertainment ($PLAY). Powerfleet ($POWW) already reported strong Q4 and full-year fiscal 2026 results, with revenue up 11% year-over-year.",
+          "tags": [
+            "Earnings Season",
+            "Company News"
+          ]
         }
       ]
     }
