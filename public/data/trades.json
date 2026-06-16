@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-16T10:59:35.575530Z",
+  "generatedAt": "2026-06-16T21:13:44.620907Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$209.26",
+      "entry": "$207.00",
+      "stop": "$189.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently trading above its long-term moving averages, including the 150-day MA at $190.97, indicating an established uptrend. The stock is showing a pullback towards its 50-day moving average, which is around $206-$207, offering a potential entry at a key support level. Volume is not notably elevated, suggesting a healthy retracement within the existing uptrend.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$404.00",
+      "entry": "$398.50",
+      "stop": "$388.00",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is currently in a falling trend channel and trading below its 20-day and 200-day moving averages, indicating bearish pressure. However, the stock is finding support at its 50-day moving average, which is around $398, and an identified technical support level at $390. This convergence of support could present a bounce opportunity despite the overall downtrend. Current volume is lower than average.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$PLTR",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Software - Infrastructure",
+      "currentPrice": "$131.23",
+      "entry": "$130.00",
+      "stop": "$122.00",
+      "structure": "Broken Support",
+      "trend": "Falling Trend",
+      "trendLabel": "Trend",
+      "analysis": "Palantir Technologies is exhibiting a strong falling trend, having recently broken down through a significant support level at $130. The stock is trading below its 20-day, 50-day, and 200-day moving averages, all signaling a bearish outlook. The current daily volume is significantly lower than its average volume, indicating a lack of buying interest. Further downside to $116 or lower is signaled by identified technical patterns.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
