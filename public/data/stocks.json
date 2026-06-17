@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-06-17T14:49:00Z",
+  "generatedAt": "2026-06-17T18:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "June 17, 2026",
+  "title": "Daily Market Digest - June 17, 2026",
+  "subtitle": "Wall Street Reacts to Fed Decision and Shifting Tech Landscape",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-june17",
-          "headline": "Wall Street Ends Mixed Amid Fed Anticipation and Oil Price Swings",
-          "summary": "U.S. equities closed mixed on Tuesday, with the Dow Jones Industrial Average hitting a new record while the S&P 500 and Nasdaq Composite pulled back as investors awaited the Federal Reserve's policy decision. Falling oil prices weighed on energy stocks, and AI-related shares experienced notable volatility.\n\nPre-market trading on Wednesday saw stock futures inching higher, with S&P 500 contracts slightly in the red and Nasdaq futures showing modest gains, as Wall Street prepared for the Fed's announcement.",
+          "id": "market-overview-1",
+          "headline": "U.S. Markets Drift Ahead of Fed Rate Decision; Dow Hits New High as Tech Sector Experiences Volatility",
+          "summary": "U.S. stocks saw mixed movements on Wednesday as investors awaited the Federal Reserve's latest monetary policy decision, the first under new Chair Kevin Warsh. The Dow Jones Industrial Average continued its positive momentum, building on a record close from Tuesday, while the S&P 500 and Nasdaq Composite experienced some choppiness, particularly influenced by fluctuating tech and AI-related stocks. Optimism stemming from an interim U.S.-Iran deal, easing global oil supply concerns, provided a backdrop for cautious trading.",
           "tags": [
             "Market Overview",
-            "Fed",
-            "Oil Prices",
-            "AI Stocks"
+            "Fed Decision",
+            "Tech Stocks"
           ]
         }
       ]
@@ -32,148 +31,134 @@
       "layout": "grid",
       "items": [
         {
-          "id": "stat-dow",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,999.67",
-          "statContext": "⬆️ +0.6% (+328.64 points), marking a new record high."
-        },
-        {
-          "id": "stat-sp500",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,511.35",
-          "statContext": "⬇️ -0.6% (previous close). Early Wednesday, it added 0.1%."
+          "statContext": "Up 0.1% early Wednesday; closed down 0.6% on Tuesday."
         },
         {
-          "id": "stat-nasdaq",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,376.34",
-          "statContext": "⬇️ -1.2% (-307.60 points). Early Wednesday, it was 0.3% higher."
+          "statContext": "Up 0.2% early Wednesday; closed down 1.2% on Tuesday."
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,999.67",
+          "statContext": "Up 0.4% early Wednesday; closed up 0.64% on Tuesday."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers-daily",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-lzb",
+          "id": "gainer-lazboy",
           "headline": "La-Z-Boy Rises on Strong Earnings",
-          "summary": "Shares of La-Z-Boy ($LZB) surged +20% after the furniture maker reported stronger-than-expected FQ4 results, with adjusted EPS rising 37% year-over-year and revenue slightly ahead of estimates. The company also announced a new $300M share repurchase program.",
           "ticker": "$LZB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+20%",
-          "direction": "up"
+          "changePercent": "+18.5%",
+          "direction": "up",
+          "summary": "Furniture retailer La-Z-Boy jumped after reporting stronger-than-expected profit and revenue for its latest quarter."
         },
         {
-          "id": "gainer-spcx",
-          "headline": "SpaceX Continues Rally, Surpasses Amazon Valuation",
-          "summary": "SpaceX ($SPCX) climbed +4.8% on Wednesday, extending its rally after announcing a $60 billion deal to acquire AI coding startup Cursor. This move helped SpaceX briefly surpass Microsoft and end the session above Amazon, becoming the fifth-most valuable U.S. company.",
+          "id": "gainer-applied-materials",
+          "headline": "Applied Materials Surges on AI Demand",
+          "ticker": "$AMAT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.4%",
+          "direction": "up",
+          "summary": "Applied Materials climbed, bolstered by strong demand for AI infrastructure, following a broader upward trend in certain AI-related stocks."
+        },
+        {
+          "id": "gainer-broadcom",
+          "headline": "Broadcom Gains Amid AI Infrastructure Demand",
+          "ticker": "$AVGO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.8%",
+          "direction": "up",
+          "summary": "Broadcom saw significant gains as investor sentiment for AI infrastructure remained strong."
+        },
+        {
+          "id": "loser-bmw",
+          "headline": "BMW Drops on Cut Profit Outlook",
+          "ticker": "$BMW",
+          "price": "$63.28",
+          "change": "N/A",
+          "changePercent": "-7%",
+          "direction": "down",
+          "summary": "BMW shares fell to a five-year low after the German automaker reduced its 2026 profit outlook, citing weakening demand in China and disruptions from the Iran conflict."
+        },
+        {
+          "id": "loser-carvana",
+          "headline": "Carvana Sinks in Early Trading",
+          "ticker": "$CVNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.7%",
+          "direction": "down",
+          "summary": "Online used car retailer Carvana experienced a notable decline in early trading."
+        },
+        {
+          "id": "loser-spacex",
+          "headline": "SpaceX Erases Early Gains, Falls After IPO Rally",
           "ticker": "$SPCX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.8%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-jbl",
-          "headline": "Jabil Jumps on Strong Q3 Results and AI Demand",
-          "summary": "Jabil ($JBL) jumped +12.4% after reporting stronger results for the latest quarter than analysts expected, with CEO Mike Dastoor highlighting 'extremely strong' AI infrastructure demand.",
-          "ticker": "$JBL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.4%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-mrvl",
-          "headline": "Marvell Technology Leads Chipmaker Pullback",
-          "summary": "Marvell Technology ($MRVL) dropped -9.78% as chipmakers pulled back after recent gains, contributing to a broader tech sector decline.",
-          "ticker": "$MRVL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.78%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-mu",
-          "headline": "Micron Technology Falls Amid Tech Sector Weakness",
-          "summary": "Micron Technology ($MU) declined -6.2%, participating in the broader tech and AI stock sell-off that weighed on the market.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.2%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-xle",
-          "headline": "Energy Sector ETF Declines with Oil Prices",
-          "summary": "The Energy Select Sector SPDR ETF ($XLE) fell -0.3% as crude oil prices plummeted following reports of a U.S.-Iran agreement.",
-          "ticker": "$XLE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "changePercent": "-2.3%",
+          "direction": "down",
+          "summary": "After an initial surge following its IPO and news of an AI startup acquisition, SpaceX shares erased early gains and dipped."
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news-digest",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-fed-meeting",
-          "headline": "Federal Reserve Concludes June Meeting, Rate Decision Expected",
-          "summary": "The Federal Reserve concludes its two-day June meeting today, with a rate decision at 2:00 p.m. ET and Chair Kevin Warsh's first press conference at 2:30 p.m. ET. Markets widely anticipate no change to the federal funds rate, currently at 3.50%-3.75%, with focus on Warsh's commentary regarding inflation and the economic outlook.",
+          "id": "fed-decision-news",
+          "headline": "Federal Reserve Holds Rates Steady at 3.5%-3.75%; Chair Warsh's First FOMC Meeting Concludes",
+          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) concluded its two-day meeting, unanimously deciding to maintain the target range for the federal funds rate at 3.5% to 3.75%. This marks the first FOMC decision under new Chair Kevin Warsh, with investors keenly analyzing his press conference for clues on future monetary policy and communication style. The committee noted economic activity is expanding at a solid pace despite elevated uncertainty from the Middle East, with inflation remaining high due to supply shocks, including energy.",
           "tags": [
-            "Federal Reserve",
+            "Fed",
             "Interest Rates",
-            "Monetary Policy"
+            "FOMC",
+            "Economic Policy"
           ]
         },
         {
-          "id": "news-oil-prices",
-          "headline": "Oil Prices Plummet on Iran Deal Optimism",
-          "summary": "Crude oil prices saw a significant drop on Tuesday, with Brent crude futures falling below $80 per barrel for the first time since March. This decline followed reports of a tentative agreement between Iran and the United States, which could allow Iran to resume oil exports and ease global supply concerns.",
-          "tags": [
-            "Oil Market",
-            "Geopolitics",
-            "Energy Prices"
-          ]
-        },
-        {
-          "id": "news-sector-rotation",
-          "headline": "Sector Rotation Sees Shift from Tech to Cyclicals",
-          "summary": "Investors exhibited a rotation out of high-valuation technology shares and into economically sensitive sectors. Financial stocks gained 1.5% and industrials advanced 0.7%, while the Information Technology sector was the weakest performer, dropping 2.3%. Healthcare and smaller-cap stocks are also showing signs of improving relative strength.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Financials",
-            "Industrials"
-          ]
-        },
-        {
-          "id": "news-earnings",
-          "headline": "Jabil Reports Strong Earnings; CarMax and Others on Deck",
-          "summary": "Jabil ($JBL) exceeded earnings expectations with adjusted EPS up 37% year-over-year. CarMax ($KMX) is projected to report earnings before Wednesday's opening bell, alongside Smith & Wesson Brands ($SWBI) and Safe Bulkers ($SB).",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "news-retail-sales",
-          "headline": "May Retail Sales Show Solid Growth",
-          "summary": "May retail sales rose 0.9% month-on-month, surpassing analyst expectations. Even excluding vehicles and gasoline, retail sales showed solid growth, indicating resilient consumer spending.",
+          "id": "economic-data-news",
+          "headline": "Strong Retail Sales Data Underscores Consumer Resilience",
+          "summary": "U.S. retail sales recorded a robust 0.9% month-on-month increase in May, surpassing economist expectations and marking the fourth consecutive month of growth. This data suggests a resilient consumer base supporting the economy despite elevated inflation.",
           "tags": [
             "Economic Data",
-            "Retail",
+            "Retail Sales",
             "Consumer Spending"
           ]
+        },
+        {
+          "id": "oil-prices-news",
+          "headline": "Oil Prices Stabilize as U.S.-Iran Deal Eases Supply Concerns",
+          "summary": "Oil prices experienced fluctuations but generally stabilized after sharp declines, driven by optimism over an interim agreement between the U.S. and Iran to end their conflict and potentially reopen the Strait of Hormuz. Brent crude, for instance, saw an early Wednesday rise of 0.7% to $79.53, following its dip below $80 a barrel on Tuesday amidst easing supply fears.",
+          "tags": [
+            "Commodities",
+            "Oil Prices",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "earnings-reports-news",
+          "headline": "CarMax Reports Q1 Earnings; Jabil Exceeds Expectations",
+          "summary": "CarMax ($KMX) reported its first-quarter fiscal 2027 results, with net revenues increasing by 6.2% to $8.0 billion. Diluted earnings per share came in at $1.31, slightly below $1.38 a year ago. Meanwhile, Jabil ($JBL) exceeded analyst expectations in its latest quarter, partly due to strong AI infrastructure demand."
         }
       ]
     }
