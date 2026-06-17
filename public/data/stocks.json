@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T11:45:00Z",
+  "generatedAt": "2026-06-17T14:49:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -7,147 +7,148 @@
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Wall Street Sees Mixed Trading: Dow Reaches Record High, While Nasdaq and S&P 500 Decline Ahead of Fed Decision",
-          "summary": "U.S. equities closed mixed on Tuesday, with the Dow Jones Industrial Average extending its record-setting rally, while the tech-heavy Nasdaq Composite and S&P 500 pulled back. Investors engaged in sector rotation, shifting out of technology stocks into more economically sensitive sectors. Oil prices experienced a significant decline amid growing optimism regarding a potential U.S.-Iran peace agreement and the easing of supply concerns. All eyes are now on the Federal Reserve's policy announcement later today.",
+          "id": "market-summary-june17",
+          "headline": "Wall Street Ends Mixed Amid Fed Anticipation and Oil Price Swings",
+          "summary": "U.S. equities closed mixed on Tuesday, with the Dow Jones Industrial Average hitting a new record while the S&P 500 and Nasdaq Composite pulled back as investors awaited the Federal Reserve's policy decision. Falling oil prices weighed on energy stocks, and AI-related shares experienced notable volatility.\n\nPre-market trading on Wednesday saw stock futures inching higher, with S&P 500 contracts slightly in the red and Nasdaq futures showing modest gains, as Wall Street prepared for the Fed's announcement.",
           "tags": [
             "Market Overview",
-            "Fed Meeting",
-            "Oil Prices"
+            "Fed",
+            "Oil Prices",
+            "AI Stocks"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,511.35",
-          "statContext": "Down 0.6% (or 42.94 points). Futures slipped slightly in early trading."
-        },
-        {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,376.34",
-          "statContext": "Down 1.2% (or 307.60 points). Futures edged higher in premarket."
-        },
-        {
-          "id": "dow-performance",
+          "id": "stat-dow",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,999.67",
-          "statContext": "Up 0.6% (or 328.64 points), setting a new record high. Futures saw a slight decline in premarket."
+          "statContext": "⬆️ +0.6% (+328.64 points), marking a new record high."
+        },
+        {
+          "id": "stat-sp500",
+          "statLabel": "S&P 500",
+          "statValue": "7,511.35",
+          "statContext": "⬇️ -0.6% (previous close). Early Wednesday, it added 0.1%."
+        },
+        {
+          "id": "stat-nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,376.34",
+          "statContext": "⬇️ -1.2% (-307.60 points). Early Wednesday, it was 0.3% higher."
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-spacex",
-          "headline": "SpaceX Rallies on Acquisition News",
+          "id": "gainer-lzb",
+          "headline": "La-Z-Boy Rises on Strong Earnings",
+          "summary": "Shares of La-Z-Boy ($LZB) surged +20% after the furniture maker reported stronger-than-expected FQ4 results, with adjusted EPS rising 37% year-over-year and revenue slightly ahead of estimates. The company also announced a new $300M share repurchase program.",
+          "ticker": "$LZB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+20%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-spcx",
+          "headline": "SpaceX Continues Rally, Surpasses Amazon Valuation",
+          "summary": "SpaceX ($SPCX) climbed +4.8% on Wednesday, extending its rally after announcing a $60 billion deal to acquire AI coding startup Cursor. This move helped SpaceX briefly surpass Microsoft and end the session above Amazon, becoming the fifth-most valuable U.S. company.",
           "ticker": "$SPCX",
           "price": "N/A",
-          "change": "+4.8%",
+          "change": "N/A",
           "changePercent": "+4.8%",
-          "direction": "up",
-          "summary": "SpaceX rose for its third consecutive session since its U.S. stock market debut, gaining 4.8% after announcing it is moving forward with the acquisition of AI coding assistant Cursor."
+          "direction": "up"
         },
         {
-          "id": "gainer-honeywell-aerospace",
-          "headline": "Honeywell Aerospace Surges on Director Appointment",
-          "ticker": "$HONA.V",
+          "id": "gainer-jbl",
+          "headline": "Jabil Jumps on Strong Q3 Results and AI Demand",
+          "summary": "Jabil ($JBL) jumped +12.4% after reporting stronger results for the latest quarter than analysts expected, with CEO Mike Dastoor highlighting 'extremely strong' AI infrastructure demand.",
+          "ticker": "$JBL",
           "price": "N/A",
-          "change": "+34.98%",
-          "changePercent": "+34.98%",
-          "direction": "up",
-          "summary": "Honeywell Aerospace surged after appointing AT&T CFO Pascal Desroches as an independent director and audit chair."
+          "change": "N/A",
+          "changePercent": "+12.4%",
+          "direction": "up"
         },
         {
-          "id": "gainer-coreweave",
-          "headline": "CoreWeave Jumps on Strong Performance Commentary",
-          "ticker": "$CRWV",
-          "price": "N/A",
-          "change": "+9.67%",
-          "changePercent": "+9.67%",
-          "direction": "up",
-          "summary": "CoreWeave saw a significant jump following commentary from Cantor Fitzgerald highlighting strong backlog and MLPerf benchmark performance."
-        },
-        {
-          "id": "loser-marvell-tech",
+          "id": "loser-mrvl",
           "headline": "Marvell Technology Leads Chipmaker Pullback",
+          "summary": "Marvell Technology ($MRVL) dropped -9.78% as chipmakers pulled back after recent gains, contributing to a broader tech sector decline.",
           "ticker": "$MRVL",
           "price": "N/A",
-          "change": "-9.78%",
+          "change": "N/A",
           "changePercent": "-9.78%",
-          "direction": "down",
-          "summary": "Marvell Technology fell as chipmakers broadly pulled back after recent gains, contributing to the broader tech sector decline."
+          "direction": "down"
         },
         {
-          "id": "loser-micron-tech",
-          "headline": "Micron Technology Drops Amid Tech Weakness",
+          "id": "loser-mu",
+          "headline": "Micron Technology Falls Amid Tech Sector Weakness",
+          "summary": "Micron Technology ($MU) declined -6.2%, participating in the broader tech and AI stock sell-off that weighed on the market.",
           "ticker": "$MU",
           "price": "N/A",
-          "change": "-6.2%",
+          "change": "N/A",
           "changePercent": "-6.2%",
-          "direction": "down",
-          "summary": "Micron Technology experienced a 6.2% drop, joining other influential tech stocks weighing on the S&P 500."
+          "direction": "down"
         },
         {
-          "id": "loser-olin",
-          "headline": "Olin Falls After Acquisition Announcement",
-          "ticker": "$OLN",
+          "id": "loser-xle",
+          "headline": "Energy Sector ETF Declines with Oil Prices",
+          "summary": "The Energy Select Sector SPDR ETF ($XLE) fell -0.3% as crude oil prices plummeted following reports of a U.S.-Iran agreement.",
+          "ticker": "$XLE",
           "price": "N/A",
-          "change": "-5.9%",
-          "changePercent": "-5.9%",
-          "direction": "down",
-          "summary": "Chemical producer Olin declined after announcing a $2.43 billion all-stock acquisition of Huntsman."
+          "change": "N/A",
+          "changePercent": "-0.3%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-june-17",
-          "headline": "Federal Reserve Poised to Hold Rates Steady Amidst Policy Meeting Conclusion",
-          "summary": "The Federal Reserve is expected to conclude its two-day June meeting today, widely anticipated to keep the federal funds rate unchanged within the 3.50%-3.75% range. Investors are keenly awaiting new Fed Chair Kevin Warsh's first press conference for insights into future rate trajectory and potential shifts in the central bank's communication strategy.",
+          "id": "news-fed-meeting",
+          "headline": "Federal Reserve Concludes June Meeting, Rate Decision Expected",
+          "summary": "The Federal Reserve concludes its two-day June meeting today, with a rate decision at 2:00 p.m. ET and Chair Kevin Warsh's first press conference at 2:30 p.m. ET. Markets widely anticipate no change to the federal funds rate, currently at 3.50%-3.75%, with focus on Warsh's commentary regarding inflation and the economic outlook.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Economic Policy"
+            "Monetary Policy"
           ]
         },
         {
-          "id": "oil-prices-fall",
-          "headline": "Oil Prices Tumble Below $80 on U.S.-Iran Peace Hopes",
-          "summary": "Crude oil prices plummeted on Tuesday, with Brent crude falling below $80 per barrel for the first time since March. The decline was attributed to growing optimism surrounding a preliminary U.S.-Iran peace agreement, which could ease concerns about global oil supply disruptions, particularly from the Strait of Hormuz.",
+          "id": "news-oil-prices",
+          "headline": "Oil Prices Plummet on Iran Deal Optimism",
+          "summary": "Crude oil prices saw a significant drop on Tuesday, with Brent crude futures falling below $80 per barrel for the first time since March. This decline followed reports of a tentative agreement between Iran and the United States, which could allow Iran to resume oil exports and ease global supply concerns.",
           "tags": [
             "Oil Market",
             "Geopolitics",
-            "Commodities"
+            "Energy Prices"
           ]
         },
         {
-          "id": "sector-rotation-tech-out",
-          "headline": "Technology Sector Lagging as Investors Rotate into Cyclical Stocks",
-          "summary": "Wall Street saw a notable sector rotation, with investors selling off richly valued technology shares, making Technology the weakest-performing sector, down 2.3%. Conversely, economically sensitive sectors such as Financials (+1.5%) and Industrials (+0.7%) were among the leading gainers.",
+          "id": "news-sector-rotation",
+          "headline": "Sector Rotation Sees Shift from Tech to Cyclicals",
+          "summary": "Investors exhibited a rotation out of high-valuation technology shares and into economically sensitive sectors. Financial stocks gained 1.5% and industrials advanced 0.7%, while the Information Technology sector was the weakest performer, dropping 2.3%. Healthcare and smaller-cap stocks are also showing signs of improving relative strength.",
           "tags": [
             "Sector Analysis",
             "Technology",
@@ -156,23 +157,22 @@
           ]
         },
         {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data on Deck: Retail Sales Today, PCE & GDP Next Week",
-          "summary": "Today's economic calendar includes the release of Advance Retail Sales data. Looking ahead, markets are anticipating the May Personal Consumption Expenditures (PCE) inflation and the final Q1 2026 GDP estimates, both scheduled for release on June 25. U.S. industrial production in May increased by a modest 0.1%.",
+          "id": "news-earnings",
+          "headline": "Jabil Reports Strong Earnings; CarMax and Others on Deck",
+          "summary": "Jabil ($JBL) exceeded earnings expectations with adjusted EPS up 37% year-over-year. CarMax ($KMX) is projected to report earnings before Wednesday's opening bell, alongside Smith & Wesson Brands ($SWBI) and Safe Bulkers ($SB).",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "GDP",
-            "Retail Sales"
+            "Earnings Reports",
+            "Corporate News"
           ]
         },
         {
-          "id": "earnings-reports-june17",
-          "headline": "CarMax, Jabil, and Smith & Wesson Among Companies Reporting Earnings Today",
-          "summary": "Several major companies are scheduled to report their quarterly earnings today, June 17, including CarMax ($KMX), Jabil ($JBL), and Smith & Wesson Brands ($SWBI). Powerfleet ($AIOT) also held its Q4 earnings call, signaling a focus on fiscal year 2027 growth and margin expansion.",
+          "id": "news-retail-sales",
+          "headline": "May Retail Sales Show Solid Growth",
+          "summary": "May retail sales rose 0.9% month-on-month, surpassing analyst expectations. Even excluding vehicles and gasoline, retail sales showed solid growth, indicating resilient consumer spending.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Economic Data",
+            "Retail",
+            "Consumer Spending"
           ]
         }
       ]
