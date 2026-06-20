@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-19T10:48:32.592945Z",
+  "generatedAt": "2026-06-20T12:03:43.659308Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 4,
+  "tradeCount": 6,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,22 +18,6 @@
       "footerTag": "Accumulation",
       "setupType": "risky",
       "source": "Watchlist"
-    },
-    {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "currentPrice": "$210.69",
-      "entry": "$210.71",
-      "stop": "$196.00",
-      "structure": "0.618 Fib Retracement",
-      "trend": "> 150MA",
-      "trendLabel": "Trend",
-      "analysis": "NVDA is pulling back to its 0.618 Fibonacci retracement level at $210.71 after a strong rally. The price is currently above its 150-day moving average, indicating a bullish long-term trend. Relative volume is elevated, suggesting increased interest. A rebound from this Golden Zone could signal a continuation of the uptrend.",
-      "riskScore": 4,
-      "footerTag": "Accumulation",
-      "setupType": "momentum",
-      "source": "Micha Stocks YouTube"
     },
     {
       "ticker": "$AVGO",
@@ -64,6 +48,54 @@
       "analysis": "Palantir is in a short-term bearish trend, trading below its 20-day and 150-day moving averages. Price has broken below key support and is approaching the $120 region and its 52-week low. While relative volume is elevated, this setup is considered risky given the strong bearish momentum. An entry at $125.00 would be a speculative bounce play off potential support near the 52-week low.",
       "riskScore": 8,
       "footerTag": "High Risk",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$210.69",
+      "entry": "$200.00",
+      "stop": "$190.00",
+      "structure": "0.5 Fib Retest",
+      "trend": "> 150MA, > 20MA, RVOL 1.44x",
+      "trendLabel": "Trend & Volume",
+      "analysis": "NVDA is currently trading above its 20-day and 150-day moving averages, indicating a bullish trend. The stock recently found support at the 0.5 Fibonacci retracement level around $200, which aligns with previous buying interest. Relative volume is elevated at 1.44x, suggesting strong current interest. Entry at the 0.5 Fib retest offers a good risk/reward for continuation.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$298.01",
+      "entry": "$292.40",
+      "stop": "$285.00",
+      "structure": "0.5 Fib Retracement",
+      "trend": "> 150MA, < 20MA, RVOL 1.53x",
+      "trendLabel": "Trend & Volume",
+      "analysis": "AAPL is in a long-term uptrend, trading above its 150-day moving average, but recently fell below its 20-day MA, indicating short-term weakness. Current relative volume is strong at 1.53x. A potential entry exists on a pullback to the 0.5 Fibonacci retracement level of the move from the 52-week high to the 200-day MA, around $292.40, which could serve as a bounce area.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$400.49",
+      "entry": "$393.80",
+      "stop": "$368.00",
+      "structure": "0.5 Fib Retracement",
+      "trend": "< 200MA, < 20MA, RVOL 1.12x",
+      "trendLabel": "Trend & Volume",
+      "analysis": "TSLA is currently trading below its 20-day and 200-day moving averages, indicating a bearish short and long-term trend. However, relative volume is elevated at 1.12x. A potential swing trade entry could be found on a retest of the 0.5 Fibonacci retracement level around $393.80, looking for a bounce from this historical support area. The stock has shown accumulation tendencies in the past despite bearish trends.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Downtrend",
       "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
