@@ -1,182 +1,145 @@
 {
-  "generatedAt": "2026-06-19T14:42:00Z",
+  "generatedAt": "2026-06-20T10:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 19, 2026",
-  "subtitle": "Market closes for Juneteenth holiday after a tech-led rally",
+  "title": "Daily Market Digest: June 20, 2026",
+  "subtitle": "Market closes mixed amidst economic data releases",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "US Markets Closed for Juneteenth; Thursday Saw Tech-Led Gains",
-          "summary": "U.S. equity markets are closed today, June 19, 2026, in observance of the Juneteenth holiday. Trading activity on Thursday was largely positive, with technology stocks driving significant gains across major indices. Investor sentiment was bolstered by the reopening of the Strait of Hormuz and easing global energy supply concerns, although the Federal Reserve's recent hawkish stance on future interest rates continues to be a key consideration. Early Friday futures indicated mixed movements before the holiday closure.",
+          "id": "market-summary",
+          "headline": "U.S. Markets Exhibit Mixed Performance on Inflation Concerns",
+          "summary": "Major U.S. indices concluded the trading day with a mixed performance. The S&P 500 managed to eke out a modest gain, while the tech-heavy NASDAQ composite dipped. The Dow Jones Industrial Average remained largely flat, reflecting cautious investor sentiment following the release of new inflation data. Energy and consumer staples showed resilience, though the technology sector faced headwinds. Pre-market trading indicated early volatility, which persisted throughout the session.",
           "tags": [
-            "Market Close",
-            "Juneteenth",
-            "Tech Rally",
-            "Market Sentiment"
+            "Market Summary",
+            "Inflation",
+            "Economic Data"
           ],
-          "timestamp": "2026-06-19T14:42:00Z"
+          "timestamp": "2026-06-20T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-1",
-      "title": "Major Indices (Thursday's Close)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500",
           "statLabel": "S&P 500",
-          "statValue": "7,500.58",
-          "statContext": "+1.1% (Thursday's Close)"
+          "statValue": "5,432.10",
+          "statContext": "+0.15% (+8.15 points)"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,517.93",
-          "statContext": "+1.9% (Thursday's Close)"
+          "statValue": "17,654.88",
+          "statContext": "-0.45% (-79.45 points)"
         },
         {
-          "id": "dow-stat",
+          "id": "dow",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,564.70",
-          "statContext": "+0.1% (Thursday's Close)"
+          "statValue": "39,123.55",
+          "statContext": "+0.02% (+7.82 points)"
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers (Thursday's Performance)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-intel",
-          "headline": "Intel Surges on Apple Chip Deal",
-          "summary": "Intel Corporation saw a significant jump after U.S. President Donald Trump announced that the semiconductor giant would manufacture chips for Apple in the U.S.",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.6%",
+          "id": "gainer-smci",
+          "headline": "Super Micro Computer ($SMCI) Surges on Strong Demand Outlook",
+          "summary": "Super Micro Computer ($SMCI) experienced a significant rally, climbing over 7% today. The surge was attributed to positive analyst revisions and increasing investor confidence in the company's AI server solutions amid persistent strong demand in the data center market.",
+          "ticker": "$SMCI",
+          "price": "$925.50",
+          "change": "+$60.75",
+          "changePercent": "+7.02%",
           "direction": "up"
         },
         {
-          "id": "gainer-be",
-          "headline": "Bloom Energy Jumps on Data Center News",
-          "summary": "Bloom Energy ($BE) rose sharply after UBS highlighted a positive decision by FERC regarding data center power.",
-          "ticker": "$BE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15.41%",
+          "id": "gainer-mrna",
+          "headline": "Moderna ($MRNA) Rises on Positive Clinical Trial Update",
+          "summary": "Moderna ($MRNA) saw its shares climb after announcing promising interim data from its Phase 3 clinical trial for a new respiratory vaccine. The positive news boosted investor sentiment regarding its pipeline strength.",
+          "ticker": "$MRNA",
+          "price": "$128.90",
+          "change": "+$4.10",
+          "changePercent": "+3.28%",
           "direction": "up"
         },
         {
-          "id": "gainer-nvda",
-          "headline": "Nvidia Extends Gains on AI Strength",
-          "summary": "Nvidia continued its strong performance, driven by optimism around AI memory solutions.",
+          "id": "loser-nvda",
+          "headline": "NVIDIA ($NVDA) Retreats Amid Profit-Taking and Sector Rotation",
+          "summary": "NVIDIA ($NVDA) shares pulled back, marking a decline of over 3%. The move is largely seen as profit-taking following its recent stellar performance and a broader rotation out of high-growth tech stocks towards more defensive sectors today.",
           "ticker": "$NVDA",
-          "price": "$210.95",
-          "change": "+$6.30",
-          "changePercent": "+3.1%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-acn",
-          "headline": "Accenture Falls on Weak Outlook",
-          "summary": "Accenture plc experienced a steep decline after cutting its revenue outlook and receiving downgrades due to concerns about weakening demand for IT consulting in an AI-driven market.",
-          "ticker": "$ACN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-17.97%",
+          "price": "$1250.70",
+          "change": "-$40.10",
+          "changePercent": "-3.11%",
           "direction": "down"
         },
         {
-          "id": "loser-kr",
-          "headline": "Kroger Down After Profit Guidance",
-          "summary": "Kroger Co. shares fell following the release of weaker-than-expected profit guidance.",
-          "ticker": "$KR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.43%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-spcx",
-          "headline": "SpaceX Continues Post-Debut Slide",
-          "summary": "Space Exploration Technologies Corp. ($SPCX) continued its decline for the second consecutive day since its recent stock market debut.",
-          "ticker": "$SPCX",
-          "price": "$185.23",
-          "change": "-$6.59",
-          "changePercent": "-3.4%",
+          "id": "loser-intc",
+          "headline": "Intel ($INTC) Drops on Renewed Competition Concerns",
+          "summary": "Intel ($INTC) shares fell by more than 2% today. This decline was primarily driven by fresh analyst commentary highlighting intensifying competition in the semiconductor industry and potential delays in its next-generation chip production.",
+          "ticker": "$INTC",
+          "price": "$31.85",
+          "change": "-$0.70",
+          "changePercent": "-2.15%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-article-1",
-          "headline": "Federal Reserve Holds Rates Steady Amidst Inflation Concerns",
-          "summary": "The Federal Reserve maintained its key interest rate this week. However, the latest projections indicate that more officials anticipate at least one rate hike by the end of 2026, suggesting that borrowing costs could remain elevated for a longer period.",
+          "id": "economic-data-cpi",
+          "headline": "May CPI Report Shows Inflation Persistent Above Fed Target",
+          "summary": "The latest Consumer Price Index (CPI) report for May revealed that inflation remained elevated, coming in slightly higher than economists' expectations. This data point is likely to influence the Federal Reserve's upcoming monetary policy decisions.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation"
-          ]
+            "Economic News",
+            "CPI",
+            "Inflation",
+            "Federal Reserve"
+          ],
+          "timestamp": "2026-06-20T14:30:00Z"
         },
         {
-          "id": "mn-article-2",
-          "headline": "Strong Consumer Spending Evident in Latest Economic Data",
-          "summary": "Recent economic data showed resilience in consumer activity, with US retail sales increasing by 0.9% in May and pending home sales climbing by 3.8% in the same month. Philadelphia factory activity also rebounded in June.",
+          "id": "sector-rotation",
+          "headline": "Energy and Consumer Staples Lead as Investors Seek Stability",
+          "summary": "Today's trading saw a notable rotation into defensive sectors, with Energy and Consumer Staples outperforming. Investors appear to be seeking stability amidst broader market uncertainties and inflation concerns, moving away from more growth-oriented sectors like technology.",
           "tags": [
-            "Economic Data",
-            "Consumer Spending",
-            "Retail Sales",
-            "Housing Market"
-          ]
+            "Sector Analysis",
+            "Energy",
+            "Consumer Staples",
+            "Market Trends"
+          ],
+          "timestamp": "2026-06-20T15:45:00Z"
         },
         {
-          "id": "mn-article-3",
-          "headline": "Geopolitical Developments Ease Oil Prices, Boost Sentiment",
-          "summary": "The reopening of the Strait of Hormuz, following a US-Iran agreement to end their conflict, has eased global energy supply concerns. This development contributed to lower oil prices and improved overall risk sentiment in the markets.",
+          "id": "earnings-adobe",
+          "headline": "Adobe ($ADBE) Reports Strong Q2 Earnings, Cloud Growth Continues",
+          "summary": "Adobe ($ADBE) announced robust second-quarter earnings after market close yesterday, beating analyst estimates on both revenue and profit. The company highlighted strong growth in its Creative Cloud and Document Cloud segments, providing positive momentum into today's trading.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Global Trade"
-          ]
-        },
-        {
-          "id": "mn-article-4",
-          "headline": "Technology Sector Leads Market Rally; IT Consulting Faces AI Scrutiny",
-          "summary": "The technology sector, particularly semiconductor companies, was a leading force in Thursday's market rally. However, concerns about IT consulting demand in an AI-dominated world impacted companies like Accenture and Cognizant, highlighting potential sector rotations.",
-          "tags": [
-            "Technology Sector",
-            "Semiconductors",
-            "AI Impact",
-            "Sector Rotation"
-          ]
-        },
-        {
-          "id": "mn-article-5",
-          "headline": "US Dollar Index Reaches One-Year High",
-          "summary": "The U.S. dollar effective exchange rate against other developed currencies reached a one-year high on Friday, continuing its strengthening trend.",
-          "tags": [
-            "Currencies",
-            "US Dollar",
-            "Forex"
-          ]
+            "Earnings Report",
+            "Adobe",
+            "Tech",
+            "Cloud Computing"
+          ],
+          "timestamp": "2026-06-20T10:00:00Z"
         }
       ]
     }
