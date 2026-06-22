@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T16:27:00Z",
+  "generatedAt": "2026-06-22T19:33:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest - June 22, 2026",
-  "subtitle": "A professional overview of today's market movements and key financial news. Not financial advice.",
+  "title": "Daily Market Digest: June 22, 2026",
+  "subtitle": "Market closes mixed amidst geopolitical developments and Fed rate hike concerns",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,16 @@
       "layout": "featured",
       "items": [
         {
-          "id": "overall-market-summary",
-          "headline": "U.S. Equities Mixed as Investors Weigh Geopolitical Progress and Fed Outlook",
-          "summary": "U.S. stock markets are mixed to start the week on Monday, June 22, 2026, as Wall Street assesses progress in U.S.-Iran peace talks, which eased oil prices and inflation concerns, while also bracing for upcoming economic data and expectations of potential Fed rate hikes. Tech and discretionary stocks were strong performers in the prior trading session, but the Nasdaq saw some weakness today. The CBOE Volatility Index (VIX) decreased 9% to 16.78.",
+          "id": "market-summary-june22",
+          "headline": "U.S. Stocks Exhibit Mixed Performance on Monday, Driven by Tech Gains and Geopolitical Optimism",
+          "summary": "U.S. equities saw a mixed performance today, with major indices showing modest movements. Optimism surrounding a potential U.S.-Iran peace agreement and continued strong demand for artificial intelligence (AI) in the semiconductor sector provided underlying support. However, investor sentiment was tempered by lingering concerns over future Federal Reserve interest rate hikes. Oil prices experienced a notable decline amidst the diplomatic progress, while key economic data points, including jobless claims and GDP projections, offered a clearer picture of the economic landscape. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Market Summary",
+            "AI Rally",
             "Geopolitics",
-            "Inflation",
-            "Fed Policy"
+            "Fed Outlook"
           ],
-          "timestamp": "2026-06-22T16:27:00Z"
+          "timestamp": "2026-06-22T19:33:00Z"
         }
       ]
     },
@@ -35,20 +35,20 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,507.00",
-          "statContext": "+0.09% on Monday. (Closed Thursday at 7,500.58, +1.1%)"
+          "statValue": "7,524.35",
+          "statContext": "+23.77 (+0.32%)"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,243.00",
-          "statContext": "-1.03% on Monday. (Closed Thursday at 26,517.93, +1.9%)"
+          "statLabel": "NASDAQ",
+          "statValue": "26,515.06",
+          "statContext": "-1.52 (-0.01%)"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "51,705.00",
-          "statContext": "+140 points (+0.44%) on Monday. (Closed Thursday at 51,564.7, +0.1%)"
+          "statLabel": "DOW",
+          "statValue": "51,826.08",
+          "statContext": "+261.38 (+0.51%)"
         }
       ]
     },
@@ -59,81 +59,64 @@
       "layout": "grid",
       "items": [
         {
-          "id": "apge-gainer",
+          "id": "gainer-apge",
           "headline": "Apogee Therapeutics Soars on Acquisition News",
-          "summary": "Apogee Therapeutics ($APGE) soared 47% in premarket trading following an announcement that AbbVie ($ABBV) is acquiring the immunology drug developer in a $10.9 billion all-cash deal.",
-          "tags": [
-            "Biotech",
-            "M&A",
-            "Top Gainer"
-          ],
           "ticker": "$APGE",
+          "price": "$132.66",
+          "change": "+$42.26",
+          "changePercent": "+46.74%",
+          "direction": "up",
+          "summary": "Shares of Apogee Therapeutics ($APGE) jumped significantly after AbbVie announced plans to acquire the biotech company for $10.9 billion in cash."
+        },
+        {
+          "id": "gainer-dftx",
+          "headline": "Definium Therapeutics Leads Biotech Surge",
+          "ticker": "$DFTX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+47.0%",
-          "direction": "up"
+          "changePercent": "+55.35%",
+          "direction": "up",
+          "summary": "Definium Therapeutics was reported as a top mover among equities with at least a $2 billion market cap, contributing to a strong day for the biotech sector."
         },
         {
-          "id": "intc-gainer",
-          "headline": "Intel Jumps as Semiconductor Rally Continues",
-          "summary": "Intel Corporation ($INTC) surged 10.6% to a record high, sparking gains across the semiconductor industry amid optimism for AI demand and future investment in chip technologies.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI",
-            "Top Gainer"
-          ],
-          "ticker": "$INTC",
+          "id": "gainer-smci",
+          "headline": "Super Micro Continues Strong Performance",
+          "ticker": "$SMCI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.6%",
-          "direction": "up"
+          "changePercent": "+15.5%",
+          "direction": "up",
+          "summary": "Super Micro Computer ($SMCI) continued to lead the S&P 500's positive movers, reflecting ongoing strength in technology."
         },
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Gains Ahead of Earnings",
-          "summary": "Micron Technology ($MU) gained 4.3% in premarket trading and closed +8.7% on Thursday, ahead of its closely watched earnings report scheduled for Wednesday. Analysts raised price targets citing strong demand for DRAM fueled by AI infrastructure.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "Earnings",
-            "Top Gainer"
-          ],
-          "ticker": "$MU",
-          "price": "$1,133.99",
-          "change": "N/A",
-          "changePercent": "+8.70%",
-          "direction": "up"
-        },
-        {
-          "id": "spcx-loser",
-          "headline": "SpaceX Slips for Third Straight Day Post-IPO",
-          "summary": "Elon Musk's SpaceX ($SPCX) is heading for its third straight day of losses, falling nearly 5% to $175.96 in premarket trading as post-debut volatility continues to grip the stock following its blockbuster IPO on June 12.",
-          "tags": [
-            "Aerospace",
-            "IPO",
-            "Top Loser"
-          ],
+          "id": "loser-spcx",
+          "headline": "SpaceX Declines After Bond Offering",
           "ticker": "$SPCX",
-          "price": "$175.96",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.0%",
-          "direction": "down"
+          "changePercent": "-10.7%",
+          "direction": "down",
+          "summary": "Space Exploration Technologies Corp. ($SPCX) shares fell after the company announced a new bond offering."
         },
         {
-          "id": "agi-loser",
-          "headline": "Alamos Gold Tumbles in Premarket Trade",
-          "summary": "Alamos Gold ($AGI) tumbled 12.3% in premarket trading. This move comes as weakness continues in rate-sensitive sectors.",
-          "tags": [
-            "Mining",
-            "Gold",
-            "Top Loser"
-          ],
+          "id": "loser-alamosgold",
+          "headline": "Alamos Gold Hit by Retreat in Precious Metals",
           "ticker": "$AGI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.3%",
-          "direction": "down"
+          "changePercent": "-13.72%",
+          "direction": "down",
+          "summary": "Alamos Gold experienced a significant decline, making it one of the worst performers among companies with a market cap of at least $2 billion, as gold spot prices retreated."
+        },
+        {
+          "id": "loser-moderna",
+          "headline": "Moderna Faces Steep Declines in Trading",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.54%",
+          "direction": "down",
+          "summary": "Moderna shares faced steep declines, making it one of the hardest hit in the S&P 500 today."
         }
       ]
     },
@@ -144,72 +127,60 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Technology and Consumer Discretionary Lead, Energy Lags Amid AI Optimism and Geopolitical Shifts",
-          "summary": "The Technology Select Sector SPDR (XLK) advanced 2.7%, followed by the Consumer Discretionary Select Sector SPDR (XLY) at 1.8%, and Communication Services Select Sector SPDR (XLC) at 1.1%. Information Technology continues to top the S&P 500, fueled by optimism around AI demand, notably in semiconductors. Conversely, the Energy Select Sector SPDR (XLE) declined 1.7% and remains a laggard, reflecting easing oil prices and geopolitical developments. Communications and Health Care sectors are also lagging.",
+          "id": "sector-performance-june22",
+          "headline": "Technology and Financials Lead Gains, Energy and Communication Services Lag",
+          "summary": "Seven out of 11 major S&P 500 sectors were in the green, with Financials leading gains, up 1%. Technology also performed strongly, driven by semiconductor shares surging on AI demand. The Technology Select Sector SPDR ($XLK) advanced 2.7%. Conversely, Communication Services (.SPLRCL) was a laggard, falling 2.3%, and the Energy Select Sector SPDR ($XLE) declined 1.7% as oil prices fell amid U.S.-Iran diplomatic progress.",
           "tags": [
             "Sector Analysis",
             "Technology",
+            "Financials",
             "Energy",
-            "AI"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
+            "Communication Services"
+          ]
         },
         {
-          "id": "index-rebalance",
-          "headline": "Nasdaq-100 and S&P 500 Undergo Quarterly Rebalance",
-          "summary": "Effective prior to today's market open, the Nasdaq-100 added five companies, largely AI-related, including Astera Labs ($ALAB), CoreWeave ($CRWV), Nebius Group ($NBIS), Rocket Lab ($RKLB), and Teradyne ($TER). It removed Charter Communications ($CHTR), Cognizant ($CTSH), Insmed ($INSM), Verisk Analytics ($VRSK), and Zscaler ($ZS). The S&P 500 added Marvell Technology ($MRVL) and Flex ($FLEX), replacing Pool Corp ($POOL) and The Campbell's Company ($CPB).",
-          "tags": [
-            "Index Changes",
-            "Rebalance",
-            "AI"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Fed Holds Rates Steady, Signals Hawkish Stance Amid Elevated Inflation Concerns",
-          "summary": "The Federal Reserve kept interest rates unchanged at its June meeting. However, under new Chair Kevin Warsh, the statement adopted a hawkish tone, focusing on price stability and dropping previous easing bias language. The updated 'dot plot' now projects at least one rate hike by year-end 2026 by several participants, with bond futures pricing in over 85% odds for a hike. The Fed's year-end PCE inflation forecast was significantly raised to 3.6% from 2.7%.",
+          "id": "fed-outlook-june22",
+          "headline": "Fed Signals Potential Future Rate Hikes as Inflation Persists",
+          "summary": "Following last week's FOMC meeting, the Federal Reserve maintained interest rates at 3.50% to 3.75% but removed its easing bias, signaling a hawkish shift. With inflation running hotter than expected (May CPI up 4.2% year-over-year), most FOMC members now foresee at least one rate hike before the end of 2026. Markets are pricing in a high probability of a hike by September.",
           "tags": [
             "Federal Reserve",
-            "Monetary Policy",
             "Interest Rates",
-            "Inflation"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
+            "Inflation",
+            "Monetary Policy"
+          ]
         },
         {
-          "id": "geopolitical-impact",
-          "headline": "U.S.-Iran Peace Agreement Drives Down Oil Prices, Eases Inflation Worries",
-          "summary": "Investor sentiment improved following reports of significant progress in U.S.-Iran peace negotiations over the weekend, leading to an easing of geopolitical tensions and the reopening of the Strait of Hormuz. This has resulted in a notable decline in crude oil prices, with Brent crude falling to $79.02 per barrel, down 2%, and U.S. crude falling to $75.11. This development is alleviating some inflation concerns.",
+          "id": "economic-data-june22",
+          "headline": "Jobless Claims Decrease, Q1 GDP Holds Steady",
+          "summary": "Initial jobless claims for the week ending June 13 decreased by 4,000 to 226,000. The final reading of Q1 2026 GDP is expected to hold at 1.6% SAAR, while the Atlanta Fed's GDPNow model tracks Q2 2026 at 3.0% SAAR, indicating resilient economic momentum. The Conference Board Leading Economic Index for the U.S. also rose slightly by 0.1% in May, supported by financial components.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "Jobless Claims",
+            "LEI"
+          ]
+        },
+        {
+          "id": "upcoming-earnings-june22",
+          "headline": "Micron Technology's Q3 Earnings in Focus This Week",
+          "summary": "The earnings season continues with several key reports expected this week. All eyes will be on Micron Technology ($MU) as it reports its fiscal Q3 earnings on Wednesday, with revenue anticipated to surge due to high demand for AI memory. Nvidia ($NVDA) is also holding its annual shareholder meeting, keeping the semiconductor sector in the spotlight. FedEx ($FDX) and Darden Restaurants ($DRI) are also scheduled to report later in the week.",
+          "tags": [
+            "Earnings Reports",
+            "Micron",
+            "Nvidia",
+            "FedEx",
+            "AI"
+          ]
+        },
+        {
+          "id": "geopolitical-impact-june22",
+          "headline": "U.S.-Iran Diplomacy Eases Oil Prices and Inflation Concerns",
+          "summary": "Progress in U.S.-Iran negotiations has led to a significant drop in crude oil prices, easing global inflation anxieties. This geopolitical development has positively influenced investor sentiment, despite ongoing concerns about domestic inflationary pressures and the Federal Reserve's stance.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
             "Inflation"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
-        },
-        {
-          "id": "upcoming-economic-data",
-          "headline": "Key Economic Data Releases Expected This Week",
-          "summary": "The macroeconomic schedule for the week includes the S&P Global Flash PMIs for June on Tuesday, May new home sales on Wednesday, and critical May personal income and spending data, alongside the Federal Reserve's preferred inflation gauge, the Personal Consumption Expenditures (PCE) price index, on Thursday. Economists anticipate the May consumer inflation measure to accelerate to 4.1% from 3.8% in April.",
-          "tags": [
-            "Economic Calendar",
-            "Inflation Data",
-            "PCE"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
-        },
-        {
-          "id": "earnings-watch",
-          "headline": "Micron Technology Among Companies Reporting Earnings This Week",
-          "summary": "While several smaller companies are reporting earnings today, major focus this week will be on Micron Technology ($MU), which is scheduled to release its earnings on Wednesday, June 24. Other significant reports expected this week include Carnival ($CCL), FedEx ($FDX), BlackBerry ($BB), and Nano-X Imaging ($NNOX).",
-          "tags": [
-            "Earnings Reports",
-            "Micron",
-            "Semiconductors"
-          ],
-          "timestamp": "2026-06-22T16:27:00Z"
+          ]
         }
       ]
     }
