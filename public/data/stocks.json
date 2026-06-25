@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T19:33:00Z",
+  "generatedAt": "2026-06-25T18:12:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 22, 2026",
-  "subtitle": "Market closes mixed amidst geopolitical developments and Fed rate hike concerns",
+  "title": "Daily Market Digest: June 25, 2026",
+  "subtitle": "A professional overview of today's market activities.",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-june22",
-          "headline": "U.S. Stocks Exhibit Mixed Performance on Monday, Driven by Tech Gains and Geopolitical Optimism",
-          "summary": "U.S. equities saw a mixed performance today, with major indices showing modest movements. Optimism surrounding a potential U.S.-Iran peace agreement and continued strong demand for artificial intelligence (AI) in the semiconductor sector provided underlying support. However, investor sentiment was tempered by lingering concerns over future Federal Reserve interest rate hikes. Oil prices experienced a notable decline amidst the diplomatic progress, while key economic data points, including jobless claims and GDP projections, offered a clearer picture of the economic landscape. Not financial advice.",
+          "id": "market-summary-today",
+          "headline": "Mixed Market Day Driven by AI Chip Optimism and Inflation Data",
+          "summary": "U.S. equities are experiencing mixed trading today, with the Dow Jones Industrial Average and S&P 500 showing gains, while the Nasdaq Composite drifts slightly lower. Market sentiment was largely influenced by robust earnings from Micron Technology, which significantly boosted the semiconductor sector, and the release of in-line inflation data. However, ongoing concerns about elevated technology valuations and AI spending continue to temper enthusiasm across some tech names. Falling oil prices provided a tailwind for travel-related stocks but weighed on the energy sector.",
           "tags": [
-            "Market Summary",
-            "AI Rally",
-            "Geopolitics",
-            "Fed Outlook"
-          ],
-          "timestamp": "2026-06-22T19:33:00Z"
+            "Market Overview",
+            "Sentiment",
+            "Micron Earnings",
+            "Inflation"
+          ]
         }
       ]
     },
@@ -34,21 +33,27 @@
       "items": [
         {
           "id": "sp500-performance",
+          "headline": "S&P 500 Performance",
           "statLabel": "S&P 500",
-          "statValue": "7,524.35",
-          "statContext": "+23.77 (+0.32%)"
+          "statValue": "+0.2%",
+          "statContext": "Intraday movement as of late morning.",
+          "direction": "up"
         },
         {
           "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite Performance",
           "statLabel": "NASDAQ",
-          "statValue": "26,515.06",
-          "statContext": "-1.52 (-0.01%)"
+          "statValue": "-0.3%",
+          "statContext": "Intraday movement as of late morning.",
+          "direction": "down"
         },
         {
           "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average Performance",
           "statLabel": "DOW",
-          "statValue": "51,826.08",
-          "statContext": "+261.38 (+0.51%)"
+          "statValue": "+0.8%",
+          "statContext": "Intraday movement as of late morning, up 419 points.",
+          "direction": "up"
         }
       ]
     },
@@ -59,64 +64,89 @@
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-apge",
-          "headline": "Apogee Therapeutics Soars on Acquisition News",
-          "ticker": "$APGE",
-          "price": "$132.66",
-          "change": "+$42.26",
-          "changePercent": "+46.74%",
+          "id": "mu-gainer",
+          "headline": "Micron Technology Soars on Strong Earnings",
+          "summary": "Micron Technology ($MU) surged 14% after reporting much stronger-than-expected profit and revenue for its latest quarter, alongside a robust growth forecast for the current quarter, driven by demand for memory chips in AI data centers.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+14.0%",
           "direction": "up",
-          "summary": "Shares of Apogee Therapeutics ($APGE) jumped significantly after AbbVie announced plans to acquire the biotech company for $10.9 billion in cash."
+          "tags": [
+            "Gainers",
+            "Technology",
+            "Earnings"
+          ]
         },
         {
-          "id": "gainer-dftx",
-          "headline": "Definium Therapeutics Leads Biotech Surge",
-          "ticker": "$DFTX",
+          "id": "tech-gainer",
+          "headline": "Bio-Techne Climbs",
+          "summary": "Bio-Techne Corp. ($TECH) climbed 19.6% in today's trading.",
+          "ticker": "$TECH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+55.35%",
+          "changePercent": "+19.6%",
           "direction": "up",
-          "summary": "Definium Therapeutics was reported as a top mover among equities with at least a $2 billion market cap, contributing to a strong day for the biotech sector."
+          "tags": [
+            "Gainers",
+            "Biotechnology"
+          ]
         },
         {
-          "id": "gainer-smci",
-          "headline": "Super Micro Continues Strong Performance",
-          "ticker": "$SMCI",
+          "id": "wen-gainer",
+          "headline": "Wendy's Jumps on Meme Stock Revival",
+          "summary": "Wendy's ($WEN) surged 25.7% today as retail traders appeared to revive the meme-stock playbook.",
+          "ticker": "$WEN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.5%",
+          "changePercent": "+25.7%",
           "direction": "up",
-          "summary": "Super Micro Computer ($SMCI) continued to lead the S&P 500's positive movers, reflecting ongoing strength in technology."
+          "tags": [
+            "Gainers",
+            "Consumer Discretionary"
+          ]
         },
         {
-          "id": "loser-spcx",
-          "headline": "SpaceX Declines After Bond Offering",
-          "ticker": "$SPCX",
+          "id": "aapl-loser",
+          "headline": "Apple Drops After Price Hikes",
+          "summary": "Apple ($AAPL) slumped 4.6% after the company raised prices for many of its products, including significant increases for Mac computers, making it the single heaviest weight on the S&P 500.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.7%",
+          "changePercent": "-4.6%",
           "direction": "down",
-          "summary": "Space Exploration Technologies Corp. ($SPCX) shares fell after the company announced a new bond offering."
+          "tags": [
+            "Losers",
+            "Technology"
+          ]
         },
         {
-          "id": "loser-alamosgold",
-          "headline": "Alamos Gold Hit by Retreat in Precious Metals",
-          "ticker": "$AGI",
+          "id": "htz-loser",
+          "headline": "Hertz Global Experiences Decline",
+          "summary": "Hertz Global ($HTZ) fell 6.1% today.",
+          "ticker": "$HTZ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.72%",
+          "changePercent": "-6.1%",
           "direction": "down",
-          "summary": "Alamos Gold experienced a significant decline, making it one of the worst performers among companies with a market cap of at least $2 billion, as gold spot prices retreated."
+          "tags": [
+            "Losers",
+            "Consumer Discretionary"
+          ]
         },
         {
-          "id": "loser-moderna",
-          "headline": "Moderna Faces Steep Declines in Trading",
-          "ticker": "$MRNA",
+          "id": "dltr-loser",
+          "headline": "Dollar Tree Loses Ground",
+          "summary": "Dollar Tree ($DLTR) lost 3.6% in today's trading.",
+          "ticker": "$DLTR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.54%",
+          "changePercent": "-3.6%",
           "direction": "down",
-          "summary": "Moderna shares faced steep declines, making it one of the hardest hit in the S&P 500 today."
+          "tags": [
+            "Losers",
+            "Consumer Staples"
+          ]
         }
       ]
     },
@@ -127,59 +157,50 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-june22",
-          "headline": "Technology and Financials Lead Gains, Energy and Communication Services Lag",
-          "summary": "Seven out of 11 major S&P 500 sectors were in the green, with Financials leading gains, up 1%. Technology also performed strongly, driven by semiconductor shares surging on AI demand. The Technology Select Sector SPDR ($XLK) advanced 2.7%. Conversely, Communication Services (.SPLRCL) was a laggard, falling 2.3%, and the Energy Select Sector SPDR ($XLE) declined 1.7% as oil prices fell amid U.S.-Iran diplomatic progress.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Financials",
-            "Energy",
-            "Communication Services"
-          ]
-        },
-        {
-          "id": "fed-outlook-june22",
-          "headline": "Fed Signals Potential Future Rate Hikes as Inflation Persists",
-          "summary": "Following last week's FOMC meeting, the Federal Reserve maintained interest rates at 3.50% to 3.75% but removed its easing bias, signaling a hawkish shift. With inflation running hotter than expected (May CPI up 4.2% year-over-year), most FOMC members now foresee at least one rate hike before the end of 2026. Markets are pricing in a high probability of a hike by September.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Monetary Policy"
-          ]
-        },
-        {
-          "id": "economic-data-june22",
-          "headline": "Jobless Claims Decrease, Q1 GDP Holds Steady",
-          "summary": "Initial jobless claims for the week ending June 13 decreased by 4,000 to 226,000. The final reading of Q1 2026 GDP is expected to hold at 1.6% SAAR, while the Atlanta Fed's GDPNow model tracks Q2 2026 at 3.0% SAAR, indicating resilient economic momentum. The Conference Board Leading Economic Index for the U.S. also rose slightly by 0.1% in May, supported by financial components.",
+          "id": "pce-inflation",
+          "headline": "PCE Inflation Rises, Core PCE Highest Since Oct 2023",
+          "summary": "The Personal Consumption Expenditures (PCE) price index for May rose 0.4% month-over-month and 4.1% year-over-year, matching analyst expectations. Excluding food and energy, core PCE increased 0.3% monthly and 3.4% annually, marking its highest level since October 2023.",
           "tags": [
             "Economic Data",
-            "GDP",
-            "Jobless Claims",
-            "LEI"
+            "Inflation",
+            "PCE"
           ]
         },
         {
-          "id": "upcoming-earnings-june22",
-          "headline": "Micron Technology's Q3 Earnings in Focus This Week",
-          "summary": "The earnings season continues with several key reports expected this week. All eyes will be on Micron Technology ($MU) as it reports its fiscal Q3 earnings on Wednesday, with revenue anticipated to surge due to high demand for AI memory. Nvidia ($NVDA) is also holding its annual shareholder meeting, keeping the semiconductor sector in the spotlight. FedEx ($FDX) and Darden Restaurants ($DRI) are also scheduled to report later in the week.",
+          "id": "q1-gdp-revision",
+          "headline": "Q1 GDP Revised Upward to 2.1%",
+          "summary": "The U.S. Bureau of Economic Analysis (BEA) revised its third estimate for first-quarter 2026 Gross Domestic Product (GDP) to an annual rate of 2.1%, a notable increase from the previous 1.6% estimate. This revision primarily reflects a downward adjustment to imports.",
           "tags": [
-            "Earnings Reports",
-            "Micron",
-            "Nvidia",
-            "FedEx",
-            "AI"
+            "Economic Data",
+            "GDP"
           ]
         },
         {
-          "id": "geopolitical-impact-june22",
-          "headline": "U.S.-Iran Diplomacy Eases Oil Prices and Inflation Concerns",
-          "summary": "Progress in U.S.-Iran negotiations has led to a significant drop in crude oil prices, easing global inflation anxieties. This geopolitical development has positively influenced investor sentiment, despite ongoing concerns about domestic inflationary pressures and the Federal Reserve's stance.",
+          "id": "durable-goods",
+          "headline": "May Durable Goods Orders Fall Less Than Expected",
+          "summary": "New orders for manufactured durable goods decreased by 4.5% in May, a smaller contraction than the 4.7% expected by analysts. The decline was largely attributed to a drop in transportation orders, while orders excluding transportation rose by 1.3%.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Inflation"
+            "Economic Data",
+            "Manufacturing"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Industrials and Travel Lead, Energy and Tech Lag Amid Shifting Sentiment",
+          "summary": "The Industrials sector showed strength today, with travel-related stocks also benefiting from falling crude oil prices, which dipped to pre-West Asia war levels. Conversely, the Energy, Technology, and Communication Services sectors experienced weakness, partly due to concerns over high tech valuations and declining oil prices impacting energy producers.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Technology",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "corporate-earnings",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Several major companies released earnings today, June 25, 2026, including Commercial Metals Company ($CMC), Acuity Brands ($AYI), Darden Restaurants ($DRI), McCormick & Company ($MKC), and BlackBerry ($BB). Notably, Commercial Metals Company reported strong fiscal third-quarter results with a significant increase in adjusted earnings per share.",
+          "tags": [
+            "Earnings Reports"
           ]
         }
       ]
