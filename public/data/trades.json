@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-26T08:54:43.331567Z",
+  "generatedAt": "2026-06-26T12:17:13.571178Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Avoid - ETF / Low Volume",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$195.74",
+      "entry": "$191.00",
+      "stop": "$183.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently testing a key support level around $191.00. The price is trading below its 20-day moving average but remains above the 150-day moving average, suggesting a potential bounce if support holds. Volume is not elevated.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$275.15",
+      "entry": "$258.33",
+      "stop": "$246.24",
+      "structure": "0.5 Fib",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is currently trading above its 200-day moving average, indicating a long-term uptrend. The stock is approaching the 0.5 Fibonacci retracement level, which could serve as a potential entry zone. Volume data is not available to confirm elevated buying interest.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$374.50",
+      "entry": "$371.00",
+      "stop": "$360.00",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is in a falling trend channel in the medium term, with the price currently trading below both its 20-day and 200-day moving averages. It is testing immediate support around $371.00. Volume is significantly lower than average.",
+      "riskScore": 8,
+      "footerTag": "High Risk",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
