@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T18:12:00Z",
+  "generatedAt": "2026-06-26T10:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: June 25, 2026",
-  "subtitle": "A professional overview of today's market activities.",
+  "title": "Daily Market Digest",
+  "subtitle": "June 26, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,15 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Mixed Market Day Driven by AI Chip Optimism and Inflation Data",
-          "summary": "U.S. equities are experiencing mixed trading today, with the Dow Jones Industrial Average and S&P 500 showing gains, while the Nasdaq Composite drifts slightly lower. Market sentiment was largely influenced by robust earnings from Micron Technology, which significantly boosted the semiconductor sector, and the release of in-line inflation data. However, ongoing concerns about elevated technology valuations and AI spending continue to temper enthusiasm across some tech names. Falling oil prices provided a tailwind for travel-related stocks but weighed on the energy sector.",
+          "id": "market-summary-20260626",
+          "headline": "U.S. Equities Mixed Amid Tech Volatility and Economic Data",
+          "summary": "U.S. stock indexes displayed mixed performance on Thursday, June 26, 2026, with the Dow Jones posting a modest gain while the Nasdaq Composite marked its fourth consecutive loss. Overall market sentiment was volatile, influenced by a significant decline in Apple shares, offsetting a semiconductor rally driven by strong Micron earnings. Investors continue to weigh inflation data and the Federal Reserve's stance on interest rates, alongside ongoing concerns about AI infrastructure costs.",
           "tags": [
             "Market Overview",
-            "Sentiment",
-            "Micron Earnings",
-            "Inflation"
-          ]
+            "Tech",
+            "Economic Data"
+          ],
+          "timestamp": "2026-06-26T10:21:00Z"
         }
       ]
     },
@@ -33,27 +33,27 @@
       "items": [
         {
           "id": "sp500-performance",
-          "headline": "S&P 500 Performance",
           "statLabel": "S&P 500",
-          "statValue": "+0.2%",
-          "statContext": "Intraday movement as of late morning.",
-          "direction": "up"
+          "statValue": "7,357.49",
+          "statContext": "Ended little changed, marking a fourth straight loss."
         },
         {
           "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite Performance",
-          "statLabel": "NASDAQ",
-          "statValue": "-0.3%",
-          "statContext": "Intraday movement as of late morning.",
-          "direction": "down"
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,358.60",
+          "statContext": "Fell 0.5% for its fourth consecutive loss."
         },
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average Performance",
-          "statLabel": "DOW",
-          "statValue": "+0.8%",
-          "statContext": "Intraday movement as of late morning, up 419 points.",
-          "direction": "up"
+          "id": "dowjones-performance",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "51,920.62",
+          "statContext": "Rose 0.1% as industrials offered balance."
+        },
+        {
+          "id": "futures-outlook",
+          "statLabel": "U.S. Stock Futures (Early Friday)",
+          "statValue": "Mixed",
+          "statContext": "Nasdaq 100 futures down 1.1%, S&P 500 futures down 0.47%, Dow futures down 0.08%."
         }
       ]
     },
@@ -66,87 +66,62 @@
         {
           "id": "mu-gainer",
           "headline": "Micron Technology Soars on Strong Earnings",
-          "summary": "Micron Technology ($MU) surged 14% after reporting much stronger-than-expected profit and revenue for its latest quarter, alongside a robust growth forecast for the current quarter, driven by demand for memory chips in AI data centers.",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+14.0%",
+          "changePercent": "+15.7%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Earnings"
-          ]
+          "summary": "Micron Technology surged after reporting better-than-expected earnings and guidance, keeping the AI memory narrative strong."
         },
         {
-          "id": "tech-gainer",
-          "headline": "Bio-Techne Climbs",
-          "summary": "Bio-Techne Corp. ($TECH) climbed 19.6% in today's trading.",
-          "ticker": "$TECH",
+          "id": "sndk-gainer",
+          "headline": "SanDisk Jumps Amid Chip Rally",
+          "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+19.6%",
+          "changePercent": "+22%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Biotechnology"
-          ]
+          "summary": "Memory chipmaker SanDisk saw a significant gain, benefiting from upbeat sentiment in the semiconductor sector."
         },
         {
-          "id": "wen-gainer",
-          "headline": "Wendy's Jumps on Meme Stock Revival",
-          "summary": "Wendy's ($WEN) surged 25.7% today as retail traders appeared to revive the meme-stock playbook.",
-          "ticker": "$WEN",
+          "id": "amat-gainer",
+          "headline": "Applied Materials Advances",
+          "ticker": "$AMAT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+25.7%",
+          "changePercent": "+13.4%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Consumer Discretionary"
-          ]
+          "summary": "Applied Materials also moved higher, part of the broader strength seen in chip-related stocks."
         },
         {
           "id": "aapl-loser",
-          "headline": "Apple Drops After Price Hikes",
-          "summary": "Apple ($AAPL) slumped 4.6% after the company raised prices for many of its products, including significant increases for Mac computers, making it the single heaviest weight on the S&P 500.",
+          "headline": "Apple Drops on Price Hikes and Cost Concerns",
           "ticker": "$AAPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.6%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Technology"
-          ]
-        },
-        {
-          "id": "htz-loser",
-          "headline": "Hertz Global Experiences Decline",
-          "summary": "Hertz Global ($HTZ) fell 6.1% today.",
-          "ticker": "$HTZ",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-6.1%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Consumer Discretionary"
-          ]
+          "summary": "Apple shares fell sharply after the company raised prices across its Macs, iPads, and other devices, sparking worries about memory-chip cost pressures impacting demand."
         },
         {
-          "id": "dltr-loser",
-          "headline": "Dollar Tree Loses Ground",
-          "summary": "Dollar Tree ($DLTR) lost 3.6% in today's trading.",
-          "ticker": "$DLTR",
+          "id": "jef-loser",
+          "headline": "Jefferies Slides After Earnings Miss",
+          "ticker": "$JEF",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.6%",
+          "changePercent": "-9.2%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Consumer Staples"
-          ]
+          "summary": "Jefferies Group declined after its latest earnings report missed analyst estimates."
+        },
+        {
+          "id": "sftby-loser",
+          "headline": "SoftBank Group Leads Asian Tech Selloff",
+          "ticker": "$SFTBY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-12.5%",
+          "direction": "down",
+          "summary": "SoftBank Group shares experienced a significant drop in Tokyo trading, contributing to a broader tech selloff in Asian markets."
         }
       ]
     },
@@ -157,50 +132,54 @@
       "layout": "list",
       "items": [
         {
-          "id": "pce-inflation",
-          "headline": "PCE Inflation Rises, Core PCE Highest Since Oct 2023",
-          "summary": "The Personal Consumption Expenditures (PCE) price index for May rose 0.4% month-over-month and 4.1% year-over-year, matching analyst expectations. Excluding food and energy, core PCE increased 0.3% monthly and 3.4% annually, marking its highest level since October 2023.",
+          "id": "pce-inflation-report",
+          "headline": "May PCE Inflation Aligns with Expectations, Fed Remains Cautious",
+          "summary": "The Personal Consumption Expenditures (PCE) price index for May rose 0.4% month-over-month, bringing the annual rate to 4.1%, which was below the 0.5% consensus estimate. Core PCE increased 0.3% month-over-month and 3.4% year-over-year. Despite some hopeful signs, Federal Reserve officials, including Goolsbee and Williams, cautioned that inflation remains too high, with markets pricing a 47% probability of a September rate hike.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "PCE"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "q1-gdp-revision",
-          "headline": "Q1 GDP Revised Upward to 2.1%",
-          "summary": "The U.S. Bureau of Economic Analysis (BEA) revised its third estimate for first-quarter 2026 Gross Domestic Product (GDP) to an annual rate of 2.1%, a notable increase from the previous 1.6% estimate. This revision primarily reflects a downward adjustment to imports.",
+          "id": "ai-sector-dynamics",
+          "headline": "AI-Driven Tech Sector Sees Divergent Performance",
+          "summary": "The AI-related technology sector experienced mixed movements. While memory chipmakers like Micron and SanDisk rallied strongly due to robust AI demand and earnings beats, other large tech companies, including Apple, Nvidia, Microsoft, and Alphabet, faced selling pressure amid concerns about rising AI infrastructure costs and profit-taking. Reports of OpenAI potentially delaying its IPO until 2027 further contributed to the tech sector's volatility.",
           "tags": [
-            "Economic Data",
-            "GDP"
+            "Technology",
+            "AI",
+            "Semiconductors",
+            "Sector Analysis"
           ]
         },
         {
-          "id": "durable-goods",
-          "headline": "May Durable Goods Orders Fall Less Than Expected",
-          "summary": "New orders for manufactured durable goods decreased by 4.5% in May, a smaller contraction than the 4.7% expected by analysts. The decline was largely attributed to a drop in transportation orders, while orders excluding transportation rose by 1.3%.",
-          "tags": [
-            "Economic Data",
-            "Manufacturing"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Industrials and Travel Lead, Energy and Tech Lag Amid Shifting Sentiment",
-          "summary": "The Industrials sector showed strength today, with travel-related stocks also benefiting from falling crude oil prices, which dipped to pre-West Asia war levels. Conversely, the Energy, Technology, and Communication Services sectors experienced weakness, partly due to concerns over high tech valuations and declining oil prices impacting energy producers.",
+          "id": "industrials-lead-gains",
+          "headline": "Industrials Sector Leads Gains, Consumer Discretionary Lags",
+          "summary": "The Industrials sector showed strength, reaching a record high with notable contributions from companies like Caterpillar and Deere. Conversely, the Consumer Discretionary sector lagged, following a downward revision of first-quarter consumer spending growth to 0.5% from 1.4%, signaling consumer pressures.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Technology",
-            "Industrials"
+            "Industrials",
+            "Consumer Discretionary"
           ]
         },
         {
-          "id": "corporate-earnings",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several major companies released earnings today, June 25, 2026, including Commercial Metals Company ($CMC), Acuity Brands ($AYI), Darden Restaurants ($DRI), McCormick & Company ($MKC), and BlackBerry ($BB). Notably, Commercial Metals Company reported strong fiscal third-quarter results with a significant increase in adjusted earnings per share.",
+          "id": "oil-prices-geopolitics",
+          "headline": "Oil Prices Under Pressure Amid Supply Ease, Geopolitical Tensions",
+          "summary": "Crude oil prices declined and were set for weekly losses as easing supply concerns related to the Strait of Hormuz outweighed reports of a cargo vessel being hit near Oman. Geopolitical events in the Middle East continue to introduce volatility into energy markets.",
           "tags": [
-            "Earnings Reports"
+            "Commodities",
+            "Oil",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "key-earnings-reports",
+          "headline": "Key Earnings Reports: Micron Shines, Jefferies Misses",
+          "summary": "Micron Technology ($MU) delivered a strong fiscal third-quarter earnings report, exceeding analyst expectations and boosting the semiconductor industry. In contrast, Jefferies missed its earnings estimates, leading to a decline in its stock price. Beyond Air Inc. ($XAIR) and Apogee Enterprises Inc. ($APOG) also reported earnings today.",
+          "tags": [
+            "Earnings",
+            "Micron",
+            "Jefferies"
           ]
         }
       ]
