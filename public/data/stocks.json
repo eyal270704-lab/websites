@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-26T10:21:00Z",
+  "generatedAt": "2026-06-26T14:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 26, 2026",
+  "subtitle": "June 26, 2026: Tech Sector Weighs, Industrials Gain Amid Inflation Concerns",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,15 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260626",
-          "headline": "U.S. Equities Mixed Amid Tech Volatility and Economic Data",
-          "summary": "U.S. stock indexes displayed mixed performance on Thursday, June 26, 2026, with the Dow Jones posting a modest gain while the Nasdaq Composite marked its fourth consecutive loss. Overall market sentiment was volatile, influenced by a significant decline in Apple shares, offsetting a semiconductor rally driven by strong Micron earnings. Investors continue to weigh inflation data and the Federal Reserve's stance on interest rates, alongside ongoing concerns about AI infrastructure costs.",
+          "id": "market-summary-june26",
+          "headline": "Mixed Market as Tech Sell-off Continues, Dow Edges Up, Nasdaq Drops",
+          "summary": "U.S. equities saw a mixed close on Thursday, with the Dow Jones Industrial Average advancing, while the Nasdaq Composite fell for the fourth consecutive day, dragged down by a broad sell-off in technology stocks. Investor sentiment remained cautious amid concerns over AI-related valuations and rising chip costs. Pre-market futures for Friday indicate a continued mixed trend, with Nasdaq and S&P 500 futures lower, while Dow futures showed a slight gain.",
           "tags": [
-            "Market Overview",
-            "Tech",
-            "Economic Data"
+            "Market Summary",
+            "Tech Sell-off",
+            "Inflation Concerns"
           ],
-          "timestamp": "2026-06-26T10:21:00Z"
+          "timestamp": "2026-06-26T14:02:00Z"
         }
       ]
     },
@@ -35,25 +35,19 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,357.49",
-          "statContext": "Ended little changed, marking a fourth straight loss."
+          "statContext": "Down 0.01% (-0.73 points)"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,358.60",
-          "statContext": "Fell 0.5% for its fourth consecutive loss."
+          "statValue": "25,358.6",
+          "statContext": "Down 0.5% (-118.03 points)"
         },
         {
-          "id": "dowjones-performance",
-          "statLabel": "DOW Jones Industrial Average",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,920.62",
-          "statContext": "Rose 0.1% as industrials offered balance."
-        },
-        {
-          "id": "futures-outlook",
-          "statLabel": "U.S. Stock Futures (Early Friday)",
-          "statValue": "Mixed",
-          "statContext": "Nasdaq 100 futures down 1.1%, S&P 500 futures down 0.47%, Dow futures down 0.08%."
+          "statContext": "Up 0.1% (+71.72 points)"
         }
       ]
     },
@@ -65,63 +59,43 @@
       "items": [
         {
           "id": "mu-gainer",
-          "headline": "Micron Technology Soars on Strong Earnings",
+          "headline": "Micron Technology Surges on Strong Earnings",
+          "summary": "Micron Technology ($MU) shares surged 15.7% after reporting robust third-quarter fiscal 2026 earnings and revenue that exceeded analyst expectations, coupled with an upbeat growth forecast. This performance temporarily boosted optimism for semiconductor stocks.",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+15.7%",
-          "direction": "up",
-          "summary": "Micron Technology surged after reporting better-than-expected earnings and guidance, keeping the AI memory narrative strong."
+          "direction": "up"
         },
         {
           "id": "sndk-gainer",
-          "headline": "SanDisk Jumps Amid Chip Rally",
+          "headline": "Sandisk Rallies Significantly",
+          "summary": "Sandisk ($SNDK) soared 22%, making it one of the day's biggest gainers. The memory chipmaker's rise contributed to the broader semiconductor rally.",
           "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+22%",
-          "direction": "up",
-          "summary": "Memory chipmaker SanDisk saw a significant gain, benefiting from upbeat sentiment in the semiconductor sector."
-        },
-        {
-          "id": "amat-gainer",
-          "headline": "Applied Materials Advances",
-          "ticker": "$AMAT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.4%",
-          "direction": "up",
-          "summary": "Applied Materials also moved higher, part of the broader strength seen in chip-related stocks."
+          "changePercent": "+22.0%",
+          "direction": "up"
         },
         {
           "id": "aapl-loser",
           "headline": "Apple Drops on Price Hikes and Cost Concerns",
+          "summary": "Apple Inc. ($AAPL) tumbled 6.1% after announcing price increases for its MacBook and iPad models, citing higher chip and component costs. This move raised concerns about the impact of rising memory-chip expenses on profitability.",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-6.1%",
-          "direction": "down",
-          "summary": "Apple shares fell sharply after the company raised prices across its Macs, iPads, and other devices, sparking worries about memory-chip cost pressures impacting demand."
+          "direction": "down"
         },
         {
-          "id": "jef-loser",
-          "headline": "Jefferies Slides After Earnings Miss",
-          "ticker": "$JEF",
+          "id": "msft-loser",
+          "headline": "Microsoft Falls After Xbox Price Increases",
+          "summary": "Microsoft Corporation ($MSFT) fell 3.5% after unveiling price hikes for Xbox consoles, adding to investor concerns that companies are passing rising costs on to consumers, impacting demand.",
+          "ticker": "$MSFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.2%",
-          "direction": "down",
-          "summary": "Jefferies Group declined after its latest earnings report missed analyst estimates."
-        },
-        {
-          "id": "sftby-loser",
-          "headline": "SoftBank Group Leads Asian Tech Selloff",
-          "ticker": "$SFTBY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.5%",
-          "direction": "down",
-          "summary": "SoftBank Group shares experienced a significant drop in Tokyo trading, contributing to a broader tech selloff in Asian markets."
+          "changePercent": "-3.5%",
+          "direction": "down"
         }
       ]
     },
@@ -132,54 +106,45 @@
       "layout": "list",
       "items": [
         {
-          "id": "pce-inflation-report",
-          "headline": "May PCE Inflation Aligns with Expectations, Fed Remains Cautious",
-          "summary": "The Personal Consumption Expenditures (PCE) price index for May rose 0.4% month-over-month, bringing the annual rate to 4.1%, which was below the 0.5% consensus estimate. Core PCE increased 0.3% month-over-month and 3.4% year-over-year. Despite some hopeful signs, Federal Reserve officials, including Goolsbee and Williams, cautioned that inflation remains too high, with markets pricing a 47% probability of a September rate hike.",
+          "id": "sector-analysis-june26",
+          "headline": "Technology Leads Market Lag, Industrials Show Strength",
+          "summary": "Technology stocks were the primary drag on the market, with the Nasdaq Composite falling and the broader tech sector down 0.1%. The Consumer Discretionary Select Sector SPDR (XLY) declined 1.8%, Consumer Staples (XLP) fell 1.1%, and Communication Services (XLC) dropped 1%. In contrast, the Industrials Select Sector SPDR (XLI) advanced 2.2%, with gains in companies like Caterpillar and Deere providing some balance to the market. The Philadelphia SE Semiconductor index (SOX) also managed a 3.2% rise despite broader tech weakness.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "economic-data-june26",
+          "headline": "PCE Inflation Above 4%, Jobless Claims Fall, GDP Revised Upward",
+          "summary": "May's PCE inflation, the Federal Reserve's preferred gauge, climbed above 4% year-on-year, reinforcing expectations for a potential interest rate hike. Core PCE rose 0.3%. Personal income and spending both increased by 0.7%. Initial jobless claims for the week ending June 20 decreased by 12,000 to 215,000, while continuing claims rose by 21,000. The third estimate for first-quarter 2026 GDP was revised upward to a 2.1% increase.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "Federal Reserve"
+            "Jobless Claims",
+            "GDP"
           ]
         },
         {
-          "id": "ai-sector-dynamics",
-          "headline": "AI-Driven Tech Sector Sees Divergent Performance",
-          "summary": "The AI-related technology sector experienced mixed movements. While memory chipmakers like Micron and SanDisk rallied strongly due to robust AI demand and earnings beats, other large tech companies, including Apple, Nvidia, Microsoft, and Alphabet, faced selling pressure amid concerns about rising AI infrastructure costs and profit-taking. Reports of OpenAI potentially delaying its IPO until 2027 further contributed to the tech sector's volatility.",
+          "id": "fed-outlook-june26",
+          "headline": "Fed Maintains Hawkish Tone as Rate Hike Concerns Linger",
+          "summary": "Policymakers are expected to maintain a hawkish stance due to rising core inflationary pressures and solid labor income. The CME FedWatch Tool indicates a 47% probability of a September rate hike. Federal Reserve Chair Kevin Warsh has emphasized returning inflation to the 2% target as a priority. Traders will monitor speeches from New York Fed President John Williams and Minneapolis Fed President Neel Kashkari.",
           "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "ai-fatigue-june26",
+          "headline": "AI-Driven Fatigue Impacts Tech Valuations",
+          "summary": "Technology stocks continued to face 'AI-driven fatigue' as investors grew increasingly cautious about lofty valuations and rising costs within the sector. Concerns over the surging costs of AI data centers and memory chip shortages have led to profit-taking, particularly in Asia, where AI-related stocks saw heavy losses.",
+          "tags": [
+            "AI Stocks",
             "Technology",
-            "AI",
-            "Semiconductors",
-            "Sector Analysis"
-          ]
-        },
-        {
-          "id": "industrials-lead-gains",
-          "headline": "Industrials Sector Leads Gains, Consumer Discretionary Lags",
-          "summary": "The Industrials sector showed strength, reaching a record high with notable contributions from companies like Caterpillar and Deere. Conversely, the Consumer Discretionary sector lagged, following a downward revision of first-quarter consumer spending growth to 0.5% from 1.4%, signaling consumer pressures.",
-          "tags": [
-            "Sector Analysis",
-            "Industrials",
-            "Consumer Discretionary"
-          ]
-        },
-        {
-          "id": "oil-prices-geopolitics",
-          "headline": "Oil Prices Under Pressure Amid Supply Ease, Geopolitical Tensions",
-          "summary": "Crude oil prices declined and were set for weekly losses as easing supply concerns related to the Strait of Hormuz outweighed reports of a cargo vessel being hit near Oman. Geopolitical events in the Middle East continue to introduce volatility into energy markets.",
-          "tags": [
-            "Commodities",
-            "Oil",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "key-earnings-reports",
-          "headline": "Key Earnings Reports: Micron Shines, Jefferies Misses",
-          "summary": "Micron Technology ($MU) delivered a strong fiscal third-quarter earnings report, exceeding analyst expectations and boosting the semiconductor industry. In contrast, Jefferies missed its earnings estimates, leading to a decline in its stock price. Beyond Air Inc. ($XAIR) and Apogee Enterprises Inc. ($APOG) also reported earnings today.",
-          "tags": [
-            "Earnings",
-            "Micron",
-            "Jefferies"
+            "Valuations",
+            "Market Sentiment"
           ]
         }
       ]
