@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-26T14:02:00Z",
+  "generatedAt": "2026-06-26T17:51:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 26, 2026: Tech Sector Weighs, Industrials Gain Amid Inflation Concerns",
+  "subtitle": "June 26, 2026 – Market rebounds from early tech sell-off, AI valuations scrutinized. Not financial advice.",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,15 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-june26",
-          "headline": "Mixed Market as Tech Sell-off Continues, Dow Edges Up, Nasdaq Drops",
-          "summary": "U.S. equities saw a mixed close on Thursday, with the Dow Jones Industrial Average advancing, while the Nasdaq Composite fell for the fourth consecutive day, dragged down by a broad sell-off in technology stocks. Investor sentiment remained cautious amid concerns over AI-related valuations and rising chip costs. Pre-market futures for Friday indicate a continued mixed trend, with Nasdaq and S&P 500 futures lower, while Dow futures showed a slight gain.",
+          "id": "market-summary",
+          "headline": "U.S. Stocks Mixed as Tech Sector Recovers from Early Jitters",
+          "summary": "U.S. equities experienced a mixed session today, initially weighed down by a global tech sell-off and concerns over artificial intelligence (AI) valuations and a reported delay in OpenAI's IPO. However, major indices showed signs of recovery throughout the day. Easing oil prices provided some support, contributing to a rotation of investor capital into sectors beyond technology. The Dow Jones Industrial Average managed a gain, while the S&P 500 finished nearly flat, and the Nasdaq Composite closed slightly lower, still contending with tech-related pressures.",
           "tags": [
             "Market Summary",
             "Tech Sell-off",
-            "Inflation Concerns"
-          ],
-          "timestamp": "2026-06-26T14:02:00Z"
+            "AI Valuations"
+          ]
         }
       ]
     },
@@ -35,19 +34,28 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,357.49",
-          "statContext": "Down 0.01% (-0.73 points)"
+          "statContext": "Down 0.73 points, or 0.01%",
+          "change": "-$0.73",
+          "changePercent": "-0.01%",
+          "direction": "down"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,358.6",
-          "statContext": "Down 0.5% (-118.03 points)"
+          "statValue": "25,358.60",
+          "statContext": "Down 118.03 points, or 0.46%",
+          "change": "-$118.03",
+          "changePercent": "-0.46%",
+          "direction": "down"
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,920.62",
-          "statContext": "Up 0.1% (+71.72 points)"
+          "statContext": "Up 71.72 points, or 0.14%",
+          "change": "+$71.72",
+          "changePercent": "+0.14%",
+          "direction": "up"
         }
       ]
     },
@@ -58,19 +66,9 @@
       "layout": "grid",
       "items": [
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Surges on Strong Earnings",
-          "summary": "Micron Technology ($MU) shares surged 15.7% after reporting robust third-quarter fiscal 2026 earnings and revenue that exceeded analyst expectations, coupled with an upbeat growth forecast. This performance temporarily boosted optimism for semiconductor stocks.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15.7%",
-          "direction": "up"
-        },
-        {
-          "id": "sndk-gainer",
-          "headline": "Sandisk Rallies Significantly",
-          "summary": "Sandisk ($SNDK) soared 22%, making it one of the day's biggest gainers. The memory chipmaker's rise contributed to the broader semiconductor rally.",
+          "id": "gainer-sndk",
+          "headline": "SanDisk Soars on Strong Momentum",
+          "summary": "Memory product maker SanDisk ($SNDK) experienced a significant jump today, rising 22.0%, building on robust returns over the last month.",
           "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
@@ -78,23 +76,53 @@
           "direction": "up"
         },
         {
-          "id": "aapl-loser",
-          "headline": "Apple Drops on Price Hikes and Cost Concerns",
-          "summary": "Apple Inc. ($AAPL) tumbled 6.1% after announcing price increases for its MacBook and iPad models, citing higher chip and component costs. This move raised concerns about the impact of rising memory-chip expenses on profitability.",
-          "ticker": "$AAPL",
-          "price": "N/A",
+          "id": "gainer-now",
+          "headline": "ServiceNow Bucks Tech Trend with Strong Gains",
+          "summary": "Cloud computing company ServiceNow ($NOW) advanced by 7.4% to $96.19, demonstrating strength amidst a broader tech rout.",
+          "ticker": "$NOW",
+          "price": "$96.19",
           "change": "N/A",
-          "changePercent": "-6.1%",
-          "direction": "down"
+          "changePercent": "+7.4%",
+          "direction": "up"
         },
         {
-          "id": "msft-loser",
-          "headline": "Microsoft Falls After Xbox Price Increases",
-          "summary": "Microsoft Corporation ($MSFT) fell 3.5% after unveiling price hikes for Xbox consoles, adding to investor concerns that companies are passing rising costs on to consumers, impacting demand.",
+          "id": "gainer-msft",
+          "headline": "Microsoft Provides Lift to Major Indices",
+          "summary": "Technology giant Microsoft ($MSFT) rose nearly 5% today, contributing significantly to the performance of all three major indices.",
           "ticker": "$MSFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.5%",
+          "changePercent": "+4.9%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-on",
+          "headline": "ON Semiconductor Plunges on Acquisition News",
+          "summary": "ON Semiconductor ($ON) tumbled 21.6% today following its agreement to acquire Synaptics in an all-stock deal valued at approximately $7 billion.",
+          "ticker": "$ON",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-21.6%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-sftby",
+          "headline": "SoftBank Falls Amid OpenAI IPO Delay Report",
+          "summary": "SoftBank Group ($SFTBY), a major investor in OpenAI, saw its shares decline by 9.2% amid reports that OpenAI is considering delaying its initial public offering until 2027.",
+          "ticker": "$SFTBY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.2%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-hpe",
+          "headline": "Hewlett Packard Enterprises Slides",
+          "summary": "Hewlett Packard Enterprises Co ($HPE) fell 6.8% today, continuing a third-straight daily slide, with the catalyst for the drop unclear.",
+          "ticker": "$HPE",
+          "price": "$43.53",
+          "change": "N/A",
+          "changePercent": "-6.8%",
           "direction": "down"
         }
       ]
@@ -106,45 +134,53 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-june26",
-          "headline": "Technology Leads Market Lag, Industrials Show Strength",
-          "summary": "Technology stocks were the primary drag on the market, with the Nasdaq Composite falling and the broader tech sector down 0.1%. The Consumer Discretionary Select Sector SPDR (XLY) declined 1.8%, Consumer Staples (XLP) fell 1.1%, and Communication Services (XLC) dropped 1%. In contrast, the Industrials Select Sector SPDR (XLI) advanced 2.2%, with gains in companies like Caterpillar and Deere providing some balance to the market. The Philadelphia SE Semiconductor index (SOX) also managed a 3.2% rise despite broader tech weakness.",
+          "id": "openai-ipo-delay",
+          "headline": "OpenAI IPO Delay Reports Fuel Tech Sector Weakness",
+          "summary": "Reports suggest that OpenAI is considering delaying its initial public offering until 2027 as CEO Sam Altman reportedly seeks a $1 trillion valuation. This news significantly impacted the tech sector, contributing to a global sell-off and raising concerns about AI stock valuations and associated costs.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Industrials"
+            "OpenAI",
+            "IPO",
+            "Tech Sector",
+            "AI Valuations"
           ]
         },
         {
-          "id": "economic-data-june26",
-          "headline": "PCE Inflation Above 4%, Jobless Claims Fall, GDP Revised Upward",
-          "summary": "May's PCE inflation, the Federal Reserve's preferred gauge, climbed above 4% year-on-year, reinforcing expectations for a potential interest rate hike. Core PCE rose 0.3%. Personal income and spending both increased by 0.7%. Initial jobless claims for the week ending June 20 decreased by 12,000 to 215,000, while continuing claims rose by 21,000. The third estimate for first-quarter 2026 GDP was revised upward to a 2.1% increase.",
+          "id": "economic-data-jobless-claims",
+          "headline": "Jobless Claims Decrease, Durable Goods Orders Fall",
+          "summary": "Initial jobless claims for the week ending June 20 came in at 215,000, a decrease of 12,000 from the previous week. However, durable goods orders for May fell by 4.5%, suggesting a potential slowdown in manufacturing activity.",
           "tags": [
             "Economic Data",
-            "Inflation",
             "Jobless Claims",
-            "GDP"
+            "Durable Goods"
           ]
         },
         {
-          "id": "fed-outlook-june26",
-          "headline": "Fed Maintains Hawkish Tone as Rate Hike Concerns Linger",
-          "summary": "Policymakers are expected to maintain a hawkish stance due to rising core inflationary pressures and solid labor income. The CME FedWatch Tool indicates a 47% probability of a September rate hike. Federal Reserve Chair Kevin Warsh has emphasized returning inflation to the 2% target as a priority. Traders will monitor speeches from New York Fed President John Williams and Minneapolis Fed President Neel Kashkari.",
+          "id": "inflation-concerns-persist",
+          "headline": "Inflation Remains Above 4%, Fed Rate Hike Possibility",
+          "summary": "U.S. inflation climbed to 4.1% in May, up from 3.8% in April, marking the first time in three years it has risen above 4%. This sustained inflation keeps alive the possibility of a Federal Reserve rate hike, despite a recent cooling of expectations due to easing oil prices and some economic data.",
           "tags": [
+            "Inflation",
             "Federal Reserve",
-            "Interest Rates",
-            "Monetary Policy"
+            "Rate Hike"
           ]
         },
         {
-          "id": "ai-fatigue-june26",
-          "headline": "AI-Driven Fatigue Impacts Tech Valuations",
-          "summary": "Technology stocks continued to face 'AI-driven fatigue' as investors grew increasingly cautious about lofty valuations and rising costs within the sector. Concerns over the surging costs of AI data centers and memory chip shortages have led to profit-taking, particularly in Asia, where AI-related stocks saw heavy losses.",
+          "id": "consumer-sentiment",
+          "headline": "Consumer Sentiment Shows Slight Improvement Amidst High Cost of Living Concerns",
+          "summary": "The University of Michigan's consumer sentiment survey for June registered 49.5, slightly exceeding estimates. However, the reading remains near historic lows, indicating ongoing concerns among consumers about the high cost of living.",
           "tags": [
-            "AI Stocks",
-            "Technology",
-            "Valuations",
-            "Market Sentiment"
+            "Consumer Sentiment",
+            "Economy"
+          ]
+        },
+        {
+          "id": "sector-rotation-away-from-tech",
+          "headline": "Investors Rotate Capital Out of Tech into Broader Market",
+          "summary": "Amid ongoing tech sector weakness and profit-taking in high-flying AI stocks, investors are observed rotating their money into sectors beyond technology. Industrials, energy, and healthcare showed strength today, a development seen as potentially healthy for market breadth.",
+          "tags": [
+            "Sector Analysis",
+            "Tech",
+            "Market Rotation"
           ]
         }
       ]
