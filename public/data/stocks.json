@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-27T09:26:00Z",
+  "generatedAt": "2026-06-27T13:08:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "June 27, 2026: Weekend Market Update",
-  "badge": "Updated",
+  "title": "Daily Market Digest: June 27, 2026",
+  "subtitle": "Market closes mixed amid tech sell-off and sector rotation",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,152 +13,171 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-june-27",
-          "headline": "Markets Closed for Weekend; Focus on Friday's Positive Close",
-          "summary": "U.S. equity markets are closed today, Saturday, June 27, 2026. Investors are reflecting on yesterday's strong performance, with major indices closing higher. The positive sentiment was primarily driven by continued optimism around technology sector growth and easing inflation concerns. Not financial advice.",
+          "id": "market-summary-june27",
+          "headline": "Tech Sector Retreats, Broader Market Shows Resilience",
+          "summary": "U.S. equities closed a mixed week as major technology and AI-related stocks faced significant selling pressure, while the Dow Jones Industrial Average posted a weekly gain. Investors appear to be rotating into more defensive sectors and smaller cap stocks, indicating a shift in market leadership. Despite a tech sell-off, the broader market showed signs of resilience, with the equal-weighted S&P 500 outperforming its market-cap weighted counterpart. Concerns over AI valuations and future Fed policy continue to shape sentiment.",
           "tags": [
-            "Market Close",
-            "Weekend",
-            "Positive Sentiment"
-          ],
-          "timestamp": "2026-06-27T09:26:00Z"
+            "Market Summary",
+            "Sector Rotation",
+            "Tech Sell-off"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Friday, June 26, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "+0.55%",
-          "statContext": "5,523.45"
+          "statValue": "7,354.02",
+          "statContext": "Down 0.05% on June 26, weekly loss of 2%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "+0.80%",
-          "statContext": "18,450.70"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Comp.",
+          "statValue": "25,297.62",
+          "statContext": "Down 0.24% on June 26, weekly loss of 4.6%",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "+0.35%",
-          "statContext": "41,230.15"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind.",
+          "statValue": "51,876.11",
+          "statContext": "Down 0.09% on June 26, weekly gain of 0.6%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, June 26, 2026)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "NVIDIA Soars on AI Demand",
-          "summary": "Graphics chip giant NVIDIA ($NVDA) continued its strong rally, benefiting from robust demand in artificial intelligence and a recent positive analyst upgrade, pushing its stock higher.",
+          "id": "mu-mover",
+          "headline": "Micron Technology",
+          "summary": "Shares fell almost 7% on June 26 as part of a broader sell-off in memory and chipmakers, despite earlier reports of explosive Q3 earnings that surpassed analyst estimates.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.00%",
+          "direction": "down"
+        },
+        {
+          "id": "nvda-mover",
+          "headline": "Nvidia",
+          "summary": "Continued its weekly downturn, falling 1.6% on June 26, contributing to an 8.6% weekly decline amidst concerns over AI valuations.",
           "ticker": "$NVDA",
-          "price": "$1250.00",
-          "change": "+$42.15",
-          "changePercent": "+3.50%",
-          "direction": "up"
-        },
-        {
-          "id": "smci-gainer",
-          "headline": "Super Micro Computer Gains on AI Server Outlook",
-          "summary": "Super Micro Computer ($SMCI) saw significant gains, driven by sustained growth in AI server infrastructure and reports of a new lucrative contract win, reinforcing investor confidence.",
-          "ticker": "$SMCI",
-          "price": "$850.00",
-          "change": "+$33.50",
-          "changePercent": "+4.10%",
-          "direction": "up"
-        },
-        {
-          "id": "crm-gainer",
-          "headline": "Salesforce Jumps on Strong Earnings",
-          "summary": "Cloud software leader Salesforce ($CRM) climbed after reporting better-than-expected first-quarter earnings and issuing strong guidance for the upcoming quarters.",
-          "ticker": "$CRM",
-          "price": "$320.00",
-          "change": "+$8.75",
-          "changePercent": "+2.80%",
-          "direction": "up"
-        },
-        {
-          "id": "pfe-loser",
-          "headline": "Pfizer Drops on Clinical Trial Setback",
-          "summary": "Pharmaceutical giant Pfizer ($PFE) experienced a downturn following disappointing results from a key clinical trial for one of its pipeline drugs, sparking investor concern.",
-          "ticker": "$PFE",
-          "price": "$28.00",
-          "change": "-$0.60",
-          "changePercent": "-2.10%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.60%",
           "direction": "down"
         },
         {
-          "id": "ual-loser",
-          "headline": "United Airlines Faces Headwinds",
-          "summary": "United Airlines Holdings ($UAL) stock declined amid ongoing concerns about rising jet fuel costs and potential labor disputes impacting the airline industry's profitability.",
-          "ticker": "$UAL",
-          "price": "$45.00",
-          "change": "-$0.80",
-          "changePercent": "-1.80%",
+          "id": "apog-mover",
+          "headline": "Apogee Enterprises",
+          "summary": "Hit a new 52-week high after reporting better-than-expected quarterly earnings, exceeding EPS and revenue forecasts for its fiscal Q1 2027.",
+          "ticker": "$APOG",
+          "price": "$48.92",
+          "change": "+$6.44",
+          "changePercent": "+15.16%",
+          "direction": "up"
+        },
+        {
+          "id": "lly-mover",
+          "headline": "Eli Lilly",
+          "summary": "Gained 7% on June 26, benefiting from a rotation into the healthcare sector amidst broader market shifts.",
+          "ticker": "$LLY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.00%",
+          "direction": "up"
+        },
+        {
+          "id": "orc-mover",
+          "headline": "Oracle",
+          "summary": "Plummeted 19% this week, marking its steepest weekly drop since 2001, reportedly due to costs associated with its AI infrastructure commitments.",
+          "ticker": "$ORCL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-19.00%",
           "direction": "down"
         },
         {
-          "id": "ko-loser",
-          "headline": "Coca-Cola Slips on International Sales Weakness",
-          "summary": "The Coca-Cola Company ($KO) saw its shares fall after analysts pointed to weakening consumer spending in key international markets, potentially impacting future earnings.",
-          "ticker": "$KO",
-          "price": "$61.00",
-          "change": "-$0.90",
-          "changePercent": "-1.50%",
-          "direction": "down"
+          "id": "cat-mover",
+          "headline": "Caterpillar",
+          "summary": "Surged 6% during the past week, contributing to the Dow's overall gain and reflecting strength in industrial sectors.",
+          "ticker": "$CAT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.00%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis (Friday, June 26, 2026)",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-june-26",
-          "headline": "Technology and Communication Services Lead Market Rally",
-          "summary": "On Friday, the technology and communication services sectors were the strongest performers, extending their recent uptrends. This indicates a continued rotation into growth-oriented segments of the market. Conversely, defensive sectors like Healthcare and Consumer Staples lagged behind, suggesting an increased risk appetite among investors.",
+          "id": "fed-stress-tests",
+          "headline": "Federal Reserve Releases Annual Stress Test Results",
+          "summary": "The Federal Reserve released its annual stress test results, indicating that large banks are resilient enough to withstand a severe recession, with capital declining only 1.6 percentage points in aggregate despite over $708 billion in loan losses under the hypothetical scenario. All 32 banks tested remained above minimum capital requirements.",
+          "tags": [
+            "Fed",
+            "Banking",
+            "Stress Test"
+          ]
+        },
+        {
+          "id": "fed-dot-plot-shift",
+          "headline": "FOMC Dot Plot Signals Hawkish Shift, Rate Hike Expected",
+          "summary": "Despite a unanimous decision on June 17, 2026, to hold the federal funds rate at 3.50%-3.75%, the FOMC's 'dot plot' now suggests a rate hike before year-end, according to Minneapolis Fed President Neel Kashkari. This marks a notable shift from earlier expectations of rate cuts, driven by persistent inflation and the robust AI boom.",
+          "tags": [
+            "Fed",
+            "Interest Rates",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "sector-rotation-defensive",
+          "headline": "Investors Rotate into Defensive and Small-Cap Sectors",
+          "summary": "A clear rotation out of high-flying technology and AI stocks was observed, with Healthcare, Real Estate, and Utilities emerging as top-performing S&P 500 sectors. Small-cap stocks also showed impressive strength, with the S&P 600 Small Cap Index closing at a record high, as investors seek more stable areas of the market.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Growth Stocks",
-            "Healthcare"
-          ],
-          "timestamp": "2026-06-27T09:26:00Z"
+            "Healthcare",
+            "Real Estate",
+            "Small Caps"
+          ]
         },
         {
-          "id": "economic-news-june-26",
-          "headline": "Federal Reserve's Beige Book Highlights Moderate Economic Growth",
-          "summary": "The Federal Reserve's latest Beige Book report, released yesterday, indicated a picture of moderate economic expansion across most districts. The report noted continued resilience in consumer spending, albeit with some pockets of caution. This broad assessment contributes to the overall market sentiment.",
+          "id": "economic-data-june",
+          "headline": "Mixed Economic Data Released for May/June",
+          "summary": "The U.S. goods trade deficit widened by 27.4% in May, reaching $105.8 billion. In contrast, the University of Michigan's consumer sentiment index for June was revised upward to 49.5, and both short-term and long-term inflation expectations saw declines.",
           "tags": [
             "Economic Data",
-            "Federal Reserve",
-            "Beige Book",
-            "Economy"
-          ],
-          "timestamp": "2026-06-27T09:26:00Z"
+            "Trade Deficit",
+            "Consumer Sentiment",
+            "Inflation"
+          ]
         },
         {
-          "id": "inflation-outlook-june-26",
-          "headline": "Core PCE Index Shows Slight Dip, Easing Inflation Fears",
-          "summary": "The core Personal Consumption Expenditures (PCE) Price Index, a key inflation gauge for the Fed, showed a slight month-over-month dip, according to data released on Friday. This development has helped to ease some inflation fears among investors, supporting expectations that the Federal Reserve may maintain its current monetary policy stance.",
+          "id": "ai-bubble-concerns",
+          "headline": "AI Bubble Concerns Intensify Amid Tech Weakness",
+          "summary": "Amid a significant sell-off in semiconductor and AI-related stocks, concerns about a potential 'AI bubble burst' are intensifying. Oracle's 19% weekly decline, linked to AI infrastructure costs, highlights the financial pressures in the sector, leading investors to question valuations.",
           "tags": [
-            "Inflation",
-            "PCE Index",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-06-27T09:26:00Z"
+            "AI",
+            "Tech",
+            "Market Sentiment"
+          ]
         }
       ]
     }
