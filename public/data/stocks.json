@@ -1,54 +1,53 @@
 {
-  "generatedAt": "2026-06-28T13:15:00Z",
+  "generatedAt": "2026-06-28T17:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "June 28, 2026",
-  "badge": "LIVE",
+  "title": "Weekend Market Digest: June 28, 2026",
+  "subtitle": "Reviewing the close of Friday, June 26, 2026, as markets are closed for the weekend.",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Mixed Signals as Tech Weighs Down Week",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-june28",
-          "headline": "Tech Sector Pullback Leads Market Lower as Investors Seek Defensive Assets",
-          "summary": "The past week saw a notable downturn in major U.S. indices, primarily driven by a significant pullback in technology stocks amid renewed questions around AI spending, interest rates, and valuations. This shift prompted a rotation of capital into more defensive sectors such as healthcare and utilities. Concerns over potential interest rate hikes in 2026, signaled by Federal Reserve officials, also weighed on market sentiment. The Bank for International Settlements (BIS) warned of global economic 'pressure points,' including inflation fueled by geopolitical events and fears of cooling AI investments.",
+          "id": "market-summary-friday",
+          "headline": "AI Stock Concerns and Oil Price Drop Shape Friday's Trading",
+          "summary": "U.S. equities experienced a mixed session on Friday, June 26, as a broad market advance, fueled by easing oil prices, was largely counterbalanced by significant declines in AI-related technology stocks. The tech sector continued to face headwinds throughout the week amidst concerns over rising AI infrastructure costs and reports of a potential delay in OpenAI's initial public offering. All major indices ended the day relatively flat or slightly down, concluding a volatile week for investors. Markets are closed for the weekend.",
           "tags": [
-            "Market Sentiment",
-            "Tech Sell-off",
-            "Sector Rotation",
-            "Economic Concerns"
-          ],
-          "timestamp": "2026-06-28T13:15:00Z"
+            "Market Overview",
+            "AI Stocks",
+            "Oil Prices",
+            "Tech Sell-off"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (Friday, June 26, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-friday",
           "statLabel": "S&P 500",
           "statValue": "7,354.02",
-          "statContext": "Down 0.05% on Friday."
+          "statContext": "Down 3.47 points (-0.05%) on Friday. Down 1.91% for the week."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-friday",
           "statLabel": "NASDAQ Composite",
-          "statValue": "29,118.24",
-          "statContext": "Dropped 1.09% on Friday."
+          "statValue": "25,297.62",
+          "statContext": "Down 60.99 points (-0.24%) on Friday. Down 4.37% for the week."
         },
         {
-          "id": "dow-performance",
+          "id": "dowjones-friday",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,876.11",
-          "statContext": "Slipped 0.09% on Friday."
+          "statContext": "Down 44.51 points (-0.09%) on Friday. Up 0.69% for the week."
         }
       ]
     },
@@ -59,117 +58,103 @@
       "layout": "grid",
       "items": [
         {
-          "id": "mover-on-semi",
-          "headline": "ON Semiconductor ($ON)",
-          "summary": "Experiencing the day's largest loss in the S&P 500 after announcing an agreement to acquire Synaptics in an all-stock deal.",
+          "id": "mrna-gainer",
+          "headline": "Moderna Surges on Pipeline News",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+12.62%",
+          "direction": "up",
+          "summary": "Moderna shares surged almost 13% after the drug developer hosted an investor event and showcased its pipeline, leading the healthcare sector."
+        },
+        {
+          "id": "bb-gainer",
+          "headline": "BlackBerry Leads Weekly Gainers",
+          "ticker": "$BB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+35.50% (Weekly)",
+          "direction": "up",
+          "summary": "BlackBerry topped the list of weekly gainers, rising 35.50%. However, shares did slip 3% in premarket trading on Friday after a significant rally in the previous session."
+        },
+        {
+          "id": "on-loser",
+          "headline": "ON Semiconductor Tumbles on Acquisition Deal",
           "ticker": "$ON",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-24.5%",
-          "direction": "down"
+          "changePercent": "-23.7%",
+          "direction": "down",
+          "summary": "ON Semiconductor experienced the day's largest loss in the S&P 500, dropping 23.7% after announcing an agreement to acquire Synaptics in an all-stock deal valued at approximately $7 billion."
         },
         {
-          "id": "mover-micron",
-          "headline": "Micron Technology ($MU)",
-          "summary": "Fell as concerns over AI stock valuations led to a broader tech pullback, despite reporting robust Q3 fiscal 2026 earnings.",
-          "ticker": "$MU",
-          "price": "N/A",
+          "id": "licn-loser",
+          "headline": "Lichen International Experiences Sharp Decline",
+          "ticker": "$LICN",
+          "price": "$1.08",
           "change": "N/A",
-          "changePercent": "-6.69%",
-          "direction": "down"
-        },
-        {
-          "id": "mover-caterpillar",
-          "headline": "Caterpillar ($CAT)",
-          "summary": "Led losses among Dow components.",
-          "ticker": "$CAT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.67%",
-          "direction": "down"
-        },
-        {
-          "id": "mover-microsoft",
-          "headline": "Microsoft ($MSFT)",
-          "summary": "Among the top gainers for Dow components, benefiting from a flight to quality and price increases on key products.",
-          "ticker": "$MSFT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.71%",
-          "direction": "up"
-        },
-        {
-          "id": "mover-eli-lilly",
-          "headline": "Eli Lilly ($LLY)",
-          "summary": "Hit record highs as investors rotated into defensive growth sectors like healthcare.",
-          "ticker": "$LLY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.13%",
-          "direction": "up"
+          "changePercent": "-35.33%",
+          "direction": "down",
+          "summary": "Lichen International Limited saw a significant drop of 35.33%, likely due to profit-taking or negative news within its sector, amid high trading volume."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Highlights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-sector-concentration",
-          "headline": "Technology Sector Dominance and Valuation Concerns",
-          "summary": "The Information Technology sector's share of the S&P 500 has reached a record high of 39% of the index's total market value, with some estimates putting it at 50% when including internet retailers and digital media. This high concentration has raised concerns about portfolio risk. Despite strong earnings from companies like Micron Technology, the broader tech sector, especially AI stocks, faced pressure due to valuation worries.",
+          "id": "sector-performance-friday",
+          "headline": "Healthcare Leads, Technology and Industrials Lag on Friday",
+          "summary": "On Friday, the healthcare sector emerged as the top performer, gaining 3.05% as investors rotated into defensive stocks. Conversely, the industrials sector faced the largest drawdown, declining 1.54%. Technology continued its weekly struggle, ending down 5.32% for the week and dropping five ranks in sector performance, heavily influenced by a sell-off in AI-related chip stocks.",
           "tags": [
             "Sector Analysis",
+            "Healthcare",
             "Technology",
-            "AI",
-            "Market Concentration"
+            "Industrials"
           ]
         },
         {
-          "id": "fed-policy-shifts",
-          "headline": "New Fed Chair Signals Less Guidance, Potential Rate Hikes",
-          "summary": "New Federal Reserve Chairman Kevin Warsh indicated a shift towards less forward guidance, making markets more reliant on incoming economic data. The Fed held rates steady at its June meeting, but the statement leaned hawkish, with several FOMC participants projecting at least one rate hike by the end of 2026 due to sticky inflation linked to energy prices and AI infrastructure spending. Fed Vice Chair Michelle W. Bowman also announced upcoming proposals for final Basel III capital standards.",
+          "id": "ai-stock-volatility",
+          "headline": "AI Stock Volatility Persists Amid OpenAI IPO Delay Reports",
+          "summary": "AI-related chip stocks tumbled on Friday, underscoring continued volatility in the sector that has driven much of Wall Street's recent gains. Reports of OpenAI considering delaying its initial public offering until 2027 further weighed on investor sentiment, adding to concerns about high valuations and the substantial costs associated with building AI data centers.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Interest Rates",
-            "Inflation"
+            "AI Stocks",
+            "Tech Sector",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "economic-data-outlook",
-          "headline": "Key Economic Data on Horizon Amidst Inflation and Agricultural Woes",
-          "summary": "Upcoming economic releases include global June PMI data and the U.S. June non-farm payrolls, which has been moved to Thursday, July 2, ahead of the Independence Day holiday. Consumer inflation expectations for the coming year have slightly decreased to 4.6% from 4.8%. Meanwhile, the U.S. farm economy is experiencing its 12th consecutive quarter of an economic downturn, struggling with inflation, high input costs, and crop prices below breakeven levels.",
+          "id": "economic-data-wrapup",
+          "headline": "Key Economic Indicators: GDP Rebound, Inflation Concerns",
+          "summary": "The U.S. economy's first-quarter GDP was finalized at a robust 2.1% annual pace, surpassing earlier estimates. However, the Federal Reserve's preferred inflation gauge, the PCE Price Index, rose to a three-year high of 4.1% year-over-year in May, keeping alive the possibility of a Fed rate hike. Consumer confidence improved in June, partly due to easing gas prices, with inflation expectations for the next year inching down to 4.6% from 4.8% in May.",
           "tags": [
-            "Economic Data",
-            "Employment",
+            "Economic News",
+            "GDP",
             "Inflation",
-            "Agriculture"
+            "Consumer Confidence"
           ]
         },
         {
-          "id": "commodity-currency-updates",
-          "headline": "Oil Eases as Geopolitical Tensions Subside, Dollar Strengthens",
-          "summary": "Oil prices fell, with WTI crude down 3.75% to $70.07 a barrel, as traffic through the Strait of Hormuz resumed and supply fears eased. Gold rose 1.56% to $4,083.50, while Bitcoin saw a modest gain of 0.28% to $59,923.97. The U.S. dollar surged to a 13-month high, bolstered by the appeal of the booming U.S. artificial intelligence sector and the prospect of higher domestic interest rates.",
+          "id": "oil-prices-hormuz",
+          "headline": "Oil Prices Retreat as Strait of Hormuz Reopens",
+          "summary": "Oil prices eased significantly on Friday after the U.S. and Iran reportedly reached a deal to reopen the Strait of Hormuz, which had previously caused energy price spikes. Brent crude dropped 3.8% to $72.60, while WTI crude fell 8.70% for the week to $69.43 per barrel.",
           "tags": [
             "Commodities",
-            "Currencies",
-            "Oil",
-            "Gold",
-            "Bitcoin"
+            "Oil Market",
+            "Geopolitics"
           ]
         },
         {
-          "id": "upcoming-earnings",
-          "headline": "Major Earnings Ahead: Nike and Constellation Brands",
-          "summary": "Looking to the upcoming week (starting June 29), investors will be watching earnings reports from major companies including Nike ($NKE) and Constellation Brands ($STZ), both scheduled to report after the market closes on Tuesday, June 30.",
+          "id": "upcoming-economic-calendar",
+          "headline": "Upcoming Week Features June Jobs Report and Key Economic Data",
+          "summary": "Looking ahead, the U.S. June employment report, including non-farm payrolls, will be a major focus, scheduled for release on Thursday, July 2, ahead of the Independence Day holiday on Friday, July 3, when U.S. markets will be closed. Other important releases include the May JOLTS report, the ADP employment report, and the ISM Manufacturing PMI.",
           "tags": [
-            "Earnings",
-            "Corporate News",
-            "Nike",
-            "Constellation Brands"
+            "Economic Calendar",
+            "Jobs Report",
+            "FOMC"
           ]
         }
       ]
