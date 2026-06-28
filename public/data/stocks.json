@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-27T17:14:00Z",
+  "generatedAt": "2026-06-28T09:55:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "June 27, 2026 Market Close",
-  "badge": "LIVE",
+  "subtitle": "June 28, 2026 - Weekend Edition",
+  "badge": "Market Closed",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,176 +13,192 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Markets Close Mixed Amid Tech Rout and Sector Rotation",
-          "summary": "U.S. stock markets concluded June 27, 2026, with a mixed performance across major indices. While AI-related stocks continued their upward momentum, a broader tech sell-off throughout the week, coupled with persistent inflation concerns and a hawkish Fed outlook, led to a defensive rotation. Healthcare, Real Estate, and Utilities sectors showed strength, while megacap tech names faced pressure. Not financial advice.",
+          "id": "market-summary-june28",
+          "headline": "Quiet Weekend After a Pullback; Asia Tech Sell-off Noted",
+          "summary": "U.S. markets concluded the week on a subdued note, with major indices closing lower on Friday, June 27, 2026, breaking a two-week winning streak for the S&P 500. Global sentiment over the weekend has been impacted by a significant tech-led sell-off in Asian markets, notably the KOSPI plunging nearly 6% and the Nikkei falling 4.15% on Saturday, June 28, 2026. Investors appear to be rotating towards more defensive sectors like healthcare.",
           "tags": [
-            "Market Summary",
-            "Tech Sell-off",
-            "Sector Rotation"
+            "Market Sentiment",
+            "Weekend",
+            "Tech Sell-off"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (June 27, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
           "statValue": "7,354.02",
-          "statContext": "Down 0.05% today. The index declined over 1% for the week.",
-          "direction": "down"
+          "statContext": "Closed -0.05% on Friday."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,297.618",
-          "statContext": "Down 0.24% today. The tech-heavy Nasdaq dropped 4.6% on the week, marking its worst weekly loss in over a year.",
-          "direction": "down"
+          "statContext": "Closed -0.24% on Friday."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-close",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,876.11",
-          "statContext": "Down 0.09% today. The Dow posted a weekly gain of 0.6% to 1%.",
-          "direction": "down"
+          "statContext": "Closed -0.09% on Friday."
+        },
+        {
+          "id": "market-status-note",
+          "statLabel": "U.S. Markets",
+          "statValue": "Closed",
+          "statContext": "U.S. stock markets are closed today, June 28, 2026, for the weekend."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (June 26, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "servicenow-gainer",
-          "headline": "ServiceNow Surges on AI Optimism",
-          "summary": "AI-related stocks saw broad gains, with ServiceNow leading the charge.",
+          "id": "lly-gainer",
+          "headline": "Eli Lilly Surges Amid Defensive Rotation",
+          "ticker": "$LLY",
+          "price": "$1,208.12",
+          "change": "+$80.43",
+          "changePercent": "+7.13%",
+          "direction": "up",
+          "summary": "Eli Lilly and Company saw significant gains as investors sought defensive growth amidst cooling tech momentum."
+        },
+        {
+          "id": "mrna-gainer",
+          "headline": "Moderna Leads S&P 500 Gainers",
+          "ticker": "$MRNA",
+          "price": "$67.27",
+          "change": "+$7.52",
+          "changePercent": "+12.59%",
+          "direction": "up",
+          "summary": "Moderna was among the top S&P 500 gainers on Friday, June 26, 2026."
+        },
+        {
+          "id": "now-gainer",
+          "headline": "ServiceNow Records Notable Uptick",
           "ticker": "$NOW",
-          "price": "N/A",
-          "change": "+9.85%",
+          "price": "$98.34",
+          "change": "+$8.82",
           "changePercent": "+9.85%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "ServiceNow showed strong performance, closing up nearly 10% on Friday."
         },
         {
-          "id": "snowflake-gainer",
-          "headline": "Snowflake Continues AI-Driven Ascent",
-          "summary": "Another AI beneficiary, Snowflake, recorded strong daily gains.",
-          "ticker": "$SNOW",
-          "price": "N/A",
-          "change": "+9.65%",
-          "changePercent": "+9.65%",
-          "direction": "up"
+          "id": "ddog-gainer",
+          "headline": "Datadog Sees Strong Performance",
+          "ticker": "$DDOG",
+          "price": "$239.77",
+          "change": "+$18.83",
+          "changePercent": "+8.52%",
+          "direction": "up",
+          "summary": "Datadog experienced a solid gain at the close of trading on Friday."
         },
         {
-          "id": "workday-gainer",
-          "headline": "Workday Posts Significant Gains",
-          "summary": "Workday's stock climbed as the AI sector outperformed.",
-          "ticker": "$WDAY",
-          "price": "N/A",
-          "change": "+9.18%",
-          "changePercent": "+9.18%",
-          "direction": "up"
-        },
-        {
-          "id": "on-semiconductor-loser",
-          "headline": "ON Semiconductor Plunges on Acquisition News",
-          "summary": "ON Semiconductor experienced a sharp decline after announcing an agreement to acquire Synaptics in an all-stock deal.",
-          "ticker": "$ON",
-          "price": "N/A",
-          "change": "-24.5%",
-          "changePercent": "-24.5%",
-          "direction": "down"
-        },
-        {
-          "id": "iren-loser",
-          "headline": "IREN Leads Weekly Crypto Stock Declines",
-          "summary": "Crypto stock IREN retreated significantly over the past week amidst a broader Bitcoin sell-off.",
-          "ticker": "$IREN",
-          "price": "$47.21",
-          "change": "-21.26%",
-          "changePercent": "-21.26%",
-          "direction": "down"
-        },
-        {
-          "id": "nvidia-loser",
-          "headline": "Nvidia Shares Tumble Amid Tech Sell-Off",
-          "summary": "The AI chip maker, Nvidia, experienced a notable drop this week as investors rotated out of top tech stocks.",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "-8.6%",
-          "changePercent": "-8.6%",
-          "direction": "down"
+          "id": "tech-losers-note",
+          "headline": "Tech and Industrials Lagged",
+          "summary": "Specific top individual stock losers for the U.S. market from Friday, June 26, 2026, were not readily available; however, industrials and technology sectors led the laggards on Friday. The broader market saw a pullback in technology shares due to AI concerns and interest rate worries."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-stress-test",
-          "headline": "Federal Reserve Stress Test Results Confirm Bank Resilience",
-          "summary": "The Federal Reserve released its annual stress test results, indicating that large banks are resilient enough to withstand a severe economic downturn while continuing to support the economy. All 32 banks tested remained above minimum capital requirements.",
+          "id": "healthcare-leading",
+          "headline": "Healthcare Sector Shows Strength",
+          "summary": "Healthcare stocks demonstrated robust performance last week, rising 7.5% on average, as investors sought bargains and defensive growth opportunities. The sector was a leading performer on June 26, 2026.",
           "tags": [
-            "Federal Reserve",
-            "Banking",
-            "Economic Data"
-          ],
-          "timestamp": "2026-06-27T12:00:00Z"
+            "Healthcare",
+            "Leading Sector"
+          ]
         },
         {
-          "id": "inflation-concerns",
-          "headline": "Key Inflation Gauge Reaches Three-Year High, Raising Rate Hike Expectations",
-          "summary": "The Federal Reserve's preferred inflation gauge rose to a new three-year high in May, with consumer prices increasing 4.1% year-over-year. Minneapolis Fed President Neel Kashkari suggested a rate hike this year, attributing the pressure to the AI boom and persistent inflation.",
+          "id": "tech-lagging",
+          "headline": "Technology Sector Under Pressure Amid AI Jitters",
+          "summary": "The technology sector experienced a significant pullback, dropping 5 ranks to #9 on June 26, 2026, due to renewed questions around AI spending, interest rates, and valuations. Chinese hedge funds have warned that the rapid rise in artificial intelligence stocks may be nearing a 'super bubble' breaking point. This sentiment was echoed in Asian markets with a violent tech-led sell-off on Saturday.",
           "tags": [
-            "Inflation",
-            "Federal Reserve",
-            "Economic Data"
-          ],
-          "timestamp": "2026-06-27T10:11:00Z"
+            "Technology",
+            "Lagging Sector",
+            "AI Concerns"
+          ]
         },
         {
-          "id": "micron-earnings-ai-demand",
-          "headline": "Micron Technology Reports Explosive Earnings Driven by AI Demand",
-          "summary": "Micron Technology ($MU) announced strong Q3 fiscal 2026 earnings, reporting revenue of $41 billion, significantly surpassing expectations. The company's gross margin exceeded 84%, highlighting the robust demand for memory and storage solutions critical for the artificial intelligence revolution.",
+          "id": "energy-under-pressure",
+          "headline": "Energy and Commodities Under Pressure",
+          "summary": "The energy and commodities sectors faced significant pressure last week, with oil prices selling off hard, down over 25% in the past month. Oil (CM:CL) fell 3.75% to $70.07 on Friday as supply fears eased after traffic through the Strait of Hormuz resumed. The Oil & Gas sector led declines in some markets, falling 4.66%.",
+          "tags": [
+            "Energy",
+            "Commodities",
+            "Lagging Sector"
+          ]
+        },
+        {
+          "id": "industrials-strong",
+          "headline": "Industrials Show Stability",
+          "summary": "The Industrials sector held a stable leading position on June 26, 2026.",
+          "tags": [
+            "Industrials",
+            "Leading Sector"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "fed-announcements-june",
+          "headline": "Federal Reserve Maintained Rates, Hawkish Stance on Inflation",
+          "summary": "The Federal Reserve held its target range for the federal funds rate steady at 3-1/2 to 3-3/4 percent at its June 16-17, 2026 meeting. The committee's statement maintained a hawkish tone, emphasizing elevated inflation relative to its 2 percent goal. Minneapolis Federal Reserve President Neel Kashkari indicated that one rate hike could still occur in 2026, citing sticky inflation related to energy prices and AI infrastructure spending.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "economic-data-june28",
+          "headline": "Economic Data Releases Across Europe on June 28, 2026",
+          "summary": "Several economic events are scheduled for Sunday, June 28, 2026, primarily across European countries. These include releases on Manufacturing Confidence in the Netherlands, Consumer Confidence in Finland and Portugal, Industrial Output in Lithuania, Trade Balance in Sweden, HICP Flash YY in Spain, Retail Sales in Spain, Sweden, and Ireland, Money-M3 in the EU, Mortgage Lending and Approvals in Great Britain, BOE Consumer Credit in Great Britain, Business Confidence in Portugal and the EU, Economic Sentiment in the EU, and CPI in Belgium.",
+          "tags": [
+            "Economic Data",
+            "Europe"
+          ]
+        },
+        {
+          "id": "earnings-news",
+          "headline": "Micron Technology Reports Record Q3 Results",
+          "summary": "Micron Technology ($MU) announced record results for its third quarter of fiscal 2026, which ended May 28, 2026. The company reported revenue of $41.46 billion and GAAP net income of $28.24 billion. Major tech earnings reports expected in late July include Alphabet ($GOOGL) on July 28, 2026, Meta Platforms ($META) on July 29, 2026, and Apple ($AAPL) on July 30, 2026.",
           "tags": [
             "Earnings",
-            "Technology",
-            "AI"
-          ],
-          "timestamp": "2026-06-27T08:15:00Z"
+            "Micron Technology",
+            "Tech Companies"
+          ]
         },
         {
-          "id": "sector-rotation-tech-selloff",
-          "headline": "Investors Rotate Out of Megacap Tech; Healthcare and Real Estate Lead",
-          "summary": "The week saw a significant rotation out of top-performing technology stocks, particularly megacap and AI-driven names, into more defensive sectors. Healthcare gained 7.9% for the week, with Real Estate and Utilities also showing strong performance, as investors sought bargains outside of the pressured tech sector.",
+          "id": "crypto-outflows",
+          "headline": "Bitcoin Spot ETFs See Record Outflows",
+          "summary": "Bitcoin spot ETFs experienced $1.79 billion in net outflows last week, marking the second-largest weekly redemption on record. Bitcoin's price hovered around the $60,000 level, briefly sliding to $58,126 before a slight recovery.",
           "tags": [
-            "Sector Analysis",
-            "Market Trends",
-            "Technology",
-            "Healthcare",
-            "Real Estate"
-          ],
-          "timestamp": "2026-06-27T16:30:00Z"
-        },
-        {
-          "id": "china-economy-ai",
-          "headline": "Chinese Advisers Urge Fix for 'Two-Speed Economy' Amid AI Boom",
-          "summary": "Advisers to the Chinese government called for measures to address a growing divergence in the economy, where the AI-fueled high-tech sector is outperforming while domestic consumer spending lags. Concerns were raised about the impact of this imbalance on technology innovation.",
-          "tags": [
-            "Global Economy",
-            "China",
-            "AI"
-          ],
-          "timestamp": "2026-06-27T06:00:00Z"
+            "Cryptocurrency",
+            "Bitcoin",
+            "ETF Outflows"
+          ]
         }
       ]
     }
