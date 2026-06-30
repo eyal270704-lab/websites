@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T09:22:25.274249Z",
+  "generatedAt": "2026-06-30T16:26:42.214970Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Risk - Contrarian",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Farm & Heavy Construction Machinery",
+      "currentPrice": "$1068.01",
+      "entry": "$1025.82",
+      "stop": "$1007.39",
+      "structure": "20-day MA Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is in a strong uptrend, trading above all key moving averages. However, it has upcoming earnings on August 4, 2026, which is within the next five days, making this a high-risk trade. Entry on a pullback to the 20-day moving average at $1025.82 could offer a potential bounce, with a stop below the 50-day MA.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$350.81",
+      "entry": "$347.33",
+      "stop": "$338.51",
+      "structure": "20-day MA Support Test",
+      "trend": "1.5x",
+      "trendLabel": "RVOL",
+      "analysis": "Home Depot is showing a short-term uptrend, trading above its 20-day and 50-day moving averages. Current volume is elevated at approximately 1.5 times its average, indicating increased interest. Price is currently just below the 200-day moving average, which could act as resistance, suggesting a cautious approach for a momentum play.",
+      "riskScore": 5,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc.",
+      "sector": "Technology Services",
+      "currentPrice": "$31.38",
+      "entry": "$30.00",
+      "stop": "$29.00",
+      "structure": "52-week low bounce attempt",
+      "trend": "Downtrend",
+      "trendLabel": "Trend",
+      "analysis": "Zillow Group is in a strong downtrend, trading significantly below its major moving averages and near its 52-week low. Relative volume is low, indicating a lack of significant interest. Coupled with ongoing legal issues (FTC antitrust and class-action lawsuits), this makes for a highly risky and speculative 'avoid' setup.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Legal Issues / Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
