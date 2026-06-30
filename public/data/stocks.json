@@ -1,131 +1,194 @@
 {
-  "generatedAt": "2026-06-30T10:29:00Z",
+  "generatedAt": "2026-06-30T13:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, June 30, 2026 - Market Insights",
+  "subtitle": "June 30, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-june30",
-      "title": "Market Pulse: Tech Rebound Drives Optimism Amid Geopolitical Stability",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-june30",
-          "headline": "U.S. Equities Show Positive Momentum; Dow Hits New Record High",
-          "summary": "U.S. stock futures edged higher early Tuesday, building on robust performance from Monday, as investors responded to easing geopolitical tensions and renewed buying interest in technology and AI-linked shares. The Dow Jones Industrial Average closed above 52,000 for the first time on Monday, signaling strong investor optimism. Market sentiment remains largely positive, with focus shifting towards the upcoming Q3 2026 earnings season.",
+          "headline": "U.S. Futures Edge Higher as Dow Hits Record, Tech Rebounds",
+          "summary": "U.S. stock futures showed mixed to slightly higher movements on Tuesday, building on a strong Monday session where the Dow Jones Industrial Average closed at a record high above 52,000 for the first time. Markets rallied sharply yesterday, breaking a five-day losing streak, primarily driven by a rebound in technology shares. Overall market sentiment remains constructive, bolstered by hopes for easing tensions between the U.S. and Iran, although investors are also looking ahead to key economic data releases today and the close of a strong quarter.",
           "tags": [
             "Market Overview",
-            "Technology",
+            "Sentiment",
             "Geopolitics"
           ],
-          "timestamp": "2026-06-30T10:00:00Z"
+          "timestamp": "2026-06-30T13:54:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-june30",
-      "title": "Major Indices Performance",
+      "id": "major-indices",
+      "title": "Major Indices Performance (June 29 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-june30",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,447.10",
-          "statContext": "+0.09% (Previous Close: 7,440.43, +1.2%)"
+          "statValue": "7,440.43",
+          "statContext": "+1.18%",
+          "change": "+86.41",
+          "changePercent": "+1.18%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-june30",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,820.14",
-          "statContext": "+2.07% (Previous Close: 25,820.14, +2.1%)"
+          "statContext": "+2.07%",
+          "change": "+522.53",
+          "changePercent": "+2.07%",
+          "direction": "up"
         },
         {
-          "id": "dow-june30",
-          "statLabel": "Dow Jones Ind. Avg.",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,182.74",
-          "statContext": "+0.04% (Previous Close: 52,182.74, +0.6%, New Record High)"
+          "statContext": "+0.59%",
+          "change": "+306.63",
+          "changePercent": "+0.59%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-june30",
-      "title": "Top Movers of the Day",
+      "id": "top-movers",
+      "title": "Top Movers (Pre-Market/Early Trading)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-avav",
-          "headline": "AeroVironment Surges on Strong Earnings",
-          "summary": "AeroVironment ($AVAV) rallied sharply after the defense technology company reported record FQ4 results that surpassed Wall Street estimates, driven by robust demand and contributions from its BlueHalo acquisition.",
+          "id": "avav-gainer",
+          "headline": "AeroVironment Surges on Strong Q4 Results",
+          "summary": "Shares of the drone company jumped after reporting better-than-expected fourth-quarter results.",
           "ticker": "$AVAV",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+20.0%",
+          "changePercent": "+34.0%",
           "direction": "up"
         },
         {
-          "id": "gainer-msci",
-          "headline": "MSCI Inc. Jumps on Positive Sentiment",
-          "summary": "MSCI Inc. ($MSCI) saw a significant pre-market surge, benefiting from a positive shift in investor sentiment, largely attributed to easing tensions between the U.S. and Iran and overall market optimism following the Dow's record high.",
-          "ticker": "$MSCI",
+          "id": "asts-gainer",
+          "headline": "AST SpaceMobile Climbs on Satellite Updates",
+          "summary": "Investors reacted positively to recent satellite deployment updates and index changes.",
+          "ticker": "$ASTS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.66%",
+          "changePercent": "+21.44%",
           "direction": "up"
         },
         {
-          "id": "loser-nvct",
-          "headline": "Nuvectis Pharma Plunges on Public Offering",
-          "summary": "Nuvectis Pharma ($NVCT) shares plunged after the clinical-stage biotech company priced an underwritten public offering of 5 million common shares at $20 per share, aiming to raise $100 million in gross proceeds.",
-          "ticker": "$NVCT",
+          "id": "cbrs-gainer",
+          "headline": "Cerebras Systems Rises with Analyst Coverage",
+          "summary": "The AI computing company saw a significant gain following fresh analyst coverage.",
+          "ticker": "$CBRS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.0%",
+          "changePercent": "+19.04%",
+          "direction": "up"
+        },
+        {
+          "id": "cnxc-loser",
+          "headline": "Concentrix Tumbles on Weak Outlook",
+          "summary": "The technology services company fell sharply after missing second-quarter earnings estimates and issuing a weak outlook.",
+          "ticker": "$CNXC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-23.7%",
           "direction": "down"
         },
         {
-          "id": "loser-mama",
-          "headline": "Mama's Creations Tumbles After Share Offering",
-          "summary": "Mama's Creations ($MAMA) shares tumbled following the pricing of an underwritten public offering of 5.56 million common shares at $18.00 per share, which is expected to raise approximately $100 million in gross proceeds.",
-          "ticker": "$MAMA",
+          "id": "hon-loser",
+          "headline": "Honeywell International Down After Spin-off",
+          "summary": "Honeywell shares declined significantly on its first regular session following a reverse stock split and spin-off.",
+          "ticker": "$HON",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.0%",
+          "changePercent": "-50.95%",
+          "direction": "down"
+        },
+        {
+          "id": "nsc-loser",
+          "headline": "Norfolk Southern Slips in Early Trading",
+          "summary": "The railway company saw a notable decline in pre-market activity.",
+          "ticker": "$NSC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.4%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-june30",
+      "id": "market-news",
       "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-june30",
-          "headline": "Technology and Healthcare Lead Sector Performance",
-          "summary": "Technology and Healthcare sectors are leading the market, with significant rebounds in AI-linked stocks driving gains. Industrials also showed strength. Conversely, defensive sectors such as Utilities, Clean Energy, and Communication Services underperformed, indicating a rotation of capital into more cyclical and growth-oriented segments.",
+          "id": "economic-data-focus",
+          "headline": "Key Economic Data Releases Expected Today",
+          "summary": "Investors are closely watching for the May JOLTS job openings report and the Conference Board's consumer confidence index, scheduled for release later today. These reports will offer fresh insights into the strength of the U.S. economy.",
+          "tags": [
+            "Economic Data",
+            "Employment",
+            "Consumer Sentiment"
+          ],
+          "timestamp": "2026-06-30T13:54:00Z"
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Fed Rate Hike Expectations Remain in Focus",
+          "summary": "Traders are currently pricing in at least one interest rate hike by the Federal Reserve by the end of 2026. Attention will also be on comments from Fed Chair Kevin Warsh at an economic conference in Portugal later today for potential clues on monetary policy.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-06-30T13:54:00Z"
+        },
+        {
+          "id": "geopolitical-developments",
+          "headline": "U.S.-Iran Peace Talks Resume Amid Easing Tensions",
+          "summary": "Easing geopolitical tensions between the U.S. and Iran are positively influencing market sentiment, with negotiations scheduled to resume in Doha, Qatar. This follows an agreement to halt hostilities and allow commercial vessels through the Strait of Hormuz.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "International Relations"
+          ],
+          "timestamp": "2026-06-30T13:54:00Z"
+        },
+        {
+          "id": "sector-highlights",
+          "headline": "Tech and AI Lead Rebound, Defensive Sectors Lag",
+          "summary": "The technology sector, particularly AI-related names and semiconductors, continues to show strong performance and led Monday's market rebound. In contrast, defensive sectors such as consumer staples, utilities, and real estate lagged as investors rotated back towards growth-oriented stocks.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare",
-            "Energy"
-          ]
+            "AI",
+            "Growth Stocks"
+          ],
+          "timestamp": "2026-06-30T13:54:00Z"
         },
         {
-          "id": "economic-news-june30",
-          "headline": "Geopolitical Tensions Ease, Economic Data on Deck",
-          "summary": "Easing tensions between the U.S. and Iran, with President Trump announcing a resumption of negotiations, have significantly boosted risk appetite and contributed to a retreat in oil prices. Investors are now looking ahead to key U.S. economic data releases this week, including May's JOLTS Job Openings, June's Consumer Confidence, and the crucial U.S. payrolls report. The Q3 2026 earnings reporting season is also approaching, drawing market attention.",
+          "id": "q2-earnings-season",
+          "headline": "Major Companies Report Earnings Today",
+          "summary": "Constellation Brands ($STZ), Nike ($NKE), and Progress Software ($PRGS) are among the major companies scheduled to report their earnings today. These reports will provide critical insights into corporate performance and consumer trends.",
           "tags": [
-            "Economic News",
-            "Geopolitics",
-            "Earnings",
-            "Data Release"
-          ]
+            "Earnings Reports",
+            "Q2 Earnings",
+            "Corporate News"
+          ],
+          "timestamp": "2026-06-30T13:54:00Z"
         }
       ]
     }
