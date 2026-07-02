@@ -1,187 +1,174 @@
 {
-  "generatedAt": "2026-07-02T10:08:00Z",
+  "generatedAt": "2026-07-02T13:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Tech Rout Continues Amidst Jobs Report Anticipation",
-  "subtitle": "July 02, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "July 02, 2026 - Navigating Jobs Report and Tech Sector Pullback",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-001",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-070226",
-          "headline": "U.S. Futures Mixed as Tech Sell-off Persists Ahead of Key Jobs Data",
-          "summary": "U.S. stock futures are wavering on Thursday, July 2, as the tech-heavy Nasdaq anticipates further declines following a significant sell-off in chip and AI-related stocks on Wednesday. Investors are keenly focused on the imminent release of the June nonfarm payrolls report, a critical indicator for the Federal Reserve's future monetary policy. Despite the tech sector's struggles, Dow Jones futures show slight gains, indicating a rotation of investor interest.",
+          "id": "mp-001",
+          "headline": "US Equities Show Mixed Performance Amid Weaker Jobs Data and Tech Sell-off",
+          "summary": "US markets are displaying mixed sentiment today, July 2, 2026, as investors digest a weaker-than-expected June jobs report and continued pressure on the technology and semiconductor sectors. The S&P 500 is trading modestly higher, while the Dow Jones Industrial Average also sees gains. However, the Nasdaq Composite is showing a slight decline, largely impacted by profit-taking in high-flying AI-linked stocks. Market participants are closely monitoring Federal Reserve commentary and upcoming inflation data for clues on future monetary policy. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "Pre-market",
-            "Economic Data"
+            "Market Overview",
+            "Economic Data",
+            "Tech Sector"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (as of July 1, 2026 close)",
+      "id": "major-indices-001",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-001",
+          "headline": "S&P 500 Performance",
           "statLabel": "S&P 500",
-          "statValue": "7,483.23",
-          "statContext": "Down 0.22% (16.13 points) on Wednesday."
+          "statValue": "7,505.00",
+          "statContext": "Up 0.14% (approx. 10 points) on July 2, 2026. The SPDR S&P 500 ETF ($SPY) is up 0.41%.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-001",
+          "headline": "NASDAQ Composite Performance",
+          "statLabel": "NASDAQ",
           "statValue": "26,040.03",
-          "statContext": "Down 0.7% (173.69 points) on Wednesday, halting a two-session gaining streak."
+          "statContext": "Up 0.22% (approx. 65 points) on July 2, 2026, despite a drag from chip stocks. Futures were down 0.1% earlier.",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,305.24",
-          "statContext": "Marginally down 0.027% (13.96 points) on Wednesday after hitting a new intraday record."
+          "id": "dow-001",
+          "headline": "Dow Jones Industrial Average Performance",
+          "statLabel": "DOW",
+          "statValue": "52,387.24",
+          "statContext": "Up 0.16% (approx. 82 points) on July 2, 2026. Futures climbed 0.2% in pre-market trading.",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (as of July 1, 2026 close / July 2, 2026 pre-market)",
+      "id": "top-movers-001",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "meta-gainer",
-          "headline": "Meta Platforms Surges on Cloud Business News",
-          "summary": "Meta Platforms ($META) jumped nearly 9% on July 1 after reports emerged about its plans to launch a 'Meta Compute' cloud business, aiming to monetize its excess AI computing capacity.",
-          "ticker": "$META",
+          "id": "mover-gainer-LHAI",
+          "headline": "Linkhome Holdings Surges",
+          "ticker": "$LHAI",
+          "price": "$2.74",
+          "change": "+$2.09",
+          "changePercent": "+315.15%",
+          "direction": "up",
+          "summary": "Linkhome Holdings Inc. ($LHAI) experienced a significant surge, leading the market's gainers."
+        },
+        {
+          "id": "mover-gainer-SDOT",
+          "headline": "Sadot Group Sees Triple-Digit Gains",
+          "ticker": "$SDOT",
+          "price": "$72.00",
+          "change": "+$36.90",
+          "changePercent": "+105.19%",
+          "direction": "up",
+          "summary": "Sadot Group Inc. ($SDOT) climbed over 100%, making it one of the top gainers of the day."
+        },
+        {
+          "id": "mover-gainer-PLTR",
+          "headline": "Palantir Technologies Rises on Analyst Upgrade",
+          "ticker": "$PLTR",
           "price": "N/A",
-          "change": "+N/A",
-          "changePercent": "+8.9%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+3.7%",
+          "direction": "up",
+          "summary": "Palantir Technologies Inc. ($PLTR) gained after DA Davidson & Co upgraded its recommendation to buy, citing a competitive advantage in the AI sector."
         },
         {
-          "id": "tesla-gainer",
-          "headline": "Tesla Sees Weekly Gains, Positive Q2 Outlook",
-          "summary": "Tesla ($TSLA) was up 1.2% on July 1 and recorded a 12.0% weekly gain from June 26 to July 1, driven by the closure of a NHTSA safety probe and the rollout of FSD v14 Lite. Analysts are revising Q2 delivery forecasts upward.",
-          "ticker": "$TSLA",
-          "price": "$425.66",
-          "change": "+$5.06",
-          "changePercent": "+1.2%",
-          "direction": "up"
+          "id": "mover-loser-NBIS",
+          "headline": "Nebius Group Declines Amid Competition Concerns",
+          "ticker": "$NBIS",
+          "price": "$229.18",
+          "change": "N/A",
+          "changePercent": "-17.01%",
+          "direction": "down",
+          "summary": "Nebius Group ($NBIS) fell sharply due to reports that Meta's potential cloud plans could intensify competition for neocloud providers."
         },
         {
-          "id": "micron-loser",
-          "headline": "Micron Technology Leads Chipmaker Declines",
-          "summary": "Micron Technology ($MU) plunged 10.6% on July 1 as investors took profits in AI-linked hardware amid a broader sell-off in semiconductor stocks.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "-N/A",
-          "changePercent": "-10.6%",
-          "direction": "down"
+          "id": "mover-loser-SSTK",
+          "headline": "Shutterstock Shares Drop",
+          "ticker": "$SSTK",
+          "price": "$9.90",
+          "change": "-$4.10",
+          "changePercent": "-29.03%",
+          "direction": "down",
+          "summary": "Shutterstock, Inc. ($SSTK) experienced a significant decline today."
         },
         {
-          "id": "sandisk-loser",
-          "headline": "SanDisk Corp Falls Alongside Chip Sector",
-          "summary": "SanDisk Corp ($SNDK) also dropped 10.6% on July 1, part of the widespread sell-off affecting chipmakers and memory stocks.",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "-N/A",
-          "changePercent": "-10.6%",
-          "direction": "down"
-        },
-        {
-          "id": "franklin-covey-loser",
-          "headline": "Franklin Covey Drops on Lowered Guidance",
-          "summary": "Franklin Covey Co. ($FC) fell 19.69% in premarket trading on July 2 after the company lowered its full-year revenue guidance.",
-          "ticker": "$FC",
-          "price": "N/A",
-          "change": "-N/A",
-          "changePercent": "-19.69%",
-          "direction": "down"
-        },
-        {
-          "id": "coreweave-loser",
-          "headline": "CoreWeave Hit by Meta's Cloud Entry",
-          "summary": "CoreWeave ($CRWV) experienced a 14% drop on July 1 following news of Meta Platforms' entry into the cloud computing market, directly impacting neo-cloud service providers.",
+          "id": "mover-loser-CRWV",
+          "headline": "CoreWeave Slips on AI Cloud Competition",
           "ticker": "$CRWV",
           "price": "N/A",
-          "change": "-N/A",
-          "changePercent": "-14%",
-          "direction": "down"
+          "change": "N/A",
+          "changePercent": "-13.92%",
+          "direction": "down",
+          "summary": "CoreWeave ($CRWV) saw a notable decline as analysts highlighted competitive risks stemming from Meta's prospective AI cloud infrastructure initiatives."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-001",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-070226",
-          "headline": "June Nonfarm Payrolls Report Eyed by Investors and Federal Reserve",
-          "summary": "The highly anticipated June nonfarm payrolls report is set for release today, July 2. Economists project the U.S. economy to have added 115,000 jobs last month. This data will be crucial in shaping expectations for the Federal Reserve's interest rate path, with the next FOMC meeting scheduled for July 29.",
+          "id": "news-economic-001",
+          "headline": "June Jobs Report Disappoints, Unemployment Rate Dips",
+          "summary": "The Bureau of Labor Statistics reported that the US economy added a lower-than-expected 57,000 nonfarm payroll jobs in June, significantly missing the 100,000-115,000 estimate. However, the unemployment rate dipped to 4.2%, slightly below the anticipated 4.3%. Initial jobless claims for the week ending June 27 also ticked down to 215,000.",
           "tags": [
             "Economic Data",
-            "Fed Policy",
-            "Jobs Report"
+            "Jobs Report",
+            "Unemployment"
           ]
         },
         {
-          "id": "tech-sector-struggles",
-          "headline": "Technology Sector Leads Market Decline Amidst Profit-Taking",
-          "summary": "The technology sector, particularly semiconductor and AI stocks, is experiencing significant weakness and profit-taking. Major players like Micron Technology, SanDisk Corp, AMD, and Intel saw substantial declines, pulling down the Nasdaq. This follows a strong first half of 2026 for the sector.",
+          "id": "news-fed-001",
+          "headline": "Fed Maintains Inflation Focus Amid Easing Risks",
+          "summary": "Federal Reserve Chair Kevin Warsh reiterated the central bank's commitment to its 2% inflation target, even as he acknowledged that inflation risks have eased. Markets are currently pricing in a 70.6% likelihood that the Federal Reserve will hold interest rates steady at its July meeting.",
+          "tags": [
+            "Federal Reserve",
+            "Monetary Policy",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "news-sector-001",
+          "headline": "Tech and Semiconductor Sectors Under Pressure; Cyclical Stocks See Inflows",
+          "summary": "The technology and semiconductor sectors continued to face selling pressure and profit-taking today, leading to declines in several prominent chip-related stocks. Conversely, cyclical sectors such as industrials, financials, and basic materials are attracting investor interest, with some sector-specific ETFs showing gains.",
           "tags": [
             "Sector Analysis",
             "Technology",
             "Semiconductors",
-            "AI"
+            "Cyclical Stocks"
           ]
         },
         {
-          "id": "meta-cloud-pivot",
-          "headline": "Meta Platforms Pivots into Cloud Computing with 'Meta Compute'",
-          "summary": "Meta Platforms is reportedly launching 'Meta Compute,' a new cloud business designed to sell its excess AI computing capacity to external customers. This strategic move aims to transform AI infrastructure spending from a cost center into a potential new revenue stream, impacting competitors in the cloud services market.",
+          "id": "news-earnings-001",
+          "headline": "Q2 Earnings Season Approaches: Major Companies Set to Report",
+          "summary": "The second-quarter earnings season is set to kick off in mid-July, with major companies like PepsiCo (July 9) and Delta Air Lines (July 10) leading the way, followed by key financial institutions. Later in the month, technology giants including Alphabet, Microsoft, Meta Platforms, and Apple are expected to release their results. MSC Industrial Direct Co. ($MSM) reported strong Q3 fiscal 2026 earnings, surpassing analyst estimates.",
           "tags": [
-            "Company News",
-            "Tech",
-            "Cloud Computing",
-            "AI"
-          ]
-        },
-        {
-          "id": "earnings-kickoff",
-          "headline": "Q2 Earnings Season Approaches; Currys Reports Today",
-          "summary": "While the broader Q2 earnings season officially kicks off in mid-July with major banks and tech giants, Currys ($CURY) is hosting its H2 2026 earnings call today, July 2. FactSet Research Systems Inc. ($FDS) also reported its Q3 fiscal 2026 earnings, highlighting growth driven by AI adoption.",
-          "tags": [
-            "Earnings",
-            "Corporate News"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Easing Iran Tensions Impact Oil Prices",
-          "summary": "Progress in indirect U.S.-Iran talks in Qatar has led to increased optimism about a broader diplomatic resolution, contributing to easing global energy supply fears. Brent crude oil prices remain under pressure, extending declines towards $70 a barrel.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Commodities"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Market Sees Rotation Towards Cyclical Sectors",
-          "summary": "Despite weakness in the tech sector, there's evidence of a 'Great Rotation' of funds into more traditional and cyclical sectors. Financials and Industrials are attracting inflows, helping to cushion the broader market.",
-          "tags": [
-            "Sector Analysis",
-            "Market Trends"
+            "Earnings Season",
+            "Corporate Earnings",
+            "Q2 2026"
           ]
         }
       ]
