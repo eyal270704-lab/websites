@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-02T08:45:21.593706Z",
+  "generatedAt": "2026-07-02T12:13:54.733186Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Risky - Pullback",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$195.85",
+      "entry": "$192.50",
+      "stop": "$183.00",
+      "structure": "Support Test",
+      "trend": "Below 20/50MA, Above 200MA",
+      "trendLabel": "MA Position",
+      "analysis": "NVIDIA is currently pulling back to a key support zone between $192 and $195. The stock is trading below its 20-day and 50-day moving averages but remains above the 200-day MA ($190.63/$190.64), indicating a longer-term uptrend. Volume is below its average daily volume, suggesting a lack of strong conviction in either direction. The next major support is around $183.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$420.60",
+      "entry": "$418.50",
+      "stop": "$390.00",
+      "structure": "200-day MA Support",
+      "trend": "> 20, 50, 200MA",
+      "trendLabel": "MA Position",
+      "analysis": "Despite being in a medium-term falling trend channel, Tesla's price is currently above its 20-day ($400.59), 50-day ($405.62), and 200-day ($418.54) simple moving averages, indicating short-to-medium term bullish momentum. The stock is finding support near its 200-day moving average. Current volume is below average volume, suggesting cautious accumulation. Previous support at $390 now acts as a key stop level.",
+      "riskScore": 6,
+      "footerTag": "Momentum",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$295.97",
+      "entry": "$291.80",
+      "stop": "$276.00",
+      "structure": "50-day MA Support",
+      "trend": "Above 50/200MA, Below 20MA",
+      "trendLabel": "MA Position",
+      "analysis": "Apple is in a medium-term rising trend channel but is currently pulling back, trading slightly below its 20-day moving average ($296.77 SMA) but holding above its 50-day ($291.86 SMA) and 200-day ($269.73 SMA) moving averages. The stock found support near the $291.80 level (50-day SMA). Volume is below average, indicating a lack of strong directional conviction. The next key support is at $276.00.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
