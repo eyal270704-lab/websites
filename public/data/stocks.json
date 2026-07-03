@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-03T09:56:00Z",
+  "generatedAt": "2026-07-03T13:41:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 03, 2026: US Markets Closed for Holiday, Reflecting Thursday's Mixed Close",
-  "badge": "Updated",
+  "subtitle": "July 03, 2026: US Markets Closed for Holiday, Dow Hits Record, Tech Sags",
+  "badge": "Last Update: July 2, 2026 Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,15 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-070326",
-          "headline": "US Markets Closed for Independence Day Holiday; Thursday Saw Mixed Close",
-          "summary": "US equity markets are closed today, July 3rd, observing the Independence Day holiday, with trading activity reflecting Thursday's mixed session. The Dow Jones Industrial Average surged to a new record high, while the S&P 500 remained largely flat. The Nasdaq Composite, however, experienced a decline, primarily due to continued weakness in the semiconductor sector. Sentiment was influenced by softer-than-expected US jobs data, which helped to temper concerns about imminent interest rate hikes.",
+          "id": "market-summary-july3",
+          "headline": "US Markets Closed for Independence Day Holiday; Dow Reaches New High, Nasdaq Falls Amid Chip Sell-off on Thursday",
+          "summary": "U.S. stock markets are closed today, July 3, 2026, in observance of the Independence Day holiday. On Thursday, July 2, the Dow Jones Industrial Average surged to a new record high, gaining 1.1%, while the S&P 500 closed virtually flat. The Nasdaq Composite, however, experienced a notable decline of 0.8%, primarily driven by a continued sell-off in chipmakers and growing concerns over AI valuations. Market sentiment was influenced by a softer-than-expected US jobs report for June, which saw only 57,000 jobs added, tempering expectations for near-term Federal Reserve rate hikes. Not financial advice.",
           "tags": [
-            "Market Close",
-            "Holiday",
-            "Mixed Sentiment"
-          ],
-          "timestamp": "2026-07-03T09:56:00Z"
+            "Market Overview",
+            "US Holiday",
+            "AI Concerns"
+          ]
         }
       ]
     },
@@ -32,31 +31,22 @@
       "layout": "grid",
       "items": [
         {
-          "id": "snp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,483.24",
-          "statContext": "Virtually Flat (Jul 2, 2026)",
-          "change": "+0.01",
-          "changePercent": "+0.00%",
-          "direction": "flat"
-        },
-        {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,832.67",
-          "statContext": "Down (Jul 2, 2026)",
-          "change": "-207.36",
-          "changePercent": "-0.80%",
-          "direction": "down"
-        },
-        {
-          "id": "dow-stat",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,900.07",
-          "statContext": "Record High (Jul 2, 2026)",
-          "change": "+594.83",
-          "changePercent": "+1.14%",
-          "direction": "up"
+          "statContext": "Up 594.83 points (+1.1%) to a record high."
+        },
+        {
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,483.24",
+          "statContext": "Up 0.01 points (virtually flat, <0.1%)."
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,382.67",
+          "statContext": "Down 207.36 points (-0.8%)."
         }
       ]
     },
@@ -67,64 +57,84 @@
       "layout": "grid",
       "items": [
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Rises on iPhone Launch Reports",
-          "ticker": "$AAPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.8%",
-          "direction": "up",
-          "summary": "Apple shares climbed on reports hinting at upcoming iPhone launches."
-        },
-        {
-          "id": "clro-gainer",
-          "headline": "ClearOne Soars on Merger Agreement",
+          "id": "gainer-clro",
+          "headline": "ClearOne Surges on Trading Day",
+          "summary": "ClearOne led gainers on Thursday's trading session.",
           "ticker": "$CLRO",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+101.2%",
-          "direction": "up",
-          "summary": "ClearOne saw a significant jump after announcing a merger agreement with Cortigent, Inc."
+          "direction": "up"
         },
         {
-          "id": "cwd-gainer",
-          "headline": "CaliberCos Gains on Tokenization Strategy",
+          "id": "gainer-cwd",
+          "headline": "CaliberCos Sees Strong Gains",
+          "summary": "CaliberCos experienced a significant jump.",
           "ticker": "$CWD",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+90.6%",
-          "direction": "up",
-          "summary": "CaliberCos surged as it advanced its real estate fund tokenization strategy."
+          "direction": "up"
         },
         {
-          "id": "tsla-loser",
-          "headline": "Tesla Falls Despite Strong Deliveries",
+          "id": "gainer-surg",
+          "headline": "Surgepays Records Substantial Rise",
+          "summary": "Surgepays was among the top performers.",
+          "ticker": "$SURG",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+38.1%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-eltx",
+          "headline": "Elicio Therapeutics Plummets",
+          "summary": "Elicio Therapeutics faced a sharp decline.",
+          "ticker": "$ELTX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-37.4%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-lhai",
+          "headline": "Linkhome Experiences Significant Drop",
+          "summary": "Linkhome saw a considerable fall in its stock price.",
+          "ticker": "$LHAI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-35.8%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-ncra",
+          "headline": "Nocera Falls Amid Selling Pressure",
+          "summary": "Nocera was one of the biggest losers of the day.",
+          "ticker": "$NCRA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-34.4%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-tsla",
+          "headline": "Tesla Shares Decline Despite Delivery Beat",
+          "summary": "Tesla ($TSLA) shares fell 7.5% on Thursday, despite the company reporting stronger-than-expected delivery estimates for the second quarter.",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-7.5%",
-          "direction": "down",
-          "summary": "Tesla shares declined despite the company reporting stronger-than-expected delivery estimates for the quarter."
+          "direction": "down"
         },
         {
-          "id": "meta-loser",
-          "headline": "Meta Drops on AI Capacity Concerns",
-          "ticker": "$META",
+          "id": "loser-nvda",
+          "headline": "Nvidia Among Chipmakers Hit by Sell-off",
+          "summary": "Nvidia ($NVDA) fell 1.4% as chipmakers extended their decline amid concerns over AI valuations and a broader tech sell-off.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.5%",
-          "direction": "down",
-          "summary": "Meta Platforms saw a loss amidst renewed concerns regarding AI capacity."
-        },
-        {
-          "id": "mu-loser",
-          "headline": "Micron Leads Chip Sector Decline",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.0%",
-          "direction": "down",
-          "summary": "Micron was among several chipmakers that fell for a second day as investors questioned AI optimism and valuations."
+          "changePercent": "-1.4%",
+          "direction": "down"
         }
       ]
     },
@@ -135,64 +145,43 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-jobs",
-          "headline": "June Jobs Report Disappoints, Easing Rate Hike Fears",
-          "summary": "The US economy added a much lower-than-expected 57,000 jobs in June, significantly below forecasts. While the unemployment rate ticked down to 4.2%, this was primarily attributed to a substantial decrease in the labor force, pushing participation down to 61.5%. This softer jobs data has led markets to temper expectations for immediate Federal Reserve rate hikes.",
+          "id": "econ-jobsreport",
+          "headline": "Soft June Jobs Report Tempers Fed Rate Hike Expectations",
+          "summary": "The U.S. economy added a weaker-than-expected 57,000 jobs in June, significantly below the 100,000 anticipated by economists. Wage growth remained slow at 3.5%, trailing the 4.2% inflation rate, while the unemployment rate marginally decreased to 4.2%. This data has led traders to price in an 82% chance that the Federal Reserve, under Chairman Kevin Warsh, will not raise interest rates at its upcoming meeting.",
           "tags": [
+            "Economic Data",
             "Jobs Report",
-            "Federal Reserve",
-            "Unemployment"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "sector-analysis-tech",
-          "headline": "Chip Sector Continues to Lag Amid AI Valuation Concerns",
-          "summary": "The technology sector, particularly semiconductor stocks, was a significant drag on the market, extending a two-day slump. The Philadelphia Semiconductor Index was notably down 5.4%, as investors continued to question the high valuations stemming from AI optimism. This contrasts with improved breadth in other sectors.",
+          "id": "sector-rotation",
+          "headline": "Sector Rotation Underway: Healthcare, Financials Lead; Tech Falters",
+          "summary": "A significant shift in market leadership is evident, with defensive sectors gaining traction. Healthcare has moved into the leading quadrant, joining Utilities, Industrials, and Financials, as investors favor earnings stability. Conversely, the Technology sector has rotated into the lagging quadrant, losing relative strength and momentum, largely due to the ongoing chipmaker sell-off and AI valuation concerns. Energy remains the weakest sector.",
           "tags": [
             "Sector Analysis",
+            "Healthcare",
             "Technology",
-            "Semiconductors",
-            "AI"
+            "Market Trends"
           ]
         },
         {
-          "id": "fed-policy",
-          "headline": "Fed Holds Rates Steady; Debate Intensifies on Future Hikes",
-          "summary": "The Federal Open Market Committee (FOMC) maintained its benchmark federal funds target range at 3.50-3.75 percent at its June meeting. Despite the recent weak jobs report easing immediate pressure, debate is intensifying over the possibility of a rate hike before year-end, driven by elevated inflation and soaring energy prices.",
+          "id": "ai-bubble-fears",
+          "headline": "AI Bubble Fears Mount as Valuations Questioned",
+          "summary": "Concerns about an 'AI bubble' are growing, with some investors drawing parallels to past market frenzies. The cyclically adjusted price-to-earnings (CAPE) ratio for the S&P 500 is currently elevated at 41.4, a level only seen during the dot-com boom of 1999-2000, suggesting a frothy market environment.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
+            "AI",
+            "Valuation",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "google-eu-fine",
-          "headline": "Google Loses Final Appeal on EU Android Antitrust Fine",
-          "summary": "Google lost its final appeal against a substantial €4.1 billion ($4.7 billion) European Union antitrust fine. The EU's highest court upheld the penalty, which was imposed due to Google's abuse of its dominant market position through Android-related licensing and pre-installation practices.",
+          "id": "upcoming-earnings",
+          "headline": "Upcoming Earnings Reports on the Horizon",
+          "summary": "While Waldencast (WALD) reported Q1 2026 earnings before market open today, the focus will shift to major companies next week. Key earnings reports expected around July 9-14 include PepsiCo, Delta Air Lines, and several large banks such as Bank of America, Goldman Sachs, JPMorgan Chase & Co., Wells Fargo & Company, and Citigroup.",
           "tags": [
-            "Google",
-            "EU",
-            "Antitrust"
-          ]
-        },
-        {
-          "id": "commodities-update",
-          "headline": "Gold Rises as Dollar Weakens, Oil Sees Modest Gains",
-          "summary": "Gold prices gained for a third consecutive day, approaching $4,200, supported by a weaker US dollar and reduced expectations for aggressive rate hikes following the soft jobs report. Brent crude oil and US benchmark crude also registered modest increases.",
-          "tags": [
-            "Commodities",
-            "Gold",
-            "Oil",
-            "Currencies"
-          ]
-        },
-        {
-          "id": "q2-earnings-outlook",
-          "headline": "Q2 Earnings Season Approaches, No Major Reports Today",
-          "summary": "The second-quarter earnings season is set to begin in earnest during the second full week of July. No noteworthy earnings announcements are scheduled for Friday, July 3rd. Companies like STMicroelectronics ($STM) are scheduled to release Q2 earnings on July 23rd.",
-          "tags": [
-            "Earnings Season",
-            "Q2 Earnings"
+            "Earnings",
+            "Corporate News"
           ]
         }
       ]
