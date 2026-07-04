@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-03T08:53:20.324439Z",
+  "generatedAt": "2026-07-04T19:23:51.056703Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -52,22 +52,6 @@
       "source": "Watchlist"
     },
     {
-      "ticker": "$IREN",
-      "name": "Iren Limited",
-      "sector": "Technology Services",
-      "currentPrice": "$38.82",
-      "entry": "$37.00",
-      "stop": "$30.00",
-      "structure": "Support Test",
-      "trend": "<< 50MA, << 200MA (RVOL 1.52x)",
-      "trendLabel": "Trend / RVOL",
-      "analysis": "IREN is in a pronounced downtrend, trading significantly below its key moving averages. However, recent trading has seen elevated relative volume. The stock is approaching strong long-term support levels, suggesting a potential accumulation zone for a rebound, but it remains a risky play given the strong bearish momentum.",
-      "riskScore": 8,
-      "footerTag": "High Risk / Accumulation",
-      "setupType": "risky",
-      "source": "Watchlist"
-    },
-    {
       "ticker": "$KTOS",
       "name": "Kratos Defense & Security Solutions, Inc.",
       "sector": "Aerospace & Defense",
@@ -98,6 +82,54 @@
       "footerTag": "Avoid - Weak Sentiment",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Transportation",
+      "currentPrice": "$74.43",
+      "entry": "$73.00",
+      "stop": "$70.00",
+      "structure": "Support Test / MA confluence",
+      "trend": "> 20MA, > 50MA, < 200MA",
+      "trendLabel": "MA Trend",
+      "analysis": "UBER is currently trading above its 20-day and 50-day moving averages, indicating short to medium-term strength. However, it remains below the 200-day moving average, suggesting a longer-term downtrend from its highs. Upcoming earnings pose a high risk, and volume is below average. Entry near the $73.00 level, coinciding with the 50-day MA and pivot, with a stop below $70.00.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ARM",
+      "name": "Arm Holdings plc",
+      "sector": "Semiconductors",
+      "currentPrice": "$315.28",
+      "entry": "$285.30",
+      "stop": "$275.00",
+      "structure": "50-day SMA Support",
+      "trend": "< 20MA, > 50MA, > 200MA",
+      "trendLabel": "MA Trend",
+      "analysis": "ARM is currently in a retracement, trading below its 20-day moving average, but holding above its 50-day and 200-day simple moving averages, indicating a potential bounce zone. Volume is below average. Upcoming earnings within 5 days introduce significant risk. An entry near the 50-day SMA at $285.30 could offer a favorable risk-reward, with a stop below $275.00.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$IREN",
+      "name": "Iris Energy Limited",
+      "sector": "Technology",
+      "currentPrice": "$38.82",
+      "entry": "$38.50",
+      "stop": "$31.50",
+      "structure": "Strong Support Test",
+      "trend": "<< 20MA, << 50MA, << 200MA",
+      "trendLabel": "Bearish Trend",
+      "analysis": "IREN is in a strong bearish trend, trading significantly below its 20-day, 50-day, and 200-day moving averages, indicating considerable selling pressure. Despite elevated relative volume, the technical outlook is negative. This is an avoid setup due to the strong downtrend and broken moving averages. However, if looking for a speculative bounce, entry near Fibonacci S1 at $38.50 with a tight stop below $31.50 could be considered, but carries high risk.",
+      "riskScore": 10,
+      "footerTag": "High Volatility",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
