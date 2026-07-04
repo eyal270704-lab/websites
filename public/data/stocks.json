@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-07-04T12:59:00Z",
+  "generatedAt": "2026-07-04T17:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market Recap for July 2, 2026, as US Markets Observe Independence Day Holiday",
-  "badge": "Closed for Holiday",
+  "title": "Daily Market Digest - Independence Day Weekend",
+  "subtitle": "US Markets Closed for Holiday Observation",
+  "badge": "Market Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Holiday Closure and Last Session's Mixed Performance",
+      "title": "Market Pulse: Holiday Weekend in Effect",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-07042026",
-          "headline": "US Stock Markets Closed Today, July 4, 2026, for Independence Day (Observed)",
-          "summary": "U.S. financial markets, including the NYSE and Nasdaq, are closed today, July 4, 2026, in observance of Independence Day. As the holiday falls on a Saturday this year, markets observed the holiday on Friday, July 3rd, and the last full trading session was July 2nd. Trading will resume on Monday, July 6, 2026. The prior session on July 2nd saw a notable divergence, with the Dow Jones Industrial Average reaching a new all-time high amidst a defensive rotation, while the tech-heavy Nasdaq Composite declined due to weakness in semiconductor stocks. Overall market sentiment was influenced by a softer-than-expected June jobs report, which eased concerns about further Federal Reserve rate hikes.",
+          "id": "mp-1",
+          "headline": "US Stock Markets Closed for Independence Day Observance",
+          "summary": "U.S. equity and bond markets are closed today, July 4, 2026, in observance of Independence Day. The holiday was observed on Friday, July 3, resulting in a three-day market closure. Trading will resume on Monday, July 6, 2026. The last trading session on Thursday, July 2, saw a mixed performance, with the Dow Jones Industrial Average reaching an all-time high while tech-heavy indices experienced declines.",
           "tags": [
             "Market Closed",
-            "Independence Day",
+            "Holiday",
             "US Equities"
           ],
-          "timestamp": "2026-07-04T12:59:00Z"
+          "timestamp": "2026-07-04T17:09:00Z"
         }
       ]
     },
@@ -32,145 +32,110 @@
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,900.07",
-          "statContext": "Closed +1.14% (+594.83 pts) on July 2nd, marking a new all-time high.",
-          "direction": "up"
-        },
-        {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,483.24",
-          "statContext": "Closed virtually flat (+0.01 pts) on July 2nd.",
-          "direction": "flat"
+          "statValue": "Little Changed",
+          "statContext": "On July 2, the S&P 500 finished largely flat, with declines in the technology sector offsetting gains elsewhere."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,853.67",
-          "statContext": "Closed -0.80% (-207.36 pts) on July 2nd, dragged by semiconductor weakness.",
-          "direction": "down"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ-100",
+          "statValue": "-1.61%",
+          "statContext": "The Nasdaq-100 declined by 1.61% on July 2, facing headwinds from a backslide in technology names."
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "+1.14%",
+          "statContext": "The Dow Jones Industrial Average rose 1.14% to 52,900.07 on July 2, closing at an all-time high ahead of the holiday weekend."
+        },
+        {
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "-1.08%",
+          "statContext": "Small caps, as represented by the Russell 2000, declined over one percent to finish at 2,980.05 on July 2."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (July 2, 2026)",
-      "cardType": "stock",
-      "layout": "grid",
-      "items": [
-        {
-          "id": "aapl-gainer",
-          "headline": "Apple Leads Gains",
-          "summary": "Shares of Apple jumped nearly 5%, providing strong support for the broader market.",
-          "ticker": "$AAPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.8%",
-          "direction": "up"
-        },
-        {
-          "id": "azn-gainer",
-          "headline": "AstraZeneca Surges",
-          "summary": "Pharmaceutical giant AstraZeneca saw its stock surge over 6%.",
-          "ticker": "$AZN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.0%",
-          "direction": "up"
-        },
-        {
-          "id": "clro-gainer",
-          "headline": "ClearOne Soars",
-          "summary": "Communications solutions provider ClearOne experienced a significant daily gain.",
-          "ticker": "$CLRO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+101.2%",
-          "direction": "up"
-        },
-        {
-          "id": "tsla-loser",
-          "headline": "Tesla Hammered",
-          "summary": "Electric vehicle maker Tesla was down significantly amid market volatility.",
-          "ticker": "$TSLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.5%",
-          "direction": "down"
-        },
-        {
-          "id": "mu-loser",
-          "headline": "Micron Tech Plunges",
-          "summary": "Despite strong earnings, Micron Technology's stock fell as semiconductor stocks faced pressure.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.0%",
-          "direction": "down"
-        },
-        {
-          "id": "eltx-loser",
-          "headline": "Elicio Therapeutics Drops",
-          "summary": "Elicio Therapeutics saw a substantial decline in its share price.",
-          "ticker": "$ELTX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-37.4%",
-          "direction": "down"
-        }
-      ]
-    },
-    {
-      "id": "market-news",
-      "title": "Market News and Analysis (July 2, 2026)",
+      "title": "Top Movers: Market Closed",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-ai-selloff",
-          "headline": "Defensive Sectors Lead Amid Tech Rotation and AI Sell-off",
-          "summary": "The market saw a significant rotation out of momentum-heavy technology and semiconductor names into defensive sectors. Health Care (+2.7%), Consumer Staples (+2.4%), and Utilities (+2.3%) posted the strongest gains, while Technology was the worst performer, down over 2.5%. The PHLX Semiconductor Index fell 5.4%. Analysts note this as a rotation rather than a recession signal, with investors locking in AI profits.",
+          "id": "tm-1",
+          "headline": "No Trading Activity on July 3rd and 4th",
+          "summary": "Due to the Independence Day holiday observance, U.S. stock markets were closed on Friday, July 3, and remain closed today, Saturday, July 4, 2026. Consequently, there are no top gainers or losers to report for these days. Trading activity will resume next week.",
           "tags": [
-            "Sector Analysis",
+            "Market Closed",
+            "Holiday",
+            "Trading Hiatus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-analysis",
+      "title": "Sector Analysis: Tech Declines, Small Caps Consolidate",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "sa-1",
+          "headline": "Technology Sector Pulls Back Ahead of Holiday",
+          "summary": "On the last trading day, July 2, the technology sector experienced declines, largely contributing to the flat performance of the S&P 500 and the drop in the Nasdaq-100. This suggests investors were taking profits in AI-related stocks.",
+          "tags": [
             "Technology",
-            "Healthcare",
-            "Rotation"
+            "Sector Performance",
+            "Profit-Taking"
           ]
         },
         {
-          "id": "jobs-report-fed-outlook",
-          "headline": "Softer June Jobs Report Eases Fed Rate Hike Concerns",
-          "summary": "The U.S. economy added a weaker-than-expected 57,000 jobs in June, well below the 110,000 to 130,000 anticipated. The unemployment rate edged down to 4.2%. This softer labor market data has prompted investors to scale back expectations for further Federal Reserve rate increases, with the probability of a September hike easing to 55% from 64.1%.",
+          "id": "sa-2",
+          "headline": "Small-Cap Equities Show Multi-Month Outperformance",
+          "summary": "Despite a slight weekly consolidation (mirroring the Russell 2000's 0.5% decline), small-cap equities have demonstrated strong multi-month and yearly outperformance relative to large-cap indexes through the first half of 2026. Energy, Information Technology, and Materials sectors are anticipated to lead Q2 2026 earnings growth.",
+          "tags": [
+            "Small-Cap",
+            "Market Leadership",
+            "Sector Outlook"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News & Earnings Watch",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "en-1",
+          "headline": "June Jobs Report Offers Relief on Rate Hikes",
+          "summary": "Released on July 2, June's nonfarm payrolls increased by a softer-than-expected 57,000 jobs, while initial jobless claims fell to 215,000. This data was seen by investors as a relief, potentially easing concerns about near-term interest rate hikes from the Federal Reserve.",
           "tags": [
             "Economic Data",
-            "Federal Reserve",
             "Jobs Report",
-            "Interest Rates"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "earnings-highlights",
-          "headline": "FactSet Beats Expectations, Micron Secures Long-Term Contracts",
-          "summary": "FactSet ($FDS) reported strong fiscal Q3 results, beating earnings estimates with $4.53 per share and a 6.4% rise in revenues, sending shares up nearly 9%. Micron Technology ($MU) announced blowout Q3 earnings and detailed Strategic Customer Agreements (SCAs) worth approximately $100 billion in contracted backlog through 2030, aiming for more predictable earnings and margin stability.",
+          "id": "en-2",
+          "headline": "Q2 2026 Earnings Season Approaches",
+          "summary": "The second-quarter earnings season is set to begin in earnest during the second full week of July. FactSet projects an estimated year-over-year earnings growth rate of 23.3% for the S&P 500 in Q2 2026, marking the second consecutive quarter of growth above 20%. Early reports from companies like Oracle and Adobe have seen weak post-earnings reactions.",
           "tags": [
-            "Earnings",
-            "FactSet",
-            "Micron Technology",
-            "Corporate News"
+            "Earnings Season",
+            "Q2 Earnings",
+            "Corporate Reports"
           ]
         },
         {
-          "id": "macro-trends",
-          "headline": "Oil Prices Decline on Iran Deal Hopes; AI Infrastructure Spending Remains Key",
-          "summary": "West Texas Intermediate (WTI) crude futures fell nearly 2% to around $67 per barrel, buoyed by hopes of ongoing negotiations for a permanent end to the war with Iran. The significant investment in AI infrastructure continues to be a major market driver, though the sector experienced a recent 'crack' with profit-taking. Additionally, the U.S. plans to quadruple nuclear power capacity by 2050, indicating a long-term shift in energy strategy.",
+          "id": "en-3",
+          "headline": "Independence Day's Economic Impact",
+          "summary": "The Fourth of July, marking America's 250th birthday this year, is a significant economic event, with total consumer spending estimated at over $15 billion, primarily in food, alcohol, and fireworks. The holiday structurally favors local small businesses, grocery stores, and mass retailers.",
           "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics",
-            "AI",
-            "Energy Policy"
+            "Holiday Spending",
+            "Consumer Economy"
           ]
         }
       ]
