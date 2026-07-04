@@ -1,198 +1,176 @@
 {
-  "generatedAt": "2026-07-04T09:20:00Z",
+  "generatedAt": "2026-07-04T12:59:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 04, 2026 - U.S. Markets Closed for Independence Day",
-  "badge": "Closed",
+  "subtitle": "Market Recap for July 2, 2026, as US Markets Observe Independence Day Holiday",
+  "badge": "Closed for Holiday",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Holiday Closure and Last Session's Mixed Performance",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Markets Closed for Independence Day; Last Session Saw Mixed Performance and Sector Rotation",
-          "summary": "U.S. financial markets are closed today, July 4, 2026, in observance of Independence Day, which falls on a Saturday this year. Trading will resume on Monday, July 6. The last trading day, Friday, July 3, witnessed a mixed close for major indices, characterized by a significant rotation out of technology and into defensive sectors, alongside the Dow Jones Industrial Average reaching a new all-time high.",
+          "id": "market-summary-07042026",
+          "headline": "US Stock Markets Closed Today, July 4, 2026, for Independence Day (Observed)",
+          "summary": "U.S. financial markets, including the NYSE and Nasdaq, are closed today, July 4, 2026, in observance of Independence Day. As the holiday falls on a Saturday this year, markets observed the holiday on Friday, July 3rd, and the last full trading session was July 2nd. Trading will resume on Monday, July 6, 2026. The prior session on July 2nd saw a notable divergence, with the Dow Jones Industrial Average reaching a new all-time high amidst a defensive rotation, while the tech-heavy Nasdaq Composite declined due to weakness in semiconductor stocks. Overall market sentiment was influenced by a softer-than-expected June jobs report, which eased concerns about further Federal Reserve rate hikes.",
           "tags": [
-            "Market Close",
-            "Holiday",
-            "Sector Rotation",
-            "Dow Record"
-          ]
+            "Market Closed",
+            "Independence Day",
+            "US Equities"
+          ],
+          "timestamp": "2026-07-04T12:59:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Last Trading Day: July 3, 2026)",
+      "title": "Major Indices Performance (July 2, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,900.07",
+          "statContext": "Closed +1.14% (+594.83 pts) on July 2nd, marking a new all-time high.",
+          "direction": "up"
+        },
+        {
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,483.24",
-          "statContext": "Flat",
-          "ticker": "$SPX",
-          "price": "7,483.24",
-          "change": "+0.01",
-          "changePercent": "+0.00%",
+          "statContext": "Closed virtually flat (+0.01 pts) on July 2nd.",
           "direction": "flat"
         },
         {
-          "id": "nasdaq-perf",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,853.67",
-          "statContext": "Down",
-          "ticker": "$IXIC",
-          "price": "25,853.67",
-          "change": "-207.36",
-          "changePercent": "-0.80%",
+          "statContext": "Closed -0.80% (-207.36 pts) on July 2nd, dragged by semiconductor weakness.",
           "direction": "down"
-        },
-        {
-          "id": "dow-perf",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,900.07",
-          "statContext": "Up (All-time High)",
-          "ticker": "$DJIA",
-          "price": "52,900.07",
-          "change": "+594.83",
-          "changePercent": "+1.14%",
-          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Last Trading Day: July 3, 2026)",
+      "title": "Top Movers (July 2, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gpc-gainer",
-          "headline": "Genuine Parts Soars on Acquisition Interest",
-          "ticker": "$GPC",
-          "price": "$132.57",
-          "change": "+15.17",
-          "changePercent": "+12.92%",
-          "direction": "up",
-          "summary": "Genuine Parts ($GPC) was a top S&P 500 performer, surging 12.92% to $132.57 after reports indicated O'Reilly Auto's interest in acquiring its automotive parts business."
+          "id": "aapl-gainer",
+          "headline": "Apple Leads Gains",
+          "summary": "Shares of Apple jumped nearly 5%, providing strong support for the broader market.",
+          "ticker": "$AAPL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.8%",
+          "direction": "up"
         },
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Gains Despite Broader Semiconductor Weakness",
-          "ticker": "$AAPL",
-          "price": "$308.63",
-          "change": "+14.28",
-          "changePercent": "+4.84%",
-          "direction": "up",
-          "summary": "Apple ($AAPL) climbed 4.84% to $308.63, reportedly due to lobbying efforts to buy memory chips from China, contributing significantly to the Dow's advance."
+          "id": "azn-gainer",
+          "headline": "AstraZeneca Surges",
+          "summary": "Pharmaceutical giant AstraZeneca saw its stock surge over 6%.",
+          "ticker": "$AZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.0%",
+          "direction": "up"
         },
         {
           "id": "clro-gainer",
-          "headline": "ClearOne Leads Micro-Cap Gainers",
+          "headline": "ClearOne Soars",
+          "summary": "Communications solutions provider ClearOne experienced a significant daily gain.",
           "ticker": "$CLRO",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+101.2%",
-          "direction": "up",
-          "summary": "ClearOne ($CLRO) saw an impressive gain of 101.2% in the last trading session."
+          "direction": "up"
         },
         {
           "id": "tsla-loser",
-          "headline": "Tesla Extends Reversal Despite Strong Deliveries",
+          "headline": "Tesla Hammered",
+          "summary": "Electric vehicle maker Tesla was down significantly amid market volatility.",
           "ticker": "$TSLA",
-          "price": "$392.82",
-          "change": "-32.56",
-          "changePercent": "-7.64%",
-          "direction": "down",
-          "summary": "Tesla ($TSLA) fell 7.64% to $392.82, extending an intraday reversal even after reporting better-than-expected Q2 deliveries."
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.5%",
+          "direction": "down"
         },
         {
-          "id": "meta-loser",
-          "headline": "Meta Platforms Retraces Previous Gains",
-          "ticker": "$META",
-          "price": "$582.88",
-          "change": "-29.83",
-          "changePercent": "-4.90%",
-          "direction": "down",
-          "summary": "Meta Platforms ($META) dropped 4.90% to $582.88, giving back a portion of its sharp advance from the prior day."
+          "id": "mu-loser",
+          "headline": "Micron Tech Plunges",
+          "summary": "Despite strong earnings, Micron Technology's stock fell as semiconductor stocks faced pressure.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.0%",
+          "direction": "down"
         },
         {
           "id": "eltx-loser",
-          "headline": "Elicio Therapeutics Experiences Significant Decline",
+          "headline": "Elicio Therapeutics Drops",
+          "summary": "Elicio Therapeutics saw a substantial decline in its share price.",
           "ticker": "$ELTX",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-37.4%",
-          "direction": "down",
-          "summary": "Elicio Therapeutics ($ELTX) was among the biggest losers, declining by 37.4% on Friday."
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News and Analysis (July 2, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-june-jobs",
-          "headline": "June Jobs Report Cooler Than Expected, Easing Rate Hike Fears",
-          "summary": "The U.S. economy added a softer-than-expected 57,000 jobs in June, falling well short of economists' projections. While the unemployment rate slightly decreased to 4.2%, the report signaled a cooling labor market, which helped alleviate investor concerns about the Federal Reserve needing to implement further interest rate hikes.",
+          "id": "sector-rotation-ai-selloff",
+          "headline": "Defensive Sectors Lead Amid Tech Rotation and AI Sell-off",
+          "summary": "The market saw a significant rotation out of momentum-heavy technology and semiconductor names into defensive sectors. Health Care (+2.7%), Consumer Staples (+2.4%), and Utilities (+2.3%) posted the strongest gains, while Technology was the worst performer, down over 2.5%. The PHLX Semiconductor Index fell 5.4%. Analysts note this as a rotation rather than a recession signal, with investors locking in AI profits.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Healthcare",
+            "Rotation"
+          ]
+        },
+        {
+          "id": "jobs-report-fed-outlook",
+          "headline": "Softer June Jobs Report Eases Fed Rate Hike Concerns",
+          "summary": "The U.S. economy added a weaker-than-expected 57,000 jobs in June, well below the 110,000 to 130,000 anticipated. The unemployment rate edged down to 4.2%. This softer labor market data has prompted investors to scale back expectations for further Federal Reserve rate increases, with the probability of a September hike easing to 55% from 64.1%.",
           "tags": [
             "Economic Data",
-            "Jobs Report",
             "Federal Reserve",
+            "Jobs Report",
             "Interest Rates"
           ]
         },
         {
-          "id": "sector-rotation-tech-to-defensive",
-          "headline": "Investors Rotate Out of Tech and Semiconductors into Defensive Sectors",
-          "summary": "A notable market trend on Friday was the aggressive rotation of capital out of momentum-heavy technology and semiconductor stocks and into defensive sectors. Health Care, Consumer Staples, and Utilities posted the strongest gains, while the PHLX Semiconductor Index fell 5.4%. This shift indicates investors seeking safety and value amid ongoing market volatility.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Defensive Stocks",
-            "Market Sentiment"
-          ]
-        },
-        {
-          "id": "ai-bubble-concerns",
-          "headline": "AI Bubble Fears Persist Amid Tech Weakness",
-          "summary": "Despite strong performance in some AI-related stocks, concerns about an 'AI bubble' are growing, with prominent investors like Michael Burry reportedly betting against market optimism. The Nasdaq Composite's retreat under pressure from semiconductor weakness highlighted ongoing profit-taking in the AI sector.",
-          "tags": [
-            "AI Stocks",
-            "Market Sentiment",
-            "Valuation",
-            "Technology"
-          ]
-        },
-        {
-          "id": "micron-earnings-outlook",
-          "headline": "Micron Technology Reports Strong Earnings Driven by AI Demand",
-          "summary": "Micron Technology ($MU) delivered a 'monster earnings report' for its fiscal third quarter, surpassing Wall Street's revenue and EPS expectations. The company highlighted strategic customer agreements (SCAs) and a contracted backlog of approximately $100 billion through 2030, driven by unprecedented demand for memory and storage in the AI sector.",
+          "id": "earnings-highlights",
+          "headline": "FactSet Beats Expectations, Micron Secures Long-Term Contracts",
+          "summary": "FactSet ($FDS) reported strong fiscal Q3 results, beating earnings estimates with $4.53 per share and a 6.4% rise in revenues, sending shares up nearly 9%. Micron Technology ($MU) announced blowout Q3 earnings and detailed Strategic Customer Agreements (SCAs) worth approximately $100 billion in contracted backlog through 2030, aiming for more predictable earnings and margin stability.",
           "tags": [
             "Earnings",
-            "Semiconductors",
-            "AI",
-            "Micron Technology"
+            "FactSet",
+            "Micron Technology",
+            "Corporate News"
           ]
         },
         {
-          "id": "market-valuation-concerns",
-          "headline": "S&P 500 Valuation Metrics Point to Potential Overvaluation",
-          "summary": "The S&P 500 index's cyclically adjusted price-to-earnings (CAPE) ratio currently stands at 41.4. Historically, this elevated level has only been seen during the dot-com tech frenzy of 1999 and 2000, suggesting the market may be extremely overvalued and could potentially lead to negative annualized returns over the next decade.",
+          "id": "macro-trends",
+          "headline": "Oil Prices Decline on Iran Deal Hopes; AI Infrastructure Spending Remains Key",
+          "summary": "West Texas Intermediate (WTI) crude futures fell nearly 2% to around $67 per barrel, buoyed by hopes of ongoing negotiations for a permanent end to the war with Iran. The significant investment in AI infrastructure continues to be a major market driver, though the sector experienced a recent 'crack' with profit-taking. Additionally, the U.S. plans to quadruple nuclear power capacity by 2050, indicating a long-term shift in energy strategy.",
           "tags": [
-            "Market Valuation",
-            "S&P 500",
-            "CAPE Ratio",
-            "Market Risk"
+            "Macro Trends",
+            "Oil Prices",
+            "Geopolitics",
+            "AI",
+            "Energy Policy"
           ]
         }
       ]
