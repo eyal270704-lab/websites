@@ -1,129 +1,173 @@
 {
-  "generatedAt": "2026-07-05T09:40:00Z",
+  "generatedAt": "2026-07-05T13:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, July 3, 2026 - Markets Closed for Weekend",
-  "badge": "Updated July 5, 2026",
+  "subtitle": "July 3, 2026 Market Close",
+  "badge": "Updated",
   "sections": [
     {
-      "id": "market-pulse-070526",
-      "title": "Market Pulse",
+      "id": "market-pulse-july-3-2026",
+      "title": "Market Pulse: The Great Rotation",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-070526",
-          "headline": "Markets Closed; Friday Saw Mixed Performance",
-          "summary": "U.S. equity markets are closed today, July 5, 2026, for the weekend. The last trading day, Friday, July 3, 2026, concluded with a mixed performance across major indices. The S&P 500 posted modest gains, while the NASDAQ Composite edged slightly higher, driven by a resilient tech sector. The Dow Jones Industrial Average, however, experienced a slight dip as investors considered recent economic data. Overall market sentiment remains cautious but resilient heading into the new week. This report summarizes the activity from the last trading session. Not financial advice.",
+          "id": "market-summary-july-3-2026",
+          "headline": "Defensive Rotation Lifts Dow to New Highs as Tech Sector Pulls Back",
+          "summary": "July 3, 2026, marked a notable divergence in U.S. equities, with a significant rotation out of momentum-heavy technology and semiconductor stocks into defensive and value names. The Dow Jones Industrial Average surged to a new all-time high, while the Nasdaq Composite retreated amidst a sell-off in chipmakers. This shift was largely catalyzed by a weaker-than-expected June jobs report, easing immediate rate-hike fears.",
           "tags": [
-            "Market Close",
-            "Weekend",
-            "Friday Recap"
+            "Market Rotation",
+            "Tech Sell-off",
+            "Value Stocks"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-070326",
-      "title": "Major Indices (Last Trading Day: July 3, 2026)",
+      "id": "major-indices-july-3-2026",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-070326",
-          "statLabel": "S&P 500",
-          "statValue": "5,489.12",
-          "statContext": "+0.18% (Previous Close: 5,479.31)"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,900.07",
+          "statContext": "Up 594.83 points (+1.14%), reaching a new all-time high."
         },
         {
-          "id": "nasdaq-070326",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "17,987.55",
-          "statContext": "+0.35% (Previous Close: 17,925.30)"
+          "statValue": "25,853.67",
+          "statContext": "Down 207.36 points (-0.80%), pressured by semiconductor weakness."
         },
         {
-          "id": "dow-070326",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "39,870.20",
-          "statContext": "-0.05% (Previous Close: 39,890.10)"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,483.24",
+          "statContext": "Virtually flat, gaining 0.01 points (0.00%), masking significant sector rotation."
         }
       ]
     },
     {
-      "id": "top-movers-070326",
-      "title": "Top Movers (Last Trading Day: July 3, 2026)",
+      "id": "top-movers-july-3-2026",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-a-070326",
-          "headline": "Tech Innovator Sees Strong Surge",
-          "summary": "Shares of a leading technology firm experienced a significant rise, attributed to optimism around its latest product announcement.",
-          "ticker": "$TECHX",
-          "price": "$125.75",
-          "change": "+$7.20",
-          "changePercent": "+6.08%",
-          "direction": "up"
+          "id": "aapl-gainer",
+          "headline": "Apple (AAPL)",
+          "ticker": "$AAPL",
+          "price": "$308.63",
+          "change": "+$14.28",
+          "changePercent": "+4.84%",
+          "direction": "up",
+          "summary": "Gained significantly, contributing to the Dow's rise despite weighing on the semiconductor complex; reports indicate lobbying to purchase memory chips from China."
         },
         {
-          "id": "gainer-b-070326",
-          "headline": "Biotech Company Gains on Positive Trial Results",
-          "summary": "A biotechnology company's stock climbed following the release of promising clinical trial data for its experimental drug.",
-          "ticker": "$BIOMD",
-          "price": "$78.10",
-          "change": "+$3.90",
-          "changePercent": "+5.26%",
-          "direction": "up"
+          "id": "azn-gainer",
+          "headline": "AstraZeneca (AZN)",
+          "ticker": "$AZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.0%",
+          "direction": "up",
+          "summary": "Surged as capital rotated into defensive and value names."
         },
         {
-          "id": "loser-a-070326",
-          "headline": "Retailer Drops Amid Revenue Concerns",
-          "summary": "A major retail chain's stock fell sharply after analysts lowered revenue forecasts due to competitive pressures.",
-          "ticker": "$RTLR",
-          "price": "$45.20",
-          "change": "-$3.80",
-          "changePercent": "-7.75%",
-          "direction": "down"
+          "id": "vrtx-gainer",
+          "headline": "Vertex Pharmaceuticals (VRTX)",
+          "ticker": "$VRTX",
+          "price": "$528.04",
+          "change": "+$30.01",
+          "changePercent": "+6.03%",
+          "direction": "up",
+          "summary": "Experienced strong gains amidst the market's defensive shift."
         },
         {
-          "id": "loser-b-070326",
-          "headline": "Energy Sector Company Experiences Downturn",
-          "summary": "An energy company saw its shares decline amidst a slight weakening in crude oil prices and broader sector concerns.",
-          "ticker": "$ENRG",
-          "price": "$62.50",
-          "change": "-$2.50",
-          "changePercent": "-3.85%",
-          "direction": "down"
+          "id": "tsla-loser",
+          "headline": "Tesla (TSLA)",
+          "ticker": "$TSLA",
+          "price": "$392.82",
+          "change": "-$32.42",
+          "changePercent": "-7.64%",
+          "direction": "down",
+          "summary": "Hammered despite reporting better-than-expected Q2 deliveries, extending an intraday reversal."
+        },
+        {
+          "id": "sndk-loser",
+          "headline": "Sandisk (SNDK)",
+          "ticker": "$SNDK",
+          "price": "$1,745.00",
+          "change": "-$286.00",
+          "changePercent": "-14.13%",
+          "direction": "down",
+          "summary": "Heavily impacted by news of Apple's potential chip purchases from China and broader semiconductor weakness."
+        },
+        {
+          "id": "klac-loser",
+          "headline": "KLA Corp (KLAC)",
+          "ticker": "$KLAC",
+          "price": "$235.55",
+          "change": "-$30.40",
+          "changePercent": "-11.51%",
+          "direction": "down",
+          "summary": "Fell sharply as part of a coordinated sell-off across the AI and semiconductor complex."
         }
       ]
     },
     {
-      "id": "market-news-070326",
-      "title": "Market News & Analysis (Last Trading Day: July 3, 2026)",
+      "id": "market-news-july-3-2026",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-review-070326",
-          "headline": "Technology and Healthcare Lead, Industrials Lag",
-          "summary": "On Friday, the technology and healthcare sectors demonstrated resilience, showing positive momentum. Conversely, the industrial sector experienced some downward pressure, reflecting cautious sentiment among investors regarding manufacturing outlooks. This indicates a potential sector rotation towards growth-oriented and defensive industries.",
+          "id": "june-jobs-report",
+          "headline": "June Jobs Report Disappoints, Easing Fed Rate Hike Fears",
+          "summary": "The U.S. economy added a softer-than-expected 57,000 jobs in June, well below analyst expectations, with the unemployment rate at 4.2% and a participation rate of 61.5%. This cooling labor market data has significantly reduced fears of immediate Federal Reserve rate hikes, influencing the market's defensive rotation.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Healthcare",
-            "Industrials"
+            "Economic Data",
+            "Federal Reserve",
+            "Labor Market"
           ]
         },
         {
-          "id": "economic-data-070326",
-          "headline": "New Economic Data Shows Mixed Signals",
-          "summary": "Recent economic data released on Friday presented a mixed picture, with some indicators suggesting continued economic growth while others hinted at a potential slowdown. Investors are closely monitoring upcoming inflation reports and central bank commentary for clearer guidance on monetary policy.",
+          "id": "sector-rotation-deepens",
+          "headline": "Healthcare and Financials Lead as Tech and Semiconductors Lag",
+          "summary": "A pronounced sector rotation was evident, with Healthcare emerging as the week's best-performing sector, up over 6%, followed by Consumer Defensive and Communication Services. Financials and Industrials also saw significant inflows. Conversely, the Technology sector, particularly semiconductors, was the worst performer for the day, down over 2.5%, as investors booked profits from the long-dominant AI trade.",
           "tags": [
-            "Economic News",
-            "Macro Trends",
-            "Inflation"
+            "Sector Performance",
+            "Healthcare",
+            "Technology"
           ]
+        },
+        {
+          "id": "ai-trade-correction",
+          "headline": "AI Infrastructure Stocks See 'Violent Breakdown' Amid Profit-Taking",
+          "summary": "The AI and semiconductor complex experienced a 'violent breakdown,' with the entire sector falling 10-14% over a two-day period. This marks a significant crack in a group that has led the market for years, with large-cap AI infrastructure names like Sandisk, Teradyne, and KLA Corp suffering double-digit losses. Analysts are characterizing this as a rotation rather than a recession signal, driven by concerns over valuation and the sustainability of the AI infrastructure narrative.",
+          "tags": [
+            "AI Stocks",
+            "Semiconductors",
+            "Market Correction"
+          ]
+        },
+        {
+          "id": "fed-stress-tests-2026",
+          "headline": "Federal Reserve Stress Tests Show Banks Maintain Strong Capital Buffers",
+          "summary": "The Federal Reserve released the results of its 2026 stress tests, indicating that large banks would maintain strong capital buffers even under a severe hypothetical recession and market turmoil. The aggregate peak-to-trough reduction in bank capital was modestly smaller than projected last year, largely due to higher projected net interest income.",
+          "tags": [
+            "Federal Reserve",
+            "Banking",
+            "Stress Tests"
+          ]
+        },
+        {
+          "id": "us-market-closed",
+          "headline": "US Markets Closed for Independence Day Holiday on July 3rd",
+          "summary": "U.S. equity markets were closed on Friday, July 3rd, 2026, in observance of the Independence Day holiday. Trading activity in the major indices on this day reflects the last full trading session from Thursday."
         }
       ]
     }
