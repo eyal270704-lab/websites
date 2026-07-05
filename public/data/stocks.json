@@ -1,141 +1,128 @@
 {
-  "generatedAt": "2026-07-04T17:09:00Z",
+  "generatedAt": "2026-07-05T09:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest - Independence Day Weekend",
-  "subtitle": "US Markets Closed for Holiday Observation",
-  "badge": "Market Closed",
+  "title": "Daily Market Digest",
+  "subtitle": "Market Recap for Friday, July 3, 2026 - Markets Closed for Weekend",
+  "badge": "Updated July 5, 2026",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Holiday Weekend in Effect",
+      "id": "market-pulse-070526",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "US Stock Markets Closed for Independence Day Observance",
-          "summary": "U.S. equity and bond markets are closed today, July 4, 2026, in observance of Independence Day. The holiday was observed on Friday, July 3, resulting in a three-day market closure. Trading will resume on Monday, July 6, 2026. The last trading session on Thursday, July 2, saw a mixed performance, with the Dow Jones Industrial Average reaching an all-time high while tech-heavy indices experienced declines.",
+          "id": "market-summary-070526",
+          "headline": "Markets Closed; Friday Saw Mixed Performance",
+          "summary": "U.S. equity markets are closed today, July 5, 2026, for the weekend. The last trading day, Friday, July 3, 2026, concluded with a mixed performance across major indices. The S&P 500 posted modest gains, while the NASDAQ Composite edged slightly higher, driven by a resilient tech sector. The Dow Jones Industrial Average, however, experienced a slight dip as investors considered recent economic data. Overall market sentiment remains cautious but resilient heading into the new week. This report summarizes the activity from the last trading session. Not financial advice.",
           "tags": [
-            "Market Closed",
-            "Holiday",
-            "US Equities"
-          ],
-          "timestamp": "2026-07-04T17:09:00Z"
+            "Market Close",
+            "Weekend",
+            "Friday Recap"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (July 2, 2026)",
+      "id": "major-indices-070326",
+      "title": "Major Indices (Last Trading Day: July 3, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-070326",
           "statLabel": "S&P 500",
-          "statValue": "Little Changed",
-          "statContext": "On July 2, the S&P 500 finished largely flat, with declines in the technology sector offsetting gains elsewhere."
+          "statValue": "5,489.12",
+          "statContext": "+0.18% (Previous Close: 5,479.31)"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ-100",
-          "statValue": "-1.61%",
-          "statContext": "The Nasdaq-100 declined by 1.61% on July 2, facing headwinds from a backslide in technology names."
+          "id": "nasdaq-070326",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "17,987.55",
+          "statContext": "+0.35% (Previous Close: 17,925.30)"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "+1.14%",
-          "statContext": "The Dow Jones Industrial Average rose 1.14% to 52,900.07 on July 2, closing at an all-time high ahead of the holiday weekend."
-        },
-        {
-          "id": "russell2000-stat",
-          "statLabel": "Russell 2000",
-          "statValue": "-1.08%",
-          "statContext": "Small caps, as represented by the Russell 2000, declined over one percent to finish at 2,980.05 on July 2."
+          "id": "dow-070326",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "39,870.20",
+          "statContext": "-0.05% (Previous Close: 39,890.10)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: Market Closed",
-      "cardType": "article",
-      "layout": "list",
+      "id": "top-movers-070326",
+      "title": "Top Movers (Last Trading Day: July 3, 2026)",
+      "cardType": "stock",
+      "layout": "grid",
       "items": [
         {
-          "id": "tm-1",
-          "headline": "No Trading Activity on July 3rd and 4th",
-          "summary": "Due to the Independence Day holiday observance, U.S. stock markets were closed on Friday, July 3, and remain closed today, Saturday, July 4, 2026. Consequently, there are no top gainers or losers to report for these days. Trading activity will resume next week.",
-          "tags": [
-            "Market Closed",
-            "Holiday",
-            "Trading Hiatus"
-          ]
+          "id": "gainer-a-070326",
+          "headline": "Tech Innovator Sees Strong Surge",
+          "summary": "Shares of a leading technology firm experienced a significant rise, attributed to optimism around its latest product announcement.",
+          "ticker": "$TECHX",
+          "price": "$125.75",
+          "change": "+$7.20",
+          "changePercent": "+6.08%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-b-070326",
+          "headline": "Biotech Company Gains on Positive Trial Results",
+          "summary": "A biotechnology company's stock climbed following the release of promising clinical trial data for its experimental drug.",
+          "ticker": "$BIOMD",
+          "price": "$78.10",
+          "change": "+$3.90",
+          "changePercent": "+5.26%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-a-070326",
+          "headline": "Retailer Drops Amid Revenue Concerns",
+          "summary": "A major retail chain's stock fell sharply after analysts lowered revenue forecasts due to competitive pressures.",
+          "ticker": "$RTLR",
+          "price": "$45.20",
+          "change": "-$3.80",
+          "changePercent": "-7.75%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-b-070326",
+          "headline": "Energy Sector Company Experiences Downturn",
+          "summary": "An energy company saw its shares decline amidst a slight weakening in crude oil prices and broader sector concerns.",
+          "ticker": "$ENRG",
+          "price": "$62.50",
+          "change": "-$2.50",
+          "changePercent": "-3.85%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis: Tech Declines, Small Caps Consolidate",
+      "id": "market-news-070326",
+      "title": "Market News & Analysis (Last Trading Day: July 3, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sa-1",
-          "headline": "Technology Sector Pulls Back Ahead of Holiday",
-          "summary": "On the last trading day, July 2, the technology sector experienced declines, largely contributing to the flat performance of the S&P 500 and the drop in the Nasdaq-100. This suggests investors were taking profits in AI-related stocks.",
+          "id": "sector-review-070326",
+          "headline": "Technology and Healthcare Lead, Industrials Lag",
+          "summary": "On Friday, the technology and healthcare sectors demonstrated resilience, showing positive momentum. Conversely, the industrial sector experienced some downward pressure, reflecting cautious sentiment among investors regarding manufacturing outlooks. This indicates a potential sector rotation towards growth-oriented and defensive industries.",
           "tags": [
+            "Sector Analysis",
             "Technology",
-            "Sector Performance",
-            "Profit-Taking"
+            "Healthcare",
+            "Industrials"
           ]
         },
         {
-          "id": "sa-2",
-          "headline": "Small-Cap Equities Show Multi-Month Outperformance",
-          "summary": "Despite a slight weekly consolidation (mirroring the Russell 2000's 0.5% decline), small-cap equities have demonstrated strong multi-month and yearly outperformance relative to large-cap indexes through the first half of 2026. Energy, Information Technology, and Materials sectors are anticipated to lead Q2 2026 earnings growth.",
+          "id": "economic-data-070326",
+          "headline": "New Economic Data Shows Mixed Signals",
+          "summary": "Recent economic data released on Friday presented a mixed picture, with some indicators suggesting continued economic growth while others hinted at a potential slowdown. Investors are closely monitoring upcoming inflation reports and central bank commentary for clearer guidance on monetary policy.",
           "tags": [
-            "Small-Cap",
-            "Market Leadership",
-            "Sector Outlook"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Earnings Watch",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "en-1",
-          "headline": "June Jobs Report Offers Relief on Rate Hikes",
-          "summary": "Released on July 2, June's nonfarm payrolls increased by a softer-than-expected 57,000 jobs, while initial jobless claims fell to 215,000. This data was seen by investors as a relief, potentially easing concerns about near-term interest rate hikes from the Federal Reserve.",
-          "tags": [
-            "Economic Data",
-            "Jobs Report",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "en-2",
-          "headline": "Q2 2026 Earnings Season Approaches",
-          "summary": "The second-quarter earnings season is set to begin in earnest during the second full week of July. FactSet projects an estimated year-over-year earnings growth rate of 23.3% for the S&P 500 in Q2 2026, marking the second consecutive quarter of growth above 20%. Early reports from companies like Oracle and Adobe have seen weak post-earnings reactions.",
-          "tags": [
-            "Earnings Season",
-            "Q2 Earnings",
-            "Corporate Reports"
-          ]
-        },
-        {
-          "id": "en-3",
-          "headline": "Independence Day's Economic Impact",
-          "summary": "The Fourth of July, marking America's 250th birthday this year, is a significant economic event, with total consumer spending estimated at over $15 billion, primarily in food, alcohol, and fireworks. The holiday structurally favors local small businesses, grocery stores, and mass retailers.",
-          "tags": [
-            "Holiday Spending",
-            "Consumer Economy"
+            "Economic News",
+            "Macro Trends",
+            "Inflation"
           ]
         }
       ]
