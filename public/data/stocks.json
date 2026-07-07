@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-07T14:06:00Z",
+  "generatedAt": "2026-07-07T18:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 07, 2026",
+  "subtitle": "Tuesday, July 07, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,15 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-07-07-2026",
-          "headline": "Tech Stocks Under Pressure, Dow Up Amid Mixed Sentiment and Geopolitical Concerns",
-          "summary": "U.S. markets are experiencing mixed sentiment today. Tech stocks are broadly lower, with the Nasdaq down significantly, following Samsung's earnings report which sparked concerns over second-quarter expectations. The S&P 500 also saw declines, while the Dow Jones Industrial Average is trading higher, suggesting a rotation in investor focus. Crude oil prices are up due to renewed concerns over Iranian attacks near the Strait of Hormuz, adding a layer of geopolitical uncertainty. Meanwhile, SpaceX has officially joined the Nasdaq-100 index, an event anticipated to drive billions in fund inflows.",
+          "id": "market-summary-070726",
+          "headline": "Tech Sell-off Drags S&P 500 and Nasdaq Lower as Samsung Earnings Disappoint",
+          "summary": "U.S. equities experienced a roller-coaster day, with technology stocks leading the broader market lower following Samsung's earnings report, which, despite strong profits, fell short of elevated expectations. The Nasdaq recorded significant losses, while the S&P 500 also declined. The Dow Jones Industrial Average, after showing some resilience in pre-market trading, also slipped. Geopolitical tensions in the Middle East pushed crude oil prices higher, adding to inflationary concerns.",
           "tags": [
-            "Market Overview",
-            "Tech",
-            "Geopolitics",
-            "Energy"
+            "Market Summary",
+            "Tech Sell-off",
+            "Inflation"
           ],
-          "timestamp": "2026-07-07T14:06:00Z"
+          "timestamp": "2026-07-07T18:02:00Z"
         }
       ]
     },
@@ -34,33 +33,21 @@
       "items": [
         {
           "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Current Performance",
-          "statValue": "7,540.20",
-          "statContext": "Down 0.14% (-10.75 points)",
-          "change": "-$10.75",
-          "changePercent": "-0.14%",
-          "direction": "down"
+          "statLabel": "S&P 500",
+          "statValue": "-0.7%",
+          "statContext": "Fell, largely due to AI stock declines."
         },
         {
           "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Current Performance",
-          "statValue": "29,435.40",
-          "statContext": "Down 0.90% (-269 points)",
-          "change": "-$269",
-          "changePercent": "-0.90%",
-          "direction": "down"
+          "statLabel": "NASDAQ Composite",
+          "statValue": "-1.5%",
+          "statContext": "Dragged down by drops in artificial-intelligence industry stocks."
         },
         {
           "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Current Performance",
-          "statValue": "53,350.30",
-          "statContext": "Up 0.27% (+148 points)",
-          "change": "+$148",
-          "changePercent": "+0.27%",
-          "direction": "up"
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "-0.4%",
+          "statContext": "Down 206 points amid broader market weakness."
         }
       ]
     },
@@ -71,94 +58,54 @@
       "layout": "grid",
       "items": [
         {
-          "id": "fslr-gainer",
-          "headline": "First Solar Soars on Analyst Upgrade",
-          "summary": "Shares of First Solar ($FSLR) are rocketing higher after Deutsche Bank upgraded the stock to a 'buy' rating, citing strong fundamentals for the U.S.-based panel production company.",
-          "ticker": "$FSLR",
+          "id": "crnx-gainer",
+          "headline": "Crinetics Pharmaceuticals Soars on Acquisition News",
+          "summary": "Shares of Crinetics Pharmaceuticals surged after Vertex Pharmaceuticals announced an agreement to acquire the company in a $10 billion transaction.",
+          "ticker": "$CRNX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Solar Energy",
-            "Analyst Upgrade"
-          ]
+          "changePercent": "+98.8%",
+          "direction": "up"
         },
         {
-          "id": "tsla-gainer",
-          "headline": "Tesla Rebounds from Recent Pullback",
-          "summary": "Tesla ($TSLA) shares experienced a significant bounce today, recovering from last week's pullback.",
-          "ticker": "$TSLA",
+          "id": "rivn-loser",
+          "headline": "Rivian Automotive Drops Following Share Offering Plan",
+          "summary": "Rivian Automotive shares declined significantly after the electric-vehicle maker launched an offer to sell 75 million shares.",
+          "ticker": "$RIVN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.70%",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Automotive",
-            "Technology"
-          ]
-        },
-        {
-          "id": "meta-gainer",
-          "headline": "Meta Platforms Sees Solid Gains",
-          "summary": "Meta Platforms ($META) had a nice bounce higher today.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.00%",
-          "direction": "up",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "Social Media"
-          ]
-        },
-        {
-          "id": "wdc-loser",
-          "headline": "Western Digital Drops in Premarket Trading",
-          "summary": "Western Digital ($WDC), a data storage company, fell sharply in premarket trading.",
-          "ticker": "$WDC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.00%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Technology",
-            "Semiconductors"
-          ]
+          "changePercent": "-13.5%",
+          "direction": "down"
         },
         {
           "id": "mu-loser",
-          "headline": "Micron Technology Declines",
-          "summary": "Micron Technology ($MU) shares were down in premarket trading amid broader weakness in chip stocks.",
+          "headline": "Micron Technology Falls Amid Chip Sector Rout",
+          "summary": "Micron Technology experienced a notable drop as the semiconductor sector continued to face pressure following Samsung's earnings and broader AI jitters.",
           "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.60%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Technology",
-            "Semiconductors"
-          ]
+          "changePercent": "-7.0%",
+          "direction": "down"
         },
         {
-          "id": "intc-loser",
-          "headline": "Intel Slides as Chip Concerns Persist",
-          "summary": "Intel ($INTC) saw its shares fall today, contributing to the overall pressure on the semiconductor sector.",
-          "ticker": "$INTC",
+          "id": "spcx-loser",
+          "headline": "SpaceX Slips on Nasdaq-100 Debut",
+          "summary": "SpaceX saw a decline on its first trading day after being included in the Nasdaq-100 index, impacted by the overall tech sector weakness.",
+          "ticker": "$SPCX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.00%",
-          "direction": "down",
-          "tags": [
-            "Loser",
-            "Technology",
-            "Semiconductors"
-          ]
+          "changePercent": "-5.3%",
+          "direction": "down"
+        },
+        {
+          "id": "nvda-loser",
+          "headline": "Nvidia Shares Lower Amid AI Stock Pressure",
+          "summary": "Nvidia's stock was down, reflecting the ongoing 'roller-coaster ride' for AI-related companies and concerns about sector valuations.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.4%",
+          "direction": "down"
         }
       ]
     },
@@ -169,63 +116,57 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-news",
-          "headline": "Sector Rotation Gains Momentum Amid Shifting Economic Outlook",
-          "summary": "A significant sector rotation is underway, with investors accelerating a shift away from concentrated positions in mega-cap technology stocks towards financials, industrials, healthcare, energy, infrastructure, and other value sectors. This shift is influenced by softer-than-expected U.S. jobs data and growing evidence of broadening market leadership. While Technology led Q2 gains, Energy experienced a sharp reversal, falling 12.7% during the quarter. Today, Technology, Financials, and Industrials were noted as leading, while defensive sectors like Healthcare, Consumer Staples, and Utilities lagged.",
+          "id": "sector-analysis-070726",
+          "headline": "Sector Rotation Continues Amid Tech Pullback",
+          "summary": "A noticeable sector rotation is underway, with investors shifting out of high-flying technology stocks and into previously underperforming sectors such as financial services, healthcare, and industrials. Consumer Staples and Energy also showed some resilience. Conversely, the technology sector, especially semiconductors and AI-related companies, lagged significantly due to valuation concerns and disappointing sentiment from Samsung's earnings report.",
           "tags": [
             "Sector Analysis",
-            "Market Trends",
-            "Economy"
+            "Technology",
+            "Financials",
+            "Healthcare"
           ]
         },
         {
-          "id": "economic-data-deficit",
-          "headline": "U.S. Trade Deficit Widens in May",
-          "summary": "The U.S. goods and services deficit expanded to $77.6 billion in May, an increase of $23.0 billion from a revised $54.6 billion in April. This widening of the deficit was driven by a larger goods deficit, despite an increase in the services surplus.",
-          "tags": [
-            "Economic Data",
-            "Trade Balance"
-          ]
-        },
-        {
-          "id": "fed-minutes-focus",
-          "headline": "Federal Reserve Meeting Minutes Eyed for Rate Clues",
-          "summary": "Market participants are closely awaiting the release of the Federal Reserve's meeting minutes, which could offer new insights into the path of interest rates. The Federal Open Market Committee (FOMC) maintained its target range for the federal funds rate at 3.50%–3.75% at its June meeting, with the market now pricing in at least one 25 basis point rate increase in 2026.",
+          "id": "economic-data-070726",
+          "headline": "Mixed Economic Data and Rising Inflation Expectations",
+          "summary": "The U.S. economy presented a mixed picture with the May trade deficit widening to $77.6 billion, although it was better than anticipated. Job openings, as per the June JOLTS report, climbed to a two-year high of 7594k, and consumer confidence improved. However, nonfarm payrolls showed moderation, adding 57,000 jobs, while the unemployment rate declined to 4.2%. The Federal Reserve's June FOMC meeting minutes are highly anticipated for further clarity on interest rates, with markets pricing in at least one 25 basis point hike in 2026 amidst rising inflation expectations.",
           "tags": [
             "Economic News",
-            "Federal Reserve",
-            "Interest Rates"
+            "Inflation",
+            "Trade Balance",
+            "Employment"
+          ]
+        },
+        {
+          "id": "samsung-earnings-impact",
+          "headline": "Samsung Earnings Spark Tech Sector Concerns",
+          "summary": "South Korean chip giant Samsung Electronics announced a 19-fold surge in operating profit for Q2, but these strong results failed to meet the market's exceptionally high expectations, triggering a sell-off in technology and semiconductor stocks globally. Concerns intensified as a report surfaced about China's DeepSeek developing its own AI chip, further rattling sentiment around established chipmakers.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "Semiconductors",
+            "AI"
+          ]
+        },
+        {
+          "id": "geopolitical-oil",
+          "headline": "Oil Prices Rise Amid Geopolitical Tensions",
+          "summary": "Crude oil prices rose to approximately $69 per barrel following reports of Iranian Revolutionary Guard forces firing on commercial vessels near the Strait of Hormuz, renewing concerns about global energy supply disruptions and contributing to inflationary pressures.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Geopolitics"
           ]
         },
         {
           "id": "spacex-nasdaq100",
-          "headline": "SpaceX Joins Nasdaq-100, Anticipated to Drive Inflows",
-          "summary": "SpaceX ($SPCX) officially joined the Nasdaq-100 index today. This inclusion, made possible by newly created 'fast-track entry' rules for mega-IPOs, is expected to trigger billions of dollars in buying from funds that track the index.",
+          "headline": "SpaceX Makes Nasdaq-100 Debut, Faces Initial Headwinds",
+          "summary": "Elon Musk's SpaceX officially joined the Nasdaq-100 index today. The inclusion is expected to trigger billions in fund inflows, but shares dipped on their first day of trading within the index amidst the broader tech market downturn.",
           "tags": [
             "Company News",
             "Tech",
-            "IPO",
-            "Market Indices"
-          ]
-        },
-        {
-          "id": "lg-electronics-earnings",
-          "headline": "LG Electronics Reports Record Q2 Earnings",
-          "summary": "LG Electronics Inc. ($066570.KS) announced preliminary earnings results for the second quarter of 2026, reporting record-high consolidated revenue of KRW 23.83 trillion and operating profit of KRW 1.58 trillion. Both figures represent the highest second-quarter levels in the company's history.",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "International Markets"
-          ]
-        },
-        {
-          "id": "canada-turkiye-fta",
-          "headline": "Canada and Türkiye Launch Free Trade Agreement Negotiations",
-          "summary": "Canada and Türkiye have officially launched negotiations towards a comprehensive, modern, and mutually beneficial Free Trade Agreement (FTA). This initiative aims to deepen the economic partnership, supporting economic growth, job creation, and strengthened supply chains.",
-          "tags": [
-            "Economic News",
-            "International Trade",
-            "Geopolitics"
+            "SpaceX",
+            "IPO"
           ]
         }
       ]
