@@ -1,172 +1,160 @@
 {
-  "generatedAt": "2026-07-07T18:02:00Z",
+  "generatedAt": "2026-07-08T09:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, July 07, 2026",
+  "subtitle": "July 08, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Geopolitical Tensions & Fed Outlook Weigh on Stocks",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-070726",
-          "headline": "Tech Sell-off Drags S&P 500 and Nasdaq Lower as Samsung Earnings Disappoint",
-          "summary": "U.S. equities experienced a roller-coaster day, with technology stocks leading the broader market lower following Samsung's earnings report, which, despite strong profits, fell short of elevated expectations. The Nasdaq recorded significant losses, while the S&P 500 also declined. The Dow Jones Industrial Average, after showing some resilience in pre-market trading, also slipped. Geopolitical tensions in the Middle East pushed crude oil prices higher, adding to inflationary concerns.",
+          "id": "market-summary-070826",
+          "headline": "U.S. Stocks Edge Lower Amid Escalating Middle East Conflict and Hawkish Fed Speculation",
+          "summary": "U.S. major indices experienced mixed to negative performance today as renewed geopolitical conflicts in the Middle East escalated, pushing crude oil prices higher and stoking inflation fears. Investors also processed a hawkish tone from the Federal Reserve's latest meeting minutes, contributing to concerns about sustained interest rates. Technology stocks, particularly those in the AI sector, faced significant profit-taking, while energy and healthcare sectors showed relative resilience, indicating a potential market rotation.",
           "tags": [
-            "Market Summary",
-            "Tech Sell-off",
-            "Inflation"
-          ],
-          "timestamp": "2026-07-07T18:02:00Z"
+            "Market Overview",
+            "Geopolitics",
+            "Inflation",
+            "Fed"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (as of market close July 7th / pre-market July 8th)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "-0.7%",
-          "statContext": "Fell, largely due to AI stock declines."
+          "statValue": "7,503.85",
+          "statContext": "Closed down 0.5% on July 7th. Pre-market down 0.14% on July 8th."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "-1.5%",
-          "statContext": "Dragged down by drops in artificial-intelligence industry stocks."
+          "statValue": "25,818.69",
+          "statContext": "Closed down 1.2% on July 7th. Pre-market down 1.21% on July 8th."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "-0.4%",
-          "statContext": "Down 206 points amid broader market weakness."
+          "statValue": "52,925.15",
+          "statContext": "Closed down 0.3% (130.76 points) on July 7th. Pre-market up 0.47% on July 8th."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Pre-Market / July 7th Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "crnx-gainer",
-          "headline": "Crinetics Pharmaceuticals Soars on Acquisition News",
-          "summary": "Shares of Crinetics Pharmaceuticals surged after Vertex Pharmaceuticals announced an agreement to acquire the company in a $10 billion transaction.",
+          "headline": "Crinetics Pharmaceuticals Leads Pre-Market Gains",
           "ticker": "$CRNX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+98.8%",
-          "direction": "up"
+          "changePercent": "+98.86%",
+          "direction": "up",
+          "summary": "Crinetics Pharmaceuticals, Inc. was a top pre-market gainer, signaling strong early trading interest."
         },
         {
-          "id": "rivn-loser",
-          "headline": "Rivian Automotive Drops Following Share Offering Plan",
-          "summary": "Rivian Automotive shares declined significantly after the electric-vehicle maker launched an offer to sell 75 million shares.",
-          "ticker": "$RIVN",
+          "id": "tdth-gainer",
+          "headline": "Trident Digital Tech Holdings Sees Significant Pre-Market Jump",
+          "ticker": "$TDTH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.5%",
-          "direction": "down"
+          "changePercent": "+65.93%",
+          "direction": "up",
+          "summary": "Trident Digital Tech Holdings Ltd. showed a substantial increase in pre-market activity today."
         },
         {
-          "id": "mu-loser",
-          "headline": "Micron Technology Falls Amid Chip Sector Rout",
-          "summary": "Micron Technology experienced a notable drop as the semiconductor sector continued to face pressure following Samsung's earnings and broader AI jitters.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.0%",
-          "direction": "down"
+          "id": "amds-loser",
+          "headline": "AMD Slumps Amid AI Sector Sell-Off",
+          "ticker": "$AMD",
+          "price": "$516.11",
+          "change": "-$35.94",
+          "changePercent": "-6.51%",
+          "direction": "down",
+          "summary": "Advanced Micro Devices experienced a significant decline on July 7th, part of a broader profit-taking trend in the AI and semiconductor sector following Samsung's earnings report."
         },
         {
-          "id": "spcx-loser",
-          "headline": "SpaceX Slips on Nasdaq-100 Debut",
-          "summary": "SpaceX saw a decline on its first trading day after being included in the Nasdaq-100 index, impacted by the overall tech sector weakness.",
-          "ticker": "$SPCX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.3%",
-          "direction": "down"
-        },
-        {
-          "id": "nvda-loser",
-          "headline": "Nvidia Shares Lower Amid AI Stock Pressure",
-          "summary": "Nvidia's stock was down, reflecting the ongoing 'roller-coaster ride' for AI-related companies and concerns about sector valuations.",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.4%",
-          "direction": "down"
+          "id": "tsla-loser",
+          "headline": "Tesla Shares Decline",
+          "ticker": "$TSLA",
+          "price": "$402.90",
+          "change": "-$17.03 (approx)",
+          "changePercent": "-4.02%",
+          "direction": "down",
+          "summary": "Tesla faced a sharp decline on July 7th, contributing to losses in tech-heavy indices."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Key Market Stories & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-070726",
-          "headline": "Sector Rotation Continues Amid Tech Pullback",
-          "summary": "A noticeable sector rotation is underway, with investors shifting out of high-flying technology stocks and into previously underperforming sectors such as financial services, healthcare, and industrials. Consumer Staples and Energy also showed some resilience. Conversely, the technology sector, especially semiconductors and AI-related companies, lagged significantly due to valuation concerns and disappointing sentiment from Samsung's earnings report.",
+          "id": "fomc-minutes",
+          "headline": "FOMC Minutes Released, Hawkish Tone Expected on Rate Hikes",
+          "summary": "The Federal Open Market Committee (FOMC) meeting minutes from June 16-17 were released today, providing detailed insights into the central bank's policy discussions. Expectations are for a hawkish tone, with a divided committee on the potential for further rate hikes in 2026 amidst persistent inflation concerns.",
+          "tags": [
+            "Fed",
+            "Monetary Policy",
+            "Interest Rates"
+          ],
+          "timestamp": "2026-07-08T13:00:00Z"
+        },
+        {
+          "id": "middle-east-tensions",
+          "headline": "Escalating Middle East Tensions Drive Oil Prices Higher",
+          "summary": "Geopolitical conflicts in the Middle East have escalated, particularly in the Strait of Hormuz, leading to a rise in crude oil prices. This development is stoking inflation fears and influencing market sentiment, especially in energy-related sectors.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Sector Rotation Underway: Tech Pullback, Healthcare & Energy Show Strength",
+          "summary": "There is an apparent rotation out of high-flying technology stocks, which have faced profit-taking due to overstretched valuations in the AI trade. Conversely, sectors like financial services, healthcare, and energy are demonstrating resilience and attracting investor interest, benefiting from a rebalancing and improving fundamentals.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Financials",
-            "Healthcare"
+            "Healthcare",
+            "Energy"
           ]
         },
         {
-          "id": "economic-data-070726",
-          "headline": "Mixed Economic Data and Rising Inflation Expectations",
-          "summary": "The U.S. economy presented a mixed picture with the May trade deficit widening to $77.6 billion, although it was better than anticipated. Job openings, as per the June JOLTS report, climbed to a two-year high of 7594k, and consumer confidence improved. However, nonfarm payrolls showed moderation, adding 57,000 jobs, while the unemployment rate declined to 4.2%. The Federal Reserve's June FOMC meeting minutes are highly anticipated for further clarity on interest rates, with markets pricing in at least one 25 basis point hike in 2026 amidst rising inflation expectations.",
+          "id": "economic-data-eia-gdpnow",
+          "headline": "Key Economic Data: EIA Crude Oil Inventories and Wholesale Data Released",
+          "summary": "Today's economic calendar included the release of the Energy Information Administration's (EIA) weekly crude oil inventories report, offering critical information on petroleum supply levels. Additionally, data on Wholesale Inventories (MoM) and Wholesale Trade Sales were published, providing insights into business inventory management and demand. The IMF also released its July 2026 World Economic Outlook Update.",
           "tags": [
-            "Economic News",
-            "Inflation",
-            "Trade Balance",
-            "Employment"
+            "Economic Data",
+            "Energy",
+            "Wholesale Trade",
+            "IMF"
           ]
         },
         {
-          "id": "samsung-earnings-impact",
-          "headline": "Samsung Earnings Spark Tech Sector Concerns",
-          "summary": "South Korean chip giant Samsung Electronics announced a 19-fold surge in operating profit for Q2, but these strong results failed to meet the market's exceptionally high expectations, triggering a sell-off in technology and semiconductor stocks globally. Concerns intensified as a report surfaced about China's DeepSeek developing its own AI chip, further rattling sentiment around established chipmakers.",
+          "id": "morgan-stanley-earnings",
+          "headline": "Morgan Stanley Q2 Earnings Anticipation Builds for July 15th",
+          "summary": "While not reporting today, Morgan Stanley ($MS) is scheduled to release its Q2 2026 earnings before market open on July 15th. Analysts expect strong results, with positive sentiment building around the financial sector's performance. Other companies like Levi Strauss and Helen of Troy are also due to report soon.",
           "tags": [
             "Earnings",
-            "Technology",
-            "Semiconductors",
-            "AI"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Oil Prices Rise Amid Geopolitical Tensions",
-          "summary": "Crude oil prices rose to approximately $69 per barrel following reports of Iranian Revolutionary Guard forces firing on commercial vessels near the Strait of Hormuz, renewing concerns about global energy supply disruptions and contributing to inflationary pressures.",
-          "tags": [
-            "Commodities",
-            "Oil",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "spacex-nasdaq100",
-          "headline": "SpaceX Makes Nasdaq-100 Debut, Faces Initial Headwinds",
-          "summary": "Elon Musk's SpaceX officially joined the Nasdaq-100 index today. The inclusion is expected to trigger billions in fund inflows, but shares dipped on their first day of trading within the index amidst the broader tech market downturn.",
-          "tags": [
-            "Company News",
-            "Tech",
-            "SpaceX",
-            "IPO"
+            "Financials"
           ]
         }
       ]
