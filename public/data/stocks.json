@@ -1,76 +1,101 @@
 {
-  "generatedAt": "2026-07-08T13:29:00Z",
+  "generatedAt": "2026-07-08T17:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions & Tech Rout Weigh on Markets",
-  "subtitle": "Wednesday, July 8, 2026",
+  "title": "Daily Market Digest: Geopolitical Tensions & Oil Surge Drive Sell-Off",
+  "subtitle": "Market insights for Wednesday, July 8, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-070826",
-          "headline": "Geopolitical Tensions and Tech Sell-Off Drag Down U.S. Markets",
-          "summary": "U.S. equities closed lower on Wednesday, with major indices experiencing declines amidst escalating geopolitical tensions between the U.S. and Iran, which sent oil prices surging. A continued rout in semiconductor and AI-related stocks further dampened market sentiment. Investors also closely watched the release of the Federal Reserve's June FOMC minutes for insights into monetary policy.",
+          "id": "market-overview-001",
+          "headline": "Global Markets Decline Amid Renewed US-Iran Tensions and Surging Oil Prices",
+          "summary": "U.S. equity markets experienced a broad sell-off today as President Donald Trump declared the ceasefire with Iran 'over,' escalating geopolitical tensions. This development sent crude oil prices sharply higher, fueling concerns over inflation and prompting investors to pull out of riskier assets. Technology and travel sectors were particularly hard-hit, while energy and consumer defensive stocks showed resilience. The International Monetary Fund (IMF) also downgraded its global economic growth outlook for 2026, citing the energy shock from the conflict. All eyes were on the Federal Reserve's release of the June FOMC meeting minutes, with investors keenly analyzing clues regarding future interest rate trajectories amidst persistent inflation.",
           "tags": [
-            "Market Summary",
             "Geopolitics",
-            "Technology",
-            "Oil Prices"
+            "Oil",
+            "Inflation",
+            "Market Sentiment"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,503.85",
-          "statContext": "Down 0.4% (-33.58 points)"
+          "statValue": "7,435.81",
+          "statContext": "Down 0.91%",
+          "ticker": "^GSPC",
+          "price": "7,435.81",
+          "change": "-68.35",
+          "changePercent": "-0.91%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,818.69",
-          "statContext": "Down 1.2% (-302.47 points)"
+          "statValue": "25,584.75",
+          "statContext": "Down 0.92%",
+          "ticker": "^IXIC",
+          "price": "25,584.75",
+          "change": "-237.03",
+          "changePercent": "-0.92%",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,925.15",
-          "statContext": "Down 0.2% (-130.76 points)"
+          "statValue": "52,126.81",
+          "statContext": "Down 1.51%",
+          "ticker": "^DJI",
+          "price": "52,126.81",
+          "change": "-798.26",
+          "changePercent": "-1.51%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "crnx-gainer",
-          "headline": "Crinetics Pharmaceuticals Surges on Strong Performance",
-          "summary": "Crinetics Pharmaceuticals Inc. ($CRNX) posted a significant one-day gain of +98.7%. The stock has been a top performer in July, showing strong momentum.",
+          "id": "gainer-crnx",
+          "headline": "Crinetics Pharmaceuticals, Inc. Surges Over 115%",
+          "summary": "Crinetics Pharmaceuticals Inc. ($CRNX) was among the top performers, demonstrating significant strength with a gain of 115.95%.",
           "ticker": "$CRNX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+98.7%",
+          "price": "$83.53",
+          "change": "+$45.03",
+          "changePercent": "+115.95%",
           "direction": "up"
         },
         {
-          "id": "ctsh-gainer",
+          "id": "gainer-avgo",
+          "headline": "Broadcom Rises on Apple Partnership",
+          "summary": "Broadcom ($AVGO) saw its shares climb by 4.5% in early trading, following Apple's announcement of a multiyear commitment to design and produce custom components with the company, an agreement valued at over $30 billion.",
+          "ticker": "$AVGO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.5%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-cts",
           "headline": "Cognizant Technology Solutions Rallies on Google Cloud Partnership",
-          "summary": "Cognizant Technology Solutions Corp. ($CTSH) saw its shares rally 6.2% following news of an expanded partnership with Google Cloud for enterprise adoption of Gemini AI.",
+          "summary": "Cognizant Technology Solutions Corp. ($CTSH) rallied 6.2% after expanding its partnership with Google Cloud for enterprise adoption of Gemini AI.",
           "ticker": "$CTSH",
           "price": "N/A",
           "change": "N/A",
@@ -78,9 +103,9 @@
           "direction": "up"
         },
         {
-          "id": "eltx-loser",
-          "headline": "Elicio Therapeutics Plunges After Direct Offering Pricing",
-          "summary": "Elicio Therapeutics, Inc. ($ELTX) experienced a sharp decline of -37.35% after announcing the pricing of a $15 million registered direct offering.",
+          "id": "loser-eltx",
+          "headline": "Elicio Therapeutics Plunges on Direct Offering",
+          "summary": "Elicio Therapeutics, Inc. ($ELTX) experienced a sharp decline of 37.35% following the announcement of a $15 million registered direct offering.",
           "ticker": "$ELTX",
           "price": "N/A",
           "change": "N/A",
@@ -88,9 +113,9 @@
           "direction": "down"
         },
         {
-          "id": "rivn-loser",
-          "headline": "Rivian Automotive Shares Fall on Stock Sale Decision",
-          "summary": "Rivian Automotive Inc. ($RIVN) shares plunged 18.1% after the company decided to sell 75 million shares of its Class A common stock.",
+          "id": "loser-rivn",
+          "headline": "Rivian Automotive Shares Dive on Stock Sale",
+          "summary": "Rivian Automotive Inc.'s ($RIVN) shares plunged 18.1% after the company decided to sell 75 million shares of its Class A common stock.",
           "ticker": "$RIVN",
           "price": "N/A",
           "change": "N/A",
@@ -98,104 +123,85 @@
           "direction": "down"
         },
         {
-          "id": "amd-loser",
-          "headline": "Semiconductor Stocks Hit by Broader Sector Rout",
-          "summary": "Advanced Micro Devices ($AMD) sank 6.5% as the semiconductor sector continued its downturn, fueled by concerns over AI valuations and competitive pressures.",
-          "ticker": "$AMD",
+          "id": "loser-intc",
+          "headline": "Intel Drops as Tech Sector Falters",
+          "summary": "Intel Corporation ($INTC) saw its shares drop over 5% as the broader technology sector faltered amidst market anxieties.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.5%",
-          "direction": "down"
-        },
-        {
-          "id": "spcx-loser",
-          "headline": "SpaceX ($SPCX) Dips on Nasdaq 100 Debut",
-          "summary": "SpaceX ($SPCX) fell 6.8% on its first day of trading after being included in the Nasdaq 100 index, amidst a broader downturn for AI-related tech stocks.",
-          "ticker": "$SPCX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.8%",
+          "changePercent": "-5.0%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "healthcare-leading",
-          "headline": "Healthcare Sector Shows Relative Strength Amidst Market Weakness",
-          "summary": "The healthcare sector continues to demonstrate significant relative strength, with 91% of S&P 500 healthcare stocks outperforming the broader market over the past month. Financials are also showing concentrated strength, particularly in Asset Management & Custody Banks and Multi-Family Residential REITs. Energy stocks saw a premarket lift due to surging oil prices.",
-          "tags": [
-            "Healthcare",
-            "Financials",
-            "Energy",
-            "Market Trends"
-          ]
-        },
-        {
-          "id": "technology-lagging",
-          "headline": "Technology and Semiconductor Sectors Experience Rout",
-          "summary": "The technology sector, particularly semiconductors, faced a significant downturn. The Nasdaq 100 saw a sharp decline, with a renewed sell-off attributed to factors like Samsung's earnings miss and new AI chip development, questioning the sustainability of AI hyperscaler spending.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI",
-            "Market Downturn"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
+      "id": "market-news-headlines",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fomc-minutes-release",
-          "headline": "Fed Releases June FOMC Minutes, Reveals Divided Committee",
-          "summary": "The Federal Reserve released the minutes from its June 17 FOMC meeting today at 2:00 p.m. ET. The committee had unanimously kept the federal funds rate steady at 3.50%–3.75%, but the minutes are being scrutinized for insights into individual members' views on inflation and the economic effects of the Middle East conflict. Nine out of 19 policymakers expect at least one more rate hike before year-end 2026.",
+          "id": "economic-news-001",
+          "headline": "Fed Minutes Released: Focus on Inflation and Geopolitical Impact",
+          "summary": "The Federal Reserve released the minutes from its June 17 FOMC meeting today, revealing insights into the committee's decision to hold the federal funds rate steady at 3.50%–3.75%. Investors are scrutinizing the minutes for clues on how policymakers are balancing elevated inflation—running at roughly twice the 2% target—with the economic effects of the Middle East conflict.",
           "tags": [
             "Federal Reserve",
-            "FOMC Minutes",
+            "FOMC",
             "Interest Rates",
             "Inflation"
           ]
         },
         {
-          "id": "us-iran-tensions",
-          "headline": "U.S.-Iran Tensions Spike, Driving Oil Prices Higher",
-          "summary": "Geopolitical tensions between the U.S. and Iran intensified after President Donald Trump declared an interim ceasefire 'over' following U.S. strikes on Iran. This development led to a surge of over 5% in oil prices, contributing to renewed inflation worries and impacting global markets.",
+          "id": "economic-news-002",
+          "headline": "IMF Downgrades Global Growth Outlook Amid Energy Shock",
+          "summary": "The International Monetary Fund (IMF) modestly downgraded its outlook for the global economy in 2026, projecting a sluggish 3% expansion, down from previous forecasts. The revision is primarily attributed to the energy shock resulting from the ongoing conflict in Iran, though booming investment in artificial intelligence is partially offsetting the fallout. The IMF expects oil prices to climb nearly 32% this year and global consumer prices to increase 4.7%, indicating a stall in inflation progress.",
           "tags": [
-            "Geopolitics",
+            "IMF",
+            "Global Economy",
+            "Inflation",
             "Oil Prices",
-            "Inflation",
-            "Middle East"
+            "AI"
           ]
         },
         {
-          "id": "equifax-market-pulse",
-          "headline": "Equifax Report Highlights Growing Pressure on U.S. Middle Class",
-          "summary": "Equifax released its first quarter 2026 Market Pulse Index, which declined for the second consecutive quarter, from 61.6 to 60.9. The report indicates an accelerated movement of consumers towards economic extremes, highlighting a 'K-Shaped economy' where the middle class is contracting.",
+          "id": "sector-news-001",
+          "headline": "Energy Sector Leads Gains as Oil Prices Soar",
+          "summary": "With renewed US-Iran tensions driving West Texas Intermediate (WTI) crude oil up 7.85% to almost $76 a barrel and Brent crude climbing 4.8% to $77.74, the energy sector emerged as a leading performer. Companies like Exxon Mobil ($XOM), Chevron ($CVX), ConocoPhillips ($COP), and Valero Energy ($VLO) saw gains.",
           "tags": [
-            "Economic Data",
-            "Consumer Health",
-            "Inflation",
-            "K-Shaped Economy"
+            "Energy Sector",
+            "Oil Prices",
+            "Geopolitics"
           ]
         },
         {
-          "id": "upcoming-earnings",
-          "headline": "Major Earnings Reports on the Horizon",
-          "summary": "While Levi Strauss A. ($LEVI), PriceSmart ($PSMT), and AZZ ($AZZ) were expected to report earnings today, major banks JPMorgan Chase and Goldman Sachs are scheduled to release their Q2 earnings on July 14. OneMain Holdings ($OMF) will report on July 29, and Flagstar Bank, N.A. ($FLG) on July 24.",
+          "id": "sector-news-002",
+          "headline": "Technology and Travel Sectors Face Significant Headwinds",
+          "summary": "The technology sector, particularly chipmakers, and travel-related companies experienced notable declines. Tech stocks were pressured by the broader market downturn and negative reports from international chipmakers. Airline and cruise line stocks fell due to concerns over higher fuel costs.",
           "tags": [
-            "Earnings Season",
-            "Corporate News",
-            "Financial Reports"
+            "Technology Sector",
+            "Travel Sector",
+            "Chip Stocks",
+            "Fuel Costs"
+          ]
+        },
+        {
+          "id": "earnings-news-001",
+          "headline": "CHS Inc. Reports Strong Q3 Earnings Driven by Energy Segment",
+          "summary": "CHS Inc. ($CHS) reported net income of $267.4 million and revenues of $11.6 billion for its third fiscal quarter of 2026. The company's energy segment benefited from robust refining margins, largely offsetting record-high renewable energy credit costs.",
+          "tags": [
+            "Earnings",
+            "Agribusiness",
+            "Energy Sector"
+          ]
+        },
+        {
+          "id": "earnings-news-002",
+          "headline": "Levi Strauss & Co. (LEVI) Among Companies Reporting Today",
+          "summary": "Levi Strauss & Co. ($LEVI) is among the companies releasing their Q2 2026 earnings reports today. Investors will be closely watching sales performance across key regions and direct-to-consumer trends for insights into consumer demand for apparel.",
+          "tags": [
+            "Earnings",
+            "Retail",
+            "Consumer Discretionary"
           ]
         }
       ]
