@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T09:25:35.777968Z",
+  "generatedAt": "2026-07-09T15:24:41.751546Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 1,
+  "tradeCount": 4,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,6 +18,54 @@
       "footerTag": "Accumulation",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$205.00",
+      "entry": "$196.94",
+      "stop": "$187.00",
+      "structure": "0.5 Fib Retracement",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVDA is trading above its 150-day moving average, indicating a bullish trend. The stock has shown support around the 0.5 Fibonacci retracement level, suggesting a potential bounce from this key area. Current volume is below average, which could indicate consolidation.",
+      "riskScore": 4,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$396.49",
+      "entry": "$398.00",
+      "stop": "$379.00",
+      "structure": "Fibonacci Support Retest",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is trading below its 20-day and likely its 150-day moving averages, indicating a bearish trend. The price is approaching a significant Fibonacci support cluster around the entry, but upcoming earnings on July 22, 2026, pose high volatility and risk.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$313.74",
+      "entry": "$300.00",
+      "stop": "$270.00",
+      "structure": "Support at 50MA",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong bullish trend, trading well above its 20-day and 150-day moving averages. A 'golden cross' indicates sustained upward momentum. A potential entry on a pullback to the 50-day moving average or a key psychological support level is ideal for accumulation.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
