@@ -1,177 +1,192 @@
 {
-  "generatedAt": "2026-07-10T10:21:00Z",
+  "generatedAt": "2026-07-10T13:58:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 10, 2026 - Market Snapshot",
+  "subtitle": "July 10, 2026 Market Digest",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-today",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-071026",
-          "headline": "U.S. Futures Mixed Amid Geopolitical Tensions and Continued AI Focus",
-          "summary": "U.S. stock futures are showing mixed movements this Friday morning, with S&P 500 and Nasdaq 100 futures slightly down, while Dow Jones futures edge higher. Investors are carefully watching persistent geopolitical tensions between the U.S. and Iran, which continue to influence oil prices, alongside an ongoing focus on the artificial intelligence sector and upcoming earnings reports. Yesterday's session saw major indices close higher, driven by a strong rally in semiconductor stocks. Not financial advice.",
+          "id": "market-summary",
+          "headline": "U.S. Equities Rebound Amid Tech Strength and Easing Tensions",
+          "summary": "U.S. equities experienced a broad-based rebound today, driven by strong performance in technology and small-cap stocks. Market sentiment improved, with the VIX falling, though geopolitical tensions in the Middle East kept investors on edge. The rally followed hopes for renewed U.S.-Iran talks and cooling oil prices. Trading was characterized by selective buying in certain sectors and reduced exposure in others. Early economic data showed an increase in personal income and consumption expenditures for May 2026.",
           "tags": [
-            "Market Overview",
-            "Futures",
-            "Geopolitics",
-            "AI"
-          ]
+            "Market Summary",
+            "Technology",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-07-10T13:58:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-today",
-      "title": "Major Indices (Pre-Market)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "0.11% lower",
-          "statContext": "Slightly down in pre-market trading.",
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,543.64",
+          "statContext": "Up 0.81%",
           "ticker": "$SPX",
-          "changePercent": "-0.11%",
-          "direction": "down"
+          "change": "+60.78",
+          "changePercent": "+0.81%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq100-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "0.43% lower",
-          "statContext": "Technology-heavy index futures decline.",
-          "ticker": "$NDX",
-          "changePercent": "-0.43%",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "18,910.15",
+          "statContext": "Up 1.30%",
+          "ticker": "$IXIC",
+          "change": "+242.06",
+          "changePercent": "+1.30%",
+          "direction": "up"
         },
         {
-          "id": "dow-premarket",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "0.12% higher",
-          "statContext": "Industrial average futures show modest gains.",
-          "ticker": "$DJIA",
-          "changePercent": "+0.12%",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "39,831.32",
+          "statContext": "Up 0.27%",
+          "ticker": "$DJI",
+          "change": "+107.54",
+          "changePercent": "+0.27%",
           "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-today",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "wdfc-gainer",
-          "headline": "WD-40 Surges on Strong Q3 Results",
-          "summary": "Shares of WD-40 ($WDFC) climbed 14% after the company reported better-than-expected FQ3 results and issued an upbeat FY2026 outlook. Adjusted EPS and revenue surpassed consensus estimates, with revenue up 24% year-over-year.",
-          "ticker": "$WDFC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14.00%",
+          "id": "gainer-ap",
+          "headline": "Ampco-Pittsburgh Soars on Contract Wins",
+          "summary": "Ampco-Pittsburgh ($AP) stock rocketed more than 75% following news of significant commercial contract wins and an expanding backlog.",
+          "ticker": "$AP",
+          "price": "$12.50",
+          "change": "+$5.36",
+          "changePercent": "+75.00%",
           "direction": "up",
           "tags": [
-            "Earnings",
-            "Gainers"
+            "Gainers",
+            "Industrials"
           ]
         },
         {
-          "id": "vod-gainer",
-          "headline": "Vodafone Jumps on Stake Sale Agreement",
-          "summary": "Vodafone ($VOD) shares rose 10% after UAE telecom operator e& Group agreed to sell its 16.21% stake in the company for $5.95 billion to a firm controlled by Xavier Niel's family group.",
-          "ticker": "$VOD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.00%",
+          "id": "gainer-alpx",
+          "headline": "Alopexx Doubles Amid Market Enthusiasm",
+          "summary": "Alopexx ($ALPX) saw its shares climb by 100% today, reflecting strong investor interest in the biotechnology sector.",
+          "ticker": "$ALPX",
+          "price": "$20.00",
+          "change": "+$10.00",
+          "changePercent": "+100.00%",
           "direction": "up",
           "tags": [
-            "M&A",
-            "Gainers"
+            "Gainers",
+            "Biotechnology"
           ]
         },
         {
-          "id": "elab-gainer",
-          "headline": "PMGC Holdings Up on Merger News",
-          "summary": "PMGC Holdings Inc. ($ELAB) saw a significant jump of 17.94% in premarket trading after disclosing a merger between two of its wholly-owned subsidiaries.",
-          "ticker": "$ELAB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+17.94%",
-          "direction": "up",
-          "tags": [
-            "M&A",
-            "Premarket",
-            "Gainers"
-          ]
-        },
-        {
-          "id": "frmi-loser",
-          "headline": "Fermi Tumbles After Upsized Note Offering",
-          "summary": "Shares of Fermi ($FRMI) fell 22% after the company priced an upsized $375 million offering of 5.00% convertible senior notes due 2031, with an initial conversion price representing a 30% premium to its previous closing price.",
-          "ticker": "$FRMI",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-22.00%",
+          "id": "loser-lz",
+          "headline": "LegalZoom Plunges on CEO Departure and Revenue Cut",
+          "summary": "LegalZoom ($LZ) shares fell 25.4% after the company announced the departure of its chief executive, Dan Wernikoff, and a cut to its full-year revenue forecast.",
+          "ticker": "$LZ",
+          "price": "$8.75",
+          "change": "-$2.98",
+          "changePercent": "-25.40%",
           "direction": "down",
           "tags": [
-            "Convertible Notes",
-            "Losers"
+            "Losers",
+            "Technology"
+          ]
+        },
+        {
+          "id": "loser-byrn",
+          "headline": "Byrna Technologies Drops Significantly",
+          "summary": "Byrna Technologies Inc. ($BYRN) experienced a notable decline of 33.67% today.",
+          "ticker": "$BYRN",
+          "price": "$3.94",
+          "change": "-$1.99",
+          "changePercent": "-33.67%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Security"
           ]
         }
       ]
     },
     {
-      "id": "market-news-today",
-      "title": "Market News & Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "geopolitical-tensions",
-          "headline": "Geopolitical Tensions Continue to Weigh on Markets",
-          "summary": "Military clashes between the U.S. and Iran continue to create uncertainty, leading to mixed stock futures and volatile oil prices. However, reports of potential diplomatic talks to resume have offered some calming sentiment.",
+          "id": "fed-inflation-concerns",
+          "headline": "Fed Officials Express Continued Inflation Concerns",
+          "summary": "Minutes from the June 16-17 Federal Open Market Committee (FOMC) meeting revealed that U.S. central bank officials remain highly concerned about inflation. Discussions highlighted a division among policymakers, with some favoring leaving rates unchanged and others leaning towards additional interest rate hikes if inflation persists.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Sentiment"
-          ]
+            "Fed",
+            "Monetary Policy",
+            "Inflation"
+          ],
+          "timestamp": "2026-07-10T13:58:00Z"
         },
         {
-          "id": "sector-performance",
-          "headline": "AI Dominates Sector Focus; Chip Stocks Rally, Then Slip",
-          "summary": "Semiconductor stocks demonstrated strong performance yesterday, driving gains across major indices. Information Technology and Communication Services are noted as leading sectors in growth. However, AI-related stocks in Europe saw a slip in early trade today as investors anticipate SK Hynix's Nasdaq debut as a test of AI sentiment.",
+          "id": "sector-rotation-tech",
+          "headline": "Technology and Small-Cap Stocks Lead Sector Rotation",
+          "summary": "Today saw a clear recovery in risk appetite, with technology (XLK) and consumer discretionary (XLY) leading sector gains, rising 2.18% and 1.34% respectively. Financials (XLF) also performed well, gaining 1.04%. Conversely, energy (XLE) and consumer staples (XLP) lagged, dropping 1.40% and 1.41%. AI and semiconductor stocks were noted as key drivers in the broader market rally.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Semiconductors",
-            "AI"
-          ]
+            "Risk Appetite"
+          ],
+          "timestamp": "2026-07-10T13:58:00Z"
         },
         {
-          "id": "economic-data-fed",
-          "headline": "Fed Expected to Hold Rates Steady; Inflation Concerns Persist",
-          "summary": "The CME Group's FedWatch tool indicates a 79.1% likelihood that the Federal Reserve will maintain current interest rates at its July meeting. Inflation worries remain a key concern for investors, influenced by fluctuating oil prices and their potential impact on consumer costs.",
+          "id": "economic-data-may2026",
+          "headline": "May 2026 Economic Data Shows Income and Spending Growth",
+          "summary": "The U.S. Bureau of Economic Analysis (BEA) reported that personal income increased by $181.6 billion (0.7 percent) in May 2026. Disposable personal income also rose by 0.7 percent, and personal consumption expenditures (PCE) saw a 0.7 percent increase.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Economic Data"
-          ]
+            "Economic Data",
+            "Personal Income",
+            "PCE"
+          ],
+          "timestamp": "2026-07-10T13:58:00Z"
         },
         {
-          "id": "earnings-reports",
-          "headline": "BitMine Reports Earnings Today; ChipMOS Sees AI-Driven Revenue Boost",
-          "summary": "BitMine ($BMNG) is scheduled to release its earnings report today, July 10, 2026. Separately, ChipMOS Technologies Inc. ($IMOS) reported record high monthly and quarterly revenue for June and Q2 2026, citing persistent AI-related demand as a key driver.",
+          "id": "delta-earnings",
+          "headline": "Delta Air Lines Reports Above-Expectation Earnings",
+          "summary": "Delta Air Lines ($DAL) reported earnings of $1.56, surpassing expectations.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "AI"
-          ]
+            "Airlines"
+          ],
+          "ticker": "$DAL",
+          "timestamp": "2026-07-10T13:58:00Z"
+        },
+        {
+          "id": "geopolitical-tensions",
+          "headline": "Geopolitical Tensions Remain a Market Factor",
+          "summary": "Ongoing geopolitical tensions, particularly renewed hostilities in the Middle East, continue to be a source of caution for investors. Despite this, hopes for renewed U.S.-Iran talks and cooling oil prices contributed to today's equity rally.",
+          "tags": [
+            "Geopolitics",
+            "Market Sentiment",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-07-10T13:58:00Z"
         }
       ]
     }
