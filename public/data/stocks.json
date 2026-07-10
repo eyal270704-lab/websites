@@ -1,203 +1,176 @@
 {
-  "generatedAt": "2026-07-09T17:58:00Z",
+  "generatedAt": "2026-07-10T10:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 09, 2026",
+  "subtitle": "July 10, 2026 - Market Snapshot",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Geopolitical Tensions & AI Rally Shape Trading Day",
+      "id": "market-pulse-today",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overview-001",
-          "headline": "U.S. Stocks Mixed Amid Middle East Conflict and Robust AI Sector Performance",
-          "summary": "U.S. equities saw a mixed session today as investors navigated escalating military tensions between the U.S. and Iran, which sparked early caution and an initial jump in oil prices. However, a strong performance from artificial intelligence and semiconductor stocks provided a significant upward thrust, particularly for the Nasdaq. Bond yields stabilized after an earlier climb, and oil prices retreated from their initial spikes. Overall market sentiment remains cautious but resilient, with the AI rally continuing to be a key driver for market movements.",
+          "id": "market-summary-071026",
+          "headline": "U.S. Futures Mixed Amid Geopolitical Tensions and Continued AI Focus",
+          "summary": "U.S. stock futures are showing mixed movements this Friday morning, with S&P 500 and Nasdaq 100 futures slightly down, while Dow Jones futures edge higher. Investors are carefully watching persistent geopolitical tensions between the U.S. and Iran, which continue to influence oil prices, alongside an ongoing focus on the artificial intelligence sector and upcoming earnings reports. Yesterday's session saw major indices close higher, driven by a strong rally in semiconductor stocks. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
+            "Futures",
             "Geopolitics",
-            "AI",
-            "Semiconductors"
-          ],
-          "timestamp": "2026-07-09T17:30:00Z"
+            "AI"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance",
+      "id": "major-indices-today",
+      "title": "Major Indices (Pre-Market)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,524.39",
-          "statContext": "+0.56% (as of noon ET)"
+          "id": "sp500-premarket",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "0.11% lower",
+          "statContext": "Slightly down in pre-market trading.",
+          "ticker": "$SPX",
+          "changePercent": "-0.11%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,073.17",
-          "statContext": "+0.78% (as of noon ET)"
+          "id": "nasdaq100-premarket",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "0.43% lower",
+          "statContext": "Technology-heavy index futures decline.",
+          "ticker": "$NDX",
+          "changePercent": "-0.43%",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,473.28",
-          "statContext": "+0.24% (as of noon ET)"
+          "id": "dow-premarket",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "0.12% higher",
+          "statContext": "Industrial average futures show modest gains.",
+          "ticker": "$DJIA",
+          "changePercent": "+0.12%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: Gainers & Losers",
+      "id": "top-movers-today",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-alny",
-          "headline": "Alnylam Pharmaceuticals Surges on Rival Drug Trial Failure",
-          "ticker": "$ALNY",
+          "id": "wdfc-gainer",
+          "headline": "WD-40 Surges on Strong Q3 Results",
+          "summary": "Shares of WD-40 ($WDFC) climbed 14% after the company reported better-than-expected FQ3 results and issued an upbeat FY2026 outlook. Adjusted EPS and revenue surpassed consensus estimates, with revenue up 24% year-over-year.",
+          "ticker": "$WDFC",
           "price": "N/A",
-          "change": "+11.51%",
-          "changePercent": "+11.51%",
+          "change": "N/A",
+          "changePercent": "+14.00%",
           "direction": "up",
-          "summary": "Alnylam Pharmaceuticals gained significantly after a late-stage trial for rival heart disease drugs from AstraZeneca and Ionis Pharmaceuticals failed to meet their primary goal.",
           "tags": [
-            "Biotechnology",
-            "Healthcare"
+            "Earnings",
+            "Gainers"
           ]
         },
         {
-          "id": "gainer-lite",
-          "headline": "Lumentum Holdings Rises on Strong Demand for Communication Chips",
-          "ticker": "$LITE",
+          "id": "vod-gainer",
+          "headline": "Vodafone Jumps on Stake Sale Agreement",
+          "summary": "Vodafone ($VOD) shares rose 10% after UAE telecom operator e& Group agreed to sell its 16.21% stake in the company for $5.95 billion to a firm controlled by Xavier Niel's family group.",
+          "ticker": "$VOD",
           "price": "N/A",
-          "change": "+10.8%",
-          "changePercent": "+10.8%",
+          "change": "N/A",
+          "changePercent": "+10.00%",
           "direction": "up",
-          "summary": "Lumentum Holdings advanced, benefiting from sector-wide demand for communication chips, part of the broader semiconductor rally.",
           "tags": [
-            "Technology",
-            "Semiconductors"
+            "M&A",
+            "Gainers"
           ]
         },
         {
-          "id": "gainer-peng",
-          "headline": "Penguin Solutions Soars on Strong Earnings Beat",
-          "ticker": "$PENG",
+          "id": "elab-gainer",
+          "headline": "PMGC Holdings Up on Merger News",
+          "summary": "PMGC Holdings Inc. ($ELAB) saw a significant jump of 17.94% in premarket trading after disclosing a merger between two of its wholly-owned subsidiaries.",
+          "ticker": "$ELAB",
           "price": "N/A",
-          "change": "+25.1%",
-          "changePercent": "+25.1%",
+          "change": "N/A",
+          "changePercent": "+17.94%",
           "direction": "up",
-          "summary": "Shares of Penguin Solutions Inc. soared after the company reported third-quarter fiscal 2026 adjusted earnings of $0.84 per share, significantly surpassing the Zacks Consensus Estimate of $0.63 per share.",
           "tags": [
-            "Technology",
-            "Earnings"
+            "M&A",
+            "Premarket",
+            "Gainers"
           ]
         },
         {
-          "id": "loser-ions",
-          "headline": "Ionis Pharmaceuticals Tumbles Following Drug Trial Failure",
-          "ticker": "$IONS",
+          "id": "frmi-loser",
+          "headline": "Fermi Tumbles After Upsized Note Offering",
+          "summary": "Shares of Fermi ($FRMI) fell 22% after the company priced an upsized $375 million offering of 5.00% convertible senior notes due 2031, with an initial conversion price representing a 30% premium to its previous closing price.",
+          "ticker": "$FRMI",
           "price": "N/A",
-          "change": "-20%",
-          "changePercent": "-20%",
+          "change": "N/A",
+          "changePercent": "-22.00%",
           "direction": "down",
-          "summary": "Ionis Pharmaceuticals saw a sharp decline after its Phase 3 study for the heart disease drug Wainua, developed with AstraZeneca, failed to meet its primary goal.",
           "tags": [
-            "Biotechnology",
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "loser-pep",
-          "headline": "PepsiCo Shares Dip After Mixed Q2 Earnings Report",
-          "ticker": "$PEP",
-          "price": "N/A",
-          "change": "-1.8%",
-          "changePercent": "-1.8%",
-          "direction": "down",
-          "summary": "PepsiCo shares fell after the food and beverage giant reported mixed second-quarter results, with adjusted earnings missing analyst estimates by one cent. The company cited softer performance in its North America business.",
-          "tags": [
-            "Consumer Staples",
-            "Earnings"
-          ]
-        },
-        {
-          "id": "loser-ccl",
-          "headline": "Carnival Corporation Drops Amid Rising Crude Oil Prices",
-          "ticker": "$CCL",
-          "price": "N/A",
-          "change": "-3.9%",
-          "changePercent": "-3.9%",
-          "direction": "down",
-          "summary": "Carnival Corporation shares tumbled following a spike in crude oil prices, which was attributed to the escalation of the Middle East conflict.",
-          "tags": [
-            "Travel & Leisure",
-            "Energy"
+            "Convertible Notes",
+            "Losers"
           ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Highlights",
+      "id": "market-news-today",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-001",
-          "headline": "Fed Minutes Show Persistent Inflation Concerns Despite Rate Pause",
-          "summary": "Minutes from the Federal Reserve's June policy meeting, released yesterday, revealed that while only a small number of policymakers favored an immediate rate hike, concerns about persistent inflationary pressures remain. The Fed has held its federal funds rate steady at 3.50-3.75% for four consecutive meetings.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "news-002",
-          "headline": "Existing Home Sales Decline in June, Jobless Claims Awaited",
-          "summary": "Sales of previously owned homes fell 2.4% in June from May to a seasonally adjusted annual rate of 4.09 million units, missing economist expectations. Investors are also closely watching for the release of weekly jobless claims data today.",
-          "tags": [
-            "Economic Data",
-            "Housing Market",
-            "Employment"
-          ]
-        },
-        {
-          "id": "news-003",
-          "headline": "Semiconductor Stocks Lead Market Rally Amid Strong AI Demand",
-          "summary": "The semiconductor sector, including companies like Marvell Technology ($MRVL), Micron ($MU), and AMD ($AMD), led the market higher today, offsetting broader geopolitical concerns. This rally is fueled by surging demand for memory and chips in the ongoing artificial intelligence boom.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "AI",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "news-004",
-          "headline": "U.S.-Iran Tensions Continue to Fuel Market Volatility",
-          "summary": "Escalating military actions between the U.S. and Iran continued to be a significant factor influencing market sentiment. New U.S. airstrikes against Iran, followed by Iranian responses, initially caused a spike in oil prices and heightened geopolitical uncertainty before crude retreated.",
+          "id": "geopolitical-tensions",
+          "headline": "Geopolitical Tensions Continue to Weigh on Markets",
+          "summary": "Military clashes between the U.S. and Iran continue to create uncertainty, leading to mixed stock futures and volatile oil prices. However, reports of potential diplomatic talks to resume have offered some calming sentiment.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Market Volatility"
+            "Market Sentiment"
           ]
         },
         {
-          "id": "news-005",
-          "headline": "Bank of South Carolina Reports Record Q2 Earnings",
-          "summary": "The Bank of South Carolina Corporation ($BKSC) announced unaudited earnings of $2,318,933, or $0.43 basic and $0.42 diluted earnings per share for the quarter ended June 30, 2026, marking the highest quarterly earnings in the company's history.",
+          "id": "sector-performance",
+          "headline": "AI Dominates Sector Focus; Chip Stocks Rally, Then Slip",
+          "summary": "Semiconductor stocks demonstrated strong performance yesterday, driving gains across major indices. Information Technology and Communication Services are noted as leading sectors in growth. However, AI-related stocks in Europe saw a slip in early trade today as investors anticipate SK Hynix's Nasdaq debut as a test of AI sentiment.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Semiconductors",
+            "AI"
+          ]
+        },
+        {
+          "id": "economic-data-fed",
+          "headline": "Fed Expected to Hold Rates Steady; Inflation Concerns Persist",
+          "summary": "The CME Group's FedWatch tool indicates a 79.1% likelihood that the Federal Reserve will maintain current interest rates at its July meeting. Inflation worries remain a key concern for investors, influenced by fluctuating oil prices and their potential impact on consumer costs.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation",
+            "Economic Data"
+          ]
+        },
+        {
+          "id": "earnings-reports",
+          "headline": "BitMine Reports Earnings Today; ChipMOS Sees AI-Driven Revenue Boost",
+          "summary": "BitMine ($BMNG) is scheduled to release its earnings report today, July 10, 2026. Separately, ChipMOS Technologies Inc. ($IMOS) reported record high monthly and quarterly revenue for June and Q2 2026, citing persistent AI-related demand as a key driver.",
           "tags": [
             "Earnings",
-            "Banking"
+            "Corporate News",
+            "AI"
           ]
         }
       ]
