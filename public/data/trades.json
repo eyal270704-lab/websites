@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T09:23:08.317361Z",
+  "generatedAt": "2026-07-10T19:42:12.217514Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -33,22 +33,6 @@
       "riskScore": 6,
       "footerTag": "Accumulation",
       "setupType": "risky",
-      "source": "Watchlist"
-    },
-    {
-      "ticker": "$AMZN",
-      "name": "Amazon.com, Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$247.04",
-      "entry": "$243.00",
-      "stop": "$235.00",
-      "structure": "0.618 Fib Retracement",
-      "trend": "> 200MA, Golden Cross",
-      "trendLabel": "Trend",
-      "analysis": "Amazon is in a strong uptrend, with a golden cross formation confirming bullish momentum. The stock is currently consolidating near the 0.618 Fibonacci retracement level of its recent move, offering a potential dip entry for a continuation of the upward trend.",
-      "riskScore": 3,
-      "footerTag": "High Confidence",
-      "setupType": "perfect",
       "source": "Watchlist"
     },
     {
@@ -98,6 +82,54 @@
       "footerTag": "Accumulation",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$GLW",
+      "name": "Corning Inc.",
+      "sector": "Technology",
+      "currentPrice": "$191.02",
+      "entry": "$180.00",
+      "stop": "$175.00",
+      "structure": "Support Test",
+      "trend": "RVOL < 1.0",
+      "trendLabel": "Volume",
+      "analysis": "GLW is trading near recent lows, approaching a key support level at $180.00, which aligns with the lowest analyst price target. Current volume is below average. No immediate earnings catalyst within 5 days.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "sector": "Financial Services",
+      "currentPrice": "$18.77",
+      "entry": "$16.00",
+      "stop": "$14.50",
+      "structure": "Bullish Crossover",
+      "trend": "20MA Bullish Crossover",
+      "trendLabel": "Pattern",
+      "analysis": "SOFI has shown a bullish crossover on its short-term moving average, suggesting a potential trend reversal. While current volume is slightly below average, the stock is showing momentum with recent product launches. Entry at $16.00 targets a retest of previous support, with a stop below the 52-week low.",
+      "riskScore": 5,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMZN",
+      "name": "Amazon.com, Inc.",
+      "sector": "Consumer Discretionary",
+      "currentPrice": "$245.52",
+      "entry": "$225.00",
+      "stop": "$210.00",
+      "structure": "Strong Support",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "AMZN is currently trading above its long-term 200-day moving average, indicating a bullish trend. The stock is approaching a strong support level at $225.00. Volume is below average, suggesting a lack of strong conviction, but this level could present an accumulation opportunity.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
