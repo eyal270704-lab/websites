@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-11T12:54:00Z",
+  "generatedAt": "2026-07-11T17:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights as of Friday, July 10, 2026 close. Not financial advice.",
-  "badge": "LATEST",
+  "subtitle": "July 11, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-0710",
-          "headline": "AI Enthusiasm Fuels Market Gains Ahead of Earnings Season",
-          "summary": "U.S. stocks edged higher on Friday, concluding a week where investor sentiment was largely driven by continued enthusiasm for artificial intelligence innovations and anticipation of the upcoming earnings season. Major indices posted modest gains, with the S&P 500 marking its fourth winning week in the last five. Despite mixed economic data, growth-oriented sectors, particularly technology, continued to demonstrate leadership.",
+          "id": "overall-market-summary",
+          "headline": "AI Optimism Drives Markets as Earnings Season Looms",
+          "summary": "The stock market concluded a pivotal week marked by continued enthusiasm for artificial intelligence (AI) related shares and anticipation for the upcoming second-quarter earnings season. The S&P 500 is up 10.7% year-to-date and remains just 0.45% below its all-time closing high, signaling ongoing bullish sentiment. While easing oil prices have helped temper inflation concerns amidst persistent US-Iran tensions, rising 10-year Treasury yields, currently at 4.56%, present a potential threat to market stability, with a move toward 5% likely prompting a Federal Reserve rate hike. Narrow leadership was observed, with mega-cap technology stocks predominantly driving the S&P 500's gains, contrasting with the performance of the average stock.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
             "AI",
-            "Earnings Season"
+            "Earnings Season",
+            "Geopolitics"
           ]
         }
       ]
@@ -34,98 +35,97 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,575.39",
-          "statContext": "+0.42% (+31.75 points) on Friday. Up 1.2% for the week."
+          "statContext": "+0.42% (31.75 points) on July 10, 2026. Weekly gain of +1.2%. YTD: +10.7%"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,281.61",
-          "statContext": "+0.29% (+74.72 points) on Friday. Up 1.7% for the week."
+          "statContext": "+0.29% (74.72 points) on July 10, 2026. Weekly gain of +1.7%. YTD: +13.1%"
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,637.01",
-          "statContext": "+0.29% (+149.60 points) on Friday. Down 0.5% for the week."
+          "statContext": "+0.29% (149.60 points) on July 10, 2026. Weekly loss of -0.5%. YTD: +9.5%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, July 10, 2026)",
+      "title": "Top Movers (July 10, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "skhyv-gainer",
-          "headline": "SK Hynix Soars on Nasdaq Debut, Boosts AI Trade",
-          "summary": "South Korean semiconductor giant SK Hynix saw its stock surge by 12.76% to $168.01 on its Nasdaq debut, re-energizing the broader AI trade. The company raised approximately $26.5 billion in its share sale.",
+          "id": "skhynix-gainer",
+          "headline": "SK Hynix Debuts Strongly on Nasdaq",
+          "summary": "South Korean semiconductor maker SK Hynix ($SKHYV) soared 13% (closing at $168.01, up from its $149 issue price) in its Nasdaq debut, re-energizing the AI trade and marking the largest foreign IPO to date.",
           "ticker": "$SKHYV",
           "price": "$168.01",
           "change": "+$19.01",
           "changePercent": "+12.76%",
           "direction": "up",
           "tags": [
+            "Tech",
             "AI",
-            "Semiconductors",
             "IPO"
           ]
         },
         {
-          "id": "wdfc-gainer",
-          "headline": "WD-40 Climbs on Strong Q3 Earnings, Raised Guidance",
-          "summary": "WD-40 Co. ($WDFC) jumped 10.7% after reporting stronger-than-expected third-quarter profits and raising its full-year fiscal guidance, signaling robust operational performance.",
+          "id": "meta-gainer",
+          "headline": "Meta Platforms Extends Gains",
+          "summary": "Meta Platforms ($META) jumped 6% on Friday, extending its strong weekly performance and emerging as the top Magnificent Seven performer for the day.",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.00%",
+          "direction": "up",
+          "tags": [
+            "Tech",
+            "Mega-Cap"
+          ]
+        },
+        {
+          "id": "wd40-gainer",
+          "headline": "WD-40 Company Climbs on Strong Earnings",
+          "summary": "WD-40 Company ($WDFC) climbed 11% following the release of its strong third-quarter results.",
           "ticker": "$WDFC",
-          "price": "$263.74",
-          "change": "+$24.70",
-          "changePercent": "+10.33%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Consumer Goods"
-          ]
-        },
-        {
-          "id": "nvda-gainer",
-          "headline": "Nvidia Extends Gains as AI Momentum Continues",
-          "summary": "Nvidia ($NVDA) continued its strong performance, rising 4.0% on Friday. The company remains a key driver of the AI boom, significantly influencing the S&P 500's upward trend.",
-          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.0%",
+          "changePercent": "+11.00%",
           "direction": "up",
           "tags": [
-            "AI",
-            "Technology",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "mrna-loser",
-          "headline": "Moderna Dips Amid Broader Health Sector Weakness",
-          "summary": "Moderna Inc. ($MRNA) saw a significant decline of 11.30% on Friday, as the health sector generally bucked the market's positive trend and ended in the red.",
-          "ticker": "$MRNA",
-          "price": "$67.89",
-          "change": "-$8.65",
-          "changePercent": "-11.30%",
-          "direction": "down",
-          "tags": [
-            "Biotechnology",
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "dal-loser",
-          "headline": "Delta Air Lines Falls Despite Beating Q2 Expectations",
-          "summary": "Delta Air Lines ($DAL) shares fell 1.81% on Friday, despite the company reporting second-quarter financial results that exceeded Wall Street expectations and reinstating its full-year fiscal guidance.",
-          "ticker": "$DAL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.81%",
-          "direction": "down",
-          "tags": [
-            "Airlines",
+            "Consumer",
             "Earnings"
+          ]
+        },
+        {
+          "id": "moderna-loser",
+          "headline": "Moderna Tumbles",
+          "summary": "Moderna ($MRNA) experienced its worst day in over a year, tumbling almost 11%.",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.00%",
+          "direction": "down",
+          "tags": [
+            "Healthcare",
+            "Biotech"
+          ]
+        },
+        {
+          "id": "micron-loser",
+          "headline": "Micron Technology Under Pressure",
+          "summary": "Competitor Micron Technology ($MU) faced downward pressure, finishing 1.24% lower, potentially influenced by SK Hynix's strong debut in the memory-chip market.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.24%",
+          "direction": "down",
+          "tags": [
+            "Tech",
+            "Semiconductors"
           ]
         }
       ]
@@ -137,40 +137,44 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-q2",
-          "headline": "Capital Rotation Seen in Q2 as Industrials, Healthcare, and Financials Outperform Tech",
-          "summary": "While AI and technology led much of the first half of 2026, the latter half of Q2 saw a notable rotation of capital. The Technology sector experienced a decline of -3.3% in June, while Industrials, Healthcare, and Financials outperformed, suggesting a broadening of market leadership.",
+          "id": "sector-analysis",
+          "headline": "Materials and Communication Services Lead, Healthcare Lags",
+          "summary": "On July 10, ten of the eleven primary S&P 500 sectors ended in the green. Materials led gainers with a 1.12% increase, followed by Communication Services, which rose 0.92%. Information Technology also showed positive movement, while Healthcare bucked the trend with a 0.81% decline.",
           "tags": [
-            "Sector Analysis",
-            "Market Trends"
+            "Sector Performance",
+            "Materials",
+            "Communication Services",
+            "Healthcare"
           ]
         },
         {
-          "id": "fed-monetary-report",
-          "headline": "Federal Reserve Reaffirms Commitment to Price Stability",
-          "summary": "The Federal Reserve delivered its semi-annual Monetary Policy Report to Congress, reiterating its commitment to achieving price stability. While current inflation metrics remain elevated, policymakers anticipate service-sector price pressures to be transitory.",
+          "id": "fed-policy-report",
+          "headline": "Federal Reserve Affirms Commitment to Price Stability",
+          "summary": "The Federal Reserve delivered its semi-annual Monetary Policy Report to Congress, reiterating its commitment to achieving 'price stability.' Policymakers anticipate that current elevated inflation metrics, particularly service-sector price pressures, are expected to be transitory.",
           "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Monetary Policy"
+            "Fed",
+            "Monetary Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "economic-data-mixed",
-          "headline": "Mixed Economic Data Suggests Healthy Economic Slowdown",
-          "summary": "Recent economic data paints a picture of an economy that continues to slow at a healthy pace without falling into recession. Services activity remained in expansion territory, weekly jobless claims came in better than expected, and job openings continue to demonstrate a resilient labor market, though manufacturing data was softer.",
+          "id": "economic-data-june",
+          "headline": "June Payrolls Soften, Inflation Remains Sticky",
+          "summary": "June payrolls came in at 57,000, roughly half of economists' expectations, with the unemployment rate ticking up to 4.2%. Despite softer labor data, the market reacted positively, pushing the odds of a September rate cut to around 80%. However, May's Consumer Price Index (CPI) registered 4.2% year-over-year, an increase from 3.8% in April, indicating persistent inflation.",
           "tags": [
             "Economic Data",
-            "Macro Trends"
+            "Employment",
+            "Inflation"
           ]
         },
         {
-          "id": "q2-earnings-kickoff",
-          "headline": "Q2 Earnings Season Begins Next Week with Major Bank Reports",
-          "summary": "The second-quarter earnings season is set to kick off next week, with several major financial institutions, including Bank of America ($BAC), Citigroup ($C), Goldman Sachs ($GS), JPMorgan Chase ($JPM), and Wells Fargo ($WFC), slated to report results before the market open on Tuesday. These reports are expected to provide critical insights into net interest margins, loan growth, and credit quality.",
+          "id": "earnings-season-preview",
+          "headline": "Q2 Earnings Season Kicks Off Next Week",
+          "summary": "The second-quarter earnings season is set to begin next week, with major U.S. banks slated to report. Analysts are projecting S&P 500 earnings to surge by 24% from a year earlier, with technology companies expected to be a primary driver of this growth.",
           "tags": [
-            "Earnings Reports",
-            "Financials"
+            "Earnings Season",
+            "Corporate Earnings",
+            "Technology"
           ]
         }
       ]
