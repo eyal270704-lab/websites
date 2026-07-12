@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-11T17:00:00Z",
+  "generatedAt": "2026-07-12T12:55:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "July 11, 2026",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: July 12, 2026",
+  "subtitle": "Market closes out week strong on AI enthusiasm ahead of key economic data",
+  "badge": "Weekend Report",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,168 +13,179 @@
       "layout": "featured",
       "items": [
         {
-          "id": "overall-market-summary",
-          "headline": "AI Optimism Drives Markets as Earnings Season Looms",
-          "summary": "The stock market concluded a pivotal week marked by continued enthusiasm for artificial intelligence (AI) related shares and anticipation for the upcoming second-quarter earnings season. The S&P 500 is up 10.7% year-to-date and remains just 0.45% below its all-time closing high, signaling ongoing bullish sentiment. While easing oil prices have helped temper inflation concerns amidst persistent US-Iran tensions, rising 10-year Treasury yields, currently at 4.56%, present a potential threat to market stability, with a move toward 5% likely prompting a Federal Reserve rate hike. Narrow leadership was observed, with mega-cap technology stocks predominantly driving the S&P 500's gains, contrasting with the performance of the average stock.",
+          "id": "pulse-summary",
+          "headline": "AI Optimism Fuels U.S. Stocks to Fourth Winning Week; Fed Maintains Hawkish Stance",
+          "summary": "U.S. major indices concluded the week on a positive note, largely driven by sustained enthusiasm for artificial intelligence and technology shares. Despite rising hawkish sentiment from the Federal Reserve, investor confidence in corporate profitability, particularly in the tech sector, continues to propel the market. Economic reports and upcoming earnings will set the tone for the coming week. Not financial advice.",
           "tags": [
-            "Market Summary",
             "AI",
-            "Earnings Season",
-            "Geopolitics"
+            "Tech",
+            "Market Sentiment",
+            "Fed"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (As of Friday's Close, July 10, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500",
           "statLabel": "S&P 500",
           "statValue": "7,575.39",
-          "statContext": "+0.42% (31.75 points) on July 10, 2026. Weekly gain of +1.2%. YTD: +10.7%"
+          "statContext": "+0.42%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "dow",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "52,637.01",
+          "statContext": "+0.29%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,281.61",
-          "statContext": "+0.29% (74.72 points) on July 10, 2026. Weekly gain of +1.7%. YTD: +13.1%"
-        },
-        {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,637.01",
-          "statContext": "+0.29% (149.60 points) on July 10, 2026. Weekly loss of -0.5%. YTD: +9.5%"
+          "statContext": "+0.30%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (July 10, 2026)",
+      "title": "Top Movers (As of Friday's Close, July 10, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "skhynix-gainer",
-          "headline": "SK Hynix Debuts Strongly on Nasdaq",
-          "summary": "South Korean semiconductor maker SK Hynix ($SKHYV) soared 13% (closing at $168.01, up from its $149 issue price) in its Nasdaq debut, re-energizing the AI trade and marking the largest foreign IPO to date.",
-          "ticker": "$SKHYV",
-          "price": "$168.01",
-          "change": "+$19.01",
-          "changePercent": "+12.76%",
+          "id": "skhy-gainer",
+          "headline": "SK Hynix Soars in U.S. Debut",
+          "ticker": "$SKHY",
+          "price": "$161.00",
+          "change": "+$16.50",
+          "changePercent": "+13.1%",
           "direction": "up",
-          "tags": [
-            "Tech",
-            "AI",
-            "IPO"
-          ]
+          "summary": "South Korean memory chip giant SK Hynix jumped significantly in its U.S. market debut, reflecting strong investor appetite for AI-linked companies."
         },
         {
-          "id": "meta-gainer",
-          "headline": "Meta Platforms Extends Gains",
-          "summary": "Meta Platforms ($META) jumped 6% on Friday, extending its strong weekly performance and emerging as the top Magnificent Seven performer for the day.",
-          "ticker": "$META",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Continues AI-Driven Rally",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.00%",
+          "changePercent": "+4.0%",
           "direction": "up",
-          "tags": [
-            "Tech",
-            "Mega-Cap"
-          ]
+          "summary": "Nvidia remained a strong performer, contributing significantly to the S&P 500's gains amid continued enthusiasm for artificial intelligence."
         },
         {
           "id": "wd40-gainer",
-          "headline": "WD-40 Company Climbs on Strong Earnings",
-          "summary": "WD-40 Company ($WDFC) climbed 11% following the release of its strong third-quarter results.",
+          "headline": "WD-40 Reports Stronger-Than-Expected Profit",
           "ticker": "$WDFC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.00%",
+          "changePercent": "+10.6%",
           "direction": "up",
-          "tags": [
-            "Consumer",
-            "Earnings"
-          ]
+          "summary": "WD-40's stock jumped after the company reported much stronger profit for its latest quarter than analysts had anticipated."
         },
         {
-          "id": "moderna-loser",
-          "headline": "Moderna Tumbles",
-          "summary": "Moderna ($MRNA) experienced its worst day in over a year, tumbling almost 11%.",
-          "ticker": "$MRNA",
+          "id": "ibm-loser",
+          "headline": "IBM Among Friday's Decliners",
+          "ticker": "$IBM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.00%",
+          "changePercent": "-2.51%",
           "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Biotech"
-          ]
+          "summary": "IBM was one of the notable decliners during Friday's trading session."
         },
         {
-          "id": "micron-loser",
-          "headline": "Micron Technology Under Pressure",
-          "summary": "Competitor Micron Technology ($MU) faced downward pressure, finishing 1.24% lower, potentially influenced by SK Hynix's strong debut in the memory-chip market.",
-          "ticker": "$MU",
+          "id": "unh-loser",
+          "headline": "UnitedHealth Faces Sell-Off",
+          "ticker": "$UNH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.24%",
+          "changePercent": "-1.53%",
           "direction": "down",
-          "tags": [
-            "Tech",
-            "Semiconductors"
-          ]
+          "summary": "UnitedHealth saw a decline in its share price by the close of Friday's trading."
+        },
+        {
+          "id": "mrk-loser",
+          "headline": "Merck Shares Dip",
+          "ticker": "$MRK",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.22%",
+          "direction": "down",
+          "summary": "Merck's stock closed lower on Friday, contributing to the day's market losers."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Materials and Communication Services Lead, Healthcare Lags",
-          "summary": "On July 10, ten of the eleven primary S&P 500 sectors ended in the green. Materials led gainers with a 1.12% increase, followed by Communication Services, which rose 0.92%. Information Technology also showed positive movement, while Healthcare bucked the trend with a 0.81% decline.",
+          "id": "ai-sector-lead",
+          "headline": "Technology and AI Continue to Lead Market Sectors",
+          "summary": "AI and technology-linked companies remained the primary drivers of market support this past week, reinforcing a broader trend seen throughout the year. Information Technology notably outperformed the overall S&P 500 in the second quarter.",
           "tags": [
-            "Sector Performance",
-            "Materials",
-            "Communication Services",
-            "Healthcare"
+            "Sector Analysis",
+            "Technology",
+            "AI"
           ]
         },
         {
-          "id": "fed-policy-report",
-          "headline": "Federal Reserve Affirms Commitment to Price Stability",
-          "summary": "The Federal Reserve delivered its semi-annual Monetary Policy Report to Congress, reiterating its commitment to achieving 'price stability.' Policymakers anticipate that current elevated inflation metrics, particularly service-sector price pressures, are expected to be transitory.",
+          "id": "fed-outlook",
+          "headline": "Federal Reserve Leans Hawkish Amid Inflation Concerns",
+          "summary": "The Federal Reserve's stance has become increasingly hawkish, with many FOMC members signaling potential interest rate hikes in 2026. This comes as inflation remains elevated relative to the Committee's 2 percent goal. The target range for the federal funds rate has been maintained at 3½ to 3¾ percent since the start of the year.",
           "tags": [
-            "Fed",
-            "Monetary Policy",
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates",
             "Inflation"
           ]
         },
         {
-          "id": "economic-data-june",
-          "headline": "June Payrolls Soften, Inflation Remains Sticky",
-          "summary": "June payrolls came in at 57,000, roughly half of economists' expectations, with the unemployment rate ticking up to 4.2%. Despite softer labor data, the market reacted positively, pushing the odds of a September rate cut to around 80%. However, May's Consumer Price Index (CPI) registered 4.2% year-over-year, an increase from 3.8% in April, indicating persistent inflation.",
+          "id": "upcoming-economic-data",
+          "headline": "Key Economic Reports Expected Next Week",
+          "summary": "Investors are closely watching for the release of the U.S. June Consumer Price Index (CPI) and Producer Price Index (PPI) reports next week, which will provide further insights into inflation trends. Additionally, Federal Reserve Chairman Kevin Warsh is scheduled to testify before Congress.",
           "tags": [
-            "Economic Data",
-            "Employment",
-            "Inflation"
+            "Economic News",
+            "CPI",
+            "PPI"
           ]
         },
         {
-          "id": "earnings-season-preview",
-          "headline": "Q2 Earnings Season Kicks Off Next Week",
-          "summary": "The second-quarter earnings season is set to begin next week, with major U.S. banks slated to report. Analysts are projecting S&P 500 earnings to surge by 24% from a year earlier, with technology companies expected to be a primary driver of this growth.",
+          "id": "q2-earnings-kickoff",
+          "headline": "Q2 Earnings Season Commences with Major Reports",
+          "summary": "The second-quarter earnings season has officially begun, with major companies like JPMorgan, Netflix, and TSMC slated to report. Delta Air Lines already announced Q2 results that surpassed expectations, with earnings per share at $1.56.",
           "tags": [
-            "Earnings Season",
-            "Corporate Earnings",
+            "Earnings",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "apple-openai-lawsuit",
+          "headline": "Apple Files Lawsuit Against OpenAI Over IP Theft Allegations",
+          "summary": "Apple Inc. has reportedly filed a lawsuit against OpenAI, accusing the ChatGPT owner and its hardware chief of stealing confidential designs and prototypes. This news comes as Apple's stock saw a slight dip.",
+          "tags": [
+            "Corporate News",
+            "Legal",
             "Technology"
+          ]
+        },
+        {
+          "id": "commodities-currencies",
+          "headline": "Commodities and Currencies: Gold Dips, Bitcoin Gains",
+          "summary": "In the broader market, the 10-year U.S. government bond yield stood at 4.56%. Gold declined by 0.77% to $4,120.20, while oil slipped slightly by 0.03% to $71.62 per barrel. Bitcoin, however, saw a gain of 1.71%, reaching $63,899.14.",
+          "tags": [
+            "Commodities",
+            "Currencies",
+            "Bonds"
           ]
         }
       ]
