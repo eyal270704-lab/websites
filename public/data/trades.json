@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-13T08:56:02.852675Z",
+  "generatedAt": "2026-07-13T18:01:02.899702Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,38 @@
       "footerTag": "Risky - Commodity Volatility",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$XLV",
+      "name": "Health Care Select Sector SPDR Fund",
+      "sector": "Health Care",
+      "currentPrice": "$160.84",
+      "entry": "$160.00",
+      "stop": "$156.36",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "XLV is testing a key support level around $160.00 after a recent pullback. The price remains above its 20, 50, and 150-day moving averages, indicating a sustained uptrend. Relative volume is elevated, suggesting increased interest at this level.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$IHI",
+      "name": "iShares U.S. Medical Devices ETF",
+      "sector": "Health Care",
+      "currentPrice": "$51.34",
+      "entry": "$50.48",
+      "stop": "$49.50",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "IHI is currently trading below its 200-day moving average, indicating a longer-term downtrend, despite recent bullish momentum pushing it above shorter-term MAs. The ETF is approaching a key support level at $50.48, which could present an entry opportunity if it holds. The relative volume is not consistently elevated, suggesting a lack of strong conviction. The ex-dividend date is today, July 13, 2026, which could lead to short-term volatility.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Dividend Ex-Date",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
