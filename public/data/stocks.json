@@ -1,204 +1,176 @@
 {
-  "generatedAt": "2026-07-14T13:06:00Z",
+  "generatedAt": "2026-07-14T17:17:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 14, 2026: Mixed Market Sentiment as Inflation Data and Q2 Earnings Take Center Stage",
+  "subtitle": "Tuesday, July 14, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Markets Navigate Geopolitical Tensions and Key Economic Releases",
-          "summary": "US markets are navigating a mixed landscape on Tuesday, July 14, 2026, as investors weigh ongoing geopolitical tensions in the Middle East and surging oil prices against the commencement of Q2 earnings season and crucial inflation data. Major indices closed lower on Monday, with futures showing mixed movements early Tuesday.",
+          "id": "market-summary-july14",
+          "headline": "Inflation Cools, But Geopolitical Tensions & Oil Prices Keep Markets Mixed",
+          "summary": "U.S. equities saw mixed performance today, with the Nasdaq and S&P 500 trending higher while the Dow edged down. Markets reacted positively to a lower-than-expected June CPI report, easing inflation concerns and significantly reducing expectations for a Federal Reserve rate hike this month. However, escalating U.S.-Iran tensions and surging oil prices continued to weigh on overall sentiment, creating a volatile trading environment. Tech stocks experienced a mixed day, with some major names rebounding, while IBM plunged after a disappointing earnings report. Major banks reported strong quarterly profits, bolstering the financial sector. Not financial advice.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
+            "Inflation",
             "Geopolitics",
-            "Earnings",
-            "Inflation"
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-monday",
-          "statLabel": "S&P 500 (Monday Close)",
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
           "statValue": "7,515.47",
-          "statContext": "Down 0.8%"
+          "statContext": "Up 0.5% after prior day's 0.8% loss"
         },
         {
-          "id": "nasdaq-monday",
-          "statLabel": "NASDAQ Composite (Monday Close)",
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
           "statValue": "25,873.18",
-          "statContext": "Declined 1.6%"
+          "statContext": "Up 1.1%"
         },
         {
-          "id": "dow-monday",
-          "statLabel": "Dow Jones Industrial Average (Monday Close)",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,498.70",
-          "statContext": "Fell 0.3%"
-        },
-        {
-          "id": "sp500-futures-tuesday",
-          "statLabel": "S&P 500 Futures (Tuesday Morning)",
-          "statValue": "Mixed",
-          "statContext": "Down 0.09% to up 0.05%"
-        },
-        {
-          "id": "nasdaq-futures-tuesday",
-          "statLabel": "NASDAQ 100 Futures (Tuesday Morning)",
-          "statValue": "Up",
-          "statContext": "Up 0.37% to 0.5%"
-        },
-        {
-          "id": "dow-futures-tuesday",
-          "statLabel": "Dow Futures (Tuesday Morning)",
-          "statValue": "Down",
-          "statContext": "Down 0.17% to 0.28%"
+          "statContext": "Down 0.2% or 96 points"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vmar-gainer",
-          "headline": "Vision Marine Technologies Jumps on Strong Q3 Results",
-          "ticker": "$VMAR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+57.45%",
-          "direction": "up",
-          "summary": "The company surged after reporting $48.6 million in revenue, $11.8 million in gross profit, and $2.4 million in cash from operating activities for the first nine months of fiscal 2026."
-        },
-        {
-          "id": "tsem-gainer",
-          "headline": "Tower Semiconductor Surges on Expansion Plans",
-          "ticker": "$TSEM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+18%",
-          "direction": "up",
-          "summary": "Shares surged after the company unveiled a ~$3B investment to expand advanced semiconductor manufacturing capacity in Japan, supported by ~$1B in government grants, and raised its 2028 financial targets."
-        },
-        {
-          "id": "vg-gainer",
-          "headline": "Venture Global Gains After Equity Funding Round",
-          "ticker": "$VG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.15%",
-          "direction": "up",
-          "summary": "Venture Global jumped after closing an equity funding round for new LNG projects."
-        },
-        {
           "id": "ibm-loser",
-          "headline": "IBM Plunges on Q2 Earnings Warning",
+          "headline": "IBM Plunges on Q2 Miss",
+          "summary": "IBM shares tumbled over 25% after the company reported preliminary second-quarter earnings and revenue below analyst expectations. CEO Arvind Krishna attributed the shortfall to clients shifting spending towards hardware (servers, storage, memory) due to the AI boom, impacting software and infrastructure sales.",
           "ticker": "$IBM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-22%",
+          "changePercent": "-25.9%",
           "direction": "down",
-          "summary": "Shares are getting crushed after warning that preliminary second-quarter earnings fell short of expectations, blaming weakness in software and infrastructure."
+          "tags": [
+            "Earnings",
+            "Tech",
+            "AI"
+          ]
         },
         {
           "id": "app-loser",
-          "headline": "AppLovin Corporation Drops on Slowing Ad Growth",
+          "headline": "AppLovin Falls on Growth Concerns",
+          "summary": "AppLovin Corporation saw its shares fall 12.7% after Bank of America reportedly flagged slower June growth in its e-commerce footprint.",
           "ticker": "$APP",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-12.7%",
           "direction": "down",
-          "summary": "The major loser of the S&P 500 Index, shares fell on concerns about slowing e-commerce advertising growth."
+          "tags": [
+            "Technology"
+          ]
         },
         {
-          "id": "sndk-loser",
-          "headline": "Sandisk Declines Amid Chip Stock Pullback",
-          "ticker": "$SNDK",
+          "id": "crwd-gainer",
+          "headline": "CrowdStrike Surges",
+          "summary": "CrowdStrike Holdings shares surged 9.4% today. Specific catalysts for today's move were not immediately clear, but cybersecurity remains a key area of focus for many investors.",
+          "ticker": "$CRWD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.63%",
-          "direction": "down",
-          "summary": "Declined as chip stocks pulled back following weakness in global memory names."
-        }
-      ]
-    },
-    {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "leading-sectors",
-          "headline": "Energy and Financials Lead, Tech and Semiconductors Lag",
-          "summary": "On Monday, the Energy sector (XLE) rose 3.2%, with utilities and financials also showing strength. In contrast, Information Technology (XLK) fell 2.1%, Materials (XLB) declined 0.8%, and Communication Services (XLC) dropped 1%, largely driven by a significant pullback in semiconductor stocks.",
+          "changePercent": "+9.4%",
+          "direction": "up",
           "tags": [
-            "Sector Performance",
-            "Energy",
-            "Technology",
-            "Semiconductors"
+            "Cybersecurity",
+            "Technology"
+          ]
+        },
+        {
+          "id": "gs-gainer",
+          "headline": "Goldman Sachs Delivers Strong Earnings",
+          "summary": "Goldman Sachs Group Inc. gained 7.4% after reporting record Q2 net revenues of $20.34 billion and net earnings of $6.63 billion, with diluted EPS of $20.98. CEO David Solomon highlighted strong performance across global banking and markets.",
+          "ticker": "$GS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.4%",
+          "direction": "up",
+          "tags": [
+            "Earnings",
+            "Financials"
           ]
         }
       ]
     },
     {
-      "id": "economic-news",
-      "title": "Economic News",
+      "id": "market-news-stories",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-inflation",
-          "headline": "Fed Officials Signal Potential Rate Hikes Amid Persistent Inflation Concerns",
-          "summary": "Federal Reserve Governor Christopher Waller indicated he is ready to support rate hikes in the 'near term' if inflation measures continue to rise, noting that core goods and services prices have been steadily increasing. Fed funds swaps imply roughly a 50% probability of a July rate hike.",
+          "id": "cpi-report-july14",
+          "headline": "June CPI Shows Inflation Cooling More Than Expected",
+          "summary": "The Consumer Price Index (CPI) for June 2026 rose 3.5% year-over-year, coming in below economists' expectations of 3.8% (or 3.9%). On a monthly basis, CPI fell 0.4%, marking its largest single-month decline since April 2020. This data has eased inflation concerns and led traders to significantly lower expectations for a Federal Reserve rate hike in July. Core inflation, excluding volatile food and energy, was unchanged from May, with a 12-month rate of 2.6%.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "fed-warsh-testimony",
+          "headline": "Fed Chair Warsh: 'No Tolerance' for High Inflation, Silent on Next Steps",
+          "summary": "Federal Reserve Chair Kevin Warsh testified before Congress, reiterating the Fed's 'no tolerance' for persistently elevated inflation and its commitment to restoring price stability. However, he offered no explicit hints regarding the central bank's immediate policy actions. Warsh acknowledged AI investment as a significant economic feature, with the Fed monitoring its implications for inflation and the labor market.",
           "tags": [
             "Federal Reserve",
+            "Monetary Policy",
             "Inflation",
-            "Interest Rates"
+            "AI"
           ]
         },
         {
-          "id": "cpi-report",
-          "headline": "June CPI Report Released Today, Focus on Core Inflation",
-          "summary": "The U.S. Bureau of Labor Statistics released the June Consumer Price Index (CPI) report today, July 14. Economists anticipate headline inflation to ease to around 3.8-3.92% year-over-year, but core inflation, excluding volatile food and energy, is expected to remain elevated at 2.8-2.85% annually.",
+          "id": "geopolitical-oil-surge",
+          "headline": "U.S.-Iran Tensions Drive Oil Price Surge",
+          "summary": "Geopolitical tensions between the U.S. and Iran escalated, with President Trump announcing the reinstatement of a blockade on Iranian ships transiting the Strait of Hormuz and proposing a 'protection tax' on cargo. This news sent oil prices surging, with West Texas Intermediate (WTI) climbing to $80.05 a barrel and Brent crude reaching $85.00 to $86.64 a barrel. The ongoing conflict continues to be a significant factor influencing market sentiment.",
           "tags": [
-            "CPI",
-            "Economic Data",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "oil-surge",
-          "headline": "Oil Prices Surge Amid Escalating US-Iran Tensions",
-          "summary": "Oil prices have surged, with West Texas Intermediate (WTI) crude rising to around $80.80 per barrel and Brent crude to $87.23, due to escalating U.S.-Iran tensions and President Trump's announced measures concerning the Strait of Hormuz.",
-          "tags": [
-            "Oil Prices",
             "Geopolitics",
-            "Middle East"
+            "Oil Prices",
+            "Market Risk"
           ]
         },
         {
-          "id": "q2-earnings-kickoff",
-          "headline": "Q2 Earnings Season Kicks Off with Major Bank Reports",
-          "summary": "The second-quarter 2026 earnings season officially began today, with major Wall Street banks including JPMorgan Chase, Bank of America, Citigroup, Wells Fargo, and Goldman Sachs releasing their financial results. Goldman Sachs ($GS) reported strong Q2 performance with diluted EPS of $20.98.",
+          "id": "major-bank-earnings",
+          "headline": "Major Banks Report Strong Q2 Earnings, Bolstering Financial Sector",
+          "summary": "Several major U.S. banks kicked off earnings season with strong second-quarter results. JPMorgan Chase reported diluted EPS of $6.14 on $58.020 billion in revenue, exceeding analyst estimates, with trading revenue soaring amid market volatility. Goldman Sachs posted record net revenues and earnings, with diluted EPS of $20.98. Bank of America and Wells Fargo also released their Q2 results, contributing to an optimistic outlook for the financial sector, though Wells Fargo shares saw a slight decline.",
           "tags": [
             "Earnings Season",
-            "Banking Sector"
+            "Financials",
+            "Banking"
+          ]
+        },
+        {
+          "id": "sector-performance-july14",
+          "headline": "Energy Leads, Tech Sees Mixed Fortunes Amidst Sector Rotation",
+          "summary": "The Energy sector emerged as a leader today, with the Energy Select Sector SPDR (XLE) rising 3.2% or 0.64%. Other leading sectors included Industrials (up 0.63%), Materials (up 0.43%), Real Estate (up 0.40%), and Utilities (up 0.24%). Technology experienced mixed fortunes; while some tech stocks rebounded, the Information Technology Select Sector SPDR (XLK) fell 2.1%, and Communication Services (XLC) dropped 1%, indicating a rotation out of parts of the technology sector, particularly among chipmakers. Financials (-0.46%) and Healthcare (-0.44%) were among the lagging sectors.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Technology",
+            "Market Trends"
           ]
         }
       ]
