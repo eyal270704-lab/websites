@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-13T14:04:00Z",
+  "generatedAt": "2026-07-14T09:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 13, 2026 Mid-Day Update",
-  "badge": "Real-time Update",
+  "subtitle": "July 14, 2026 - Illustrative Data (Not Financial Advice)",
+  "badge": "Simulated",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,189 +13,133 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Markets Exhibit Mixed Performance Amid Economic Data Anticipation and Geopolitical Tensions",
-          "summary": "U.S. stock futures indicated a mixed opening on Monday, July 13, as markets braced for upcoming inflation data and the commencement of Q2 earnings season. Geopolitical tensions, particularly renewed friction in the Middle East, continue to influence investor sentiment, leading to elevated oil prices, although some gains were later tempered. The Federal Reserve maintained its federal funds rate target at 3.5-3.75%, reinforcing a steady monetary policy stance amidst solid economic expansion and strong productivity growth. AI-related fears also weighed on some tech stocks.",
+          "id": "market-pulse-overview",
+          "headline": "Markets Exhibit Mixed Sentiment as Tech Leads Gains, Energy Lags",
+          "summary": "Major U.S. indices traded with mixed results today, July 14, 2026, as investors digested a flurry of corporate updates and awaited further economic data. Technology stocks showed resilience, while the energy sector faced headwinds amidst fluctuating commodity prices. Overall market sentiment remained cautiously optimistic.",
           "tags": [
-            "Market Sentiment",
-            "Economic Outlook",
-            "Geopolitics"
+            "Market Overview",
+            "July 2026"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,752.28",
-          "statContext": "Up 0.22% today"
-        },
-        {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,114.25",
-          "statContext": "Down 0.64% today"
-        },
-        {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,558.82",
-          "statContext": "Down 0.22% today"
+          "statValue": "5,523.45",
+          "statContext": "+0.15% (+8.28 points)"
+        },
+        {
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "18,210.90",
+          "statContext": "+0.78% (+140.70 points)"
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Avg",
+          "statValue": "39,876.12",
+          "statContext": "-0.22% (-87.73 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Today's Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vee-gainer",
-          "headline": "Twin Vee Powercats Co Surges on Merger News",
-          "summary": "Twin Vee Powercats Co ($VEEE) shares skyrocketed 140% to $11.57 after the company announced a merger agreement to combine its boating operations with a USFM subsidiary in Greenland.",
-          "ticker": "$VEEE",
-          "price": "$11.57",
-          "change": "+$6.75",
-          "changePercent": "+140.00%",
+          "id": "gainer-xyz",
+          "headline": "$XYZ Surges on Optimistic Q2 Guidance",
+          "summary": "Shares of $XYZ Corp ($XYZ) climbed significantly after the company issued an upbeat outlook for its second-quarter earnings, citing strong demand for its cloud services and AI integration.",
+          "ticker": "$XYZ",
+          "price": "$125.75",
+          "change": "+$8.20",
+          "changePercent": "+6.98%",
           "direction": "up"
         },
         {
-          "id": "qttb-gainer",
-          "headline": "Q32 Bio Inc Jumps on Positive Clinical Trial Results",
-          "summary": "Shares of Q32 Bio Inc ($QTTB) surged 67% to $18.76 after the company announced positive 36-week topline results from Part B of its SIGNAL-AA Phase 2a clinical trial.",
-          "ticker": "$QTTB",
-          "price": "$18.76",
-          "change": "+$7.53",
-          "changePercent": "+67.00%",
+          "id": "gainer-health",
+          "headline": "$HEALTH Rises on Positive Clinical Trial Results",
+          "summary": "Pharmaceutical giant $HEALTH Pharmaceuticals ($HEALTH) saw its stock price jump following the announcement of successful Phase 3 clinical trial results for its new oncology drug, exceeding analyst expectations.",
+          "ticker": "$HEALTH",
+          "price": "$210.30",
+          "change": "+$11.10",
+          "changePercent": "+5.58%",
           "direction": "up"
         },
         {
-          "id": "agen-gainer",
-          "headline": "Agenus Inc Gains on Funding for Cancer Drug Trial",
-          "summary": "Agenus Inc ($AGEN) shares were up 62% to $5.42 following the announcement of raising $85 million to fund its colon cancer drug trial.",
-          "ticker": "$AGEN",
-          "price": "$5.42",
-          "change": "+$2.08",
-          "changePercent": "+62.00%",
-          "direction": "up"
-        },
-        {
-          "id": "wdfc-gainer",
-          "headline": "WD-40 Company Reports Strong Q3 Earnings",
-          "summary": "Shares of WD-40 Company ($WDFC) surged 10.7% after the company reported third-quarter 2026 earnings of $2.33 per share, significantly beating analyst estimates.",
-          "ticker": "$WDFC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.70%",
-          "direction": "up"
-        },
-        {
-          "id": "bnby-loser",
-          "headline": "BNB Plus Corp Plummets on Delisting Notification",
-          "summary": "BNB Plus Corp ($BNBX) shares dropped 52% to $0.18 after the company announced it received a Nasdaq delisting notification.",
-          "ticker": "$BNBX",
-          "price": "$0.18",
-          "change": "-$0.19",
-          "changePercent": "-52.00%",
+          "id": "loser-energy",
+          "headline": "$ENERGY Dips Amid Global Oil Price Volatility",
+          "summary": "Oil producer $ENERGY Oil ($ENERGY) experienced a sharp decline as global crude oil prices fell, driven by concerns over potential oversupply and weaker demand forecasts for the latter half of the year.",
+          "ticker": "$ENERGY",
+          "price": "$72.10",
+          "change": "-$4.50",
+          "changePercent": "-5.87%",
           "direction": "down"
         },
         {
-          "id": "ysxt-loser",
-          "headline": "YSX Tech Co Ltd Falls on Earnings Decline",
-          "summary": "Shares of YSX Tech Co Ltd ($YSXT) were down 39% to $0.62 after the company reported a year-over-year decrease in FY26 EPS results.",
-          "ticker": "$YSXT",
-          "price": "$0.62",
-          "change": "-$0.40",
-          "changePercent": "-39.00%",
-          "direction": "down"
-        },
-        {
-          "id": "jzxn-loser",
-          "headline": "Jiuzi Holdings Inc Experiences Significant Decline",
-          "summary": "Jiuzi Holdings Inc ($JZXN) was down 35% to $1.40 today, despite a jump on Friday related to AI intelligent imaging news.",
-          "ticker": "$JZXN",
-          "price": "$1.40",
-          "change": "-$0.75",
-          "changePercent": "-35.00%",
-          "direction": "down"
-        },
-        {
-          "id": "skhy-loser",
-          "headline": "SK Hynix ADRs Decline in Premarket Trading",
-          "summary": "SK Hynix ($SKHY) ADR shares were trading nearly 8% lower ahead of the Wall Street opening bell, on track to give back much of the gains from its strong Nasdaq debut on Friday.",
-          "ticker": "$SKHY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.00%",
+          "id": "loser-manu",
+          "headline": "$MANU Falls After Supply Chain Disruptions Warning",
+          "summary": "Industrial manufacturer $MANU Industrial ($MANU) reported a drop in share value after warning about ongoing supply chain issues impacting its production targets and potentially affecting its full-year revenue outlook.",
+          "ticker": "$MANU",
+          "price": "$45.60",
+          "change": "-$2.15",
+          "changePercent": "-4.50%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-1",
-          "headline": "Energy and Healthcare Lead, Tech and Materials Lag in Sector Rotation",
-          "summary": "Energy shares jumped 2.1% on Monday, marking it as a leading sector alongside Healthcare, which has reclaimed a leadership position. Conversely, information technology stocks fell by 1.1%, while materials lagged, down 2.15% for the week. Sector rotation analysis indicates that Financials remain a primary overweight, and Consumer Discretionary is showing improvement.",
+          "id": "tech-leads",
+          "headline": "Technology Sector Leads Market as AI Enthusiasm Continues",
+          "summary": "The technology sector demonstrated strong performance today, fueled by persistent investor optimism surrounding advancements in artificial intelligence and robust quarterly forecasts from several major tech firms. This rotation indicates a continued preference for growth stocks.",
           "tags": [
-            "Sector Performance",
-            "Energy",
-            "Healthcare",
+            "Sector Analysis",
             "Technology",
-            "Materials"
+            "AI"
           ]
         },
         {
-          "id": "economic-data-cpi",
-          "headline": "Key Economic Data Releases Anticipated This Week, Including June CPI",
-          "summary": "Investors are keenly awaiting a busy week of economic data, with particular focus on the U.S. June CPI report, which is expected to slow below 4%. Other key releases include core CPI, the Michigan consumer sentiment index, retail sales, and housing data. The Federal Reserve's Beige Book on economic conditions will also be released.",
+          "id": "energy-struggles",
+          "headline": "Energy Sector Struggles as Crude Prices Retreat",
+          "summary": "Concerns over global economic growth and a slight increase in inventory levels led to a retreat in crude oil prices, putting pressure on energy stocks throughout the day. The sector's performance lagged behind the broader market.",
           "tags": [
-            "Economic Data",
-            "CPI",
-            "Inflation",
-            "Federal Reserve"
+            "Sector Analysis",
+            "Energy",
+            "Commodities"
           ]
         },
         {
-          "id": "earnings-season-kickoff",
-          "headline": "Q2 Earnings Season Commences with Major Bank Reports",
-          "summary": "The second-quarter earnings season has officially kicked off, with several major U.S. banks such as JPMorgan Chase ($JPM), Citigroup ($C), Bank of America ($BAC), Goldman Sachs ($GS), Wells Fargo ($WFC), and Morgan Stanley ($MS) scheduled to report this week. Netflix ($NFLX), Johnson & Johnson ($JNJ), and TSMC ($TSM) are also among the anticipated reporters. WD-40 Company ($WDFC) delivered strong Q3 earnings, while Delta Air Lines ($DAL) missed revenue estimates.",
+          "id": "fed-minutes",
+          "headline": "Federal Reserve Minutes Anticipated Next Week Amid Inflation Watch",
+          "summary": "Investors are keenly awaiting the release of the Federal Open Market Committee (FOMC) meeting minutes next week, seeking clues on the Fed's stance on inflation and future monetary policy. No new announcements were made today, July 14, 2026.",
+          "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "q2-earnings",
+          "headline": "Q2 Earnings Season Kicks Off: Early Reports Mixed",
+          "summary": "The second-quarter earnings season has begun, with early reports showing a mixed bag. While some companies exceeded expectations, others provided cautious outlooks, contributing to the day's varied market performance and highlighting selective investor appetite.",
           "tags": [
             "Earnings",
-            "Q2 Earnings",
-            "Financials",
-            "Technology"
-          ]
-        },
-        {
-          "id": "fed-policy-continuity",
-          "headline": "Federal Reserve Reinforces Steady Monetary Policy Stance",
-          "summary": "The Federal Reserve reaffirmed its commitment to a steady monetary policy, maintaining its federal funds rate target at 3.5-3.75%. The FOMC minutes from the June meeting and the July Monetary Policy Report underscored policy continuity, citing solid economic expansion, strong productivity growth, and balanced labor market conditions. Federal Reserve Chair Walsh is scheduled to testify before Congress on the semiannual monetary policy report.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "geopolitical-impact",
-          "headline": "Geopolitical Tensions Continue to Influence Market Volatility",
-          "summary": "Renewed friction between the U.S. and Iran, particularly escalations in the Middle East, continue to be a significant factor for market participants, impacting oil prices and contributing to investor uncertainty. Despite initial surges in oil prices, some gains were later given back as diplomacy efforts emerged.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Market Volatility"
+            "Corporate News"
           ]
         }
       ]
