@@ -1,32 +1,33 @@
 {
-  "generatedAt": "2026-07-14T17:17:00Z",
+  "generatedAt": "2026-07-15T09:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, July 14, 2026",
+  "subtitle": "Wednesday, July 15, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse-jul-15-2026",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july14",
-          "headline": "Inflation Cools, But Geopolitical Tensions & Oil Prices Keep Markets Mixed",
-          "summary": "U.S. equities saw mixed performance today, with the Nasdaq and S&P 500 trending higher while the Dow edged down. Markets reacted positively to a lower-than-expected June CPI report, easing inflation concerns and significantly reducing expectations for a Federal Reserve rate hike this month. However, escalating U.S.-Iran tensions and surging oil prices continued to weigh on overall sentiment, creating a volatile trading environment. Tech stocks experienced a mixed day, with some major names rebounding, while IBM plunged after a disappointing earnings report. Major banks reported strong quarterly profits, bolstering the financial sector. Not financial advice.",
+          "id": "market-summary-jul-15-2026",
+          "headline": "Cooling Inflation Boosts Sentiment, Geopolitical Tensions Add Caution",
+          "summary": "Global stock markets are experiencing a mixed day. Positive momentum is largely driven by weaker-than-expected US inflation data, which has significantly reduced fears of immediate Federal Reserve interest rate hikes. However, renewed geopolitical tensions between the US and Iran, particularly the US blockade on Iranian ports, are pushing crude oil prices higher and reviving stagflation concerns, adding a layer of caution to investor sentiment.",
           "tags": [
-            "Market Sentiment",
             "Inflation",
+            "Fed",
             "Geopolitics",
-            "Oil Prices"
-          ]
+            "Oil"
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices-jul-15-2026",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
@@ -34,144 +35,135 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,515.47",
-          "statContext": "Up 0.5% after prior day's 0.8% loss"
+          "statValue": "7,543.89",
+          "statContext": "+0.38%",
+          "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,873.18",
-          "statContext": "Up 1.1%"
+          "statValue": "26,107.01",
+          "statContext": "+0.90%",
+          "direction": "up"
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,498.70",
-          "statContext": "Down 0.2% or 96 points"
+          "statValue": "52,508.27",
+          "statContext": "+0.02%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers-jul-15-2026",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "aehr-gainer",
+          "headline": "Aehr Test Systems (AEHR) Soars on Strong Earnings",
+          "summary": "Shares of Aehr Test Systems ($AEHR) surged 30% after the company reported an impressive Q4 earnings beat, including 33% year-over-year revenue growth and robust FY2027 revenue guidance that significantly exceeded consensus estimates.",
+          "ticker": "$AEHR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+30%",
+          "direction": "up"
+        },
+        {
+          "id": "pypl-gainer",
+          "headline": "PayPal (PYPL) Jumps on Acquisition Report",
+          "summary": "PayPal ($PYPL) shares climbed 16% following reports that Stripe ($STRIP) and Advent International made a joint acquisition offer of $60.50 per share, valuing PayPal at over $53 billion and representing a 28% premium.",
+          "ticker": "$PYPL",
+          "price": "$60.50 (offer)",
+          "change": "N/A",
+          "changePercent": "+16%",
+          "direction": "up"
+        },
+        {
+          "id": "skhy-gainer",
+          "headline": "SK Hynix (SKHY) Continues AI-Driven Rally",
+          "summary": "SK Hynix ($SKHY) ADRs soared 27.47% on Nasdaq, extending gains seen in Seoul. The surge is attributed to positive U.S. tech stock performance after cooler inflation data and strong analyst outlooks for AI memory demand.",
+          "ticker": "$SKHY",
+          "price": "$193.92",
+          "change": "N/A",
+          "changePercent": "+27.47%",
+          "direction": "up"
+        },
+        {
           "id": "ibm-loser",
-          "headline": "IBM Plunges on Q2 Miss",
-          "summary": "IBM shares tumbled over 25% after the company reported preliminary second-quarter earnings and revenue below analyst expectations. CEO Arvind Krishna attributed the shortfall to clients shifting spending towards hardware (servers, storage, memory) due to the AI boom, impacting software and infrastructure sales.",
+          "headline": "IBM (IBM) Plunges on Weak Guidance, AI Shift",
+          "summary": "International Business Machines ($IBM) shares plummeted 25.21% in its worst day since 1987. The sharp decline followed weaker-than-expected preliminary Q2 results and revenue guidance, as enterprise spending reportedly shifts towards AI infrastructure.",
           "ticker": "$IBM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-25.9%",
-          "direction": "down",
-          "tags": [
-            "Earnings",
-            "Tech",
-            "AI"
-          ]
-        },
-        {
-          "id": "app-loser",
-          "headline": "AppLovin Falls on Growth Concerns",
-          "summary": "AppLovin Corporation saw its shares fall 12.7% after Bank of America reportedly flagged slower June growth in its e-commerce footprint.",
-          "ticker": "$APP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-12.7%",
-          "direction": "down",
-          "tags": [
-            "Technology"
-          ]
-        },
-        {
-          "id": "crwd-gainer",
-          "headline": "CrowdStrike Surges",
-          "summary": "CrowdStrike Holdings shares surged 9.4% today. Specific catalysts for today's move were not immediately clear, but cybersecurity remains a key area of focus for many investors.",
-          "ticker": "$CRWD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.4%",
-          "direction": "up",
-          "tags": [
-            "Cybersecurity",
-            "Technology"
-          ]
-        },
-        {
-          "id": "gs-gainer",
-          "headline": "Goldman Sachs Delivers Strong Earnings",
-          "summary": "Goldman Sachs Group Inc. gained 7.4% after reporting record Q2 net revenues of $20.34 billion and net earnings of $6.63 billion, with diluted EPS of $20.98. CEO David Solomon highlighted strong performance across global banking and markets.",
-          "ticker": "$GS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.4%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Financials"
-          ]
+          "changePercent": "-25.21%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news-jul-15-2026",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "cpi-report-july14",
-          "headline": "June CPI Shows Inflation Cooling More Than Expected",
-          "summary": "The Consumer Price Index (CPI) for June 2026 rose 3.5% year-over-year, coming in below economists' expectations of 3.8% (or 3.9%). On a monthly basis, CPI fell 0.4%, marking its largest single-month decline since April 2020. This data has eased inflation concerns and led traders to significantly lower expectations for a Federal Reserve rate hike in July. Core inflation, excluding volatile food and energy, was unchanged from May, with a 12-month rate of 2.6%.",
+          "id": "inflation-report",
+          "headline": "US Inflation Cools, Easing Fed Rate Hike Concerns",
+          "summary": "The US Consumer Price Index (CPI) unexpectedly fell 0.4% month-over-month in June, pushing the annual inflation rate down to 3.5%. This softer-than-expected reading significantly lowered market expectations for a Federal Reserve rate hike in July, with probabilities dropping from 42% to 17%.",
           "tags": [
-            "Economic Data",
             "Inflation",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "fed-warsh-testimony",
-          "headline": "Fed Chair Warsh: 'No Tolerance' for High Inflation, Silent on Next Steps",
-          "summary": "Federal Reserve Chair Kevin Warsh testified before Congress, reiterating the Fed's 'no tolerance' for persistently elevated inflation and its commitment to restoring price stability. However, he offered no explicit hints regarding the central bank's immediate policy actions. Warsh acknowledged AI investment as a significant economic feature, with the Fed monitoring its implications for inflation and the labor market.",
-          "tags": [
             "Federal Reserve",
-            "Monetary Policy",
-            "Inflation",
-            "AI"
-          ]
+            "Economic Data"
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
         },
         {
-          "id": "geopolitical-oil-surge",
-          "headline": "U.S.-Iran Tensions Drive Oil Price Surge",
-          "summary": "Geopolitical tensions between the U.S. and Iran escalated, with President Trump announcing the reinstatement of a blockade on Iranian ships transiting the Strait of Hormuz and proposing a 'protection tax' on cargo. This news sent oil prices surging, with West Texas Intermediate (WTI) climbing to $80.05 a barrel and Brent crude reaching $85.00 to $86.64 a barrel. The ongoing conflict continues to be a significant factor influencing market sentiment.",
+          "id": "geopolitical-tensions",
+          "headline": "Middle East Tensions Drive Oil Prices Higher",
+          "summary": "Renewed US-Iran tensions and the re-imposed US naval blockade of Iranian ports have sent Brent crude oil prices soaring near $85-$86 per barrel. The escalating conflict revives stagflation fears and contributes to rising global bond yields, creating a challenging environment for equity markets.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Market Risk"
-          ]
+            "Stagflation"
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
         },
         {
-          "id": "major-bank-earnings",
-          "headline": "Major Banks Report Strong Q2 Earnings, Bolstering Financial Sector",
-          "summary": "Several major U.S. banks kicked off earnings season with strong second-quarter results. JPMorgan Chase reported diluted EPS of $6.14 on $58.020 billion in revenue, exceeding analyst estimates, with trading revenue soaring amid market volatility. Goldman Sachs posted record net revenues and earnings, with diluted EPS of $20.98. Bank of America and Wells Fargo also released their Q2 results, contributing to an optimistic outlook for the financial sector, though Wells Fargo shares saw a slight decline.",
+          "id": "asml-earnings",
+          "headline": "ASML's Strong Earnings Boost Semiconductor Sector",
+          "summary": "Dutch chip equipment maker ASML Holding ($ASML) reported stronger-than-expected revenue and raised its financial forecasts for 2026. These results reinforce optimism about continued investment in AI infrastructure and advanced semiconductor production, providing a lift to the technology sector.",
           "tags": [
-            "Earnings Season",
+            "Earnings",
+            "Technology",
+            "Semiconductors",
+            "AI"
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
+        },
+        {
+          "id": "bank-earnings",
+          "headline": "Major US Banks Report Strong Quarterly Profits",
+          "summary": "Five of the largest US banks, including Goldman Sachs, JPMorgan Chase, and Bank of America, posted a combined 39% jump in quarterly earnings. Strong investment banking fees and equities trading revenue buoyed these results, boosting investor confidence in the financial sector.",
+          "tags": [
+            "Earnings",
             "Financials",
             "Banking"
-          ]
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
         },
         {
-          "id": "sector-performance-july14",
-          "headline": "Energy Leads, Tech Sees Mixed Fortunes Amidst Sector Rotation",
-          "summary": "The Energy sector emerged as a leader today, with the Energy Select Sector SPDR (XLE) rising 3.2% or 0.64%. Other leading sectors included Industrials (up 0.63%), Materials (up 0.43%), Real Estate (up 0.40%), and Utilities (up 0.24%). Technology experienced mixed fortunes; while some tech stocks rebounded, the Information Technology Select Sector SPDR (XLK) fell 2.1%, and Communication Services (XLC) dropped 1%, indicating a rotation out of parts of the technology sector, particularly among chipmakers. Financials (-0.46%) and Healthcare (-0.44%) were among the lagging sectors.",
+          "id": "china-economic-slowdown",
+          "headline": "China's Economic Growth Slows in Second Quarter",
+          "summary": "China's economy expanded at a 4.3% annualized pace in the second quarter, marking its slowest quarterly growth since the pandemic began. Weak domestic demand is cited as a primary factor weighing on overall momentum, contributing to a lagging performance for the Shanghai Composite.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Technology",
-            "Market Trends"
-          ]
+            "China",
+            "Economy",
+            "Global Markets"
+          ],
+          "timestamp": "2026-07-15T09:07:00Z"
         }
       ]
     }
