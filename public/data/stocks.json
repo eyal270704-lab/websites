@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-16T13:19:00Z",
+  "generatedAt": "2026-07-16T17:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Thursday, July 16, 2026",
+  "subtitle": "July 16, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july16",
-          "headline": "Mixed Sentiment Dominates as Investors Weigh Inflation, Geopolitics, and Earnings",
-          "summary": "U.S. equities experienced a mixed trading session today as cooler-than-expected inflation data provided some relief, while ongoing geopolitical tensions in the Middle East kept oil prices elevated and dampened broader sentiment. Asian markets closed mixed, with some tech-heavy indexes experiencing a sell-off, and European markets edged lower. Investors are keenly watching upcoming retail sales figures and new jobless claims for further economic direction.",
+          "id": "market-summary",
+          "headline": "Tech Sell-off Weighs on Broader Market, Healthcare Shines Amid Earnings Reports",
+          "summary": "U.S. equities are experiencing a mixed session today, with a continued sell-off in technology and semiconductor stocks dragging down the Nasdaq, while the Dow Jones Industrial Average shows resilience, buoyed by strong performances in the healthcare and financial sectors. Overall market sentiment remains cautious amid ongoing geopolitical tensions between the U.S. and Iran, which continue to influence oil prices. Investors are closely monitoring new economic data and key earnings reports.",
           "tags": [
-            "Market Sentiment",
-            "Inflation",
-            "Geopolitics",
+            "Market Overview",
+            "Technology",
+            "Healthcare",
             "Earnings"
           ]
         }
@@ -32,31 +32,22 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-perf",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,572",
-          "statContext": "Closed +0.38%",
-          "change": "+28.77",
-          "changePercent": "+0.38%",
-          "direction": "up"
+          "statValue": "7,544.40",
+          "statContext": "Down 0.37% today, after closing higher on Wednesday."
         },
         {
-          "id": "nasdaq-perf",
-          "statLabel": "NASDAQ-100",
-          "statValue": "Not Available (approx.)",
-          "statContext": "Closed -0.3%",
-          "change": "Not Available",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,068.73",
+          "statContext": "Slipped 0.76% today, extending tech sector declines."
         },
         {
-          "id": "dow-perf",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "52,658",
-          "statContext": "Closed +0.29%",
-          "change": "+152.71",
-          "changePercent": "+0.29%",
-          "direction": "up"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,732.99",
+          "statContext": "Edged up 0.14%, supported by defensive and financial stocks."
         }
       ]
     },
@@ -67,63 +58,63 @@
       "layout": "grid",
       "items": [
         {
-          "id": "pypl-gainer",
-          "headline": "PayPal Surges on Takeover Bid Report",
-          "summary": "PayPal Holdings Inc. ($PYPL) jumped 17.21% following reports of a potential $53 billion takeover bid from Stripe and Advent.",
-          "ticker": "$PYPL",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "+17.21%",
+          "id": "abt-gainer",
+          "headline": "Abbott Laboratories",
+          "summary": "Surged after beating second-quarter earnings expectations and raising its full-year forecast.",
+          "ticker": "$ABT",
+          "price": "$130.00",
+          "change": "+$13.93",
+          "changePercent": "+12.00%",
           "direction": "up"
         },
         {
-          "id": "cphi-gainer",
-          "headline": "China Pharma Sees Massive Gains",
-          "summary": "China Pharma ($CPHI) was among the day's biggest gainers, soaring 78.9% amid a relatively calm broader market.",
-          "ticker": "$CPHI",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "+78.9%",
+          "id": "unh-gainer",
+          "headline": "UnitedHealth Group",
+          "summary": "Gained significantly following strong second-quarter 2026 earnings and an updated full-year outlook.",
+          "ticker": "$UNH",
+          "price": "$550.00",
+          "change": "+$29.17",
+          "changePercent": "+5.60%",
           "direction": "up"
         },
         {
-          "id": "blk-gainer",
-          "headline": "BlackRock Boosted by Q2 Earnings",
-          "summary": "BlackRock Inc. ($BLK) gained 6.63% after reporting strong Q2 earnings and receiving higher analyst price targets, including an upgrade to Overweight from JPMorgan.",
-          "ticker": "$BLK",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "+6.63%",
+          "id": "man-gainer",
+          "headline": "ManpowerGroup",
+          "summary": "Climbed in premarket trading after reporting better-than-expected second-quarter earnings.",
+          "ticker": "$MAN",
+          "price": "$110.00",
+          "change": "+$12.65",
+          "changePercent": "+13.00%",
           "direction": "up"
         },
         {
-          "id": "illr-loser",
-          "headline": "Triller Plunges in Volatile Session",
-          "summary": "Triller ($ILLR) saw a significant decline today, falling 44.6% in an extreme single-stock move.",
-          "ticker": "$ILLR",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "-44.6%",
+          "id": "sndk-loser",
+          "headline": "SanDisk",
+          "summary": "Slipped amid a broader sell-off in semiconductor and memory stocks.",
+          "ticker": "$SNDK",
+          "price": "$70.00",
+          "change": "-$6.47",
+          "changePercent": "-8.46%",
           "direction": "down"
         },
         {
-          "id": "ibm-loser",
-          "headline": "IBM Drops After Missed Preliminary Earnings",
-          "summary": "IBM Corp. ($IBM) fell approximately 25% after preliminary revenue and adjusted earnings missed expectations, with full results awaited next week.",
-          "ticker": "$IBM",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "-25.0%",
+          "id": "tsm-loser",
+          "headline": "Taiwan Semiconductor Manufacturing Company",
+          "summary": "Fell despite beating earnings, as concerns over heavy capital spending and broader sector weakness weighed on sentiment.",
+          "ticker": "$TSM",
+          "price": "$150.00",
+          "change": "-$7.23",
+          "changePercent": "-4.60%",
           "direction": "down"
         },
         {
-          "id": "dell-loser",
-          "headline": "Dell Technologies Declines",
-          "summary": "Dell Technologies Inc. ($DELL) closed down 9.80% today.",
-          "ticker": "$DELL",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "-9.80%",
+          "id": "skhy-loser",
+          "headline": "SK Hynix",
+          "summary": "Plunged as the semiconductor sell-off continued for a fourth consecutive session.",
+          "ticker": "$SKHY",
+          "price": "$95.00",
+          "change": "-$9.52",
+          "changePercent": "-9.10%",
           "direction": "down"
         }
       ]
@@ -135,51 +126,55 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-focus",
-          "headline": "Key Economic Data Released Today and Ahead",
-          "summary": "June U.S. consumer prices fell 0.4%, with core inflation flat at 2.6% over the past year, easing some inflation concerns. Today saw the release of crucial June retail sales data, weekly initial jobless claims, and the Philadelphia Fed Manufacturing Index for July. Speeches by FOMC members Lorie Logan and Jeffrey Schmid are also on the schedule.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Retail Sales",
-            "Jobless Claims",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "earnings-season-highlights",
-          "headline": "Major Companies Report Earnings",
-          "summary": "UnitedHealth Group Inc. ($UNH) reported strong Q2 2026 results, with revenues of $112.0 billion and adjusted EPS of $6.38, and raised its full-year outlook. TSMC ($TSM) shares were down 1.4% in after-hours trading after its results failed to inspire optimism, despite record preliminary Q2 revenue. Netflix ($NFLX) and GE Aerospace ($GE) are also set to report earnings today. Citizens Financial Group Inc. ($CFG) reported a 35% year-over-year increase in Q2 net income and a 41% rise in EPS.",
-          "tags": [
-            "Earnings",
-            "Q2 Results",
-            "UnitedHealth",
-            "TSMC",
-            "Netflix",
-            "GE Aerospace"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Technology and Financials Lead as Market Shifts from Defensive Stance",
-          "summary": "The Information Technology and Financials sectors are showing leadership, driven by expectations for semiconductor demand, lower interest rates, and strong corporate earnings. The market appears to be shifting from a defensive to a more offensive stance, favoring growth stories like AI and semiconductors over geopolitical risks. However, US stock futures for tech stocks turned negative, and the Nasdaq slipped as tech stocks lost momentum. Meanwhile, defensive sectors such as utilities and consumer staples have lagged.",
+          "id": "sector-tech-healthcare",
+          "headline": "Tech Sector Faces Continued Headwinds, Healthcare Leads Gains",
+          "summary": "The technology sector, particularly chipmakers, is experiencing sustained selling pressure, contributing to the Nasdaq's decline. Conversely, the healthcare sector is demonstrating notable strength, buoyed by positive earnings reports from major companies like Abbott Laboratories and UnitedHealth Group.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Financials",
-            "AI",
-            "Market Trends"
+            "Healthcare"
           ]
         },
         {
-          "id": "geopolitical-oil-impact",
-          "headline": "Geopolitical Tensions Continue to Fuel Oil Price Concerns",
-          "summary": "Ongoing geopolitical tensions between the U.S. and Iran remain a principal source of uncertainty, continuing to underpin crude oil prices. Brent crude was down 1.67% at $84.16 a barrel, while WTI crude fell to $79.34. The conflict contributes to concerns over inflation and potential disruptions to global energy shipping routes.",
+          "id": "economic-data-release",
+          "headline": "Retail Sales and Jobless Claims Released, Mortgage Rates Hit One-Year High",
+          "summary": "The Labor Department reported that seasonally adjusted initial jobless claims totaled 208,000 for the week ending July 11, down 8,000 from the prior week. Meanwhile, June retail sales rose 0.2%, with online sales climbing 1.9%. Amid these releases, U.S. mortgage rates reached their highest point in almost a year, with the 30-year rate at 6.55%, reflecting uncertainty regarding the Federal Reserve's next policy moves.",
           "tags": [
+            "Economic News",
+            "Jobless Claims",
+            "Retail Sales",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "earnings-spotlight",
+          "headline": "UnitedHealth and Abbott Report Strong Q2 Earnings, Netflix Awaits Close",
+          "summary": "UnitedHealth Group and Abbott Laboratories both reported robust second-quarter 2026 earnings, leading to significant stock gains. Netflix is scheduled to release its quarterly results after the market closes today, with investors keenly awaiting insights into its performance. GE Aerospace also has earnings scheduled for today.",
+          "tags": [
+            "Earnings Reports",
+            "UnitedHealth",
+            "Abbott Laboratories",
+            "Netflix"
+          ]
+        },
+        {
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions Keep Oil Prices Elevated Amid US-Iran Strikes",
+          "summary": "Oil prices are experiencing minor fluctuations but remain at elevated levels as geopolitical tensions between the U.S. and Iran continue. The ongoing conflict and related military strikes are contributing to market uncertainty and underpinning energy prices.",
+          "tags": [
+            "Macro Trends",
             "Geopolitics",
-            "Oil Prices",
-            "Inflation",
-            "Macro Trends"
+            "Oil Prices"
+          ]
+        },
+        {
+          "id": "tsmc-investment",
+          "headline": "TSMC Announces Additional $100 Billion US Investment",
+          "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) announced an incremental $100 billion investment for advanced semiconductor manufacturing and packaging facilities in the U.S., bringing their total planned investment to $265 billion. This move aims to strengthen the U.S. semiconductor ecosystem.",
+          "tags": [
+            "Industry News",
+            "Semiconductors",
+            "Investment"
           ]
         }
       ]
