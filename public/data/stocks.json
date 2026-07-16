@@ -1,173 +1,199 @@
 {
-  "generatedAt": "2026-07-15T17:20:00Z",
+  "generatedAt": "2026-07-16T09:11:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 15, 2026 Market Close",
+  "subtitle": "July 16, 2026 - Pre-Market Update",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Cooling Inflation and Strong Earnings Drive Market Gains Amid Geopolitical Tensions",
-          "summary": "U.S. equities closed higher on Wednesday, propelled by a second consecutive day of cooler-than-expected inflation data and a wave of robust corporate earnings reports from major banks and technology firms. The positive economic news eased concerns about aggressive Federal Reserve interest rate hikes, bolstering investor confidence. Technology stocks, particularly those linked to artificial intelligence, showed significant strength, leading broader market advances. However, ongoing geopolitical tensions, specifically related to the war with Iran, kept oil prices elevated and introduced a note of caution into the market sentiment."
+          "id": "market-overview-01",
+          "headline": "U.S. Futures Show Mixed Movement as Inflation Concerns Ease",
+          "summary": "U.S. stock futures are showing mixed movements this morning as investors continue to digest recent inflation data. June's Consumer Price Index (CPI) fell 0.4%, with core inflation flat at 2.6% over the past year, easing borrowing costs with the 10-year Treasury yield around 4.57%. The dollar is hovering near a one-month low. Market sentiment remains cautious but generally improved following softer producer inflation data.",
+          "tags": [
+            "Inflation",
+            "Futures",
+            "Treasury Yields"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-premarket",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.06%",
+          "statContext": "Pre-Market (July 16, 2026)"
+        },
+        {
+          "id": "nasdaq100-premarket",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "-0.34%",
+          "statContext": "Pre-Market (July 16, 2026)"
+        },
+        {
+          "id": "dowjones-premarket",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "-0.02%",
+          "statContext": "Pre-Market (July 16, 2026)"
+        },
+        {
+          "id": "sp500-close",
           "statLabel": "S&P 500",
-          "statValue": "7,557.42",
-          "statContext": "Up 0.19% for the day, near all-time highs."
+          "statValue": "7,572.40",
+          "statContext": "+0.38% (July 15, 2026 Close)"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,164.63",
-          "statContext": "Gained 0.22% with technology stocks leading the advance."
+          "statValue": "26,269.23",
+          "statContext": "+0.62% (July 15, 2026 Close)"
         },
         {
-          "id": "dowjones-stat",
+          "id": "dowjones-close",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,691.20",
-          "statContext": "Rose 0.35% (+182.93 points)."
+          "statValue": "52,658.64",
+          "statContext": "+0.29% (July 15, 2026 Close)"
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers",
+      "id": "top-movers-today",
+      "title": "Top Movers (Pre-Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "pypl-gainer",
-          "headline": "PayPal Holdings",
-          "summary": "Shares surged on reports that Stripe and Advent International made a joint takeover offer valuing the payments company at over $53 billion, or $60.50 per share.",
+          "id": "gainer-atpc",
+          "headline": "Agape ATP Soars on Pre-Market Volume",
+          "ticker": "$ATPC",
+          "price": "$3.95",
+          "change": "+$1.43",
+          "changePercent": "+56.74%",
+          "direction": "up",
+          "summary": "Agape ATP ($ATPC.US$) saw a significant jump in pre-market trading with a turnover of $6.41 million."
+        },
+        {
+          "id": "gainer-pypl",
+          "headline": "PayPal Jumps on Takeover Bid Rumors",
           "ticker": "$PYPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+14.00%",
-          "direction": "up"
+          "changePercent": "+17.21%",
+          "direction": "up",
+          "summary": "PayPal Holdings ($PYPL) surged in pre-market after reports emerged of a $53 billion takeover bid from Stripe and Advent."
         },
         {
-          "id": "aehr-gainer",
-          "headline": "Aehr Test Systems",
-          "summary": "The company's stock jumped after reporting a Q4 earnings beat and issuing strong FY2027 revenue guidance, well above consensus.",
-          "ticker": "$AEHR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+50.00%",
-          "direction": "up"
-        },
-        {
-          "id": "blk-gainer",
-          "headline": "BlackRock",
-          "summary": "The asset manager climbed following stronger-than-expected Q2 profit and revenue reports, with iShares funds topping $6 trillion in AUM.",
+          "id": "gainer-blk",
+          "headline": "BlackRock Rises Post Q2 Earnings",
           "ticker": "$BLK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.40%",
-          "direction": "up"
+          "changePercent": "+6.63%",
+          "direction": "up",
+          "summary": "BlackRock ($BLK) gained after reporting stronger-than-expected Q2 earnings, with analysts highlighting operating leverage."
         },
         {
-          "id": "ms-gainer",
-          "headline": "Morgan Stanley",
-          "summary": "The financial services giant saw its shares rise after beating Wall Street estimates for second-quarter earnings and revenue.",
-          "ticker": "$MS",
-          "price": "$230.31",
-          "change": "+$2.22",
-          "changePercent": "+0.97%",
-          "direction": "up"
+          "id": "loser-crdf",
+          "headline": "Cardiff Oncology Leads Pre-Market Declines",
+          "ticker": "$CRDF",
+          "price": "$0.92",
+          "change": "-$0.40",
+          "changePercent": "-30.08%",
+          "direction": "down",
+          "summary": "Cardiff Oncology, Inc. ($CRDF) experienced a sharp decline in pre-market trading."
         },
         {
-          "id": "asml-gainer",
-          "headline": "ASML Holding",
-          "summary": "The chipmaking equipment supplier posted better-than-expected Q2 earnings and sales, and notably raised its 2026 revenue guidance, citing strong AI demand.",
-          "ticker": "$ASML",
+          "id": "loser-vivk",
+          "headline": "Vivakor Shares Fall Significantly",
+          "ticker": "$VIVK",
+          "price": "$0.22",
+          "change": "-$0.09",
+          "changePercent": "-28.71%",
+          "direction": "down",
+          "summary": "Vivakor, Inc. ($VIVK) saw a substantial drop in its share price during pre-market hours."
+        },
+        {
+          "id": "loser-pgr",
+          "headline": "Progressive Slips on Analyst Downgrades",
+          "ticker": "$PGR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.40%",
-          "direction": "up"
-        },
-        {
-          "id": "ibm-loser",
-          "headline": "IBM",
-          "summary": "Shares plummeted after the company warned that clients had paused software and mainframe spending, leading to preliminary Q2 revenue figures missing Street estimates.",
-          "ticker": "$IBM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-25.20%",
-          "direction": "down"
-        },
-        {
-          "id": "pnr-loser",
-          "headline": "Pentair",
-          "summary": "The water treatment company saw its stock tumble after cutting its Q2 and full-year 2026 financial guidance and announcing the resignation of its Chief Financial Officer.",
-          "ticker": "$PNR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-16.93%",
-          "direction": "down"
-        },
-        {
-          "id": "elv-loser",
-          "headline": "Elevance Health",
-          "summary": "Despite reporting stronger Q2 profit and revenue than analysts expected, the healthcare insurer's shares declined significantly.",
-          "ticker": "$ELV",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.90%",
-          "direction": "down"
-        },
-        {
-          "id": "spcx-loser",
-          "headline": "SpaceX",
-          "summary": "The AI and space launch company's shares fell below their IPO price of $135 for the first time, marking a new all-time low.",
-          "ticker": "$SPCX",
-          "price": "$133.59",
-          "change": "N/A",
-          "changePercent": "-1.80%",
-          "direction": "down"
+          "changePercent": "-9.43%",
+          "direction": "down",
+          "summary": "Progressive ($PGR) declined after analysts trimmed price targets, citing slower growth and higher loss ratios."
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-cpi-ppi",
-          "headline": "Inflation Cools Further, Easing Rate Hike Fears",
-          "summary": "New economic data showed the U.S. Consumer Price Index (CPI) fell 0.4% in June, bringing the annual inflation rate to 3.5%, below expectations. Simultaneously, the Producer Price Index (PPI) also declined 0.3% in June, surpassing consensus estimates. This cooler inflation data has significantly reduced market expectations for near-term Federal Reserve interest rate increases, with an 85.6% likelihood of rates remaining unchanged in July."
+          "id": "econ-news-inflation",
+          "headline": "Cooling Inflation Data Dampens Fed Rate Hike Expectations",
+          "summary": "June's U.S. consumer prices fell by 0.4%, and core inflation remained flat at 2.6% over the last year. This softer-than-expected inflation data has led markets to pare back Federal Reserve rate hike expectations, with chances for a July hike reduced to 11%.",
+          "tags": [
+            "Inflation",
+            "Federal Reserve",
+            "Economic Data"
+          ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Maintains Stance, Warns Against Premature Victory on Inflation",
-          "summary": "Federal Reserve Chair Kevin Warsh testified, reiterating the Fed's commitment to its 2% inflation target while emphasizing that it's too early to declare victory. The Federal Open Market Committee (FOMC) had previously held the federal funds rate steady in mid-June, with current market projections suggesting no change at the upcoming July meeting."
+          "id": "earnings-tsmc",
+          "headline": "TSMC Reports Strong Q2 Earnings and Announces Major U.S. Investment",
+          "summary": "Taiwan Semiconductor Manufacturing Co. ($TSM) reported robust Q2 2026 earnings, with diluted EPS of NT$27.25 (US$4.31 per ADR unit) and revenue increasing 36.0% year-over-year. The company also announced an additional $100 billion investment in U.S. semiconductor manufacturing, bringing its total U.S. investment to $265 billion for 12 facilities.",
+          "tags": [
+            "Earnings",
+            "$TSM",
+            "Semiconductors",
+            "Investment"
+          ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Technology and Financials Lead as Defensive Sectors Show Rotation",
-          "summary": "Technology stocks, particularly those in the AI sector, were prominent leaders in Wednesday's trading. The financial sector also performed strongly, driven by robust Q2 earnings from major banks like BlackRock and Morgan Stanley. Meanwhile, defensive sectors such as Healthcare, Consumer Defensive, and Health Care also showed strength, signaling a rotation towards defensive leadership beyond just utilities."
+          "id": "earnings-basf",
+          "headline": "BASF Raises Full-Year Earnings Outlook After Strong Q2",
+          "summary": "BASF Group released preliminary figures for the second quarter of 2026, with EBIT before special items reaching an expected €1.5 billion, significantly above analyst consensus. The company has subsequently increased its earnings outlook for the full-year 2026.",
+          "tags": [
+            "Earnings",
+            "Chemicals"
+          ]
         },
         {
-          "id": "earnings-season-update",
-          "headline": "Major Companies Report Q2 Earnings: Mixed Results Impact Stocks",
-          "summary": "Q2 earnings season continued with several key reports. BlackRock ($BLK) and Morgan Stanley ($MS) both exceeded profit and revenue expectations. ASML Holding ($ASML) also reported strong results and raised its guidance, boosting semiconductor sentiment. However, IBM ($IBM) plunged after missing revenue estimates and signaling a pause in client spending, while Elevance Health ($ELV) fell despite reporting stronger-than-expected earnings."
+          "id": "tech-alibaba-apple",
+          "headline": "Alibaba's Qwen AI to Integrate into Apple's China Features",
+          "summary": "Alibaba announced that its Qwen large AI model will be integrated into Apple's AI features for China-market iPhones. This follows the completion of regulatory filing for Apple Intelligence in China, with Alibaba confirmed as one of Apple's partners.",
+          "tags": [
+            "Technology",
+            "AI",
+            "$AAPL",
+            "$BABA",
+            "China"
+          ]
+        },
+        {
+          "id": "economic-releases",
+          "headline": "Key Economic Data Releases Expected Today",
+          "summary": "Today's economic calendar includes the release of U.S. Retail Sales for June, Jobless Claims, and the Philly Fed Index for July. The Bank of Korea also announced a policy adjustment, raising interest rates for the first time since 2023 to curb inflation.",
+          "tags": [
+            "Economic Data",
+            "Fed",
+            "Retail Sales",
+            "Jobless Claims"
+          ]
         }
       ]
     }
