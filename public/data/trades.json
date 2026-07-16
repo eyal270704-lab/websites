@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-15T07:54:52.626472Z",
+  "generatedAt": "2026-07-16T14:08:20.134334Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Accumulation",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corp.",
+      "sector": "Technology",
+      "currentPrice": "$211.99",
+      "entry": "$202.22",
+      "stop": "$191.70",
+      "structure": "Price above MAs",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVDA is trading significantly above its key moving averages, indicating a strong uptrend. However, the price is currently extended above the calculated Fibonacci Golden Zone, and relative volume is low. Entry could be sought at the 20-day SMA with a stop below the 0.618 Fib level.",
+      "riskScore": 6,
+      "footerTag": "Extended Price Action",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$396.50",
+      "entry": "$374.61",
+      "stop": "$368.00",
+      "structure": "0.618 Fib Retracement",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "TSLA is currently trading within its Fibonacci Golden Zone but below its 20-day and 200-day moving averages, indicating bearish short-term momentum. Relative volume is low, suggesting a lack of strong conviction. Earnings are scheduled within the next 5 days, posing a high-risk catalyst.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "sector": "Technology",
+      "currentPrice": "$373.11",
+      "entry": "$369.28",
+      "stop": "$359.00",
+      "structure": "0.5 Fib Retracement",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "GOOGL is trading above its key moving averages, indicating a strong uptrend. The price is currently slightly above a recent Fibonacci Golden Zone. Relative volume is low. Earnings are confirmed within the next 5 days, presenting a significant risk for the setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
