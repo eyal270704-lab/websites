@@ -1,180 +1,196 @@
 {
-  "generatedAt": "2026-07-16T17:21:00Z",
+  "generatedAt": "2026-07-17T09:06:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 16, 2026",
+  "subtitle": "July 17, 2026 - Geopolitical Tensions & Tech Sell-off Weigh on Markets",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-001",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Tech Sell-off Weighs on Broader Market, Healthcare Shines Amid Earnings Reports",
-          "summary": "U.S. equities are experiencing a mixed session today, with a continued sell-off in technology and semiconductor stocks dragging down the Nasdaq, while the Dow Jones Industrial Average shows resilience, buoyed by strong performances in the healthcare and financial sectors. Overall market sentiment remains cautious amid ongoing geopolitical tensions between the U.S. and Iran, which continue to influence oil prices. Investors are closely monitoring new economic data and key earnings reports.",
+          "id": "mp-item-001",
+          "headline": "Wall Street Slumps as Chip Sell-off Overshadows Strong Earnings",
+          "summary": "U.S. stock markets closed lower on Thursday, July 17, 2026, with the tech-heavy Nasdaq Composite experiencing the largest decline. A renewed sell-off in semiconductor stocks, despite some upbeat corporate earnings and stronger-than-expected economic data, dampened overall market sentiment. Geopolitical tensions in the Middle East also contributed to a downbeat mood.",
           "tags": [
-            "Market Overview",
+            "Market Sentiment",
             "Technology",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-07-17T07:57:00Z"
+        }
+      ]
+    },
+    {
+      "id": "major-indices-001",
+      "title": "Major Indices",
+      "cardType": "stat",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "mi-item-001",
+          "statLabel": "S&P 500",
+          "statValue": "7,533.77",
+          "statContext": "Down 0.51%",
+          "change": "-38.63",
+          "changePercent": "-0.51%",
+          "direction": "down"
+        },
+        {
+          "id": "mi-item-002",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,881.95",
+          "statContext": "Down 1.47%",
+          "change": "-387.28",
+          "changePercent": "-1.47%",
+          "direction": "down"
+        },
+        {
+          "id": "mi-item-003",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,552.97",
+          "statContext": "Down 0.20%",
+          "change": "-105.32",
+          "changePercent": "-0.20%",
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "top-movers-001",
+      "title": "Top Movers",
+      "cardType": "stock",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "tm-gainer-001",
+          "headline": "UnitedHealth Group Beats Earnings",
+          "summary": "UnitedHealth ($UNH) rose 1.2% after surpassing earnings estimates and raising its 2026 profit forecast, contributing to a climb in healthcare stocks.",
+          "ticker": "$UNH",
+          "price": "N/A",
+          "change": "+1.2%",
+          "changePercent": "+1.2%",
+          "direction": "up",
+          "tags": [
             "Healthcare",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "tm-gainer-002",
+          "headline": "Crinetics Pharmaceuticals Leads Monthly Gainers",
+          "summary": "Crinetics Pharmaceuticals ($CRNX) showed strong performance, leading as the best-performing stock in July 2026 with a significant monthly gain of 116.93% as of July 17.",
+          "ticker": "$CRNX",
+          "price": "$83.91",
+          "change": "+116.93% (Month-to-date)",
+          "changePercent": "+116.93%",
+          "direction": "up",
+          "tags": [
+            "Healthcare",
+            "Momentum"
+          ]
+        },
+        {
+          "id": "tm-loser-001",
+          "headline": "Semiconductor Stocks Slump",
+          "summary": "The semiconductor sector experienced a significant sell-off. Arms Holdings saw a 5.41% drop, while Advanced Micro Devices ($AMD) and Micron Technology ($MU) also declined over 5% each. SanDisk ($SNDK) nosedived over 12%. This broad-based sell-off was attributed to aggressive growth expectations in the industry.",
+          "ticker": "$AMD",
+          "price": "N/A",
+          "change": "-5%+",
+          "changePercent": "-5%+",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "tm-loser-002",
+          "headline": "Netflix Tumbles on Weak Guidance",
+          "summary": "Netflix ($NFLX) tumbled 8.92% in premarket trading after reporting mixed second-quarter financial results and issuing weak guidance for the third quarter.",
+          "ticker": "$NFLX",
+          "price": "N/A",
+          "change": "-8.92%",
+          "changePercent": "-8.92%",
+          "direction": "down",
+          "tags": [
+            "Streaming",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "tm-loser-003",
+          "headline": "IBM Falls on Earnings Miss",
+          "summary": "IBM ($IBM) stock tumbled 25% following preliminary earnings results for the second quarter, with sales lower than anticipated as customers shifted spending towards memory and storage products.",
+          "ticker": "$IBM",
+          "price": "N/A",
+          "change": "-25%",
+          "changePercent": "-25%",
+          "direction": "down",
+          "tags": [
+            "Technology",
             "Earnings"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices",
-      "cardType": "stat",
-      "layout": "grid",
-      "items": [
-        {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,544.40",
-          "statContext": "Down 0.37% today, after closing higher on Wednesday."
-        },
-        {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,068.73",
-          "statContext": "Slipped 0.76% today, extending tech sector declines."
-        },
-        {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,732.99",
-          "statContext": "Edged up 0.14%, supported by defensive and financial stocks."
-        }
-      ]
-    },
-    {
-      "id": "top-movers",
-      "title": "Top Movers",
-      "cardType": "stock",
-      "layout": "grid",
-      "items": [
-        {
-          "id": "abt-gainer",
-          "headline": "Abbott Laboratories",
-          "summary": "Surged after beating second-quarter earnings expectations and raising its full-year forecast.",
-          "ticker": "$ABT",
-          "price": "$130.00",
-          "change": "+$13.93",
-          "changePercent": "+12.00%",
-          "direction": "up"
-        },
-        {
-          "id": "unh-gainer",
-          "headline": "UnitedHealth Group",
-          "summary": "Gained significantly following strong second-quarter 2026 earnings and an updated full-year outlook.",
-          "ticker": "$UNH",
-          "price": "$550.00",
-          "change": "+$29.17",
-          "changePercent": "+5.60%",
-          "direction": "up"
-        },
-        {
-          "id": "man-gainer",
-          "headline": "ManpowerGroup",
-          "summary": "Climbed in premarket trading after reporting better-than-expected second-quarter earnings.",
-          "ticker": "$MAN",
-          "price": "$110.00",
-          "change": "+$12.65",
-          "changePercent": "+13.00%",
-          "direction": "up"
-        },
-        {
-          "id": "sndk-loser",
-          "headline": "SanDisk",
-          "summary": "Slipped amid a broader sell-off in semiconductor and memory stocks.",
-          "ticker": "$SNDK",
-          "price": "$70.00",
-          "change": "-$6.47",
-          "changePercent": "-8.46%",
-          "direction": "down"
-        },
-        {
-          "id": "tsm-loser",
-          "headline": "Taiwan Semiconductor Manufacturing Company",
-          "summary": "Fell despite beating earnings, as concerns over heavy capital spending and broader sector weakness weighed on sentiment.",
-          "ticker": "$TSM",
-          "price": "$150.00",
-          "change": "-$7.23",
-          "changePercent": "-4.60%",
-          "direction": "down"
-        },
-        {
-          "id": "skhy-loser",
-          "headline": "SK Hynix",
-          "summary": "Plunged as the semiconductor sell-off continued for a fourth consecutive session.",
-          "ticker": "$SKHY",
-          "price": "$95.00",
-          "change": "-$9.52",
-          "changePercent": "-9.10%",
-          "direction": "down"
-        }
-      ]
-    },
-    {
-      "id": "market-news",
+      "id": "market-news-001",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-healthcare",
-          "headline": "Tech Sector Faces Continued Headwinds, Healthcare Leads Gains",
-          "summary": "The technology sector, particularly chipmakers, is experiencing sustained selling pressure, contributing to the Nasdaq's decline. Conversely, the healthcare sector is demonstrating notable strength, buoyed by positive earnings reports from major companies like Abbott Laboratories and UnitedHealth Group.",
+          "id": "mn-item-001",
+          "headline": "Technology Sector Leads Declines Amid Chip Sell-off",
+          "summary": "Technology stocks led the market declines, with the sector falling 1.8% as semiconductor shares tumbled 4.3%. This sell-off in AI and semiconductor stocks was a primary driver behind the broader market's downtrend.",
           "tags": [
             "Sector Analysis",
             "Technology",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "mn-item-002",
+          "headline": "Healthcare Sector Shows Resilience",
+          "summary": "Despite broader market weakness, healthcare stocks climbed 2.2%, supported by strong earnings from companies like UnitedHealth Group.",
+          "tags": [
+            "Sector Analysis",
             "Healthcare"
           ]
         },
         {
-          "id": "economic-data-release",
-          "headline": "Retail Sales and Jobless Claims Released, Mortgage Rates Hit One-Year High",
-          "summary": "The Labor Department reported that seasonally adjusted initial jobless claims totaled 208,000 for the week ending July 11, down 8,000 from the prior week. Meanwhile, June retail sales rose 0.2%, with online sales climbing 1.9%. Amid these releases, U.S. mortgage rates reached their highest point in almost a year, with the 30-year rate at 6.55%, reflecting uncertainty regarding the Federal Reserve's next policy moves.",
+          "id": "mn-item-003",
+          "headline": "Mixed Economic Data Released",
+          "summary": "Economic data painted a mixed picture. US retail sales rose modestly in June, jobless claims declined, and manufacturing activity in the Northeast strengthened. However, the housing sector remained under pressure as pending home sales fell more than expected, and homebuilder sentiment weakened due to elevated borrowing costs and affordability concerns.",
           "tags": [
-            "Economic News",
-            "Jobless Claims",
+            "Economic Data",
             "Retail Sales",
+            "Housing"
+          ]
+        },
+        {
+          "id": "mn-item-004",
+          "headline": "Fed Watch: Interest Rates Unchanged, Hike Expected Later in 2026",
+          "summary": "The Federal Open Market Committee (FOMC) kept the target range for the federal funds rate unchanged at 3.50–3.75%. Market expectations have shifted, with a rate hike and potentially a second, expected by late 2026.",
+          "tags": [
+            "Federal Reserve",
             "Interest Rates"
           ]
         },
         {
-          "id": "earnings-spotlight",
-          "headline": "UnitedHealth and Abbott Report Strong Q2 Earnings, Netflix Awaits Close",
-          "summary": "UnitedHealth Group and Abbott Laboratories both reported robust second-quarter 2026 earnings, leading to significant stock gains. Netflix is scheduled to release its quarterly results after the market closes today, with investors keenly awaiting insights into its performance. GE Aerospace also has earnings scheduled for today.",
+          "id": "mn-item-005",
+          "headline": "Key Earnings Reports from Q2 2026",
+          "summary": "The second-quarter earnings season is in full swing. TSMC reported a 77% jump in quarterly profit and raised its capital expenditure outlook, though its US-listed shares declined. UnitedHealth Group beat estimates. Netflix, however, provided weak Q3 guidance.",
           "tags": [
-            "Earnings Reports",
-            "UnitedHealth",
-            "Abbott Laboratories",
-            "Netflix"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Geopolitical Tensions Keep Oil Prices Elevated Amid US-Iran Strikes",
-          "summary": "Oil prices are experiencing minor fluctuations but remain at elevated levels as geopolitical tensions between the U.S. and Iran continue. The ongoing conflict and related military strikes are contributing to market uncertainty and underpinning energy prices.",
-          "tags": [
-            "Macro Trends",
-            "Geopolitics",
-            "Oil Prices"
-          ]
-        },
-        {
-          "id": "tsmc-investment",
-          "headline": "TSMC Announces Additional $100 Billion US Investment",
-          "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) announced an incremental $100 billion investment for advanced semiconductor manufacturing and packaging facilities in the U.S., bringing their total planned investment to $265 billion. This move aims to strengthen the U.S. semiconductor ecosystem.",
-          "tags": [
-            "Industry News",
-            "Semiconductors",
-            "Investment"
+            "Earnings Season",
+            "TSMC",
+            "Netflix",
+            "UnitedHealth"
           ]
         }
       ]
