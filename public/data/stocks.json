@@ -1,57 +1,70 @@
 {
-  "generatedAt": "2026-07-17T13:03:00Z",
+  "generatedAt": "2026-07-17T17:15:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, July 17, 2026",
+  "subtitle": "July 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Tech Sell-off and Geopolitical Tensions Weigh on Sentiment",
+      "id": "market-pulse-july-17-2026",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july17",
-          "headline": "Global Tech Sell-off and U.S.-Iran Tensions Drive Cautious Market Sentiment",
-          "summary": "Market sentiment on July 17, 2026, reflects a complex interplay of easing inflation pressures and strong corporate earnings, significantly tempered by a deep global sell-off in AI chip stocks and ongoing geopolitical tensions between the U.S. and Iran. U.S. stock futures were broadly lower across major indices, indicating a negative opening for Friday's session. While the industrial sector shows robust optimism, the broader market remains under pressure due to concerns over AI valuations and elevated energy risks.",
+          "id": "market-summary-july-17-2026",
+          "headline": "Tech Sell-Off Deepens Amid Geopolitical Tensions; Major Indices Close Lower",
+          "summary": "U.S. equities are facing significant headwinds today, with a deepening global sell-off in technology and semiconductor stocks. Investor sentiment is further weighed down by escalating tensions between the U.S. and Iran, which has driven oil prices higher. All major indices registered declines, with the Nasdaq Composite leading the losses. Energy and Real Estate sectors showed resilience, while Communication Services and Technology lagged. Not financial advice.",
           "tags": [
-            "Market Sentiment",
+            "Market Summary",
             "Tech Sell-off",
-            "Geopolitics"
+            "Geopolitics",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Pre-market/Previous Close)",
+      "id": "major-indices-july-17-2026",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "-0.94%",
-          "statContext": "Lower in premarket trading; SPY at $743.70. The S&P 500 fell 0.5% on Thursday."
+          "statLabel": "S&P 500",
+          "statValue": "7,491.11",
+          "statContext": "Down 0.57% today",
+          "ticker": "^GSPC",
+          "change": "-42.73",
+          "changePercent": "-0.57%",
+          "direction": "down"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "-1.99%",
-          "statContext": "Significantly lower in premarket; QQQ at $691.92. The Nasdaq fell 1.5% on Thursday."
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,607.34",
+          "statContext": "Down 1.06% today",
+          "ticker": "^IXIC",
+          "change": "-274.61",
+          "changePercent": "-1.06%",
+          "direction": "down"
         },
         {
           "id": "dow-performance",
-          "statLabel": "DOW Futures",
-          "statValue": "-0.7%",
-          "statContext": "Lower in premarket trading. The Dow Jones Industrial Average dipped 0.2% on Thursday."
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,511.32",
+          "statContext": "Down 0.08% today",
+          "ticker": "^DJI",
+          "change": "-42.00",
+          "changePercent": "-0.08%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-july-17-2026",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
@@ -59,109 +72,118 @@
         {
           "id": "nflx-loser",
           "headline": "Netflix Plunges on Weak Guidance",
-          "summary": "Netflix ($NFLX) shares tumbled 9.68% to $67.15 in premarket trading after the streaming giant issued a weaker-than-expected third-quarter revenue forecast and reported slowing subscriber growth.",
+          "summary": "Shares of streaming giant Netflix ($NFLX) tumbled over 7% after the company issued disappointing third-quarter revenue guidance, signaling slowing growth.",
           "ticker": "$NFLX",
-          "price": "$67.15",
-          "change": "-$7.19",
-          "changePercent": "-9.68%",
+          "price": "Market Close (TBD)",
+          "change": "N/A",
+          "changePercent": "-7.03%",
           "direction": "down"
         },
         {
           "id": "isrg-loser",
-          "headline": "Intuitive Surgical Slumps Post-Earnings",
-          "summary": "Intuitive Surgical ($ISRG) slumped 11.3% to $357.06 as the growth of its da Vinci robotic surgery system in the U.S. moderated amidst changes in Affordable Care Act subsidies, despite beating Q2 earnings estimates.",
+          "headline": "Intuitive Surgical Falls on Outlook Concerns",
+          "summary": "Intuitive Surgical ($ISRG) tumbled 11.4% in early trading following a weaker-than-expected outlook and recall concerns.",
           "ticker": "$ISRG",
-          "price": "$357.06",
-          "change": "-$45.42",
-          "changePercent": "-11.3%",
+          "price": "Market Close (TBD)",
+          "change": "N/A",
+          "changePercent": "-11.4%",
           "direction": "down"
         },
         {
-          "id": "asts-loser",
-          "headline": "AST SpaceMobile Falls After Offering",
-          "summary": "AST SpaceMobile ($ASTS) fell 17.04% following a convertible notes offering and a sharp reversal from recent analyst enthusiasm.",
-          "ticker": "$ASTS",
-          "price": "N/A",
+          "id": "nvda-loser",
+          "headline": "Nvidia Down Amid Broader Chip Sell-Off",
+          "summary": "Nvidia ($NVDA) shares declined approximately 3.4% as the global sell-off in semiconductor and AI-related stocks intensified, driven by valuation concerns.",
+          "ticker": "$NVDA",
+          "price": "Market Close (TBD)",
           "change": "N/A",
-          "changePercent": "-17.04%",
+          "changePercent": "-3.4%",
           "direction": "down"
+        },
+        {
+          "id": "trv-gainer",
+          "headline": "Travelers Companies Surges on Strong Performance",
+          "summary": "The Travelers Companies ($TRV) surged 7.4% in early trading, providing a notable upside move amidst a down market.",
+          "ticker": "$TRV",
+          "price": "Market Close (TBD)",
+          "change": "N/A",
+          "changePercent": "+7.4%",
+          "direction": "up"
         },
         {
           "id": "abt-gainer",
-          "headline": "Abbott Laboratories Jumps on Q2 Earnings",
-          "summary": "Abbott Laboratories ($ABT) jumped 10.71% after reporting its second-quarter earnings, which eased concerns regarding medtech and potential acquisitions.",
+          "headline": "Abbott Laboratories Beats Earnings Estimates",
+          "summary": "Abbott Laboratories ($ABT) saw its stock rise 10.7% after reporting second-quarter 2026 earnings and revenues that surpassed Zacks Consensus Estimates.",
           "ticker": "$ABT",
-          "price": "N/A",
+          "price": "Market Close (TBD)",
           "change": "N/A",
-          "changePercent": "+10.71%",
+          "changePercent": "+10.7%",
           "direction": "up"
         },
         {
-          "id": "jbht-gainer",
-          "headline": "J.B. Hunt Services Rises on Strong Q2",
-          "summary": "J.B. Hunt Transport Services ($JBHT) gained 8.01% following stronger-than-expected second-quarter results and a wave of positive price target increases.",
-          "ticker": "$JBHT",
-          "price": "N/A",
+          "id": "skhy-gainer",
+          "headline": "SK Hynix Recovers After Initial Plunge",
+          "summary": "U.S.-listed shares of SK Hynix ($SKHY) demonstrated significant volatility, initially plunging before reversing losses to trade up 8.16% by midday, amidst a turbulent week for chip stocks.",
+          "ticker": "$SKHY",
+          "price": "Market Close (TBD)",
           "change": "N/A",
-          "changePercent": "+8.01%",
-          "direction": "up"
-        },
-        {
-          "id": "fdxf-gainer",
-          "headline": "FedEx Freight Gains on Analyst Coverage",
-          "summary": "FedEx Freight Holding Company ($FDXF) rose 7.50% after fresh analyst coverage highlighted its crucial role in an anticipated earnings recovery for the freight sector.",
-          "ticker": "$FDXF",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.50%",
+          "changePercent": "+8.16%",
           "direction": "up"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News and Sector Analysis",
+      "id": "market-news-july-17-2026",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "chip-sector-selloff",
-          "headline": "Semiconductor Stocks Lead Broad Tech Sell-off",
-          "summary": "The semiconductor sector experienced a significant sell-off, extending losses from Thursday and dragging down major indices. Concerns over AI valuations and future capital expenditure, even after strong earnings from companies like TSMC, prompted investors to reduce exposure to AI-linked stocks. Micron ($MU) fell 4.39% to $815.73, Advanced Micro Devices ($AMD) fell 4.82% to $476.80, and Nvidia ($NVDA) was down 2.5% pre-bell.",
-          "tags": [
-            "Semiconductors",
-            "AI",
-            "Tech Sell-off"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions",
-          "headline": "U.S.-Iran Tensions Keep Oil Prices Elevated",
-          "summary": "Escalating military tensions between the U.S. and Iran, with continued U.S. strikes and Iranian warnings, kept crude oil prices near one-month highs. Brent crude was up 1.1% to $85.13 per barrel, and WTI crude rose 1.3% to $79.95 per barrel, reflecting concerns about shipping routes and supply risks.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Middle East"
-          ]
-        },
-        {
-          "id": "economic-data-inflation",
-          "headline": "Mixed Economic Data: Easing Inflation, Firm Yields",
-          "summary": "Economic data showed mixed signals, with June producer prices falling 0.3% month-on-month, and core prices rising 0.2%, suggesting an easing of factory-level inflation. However, the 10-year U.S. Treasury yield remained firm around 4.53% to 4.56%. The market anticipates the Federal Reserve will likely keep interest rates unchanged at its July meeting.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Industrial Sector Optimism Contrasts with Housing Weakness",
-          "summary": "While the industrial sector's sentiment reached a five-year peak, driven by favorable PMI data and strong demand for data centers, the U.S. housing market presented a challenging picture. Homebuilder confidence slipped for the longest stretch below 40, highlighting divergent trends across the economy.",
+          "id": "sector-performance-july-17-2026",
+          "headline": "Energy and Utilities Lead While Tech and Communications Lag",
+          "summary": "Today's market saw Energy and Utilities sectors leading the gains, alongside Real Estate and Consumer Staples. In contrast, the Technology, Semiconductor, Communication Services, and Consumer Discretionary sectors experienced significant declines as investors rotated out of high-growth AI-related stocks.",
           "tags": [
             "Sector Analysis",
-            "Industrials",
-            "Housing"
+            "Energy",
+            "Technology"
+          ]
+        },
+        {
+          "id": "geopolitical-tensions-july-17-2026",
+          "headline": "U.S.-Iran Tensions Drive Oil Prices Higher",
+          "summary": "Escalating geopolitical tensions between the U.S. and Iran, particularly concerning the Strait of Hormuz, continue to weigh on global markets and have pushed crude oil prices significantly higher. WTI crude gained 3.7% to $81.88 a barrel.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices"
+          ]
+        },
+        {
+          "id": "economic-data-july-17-2026",
+          "headline": "Jobless Claims Fall, Philly Fed Index Rises",
+          "summary": "New economic data showed initial jobless claims decreased to 208,000 for the week ended July 11, falling below estimates. The Philly Fed Index for July also rose significantly to 41.1, indicating stronger manufacturing activity.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "Philly Fed"
+          ]
+        },
+        {
+          "id": "apple-nvidia-market-cap",
+          "headline": "Apple Overtakes Nvidia as World's Most Valuable Company",
+          "summary": "Apple ($AAPL) has reclaimed its position as the world's most valuable company, surpassing Nvidia ($NVDA) in intraday trading, with Apple's market capitalization reaching approximately $4.9 trillion.",
+          "tags": [
+            "Company News",
+            "Apple",
+            "Nvidia"
+          ]
+        },
+        {
+          "id": "meta-anthropic-deal",
+          "headline": "Meta Reportedly in Talks for $10 Billion Anthropic AI Deal",
+          "summary": "Meta Platforms ($META) is reportedly in discussions to lease computing power to AI firm Anthropic in a potential $10 billion deal, a move that could bolster Meta's AI strategy.",
+          "tags": [
+            "Company News",
+            "Meta",
+            "AI"
           ]
         }
       ]
