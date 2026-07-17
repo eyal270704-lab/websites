@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-17T07:57:52.402648Z",
+  "generatedAt": "2026-07-17T21:03:26.969125Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "currentPrice": "$237.44",
+      "entry": "$231.31",
+      "stop": "$220.00",
+      "structure": "Support Test (50-day MA)",
+      "trend": "Below 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Adobe is trading below its 200-day moving average, indicating a longer-term bearish trend. However, it's currently holding above its 50-day MA, suggesting a potential short-term bounce if this level holds. Relative volume is below average.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$331.88",
+      "entry": "$301.93",
+      "stop": "$295.00",
+      "structure": "Uptrend Pullback to 20MA",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong uptrend, trading well above its key moving averages, including a Golden Cross. A pullback to the 20-day moving average could offer an entry point for continued momentum. Relative volume is below average.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corp.",
+      "sector": "Semiconductors",
+      "currentPrice": "$212.42",
+      "entry": "$208.86",
+      "stop": "$200.00",
+      "structure": "0.382 Fib Retracement",
+      "trend": "Rising Trend Channel",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is exhibiting a strong upward trend, trading above all major moving averages. A pullback to the 0.382 Fibonacci retracement level presents a potential entry point for a continuation of the rally. Relative volume is below average.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
