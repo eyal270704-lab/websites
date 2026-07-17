@@ -1,196 +1,167 @@
 {
-  "generatedAt": "2026-07-17T09:06:00Z",
+  "generatedAt": "2026-07-17T13:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 17, 2026 - Geopolitical Tensions & Tech Sell-off Weigh on Markets",
+  "subtitle": "Friday, July 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-001",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Tech Sell-off and Geopolitical Tensions Weigh on Sentiment",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-001",
-          "headline": "Wall Street Slumps as Chip Sell-off Overshadows Strong Earnings",
-          "summary": "U.S. stock markets closed lower on Thursday, July 17, 2026, with the tech-heavy Nasdaq Composite experiencing the largest decline. A renewed sell-off in semiconductor stocks, despite some upbeat corporate earnings and stronger-than-expected economic data, dampened overall market sentiment. Geopolitical tensions in the Middle East also contributed to a downbeat mood.",
+          "id": "market-summary-july17",
+          "headline": "Global Tech Sell-off and U.S.-Iran Tensions Drive Cautious Market Sentiment",
+          "summary": "Market sentiment on July 17, 2026, reflects a complex interplay of easing inflation pressures and strong corporate earnings, significantly tempered by a deep global sell-off in AI chip stocks and ongoing geopolitical tensions between the U.S. and Iran. U.S. stock futures were broadly lower across major indices, indicating a negative opening for Friday's session. While the industrial sector shows robust optimism, the broader market remains under pressure due to concerns over AI valuations and elevated energy risks.",
           "tags": [
             "Market Sentiment",
-            "Technology",
+            "Tech Sell-off",
             "Geopolitics"
-          ],
-          "timestamp": "2026-07-17T07:57:00Z"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-001",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Pre-market/Previous Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "mi-item-001",
-          "statLabel": "S&P 500",
-          "statValue": "7,533.77",
-          "statContext": "Down 0.51%",
-          "change": "-38.63",
-          "changePercent": "-0.51%",
-          "direction": "down"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "-0.94%",
+          "statContext": "Lower in premarket trading; SPY at $743.70. The S&P 500 fell 0.5% on Thursday."
         },
         {
-          "id": "mi-item-002",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,881.95",
-          "statContext": "Down 1.47%",
-          "change": "-387.28",
-          "changePercent": "-1.47%",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "-1.99%",
+          "statContext": "Significantly lower in premarket; QQQ at $691.92. The Nasdaq fell 1.5% on Thursday."
         },
         {
-          "id": "mi-item-003",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,552.97",
-          "statContext": "Down 0.20%",
-          "change": "-105.32",
-          "changePercent": "-0.20%",
-          "direction": "down"
+          "id": "dow-performance",
+          "statLabel": "DOW Futures",
+          "statValue": "-0.7%",
+          "statContext": "Lower in premarket trading. The Dow Jones Industrial Average dipped 0.2% on Thursday."
         }
       ]
     },
     {
-      "id": "top-movers-001",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "tm-gainer-001",
-          "headline": "UnitedHealth Group Beats Earnings",
-          "summary": "UnitedHealth ($UNH) rose 1.2% after surpassing earnings estimates and raising its 2026 profit forecast, contributing to a climb in healthcare stocks.",
-          "ticker": "$UNH",
-          "price": "N/A",
-          "change": "+1.2%",
-          "changePercent": "+1.2%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Earnings"
-          ]
-        },
-        {
-          "id": "tm-gainer-002",
-          "headline": "Crinetics Pharmaceuticals Leads Monthly Gainers",
-          "summary": "Crinetics Pharmaceuticals ($CRNX) showed strong performance, leading as the best-performing stock in July 2026 with a significant monthly gain of 116.93% as of July 17.",
-          "ticker": "$CRNX",
-          "price": "$83.91",
-          "change": "+116.93% (Month-to-date)",
-          "changePercent": "+116.93%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Momentum"
-          ]
-        },
-        {
-          "id": "tm-loser-001",
-          "headline": "Semiconductor Stocks Slump",
-          "summary": "The semiconductor sector experienced a significant sell-off. Arms Holdings saw a 5.41% drop, while Advanced Micro Devices ($AMD) and Micron Technology ($MU) also declined over 5% each. SanDisk ($SNDK) nosedived over 12%. This broad-based sell-off was attributed to aggressive growth expectations in the industry.",
-          "ticker": "$AMD",
-          "price": "N/A",
-          "change": "-5%+",
-          "changePercent": "-5%+",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "tm-loser-002",
-          "headline": "Netflix Tumbles on Weak Guidance",
-          "summary": "Netflix ($NFLX) tumbled 8.92% in premarket trading after reporting mixed second-quarter financial results and issuing weak guidance for the third quarter.",
+          "id": "nflx-loser",
+          "headline": "Netflix Plunges on Weak Guidance",
+          "summary": "Netflix ($NFLX) shares tumbled 9.68% to $67.15 in premarket trading after the streaming giant issued a weaker-than-expected third-quarter revenue forecast and reported slowing subscriber growth.",
           "ticker": "$NFLX",
-          "price": "N/A",
-          "change": "-8.92%",
-          "changePercent": "-8.92%",
-          "direction": "down",
-          "tags": [
-            "Streaming",
-            "Earnings"
-          ]
+          "price": "$67.15",
+          "change": "-$7.19",
+          "changePercent": "-9.68%",
+          "direction": "down"
         },
         {
-          "id": "tm-loser-003",
-          "headline": "IBM Falls on Earnings Miss",
-          "summary": "IBM ($IBM) stock tumbled 25% following preliminary earnings results for the second quarter, with sales lower than anticipated as customers shifted spending towards memory and storage products.",
-          "ticker": "$IBM",
+          "id": "isrg-loser",
+          "headline": "Intuitive Surgical Slumps Post-Earnings",
+          "summary": "Intuitive Surgical ($ISRG) slumped 11.3% to $357.06 as the growth of its da Vinci robotic surgery system in the U.S. moderated amidst changes in Affordable Care Act subsidies, despite beating Q2 earnings estimates.",
+          "ticker": "$ISRG",
+          "price": "$357.06",
+          "change": "-$45.42",
+          "changePercent": "-11.3%",
+          "direction": "down"
+        },
+        {
+          "id": "asts-loser",
+          "headline": "AST SpaceMobile Falls After Offering",
+          "summary": "AST SpaceMobile ($ASTS) fell 17.04% following a convertible notes offering and a sharp reversal from recent analyst enthusiasm.",
+          "ticker": "$ASTS",
           "price": "N/A",
-          "change": "-25%",
-          "changePercent": "-25%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Earnings"
-          ]
+          "change": "N/A",
+          "changePercent": "-17.04%",
+          "direction": "down"
+        },
+        {
+          "id": "abt-gainer",
+          "headline": "Abbott Laboratories Jumps on Q2 Earnings",
+          "summary": "Abbott Laboratories ($ABT) jumped 10.71% after reporting its second-quarter earnings, which eased concerns regarding medtech and potential acquisitions.",
+          "ticker": "$ABT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.71%",
+          "direction": "up"
+        },
+        {
+          "id": "jbht-gainer",
+          "headline": "J.B. Hunt Services Rises on Strong Q2",
+          "summary": "J.B. Hunt Transport Services ($JBHT) gained 8.01% following stronger-than-expected second-quarter results and a wave of positive price target increases.",
+          "ticker": "$JBHT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.01%",
+          "direction": "up"
+        },
+        {
+          "id": "fdxf-gainer",
+          "headline": "FedEx Freight Gains on Analyst Coverage",
+          "summary": "FedEx Freight Holding Company ($FDXF) rose 7.50% after fresh analyst coverage highlighted its crucial role in an anticipated earnings recovery for the freight sector.",
+          "ticker": "$FDXF",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.50%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "market-news-001",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News and Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-item-001",
-          "headline": "Technology Sector Leads Declines Amid Chip Sell-off",
-          "summary": "Technology stocks led the market declines, with the sector falling 1.8% as semiconductor shares tumbled 4.3%. This sell-off in AI and semiconductor stocks was a primary driver behind the broader market's downtrend.",
+          "id": "chip-sector-selloff",
+          "headline": "Semiconductor Stocks Lead Broad Tech Sell-off",
+          "summary": "The semiconductor sector experienced a significant sell-off, extending losses from Thursday and dragging down major indices. Concerns over AI valuations and future capital expenditure, even after strong earnings from companies like TSMC, prompted investors to reduce exposure to AI-linked stocks. Micron ($MU) fell 4.39% to $815.73, Advanced Micro Devices ($AMD) fell 4.82% to $476.80, and Nvidia ($NVDA) was down 2.5% pre-bell.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Semiconductors"
+            "Semiconductors",
+            "AI",
+            "Tech Sell-off"
           ]
         },
         {
-          "id": "mn-item-002",
-          "headline": "Healthcare Sector Shows Resilience",
-          "summary": "Despite broader market weakness, healthcare stocks climbed 2.2%, supported by strong earnings from companies like UnitedHealth Group.",
+          "id": "geopolitical-tensions",
+          "headline": "U.S.-Iran Tensions Keep Oil Prices Elevated",
+          "summary": "Escalating military tensions between the U.S. and Iran, with continued U.S. strikes and Iranian warnings, kept crude oil prices near one-month highs. Brent crude was up 1.1% to $85.13 per barrel, and WTI crude rose 1.3% to $79.95 per barrel, reflecting concerns about shipping routes and supply risks.",
           "tags": [
-            "Sector Analysis",
-            "Healthcare"
+            "Geopolitics",
+            "Oil Prices",
+            "Middle East"
           ]
         },
         {
-          "id": "mn-item-003",
-          "headline": "Mixed Economic Data Released",
-          "summary": "Economic data painted a mixed picture. US retail sales rose modestly in June, jobless claims declined, and manufacturing activity in the Northeast strengthened. However, the housing sector remained under pressure as pending home sales fell more than expected, and homebuilder sentiment weakened due to elevated borrowing costs and affordability concerns.",
+          "id": "economic-data-inflation",
+          "headline": "Mixed Economic Data: Easing Inflation, Firm Yields",
+          "summary": "Economic data showed mixed signals, with June producer prices falling 0.3% month-on-month, and core prices rising 0.2%, suggesting an easing of factory-level inflation. However, the 10-year U.S. Treasury yield remained firm around 4.53% to 4.56%. The market anticipates the Federal Reserve will likely keep interest rates unchanged at its July meeting.",
           "tags": [
             "Economic Data",
-            "Retail Sales",
+            "Inflation",
+            "Treasury Yields"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Industrial Sector Optimism Contrasts with Housing Weakness",
+          "summary": "While the industrial sector's sentiment reached a five-year peak, driven by favorable PMI data and strong demand for data centers, the U.S. housing market presented a challenging picture. Homebuilder confidence slipped for the longest stretch below 40, highlighting divergent trends across the economy.",
+          "tags": [
+            "Sector Analysis",
+            "Industrials",
             "Housing"
-          ]
-        },
-        {
-          "id": "mn-item-004",
-          "headline": "Fed Watch: Interest Rates Unchanged, Hike Expected Later in 2026",
-          "summary": "The Federal Open Market Committee (FOMC) kept the target range for the federal funds rate unchanged at 3.50–3.75%. Market expectations have shifted, with a rate hike and potentially a second, expected by late 2026.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "mn-item-005",
-          "headline": "Key Earnings Reports from Q2 2026",
-          "summary": "The second-quarter earnings season is in full swing. TSMC reported a 77% jump in quarterly profit and raised its capital expenditure outlook, though its US-listed shares declined. UnitedHealth Group beat estimates. Netflix, however, provided weak Q3 guidance.",
-          "tags": [
-            "Earnings Season",
-            "TSMC",
-            "Netflix",
-            "UnitedHealth"
           ]
         }
       ]
