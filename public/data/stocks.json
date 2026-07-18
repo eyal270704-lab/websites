@@ -1,189 +1,172 @@
 {
-  "generatedAt": "2026-07-17T17:15:00Z",
+  "generatedAt": "2026-07-18T08:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 17, 2026",
+  "subtitle": "Pre-market Update - July 18, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-july-17-2026",
+      "id": "market-pulse-1",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july-17-2026",
-          "headline": "Tech Sell-Off Deepens Amid Geopolitical Tensions; Major Indices Close Lower",
-          "summary": "U.S. equities are facing significant headwinds today, with a deepening global sell-off in technology and semiconductor stocks. Investor sentiment is further weighed down by escalating tensions between the U.S. and Iran, which has driven oil prices higher. All major indices registered declines, with the Nasdaq Composite leading the losses. Energy and Real Estate sectors showed resilience, while Communication Services and Technology lagged. Not financial advice.",
+          "id": "market-pulse-item-1",
+          "headline": "Futures Indicate Continued Downside Amid Tech Sell-Off and Geopolitical Tensions",
+          "summary": "U.S. equity futures are trading lower this morning, extending a risk-off sentiment that deepened on Friday. The tech sector continues to face significant selling pressure following a broad chip sell-off and concerns about competition from new AI models. Geopolitical tensions in the Middle East, coupled with rising crude oil prices, are further weighing on investor sentiment. Major benchmarks are poised to continue their slide, giving up early July momentum.",
           "tags": [
-            "Market Summary",
+            "Pre-market",
+            "Sentiment",
             "Tech Sell-off",
-            "Geopolitics",
             "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-july-17-2026",
+      "id": "major-indices-2",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,491.11",
-          "statContext": "Down 0.57% today",
-          "ticker": "^GSPC",
-          "change": "-42.73",
-          "changePercent": "-0.57%",
-          "direction": "down"
+          "id": "stat-item-sp500",
+          "headline": "S&P 500 Futures",
+          "statLabel": "Pre-market",
+          "statValue": "7,495.25",
+          "change": "-73.75",
+          "changePercent": "-0.97%",
+          "direction": "down",
+          "statContext": "S&P 500 futures fell toward monthly lows, testing the 7,500 handle."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,607.34",
-          "statContext": "Down 1.06% today",
-          "ticker": "^IXIC",
-          "change": "-274.61",
-          "changePercent": "-1.06%",
-          "direction": "down"
+          "id": "stat-item-nasdaq",
+          "headline": "NASDAQ 100 Futures",
+          "statLabel": "Pre-market",
+          "statValue": "28,768.04",
+          "change": "-408.75",
+          "changePercent": "-1.4%",
+          "direction": "down",
+          "statContext": "Nasdaq 100 futures slid as the tech-led sell-off persisted."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,511.32",
-          "statContext": "Down 0.08% today",
-          "ticker": "^DJI",
-          "change": "-42.00",
-          "changePercent": "-0.08%",
-          "direction": "down"
+          "id": "stat-item-dow",
+          "headline": "Dow Futures",
+          "statLabel": "Pre-market",
+          "statValue": "52,373.00",
+          "change": "-368.00",
+          "changePercent": "-0.7%",
+          "direction": "down",
+          "statContext": "Dow futures also dipped, reflecting broader market weakness."
         }
       ]
     },
     {
-      "id": "top-movers-july-17-2026",
-      "title": "Top Movers",
+      "id": "top-movers-3",
+      "title": "Top Movers (Pre-market/Previous Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nflx-loser",
-          "headline": "Netflix Plunges on Weak Guidance",
-          "summary": "Shares of streaming giant Netflix ($NFLX) tumbled over 7% after the company issued disappointing third-quarter revenue guidance, signaling slowing growth.",
+          "id": "stock-loser-nflx",
+          "headline": "Netflix Inc. Sees Continued Pressure",
+          "summary": "Streaming giant Netflix ($NFLX) experienced a significant pre-market decline on Friday, July 17th, following disappointing second-quarter revenue below Wall Street's estimates and weaker third-quarter guidance. This negative sentiment is expected to carry into today's trading.",
           "ticker": "$NFLX",
-          "price": "Market Close (TBD)",
-          "change": "N/A",
-          "changePercent": "-7.03%",
+          "price": "$65.32",
+          "change": "-$8.97",
+          "changePercent": "-12.15%",
           "direction": "down"
         },
         {
-          "id": "isrg-loser",
-          "headline": "Intuitive Surgical Falls on Outlook Concerns",
-          "summary": "Intuitive Surgical ($ISRG) tumbled 11.4% in early trading following a weaker-than-expected outlook and recall concerns.",
+          "id": "stock-loser-isrg",
+          "headline": "Intuitive Surgical Slumps on Outlook",
+          "summary": "Intuitive Surgical ($ISRG) also fell sharply in pre-market trading on Friday, July 17th, after the medical technology company provided a weaker-than-expected outlook, with growth of its da Vinci robotic surgery system moderating in the U.S.",
           "ticker": "$ISRG",
-          "price": "Market Close (TBD)",
-          "change": "N/A",
-          "changePercent": "-11.4%",
+          "price": "$364.05",
+          "change": "-$38.17",
+          "changePercent": "-9.51%",
           "direction": "down"
         },
         {
-          "id": "nvda-loser",
-          "headline": "Nvidia Down Amid Broader Chip Sell-Off",
-          "summary": "Nvidia ($NVDA) shares declined approximately 3.4% as the global sell-off in semiconductor and AI-related stocks intensified, driven by valuation concerns.",
-          "ticker": "$NVDA",
-          "price": "Market Close (TBD)",
-          "change": "N/A",
-          "changePercent": "-3.4%",
+          "id": "stock-loser-cdns",
+          "headline": "Cadence Design Systems Down",
+          "summary": "Cadence Design Systems ($CDNS) was among the pre-market losers on Friday, July 17th, likely affected by the broader sell-off in semiconductor and technology stocks.",
+          "ticker": "$CDNS",
+          "price": "$337.43",
+          "change": "-$30.64",
+          "changePercent": "-7.46%",
           "direction": "down"
         },
         {
-          "id": "trv-gainer",
-          "headline": "Travelers Companies Surges on Strong Performance",
-          "summary": "The Travelers Companies ($TRV) surged 7.4% in early trading, providing a notable upside move amidst a down market.",
-          "ticker": "$TRV",
-          "price": "Market Close (TBD)",
+          "id": "stock-gainer-trvi",
+          "headline": "Trevi Therapeutics Noted in Early Trading",
+          "summary": "Trevi Therapeutics ($TRVI) is appearing on lists of pre-market gainers today, though specific percentage changes are not yet available.",
+          "ticker": "$TRVI",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.4%",
+          "changePercent": "N/A",
           "direction": "up"
         },
         {
-          "id": "abt-gainer",
-          "headline": "Abbott Laboratories Beats Earnings Estimates",
-          "summary": "Abbott Laboratories ($ABT) saw its stock rise 10.7% after reporting second-quarter 2026 earnings and revenues that surpassed Zacks Consensus Estimates.",
-          "ticker": "$ABT",
-          "price": "Market Close (TBD)",
+          "id": "stock-gainer-eqnr",
+          "headline": "Equinor ASA Shows Early Strength",
+          "summary": "Equinor ASA ($EQNR), an energy company, is among the pre-market gainers. This aligns with broader strength in the energy sector due to rising oil prices.",
+          "ticker": "$EQNR",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.7%",
-          "direction": "up"
-        },
-        {
-          "id": "skhy-gainer",
-          "headline": "SK Hynix Recovers After Initial Plunge",
-          "summary": "U.S.-listed shares of SK Hynix ($SKHY) demonstrated significant volatility, initially plunging before reversing losses to trade up 8.16% by midday, amidst a turbulent week for chip stocks.",
-          "ticker": "$SKHY",
-          "price": "Market Close (TBD)",
-          "change": "N/A",
-          "changePercent": "+8.16%",
+          "changePercent": "N/A",
           "direction": "up"
         }
       ]
     },
     {
-      "id": "market-news-july-17-2026",
+      "id": "market-news-4",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-july-17-2026",
-          "headline": "Energy and Utilities Lead While Tech and Communications Lag",
-          "summary": "Today's market saw Energy and Utilities sectors leading the gains, alongside Real Estate and Consumer Staples. In contrast, the Technology, Semiconductor, Communication Services, and Consumer Discretionary sectors experienced significant declines as investors rotated out of high-growth AI-related stocks.",
+          "id": "article-chip-selloff",
+          "headline": "Global Chip Sell-Off Deepens Amid AI Concerns",
+          "summary": "The sell-off in semiconductor stocks continues to be a dominant theme, with the Philadelphia SE Semiconductor Index logging its steepest weekly loss in over a year and entering a technical bear market. Concerns are intensifying that the massive gains fueled by the buildout of artificial intelligence have run too far, exacerbated by reports of a new competitive AI model from Chinese startup Moonshot AI.",
           "tags": [
-            "Sector Analysis",
+            "Tech",
+            "Semiconductors",
+            "AI",
+            "Market Sentiment"
+          ]
+        },
+        {
+          "id": "article-oil-geopolitics",
+          "headline": "Oil Prices Surge on Heightened Middle East Tensions",
+          "summary": "WTI Crude Oil futures have rallied to one-month highs, and Brent crude also saw significant gains, driven by escalating geopolitical tensions in the Middle East. Concerns about the flow of oil from the Arabian Gulf are intensifying after reports of ongoing conflict between the US and Iran.",
+          "tags": [
             "Energy",
-            "Technology"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions-july-17-2026",
-          "headline": "U.S.-Iran Tensions Drive Oil Prices Higher",
-          "summary": "Escalating geopolitical tensions between the U.S. and Iran, particularly concerning the Strait of Hormuz, continue to weigh on global markets and have pushed crude oil prices significantly higher. WTI crude gained 3.7% to $81.88 a barrel.",
-          "tags": [
             "Geopolitics",
-            "Oil Prices"
+            "Crude Oil"
           ]
         },
         {
-          "id": "economic-data-july-17-2026",
-          "headline": "Jobless Claims Fall, Philly Fed Index Rises",
-          "summary": "New economic data showed initial jobless claims decreased to 208,000 for the week ended July 11, falling below estimates. The Philly Fed Index for July also rose significantly to 41.1, indicating stronger manufacturing activity.",
+          "id": "article-economic-data",
+          "headline": "Key Economic Data Releases Expected Today",
+          "summary": "Investors will be watching for several economic data releases today, July 18, 2026, including U.S. Initial Jobless Claims, Durable Goods Orders for June (preliminary), and the Conference Board Consumer Confidence for July, all due before market open or early in the trading session.",
           "tags": [
             "Economic Data",
             "Jobless Claims",
-            "Philly Fed"
+            "Consumer Confidence"
           ]
         },
         {
-          "id": "apple-nvidia-market-cap",
-          "headline": "Apple Overtakes Nvidia as World's Most Valuable Company",
-          "summary": "Apple ($AAPL) has reclaimed its position as the world's most valuable company, surpassing Nvidia ($NVDA) in intraday trading, with Apple's market capitalization reaching approximately $4.9 trillion.",
+          "id": "article-earnings",
+          "headline": "Earnings Reports from HDFC Bank and ICICI Bank Today",
+          "summary": "HDFC Bank and ICICI Bank are scheduled to release earnings reports today, July 18, 2026. Upcoming major reports next week include General Motors, Alphabet, and Tesla.",
           "tags": [
-            "Company News",
-            "Apple",
-            "Nvidia"
-          ]
-        },
-        {
-          "id": "meta-anthropic-deal",
-          "headline": "Meta Reportedly in Talks for $10 Billion Anthropic AI Deal",
-          "summary": "Meta Platforms ($META) is reportedly in discussions to lease computing power to AI firm Anthropic in a potential $10 billion deal, a move that could bolster Meta's AI strategy.",
-          "tags": [
-            "Company News",
-            "Meta",
-            "AI"
+            "Earnings",
+            "Banking",
+            "HDFC Bank",
+            "ICICI Bank"
           ]
         }
       ]
