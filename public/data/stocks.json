@@ -1,63 +1,54 @@
 {
-  "generatedAt": "2026-07-18T12:51:00Z",
+  "generatedAt": "2026-07-18T17:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Overview for July 18, 2026",
+  "subtitle": "Friday, July 18, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Indices Close Lower as Tech Weighs, Inflation Cools",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "Tech Sector Leads Market Downturn Amid AI Concerns and Inflation Woes",
-          "summary": "U.S. major indices closed lower today, with the Nasdaq and S&P 500 experiencing notable declines. Market sentiment was impacted by a significant sell-off in technology and semiconductor stocks following China's latest AI advancements and persistent concerns over elevated inflation. Financials, however, showed strength on strong earnings reports.",
+          "id": "market-summary",
+          "headline": "U.S. Equities Dip as Growth Sectors Underperform Amid Cooling Inflation Data",
+          "summary": "U.S. stock markets closed lower on Friday, July 18, 2026, with major indices recording declines. Technology and other growth sectors experienced a sell-off, contributing significantly to the overall market downturn. This comes as fresh economic data indicated a cooling in U.S. inflation for June, potentially easing pressure on the Federal Reserve regarding interest rate policy. However, concerns persist over the inflationary impact of the massive AI infrastructure build-out.",
           "tags": [
-            "Market Summary",
-            "Tech Sell-off",
-            "Inflation"
+            "Market Overview",
+            "Inflation",
+            "Tech Sell-off"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "si-1",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,454.74",
-          "statContext": "Down 1.05% today. The index fell 1.6% for the week ending July 17, 2026.",
-          "ticker": "^SPX",
-          "change": "-79.17",
-          "changePercent": "-1.05%",
+          "statContext": "Down 1.05% today. The index fell 1.55% for the week ending July 17.",
           "direction": "down"
         },
         {
-          "id": "ni-1",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,520.24",
-          "statContext": "Dropped 1.40% today.",
-          "ticker": "^IXIC",
-          "change": "-362.30",
-          "changePercent": "-1.40%",
+          "statContext": "Fell 1.40% today. The Nasdaq fell 2.9% for the week ending July 17.",
           "direction": "down"
         },
         {
-          "id": "dji-1",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,146.39",
-          "statContext": "Closed lower by 407 points, down 0.77% today.",
-          "ticker": "^DJI",
-          "change": "-407.00",
-          "changePercent": "-0.77%",
+          "statContext": "Dropped 0.77% today.",
           "direction": "down"
         }
       ]
@@ -69,113 +60,122 @@
       "layout": "grid",
       "items": [
         {
-          "id": "tm-g1",
-          "headline": "Goldman Sachs Rises on Robust Earnings",
-          "ticker": "$GS",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "+7.00%+",
+          "id": "gainer-fbrx",
+          "headline": "Forte Biosciences Leads Monthly Gains",
+          "summary": "Forte Biosciences, Inc. continues its strong performance, emerging as the best-performing stock in July 2026, driven by sustained market momentum in the healthcare sector.",
+          "ticker": "$FBRX",
+          "price": "$48.86",
+          "change": "+$26.69",
+          "changePercent": "+129.17% (July MTD)",
           "direction": "up",
-          "summary": "Goldman Sachs shares rose more than 7% after the bank reported record profits, boosted by strong trading desk performance and a resilient U.S. consumer."
+          "tags": [
+            "Healthcare",
+            "Biotech"
+          ]
         },
         {
-          "id": "tm-g2",
-          "headline": "JPMorgan Posts Gains Following Strong Revenue",
-          "ticker": "$JPM",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "+1.80%",
+          "id": "gainer-pypl",
+          "headline": "PayPal Shows Strong Monthly Uptick",
+          "summary": "PayPal Holdings, Inc. recorded significant gains this month, reflecting positive sentiment and potentially strong underlying business performance.",
+          "ticker": "$PYPL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+28.34% (July MTD)",
           "direction": "up",
-          "summary": "JPMorgan shares climbed 1.8% today, with the nation's largest bank reporting record revenue across all business lines, including a 35% growth in its markets division."
+          "tags": [
+            "Fintech",
+            "Payments"
+          ]
         },
         {
-          "id": "tm-g3",
-          "headline": "Bank of America Climbs on Profit Increase",
-          "ticker": "$BAC",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "+1.70%",
-          "direction": "up",
-          "summary": "Bank of America's stock increased 1.7% after its profit rose 27% from a year ago, with consumer spending outperforming expectations."
-        },
-        {
-          "id": "tm-l1",
-          "headline": "Alphabet Shares Slip Amid AI Competition Fears",
-          "ticker": "$GOOG",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "-2.00%",
+          "id": "loser-isrg",
+          "headline": "Intuitive Surgical Plunges on Growth Concerns",
+          "summary": "Intuitive Surgical Inc. saw a sharp decline yesterday, following news of moderated growth in its da Vinci robotic surgery system in the U.S., impacting investor confidence.",
+          "ticker": "$ISRG",
+          "price": "$350.01",
+          "change": "-$52.20",
+          "changePercent": "-13.0% (July 17)",
           "direction": "down",
-          "summary": "Google parent Alphabet's shares slipped another 2% today, adding to a 4% tumble from Thursday, as a Chinese AI breakthrough intensified competition concerns in the tech sector."
+          "tags": [
+            "Healthcare",
+            "Medical Devices"
+          ]
         },
         {
-          "id": "tm-l2",
-          "headline": "Nvidia Down as Semiconductor Sell-off Continues",
-          "ticker": "$NVDA",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "-2.00%+",
+          "id": "loser-nflx",
+          "headline": "Netflix Drops After Mixed Q2 Results",
+          "summary": "Netflix Inc. shares fell significantly yesterday after reporting mixed second-quarter fiscal results, with earnings beating expectations but sales missing and Q3 guidance falling short of market forecasts.",
+          "ticker": "$NFLX",
+          "price": "$69.18",
+          "change": "-$5.15",
+          "changePercent": "-6.95% (July 17)",
           "direction": "down",
-          "summary": "Nvidia shares were down more than 2% today as the semiconductor index fell 1.6%, putting it down 20% since late June amid doubts over whether AI spending will justify valuations."
+          "tags": [
+            "Streaming",
+            "Entertainment"
+          ]
         },
         {
-          "id": "tm-l3",
-          "headline": "Cadence Design Systems Plummets on AI Model Concerns",
-          "ticker": "$CDNS",
-          "price": "Price N/A",
-          "change": "Change N/A",
-          "changePercent": "-9.47%",
+          "id": "loser-sndk",
+          "headline": "SanDisk Continues Weekly Decline",
+          "summary": "SanDisk experienced a substantial drop this week, making it one of the worst-performing stocks, potentially due to broader tech sector weakness or specific company news.",
+          "ticker": "$SNDK",
+          "price": "$1,354.82",
+          "change": "-$560.89",
+          "changePercent": "-29.31% (Weekly)",
           "direction": "down",
-          "summary": "Cadence Design Systems, Inc. saw its stock price drop by 9.47% yesterday, as investors took profits ahead of earnings amid concerns about AI models and capital spending."
+          "tags": [
+            "Semiconductors",
+            "Data Storage"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News and Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-1",
-          "headline": "Fed Chair Warsh Addresses Inflation and Economic Growth in Congressional Testimony",
-          "summary": "Newly confirmed Federal Reserve Chairman Kevin Warsh delivered his first semiannual testimony this week, prioritizing U.S. economic growth while acknowledging the challenging inflation environment. Trailing 12-month U.S. inflation hit a three-year high of 4.2% in May, more than double the Fed's 2% target, largely due to President Trump's policies and the Iran war disrupting energy supplies.",
+          "id": "economic-inflation",
+          "headline": "U.S. Inflation Cools in June, Federal Reserve Holds Steady",
+          "summary": "The U.S. consumer inflation cooled in June, with overall prices dropping 0.4% from May—the largest monthly decline in four years. The yearly inflation rate fell to 3.5%, reinforcing expectations that the Federal Reserve will likely keep interest rates unchanged through the second half of 2026. The Fed entered its pre-meeting silence ahead of today's decision to hold rates steady.",
           "tags": [
-            "Fed",
+            "Economic Data",
             "Inflation",
-            "Monetary Policy",
-            "Economic Data"
+            "Federal Reserve"
           ]
         },
         {
-          "id": "mn-2",
-          "headline": "Tech Sector Experiences Significant Rotation Amid Chinese AI Breakthroughs",
-          "summary": "A significant sell-off in technology and semiconductor stocks occurred today, triggered by concerns over China's latest AI model, Kimi K3, which intensified worries about competition and the sustainability of the AI spending boom. The PHLX semiconductor index has fallen into a technical bear market, down 20% since late June.",
+          "id": "sector-performance",
+          "headline": "Energy and Real Estate Lead, Technology and Basic Materials Lag",
+          "summary": "For the week ending July 17, the Energy sector was the best performer, gaining 4.54%, followed by Real Estate, up 2.64%. In contrast, Technology and Basic Materials were the weakest sectors, declining by 3.65% and 1.85% respectively. This indicates a potential shift in market leadership and investor focus.",
           "tags": [
-            "Technology",
-            "AI",
-            "Semiconductors",
-            "Sector Rotation"
+            "Sector Analysis",
+            "Energy",
+            "Real Estate",
+            "Technology"
           ]
         },
         {
-          "id": "mn-3",
-          "headline": "Strong Bank Earnings Signal Resilient Consumer Amid Global Uncertainty",
-          "summary": "Several major U.S. banks, including JPMorgan, Bank of America, and Goldman Sachs, reported record profits for the quarter ended June 30, 2026. These strong results were driven by robust trading desks and surprisingly resilient American consumer spending, despite elevated inflation and persistent global economic uncertainty.",
+          "id": "ai-bottlenecks",
+          "headline": "AI Infrastructure Build-Out Poses Inflationary Pressure",
+          "summary": "Despite cooling inflation, economists warn that the massive investment in AI infrastructure, including data centers, memory chips, processors, and electricity, could exert renewed inflationary pressure through the end of the year. This could potentially lead the Federal Reserve to consider lifting interest rates later in 2026.",
           "tags": [
-            "Financials",
-            "Earnings",
-            "Consumer Spending"
+            "Artificial Intelligence",
+            "Macro Trends",
+            "Inflation"
           ]
         },
         {
-          "id": "mn-4",
-          "headline": "ICICI Bank Schedules Earnings Call for Q1 2027",
-          "summary": "ICICI Bank ($IBN) is scheduled to host conference calls today to discuss its financial results for the quarter ended June 30, 2026. This is part of the ongoing earnings season, with other major companies like Tesla and Alphabet expected to report next week.",
+          "id": "earnings-q2",
+          "headline": "Q2 Earnings Season in Focus Amid High Expectations",
+          "summary": "The Q2 2026 earnings season is a key focus for investors, with S&P 500 earnings growth estimated at a robust 23.6% year-over-year. Energy and Information Technology are expected to be leading sectors in earnings growth. However, individual company performance, such as Netflix's mixed results, highlights the risk of not meeting elevated investor expectations.",
           "tags": [
-            "Earnings Reports",
-            "Banking",
-            "ICICI Bank"
+            "Earnings Season",
+            "Corporate News",
+            "Q2 2026"
           ]
         }
       ]
