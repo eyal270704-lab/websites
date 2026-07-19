@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-18T19:13:42.017432Z",
+  "generatedAt": "2026-07-19T09:57:38.301687Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 10,
+  "tradeCount": 13,
   "trades": [
     {
       "ticker": "$APP",
@@ -160,6 +160,54 @@
       "analysis": "Tesla is currently trading within the 0.618 Fibonacci retracement zone, suggesting a potential support test. However, the stock is in a confirmed downtrend, trading below both its 20-day and 200-day moving averages. Upcoming earnings in the next few days add significant risk, making this a speculative entry.",
       "riskScore": 9,
       "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MU",
+      "name": "Micron Technology Inc.",
+      "sector": "Information Technology",
+      "currentPrice": "$848.95",
+      "entry": "$804.00",
+      "stop": "$790.00",
+      "structure": "Daily Low Retest",
+      "trend": "1.18x",
+      "trendLabel": "RVOL",
+      "analysis": "Micron is in a short-term downtrend, trading below its 20-day and 50-day moving averages. While relative volume is elevated, indicating interest, there is no clear Fibonacci Golden Zone entry. This setup suggests waiting for a bounce off recent daily lows or a clear reversal.",
+      "riskScore": 6,
+      "footerTag": "Avoid",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$JPM",
+      "name": "JPMorgan Chase & Co.",
+      "sector": "Financial Services",
+      "currentPrice": "$341.10",
+      "entry": "$334.00",
+      "stop": "$315.00",
+      "structure": "Resistance Breakout Retest",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "JPMorgan is in a strong uptrend, consistently trading above its 20-day, 50-day, and 200-day moving averages. The stock recently broke out above prior resistance at $334, which could now act as support for a pullback entry. A stop loss can be placed below the 50-day moving average to manage risk.",
+      "riskScore": 4,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$GS",
+      "name": "The Goldman Sachs Group, Inc.",
+      "sector": "Capital Markets",
+      "currentPrice": "$1065.22",
+      "entry": "$1043.00",
+      "stop": "$1000.00",
+      "structure": "20-day EMA Retest",
+      "trend": "> 200MA / Weakening Momentum",
+      "trendLabel": "Trend",
+      "analysis": "Goldman Sachs is in a long-term uptrend but shows signs of short-term bullish exhaustion, with mixed moving average signals and current price extended from deeper Fibonacci retracement levels. A pullback towards the 20-day exponential moving average may provide a speculative entry. A stop should be placed below the 50-day moving average for risk management.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Weakening Momentum",
       "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
