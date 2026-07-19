@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-07-19T12:53:00Z",
+  "generatedAt": "2026-07-19T17:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 19, 2026 - Weekend Edition",
-  "badge": "Market Closed",
+  "subtitle": "Weekend Recap - July 19, 2026. Data based on Friday, July 17, 2026 market close.",
+  "badge": "Weekend Edition",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july18",
-          "headline": "Market Closes Lower Amid Tech Sell-off and Geopolitical Tensions on Friday",
-          "summary": "U.S. equities closed lower on Friday, July 18, 2026, as investors rotated out of large-cap growth and technology stocks into value and defensive plays. Renewed geopolitical tensions in the Middle East, which sent oil prices soaring, and a significant sell-off in the semiconductor sector contributed to the downturn. Despite encouraging inflation data that eased concerns about Fed rate hikes, overall market sentiment remained cautious heading into the weekend. Not financial advice.",
+          "id": "market-summary-friday",
+          "headline": "Tech Sell-Off and Geopolitical Tensions Drive Indices Lower on Friday",
+          "summary": "U.S. major indices concluded the trading week on a negative note, as a significant sell-off in semiconductor stocks, escalating Middle East tensions driving oil prices higher, and a disappointing earnings report from Netflix weighed heavily on market sentiment. The S&P 500, NASDAQ, and Dow all registered declines, reflecting a broader pivot out of the AI trade and increased risk aversion.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
+            "Friday Close",
             "Geopolitics",
-            "Inflation"
-          ],
-          "timestamp": "2026-07-18T16:00:00Z"
+            "Tech Sell-off"
+          ]
         }
       ]
     },
@@ -32,147 +32,148 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,454.74",
-          "statContext": "Closed -1.05% on July 18, 2026"
+          "statValue": "7,458.00",
+          "statContext": "-1.01% (-76.08 points) on Friday, July 17, 2026."
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,520.24",
-          "statContext": "Closed -1.40% on July 18, 2026"
+          "statContext": "-1.40% (-361.70 points) on Friday, July 17, 2026."
         },
         {
-          "id": "dow-close",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,146.39",
-          "statContext": "Closed -0.77% on July 18, 2026"
+          "statValue": "52,146.42",
+          "statContext": "-0.77% (-406.55 points) on Friday, July 17, 2026."
         }
       ]
     },
     {
       "id": "top-movers-stocks",
-      "title": "Top Movers (July 18, 2026)",
+      "title": "Top Movers (Friday, July 17, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vlo-gainer",
-          "headline": "Valero Energy Surges on Oil Price Jump",
-          "summary": "Energy stocks led the market, with Valero Energy seeing strong gains as crude oil prices surged over 14% this week due to escalating US-Iran conflict.",
-          "ticker": "$VLO",
-          "price": "$309.65",
-          "change": "+$9.39",
-          "changePercent": "+3.13%",
-          "direction": "up"
+          "id": "top-gainer-trv",
+          "headline": "Travelers Companies Inc Leads Financial Gainers",
+          "ticker": "$TRV",
+          "price": "$368.98",
+          "change": "+$31.16",
+          "changePercent": "+9.22%",
+          "direction": "up",
+          "summary": "The Travelers Companies Inc saw a significant jump in its stock price, contributing to the financial sector's strong performance this quarter."
         },
         {
-          "id": "fang-gainer",
-          "headline": "Diamondback Energy Benefits from Energy Sector Strength",
-          "summary": "As investors rotated into energy, Diamondback Energy recorded notable gains. The sector outperformed amid renewed geopolitical tensions.",
-          "ticker": "$FANG",
-          "price": "$195.54",
-          "change": "+$5.41",
-          "changePercent": "+2.85%",
-          "direction": "up"
+          "id": "top-gainer-stx",
+          "headline": "Seagate Technology Holdings Rises Amidst Tech Volatility",
+          "ticker": "$STX",
+          "price": "$787.66",
+          "change": "+$42.17",
+          "changePercent": "+5.66%",
+          "direction": "up",
+          "summary": "Seagate Technology Holdings PLC posted notable gains despite a broader tech sell-off, indicating some resilient areas within the sector."
         },
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Rises Despite Tech Weakness",
-          "summary": "Apple ($AAPL) gained 5.8% last week, a notable exception amidst broader weakness in the 'Mag 7' and the tech sector, positioning itself near the top U.S. market cap spot.",
-          "ticker": "$AAPL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.8% (weekly)",
-          "direction": "up"
+          "id": "top-gainer-cnc",
+          "headline": "Centene Corp Sees Strong Advance",
+          "ticker": "$CNC",
+          "price": "$66.44",
+          "change": "+$2.55",
+          "changePercent": "+3.99%",
+          "direction": "up",
+          "summary": "Centene Corp. experienced a solid uptick in its share value during Friday's trading session."
         },
         {
-          "id": "ibm-loser",
-          "headline": "IBM Plunges After Weak Earnings Report",
-          "summary": "International Business Machines ($IBM) stock plummeted over 20% in a single day after releasing weaker-than-expected earnings, citing customers prioritizing hardware spending.",
-          "ticker": "$IBM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-20%+ (daily)",
-          "direction": "down"
-        },
-        {
-          "id": "nflx-loser",
-          "headline": "Netflix Shares Sink on Disappointing Guidance",
-          "summary": "Netflix ($NFLX) shares dropped more than 7% on Friday after its third-quarter revenue guidance fell below Wall Street's expectations.",
+          "id": "top-loser-nflx",
+          "headline": "Netflix Plunges Post-Earnings",
           "ticker": "$NFLX",
-          "price": "$69.00",
-          "change": "N/A",
-          "changePercent": "-7%+ (daily)",
-          "direction": "down"
-        },
-        {
-          "id": "avgo-loser",
-          "headline": "Broadcom Hit as AI Trade Suffers",
-          "summary": "Broadcom ($AVGO) was down 7.3% last week as investors rotated away from technology and momentum stocks amid concerns about AI infrastructure valuations.",
-          "ticker": "$AVGO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.3% (weekly)",
-          "direction": "down"
+          "changePercent": "-10%+",
+          "direction": "down",
+          "summary": "Shares of Netflix fell more than 10% following its quarterly earnings report, as revenue narrowly missed consensus and its Q3 forecast disappointed investors."
+        },
+        {
+          "id": "top-loser-sox",
+          "headline": "Semiconductor Stocks Witness Steep Declines",
+          "ticker": "$SOX (Index)",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-20% (from highs)",
+          "direction": "down",
+          "summary": "The PHLX Semiconductor Index (SOX) was on track for 20% declines from recent highs, with major chip companies like ARM, AMD, Oracle, Broadcom, Super Micro Computer, and Marvell Technology seeing losses of 5% or worse."
+        },
+        {
+          "id": "top-loser-vivk",
+          "headline": "Vivakor Inc. Leads Individual Stock Declines",
+          "ticker": "$VIVK",
+          "price": "$2.26",
+          "change": "N/A",
+          "changePercent": "-46.95%",
+          "direction": "down",
+          "summary": "Vivakor, Inc. recorded a substantial loss, making it one of the biggest individual stock losers on Friday."
         }
       ]
     },
     {
-      "id": "market-news-articles",
+      "id": "sector-analysis-summary",
+      "title": "Sector Analysis",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "leading-sectors-friday",
+          "headline": "Energy Sector Leads as Tech Lags",
+          "summary": "On the most recent trading day, the Energy sector emerged as the best-performing sector, advancing by +1.16%, primarily driven by surging oil prices amid Middle East tensions. Real Estate also saw positive movement, up +0.08%. In contrast, the Communication Services sector lagged significantly with a -2.09% decline, alongside Consumer Discretionary (-1.44%) and Information Technology (-1.07%), reflecting a broader market rotation out of high-growth tech names.",
+          "tags": [
+            "Sectors",
+            "Energy",
+            "Technology",
+            "Rotation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-july18",
-          "headline": "Broad Sector Rotation Continues: Tech Out, Value In",
-          "summary": "The market witnessed a continued rotation on Friday, with investors shifting away from high-flying technology and growth stocks, particularly those in the AI infrastructure and semiconductor space, towards value-oriented sectors like Energy, Financials, Healthcare, and Consumer Staples. This move reflects a desire for stability and a reassessment of tech valuations.",
+          "id": "fed-outlook-july",
+          "headline": "Fed Maintains Rates Amid Cooling Inflation, Future Hikes Unlikely for July",
+          "summary": "The Federal Open Market Committee (FOMC) has kept the federal funds rate unchanged at 3.50–3.75% since December 2025. Recent cooler-than-expected inflation data for June, including a 0.4% month-over-month drop in CPI, has significantly reduced the market-implied probability of a July rate hike to about 14%. Morgan Stanley Research anticipates the Fed will remain on hold, with the next FOMC meeting scheduled for July 29th. Fed Chair Kevin Warsh has indicated a preference for less forward guidance, increasing market sensitivity to economic data.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy",
-            "Financials"
-          ]
-        },
-        {
-          "id": "economic-data-fed",
-          "headline": "Inflation Cools, Easing Fed Rate Hike Concerns",
-          "summary": "Encouraging economic data released this week showed a moderation in consumer (CPI) and producer (PPI) inflation for June, leading to a drop in the odds of a Federal Reserve rate hike this year. However, inflation remains above the Fed's 2.0% target, with volatile energy prices posing an ongoing risk.",
-          "tags": [
-            "Economic Data",
-            "Fed Policy",
-            "Inflation"
+            "Fed",
+            "Monetary Policy",
+            "Inflation",
+            "Interest Rates"
           ]
         },
         {
           "id": "earnings-season-q2",
-          "headline": "Q2 Earnings Season Kicks Off Strong, Banks Lead",
-          "summary": "The second-quarter 2026 earnings season is off to a strong start, with many companies reporting solid results and major American banks showing significant profit jumps, partly due to strong investment banking divisions. The S&P 500 operating EPS growth is estimated around 22.9-24.7% year-over-year.",
+          "headline": "Q2 Earnings Season in Full Swing with Key Tech Reports Ahead",
+          "summary": "The second-quarter earnings season is in its third-busiest week, with 86 S&P 500 companies reporting. A robust 88% of S&P 500 firms are exceeding earnings estimates, contributing to a blended earnings growth rate of 24.7% year-over-year. The 'Magnificent 7' tech giants are projected to see a 31.1% earnings surge. All eyes are on Tesla ($TSLA) and Alphabet ($GOOGL), which are set to report earnings the week of July 21st.",
           "tags": [
-            "Earnings Season",
-            "Corporate News",
-            "Financials"
+            "Earnings",
+            "Q2 2026",
+            "Tech Earnings",
+            "S&P 500"
           ]
         },
         {
-          "id": "geopolitical-oil-surge",
-          "headline": "Geopolitical Tensions Drive Oil Prices to New Highs",
-          "summary": "Escalating conflict between the U.S. and Iran, particularly concerning the Strait of Hormuz, caused crude oil prices to surge by over 14% this week. This ongoing geopolitical instability continues to be a significant factor influencing market sentiment and inflation expectations.",
+          "id": "geopolitical-oil-impact",
+          "headline": "Geopolitical Tensions Drive Oil Prices, Market Volatility",
+          "summary": "Escalating tensions in the Middle East have pushed oil prices higher, notably with WTI crude rising over 2% to above $80 per barrel. This geopolitical backdrop has contributed to market volatility and amplified concerns, further influencing sector rotations and overall market sentiment.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Commodities"
-          ]
-        },
-        {
-          "id": "consumer-sentiment-july",
-          "headline": "Consumer Sentiment Improves, But Risks Remain",
-          "summary": "U.S. consumer sentiment rose in July to a five-month high. However, this improvement largely reflects conditions prior to the renewed Middle East conflict, and the upward momentum may be difficult to sustain if rising gasoline prices persist.",
-          "tags": [
-            "Consumer Confidence",
-            "Economic Outlook"
+            "Market Volatility"
           ]
         }
       ]
