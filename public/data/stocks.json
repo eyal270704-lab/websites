@@ -1,181 +1,172 @@
 {
-  "generatedAt": "2026-07-18T17:02:00Z",
+  "generatedAt": "2026-07-19T09:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, July 18, 2026",
-  "badge": "LIVE",
+  "subtitle": "Sunday, July 19, 2026 - Pre-Market Outlook",
+  "badge": "PRE-MARKET",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Indices Close Lower as Tech Weighs, Inflation Cools",
+      "id": "market-pulse-jul19",
+      "title": "Market Pulse: Tech Sell-off and Oil Concerns Dominate Weekend Outlook",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities Dip as Growth Sectors Underperform Amid Cooling Inflation Data",
-          "summary": "U.S. stock markets closed lower on Friday, July 18, 2026, with major indices recording declines. Technology and other growth sectors experienced a sell-off, contributing significantly to the overall market downturn. This comes as fresh economic data indicated a cooling in U.S. inflation for June, potentially easing pressure on the Federal Reserve regarding interest rate policy. However, concerns persist over the inflationary impact of the massive AI infrastructure build-out.",
+          "id": "market-summary-jul19",
+          "headline": "Markets Closed Sunday, Futures Point to Lingering Caution After Friday's Declines",
+          "summary": "U.S. equity markets are closed today, Sunday, July 19, 2026. However, market sentiment heading into the new week remains cautious, largely influenced by Friday's widespread sell-off in technology stocks and persistent concerns over escalating geopolitical tensions in the Middle East driving oil prices higher. Futures markets, which will reopen for Sunday evening trading, are expected to reflect this subdued sentiment. The S&P 500 recorded its first losing week in three, with the tech-heavy Nasdaq Composite experiencing significant declines.",
           "tags": [
-            "Market Overview",
-            "Inflation",
-            "Tech Sell-off"
+            "Market Sentiment",
+            "Weekend",
+            "Futures"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance",
+      "id": "major-indices-jul19",
+      "title": "Major Indices (Friday, July 17, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-jul17",
           "statLabel": "S&P 500",
-          "statValue": "7,454.74",
-          "statContext": "Down 1.05% today. The index fell 1.55% for the week ending July 17.",
+          "statValue": "7,457.69",
+          "statContext": "Fell 1.0% Friday, ending its first losing week in three.",
+          "ticker": "$SPX",
+          "price": "7,457.69",
+          "change": "-$76.08",
+          "changePercent": "-1.0%",
           "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "dow-jul17",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,146.42",
+          "statContext": "Dropped on Friday, pressured by broader market weakness.",
+          "ticker": "$DJIA",
+          "price": "52,146.42",
+          "change": "-$406.55",
+          "changePercent": "-0.8%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-jul17",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,520.24",
-          "statContext": "Fell 1.40% today. The Nasdaq fell 2.9% for the week ending July 17.",
-          "direction": "down"
-        },
-        {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,146.39",
-          "statContext": "Dropped 0.77% today.",
+          "statContext": "Sank significantly as AI and tech stocks sold off.",
+          "ticker": "$IXIC",
+          "price": "25,520.24",
+          "change": "-$361.70",
+          "changePercent": "-1.4%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-jul19",
+      "title": "Top Movers (Friday, July 17, 2026 / Pre-Market Insights)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-fbrx",
-          "headline": "Forte Biosciences Leads Monthly Gains",
-          "summary": "Forte Biosciences, Inc. continues its strong performance, emerging as the best-performing stock in July 2026, driven by sustained market momentum in the healthcare sector.",
-          "ticker": "$FBRX",
-          "price": "$48.86",
-          "change": "+$26.69",
-          "changePercent": "+129.17% (July MTD)",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Biotech"
-          ]
-        },
-        {
-          "id": "gainer-pypl",
-          "headline": "PayPal Shows Strong Monthly Uptick",
-          "summary": "PayPal Holdings, Inc. recorded significant gains this month, reflecting positive sentiment and potentially strong underlying business performance.",
-          "ticker": "$PYPL",
+          "id": "nflx-mover",
+          "headline": "Netflix Plunges on Weak Revenue Forecast",
+          "summary": "Shares of Netflix ($NFLX) fell 7.3% on Friday, following an 11% pre-market drop, after its second-quarter revenue guidance missed analysts' expectations.",
+          "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+28.34% (July MTD)",
-          "direction": "up",
-          "tags": [
-            "Fintech",
-            "Payments"
-          ]
+          "changePercent": "-7.3%",
+          "direction": "down"
         },
         {
-          "id": "loser-isrg",
-          "headline": "Intuitive Surgical Plunges on Growth Concerns",
-          "summary": "Intuitive Surgical Inc. saw a sharp decline yesterday, following news of moderated growth in its da Vinci robotic surgery system in the U.S., impacting investor confidence.",
+          "id": "isrg-mover",
+          "headline": "Intuitive Surgical Drops Despite Earnings Beat",
+          "summary": "Intuitive Surgical ($ISRG) saw a 14.1% decline on Friday, with an almost 10% drop in early trading, as investor concerns over slowing procedure growth overshadowed an earnings beat.",
           "ticker": "$ISRG",
-          "price": "$350.01",
-          "change": "-$52.20",
-          "changePercent": "-13.0% (July 17)",
-          "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Medical Devices"
-          ]
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-14.1%",
+          "direction": "down"
         },
         {
-          "id": "loser-nflx",
-          "headline": "Netflix Drops After Mixed Q2 Results",
-          "summary": "Netflix Inc. shares fell significantly yesterday after reporting mixed second-quarter fiscal results, with earnings beating expectations but sales missing and Q3 guidance falling short of market forecasts.",
-          "ticker": "$NFLX",
-          "price": "$69.18",
-          "change": "-$5.15",
-          "changePercent": "-6.95% (July 17)",
-          "direction": "down",
-          "tags": [
-            "Streaming",
-            "Entertainment"
-          ]
+          "id": "spcx-mover",
+          "headline": "SpaceX Continues Retreat After Aborted Launch",
+          "summary": "Elon Musk's SpaceX ($SPCX) fell 5.4% on Friday, following a 4% pre-market decline, touching its lowest level since its Nasdaq debut after aborting a Starship test flight.",
+          "ticker": "$SPCX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.4%",
+          "direction": "down"
         },
         {
-          "id": "loser-sndk",
-          "headline": "SanDisk Continues Weekly Decline",
-          "summary": "SanDisk experienced a substantial drop this week, making it one of the worst-performing stocks, potentially due to broader tech sector weakness or specific company news.",
-          "ticker": "$SNDK",
-          "price": "$1,354.82",
-          "change": "-$560.89",
-          "changePercent": "-29.31% (Weekly)",
-          "direction": "down",
-          "tags": [
-            "Semiconductors",
-            "Data Storage"
-          ]
+          "id": "ibm-mover",
+          "headline": "IBM Suffers Record Drop on Earnings Miss",
+          "summary": "IBM ($IBM) plummeted an unprecedented 25% after preliminary second-quarter results missed expectations, with management citing a client shift from software to hardware.",
+          "ticker": "$IBM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-25.0%",
+          "direction": "down"
+        },
+        {
+          "id": "gs-mover",
+          "headline": "Goldman Sachs Surges on Strong Bank Earnings",
+          "summary": "Goldman Sachs ($GS) surged 9.0% on Friday, reflecting strong second-quarter results and a surge in dealmaking across Wall Street banks.",
+          "ticker": "$GS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9.0%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News and Sector Analysis",
+      "id": "market-news-jul19",
+      "title": "Market News and Upcoming Events",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-inflation",
-          "headline": "U.S. Inflation Cools in June, Federal Reserve Holds Steady",
-          "summary": "The U.S. consumer inflation cooled in June, with overall prices dropping 0.4% from May—the largest monthly decline in four years. The yearly inflation rate fell to 3.5%, reinforcing expectations that the Federal Reserve will likely keep interest rates unchanged through the second half of 2026. The Fed entered its pre-meeting silence ahead of today's decision to hold rates steady.",
+          "id": "sector-tech-jul19",
+          "headline": "Tech Sector Faces Continued Headwinds Amid AI Stock Sell-off",
+          "summary": "The technology sector, particularly semiconductor and AI-related stocks, experienced significant weakness last week, with the Nasdaq-100 showing a descending triangle pattern. This unwinding in semis and Korean equities indicates a 'bubble-bursty' environment, despite some broader market resilience in equally-weighted indices.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve"
+            "Technology",
+            "AI",
+            "Semiconductors"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Energy and Real Estate Lead, Technology and Basic Materials Lag",
-          "summary": "For the week ending July 17, the Energy sector was the best performer, gaining 4.54%, followed by Real Estate, up 2.64%. In contrast, Technology and Basic Materials were the weakest sectors, declining by 3.65% and 1.85% respectively. This indicates a potential shift in market leadership and investor focus.",
+          "id": "sector-energy-finance-jul19",
+          "headline": "Energy and Financials Show Strength",
+          "summary": "The energy sector emerged as a leading performer last week due to rising oil prices driven by Middle East tensions. Financials also showed strength, fueled by exceptionally strong top-line results from Wall Street banks.",
           "tags": [
-            "Sector Analysis",
             "Energy",
-            "Real Estate",
-            "Technology"
+            "Financials",
+            "Oil Prices"
           ]
         },
         {
-          "id": "ai-bottlenecks",
-          "headline": "AI Infrastructure Build-Out Poses Inflationary Pressure",
-          "summary": "Despite cooling inflation, economists warn that the massive investment in AI infrastructure, including data centers, memory chips, processors, and electricity, could exert renewed inflationary pressure through the end of the year. This could potentially lead the Federal Reserve to consider lifting interest rates later in 2026.",
+          "id": "economic-calendar-jul20",
+          "headline": "Key Economic Data and Fed Blackout Period Ahead",
+          "summary": "The upcoming week (July 20-26, 2026) is light on U.S. economic data, but notably falls within the Federal Reserve's blackout period ahead of the July 28-29 FOMC meeting. Investors will be watching global data, including the People's Bank of China Interest Rate Decision on Monday, UK labor market and CPI data mid-week, and the European Central Bank (ECB) meeting and interest rate decision on Thursday, which is expected to be the main event.",
           "tags": [
-            "Artificial Intelligence",
-            "Macro Trends",
-            "Inflation"
+            "Economic Calendar",
+            "Fed",
+            "ECB",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "earnings-q2",
-          "headline": "Q2 Earnings Season in Focus Amid High Expectations",
-          "summary": "The Q2 2026 earnings season is a key focus for investors, with S&P 500 earnings growth estimated at a robust 23.6% year-over-year. Energy and Information Technology are expected to be leading sectors in earnings growth. However, individual company performance, such as Netflix's mixed results, highlights the risk of not meeting elevated investor expectations.",
+          "id": "earnings-week-jul20",
+          "headline": "Major Earnings Reports Dominate the Week of July 20th",
+          "summary": "The earnings reporting season is set to be busy, with several major companies reporting. Highly anticipated releases include AMC Entertainment ($AMC) pre-market on Monday, Tesla ($TSLA), Intel ($INTC), Alphabet ($GOOGL), IBM ($IBM), GE Vernova ($GEV), and Texas Instruments ($TXN) later in the week.",
           "tags": [
             "Earnings Season",
-            "Corporate News",
-            "Q2 2026"
+            "Corporate Earnings"
           ]
         }
       ]
