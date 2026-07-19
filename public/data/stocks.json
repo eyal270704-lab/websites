@@ -1,172 +1,178 @@
 {
-  "generatedAt": "2026-07-19T09:03:00Z",
+  "generatedAt": "2026-07-19T12:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Sunday, July 19, 2026 - Pre-Market Outlook",
-  "badge": "PRE-MARKET",
+  "subtitle": "July 19, 2026 - Weekend Edition",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse-jul19",
-      "title": "Market Pulse: Tech Sell-off and Oil Concerns Dominate Weekend Outlook",
+      "id": "market-pulse-overall",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-jul19",
-          "headline": "Markets Closed Sunday, Futures Point to Lingering Caution After Friday's Declines",
-          "summary": "U.S. equity markets are closed today, Sunday, July 19, 2026. However, market sentiment heading into the new week remains cautious, largely influenced by Friday's widespread sell-off in technology stocks and persistent concerns over escalating geopolitical tensions in the Middle East driving oil prices higher. Futures markets, which will reopen for Sunday evening trading, are expected to reflect this subdued sentiment. The S&P 500 recorded its first losing week in three, with the tech-heavy Nasdaq Composite experiencing significant declines.",
+          "id": "market-summary-july18",
+          "headline": "Market Closes Lower Amid Tech Sell-off and Geopolitical Tensions on Friday",
+          "summary": "U.S. equities closed lower on Friday, July 18, 2026, as investors rotated out of large-cap growth and technology stocks into value and defensive plays. Renewed geopolitical tensions in the Middle East, which sent oil prices soaring, and a significant sell-off in the semiconductor sector contributed to the downturn. Despite encouraging inflation data that eased concerns about Fed rate hikes, overall market sentiment remained cautious heading into the weekend. Not financial advice.",
           "tags": [
             "Market Sentiment",
-            "Weekend",
-            "Futures"
-          ]
+            "Geopolitics",
+            "Inflation"
+          ],
+          "timestamp": "2026-07-18T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-jul19",
-      "title": "Major Indices (Friday, July 17, 2026 Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-jul17",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
-          "statValue": "7,457.69",
-          "statContext": "Fell 1.0% Friday, ending its first losing week in three.",
-          "ticker": "$SPX",
-          "price": "7,457.69",
-          "change": "-$76.08",
-          "changePercent": "-1.0%",
-          "direction": "down"
+          "statValue": "7,454.74",
+          "statContext": "Closed -1.05% on July 18, 2026"
         },
         {
-          "id": "dow-jul17",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,146.42",
-          "statContext": "Dropped on Friday, pressured by broader market weakness.",
-          "ticker": "$DJIA",
-          "price": "52,146.42",
-          "change": "-$406.55",
-          "changePercent": "-0.8%",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-jul17",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,520.24",
-          "statContext": "Sank significantly as AI and tech stocks sold off.",
-          "ticker": "$IXIC",
-          "price": "25,520.24",
-          "change": "-$361.70",
-          "changePercent": "-1.4%",
-          "direction": "down"
+          "statContext": "Closed -1.40% on July 18, 2026"
+        },
+        {
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,146.39",
+          "statContext": "Closed -0.77% on July 18, 2026"
         }
       ]
     },
     {
-      "id": "top-movers-jul19",
-      "title": "Top Movers (Friday, July 17, 2026 / Pre-Market Insights)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (July 18, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nflx-mover",
-          "headline": "Netflix Plunges on Weak Revenue Forecast",
-          "summary": "Shares of Netflix ($NFLX) fell 7.3% on Friday, following an 11% pre-market drop, after its second-quarter revenue guidance missed analysts' expectations.",
-          "ticker": "$NFLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.3%",
-          "direction": "down"
+          "id": "vlo-gainer",
+          "headline": "Valero Energy Surges on Oil Price Jump",
+          "summary": "Energy stocks led the market, with Valero Energy seeing strong gains as crude oil prices surged over 14% this week due to escalating US-Iran conflict.",
+          "ticker": "$VLO",
+          "price": "$309.65",
+          "change": "+$9.39",
+          "changePercent": "+3.13%",
+          "direction": "up"
         },
         {
-          "id": "isrg-mover",
-          "headline": "Intuitive Surgical Drops Despite Earnings Beat",
-          "summary": "Intuitive Surgical ($ISRG) saw a 14.1% decline on Friday, with an almost 10% drop in early trading, as investor concerns over slowing procedure growth overshadowed an earnings beat.",
-          "ticker": "$ISRG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-14.1%",
-          "direction": "down"
+          "id": "fang-gainer",
+          "headline": "Diamondback Energy Benefits from Energy Sector Strength",
+          "summary": "As investors rotated into energy, Diamondback Energy recorded notable gains. The sector outperformed amid renewed geopolitical tensions.",
+          "ticker": "$FANG",
+          "price": "$195.54",
+          "change": "+$5.41",
+          "changePercent": "+2.85%",
+          "direction": "up"
         },
         {
-          "id": "spcx-mover",
-          "headline": "SpaceX Continues Retreat After Aborted Launch",
-          "summary": "Elon Musk's SpaceX ($SPCX) fell 5.4% on Friday, following a 4% pre-market decline, touching its lowest level since its Nasdaq debut after aborting a Starship test flight.",
-          "ticker": "$SPCX",
+          "id": "aapl-gainer",
+          "headline": "Apple Rises Despite Tech Weakness",
+          "summary": "Apple ($AAPL) gained 5.8% last week, a notable exception amidst broader weakness in the 'Mag 7' and the tech sector, positioning itself near the top U.S. market cap spot.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.4%",
-          "direction": "down"
+          "changePercent": "+5.8% (weekly)",
+          "direction": "up"
         },
         {
-          "id": "ibm-mover",
-          "headline": "IBM Suffers Record Drop on Earnings Miss",
-          "summary": "IBM ($IBM) plummeted an unprecedented 25% after preliminary second-quarter results missed expectations, with management citing a client shift from software to hardware.",
+          "id": "ibm-loser",
+          "headline": "IBM Plunges After Weak Earnings Report",
+          "summary": "International Business Machines ($IBM) stock plummeted over 20% in a single day after releasing weaker-than-expected earnings, citing customers prioritizing hardware spending.",
           "ticker": "$IBM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-25.0%",
+          "changePercent": "-20%+ (daily)",
           "direction": "down"
         },
         {
-          "id": "gs-mover",
-          "headline": "Goldman Sachs Surges on Strong Bank Earnings",
-          "summary": "Goldman Sachs ($GS) surged 9.0% on Friday, reflecting strong second-quarter results and a surge in dealmaking across Wall Street banks.",
-          "ticker": "$GS",
+          "id": "nflx-loser",
+          "headline": "Netflix Shares Sink on Disappointing Guidance",
+          "summary": "Netflix ($NFLX) shares dropped more than 7% on Friday after its third-quarter revenue guidance fell below Wall Street's expectations.",
+          "ticker": "$NFLX",
+          "price": "$69.00",
+          "change": "N/A",
+          "changePercent": "-7%+ (daily)",
+          "direction": "down"
+        },
+        {
+          "id": "avgo-loser",
+          "headline": "Broadcom Hit as AI Trade Suffers",
+          "summary": "Broadcom ($AVGO) was down 7.3% last week as investors rotated away from technology and momentum stocks amid concerns about AI infrastructure valuations.",
+          "ticker": "$AVGO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.0%",
-          "direction": "up"
+          "changePercent": "-7.3% (weekly)",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-jul19",
-      "title": "Market News and Upcoming Events",
+      "id": "market-news-articles",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-jul19",
-          "headline": "Tech Sector Faces Continued Headwinds Amid AI Stock Sell-off",
-          "summary": "The technology sector, particularly semiconductor and AI-related stocks, experienced significant weakness last week, with the Nasdaq-100 showing a descending triangle pattern. This unwinding in semis and Korean equities indicates a 'bubble-bursty' environment, despite some broader market resilience in equally-weighted indices.",
+          "id": "sector-rotation-july18",
+          "headline": "Broad Sector Rotation Continues: Tech Out, Value In",
+          "summary": "The market witnessed a continued rotation on Friday, with investors shifting away from high-flying technology and growth stocks, particularly those in the AI infrastructure and semiconductor space, towards value-oriented sectors like Energy, Financials, Healthcare, and Consumer Staples. This move reflects a desire for stability and a reassessment of tech valuations.",
           "tags": [
+            "Sector Analysis",
             "Technology",
-            "AI",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "sector-energy-finance-jul19",
-          "headline": "Energy and Financials Show Strength",
-          "summary": "The energy sector emerged as a leading performer last week due to rising oil prices driven by Middle East tensions. Financials also showed strength, fueled by exceptionally strong top-line results from Wall Street banks.",
-          "tags": [
             "Energy",
-            "Financials",
-            "Oil Prices"
+            "Financials"
           ]
         },
         {
-          "id": "economic-calendar-jul20",
-          "headline": "Key Economic Data and Fed Blackout Period Ahead",
-          "summary": "The upcoming week (July 20-26, 2026) is light on U.S. economic data, but notably falls within the Federal Reserve's blackout period ahead of the July 28-29 FOMC meeting. Investors will be watching global data, including the People's Bank of China Interest Rate Decision on Monday, UK labor market and CPI data mid-week, and the European Central Bank (ECB) meeting and interest rate decision on Thursday, which is expected to be the main event.",
+          "id": "economic-data-fed",
+          "headline": "Inflation Cools, Easing Fed Rate Hike Concerns",
+          "summary": "Encouraging economic data released this week showed a moderation in consumer (CPI) and producer (PPI) inflation for June, leading to a drop in the odds of a Federal Reserve rate hike this year. However, inflation remains above the Fed's 2.0% target, with volatile energy prices posing an ongoing risk.",
           "tags": [
-            "Economic Calendar",
-            "Fed",
-            "ECB",
-            "Monetary Policy"
+            "Economic Data",
+            "Fed Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "earnings-week-jul20",
-          "headline": "Major Earnings Reports Dominate the Week of July 20th",
-          "summary": "The earnings reporting season is set to be busy, with several major companies reporting. Highly anticipated releases include AMC Entertainment ($AMC) pre-market on Monday, Tesla ($TSLA), Intel ($INTC), Alphabet ($GOOGL), IBM ($IBM), GE Vernova ($GEV), and Texas Instruments ($TXN) later in the week.",
+          "id": "earnings-season-q2",
+          "headline": "Q2 Earnings Season Kicks Off Strong, Banks Lead",
+          "summary": "The second-quarter 2026 earnings season is off to a strong start, with many companies reporting solid results and major American banks showing significant profit jumps, partly due to strong investment banking divisions. The S&P 500 operating EPS growth is estimated around 22.9-24.7% year-over-year.",
           "tags": [
             "Earnings Season",
-            "Corporate Earnings"
+            "Corporate News",
+            "Financials"
+          ]
+        },
+        {
+          "id": "geopolitical-oil-surge",
+          "headline": "Geopolitical Tensions Drive Oil Prices to New Highs",
+          "summary": "Escalating conflict between the U.S. and Iran, particularly concerning the Strait of Hormuz, caused crude oil prices to surge by over 14% this week. This ongoing geopolitical instability continues to be a significant factor influencing market sentiment and inflation expectations.",
+          "tags": [
+            "Geopolitics",
+            "Oil Prices",
+            "Commodities"
+          ]
+        },
+        {
+          "id": "consumer-sentiment-july",
+          "headline": "Consumer Sentiment Improves, But Risks Remain",
+          "summary": "U.S. consumer sentiment rose in July to a five-month high. However, this improvement largely reflects conditions prior to the renewed Middle East conflict, and the upward momentum may be difficult to sustain if rising gasoline prices persist.",
+          "tags": [
+            "Consumer Confidence",
+            "Economic Outlook"
           ]
         }
       ]
