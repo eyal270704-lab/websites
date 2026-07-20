@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-07-20T13:47:00Z",
+  "generatedAt": "2026-07-20T18:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "July 20, 2026: Navigating Geopolitical Tensions and Key Earnings",
+  "title": "Daily Market Digest: July 20, 2026",
+  "subtitle": "Market navigating geopolitical tensions and key earnings reports",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july20",
-          "headline": "U.S. Futures Edge Higher Amid Geopolitical Tensions and Upcoming Earnings",
-          "summary": "U.S. stock futures showed modest gains this Monday morning, signaling a cautious start to the week as investors weigh escalating geopolitical tensions in the Middle East against a busy schedule of major tech earnings. Futures for the Nasdaq 100 rose 1.00%, S&P 500 futures increased by 0.49%, and Dow Jones futures advanced 0.34% in pre-market trading. The market remains sensitive to ongoing U.S. airstrikes on Iran and volatile oil prices, which continue to fuel inflation concerns. Sentiment is also shaped by renewed fears surrounding an AI bubble, especially after a significant sell-off in semiconductor stocks last week.",
+          "id": "market-summary-item",
+          "headline": "U.S. Stocks Exhibit Mixed Performance Amid Geopolitical Headwinds and Earnings Season Kick-off",
+          "summary": "U.S. stock markets are showing a mixed performance today as investors weigh escalating U.S.-Iran tensions against a busy week of technology earnings reports. While certain tech and AI-related stocks saw early gains, broader sentiment remains cautious after last week's sell-off in megacap technology and semiconductor shares. Attention is shifting towards central bank expectations and upcoming corporate earnings to gauge market direction. This is not financial advice.",
           "tags": [
             "Market Overview",
             "Geopolitics",
-            "Earnings Season",
-            "AI Concerns"
-          ]
+            "Earnings Season"
+          ],
+          "timestamp": "2026-07-20T18:07:00Z"
         }
       ]
     },
@@ -32,189 +32,136 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "+0.49%",
-          "statContext": "Pre-market movement as of July 20, 2026.",
-          "direction": "up"
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "7,457.69",
+          "statContext": "Today: +0.17% (Following -1.0% Friday)"
         },
         {
-          "id": "nasdaq-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "+1.00%",
-          "statContext": "Pre-market movement as of July 20, 2026.",
-          "direction": "up"
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,520.24",
+          "statContext": "Today: +0.58% (Following -1.4% Friday)"
         },
         {
-          "id": "dow-premarket",
-          "statLabel": "DOW Jones Futures",
-          "statValue": "+0.34%",
-          "statContext": "Pre-market movement as of July 20, 2026.",
-          "direction": "up"
-        },
-        {
-          "id": "sp500-early-monday",
-          "statLabel": "S&P 500 (Early Mon)",
-          "statValue": "+0.6%",
-          "statContext": "Early Monday trading on July 20, 2026.",
-          "direction": "up"
-        },
-        {
-          "id": "nasdaq-early-monday",
-          "statLabel": "NASDAQ (Early Mon)",
-          "statValue": "+0.8%",
-          "statContext": "Early Monday trading on July 20, 2026.",
-          "direction": "up"
-        },
-        {
-          "id": "dow-early-monday",
-          "statLabel": "DOW (Early Mon)",
-          "statValue": "+190 points",
-          "statContext": "Early Monday trading on July 20, 2026.",
-          "direction": "up"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "52,164.45",
+          "statContext": "Today: -0.33% (Following -0.8% Friday)"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
+      "id": "top-movers-day",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "amc-gainer",
-          "headline": "AMC Soars on Record Quarterly Performance",
-          "summary": "AMC Entertainment Holdings, Inc. ($AMC) saw its stock soar nearly 15% in off-hours trading after reporting record second-quarter sales and profit, surpassing analyst expectations.",
+          "headline": "AMC Soars on Strong Q2 Earnings",
+          "summary": "AMC Entertainment Holdings ($AMC) shares jumped 11% after the movie theater operator reported record Q2 revenue and adjusted EBITDA, surpassing Wall Street's expectations amid a strong box office environment.",
           "ticker": "$AMC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15%",
-          "direction": "up",
-          "tags": [
-            "Entertainment",
-            "Earnings"
-          ]
+          "changePercent": "+11.0%",
+          "direction": "up"
         },
         {
-          "id": "dpz-gainer",
-          "headline": "Domino's Pizza Jumps on Strong Revenue",
-          "summary": "Domino's Pizza Inc. ($DPZ) jumped over 7% after beating second-quarter revenue projections and announcing a new round of stock buybacks, despite falling short of profit targets.",
-          "ticker": "$DPZ",
+          "id": "amd-gainer",
+          "headline": "AMD Climbs on Microsoft Partnership",
+          "summary": "Advanced Micro Devices ($AMD) shares climbed 4.5% in premarket trading after Microsoft ($MSFT) announced it would use AMD's Helios system in its data centers, expanding their AI data center partnership.",
+          "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7%",
-          "direction": "up",
-          "tags": [
-            "Food Service",
-            "Earnings"
-          ]
+          "changePercent": "+4.5%",
+          "direction": "up"
         },
         {
-          "id": "nvidia-gainer",
-          "headline": "Nvidia Rebounds in Early Trading",
-          "summary": "Nvidia ($NVDA) rose 1.6% early Monday, as chip companies show signs of swinging back upward after a recent sell-off.",
-          "ticker": "$NVDA",
+          "id": "hut-gainer",
+          "headline": "Hut 8 Up on AI Data Center Expansion",
+          "summary": "Hut 8 ($HUT) gained 16% as the company fully commercialized the second phase of its Beacon Point AI data center campus, securing a significant lease and doubling contracted capacity.",
+          "ticker": "$HUT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.6%",
-          "direction": "up",
-          "tags": [
-            "Technology",
-            "Semiconductors"
-          ]
+          "changePercent": "+16.0%",
+          "direction": "up"
         },
         {
-          "id": "mvo-loser",
-          "headline": "MV Oil Trust Plunges on Final Distribution",
-          "summary": "MV Oil Trust ($MVO) experienced the biggest decline in July, falling over 52%, following the announcement of its final trust distribution.",
-          "ticker": "$MVO",
-          "price": "N/A",
+          "id": "gvh-loser",
+          "headline": "Globavend Holdings Plummets",
+          "summary": "Globavend Holdings Limited ($GVH) experienced a sharp decline of 59.66% today.",
+          "ticker": "$GVH",
+          "price": "$1.92",
           "change": "N/A",
-          "changePercent": "-52.60%",
-          "direction": "down",
-          "tags": [
-            "Energy",
-            "Trust"
-          ]
+          "changePercent": "-59.66%",
+          "direction": "down"
         },
         {
-          "id": "alar-loser",
-          "headline": "Alarum Technologies Down Amidst Inquiry Response",
-          "summary": "Alarum Technologies Ltd. ($ALAR) dropped over 51% in July 2026, responding to an inquiry into residential proxy networks.",
-          "ticker": "$ALAR",
+          "id": "orcl-loser",
+          "headline": "Oracle Falls in Early Trading",
+          "summary": "Oracle ($ORCL) fell 4.4% in early trading, with the stock continuing to face downward pressure.",
+          "ticker": "$ORCL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-51.50%",
-          "direction": "down",
-          "tags": [
-            "Technology"
-          ]
+          "changePercent": "-4.4%",
+          "direction": "down"
         },
         {
-          "id": "ibm-loser",
-          "headline": "IBM Stock Crashes on Q2 Miss",
-          "summary": "International Business Machines ($IBM) saw its stock crash by 24% last week after a significant Q2 earnings miss, contributing to broader tech sector declines.",
-          "ticker": "$IBM",
+          "id": "now-loser",
+          "headline": "ServiceNow Slips",
+          "summary": "ServiceNow ($NOW) saw its shares slip 4.2% in early market movements.",
+          "ticker": "$NOW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-24.00%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Earnings"
-          ]
+          "changePercent": "-4.2%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-headlines",
+      "id": "market-news-today",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-energy-tech",
-          "headline": "Energy Leads as Technology Falters in Major Sector Rotation",
-          "summary": "A significant sector rotation is underway, with Energy emerging as the leading sector, buoyed by rising oil prices and geopolitical tensions. Conversely, the Technology sector has been the worst performer, with the Philadelphia Semiconductor Index entering bear market territory amid waning AI trade momentum and concerns over elevated valuations.",
+          "id": "sector-analysis-article",
+          "headline": "Technology and Energy Sectors See Divergent Trends",
+          "summary": "The Technology sector showed signs of rebounding today, leading among major indices in early trading. This follows a volatile previous week where a sharp sell-off in AI-related stocks and semiconductors weighed heavily on the sector. Meanwhile, Energy continued to be a notable performer, having advanced last week, buoyed by rising oil prices amidst geopolitical instability. Communication Services and Consumer Discretionary also experienced declines last Friday.",
           "tags": [
             "Sector Analysis",
-            "Energy",
             "Technology",
-            "AI",
-            "Market Rotation"
+            "Energy"
           ]
         },
         {
-          "id": "earnings-week-ahead",
-          "headline": "Big Tech Earnings Set to Dominate the Week's Agenda",
-          "summary": "Investors are keenly awaiting a slew of earnings reports this week from major technology companies, including Tesla ($TSLA), Alphabet ($GOOGL), and Intel ($INTC). Their performance will be crucial in determining market direction and the sustainability of the AI-driven rally.",
-          "tags": [
-            "Earnings Reports",
-            "Technology",
-            "Tesla",
-            "Alphabet",
-            "Intel"
-          ]
-        },
-        {
-          "id": "geopolitical-oil-impact",
-          "headline": "Middle East Tensions Drive Oil Volatility and Inflation Concerns",
-          "summary": "Escalating U.S. airstrikes on Iran and heightened geopolitical risks in the Middle East continue to impact global oil prices, with Brent crude recently crossing $90 per barrel. This volatility is reigniting inflation concerns and adding an element of uncertainty to the market outlook.",
+          "id": "economic-data-article",
+          "headline": "Leading Economic Index Declines as Fed Holds Closed Meeting",
+          "summary": "The Conference Board Leading Economic Index (LEI) for the U.S. declined by 0.2% in June 2026, partially reversing gains from prior months. While consumer spending is weakening, strong business investment related to AI is expected to support economic activity as inflation continues to improve. In central bank news, the Federal Reserve Board is holding a pre-scheduled closed meeting today at 3:30 p.m. to review and determine advance and discount rates. The Fed is currently in a blackout period ahead of its FOMC decision.",
           "tags": [
             "Economic News",
-            "Geopolitics",
-            "Oil Prices",
-            "Inflation"
+            "LEI",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "inflation-data-june",
-          "headline": "June Inflation Data Shows Mixed Signals",
-          "summary": "Recent inflation data indicates a complex picture. In Canada, lower gas prices helped bring the annual inflation rate down to 2.8% in June. Meanwhile, in the U.S., the Consumer Price Index for June showed annual inflation at 3.5%, still above the Federal Reserve's target, despite a monthly drop in CPI and PPI.",
+          "id": "earnings-outlook-article",
+          "headline": "Earnings Season Gathers Pace with Major Tech Reports Ahead",
+          "summary": "Earnings season is picking up significantly this week, with highly anticipated reports expected from major technology companies including Tesla ($TSLA), Alphabet ($GOOGL), Intel ($INTC), and IBM ($IBM). This follows recent Q2 earnings announcements from companies such as AMC Entertainment ($AMC) and Domino's Pizza ($DPZ). Investors will be keenly watching these reports for insights into corporate performance and future outlook.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "CPI"
+            "Earnings",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "geopolitical-tensions-article",
+          "headline": "U.S.-Iran Tensions Continue to Influence Market Sentiment",
+          "summary": "Geopolitical tensions involving the U.S. and Iran remain a significant factor impacting market sentiment. Fresh U.S. airstrikes on Iran continued to keep geopolitical risks in focus, influencing oil prices and fostering a cautious mood among investors. These developments contribute to a broader environment where markets are likely to remain highly headline-driven.",
+          "tags": [
+            "Geopolitics",
+            "Market Sentiment",
+            "Oil Prices"
           ]
         }
       ]
