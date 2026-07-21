@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-21T09:25:00Z",
+  "generatedAt": "2026-07-21T13:15:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 21, 2026",
+  "subtitle": "Tuesday, July 21, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,13 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Mixed Market Sentiment as Geopolitical Tensions Persist; US Futures Edge Higher",
-          "summary": "Stock markets displayed a mixed performance today, with Brent oil and TTF gas experiencing volatility as ongoing hostilities in the Middle East continued to influence investor sentiment. Despite a rout in tech equities last week, they showed signs of stabilizing. US stock futures are pointing slightly higher, with S&P 500 contracts up approximately 0.2% and Nasdaq 100 futures advancing about 0.4%, as investors weigh interest rate concerns against fresh economic data. Asian markets, however, largely gained earlier today, fueled by optimism for renewed diplomatic efforts in the Middle East, which contributed to lower crude oil prices and an improved overall market mood.",
+          "id": "market-summary-july21",
+          "headline": "U.S. Futures Rise on Earnings Optimism Amidst Geopolitical Tensions",
+          "summary": "U.S. stock futures advanced Tuesday, signaling a positive open as investors anticipate a busy week of corporate earnings reports. Major indices, including the S&P 500, NASDAQ, and Dow, saw gains in premarket trading. However, geopolitical tensions in the Middle East, particularly fresh U.S. strikes against Iran and a naval blockade threat, continue to inject caution into the market, keeping oil prices elevated. General Motors reported stronger-than-expected Q2 earnings, setting a positive tone for the earnings season.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
+            "Premarket",
             "Geopolitics",
-            "Futures"
+            "Earnings"
           ]
         }
       ]
@@ -32,49 +33,43 @@
       "items": [
         {
           "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,484.00",
-          "statContext": "Up 0.55% for the session",
-          "ticker": "$SPX",
-          "price": "7,484.00",
-          "change": "+40.80",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "7,484.28",
+          "statContext": "Up from yesterday's close",
+          "change": "+41.00",
           "changePercent": "+0.55%",
           "direction": "up"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,508.07",
-          "statContext": "Down 0.05% for the session",
-          "ticker": "$COMP",
-          "price": "25,508.07",
-          "change": "-12.17",
-          "changePercent": "-0.05%",
-          "direction": "down"
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "25,854.00",
+          "statContext": "Up from yesterday's close",
+          "change": "+345.93",
+          "changePercent": "+1.36%",
+          "direction": "up"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,839.26",
-          "statContext": "Down 0.59% for the session",
-          "ticker": "$DJI",
-          "price": "51,839.26",
-          "change": "-307.16",
-          "changePercent": "-0.59%",
-          "direction": "down"
+          "statLabel": "Dow Jones Futures",
+          "statValue": "52,036.31",
+          "statContext": "Up from yesterday's close",
+          "change": "+197.05",
+          "changePercent": "+0.38%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Premarket/Intraday)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "gpn-gainer",
-          "headline": "Global Payments Jumps on Upgrade",
-          "summary": "Global Payments ($GPN) surged following a Morgan Stanley upgrade and an increased price target.",
+          "headline": "Global Payments Surges on Upgrade",
+          "summary": "Global Payments ($GPN) jumped +5.85% following a Morgan Stanley upgrade and an increased price target.",
           "ticker": "$GPN",
           "price": "N/A",
           "change": "N/A",
@@ -82,9 +77,19 @@
           "direction": "up"
         },
         {
+          "id": "nbis-gainer",
+          "headline": "Nebius Group Climbs on Nvidia Stake",
+          "summary": "Nebius Group N.V. ($NBIS) climbed +6.8% in premarket trading after Nvidia ($NVDA) disclosed a 9.3% passive stake in the AI infrastructure company.",
+          "ticker": "$NBIS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.8%",
+          "direction": "up"
+        },
+        {
           "id": "baba-gainer",
-          "headline": "Alibaba Rises on AI Focus",
-          "summary": "Alibaba Group Holding ($BABA) climbed as investors focused on its AI partnerships and a preview of its new AI model.",
+          "headline": "Alibaba Boosted by AI Partnerships",
+          "summary": "Alibaba Group Holding ($BABA) gained +4.67% as investors focused on its AI partnerships and a new model preview.",
           "ticker": "$BABA",
           "price": "N/A",
           "change": "N/A",
@@ -92,19 +97,9 @@
           "direction": "up"
         },
         {
-          "id": "crdo-gainer",
-          "headline": "Credo Technology Gains on Price Target Hike",
-          "summary": "Credo Technology Group Holding ($CRDO) gained after Barclays raised its price target and reiterated a positive rating.",
-          "ticker": "$CRDO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.63%",
-          "direction": "up"
-        },
-        {
           "id": "be-loser",
-          "headline": "Bloom Energy Pulls Back",
-          "summary": "Bloom Energy ($BE) experienced a decline as fuel cell and hydrogen stocks retreated after recent gains.",
+          "headline": "Bloom Energy Retreats",
+          "summary": "Bloom Energy ($BE) fell -8.33% as fuel cell and hydrogen stocks experienced a pullback after recent strength.",
           "ticker": "$BE",
           "price": "N/A",
           "change": "N/A",
@@ -112,23 +107,23 @@
           "direction": "down"
         },
         {
-          "id": "gh-loser",
-          "headline": "Guardant Health Falls Despite Target Boost",
-          "summary": "Guardant Health ($GH) declined even though Guggenheim recently increased its price target for the stock.",
-          "ticker": "$GH",
+          "id": "zion-loser",
+          "headline": "Zions Bancorp Down Premarket",
+          "summary": "Zions Bancorp ($ZION) saw a premarket decline of -5.7%.",
+          "ticker": "$ZION",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.00%",
+          "changePercent": "-5.7%",
           "direction": "down"
         },
         {
-          "id": "hdfcbank-loser",
-          "headline": "HDFC Bank Slumps on Disappointing Earnings",
-          "summary": "Indian banking giant HDFC Bank ($HDB) shares tumbled over 5% after its first-quarter earnings report failed to impress investors, particularly regarding net interest margins.",
-          "ticker": "$HDB",
+          "id": "cvna-loser",
+          "headline": "Carvana Experiences Decline",
+          "summary": "Carvana ($CVNA) declined -4.75% during premarket trading.",
+          "ticker": "$CVNA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.12%",
+          "changePercent": "-4.75%",
           "direction": "down"
         }
       ]
@@ -140,48 +135,53 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Sector Performance Shows Technology and Financials Gaining Traction",
-          "summary": "Technology continues to lead, positioned in the leading quadrant of sector rankings. Financials and Healthcare are rapidly improving, indicating a potential broadening of market leadership. Real Estate also provided a positive contribution with a gain of 1.4%. Conversely, Industrials and Health Care saw losses of 1.9% and 1% respectively. Rate-sensitive sectors such as housing, utilities, and consumer discretionary stocks remain under pressure due to relatively expensive borrowing costs. In the Australian market, Energy remains a strong leader, with Technology emerging as the next sector likely to enter the leading quadrant.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Financials",
-            "Real Estate",
-            "Healthcare",
-            "Energy"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Economic Data Presents Mixed Signals on Inflation and Growth",
-          "summary": "The US Leading Economic Index (LEI) for June declined by 0.2%, slightly weaker than the estimated -0.1%, partially reversing gains from prior months. Import prices rose 0.3% in June, while export prices slipped 0.6%, offering mixed signals on inflation and global demand. The 10-year US government bond yield stands at around 4.57%, maintaining relatively high borrowing costs across the economy. The Conference Board has slightly raised its 2026 GDP growth forecast to 1.9% from 1.8%, supported by strong business investment in AI despite weakening consumer spending.",
+          "id": "economic-data-july21",
+          "headline": "Mixed Economic Signals on Inflation and Jobs",
+          "summary": "Import prices increased by 0.3% in June, while export prices slipped by 0.6%, presenting a mixed picture on inflation and global demand. Additionally, ADP's weekly jobs report indicated a fourth consecutive week of slowing in private sector employment, with an average of 16,500 jobs added weekly through July 4. The 10-year Treasury yield stands at approximately 4.59%.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "GDP Growth",
-            "Interest Rates"
+            "Employment",
+            "Treasury Yields"
           ]
         },
         {
-          "id": "earnings-reports",
-          "headline": "Key Earnings Reports Drive Stock Movements; More Awaited",
-          "summary": "Mercantile Bank Corporation ($MBWM) reported strong second-quarter results, with net income of $25.9 million, or $1.50 per diluted share. Novartis ($NVS) delivered solid Q2 sales growth, with net sales of $14.4 billion (+3%), driven by momentum from key products. Steel Dynamics, Inc. ($STLD) reported strong second-quarter operating results with net sales of $6.1 billion. General Motors ($GM) earnings are highly anticipated, with Alphabet ($GOOGL), IBM ($IBM), and Tesla ($TSLA) also scheduled to report later this week.",
+          "id": "earnings-season-july21",
+          "headline": "Q2 Earnings Season Heats Up: GM Beats Expectations",
+          "summary": "Second-quarter earnings season is in full swing, with over 15 S&P 500 companies scheduled to report today. General Motors ($GM) kicked off with strong results, surpassing Wall Street expectations with earnings of $3.57 per share on revenue of $48.03 billion. Companies like Halliburton ($HAL), 3M ($MMM), Charles Schwab ($SCHW), and Capital One Financial ($COF) are among those reporting today.",
           "tags": [
-            "Earnings",
-            "Q2 Results",
+            "Earnings Reports",
             "Corporate News"
           ]
         },
         {
-          "id": "macro-trends",
-          "headline": "Geopolitical Tensions and AI Investment Shape Macro Landscape",
-          "summary": "Ongoing hostilities in the Middle East continue to influence global markets, contributing to elevated crude oil prices and inflation concerns. US gas prices have risen to an average of $4 a gallon amidst US-Iran conflict. Meanwhile, strong business investment related to Artificial Intelligence (AI) is expected to be a significant driver of economic activity, with investors closely watching how AI investments translate into broader productivity gains across the economy.",
+          "id": "sector-performance-july21",
+          "headline": "Technology Leads as Semiconductor Sector Rallies",
+          "summary": "The technology sector is leading market gains today, driven by a strong rally in semiconductor stocks. The Invesco PHLX Semiconductor ETF ($SOXQ) jumped 4.27% in premarket trading, with top components like Nvidia ($NVDA), Micron Technology ($MU), and Broadcom ($AVGO) showing notable increases.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Semiconductors"
+          ]
+        },
+        {
+          "id": "fed-outlook-july21",
+          "headline": "Fed Expected to Hold Rates Amidst Hawkish Tone",
+          "summary": "The CME Group's FedWatch tool indicates an 83.4% probability of the Federal Reserve maintaining current interest rates at its upcoming meeting (July 28-29). While the Fed is expected to keep rates unchanged, recent 'Fedspeak' has conveyed an unambiguously hawkish stance on inflation, and nine of 18 Fed officials still project a rate hike this year.",
+          "tags": [
+            "Central Bank",
+            "Monetary Policy",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "geopolitical-tensions-july21",
+          "headline": "Middle East Tensions Continue to Fuel Market Uncertainty",
+          "summary": "Escalating geopolitical tensions in the Middle East remain a significant factor for markets. Renewed U.S. military strikes against Iran and a naval blockade announced by Yemen's Houthis against Saudi Arabia have contributed to rising oil prices. Brent crude is trading around $89.36 a barrel, and WTI crude at $83.16 a barrel, fueling concerns over global energy supplies and inflation.",
           "tags": [
             "Geopolitics",
-            "AI Investment",
-            "Inflation",
-            "Oil Prices"
+            "Oil Prices",
+            "Global Economy"
           ]
         }
       ]
