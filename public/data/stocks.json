@@ -1,31 +1,32 @@
 {
-  "generatedAt": "2026-07-22T13:20:00Z",
+  "generatedAt": "2026-07-22T17:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, July 22, 2026 - Updated Today",
+  "subtitle": "Market closes mixed on July 22, 2026, as Big Tech earnings loom",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Wall Street Closes Higher Despite Pre-Market Slip and Geopolitical Tensions",
-          "summary": "U.S. major indices rebounded to close in positive territory on Wednesday, July 22, 2026, driven by a broad-based rally and strong performance in technology stocks. This positive close followed a pre-market dip, as futures slipped amidst rising oil prices and escalating Middle East tensions. Investors are also keenly awaiting a wave of major tech earnings reports scheduled for after the closing bell.",
+          "id": "market-summary-today",
+          "headline": "U.S. Stocks Mixed as Energy Rises, Tech Slips Ahead of Key Earnings",
+          "summary": "The U.S. stock market closed mixed on Wednesday, July 22, 2026, as investors cautiously awaited major earnings reports from tech giants like Alphabet and Tesla after the bell. Rising oil prices, fueled by escalating Middle East tensions, drove gains in the energy sector and kept inflation concerns at the forefront, while the tech-heavy Nasdaq saw a slight pullback.",
           "tags": [
-            "Market Overview",
-            "Sentiment",
+            "Market Summary",
+            "Tech Earnings",
+            "Oil Prices",
             "Geopolitics"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
@@ -33,160 +34,155 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "+0.89%",
-          "statContext": "Closed Today"
+          "statValue": "7,519.85",
+          "statContext": "+0.14% Today",
+          "ticker": "$SPX",
+          "change": "+10.65",
+          "changePercent": "+0.14%",
+          "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "+1.29%",
-          "statContext": "Closed Today"
+          "statValue": "25,821.70",
+          "statContext": "-0.06% Today",
+          "ticker": "$IXIC",
+          "change": "-15.51",
+          "changePercent": "-0.06%",
+          "direction": "down"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "+0.74%",
-          "statContext": "Closed Today"
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "52,392.53",
+          "statContext": "+0.32% Today",
+          "ticker": "$DJI",
+          "change": "+167.89",
+          "changePercent": "+0.32%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers (Today's Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-cphi",
-          "headline": "China Pharma Holdings Surges Amidst Continued Momentum",
-          "summary": "China Pharma Holdings ($CPHI) saw a significant surge, returning +790.1% today, extending a powerful month-long upward trend.",
+          "id": "smci-gainer",
+          "headline": "Super Micro Computer surges on strong AI order backlog.",
+          "ticker": "$SMCI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+21.4%",
+          "direction": "up",
+          "summary": "Super Micro Computer ($SMCI) soared +21.4% today after reporting over $60 billion in new orders for its fiscal fourth quarter and expecting higher gross margins, signaling robust demand in the AI server infrastructure market."
+        },
+        {
+          "id": "att-gainer",
+          "headline": "AT&T delivers solid Q2 results, boosts subscriber additions.",
+          "ticker": "$T",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "Up",
+          "direction": "up",
+          "summary": "AT&T ($T) advanced today after announcing strong second-quarter results, with revenue up 2.3% to $31.6 billion and robust wireless subscriber additions that surpassed Wall Street's forecasts."
+        },
+        {
+          "id": "wab-gainer",
+          "headline": "Westinghouse Air Brake Technologies climbs on Q2 earnings beat.",
+          "ticker": "$WAB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.7%",
+          "direction": "up",
+          "summary": "Westinghouse Air Brake Technologies ($WAB) rose +10.7% following a strong second-quarter earnings beat, coupled with higher full-year financial guidance and solid margin improvements."
+        },
+        {
+          "id": "weto-loser",
+          "headline": "Wetour Robotics plunges amidst significant decline.",
+          "ticker": "$WETO",
+          "price": "$0.151",
+          "change": "N/A",
+          "changePercent": "-81.10%",
+          "direction": "down",
+          "summary": "Wetour Robotics Limited ($WETO) experienced a dramatic decline, falling -81.10% today to $0.151."
+        },
+        {
+          "id": "cphi-loser",
+          "headline": "China Pharma Holdings sees sharp drop.",
           "ticker": "$CPHI",
-          "price": "N/A",
-          "change": "+790.1%",
-          "changePercent": "+790.1%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Momentum"
-          ]
-        },
-        {
-          "id": "gainer-sndk",
-          "headline": "SanDisk Leads S&P 500 Gainers",
-          "summary": "SanDisk ($SNDK) led the S&P 500 movers with a +14.3% return, reflecting broad gains for high-growth names in the market.",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "+14.3%",
-          "changePercent": "+14.3%",
-          "direction": "up",
-          "tags": [
-            "Technology",
-            "High-Growth"
-          ]
-        },
-        {
-          "id": "gainer-mu",
-          "headline": "Micron Technology Rises as Chip Stocks Rebound",
-          "summary": "Micron Technology ($MU) posted strong gains of +12.17% today, contributing to a rebound in chip stocks.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "+12.17%",
-          "changePercent": "+12.17%",
-          "direction": "up",
-          "tags": [
-            "Technology",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "loser-cigl",
-          "headline": "Concorde International Group Ltd. Plunges on Ticker Change News",
-          "summary": "Concorde International Group Ltd. ($CIGL) experienced a sharp decline of -71.91% following a correction to its Nasdaq ticker symbol change announcement.",
-          "ticker": "$CIGL",
-          "price": "N/A",
-          "change": "-71.91%",
-          "changePercent": "-71.91%",
+          "price": "$2.010",
+          "change": "N/A",
+          "changePercent": "-75.19%",
           "direction": "down",
-          "tags": [
-            "Biotechnology"
-          ]
+          "summary": "China Pharma Holdings, Inc. ($CPHI) fell significantly by -75.19% to $2.010 today, marking it as one of the biggest decliners."
         },
         {
-          "id": "loser-zybt",
-          "headline": "Zhengye Biotechnology Drops Amid Unusual Trading Activity",
-          "summary": "Zhengye Biotechnology Holding Limited ($ZYBT) fell -64.42% after the company commented on unusual trading activity.",
-          "ticker": "$ZYBT",
+          "id": "pega-loser",
+          "headline": "Pegasystems tumbles after Q2 earnings miss and cautious outlook.",
+          "ticker": "$PEGA",
           "price": "N/A",
-          "change": "-64.42%",
-          "changePercent": "-64.42%",
+          "change": "N/A",
+          "changePercent": "-16.7%",
           "direction": "down",
-          "tags": [
-            "Biotechnology"
-          ]
-        },
-        {
-          "id": "loser-dhr",
-          "headline": "Danaher Among Day's Weakest Performers",
-          "summary": "Danaher ($DHR) was among the day's weakest stocks, declining by -11.0%, with revenue growth slower compared to the leading gainers.",
-          "ticker": "$DHR",
-          "price": "N/A",
-          "change": "-11.0%",
-          "changePercent": "-11.0%",
-          "direction": "down",
-          "tags": [
-            "Healthcare"
-          ]
+          "summary": "Pegasystems ($PEGA) dropped -16.7% after missing Wall Street's second-quarter earnings expectations, reporting slower annual contract growth, and warning of delays in AI-driven customer spending."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data and Geopolitical Events Unfold",
-          "summary": "Today's economic calendar featured the release of UK inflation data and US EIA oil inventory data, with the latter anticipated to impact oil markets. Geopolitical tensions remain high as the U.S. continued striking Iranian military targets for the 11th consecutive night, contributing to a more than 4% jump in oil prices early Wednesday. Brent crude was up 1.75% at $93.07 a barrel, and WTI crude jumped 4.21% to $88.64 a barrel. The Japanese yen also hit a fresh 40-year low against the US dollar. Additionally, President Trump's renewed tariff threats on Canadian goods fueled trade war fears.",
+          "id": "sector-analysis-today",
+          "headline": "Energy and Utilities Lead Gains Amid Oil Surge; Tech Under Pressure",
+          "summary": "On Wednesday, Utilities, Energy, and Materials sectors led market gains, with Energy benefiting from a surge in oil prices to over $86 a barrel due to Middle East tensions. Conversely, the Technology and Communication Services sectors experienced declines as investors showed caution ahead of major tech earnings and concerns about AI-related spending continued.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Utilities",
+            "Technology"
+          ]
+        },
+        {
+          "id": "economic-data-fed",
+          "headline": "Inflation Concerns Persist as PPI Rises; Fed in Blackout Period",
+          "summary": "The Producer Price Index (PPI) for final demand increased 5.5% over the year ended June 2026, contributing to ongoing inflation concerns in the market. The Federal Open Market Committee (FOMC) is currently in a blackout period ahead of its July 28-29 meeting, having held its benchmark rate steady at 3.50–3.75% in June. Investors are anticipating potential rate adjustments later in the year, with at least one 25 basis point rate increase priced in for 2026.",
           "tags": [
             "Economic Data",
+            "Inflation",
+            "Federal Reserve",
+            "PPI"
+          ]
+        },
+        {
+          "id": "earnings-reports-focus",
+          "headline": "Big Tech Earnings in Focus: Alphabet and Tesla Report After Hours",
+          "summary": "A busy earnings season continues with significant reports after today's market close from Alphabet ($GOOGL, $GOOG) and Tesla ($TSLA), with IBM ($IBM) also reporting. Earlier today, CME Group Inc. ($CME) announced strong Q2 financial results, and AT&T ($T) delivered robust Q2 performance. Market participants are closely watching these results, particularly for insights into AI-related investments and monetization.",
+          "tags": [
+            "Earnings",
+            "Big Tech",
+            "Alphabet",
+            "Tesla",
+            "IBM",
+            "AT&T",
+            "CME"
+          ]
+        },
+        {
+          "id": "macro-trends-geopolitics",
+          "headline": "Geopolitical Tensions Drive Oil Prices Higher and Fuel Market Uncertainty",
+          "summary": "Escalating hostilities in the Middle East, particularly the war involving Iran, continued to push crude oil prices higher, with WTI crude surpassing $86 a barrel and Brent crude touching $92. This geopolitical uncertainty is increasing inflation fears and contributing to market volatility, with analysts noting the mounting 'Iran war stagflation' premium.",
+          "tags": [
+            "Macro Trends",
             "Geopolitics",
             "Oil Prices",
-            "Currency",
-            "Trade"
-          ]
-        },
-        {
-          "id": "sector-analysis",
-          "headline": "Technology and Energy Lead While Consumer Staples Lag",
-          "summary": "The technology and energy sectors were strong performers as Wall Street closed higher on Tuesday, July 21st, with the Technology Select Sector SPDR (XLK) advancing 2.4% and the Energy Select Sector SPDR (XLE) up 1.2%. Health Care also saw gains, with the Health Care Select Sector SPDR (XLV) advancing 0.6%. Conversely, the Consumer Staples Select Sector SPDR (XLP) declined 1%. Strong performance in large-cap technology and semiconductor stocks drove the Nasdaq's advance and reflected a broader rotation into growth stocks.",
-          "tags": [
-            "Sector Performance",
-            "Technology",
-            "Energy",
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "upcoming-earnings",
-          "headline": "Big Tech Earnings Set to Dominate After-Hours Trading",
-          "summary": "Investors are bracing for a busy earnings season with several major companies scheduled to report quarterly results after the market closes today. Among them are tech giants Alphabet ($GOOGL, $GOOG) and Tesla ($TSLA), alongside IBM ($IBM), ServiceNow ($NOW), AT&T ($T), and Texas Instruments ($TXN). These reports will be a key test for elevated valuations and the scale of AI-related investment. Not financial advice.",
-          "tags": [
-            "Earnings Reports",
-            "Big Tech",
-            "AI",
-            "Investment"
-          ]
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Fed Decision Looms Amidst Stabilizing Interest Rate Expectations",
-          "summary": "While there were no major Federal Reserve announcements today, the FOMC minutes from July 2026 revealed a split within the Fed. Markets are currently pricing a 78.1% likelihood of the Federal Reserve maintaining current interest rates at its upcoming meeting. The Federal Reserve, ECB, Bank of England, and Bank of Japan are all slated to announce policy decisions within the next ten days, with the next FOMC meeting scheduled for July 28-29.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Interest Rates"
+            "Middle East",
+            "Inflation"
           ]
         }
       ]
