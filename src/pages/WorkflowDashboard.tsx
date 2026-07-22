@@ -59,27 +59,30 @@ export default function WorkflowDashboard() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-slate-900 text-white p-4 md:p-6">
-      <div className="max-w-4xl mx-auto">
-        <header className="mb-8 pt-4">
-          <Link to="/" className="text-gray-400 hover:text-white text-sm mb-4 inline-block">
-            ← Back to Hub
+    <div className="min-h-screen text-text-main">
+      <div className="mx-auto max-w-4xl px-5 py-8 md:px-8">
+        <header className="mb-10 mt-2 animate-fade-in">
+          <Link to="/" className="inline-flex items-center gap-2 text-sm font-medium text-text-muted transition-colors hover:text-text-main">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Newsroom
           </Link>
-          <h1 className="text-3xl font-bold">Workflow Dashboard</h1>
-          <p className="text-gray-400 text-sm mt-1">Latest 5 runs per workflow</p>
+          <h1 className="mt-6 text-3xl font-extrabold tracking-tight md:text-4xl">Pipeline status</h1>
+          <p className="mt-2 text-sm text-text-muted">The last five runs of every agent and deploy workflow, live from GitHub Actions.</p>
         </header>
 
-        {loading && <p className="text-gray-400">Loading workflow data...</p>}
-        {error && <p className="text-red-400">Error: {error}</p>}
+        {loading && <p className="text-text-muted">Loading workflow data…</p>}
+        {error && <p className="text-red-300">Error: {error}</p>}
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {workflows.map((wf) => (
             <WorkflowBlock key={wf.name} workflow={wf} />
           ))}
         </div>
 
-        <footer className="mt-10 text-center text-gray-600 text-xs">
-          Data from GitHub Actions API (public, no auth required)
+        <footer className="mt-12 border-t border-white/[0.06] py-8 text-center text-xs text-text-faint">
+          Data from the GitHub Actions API · public, no auth required
         </footer>
       </div>
     </div>
@@ -88,11 +91,11 @@ export default function WorkflowDashboard() {
 
 function WorkflowBlock({ workflow }: { workflow: WorkflowData }) {
   return (
-    <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-      <h2 className="text-lg font-semibold mb-3">{workflow.name}</h2>
-      <div className="flex gap-2">
+    <div className="surface-card p-5">
+      <h2 className="mb-3 text-base font-semibold tracking-tight">{workflow.name}</h2>
+      <div className="flex flex-wrap gap-2">
         {workflow.runs.length === 0 && (
-          <span className="text-gray-500 text-sm">No runs found</span>
+          <span className="text-sm text-text-faint">No runs found</span>
         )}
         {workflow.runs.map((run, i) => (
           <RunBadge key={i} run={run} />
@@ -110,10 +113,10 @@ function RunBadge({ run }: { run: WorkflowRun }) {
   const icon = isRunning ? '⏳' : success ? '✓' : '✗'
 
   const bgColor = isRunning
-    ? 'bg-yellow-500/20 border-yellow-500/40 text-yellow-400'
+    ? 'bg-amber-400/15 border-amber-400/40 text-amber-300'
     : success
-      ? 'bg-green-500/20 border-green-500/40 text-green-400'
-      : 'bg-red-500/20 border-red-500/40 text-red-400'
+      ? 'bg-emerald-400/15 border-emerald-400/40 text-emerald-300'
+      : 'bg-red-400/15 border-red-400/40 text-red-300'
 
   const time = new Date(run.created_at).toLocaleString(undefined, {
     month: 'short',
@@ -126,12 +129,12 @@ function RunBadge({ run }: { run: WorkflowRun }) {
     <div className="relative">
       <button
         onClick={() => setShowTime(!showTime)}
-        className={`w-10 h-10 rounded-lg border ${bgColor} font-bold text-lg flex items-center justify-center hover:scale-110 transition-transform`}
+        className={`flex h-9 w-9 items-center justify-center rounded-lg border ${bgColor} text-base font-bold transition-transform hover:scale-110`}
       >
         {icon}
       </button>
       {showTime && (
-        <div className="absolute top-12 left-1/2 -translate-x-1/2 bg-gray-800 border border-gray-600 text-xs text-gray-200 rounded px-2 py-1 whitespace-nowrap z-10">
+        <div className="absolute left-1/2 top-11 z-10 -translate-x-1/2 whitespace-nowrap rounded-md border border-white/15 bg-surface-2 px-2 py-1 text-xs text-text-muted">
           {time}
         </div>
       )}
