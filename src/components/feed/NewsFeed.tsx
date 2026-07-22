@@ -183,12 +183,40 @@ interface FeedSectionProps {
   colors: AccentTokens
 }
 
+// A "game" section with no real matchups (e.g. an offseason "no games" placeholder)
+// should collapse to a slim notice rather than render an empty-looking score grid.
+function isEmptyGamesSection(section: FeedSection): boolean {
+  if (section.cardType !== 'game') return false
+  return section.items.every(item => !clean(item.awayTeam) && !clean(item.homeTeam))
+}
+
 function FeedSectionComponent({ section, delay, colors }: FeedSectionProps) {
   const layoutClass = section.layout === 'featured'
     ? 'grid grid-cols-1 gap-5'
     : section.layout === 'list'
     ? 'space-y-4'
     : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'
+
+  if (!section.items || section.items.length === 0) return null
+
+  // Offseason resilience: quietly fold an empty games section into a one-line note.
+  if (isEmptyGamesSection(section)) {
+    const note = clean(section.items[0]?.summary) || clean(section.items[0]?.headline) || 'No games scheduled — the league is in its offseason.'
+    return (
+      <section className="animate-fade-in" style={{ animationDelay: `${delay}s` }}>
+        {section.title && (
+          <h2 className="mb-4 flex items-center gap-3 text-lg font-semibold tracking-tight text-text-main">
+            <span className={`h-5 w-1 rounded-full bg-gradient-to-b ${colors.bar}`} />
+            {section.title}
+          </h2>
+        )}
+        <div className="flex items-start gap-3 rounded-2xl border border-white/[0.07] bg-white/[0.02] px-5 py-4">
+          <span className={`mt-0.5 inline-block h-2 w-2 shrink-0 rounded-full ${colors.dot}`} />
+          <p className="text-sm leading-relaxed text-text-muted">{note}</p>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className="animate-fade-in" style={{ animationDelay: `${delay}s` }}>
