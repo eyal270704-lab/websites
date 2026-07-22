@@ -5,39 +5,46 @@ interface TradeCardProps {
   data: TradeSetup
 }
 
+const setupBadge: Record<string, { label: string; cls: string }> = {
+  perfect: { label: 'Perfect', cls: 'border-emerald-400/25 bg-emerald-400/10 text-emerald-300' },
+  momentum: { label: 'Momentum', cls: 'border-sky-400/25 bg-sky-400/10 text-sky-300' },
+  breakout: { label: 'Breakout', cls: 'border-violet-400/25 bg-violet-400/10 text-violet-300' },
+  risky: { label: 'Risky', cls: 'border-amber-400/25 bg-amber-400/10 text-amber-300' },
+  avoid: { label: 'Avoid', cls: 'border-red-400/25 bg-red-400/10 text-red-300' },
+}
+
 export default function TradeCard({ data }: TradeCardProps) {
+  const badge = setupBadge[data.setupType] ?? setupBadge.perfect
+
   return (
-    <div className="bg-card-bg border border-border-color rounded-xl p-6 shadow-lg hover:translate-y-[-5px] hover:shadow-2xl hover:border-text-muted transition-all duration-300 flex flex-col">
+    <div className="surface-card lift flex h-full flex-col p-6 shadow-card">
       {/* Header */}
-      <div className="flex justify-between items-start mb-5 pb-4 border-b border-dashed border-border-color">
-        <div className="flex flex-col">
-          <span className="text-3xl font-black text-text-main leading-none">
-            {data.ticker}
-          </span>
-          <span className="text-xs text-text-muted mt-1">{data.name}</span>
+      <div className="flex items-start justify-between gap-3 border-b border-dashed border-white/[0.08] pb-4">
+        <div className="min-w-0">
+          <span className="font-mono text-2xl font-black leading-none text-text-main">{data.ticker}</span>
+          <p className="mt-1 truncate text-xs text-text-muted">{data.name}</p>
         </div>
         <div className="flex flex-col items-end gap-1.5">
-          <span className="bg-white/5 text-text-muted px-3 py-1.5 rounded-md text-xs uppercase font-semibold tracking-wide">
-            {data.sector}
+          <span className={`rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${badge.cls}`}>
+            {badge.label}
           </span>
+          <span className="text-[10px] uppercase tracking-wide text-text-faint">{data.sector}</span>
           {data.source && data.source !== 'Watchlist' && (
-            <span className="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded-full">
-              📺 {data.source}
-            </span>
+            <span className="rounded-full bg-amber-400/15 px-2 py-0.5 text-[10px] text-amber-300">📺 {data.source}</span>
           )}
         </div>
       </div>
 
-      {/* Current Price Bar */}
+      {/* Current price */}
       {data.currentPrice && (
-        <div className="flex justify-between items-center bg-black/20 px-3 py-2 rounded-md mb-4 text-sm">
-          <span className="text-text-muted text-xs uppercase">Current Price</span>
-          <span className="font-bold font-mono text-text-main">{data.currentPrice}</span>
+        <div className="mt-4 flex items-center justify-between rounded-lg border border-white/[0.05] bg-black/20 px-3 py-2">
+          <span className="text-[11px] uppercase tracking-wide text-text-faint">Current price</span>
+          <span className="font-mono text-sm font-bold tabular text-text-main">{data.currentPrice}</span>
         </div>
       )}
 
-      {/* Data Grid */}
-      <div className="grid grid-cols-2 gap-4 mb-5">
+      {/* Data grid */}
+      <div className="mt-4 grid grid-cols-2 gap-3">
         <DataPoint label="Entry Zone" value={data.entry} color="text-accent-green" />
         <DataPoint label="Stop Loss" value={data.stop} color="text-accent-red" />
         <DataPoint label="Structure" value={data.structure} color="text-accent-gold" />
@@ -45,30 +52,22 @@ export default function TradeCard({ data }: TradeCardProps) {
       </div>
 
       {/* Analysis */}
-      <p className="text-[#bdc3c7] text-sm leading-relaxed mb-5 flex-grow">
-        {data.analysis}
-      </p>
+      <p className="mt-5 flex-grow text-sm leading-relaxed text-text-muted">{data.analysis}</p>
 
       {/* Footer */}
-      <div className="flex justify-between items-center bg-black/20 px-4 py-3 -mx-6 -mb-6 rounded-b-xl border-t border-border-color">
+      <div className="mt-5 flex items-center justify-between border-t border-white/[0.07] pt-4">
         <RiskMeter score={data.riskScore} />
-        <span className="text-text-muted text-sm">{data.footerTag}</span>
+        <span className="text-xs text-text-faint">{data.footerTag}</span>
       </div>
     </div>
   )
 }
 
-interface DataPointProps {
-  label: string
-  value: string
-  color: string
-}
-
-function DataPoint({ label, value, color }: DataPointProps) {
+function DataPoint({ label, value, color }: { label: string; value: string; color: string }) {
   return (
-    <div className="flex flex-col bg-black/20 p-3 rounded-md">
-      <span className="text-xs text-text-muted uppercase mb-1">{label}</span>
-      <span className={`font-bold font-mono text-lg ${color}`}>{value}</span>
+    <div className="flex flex-col rounded-lg border border-white/[0.05] bg-black/20 p-3">
+      <span className="mb-1 text-[10px] uppercase tracking-wide text-text-faint">{label}</span>
+      <span className={`font-mono text-[15px] font-bold leading-tight ${color}`}>{value}</span>
     </div>
   )
 }
