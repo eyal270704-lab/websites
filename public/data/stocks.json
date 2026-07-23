@@ -1,188 +1,180 @@
 {
-  "generatedAt": "2026-07-22T17:23:00Z",
+  "generatedAt": "2026-07-23T09:22:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market closes mixed on July 22, 2026, as Big Tech earnings loom",
+  "subtitle": "Thursday, July 23, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Stocks Mixed as Energy Rises, Tech Slips Ahead of Key Earnings",
-          "summary": "The U.S. stock market closed mixed on Wednesday, July 22, 2026, as investors cautiously awaited major earnings reports from tech giants like Alphabet and Tesla after the bell. Rising oil prices, fueled by escalating Middle East tensions, drove gains in the energy sector and kept inflation concerns at the forefront, while the tech-heavy Nasdaq saw a slight pullback.",
+          "id": "market-summary-20260723",
+          "headline": "U.S. Futures Dip as Oil Prices and AI Stock Swings Dominate Sentiment",
+          "summary": "U.S. stock futures edged lower on Thursday, July 23, 2026, as investors continued to assess a fresh wave of technology earnings and escalating geopolitical tensions in the Middle East, which pushed Brent crude past $97 a barrel. The previous day, Wall Street saw major indices mixed, with the S&P 500 and Nasdaq closing lower, while the Dow remained largely flat, amidst ongoing volatility in AI-related stocks.",
           "tags": [
-            "Market Summary",
-            "Tech Earnings",
+            "Market Sentiment",
             "Oil Prices",
-            "Geopolitics"
-          ]
+            "Tech Earnings"
+          ],
+          "timestamp": "2026-07-23T09:22:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (Wednesday's Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
-          "statValue": "7,519.85",
-          "statContext": "+0.14% Today",
-          "ticker": "$SPX",
-          "change": "+10.65",
-          "changePercent": "+0.14%",
-          "direction": "up"
+          "statValue": "7,498.96",
+          "statContext": "Down 0.1% on July 22, 2026."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,821.70",
-          "statContext": "-0.06% Today",
-          "ticker": "$IXIC",
-          "change": "-15.51",
-          "changePercent": "-0.06%",
-          "direction": "down"
+          "statValue": "25,690.90",
+          "statContext": "Down 0.6% on July 22, 2026."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "52,392.53",
-          "statContext": "+0.32% Today",
-          "ticker": "$DJI",
-          "change": "+167.89",
-          "changePercent": "+0.32%",
-          "direction": "up"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,218.58",
+          "statContext": "Dipped less than 0.1% on July 22, 2026."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (Today's Close)",
+      "id": "top-movers",
+      "title": "Top Movers (Pre-Market/After-Hours)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "hyln-gainer",
+          "headline": "Hyliion Surges on U.S. Navy Contract",
+          "summary": "Hyliion ($HYLN) shares jumped 15% in pre-market trading after securing a $41.7 million U.S. Navy contract for KARNO power generation systems, signaling significant government validation for its technology.",
+          "ticker": "$HYLN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15.0%",
+          "direction": "up"
+        },
+        {
           "id": "smci-gainer",
-          "headline": "Super Micro Computer surges on strong AI order backlog.",
+          "headline": "Supermicro Rises on Strong Outlook",
+          "summary": "Super Micro Computer ($SMCI) climbed 20.2% after hours on Wednesday, driven by an improved profitability outlook that bolstered investor confidence in AI server stocks.",
           "ticker": "$SMCI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+21.4%",
-          "direction": "up",
-          "summary": "Super Micro Computer ($SMCI) soared +21.4% today after reporting over $60 billion in new orders for its fiscal fourth quarter and expecting higher gross margins, signaling robust demand in the AI server infrastructure market."
+          "changePercent": "+20.2%",
+          "direction": "up"
         },
         {
-          "id": "att-gainer",
-          "headline": "AT&T delivers solid Q2 results, boosts subscriber additions.",
-          "ticker": "$T",
+          "id": "uri-gainer",
+          "headline": "United Rentals Beats Estimates",
+          "summary": "United Rentals ($URI) shares gained 8% in pre-market trading after exceeding Q2 revenue and earnings estimates and raising its full-year guidance, attributed to robust construction and industrial project demand.",
+          "ticker": "$URI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Up",
-          "direction": "up",
-          "summary": "AT&T ($T) advanced today after announcing strong second-quarter results, with revenue up 2.3% to $31.6 billion and robust wireless subscriber additions that surpassed Wall Street's forecasts."
+          "changePercent": "+8.0%",
+          "direction": "up"
         },
         {
-          "id": "wab-gainer",
-          "headline": "Westinghouse Air Brake Technologies climbs on Q2 earnings beat.",
-          "ticker": "$WAB",
+          "id": "bxbl-loser",
+          "headline": "Boxabl Declines",
+          "summary": "Boxabl ($BXBL) saw a sharp decline of 23.85% in pre-market trading.",
+          "ticker": "$BXBL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.7%",
-          "direction": "up",
-          "summary": "Westinghouse Air Brake Technologies ($WAB) rose +10.7% following a strong second-quarter earnings beat, coupled with higher full-year financial guidance and solid margin improvements."
+          "changePercent": "-23.85%",
+          "direction": "down"
         },
         {
-          "id": "weto-loser",
-          "headline": "Wetour Robotics plunges amidst significant decline.",
-          "ticker": "$WETO",
-          "price": "$0.151",
-          "change": "N/A",
-          "changePercent": "-81.10%",
-          "direction": "down",
-          "summary": "Wetour Robotics Limited ($WETO) experienced a dramatic decline, falling -81.10% today to $0.151."
-        },
-        {
-          "id": "cphi-loser",
-          "headline": "China Pharma Holdings sees sharp drop.",
-          "ticker": "$CPHI",
-          "price": "$2.010",
-          "change": "N/A",
-          "changePercent": "-75.19%",
-          "direction": "down",
-          "summary": "China Pharma Holdings, Inc. ($CPHI) fell significantly by -75.19% to $2.010 today, marking it as one of the biggest decliners."
-        },
-        {
-          "id": "pega-loser",
-          "headline": "Pegasystems tumbles after Q2 earnings miss and cautious outlook.",
-          "ticker": "$PEGA",
+          "id": "gev-loser",
+          "headline": "GE Vernova Falls on Earnings Reaction",
+          "summary": "GE Vernova ($GEV) dropped 8.69% in pre-market trading, as investors reacted to its recent earnings report and details regarding a buyback tranche.",
+          "ticker": "$GEV",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.7%",
-          "direction": "down",
-          "summary": "Pegasystems ($PEGA) dropped -16.7% after missing Wall Street's second-quarter earnings expectations, reporting slower annual contract growth, and warning of delays in AI-driven customer spending."
+          "changePercent": "-8.69%",
+          "direction": "down"
+        },
+        {
+          "id": "tsla-loser",
+          "headline": "Tesla Shares Drop on Earnings Miss",
+          "summary": "Tesla's ($TSLA) share price fell 1.3% on Wednesday and an additional 4.1% in after-hours trading, following the company reporting adjusted earnings per share of $0.33, missing analyst expectations.",
+          "ticker": "$TSLA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.1% (After-hours)",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-stories",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-today",
-          "headline": "Energy and Utilities Lead Gains Amid Oil Surge; Tech Under Pressure",
-          "summary": "On Wednesday, Utilities, Energy, and Materials sectors led market gains, with Energy benefiting from a surge in oil prices to over $86 a barrel due to Middle East tensions. Conversely, the Technology and Communication Services sectors experienced declines as investors showed caution ahead of major tech earnings and concerns about AI-related spending continued.",
+          "id": "tech-sector-update",
+          "headline": "Tech Sector Shows Mixed Performance Amid AI Focus",
+          "summary": "The technology sector experienced mixed performance on Wednesday, July 22, 2026, as investors focused on key earnings reports to gauge the health of the artificial intelligence-driven market rally. Semiconductor stocks, after initially struggling, showed some recovery, while software stocks generally weakened.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Utilities",
-            "Technology"
+            "Technology",
+            "AI",
+            "Semiconductors",
+            "Software"
           ]
         },
         {
-          "id": "economic-data-fed",
-          "headline": "Inflation Concerns Persist as PPI Rises; Fed in Blackout Period",
-          "summary": "The Producer Price Index (PPI) for final demand increased 5.5% over the year ended June 2026, contributing to ongoing inflation concerns in the market. The Federal Open Market Committee (FOMC) is currently in a blackout period ahead of its July 28-29 meeting, having held its benchmark rate steady at 3.50–3.75% in June. Investors are anticipating potential rate adjustments later in the year, with at least one 25 basis point rate increase priced in for 2026.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve",
-            "PPI"
-          ]
-        },
-        {
-          "id": "earnings-reports-focus",
-          "headline": "Big Tech Earnings in Focus: Alphabet and Tesla Report After Hours",
-          "summary": "A busy earnings season continues with significant reports after today's market close from Alphabet ($GOOGL, $GOOG) and Tesla ($TSLA), with IBM ($IBM) also reporting. Earlier today, CME Group Inc. ($CME) announced strong Q2 financial results, and AT&T ($T) delivered robust Q2 performance. Market participants are closely watching these results, particularly for insights into AI-related investments and monetization.",
+          "id": "alphabet-earnings",
+          "headline": "Alphabet Beats Q2 Estimates, Shares Dip After Hours",
+          "summary": "Alphabet Inc. ($GOOGL), Google's parent company, reported stronger-than-expected second-quarter results after Wednesday's close, indicating its significant artificial intelligence investments are yielding returns. However, its share price fell 2.9% in after-hours trading despite the positive earnings.",
           "tags": [
             "Earnings",
-            "Big Tech",
             "Alphabet",
-            "Tesla",
-            "IBM",
-            "AT&T",
-            "CME"
+            "AI"
           ]
         },
         {
-          "id": "macro-trends-geopolitics",
-          "headline": "Geopolitical Tensions Drive Oil Prices Higher and Fuel Market Uncertainty",
-          "summary": "Escalating hostilities in the Middle East, particularly the war involving Iran, continued to push crude oil prices higher, with WTI crude surpassing $86 a barrel and Brent crude touching $92. This geopolitical uncertainty is increasing inflation fears and contributing to market volatility, with analysts noting the mounting 'Iran war stagflation' premium.",
+          "id": "oil-geopolitical-tensions",
+          "headline": "Oil Prices Surge Amid Mideast Tensions",
+          "summary": "Brent crude oil prices surged past $97 a barrel on Thursday, July 23, 2026, due to intensifying geopolitical tensions in the Middle East. This rise in oil prices is contributing to inflationary risks and impacting global markets.",
           "tags": [
-            "Macro Trends",
+            "Oil",
             "Geopolitics",
-            "Oil Prices",
-            "Middle East",
             "Inflation"
+          ]
+        },
+        {
+          "id": "economic-data-us",
+          "headline": "U.S. Economic Data Reflects Higher Borrowing Costs and Slower Job Growth",
+          "summary": "U.S. stock futures are under pressure as investors consider the implications of higher borrowing costs, with the US 10-year Treasury yield near 4.63%, and a cooling jobs market indicated by ADP private hiring at approximately 16,500 jobs per week.",
+          "tags": [
+            "Economy",
+            "Interest Rates",
+            "Job Market"
+          ]
+        },
+        {
+          "id": "japan-economic-strategy",
+          "headline": "Japan Unveils Economic Growth Strategy for H2 2026",
+          "summary": "Japan's Ministry of Finance and Economy revealed its Economic Growth Strategy for H2 2026, focusing on 'Three Mega Projects': Semiconductors, AI Data Centers (AIDCs), and Physical AI, alongside plans to double memory production capacity.",
+          "tags": [
+            "Global Economy",
+            "Japan",
+            "Semiconductors",
+            "AI"
           ]
         }
       ]
