@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:22:00Z",
+  "generatedAt": "2026-07-23T13:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -8,173 +8,217 @@
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Geopolitical Tensions and Tech Earnings Weigh on Futures",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260723",
-          "headline": "U.S. Futures Dip as Oil Prices and AI Stock Swings Dominate Sentiment",
-          "summary": "U.S. stock futures edged lower on Thursday, July 23, 2026, as investors continued to assess a fresh wave of technology earnings and escalating geopolitical tensions in the Middle East, which pushed Brent crude past $97 a barrel. The previous day, Wall Street saw major indices mixed, with the S&P 500 and Nasdaq closing lower, while the Dow remained largely flat, amidst ongoing volatility in AI-related stocks.",
+          "id": "overall-summary",
+          "headline": "U.S. Futures Decline as Middle East Tensions Escalate and Key Tech Earnings Disappoint",
+          "summary": "U.S. stock futures are trending lower this morning as investors react to rising oil prices stemming from escalating geopolitical tensions in the Middle East and mixed signals from recent technology earnings reports. Concerns over increased AI-related capital expenditures from companies like Alphabet are dampening sentiment. The broader market sentiment, as indicated by the CNN Money Fear and Greed index, remained in the “Fear” zone on Wednesday.",
           "tags": [
             "Market Sentiment",
-            "Oil Prices",
+            "Futures",
+            "Geopolitics",
             "Tech Earnings"
-          ],
-          "timestamp": "2026-07-23T09:22:00Z"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Wednesday's Close)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
+          "id": "sp500-premarket",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Down 0.38%",
+          "statContext": "Premarket trading, July 23, 2026",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-premarket",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "Down 0.37%",
+          "statContext": "Premarket trading, July 23, 2026",
+          "direction": "down"
+        },
+        {
+          "id": "dow-premarket",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Down 0.41%",
+          "statContext": "Premarket trading, July 23, 2026",
+          "direction": "down"
+        },
+        {
           "id": "sp500-close",
-          "statLabel": "S&P 500",
+          "statLabel": "S&P 500 Close",
           "statValue": "7,498.96",
-          "statContext": "Down 0.1% on July 22, 2026."
+          "statContext": "Wednesday, July 22, 2026, -0.1%",
+          "direction": "down"
         },
         {
           "id": "nasdaq-close",
-          "statLabel": "NASDAQ Composite",
+          "statLabel": "NASDAQ Composite Close",
           "statValue": "25,690.90",
-          "statContext": "Down 0.6% on July 22, 2026."
+          "statContext": "Wednesday, July 22, 2026, -0.6%",
+          "direction": "down"
         },
         {
           "id": "dow-close",
-          "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,218.58",
-          "statContext": "Dipped less than 0.1% on July 22, 2026."
+          "statLabel": "Dow Jones Industrial Average Close",
+          "statContext": "Wednesday, July 22, 2026, -0.01%",
+          "direction": "flat"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market/After-Hours)",
+      "title": "Top Movers Today (Premarket/Early Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "hyln-gainer",
-          "headline": "Hyliion Surges on U.S. Navy Contract",
-          "summary": "Hyliion ($HYLN) shares jumped 15% in pre-market trading after securing a $41.7 million U.S. Navy contract for KARNO power generation systems, signaling significant government validation for its technology.",
+          "headline": "Hyliion Surges on U.S. Navy Contract Win",
           "ticker": "$HYLN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.0%",
-          "direction": "up"
+          "changePercent": "+15%",
+          "direction": "up",
+          "summary": "Shares of Hyliion surged 15% in premarket trading after the company secured a $41.7 million U.S. Navy contract for KARNO power generation systems."
         },
         {
           "id": "smci-gainer",
-          "headline": "Supermicro Rises on Strong Outlook",
-          "summary": "Super Micro Computer ($SMCI) climbed 20.2% after hours on Wednesday, driven by an improved profitability outlook that bolstered investor confidence in AI server stocks.",
+          "headline": "Super Micro Computer Jumps on New Orders",
           "ticker": "$SMCI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+20.2%",
-          "direction": "up"
+          "changePercent": "+19.8%",
+          "direction": "up",
+          "summary": "Super Micro Computer saw its shares climb 19.8%, driven by over $60 billion in new orders."
         },
         {
-          "id": "uri-gainer",
-          "headline": "United Rentals Beats Estimates",
-          "summary": "United Rentals ($URI) shares gained 8% in pre-market trading after exceeding Q2 revenue and earnings estimates and raising its full-year guidance, attributed to robust construction and industrial project demand.",
-          "ticker": "$URI",
+          "id": "lmt-gainer",
+          "headline": "Lockheed Martin Rises on Raised Forecasts and Strong Q2 Earnings",
+          "ticker": "$LMT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.0%",
-          "direction": "up"
+          "changePercent": "+5.3%",
+          "direction": "up",
+          "summary": "Lockheed Martin rose 5.3% in premarket trading after reporting strong second-quarter results, with sales of $20.1 billion and net earnings of $7.94 per share, and subsequently lifting its 2026 sales and profit forecasts."
         },
         {
-          "id": "bxbl-loser",
-          "headline": "Boxabl Declines",
-          "summary": "Boxabl ($BXBL) saw a sharp decline of 23.85% in pre-market trading.",
-          "ticker": "$BXBL",
+          "id": "ndaql-gainer",
+          "headline": "Nasdaq Inc. Beats Q2 Expectations, Stock Up Premarket",
+          "ticker": "$NDAQ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-23.85%",
-          "direction": "down"
+          "changePercent": "+2.31%",
+          "direction": "up",
+          "summary": "Nasdaq Inc. experienced a pre-market rise of 2.31% after its second-quarter earnings surpassed analyst forecasts, reporting a non-GAAP EPS of $1.07 and net revenue of $1.50 billion."
         },
         {
-          "id": "gev-loser",
-          "headline": "GE Vernova Falls on Earnings Reaction",
-          "summary": "GE Vernova ($GEV) dropped 8.69% in pre-market trading, as investors reacted to its recent earnings report and details regarding a buyback tranche.",
-          "ticker": "$GEV",
+          "id": "googl-loser",
+          "headline": "Alphabet Shares Decline on Increased Capex Guidance and Regulatory Fine",
+          "ticker": "$GOOGL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.69%",
-          "direction": "down"
+          "changePercent": "Down over 3%",
+          "direction": "down",
+          "summary": "Alphabet shares are falling, extending declines from Wednesday, after the company raised its 2026 capital expenditure outlook to as much as $205 billion. Additionally, European regulators fined the tech giant 890 million euros ($1 billion)."
         },
         {
           "id": "tsla-loser",
-          "headline": "Tesla Shares Drop on Earnings Miss",
-          "summary": "Tesla's ($TSLA) share price fell 1.3% on Wednesday and an additional 4.1% in after-hours trading, following the company reporting adjusted earnings per share of $0.33, missing analyst expectations.",
+          "headline": "Tesla Slips After Missing Profit Estimates and Higher Capex Plans",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.1% (After-hours)",
-          "direction": "down"
+          "changePercent": "Down 4.1% (after-hours)",
+          "direction": "down",
+          "summary": "Tesla shares are lower, following its Q2 earnings report on Wednesday, where the company missed profit estimates and outlined plans for higher capital spending."
+        },
+        {
+          "id": "gev-loser",
+          "headline": "GE Vernova Falls on Disappointing Outlook",
+          "ticker": "$GEV",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.7%",
+          "direction": "down",
+          "summary": "GE Vernova shares fell 8.7% in early trading following a disappointing outlook."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News: Key Economic and Sector Developments",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-sector-update",
-          "headline": "Tech Sector Shows Mixed Performance Amid AI Focus",
-          "summary": "The technology sector experienced mixed performance on Wednesday, July 22, 2026, as investors focused on key earnings reports to gauge the health of the artificial intelligence-driven market rally. Semiconductor stocks, after initially struggling, showed some recovery, while software stocks generally weakened.",
+          "id": "sector-utilities-leading",
+          "headline": "Utilities Lead Gains Amid AI Data Center Boom",
+          "summary": "The Utilities sector was the top-performing sector on Wednesday, gaining 2.28%, driven by a recovery in AI stocks and positive sentiment towards power companies benefiting from the data center boom.",
           "tags": [
-            "Technology",
+            "Sector Analysis",
+            "Utilities",
             "AI",
-            "Semiconductors",
-            "Software"
+            "Wednesday Close"
           ]
         },
         {
-          "id": "alphabet-earnings",
-          "headline": "Alphabet Beats Q2 Estimates, Shares Dip After Hours",
-          "summary": "Alphabet Inc. ($GOOGL), Google's parent company, reported stronger-than-expected second-quarter results after Wednesday's close, indicating its significant artificial intelligence investments are yielding returns. However, its share price fell 2.9% in after-hours trading despite the positive earnings.",
+          "id": "sector-communication-lagging",
+          "headline": "Communication Services Lagging, Technology Under Pressure",
+          "summary": "The Communication Services sector was the worst-performing sector on Wednesday, losing 1.29%. Technology stocks broadly came under pressure, with the Nasdaq declining, as investors reduced exposure to higher-growth sectors amid rising bond yields.",
           "tags": [
-            "Earnings",
-            "Alphabet",
-            "AI"
+            "Sector Analysis",
+            "Communication Services",
+            "Technology",
+            "Bond Yields"
           ]
         },
         {
-          "id": "oil-geopolitical-tensions",
-          "headline": "Oil Prices Surge Amid Mideast Tensions",
-          "summary": "Brent crude oil prices surged past $97 a barrel on Thursday, July 23, 2026, due to intensifying geopolitical tensions in the Middle East. This rise in oil prices is contributing to inflationary risks and impacting global markets.",
+          "id": "economic-fed-outlook",
+          "headline": "Fed Expected to Hold Rates Steady Amid Inflationary Pressures",
+          "summary": "The Federal Reserve is anticipated to maintain its policy interest rates steady in the 3.50%-3.75% range at next week's FOMC meeting (July 28-29). However, rising oil prices and potential tariffs may challenge Chairman Kevin Warsh's ability to build consensus for this stance.",
           "tags": [
-            "Oil",
-            "Geopolitics",
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates",
             "Inflation"
           ]
         },
         {
-          "id": "economic-data-us",
-          "headline": "U.S. Economic Data Reflects Higher Borrowing Costs and Slower Job Growth",
-          "summary": "U.S. stock futures are under pressure as investors consider the implications of higher borrowing costs, with the US 10-year Treasury yield near 4.63%, and a cooling jobs market indicated by ADP private hiring at approximately 16,500 jobs per week.",
+          "id": "economic-earnings-intel-hon-aal",
+          "headline": "Intel, Honeywell, and American Airlines Among Companies Reporting Earnings Today",
+          "summary": "Investors are closely watching for earnings reports today from major companies including Intel ($INTC), Honeywell International Inc. ($HON), and American Airlines ($AAL). Lockheed Martin ($LMT) and First Citizens BancShares ($FCNCA) have already reported strong Q2 results, while Nasdaq ($NDAQ) also beat expectations.",
           "tags": [
-            "Economy",
-            "Interest Rates",
-            "Job Market"
+            "Economic News",
+            "Earnings Reports"
           ]
         },
         {
-          "id": "japan-economic-strategy",
-          "headline": "Japan Unveils Economic Growth Strategy for H2 2026",
-          "summary": "Japan's Ministry of Finance and Economy revealed its Economic Growth Strategy for H2 2026, focusing on 'Three Mega Projects': Semiconductors, AI Data Centers (AIDCs), and Physical AI, alongside plans to double memory production capacity.",
+          "id": "macro-oil-geopolitics",
+          "headline": "Oil Prices Surge on Heightened Middle East Geopolitical Tensions",
+          "summary": "Oil prices are climbing significantly today, with Brent crude up 3.26% to $95.60 a barrel and WTI crude rising 4.31% to $90.65 a barrel. This surge is attributed to escalating geopolitical tensions in the Middle East, particularly the U.S.-Iran conflict.",
           "tags": [
-            "Global Economy",
-            "Japan",
-            "Semiconductors",
-            "AI"
+            "Macro Trends",
+            "Oil Prices",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "macro-bnpl-adoption",
+          "headline": "Buy Now, Pay Later Adoption Nears Record High Amid Financial Strain",
+          "summary": "New data reveals that overall 'Buy Now, Pay Later' (BNPL) adoption is nearing a record high, with 15% of active cardholders using such services in Q2. This trend is particularly pronounced among lower-income households earning under $40,000 annually and families with children, indicating deepening financial strain.",
+          "tags": [
+            "Macro Trends",
+            "Consumer Spending",
+            "BNPL"
           ]
         }
       ]
