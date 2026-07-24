@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T08:13:26.965407Z",
+  "generatedAt": "2026-07-24T17:43:46.392549Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum - Dividend Event",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$205.64",
+      "entry": "$203.50",
+      "stop": "$198.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is consolidating above key support levels, with a weekly uptrend intact. Price is currently testing the $203-$205 pivot zone. A bounce from this area could confirm continued bullish momentum, however, volume is below average.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology Hardware, Storage and Peripherals",
+      "currentPrice": "$324.50",
+      "entry": "$320.50",
+      "stop": "$310.90",
+      "structure": "0.618 Fib",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is showing a sustained uptrend and is currently testing the 0.618 Fibonacci retracement level, indicating a potential entry point for a bounce. However, upcoming earnings on July 30th present high risk, and volume is below average.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$310.50",
+      "entry": "$295.00",
+      "stop": "$275.00",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla has experienced a significant post-earnings drop, confirming a bearish structure. The price has broken below the 0.618 Fibonacci retracement and is now heading towards the $280-$300 support zone. Volume is not elevated compared to average, but the recent price action indicates strong selling pressure.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Post-Earnings Volatility",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
