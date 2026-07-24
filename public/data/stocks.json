@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-24T21:00:00Z",
+  "generatedAt": "2026-07-24T13:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 24, 2026 - End of Day Update",
+  "subtitle": "Friday, July 24, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,100 +13,126 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july24",
-          "headline": "U.S. Stocks Decline Sharply Amid Rising Oil Prices, Geopolitical Tensions, and Tech Earnings Concerns",
-          "summary": "U.S. equities experienced a significant sell-off on Friday, July 24, 2026, with major indices closing broadly lower. The market's downturn was primarily driven by Brent crude prices topping $100 per barrel, escalating geopolitical risks in the Middle East, ongoing concerns about a potential bubble in artificial intelligence investments, and negative reactions to recent earnings reports from several technology companies. Investor sentiment, as measured by the American Association of Individual Investors (AAII), fell to its lowest point since last September, reflecting increased caution among retail investors. Not financial advice.",
+          "id": "market-summary-today",
+          "headline": "U.S. Futures Attempt Rebound After Thursday's Steep Sell-Off, Oil Prices Ease",
+          "summary": "U.S. stock futures are showing modest gains this morning, signaling a potential recovery after major indices experienced their worst one-day declines since June 23 on Thursday. Investors are assessing mixed Big Tech earnings and concerns over rising capital expenditures for AI. While oil prices have pulled back slightly from Thursday's surge above $100, underlying anxieties about inflation, interest rates, and new tariffs persist. The market sentiment remains cautious, with some analysts describing it as 'frothy' and investors 'walking on eggshells' amidst ongoing geopolitical tensions and a looming Federal Reserve meeting.",
           "tags": [
             "Market Overview",
-            "Geopolitics",
-            "Oil Prices",
-            "Tech Earnings"
-          ],
-          "timestamp": "2026-07-24T16:00:00Z"
+            "Futures",
+            "Economic News"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (July 24, 2026 Close)",
+      "title": "Major Indices (As of Thursday's Close & Friday's Pre-Market)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
+          "id": "sp500-close",
+          "statLabel": "S&P 500 (Thu Close)",
           "statValue": "7,408.30",
-          "statContext": "Declined 1.21% on the day."
+          "statContext": "Down 1.2% (-90.66 points), worst decline since June 23."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "51,711",
-          "statContext": "Fell 0.97% (507 points) on the day."
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Fri Pre-Market)",
+          "statValue": "+0.2%",
+          "statContext": "Indicating a modest green open."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,137",
-          "statContext": "Sank 2.15% on the day."
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite (Thu Close)",
+          "statValue": "25,137.69",
+          "statContext": "Down 2.2% (-553.21 points), worst decline since June 23."
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures (Fri Pre-Market)",
+          "statValue": "+0.1%",
+          "statContext": "Subdued rebound after dropping sharply."
+        },
+        {
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average (Thu Close)",
+          "statValue": "51,711.65",
+          "statContext": "Down 1.0% (-506.93 points), tumbling over 500 points."
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Futures (Fri Pre-Market)",
+          "statValue": "+0.5%",
+          "statContext": "Outperforming, led by value and traditional sector earnings."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (July 24, 2026 Close)",
+      "title": "Top Movers (Thursday's Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "lmt-gainer",
-          "headline": "Lockheed Martin Rises on Divergent Valuation",
-          "summary": "Lockheed Martin ($LMT) closed up 10.5% at $568.59. This gain reflects divergent investor expectations, with the company trading at 27.3 times trailing earnings and showing 4.6% revenue growth over the past twelve months.",
+          "headline": "Lockheed Martin Rises on Strong Q2 Results",
           "ticker": "$LMT",
-          "price": "$568.59",
-          "change": "+$54.03",
-          "changePercent": "+10.5%",
-          "direction": "up"
-        },
-        {
-          "id": "saft-gainer",
-          "headline": "Safety Insurance Soars on Acquisition News",
-          "summary": "Safety Insurance ($SAFT) shares soared 42% after the insurer agreed to be acquired by Mapfre in an all-cash deal valued at approximately $1.54 billion. Shareholders are set to receive $105 per share, a 44% premium to the prior closing price.",
-          "ticker": "$SAFT",
-          "price": "$105.00",
-          "change": "+$31.06",
-          "changePercent": "+42%",
-          "direction": "up"
-        },
-        {
-          "id": "amkr-gainer",
-          "headline": "Amkor Technology Jumps on NVIDIA AI Partnership",
-          "summary": "Amkor Technology ($AMKR) shares jumped 9% after announcing a multi-year strategic partnership with Nvidia ($NVDA) to develop advanced semiconductor packaging and testing technologies for next-generation AI platforms. Nvidia's advance payments will boost Amkor's Arizona packaging capacity.",
-          "ticker": "$AMKR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
-          "direction": "up"
+          "changePercent": "+10.5%",
+          "direction": "up",
+          "summary": "Lockheed Martin led gainers in the S&P 500 on Thursday, surging 10.5% after reporting better-than-expected second-quarter results with higher sales and net income."
+        },
+        {
+          "id": "uri-gainer",
+          "headline": "United Rentals Climbs After Q2 Beat",
+          "ticker": "$URI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.11%",
+          "direction": "up",
+          "summary": "United Rentals saw a significant rise of 10.11% following a robust second-quarter earnings beat and an upward revision of its guidance."
+        },
+        {
+          "id": "tmo-gainer",
+          "headline": "Thermo Fisher Scientific Up on Strong Earnings",
+          "ticker": "$TMO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.71%",
+          "direction": "up",
+          "summary": "Thermo Fisher Scientific advanced 8.71% after delivering strong second-quarter earnings and raising its full-year guidance."
         },
         {
           "id": "tsla-loser",
-          "headline": "Tesla Plunges Following Earnings Report",
-          "summary": "Tesla ($TSLA) experienced the session's most dramatic decline, falling 14.5%. This sharp drop followed a negative market reaction to its Q2 earnings report, exacerbated by its high valuation (272.0 times trailing earnings) despite 11.8% revenue growth over the past year.",
+          "headline": "Tesla Plunges on Q2 Disappointment and Spending Concerns",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-14.5%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Tesla was the biggest S&P 500 loser on Thursday, dropping 14.5% after its second-quarter earnings disappointed and analysts cut price targets due to concerns over heavy investment spending and slowing profitability, particularly in AI-related businesses."
         },
         {
-          "id": "lesl-loser",
-          "headline": "Leslies Continues Steep Decline",
-          "summary": "Leslies ($LESL) closed down 44.8%, extending a multi-week trend of weakness. The company's stock also features on the one-month losers list with an 86.5% total return decline, driven by a 7.5% decrease in revenue over the last twelve months.",
-          "ticker": "$LESL",
+          "id": "tmush-loser",
+          "headline": "T-Mobile US Falls Post-Earnings",
+          "ticker": "$TMUS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-44.8%",
-          "direction": "down"
+          "changePercent": "-10.75%",
+          "direction": "down",
+          "summary": "T-Mobile US declined 10.75% after reporting its second-quarter results, which included softer third-quarter metrics and mixed guidance commentary."
+        },
+        {
+          "id": "rol-loser",
+          "headline": "Rollins Slides After Weak Q2",
+          "ticker": "$ROL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.27%",
+          "direction": "down",
+          "summary": "Rollins stock fell 9.27% following a weaker-than-expected second-quarter performance and subsequent analyst downgrades."
         }
       ]
     },
@@ -117,39 +143,52 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-july24",
-          "headline": "Sector Performance Diverges Amid Broad Market Downturn",
-          "summary": "Despite overall market declines, certain sectors exhibited strength. Rail Transportation and Pharmaceuticals showed notable resilience, contributing to 17 S&P 500 components hitting 52-week highs, including JPMorgan Chase ($JPM). Industrials and Real Estate also posted strong gains, fueled by increased AI data center construction and demand. Conversely, the Energy sector lagged, recording negative returns earlier in the quarter, even as oil prices surged today. Technology remains a key driver, yet financials, industrials, and healthcare are demonstrating improving relative strength.",
+          "id": "economic-news-fed",
+          "headline": "Fed Meeting Looms Amid Inflation Worries",
+          "summary": "The Federal Reserve is set to meet next week, with expectations for interest rates to remain unchanged. However, the recent surge in oil prices has prompted investors to increase bets on a potential rate hike later this year, as inflation remains a stubborn issue. The CME Group's FedWatch tool currently indicates a 70.6% probability of the Fed holding rates steady at its July meeting.",
           "tags": [
-            "Sector Analysis",
-            "Industrials",
-            "Real Estate",
-            "Energy",
-            "Technology"
-          ]
-        },
-        {
-          "id": "economic-data-fed-july24",
-          "headline": "Key Economic Data Released; Fed Reaffirms Inflation Target",
-          "summary": "Today's economic calendar featured the release of Global Flash PMIs for July, Japanese Inflation for June, German GfK Consumer Confidence for August, UK Retail Sales for June, and Canadian PPI for June. The U.S. Treasury Department's semi-annual foreign exchange report noted the yen is 'significantly undervalued' and expressed concern over 'excessive fluctuations' in its exchange rate. Federal Reserve Chair Kevin Warsh reiterated the central bank's commitment to its 2% annual inflation target, despite the PCE index showing inflation above this level for 63 consecutive months. The Fed has maintained the federal funds rate target range at 3.5% to 3.75% since the start of the year. The European Central Bank (ECB) held its main interest rates steady.",
-          "tags": [
-            "Economic News",
-            "Inflation",
+            "Fed",
             "Interest Rates",
-            "Central Banks",
-            "Trade"
+            "Inflation"
           ]
         },
         {
-          "id": "earnings-roundup-july24",
-          "headline": "Major Earnings Reports Drive Individual Stock Movements",
-          "summary": "Q2 earnings reports continued to shape market activity. Intel ($INTC) saw its shares climb 3% after exceeding Q2 revenue and EPS estimates, despite an $11 billion GAAP loss. American Express ($AXP), Verizon ($VZ), NextEra Energy ($NEE), HCA Healthcare ($HCA), and Charter Communications ($CHTR) were among the major companies reporting Q2 results before the market open. However, negative reactions to Q2 earnings from Tesla ($TSLA) and Alphabet ($GOOGL) contributed to the broader market's decline. Nasdaq, Inc. ($NDAQ) reported a 15% increase in Q2 net revenue and a 14% rise in GAAP diluted EPS, while Ovintiv ($OVV) posted Q2 net earnings of $456 million.",
+          "id": "oil-prices",
+          "headline": "Oil Prices Fluctuate Amid Geopolitical Tensions",
+          "summary": "Crude oil prices, which surged above $100 a barrel on Thursday due to escalating Middle East tensions, have eased slightly in Friday's pre-market trading. Brent crude pulled back to approximately $89/barrel. Geopolitical events, including attacks on Saudi oil tankers and threats of military action, continue to fuel fears of prolonged supply disruptions and their impact on global inflation.",
           "tags": [
-            "Earnings Reports",
+            "Commodities",
+            "Geopolitics",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "earnings-reports",
+          "headline": "Key Companies Report Q2 Earnings",
+          "summary": "Verizon Communications ($VZ) reported exceptional second-quarter 2026 results, boosting share buyback targets and raising full-year guidance. Charter Communications ($CHTR) also released Q2 results, with a decline in revenue but an increase in mobile lines. American Express ($AXP), Booz Allen ($BAH), and NextEra Energy ($NEE) are among other major companies scheduled to report earnings today.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "ai-spending-concerns",
+          "headline": "AI Spending Under Scrutiny Following Tech Earnings",
+          "summary": "Recent earnings reports from major technology companies, including Alphabet and Tesla, have highlighted investor concerns regarding the massive capital expenditures on AI. While Alphabet showed robust demand for AI-related businesses, the focus remained on accelerating spending plans. Tesla's disappointing results added to worries that heavy investment might not translate to immediate profitability, leading to market selectivity.",
+          "tags": [
             "Technology",
-            "Financials",
-            "Telecommunications",
-            "Healthcare"
+            "AI",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "new-tariffs-us",
+          "headline": "New U.S. Tariffs Take Effect on Global Goods",
+          "summary": "The Trump administration has implemented new tariffs of 10% or 12.5% on goods from 60 trading partners, including China, India, the UK, and the European Union, effective Friday. These duties replace previous temporary tariffs and are aimed at countries failing to prohibit or enforce bans on imports made with forced labor.",
+          "tags": [
+            "Trade",
+            "Tariffs",
+            "International Relations"
           ]
         }
       ]
