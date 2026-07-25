@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T17:43:46.392549Z",
+  "generatedAt": "2026-07-25T09:55:45.005769Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 9,
+  "tradeCount": 10,
   "trades": [
     {
       "ticker": "$APP",
@@ -33,22 +33,6 @@
       "riskScore": 9,
       "footerTag": "High Risk - Earnings",
       "setupType": "avoid",
-      "source": "Watchlist"
-    },
-    {
-      "ticker": "$AMZN",
-      "name": "Amazon.com, Inc.",
-      "sector": "Consumer Discretionary",
-      "currentPrice": "$233.66",
-      "entry": "$234.00",
-      "stop": "$190.00",
-      "structure": "200-Day MA Support",
-      "trend": "< 20MA, < 150MA",
-      "trendLabel": "Trend",
-      "analysis": "Amazon is currently pulling back, trading near its critical 200-day moving average, which is acting as a significant support level. The stock is below its shorter-term moving averages. Earnings are confirmed for July 30th, posing a high-risk catalyst. A bounce from the 200-day MA could present a trading opportunity, but caution is warranted due to the upcoming earnings report and recent downward pressure.",
-      "riskScore": 8,
-      "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
       "source": "Watchlist"
     },
     {
@@ -116,22 +100,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$AAPL",
-      "name": "Apple Inc.",
-      "sector": "Technology Hardware, Storage and Peripherals",
-      "currentPrice": "$324.50",
-      "entry": "$320.50",
-      "stop": "$310.90",
-      "structure": "0.618 Fib",
-      "trend": "> 150MA",
-      "trendLabel": "Trend",
-      "analysis": "Apple is showing a sustained uptrend and is currently testing the 0.618 Fibonacci retracement level, indicating a potential entry point for a bounce. However, upcoming earnings on July 30th present high risk, and volume is below average.",
-      "riskScore": 9,
-      "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$TSLA",
       "name": "Tesla, Inc.",
       "sector": "Consumer Cyclical",
@@ -145,6 +113,54 @@
       "riskScore": 8,
       "footerTag": "High Risk - Post-Earnings Volatility",
       "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "sector": "Software",
+      "currentPrice": "$342.06",
+      "entry": "$330.21",
+      "stop": "$287.18",
+      "structure": "0.618 Fib",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Palo Alto Networks is in a strong uptrend, trading above its 200-day moving average. A pullback to the 20-day exponential moving average around $330.21 presents a potential entry, with the 50-day simple moving average acting as a stop-loss.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$330.59",
+      "entry": "$316.00",
+      "stop": "$304.89",
+      "structure": "Support Test",
+      "trend": "RVOL < 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "Apple is in a strong rising trend channel but is currently pulling back from an upper band. A potential entry is indicated around the $316 area for a short-term bounce, with the 50-day simple moving average serving as a stop loss. Current trading volume is significantly below average.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMZN",
+      "name": "Amazon.Com, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$247.76",
+      "entry": "$247.00",
+      "stop": "$234.35",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Amazon is testing support at $247 within a medium-term rising trend channel, though it is trading below its 50-day simple moving average. The 200-day simple moving average at $234.35 provides a key stop-loss level. Earnings are scheduled for July 30, 2026, marking this as a high-risk setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
   ]
