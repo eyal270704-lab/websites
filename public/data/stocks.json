@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-25T08:59:00Z",
+  "generatedAt": "2026-07-25T13:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: July 24, 2026",
-  "subtitle": "Markets closed mixed on Friday amid tech weakness and geopolitical concerns.",
-  "badge": "Last Session Summary",
+  "title": "Daily Market Digest",
+  "subtitle": "Summary of Friday, July 24, 2026, Trading Session",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Wall Street Ends Week Mixed, Tech Under Pressure",
-          "summary": "U.S. equities saw a mixed close on Friday, July 24, 2026, with the Dow Jones Industrial Average posting gains while the Nasdaq Composite continued its decline, primarily driven by concerns over substantial AI spending and ongoing geopolitical tensions. Oil prices retreated for the first time in a week, offering some relief to inflation fears, yet overall market sentiment remained cautious.",
+          "id": "market-summary-20260724",
+          "headline": "Mixed Close on Friday as Tech Weakness Persists Amid AI Spending Concerns",
+          "summary": "U.S. markets closed Friday with a mixed performance as the Dow Jones Industrial Average posted gains, while the S&P 500 saw a modest rise, and the Nasdaq Composite declined. Investor sentiment was primarily shaped by ongoing concerns surrounding accelerating AI capital expenditure plans, which weighed heavily on technology stocks, and fluctuating oil prices amidst geopolitical tensions. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Sentiment",
+            "Market Summary",
             "Tech",
+            "AI",
             "Oil"
           ]
         }
@@ -27,150 +27,154 @@
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Close: July 24, 2026)",
+      "title": "Major Indices (Close of July 24, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-20260724",
           "statLabel": "S&P 500",
           "statValue": "7,411.98",
-          "statContext": "+0.05% (▲ 3.68 points)",
-          "ticker": "$GSPC"
+          "statContext": "+0.05%"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-20260724",
           "statLabel": "NASDAQ Composite",
           "statValue": "24,975.82",
-          "statContext": "-0.64% (▼ 161.87 points)",
-          "ticker": "$IXIC"
+          "statContext": "-0.64%"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-20260724",
+          "statLabel": "DOW Jones Industrial Average",
           "statValue": "51,947.25",
-          "statContext": "+0.46% (▲ 235.60 points)",
-          "ticker": "$DJI"
+          "statContext": "+0.46%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (July 24, 2026)",
+      "title": "Top Movers (Close of July 24, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "dlr-gainer",
+          "headline": "Digital Realty Trust Surges on Strong Earnings",
+          "summary": "Digital Realty Trust ($DLR) saw a significant increase of +13.5% to $203.52, following a strong second-quarter 2026 earnings beat, raised full-year guidance, and analyst upgrades.",
+          "ticker": "$DLR",
+          "price": "$203.52",
+          "change": "+$24.11",
+          "changePercent": "+13.5%",
+          "direction": "up"
+        },
+        {
           "id": "thc-gainer",
-          "headline": "Tenet Healthcare Soars on Strong Earnings",
+          "headline": "Tenet Healthcare Rises on Q2 Beat",
+          "summary": "Tenet Healthcare ($THC) soared 14.53% after reporting a second-quarter earnings beat, raising its full-year profit outlook, and showcasing strong performance in its ambulatory surgery network.",
           "ticker": "$THC",
           "price": "N/A",
-          "change": "+$34.01",
-          "changePercent": "+17.08%",
-          "direction": "up",
-          "summary": "Tenet Healthcare Corporation surged by 17.08% after reporting a strong second-quarter earnings beat, raising its full-year profit outlook, and showcasing robust performance in its ambulatory surgery network."
+          "change": "N/A",
+          "changePercent": "+14.53%",
+          "direction": "up"
         },
         {
           "id": "slb-gainer",
-          "headline": "SLB Jumps on Q2 Profit Beat",
+          "headline": "SLB N.V. Beats Estimates, Drives Gains",
+          "summary": "SLB N.V. ($SLB) gained 9.7% after posting better-than-expected second-quarter financial results, robust international offshore drilling growth, and expansion in technology-focused businesses.",
           "ticker": "$SLB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11%",
-          "direction": "up",
-          "summary": "Oilfield services firm SLB climbed 11% after exceeding expectations for its second-quarter profit, benefiting from higher energy prices."
+          "changePercent": "+9.7%",
+          "direction": "up"
         },
         {
-          "id": "crm-gainer",
-          "headline": "Salesforce Shows Strength Amid Tech Sell-off",
-          "ticker": "$CRM",
-          "price": "N/A",
+          "id": "tsla-loser",
+          "headline": "Tesla Shares Drop Amid Profitability Concerns",
+          "summary": "Tesla ($TSLA) fell 17.79% over the past week, as investors focused on heavy investment spending and slowing profitability, weighing on its valuation.",
+          "ticker": "$TSLA",
+          "price": "$313.03",
           "change": "N/A",
-          "changePercent": "+4.34%",
-          "direction": "up",
-          "summary": "Salesforce saw a notable increase of 4.34% on Friday, standing out amidst broader tech sector weakness."
+          "changePercent": "-17.79% (week)",
+          "direction": "down"
         },
         {
-          "id": "sndk-loser",
-          "headline": "SanDisk Corporation Plunges with Memory Stocks",
-          "ticker": "$SNDK",
-          "price": "N/A",
+          "id": "rpd-loser",
+          "headline": "Rapid7 Leads Weekly Declines",
+          "summary": "Rapid7 ($RPD) was among the worst-performing stocks of the week, falling 22.21% to close at $9.49.",
+          "ticker": "$RPD",
+          "price": "$9.49",
           "change": "N/A",
-          "changePercent": "-11%",
-          "direction": "down",
-          "summary": "SanDisk Corporation dropped nearly 11% as memory stocks faced significant selling pressure, contributing to the broader tech sector's decline."
+          "changePercent": "-22.21% (week)",
+          "direction": "down"
         },
         {
           "id": "intc-loser",
-          "headline": "Intel Shares Decline Despite Earnings Beat",
+          "headline": "Intel Down Despite Earnings Beat on AI Spending Fears",
+          "summary": "Intel ($INTC) declined 6.5%, as investors looked past a quarterly earnings beat to focus on concerns regarding high artificial intelligence (AI) spending.",
           "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-6.5%",
-          "direction": "down",
-          "summary": "Intel shares declined 6.5% as investors focused on the company's plans for increased capital expenditures over the next two years, despite reporting a beat on adjusted Q2 earnings and strong revenue growth."
-        },
-        {
-          "id": "axp-loser",
-          "headline": "American Express Disappoints with Q2 Revenue",
-          "ticker": "$AXP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.87%",
-          "direction": "down",
-          "summary": "American Express fell 4.87% after reporting weaker-than-expected second-quarter revenue, adding to investor caution."
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News (July 24, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-summary",
-          "headline": "Key Economic Data Released",
-          "summary": "Friday's economic calendar included the release of July's Flash PMI data for both manufacturing and services, offering early insights into business activity for Q3. Additionally, new home sales figures and the Kansas City Fed Services Survey provided further updates on housing demand and regional service sector performance. Initial jobless claims decreased by 2,000 to 207,000 for the week ending July 18, while continuing claims also fell.",
+          "id": "sector-performance",
+          "headline": "Real Estate and Energy Lead, Tech and Consumer Discretionary Lag",
+          "summary": "On Friday, the Real Estate sector emerged as the top-performing sector, gaining 2.36%. Energy and Utilities also showed strength over the week, rising 3.37% and 2.3% respectively. Conversely, Information Technology was the worst-performing sector, down 0.87%, with Consumer Cyclicals and Communication Services also experiencing significant weekly declines of 5.48% and 3.94% respectively.",
+          "tags": [
+            "Sector Analysis",
+            "Real Estate",
+            "Energy",
+            "Technology"
+          ]
+        },
+        {
+          "id": "oil-prices",
+          "headline": "Oil Prices Retreat, Easing Inflationary Pressures",
+          "summary": "Brent crude futures fell nearly 4% to settle at $96.78 a barrel on Friday, retreating from a high of $102 earlier in the week. WTI crude also declined 2.25% to $90.12. This moderation in oil prices offered some relief from inflation fears, although concerns about global supply chain disruptions and new tariffs persist.",
+          "tags": [
+            "Economic News",
+            "Oil",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "ai-capex-concerns",
+          "headline": "AI Capital Expenditure Weighs on Tech Valuations",
+          "summary": "Despite strong earnings reports from some major technology companies like Alphabet, investor focus remained on accelerating capital expenditure plans for AI, leading to concerns about slowing profitability and impacting valuations across the tech sector.",
+          "tags": [
+            "Economic News",
+            "AI",
+            "Technology",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "jobless-claims",
+          "headline": "U.S. Jobless Claims Decrease",
+          "summary": "U.S. initial jobless claims saw a decrease, falling to 205,000 for the week ending July 18, 2026. This indicates a tightening labor market.",
           "tags": [
             "Economic Data",
-            "PMI",
-            "Housing",
-            "Jobless Claims"
+            "Job Market"
           ]
         },
         {
-          "id": "tech-capex-concerns",
-          "headline": "AI Spending Raises Investor Concerns in Tech Sector",
-          "summary": "Investor sentiment in the technology sector continues to be weighed down by concerns over mounting capital expenditures related to artificial intelligence. This comes after Alphabet Inc. ($GOOGL) reported strong Q2 earnings but raised its 2026 capex forecast, and Tesla ($TSLA) cited a 'massive capex year' ahead, leading to a significant weekly decline for the EV maker.",
+          "id": "earnings-reports",
+          "headline": "Key Earnings: Alphabet, SLB, and Comfort Systems USA",
+          "summary": "Alphabet ($GOOGL) reported strong Q2 earnings and revenue, though AI capex remained a focal point for investors. SLB N.V. ($SLB) surpassed Q2 revenue and EPS estimates. Comfort Systems USA ($FIX) also announced robust Q2 results with significant revenue and net income growth.",
           "tags": [
-            "Tech",
-            "AI Spending",
             "Earnings",
-            "$GOOGL",
-            "$TSLA"
-          ]
-        },
-        {
-          "id": "oil-prices-geopolitics",
-          "headline": "Oil Prices Retreat Amid Middle East Tensions and New Tariffs",
-          "summary": "Brent crude prices fell almost 4% on Friday, settling at $96.78 a barrel, after a week that saw prices climb above $100. This slight ease in crude prices provided some relief to inflation concerns, though continued geopolitical tensions in the Middle East and new tariffs imposed by President Trump on 60 global economies kept investors cautious.",
-          "tags": [
-            "Oil Prices",
-            "Geopolitics",
-            "Tariffs",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "ecb-rate-hike-signals",
-          "headline": "ECB Signals Potential September Rate Hike",
-          "summary": "ECB President Christine Lagarde laid the groundwork for a potential interest rate hike in September, citing upside risks to inflation. This comes as markets continue to assess the impact of rising energy costs and global economic conditions on central bank policy.",
-          "tags": [
-            "Central Banks",
-            "ECB",
-            "Interest Rates",
-            "Inflation"
+            "Alphabet",
+            "SLB",
+            "Comfort Systems USA"
           ]
         }
       ]
