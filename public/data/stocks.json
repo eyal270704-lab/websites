@@ -1,169 +1,174 @@
 {
-  "generatedAt": "2026-07-26T09:10:00Z",
+  "generatedAt": "2026-07-26T12:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, July 25, 2026 - Not financial advice",
-  "badge": "Last Session",
+  "subtitle": "Friday, July 24, 2026 Market Close Summary",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-jul24",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. Stocks End Mixed on Friday, Major Indices See Weekly Losses as AI Jitters and Geopolitical Concerns Weigh",
-          "summary": "The S&P 500 closed nearly flat and the Dow Jones Industrial Average posted modest gains on Friday, while the Nasdaq Composite declined. All three major indices finished the week lower, influenced by anxieties over AI spending, volatile oil prices due to Middle East hostilities, and new U.S. tariffs.",
+          "id": "market-summary-jul24",
+          "headline": "Mixed Close on Friday as Tech Weakness Persists Amid Geopolitical Tensions",
+          "summary": "U.S. stocks concluded a volatile week with a mixed performance on Friday. The Dow Jones Industrial Average posted gains, while the S&P 500 saw a minor uptick and the Nasdaq Composite declined, primarily due to continued weakness in technology shares. All major indices finished the week lower, as investor sentiment remained cautious amid concerns over elevated AI spending, ongoing geopolitical conflicts in the Middle East, and new global tariffs. Oil prices fell for the first time in a week, offering some relief on inflation fears.",
           "tags": [
-            "Market Overview",
-            "Weekly Close",
-            "Economic Factors"
+            "Market Summary",
+            "Tech Weakness",
+            "Geopolitics",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Friday, July 25, 2026 Close)",
+      "id": "major-indices-jul24",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-jul24",
           "statLabel": "S&P 500",
           "statValue": "7,411.98",
-          "statContext": "Rose 3.68 points, or less than 0.1%."
+          "statContext": "Rose less than 0.1% (+3.68 points) on Friday."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "dow-jul24",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,947.25",
+          "statContext": "Gained 0.5% (+235.60 points) on Friday."
+        },
+        {
+          "id": "nasdaq-jul24",
           "statLabel": "NASDAQ Composite",
           "statValue": "24,975.82",
-          "statContext": "Fell 161.87 points, or 0.6%."
+          "statContext": "Fell 0.6% (-161.87 points) on Friday."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,947.25",
-          "statContext": "Rose 235.60 points, or 0.5%."
+          "id": "russell2000-jul24",
+          "statLabel": "Russell 2000",
+          "statValue": "2,930.00",
+          "statContext": "Declined 0.3% (-10.16 points) on Friday."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Friday, July 25, 2026)",
+      "id": "top-movers-jul24",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-ndls",
-          "headline": "Noodles & Company Soars on Earnings Beat",
-          "summary": "Shares of Noodles & Company surged after the company reported a second-quarter operating profit of $0.18, significantly beating analysts' expectations of a $0.05 loss.",
-          "ticker": "$NDLS",
-          "price": "N/A",
-          "change": "+24.4%",
-          "changePercent": "+24.4%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-dlr",
-          "headline": "Digital Realty Trust Leads Real Estate Sector Gains",
-          "summary": "Digital Realty Trust was a top performer in the S&P 500, benefiting from strong second-quarter revenue growth of 29% to $1.92 billion, surpassing expectations.",
+          "id": "dlr-gainer-jul24",
+          "headline": "Digital Realty Trust Surges on Strong Q2 Earnings",
           "ticker": "$DLR",
           "price": "N/A",
-          "change": "+10.92%",
-          "changePercent": "+10.92%",
-          "direction": "up"
+          "change": "N/A",
+          "changePercent": "+14%",
+          "direction": "up",
+          "summary": "Digital Realty Trust surged nearly 14% following a robust Q2 2026 earnings beat, boosted by raised full-year guidance and analyst upgrades."
         },
         {
-          "id": "gainer-slb",
-          "headline": "SLB Climbs on Strong Q2 Profit",
-          "summary": "Oilfield services firm SLB saw its shares rise after reporting second-quarter profits that exceeded analyst expectations.",
+          "id": "slb-gainer-jul24",
+          "headline": "SLB Posts Strong Q2 Results, Driving Shares Higher",
           "ticker": "$SLB",
-          "price": "N/A",
-          "change": "+11%",
-          "changePercent": "+11%",
-          "direction": "up"
+          "price": "$52.42",
+          "change": "N/A",
+          "changePercent": "+11.01%",
+          "direction": "up",
+          "summary": "SLB N.V. gained 11.01% after reporting better-than-expected second-quarter financial results, driven by strong international offshore drilling growth and expansion in technology-focused businesses."
         },
         {
-          "id": "loser-intc",
-          "headline": "Intel Falls Despite Beating Q2 Estimates",
-          "summary": "Intel shares declined as investors expressed concern over the company's capital expenditure plans related to AI, despite second-quarter results exceeding Wall Street's expectations.",
+          "id": "thc-gainer-jul24",
+          "headline": "Tenet Healthcare Leads Pre-Market Gains",
+          "ticker": "$THC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15.51%",
+          "direction": "up",
+          "summary": "Tenet Healthcare Corporation saw significant gains in pre-market trading, rising over 15%."
+        },
+        {
+          "id": "sndk-loser-jul24",
+          "headline": "Sandisk Tumbles Amid Broad Memory Stock Weakness",
+          "ticker": "$SNDK",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11%",
+          "direction": "down",
+          "summary": "Sandisk Corporation dropped almost 11%, mirroring declines across other memory-related stocks on Friday."
+        },
+        {
+          "id": "intc-loser-jul24",
+          "headline": "Intel Down Despite Earnings Beat on AI Spending Concerns",
           "ticker": "$INTC",
-          "price": "N/A",
-          "change": "-7.89%",
+          "price": "$92.32",
+          "change": "N/A",
           "changePercent": "-7.89%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Intel shares declined 7.89% as investors focused on growing concerns over high artificial intelligence (AI) spending plans, looking past a reported quarterly earnings beat."
         },
         {
-          "id": "loser-axp",
-          "headline": "American Express Slips on Unchanged Profit Outlook",
-          "summary": "American Express shares fell over 4% as the company's unchanged profit outlook overshadowed a raised 2026 revenue forecast.",
-          "ticker": "$AXP",
-          "price": "N/A",
-          "change": "-4.3%",
-          "changePercent": "-4.3%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-goog",
-          "headline": "Alphabet Shares Dip on AI Spending Concerns",
-          "summary": "Alphabet (Google) shares experienced a decline following concerns about significant capital expenditures for AI infrastructure, despite robust revenue growth in its Cloud division.",
-          "ticker": "$GOOG",
-          "price": "N/A",
-          "change": "-4% to -5%",
-          "changePercent": "-4% to -5%",
-          "direction": "down"
+          "id": "cohr-loser-jul24",
+          "headline": "Coherent Corp. Experiences Significant Decline",
+          "ticker": "$COHR",
+          "price": "$282.39",
+          "change": "N/A",
+          "changePercent": "-9.84%",
+          "direction": "down",
+          "summary": "Coherent Corp. fell 9.84% on Friday."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-jul24",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Real Estate and Materials Lead, Tech Lags Amid AI Spending Jitters",
-          "summary": "On Friday, the Real Estate sector led gains, rising 2.36%, bolstered by strong earnings reports and an uptick in new home sales. Materials also performed well, up 1.44%. Conversely, the Information Technology sector was the weakest, falling 0.88%, largely due to a sell-off in semiconductor stocks driven by investor caution over substantial AI infrastructure spending.",
+          "id": "tech-sector-struggles-jul24",
+          "headline": "Technology Sector Retreats as AI Spending Worries Persist",
+          "summary": "The technology sector experienced a 2.37% decline on Friday, as investors continued to grapple with concerns over the escalating capital expenditures related to artificial intelligence. Mixed earnings reports from some major tech companies also contributed to the sector's pullback.",
           "tags": [
-            "Sector Analysis",
-            "Real Estate",
             "Technology",
-            "AI"
+            "AI Spending",
+            "Sector Performance"
           ]
         },
         {
-          "id": "economic-outlook",
-          "headline": "Inflation Concerns Resurface Ahead of Fed Meeting; Business Activity Expands",
-          "summary": "Global inflation fears have reignited due to surging energy prices, new U.S. tariffs, and growing AI investment. The Federal Reserve is anticipated to maintain its interest rate target range of 3.50% to 3.75% at its upcoming meeting, with market participants closely monitoring for signals regarding potential rate hikes in September. U.S. business activity saw its fastest expansion in eight months in July, partly attributed to the FIFA World Cup.",
+          "id": "oil-prices-fall-jul24",
+          "headline": "Oil Prices Ease Slightly, Brent Crude Settles Below $97",
+          "summary": "Brent crude oil prices fell almost 4% to settle at $96.78 a barrel, the first weekly decline after a surge earlier in the week. This dip offered a slight alleviation of inflation fears, though ongoing Middle East tensions continue to underpin energy market volatility.",
           "tags": [
-            "Economic News",
-            "Inflation",
-            "Federal Reserve",
-            "Economic Data"
+            "Energy",
+            "Oil",
+            "Inflation"
           ]
         },
         {
-          "id": "geopolitical-trade",
-          "headline": "New US Tariffs Imposed; Oil Prices Volatile Amid Middle East Tensions",
-          "summary": "The U.S. implemented new tariffs ranging from 10% to 12.5% on imports from numerous trading partners, replacing earlier temporary levies. Brent crude oil prices showed significant volatility, falling nearly 4% to $96.78 a barrel on Friday after earlier hitting $102 during the week, influenced by ongoing conflicts in the Middle East.",
+          "id": "q2-earnings-s&p500-jul24",
+          "headline": "S&P 500 Q2 Earnings Show Strong Growth, Beating Estimates",
+          "summary": "With 27% of S&P 500 companies having reported, Q2 2026 blended earnings growth is at 37.9%, potentially marking the highest growth since Q3 2021. A remarkable 86% of companies have reported actual EPS above estimates, significantly exceeding historical averages.",
+          "tags": [
+            "Earnings Season",
+            "S&P 500",
+            "Corporate Results"
+          ]
+        },
+        {
+          "id": "geopolitical-trade-concerns-jul24",
+          "headline": "New Tariffs and Middle East Tensions Weigh on Global Market Sentiment",
+          "summary": "New tariffs imposed by the U.S. on goods from 60 countries, replacing expiring ones, coupled with heavy fighting in the Middle East, fueled investor nervousness. These geopolitical and trade risks introduce uncertainty regarding supply chains, input costs, and overall corporate margins.",
           "tags": [
             "Geopolitics",
             "Trade",
-            "Oil Prices"
-          ]
-        },
-        {
-          "id": "earnings-season-focus",
-          "headline": "Q2 Earnings Season Kicks Off with Mixed Results; Big Tech Reports Loom",
-          "summary": "The second-quarter earnings season commenced with varied outcomes. Tesla ($TSLA) declined 18% over the week after missing Q2 operating profit forecasts, while Intel ($INTC) shares fell nearly 8% on Friday due to AI spending concerns despite beating revenue estimates. Next week will feature critical earnings reports from major tech companies, including Apple, Microsoft, Meta Platforms, and Amazon, as well as key AI supply chain players.",
-          "tags": [
-            "Earnings Season",
-            "Tech Earnings",
-            "AI"
+            "Tariffs"
           ]
         }
       ]
