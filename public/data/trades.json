@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T08:21:24.678448Z",
+  "generatedAt": "2026-07-28T21:14:17.102238Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Confidence",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$838.31",
+      "entry": "$835.50",
+      "stop": "$800.00",
+      "structure": "Support Test",
+      "trend": "Below 20MA, Above 200MA",
+      "trendLabel": "MA Position",
+      "analysis": "Caterpillar is currently trading below its 20-day moving average but remains above the longer-term 200-day MA, indicating a short-term bearish trend within a long-term uptrend. Volume is below average, and the stock faces high risk due to upcoming earnings on August 4, 2026.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Discretionary",
+      "currentPrice": "$344.78",
+      "entry": "$334.00",
+      "stop": "$315.00",
+      "structure": "50-day MA Test",
+      "trend": "Above 20MA & 50MA",
+      "trendLabel": "MA Position",
+      "analysis": "Home Depot is currently trading above its 20-day and 50-day moving averages, indicating a positive short-to-medium term trend. Volume is slightly elevated, suggesting healthy investor interest. No immediate earnings report is expected within the next 5 days, making it a viable momentum play with a pullback to the 50-day MA as a potential entry.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$QUBT",
+      "name": "Quantum Computing Inc.",
+      "sector": "Technology",
+      "currentPrice": "$7.36",
+      "entry": "$6.20",
+      "stop": "$5.80",
+      "structure": "52-week Low Test",
+      "trend": "RVOL << 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "Quantum Computing Inc. is in a strong bearish downtrend, trading significantly below all major moving averages and near its 52-week low. Relative volume is substantially below average, indicating a lack of investor interest. The stock is considered high risk due to an upcoming earnings announcement on August 10/13, 2026.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
