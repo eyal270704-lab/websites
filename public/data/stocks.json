@@ -1,168 +1,131 @@
 {
-  "generatedAt": "2026-07-28T09:34:00Z",
+  "generatedAt": "2026-07-28T13:29:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "July 28, 2026 - Pre-market and Monday's Close",
-  "badge": "PRE-MARKET",
+  "title": "Daily Market Digest: July 28, 2026",
+  "subtitle": "Market sentiment mixed as investors eye Big Tech earnings and Fed decision.",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse",
+      "id": "market-pulse-today",
+      "title": "Market Pulse: July 28, 2026",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july28",
-          "headline": "US Futures Mixed as Investors Await Tech Earnings and Fed Decision",
-          "summary": "US stock futures are displaying mixed to lower trends in early trading, reflecting investor caution ahead of a packed week featuring major technology earnings and the Federal Reserve's two-day policy meeting. Concerns surrounding AI chip demand, rising corporate spending, and persistent geopolitical tensions in the Middle East are contributing to the subdued sentiment. The Federal Reserve is anticipated to begin its meeting today, with markets pricing in a notable chance of an interest rate hike. Not financial advice.",
+          "id": "overall-summary",
+          "headline": "Futures Mixed Ahead of Tech Earnings and Fed Meeting",
+          "summary": "U.S. stock futures traded mixed on Tuesday as investors awaited a crucial week featuring a wave of Big Tech earnings and the Federal Reserve's latest interest rate decision, expected Wednesday. Semiconductor stocks continued to face pressure amid concerns over AI capital spending and increasing competition from China. Oil prices extended their decline, offering some relief on inflation concerns.",
           "tags": [
-            "Pre-market",
-            "Fed Meeting",
-            "Tech Earnings",
-            "AI"
+            "Market Overview",
+            "Futures",
+            "Fed",
+            "Earnings"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Close July 27, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "-0.1%",
-          "statContext": "Pre-market trading, July 28, 2026"
+          "id": "sp500-close",
+          "statLabel": "S&P 500",
+          "statValue": "7,413.43",
+          "statContext": "+0.02% (Monday Close)"
         },
         {
-          "id": "sp500-mondayclose",
-          "statLabel": "S&P 500 (July 27 Close)",
-          "statValue": "+0.02%",
-          "statContext": "Closed at 7,413.43 points"
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "24,932.08",
+          "statContext": "-0.18% (Monday Close)"
         },
         {
-          "id": "nasdaq-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "-0.5%",
-          "statContext": "Pre-market trading, July 28, 2026"
-        },
-        {
-          "id": "nasdaq-mondayclose",
-          "statLabel": "NASDAQ Composite (July 27 Close)",
-          "statValue": "-0.16%",
-          "statContext": "Closed at 24,934.61 points"
-        },
-        {
-          "id": "dow-premarket",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "+0.06%",
-          "statContext": "Pre-market trading, July 28, 2026, up 30 points"
-        },
-        {
-          "id": "dow-mondayclose",
-          "statLabel": "Dow Jones Ind. Avg. (July 27 Close)",
-          "statValue": "+0.49%",
-          "statContext": "Closed at 52,202.83 points"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "52,202.83",
+          "statContext": "+0.49% (Monday Close)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Intraday/Pre-Market July 28, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "opko-gainer",
-          "headline": "OPKO Health surges on strong Q2 and raised guidance",
-          "ticker": "$OPKO",
+          "id": "shop-gainer",
+          "headline": "Shopify surged on strong software defensibility.",
+          "ticker": "$SHOP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
+          "changePercent": "+11.54%",
           "direction": "up",
-          "summary": "OPKO Health shares jumped 9% in pre-market trading after the company reported better-than-expected Q2 revenue and earnings, and subsequently raised its full-year 2026 revenue guidance.",
-          "tags": [
-            "Gainer",
-            "Earnings",
-            "Guidance"
-          ]
-        },
-        {
-          "id": "cls-gainer",
-          "headline": "Celestica gains after exceeding Q2 estimates",
-          "ticker": "$CLS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4%",
-          "direction": "up",
-          "summary": "Celestica saw a 4% increase in pre-market trading, benefiting from strong Q2 revenue and earnings that surpassed analyst expectations, leading to an upgraded FY2026 outlook.",
-          "tags": [
-            "Gainer",
-            "Earnings",
-            "Outlook"
-          ]
+          "summary": "Shopify jumped 11.54% following positive commentary from RBC highlighting its strong software defensibility using a new TCO model."
         },
         {
           "id": "wday-gainer",
-          "headline": "Workday extends gains, up 9.0% on Monday",
+          "headline": "Workday rose on AI-driven software commentary.",
           "ticker": "$WDAY",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+9.0%",
           "direction": "up",
-          "summary": "Workday continued its upward trajectory, closing Monday with a 9.0% gain, part of a persistent positive trend over several weeks.",
-          "tags": [
-            "Gainer",
-            "Monday's Close"
-          ]
+          "summary": "Workday gained 9.0% today after RBC offered commentary on AI-driven software displacement and vendor defensibility, suggesting persistent strength."
         },
         {
-          "id": "aehr-loser",
-          "headline": "Aehr Test Systems drops on shelf registration filing",
-          "ticker": "$AEHR",
+          "id": "opk-gainer",
+          "headline": "OPKO Health beat Q2 estimates and raised guidance.",
+          "ticker": "$OPK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5%",
-          "direction": "down",
-          "summary": "Shares of Aehr Test Systems declined 5% in pre-market trading following the company's filing of a mixed shelf registration with the SEC, which investors often view as a potential for future dilution.",
-          "tags": [
-            "Loser",
-            "Dilution Concerns"
-          ]
+          "changePercent": "+9%",
+          "direction": "up",
+          "summary": "OPKO Health shares rose 9% after the company surpassed Q2 revenue and earnings estimates and subsequently raised its full-year revenue guidance."
         },
         {
-          "id": "uhs-loser",
-          "headline": "Universal Health Services cuts guidance, misses earnings",
-          "ticker": "$UHS",
+          "id": "sndk-loser",
+          "headline": "SanDisk dipped amid mixed AI chip headlines.",
+          "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4%",
+          "changePercent": "-11.02%",
           "direction": "down",
-          "summary": "Universal Health Services stock fell 4% in pre-market after the hospital operator lowered its FY2026 EPS guidance and reported Q2 earnings below consensus estimates.",
-          "tags": [
-            "Loser",
-            "Earnings Miss",
-            "Guidance Cut"
-          ]
+          "summary": "SanDisk fell 11.02% due to recent target changes and mixed headlines surrounding memory and AI chips, continuing a multi-week decline."
         },
         {
-          "id": "semiconductors-loser",
-          "headline": "AI chip stocks slide amid spending and competition concerns",
-          "ticker": "$NVDA",
+          "id": "vg-loser",
+          "headline": "Venture Global declined on energy project news.",
+          "ticker": "$VG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "Down 1.1% to 4.6%",
+          "changePercent": "-10.41%",
           "direction": "down",
-          "summary": "Major semiconductor companies like Nvidia, Micron, and Applied Materials saw pre-market declines ranging from 1.1% to 4.6% as investors grow cautious over corporate spending on AI infrastructure and increasing Chinese competition.",
-          "tags": [
-            "Loser",
-            "AI",
-            "Semiconductors",
-            "Premarket"
-          ]
+          "summary": "Venture Global saw a 10.41% decline as traders reacted to headlines concerning its energy infrastructure projects."
+        },
+        {
+          "id": "lite-loser",
+          "headline": "Lumentum Holdings dropped on president's departure.",
+          "ticker": "$LITE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.69%",
+          "direction": "down",
+          "summary": "Lumentum Holdings dropped 6.69% following the announcement that its president will depart the company."
+        },
+        {
+          "id": "mu-loser",
+          "headline": "Micron Technology slid in pre-market trading.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.6%",
+          "direction": "down",
+          "summary": "Micron Technology slid 4.6% in pre-market trading, reflecting ongoing pressure on semiconductor stocks amid broader concerns in the AI chip sector."
         }
       ]
     },
@@ -173,63 +136,75 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-july28",
-          "headline": "Federal Reserve Kicks Off Critical Two-Day Policy Meeting",
-          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) commences its fifth meeting of 2026 today, running through Wednesday. Markets are closely watching for any signals regarding interest rate adjustments, with approximately a one-third to 38% probability of a rate hike being priced in. The Committee will focus on inflation risks, including those tied to recent energy disruptions, and Chair Kevin Warsh's guidance on future policy.",
+          "id": "fed-meeting",
+          "headline": "Federal Reserve Kicks Off Policy Meeting",
+          "summary": "The Federal Reserve began its two-day policy meeting today, July 28, with a rate decision expected on Wednesday. Most economists anticipate the central bank will maintain its benchmark policy rate in the 3.50%-3.75% range, marking the fifth consecutive meeting without a change since December 2025. Attention will be on policymakers' guidance for future rate moves amidst mixed inflation signals.",
           "tags": [
-            "Fed Meeting",
-            "Interest Rates",
+            "Fed",
+            "Monetary Policy",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "big-tech-earnings",
+          "headline": "Big Tech Earnings and AI Spending Under Scrutiny",
+          "summary": "A wave of major technology companies, including Amazon ($AMZN), Meta Platforms ($META), Apple ($AAPL), and Microsoft ($MSFT), are scheduled to report earnings this week. Investors are keenly watching for insights into corporate spending on artificial intelligence and its impact on the broader economy, especially after weakness in semiconductor stocks pressured the Nasdaq Composite on Monday.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "ups-earnings",
+          "headline": "UPS Reports Strong Q2 Results, Raises Full-Year Guidance",
+          "summary": "United Parcel Service ($UPS) announced second-quarter 2026 consolidated revenues of $22.8 billion and non-GAAP adjusted diluted earnings per share of $1.76. The company also raised its guidance for consolidated revenue to approximately $91.2 billion for the full year 2026.",
+          "tags": [
+            "Earnings",
+            "Logistics",
+            "$UPS"
+          ]
+        },
+        {
+          "id": "centene-earnings",
+          "headline": "Centene Corporation Increases 2026 EPS Guidance",
+          "summary": "Centene Corporation ($CNC) reported second-quarter 2026 GAAP diluted earnings per share of $2.19 and adjusted diluted earnings per share of $2.51. The company raised its 2026 adjusted diluted EPS guidance to greater than $4.80, citing underlying business strength.",
+          "tags": [
+            "Earnings",
+            "Healthcare",
+            "$CNC"
+          ]
+        },
+        {
+          "id": "jetblue-earnings",
+          "headline": "JetBlue Exceeds Expectations, Sets 2028 EPS Target",
+          "summary": "JetBlue Airways ($JBLU) announced second-quarter 2026 operating revenue of $2.7 billion, a 14.5% year-over-year increase, driven by strong demand. The airline introduced a long-term financial target of at least $1.00 in earnings per share for 2028.",
+          "tags": [
+            "Earnings",
+            "Airlines",
+            "$JBLU"
+          ]
+        },
+        {
+          "id": "oil-prices",
+          "headline": "Oil Prices Continue to Decline on De-escalation Hopes",
+          "summary": "Oil prices extended their decline on Tuesday, with Brent crude down 1.85% at $85.88 a barrel and WTI crude falling 1.31% to $81.20 a barrel. This follows significant drops on Monday, driven by a pause in hostilities between the U.S. and Iran, raising hopes for a broader de-escalation and easing inflation concerns.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "tech-earnings-week",
-          "headline": "Big Tech Earnings Set to Drive Market Volatility This Week",
-          "summary": "This week marks a significant period for earnings reports from major technology companies, including Amazon, Meta Platforms, Microsoft, and Apple. Investors are keenly focused on these reports for insights into continued spending on artificial intelligence infrastructure and the broader health of the tech sector. Expectations are high, with the semiconductor and information technology sectors projected to lead in Q2 earnings growth.",
+          "id": "sector-performance",
+          "headline": "Semiconductor Sector Under Pressure, Consumer Staples Lead",
+          "summary": "The semiconductor sector remained under pressure, with stocks like Micron Technology ($MU), AMD ($AMD), and Nvidia ($NVDA) experiencing declines due to escalating concerns over AI ecosystem financing and rising Chinese competition. Meanwhile, consumer staples and communication services were among the leading sectors at Monday's close.",
           "tags": [
-            "Tech",
-            "Earnings Season",
-            "AI"
-          ]
-        },
-        {
-          "id": "sp500-50day-average",
-          "headline": "Majority of S&P 500 Stocks Above 50-Day Moving Average",
-          "summary": "For the first time since February, most stocks within the S&P 500 are trading above their 50-day moving average, a technical indicator often seen as a sign of underlying market strength. Approximately 70% of the index's constituents also remain above their 200-day moving average.",
-          "tags": [
-            "Market Breadth",
-            "Technical Analysis",
-            "S&P 500"
-          ]
-        },
-        {
-          "id": "apple-outperforms",
-          "headline": "Apple Stock Significantly Outperforms Nasdaq 100 in July",
-          "summary": "Apple's stock ($AAPL) has demonstrated remarkable performance in July, outperforming the Nasdaq 100 index by 23 percentage points. This strong showing is attributed to a shift in investor sentiment, with Apple's cautious approach to AI now viewed as a strategic advantage rather than a drawback.",
-          "tags": [
-            "Tech",
-            "Apple",
-            "Performance",
-            "AI"
-          ]
-        },
-        {
-          "id": "durable-goods-orders",
-          "headline": "US Durable Goods Orders Rise Less Than Expected",
-          "summary": "US durable goods orders for Monday rose by 0.3% month-over-month, falling short of the 1.6% expectation. However, core durable capital goods orders showed a stronger increase of 0.9% for the month.",
-          "tags": [
-            "Economic Data",
-            "Manufacturing"
-          ]
-        },
-        {
-          "id": "margin-debt-concern",
-          "headline": "Record High Margin Debt Raises Market Alarm",
-          "summary": "Total U.S. stock market margin debt has reached an unprecedented $1.53 trillion, according to FINRA. This record level reflects aggressive borrowing by investors to leverage portfolios, raising concerns about potential deleveraging and increased pressure on growth stocks, particularly with rising interest rates.",
-          "tags": [
-            "Market Risk",
-            "Leverage",
-            "Growth Stocks"
+            "Sectors",
+            "Technology",
+            "Consumer Staples",
+            "Semiconductors"
           ]
         }
       ]
