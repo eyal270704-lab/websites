@@ -1,162 +1,156 @@
 {
-  "generatedAt": "2026-07-28T17:37:00Z",
+  "generatedAt": "2026-07-29T09:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "July 28, 2026: Semiconductor Sell-off Contrasts with Strong Earnings",
+  "title": "Daily Market Digest: July 29, 2026",
+  "subtitle": "Market overview as of end-of-day, July 29, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Tech Headwinds vs. Earnings Momentum",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260728",
-          "headline": "US Markets Mixed as Tech Sector Falters Amid Strong Blue-Chip Earnings",
-          "summary": "US stocks experienced a mixed session today, with major indices diverging. A significant sell-off in semiconductor and AI-related stocks weighed heavily on the Nasdaq Composite, while robust earnings reports from traditional blue-chip companies buoyed the Dow Jones Industrial Average. Overall market sentiment was also impacted by a decline in consumer confidence and anticipation of the Federal Reserve's upcoming policy decision. Oil prices continued to ease from their recent highs, offering some relief.",
+          "id": "market-summary-july29",
+          "headline": "U.S. Markets Close Mixed Amid Fed Decision and Tech Earnings",
+          "summary": "U.S. equities saw a mixed close today as investors digested the Federal Reserve's latest interest rate decision and anticipated earnings reports from major tech companies. The Dow Jones Industrial Average posted solid gains, while the S&P 500 edged higher. Conversely, the Nasdaq Composite faced pressure, primarily from the semiconductor sector, which continued its recent downtrend. Overall market sentiment was a blend of cautious optimism from defensive sectors and ongoing concerns over AI investment returns.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
+            "Fed",
             "Earnings",
-            "Tech Sell-off",
-            "Fed Anticipation"
-          ]
+            "Tech"
+          ],
+          "timestamp": "2026-07-29T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance Today",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260728",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "+0.39%",
-          "statContext": "Closed higher amid mixed market signals."
+          "statValue": "7,444.00",
+          "statContext": "+14.86 (+0.20%) Today",
+          "ticker": "$SPX",
+          "change": "+14.86",
+          "changePercent": "+0.20%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-20260728",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "52,747.32",
+          "statContext": "+537.24 (+1.03%) Today",
+          "ticker": "$DJIA",
+          "change": "+537.24",
+          "changePercent": "+1.03%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "-0.63%",
-          "statContext": "Fell due to a significant sell-off in semiconductor and AI stocks."
-        },
-        {
-          "id": "dow-20260728",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "+1.19%",
-          "statContext": "Climbed, boosted by strong earnings from blue-chip companies."
+          "statValue": "24,876.91",
+          "statContext": "-54.88 (-0.22%) Today",
+          "ticker": "$IXIC",
+          "change": "-54.88",
+          "changePercent": "-0.22%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Gainers and Losers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "iqv-gainer",
-          "headline": "IQVIA Holdings Soars on Strong Earnings",
-          "ticker": "$IQV",
+          "id": "bloom-energy-gainer",
+          "headline": "Bloom Energy Soars on Strong Q2 Results",
+          "summary": "Shares of Bloom Energy ($BE) jumped 11% after the fuel cell maker reported record Q2 results, surpassing revenue and earnings expectations and raising its full-year outlook. This surge was primarily driven by accelerating demand from AI data centers and hyperscale customers.",
+          "ticker": "$BE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.7%",
-          "direction": "up",
-          "summary": "IQVIA Holdings surged in early trading after beating Wall Street's second-quarter earnings estimates and increasing its full-year financial guidance."
+          "changePercent": "+11.0%",
+          "direction": "up"
         },
         {
-          "id": "shw-gainer",
-          "headline": "Sherwin-Williams Rallies on Q2 Beat",
-          "ticker": "$SHW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.5%",
-          "direction": "up",
-          "summary": "Sherwin-Williams gained significantly after the paint manufacturer reported a second-quarter financial beat and raised its full-year profit outlook."
-        },
-        {
-          "id": "ko-gainer",
-          "headline": "Coca-Cola Advances on Revenue Growth",
+          "id": "coca-cola-gainer",
+          "headline": "Coca-Cola Rallies After Raising Forecasts",
+          "summary": "Coca-Cola ($KO) rallied 5.0% today after the beverage giant raised its annual revenue and profit forecasts, attributing strong performance partly to the FIFA World Cup.",
           "ticker": "$KO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.1%",
-          "direction": "up",
-          "summary": "Coca-Cola advanced as the company reported a 7% increase in revenue for the second quarter."
+          "changePercent": "+5.0%",
+          "direction": "up"
         },
         {
-          "id": "glw-loser",
-          "headline": "Corning Tumbles on Disappointing Guidance",
-          "ticker": "$GLW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-20%",
-          "direction": "down",
-          "summary": "Corning tumbled after delivering disappointing third-quarter revenue guidance, signaling a near-term slowdown in capital spending by wireless carriers."
-        },
-        {
-          "id": "sndk-loser",
-          "headline": "SanDisk Falls Amid Competition Concerns",
+          "id": "sandisk-loser",
+          "headline": "SanDisk Continues Slide Amid Market Pressures",
+          "summary": "SanDisk ($SNDK) experienced a significant drop of 14.2%, extending its month-long decline. This movement is part of broader market pressures, particularly affecting the tech and semiconductor sectors.",
           "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.1%",
-          "direction": "down",
-          "summary": "SanDisk fell significantly amid concerns about Chinese competition and sector-wide profit-taking in AI memory stocks."
+          "changePercent": "-14.2%",
+          "direction": "down"
         },
         {
-          "id": "amd-loser",
-          "headline": "AMD Slumps as Chip Sell-off Continues",
-          "ticker": "$AMD",
+          "id": "micron-loser",
+          "headline": "Micron Shares Fall as Chip Sector Weakens",
+          "summary": "Micron ($MU) shares fell approximately 9% today, reflecting the continued pressure on semiconductor stocks. The broader Philadelphia Semiconductor Index tumbled 4.5%, driven by concerns over AI-related spending and chipmaking advancements.",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8%",
-          "direction": "down",
-          "summary": "Advanced Micro Devices declined in midday trading, facing pressure from rising competition and investor concerns over significant AI expenditures by tech giants."
+          "changePercent": "-9.0%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Key Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-20260728",
-          "headline": "Semiconductor Sector Faces Steep Sell-off Amid AI Concerns",
-          "summary": "The semiconductor and artificial intelligence sectors experienced significant selling pressure today, with stocks like Micron Technology and Nvidia notably declining. This downturn is attributed to broad selling in Asian markets, concerns over lower-cost AI models emerging from China, and questions about the profitability and cash burn associated with substantial AI infrastructure investments. In contrast, sectors benefiting from strong corporate earnings, particularly traditional blue-chip companies, showed resilience, indicating a potential rotation out of the heavily-weighted tech growth stocks.",
+          "id": "fed-announcement",
+          "headline": "Federal Reserve Holds Rates Steady Amid Inflation Watch",
+          "summary": "The Federal Reserve's Open Market Committee (FOMC) announced its decision to leave interest rates unchanged today, maintaining the target range at 3.5% to 3.75%. This marks the fifth consecutive meeting without a rate hike. While experts largely predicted this hold, rising oil prices have prompted increased speculation about potential rate hikes later in the year to combat persistent inflation.",
+          "tags": [
+            "Fed",
+            "Interest Rates",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-07-29T14:00:00Z"
+        },
+        {
+          "id": "tech-earnings-focus",
+          "headline": "Big Tech Earnings Season Heats Up with Microsoft and Meta Reports",
+          "summary": "Earnings season entered a critical phase today as tech giants Microsoft ($MSFT), Meta Platforms ($META), and Qualcomm ($QCOM) reported their quarterly results after market close. These reports are keenly watched by investors amidst heightened volatility and concerns over elevated valuations and aggressive spending on artificial intelligence infrastructure. Apple ($AAPL) and Amazon ($AMZN) are set to follow on Thursday.",
+          "tags": [
+            "Earnings",
+            "Tech Stocks",
+            "AI"
+          ],
+          "timestamp": "2026-07-29T16:05:00Z"
+        },
+        {
+          "id": "sector-rotation-ai-concerns",
+          "headline": "Defensive Sectors Lead as AI Spending Woes Weigh on Tech",
+          "summary": "Today saw a notable rotation into defensive sectors, with healthcare jumping 2.4%, consumer staples gaining 2.0%, and materials advancing 1.7%. This shift comes as the technology sector, particularly chipmakers, continued to lag, with the S&P 500 technology index down 1.4%. Investors are increasingly concerned about whether massive investments in AI infrastructure will yield sufficient returns, a sentiment echoed by warnings from Fitch and Moody's regarding potential credit risks.",
           "tags": [
             "Sector Analysis",
+            "AI",
             "Technology",
-            "Semiconductors",
-            "AI"
-          ]
-        },
-        {
-          "id": "economic-data-20260728",
-          "headline": "Consumer Confidence Declines, Fed Decision Awaited",
-          "summary": "The Conference Board Consumer Confidence Index fell by 1.4 points to 90.8 in July, marking the third consecutive monthly decline in consumers' views of current business and labor market conditions. This dip is linked to renewed inflation concerns stemming from rising gas prices. Meanwhile, investors are keenly awaiting the Federal Reserve's latest policy decision on Wednesday, with most economists expecting the central bank to maintain its benchmark policy rate in the 3.50%-3.75% range. Oil prices continued to ease today, further retreating from the two-month highs seen last week, which provided some relief to the broader market.",
-          "tags": [
-            "Economic News",
-            "Consumer Confidence",
-            "Federal Reserve",
-            "Inflation",
-            "Oil Prices"
-          ]
-        },
-        {
-          "id": "earnings-week-20260728",
-          "headline": "Major Earnings Reports Drive Individual Stock Movements",
-          "summary": "Earnings season is in full swing, with several major companies reporting today and more on the horizon. Coca-Cola ($KO) climbed 7.1% following a 7% increase in revenue, while Sherwin-Williams ($SHW) rallied on stronger-than-expected profits. IQVIA Holdings ($IQV) also saw a significant jump after exceeding Q2 estimates and raising guidance. United Parcel Service ($UPS) announced Q2 revenues of $22.8 billion and raised its full-year outlook. Boeing ($BA) reported Q2 revenue of $24.6 billion, alongside a GAAP loss per share of ($0.67). Looking ahead, tech giants like Apple ($AAPL), Amazon ($AMZN), Meta Platforms ($META), and Microsoft ($MSFT) are scheduled to release their earnings this week, with markets focused on their insights into AI spending and future growth.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News",
-            "Q2 Earnings"
-          ]
+            "Defensive Stocks"
+          ],
+          "timestamp": "2026-07-29T16:00:00Z"
         }
       ]
     }
