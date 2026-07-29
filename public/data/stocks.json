@@ -1,183 +1,198 @@
 {
-  "generatedAt": "2026-07-29T13:44:00Z",
+  "generatedAt": "2026-07-29T17:17:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 29, 2026",
-  "badge": "LIVE",
+  "subtitle": "July 29, 2026 - End of Day Report",
+  "badge": "End of Day Report",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Tech Sell-off and Fed Watch Define Trading Day",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overview-today",
-          "headline": "U.S. Markets Mixed as Investors Await Fed Decision and Monitor Earnings",
-          "summary": "U.S. stock futures showed mixed movements early Wednesday as market participants braced for the Federal Reserve's interest rate decision later today. This follows a Tuesday session where the Dow Jones Industrial Average and S&P 500 closed higher, driven by robust corporate earnings and declining energy prices, while the Nasdaq Composite ended in negative territory due to a continued sell-off in chip stocks. Geopolitical tensions in the Middle East, leading to a rise in oil prices, and the ongoing earnings season remain key factors influencing market sentiment.",
+          "id": "pulse-summary-1",
+          "headline": "U.S. Equities Decline Amid Tech Weakness and Anticipation of Fed Decision",
+          "summary": "U.S. stock markets ended lower today, primarily driven by a continued sell-off in the technology and semiconductor sectors, coupled with investor caution ahead of the Federal Reserve's interest rate decision. Geopolitical tensions in the Middle East further fueled volatility and pushed oil prices higher, adding to inflation concerns. Not financial advice.",
           "tags": [
             "Market Overview",
             "Fed Decision",
-            "Earnings",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-07-29T13:44:00Z"
+            "Tech Sell-off"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Tuesday's Close)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,428.78",
-          "statContext": "Up 0.2% (+14.86 points)"
+          "statValue": "-0.46%",
+          "statContext": "Closed lower today, extending recent declines amid tech sector weakness.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "24,876.91",
-          "statContext": "Down 0.2% (-49.75 points)"
+          "statValue": "-0.62%",
+          "statContext": "Underperformed as chip and technology stocks faced significant selling pressure.",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,747.32",
-          "statContext": "Up 1.0% (+537.24 points)"
+          "statValue": "-1.16%",
+          "statContext": "Fell today as investors rotated out of growth stocks into more defensive assets.",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Early Wednesday Trading)",
+      "title": "Top Movers Today",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "be-gainer",
-          "headline": "Bloom Energy Surges on Strong Q2 Results",
-          "summary": "Bloom Energy ($BE) jumped 11% in early trading after the fuel cell maker reported record second-quarter results, surpassing both revenue and earnings expectations and raising its full-year outlook.",
-          "ticker": "$BE",
-          "price": "$182.40",
-          "change": "+$15.56",
-          "changePercent": "+9.33%",
+          "id": "shw-gainer",
+          "headline": "Sherwin-Williams Jumps on Strong Earnings",
+          "summary": "Shares of $SHW climbed 8.3% to $3.7 after the company reported better-than-expected second-quarter 2026 earnings, surpassing the Zacks Consensus Estimate.",
+          "ticker": "$SHW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.3%",
           "direction": "up"
         },
         {
-          "id": "sats-gainer",
-          "headline": "EchoStar Gains Momentum in Pre-Market",
-          "summary": "EchoStar Corporation ($SATS) saw significant gains in pre-market trading.",
-          "ticker": "$SATS",
-          "price": "$96.20",
-          "change": "+$10.30",
-          "changePercent": "+11.99%",
+          "id": "ctsh-gainer",
+          "headline": "Cognizant Technology Solutions Rises on Revenue Growth",
+          "summary": "$CTSH gained 7.7% today, fueled by robust second-quarter revenue growth and strong performance in its financial services segment, alongside expanding artificial intelligence partnerships.",
+          "ticker": "$CTSH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.7%",
           "direction": "up"
         },
         {
-          "id": "gnrc-gainer",
-          "headline": "Generac Holdings Up on Positive Sentiment",
-          "summary": "Generac Holdings Inc. ($GNRC) posted a strong performance in early Wednesday trading.",
-          "ticker": "$GNRC",
-          "price": "$213.97",
-          "change": "+$18.37",
-          "changePercent": "+9.39%",
+          "id": "f-gainer",
+          "headline": "Ford Motor Co. Surges After Earnings Beat",
+          "summary": "$F climbed 5.6% following a strong second-quarter earnings beat and an upward revision of its full-year profit and cash flow guidance.",
+          "ticker": "$F",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.6%",
           "direction": "up"
         },
         {
-          "id": "csgp-loser",
-          "headline": "CoStar Group Leads Pre-Market Declines",
-          "summary": "CoStar Group, Inc. ($CSGP) was among the biggest losers in early Wednesday trading.",
-          "ticker": "$CSGP",
-          "price": "$25.61",
-          "change": "-$4.72",
-          "changePercent": "-15.56%",
+          "id": "sndk-loser",
+          "headline": "SanDisk Plunges as Chip Sector Faces Pressure",
+          "summary": "SanDisk ($SNDK) experienced a significant drop of 13.33% to $1,107.84, shedding $170.39 during the session, as the semiconductor sector continues to face heavy selling pressure and profit-taking.",
+          "ticker": "$SNDK",
+          "price": "$1,107.84",
+          "change": "-$170.39",
+          "changePercent": "-13.33%",
           "direction": "down"
         },
         {
-          "id": "vrt-loser",
-          "headline": "Vertiv Holdings Falls in Early Trading",
-          "summary": "Vertiv Holdings Co ($VRT) experienced a notable drop in early Wednesday trading.",
-          "ticker": "$VRT",
-          "price": "$233.97",
-          "change": "-$35.59",
-          "changePercent": "-13.20%",
+          "id": "cohr-loser",
+          "headline": "Coherent Declines Amid Tech Sector Weakness",
+          "summary": "Coherent ($COHR) declined 12.58% to $237.18, losing $34.13, reflecting broader weakness in technology and semiconductor stocks.",
+          "ticker": "$COHR",
+          "price": "$237.18",
+          "change": "-$34.13",
+          "changePercent": "-12.58%",
           "direction": "down"
         },
         {
-          "id": "klac-loser",
-          "headline": "KLA Corporation Declines Amid Chip Sell-off",
-          "summary": "KLA Corporation ($KLAC) saw a significant decline in early Wednesday trading, reflecting broader weakness in the semiconductor sector.",
-          "ticker": "$KLAC",
-          "price": "$175.00",
-          "change": "-$15.80",
-          "changePercent": "-8.28%",
+          "id": "vfc-loser",
+          "headline": "V.F. Corp. Misses Earnings Expectations",
+          "summary": "V.F. Corp. ($VFC) fell 17.64% to $15.03 after reporting its first earnings miss in the last four quarters, with results below analyst expectations.",
+          "ticker": "$VFC",
+          "price": "$15.03",
+          "change": "N/A",
+          "changePercent": "-17.64%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis: Tech and Energy Lag, Staples and Healthcare Lead Rotation",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "sector-summary-1",
+          "headline": "Technology and Semiconductor Sectors Under Severe Pressure",
+          "summary": "The technology and semiconductor sectors were significant laggards today, continuing a trend of 'risk-off' rotation. Investors pulled capital from high-multiple AI infrastructure stocks, leading to sharp declines across chipmakers and data infrastructure companies.",
+          "tags": [
+            "Technology",
+            "Semiconductors",
+            "Lagging"
+          ]
+        },
+        {
+          "id": "sector-summary-2",
+          "headline": "Defensive Sectors Gain as Market Rotates",
+          "summary": "In a notable sector rotation, defensive segments such as healthcare and consumer staples showed strength. These sectors saw increased buying interest as investors sought refuge from the volatility in growth-oriented technology stocks.",
+          "tags": [
+            "Healthcare",
+            "Consumer Staples",
+            "Leading",
+            "Sector Rotation"
+          ]
+        },
+        {
+          "id": "sector-summary-3",
+          "headline": "Energy Sector Sees Volatility Amid Geopolitical Events",
+          "summary": "The energy sector experienced significant price swings, largely driven by escalating geopolitical tensions in the Middle East. While some energy stocks benefited from rising crude oil prices, the overall sentiment remained cautious due to global supply concerns.",
+          "tags": [
+            "Energy",
+            "Volatility",
+            "Geopolitics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Key Economic and Earnings News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "fed-decision",
-          "headline": "Federal Reserve's FOMC Meeting Concludes Today, Rates Expected to Hold Steady",
-          "summary": "The Federal Open Market Committee (FOMC) concludes its two-day meeting today, July 29, 2026. The committee is widely anticipated to keep its benchmark interest rate unchanged in the range of 3.50% to 3.75% for the fifth consecutive meeting, with the announcement due at 2 p.m. ET, followed by Chair Kevin Warsh's press conference at 2:30 p.m. ET. However, futures markets indicate a non-trivial chance of a hike and some analysts expect potential rate hikes later this year due to persistent inflation concerns.",
+          "headline": "Federal Reserve Holds Rates Steady, Eyes Inflation",
+          "summary": "The Federal Open Market Committee (FOMC) concluded its meeting today, maintaining the benchmark interest rate in the range of 3.50% to 3.75%. While the decision was widely anticipated, Chair Kevin Warsh's press conference was closely watched for clues on future monetary policy, particularly given persistent inflation concerns and rising oil prices.",
           "tags": [
-            "Fed",
+            "Federal Reserve",
             "Interest Rates",
-            "FOMC"
+            "Inflation"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Sector Rotation Sees Healthcare, Communication Services, and Consumer Staples Lead",
-          "summary": "On Tuesday, Health Care (XLV), Communication Services (XLC), and Consumer Staples (XLP) were the strongest performing sectors, gaining 2.4%, 1.9%, and 2% respectively. Conversely, Information Technology (XLK) and Energy (XLE) were the worst performers, falling 1.8% and 1.4% respectively. This indicates a broader market rotation as investors move away from chip stocks and into more defensive assets.",
+          "id": "earnings-q2-summary",
+          "headline": "Q2 Earnings Season Continues with Mixed Results",
+          "summary": "The second-quarter earnings season gained momentum with several major companies reporting. Humana ($HUM), Biogen ($BIIB), and General Dynamics ($GD) posted strong results, while V.F. Corp. ($VFC) missed expectations. Post-market, Microsoft ($MSFT) and Meta Platforms ($META) are among the tech giants releasing their earnings reports, with investors scrutinizing their AI investment returns.",
           "tags": [
-            "Sector Analysis",
-            "Healthcare",
-            "Communication Services",
-            "Consumer Staples",
-            "Technology",
-            "Energy"
+            "Earnings Reports",
+            "Q2 2026",
+            "Corporate Performance"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Consumer Confidence Declines in July",
-          "summary": "The Conference Board reported on Tuesday that consumer confidence dropped to 90.8 in July from an upwardly revised 92.2 in the prior month, missing consensus estimates.",
+          "id": "macro-tensions",
+          "headline": "Geopolitical Tensions Drive Oil Prices Higher",
+          "summary": "Escalating hostilities in the Middle East, including U.S. and Saudi Arabian strikes against Iran-backed forces, pushed Brent crude oil prices up by 5.6% to $86.64 per barrel. This rise in energy costs is contributing to broader inflation concerns and influencing market sentiment.",
           "tags": [
-            "Economic Data",
-            "Consumer Confidence"
-          ]
-        },
-        {
-          "id": "earnings-roundup",
-          "headline": "Major Earnings Boost Dow and S&P; Big Tech Reports Awaited",
-          "summary": "Robust earnings reports from several major companies drove positive movement in the Dow and S&P 500. The Boeing Company ($BA) jumped 4.8% despite a wider-than-expected loss, exceeding revenue estimates. The Coca-Cola Company ($KO) rose 5% after beating earnings expectations, and The Sherwin-Williams Company ($SHW) surged 8.3% on strong quarterly results. Later today, tech giants Microsoft ($MSFT) and Meta Platforms ($META) are scheduled to release their quarterly earnings, alongside reports from SoFi Technologies ($SOFI), Qualcomm ($QCOM), Robinhood Markets ($HOOD), Starbucks ($SBUX), ARM Holdings ($ARM), and Nebius Group ($NBIS).",
-          "tags": [
-            "Earnings",
-            "Boeing",
-            "Coca-Cola",
-            "Sherwin-Williams",
-            "Microsoft",
-            "Meta Platforms"
-          ]
-        },
-        {
-          "id": "geopolitical-oil",
-          "headline": "Oil Prices Jump Amid Renewed Middle East Tensions",
-          "summary": "Oil prices are on the rise again due to renewed hostilities in the Middle East, with Brent crude leaping 5.6% to over US$86 per barrel. This surge in energy costs contributes to broader inflation concerns and could influence future Federal Reserve policy decisions.",
-          "tags": [
-            "Oil Prices",
             "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         }
