@@ -1,83 +1,147 @@
 {
-  "generatedAt": "2026-07-30T09:28:00Z",
+  "generatedAt": "2026-07-30T13:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Overview - July 30, 2026",
-  "badge": "Data Pending",
+  "subtitle": "July 30, 2026 - Intraday Update",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "Markets Await Opening Bell for July 30, 2026 Trading Session",
-          "summary": "As of this report, the U.S. stock markets are either in pre-market hours or have not yet begun their official trading session for July 30, 2026. Comprehensive real-time market data, including major index performance, top movers, and key economic announcements for today, is pending. Traders and investors are anticipating fresh data to shape today's market sentiment. Not financial advice.",
+          "headline": "Tech Sector Rebounds as Microsoft Surges, Investors Weigh Economic Data",
+          "summary": "U.S. stock indices are showing gains today, with the Nasdaq leading the charge, fueled by Microsoft's stronger-than-expected earnings report. This positive movement is helping to offset lingering concerns from the Federal Reserve's decision to keep interest rates steady and mixed economic data releases.",
           "tags": [
-            "Market Open",
-            "Pre-Market",
-            "Pending Data"
-          ]
+            "Market Overview",
+            "Earnings",
+            "Fed",
+            "Economic Data"
+          ],
+          "timestamp": "2026-07-30T13:25:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-status",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "N/A",
-          "statContext": "Data pending for July 30, 2026"
+          "statValue": "Up 0.63%",
+          "statContext": "Intraday (49 points higher)",
+          "timestamp": "2026-07-30T13:25:00Z"
         },
         {
-          "id": "nasdaq-status",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "N/A",
-          "statContext": "Data pending for July 30, 2026"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ",
+          "statValue": "Up 1.57%",
+          "statContext": "Intraday (430 points higher)",
+          "timestamp": "2026-07-30T13:25:00Z"
         },
         {
-          "id": "dow-status",
-          "statLabel": "Dow Jones Industrial Avg",
-          "statValue": "N/A",
-          "statContext": "Data pending for July 30, 2026"
+          "id": "dow-performance",
+          "statLabel": "DOW",
+          "statValue": "Up 0.4%",
+          "statContext": "Intraday (208 points higher)",
+          "timestamp": "2026-07-30T13:25:00Z"
         }
       ]
     },
     {
-      "id": "top-movers-today",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "movers-status",
-          "headline": "Top Gainers & Losers Pending",
-          "summary": "Specific top gainers and losers for the July 30, 2026 trading session are not yet available. Real-time movements will be reported once markets have opened and sufficient trading data has accumulated."
+          "id": "msft-gainer",
+          "headline": "Microsoft Rallies on Strong Cloud Performance",
+          "summary": "Microsoft ($MSFT) shares surged nearly 9% today after the software giant's Azure cloud business exceeded Wall Street's expectations, topping $100 billion in annual revenue for the first time.",
+          "ticker": "$MSFT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9.0%",
+          "direction": "up"
+        },
+        {
+          "id": "meta-loser",
+          "headline": "Meta Platforms Drops on Missed Forecasts and AI Spending Concerns",
+          "summary": "Meta Platforms ($META) shares fell 8.8% after the Facebook parent missed earnings forecasts and provided weaker-than-expected revenue guidance, with a reported 91% drop in second-quarter free cash flow highlighting the strain of its AI investments.",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.8%",
+          "direction": "down"
+        },
+        {
+          "id": "nclh-loser",
+          "headline": "Norwegian Cruise Line Down on Trimmed Full-Year Forecast",
+          "summary": "Norwegian Cruise Line ($NCLH) experienced a decline of 7% today after the company announced a reduction in its full-year earnings forecast.",
+          "ticker": "$NCLH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.0%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-status",
-          "headline": "Economic Calendar & Earnings Reports for July 30, 2026",
-          "summary": "Key economic data releases and major corporate earnings reports scheduled for today, July 30, 2026, are anticipated. Details on any Federal Reserve announcements or significant macro trends impacting the markets will be provided as they become publicly available throughout the day. Not financial advice.",
+          "id": "fed-decision",
+          "headline": "Federal Reserve Holds Rates Steady Amid Dissent",
+          "summary": "The Federal Reserve maintained its key interest rate in the 3.50%-3.75% range for the fifth consecutive meeting on Wednesday, though three officials dissented in favor of a rate hike. Fed Chair Kevin Warsh reiterated commitment to combating inflation but offered limited insight into future policy moves, leaving investors uncertain.",
+          "tags": [
+            "Fed",
+            "Interest Rates",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-07-30T00:00:00Z"
+        },
+        {
+          "id": "gdp-inflation-data",
+          "headline": "U.S. Q2 GDP Growth Slows, Inflation Remains Elevated",
+          "summary": "The U.S. economy expanded at a slower-than-expected annualized rate of 1.5% in the second quarter of 2026, falling short of the anticipated 2.1%. Concurrently, the Personal Consumption Expenditures (PCE) price index, the Fed's preferred inflation gauge, showed annual inflation at 3.7%, still above the central bank's 2% target, despite a monthly dip in June.",
           "tags": [
             "Economic Data",
+            "GDP",
+            "Inflation"
+          ],
+          "timestamp": "2026-07-30T00:00:00Z"
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Technology Sector Shows Mixed Signals; Health Care and Financials Gain Attention",
+          "summary": "The technology sector is experiencing divergent trends; while cloud and AI-driven companies like Microsoft are performing strongly, the broader tech market, particularly semiconductors, faces ongoing liquidation. Analysts suggest a rotation into more defensive sectors such as Health Care and Financials.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Health Care",
+            "Financials"
+          ],
+          "timestamp": "2026-07-30T13:25:00Z"
+        },
+        {
+          "id": "upcoming-earnings",
+          "headline": "Apple and Amazon Earnings Anticipated After Bell",
+          "summary": "Investors are keenly awaiting the quarterly earnings reports from major tech giants Apple ($AAPL) and Amazon ($AMZN), both scheduled to be released after the market closes today.",
+          "tags": [
             "Earnings",
-            "Fed News"
-          ]
+            "Tech"
+          ],
+          "timestamp": "2026-07-30T13:25:00Z"
         }
       ]
     }
