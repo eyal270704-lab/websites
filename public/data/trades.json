@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-31T08:39:18.296870Z",
+  "generatedAt": "2026-07-31T10:46:11.394648Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Retail - Cyclical",
+      "currentPrice": "$338.87",
+      "entry": "$300.29",
+      "stop": "$285.00",
+      "structure": "Support Test",
+      "trend": "RVOL > 1.0",
+      "trendLabel": "Volume",
+      "analysis": "HD is approaching a key support level around $300.29. Price is currently below its 200-day moving average, indicating a bearish long-term trend. However, relative volume is elevated, suggesting increased interest. Upcoming earnings on Aug 18th present high risk.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Capital Goods",
+      "currentPrice": "$809.14",
+      "entry": "$780.00",
+      "stop": "$760.00",
+      "structure": "Support Test",
+      "trend": "RVOL > 1.0",
+      "trendLabel": "Volume",
+      "analysis": "Caterpillar is testing a key support level at $780 after breaking the floor of its medium-term rising trend channel. Price is currently above its 200-day moving average but below shorter-term MAs. Relative volume is elevated, suggesting active trading. Earnings report on August 4th presents a significant near-term catalyst.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc.",
+      "sector": "Financial Services",
+      "currentPrice": "$33.91",
+      "entry": "$29.23",
+      "stop": "$28.00",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Zillow is in a significant downtrend, trading well below its 200-day moving average and approaching its 52-week low. An entry near the 52-week low of $29.23 could be a speculative bounce play. However, upcoming earnings on August 5th introduce substantial risk.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
