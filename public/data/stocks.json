@@ -1,201 +1,166 @@
 {
-  "generatedAt": "2026-07-31T09:42:00Z",
+  "generatedAt": "2026-07-31T13:39:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "July 31, 2026",
+  "subtitle": "Friday, July 31, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: AI Earnings Fuel Optimism Ahead of Key Economic Data",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july-31",
-          "headline": "U.S. Futures Point Higher, Driven by Strong Tech Earnings and Easing Inflation Expectations",
-          "summary": "U.S. stock futures are showing gains this morning as investors continue to digest robust earnings reports from major tech companies like Microsoft and Amazon, which have renewed optimism around AI investments. Cooler inflation data projections for June are also contributing to a positive sentiment, though Treasury yields remain elevated. The market awaits key economic data releases, including the Employment Cost Index and Consumer Sentiment.",
+          "id": "market-summary-jul31",
+          "headline": "Tech Sector Fuels Market Rebound Amid Strong Earnings and Less Hawkish Fed Stance",
+          "summary": "U.S. equities are poised for a strong finish to the week, building on Thursday's robust gains driven by better-than-expected tech earnings from Amazon and a seemingly less hawkish Federal Reserve. While the overall market sentiment is positive, individual stock performance remains highly divergent, particularly among major tech players. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "AI",
-            "Earnings",
-            "Inflation"
+            "Market Overview",
+            "Tech Earnings",
+            "Fed Policy"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (As of July 30th Close & July 31st Pre-market)",
+      "title": "Major Indices (Close: July 30, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500 (July 30 Close)",
+          "id": "sp500-close-jul30",
+          "statLabel": "S&P 500",
           "statValue": "7,437.63",
-          "statContext": "+1.66%"
+          "statContext": "Up 1.7% (+121.48 points) on Thursday, July 30, 2026."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite (July 30 Close)",
+          "id": "nasdaq-close-jul30",
+          "statLabel": "NASDAQ Composite",
           "statValue": "25,122.18",
-          "statContext": "+2.8%"
+          "statContext": "Advanced 2.8% (+679.24 points) on Thursday, July 30, 2026."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average (July 30 Close)",
+          "id": "dow-close-jul30",
+          "statLabel": "DOW Industrial Average",
           "statValue": "52,208.06",
-          "statContext": "+1.2%"
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures (July 31 Pre-market)",
-          "statValue": "Up",
-          "statContext": "+0.50%"
-        },
-        {
-          "id": "nasdaq100-futures",
-          "statLabel": "NASDAQ 100 Futures (July 31 Pre-market)",
-          "statValue": "Up",
-          "statContext": "+0.5% (approx)"
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures (July 31 Pre-market)",
-          "statValue": "Up",
-          "statContext": "+0.16%"
+          "statContext": "Gained 1.2% (+613.92 points) on Thursday, July 30, 2026."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Earnings Drive Significant Shifts",
+      "title": "Top Movers (Pre-market: July 31, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "msft-gainer",
-          "headline": "Microsoft Rallies on Azure Cloud Growth",
-          "summary": "Microsoft Corporation ($MSFT) surged 16% on Thursday following its earnings report, which showcased stronger-than-expected Azure cloud growth, signaling robust demand in the artificial intelligence sector.",
+          "id": "amzn-gainer-jul31",
+          "headline": "Amazon Surges on Strong Cloud and AI Growth",
+          "summary": "Amazon.com Inc. shares jumped significantly in pre-market trading after reporting stronger-than-expected earnings, driven by robust cloud computing growth and increased AI monetization.",
+          "ticker": "$AMZN",
+          "price": "$263.07",
+          "change": "+$28.27",
+          "changePercent": "+12.06%",
+          "direction": "up"
+        },
+        {
+          "id": "aapl-loser-jul31",
+          "headline": "Apple Drops on Supply Constraints and China Weakness",
+          "summary": "Apple Inc. stock tumbled in pre-market trading as the company's fiscal Q4 2026 revenue guidance fell short of expectations due to advanced-chip and memory supply constraints, alongside weaker Services and China revenue.",
+          "ticker": "$AAPL",
+          "price": "$307.89",
+          "change": "-$26.88",
+          "changePercent": "-8.02%",
+          "direction": "down"
+        },
+        {
+          "id": "msft-gainer-jul30",
+          "headline": "Microsoft Leads Tech Rally on Azure Strength",
+          "summary": "Microsoft Corp. saw a substantial surge on Thursday, adding approximately $450 billion to its market capitalization, following robust quarterly results driven by stronger Azure cloud growth and an upbeat forecast related to AI spending.",
           "ticker": "$MSFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.0%",
-          "direction": "up",
-          "timestamp": "July 30, 2026 Close"
+          "changePercent": "+15.5%",
+          "direction": "up"
         },
         {
-          "id": "amzn-gainer",
-          "headline": "Amazon Beats Revenue Expectations Post-Market",
-          "summary": "Amazon ($AMZN) climbed more than 9% in extended trading after Thursday's close. The e-commerce giant reported better-than-expected second-quarter revenue, primarily fueled by strong performance in its cloud-computing business.",
-          "ticker": "$AMZN",
+          "id": "nvo-loser-jul31",
+          "headline": "Novo Nordisk Plunges on Disappointing Drug Trial Results",
+          "summary": "Novo Nordisk A/S shares fell sharply after a weight-loss drug trial reportedly yielded disappointing results.",
+          "ticker": "$NVO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.0%",
-          "direction": "up",
-          "timestamp": "July 30, 2026 After-hours"
-        },
-        {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Jumps on AI Demand Optimism",
-          "summary": "Micron Technology ($MU) gained 18% on Thursday, benefiting from a broad rally in semiconductor stocks and renewed investor appetite for AI-linked companies.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+18.0%",
-          "direction": "up",
-          "timestamp": "July 30, 2026 Close"
-        },
-        {
-          "id": "meta-loser",
-          "headline": "Meta Platforms Drops on Soft Guidance",
-          "summary": "Meta Platforms Inc. ($META) saw an 8% decline on Thursday after the company issued soft revenue guidance and reported a significant 91% drop in its second-quarter free cash flow, raising concerns among investors.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.0%",
-          "direction": "down",
-          "timestamp": "July 30, 2026 Close"
-        },
-        {
-          "id": "ino-loser",
-          "headline": "Inovio Pharmaceuticals Experiences Significant Pre-market Drop",
-          "summary": "Inovio Pharmaceuticals, Inc. ($INO) was among the top pre-market losers on Thursday, seeing a substantial decline.",
-          "ticker": "$INO",
-          "price": "$0.72",
-          "change": "N/A",
-          "changePercent": "-30.78%",
-          "direction": "down",
-          "timestamp": "July 30, 2026 Pre-market"
-        },
-        {
-          "id": "lrcx-gainer",
-          "headline": "Lam Research Surges on AI Demand and Positive Guidance",
-          "summary": "Lam Research ($LRCX) soared 18% on Thursday after posting strong results driven by AI demand and providing positive guidance, contributing to the semiconductor rally. It is also listed as a pre-market gainer today.",
-          "ticker": "$LRCX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+18.0%",
-          "direction": "up",
-          "timestamp": "July 30, 2026 Close"
+          "changePercent": "-10.0%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Calendar: Inflation and Earnings in Focus",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-releases-july31",
-          "headline": "Key Economic Data Releases Scheduled for Friday",
-          "summary": "Today's economic calendar includes several important data releases. The Employment Cost Index for Q2, a key inflation indicator, is due at 7:30 AM ET, with a forecast of 0.8%. The Chicago PMI for July, reflecting manufacturing health, and the final University of Michigan Consumer Sentiment Index for July, are both expected at 9:00 AM ET.",
+          "id": "economic-slowdown-jul31",
+          "headline": "U.S. Economy Experiences Slower Growth in Q2 2026",
+          "summary": "The U.S. economy continues to expand, but at a more moderate pace, with GDP growing at an annual rate of 1.5% during the second quarter (April-June) of 2026. This indicates a deceleration from earlier in the year.",
           "tags": [
             "Economic Data",
-            "Inflation",
-            "Consumer Sentiment"
+            "GDP"
           ]
         },
         {
-          "id": "sector-semiconductor-rally",
-          "headline": "Semiconductor Sector Leads Gains on AI Optimism",
-          "summary": "The semiconductor sector continues to exhibit strong performance, driving broader market gains. The iShares Semiconductor ETF ($SOXX) climbed over 8% on Thursday, propelled by robust earnings from companies like Microsoft and Lam Research, which highlighted strong AI-driven demand.",
+          "id": "employment-costs-jul31",
+          "headline": "Civilian Worker Compensation Costs Rise in Q2 2026",
+          "summary": "Compensation costs for civilian workers increased by 0.9%, seasonally adjusted, for the three-month period ending June 2026, according to the U.S. Bureau of Labor Statistics. Wages and salaries also rose by 0.9%, with benefit costs increasing by 1.0% in the same period.",
+          "tags": [
+            "Economic Data",
+            "Employment Cost Index"
+          ]
+        },
+        {
+          "id": "tech-sector-resurgence-jul31",
+          "headline": "Technology Sector Leads Market Rebound, Semiconductors Recover",
+          "summary": "The technology sector is spearheading the market's recovery, particularly with semiconductor stocks bouncing back strongly. This resurgence follows concerns earlier in July regarding AI return on investment, which led to a significant sell-off in AI-linked stocks, including the Philadelphia Semiconductor index, which was down over 20% for the month.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI",
-            "Semiconductors"
+            "Semiconductors",
+            "AI"
           ]
         },
         {
-          "id": "linde-earnings",
-          "headline": "Linde Reports Strong Q2 Earnings, Exceeding Expectations",
-          "summary": "Linde plc ($LIN) reported strong second-quarter 2026 results before market open. The company's adjusted diluted earnings per share (EPS) reached $4.50, marking a 10% increase year-over-year, on sales of $9.3 billion, up 9% from the prior year.",
+          "id": "abbvie-earnings-jul31",
+          "headline": "AbbVie Reports Strong Q2 2026 Financial Results",
+          "summary": "AbbVie ($ABBV) announced strong second-quarter 2026 financial results, with diluted earnings per share (EPS) of $2.03 on a GAAP basis and adjusted diluted EPS of $3.65. The company also unveiled a proposed acquisition of Apogee Therapeutics.",
           "tags": [
             "Earnings Report",
-            "Industrials"
+            "Pharmaceuticals",
+            "$ABBV"
           ]
         },
         {
-          "id": "pge-earnings",
-          "headline": "Portland General Electric Posts Q2 Results",
-          "summary": "Portland General Electric Company ($POR) announced second-quarter 2026 net income of $68 million, or $0.59 per diluted share. The company reaffirmed its 2026 adjusted earnings guidance, reflecting strong operational execution and increased industrial customer demand.",
+          "id": "lyb-earnings-jul31",
+          "headline": "LyondellBasell Exceeds Q2 2026 Earnings Expectations",
+          "summary": "LyondellBasell Industries ($LYB) reported net income of $559 million, or $1.71 per diluted share, for the second quarter of 2026. The company also noted improved market conditions and a divestiture of select European assets to strengthen its portfolio.",
           "tags": [
             "Earnings Report",
-            "Utilities"
+            "Chemicals",
+            "$LYB"
           ]
         },
         {
-          "id": "inflation-outlook",
-          "headline": "Cooler June PCE Inflation Data and GDP Projections",
-          "summary": "The U.S. PCE price index for June is anticipated to show a slight decrease of 0.1% month-on-month, with the core measure rising 0.2%, suggesting an easing inflation trend. Additionally, U.S. Q2 GDP is projected to be 2.1%.",
+          "id": "oil-prices-geopolitics-jul31",
+          "headline": "Oil Prices Ease Amid Resumed Strait of Hormuz Traffic",
+          "summary": "Oil prices eased as traffic resumed through the Strait of Hormuz. This follows ongoing geopolitical tensions in the Middle East, with Saudi Arabia proposing a naval coalition to protect trade routes amidst attacks in the Red Sea and Strait of Hormuz.",
           "tags": [
             "Macro Trends",
-            "Inflation",
-            "GDP"
+            "Energy",
+            "Geopolitics"
           ]
         }
       ]
