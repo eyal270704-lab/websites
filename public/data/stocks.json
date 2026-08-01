@@ -1,154 +1,192 @@
 {
-  "generatedAt": "2026-08-01T09:04:00Z",
+  "generatedAt": "2026-08-01T12:55:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Markets Closed Today - Recap of Friday, July 31, 2026 Session",
-  "badge": "Last Session",
+  "subtitle": "August 1, 2026 - Markets Closed. Summary of Friday, July 31st Trading.",
+  "badge": "Last Session Summary",
   "sections": [
     {
-      "id": "market-pulse-july-31",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-july-31",
-          "headline": "U.S. Stocks Rally to Close July, Fueled by Amazon's Strong Earnings",
-          "summary": "U.S. equities finished Friday, July 31, 2026, on a high note, wrapping up a volatile month. Amazon's robust earnings report eased concerns over AI spending, propelling major indices higher. However, Apple's disappointing forecast weighed on the tech giant, while climbing Treasury yields underscored persistent inflation worries.",
+          "id": "market-overview-080126",
+          "headline": "U.S. Markets Closed: Recap of July's Wild Finish",
+          "summary": "U.S. equity markets are closed today, Saturday, August 1st. The last trading session on Friday, July 31, 2026, saw a rally to conclude a volatile July. Major indices posted gains driven by strong tech earnings, particularly from Amazon, while concerns about rising oil prices and inflation persisted. The session also saw a significant drop in Apple shares following a lukewarm revenue forecast. Not financial advice.",
           "tags": [
-            "Market Recap",
-            "Earnings",
-            "Inflation"
+            "Market Close",
+            "Friday Recap",
+            "July Wrap-up"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-july-31",
-      "title": "Major Indices (Friday, July 31, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices - Friday, July 31st Close",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-july-31",
+          "id": "sp500-073126",
           "statLabel": "S&P 500",
           "statValue": "7,489.72",
-          "statContext": "+52.09 (+0.7%)"
+          "statContext": "Up 0.7% (+52.09 points) for the day, closing July with a slight loss."
         },
         {
-          "id": "nasdaq-july-31",
+          "id": "dow-073126",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,485.03",
+          "statContext": "Up 0.5% (+276.97 points) for the day."
+        },
+        {
+          "id": "nasdaq-073126",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,373.85",
-          "statContext": "+251.68 (+1.0%)"
+          "statContext": "Up 1.0% (+251.68 points) for the day, ending July on a strong note."
         },
         {
-          "id": "dow-july-31",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "52,485.03",
-          "statContext": "+276.97 (+0.5%)"
-        },
-        {
-          "id": "russell2000-july-31",
+          "id": "russell2000-073126",
           "statLabel": "Russell 2000",
           "statValue": "2,931.34",
-          "statContext": "-14.76 (-0.5%)"
+          "statContext": "Down 0.5% (-14.76 points) for the day."
         }
       ]
     },
     {
-      "id": "top-movers-july-31",
-      "title": "Top Movers (Friday, July 31, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers - Friday, July 31st",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "amzn-gainer",
-          "headline": "Amazon Surges on Strong Q2 Earnings",
-          "summary": "Amazon ($AMZN) jumped 15.3% to approximately $271.58 after reporting better-than-expected Q2 profit and revenue, driven by accelerated growth in its cloud computing division (AWS) and significant AI investments.",
+          "id": "amzn-gainer-073126",
+          "headline": "Amazon Surges on Strong Q2 Profit and AWS Growth",
           "ticker": "$AMZN",
-          "price": "$271.58",
-          "change": "+$36.00",
+          "price": "$271.21",
+          "change": "+$35.54",
           "changePercent": "+15.3%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "Amazon.com Inc. stock soared after reporting stronger-than-expected Q2 profit, with its cloud computing business (AWS) showing accelerated growth. This boosted its market cap by a significant margin."
         },
         {
-          "id": "dxcm-gainer",
-          "headline": "DexCom Climbs Amid Positive Sentiment",
-          "summary": "DexCom, Inc. ($DXCM) rose 11.95%, contributing to the day's gains.",
-          "ticker": "$DXCM",
+          "id": "msft-gainer-073126",
+          "headline": "Microsoft Leads Tech Rebound After Robust Earnings",
+          "ticker": "$MSFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.95%",
-          "direction": "up"
+          "changePercent": "+15.5%",
+          "direction": "up",
+          "summary": "Microsoft Corporation surged after reporting robust quarterly results, with its Azure business performing well and issuing strong sales and cloud growth forecasts."
         },
         {
-          "id": "aapl-loser",
-          "headline": "Apple Drops on Weak Revenue Outlook",
-          "summary": "Apple ($AAPL) fell 7.35% to around $308.91 after providing a lackluster forecast for upcoming revenue growth and reporting weaker-than-expected performance in its Services and China segments.",
+          "id": "axti-gainer-073126",
+          "headline": "AXT Inc. Powers Nasdaq with Record Q2 Top Line",
+          "ticker": "$AXTI",
+          "price": "$59.24",
+          "change": "N/A",
+          "changePercent": "+26.2%",
+          "direction": "up",
+          "summary": "AXT Inc. saw significant gains following a record-setting top-line beat for its second quarter and a new long-term supplier agreement."
+        },
+        {
+          "id": "aapl-loser-073126",
+          "headline": "Apple Drops on Lackluster Revenue Forecast",
           "ticker": "$AAPL",
           "price": "$308.91",
-          "change": "-$24.50",
+          "change": "N/A",
           "changePercent": "-7.35%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Apple Inc. shares tumbled after providing a lackluster forecast for upcoming revenue growth, with services and China revenue falling short of expectations."
         },
         {
-          "id": "ctva-loser",
-          "headline": "Corteva Misses Q2 Revenue Estimates",
-          "summary": "Corteva ($CTVA) declined 11.90% following its quarterly revenue miss, impacting the broader Materials sector.",
-          "ticker": "$CTVA",
-          "price": "N/A",
+          "id": "rblx-loser-073126",
+          "headline": "Roblox Corporation Slides to Two-Year Low",
+          "ticker": "$RBLX",
+          "price": "$34.63",
           "change": "N/A",
-          "changePercent": "-11.90%",
-          "direction": "down"
+          "changePercent": "-28.7%",
+          "direction": "down",
+          "summary": "Roblox Corporation was among the biggest losers, hitting a two-year low amidst market concerns."
+        },
+        {
+          "id": "lcid-loser-073126",
+          "headline": "Lucid Group Experiences Decline Amidst Mixed EV Sentiment",
+          "ticker": "$LCID",
+          "price": "$7.38",
+          "change": "N/A",
+          "changePercent": "-9.11%",
+          "direction": "down",
+          "summary": "Lucid Group saw a notable decline, reflecting mixed investor sentiment within the electric vehicle (EV) sector."
+        },
+        {
+          "id": "rivn-loser-073126",
+          "headline": "Rivian Automotive Falls Despite Revenue Beat",
+          "ticker": "$RIVN",
+          "price": "$15.22",
+          "change": "N/A",
+          "changePercent": "-9.57%",
+          "direction": "down",
+          "summary": "Rivian Automotive shares fell even after beating Q2 revenue estimates, as investors focused on profitability concerns and pressure in the EV market."
         }
       ]
     },
     {
-      "id": "market-news-july-31",
-      "title": "Market News (Friday, July 31, 2026)",
+      "id": "market-news",
+      "title": "Market News & Sector Insights - Friday, July 31st",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-july-31",
-          "headline": "Consumer Discretionary Leads, Materials Lag Amid Earnings",
-          "summary": "The Consumer Discretionary sector was the strongest performer, gaining 6.07% driven largely by Amazon's earnings beat. Conversely, the Materials sector was the worst performer, falling 2.71%, with companies like Corteva and Linde experiencing significant declines after their earnings reports.",
-          "tags": [
-            "Sector Analysis",
-            "Consumer Discretionary",
-            "Materials"
-          ]
-        },
-        {
-          "id": "economic-data-july-31",
-          "headline": "Q2 GDP Slows to 1.5%; Employment Costs Rise Moderately",
-          "summary": "The U.S. economy expanded at an annualized rate of 1.5% in the second quarter of 2026, a slowdown from the first quarter's 2.1%. Despite the deceleration, underlying demand remained resilient. Separately, the Employment Cost Index (ECI) for June 2026 showed that compensation costs for civilian workers increased 0.9% for the three-month period ending in June.",
-          "tags": [
-            "Economic Data",
-            "GDP",
-            "Employment"
-          ]
-        },
-        {
-          "id": "fed-inflation-july-31",
-          "headline": "Treasury Yields Climb as Inflation Worries Persist Despite Fed Hold",
-          "summary": "Treasury yields rose on Friday as concerns about persistent inflation continued to build in the bond market. This occurred even after the Federal Reserve opted to keep its main interest rate steady earlier in the week, with inflation remaining above the 2% target. The 10-year Treasury note notably reached 4.737%.",
-          "tags": [
-            "Federal Reserve",
-            "Inflation",
-            "Bond Market"
-          ]
-        },
-        {
-          "id": "q2-earnings-overview-july-31",
-          "headline": "S&P 500 Q2 Earnings Season Shows Strong Performance",
-          "summary": "More than halfway through the Q2 earnings season, 86% of S&P 500 companies have reported earnings above estimates, and 77% have reported revenues above estimates. The aggregate earnings growth rate stands at 47.4%, or 28.8% excluding the significant contributions from Alphabet and Amazon.",
+          "id": "q2-earnings-overview",
+          "headline": "S&P 500 Q2 Earnings Show Impressive Growth, Led by Tech",
+          "summary": "The Q2 2026 earnings season for the S&P 500 is reporting impressive results, with 86% of companies exceeding EPS estimates. The blended earnings growth rate stands at 47.4%, the highest since Q2 2021. This strong performance is significantly influenced by unusually large positive EPS surprises from companies like Alphabet and Amazon.com. Excluding these two, growth remains robust at 28.8%.",
           "tags": [
             "Earnings Season",
             "S&P 500",
-            "Corporate Results"
+            "Q2 2026"
           ]
+        },
+        {
+          "id": "economic-gdp-pce",
+          "headline": "U.S. GDP Grows Slower Than Expected in Q2; PCE Declines",
+          "summary": "The U.S. GDP grew at an annual pace of 1.5% in the second quarter of 2026, slower than the expected 2% and the 2.1% growth in Q1. Consumer spending continued to be the biggest engine. The Personal Consumption Expenditures (PCE) index declined 0.1% month-over-month in June, though it rose 3.7% year-over-year.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "Inflation",
+            "PCE"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Tech and Consumer Discretionary Lead Gains, Utilities and Industrials Lag",
+          "summary": "Information Technology and Consumer Discretionary sectors were among the biggest gainers on Friday, with the Information Technology Select Sector SPDR (XLK) up 5.2% and Consumer Discretionary Select Sector SPDR (XLY) up 1.6%. Seven of the eleven S&P 500 sectors closed in positive territory. Conversely, utilities (-4.22%) and industrials (-2.03%) were the worst-performing sectors for the week.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Consumer Discretionary",
+            "Utilities"
+          ]
+        },
+        {
+          "id": "oil-inflation-concerns",
+          "headline": "Rising Oil Prices Worsen Inflation Worries",
+          "summary": "Rising oil prices, partly due to the ongoing conflict with Iran, continued to fuel inflation concerns in the bond market, leading Treasury yields to climb. Crude oil futures ended the day up around 1.17%. Major oil companies like Chevron and Exxon Mobil reported strong Q2 earnings, benefiting from the higher crude prices.",
+          "tags": [
+            "Inflation",
+            "Oil Prices",
+            "Geopolitics",
+            "Energy Sector"
+          ]
+        },
+        {
+          "id": "ai-investment-impact",
+          "headline": "AI Investment Continues to Drive Tech Sector",
+          "summary": "Big Tech's massive investments in artificial intelligence continue to translate into significant profits, with Amazon's cloud computing business showing accelerated growth. AI buildout is also bolstering hiring in the nonresidential construction sector. The European Commission announced that the EU's AI Act will begin enforcing transparency rules from August 2."
         }
       ]
     }
