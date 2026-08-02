@@ -1,189 +1,186 @@
 {
-  "generatedAt": "2026-08-01T17:03:00Z",
+  "generatedAt": "2026-08-02T09:06:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest - August 1, 2026",
-  "subtitle": "Markets Closed for Weekend; Review of Friday, July 31, 2026 Session",
-  "badge": "Last Session Summary",
+  "title": "Daily Market Digest",
+  "subtitle": "Sunday, August 02, 2026 - Summary of Friday, July 31, 2026 Trading Session",
+  "badge": "Closed",
   "sections": [
     {
-      "id": "market-pulse-01",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Last Trading Session (July 31, 2026)",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-pulse-item-01",
-          "headline": "Tech Rally Leads U.S. Stocks Higher on Friday; Inflation Concerns Persist",
-          "summary": "U.S. equities concluded a volatile July with a broad rally on Friday, July 31, driven by strong tech earnings and renewed optimism around AI. Major indices posted gains, but rising Treasury yields and persistent inflation worries continued to weigh on sentiment. Markets are closed today, Saturday, August 1, 2026. Not financial advice.",
+          "id": "market-summary-july31",
+          "headline": "U.S. Stocks Rally to End Volatile July, Led by Amazon's Strong Earnings",
+          "summary": "U.S. equities concluded a dynamic July with broad gains on Friday, July 31, 2026, as robust earnings from Amazon.com overshadowed a significant decline in Apple shares. Investor sentiment was sharply divided, focusing on distinct winners and losers from a pivotal week of corporate reports. Rising oil prices, however, fueled ongoing concerns about inflation.",
           "tags": [
-            "Market Overview",
-            "Friday Close"
+            "Market Summary",
+            "July 31, 2026",
+            "Earnings Season"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-01",
-      "title": "Major Indices (Friday, July 31, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices Performance (July 31, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-july31",
           "statLabel": "S&P 500",
           "statValue": "7,489.72",
-          "statContext": "+52.09 (+0.7%)"
+          "statContext": "+0.7% (+52.09 pts)"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "52,485.03",
-          "statContext": "+276.97 (+0.5%)"
-        },
-        {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-july31",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,373.85",
-          "statContext": "+251.68 (+1.0%)"
+          "statContext": "+1.0% (+251.68 pts)"
         },
         {
-          "id": "russell2000-stat",
+          "id": "dow-july31",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,485.03",
+          "statContext": "+0.5% (+276.97 pts)"
+        },
+        {
+          "id": "russell2000-july31",
           "statLabel": "Russell 2000",
           "statValue": "2,931.34",
-          "statContext": "-14.76 (-0.5%)"
+          "statContext": "-0.5% (-14.76 pts)"
         }
       ]
     },
     {
-      "id": "top-movers-01",
-      "title": "Top Movers (Friday, July 31, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (July 31, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "amzn-gainer",
-          "headline": "Amazon Soars on Strong Earnings and AI Bets",
-          "summary": "Amazon ($AMZN) jumped after reporting stronger-than-expected second-quarter profits, with robust growth in Amazon Web Services (AWS) suggesting its significant AI investments are yielding returns.",
+          "headline": "Amazon.com ($AMZN)",
+          "summary": "Amazon surged following a significant Q2 earnings beat, driven by accelerating growth in its Amazon Web Services (AWS) segment and stronger-than-expected profitability, indicating positive returns from AI investments.",
           "ticker": "$AMZN",
           "price": "$271.58",
-          "change": "+$36.00",
-          "changePercent": "+15.3%",
+          "change": "+$36.08",
+          "changePercent": "+15.32%",
           "direction": "up"
         },
         {
-          "id": "googl-gainer",
-          "headline": "Alphabet Climbs Amid Broader Tech Rally",
-          "summary": "Alphabet ($GOOGL) saw solid gains as technology stocks rebounded strongly, buoyed by positive sentiment around AI and strong performances from other tech giants.",
-          "ticker": "$GOOGL",
-          "price": "$356.13",
-          "change": "+$22.37",
-          "changePercent": "+6.7%",
-          "direction": "up"
-        },
-        {
-          "id": "msft-gainer",
-          "headline": "Microsoft Continues Momentum Post-Earnings",
-          "summary": "Microsoft ($MSFT) extended its gains, building on Thursday's massive surge driven by robust quarterly results and an upbeat forecast for its Azure cloud business.",
-          "ticker": "$MSFT",
+          "id": "nwl-gainer",
+          "headline": "Newell Brands ($NWL)",
+          "summary": "Shares advanced after the consumer products company surpassed Q2 earnings and revenue expectations and provided a significantly raised full-year profit outlook.",
+          "ticker": "$NWL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.0%",
+          "changePercent": "+22%",
           "direction": "up"
+        },
+        {
+          "id": "axti-gainer",
+          "headline": "AXT ($AXTI)",
+          "summary": "AXT soared after reporting Q2 results that exceeded expectations, with revenue increasing 160% year-over-year, driven by strong demand for data center optical connectivity and AI infrastructure.",
+          "ticker": "$AXTI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+20%",
+          "direction": "up"
+        },
+        {
+          "id": "aapl-loser",
+          "headline": "Apple Inc. ($AAPL)",
+          "summary": "Apple dropped sharply after issuing a disappointing forecast for upcoming revenue growth. Concerns were also raised by a lackluster forward sales outlook, rising component costs, and slowing growth in key segments, with AI-driven chip supply constraints impacting its hardware business.",
+          "ticker": "$AAPL",
+          "price": "$308.91",
+          "change": "-$24.52",
+          "changePercent": "-7.35%",
+          "direction": "down"
         },
         {
           "id": "rddt-loser",
-          "headline": "Reddit Plunges on Heavy Selling Volume",
-          "summary": "Reddit ($RDDT) experienced a significant sell-off, collapsing on substantial institutional trading volume and closing near its annual lows.",
+          "headline": "Reddit Inc. ($RDDT)",
+          "summary": "Reddit shares cratered with significant trading volume, indicating a strong sell-off during the session.",
           "ticker": "$RDDT",
-          "price": "$140.67",
-          "change": "-$37.33",
+          "price": "N/A",
+          "change": "N/A",
           "changePercent": "-21.0%",
           "direction": "down"
         },
         {
-          "id": "aapl-loser",
-          "headline": "Apple Drops on Muted Revenue Outlook",
-          "summary": "Apple ($AAPL) shares fell following a lackluster forecast for upcoming revenue growth, with investor concerns arising from disappointing Q4 guidance, rising component costs, and slowing growth in key segments.",
-          "ticker": "$AAPL",
-          "price": "$38.91",
-          "change": "-$3.08",
-          "changePercent": "-7.3%",
-          "direction": "down"
-        },
-        {
-          "id": "mu-loser",
-          "headline": "Micron Technology Falls Amid Mixed Chip Sector Performance",
-          "summary": "Micron Technology ($MU) was among the decliners, as memory-focused semiconductor names lagged despite a generally positive day for the broader chip sector.",
-          "ticker": "$MU",
+          "id": "ctva-loser",
+          "headline": "Corteva ($CTVA)",
+          "summary": "Corteva was among the worst performers in the materials sector after its quarterly revenue of $6.38 billion missed consensus estimates of $6.62 billion.",
+          "ticker": "$CTVA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.9%",
+          "changePercent": "-11.90%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-01",
+      "id": "market-news",
       "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-01",
-          "headline": "Fed Holds Rates Steady, Dallas Fed President Logan Dissents",
-          "summary": "The Federal Reserve maintained its benchmark interest rates, as widely expected. However, Dallas Fed President Lorie Logan dissented, advocating for a 0.25 percentage point rate increase, citing persistent inflation that appears to be trending toward the mid-2s rather than the 2% target.",
-          "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "treasury-yields-01",
-          "headline": "Treasury Yields Climb on Inflation Concerns",
-          "summary": "Treasury yields rose on Friday, with the 10-year U.S. Treasury note surging above 4.7%. Worries about inflation remaining high continued to build in the bond market.",
-          "tags": [
-            "Bond Market",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "eci-jobless-claims-01",
-          "headline": "Employment Cost Index Rises; Jobless Claims Increase",
-          "summary": "The Employment Cost Index (ECI) for June 2026 showed civilian worker compensation costs increasing 0.9% in the second quarter, driven by a 0.9% rise in wages and salaries and a 1.0% increase in benefit costs. Meanwhile, initial jobless claims for the week ending July 25 totaled 197,000, an increase of 9,000 from the prior week.",
-          "tags": [
-            "Economic Data",
-            "Labor Market"
-          ]
-        },
-        {
-          "id": "sector-performance-01",
-          "headline": "Tech and Consumer Discretionary Lead Gains; Energy Strong",
-          "summary": "Technology and Consumer Discretionary sectors were the strongest performers, largely benefiting from strong earnings reports from mega-cap tech companies and renewed AI optimism. The Energy sector also showed robust performance, reflecting elevated oil prices. Conversely, the Health Care sector reported a year-over-year decline in earnings.",
+          "id": "sector-performance",
+          "headline": "Consumer Discretionary Leads, Materials Sector Lags",
+          "summary": "The Consumer Discretionary sector emerged as the top-performing sector on Friday, registering a gain of 6.07%, primarily propelled by Amazon's stellar earnings. Conversely, the Materials sector faced the largest drawdown, declining by 2.71%. Strong Q2 2026 earnings are reinforcing a bullish outlook beyond mega-cap tech, with Information Technology, Energy, and Communication Services sectors showing double-digit revenue growth.",
           "tags": [
             "Sector Analysis",
-            "Tech",
-            "Energy"
+            "Consumer Discretionary",
+            "Materials"
           ]
         },
         {
-          "id": "corporate-earnings-01",
-          "headline": "Major Companies Report Q2 Results: ExxonMobil and Chevron Post Strong Earnings",
-          "summary": "ExxonMobil ($XOM) announced Q2 2026 earnings of $14.5 billion, or $3.48 per share. Chevron ($CVX) reported Q2 2026 earnings of $12.1 billion, or $6.11 per share diluted, driven by record U.S. production and refinery throughput. FactSet forecasts S&P 500 earnings growth at 24.7% for Q2 2026.",
+          "id": "fed-interest-rates",
+          "headline": "Fed Holds Rates Steady Amidst Divided Vote, Treasury Yields Climb",
+          "summary": "The Federal Open Market Committee (FOMC) voted to keep interest rates unchanged at 3.5%-3.75% during its Wednesday meeting, marking the fifth consecutive hold. However, a divided vote, with three members favoring a hike, highlighted ongoing internal debate. Treasury yields climbed on Friday, with the 10-year U.S. Treasury note surpassing 4.7%, as inflation worries persisted in the bond market.",
+          "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates",
+            "Treasury Yields"
+          ]
+        },
+        {
+          "id": "q2-gdp-oil",
+          "headline": "U.S. Q2 GDP Slows to 1.5%; Oil Prices Soar Amid Geopolitical Tensions",
+          "summary": "The first estimate for U.S. Q2 2026 GDP showed annualized growth of 1.5%, a slowdown from Q1's 2.1%, yet still indicating moderate expansion driven by resilient consumer spending. Meanwhile, crude oil prices surged, with U.S. crude closing above $85 a barrel, reflecting a 21% rise in July due to escalating conflict between the U.S. and Iran.",
+          "tags": [
+            "Economic Data",
+            "GDP",
+            "Oil Prices",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "q2-earnings-summary",
+          "headline": "S&P 500 Q2 Earnings Season Exceeds Expectations",
+          "summary": "More than halfway through the Q2 2026 earnings season, the S&P 500 is reporting remarkably strong results. 86% of companies have reported actual EPS above estimates, with aggregate earnings surprising analysts by 31.4% – the highest earnings surprise magnitude recorded since FactSet began tracking this metric in 2008. Revenue growth also shows strong momentum, currently at 14.1%.",
           "tags": [
             "Earnings Reports",
-            "Oil & Gas"
+            "S&P 500",
+            "Corporate Performance"
           ]
         },
         {
-          "id": "macro-trends-01",
-          "headline": "Rising Oil Prices and AI Investments Drive Macro Narrative",
-          "summary": "Rising oil prices, fueled by renewed Middle East tensions, contributed to ongoing inflation concerns. Meanwhile, continued massive investments in Artificial Intelligence infrastructure are increasingly seen as a key driver for cloud demand and tech sector growth.",
+          "id": "abbvie-acquisition",
+          "headline": "AbbVie Announces Strong Q2 Results and Proposed Acquisition of Apogee Therapeutics",
+          "summary": "AbbVie reported excellent second-quarter 2026 financial results, with GAAP diluted EPS of $2.03 and adjusted diluted EPS of $3.65. The pharmaceutical giant also announced a definitive agreement to acquire Apogee Therapeutics, aiming to bolster its immunology leadership.",
           "tags": [
-            "Macro Trends",
-            "Geopolitics",
-            "AI"
+            "Company News",
+            "Pharmaceuticals",
+            "M&A",
+            "$ABBV"
           ]
         }
       ]
