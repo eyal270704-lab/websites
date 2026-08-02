@@ -1,208 +1,191 @@
 {
-  "generatedAt": "2026-08-02T12:57:00Z",
+  "generatedAt": "2026-08-02T17:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, August 1, 2026",
-  "badge": "Last Close",
+  "subtitle": "Last trading session: Friday, July 31, 2026",
+  "badge": "Market Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Indices Close Down Amid Economic Data, Weekly Gains for Tech",
+      "title": "Market Pulse: A Resilient Close to a Volatile July",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Markets Decline on Friday; Tech Leads Weekly Rebound",
-          "summary": "U.S. equity markets closed lower on Friday, August 1, 2026, with all major indices seeing significant drops for the day. This daily downturn came despite a strong weekly performance for tech stocks, which led a broader market rebound throughout the week. The market grappled with news of sluggish Q2 economic growth and persistent inflation concerns, while rising mortgage rates added pressure. Not financial advice.",
+          "id": "market-summary-07-31-2026",
+          "headline": "U.S. Stocks Rally to Close July, Fueled by Tech Earnings Amid Inflation Concerns",
+          "summary": "U.S. equities concluded a volatile July with a rally on Friday, July 31, 2026, driven by strong performances from major technology companies like Amazon and Microsoft. The S&P 500, Dow Jones Industrial Average, and Nasdaq Composite all posted gains, despite persistent worries about inflation and climbing Treasury yields. The market exhibited a concentrated nature, with a handful of mega-cap stocks accounting for the majority of the S&P 500's positive movement.",
           "tags": [
-            "Market Overview",
-            "Economy",
-            "Inflation"
-          ]
+            "Market Close",
+            "July 2026",
+            "Tech Earnings"
+          ],
+          "timestamp": "2026-07-31T20:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance - August 1, 2026",
+      "title": "Major Indices Performance (July 31, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,489.72",
+          "statContext": "+0.7% (+52.09 points)"
+        },
+        {
           "id": "dow-performance",
-          "statLabel": "DOW",
-          "statValue": "51,594.14",
-          "statContext": "Down 1,153.18 (-2.19%)"
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,485.03",
+          "statContext": "+0.5% (+276.97 points)"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ",
-          "statValue": "24,442.94",
-          "statContext": "Down 433.97 (-1.74%)"
+          "statLabel": "NASDAQ Composite",
+          "statValue": "25,373.85",
+          "statContext": "+1.0% (+251.68 points)"
         },
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,316.15",
-          "statContext": "Down 112.63 (-1.52%)"
+          "id": "russell2000-performance",
+          "statLabel": "Russell 2000",
+          "statValue": "2,931.34",
+          "statContext": "-0.5% (-14.76 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers - Friday, August 1, 2026",
+      "title": "Top Movers: Notable Stocks on July 31, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "amzn-gainer",
-          "headline": "Amazon.com Surges on Strong Performance",
-          "summary": "E-commerce giant Amazon.com Inc. saw significant gains, reflecting continued strong market positioning.",
+          "headline": "Amazon Soars on Strong Q2 Profit and AWS Growth",
+          "summary": "Amazon ($AMZN) surged after reporting stronger-than-expected second-quarter profits, suggesting that its significant AI investments are yielding positive returns. The company's AWS segment showed robust growth, contributing to investor optimism.",
           "ticker": "$AMZN",
           "price": "$271.58",
           "change": "+$36.08",
-          "changePercent": "+15.32%",
+          "changePercent": "+15.3%",
           "direction": "up"
         },
         {
-          "id": "dxcm-gainer",
-          "headline": "Dexcom Inc. Climbs",
-          "summary": "Dexcom Inc. posted a notable increase in its stock price.",
-          "ticker": "$DXCM",
-          "price": "$83.45",
-          "change": "+$8.91",
-          "changePercent": "+11.95%",
-          "direction": "up"
-        },
-        {
-          "id": "mpwr-gainer",
-          "headline": "Monolithic Power Systems Gains",
-          "summary": "Monolithic Power Systems Inc. experienced a strong upward movement.",
-          "ticker": "$MPWR",
-          "price": "$1,426.03",
-          "change": "+$109.85",
-          "changePercent": "+8.35%",
-          "direction": "up"
-        },
-        {
-          "id": "goog-gainer",
-          "headline": "Alphabet Rises on Blowout Earnings",
-          "summary": "Alphabet Inc. (Class C) shares jumped after the company reported blowout earnings, largely driven by AI-powered growth in Google Cloud and a resurgence in its search business.",
-          "ticker": "$GOOG",
-          "price": "$356.65",
-          "change": "+$22.97",
-          "changePercent": "+6.88%",
-          "direction": "up"
-        },
-        {
-          "id": "msft-weekly-gainer",
-          "headline": "Microsoft Leads Weekly Tech Surge",
-          "summary": "Microsoft saw a substantial weekly gain, closing up 22% for the week, propelled by strong earnings across all segments and robust Azure revenue growth, including AI workloads.",
+          "id": "msft-gainer",
+          "headline": "Microsoft Rises on Robust Earnings and Azure Performance",
+          "summary": "Microsoft ($MSFT) gained following its robust quarterly results, which highlighted strong performance in its Azure cloud business and exceeded sales and cloud growth forecasts.",
           "ticker": "$MSFT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+22.00% (weekly)",
+          "changePercent": "+3.0%",
           "direction": "up"
         },
         {
-          "id": "top-losers-note",
-          "headline": "Specific Top Losers Data Unavailable for August 1, 2026",
-          "summary": "Detailed information on specific top individual stock losers with price and percentage changes for Friday, August 1, 2026, was not readily available at the time of this report.",
-          "ticker": "N/A",
+          "id": "googl-gainer",
+          "headline": "Alphabet Climbs Higher",
+          "summary": "Alphabet ($GOOGL) posted a significant gain, contributing to the overall positive sentiment in the technology sector.",
+          "ticker": "$GOOGL",
+          "price": "$356.13",
+          "change": "+$22.37",
+          "changePercent": "+6.7%",
+          "direction": "up"
+        },
+        {
+          "id": "aapl-loser",
+          "headline": "Apple Drops on Lackluster Revenue Forecast",
+          "summary": "Apple ($AAPL) experienced a notable decline after issuing a lackluster forecast for upcoming revenue growth. Investor concerns were also fueled by rising component costs, linked to the broader AI hardware boom, and slowing growth in key segments, including its Services business.",
+          "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
+          "changePercent": "-7.3%",
+          "direction": "down"
+        },
+        {
+          "id": "rddt-loser",
+          "headline": "Reddit Shares Crater",
+          "summary": "Reddit ($RDDT) saw a significant drop in its share price.",
+          "ticker": "$RDDT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-21.0%",
+          "direction": "down"
+        },
+        {
+          "id": "mu-loser",
+          "headline": "Micron Technology Falls",
+          "summary": "Micron Technology ($MU) declined amidst broader weakness in the semiconductor industry.",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.9%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News and Economic Highlights",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economy-q2-gdp",
-          "headline": "U.S. Economy Grew at Sluggish 1.5% in Q2",
-          "summary": "The U.S. economy expanded at a modest 1.5% annual pace from April through June 2026, a deceleration from the 2.1% growth in the first three months of the year. Consumer spending, however, showed an increase, and business investment, particularly in artificial intelligence, remained strong.",
-          "tags": [
-            "Economic Data",
-            "GDP"
-          ]
-        },
-        {
-          "id": "fed-rates-inflation",
-          "headline": "Federal Reserve Holds Rates Steady Amid Dissent and Persistent Inflation",
-          "summary": "The Federal Reserve maintained its key interest rate unchanged this week, although three officials expressed dissent in favor of higher rates. This decision comes as the central bank continues to grapple with persistently high inflation, which, despite slowing, remains above the Fed's 2% target.",
+          "id": "fed-decision",
+          "headline": "Federal Reserve Holds Rates Steady Amidst Inflationary Concerns",
+          "summary": "The Federal Reserve maintained interest rates at 3.50-3.75% during its latest meeting, though the decision was not unanimous, with three members dissenting in favor of a rate hike. Fed Chair Kevin Warsh reiterated the committee's commitment to addressing persistent inflation, as Treasury yields continued to climb with the 10-year yield reaching 4.7% and the 30-year climbing above 5.22%.",
           "tags": [
             "Federal Reserve",
+            "Interest Rates",
             "Inflation",
-            "Interest Rates"
-          ]
+            "Treasury Yields"
+          ],
+          "timestamp": "2026-07-31T18:00:00Z"
         },
         {
-          "id": "mortgage-rates-spike",
-          "headline": "30-Year Mortgage Rates Hit One-Year High",
-          "summary": "The average 30-year U.S. mortgage rate climbed for the fourth consecutive week, reaching 6.66% from 6.58% previously. This marks the highest level in a year, posing a setback for prospective homebuyers.",
+          "id": "q2-gdp-jobless-claims",
+          "headline": "Q2 GDP Cools, Jobless Claims Tick Up",
+          "summary": "The U.S. economy's second-quarter GDP growth cooled to 1.5%, missing consensus estimates of a 2.0% expansion, primarily due to a surge in imports. Meanwhile, jobless claims for the week ending July 25 increased by 9,000 to 197,000, while continuing claims saw a decrease.",
           "tags": [
-            "Housing Market",
-            "Interest Rates"
-          ]
+            "GDP",
+            "Jobless Claims",
+            "Economic Data"
+          ],
+          "timestamp": "2026-07-31T14:30:00Z"
         },
         {
-          "id": "sector-performance-friday",
-          "headline": "Consumer Discretionary Leads Friday Gains; Materials Lag",
-          "summary": "On Friday, Consumer Discretionary (+3.23%), Energy (+1.02%), and Industrials (+0.81%) were among the leading sectors. Conversely, Materials (-2.38%), Utilities (-0.73%), and Health Care (-0.57%) were among the lagging sectors.",
-          "tags": [
-            "Sector Analysis"
-          ]
-        },
-        {
-          "id": "tech-sector-rotation",
-          "headline": "Tech Sector Leads Weekly Rebound, Driven by 'Magnificent Seven'",
-          "summary": "Last week saw a strong tech-driven rebound, with the Nasdaq index leading overall market performance, significantly influenced by the 'Magnificent Seven' stocks. This indicates a potential broadening of market leadership beyond solely large-cap tech.",
+          "id": "sector-performance",
+          "headline": "Consumer Discretionary Leads, Materials Lagging in Sector Performance",
+          "summary": "On Friday, the Consumer Discretionary sector was the top performer, gaining 6.07%, propelled by strong tech earnings. In contrast, the Materials sector was the worst-performing, falling 2.71%, with stocks like Corteva ($CTVA) and Linde ($LIN) experiencing significant drops due to missed revenue estimates and declining operating margins, respectively.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Market Trends"
-          ]
+            "Consumer Discretionary",
+            "Materials"
+          ],
+          "timestamp": "2026-07-31T17:00:00Z"
         },
         {
-          "id": "earnings-season-highlights",
-          "headline": "Key Earnings Reports: Alphabet Shines, Meta Falls, Microsoft Strong",
-          "summary": "Earnings season continues to unfold, with Alphabet ($GOOG, $GOOGL) delivering a 'blowout' report driven by AI growth. Meta Platforms ($META), however, sold off due to weaker-than-expected numbers and guidance. Microsoft ($MSFT) reported strong results across all fronts, with significant growth in its Azure cloud services.",
+          "id": "energy-earnings",
+          "headline": "Major Oil Companies Report Strong Earnings",
+          "summary": "ExxonMobil ($XOM) announced robust second-quarter 2026 earnings of $14.5 billion, or $3.48 per share, with adjusted earnings reaching $14.7 billion. Shell and Chevron were also expected to report high profits for the quarter, benefiting from elevated crude prices.",
           "tags": [
-            "Earnings Reports",
-            "Big Tech"
-          ]
+            "Earnings",
+            "Energy Sector",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-07-31T15:00:00Z"
         },
         {
-          "id": "upcoming-earnings",
-          "headline": "Upcoming Earnings Reports This Week",
-          "summary": "Clorox and Marriott International are scheduled to report earnings on Monday. SpaceX and McDonald's will release their results on Tuesday, followed by Expedia Group on Wednesday.",
+          "id": "abbvie-acquisition",
+          "headline": "AbbVie Posts Strong Q2, Announces Acquisition of Apogee Therapeutics",
+          "summary": "AbbVie ($ABBV) reported strong second-quarter 2026 financial results, with adjusted diluted EPS of $3.65. The pharmaceutical giant also announced a proposed acquisition of Apogee Therapeutics, aimed at strengthening its immunology leadership.",
           "tags": [
-            "Earnings Calendar"
-          ]
-        },
-        {
-          "id": "crypto-update",
-          "headline": "Bitcoin Falls Below $63,000",
-          "summary": "Bitcoin experienced a notable decline on Friday, falling below the $63,000 mark and reaching its lowest level in approximately two weeks.",
-          "tags": [
-            "Cryptocurrency"
-          ]
-        },
-        {
-          "id": "trade-usmca-limbo",
-          "headline": "U.S.-Mexico-Canada Trade Limbo Concerns Businesses",
-          "summary": "Texas businesses are expressing concern over the financial implications of the ongoing uncertainty surrounding the renegotiation of the U.S.-Mexico-Canada Agreement (USMCA). New tariffs on Mexican and Canadian imports are creating significant pressure.",
-          "tags": [
-            "Trade Policy",
-            "Economic Impact"
-          ]
+            "Earnings",
+            "Pharmaceuticals",
+            "Acquisition"
+          ],
+          "timestamp": "2026-07-31T10:00:00Z"
         }
       ]
     }
