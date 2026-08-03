@@ -1,156 +1,177 @@
 {
-  "generatedAt": "2026-08-03T14:14:00Z",
+  "generatedAt": "2026-08-03T17:54:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 3, 2026",
+  "subtitle": "August 3, 2026 - Intraday Summary",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-20260803",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-item-1",
-          "headline": "U.S. Equities Post Modest Gains as Tech Sector Leads Rally",
-          "summary": "The U.S. stock market saw a positive start to the week, with major indices closing higher. A surge in technology stocks, fueled by ongoing enthusiasm for artificial intelligence advancements, offset some weakness in cyclical sectors. Investors are keenly awaiting crucial inflation data later this week for further direction.",
+          "id": "market-summary",
+          "headline": "Stocks Rally as Geopolitical Tensions Ease and Strong Earnings Continue",
+          "summary": "U.S. equities are broadly higher today, Monday, August 3, 2026, driven by a de-escalation of tensions in the Middle East as President Trump announced a halt to planned strikes against Iran and renewed diplomatic talks. This news sent oil prices sharply lower, alleviating inflation concerns. The positive sentiment is further bolstered by a robust Q2 earnings season, with over 85% of S&P 500 companies beating estimates and aggregate profit growth tracking above 47%. Not financial advice.",
           "tags": [
-            "Market Open",
-            "Technology",
-            "AI"
+            "Market Sentiment",
+            "Geopolitics",
+            "Earnings"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-20260803",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "5,520.10",
-          "statContext": "+0.45% Today"
+          "statValue": "7,581.00",
+          "statContext": "Up 1.21% (as of 11 a.m. ET)."
         },
         {
-          "id": "nasdaq-stat",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "53,000+",
+          "statContext": "Up 1.1% (+569 points) (as of 11 a.m. ET), hitting an intraday record high."
+        },
+        {
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "18,150.30",
-          "statContext": "+0.98% Today"
-        },
-        {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "40,120.50",
-          "statContext": "+0.21% Today"
+          "statValue": "",
+          "statContext": "Up 1.8% (as of 11 a.m. ET)."
         }
       ]
     },
     {
-      "id": "top-movers-20260803",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "NVIDIA Surges on AI Optimism",
-          "summary": "NVIDIA ($NVDA) shares climbed today, extending recent gains amidst persistent market optimism surrounding its leadership in artificial intelligence and data center solutions.",
-          "ticker": "$NVDA",
-          "price": "$1250.75",
-          "change": "+$42.45",
-          "changePercent": "+3.51%",
-          "direction": "up"
+          "id": "amzn-gainer",
+          "headline": "Amazon.com Leads S&P 500 Gainers",
+          "ticker": "$AMZN",
+          "price": "",
+          "change": "",
+          "changePercent": "+15.3%",
+          "direction": "up",
+          "summary": "Amazon.com was the top gainer in the S&P 500."
         },
         {
-          "id": "tsla-gainer",
-          "headline": "Tesla Benefits from Analyst Upgrade",
-          "summary": "Tesla ($TSLA) stock rose following a favorable analyst rating upgrade, citing strong production forecasts and potential market share expansion in new EV segments.",
-          "ticker": "$TSLA",
-          "price": "$310.20",
-          "change": "+$8.45",
-          "changePercent": "+2.80%",
-          "direction": "up"
+          "id": "dxcm-gainer",
+          "headline": "DexCom Rises Significantly",
+          "ticker": "$DXCM",
+          "price": "",
+          "change": "",
+          "changePercent": "+12.0%",
+          "direction": "up",
+          "summary": "DexCom saw substantial gains in today's trading."
         },
         {
-          "id": "smci-gainer",
-          "headline": "Super Micro Computer Gains on Server Demand",
-          "summary": "Super Micro Computer ($SMCI) continued its upward trend as robust demand for its high-performance server solutions, particularly for AI applications, drove investor interest.",
-          "ticker": "$SMCI",
-          "price": "$920.15",
-          "change": "+$36.40",
-          "changePercent": "+4.12%",
-          "direction": "up"
+          "id": "mpwr-gainer",
+          "headline": "Monolithic Power Systems Up",
+          "ticker": "$MPWR",
+          "price": "",
+          "change": "",
+          "changePercent": "+8.3%",
+          "direction": "up",
+          "summary": "Monolithic Power Systems posted solid gains."
         },
         {
-          "id": "ko-loser",
-          "headline": "Coca-Cola Dips Amidst Consumer Staples Weakness",
-          "summary": "The Coca-Cola Company ($KO) experienced a slight decline today, as the broader consumer staples sector showed signs of profit-taking.",
-          "ticker": "$KO",
-          "price": "$62.80",
-          "change": "-$0.76",
-          "changePercent": "-1.20%",
-          "direction": "down"
+          "id": "kpti-loser",
+          "headline": "Karyopharm Therapeutics Plummets",
+          "ticker": "$KPTI",
+          "price": "",
+          "change": "",
+          "changePercent": "-72.6%",
+          "direction": "down",
+          "summary": "Karyopharm Therapeutics experienced a sharp decline, continuing a longer-term downward trend."
         },
         {
-          "id": "xom-loser",
-          "headline": "Exxon Mobil Falls with Oil Price Pullback",
-          "summary": "Exxon Mobil ($XOM) shares moved lower in tandem with a modest pullback in crude oil prices, impacting the energy sector.",
-          "ticker": "$XOM",
-          "price": "$121.30",
-          "change": "-$1.09",
-          "changePercent": "-0.90%",
-          "direction": "down"
+          "id": "gme-loser",
+          "headline": "GameStop Shares Fall",
+          "ticker": "$GME",
+          "price": "$18.96",
+          "change": "-$2.76",
+          "changePercent": "-12.71%",
+          "direction": "down",
+          "summary": "GameStop Corp. saw a significant drop in its stock price today."
         },
         {
-          "id": "ba-loser",
-          "headline": "Boeing Slides on New Production Delay Reports",
-          "summary": "The Boeing Company ($BA) saw its stock decline after reports emerged suggesting further production delays for key aircraft models.",
-          "ticker": "$BA",
-          "price": "$195.50",
-          "change": "-$2.97",
-          "changePercent": "-1.50%",
-          "direction": "down"
+          "id": "mar-loser",
+          "headline": "Marriott International Drops on Weak Guidance",
+          "ticker": "$MAR",
+          "price": "$347.85",
+          "change": "",
+          "changePercent": "-6.7%",
+          "direction": "down",
+          "summary": "Despite beating Q2 earnings estimates, Marriott International's stock fell due to third-quarter guidance coming in below expectations."
         }
       ]
     },
     {
-      "id": "market-news-20260803",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech",
-          "headline": "Technology and Communication Services Lead Market Rally",
-          "summary": "The Technology and Communication Services sectors were the top performers today, driven by strong investor appetite for growth stocks and innovation. Conversely, Energy and Consumer Staples lagged as investors rotated towards more speculative assets.",
+          "id": "iran-talks-oil",
+          "headline": "Oil Prices Sink as U.S.-Iran Diplomatic Talks Resume",
+          "summary": "Crude oil prices plunged after President Donald Trump called off planned military strikes against Iran, announcing that diplomatic negotiations would restart. Brent crude fell 4.9% to $83.59, and WTI crude dropped 8.25% to $79.98 a barrel.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Communication Services"
-          ]
-        },
-        {
-          "id": "economic-outlook",
-          "headline": "Fed Remains Silent; Focus Shifts to Upcoming Inflation Data",
-          "summary": "The Federal Reserve made no new policy announcements today, maintaining its cautious stance. Market participants are now keenly focused on the Producer Price Index (PPI) and Consumer Price Index (CPI) reports due later this week, which could influence future monetary policy decisions.",
-          "tags": [
-            "Economic Data",
-            "Federal Reserve",
+            "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-season",
-          "headline": "Quiet Day for Major Earnings; Tech Giants on Deck Next Week",
-          "summary": "Today saw limited major corporate earnings reports. Attention is quickly turning to next week, however, when several prominent technology companies are slated to release their quarterly results, potentially setting the tone for broader market sentiment.",
+          "id": "ism-manufacturing",
+          "headline": "U.S. Manufacturing Activity Surges to Four-Year High",
+          "summary": "The Institute for Supply Management (ISM) reported that its Manufacturing PMI rose to 55.6 in July, up from 53.3 in June and exceeding forecasts. This marks the highest level since May 2022, indicating robust expansion in the manufacturing sector driven by strong order growth and increased factory employment.",
           "tags": [
-            "Earnings Reports",
-            "Corporate News"
+            "Economic Data",
+            "Manufacturing",
+            "ISM"
+          ]
+        },
+        {
+          "id": "earnings-overview",
+          "headline": "Strong Q2 Earnings Season Continues to Drive Market Optimism",
+          "summary": "The Q2 earnings season remains a significant market driver, with approximately 85% of S&P 500 companies surpassing profit estimates. Aggregate earnings growth is tracking above 47%, marking one of the strongest seasons in years. Energy, Consumer Discretionary, and Communication Services sectors are leading with triple-digit earnings growth.",
+          "tags": [
+            "Earnings",
+            "Corporate Profits",
+            "Sector Performance"
+          ]
+        },
+        {
+          "id": "palantir-earnings",
+          "headline": "Palantir Technologies to Report Q2 Earnings After Market Close",
+          "summary": "Data analytics software company Palantir Technologies ($PLTR) is scheduled to release its second-quarter earnings report after the closing bell today. Investors will be watching closely for insights into its AI Platform (AIP) adoption and commercial revenue growth.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "Palantir"
+          ]
+        },
+        {
+          "id": "airline-rally",
+          "headline": "Airlines and Consumer Cyclicals Benefit from Falling Oil",
+          "summary": "The decline in oil prices provided a boost to sectors with high fuel costs. United Airlines and American Airlines both climbed 6.7%, while Norwegian Cruise Line Holdings rose 3.1%, indicating a positive rotation into consumer-focused industries.",
+          "tags": [
+            "Sector Rotation",
+            "Airlines",
+            "Consumer Discretionary"
           ]
         }
       ]
