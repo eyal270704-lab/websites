@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-04T13:46:00Z",
+  "generatedAt": "2026-08-04T17:51:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 04, 2026 - Morning Update",
+  "subtitle": "August 04, 2026 Session Close",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug-4",
-          "headline": "Wall Street Extends Gains Amidst AI Surge and Geopolitical Shifts, Dow Hits New High",
-          "summary": "The U.S. stock market started August strongly, with major indices closing sharply higher on Monday. This momentum carried into Tuesday's pre-market, driven by robust AI-related earnings forecasts and an initial de-escalation of Middle East tensions. However, fresh reports of attacks in the Strait of Hormuz caused oil prices to climb in Tuesday's early trading, introducing a note of caution despite broadly positive sentiment.",
+          "id": "market-summary-01",
+          "headline": "U.S. Equities Rally on Strong Earnings and Easing Geopolitical Tensions",
+          "summary": "U.S. stock markets posted broad gains today, with the Dow Jones Industrial Average closing at a new all-time high and the S&P 500 and Nasdaq Composite advancing significantly. The rally was fueled by robust quarterly earnings reports, particularly from AI-related companies, and optimism surrounding a potential de-escalation of Middle East tensions, which contributed to a notable drop in oil prices and eased inflation concerns.",
           "tags": [
-            "Market Overview",
-            "AI Rally",
+            "Market Rally",
+            "Earnings Season",
             "Geopolitics",
             "Oil Prices"
           ]
@@ -26,245 +26,161 @@
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Monday, August 3, 2026 Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,600.50",
-          "statContext": "Up 1.5%",
-          "ticker": "$SPX",
-          "change": "+112.98",
-          "changePercent": "+1.5%",
+          "statContext": "+1.5% Today",
           "direction": "up"
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,913.90",
-          "statContext": "Up 2.1%",
-          "ticker": "$IXIC",
-          "change": "+540.04",
-          "changePercent": "+2.1%",
+          "statContext": "+2.1% Today",
           "direction": "up"
         },
         {
-          "id": "dow-close",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,178.41",
-          "statContext": "Up 1.3%",
-          "ticker": "$DJI",
-          "change": "+693.38",
-          "changePercent": "+1.3%",
+          "statContext": "+1.3% Today",
           "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-stocks",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "fslr-gainer",
-          "headline": "First Solar Leads S&P 500 on Earnings Beat",
-          "summary": "First Solar ($FSLR) surged following a positive earnings report on Friday.",
-          "ticker": "$FSLR",
-          "price": "$239.47",
-          "change": "N/A",
-          "changePercent": "+10.3%",
-          "direction": "up",
-          "tags": [
-            "S&P 500",
-            "Solar Energy",
-            "Earnings"
-          ]
-        },
-        {
           "id": "pltr-gainer",
-          "headline": "Palantir Surges on Strong AI Demand Forecasts",
-          "summary": "Palantir Technologies ($PLTR) climbed in pre-market trading after raising its annual revenue forecast, indicating robust demand for its AI software.",
+          "headline": "Palantir Soars on Blockbuster Earnings",
+          "summary": "Palantir Technologies ($PLTR) skyrocketed, with shares up +28.88% in today's session, following the release of blockbuster quarterly results and a raised full-year outlook.",
           "ticker": "$PLTR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+17.2%",
-          "direction": "up",
-          "tags": [
-            "Premarket",
-            "AI",
-            "Software",
-            "Earnings Guidance"
-          ]
+          "price": "$162.21",
+          "change": "+$36.35",
+          "changePercent": "+28.88%",
+          "direction": "up"
         },
         {
-          "id": "coherent-gainer",
-          "headline": "Coherent Posts Significant Gains",
-          "summary": "Coherent ($COHR) was among the top S&P 500 gainers at Monday's close.",
-          "ticker": "$COHR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.6%",
-          "direction": "up",
-          "tags": [
-            "S&P 500"
-          ]
+          "id": "wayfair-gainer",
+          "headline": "Wayfair Jumps After Exceeding Earnings Expectations",
+          "summary": "Online retailer Wayfair ($W) surged, gaining +32.36% today, after reporting second-quarter earnings that beat Wall Street's expectations.",
+          "ticker": "$W",
+          "price": "$118.03",
+          "change": "+$28.86",
+          "changePercent": "+32.36%",
+          "direction": "up"
         },
         {
-          "id": "lumentum-gainer",
-          "headline": "Lumentum Up on Strong Performance",
-          "summary": "Lumentum Holdings ($LITE) also saw substantial gains among S&P 500 components.",
-          "ticker": "$LITE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.2%",
-          "direction": "up",
-          "tags": [
-            "S&P 500"
-          ]
+          "id": "zebra-gainer",
+          "headline": "Zebra Technologies Rises on Strong Q2 Performance",
+          "summary": "Zebra Technologies ($ZBRA) saw its stock climb +22.82% after the barcode scanner maker surpassed second-quarter earnings estimates.",
+          "ticker": "$ZBRA",
+          "price": "$358.06",
+          "change": "+$66.53",
+          "changePercent": "+22.82%",
+          "direction": "up"
         },
         {
-          "id": "onsemi-gainer",
-          "headline": "ON Semiconductor Rises on Optimistic Revenue Forecast",
-          "summary": "ON Semiconductor ($ON) gained in pre-market after projecting quarterly revenue above expectations, driven by AI data center chip demand.",
-          "ticker": "$ON",
+          "id": "aethlon-gainer",
+          "headline": "Aethlon Medical Posts Massive Single-Session Gain",
+          "summary": "Aethlon Medical ($AEMD) experienced an extraordinary surge, gaining +403.0% in a single session.",
+          "ticker": "$AEMD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.5%",
-          "direction": "up",
-          "tags": [
-            "Premarket",
-            "Semiconductors",
-            "AI"
-          ]
+          "changePercent": "+403.0%",
+          "direction": "up"
         },
         {
-          "id": "marriott-loser",
-          "headline": "Marriott Drops on Disappointing Guidance",
-          "summary": "Marriott International ($MAR) fell significantly after its third-quarter guidance came in below market estimates, despite a Q2 revenue beat.",
-          "ticker": "$MAR",
-          "price": "$347.85",
-          "change": "N/A",
-          "changePercent": "-6.7%",
-          "direction": "down",
-          "tags": [
-            "S&P 500",
-            "Hospitality",
-            "Earnings Guidance"
-          ]
-        },
-        {
-          "id": "ebay-loser",
-          "headline": "eBay Downgraded by Analysts",
-          "summary": "eBay ($EBAY) saw a decline after Citizens downgraded the stock to Market Perform from Outperform.",
-          "ticker": "$EBAY",
+          "id": "certara-loser",
+          "headline": "Certara Tumbles on Missed Earnings",
+          "summary": "Certara ($CERT) tumbled by 23.7% after the biosimulation and drug development software company missed Wall Street's second-quarter earnings expectations.",
+          "ticker": "$CERT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "tags": [
-            "S&P 500",
-            "E-commerce",
-            "Analyst Rating"
-          ]
+          "changePercent": "-23.7%",
+          "direction": "down"
+        },
+        {
+          "id": "gygy-loser",
+          "headline": "Game Your Game Experiences Significant Decline",
+          "summary": "Shares of Game Your Game ($GYGY) fell -31.3% in today's trading session.",
+          "ticker": "$GYGY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-31.3%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-today",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Consumer Discretionary and Communication Services Lead Rally, Materials Lagging",
-          "summary": "On Monday, Consumer Discretionary (XLY) led sectors with a 3.3% gain, followed by Communication Services (XLC) at 1.6% and Energy (XLE) at 1%. In contrast, the Materials sector (XLB) tumbled 2.3%, as seven out of eleven S&P 500 sectors closed in negative territory.",
+          "id": "sector-tech-ai",
+          "headline": "Technology and AI Lead Market Gains",
+          "summary": "The technology sector, particularly AI-centric stocks, drove today's market rally, with strong performances from giants like Palantir and positive forecasts from companies like ON Semiconductor. This signals continued investor confidence in the AI boom, benefiting related industries such as equipment for data centers.",
           "tags": [
-            "Sector Analysis",
+            "Technology",
+            "AI",
+            "Sector Performance"
+          ]
+        },
+        {
+          "id": "sector-energy-financials",
+          "headline": "Consumer Discretionary, Communication Services, and Energy Sectors Post Gains",
+          "summary": "Alongside technology, the Consumer Discretionary, Communication Services, and Energy Select Sector SPDRs saw gains of 3.3%, 1.6%, and 1%, respectively. The Banking & Investment Services sector also moved up by 0.94%. In contrast, the Materials Select Sector SPDR tumbled 2.3%.",
+          "tags": [
+            "Sector Performance",
             "Consumer Discretionary",
             "Communication Services",
             "Energy",
-            "Materials"
+            "Financials"
           ]
         },
         {
           "id": "economic-data-ism",
-          "headline": "July Manufacturing PMI Hits Highest Level Since May 2022",
-          "summary": "The Institute of Supply Management reported that the manufacturing purchasing managers' index (PMI) for July reached 55.6, exceeding expectations and marking its strongest reading since May 2022. This signals continued expansion in manufacturing activities.",
+          "headline": "Manufacturing Activity Expands; Trade Deficit Narrows",
+          "summary": "The Institute of Supply Management reported that the manufacturing Purchasing Managers' Index (PMI) for July reached 55.6, its best monthly reading since May 2022, indicating robust expansion. Separately, the U.S. goods and services deficit narrowed to $73.3 billion in June, down $4.4 billion from May.",
           "tags": [
             "Economic Data",
-            "Manufacturing PMI"
-          ]
-        },
-        {
-          "id": "economic-data-trade",
-          "headline": "U.S. Trade Deficit Narrows in June",
-          "summary": "The U.S. goods and services deficit decreased by $4.4 billion in June, falling to $73.3 billion from $77.6 billion in May, driven by a larger decline in imports than exports.",
-          "tags": [
-            "Economic Data",
+            "Manufacturing PMI",
             "Trade Deficit"
           ]
         },
         {
-          "id": "fed-commentary",
-          "headline": "Fed Official Maintains 'Open Mind' on Rate Policy Amidst High Inflation",
-          "summary": "Federal Reserve Bank of Philadelphia President Anna Paulson stated Tuesday that she is keeping an 'open mind' regarding future monetary policy, acknowledging some inflation improvement but emphasizing that inflation remains 'too high.' The Fed's policy approach is shifting towards a more discretionary framework, increasing market influence on financial conditions.",
+          "id": "earnings-reports-major",
+          "headline": "Key Earnings Reports Drive Individual Stock Moves",
+          "summary": "Caterpillar Inc. ($CAT) reported stronger-than-expected Q2 profit and revenue, marking its first quarter with over $20 billion in sales. DigitalOcean ($DOCN) also announced strong Q2 results and raised its 2026 revenue outlook. Investors are now anticipating earnings reports from Advanced Micro Devices ($AMD) and SpaceX ($SPCX) after the market close.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
+            "Earnings Reports",
+            "Caterpillar",
+            "DigitalOcean",
+            "AMD",
+            "SpaceX"
           ]
         },
         {
-          "id": "caterpillar-earnings",
-          "headline": "Caterpillar Reports Record Q2 Sales and Revenue",
-          "summary": "Caterpillar Inc. ($CAT) announced record second-quarter 2026 sales and revenues of $20.5 billion, a 24% increase year-over-year, marking the first time the company has surpassed $20 billion in a single quarter. Adjusted profit per share was $8.17.",
+          "id": "macro-oil-geopolitics",
+          "headline": "Falling Oil Prices and Easing Geopolitical Tensions Boost Confidence",
+          "summary": "Oil prices declined today, with West Texas Intermediate futures settling down 5.1% to $80.34 per barrel, driven by hopes for a U.S.-Iran agreement to reopen the Strait of Hormuz. This, coupled with easing geopolitical tensions, helped allay inflation concerns and bolstered overall market sentiment.",
           "tags": [
-            "Earnings Report",
-            "Industrials"
-          ]
-        },
-        {
-          "id": "sysco-earnings",
-          "headline": "Sysco Posts Strong Q4 Results and Positive FY27 Outlook",
-          "summary": "Sysco Corporation ($SYY) reported a 4.7% increase in sales for its fiscal fourth quarter of 2026, with adjusted EPS rising 3.4% to $1.53. The company also issued optimistic guidance for fiscal year 2027, projecting 9%-11% adjusted EPS growth.",
-          "tags": [
-            "Earnings Report",
-            "Foodservice"
-          ]
-        },
-        {
-          "id": "digitalocean-earnings",
-          "headline": "DigitalOcean Reports Accelerating Revenue Growth, Boosted by AI Customers",
-          "summary": "DigitalOcean Holdings, Inc. ($DOCN) announced Q2 2026 revenue of $281 million, a 29% increase year-over-year, and raised its 2026 revenue outlook. The company highlighted a 212% surge in AI Customer Annual Run-Rate Revenue (ARR).",
-          "tags": [
-            "Earnings Report",
-            "Cloud Computing",
-            "AI"
-          ]
-        },
-        {
-          "id": "oil-prices",
-          "headline": "Oil Prices Fluctuate as Geopolitical Tensions Reignite",
-          "summary": "Crude oil prices, which declined sharply on Monday due to easing Middle East tensions, were climbing in Tuesday's pre-market following new reports of attacks in the Strait of Hormuz.",
-          "tags": [
-            "Commodities",
+            "Macro Trends",
             "Oil Prices",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "upcoming-earnings",
-          "headline": "AMD and SpaceX Earnings Anticipated After Market Close",
-          "summary": "Investors are closely watching for earnings reports from Advanced Micro Devices ($AMD) and SpaceX ($SPCX), both scheduled after the market closes today.",
-          "tags": [
-            "Upcoming Earnings",
-            "Semiconductors",
-            "Space Exploration"
+            "Geopolitics",
+            "Inflation"
           ]
         }
       ]
