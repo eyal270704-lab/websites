@@ -184,6 +184,14 @@ def get_recent_failures(workflow_name: str, limit: int = 5) -> List[Dict]:
 
     try:
         runs = json.loads(stdout)
+
+        # A workflow that has since recovered is not failing. Without this check the
+        # most recent N runs keep matching for days after a fix lands, so the agent
+        # re-diagnoses and re-escalates an outage that is already over.
+        completed = [r for r in runs if r.get('conclusion')]
+        if completed and completed[0].get('conclusion') == 'success':
+            return []
+
         # Filter for failed/cancelled runs
         failures = [
             run for run in runs
