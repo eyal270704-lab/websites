@@ -1,165 +1,194 @@
 {
-  "generatedAt": "2026-08-09T13:15:00Z",
+  "generatedAt": "2026-08-09T16:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 9, 2026 (Markets Closed)",
-  "badge": "Summarizing Aug 8, 2026 Session",
+  "subtitle": "August 9, 2026 - Markets Closed (Summarizing August 7th Session)",
+  "badge": "Last Session Summary",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Strong Weekly Gains on Soft Jobs Report and AI Enthusiasm",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug-8",
-          "headline": "U.S. Markets Close Week Strong, Driven by Weak Jobs Data and Tech Rally",
-          "summary": "U.S. equity markets concluded the week ending August 8, 2026, with significant advances, as the S&P 500 and Dow Jones Industrial Average reached new all-time highs. The rally was primarily fueled by a weaker-than-expected July jobs report, which eased concerns about aggressive Federal Reserve rate hikes, coupled with renewed investor enthusiasm for AI-related stocks and generally positive corporate earnings reports. Technology stocks led the charge, while the Energy sector lagged amidst falling oil prices.",
+          "id": "market-summary-aug-7",
+          "headline": "Stocks Closed Higher on Friday, Buoyed by Unexpected Jobs Data",
+          "summary": "U.S. equities finished the last trading week on a strong note, with all major indices advancing after a surprising July jobs report indicated the economy shed 23,000 nonfarm jobs. This weaker-than-expected data fueled investor hopes for a pause in Federal Reserve interest rate hikes. The S&P 500 and Nasdaq Composite both closed at record highs.",
           "tags": [
             "Market Overview",
-            "Weekly Close",
-            "Fed Expectations"
-          ],
-          "timestamp": "August 8, 2026"
+            "Jobs Report",
+            "Fed Policy"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (August 8, 2026 Close)",
+      "title": "Major Indices (August 7, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-aug-8",
+          "id": "sp500-perf",
           "statLabel": "S&P 500",
           "statValue": "7,757.64",
-          "statContext": "Daily Change: +0.6%, Weekly Change: +3.6%"
+          "statContext": "+47.68 (+0.6%)",
+          "ticker": "$SPX",
+          "price": "7,757.64",
+          "change": "+47.68",
+          "changePercent": "+0.6%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-aug-8",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-perf",
+          "statLabel": "NASDAQ Comp.",
           "statValue": "26,690.62",
-          "statContext": "Daily Change: +1.3%, Weekly Change: +5.2%"
+          "statContext": "+342.26 (+1.3%)",
+          "ticker": "$COMP",
+          "price": "26,690.62",
+          "change": "+342.26",
+          "changePercent": "+1.3%",
+          "direction": "up"
         },
         {
-          "id": "dow-aug-8",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-perf",
+          "statLabel": "Dow Jones Ind.",
           "statValue": "54,036.93",
-          "statContext": "Daily Change: +0.3%, Weekly Change: +3.0%"
+          "statContext": "+151.83 (+0.3%)",
+          "ticker": "$DJIA",
+          "price": "54,036.93",
+          "change": "+151.83",
+          "changePercent": "+0.3%",
+          "direction": "up"
+        },
+        {
+          "id": "russell2000-perf",
+          "statLabel": "Russell 2000",
+          "statValue": "3,034.49",
+          "statContext": "+32.95 (+1.1%)",
+          "ticker": "$RUT",
+          "price": "3,034.49",
+          "change": "+32.95",
+          "changePercent": "+1.1%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (August 8, 2026 Trading Session)",
+      "title": "Top Movers (August 7, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "movers-abnb",
-          "headline": "Airbnb Surges on Strong Outlook",
-          "summary": "Shares of Airbnb ($ABNB) jumped 17% after the company raised its revenue outlook, indicating strong anticipated performance.",
+          "id": "docs-gainer",
+          "headline": "Doximity Skyrockets on Strong Earnings",
+          "summary": "Doximity ($DOCS) surged 81% after the healthcare workflow platform surpassed first-quarter revenue expectations and raised its full-year outlook.",
+          "ticker": "$DOCS",
+          "price": "$27.40",
+          "change": "+$9.22 (approx)",
+          "changePercent": "+81.0%",
+          "direction": "up"
+        },
+        {
+          "id": "team-gainer",
+          "headline": "Atlassian Jumps on Better-Than-Expected Earnings",
+          "summary": "Software company Atlassian ($TEAM) climbed 32.1% following a robust fourth-quarter earnings report that exceeded estimates.",
+          "ticker": "$TEAM",
+          "price": "$149.07",
+          "change": "+$36.21 (approx)",
+          "changePercent": "+32.1%",
+          "direction": "up"
+        },
+        {
+          "id": "abnb-gainer",
+          "headline": "Airbnb Surges After Strong Q2 Performance",
+          "summary": "Airbnb ($ABNB) rose nearly 16% on the back of strong second-quarter results and an upgraded full-year revenue growth outlook.",
           "ticker": "$ABNB",
-          "price": "N/A",
-          "change": "+17.00%",
-          "changePercent": "+17.00%",
+          "price": "$178.07",
+          "change": "+$24.56 (approx)",
+          "changePercent": "+16.0%",
           "direction": "up"
         },
         {
-          "id": "movers-nvda",
-          "headline": "Nvidia Leads Weekly Tech Gains",
-          "summary": "Nvidia ($NVDA) climbed 11.6% over the past week, significantly contributing to the S&P 500's gains amidst renewed enthusiasm for AI-related stocks.",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "+11.60%",
-          "changePercent": "+11.60%",
-          "direction": "up"
-        },
-        {
-          "id": "movers-pltr",
-          "headline": "Palantir Experiences Significant Weekly Rally",
-          "summary": "Palantir Technologies Inc. ($PLTR) saw a substantial increase of 39.78% for the week, signaling strong investor confidence.",
-          "ticker": "$PLTR",
-          "price": "N/A",
-          "change": "+39.78%",
-          "changePercent": "+39.78%",
-          "direction": "up"
-        },
-        {
-          "id": "movers-ttd",
-          "headline": "Trade Desk Plunges on Weak Forecast",
-          "summary": "The Trade Desk ($TTD) shares plunged 22% after the company issued a weak forecast, prompting analyst downgrades.",
+          "id": "ttd-loser",
+          "headline": "The Trade Desk Tumbles on Disappointing Earnings",
+          "summary": "The Trade Desk ($TTD) fell 18.1% after the advertising technology company delivered a disappointing second-quarter earnings report.",
           "ticker": "$TTD",
           "price": "N/A",
-          "change": "-22.00%",
-          "changePercent": "-22.00%",
+          "change": "N/A",
+          "changePercent": "-18.1%",
           "direction": "down"
         },
         {
-          "id": "movers-amd",
-          "headline": "AMD Falls Despite Strong Earnings",
-          "summary": "Advanced Micro Devices ($AMD) fell 7% for the week, despite beating earnings estimates, due to concerns surrounding its capital expenditures.",
-          "ticker": "$AMD",
-          "price": "N/A",
-          "change": "-7.00%",
-          "changePercent": "-7.00%",
-          "direction": "down"
-        },
-        {
-          "id": "movers-axg",
-          "headline": "Solowin Holdings Leads Financial Decliners",
-          "summary": "Solowin Holdings ($AXG) topped the list of decliners in the financials sector for the week, reaching oversold territory based on its 14-day Relative Strength Index.",
-          "ticker": "$AXG",
+          "id": "trgp-loser",
+          "headline": "Targa Resources Declines After Revenue Miss",
+          "summary": "Targa Resources ($TRGP) dropped 4.24% after the midstream energy company reported quarterly revenue that missed consensus estimates.",
+          "ticker": "$TRGP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
+          "changePercent": "-4.24%",
+          "direction": "down"
+        },
+        {
+          "id": "tpl-loser",
+          "headline": "Texas Pacific Land Trust Falls on Earnings Miss",
+          "summary": "Texas Pacific Land Trust ($TPL) closed lower by 4.21% as its second-quarter earnings missed on both revenue and earnings per share.",
+          "ticker": "$TPL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.21%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News & Analysis (August 7, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-aug-8",
-          "headline": "Technology Leads as Energy Lags in Weekly Sector Performance",
-          "summary": "For the week ending August 8, 2026, the Technology sector led all major sectors with a gain of 7.2%, driven by strong performance in AI and semiconductor companies like Nvidia, Broadcom, Intel, and Microsoft. Materials (+4.8%) and Industrials (+3.0%) also saw significant gains. Conversely, the Energy sector was the weakest, declining 3.66% as oil prices eased amid hopes of a de-escalation in Middle East tensions and a potential reopening of the Strait of Hormuz. Investors broadly rotated into growth, high-beta, and large-cap tech stocks, while divesting from energy, commodities, and real estate.",
-          "tags": [
-            "Sector Performance",
-            "Technology",
-            "Energy",
-            "Market Rotation"
-          ],
-          "timestamp": "August 8, 2026"
-        },
-        {
-          "id": "economic-data-aug-8",
-          "headline": "Weak July Jobs Report Cools Fed Rate Hike Expectations",
-          "summary": "The U.S. Bureau of Labor Statistics reported a surprising contraction of 23,000 jobs in July, significantly below consensus estimates and marking the weakest employment reading since February. Despite this, the unemployment rate slightly decreased to 4.1%. This unexpectedly soft jobs data led market participants to lower their expectations for a September Federal Reserve rate hike, with futures markets now pricing a roughly 43-44% chance of a 25 basis point increase, down from 55% prior to the report. Additionally, the ISM Services PMI for July registered 54.1, showing strengthening new orders but a contraction in employment, while the prices index increased to 70.3.",
+          "id": "jobs-report-impact",
+          "headline": "Weak July Jobs Report Fuels Hopes for Fed Rate Pause",
+          "summary": "The U.S. economy unexpectedly lost 23,000 nonfarm jobs in July, significantly below the 83,000 gain economists had anticipated. This cooling labor market data strengthened investor expectations that the Federal Reserve may hold interest rates steady at its upcoming September meeting, easing concerns about aggressive monetary tightening.",
           "tags": [
             "Economic Data",
-            "Jobs Report",
-            "Federal Reserve",
-            "Inflation"
-          ],
-          "timestamp": "August 8, 2026"
+            "Fed Policy",
+            "Employment"
+          ]
         },
         {
-          "id": "earnings-reports-aug-8",
-          "headline": "Key Earnings: Berkshire Hathaway Reports Strong Q2; Airbnb and Trade Desk Diverge",
-          "summary": "Berkshire Hathaway Inc. ($BRK.A, $BRK.B) released its second-quarter 2026 earnings on August 8, reporting net earnings attributable to shareholders of $25.667 billion, a significant increase from $12.370 billion in Q2 2025. Other notable earnings moves included Airbnb ($ABNB) jumping 17% after raising its revenue outlook, while The Trade Desk ($TTD) plunged 22% following a disappointing forecast. In the financials sector, Hagerty ($HGTY) and Oportun Financial ($OPRT) both beat Q2 earnings estimates and provided solid guidance.",
+          "id": "sector-performance-summary",
+          "headline": "Technology and Materials Lead Gains; Energy Lags",
+          "summary": "On Friday, the Technology and Consumer Discretionary sectors led market gains, with Materials notably being the top-performing sector, rising 1.52%. Conversely, the Energy sector experienced the largest drawdown, declining 1.17% for the day, despite earlier tensions in the Strait of Hormuz.",
           "tags": [
-            "Earnings Season",
-            "Berkshire Hathaway",
-            "Airbnb",
-            "Trade Desk"
-          ],
-          "timestamp": "August 8, 2026"
+            "Sector Analysis",
+            "Technology",
+            "Materials",
+            "Energy"
+          ]
+        },
+        {
+          "id": "q2-earnings-beats",
+          "headline": "S&P 500 Companies Continue to Exceed Earnings Expectations",
+          "summary": "The second-quarter earnings season continued to demonstrate corporate resilience, with over 85% of S&P 500 companies that have reported results exceeding Wall Street's profit forecasts. This performance reinforces confidence in corporate fundamentals amidst ongoing economic shifts.",
+          "tags": [
+            "Earnings Reports",
+            "Corporate Performance"
+          ]
+        },
+        {
+          "id": "macro-economic-indicators",
+          "headline": "ISM Data Suggests Continued Economic Expansion",
+          "summary": "Macroeconomic indicators showed continued expansion, with the ISM Manufacturing Index rising to 55.6 in July, its highest level since May 2022. The ISM Services Index also remained comfortably above 50, historically consistent with economic growth. Consumer spending and business fixed investment also showed growth in the second quarter, partly driven by AI development.",
+          "tags": [
+            "Macro Trends",
+            "Economic Growth",
+            "ISM Index"
+          ]
         }
       ]
     }
