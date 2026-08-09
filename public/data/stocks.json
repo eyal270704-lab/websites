@@ -1,187 +1,165 @@
 {
-  "generatedAt": "2026-08-04T17:51:00Z",
+  "generatedAt": "2026-08-09T13:15:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 04, 2026 Session Close",
-  "badge": "LIVE",
+  "subtitle": "August 9, 2026 (Markets Closed)",
+  "badge": "Summarizing Aug 8, 2026 Session",
   "sections": [
     {
-      "id": "market-pulse-overview",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Strong Weekly Gains on Soft Jobs Report and AI Enthusiasm",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-01",
-          "headline": "U.S. Equities Rally on Strong Earnings and Easing Geopolitical Tensions",
-          "summary": "U.S. stock markets posted broad gains today, with the Dow Jones Industrial Average closing at a new all-time high and the S&P 500 and Nasdaq Composite advancing significantly. The rally was fueled by robust quarterly earnings reports, particularly from AI-related companies, and optimism surrounding a potential de-escalation of Middle East tensions, which contributed to a notable drop in oil prices and eased inflation concerns.",
+          "id": "market-summary-aug-8",
+          "headline": "U.S. Markets Close Week Strong, Driven by Weak Jobs Data and Tech Rally",
+          "summary": "U.S. equity markets concluded the week ending August 8, 2026, with significant advances, as the S&P 500 and Dow Jones Industrial Average reached new all-time highs. The rally was primarily fueled by a weaker-than-expected July jobs report, which eased concerns about aggressive Federal Reserve rate hikes, coupled with renewed investor enthusiasm for AI-related stocks and generally positive corporate earnings reports. Technology stocks led the charge, while the Energy sector lagged amidst falling oil prices.",
           "tags": [
-            "Market Rally",
-            "Earnings Season",
-            "Geopolitics",
-            "Oil Prices"
-          ]
+            "Market Overview",
+            "Weekly Close",
+            "Fed Expectations"
+          ],
+          "timestamp": "August 8, 2026"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance (August 8, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-aug-8",
           "statLabel": "S&P 500",
-          "statValue": "7,600.50",
-          "statContext": "+1.5% Today",
-          "direction": "up"
+          "statValue": "7,757.64",
+          "statContext": "Daily Change: +0.6%, Weekly Change: +3.6%"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-aug-8",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,913.90",
-          "statContext": "+2.1% Today",
-          "direction": "up"
+          "statValue": "26,690.62",
+          "statContext": "Daily Change: +1.3%, Weekly Change: +5.2%"
         },
         {
-          "id": "dow-stat",
+          "id": "dow-aug-8",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,178.41",
-          "statContext": "+1.3% Today",
-          "direction": "up"
+          "statValue": "54,036.93",
+          "statContext": "Daily Change: +0.3%, Weekly Change: +3.0%"
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (August 8, 2026 Trading Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "pltr-gainer",
-          "headline": "Palantir Soars on Blockbuster Earnings",
-          "summary": "Palantir Technologies ($PLTR) skyrocketed, with shares up +28.88% in today's session, following the release of blockbuster quarterly results and a raised full-year outlook.",
+          "id": "movers-abnb",
+          "headline": "Airbnb Surges on Strong Outlook",
+          "summary": "Shares of Airbnb ($ABNB) jumped 17% after the company raised its revenue outlook, indicating strong anticipated performance.",
+          "ticker": "$ABNB",
+          "price": "N/A",
+          "change": "+17.00%",
+          "changePercent": "+17.00%",
+          "direction": "up"
+        },
+        {
+          "id": "movers-nvda",
+          "headline": "Nvidia Leads Weekly Tech Gains",
+          "summary": "Nvidia ($NVDA) climbed 11.6% over the past week, significantly contributing to the S&P 500's gains amidst renewed enthusiasm for AI-related stocks.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "+11.60%",
+          "changePercent": "+11.60%",
+          "direction": "up"
+        },
+        {
+          "id": "movers-pltr",
+          "headline": "Palantir Experiences Significant Weekly Rally",
+          "summary": "Palantir Technologies Inc. ($PLTR) saw a substantial increase of 39.78% for the week, signaling strong investor confidence.",
           "ticker": "$PLTR",
-          "price": "$162.21",
-          "change": "+$36.35",
-          "changePercent": "+28.88%",
-          "direction": "up"
-        },
-        {
-          "id": "wayfair-gainer",
-          "headline": "Wayfair Jumps After Exceeding Earnings Expectations",
-          "summary": "Online retailer Wayfair ($W) surged, gaining +32.36% today, after reporting second-quarter earnings that beat Wall Street's expectations.",
-          "ticker": "$W",
-          "price": "$118.03",
-          "change": "+$28.86",
-          "changePercent": "+32.36%",
-          "direction": "up"
-        },
-        {
-          "id": "zebra-gainer",
-          "headline": "Zebra Technologies Rises on Strong Q2 Performance",
-          "summary": "Zebra Technologies ($ZBRA) saw its stock climb +22.82% after the barcode scanner maker surpassed second-quarter earnings estimates.",
-          "ticker": "$ZBRA",
-          "price": "$358.06",
-          "change": "+$66.53",
-          "changePercent": "+22.82%",
-          "direction": "up"
-        },
-        {
-          "id": "aethlon-gainer",
-          "headline": "Aethlon Medical Posts Massive Single-Session Gain",
-          "summary": "Aethlon Medical ($AEMD) experienced an extraordinary surge, gaining +403.0% in a single session.",
-          "ticker": "$AEMD",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+403.0%",
+          "change": "+39.78%",
+          "changePercent": "+39.78%",
           "direction": "up"
         },
         {
-          "id": "certara-loser",
-          "headline": "Certara Tumbles on Missed Earnings",
-          "summary": "Certara ($CERT) tumbled by 23.7% after the biosimulation and drug development software company missed Wall Street's second-quarter earnings expectations.",
-          "ticker": "$CERT",
+          "id": "movers-ttd",
+          "headline": "Trade Desk Plunges on Weak Forecast",
+          "summary": "The Trade Desk ($TTD) shares plunged 22% after the company issued a weak forecast, prompting analyst downgrades.",
+          "ticker": "$TTD",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-23.7%",
+          "change": "-22.00%",
+          "changePercent": "-22.00%",
           "direction": "down"
         },
         {
-          "id": "gygy-loser",
-          "headline": "Game Your Game Experiences Significant Decline",
-          "summary": "Shares of Game Your Game ($GYGY) fell -31.3% in today's trading session.",
-          "ticker": "$GYGY",
+          "id": "movers-amd",
+          "headline": "AMD Falls Despite Strong Earnings",
+          "summary": "Advanced Micro Devices ($AMD) fell 7% for the week, despite beating earnings estimates, due to concerns surrounding its capital expenditures.",
+          "ticker": "$AMD",
+          "price": "N/A",
+          "change": "-7.00%",
+          "changePercent": "-7.00%",
+          "direction": "down"
+        },
+        {
+          "id": "movers-axg",
+          "headline": "Solowin Holdings Leads Financial Decliners",
+          "summary": "Solowin Holdings ($AXG) topped the list of decliners in the financials sector for the week, reaching oversold territory based on its 14-day Relative Strength Index.",
+          "ticker": "$AXG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-31.3%",
+          "changePercent": "N/A",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-today",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-ai",
-          "headline": "Technology and AI Lead Market Gains",
-          "summary": "The technology sector, particularly AI-centric stocks, drove today's market rally, with strong performances from giants like Palantir and positive forecasts from companies like ON Semiconductor. This signals continued investor confidence in the AI boom, benefiting related industries such as equipment for data centers.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Sector Performance"
-          ]
-        },
-        {
-          "id": "sector-energy-financials",
-          "headline": "Consumer Discretionary, Communication Services, and Energy Sectors Post Gains",
-          "summary": "Alongside technology, the Consumer Discretionary, Communication Services, and Energy Select Sector SPDRs saw gains of 3.3%, 1.6%, and 1%, respectively. The Banking & Investment Services sector also moved up by 0.94%. In contrast, the Materials Select Sector SPDR tumbled 2.3%.",
+          "id": "sector-analysis-aug-8",
+          "headline": "Technology Leads as Energy Lags in Weekly Sector Performance",
+          "summary": "For the week ending August 8, 2026, the Technology sector led all major sectors with a gain of 7.2%, driven by strong performance in AI and semiconductor companies like Nvidia, Broadcom, Intel, and Microsoft. Materials (+4.8%) and Industrials (+3.0%) also saw significant gains. Conversely, the Energy sector was the weakest, declining 3.66% as oil prices eased amid hopes of a de-escalation in Middle East tensions and a potential reopening of the Strait of Hormuz. Investors broadly rotated into growth, high-beta, and large-cap tech stocks, while divesting from energy, commodities, and real estate.",
           "tags": [
             "Sector Performance",
-            "Consumer Discretionary",
-            "Communication Services",
+            "Technology",
             "Energy",
-            "Financials"
-          ]
+            "Market Rotation"
+          ],
+          "timestamp": "August 8, 2026"
         },
         {
-          "id": "economic-data-ism",
-          "headline": "Manufacturing Activity Expands; Trade Deficit Narrows",
-          "summary": "The Institute of Supply Management reported that the manufacturing Purchasing Managers' Index (PMI) for July reached 55.6, its best monthly reading since May 2022, indicating robust expansion. Separately, the U.S. goods and services deficit narrowed to $73.3 billion in June, down $4.4 billion from May.",
+          "id": "economic-data-aug-8",
+          "headline": "Weak July Jobs Report Cools Fed Rate Hike Expectations",
+          "summary": "The U.S. Bureau of Labor Statistics reported a surprising contraction of 23,000 jobs in July, significantly below consensus estimates and marking the weakest employment reading since February. Despite this, the unemployment rate slightly decreased to 4.1%. This unexpectedly soft jobs data led market participants to lower their expectations for a September Federal Reserve rate hike, with futures markets now pricing a roughly 43-44% chance of a 25 basis point increase, down from 55% prior to the report. Additionally, the ISM Services PMI for July registered 54.1, showing strengthening new orders but a contraction in employment, while the prices index increased to 70.3.",
           "tags": [
             "Economic Data",
-            "Manufacturing PMI",
-            "Trade Deficit"
-          ]
-        },
-        {
-          "id": "earnings-reports-major",
-          "headline": "Key Earnings Reports Drive Individual Stock Moves",
-          "summary": "Caterpillar Inc. ($CAT) reported stronger-than-expected Q2 profit and revenue, marking its first quarter with over $20 billion in sales. DigitalOcean ($DOCN) also announced strong Q2 results and raised its 2026 revenue outlook. Investors are now anticipating earnings reports from Advanced Micro Devices ($AMD) and SpaceX ($SPCX) after the market close.",
-          "tags": [
-            "Earnings Reports",
-            "Caterpillar",
-            "DigitalOcean",
-            "AMD",
-            "SpaceX"
-          ]
-        },
-        {
-          "id": "macro-oil-geopolitics",
-          "headline": "Falling Oil Prices and Easing Geopolitical Tensions Boost Confidence",
-          "summary": "Oil prices declined today, with West Texas Intermediate futures settling down 5.1% to $80.34 per barrel, driven by hopes for a U.S.-Iran agreement to reopen the Strait of Hormuz. This, coupled with easing geopolitical tensions, helped allay inflation concerns and bolstered overall market sentiment.",
-          "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics",
+            "Jobs Report",
+            "Federal Reserve",
             "Inflation"
-          ]
+          ],
+          "timestamp": "August 8, 2026"
+        },
+        {
+          "id": "earnings-reports-aug-8",
+          "headline": "Key Earnings: Berkshire Hathaway Reports Strong Q2; Airbnb and Trade Desk Diverge",
+          "summary": "Berkshire Hathaway Inc. ($BRK.A, $BRK.B) released its second-quarter 2026 earnings on August 8, reporting net earnings attributable to shareholders of $25.667 billion, a significant increase from $12.370 billion in Q2 2025. Other notable earnings moves included Airbnb ($ABNB) jumping 17% after raising its revenue outlook, while The Trade Desk ($TTD) plunged 22% following a disappointing forecast. In the financials sector, Hagerty ($HGTY) and Oportun Financial ($OPRT) both beat Q2 earnings estimates and provided solid guidance.",
+          "tags": [
+            "Earnings Season",
+            "Berkshire Hathaway",
+            "Airbnb",
+            "Trade Desk"
+          ],
+          "timestamp": "August 8, 2026"
         }
       ]
     }
