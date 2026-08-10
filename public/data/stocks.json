@@ -1,191 +1,187 @@
 {
-  "generatedAt": "2026-08-10T08:24:00Z",
+  "generatedAt": "2026-08-10T12:43:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: August 10, 2026",
-  "subtitle": "US Markets Close Higher, S&P 500 Hits Record High Amid Weak Jobs Data and Strong Earnings",
+  "title": "Daily Market Digest",
+  "subtitle": "Monday, August 10, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Wall Street rallies as S&P 500 achieves new record close",
-          "summary": "U.S. equities finished Monday, August 10, 2026, on a strong note, with the S&P 500 reaching an all-time high. The positive sentiment was primarily driven by weaker-than-expected July jobs data, which significantly lowered expectations for a Federal Reserve rate hike in September, alongside a robust corporate earnings season. All major indices recorded gains, underscoring broad market optimism. Not financial advice.",
+          "id": "market-summary-001",
+          "headline": "Futures Mixed as Investors Eye Earnings and CPI Data; S&P 500 Extends Record Run",
+          "summary": "U.S. stock futures showed mixed movements this Monday morning, with Nasdaq and S&P 500 futures up marginally, while Dow futures dipped. This comes as markets anticipate a busy week of corporate earnings and crucial CPI inflation data. The S&P 500 has continued its upward trajectory, trading near 7,771 in early trading, building on last Friday's record close of 7,757.64.",
           "tags": [
-            "Market Close",
-            "S&P 500 Record",
-            "Fed Outlook",
-            "Earnings Season"
-          ]
+            "Market Overview",
+            "Futures",
+            "CPI",
+            "Earnings"
+          ],
+          "timestamp": "2026-08-10T05:49:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,757.64",
-          "statContext": "+0.62% Today (Record High)"
+          "statContext": "Closed Friday, Aug 7: +0.62%"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ",
           "statValue": "26,690.62",
-          "statContext": "+1.30% Today"
+          "statContext": "Closed Friday, Aug 7: +1.30%"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-stat",
+          "statLabel": "DOW",
           "statValue": "54,036.93",
-          "statContext": "+0.28% Today"
+          "statContext": "Closed Friday, Aug 7: +0.28%"
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "+0.14%",
+          "statContext": "Pre-market (5:49 AM EDT)"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "+0.40%",
+          "statContext": "Pre-market (5:49 AM EDT)"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "DOW Futures",
+          "statValue": "-0.04%",
+          "statContext": "Pre-market (5:49 AM EDT)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (Recent Sessions)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "abnb-gainer",
-          "headline": "Airbnb surges on strong performance",
-          "ticker": "$ABNB",
+          "id": "mover-spacex",
+          "headline": "SpaceX Surges on Lockup Expiry",
+          "summary": "Elon Musk's SpaceX surged 15.8% recently, a day after the expiry of the first of several share lockup restrictions following its record public offering in June.",
+          "ticker": "$SPCX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.4%",
-          "direction": "up",
-          "summary": "Airbnb was among the top S&P 500 gainers of the day."
+          "changePercent": "+15.8%",
+          "direction": "up"
         },
         {
-          "id": "team-gainer",
-          "headline": "Atlassian skyrockets on earnings beat",
+          "id": "mover-atlassian",
+          "headline": "Atlassian Posts Record Daily Gain",
+          "summary": "Collaboration software maker Atlassian ($TEAM) saw a significant jump of 35.3%, marking its largest-ever daily percentage gain in recent trading.",
           "ticker": "$TEAM",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+35.3%",
-          "direction": "up",
-          "summary": "Atlassian surged after beating quarterly expectations and providing strong revenue guidance."
+          "direction": "up"
         },
         {
-          "id": "wwr-gainer",
-          "headline": "Westwater Resources sees significant gains",
-          "ticker": "$WWR",
+          "id": "mover-microchip",
+          "headline": "Microchip Tech Jumps on Strong Forecast",
+          "summary": "Chip company Microchip Tech ($MCHP) climbed 13.9%, achieving its best daily performance in over 15 months after forecasting quarterly revenue above analyst estimates.",
+          "ticker": "$MCHP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+87.8%",
-          "direction": "up",
-          "summary": "Westwater Resources experienced a substantial single-day return."
+          "changePercent": "+13.9%",
+          "direction": "up"
         },
         {
-          "id": "ttd-loser",
-          "headline": "Trade Desk dips after guidance miss",
-          "ticker": "$TTD",
+          "id": "mover-airbnb",
+          "headline": "Airbnb Leads S&P 500 Gainers",
+          "summary": "Vacation rental company Airbnb ($ABNB) rose 17.4%, making it the best performer on the S&P 500 after exceeding second-quarter revenue estimates.",
+          "ticker": "$ABNB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-21.9%",
-          "direction": "down",
-          "summary": "The Trade Desk was the biggest S&P 500 loser after guiding revenue below forecasts."
+          "changePercent": "+17.4%",
+          "direction": "up"
         },
         {
-          "id": "v-loser",
-          "headline": "Visa declines",
-          "ticker": "$V",
+          "id": "mover-nebius",
+          "headline": "Nebius Group Dips Amid Earnings Season",
+          "summary": "Nebius Group ($NBIS) saw a decline of 1.01% as the market enters a busy week of corporate earnings reports.",
+          "ticker": "$NBIS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.20%",
-          "direction": "down",
-          "summary": "Visa experienced a decline during Monday's trading session."
-        },
-        {
-          "id": "cvx-loser",
-          "headline": "Chevron moves lower",
-          "ticker": "$CVX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.49%",
-          "direction": "down",
-          "summary": "Chevron's stock price moved lower on Monday."
+          "changePercent": "-1.01%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "jobs-report-impact",
-          "headline": "Weak July Jobs Report Eases Rate Hike Fears",
-          "summary": "The U.S. economy unexpectedly shed 23,000 nonfarm payroll jobs in July, significantly below the 80,000 increase economists anticipated. This weaker-than-expected data led to a reduction in market expectations for a September Federal Reserve interest rate hike, falling to approximately 44%. The unemployment rate also slightly decreased to 4.1% from 4.2% in June.",
+          "id": "economic-news-001",
+          "headline": "Weak Jobs Report Eases Fed Rate Hike Fears",
+          "summary": "The U.S. economy unexpectedly shed 23,000 jobs in July, significantly below expectations, pushing the unemployment rate down to 4.1%. This weak report has led most traders to anticipate the Federal Reserve will maintain interest rates unchanged at 3.50% to 3.75% in September.",
           "tags": [
             "Economic Data",
             "Federal Reserve",
-            "Jobs Report",
-            "Interest Rates"
+            "Jobs Report"
           ]
         },
         {
-          "id": "earnings-season-strength",
-          "headline": "Strong Corporate Earnings Drive Market Rally",
-          "summary": "The current earnings season continues to be robust, with 85.1% of S&P 500 companies reporting results through Friday morning surpassing analyst expectations. Overall, 87% of S&P 500 companies have beaten bottom-line estimates and 69% have exceeded top-line expectations for Q2. This strong performance, particularly from AI-related investments, is a key factor in the ongoing market rally.",
+          "id": "economic-news-002",
+          "headline": "Inflation Data Looms with CPI and PPI Ahead",
+          "summary": "Investors are closely watching for key inflation data this week, with the Consumer Price Index (CPI) due on August 12 and the Producer Price Index (PPI) on August 13, which will be critical for assessing price stability and future monetary policy.",
           "tags": [
-            "Earnings",
-            "Corporate Results",
-            "S&P 500",
-            "AI"
-          ]
-        },
-        {
-          "id": "sectors-leading",
-          "headline": "Technology and Materials Lead as Energy Lags",
-          "summary": "Technology stocks continued their strong performance, contributing significantly to the broader market's gains. The information technology and materials sectors led overall performance last week. Conversely, the energy sector was the sole laggard, ending the week in the red.",
-          "tags": [
-            "Sector Performance",
-            "Technology",
-            "Energy",
-            "Materials"
-          ]
-        },
-        {
-          "id": "jp-morgan-target",
-          "headline": "J.P. Morgan Raises S&P 500 Year-End Target to 8,000",
-          "summary": "J.P. Morgan revised its year-end target for the S&P 500 to 8,000, citing powerful corporate earnings and the anticipated revenue growth from AI investments by hyperscalers. This new target suggests a potential upside of approximately 3.12% from Friday's closing level.",
-          "tags": [
-            "Analyst Ratings",
-            "S&P 500",
-            "Market Outlook"
-          ]
-        },
-        {
-          "id": "economic-data-outlook",
-          "headline": "Upcoming Inflation Data in Focus for the Week Ahead",
-          "summary": "Investors will closely monitor key inflation data scheduled for release later this week, including the Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday. July's CPI is projected to have increased by 3.4%, slightly easing from 3.5% in June. These reports will provide further insights into inflation trends as the Federal Reserve evaluates its monetary policy.",
-          "tags": [
-            "Economic Calendar",
+            "Economic Data",
             "Inflation",
             "CPI",
             "PPI"
           ]
         },
         {
-          "id": "key-earnings-today",
-          "headline": "Several Companies Report Earnings Today, August 10th",
-          "summary": "A number of companies are scheduled to release their earnings reports today, August 10, 2026. Notable names include Rocket Lab ($RKLB), AST SpaceMobile ($ASTS), Plug Power ($PLUG), Hims & Hers Health ($HIMS), and monday.com ($MNDY), among others.",
+          "id": "sector-news-001",
+          "headline": "Technology and Industrials Showing Improving Momentum",
+          "summary": "In sector analysis, Technology and Industrials are demonstrating strengthening relative momentum, positioned as potential leaders. Materials, Consumer Staples, Real Estate, and Energy continue to lead, while Utilities has shifted into a lagging position.",
           "tags": [
-            "Earnings Reports",
-            "Company News"
+            "Sector Analysis",
+            "Technology",
+            "Industrials"
+          ]
+        },
+        {
+          "id": "earnings-news-001",
+          "headline": "Busy Week for Corporate Earnings Reports",
+          "summary": "A wave of major companies are scheduled to release earnings this week, including Super Micro Computer ($SMCI), CoreWeave ($CRWV), Cisco Systems ($CSCO), Hims & Hers ($HIMS), Applied Materials ($AMAT), Plug Power ($PLUG), Rocket Lab USA ($RKLB), Archer Aviation ($ACHR), and AST SpaceMobile ($ASTS). Rakuten Group ($RKUNY) also released its Q2 FY2026 financial results today.",
+          "tags": [
+            "Earnings",
+            "Corporate Reports"
+          ]
+        },
+        {
+          "id": "commodities-news-001",
+          "headline": "Oil Prices Rise Amid Strait of Hormuz Uncertainty",
+          "summary": "Oil prices climbed in pre-market trading this morning, driven by ongoing uncertainty surrounding the reopening of the Strait of Hormuz and mixed signals regarding potential agreements between the U.S. and Iran. Brent crude rose 2.14% to $85.40 a barrel, and WTI crude increased 2.05% to $78.88 a barrel.",
+          "tags": [
+            "Commodities",
+            "Oil",
+            "Geopolitics"
           ]
         }
       ]
