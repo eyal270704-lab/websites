@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T07:16:36.450028Z",
+  "generatedAt": "2026-08-10T07:52:27.675875Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 1,
+  "tradeCount": 4,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,6 +18,54 @@
       "footerTag": "High Risk",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$DAL",
+      "name": "Delta Air Lines Inc.",
+      "sector": "Airlines",
+      "currentPrice": "$91.35",
+      "entry": "$87.50",
+      "stop": "$85.50",
+      "structure": "Price above key MAs",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "DAL is in a clear uptrend, trading above its 20-day and 200-day moving averages. Current price is extended from short-term averages, suggesting a potential pullback towards the 20-day SMA around $87.50 could offer an entry point. Volume is currently below average, indicating lower immediate buying pressure.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "sector": "Communication Services",
+      "currentPrice": "$354.70",
+      "entry": "$348.80",
+      "stop": "$338.00",
+      "structure": "Support Test (20-day SMA)",
+      "trend": "Uptrend",
+      "trendLabel": "Trend",
+      "analysis": "GOOGL is in a medium-term uptrend, with the 50-day moving average above the 200-day moving average. The stock is currently consolidating, offering a potential entry on a pullback to the 20-day simple moving average around $348.80. Volume is below average.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AER",
+      "name": "AerCap Holdings N.V.",
+      "sector": "Financials",
+      "currentPrice": "$151.72",
+      "entry": "$142.00",
+      "stop": "$137.50",
+      "structure": "Strong Uptrend / Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "AER is exhibiting a strong bullish trend, trading significantly above its key moving averages. While currently pulling back, a retest of the $142.00 support level could provide a good entry. Relative volume is below average, indicating a lack of strong immediate momentum but potentially healthy consolidation.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
