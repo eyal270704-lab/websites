@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T07:52:27.675875Z",
+  "generatedAt": "2026-08-10T13:22:29.548814Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 4,
+  "tradeCount": 7,
   "trades": [
     {
       "ticker": "$APP",
@@ -65,6 +65,54 @@
       "riskScore": 3,
       "footerTag": "High Confidence",
       "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$224.70",
+      "entry": "$207.00",
+      "stop": "$200.00",
+      "structure": "Support Test (20-day MA)",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently trading above its key moving averages, indicating a strong uptrend. A pullback to the 20-day moving average could offer a potential entry, with the 100-day moving average providing a logical stop loss level. Upcoming earnings present a significant near-term risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Semiconductors",
+      "currentPrice": "$483.36",
+      "entry": "$474.77",
+      "stop": "$465.00",
+      "structure": "0.618 Fib (S1 Pivot)",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "AMD is trading below its short-term moving averages but remains above the longer-term 100-day and 200-day MAs. A potential entry at the Fibonacci S1 pivot point offers a bounce opportunity. Volume is significantly lower than average, suggesting reduced current interest.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$INTC",
+      "name": "Intel Corporation",
+      "sector": "Semiconductors",
+      "currentPrice": "$101.65",
+      "entry": "$98.00",
+      "stop": "$93.50",
+      "structure": "Support Test (20-day MA)",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Intel is showing strength, trading above its 20-day, 100-day, and 200-day moving averages. A test of the 20-day simple moving average could provide an entry opportunity. Volume is currently below average, indicating a lack of strong buying pressure.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
       "source": "Micha Stocks YouTube"
     }
   ]
