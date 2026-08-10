@@ -1,187 +1,171 @@
 {
-  "generatedAt": "2026-08-10T12:43:00Z",
+  "generatedAt": "2026-08-10T16:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Monday, August 10, 2026",
+  "title": "Daily Market Digest: August 10, 2026",
+  "subtitle": "Market sentiment mixed amid geopolitical concerns and anticipation of key inflation data.",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Cautious Optimism Prevails",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-001",
-          "headline": "Futures Mixed as Investors Eye Earnings and CPI Data; S&P 500 Extends Record Run",
-          "summary": "U.S. stock futures showed mixed movements this Monday morning, with Nasdaq and S&P 500 futures up marginally, while Dow futures dipped. This comes as markets anticipate a busy week of corporate earnings and crucial CPI inflation data. The S&P 500 has continued its upward trajectory, trading near 7,771 in early trading, building on last Friday's record close of 7,757.64.",
+          "headline": "U.S. stocks saw a mixed performance today as investors navigated ongoing geopolitical tensions in the Middle East, which are driving oil prices higher, and awaited crucial inflation data later this week. While the S&P 500 managed a slight gain, the Dow and Nasdaq registered modest declines. The market remains influenced by robust corporate earnings and significant investments in artificial intelligence, although a recent weak jobs report has softened expectations for an immediate Fed rate hike. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Futures",
-            "CPI",
-            "Earnings"
-          ],
-          "timestamp": "2026-08-10T05:49:00Z"
+            "Market Summary",
+            "Geopolitics",
+            "Inflation",
+            "AI"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,757.64",
-          "statContext": "Closed Friday, Aug 7: +0.62%"
+          "statValue": "7,762.60",
+          "statContext": "Up +0.06% today, after closing Friday at 7,757.64."
         },
         {
           "id": "nasdaq-stat",
-          "statLabel": "NASDAQ",
-          "statValue": "26,690.62",
-          "statContext": "Closed Friday, Aug 7: +1.30%"
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,658.42",
+          "statContext": "Down -0.12% today."
         },
         {
           "id": "dow-stat",
-          "statLabel": "DOW",
-          "statValue": "54,036.93",
-          "statContext": "Closed Friday, Aug 7: +0.28%"
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "+0.14%",
-          "statContext": "Pre-market (5:49 AM EDT)"
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "+0.40%",
-          "statContext": "Pre-market (5:49 AM EDT)"
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "DOW Futures",
-          "statValue": "-0.04%",
-          "statContext": "Pre-market (5:49 AM EDT)"
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "54,001.13",
+          "statContext": "Down -0.07% today."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (Recent Sessions)",
+      "id": "top-movers",
+      "title": "Top Movers (Today's Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-spacex",
-          "headline": "SpaceX Surges on Lockup Expiry",
-          "summary": "Elon Musk's SpaceX surged 15.8% recently, a day after the expiry of the first of several share lockup restrictions following its record public offering in June.",
-          "ticker": "$SPCX",
+          "id": "mover-marinemax",
+          "headline": "MarineMax soars on acquisition news.",
+          "ticker": "$HZO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.8%",
-          "direction": "up"
+          "changePercent": "+45.6%",
+          "direction": "up",
+          "summary": "MarineMax jumped 45.6% after announcing an agreement to be acquired by a portfolio company of Blackstone for approximately $1.5 billion in cash."
         },
         {
-          "id": "mover-atlassian",
-          "headline": "Atlassian Posts Record Daily Gain",
-          "summary": "Collaboration software maker Atlassian ($TEAM) saw a significant jump of 35.3%, marking its largest-ever daily percentage gain in recent trading.",
-          "ticker": "$TEAM",
+          "id": "mover-vareximaging",
+          "headline": "Varex Imaging surges on Teledyne Technologies buyout.",
+          "ticker": "$VREX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+35.3%",
-          "direction": "up"
+          "changePercent": "+48.2%",
+          "direction": "up",
+          "summary": "Varex Imaging leaped 48.2% after Teledyne Technologies announced plans to acquire the X-ray imaging components maker for $18.90 per share in cash."
         },
         {
-          "id": "mover-microchip",
-          "headline": "Microchip Tech Jumps on Strong Forecast",
-          "summary": "Chip company Microchip Tech ($MCHP) climbed 13.9%, achieving its best daily performance in over 15 months after forecasting quarterly revenue above analyst estimates.",
-          "ticker": "$MCHP",
+          "id": "mover-vertex",
+          "headline": "Vertex Pharmaceuticals gains after strong earnings.",
+          "ticker": "$VRTX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.9%",
-          "direction": "up"
+          "changePercent": "+6.6%",
+          "direction": "up",
+          "summary": "Vertex Pharmaceuticals advanced 6.6% after the biotech company surpassed second-quarter earnings estimates."
         },
         {
-          "id": "mover-airbnb",
-          "headline": "Airbnb Leads S&P 500 Gainers",
-          "summary": "Vacation rental company Airbnb ($ABNB) rose 17.4%, making it the best performer on the S&P 500 after exceeding second-quarter revenue estimates.",
-          "ticker": "$ABNB",
+          "id": "mover-banzai",
+          "headline": "Banzai International plunges.",
+          "ticker": "$PARA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.4%",
-          "direction": "up"
+          "changePercent": "-85.02%",
+          "direction": "down",
+          "summary": "Banzai International, Inc. saw a significant decline of 85.02%."
         },
         {
-          "id": "mover-nebius",
-          "headline": "Nebius Group Dips Amid Earnings Season",
-          "summary": "Nebius Group ($NBIS) saw a decline of 1.01% as the market enters a busy week of corporate earnings reports.",
-          "ticker": "$NBIS",
+          "id": "mover-yxt",
+          "headline": "YXT.COM Group Holding Limited drops following offering.",
+          "ticker": "$YXT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.01%",
-          "direction": "down"
+          "changePercent": "-66.07%",
+          "direction": "down",
+          "summary": "YXT.COM GROUP HOLDING LIMITED fell 66.07% after announcing the pricing of a $1.05 million registered direct offering."
+        },
+        {
+          "id": "mover-coherent",
+          "headline": "Coherent tumbles ahead of earnings.",
+          "ticker": "$COHR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.6%",
+          "direction": "down",
+          "summary": "Coherent shares tumbled 11.6% ahead of its scheduled August 12 earnings report, as investors locked in gains following a recent rally."
         }
       ]
     },
     {
-      "id": "market-news-articles",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-001",
-          "headline": "Weak Jobs Report Eases Fed Rate Hike Fears",
-          "summary": "The U.S. economy unexpectedly shed 23,000 jobs in July, significantly below expectations, pushing the unemployment rate down to 4.1%. This weak report has led most traders to anticipate the Federal Reserve will maintain interest rates unchanged at 3.50% to 3.75% in September.",
+          "id": "article-economic-data",
+          "headline": "July Jobs Report and Upcoming Inflation Data Shape Fed Expectations",
+          "summary": "The July nonfarm payrolls report showed an unexpected loss of 23,000 jobs, easing concerns about a September Federal Reserve interest rate hike. Most traders now anticipate the Fed will maintain current rates. However, attention now shifts to Wednesday's Consumer Price Index (CPI) and Thursday's Producer Price Index (PPI) releases, which will provide crucial updates on inflation trends. The ISM Manufacturing Report for July showed strong expansion, reaching 55.6, the highest since May 2022.",
           "tags": [
             "Economic Data",
-            "Federal Reserve",
+            "Fed Policy",
+            "CPI",
+            "PPI",
             "Jobs Report"
           ]
         },
         {
-          "id": "economic-news-002",
-          "headline": "Inflation Data Looms with CPI and PPI Ahead",
-          "summary": "Investors are closely watching for key inflation data this week, with the Consumer Price Index (CPI) due on August 12 and the Producer Price Index (PPI) on August 13, which will be critical for assessing price stability and future monetary policy.",
+          "id": "article-geopolitics-oil",
+          "headline": "Geopolitical Tensions Drive Oil Prices Higher Amid Strait of Hormuz Uncertainty",
+          "summary": "Oil prices climbed today due to ongoing uncertainty surrounding a potential U.S.-Iran agreement regarding the Strait of Hormuz. Reports indicate Iran is close to a deal with Oman, but conditions for reopening the vital waterway remain contentious. This geopolitical risk continues to be a significant factor for global commodity markets.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "CPI",
-            "PPI"
+            "Geopolitics",
+            "Oil Prices",
+            "Middle East"
           ]
         },
         {
-          "id": "sector-news-001",
-          "headline": "Technology and Industrials Showing Improving Momentum",
-          "summary": "In sector analysis, Technology and Industrials are demonstrating strengthening relative momentum, positioned as potential leaders. Materials, Consumer Staples, Real Estate, and Energy continue to lead, while Utilities has shifted into a lagging position.",
+          "id": "article-ai-earnings",
+          "headline": "AI Spending and Strong Earnings Continue to Propel S&P 500 Forecasts",
+          "summary": "JPMorgan Chase & Co. strategists have raised their year-end S&P 500 target to 8,000, citing strong corporate earnings and the significant payoff from artificial intelligence investments. The bank believes confidence in AI spending is solidifying as major hyperscalers translate growing backlogs into revenue and cloud growth. This bullish outlook comes after a strong earnings season, with a high percentage of S&P 500 companies beating expectations.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Industrials"
+            "AI",
+            "Corporate Earnings",
+            "S&P 500",
+            "JPMorgan"
           ]
         },
         {
-          "id": "earnings-news-001",
-          "headline": "Busy Week for Corporate Earnings Reports",
-          "summary": "A wave of major companies are scheduled to release earnings this week, including Super Micro Computer ($SMCI), CoreWeave ($CRWV), Cisco Systems ($CSCO), Hims & Hers ($HIMS), Applied Materials ($AMAT), Plug Power ($PLUG), Rocket Lab USA ($RKLB), Archer Aviation ($ACHR), and AST SpaceMobile ($ASTS). Rakuten Group ($RKUNY) also released its Q2 FY2026 financial results today.",
+          "id": "article-tech-specific",
+          "headline": "Tech Giants Face Headwinds: Apple Downgrade, Intel Stock Offering",
+          "summary": "Apple ($AAPL) shares saw a decline after Jefferies downgraded the stock, citing supply-chain checks suggesting the cancellation of an all-glass iPhone project. Intel ($INTC) also fell following its announcement of a potential $15 billion stock offering, intended to fund its AI and manufacturing ambitions, but raising concerns about dilution for existing investors.",
           "tags": [
-            "Earnings",
-            "Corporate Reports"
-          ]
-        },
-        {
-          "id": "commodities-news-001",
-          "headline": "Oil Prices Rise Amid Strait of Hormuz Uncertainty",
-          "summary": "Oil prices climbed in pre-market trading this morning, driven by ongoing uncertainty surrounding the reopening of the Strait of Hormuz and mixed signals regarding potential agreements between the U.S. and Iran. Brent crude rose 2.14% to $85.40 a barrel, and WTI crude increased 2.05% to $78.88 a barrel.",
-          "tags": [
-            "Commodities",
-            "Oil",
-            "Geopolitics"
+            "Tech Stocks",
+            "Apple",
+            "Intel",
+            "Analyst Ratings"
           ]
         }
       ]
