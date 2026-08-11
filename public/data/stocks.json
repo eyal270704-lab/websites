@@ -1,150 +1,164 @@
 {
-  "generatedAt": "2026-08-11T08:07:00Z",
+  "generatedAt": "2026-08-11T12:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Tuesday, August 11, 2026",
+  "title": "Daily Market Digest: August 11, 2026",
+  "subtitle": "Market closes lower as inflation data looms and oil prices rise",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Cautious Sentiment Amid Oil Surge and Geopolitical Tensions",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Equities Edge Down as Oil Prices Climb; Global Markets Mixed",
-          "summary": "U.S. stock markets concluded Monday's session with modest declines, retreating from recent record highs, as a significant 5% surge in crude oil prices fueled by ongoing uncertainty surrounding the Strait of Hormuz overshadowed robust corporate earnings. The broader market sentiment remains cautious, influenced by geopolitical developments and rising Treasury yields, though strong profits from major companies like Berkshire Hathaway provided some support.",
+          "id": "market-summary-aug11",
+          "headline": "U.S. Indices Close Lower Amid Geopolitical Tensions and Ahead of Key Inflation Data",
+          "summary": "U.S. major indices finished in negative territory today, August 11, 2026, as investors weighed ongoing U.S.-Iran conflict and rising oil prices against anticipation for Wednesday's crucial CPI report. The market displayed a cautious sentiment, with broad declines despite some individual stock gains on strong earnings.",
           "tags": [
             "Market Overview",
-            "Oil Prices",
-            "Geopolitics",
-            "Earnings"
+            "Economic Data",
+            "Geopolitics"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Monday's Close)",
+      "title": "Major Indices (Close: August 11, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,753.11",
-          "statContext": "Slipped 4.53 points (-0.06%)"
+          "statContext": "Down 0.1%"
         },
         {
-          "id": "dowjones",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "53,975.98",
-          "statContext": "Dipped 60.95 points (-0.11%)"
-        },
-        {
-          "id": "nasdaq",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,605.36",
-          "statContext": "Sank 85.26 points (-0.32%)"
+          "statContext": "Down 0.3%"
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "53,975.98",
+          "statContext": "Down 0.1% (60.95 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Monday's Close)",
+      "title": "Top Movers (Close: August 11, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "hzo-gainer",
-          "headline": "MarineMax surges on acquisition news",
-          "ticker": "$HZO",
-          "price": "$52.12",
-          "change": "+$16.44",
-          "changePercent": "+46.08%",
-          "direction": "up",
-          "summary": "MarineMax Inc. jumped after the retailer and superyacht services provider announced it agreed to sell itself for approximately $1.5 billion in cash to a portfolio company of Blackstone."
+          "id": "nesr-gainer",
+          "headline": "National Energy Services Reunited Rises on Strong Earnings",
+          "summary": "National Energy Services Reunited Corp. ($NESR) surged 23.3% today after reporting second-quarter 2026 adjusted earnings and total revenues that significantly beat analyst estimates.",
+          "ticker": "$NESR",
+          "change": "+23.3%",
+          "changePercent": "+23.3%",
+          "direction": "up"
         },
         {
-          "id": "vrex-gainer",
-          "headline": "Varex Imaging soars on Teledyne Technologies buyout",
-          "ticker": "$VREX",
-          "price": "$18.46",
-          "change": "+$6.05",
-          "changePercent": "+48.75%",
-          "direction": "up",
-          "summary": "Varex Imaging Corporation leaped after Teledyne Technologies announced it would acquire the X-ray imaging components maker for $18.90 per share in cash."
+          "id": "auud-gainer",
+          "headline": "Auddia Sees Significant Gains",
+          "summary": "Auddia ($AUUD) was among the top gainers, closing up 60.5% in today's trading session.",
+          "ticker": "$AUUD",
+          "change": "+60.5%",
+          "changePercent": "+60.5%",
+          "direction": "up"
+        },
+        {
+          "id": "ddog-gainer",
+          "headline": "Datadog Jumps on Revenue Growth",
+          "summary": "Datadog ($DDOG) experienced an 11.5% increase today, supported by robust revenue growth of 31.5% over the past twelve months.",
+          "ticker": "$DDOG",
+          "change": "+11.5%",
+          "changePercent": "+11.5%",
+          "direction": "up"
         },
         {
           "id": "sion-loser",
-          "headline": "Sionna Therapeutics leads decliners",
+          "headline": "Sionna Therapeutics Plunges",
+          "summary": "Sionna Therapeutics ($SION) saw a dramatic decline, closing down 91.2% in an extreme move on a day where major indices were relatively flat.",
           "ticker": "$SION",
-          "price": "$4.125",
-          "change": "-$47.98",
-          "changePercent": "-91.92%",
-          "direction": "down",
-          "summary": "Sionna Therapeutics, Inc. experienced a significant decline."
+          "change": "-91.2%",
+          "changePercent": "-91.2%",
+          "direction": "down"
         },
         {
-          "id": "tenx-loser",
-          "headline": "Tenax Therapeutics sees sharp drop",
-          "ticker": "$TENX",
-          "price": "$1.520",
-          "change": "-$12.37",
-          "changePercent": "-88.69%",
-          "direction": "down",
-          "summary": "Tenax Therapeutics, Inc. shares fell sharply during Monday's trading session."
-        },
-        {
-          "id": "intc-loser",
-          "headline": "Intel falls amid plans for stock sale",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.1%",
-          "direction": "down",
-          "summary": "Intel declined after announcing it may sell $15 billion of its stock, a move that would dilute existing shareholder ownership and fund artificial intelligence investments."
+          "id": "cohr-loser",
+          "headline": "Coherent Leads S&P 500 Decliners",
+          "summary": "Coherent ($COHR) was the biggest loser in the S&P 500, falling 14.2% today. The company trades at a high multiple of 131.9 times trailing earnings.",
+          "ticker": "$COHR",
+          "change": "-14.2%",
+          "changePercent": "-14.2%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-summary",
-          "headline": "Energy, Healthcare Lead While Real Estate, Utilities Lag",
-          "summary": "In Monday's session, the Energy sector was the strongest performer, gaining +3.27%, largely driven by surging crude oil prices. Healthcare followed with a +1.14% rise, and Materials advanced +0.55%. Conversely, Real Estate lagged significantly with a -1.33% decline, alongside Utilities (-1.24%) and Information Technology (-0.77%).",
+          "id": "sector-performance",
+          "headline": "Energy Sector Leads, Real Estate and Tech Lag",
+          "summary": "The Energy Select Sector SPDR ($XLE) was a standout performer, rising 4.6% today. In contrast, Real Estate ($XLRE) fell 1.2%, Utilities ($XLU) declined 1.1%, and Information Technology ($XLK) also dropped 1.1%, indicating a rotation out of these sectors.",
           "tags": [
-            "Sector Performance",
+            "Sector Analysis",
             "Energy",
-            "Healthcare",
-            "Real Estate"
+            "Real Estate",
+            "Technology"
           ]
         },
         {
-          "id": "oil-geopolitics",
-          "headline": "Oil Prices Surge 5% on Strait of Hormuz Uncertainty, Fueling Inflation Concerns",
-          "summary": "Crude oil prices surged over 5% on Monday, reaching their highest levels in more than a week, as hopes for a swift US-Iran agreement to reopen the strategic Strait of Hormuz faded. This geopolitical tension has reintroduced inflationary concerns, with Brent crude holding steady at $87.72 a barrel on Tuesday."
+          "id": "economic-data-outlook",
+          "headline": "CPI Report Awaited Amid Inflation Concerns",
+          "summary": "Investors are closely watching for the release of July's Consumer Price Index (CPI) report on Wednesday, August 12, as expectations for a modest monthly increase could influence the Federal Reserve's policy direction. This follows a disappointing July jobs report, which showed non-farm payrolls dropped by 23,000 jobs, missing Wall Street expectations.",
+          "tags": [
+            "Economic News",
+            "Inflation",
+            "CPI",
+            "Jobs Report"
+          ]
         },
         {
-          "id": "fed-expectations",
-          "headline": "Fed Rate Hike Odds Remain Elevated Despite Weak Hiring Data",
-          "summary": "Despite a report on Friday showing unexpectedly weak hiring across the United States, traders still perceive a nearly 52% chance the Federal Reserve will raise its main interest rate at its next meeting in September. The yield on the 10-year Treasury also rose to 4.70% from 4.65% late Friday, reflecting rising interest rate expectations."
+          "id": "fed-policy-stance",
+          "headline": "Fed's Rate Path Under Scrutiny Following Mixed Economic Signals",
+          "summary": "The Federal Reserve previously held interest rates steady, though three policymakers dissented for a rate hike, highlighting a divided stance. The market is now anticipating the FOMC will likely hold off on further rate hikes until at least December, especially after the latest jobs data.",
+          "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates"
+          ]
         },
         {
-          "id": "earnings-roundup",
-          "headline": "Major Earnings Reports: Berkshire Hathaway, GreenFirst, Max Stock, Elbit Systems Post Strong Results",
-          "summary": "Berkshire Hathaway delivered stronger-than-expected profits for the last quarter. GreenFirst Forest Products ($GFP) reported a Q2 2026 net income of $5.5 million ($0.24 EPS) on revenues of $96.1 million, a 59% increase from Q1. Max Stock Limited ($MAXO) saw Q2 2026 revenue increase by 12.7% and adjusted EBITDA by 37.1%. Elbit Systems Ltd. ($ESLT) announced double-digit growth in sales, backlog, and earnings per share for Q2 2026, with a record backlog of $32.0 billion. Investors are awaiting earnings from Super Micro Computer Inc. ($SMCI) and Cardinal Health Inc. ($CAH) today."
+          "id": "oil-geopolitical-impact",
+          "headline": "Oil Prices Surge on U.S.-Iran Tensions",
+          "summary": "Oil prices continued their upward trend today, with West Texas Intermediate crude futures rising to $82.32 per barrel. This surge is attributed to heightened U.S.-Iran tensions and concerns over energy supplies, contributing to overall market cautiousness.",
+          "tags": [
+            "Macro Trends",
+            "Oil Prices",
+            "Geopolitics"
+          ]
         },
         {
-          "id": "international-markets",
-          "headline": "Asian Markets Mixed; Australia's Central Bank Holds Rates Steady",
-          "summary": "Asian stock markets traded mixed on Tuesday. South Korea's Kospi gained 1.5%, while Hong Kong's Hang Seng lost 0.6%, and the Shanghai Composite edged 0.1% lower. In other international news, the Reserve Bank of Australia kept its cash rate unchanged at 4.35% for a second consecutive meeting, noting a slowing economy but warning of potential future rate hikes if inflation persists."
+          "id": "earnings-season-highlights",
+          "headline": "Strong Q2 Earnings for S&P 500, Key Reports Today",
+          "summary": "The second quarter of 2026 saw strong earnings growth for the S&P 500, with a blended growth rate of 47.4%, or 28.8% excluding Alphabet and Amazon. Today, companies like Cardinal Health ($CAH), CoreWeave ($CRWV), and Super Micro Computer ($SMCI) were scheduled to report earnings.",
+          "tags": [
+            "Earnings Reports",
+            "Q2 Earnings"
+          ]
         }
       ]
     }
