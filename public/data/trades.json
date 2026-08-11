@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T06:55:02.203658Z",
+  "generatedAt": "2026-08-11T09:05:55.897443Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Accumulation",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$UAL",
+      "name": "United Airlines Holdings Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$123.76",
+      "entry": "$124.24",
+      "stop": "$120.00",
+      "structure": "Conflicting MAs",
+      "trend": "Unclear",
+      "trendLabel": "Trend",
+      "analysis": "Conflicting technical data prevents a clear setup. While some sources indicate a strongly bullish trend, the current price ($123.76) is below the 20-day exponential moving average ($124.24), which contradicts the bullish sentiment. No clear Fibonacci retracement levels were identified to define a precise entry zone. Therefore, it is advisable to avoid this setup until clearer technical signals emerge.",
+      "riskScore": 10,
+      "footerTag": "Avoid - Conflicting Data",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CCL",
+      "name": "Carnival Corporation & plc",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$28.99",
+      "entry": "$26.00",
+      "stop": "$23.50",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "CCL is pulling back to a key support zone around $26.00 after a strongly bullish trend, with price trading above its 200-day moving average. Elevated relative volume suggests increased interest in this pullback. This presents a potential rebound opportunity from a defined support level.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$INTC",
+      "name": "Intel Corporation",
+      "sector": "Technology",
+      "currentPrice": "$97.52",
+      "entry": "$95.46",
+      "stop": "$91.50",
+      "structure": "0.382 Fib",
+      "trend": "Uptrend",
+      "trendLabel": "Trend",
+      "analysis": "INTC is experiencing a pullback within a medium-term rising trend channel. The price is approaching the 0.382 Fibonacci retracement level at $95.46, which aligns with potential support. While trading below its 20-day and 50-day moving averages, it remains well above the 200-day MA. Relative volume is slightly below average, indicating a lack of strong selling pressure during this consolidation.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
