@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T08:14:00Z",
+  "generatedAt": "2026-08-12T12:43:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Inflation Data in Focus Amid Mixed Global Cues",
+  "title": "Daily Market Digest",
   "subtitle": "Wednesday, August 12, 2026",
   "badge": "LIVE",
   "sections": [
@@ -13,123 +13,166 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "S&P 500 Edges Up Ahead of Crucial CPI Report; Oil Prices Climb on Geopolitical Tensions",
-          "summary": "The S&P 500 saw a modest gain today, rising 0.06% as investors keenly await the release of the latest U.S. Consumer Price Index (CPI) report. This comes after major U.S. indices pulled back on Tuesday. Meanwhile, crude oil prices are continuing their ascent, driven by persistent geopolitical uncertainty in the Middle East.",
+          "id": "market-summary-today",
+          "headline": "U.S. Futures Edge Higher Ahead of Key Inflation Data; Oil Prices Climb Amid Middle East Tensions",
+          "summary": "U.S. stock futures advanced this morning as investors awaited the crucial July Consumer Price Index (CPI) report, which was released today. This comes after major U.S. indices closed lower on Tuesday. Meanwhile, oil prices continued to rise due to renewed tensions in the Middle East. Not financial advice.",
           "tags": [
             "Market Overview",
             "CPI",
-            "Oil Prices",
-            "Geopolitics"
-          ]
+            "Oil Prices"
+          ],
+          "timestamp": "2026-08-12T12:43:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "+0.3%",
+          "statContext": "Today's Pre-Market"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "+0.7%",
+          "statContext": "Today's Pre-Market"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "+0.1%",
+          "statContext": "Today's Pre-Market"
+        },
+        {
+          "id": "sp500-close-tuesday",
           "statLabel": "S&P 500",
-          "statValue": "7,732.00",
-          "statContext": "Today's Close: +0.06%",
-          "ticker": "$SPX",
-          "price": "7,732.00",
-          "change": "+4.64",
-          "changePercent": "+0.06%",
-          "direction": "up"
+          "statValue": "-0.3%",
+          "statContext": "Tuesday's Close"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close-tuesday",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,445.45",
-          "statContext": "Tuesday's Close: -0.60%",
-          "ticker": "$IXIC",
-          "price": "26,445.45",
-          "change": "-159.98",
-          "changePercent": "-0.60%",
-          "direction": "down"
+          "statValue": "-0.6%",
+          "statContext": "Tuesday's Close"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "53,791.85",
-          "statContext": "Tuesday's Close: -0.34%",
-          "ticker": "$DJI",
-          "price": "53,791.85",
-          "change": "-184.00",
-          "changePercent": "-0.34%",
-          "direction": "down"
+          "id": "dow-close-tuesday",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "-0.3%",
+          "statContext": "Tuesday's Close"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Today's Trading Session)",
+      "title": "Top Movers (Pre-Market/Early Trade)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-qmco",
-          "headline": "Quantum Soars on Strong Earnings",
-          "summary": "Quantum ($QMCO) shares jumped approximately 65% after the company reported better-than-expected first-quarter financial results and issued second-quarter guidance above analyst estimates.",
+          "id": "crwv-gainer",
+          "headline": "CoreWeave Soars on Strong Earnings",
+          "summary": "Cloud computing firm CoreWeave surged 18% in pre-market trading after reporting strong second-quarter earnings that exceeded analyst expectations, with revenue nearly doubling year-over-year.",
+          "ticker": "$CRWV",
+          "price": "N/A",
+          "change": "+18%",
+          "changePercent": "+18.00%",
+          "direction": "up"
+        },
+        {
+          "id": "hyln-gainer",
+          "headline": "Hyliion Holdings Jumps on Revenue Forecast Boost",
+          "summary": "Hyliion Holdings, a manufacturer of power modules, jumped 23% in pre-market after boosting its full-year revenue forecast.",
+          "ticker": "$HYLN",
+          "price": "N/A",
+          "change": "+23%",
+          "changePercent": "+23.00%",
+          "direction": "up"
+        },
+        {
+          "id": "cava-gainer",
+          "headline": "Cava Group Rises on Robust Q2 Results",
+          "summary": "Cava Group climbed 16% in pre-market trading following strong second-quarter financial results that surpassed Wall Street estimates.",
+          "ticker": "$CAVA",
+          "price": "N/A",
+          "change": "+16%",
+          "changePercent": "+16.00%",
+          "direction": "up"
+        },
+        {
+          "id": "hrb-gainer",
+          "headline": "H&R Block Gains on Beat-and-Raise",
+          "summary": "H&R Block gained 12% in pre-market trading after posting better-than-expected fourth-quarter results and providing a stronger-than-expected full-year forecast.",
+          "ticker": "$HRB",
+          "price": "N/A",
+          "change": "+12%",
+          "changePercent": "+12.00%",
+          "direction": "up"
+        },
+        {
+          "id": "smci-gainer",
+          "headline": "Super Micro Computer Surges on Upbeat Forecast",
+          "summary": "Super Micro Computer surged 9% in pre-market trading after beating earnings expectations and offering an upbeat first-quarter forecast, reflecting accelerating demand for AI infrastructure.",
+          "ticker": "$SMCI",
+          "price": "N/A",
+          "change": "+9%",
+          "changePercent": "+9.00%",
+          "direction": "up"
+        },
+        {
+          "id": "qmco-gainer",
+          "headline": "Quantum Sees Significant Intraday Gain",
+          "summary": "Quantum ($QMCO) gained 64.7% today, highlighting an extreme move in an individual stock amidst a broadly quiet day for major indices.",
           "ticker": "$QMCO",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+65.00%",
+          "change": "+64.7%",
+          "changePercent": "+64.70%",
           "direction": "up"
         },
         {
-          "id": "gainer-crwv",
-          "headline": "CoreWeave Jumps as Revenue Doubles",
-          "summary": "CoreWeave ($CRWV) shares saw a significant increase as the company announced its revenue doubled from the year-ago period, indicating strong demand for its cloud computing services amidst the AI boom.",
-          "ticker": "$CRWV",
-          "price": "$90.32",
-          "change": "+$2.13",
-          "changePercent": "+2.42%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-cah",
-          "headline": "Cardinal Health Rises Post-Earnings",
-          "summary": "Cardinal Health Inc. ($CAH) shares gained 1.3% after the healthcare services company posted its fourth-quarter results, which were well-received by the market.",
-          "ticker": "$CAH",
-          "price": "$242.85",
-          "change": "+$3.12",
-          "changePercent": "+1.30%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-yxt",
-          "headline": "YXT.COM Group Plunges on Offering",
-          "summary": "YXT.COM GROUP HOLDING LIMITED ($YXT) stock plummeted 66.07% following its announcement of the pricing of a $1.05 million registered direct offering.",
-          "ticker": "$YXT",
+          "id": "nbi-loser",
+          "headline": "Neurocrine Biosciences Slides on Safety Concerns",
+          "summary": "Neurocrine Biosciences fell 6.5% in pre-market due to renewed safety concerns tied to its Prader-Willi syndrome treatment and lingering questions over future drug-pricing policy.",
+          "ticker": "$NBIX",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-66.07%",
+          "change": "-6.5%",
+          "changePercent": "-6.50%",
           "direction": "down"
         },
         {
-          "id": "loser-tdup",
-          "headline": "ThredUp Declines on Q2 Results",
-          "summary": "ThredUp Inc. ($TDUP) shares fell 50.48% after the company announced its second-quarter 2026 financial results, which disappointed investors.",
-          "ticker": "$TDUP",
+          "id": "uamy-loser",
+          "headline": "US Antimony Corp. Drops on Cut Outlook",
+          "summary": "US Antimony Corp. fell 16% in pre-market after the miner and precious metals refiner cut its full-year outlook for gross revenue.",
+          "ticker": "$UAMY",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-50.48%",
+          "change": "-16%",
+          "changePercent": "-16.00%",
           "direction": "down"
         },
         {
-          "id": "loser-suja",
-          "headline": "Suja Life Reports Steep Q2 Losses",
-          "summary": "Suja Life, Inc. ($SUJA) saw its stock drop by 46.18% following the release of its second-quarter 2026 financial results, reflecting a challenging period for the company.",
-          "ticker": "$SUJA",
+          "id": "pfgc-loser",
+          "headline": "Performance Food Group Misses Forecasts",
+          "summary": "Performance Food Group lost 4.5% in pre-market after the food service distributor missed fourth-quarter forecasts.",
+          "ticker": "$PFGC",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-46.18%",
+          "change": "-4.5%",
+          "changePercent": "-4.50%",
+          "direction": "down"
+        },
+        {
+          "id": "pdsb-loser",
+          "headline": "PDS Biotechnology Experiences Significant Decline",
+          "summary": "PDS Biotechnology ($PDSB) lost 64.9% today, marking a substantial decline in individual stock performance.",
+          "ticker": "$PDSB",
+          "price": "N/A",
+          "change": "-64.9%",
+          "changePercent": "-64.90%",
           "direction": "down"
         }
       ]
@@ -141,46 +184,48 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-cpi-release",
-          "headline": "U.S. CPI Report Due Today, Expected to Show Inflation Cooling",
-          "summary": "The U.S. government is set to release its latest monthly Consumer Price Index (CPI) report today. Economists anticipate headline inflation to cool to 3.4% from 3.5% and core inflation to ease to 2.5% from 2.6% in July. This report is crucial for shaping expectations regarding the Federal Reserve's future monetary policy.",
+          "id": "cpi-report-aug-12",
+          "headline": "July CPI Report Released Today, Inflationary Pressures Persist",
+          "summary": "The Consumer Price Index (CPI) for July 2026 rose 0.1% month-over-month on a seasonally adjusted basis. The all-items index increased 3.4% over the last 12 months before seasonal adjustment, with the core CPI (excluding food and energy) rising 0.2% monthly and 2.5% annually. These figures are crucial for the Federal Reserve's future interest rate decisions.",
           "tags": [
             "Economic Data",
             "Inflation",
             "Federal Reserve"
-          ]
+          ],
+          "timestamp": "2026-08-12T08:30:00Z"
         },
         {
-          "id": "sector-performance",
-          "headline": "Energy and Utilities Lead, Consumer Discretionary and Real Estate Lag in US Market",
-          "summary": "On Tuesday, energy and utilities sectors demonstrated resilience, closing higher and bucking the broader market downturn. Conversely, consumer discretionary, real estate, and communication services stocks experienced the largest losses on the S&P 500.",
+          "id": "oil-market-update",
+          "headline": "Oil Prices Advance Amid Escalating Middle East Tensions",
+          "summary": "Oil prices are on the rise today as renewed tensions in the Middle East, including reported fatalities from attacks on Red Sea shipping and U.S. forces firing missiles at a container ship, fuel concerns over potential supply disruptions. West Texas Intermediate (WTI) crude rose 0.60% to $83.70 per barrel, while Brent crude climbed 0.37% to $89.24 per barrel.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Utilities",
-            "Consumer Discretionary",
-            "Real Estate"
-          ]
+            "Commodities",
+            "Geopolitics",
+            "Energy"
+          ],
+          "timestamp": "2026-08-12T12:43:00Z"
         },
         {
-          "id": "earnings-dataio-nebius",
-          "headline": "Data I/O and Nebius Group Report Q2 Earnings",
-          "summary": "Data I/O ($DAIO) is hosting its Q2 2026 earnings call today at 5:00 PM ET, having previously announced preliminary Q2 net sales rose 59%. Nebius Group ($NBIS) also released its Q2 results before market open, with expectations of continued strong growth driven by its AI-compute capacity. Strauss Group (TASE:STRS) reported solid operating income growth of 42% and doubled net profit for Q2 and H1 2026.",
+          "id": "tech-earnings-drive-premarket",
+          "headline": "Technology and AI Firms' Earnings Fuel Pre-Market Gains",
+          "summary": "Upbeat quarterly results from several technology and AI infrastructure companies, including CoreWeave ($CRWV), Super Micro Computer ($SMCI), and H&R Block ($HRB), contributed to positive pre-market sentiment. These results are reviving investor appetite for tech stocks, particularly those related to the booming artificial intelligence market.",
           "tags": [
-            "Earnings Reports",
+            "Earnings",
             "Technology",
             "AI"
-          ]
+          ],
+          "timestamp": "2026-08-12T12:43:00Z"
         },
         {
-          "id": "fed-policy",
-          "headline": "Fed Maintains Rates Amidst Mixed Economic Signals, Inflation Remains Key Concern",
-          "summary": "The Federal Reserve left interest rates unchanged at 3.50%-3.75% at its July 27 FOMC meeting. However, despite a softening labor market, persistent inflation pressures and elevated oil prices mean the path for future rate decisions remains highly data-dependent.",
+          "id": "whitefiber-earnings",
+          "headline": "WhiteFiber Inc. Reports Q2 Results, Focuses on AI Infrastructure Expansion",
+          "summary": "WhiteFiber Inc. ($WYFI) announced its second-quarter 2026 financial results, highlighting a move from construction into active customer deployment at its NC-1 flagship site and new multi-year Cloud Services agreements representing over half a billion dollars in contract value. The company aims for an initial commercial launch of its cross-data-center networking solution in Q3 2026.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Economic Outlook"
-          ]
+            "Earnings",
+            "AI Infrastructure",
+            "Cloud Services"
+          ],
+          "timestamp": "2026-08-12T12:43:00Z"
         }
       ]
     }
