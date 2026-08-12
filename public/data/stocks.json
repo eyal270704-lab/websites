@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-11T16:59:00Z",
+  "generatedAt": "2026-08-12T08:14:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "August 11, 2026: Market Recap and Key Drivers",
-  "badge": "Market Close",
+  "title": "Daily Market Digest: Inflation Data in Focus Amid Mixed Global Cues",
+  "subtitle": "Wednesday, August 12, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,14 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "pulse-summary",
-          "headline": "U.S. Equities Close Higher, Led by Technology and Energy",
-          "summary": "U.S. stock markets ended Tuesday's session with gains across major indices, driven by a resilient technology sector and strong performance in energy stocks. Investor sentiment remained cautiously optimistic as new economic data continued to shape market expectations.",
+          "id": "market-summary",
+          "headline": "S&P 500 Edges Up Ahead of Crucial CPI Report; Oil Prices Climb on Geopolitical Tensions",
+          "summary": "The S&P 500 saw a modest gain today, rising 0.06% as investors keenly await the release of the latest U.S. Consumer Price Index (CPI) report. This comes after major U.S. indices pulled back on Tuesday. Meanwhile, crude oil prices are continuing their ascent, driven by persistent geopolitical uncertainty in the Middle East.",
           "tags": [
-            "market-overview",
-            "positive-close",
-            "technology",
-            "energy"
+            "Market Overview",
+            "CPI",
+            "Oil Prices",
+            "Geopolitics"
           ]
         }
       ]
@@ -32,89 +32,104 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,757.64",
-          "statContext": "+47.68 (+0.62%) Today"
+          "statValue": "7,732.00",
+          "statContext": "Today's Close: +0.06%",
+          "ticker": "$SPX",
+          "price": "7,732.00",
+          "change": "+4.64",
+          "changePercent": "+0.06%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,690.62",
-          "statContext": "+342.26 (+1.30%) Today"
+          "statValue": "26,445.45",
+          "statContext": "Tuesday's Close: -0.60%",
+          "ticker": "$IXIC",
+          "price": "26,445.45",
+          "change": "-159.98",
+          "changePercent": "-0.60%",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "54,036.93",
-          "statContext": "+151.83 (+0.28%) Today"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "53,791.85",
+          "statContext": "Tuesday's Close: -0.34%",
+          "ticker": "$DJI",
+          "price": "53,791.85",
+          "change": "-184.00",
+          "changePercent": "-0.34%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Today's Trading Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "APO-gainer",
-          "headline": "Apollo Global Management Rises",
-          "summary": "Shares of Apollo Global Management Inc. advanced following positive institutional investor sentiment, reflecting robust portfolio performance.",
-          "ticker": "$APO",
-          "price": "$139.50",
-          "change": "+$7.48",
-          "changePercent": "+5.67%",
+          "id": "gainer-qmco",
+          "headline": "Quantum Soars on Strong Earnings",
+          "summary": "Quantum ($QMCO) shares jumped approximately 65% after the company reported better-than-expected first-quarter financial results and issued second-quarter guidance above analyst estimates.",
+          "ticker": "$QMCO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+65.00%",
           "direction": "up"
         },
         {
-          "id": "AXON-gainer",
-          "headline": "Axon Enterprise Climbs",
-          "summary": "Axon Enterprise Inc. saw significant gains, potentially driven by anticipation of new product developments or favorable government contract prospects.",
-          "ticker": "$AXON",
-          "price": "$628.53",
-          "change": "+$32.20",
-          "changePercent": "+5.40%",
+          "id": "gainer-crwv",
+          "headline": "CoreWeave Jumps as Revenue Doubles",
+          "summary": "CoreWeave ($CRWV) shares saw a significant increase as the company announced its revenue doubled from the year-ago period, indicating strong demand for its cloud computing services amidst the AI boom.",
+          "ticker": "$CRWV",
+          "price": "$90.32",
+          "change": "+$2.13",
+          "changePercent": "+2.42%",
           "direction": "up"
         },
         {
-          "id": "KKR-gainer",
-          "headline": "KKR & Co. Inc. Up",
-          "summary": "Investment firm KKR & Co. Inc. experienced an uptick, likely fueled by positive analyst ratings and strong activity in its private equity and credit divisions.",
-          "ticker": "$KKR",
-          "price": "$109.26",
-          "change": "+$5.43",
-          "changePercent": "+5.23%",
+          "id": "gainer-cah",
+          "headline": "Cardinal Health Rises Post-Earnings",
+          "summary": "Cardinal Health Inc. ($CAH) shares gained 1.3% after the healthcare services company posted its fourth-quarter results, which were well-received by the market.",
+          "ticker": "$CAH",
+          "price": "$242.85",
+          "change": "+$3.12",
+          "changePercent": "+1.30%",
           "direction": "up"
         },
         {
-          "id": "PPRPL-loser",
-          "headline": "Purple Innovation Plunges",
-          "summary": "Purple Innovation Inc. faced a steep decline amid market speculation of a disappointing earnings pre-announcement or a significant analyst downgrade.",
-          "ticker": "$PPRPL",
-          "price": "$6.90",
-          "change": "-$2.19",
-          "changePercent": "-24.18%",
+          "id": "loser-yxt",
+          "headline": "YXT.COM Group Plunges on Offering",
+          "summary": "YXT.COM GROUP HOLDING LIMITED ($YXT) stock plummeted 66.07% following its announcement of the pricing of a $1.05 million registered direct offering.",
+          "ticker": "$YXT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-66.07%",
           "direction": "down"
         },
         {
-          "id": "BODI-loser",
-          "headline": "The Beachbody Company Falls",
-          "summary": "Shares of The Beachbody Company Inc. dropped considerably, possibly due to concerns over subscriber growth trends or increased competitive pressures in the fitness market.",
-          "ticker": "$BODI",
-          "price": "$7.92",
-          "change": "-$2.31",
-          "changePercent": "-22.50%",
+          "id": "loser-tdup",
+          "headline": "ThredUp Declines on Q2 Results",
+          "summary": "ThredUp Inc. ($TDUP) shares fell 50.48% after the company announced its second-quarter 2026 financial results, which disappointed investors.",
+          "ticker": "$TDUP",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-50.48%",
           "direction": "down"
         },
         {
-          "id": "OPFI-loser",
-          "headline": "OppFi Inc. Sees Significant Losses",
-          "summary": "OppFi Inc. experienced a substantial percentage loss, potentially influenced by emerging regulatory concerns or a missed financial guidance update.",
-          "ticker": "$OPFI",
-          "price": "$6.89",
-          "change": "-$1.89",
-          "changePercent": "-21.44%",
+          "id": "loser-suja",
+          "headline": "Suja Life Reports Steep Q2 Losses",
+          "summary": "Suja Life, Inc. ($SUJA) saw its stock drop by 46.18% following the release of its second-quarter 2026 financial results, reflecting a challenging period for the company.",
+          "ticker": "$SUJA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-46.18%",
           "direction": "down"
         }
       ]
@@ -126,52 +141,45 @@
       "layout": "list",
       "items": [
         {
+          "id": "economic-cpi-release",
+          "headline": "U.S. CPI Report Due Today, Expected to Show Inflation Cooling",
+          "summary": "The U.S. government is set to release its latest monthly Consumer Price Index (CPI) report today. Economists anticipate headline inflation to cool to 3.4% from 3.5% and core inflation to ease to 2.5% from 2.6% in July. This report is crucial for shaping expectations regarding the Federal Reserve's future monetary policy.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Federal Reserve"
+          ]
+        },
+        {
           "id": "sector-performance",
-          "headline": "Energy and Industrials Lead Sector Gains, Tech Mixed",
-          "summary": "The Energy sector led today's market with a 1.26% gain, boosted by higher oil prices. Industrials also performed strongly, up 0.75%, supported by increased capital spending. Technology, while contributing to overall index gains, ended nearly flat with a -0.04% change for the sector, reflecting ongoing debates over valuations and AI spending. Meanwhile, Consumer Staples (-0.36%) and Health Care (-0.21%) lagged.",
+          "headline": "Energy and Utilities Lead, Consumer Discretionary and Real Estate Lag in US Market",
+          "summary": "On Tuesday, energy and utilities sectors demonstrated resilience, closing higher and bucking the broader market downturn. Conversely, consumer discretionary, real estate, and communication services stocks experienced the largest losses on the S&P 500.",
           "tags": [
-            "sector-analysis",
-            "energy",
-            "industrials",
-            "technology"
+            "Sector Analysis",
+            "Energy",
+            "Utilities",
+            "Consumer Discretionary",
+            "Real Estate"
           ]
         },
         {
-          "id": "jobs-report-july",
-          "headline": "U.S. Economy Loses 23,000 Jobs in July; Unemployment Dips to 4.1%",
-          "summary": "New labor data released recently indicated the U.S. economy unexpectedly shed 23,000 jobs in July, contrary to economists' modest growth predictions. This contributed to the unemployment rate ticking down to 4.1%.",
+          "id": "earnings-dataio-nebius",
+          "headline": "Data I/O and Nebius Group Report Q2 Earnings",
+          "summary": "Data I/O ($DAIO) is hosting its Q2 2026 earnings call today at 5:00 PM ET, having previously announced preliminary Q2 net sales rose 59%. Nebius Group ($NBIS) also released its Q2 results before market open, with expectations of continued strong growth driven by its AI-compute capacity. Strauss Group (TASE:STRS) reported solid operating income growth of 42% and doubled net profit for Q2 and H1 2026.",
           "tags": [
-            "economic-data",
-            "jobs-report",
-            "unemployment"
+            "Earnings Reports",
+            "Technology",
+            "AI"
           ]
         },
         {
-          "id": "gdp-q2-2026",
-          "headline": "Q2 2026 GDP Growth Slows to 1.5%",
-          "summary": "The U.S. Bureau of Economic Analysis reported that real gross domestic product (GDP) expanded at an annual rate of 1.5% in the second quarter of 2026, a slowdown from the 2.1% growth seen in the first quarter.",
+          "id": "fed-policy",
+          "headline": "Fed Maintains Rates Amidst Mixed Economic Signals, Inflation Remains Key Concern",
+          "summary": "The Federal Reserve left interest rates unchanged at 3.50%-3.75% at its July 27 FOMC meeting. However, despite a softening labor market, persistent inflation pressures and elevated oil prices mean the path for future rate decisions remains highly data-dependent.",
           "tags": [
-            "economic-data",
-            "gdp"
-          ]
-        },
-        {
-          "id": "iran-conflict",
-          "headline": "Iran Conflict Continues to Influence Oil Markets, Economic Outlook",
-          "summary": "The ongoing conflict involving Iran continues to exert influence on global oil prices and broader economic sentiment, with ongoing discussions around the Strait of Hormuz closely watched by markets.",
-          "tags": [
-            "geopolitics",
-            "oil-prices",
-            "economy"
-          ]
-        },
-        {
-          "id": "earnings-updates",
-          "headline": "Earnings Season Continues: Rocket Lab Misses, Airbnb Beats Expectations",
-          "summary": "The Q2 earnings season saw Rocket Lab ($RKLB) miss analyst expectations in its report yesterday, while Airbnb ($ABNB) had previously beaten estimates earlier in the month. Several other key companies are continuing to report earnings today, influencing individual stock movements.",
-          "tags": [
-            "earnings-reports",
-            "company-news"
+            "Federal Reserve",
+            "Monetary Policy",
+            "Economic Outlook"
           ]
         }
       ]
