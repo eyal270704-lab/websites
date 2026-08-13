@@ -1,201 +1,155 @@
 {
-  "generatedAt": "2026-08-13T12:44:00Z",
+  "generatedAt": "2026-08-13T16:58:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Thursday, August 13, 2026 - Pre-market Update",
+  "subtitle": "Market Update for August 13, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall-summary",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-overview-today",
-          "headline": "Futures Mixed as Wall Street Awaits PPI Data After Cooling CPI",
-          "summary": "U.S. stock futures are trading mixed on Thursday as investors digest Wednesday's softer-than-expected Consumer Price Index (CPI) report and anticipate the release of July's Producer Price Index (PPI) later today. The overall market sentiment remains cautious, influenced by inflation data and ongoing geopolitical tensions in the Middle East. Tech and AI-related stocks continue to show strength, while some sectors saw declines in the previous session. Not financial advice.",
+          "id": "market-pulse-summary",
+          "headline": "U.S. Markets Mixed Amid Inflation Data and Earnings",
+          "summary": "U.S. stock markets showed mixed performance today, with the S&P 500 reaching an intraday record high and the Nasdaq Composite gaining, while the Dow Jones Industrial Average experienced a slight dip. Investors are reacting to softer-than-expected July Producer Price Index (PPI) data, which is easing concerns about Federal Reserve rate hikes, alongside a new batch of corporate earnings reports.",
           "tags": [
-            "Pre-market",
+            "Market Sentiment",
             "Inflation",
-            "Economic Data"
-          ]
+            "Earnings"
+          ],
+          "timestamp": "2026-08-13T16:58:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-futures",
-          "headline": "S&P 500 Futures (Pre-market)",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "7,768.84",
-          "statContext": "Up +0.2%"
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Current",
+          "statValue": "7,793.94",
+          "statContext": "Up 0.58%, hitting an intraday record high today."
         },
         {
-          "id": "nasdaq-futures",
-          "headline": "NASDAQ 100 Futures (Pre-market)",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "29,832.00",
-          "statContext": "Up +0.63%"
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Current",
+          "statValue": "26,803.77",
+          "statContext": "Gained 0.81% today, nearing record levels."
         },
         {
-          "id": "dow-futures",
-          "headline": "Dow Jones Futures (Pre-market)",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "53,975.83",
-          "statContext": "Up +0.14%"
-        },
-        {
-          "id": "sp500-close-wednesday",
-          "headline": "S&P 500 (Wednesday Close)",
-          "statLabel": "S&P 500",
-          "statValue": "7,748.50",
-          "statContext": "Up 0.26%"
-        },
-        {
-          "id": "nasdaq-close-wednesday",
-          "headline": "NASDAQ Composite (Wednesday Close)",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,588.49",
-          "statContext": "Up 0.54%"
-        },
-        {
-          "id": "dow-close-wednesday",
-          "headline": "Dow Jones Industrial Average (Wednesday Close)",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,770.27",
-          "statContext": "Down 0.04%"
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Current",
+          "statValue": "53,727.29",
+          "statContext": "Fell 0.08% today."
         }
       ]
     },
     {
-      "id": "top-movers-stocks",
-      "title": "Top Movers (Pre-market)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gaxos-ai-gainer",
-          "headline": "Gaxos.ai Surges on Q2 Revenue Beat",
-          "ticker": "$GXAI",
+          "id": "top-gainer-birkenstock",
+          "headline": "Birkenstock Holdings Jumps",
+          "summary": "Shares of footwear maker Birkenstock Holding ($BIRK) jumped 13% after the company reported better-than-expected third-quarter results.",
+          "ticker": "$BIRK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+63%",
-          "direction": "up",
-          "summary": "Gaxos.ai shares rose more than 63% in premarket trading after the company reported stronger-than-expected second-quarter revenue."
+          "changePercent": "+13%",
+          "direction": "up"
         },
         {
-          "id": "iveda-solutions-gainer",
-          "headline": "Iveda Solutions Continues Ascent",
-          "ticker": "$IVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+36%",
-          "direction": "up",
-          "summary": "Iveda Solutions stock climbed 36% in premarket, extending a 26% gain from the previous session."
-        },
-        {
-          "id": "omeros-gainer",
-          "headline": "Omeros Jumps on Strong Q2 Results",
+          "id": "top-gainer-omeros",
+          "headline": "Omeros Surges on Q2 Results",
+          "summary": "Omeros ($OMER) surged 29% today, driven by a strong Q2 performance and the commercial launch of YARTEMLEA.",
           "ticker": "$OMER",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15%",
-          "direction": "up",
-          "summary": "Omeros shares surged 15% following a strong Q2 performance, driven by the commercial launch of YARTEMLEA, with revenue and adjusted EPS surpassing expectations."
+          "changePercent": "+29%",
+          "direction": "up"
         },
         {
-          "id": "cerebras-loser",
-          "headline": "Cerebras Systems Tumbles on Revenue Miss",
-          "ticker": "$CBRS",
-          "price": "$216.00",
+          "id": "top-loser-tapestry",
+          "headline": "Tapestry Falls on Guidance",
+          "summary": "Luxury holding company Tapestry ($TPR) fell 16% after providing disappointing guidance despite beating Wall Street's fourth-quarter earnings expectations.",
+          "ticker": "$TPR",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-17.4%",
-          "direction": "down",
-          "summary": "Cerebras Systems Inc. tumbled 17.4% in premarket after the AI hardware and supercomputing company missed Wall Street's second-quarter revenue estimates."
+          "changePercent": "-16%",
+          "direction": "down"
         },
         {
-          "id": "stubhub-loser",
-          "headline": "StubHub Declines After Q2 Loss",
-          "ticker": "$STUB",
-          "price": "$6.82",
-          "change": "N/A",
-          "changePercent": "-13%",
-          "direction": "down",
-          "summary": "StubHub Holdings, Inc. fell over 13% in premarket as the company failed to turn a profit in the second quarter, despite increased revenue."
-        },
-        {
-          "id": "cisco-systems-loser",
-          "headline": "Cisco Systems Falls Despite Strong Earnings",
+          "id": "top-loser-cisco",
+          "headline": "Cisco Systems Declines",
+          "summary": "Cisco Systems ($CSCO) fell 7% today. This occurred despite the tech giant reporting stronger profit and revenue for the latest quarter than Wall Street expected, with analysts citing concerns about future profit margins.",
           "ticker": "$CSCO",
-          "price": "$116.21",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.2%",
-          "direction": "down",
-          "summary": "Cisco Systems Inc. shares declined 6.2% in premarket trading, even after reporting better-than-expected Q4 fiscal 2026 results, potentially due to profit-taking following a significant year-to-date rally."
+          "changePercent": "-7%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-key-stories",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "economic-data-ppi",
-          "headline": "Investors Await July PPI Report for Further Inflation Clues",
-          "summary": "The U.S. Producer Price Index (PPI) for July is scheduled for release today at 8:30 a.m. ET (12:30 PM UTC). Economists anticipate the index to show a 0.2% increase from the previous month, offering additional insights into wholesale inflation trends.",
+          "headline": "July PPI Unchanged, Easing Inflation Concerns",
+          "summary": "The Producer Price Index (PPI) for final demand was unchanged in July, seasonally adjusted. On an unadjusted basis, the index increased 4.7% for the 12 months ended in July, falling below both expectations and June's figures, which has eased some concerns about Federal Reserve rate hikes.",
           "tags": [
             "Economic Data",
             "Inflation",
-            "PPI"
-          ]
+            "Fed Policy"
+          ],
+          "timestamp": "2026-08-13T16:58:00Z"
         },
         {
-          "id": "cpi-cools-fed-outlook",
-          "headline": "Cooling CPI Eases Federal Reserve Rate Hike Concerns",
-          "summary": "Wednesday's Consumer Price Index (CPI) data revealed a moderation in inflation, with the annual rate slowing to 3.4% in July from 3.5% in June, aligning with market expectations. This subdued inflation print has helped to calm jitters around potential Federal Reserve interest rate hikes.",
-          "tags": [
-            "Inflation",
-            "Fed",
-            "CPI"
-          ]
-        },
-        {
-          "id": "ai-sector-momentum",
-          "headline": "AI and Tech Sector Continue to Drive Market Gains",
-          "summary": "The artificial intelligence (AI) theme remains a significant market driver, contributing to the strong performance of tech stocks and major indices like the Nasdaq and S&P 500. Demand for AI hardware, software, and data centers continues to fuel investment and growth in the sector.",
+          "id": "sector-performance",
+          "headline": "Tech and Real Estate Lead, Materials and Consumer Discretionary Lag",
+          "summary": "The Information Technology (XLK) and Real Estate (XLRE) sectors were leading today, rising 1.1% each, with Utilities (XLU) also up 0.5%. Conversely, the Materials (XLB) sector fell 1.2%, and Consumer Discretionary (XLY) lagged with a 1.13% decline.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "AI"
-          ]
+            "Leading Sectors",
+            "Lagging Sectors"
+          ],
+          "timestamp": "2026-08-13T16:58:00Z"
         },
         {
-          "id": "geopolitical-tensions-oil",
-          "headline": "Geopolitical Tensions Weigh on Oil Prices",
-          "summary": "Lingering geopolitical frictions, particularly concerning the Strait of Hormuz, are contributing to volatility and a decline in oil prices. Brent crude is trading around $88 per barrel, while U.S. West Texas Intermediate (WTI) crude is near $82-$83 per barrel.",
+          "id": "earnings-highlights",
+          "headline": "Key Companies Report Strong Earnings",
+          "summary": "Several major companies reported earnings today. H&R Block ($HRB) and Super Micro Computer ($SMCI) both surpassed Q2 and Q4 earnings and revenue estimates, respectively. Lumentum Holdings Inc. ($LITE) also beat expectations for its Q2 earnings. Brookfield Corporation ($BN) announced a 15% increase in its Q2 earnings per share.",
           "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "earnings-reports-today",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several major companies are scheduled to release earnings reports today, August 13, 2026, including Applied Materials Inc. ($AMAT), Brookfield Corporation ($BN), and JD.com Inc. ($JD). Bullish ($BLSH) and Trend Micro ($TYO:4704) have already reported their Q2 2026 results.",
-          "tags": [
-            "Earnings",
+            "Earnings Reports",
             "Corporate News"
-          ]
+          ],
+          "timestamp": "2026-08-13T16:58:00Z"
+        },
+        {
+          "id": "fed-commentary",
+          "headline": "Fed Official Calls for Immediate Rate Hikes Amid Inflation Debate",
+          "summary": "Cleveland Federal Reserve Bank President Beth Hammack reiterated her view that the U.S. central bank should raise rates immediately to combat persistent inflation and temper business growth. This comes as cooling inflation data sparks debate among Fed officials regarding future monetary policy.",
+          "tags": [
+            "Fed Policy",
+            "Monetary Policy",
+            "Inflation"
+          ],
+          "timestamp": "2026-08-13T16:58:00Z"
         }
       ]
     }
