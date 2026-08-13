@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T07:18:58.334124Z",
+  "generatedAt": "2026-08-13T07:43:44.614150Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Accumulation",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "sector": "Technology",
+      "currentPrice": "$343.00",
+      "entry": "$330.00",
+      "stop": "$325.00",
+      "structure": "200-day MA Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "GOOGL is currently trading below its 20-day moving average but remains above its 200-day moving average, indicating a short-term pullback within a long-term uptrend. Relative volume is below average, suggesting a lack of strong conviction. A potential bounce could occur if the price successfully retests the 200-day moving average as support.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$327.51",
+      "entry": "$337.00",
+      "stop": "$320.00",
+      "structure": "Resistance Test (20-day MA)",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is in a strong downward trend, trading significantly below its 20-day, 50-day, and 200-day moving averages. Current relative volume is below average, confirming a lack of buying interest and suggesting persistent selling pressure. No immediate catalysts suggest a reversal, making this a high-risk setup to avoid.",
+      "riskScore": 9,
+      "footerTag": "High Risk",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NIO",
+      "name": "Nio Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$4.54",
+      "entry": "$4.80",
+      "stop": "$4.20",
+      "structure": "Head and Shoulders Breakdown / Resistance Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NIO is displaying strong bearish signals, including a confirmed head and shoulders breakdown pattern which suggests further downside potential towards $3.94 or lower. The stock is trading below all key moving averages with no significant volume increase to support a reversal. This is a very high-risk setup to avoid due to persistent selling pressure and a clear bearish technical pattern.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Bearish Pattern",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
