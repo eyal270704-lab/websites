@@ -1,104 +1,157 @@
 {
-  "generatedAt": "2026-08-13T08:18:00Z",
+  "generatedAt": "2026-08-13T12:44:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Thursday, August 13, 2026 Market Update",
+  "subtitle": "Thursday, August 13, 2026 - Pre-market Update",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-aug-13",
+      "id": "market-pulse-overall-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug-13",
-          "headline": "U.S. Futures Mixed as Investors Assess Inflation Data and Tech Earnings",
-          "summary": "U.S. stock futures traded on a mixed note in early hours of Thursday, August 13, following Wall Street's mixed performance on Wednesday. While the Dow Jones Industrial Average dipped, the S&P 500 and Nasdaq Composite advanced, largely driven by strong earnings from AI and technology companies. Investors are now awaiting further economic data, including the Producer Price Index.",
+          "id": "market-overview-today",
+          "headline": "Futures Mixed as Wall Street Awaits PPI Data After Cooling CPI",
+          "summary": "U.S. stock futures are trading mixed on Thursday as investors digest Wednesday's softer-than-expected Consumer Price Index (CPI) report and anticipate the release of July's Producer Price Index (PPI) later today. The overall market sentiment remains cautious, influenced by inflation data and ongoing geopolitical tensions in the Middle East. Tech and AI-related stocks continue to show strength, while some sectors saw declines in the previous session. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Futures",
-            "CPI",
-            "Tech Earnings"
+            "Pre-market",
+            "Inflation",
+            "Economic Data"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-aug-13",
-      "title": "Major Indices (Wednesday, August 12, 2026 Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-aug-12",
+          "id": "sp500-futures",
+          "headline": "S&P 500 Futures (Pre-market)",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "7,768.84",
+          "statContext": "Up +0.2%"
+        },
+        {
+          "id": "nasdaq-futures",
+          "headline": "NASDAQ 100 Futures (Pre-market)",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "29,832.00",
+          "statContext": "Up +0.63%"
+        },
+        {
+          "id": "dow-futures",
+          "headline": "Dow Jones Futures (Pre-market)",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "53,975.83",
+          "statContext": "Up +0.14%"
+        },
+        {
+          "id": "sp500-close-wednesday",
+          "headline": "S&P 500 (Wednesday Close)",
           "statLabel": "S&P 500",
           "statValue": "7,748.50",
-          "statContext": "Up 20.30 points (+0.3%)"
+          "statContext": "Up 0.26%"
         },
         {
-          "id": "nasdaq-aug-12",
+          "id": "nasdaq-close-wednesday",
+          "headline": "NASDAQ Composite (Wednesday Close)",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,588.49",
-          "statContext": "Up 143.04 points (+0.54%)"
+          "statContext": "Up 0.54%"
         },
         {
-          "id": "dow-aug-12",
+          "id": "dow-close-wednesday",
+          "headline": "Dow Jones Industrial Average (Wednesday Close)",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,770.27",
-          "statContext": "Down 21.58 points (-0.04%)"
+          "statContext": "Down 0.04%"
         }
       ]
     },
     {
-      "id": "top-movers-aug-13",
-      "title": "Top Movers (Select Companies)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (Pre-market)",
       "cardType": "stock",
-      "layout": "list",
+      "layout": "grid",
       "items": [
         {
-          "id": "coreweave-gainer",
-          "headline": "AI-related earnings lift tech sector",
-          "summary": "AI cloud computing company CoreWeave saw its shares jump 19% after stronger-than-expected quarterly earnings and guidance, contributing to a rally in technology stocks on Wednesday.",
-          "ticker": "$CORE",
+          "id": "gaxos-ai-gainer",
+          "headline": "Gaxos.ai Surges on Q2 Revenue Beat",
+          "ticker": "$GXAI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+19%",
-          "direction": "up"
+          "changePercent": "+63%",
+          "direction": "up",
+          "summary": "Gaxos.ai shares rose more than 63% in premarket trading after the company reported stronger-than-expected second-quarter revenue."
         },
         {
-          "id": "smci-gainer",
-          "headline": "Semiconductor sector strengthens",
-          "summary": "Super Micro Computer Inc. ($SMCI) is a notable player in the semiconductor sector, which is nearing a bull market on August 13, driven by positive corporate earnings reports and robust demand for chips, particularly in AI datacenters.",
-          "ticker": "$SMCI",
-          "price": "$37.61",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "up"
-        },
-        {
-          "id": "yxt-loser",
-          "headline": "YXT.COM GROUP HOLDING suffers significant monthly decline",
-          "summary": "YXT.COM GROUP HOLDING LIMITED has experienced a substantial monthly decline, making it one of the biggest losers in August 2026. This was announced alongside the pricing of a registered direct offering.",
-          "ticker": "$YXT",
+          "id": "iveda-solutions-gainer",
+          "headline": "Iveda Solutions Continues Ascent",
+          "ticker": "$IVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-66.07% (monthly)",
-          "direction": "down"
+          "changePercent": "+36%",
+          "direction": "up",
+          "summary": "Iveda Solutions stock climbed 36% in premarket, extending a 26% gain from the previous session."
+        },
+        {
+          "id": "omeros-gainer",
+          "headline": "Omeros Jumps on Strong Q2 Results",
+          "ticker": "$OMER",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15%",
+          "direction": "up",
+          "summary": "Omeros shares surged 15% following a strong Q2 performance, driven by the commercial launch of YARTEMLEA, with revenue and adjusted EPS surpassing expectations."
+        },
+        {
+          "id": "cerebras-loser",
+          "headline": "Cerebras Systems Tumbles on Revenue Miss",
+          "ticker": "$CBRS",
+          "price": "$216.00",
+          "change": "N/A",
+          "changePercent": "-17.4%",
+          "direction": "down",
+          "summary": "Cerebras Systems Inc. tumbled 17.4% in premarket after the AI hardware and supercomputing company missed Wall Street's second-quarter revenue estimates."
+        },
+        {
+          "id": "stubhub-loser",
+          "headline": "StubHub Declines After Q2 Loss",
+          "ticker": "$STUB",
+          "price": "$6.82",
+          "change": "N/A",
+          "changePercent": "-13%",
+          "direction": "down",
+          "summary": "StubHub Holdings, Inc. fell over 13% in premarket as the company failed to turn a profit in the second quarter, despite increased revenue."
+        },
+        {
+          "id": "cisco-systems-loser",
+          "headline": "Cisco Systems Falls Despite Strong Earnings",
+          "ticker": "$CSCO",
+          "price": "$116.21",
+          "change": "N/A",
+          "changePercent": "-6.2%",
+          "direction": "down",
+          "summary": "Cisco Systems Inc. shares declined 6.2% in premarket trading, even after reporting better-than-expected Q4 fiscal 2026 results, potentially due to profit-taking following a significant year-to-date rally."
         }
       ]
     },
     {
-      "id": "market-news-aug-13",
+      "id": "market-news-key-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-release",
-          "headline": "Key Economic Data Expected Today: PPI and Jobless Claims",
-          "summary": "Investors are closely watching for the release of the U.S. Producer Price Index (PPI), Initial Claims, and Continuing Claims today. The PPI, which measures wholesale prices, is expected to show a modest rise of 0.1% monthly and a year-over-year drop to 4.9% from 5.5%, which could provide further insights into inflation trends.",
+          "id": "economic-data-ppi",
+          "headline": "Investors Await July PPI Report for Further Inflation Clues",
+          "summary": "The U.S. Producer Price Index (PPI) for July is scheduled for release today at 8:30 a.m. ET (12:30 PM UTC). Economists anticipate the index to show a 0.2% increase from the previous month, offering additional insights into wholesale inflation trends.",
           "tags": [
             "Economic Data",
             "Inflation",
@@ -106,34 +159,42 @@
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Holds Rates Steady Amidst Mixed Signals",
-          "summary": "The Federal Reserve maintained its overnight lending rate at 3.5%, but internal dissension points to ongoing debate over future policy amid strong job creation and persistent inflation risks. The benign July CPI report (3.4% year-over-year) has led traders to scale back bets for a September rate hike.",
+          "id": "cpi-cools-fed-outlook",
+          "headline": "Cooling CPI Eases Federal Reserve Rate Hike Concerns",
+          "summary": "Wednesday's Consumer Price Index (CPI) data revealed a moderation in inflation, with the annual rate slowing to 3.4% in July from 3.5% in June, aligning with market expectations. This subdued inflation print has helped to calm jitters around potential Federal Reserve interest rate hikes.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
+            "Inflation",
+            "Fed",
             "CPI"
           ]
         },
         {
-          "id": "sector-rotation-ai",
-          "headline": "AI and Tech Sector Continue to Drive Market Momentum",
-          "summary": "The technology sector, particularly AI-related stocks and the semiconductor industry, remains a key driver of market performance. Strong earnings reports from companies in the AI supply chain have boosted investor optimism, leading to gains in indices like the Nasdaq Composite.",
+          "id": "ai-sector-momentum",
+          "headline": "AI and Tech Sector Continue to Drive Market Gains",
+          "summary": "The artificial intelligence (AI) theme remains a significant market driver, contributing to the strong performance of tech stocks and major indices like the Nasdaq and S&P 500. Demand for AI hardware, software, and data centers continues to fuel investment and growth in the sector.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI",
-            "Semiconductors"
+            "AI"
           ]
         },
         {
-          "id": "earnings-valneva-mlp",
-          "headline": "Valneva and MLP SE Report Half-Year Results",
-          "summary": "Specialty vaccine company Valneva SE ($VALN) reported its half-year 2026 financial results today, reaffirming its full-year guidance. Separately, MLP Group SE announced new record highs in both total revenue and earnings before interest and taxes (EBIT) for the first half of 2026.",
+          "id": "geopolitical-tensions-oil",
+          "headline": "Geopolitical Tensions Weigh on Oil Prices",
+          "summary": "Lingering geopolitical frictions, particularly concerning the Strait of Hormuz, are contributing to volatility and a decline in oil prices. Brent crude is trading around $88 per barrel, while U.S. West Texas Intermediate (WTI) crude is near $82-$83 per barrel.",
           "tags": [
-            "Earnings Reports",
-            "Biotech",
-            "Financial Services"
+            "Macro Trends",
+            "Oil Prices",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "earnings-reports-today",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Several major companies are scheduled to release earnings reports today, August 13, 2026, including Applied Materials Inc. ($AMAT), Brookfield Corporation ($BN), and JD.com Inc. ($JD). Bullish ($BLSH) and Trend Micro ($TYO:4704) have already reported their Q2 2026 results.",
+          "tags": [
+            "Earnings",
+            "Corporate News"
           ]
         }
       ]
