@@ -1,181 +1,169 @@
 {
-  "generatedAt": "2026-08-14T12:40:00Z",
+  "generatedAt": "2026-08-14T16:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "August 14, 2026 Session Update",
-  "badge": "Daily Update",
+  "title": "Daily Market Digest: August 14, 2026",
+  "subtitle": "Market closes mixed amid inflation relief and retail sales concerns. Not financial advice.",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Inflation Relief Meets Retail Headwinds",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "U.S. Equities See Mixed Friday Open Following Record Thursday Close on Eased Inflation Fears",
-          "summary": "U.S. equity markets opened mixed on Friday, pausing after a strong Thursday session where major indices closed higher, with the S&P 500 reaching a new all-time high. Investor sentiment remains largely positive as recent July inflation data, including a flat Producer Price Index, has reduced expectations for a Federal Reserve rate hike in September. However, long-term Treasury yields climbed to a 25-year high, signaling ongoing concerns about inflation and government debt.",
-          "tags": [
-            "Market Overview",
-            "Inflation",
-            "Federal Reserve"
-          ]
+          "id": "market-summary",
+          "headline": "U.S. Markets Trade Mixed; Inflation Cools but Retail Sales Disappoint",
+          "summary": "U.S. equities saw mixed trading today, with major indices fluctuating near record highs. Softer-than-expected inflation data for July eased concerns about an immediate Federal Reserve rate hike, yet a surprising decline in retail sales raised questions about consumer spending and overall economic momentum. Investors are balancing disinflationary signals with signs of slowing growth."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Thursday's Close & Friday's Futures)",
+      "title": "Major Indices Performance (As of Midday ET)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
-          "statLabel": "S&P 500 (Thursday Close)",
-          "statValue": "7,798.99",
-          "statContext": "Up 0.70% (+54.59 points) to an all-time high."
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "Down 0.23%",
+          "statContext": "Declined from yesterday's record close."
         },
         {
-          "id": "nasdaq-close",
-          "statLabel": "NASDAQ Composite (Thursday Close)",
-          "statValue": "26,803.03",
-          "statContext": "Up 0.80% (+215.02 points)."
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "Down 0.2%",
+          "statContext": "Traded lower after a strong Thursday close."
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Industrial Average (Thursday Close)",
-          "statValue": "53,839.99",
-          "statContext": "Up 0.10% (+69.72 points)."
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures (Friday Premarket)",
-          "statValue": "7,828.00",
-          "statContext": "Up 0.07% (+5.50 points)."
-        },
-        {
-          "id": "nasdaq100-futures",
-          "statLabel": "Nasdaq 100 Futures (Friday Premarket)",
-          "statValue": "30,235.00",
-          "statContext": "Up 0.15% (+46.50 points)."
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures (Friday Premarket)",
-          "statValue": "53,861.00",
-          "statContext": "Down 0.14% (-74.00 points)."
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "Down 24 points (-0.07%)",
+          "statContext": "Slipped slightly in midday trading."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday's Session)",
+      "title": "Top Movers: Gainers and Losers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "rdtd-gainer",
-          "headline": "Reddit Surges on S&P 500 Inclusion",
-          "summary": "Shares of the social media platform jumped after S&P Dow Jones Indices announced its addition to the S&P 500 index, effective August 18.",
+          "id": "rdit-gainer",
+          "headline": "Reddit Soars on S&P 500 Inclusion News",
           "ticker": "$RDDT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.4%",
-          "direction": "up"
+          "changePercent": "+14%",
+          "direction": "up",
+          "summary": "Shares of Reddit surged following the announcement that it will join the benchmark S&P 500 index on August 18, attracting buying interest from index funds."
         },
         {
           "id": "nu-gainer",
-          "headline": "Nu Holdings Climbs on Strong Q2 Results",
-          "summary": "The Brazilian digital bank reported stronger-than-expected Q2 results, driven by higher purchase volume and customer growth.",
+          "headline": "Nu Holdings Jumps on Robust Earnings",
           "ticker": "$NU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
-          "direction": "up"
+          "changePercent": "+13%",
+          "direction": "up",
+          "summary": "Fintech Nu Holdings saw its stock climb after reporting record second-quarter earnings, with quarterly net income surpassing $1 billion for the first time."
         },
         {
-          "id": "arx-gainer",
-          "headline": "Accelerant Rises on Earnings Beat",
-          "summary": "Accelerant Holdings saw its shares climb after reporting second-quarter 2026 earnings that surpassed analyst estimates.",
-          "ticker": "$ARX",
+          "id": "eton-gainer",
+          "headline": "Eton Pharmaceuticals Rallies on Strong Outlook",
+          "ticker": "$ETON",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+43.4%",
-          "direction": "up"
+          "changePercent": "+38%",
+          "direction": "up",
+          "summary": "Eton Pharmaceuticals rallied significantly after reporting a strong quarter and raising its 2026 revenue outlook to over $145 million, with an adjusted EBITDA margin target above 35%."
         },
         {
-          "id": "glob-loser",
-          "headline": "Globant Dips on Disappointing Earnings",
-          "summary": "The IT and software development company's shares fell following a disappointing second-quarter earnings report.",
-          "ticker": "$GLOB",
+          "id": "amat-loser",
+          "headline": "Applied Materials Slides Despite Strong Results",
+          "ticker": "$AMAT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.6%",
-          "direction": "down"
+          "changePercent": "-4%",
+          "direction": "down",
+          "summary": "Applied Materials stock declined despite the semiconductor equipment maker reporting quarterly revenue and profit that exceeded analysts' expectations, likely due to exceptionally high investor expectations after a significant year-to-date gain."
         },
         {
-          "id": "tpr-loser",
-          "headline": "Tapestry Plunges on Weak Revenue Forecast",
-          "summary": "The Coach owner's stock dropped after its fourth-quarter 2026 revenues missed estimates and the company provided sluggish annual revenue growth guidance.",
-          "ticker": "$TPR",
+          "id": "klc-loser",
+          "headline": "KinderCare Learning Companies Tumble on Disappointing Guidance",
+          "ticker": "$KLC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.5%",
-          "direction": "down"
+          "changePercent": "-39.75%",
+          "direction": "down",
+          "summary": "KinderCare Learning Companies shares tumbled following disappointing second-quarter results and guidance, attributed to center closures."
+        },
+        {
+          "id": "inv-loser",
+          "headline": "Innventure Inc. Sees Steep Decline",
+          "ticker": "$INV",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-54.86%",
+          "direction": "down",
+          "summary": "Innventure Inc. experienced a substantial drop, making it one of the day's biggest percentage losers."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "mn-1",
-          "headline": "Softer Inflation Data Calms Fed Rate Hike Jitters",
-          "summary": "July's Producer Price Index (PPI) remained unchanged month-over-month, falling below economists' expectations for a 0.2% increase. This, coupled with a benign CPI report, has significantly reduced market expectations for a Federal Reserve rate hike in September.",
+          "id": "economic-data-release",
+          "headline": "Retail Sales Fall Unexpectedly in July, Sparking Growth Concerns",
+          "summary": "U.S. retail sales for July fell 0.6% to $763.6 billion, missing economists' forecasts for a 0.1% increase. This data, coupled with last week's weak employment report, has fueled fears that the U.S. economy may be losing momentum.",
           "tags": [
-            "Inflation",
-            "Federal Reserve",
-            "Economic Data"
+            "Economic Data",
+            "Retail Sales"
           ]
         },
         {
-          "id": "mn-2",
-          "headline": "Long-Term Treasury Yields Reach 25-Year High",
-          "summary": "Despite easing inflation concerns, the U.S. government sold 30-year Treasury bonds at its highest borrowing cost since 2001, with a yield of 5.216% on Thursday. This indicates investors are demanding a higher premium for long-duration debt amid concerns over inflation and rising national debt.",
+          "id": "fed-outlook",
+          "headline": "Cooling Inflation Data Reduces Likelihood of September Fed Rate Hike",
+          "summary": "The Producer Price Index (PPI) for July remained unchanged, defying expectations for a rise, and follows benign consumer inflation data earlier in the week. These disinflationary signals have led markets to price in a 69% probability that the Federal Reserve will keep its benchmark rate steady next month.",
           "tags": [
-            "Treasury Yields",
-            "Bonds",
+            "Federal Reserve",
             "Inflation"
           ]
         },
         {
-          "id": "mn-3",
-          "headline": "Tech and Communication Services Lead Sector Gains",
-          "summary": "On Thursday, the Communication Services sector (XLC) rose 1.6%, Real Estate (XLRE) gained 1.3%, and Information Technology (XLK) advanced 1%. These sectors were key drivers in the S&P 500's push to a record high, with strong performance in AI-related stocks.",
+          "id": "sector-performance",
+          "headline": "Technology and Communication Services Lead Gains, Energy and Materials Lag",
+          "summary": "On Thursday, the Technology and Communication Services sectors were notable leaders, each gaining approximately 1%. Conversely, today saw selling pressure in the Energy and Oil & Gas sectors, partly due to volatile oil prices and ongoing Middle East tensions. The Materials sector also experienced declines.",
           "tags": [
-            "Sector Performance",
+            "Sector Analysis",
             "Technology",
-            "Communication Services"
+            "Energy"
           ]
         },
         {
-          "id": "mn-4",
-          "headline": "Fed Ends Reserve Management Purchases (RMPs)",
-          "summary": "The Federal Reserve cut its Reserve Management Purchases (RMPs) to zero, effective August 14. This move is seen as a 'baby step' in bringing down the balance sheet and reversing some of the quantitative easing from 2025.",
+          "id": "oil-market",
+          "headline": "Oil Prices Fluctuate Amid Middle East Tensions",
+          "summary": "Oil prices showed relative stability today after recent sharp swings. Brent crude was around $87 per barrel, impacted by U.S. plans to levy economic measures against Iran and maintain a naval blockade at the Strait of Hormuz.",
           "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Liquidity"
+            "Commodities",
+            "Geopolitics"
           ]
         },
         {
-          "id": "mn-5",
-          "headline": "Key Earnings Reports Highlight Growth and Challenges",
-          "summary": "Boost Run Inc. ($BRUN) reported a 270% increase in Q2 revenue, driven by strong contract growth. Americas Gold and Silver Corp. ($USAS) also saw a 71% rise in Q2 net revenue. Conversely, Cisco's shares dropped 8% on Thursday after its revenue forecast failed to meet high investor expectations."
+          "id": "earnings-highlights",
+          "headline": "Key Companies Report Strong Earnings, AI Demand Continues to Drive Performance",
+          "summary": "Several companies reported strong quarterly results, including Nu Holdings ($NU), Eton Pharmaceuticals ($ETON), and EnerSys ($ENS). Boost Run Inc. announced substantial new contracts totaling $1.9 billion, projecting $400 million in Annual Recurring Revenue by fiscal year-end, leveraging its NVIDIA Preferred Cloud Provider status. Outlook Therapeutics ($OTLK) also highlighted FDA approval of LYTENAVA. The overall AI investment boom continues to support corporate earnings and economic growth.",
+          "tags": [
+            "Earnings",
+            "AI"
+          ]
         }
       ]
     }
