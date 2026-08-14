@@ -1,141 +1,181 @@
 {
-  "generatedAt": "2026-08-14T08:13:00Z",
+  "generatedAt": "2026-08-14T12:40:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 14, 2026 - Early Trading Update",
-  "badge": "Updated Today",
+  "subtitle": "August 14, 2026 Session Update",
+  "badge": "Daily Update",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Equities Show Modest Gains in Early Trading Following Tame Inflation Data",
-          "summary": "U.S. stock indices are posting slight gains in early trading on Friday, August 14, 2026. This follows a strong performance on Thursday, where the S&P 500 reached a record closing high, fueled by easing Federal Reserve rate hike expectations after favorable producer price inflation data for July. Crude oil prices also saw an extended fall, contributing to overall market sentiment. Not financial advice."
+          "id": "mp-1",
+          "headline": "U.S. Equities See Mixed Friday Open Following Record Thursday Close on Eased Inflation Fears",
+          "summary": "U.S. equity markets opened mixed on Friday, pausing after a strong Thursday session where major indices closed higher, with the S&P 500 reaching a new all-time high. Investor sentiment remains largely positive as recent July inflation data, including a flat Producer Price Index, has reduced expectations for a Federal Reserve rate hike in September. However, long-term Treasury yields climbed to a 25-year high, signaling ongoing concerns about inflation and government debt.",
+          "tags": [
+            "Market Overview",
+            "Inflation",
+            "Federal Reserve"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (Thursday's Close & Friday's Futures)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "stat-sp500",
-          "statLabel": "S&P 500",
-          "statValue": "7,760.00",
-          "statContext": "+0.09% (+6.89) today"
+          "id": "sp500-close",
+          "statLabel": "S&P 500 (Thursday Close)",
+          "statValue": "7,798.99",
+          "statContext": "Up 0.70% (+54.59 points) to an all-time high."
         },
         {
-          "id": "stat-nasdaq",
-          "statLabel": "NASDAQ",
-          "statValue": "26,608.04",
-          "statContext": "+0.01% (+2.69) today"
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite (Thursday Close)",
+          "statValue": "26,803.03",
+          "statContext": "Up 0.80% (+215.02 points)."
         },
         {
-          "id": "stat-dow",
-          "statLabel": "DOW",
-          "statValue": "54,049.86",
-          "statContext": "+0.14% (+73.88) today"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average (Thursday Close)",
+          "statValue": "53,839.99",
+          "statContext": "Up 0.10% (+69.72 points)."
+        },
+        {
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Friday Premarket)",
+          "statValue": "7,828.00",
+          "statContext": "Up 0.07% (+5.50 points)."
+        },
+        {
+          "id": "nasdaq100-futures",
+          "statLabel": "Nasdaq 100 Futures (Friday Premarket)",
+          "statValue": "30,235.00",
+          "statContext": "Up 0.15% (+46.50 points)."
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures (Friday Premarket)",
+          "statValue": "53,861.00",
+          "statContext": "Down 0.14% (-74.00 points)."
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers (Early Trading, August 14, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (Friday's Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-wday",
-          "headline": "Workday Inc. Leads Gainers",
-          "ticker": "$WDAY",
-          "price": "$206.45",
-          "change": "+$31.16",
-          "changePercent": "+17.78%",
-          "direction": "up",
-          "summary": "Workday Inc. ($WDAY) saw a significant jump in early trading today. Specific drivers for today's move are not immediately clear, but general positive market sentiment may be a contributing factor. Not financial advice."
+          "id": "rdtd-gainer",
+          "headline": "Reddit Surges on S&P 500 Inclusion",
+          "summary": "Shares of the social media platform jumped after S&P Dow Jones Indices announced its addition to the S&P 500 index, effective August 18.",
+          "ticker": "$RDDT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.4%",
+          "direction": "up"
         },
         {
-          "id": "gainer-sndk",
-          "headline": "SanDisk Corp. Continues Upward Trend",
-          "ticker": "$SNDK",
-          "price": "$1,528.11",
-          "change": "+$183.82",
-          "changePercent": "+13.67%",
-          "direction": "up",
-          "summary": "SanDisk Corp. ($SNDK) is performing strongly, continuing a trend from Thursday when memory chip makers rallied following tame producer price inflation data and overall tech strength. Not financial advice."
+          "id": "nu-gainer",
+          "headline": "Nu Holdings Climbs on Strong Q2 Results",
+          "summary": "The Brazilian digital bank reported stronger-than-expected Q2 results, driven by higher purchase volume and customer growth.",
+          "ticker": "$NU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9%",
+          "direction": "up"
         },
         {
-          "id": "gainer-gddy",
-          "headline": "GoDaddy Inc. Shows Strong Gains",
-          "ticker": "$GDDY",
-          "price": "$100.50",
-          "change": "+$8.68",
-          "changePercent": "+9.45%",
-          "direction": "up",
-          "summary": "GoDaddy Inc. ($GDDY) is among the top gainers in early trading today. The specific catalyst for today's rise is not yet reported. Not financial advice."
+          "id": "arx-gainer",
+          "headline": "Accelerant Rises on Earnings Beat",
+          "summary": "Accelerant Holdings saw its shares climb after reporting second-quarter 2026 earnings that surpassed analyst estimates.",
+          "ticker": "$ARX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+43.4%",
+          "direction": "up"
         },
         {
-          "id": "loser-context",
-          "headline": "Top Losers Not Clearly Identified in Early Trading",
-          "summary": "Specific top individual stock losers with clear, attributable drivers for early trading on August 14, 2026, are not immediately available. On Thursday, Securitize ($SECZ) and Liftoff Mobile ($LFTO) were notable decliners. Not financial advice."
+          "id": "glob-loser",
+          "headline": "Globant Dips on Disappointing Earnings",
+          "summary": "The IT and software development company's shares fell following a disappointing second-quarter earnings report.",
+          "ticker": "$GLOB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-12.6%",
+          "direction": "down"
+        },
+        {
+          "id": "tpr-loser",
+          "headline": "Tapestry Plunges on Weak Revenue Forecast",
+          "summary": "The Coach owner's stock dropped after its fourth-quarter 2026 revenues missed estimates and the company provided sluggish annual revenue growth guidance.",
+          "ticker": "$TPR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-16.5%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis-today",
-      "title": "Sector Analysis (Early Trading, August 14, 2026)",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "leading-lagging-sectors",
-          "headline": "Communication Services and Real Estate Lead; Materials Sector Lags",
-          "summary": "In early trading today, the Communication Services sector ($TELS) is leading with a +2.06% gain, followed by Real Estate ($REAL) at +1.44%. Consumer Staples ($CONS) and Technology ($INFT) are also showing strength, up +1.07% and +0.98% respectively. Conversely, the Materials sector ($MATR) is lagging, down -0.55%, with Industrials ($INDU) and Health Care ($HLTH) also showing slight declines. Not financial advice."
+          "id": "mn-1",
+          "headline": "Softer Inflation Data Calms Fed Rate Hike Jitters",
+          "summary": "July's Producer Price Index (PPI) remained unchanged month-over-month, falling below economists' expectations for a 0.2% increase. This, coupled with a benign CPI report, has significantly reduced market expectations for a Federal Reserve rate hike in September.",
+          "tags": [
+            "Inflation",
+            "Federal Reserve",
+            "Economic Data"
+          ]
         },
         {
-          "id": "industry-news-ai-impact",
-          "headline": "AI Momentum Continues with Potential Trillion-Dollar IPO, Driving Industrial Demand",
-          "summary": "The technology sector continues to be a focal point, with significant developments in Artificial Intelligence. Anthropic, an AI company, is reportedly on track for an initial public offering that could value it at over $2 trillion, potentially surpassing Elon Musk's SpaceX. Furthermore, the demand generated by AI-fueled data center buildouts is a significant driver for the Industrial sector. Not financial advice."
+          "id": "mn-2",
+          "headline": "Long-Term Treasury Yields Reach 25-Year High",
+          "summary": "Despite easing inflation concerns, the U.S. government sold 30-year Treasury bonds at its highest borrowing cost since 2001, with a yield of 5.216% on Thursday. This indicates investors are demanding a higher premium for long-duration debt amid concerns over inflation and rising national debt.",
+          "tags": [
+            "Treasury Yields",
+            "Bonds",
+            "Inflation"
+          ]
         },
         {
-          "id": "industry-news-food",
-          "headline": "Tyson Foods to Close Facilities Amid Cattle Shortage",
-          "summary": "In industry-specific news, Tyson Foods plans to close two facilities and pursue the sale of another, attributing these actions to a 'historic' cattle shortage. Not financial advice."
-        }
-      ]
-    },
-    {
-      "id": "economic-news-updates",
-      "title": "Economic & Earnings News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "fed-actions-inflation",
-          "headline": "Fed Cuts Reserve Management Purchases; Tame Inflation Data Eases Hike Concerns",
-          "summary": "The Federal Reserve has announced a reduction in its Reserve Management Purchases (RMPs) to zero, effective today, August 14, 2026, marking a step in balancing the sheet. This decision follows July's producer price index (PPI) data, released yesterday, which indicated wholesale prices were 4.7% higher year-over-year, performing better than expected and below June's 5.5% rate. This tame inflation report has eased expectations for further Fed interest rate hikes. The Federal Reserve Bank of New York is also conducting a small value agency MBS sale operation today. Not financial advice."
+          "id": "mn-3",
+          "headline": "Tech and Communication Services Lead Sector Gains",
+          "summary": "On Thursday, the Communication Services sector (XLC) rose 1.6%, Real Estate (XLRE) gained 1.3%, and Information Technology (XLK) advanced 1%. These sectors were key drivers in the S&P 500's push to a record high, with strong performance in AI-related stocks.",
+          "tags": [
+            "Sector Performance",
+            "Technology",
+            "Communication Services"
+          ]
         },
         {
-          "id": "economic-data-releases",
-          "headline": "U.S. Retail Sales and Consumer Sentiment Reports Expected Today",
-          "summary": "Investors are closely watching for the release of July's U.S. Retail Sales and the University of Michigan's preliminary consumer sentiment data later today, August 14, 2026. These reports will offer further insights into consumer behavior and economic health. Not financial advice."
+          "id": "mn-4",
+          "headline": "Fed Ends Reserve Management Purchases (RMPs)",
+          "summary": "The Federal Reserve cut its Reserve Management Purchases (RMPs) to zero, effective August 14. This move is seen as a 'baby step' in bringing down the balance sheet and reversing some of the quantitative easing from 2025.",
+          "tags": [
+            "Federal Reserve",
+            "Monetary Policy",
+            "Liquidity"
+          ]
         },
         {
-          "id": "earnings-reports-today",
-          "headline": "VolitionRx, Solana, and Applied Materials Among Companies Reporting Earnings",
-          "summary": "Today, VolitionRx Limited ($VNRX) announced its Q2 2026 financial results, with a management conference call scheduled. Solana ($HSDT) is also anticipated to release its Q2 2026 earnings after market close. Applied Materials has already reported earnings above expectations at $3.50 USD. Not financial advice."
-        },
-        {
-          "id": "global-economic-trends",
-          "headline": "Indonesia Reports Robust Economic Growth; Global Economy Driven by Tech/AI",
-          "summary": "Globally, Indonesian President Prabowo Subianto highlighted the country's strongest first-half economic growth in over a decade, with a target of 6% by year-end despite international uncertainties. The overarching global economic expansion continues to be significantly driven by the technology and AI sectors. Not financial advice."
+          "id": "mn-5",
+          "headline": "Key Earnings Reports Highlight Growth and Challenges",
+          "summary": "Boost Run Inc. ($BRUN) reported a 270% increase in Q2 revenue, driven by strong contract growth. Americas Gold and Silver Corp. ($USAS) also saw a 71% rise in Q2 net revenue. Conversely, Cisco's shares dropped 8% on Thursday after its revenue forecast failed to meet high investor expectations."
         }
       ]
     }
