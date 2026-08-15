@@ -1,171 +1,154 @@
 {
-  "generatedAt": "2026-08-15T07:27:00Z",
+  "generatedAt": "2026-08-15T12:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Closing Bell: August 14, 2026",
-  "badge": "Session Closed",
+  "subtitle": "Market Recap for Friday, August 14, 2026 (Markets Closed for Weekend)",
+  "badge": "Updated: August 15, 2026",
   "sections": [
     {
-      "id": "market-pulse-aug-14",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Indices Retreat on Weak Retail Sales, Oil Rises",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-aug-14",
-          "headline": "U.S. Indices Decline Amid Weak Retail Sales and Geopolitical Tensions",
-          "summary": "Major U.S. stock indices ended mostly lower on Friday, August 14, pulling back from Thursday's record highs as weaker-than-expected retail sales data and rising geopolitical tensions weighed on investor sentiment. The S&P 500, NASDAQ, and Dow Jones Industrial Average all saw declines, while energy stocks rallied on higher oil prices.",
-          "tags": [
-            "Market Close",
-            "Economic Data",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-08-14T20:00:00Z"
+          "headline": "U.S. Stocks Edge Back from Record Highs as Retail Sales Disappoint",
+          "summary": "Major U.S. stock indices closed lower on Friday, August 14, 2026, as a surprisingly weak report on July retail sales raised concerns about consumer spending and the broader economic outlook. Despite some easing inflation worries, oil prices saw an uptick, adding a layer of uncertainty to the market."
         }
       ]
     },
     {
-      "id": "major-indices-aug-14",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Friday, August 14, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-aug-14",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
           "statValue": "7,785.76",
-          "statContext": "Down 0.17% (-13.23 points) on Friday's close."
+          "statContext": "Down 0.2% (-13.23 points)",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-aug-14",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "26,729.16",
-          "statContext": "Down 0.28% (-73.86 points) at Friday's close."
-        },
-        {
-          "id": "dow-aug-14",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,732.41",
-          "statContext": "Declined 0.20% (-107.58 points) by Friday's close."
+          "statContext": "Down 0.2% (-107.58 points)",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,729.16",
+          "statContext": "Down 0.3% (-73.86 points)",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-aug-14",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (Friday, August 14, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "eton-gainer-aug-14",
-          "headline": "Eton Pharmaceuticals ($ETON) Soars on Strong Earnings",
-          "summary": "Eton Pharmaceuticals ($ETON) surged 38% after reporting a strong quarter and raising its 2026 revenue outlook to over $145 million, targeting an adjusted EBITDA margin above 35%.",
-          "ticker": "$ETON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+38.00%",
-          "direction": "up"
-        },
-        {
-          "id": "reddit-gainer-aug-14",
-          "headline": "Reddit ($RDDT) Jumps on S&P 500 Inclusion News",
-          "summary": "Reddit ($RDDT) shares climbed 12.56% after S&P Dow Jones Indices announced the social media company will replace AvalonBay Communities ($AVB) in the S&P 500, effective before trading opens on August 18.",
+          "id": "rdit-gainer",
+          "headline": "Reddit Jumps on S&P 500 Inclusion News",
+          "summary": "Reddit ($RDDT) surged 12.6% after the announcement that its stock will be joining the S&P 500 index on Tuesday, a move that often triggers institutional buying.",
           "ticker": "$RDDT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+12.56%",
+          "changePercent": "+12.6%",
           "direction": "up"
         },
         {
-          "id": "nu-gainer-aug-14",
-          "headline": "Nu Holdings ($NU) Rises on Robust Q2 Results",
-          "summary": "Nu Holdings ($NU) saw its shares jump 13% following stronger-than-expected Q2 results, driven by a 56% year-over-year revenue increase to $5.88 billion and continued customer growth.",
-          "ticker": "$NU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.00%",
+          "id": "sndk-gainer",
+          "headline": "SanDisk Extends Gains on Strong Guidance",
+          "summary": "SanDisk ($SNDK) climbed 7.39% following stellar long-term guidance, highlighting continued strength in memory stocks.",
+          "ticker": "$SNDK",
+          "price": "$1641.11",
+          "change": "+$113.00",
+          "changePercent": "+7.39%",
           "direction": "up"
         },
         {
-          "id": "amat-loser-aug-14",
-          "headline": "Applied Materials ($AMAT) Falls Despite Upbeat Forecast",
-          "summary": "Applied Materials ($AMAT) declined 5.12% even after delivering an upbeat quarterly forecast. Investors reacted negatively, suggesting expectations were already high due to strong AI-driven demand.",
+          "id": "cprt-gainer",
+          "headline": "Copart Rises",
+          "summary": "Copart Inc. ($CPRT) advanced 7.55%.",
+          "ticker": "$CPRT",
+          "price": "$31.61",
+          "change": "+$2.22",
+          "changePercent": "+7.55%",
+          "direction": "up"
+        },
+        {
+          "id": "amat-loser",
+          "headline": "Applied Materials Falls Despite Strong Earnings",
+          "summary": "Applied Materials ($AMAT) dropped 5.1% despite reporting stronger-than-expected profit and revenue for its latest quarter, possibly reflecting broader sector pressures or investor reactions to forward guidance.",
           "ticker": "$AMAT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.12%",
+          "changePercent": "-5.1%",
           "direction": "down"
         },
         {
-          "id": "avgo-loser-aug-14",
-          "headline": "Broadcom ($AVGO) Slips on AI Valuation Concerns",
-          "summary": "Chipmaker Broadcom ($AVGO) shares fell 5.94%, reflecting broader investor nervousness about high valuations in AI-related stocks after pulling back from recent gains.",
+          "id": "avgo-loser",
+          "headline": "Broadcom Declines",
+          "summary": "Broadcom ($AVGO) decreased by 5.93%.",
           "ticker": "$AVGO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.94%",
-          "direction": "down"
-        },
-        {
-          "id": "glob-loser-aug-14",
-          "headline": "Globant ($GLOB) Sinks on Disappointing Earnings",
-          "summary": "Globant ($GLOB) shares dropped 5.8% after the IT and software development company delivered a disappointing second-quarter earnings report.",
-          "ticker": "$GLOB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.80%",
+          "changePercent": "-5.93%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-aug-14",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Economic Drivers",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-aug-14",
-          "headline": "Retail Sales Decline Signals Consumer Slowdown",
-          "summary": "U.S. retail sales unexpectedly fell 0.6% in July, marking the largest monthly drop in over a year and missing economists' forecasts. This data contributed to concerns about consumer spending momentum starting to soften.",
+          "id": "retail-sales-dip",
+          "headline": "U.S. Retail Sales Decline in July, Sparking Economic Slowdown Concerns",
+          "summary": "U.S. retail sales experienced a 0.6% decline in July, marking the largest monthly drop since May of last year. This unexpected contraction, which missed economists' forecasts for growth, has fueled worries about the health of consumer spending and the potential for a slowing economy.",
           "tags": [
             "Economic Data",
-            "Retail Sales",
+            "Consumer Spending"
+          ]
+        },
+        {
+          "id": "inflation-sentiment",
+          "headline": "Consumer Sentiment Weakens Amid Lingering Inflation Concerns",
+          "summary": "A preliminary survey from the University of Michigan indicated that U.S. consumer sentiment weakened more than anticipated in August. This decline was largely attributed to persistent inflation concerns, even as other reports suggested a deceleration in the overall pace of price increases.",
+          "tags": [
+            "Inflation",
             "Consumer Sentiment"
           ]
         },
         {
-          "id": "inflation-fed-aug-14",
-          "headline": "Soft Inflation Data Eases Fed Rate Hike Concerns",
-          "summary": "Softer-than-expected Producer Price Index (PPI) data for July, coupled with an in-line Consumer Price Index (CPI) reading, eased fears that the Federal Reserve would need to implement another rate hike in September. This provides some macro relief for equity markets.",
-          "tags": [
-            "Inflation",
-            "Federal Reserve",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions-aug-14",
-          "headline": "Middle East Tensions Drive Oil Prices Higher, Impact Market",
-          "summary": "Escalating tensions in the Strait of Hormuz, with reports of two more ships attacked, fueled market pessimism and contributed to a rise in oil prices. The S&P 500 energy index rallied 1.4% on the news.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Energy Sector"
-          ]
-        },
-        {
-          "id": "sector-performance-aug-14",
-          "headline": "Energy Leads, Healthcare Lags in Sector Performance",
-          "summary": "Energy was the top-performing sector, gaining 1.36% on the day and 7.57% for the week, driven by higher oil prices. In contrast, the healthcare sector was the worst performer, declining 0.60% as investors rotated towards energy and memory stocks.",
+          "id": "sector-performance",
+          "headline": "Energy and Utilities Lead, Technology Lags on Friday",
+          "summary": "On Friday, Energy and Utilities sectors demonstrated strength, leading gainers with increases of 1.36% and 0.55% respectively. Conversely, Health and Technology sectors were among the laggards, falling 0.6% and 0.42%. Memory and optical communication stocks, however, bucked the broader tech trend with strong performances.",
           "tags": [
             "Sector Analysis",
             "Energy",
-            "Healthcare"
+            "Utilities",
+            "Technology"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Fed Minutes and Retail Earnings Awaited Next Week",
+          "summary": "Investors are looking ahead to next week for key economic insights, including the release of the Federal Reserve's July meeting minutes on Wednesday. Major retailers such as Home Depot, Target, Lowes, and Walmart are also slated to report earnings, which will provide further clarity on consumer resilience amidst stubbornly high inflation. The Fed kept rates steady in July, with Wall Street anticipating at least one rate hike by year-end 2026.",
+          "tags": [
+            "Federal Reserve",
+            "Earnings Reports",
+            "Monetary Policy"
           ]
         }
       ]
