@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-14T14:58:33.036180Z",
+  "generatedAt": "2026-08-16T16:32:45.020914Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 15,
+  "tradeCount": 16,
   "trades": [
     {
       "ticker": "$APP",
@@ -116,22 +116,6 @@
       "source": "Micha Stocks YouTube"
     },
     {
-      "ticker": "$TSLA",
-      "name": "Tesla Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$327.51",
-      "entry": "$337.00",
-      "stop": "$320.00",
-      "structure": "Resistance Test (20-day MA)",
-      "trend": "< 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Tesla is in a strong downward trend, trading significantly below its 20-day, 50-day, and 200-day moving averages. Current relative volume is below average, confirming a lack of buying interest and suggesting persistent selling pressure. No immediate catalysts suggest a reversal, making this a high-risk setup to avoid.",
-      "riskScore": 9,
-      "footerTag": "High Risk",
-      "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
       "ticker": "$NIO",
       "name": "Nio Inc.",
       "sector": "Consumer Cyclical",
@@ -145,22 +129,6 @@
       "riskScore": 10,
       "footerTag": "High Risk - Bearish Pattern",
       "setupType": "avoid",
-      "source": "Micha Stocks YouTube"
-    },
-    {
-      "ticker": "$NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "currentPrice": "$224.09",
-      "entry": "$208.86",
-      "stop": "$200.31",
-      "structure": "0.382 Fib Retracement",
-      "trend": "> 20MA, > 150MA (200MA proxy)",
-      "trendLabel": "Trend",
-      "analysis": "NVIDIA is currently in a strong uptrend, trading above both its 20-day and 200-day moving averages. While the stock has seen a significant run-up, a potential pullback to the 0.382 Fibonacci retracement level around $208.86 could offer a solid entry, with the 0.5 Fib at $200.31 serving as a stop loss. Relative volume is elevated, indicating strong interest.",
-      "riskScore": 3,
-      "footerTag": "High Confidence",
-      "setupType": "perfect",
       "source": "Micha Stocks YouTube"
     },
     {
@@ -241,6 +209,54 @@
       "riskScore": 5,
       "footerTag": "Accumulation",
       "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Information Technology",
+      "currentPrice": "$225.16",
+      "entry": "$214.00",
+      "stop": "$206.00",
+      "structure": "Resistance Retest",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently trading above its 20-day EMA of $213.59 and its 200-day simple moving average of $194.92, indicating a strong uptrend. A potential entry around $214.00 would be a retest of a previous resistance zone. Volume at 75.68M is below the average daily volume of 114.16M, suggesting consolidation rather than strong selling pressure. Earnings are not within the next 5 days, reducing immediate event risk.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$305.93",
+      "entry": "$302.00",
+      "stop": "$276.00",
+      "structure": "Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is currently in a short-term downtrend, trading below its 20-day simple moving average of $319.60, but maintaining a long-term uptrend above its 200-day simple moving average of $279.79. Current volume of 28.2M is below the average volume of 46.56M. A test of the $302.00 support level could present an entry opportunity for a bounce. Earnings are not expected within the next 5 days.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "currentPrice": "$342.27",
+      "entry": "$329.35",
+      "stop": "$297.00",
+      "structure": "Fibonacci Retracement",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is showing a corrective rebound within a longer-term downtrend, currently trading below its 200-day simple moving average of $406.63 but above its 20-day simple moving average of $331.07. Relative volume at 1.41 is elevated, indicating increased interest during this bounce. An entry at the 0.236 Fibonacci retracement level around $329.35, from the recent low, could be a tactical play for a short-term bounce, with a tight stop below the recent low of $297.38. Earnings are not within the next 5 days.",
+      "riskScore": 7,
+      "footerTag": "Momentum",
+      "setupType": "risky",
       "source": "Micha Stocks YouTube"
     }
   ]
