@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-16T07:28:00Z",
+  "generatedAt": "2026-08-16T12:17:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Update: Review of Friday, August 15, 2026",
-  "badge": "Last Session: Aug 15, 2026",
+  "subtitle": "Summary for the trading session ending Friday, August 15, 2026",
+  "badge": "LAST SESSION",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,13 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-pulse-item",
-          "headline": "U.S. Stocks Edge Lower on Friday Amid Weak Retail Sales and AI Valuation Concerns",
-          "summary": "U.S. stock markets closed lower on Friday, August 15, 2026, pulling back from recent highs as investors reacted to weaker-than-expected retail sales and consumer sentiment data. Persistent concerns over high valuations in AI-related stocks and geopolitical tensions in the Middle East also weighed on sentiment. Despite the daily decline, both the S&P 500 and Nasdaq Composite managed to secure their third consecutive weekly gains. Not financial advice.",
+          "id": "market-summary-aug-15",
+          "headline": "U.S. Markets Edge Lower on Weak Retail Sales; S&P 500 Secures Third Winning Week",
+          "summary": "U.S. equities pulled back from recent highs on Friday, August 15, 2026, as a weaker-than-expected retail sales report dampened investor sentiment. Despite the daily dip across major indices, the S&P 500 managed to close out its third consecutive winning week. Energy and Cyclicals showed underlying strength amidst broader market caution. Not financial advice.",
           "tags": [
-            "market-overview",
-            "economic-data",
-            "geopolitics"
+            "Market Overview",
+            "Economic Data",
+            "Indices"
           ],
           "timestamp": "2026-08-15T20:00:00Z"
         }
@@ -27,29 +27,38 @@
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (August 15, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,785.76",
-          "statContext": "Down 0.17% (-13.23 points)",
+          "statContext": "Slipped 0.2% from its record high. The index closed out its third consecutive winning week.",
+          "ticker": "$SPX",
+          "change": "-13.23",
+          "changePercent": "-0.17%",
           "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,729.16",
-          "statContext": "Down 0.28% (-73.86 points)",
+          "statContext": "Declined following concerns over economic data.",
+          "ticker": "$IXIC",
+          "change": "-73.86",
+          "changePercent": "-0.28%",
           "direction": "down"
         },
         {
-          "id": "dow-stat",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,732.41",
-          "statContext": "Down 0.20% (-107.58 points)",
+          "statContext": "Dipped 107 points amid cautious trading.",
+          "ticker": "$DJIA",
+          "change": "-107.58",
+          "changePercent": "-0.20%",
           "direction": "down"
         }
       ]
@@ -63,41 +72,31 @@
         {
           "id": "reddit-gainer",
           "headline": "Reddit Surges on S&P 500 Inclusion News",
-          "summary": "Reddit ($RDDT) surged almost 13% to trade near $179 after the social media company was announced as a new addition to the S&P 500 index, effective August 18.",
+          "summary": "Shares of Reddit ($RDDT) jumped 12.6% after the announcement that the company's stock will be joining the S&P 500 index next Tuesday.",
           "ticker": "$RDDT",
-          "price": "$179.00",
-          "change": "N/A",
-          "changePercent": "+13.00%",
+          "price": "Price N/A",
+          "change": "Change N/A",
+          "changePercent": "+12.60%",
           "direction": "up"
         },
         {
-          "id": "sandisk-gainer",
-          "headline": "SanDisk Extends Gains on Positive Outlook",
-          "summary": "Memory chip maker SanDisk ($SNDK) extended its gains by 7.39%, closing at $1,641.11, following upbeat long-term guidance and a commitment to repurchasing shares.",
-          "ticker": "$SNDK",
-          "price": "$1,641.11",
-          "change": "N/A",
-          "changePercent": "+7.39%",
+          "id": "citigroup-gainer",
+          "headline": "Citigroup Leads Financial Sector Gains",
+          "summary": "Citigroup ($C) was among the top financial gainers, adding 3.21% for the week, boosted by strong corporate earnings across the banking industry.",
+          "ticker": "$C",
+          "price": "$139.33",
+          "change": "+$4.33",
+          "changePercent": "+3.21%",
           "direction": "up"
         },
         {
-          "id": "applied-materials-loser",
-          "headline": "Applied Materials Dips Despite Upbeat Forecast",
-          "summary": "Applied Materials ($AMAT) fell 5.1% on Friday, as its upbeat quarterly forecast failed to meet high investor expectations amidst broader concerns about AI stock valuations.",
+          "id": "amat-loser",
+          "headline": "Applied Materials Falls Despite Strong Earnings",
+          "summary": "Applied Materials ($AMAT) shares fell 5.1% despite the semiconductor technology company reporting stronger-than-expected profit and revenue for its latest quarter. The decline was attributed to elevated expectations and broader concerns about AI stock valuations.",
           "ticker": "$AMAT",
-          "price": "N/A",
-          "change": "N/A",
+          "price": "Price N/A",
+          "change": "Change N/A",
           "changePercent": "-5.10%",
-          "direction": "down"
-        },
-        {
-          "id": "etoro-loser",
-          "headline": "eToro Sees Significant Weekly Decline on Revenue Drop",
-          "summary": "Trading and investing platform eToro Group ($ETOR) was a notable loser, down 18.90% to $28.58 for the week, after its second-quarter revenue declined significantly due to a fall in cryptoasset revenue.",
-          "ticker": "$ETOR",
-          "price": "$28.58",
-          "change": "N/A",
-          "changePercent": "-18.90%",
           "direction": "down"
         }
       ]
@@ -109,43 +108,46 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-news",
-          "headline": "Weak Retail Sales and Consumer Sentiment Impact Market",
-          "summary": "July retail sales data came in weaker than expected, and the University of Michigan's preliminary consumer sentiment survey for August also missed forecasts (51 vs. 54.5 expected). This softer economic data contributed to the day's market pullback.",
+          "id": "economic-retail-sales",
+          "headline": "Unexpected Dip in U.S. Retail Sales Raises Economic Concerns",
+          "summary": "A surprising report indicated that U.S. retail sales slipped 0.6% in July, the largest drop since May 2025, as consumers spent less than the previous month. Economists had anticipated continued growth in spending. This data contributed to the cautious market sentiment on Friday.",
           "tags": [
-            "economic-data",
-            "retail-sales",
-            "consumer-sentiment"
-          ]
+            "Economic Data",
+            "Retail"
+          ],
+          "timestamp": "2026-08-15T12:30:00Z"
         },
         {
-          "id": "sector-performance-news",
-          "headline": "Energy and Utilities Lead, Tech and Health Lag on Friday",
-          "summary": "The S&P 500 energy index rallied 1.4%, with energy and utilities leading sector gainers, up 1.36% and 0.55% respectively, tracking higher oil prices. In contrast, health and technology sectors led the laggards, losing 0.6% and 0.42% respectively, as investors reevaluated AI spending expectations.",
+          "id": "inflation-update",
+          "headline": "Inflation Cools in July, Producer Prices Jump in August",
+          "summary": "U.S. inflation slowed in July, with consumer prices rising 3.4% year-over-year, slightly down from June's 3.5%. Monthly consumer prices increased a modest 0.1%. However, the Producer Price Index (PPI) surged 0.7% in August, exceeding forecasts, largely due to a 10.5% rise in the energy price index.",
           "tags": [
-            "sector-analysis",
-            "energy",
-            "technology"
-          ]
+            "Inflation",
+            "Economic Data"
+          ],
+          "timestamp": "2026-08-15T10:00:00Z"
         },
         {
-          "id": "geopolitical-tensions-news",
-          "headline": "Middle East Tensions Drive Oil Prices Higher, Add to Market Pessimism",
-          "summary": "Ongoing geopolitical tensions, including reports of more ships attacked and a near standstill of transit through the Strait of Hormuz, pushed oil prices higher and added to overall market pessimism. Brent crude hovered around $89 a barrel.",
+          "id": "fed-policy-outlook",
+          "headline": "Fed Holds Rates Steady Amid Dissent, Future Hikes Expected",
+          "summary": "The Federal Reserve maintained its key interest rate at approximately 3.6% at its last meeting, although three officials favored a rate hike. Wall Street generally anticipates at least one more rate hike before the end of 2026. Minutes from the July FOMC meeting, expected next week, will provide further insights into policy discussions.",
           "tags": [
-            "geopolitics",
-            "oil-prices"
-          ]
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-08-15T15:00:00Z"
         },
         {
-          "id": "fed-outlook-news",
-          "headline": "Fed Rate Hike Concerns Ease Slightly Following Economic Data",
-          "summary": "Markets now anticipate a roughly 30% chance of a September rate hike, a notable decrease from earlier in the week, as recent economic data suggesting a cooling economy eases some Federal Reserve tightening concerns.",
+          "id": "sector-energy-commodities",
+          "headline": "Energy and Commodities Lead with Rising Oil Prices",
+          "summary": "The Energy sector and broader commodities demonstrated significant strength during the week. Crude oil and gasoline prices continued their upward trend, with Brent crude rising 1.7% to $88.52 per barrel, influenced by ongoing geopolitical uncertainties.",
           "tags": [
-            "fed-policy",
-            "interest-rates",
-            "inflation"
-          ]
+            "Sector Analysis",
+            "Energy",
+            "Commodities"
+          ],
+          "timestamp": "2026-08-15T14:00:00Z"
         }
       ]
     }
