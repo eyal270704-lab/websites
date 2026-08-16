@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-15T16:27:00Z",
+  "generatedAt": "2026-08-16T07:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, August 14, 2026",
-  "badge": "End of Day",
+  "subtitle": "Market Update: Review of Friday, August 15, 2026",
+  "badge": "Last Session: Aug 15, 2026",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,115 +13,92 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-august-14",
-          "headline": "Stocks Retreat from Record Highs on Weak Retail Sales",
-          "summary": "U.S. equities concluded Friday, August 14, 2026, mostly lower, pulling back from recent record closes. Weaker-than-expected July retail sales data sparked concerns about consumer spending and economic growth, overshadowing earlier optimism from softer inflation reports that had eased fears of aggressive Federal Reserve rate hikes. Oil prices edged higher amid ongoing Middle East tensions. Not financial advice.",
+          "id": "market-pulse-item",
+          "headline": "U.S. Stocks Edge Lower on Friday Amid Weak Retail Sales and AI Valuation Concerns",
+          "summary": "U.S. stock markets closed lower on Friday, August 15, 2026, pulling back from recent highs as investors reacted to weaker-than-expected retail sales and consumer sentiment data. Persistent concerns over high valuations in AI-related stocks and geopolitical tensions in the Middle East also weighed on sentiment. Despite the daily decline, both the S&P 500 and Nasdaq Composite managed to secure their third consecutive weekly gains. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Economic Data",
-            "Inflation",
-            "Consumer Spending"
-          ]
+            "market-overview",
+            "economic-data",
+            "geopolitics"
+          ],
+          "timestamp": "2026-08-15T20:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (August 15, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,785.76",
-          "statContext": "Down 13.23 points (-0.2%)"
+          "statContext": "Down 0.17% (-13.23 points)",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,732.41",
-          "statContext": "Down 107.58 points (-0.2%)"
-        },
-        {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,729.16",
-          "statContext": "Down 73.86 points (-0.3%)"
+          "statContext": "Down 0.28% (-73.86 points)",
+          "direction": "down"
         },
         {
-          "id": "russell2000-performance",
-          "statLabel": "Russell 2000",
-          "statValue": "3,068.42",
-          "statContext": "Up 15.57 points (+0.5%)"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "53,732.41",
+          "statContext": "Down 0.20% (-107.58 points)",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (August 15, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "cprt-gainer",
-          "headline": "Copart Leads Gainers",
-          "ticker": "$CPRT",
-          "price": "$31.61",
-          "change": "+$2.20",
-          "changePercent": "+7.55%",
-          "direction": "up",
-          "summary": "Copart Inc. saw significant gains, reflecting positive investor sentiment in the used vehicle market."
+          "id": "reddit-gainer",
+          "headline": "Reddit Surges on S&P 500 Inclusion News",
+          "summary": "Reddit ($RDDT) surged almost 13% to trade near $179 after the social media company was announced as a new addition to the S&P 500 index, effective August 18.",
+          "ticker": "$RDDT",
+          "price": "$179.00",
+          "change": "N/A",
+          "changePercent": "+13.00%",
+          "direction": "up"
         },
         {
-          "id": "amd-gainer",
-          "headline": "AMD Continues Upward Trend",
-          "ticker": "$AMD",
-          "price": "$514.39",
-          "change": "+$31.42",
-          "changePercent": "+6.50%",
-          "direction": "up",
-          "summary": "Advanced Micro Devices, Inc. advanced, likely driven by ongoing demand for semiconductors and AI-related hardware."
+          "id": "sandisk-gainer",
+          "headline": "SanDisk Extends Gains on Positive Outlook",
+          "summary": "Memory chip maker SanDisk ($SNDK) extended its gains by 7.39%, closing at $1,641.11, following upbeat long-term guidance and a commitment to repurchasing shares.",
+          "ticker": "$SNDK",
+          "price": "$1,641.11",
+          "change": "N/A",
+          "changePercent": "+7.39%",
+          "direction": "up"
         },
         {
-          "id": "stx-gainer",
-          "headline": "Seagate Climbs",
-          "ticker": "$STX",
-          "price": "$973.44",
-          "change": "+$51.98",
-          "changePercent": "+5.65%",
-          "direction": "up",
-          "summary": "Seagate Technology Holdings plc rose, as data storage and memory stocks were among the week's strong performers."
-        },
-        {
-          "id": "avgo-loser",
-          "headline": "Broadcom Drops",
-          "ticker": "$AVGO",
-          "price": "$392.99",
-          "change": "-$24.87",
-          "changePercent": "-5.94%",
-          "direction": "down",
-          "summary": "Broadcom Inc. experienced a notable decline, likely influenced by broader market pressures or sector-specific concerns."
-        },
-        {
-          "id": "amat-loser",
-          "headline": "Applied Materials Falls Despite Strong Earnings",
+          "id": "applied-materials-loser",
+          "headline": "Applied Materials Dips Despite Upbeat Forecast",
+          "summary": "Applied Materials ($AMAT) fell 5.1% on Friday, as its upbeat quarterly forecast failed to meet high investor expectations amidst broader concerns about AI stock valuations.",
           "ticker": "$AMAT",
-          "price": "$507.18",
-          "change": "-$27.39",
-          "changePercent": "-5.12%",
-          "direction": "down",
-          "summary": "Applied Materials, Inc. saw its stock fall despite reporting stronger-than-expected profit and revenue, as high expectations for AI-related stocks led to profit-taking."
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.10%",
+          "direction": "down"
         },
         {
-          "id": "hood-loser",
-          "headline": "Robinhood Markets Declines",
-          "ticker": "$HOOD",
-          "price": "$95.56",
-          "change": "-$3.80",
-          "changePercent": "-3.83%",
-          "direction": "down",
-          "summary": "Robinhood Markets, Inc. shares moved lower, amidst a mixed market day."
+          "id": "etoro-loser",
+          "headline": "eToro Sees Significant Weekly Decline on Revenue Drop",
+          "summary": "Trading and investing platform eToro Group ($ETOR) was a notable loser, down 18.90% to $28.58 for the week, after its second-quarter revenue declined significantly due to a fall in cryptoasset revenue.",
+          "ticker": "$ETOR",
+          "price": "$28.58",
+          "change": "N/A",
+          "changePercent": "-18.90%",
+          "direction": "down"
         }
       ]
     },
@@ -132,44 +109,42 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Energy Sector Outperforms Amid Geopolitical Tensions; Healthcare Lags",
-          "summary": "The energy sector was the top performer on Friday, gaining 1.36%, as elevated tensions in the Strait of Hormuz drove Brent crude prices higher. Conversely, the healthcare sector was the worst performer, falling 0.60%, as investors rotated towards energy stocks and major healthcare companies faced weakness. Data storage and memory stocks also saw strong performance during the week.",
+          "id": "economic-data-news",
+          "headline": "Weak Retail Sales and Consumer Sentiment Impact Market",
+          "summary": "July retail sales data came in weaker than expected, and the University of Michigan's preliminary consumer sentiment survey for August also missed forecasts (51 vs. 54.5 expected). This softer economic data contributed to the day's market pullback.",
           "tags": [
-            "Sector Performance",
-            "Energy",
-            "Healthcare",
-            "Oil Prices"
+            "economic-data",
+            "retail-sales",
+            "consumer-sentiment"
           ]
         },
         {
-          "id": "retail-sales-dip",
-          "headline": "U.S. Retail Sales Decline Unexpectedly in July",
-          "summary": "U.S. retail sales unexpectedly fell 0.6% in July to $763.6 billion, marking the steepest drop since May 2025 and missing economists' forecasts for a 0.1% increase. This data raised concerns about the resilience of consumer spending and its potential impact on economic growth.",
+          "id": "sector-performance-news",
+          "headline": "Energy and Utilities Lead, Tech and Health Lag on Friday",
+          "summary": "The S&P 500 energy index rallied 1.4%, with energy and utilities leading sector gainers, up 1.36% and 0.55% respectively, tracking higher oil prices. In contrast, health and technology sectors led the laggards, losing 0.6% and 0.42% respectively, as investors reevaluated AI spending expectations.",
           "tags": [
-            "Economic Data",
-            "Retail Sales",
-            "Consumer Spending"
+            "sector-analysis",
+            "energy",
+            "technology"
           ]
         },
         {
-          "id": "inflation-outlook",
-          "headline": "PPI Unchanged, CPI Moderates; Fed Hike Fears Ease",
-          "summary": "The Producer Price Index (PPI) remained unchanged month-over-month in July, coming in below expectations. This, coupled with a modest 0.1% rise in the Consumer Price Index (CPI) for July and a slight annual deceleration to 3.4%, helped to reduce investor concerns about further Federal Reserve interest rate hikes.",
+          "id": "geopolitical-tensions-news",
+          "headline": "Middle East Tensions Drive Oil Prices Higher, Add to Market Pessimism",
+          "summary": "Ongoing geopolitical tensions, including reports of more ships attacked and a near standstill of transit through the Strait of Hormuz, pushed oil prices higher and added to overall market pessimism. Brent crude hovered around $89 a barrel.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve"
+            "geopolitics",
+            "oil-prices"
           ]
         },
         {
-          "id": "earnings-reports",
-          "headline": "Mixed Earnings Reports from Key Companies",
-          "summary": "Boost Run Inc. ($BRUN) reported strong Q2 2026 revenue of $31.1 million, a 270% increase year-over-year. Parabolic (Banzai International, Inc., $PARA) reported a Q2 2026 net loss of $5.0 million on revenues of $2.3 million. Meanwhile, Applied Materials ($AMAT) saw its stock decline despite reporting strong earnings, as high market expectations for AI-related companies contributed to a sell-off.",
+          "id": "fed-outlook-news",
+          "headline": "Fed Rate Hike Concerns Ease Slightly Following Economic Data",
+          "summary": "Markets now anticipate a roughly 30% chance of a September rate hike, a notable decrease from earlier in the week, as recent economic data suggesting a cooling economy eases some Federal Reserve tightening concerns.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "AI"
+            "fed-policy",
+            "interest-rates",
+            "inflation"
           ]
         }
       ]
