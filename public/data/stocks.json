@@ -1,132 +1,184 @@
 {
-  "generatedAt": "2026-08-17T07:50:00Z",
+  "generatedAt": "2026-08-17T12:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: August 17, 2026",
-  "subtitle": "Market futures show mixed sentiment as investors weigh inflation data and upcoming retail earnings.",
+  "title": "Daily Market Digest",
+  "subtitle": "August 17, 2026: Pre-Market Update",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug17",
-          "headline": "U.S. Futures Show Mixed Opening; Diminished Fed Rate Hike Odds Support Broader Market",
-          "summary": "U.S. stock futures are indicating a mixed start to the trading week, as investors digest softer inflation and retail sales data from last week which has reduced the likelihood of a Federal Reserve rate hike in September. The sentiment is generally positive, continuing a bullish run driven by strong AI infrastructure earnings and cooling inflation, despite recent tepid retail spending figures.",
+          "id": "market-summary-aug-17",
+          "headline": "Mixed Pre-Market Opening to a Week Focused on Retail Earnings and Fed Outlook",
+          "summary": "U.S. stock futures are showing a mixed performance this Monday, August 17, 2026, as investors prepare for a week dominated by major retail earnings reports and insights from the Federal Reserve's latest meeting minutes. This follows a cautious close on Friday, influenced by weaker-than-expected July retail sales data. Technology stocks, particularly chipmakers, are indicating pre-market strength, bolstered by optimistic forecasts from AI industry leaders. Geopolitical tensions in the Middle East continue to be a backdrop for market sentiment, alongside evolving expectations for future interest rate hikes.",
           "tags": [
-            "Market Open",
-            "Fed Policy",
-            "Inflation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "major-indices",
-      "title": "Major Indices (As of August 17, 2026)",
-      "cardType": "stat",
-      "layout": "grid",
-      "items": [
-        {
-          "id": "sp500-today",
-          "statLabel": "S&P 500",
-          "statValue": "7796.00",
-          "statContext": "Today: +0.14%",
-          "ticker": "$SPX",
-          "price": "7796.00",
-          "change": "+10.91",
-          "changePercent": "+0.14%",
-          "direction": "up"
-        },
-        {
-          "id": "nasdaq-futures-today",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "--",
-          "statContext": "Pre-Market: +0.5%",
-          "ticker": "$NDX",
-          "price": "--",
-          "change": "--",
-          "changePercent": "+0.5%",
-          "direction": "up"
-        },
-        {
-          "id": "dow-futures-today",
-          "statLabel": "Dow Futures",
-          "statValue": "--",
-          "statContext": "Pre-Market: -0.11%",
-          "ticker": "$DJI",
-          "price": "--",
-          "change": "-59",
-          "changePercent": "-0.11%",
-          "direction": "down"
-        }
-      ]
-    },
-    {
-      "id": "top-movers",
-      "title": "Top Movers",
-      "cardType": "stock",
-      "layout": "list",
-      "items": [
-        {
-          "id": "top-movers-note",
-          "headline": "Daily Top Gainers and Losers Not Yet Available",
-          "summary": "Specific real-time top gainers and losers with precise price and percentage changes for August 17, 2026, are not yet available from verified sources. Key companies reporting pre-market earnings today include H World Group Limited ($HTHT), BitFuFu Inc. ($FUFU), and others.",
-          "tags": [
-            "Movers",
+            "Market Overview",
+            "Pre-market",
+            "Economic Data",
             "Earnings"
           ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
+      "cardType": "stat",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "sp500-close",
+          "headline": "S&P 500 (Last Close)",
+          "statLabel": "Friday, Aug 14",
+          "statValue": "7,785.76",
+          "statContext": "Down 0.2% (-13.23 points) from disappointing U.S. retail sales."
+        },
+        {
+          "id": "nasdaq-close",
+          "headline": "NASDAQ Composite (Last Close)",
+          "statLabel": "Friday, Aug 14",
+          "statValue": "26,729.16",
+          "statContext": "Fell 0.3% (-73.86 points), weighed by chip-stock weakness."
+        },
+        {
+          "id": "dow-close",
+          "headline": "Dow Jones Industrial Average (Last Close)",
+          "statLabel": "Friday, Aug 14",
+          "statValue": "53,732.41",
+          "statContext": "Dipped 0.2% (-107.58 points) as Wall Street cooled from record highs."
+        },
+        {
+          "id": "sp500-futures",
+          "headline": "S&P 500 Futures (Pre-market)",
+          "statLabel": "Monday, Aug 17",
+          "statValue": "+0.14%",
+          "statContext": "Futures edged higher ahead of retail earnings reports."
+        },
+        {
+          "id": "nasdaq-futures",
+          "headline": "NASDAQ 100 Futures (Pre-market)",
+          "statLabel": "Monday, Aug 17",
+          "statValue": "+0.57%",
+          "statContext": "Futures advanced, boosted by optimism in technology stocks."
+        },
+        {
+          "id": "dow-futures",
+          "headline": "Dow Jones Futures (Pre-market)",
+          "statLabel": "Monday, Aug 17",
+          "statValue": "-0.14%",
+          "statContext": "Futures slipped in mixed pre-market trading."
+        }
+      ]
+    },
+    {
+      "id": "top-movers-premarket",
+      "title": "Top Movers (Pre-market)",
+      "cardType": "stock",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "efx-gainer",
+          "headline": "Equifax Surges",
+          "ticker": "$EFX",
+          "price": "$212.11",
+          "change": "+$31.26",
+          "changePercent": "+17.29%",
+          "direction": "up",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        },
+        {
+          "id": "br-gainer",
+          "headline": "Broadridge Sees Gains",
+          "ticker": "$BR",
+          "price": "$195.59",
+          "change": "+$24.58",
+          "changePercent": "+14.37%",
+          "direction": "up",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        },
+        {
+          "id": "eg-gainer",
+          "headline": "Everest Climbs Higher",
+          "ticker": "$EG",
+          "price": "$400.85",
+          "change": "+$30.74",
+          "changePercent": "+8.31%",
+          "direction": "up",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        },
+        {
+          "id": "shw-loser",
+          "headline": "Sherwin-Williams Falls",
+          "ticker": "$SHW",
+          "price": "$339.18",
+          "change": "-$19.92",
+          "changePercent": "-5.55%",
+          "direction": "down",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        },
+        {
+          "id": "hubb-loser",
+          "headline": "Hubbell Inc. Dips",
+          "ticker": "$HUBB",
+          "price": "$490.31",
+          "change": "-$21.08",
+          "changePercent": "-4.12%",
+          "direction": "down",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        },
+        {
+          "id": "elv-loser",
+          "headline": "Elevance Health Declines",
+          "ticker": "$ELV",
+          "price": "$386.76",
+          "change": "-$13.56",
+          "changePercent": "-3.39%",
+          "direction": "down",
+          "summary": "Specific drivers for individual stock movements were not immediately available in pre-market reporting."
+        }
+      ]
+    },
+    {
+      "id": "market-news-articles",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-retail-sentiment",
-          "headline": "July Retail Sales Decline and Soft Consumer Sentiment Weigh on Economic Outlook",
-          "summary": "U.S. retail sales experienced a 0.6% decline in July, marking the first drop since April and missing expectations, indicating that consumers spent less last month. This data, coupled with a dip in the University of Michigan's preliminary August consumer sentiment reading to 51 from 55.2, suggests a potential slowdown in consumer spending and has further eased concerns about aggressive Federal Reserve tightening.",
+          "id": "sector-analysis-aug-17",
+          "headline": "Tech Sector Shows Pre-market Strength, Consumer Discretionary Eyed",
+          "summary": "Technology stocks, particularly chipmakers, are leading pre-market gains, buoyed by a robust revenue forecast from AI leader Anthropic. This contrasts with last Friday's session, where the information technology and healthcare sectors were among the worst performers in the S&P 500, with weakness noted in chip stocks.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "economic-news-aug-17",
+          "headline": "July Retail Sales Disappoint, Fed Rate Hike Odds Lowered",
+          "summary": "A surprisingly weak July U.S. retail sales report, showing a 0.6% decline month-on-month (the largest drop since May 2025), has fueled concerns about consumer health and economic growth. This data, alongside soft inflation figures, has led traders to dial back expectations for a Federal Reserve interest rate hike in September, with odds falling to roughly 30-33%. The minutes from the Fed's July 28-29 FOMC meeting are scheduled for release on Wednesday, which could offer further insights into monetary policy. Meanwhile, consumer debt saw a slight decline in Q2 2026, though rising Home Equity Lines of Credit (HELOCs) and credit card debt suggest some consumers are facing financial strain. The August Empire State Manufacturing Index and NAHB Housing Market Index data are expected later today.",
           "tags": [
             "Economic Data",
-            "Retail Sales",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "upcoming-fed-minutes",
-          "headline": "FOMC Minutes and Key Economic Data Ahead This Week",
-          "summary": "The highly anticipated minutes from the July Federal Open Market Committee (FOMC) meeting are slated for release on Wednesday, August 19. While expected to reflect a hawkish stance, recent softer U.S. economic data may make these minutes appear somewhat dated. No major U.S. economic data releases are scheduled for Monday or Tuesday, but Friday will bring the U.S. Purchasing Managers' Index for the services sector.",
-          "tags": [
-            "Fed Policy",
-            "FOMC",
-            "Economic Calendar"
-          ]
-        },
-        {
-          "id": "retail-earnings-focus",
-          "headline": "Retail Giants Set to Report Earnings, Offering Insights into Consumer Health",
-          "summary": "This week will see major retail companies report quarterly earnings, providing critical insights into the health of the American consumer. Walmart ($WMT) is scheduled for Thursday, while Target ($TGT) and Home Depot ($HD) will report on Wednesday and Tuesday, respectively. JPMorgan has been identified as a high-conviction setup ahead of these reports.",
-          "tags": [
-            "Earnings Season",
-            "Retail Sector",
+            "Fed",
+            "Inflation",
             "Consumer Spending"
           ]
         },
         {
-          "id": "ai-sector-continues-strength",
-          "headline": "AI Infrastructure and Energy Sectors Show Continued Strength",
-          "summary": "The AI infrastructure sector continues its robust growth, with 'picks & shovels' industrial companies also benefiting from the demand. Last week saw AI infrastructure leaders Nebius ($NBIS) and CoreWeave ($CRWV) report significant earnings beats, driving substantial stock rallies. The energy sector also experienced upward movement amid ongoing geopolitical tensions, with institutional capital flowing into cash-rich operators.",
+          "id": "earnings-reports-aug-17",
+          "headline": "Retail Giants and AI Firms in Focus for Earnings This Week",
+          "summary": "The market is bracing for a busy week of earnings reports from major retail companies, including Walmart ($WMT), Home Depot ($HD), Target ($TGT), and Lowe's ($LOW), which will provide key insights into consumer spending trends. Home Depot is slated to report on Tuesday, followed by Target and Lowe's on Wednesday, and Walmart on Thursday. This morning, H World Group Limited ($HTHT), BitFuFu Inc. ($FUFU) and NDSN ($NDSN) are among the companies reporting earnings pre-market. XP Inc. ($XP) is expected to release its earnings after market close today. Separately, AI leader Anthropic's forecast of strong 2028 revenue (approximately $190 billion to $200 billion) is positively impacting technology stocks.",
           "tags": [
-            "Sector Analysis",
+            "Earnings",
+            "Retail",
             "AI",
-            "Energy",
-            "Industrials"
+            "Corporate News"
           ]
         }
       ]
