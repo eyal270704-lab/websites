@@ -25,7 +25,35 @@ if sys.platform == 'win32':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # Failure detection patterns (DO NOT check for Gemini API key issues per user request)
+#
+# Patterns are evaluated in insertion order and the first match wins, so the most
+# specific failure modes must come first. Keep every pattern anchored to text that
+# only appears in a real failure: bare tokens like `429` match digits inside the
+# nanosecond timestamps that prefix every log line, which silently misclassifies
+# unrelated failures as retryable quota errors.
 FAILURE_PATTERNS = {
+    'checkout_auth': {
+        'pattern': (
+            r"could not read Username for 'https://github\.com'"
+            r"|Authentication failed for 'https://github\.com"
+            r"|remote: Invalid username or token"
+            r"|remote: Support for password authentication was removed"
+        ),
+        'severity': 'high',
+        'fixable': False,  # Requires manual PAT regeneration - no retry will help
+        'description': 'Git checkout failed to authenticate - PAT_TOKEN is expired, revoked or unset'
+    },
+    'branch_protection': {
+        'pattern': (
+            r'GH013: Repository rule violations found'
+            r'|Changes must be made through a pull request'
+            r'|protected branch hook declined'
+            r'|push declined due to repository rule violations'
+        ),
+        'severity': 'high',
+        'fixable': False,  # Requires ruleset bypass or a PR-based push flow
+        'description': 'Push to main rejected by branch protection ruleset'
+    },
     'permission_denied': {
         'pattern': r'Permission to .* denied|fatal: unable to access.*403|The requested URL returned error: 403',
         'severity': 'high',
@@ -33,7 +61,16 @@ FAILURE_PATTERNS = {
         'description': 'Git push failed due to insufficient PAT_TOKEN permissions'
     },
     'api_quota': {
-        'pattern': r'quota.*exceeded|rate limit|429|Resource has been exhausted',
+        # `429` must carry HTTP-status context. Unanchored, it matches log
+        # timestamps such as `2026-08-09T08:32:14.7429862Z`.
+        'pattern': (
+            r'quota.*exceeded'
+            r'|rate limit exceeded'
+            r'|RESOURCE_EXHAUSTED'
+            r'|Resource has been exhausted'
+            r'|\b429\b[^0-9\n]{0,4}(?:Too Many Requests|RESOURCE_EXHAUSTED)'
+            r'|(?:status|code|HTTP)[^0-9\n]{0,12}\b429\b'
+        ),
         'severity': 'medium',
         'fixable': True,  # Can retry with backoff
         'description': 'Gemini API quota exhausted or rate limited'
@@ -147,6 +184,14 @@ def get_recent_failures(workflow_name: str, limit: int = 5) -> List[Dict]:
 
     try:
         runs = json.loads(stdout)
+
+        # A workflow that has since recovered is not failing. Without this check the
+        # most recent N runs keep matching for days after a fix lands, so the agent
+        # re-diagnoses and re-escalates an outage that is already over.
+        completed = [r for r in runs if r.get('conclusion')]
+        if completed and completed[0].get('conclusion') == 'success':
+            return []
+
         # Filter for failed/cancelled runs
         failures = [
             run for run in runs

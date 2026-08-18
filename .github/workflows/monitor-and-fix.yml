@@ -13,9 +13,10 @@ on:
         default: false
 
 permissions:
-  contents: write      # For git operations and committing fix_attempts.json
-  issues: write        # For creating GitHub Issues
-  actions: write       # For triggering workflows
+  contents: write         # For git operations and pushing the fix-log branch
+  issues: write           # For creating GitHub Issues
+  actions: write          # For triggering workflows
+  pull-requests: write    # main is ruleset-protected; the fix log lands via PR
 
 env:
   DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
@@ -28,10 +29,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6
         with:
           python-version: '3.11'
 
@@ -151,24 +152,47 @@ jobs:
           print(f"{'='*60}")
           EOF
 
-      - name: Commit fix attempts log
+      - name: Publish fix attempts log via PR
         if: env.DRY_RUN == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: monitor/fix-log
         run: |
-          # Check if fix_attempts.json was created/modified
-          if [ -f .github/fix_attempts.json ]; then
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "Auto-Monitor Bot"
+          # main is protected by the "dont push to main" ruleset and this job runs as
+          # github-actions[bot], which is not a bypass actor. Publish the log on a single
+          # long-lived branch and keep one PR open rather than pushing to main directly.
+          if [ ! -f .github/fix_attempts.json ]; then
+            echo "No fix attempts log to publish"
+            exit 0
+          fi
 
-            git add .github/fix_attempts.json
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Auto-Monitor Bot"
 
-            # Only commit if there are changes
-            if git diff --cached --quiet; then
-              echo "No changes to fix attempts log"
-            else
-              git commit -m "📊 Update fix attempts log - $(date -u +'%Y-%m-%d %H:%M UTC')"
-              git push
-              echo "✅ Fix attempts log updated"
-            fi
+          git add .github/fix_attempts.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to fix attempts log"
+            exit 0
+          fi
+
+          # Rebuild the branch on top of the commit this run checked out, so the PR
+          # stays a single commit ahead of main instead of accumulating hourly noise.
+          git checkout -b "$BRANCH"
+          git commit -m "📊 Update fix attempts log - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push --force origin "$BRANCH"
+
+          existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            echo "✅ Fix attempts log updated on existing PR #${existing}"
+          else
+            gh pr create \
+              --base main \
+              --head "$BRANCH" \
+              --title "📊 Monitor Agent: fix attempts log" \
+              --body "Automated log of Monitor Agent fix attempts, refreshed on each run. Safe to merge or close - the branch is rebuilt from main every time it changes." \
+              --label auto-monitor
+            echo "✅ Opened PR for $BRANCH"
           fi
 
       - name: Report status
