@@ -1,31 +1,26 @@
 {
-  "generatedAt": "2026-08-18T07:35:00Z",
+  "generatedAt": "2026-08-18T12:22:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, August 18, 2026",
+  "subtitle": "August 18, 2026 - Midday Update",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-today",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug-18-2026",
-          "headline": "US Equities Retreat as Oil Prices Surge Amid Middle East Tensions",
-          "summary": "U.S. equity markets edged lower today, extending losses as rising crude oil prices and escalating geopolitical tensions in the Middle East pressured investor sentiment. The S&P 500, Dow Jones Industrial Average, and Nasdaq Composite all registered declines, with higher Treasury yields particularly impacting large growth stocks.",
-          "tags": [
-            "Market Overview",
-            "Geopolitics",
-            "Oil Prices"
-          ]
+          "id": "overall-market-summary",
+          "headline": "U.S. Futures Fall Amid Geopolitical Tensions and Inflation Worries",
+          "summary": "U.S. stock futures fell Tuesday, continuing Monday's downward trend, as escalating U.S.-Iran tensions pushed oil prices higher and rekindled inflation concerns. This geopolitical uncertainty, coupled with rising long-term Treasury yields and signs of weaker consumer spending, pressured risk appetite across global equities."
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
@@ -34,135 +29,120 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,745.06",
-          "statContext": "Down 0.5% today."
+          "statContext": "Down 0.5% in Tuesday's session."
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,644.91",
-          "statContext": "Down 0.3% today."
+          "statLabel": "NASDAQ 100",
+          "statValue": "N/A",
+          "statContext": "Slipped 0.2% in Tuesday's session."
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "53,459.78",
-          "statContext": "Down 0.5% today."
+          "statLabel": "DOW JONES",
+          "statValue": "N/A",
+          "statContext": "Lost 0.5% in Tuesday's session."
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-today",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mu-gainer",
-          "headline": "Micron Surges on Trade Policy Signals",
-          "ticker": "$MU",
+          "id": "flxs-gainer",
+          "headline": "Flexsteel Industries Surges on Strong Earnings",
+          "ticker": "$FLXS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.1%",
+          "changePercent": "+10%",
           "direction": "up",
-          "summary": "Micron Technology (MU) gained 4.1% following signals of U.S. trade policy resisting Apple's sourcing of memory components from China."
+          "summary": "Flexsteel Industries shares jumped 10% after the company surpassed FQ4 earnings and revenue estimates and provided an upbeat Q1 sales guidance."
         },
         {
-          "id": "cat-gainer",
-          "headline": "Caterpillar Leads Dow Gainers",
-          "ticker": "$CAT",
+          "id": "cbrs-gainer",
+          "headline": "Cerebras Systems Rallies on AI Demand",
+          "ticker": "$CBRS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.13%",
+          "changePercent": "+15.07%",
           "direction": "up",
-          "summary": "Caterpillar (CAT) led Dow gainers, rising 3.13% in today's session."
+          "summary": "Cerebras Systems saw a 15.07% increase following analyst highlights of strong earnings and growing demand for its AI hardware."
         },
         {
-          "id": "msft-loser",
-          "headline": "Microsoft Slides Amid Higher Yields",
-          "ticker": "$MSFT",
+          "id": "argx-gainer",
+          "headline": "Argenx Jumps on Positive Drug Trial Results",
+          "ticker": "$ARGX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.0%",
-          "direction": "down",
-          "summary": "Microsoft (MSFT) dropped 3.0% as higher long-term Treasury yields weighed on large growth stocks."
+          "changePercent": "+17.1%",
+          "direction": "up",
+          "summary": "Argenx shares rose 17.1% after its drug successfully met the primary endpoint in a Phase 3 autoimmune myositis study."
         },
         {
-          "id": "meta-loser",
-          "headline": "Meta Platforms Down on Yield Concerns",
-          "ticker": "$META",
+          "id": "sig-loser",
+          "headline": "SIG Group Slumps on CEO Change",
+          "ticker": "$SIG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.5%",
+          "changePercent": "-17.6%",
           "direction": "down",
-          "summary": "Meta Platforms (META) slipped 3.5% as rising Treasury yields pressured the tech sector."
+          "summary": "SIG Group experienced a 17.6% decline following an unexpected change in its chief executive."
         },
         {
-          "id": "stz-loser",
-          "headline": "Constellation Brands Falls After Berkshire Exit",
-          "ticker": "$STZ",
+          "id": "rddt-loser",
+          "headline": "Reddit Falls Amid Mixed Outlook",
+          "ticker": "$RDDT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.2%",
+          "changePercent": "-7.63%",
           "direction": "down",
-          "summary": "Constellation Brands (STZ) fell 6.2% after Berkshire Hathaway disclosed it had exited its position in the company."
+          "summary": "Reddit shares fell 7.63% as a price target increase was accompanied by concerns over mixed user engagement and AI headwinds."
+        },
+        {
+          "id": "cvna-loser",
+          "headline": "Carvana Drops on New Loan Facility Details",
+          "ticker": "$CVNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.28%",
+          "direction": "down",
+          "summary": "Carvana declined 7.28% after details emerged regarding a new US$1.66 billion term loan B facility."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-today",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "oil-tensions",
-          "headline": "Oil Prices Surge on Middle East Geopolitical Tensions",
-          "summary": "Brent crude prices rose above $91 a barrel as intensifying US-Iran tensions in the Middle East and renewed fighting in Lebanon fueled concerns over energy supplies and global inflation. This surge in oil prices is a key factor impacting overall market sentiment today.",
-          "tags": [
-            "Geopolitics",
-            "Commodities",
-            "Inflation"
-          ]
+          "id": "economic-data-release",
+          "headline": "Key Economic Data Released Today",
+          "summary": "Investors are closely watching today's economic calendar, which includes the release of July import and export prices, industrial production, and housing starts data. The ADP National Employment Report indicated that U.S. private employers added an average of 9,500 jobs per week for the four weeks ending August 1, 2026. The Atlanta Fed's GDPNow model for Q3 growth has been revised down by nearly two percentage points since early August, now standing above 4%."
         },
         {
-          "id": "hd-earnings",
-          "headline": "Home Depot Reports Q2 Earnings Ahead of Bell",
-          "summary": "Home Depot ($HD) reported its second-quarter earnings before the market opened. Analysts were anticipating earnings per share around $4.71-$4.73 on revenue close to $47 billion, providing a key read on consumer spending in the home improvement sector.",
-          "tags": [
-            "Earnings",
-            "Retail",
-            "Consumer Spending"
-          ]
+          "id": "fed-expectations-yields",
+          "headline": "Treasury Yields Climb as Fed Hike Odds Shift",
+          "summary": "The U.S. 30-year Treasury yield reached a fresh 19-year high above 5.30%, with the 10-year yield trading near 4.73%. Futures markets are currently pricing in a 36.6% likelihood of the Federal Reserve hiking interest rates during its September meeting, reflecting ongoing inflation concerns."
         },
         {
-          "id": "economic-data-today",
-          "headline": "Key US Economic Data Releases Today",
-          "summary": "Investors are monitoring several key U.S. economic data releases today, including July Housing Starts, Building Permits, and Industrial Production figures, which could provide further insights into the health of the economy.",
-          "tags": [
-            "Economic Data",
-            "Housing",
-            "Manufacturing"
-          ]
+          "id": "oil-geopolitical-impact",
+          "headline": "Oil Prices Surge on Heightened Middle East Tensions",
+          "summary": "Brent crude climbed above $91 a barrel, with WTI crude near $84.93, as the U.S.-Iran ceasefire expired and President Trump expressed disinterest in an extension. Renewed tensions and threats of a 'fully offensive' military posture from Iran have heightened fears over energy supplies and potential disruptions in the Strait of Hormuz, driving crude prices higher and exacerbating inflation worries."
         },
         {
-          "id": "treasury-yields",
-          "headline": "Treasury Yields Climb, Impacting Growth Stocks",
-          "summary": "The yield on the 10-year Treasury climbed to 4.72% from 4.68% late Friday, driven by rising oil prices and inflation concerns. Higher yields exerted pressure on large growth stocks, contributing to the broader market downturn.",
-          "tags": [
-            "Bonds",
-            "Interest Rates",
-            "Tech Stocks"
-          ]
+          "id": "earnings-reports-spotlight",
+          "headline": "Major Companies Report Earnings",
+          "summary": "Home Depot ($HD) is among the key companies scheduled to report earnings before the market open today, offering insights into the housing-linked consumer sector. Baidu ($BIDU) announced its Q2 2026 results, with AI Cloud Infra revenue up 50% year-over-year and GPU Cloud revenue increasing by 283%, signaling strong momentum in AI-driven growth."
         },
         {
-          "id": "sector-performance",
-          "headline": "Technology and Energy Sectors Show Divergent Trends",
-          "summary": "Globally, the Information Technology sector is showing strong relative momentum, while the Energy sector has moved into a lagging position. In India, Nifty IT and Realty sectors declined, while Nifty Auto and Pharma outperformed.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
-          ]
+          "id": "sector-performance-overview",
+          "headline": "Technology Dominance Wanes, Industrials Gain Momentum",
+          "summary": "While Technology remains the top sector, its dominance has decreased from 70% to 50% recently. Financials and Healthcare sectors are showing signs of improvement, while Industrials have entered the top five, indicating improving momentum. Conversely, the Real Estate sector continues to struggle."
         }
       ]
     }
