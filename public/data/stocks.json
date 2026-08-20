@@ -1,172 +1,192 @@
 {
-  "generatedAt": "2026-08-20T12:25:00Z",
+  "generatedAt": "2026-08-20T16:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 20, 2026 Market Snapshot",
-  "badge": "LIVE",
+  "subtitle": "August 20, 2026: End-of-Day Summary",
+  "badge": "Updated Now",
   "sections": [
     {
-      "id": "market-pulse-20260820",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260820",
-          "headline": "U.S. Futures Mixed, Oil Prices Climb After Treasury Debt Buyback Announcement",
-          "summary": "U.S. stock futures showed mixed movements this morning, following Wednesday's market close where major indices snapped a three-day losing streak. Investors are reacting to the Treasury Department's plan to significantly increase debt repurchases, which has lowered bond yields, alongside ongoing assessments of hawkish Federal Reserve meeting minutes. Oil prices are rising, suggesting strength in the energy sector.",
+          "id": "market-summary",
+          "headline": "U.S. Equities Close Higher Amid Mixed Sentiment, Treasury Yields Recede",
+          "summary": "U.S. equity markets concluded Thursday's session with modest gains across major indices, despite an early downturn fueled by disappointing retail earnings and rising Treasury yields. A late-day recovery propelled stocks higher, as investors continued to digest Federal Reserve minutes and awaited further economic data.",
           "tags": [
-            "Market Sentiment",
-            "Treasury",
-            "Fed"
+            "Market Summary",
+            "Equities",
+            "Treasury Yields"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-20260820",
-      "title": "Major Indices (Wednesday's Close)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260819",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "id": "sp500",
+          "statLabel": "S&P 500",
           "statValue": "7,707.98",
-          "statContext": "+0.2% (+16.22 points)"
+          "statContext": "+0.21% Today",
+          "ticker": "$SPX",
+          "price": "7707.98",
+          "change": "+16.22",
+          "changePercent": "+0.21%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-20260819",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
+          "id": "nasdaq",
+          "statLabel": "NASDAQ Composite",
           "statValue": "26,331.09",
-          "statContext": "+0.2% (+41.38 points)"
+          "statContext": "+0.16% Today",
+          "ticker": "$IXIC",
+          "price": "26331.09",
+          "change": "+41.38",
+          "changePercent": "+0.16%",
+          "direction": "up"
         },
         {
-          "id": "dow-20260819",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "id": "dow",
+          "statLabel": "Dow Jones Ind.",
           "statValue": "53,463.05",
-          "statContext": "+0.2% (+119.65 points)"
+          "statContext": "+0.22% Today",
+          "ticker": "$DJI",
+          "price": "53463.05",
+          "change": "+119.65",
+          "changePercent": "+0.22%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-20260820",
-      "title": "Top Movers (Session Highlights)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "el-gainer-20260820",
-          "headline": "Estée Lauder Surges on Strong Earnings",
-          "summary": "The Estée Lauder Companies Inc. ($EL) saw its stock surge 16.3% following a report of quarterly earnings of $0.39 per share, surpassing the Zacks Consensus Estimate of $0.32, with revenues also exceeding expectations.",
-          "ticker": "$EL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+16.3%",
-          "direction": "up"
+          "id": "mrna-gainer",
+          "headline": "Moderna Soars on Vaccine Trial Success",
+          "summary": "Moderna ($MRNA) shares surged by a remarkable 177.0% today after a late-stage study of its experimental mRNA-based vaccine met its primary goal of extending the time before high-risk melanoma returns in patients.",
+          "ticker": "$MRNA",
+          "price": "$144.38",
+          "change": "+$92.38",
+          "changePercent": "+177.0%",
+          "direction": "up",
+          "tags": [
+            "Biotech",
+            "Healthcare",
+            "Vaccine"
+          ]
         },
         {
-          "id": "tol-gainer-20260820",
-          "headline": "Toll Brothers Rises on Earnings Beat",
-          "summary": "Toll Brothers, Inc. ($TOL) stock climbed 4% after reporting quarterly earnings of $2.97 per share, exceeding the consensus estimate of $2.90, despite a slight decrease in total revenues year-over-year.",
-          "ticker": "$TOL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.0%",
-          "direction": "up"
+          "id": "de-gainer",
+          "headline": "Deere & Co. Rises on Strong Earnings and AI Boost",
+          "summary": "Deere & Company ($DE) saw its stock climb over 3% after reporting its first quarterly profit in three years and raising its full-year forecast, citing tariff refunds and an AI construction boom as key drivers.",
+          "ticker": "$DE",
+          "price": "$435.50",
+          "change": "+$13.07",
+          "changePercent": "+3.09%",
+          "direction": "up",
+          "tags": [
+            "Agriculture",
+            "Industrials",
+            "AI"
+          ]
         },
         {
-          "id": "wmt-loser-20260820",
-          "headline": "Walmart Slides Pre-Market on Cautious Outlook",
-          "summary": "Walmart's stock ($WMT) slid more than 6% in pre-market trading this morning as the retail giant provided a cautious outlook for the year ahead of its quarterly earnings release.",
+          "id": "wmt-loser",
+          "headline": "Walmart Shares Dip on Sales Miss, Cautious Outlook",
+          "summary": "Walmart Inc. ($WMT) shares fell nearly 6% today following its second-quarter earnings report, which showed it missed expectations for comparable sales growth and issued disappointing forward guidance.",
           "ticker": "$WMT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.0%",
-          "direction": "down"
+          "price": "$61.50",
+          "change": "-$3.70",
+          "changePercent": "-5.68%",
+          "direction": "down",
+          "tags": [
+            "Retail",
+            "Consumer Staples",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "aap-loser",
+          "headline": "Advance Auto Parts Falls After Disappointing Q2 Sales",
+          "summary": "Advance Auto Parts Inc. ($AAP) experienced a significant decline of 19.67% after its second-quarter results revealed a 0.5% decrease in comparable store sales, primarily impacted by weaker spending in the DIY channel.",
+          "ticker": "$AAP",
+          "price": "$45.13",
+          "change": "-$11.08",
+          "changePercent": "-19.67%",
+          "direction": "down",
+          "tags": [
+            "Retail",
+            "Automotive",
+            "Earnings"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-20260820",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "treasury-buybacks-20260820",
-          "headline": "Treasury Department Boosts Debt Buybacks, Yields Fall",
-          "summary": "The U.S. Treasury Department announced plans to more than double its repurchases of 10-, 20-, and 30-year government debt over the coming months. This decision contributed to a sharp drop in Treasury yields, with the 10-year yield falling to nearly 4.65% and the 30-year yield to about 5.19%. The move also sparked an 11.5% surge in Bitcoin ($BTC) to $71,808.74 in early trading.",
-          "tags": [
-            "Treasury",
-            "Bond Yields",
-            "Cryptocurrency"
-          ]
-        },
-        {
-          "id": "fed-minutes-20260820",
-          "headline": "Hawkish Fed Minutes and Upcoming Jackson Hole Speech Shape Sentiment",
-          "summary": "Investors continue to digest the minutes from the Federal Reserve's latest meeting, which indicated a potential for further interest rate hikes. Attention is now shifting to Fed Chair Kevin Warsh's upcoming speech at Jackson Hole next week for further policy guidance.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "economic-data-20260820",
-          "headline": "U.S. Labor Market Shows Unexpected Weakness",
-          "summary": "Recent labor market data delivered a negative surprise, with the unemployment rate rising to 4.5% against a consensus of 4.4%. The economy also saw a loss of 15.8 thousand jobs, contrary to expectations of an 11.7 thousand gain, indicating a slowdown.",
-          "tags": [
-            "Economic Data",
-            "Labor Market",
-            "Unemployment"
-          ]
-        },
-        {
-          "id": "oil-prices-geopolitics-20260820",
-          "headline": "Oil Prices Climb Amid Geopolitical Tensions",
-          "summary": "Oil prices are on the rise, with Brent crude surging 2.5% to $93.90 a barrel and U.S. benchmark crude jumping 2.8% to $86.72 a barrel. This increase extends gains for the fifth consecutive session, fueled by stalled U.S.-Iran peace talks and ongoing Middle East supply disruptions.",
-          "tags": [
-            "Oil Prices",
-            "Geopolitics",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "sector-performance-20260819",
-          "headline": "Consumer Discretionary, Materials, and Healthcare Led Gains Yesterday",
-          "summary": "On Wednesday, six of the eleven broad S&P 500 sectors closed in positive territory. The Consumer Discretionary Select Sector SPDR (XLY) rose 2.1%, followed by the Materials Select Sector SPDR (XLB) with a 1.7% gain, and the Health Care Select Sector SPDR (XLV) which advanced 3.5%. The Industrials Select Sector SPDR (XLI) was among the lagging sectors, falling 0.9%.",
+          "id": "sector-analysis",
+          "headline": "Health Care, Consumer Discretionary Lead Sector Gains",
+          "summary": "Among S&P 500 sectors, Health Care (up 3.5%), Consumer Discretionary (up 2.1%), and Materials (up 1.7%) were the strongest performers today. Conversely, the Industrials sector lagged, falling 0.9%.",
           "tags": [
             "Sector Analysis",
-            "Consumer Discretionary",
-            "Materials",
             "Healthcare",
-            "Industrials"
+            "Consumer Discretionary"
           ]
         },
         {
-          "id": "deere-earnings-20260820",
-          "headline": "Deere & Company Reports Strong Q3 Earnings, Raises Outlook",
-          "summary": "Deere & Company ($DE) reported net income of $1.379 billion, or $5.10 per share, for the third quarter ended August 2, 2026, exceeding expectations. The company also improved its net income guidance for fiscal 2026 to a range of $4.75 billion to $5.00 billion, citing disciplined execution and resilient performance.",
+          "id": "economic-leading-index",
+          "headline": "Leading Economic Index for US Edges Up in July",
+          "summary": "The Conference Board Leading Economic Index® (LEI) for the U.S. rose by 0.2% in July 2026, marking its fourth increase in six months. This suggests moderate economic growth ahead, driven partly by business investments in AI.",
+          "tags": [
+            "Economic Data",
+            "LEI",
+            "GDP"
+          ]
+        },
+        {
+          "id": "housing-starts",
+          "headline": "U.S. Housing Starts Decline in July, Missing Forecasts",
+          "summary": "U.S. housing starts decreased by 12.4% in July to 1.24 million units at a seasonally adjusted annual rate, falling short of market expectations. Single-family starts and multi-family starts both saw significant declines.",
+          "tags": [
+            "Economic Data",
+            "Housing",
+            "Construction"
+          ]
+        },
+        {
+          "id": "fed-treasury-action",
+          "headline": "Fed Minutes and Treasury Buybacks Influence Bond Market",
+          "summary": "Minutes from the Federal Reserve's July meeting indicated that a policy tightening may be necessary if inflation does not decline. Meanwhile, the Treasury Department's decision to double buybacks of longer-dated U.S. debt to at least $4 billion per operation influenced bond yields.",
+          "tags": [
+            "Fed",
+            "Monetary Policy",
+            "Treasury"
+          ]
+        },
+        {
+          "id": "cisco-earnings",
+          "headline": "Cisco Systems Reports Strong FY26 Results, Positive AI Outlook",
+          "summary": "Cisco Systems ($CSCO) delivered robust fourth-quarter and fiscal year 2026 results (reported August 12, 2026), exceeding guidance with strong double-digit growth. The company highlighted significant momentum in AI infrastructure orders, totaling $9.3 billion for FY26, and raised its FY27 AI infrastructure revenue guidance to $7.5 billion.",
           "tags": [
             "Earnings",
-            "$DE",
-            "Agriculture"
-          ]
-        },
-        {
-          "id": "national-debt-20260820",
-          "headline": "U.S. National Debt Exceeds $40 Trillion Mark",
-          "summary": "The total U.S. national debt surpassed a record $40 trillion on Wednesday, influenced by soaring defense spending and ongoing U.S. involvement in the Middle East.",
-          "tags": [
-            "National Debt",
-            "Economy",
-            "Government Spending"
+            "Technology",
+            "$CSCO"
           ]
         }
       ]
