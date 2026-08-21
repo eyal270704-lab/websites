@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T16:38:00Z",
+  "generatedAt": "2026-08-21T07:39:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 20, 2026: End-of-Day Summary",
-  "badge": "Updated Now",
+  "subtitle": "Friday, August 21, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,13 +13,12 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities Close Higher Amid Mixed Sentiment, Treasury Yields Recede",
-          "summary": "U.S. equity markets concluded Thursday's session with modest gains across major indices, despite an early downturn fueled by disappointing retail earnings and rising Treasury yields. A late-day recovery propelled stocks higher, as investors continued to digest Federal Reserve minutes and awaited further economic data.",
+          "id": "market-summary-aug21",
+          "headline": "S&P 500 Posts Modest Gain Amid Mixed Global Sentiment",
+          "summary": "The S&P 500 edged higher today, gaining 0.16% to reach 7653 points, indicating a slight recovery following a broad market slide on Thursday. Investor sentiment remains cautious as rising Treasury yields and elevated oil prices continue to fuel inflation concerns. Global markets were mixed, with Asian shares showing varied performance.",
           "tags": [
-            "Market Summary",
-            "Equities",
-            "Treasury Yields"
+            "Market Overview",
+            "Sentiment"
           ]
         }
       ]
@@ -31,105 +30,80 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
-          "statLabel": "S&P 500",
-          "statValue": "7,707.98",
-          "statContext": "+0.21% Today",
-          "ticker": "$SPX",
-          "price": "7707.98",
-          "change": "+16.22",
-          "changePercent": "+0.21%",
-          "direction": "up"
+          "id": "sp500-today",
+          "statLabel": "S&P 500 Today",
+          "statValue": "7653.00",
+          "statContext": "+0.16% from previous session"
         },
         {
-          "id": "nasdaq",
+          "id": "dow-yesterday",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,759.21",
+          "statContext": "-1.32% (Thursday's Close)"
+        },
+        {
+          "id": "nasdaq-yesterday",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,331.09",
-          "statContext": "+0.16% Today",
-          "ticker": "$IXIC",
-          "price": "26331.09",
-          "change": "+41.38",
-          "changePercent": "+0.16%",
-          "direction": "up"
-        },
-        {
-          "id": "dow",
-          "statLabel": "Dow Jones Ind.",
-          "statValue": "53,463.05",
-          "statContext": "+0.22% Today",
-          "ticker": "$DJI",
-          "price": "53463.05",
-          "change": "+119.65",
-          "changePercent": "+0.22%",
-          "direction": "up"
+          "statValue": "26,067.17",
+          "statContext": "-1.00% (Thursday's Close)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Thursday's S&P 500 Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mrna-gainer",
-          "headline": "Moderna Soars on Vaccine Trial Success",
-          "summary": "Moderna ($MRNA) shares surged by a remarkable 177.0% today after a late-stage study of its experimental mRNA-based vaccine met its primary goal of extending the time before high-risk melanoma returns in patients.",
-          "ticker": "$MRNA",
-          "price": "$144.38",
-          "change": "+$92.38",
-          "changePercent": "+177.0%",
-          "direction": "up",
-          "tags": [
-            "Biotech",
-            "Healthcare",
-            "Vaccine"
-          ]
+          "id": "ndsn-gainer",
+          "headline": "Nordson Leads S&P 500 Gainers",
+          "summary": "Nordson Corporation saw an 8.0% increase, closing at $334.70.",
+          "ticker": "$NDSN",
+          "price": "$334.70",
+          "change": "+$24.80",
+          "changePercent": "+8.00%",
+          "direction": "up"
+        },
+        {
+          "id": "coin-gainer",
+          "headline": "Coinbase Global Rises",
+          "summary": "Coinbase Global gained 7.6% to finish at $172.35.",
+          "ticker": "$COIN",
+          "price": "$172.35",
+          "change": "+$12.18",
+          "changePercent": "+7.60%",
+          "direction": "up"
         },
         {
           "id": "de-gainer",
-          "headline": "Deere & Co. Rises on Strong Earnings and AI Boost",
-          "summary": "Deere & Company ($DE) saw its stock climb over 3% after reporting its first quarterly profit in three years and raising its full-year forecast, citing tariff refunds and an AI construction boom as key drivers.",
+          "headline": "Deere & Company Experiences Solid Growth",
+          "summary": "Deere & Company shares climbed 6.9% to $620.94.",
           "ticker": "$DE",
-          "price": "$435.50",
-          "change": "+$13.07",
-          "changePercent": "+3.09%",
-          "direction": "up",
-          "tags": [
-            "Agriculture",
-            "Industrials",
-            "AI"
-          ]
+          "price": "$620.94",
+          "change": "+$40.16",
+          "changePercent": "+6.90%",
+          "direction": "up"
+        },
+        {
+          "id": "mrna-loser",
+          "headline": "Moderna Falls Significantly",
+          "summary": "Moderna was the weakest S&P 500 stock, dropping 23.5% to $133.32.",
+          "ticker": "$MRNA",
+          "price": "$133.32",
+          "change": "-$40.92",
+          "changePercent": "-23.50%",
+          "direction": "down"
         },
         {
           "id": "wmt-loser",
-          "headline": "Walmart Shares Dip on Sales Miss, Cautious Outlook",
-          "summary": "Walmart Inc. ($WMT) shares fell nearly 6% today following its second-quarter earnings report, which showed it missed expectations for comparable sales growth and issued disappointing forward guidance.",
+          "headline": "Walmart Declines on Weak Sales",
+          "summary": "Walmart shares tumbled 9.2% to approximately $103.84 after missing Wall Street's expectations for quarterly comparable sales, impacting consumer sectors.",
           "ticker": "$WMT",
-          "price": "$61.50",
-          "change": "-$3.70",
-          "changePercent": "-5.68%",
-          "direction": "down",
-          "tags": [
-            "Retail",
-            "Consumer Staples",
-            "Earnings"
-          ]
-        },
-        {
-          "id": "aap-loser",
-          "headline": "Advance Auto Parts Falls After Disappointing Q2 Sales",
-          "summary": "Advance Auto Parts Inc. ($AAP) experienced a significant decline of 19.67% after its second-quarter results revealed a 0.5% decrease in comparable store sales, primarily impacted by weaker spending in the DIY channel.",
-          "ticker": "$AAP",
-          "price": "$45.13",
-          "change": "-$11.08",
-          "changePercent": "-19.67%",
-          "direction": "down",
-          "tags": [
-            "Retail",
-            "Automotive",
-            "Earnings"
-          ]
+          "price": "$103.84",
+          "change": "-$10.55",
+          "changePercent": "-9.20%",
+          "direction": "down"
         }
       ]
     },
@@ -140,53 +114,42 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Health Care, Consumer Discretionary Lead Sector Gains",
-          "summary": "Among S&P 500 sectors, Health Care (up 3.5%), Consumer Discretionary (up 2.1%), and Materials (up 1.7%) were the strongest performers today. Conversely, the Industrials sector lagged, falling 0.9%.",
+          "id": "economic-data-releases",
+          "headline": "Global PMI Data and UK Retail Sales Released",
+          "summary": "Flash August S&P PMIs were released globally today. In Japan, July CPI inflation rose to 1.9% year-over-year, with the preliminary Manufacturing PMI rebounding to 55.1 points. Meanwhile, UK retail sales for July dropped by 0.5% month-over-month, below forecasts.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Manufacturing"
+          ]
+        },
+        {
+          "id": "treasury-yields-inflation",
+          "headline": "Treasury Yields Rebound, Fuelling Inflation Fears",
+          "summary": "U.S. Treasury yields have rebounded, despite the Treasury Department's announcement to increase bond buybacks, indicating market impatience with public finances. This, coupled with elevated oil prices and ongoing tensions, continues to ignite investor fears over inflationary pressures and potential rate hikes.",
+          "tags": [
+            "Inflation",
+            "Interest Rates",
+            "Bonds"
+          ]
+        },
+        {
+          "id": "consumer-sector-weakness",
+          "headline": "Consumer Sectors Under Pressure Following Retail Earnings",
+          "summary": "The consumer staples and consumer discretionary sectors faced headwinds on Thursday, with Walmart's disappointing quarterly comparable sales report leading to a 9.2% drop in its shares and dragging down rival retailers.",
           "tags": [
             "Sector Analysis",
-            "Healthcare",
-            "Consumer Discretionary"
+            "Earnings",
+            "Retail"
           ]
         },
         {
-          "id": "economic-leading-index",
-          "headline": "Leading Economic Index for US Edges Up in July",
-          "summary": "The Conference Board Leading Economic Index® (LEI) for the U.S. rose by 0.2% in July 2026, marking its fourth increase in six months. This suggests moderate economic growth ahead, driven partly by business investments in AI.",
-          "tags": [
-            "Economic Data",
-            "LEI",
-            "GDP"
-          ]
-        },
-        {
-          "id": "housing-starts",
-          "headline": "U.S. Housing Starts Decline in July, Missing Forecasts",
-          "summary": "U.S. housing starts decreased by 12.4% in July to 1.24 million units at a seasonally adjusted annual rate, falling short of market expectations. Single-family starts and multi-family starts both saw significant declines.",
-          "tags": [
-            "Economic Data",
-            "Housing",
-            "Construction"
-          ]
-        },
-        {
-          "id": "fed-treasury-action",
-          "headline": "Fed Minutes and Treasury Buybacks Influence Bond Market",
-          "summary": "Minutes from the Federal Reserve's July meeting indicated that a policy tightening may be necessary if inflation does not decline. Meanwhile, the Treasury Department's decision to double buybacks of longer-dated U.S. debt to at least $4 billion per operation influenced bond yields.",
-          "tags": [
-            "Fed",
-            "Monetary Policy",
-            "Treasury"
-          ]
-        },
-        {
-          "id": "cisco-earnings",
-          "headline": "Cisco Systems Reports Strong FY26 Results, Positive AI Outlook",
-          "summary": "Cisco Systems ($CSCO) delivered robust fourth-quarter and fiscal year 2026 results (reported August 12, 2026), exceeding guidance with strong double-digit growth. The company highlighted significant momentum in AI infrastructure orders, totaling $9.3 billion for FY26, and raised its FY27 AI infrastructure revenue guidance to $7.5 billion.",
+          "id": "earnings-reports-today",
+          "headline": "Key Companies Report Earnings Today",
+          "summary": "Several companies released earnings reports today, August 21, 2026, including The Buckle, Inc., Flowers Foods, Inc., BJ's Wholesale Club Holdings, Inc., and KE Holdings Inc.",
           "tags": [
             "Earnings",
-            "Technology",
-            "$CSCO"
+            "Corporate News"
           ]
         }
       ]
