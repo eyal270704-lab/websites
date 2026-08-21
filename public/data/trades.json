@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T12:59:03.816038Z",
+  "generatedAt": "2026-08-21T18:45:26.280878Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 7,
+  "tradeCount": 10,
   "trades": [
     {
       "ticker": "$APP",
@@ -113,6 +113,54 @@
       "riskScore": 5,
       "footerTag": "Accumulation",
       "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$219.27",
+      "entry": "$212.00",
+      "stop": "$205.00",
+      "structure": "Price near 20-day MA support",
+      "trend": "> 20MA & 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently in an uptrend, trading above its 20-day and 200-day moving averages. However, current volume is below average, and confirmed earnings are due within the next 5 days, presenting a high-risk scenario.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$311.30",
+      "entry": "$309.00",
+      "stop": "$305.00",
+      "structure": "Consolidating near 50-day MA",
+      "trend": "< 20MA, > 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is currently consolidating around its 50-day moving average, trading below the 20-day MA but maintaining above the 200-day MA. The short-term trend is mixed, but the longer-term outlook remains bullish. No immediate earnings catalysts identified.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$364.13",
+      "entry": "$325.00",
+      "stop": "$295.00",
+      "structure": "Below 50MA and 200MA; potential bounce from 20MA",
+      "trend": "1.26x RVOL / Downtrend",
+      "trendLabel": "RVOL / Trend",
+      "analysis": "Tesla is in a strong medium to long-term downtrend, trading below its 50-day and 200-day moving averages, though it is currently above its 20-day MA. Relative volume is elevated, suggesting increased interest, but the overall technical outlook remains bearish.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
   ]
