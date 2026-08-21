@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T07:39:00Z",
+  "generatedAt": "2026-08-21T12:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, August 21, 2026",
+  "subtitle": "Market insights for August 21, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,95 +14,101 @@
       "items": [
         {
           "id": "market-summary-aug21",
-          "headline": "S&P 500 Posts Modest Gain Amid Mixed Global Sentiment",
-          "summary": "The S&P 500 edged higher today, gaining 0.16% to reach 7653 points, indicating a slight recovery following a broad market slide on Thursday. Investor sentiment remains cautious as rising Treasury yields and elevated oil prices continue to fuel inflation concerns. Global markets were mixed, with Asian shares showing varied performance.",
-          "tags": [
-            "Market Overview",
-            "Sentiment"
-          ]
+          "headline": "U.S. Futures Rebound Slightly After Thursday's Broad Market Decline",
+          "summary": "U.S. stock futures showed modest gains this morning, attempting to recover from a significant sell-off on Thursday, August 20th. Yesterday's decline was driven by persistent concerns over rising Treasury yields, increasing crude oil prices, and a sharp drop in retail giant Walmart's shares following a disappointing earnings report. Geopolitical tensions between the U.S. and Iran also contributed to market uncertainty."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Close: Thursday, August 20, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-today",
-          "statLabel": "S&P 500 Today",
-          "statValue": "7653.00",
-          "statContext": "+0.16% from previous session"
+          "id": "sp500-close",
+          "statLabel": "S&P 500",
+          "statValue": "7,641.16",
+          "statContext": "Down 0.9% (-66.82 points)"
         },
         {
-          "id": "dow-yesterday",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,759.21",
-          "statContext": "-1.32% (Thursday's Close)"
-        },
-        {
-          "id": "nasdaq-yesterday",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,067.17",
-          "statContext": "-1.00% (Thursday's Close)"
+          "statContext": "Down 1.0% (-263.92 points)"
+        },
+        {
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,759.21",
+          "statContext": "Down 1.3% (-703.84 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Thursday's S&P 500 Session)",
+      "title": "Top Movers (Morning Session: Friday, August 21, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ndsn-gainer",
-          "headline": "Nordson Leads S&P 500 Gainers",
-          "summary": "Nordson Corporation saw an 8.0% increase, closing at $334.70.",
-          "ticker": "$NDSN",
-          "price": "$334.70",
-          "change": "+$24.80",
-          "changePercent": "+8.00%",
+          "id": "mstr-gainer",
+          "headline": "Strategy ($MSTR) Surges Amidst Market Rebound",
+          "summary": "Strategy ($MSTR) climbed 7.81% in early trading.",
+          "ticker": "$MSTR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.81%",
           "direction": "up"
         },
         {
           "id": "coin-gainer",
-          "headline": "Coinbase Global Rises",
-          "summary": "Coinbase Global gained 7.6% to finish at $172.35.",
+          "headline": "Coinbase Global ($COIN) Jumps on Regulatory News",
+          "summary": "Coinbase Global ($COIN) rose 7.58% after President Trump reportedly advocated for the Clarity Act alongside crypto executives.",
           "ticker": "$COIN",
-          "price": "$172.35",
-          "change": "+$12.18",
-          "changePercent": "+7.60%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.58%",
           "direction": "up"
         },
         {
           "id": "de-gainer",
-          "headline": "Deere & Company Experiences Solid Growth",
-          "summary": "Deere & Company shares climbed 6.9% to $620.94.",
+          "headline": "Deere ($DE) Gains on Strong Earnings",
+          "summary": "Deere ($DE) advanced 6.94% following a report of higher quarterly sales and earnings per share.",
           "ticker": "$DE",
-          "price": "$620.94",
-          "change": "+$40.16",
-          "changePercent": "+6.90%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.94%",
           "direction": "up"
         },
         {
           "id": "mrna-loser",
-          "headline": "Moderna Falls Significantly",
-          "summary": "Moderna was the weakest S&P 500 stock, dropping 23.5% to $133.32.",
+          "headline": "Moderna ($MRNA) Falls as Vaccine Gains Reverse",
+          "summary": "Moderna ($MRNA) plummeted 23.55% as previous gains from its cancer vaccine reversed after a sharp rally in the prior session.",
           "ticker": "$MRNA",
-          "price": "$133.32",
-          "change": "-$40.92",
-          "changePercent": "-23.50%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-23.55%",
           "direction": "down"
         },
         {
           "id": "wmt-loser",
-          "headline": "Walmart Declines on Weak Sales",
-          "summary": "Walmart shares tumbled 9.2% to approximately $103.84 after missing Wall Street's expectations for quarterly comparable sales, impacting consumer sectors.",
+          "headline": "Walmart ($WMT) Continues Decline Post-Earnings",
+          "summary": "Walmart Inc. ($WMT) dropped 9.15% after reporting its slowest domestic sales growth in six years and missing comparable sales expectations, with soft guidance hinting at a weakening consumer.",
           "ticker": "$WMT",
-          "price": "$103.84",
-          "change": "-$10.55",
-          "changePercent": "-9.20%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.15%",
+          "direction": "down"
+        },
+        {
+          "id": "ftai-loser",
+          "headline": "FTAI Aviation ($FTAI) Slips Despite Financing News",
+          "summary": "FTAI Aviation ($FTAI) declined 6.21% despite announcing a new $2 billion warehouse financing facility for aircraft acquisitions.",
+          "ticker": "$FTAI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.21%",
           "direction": "down"
         }
       ]
@@ -114,42 +120,42 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-releases",
-          "headline": "Global PMI Data and UK Retail Sales Released",
-          "summary": "Flash August S&P PMIs were released globally today. In Japan, July CPI inflation rose to 1.9% year-over-year, with the preliminary Manufacturing PMI rebounding to 55.1 points. Meanwhile, UK retail sales for July dropped by 0.5% month-over-month, below forecasts.",
+          "id": "economic-data-aug20",
+          "headline": "Economic Data Shows Mixed Signals (Thursday, August 20, 2026)",
+          "summary": "U.S. initial jobless claims decreased by 6,000 to 206,000 for the week ended August 15, marginally above the Zacks Consensus Estimate of 204,000. The Philadelphia Fed Index for August rose to 47.4, significantly beating the Zacks Consensus Estimate of 25 and July's 41.4. Leading Indicators increased 0.2% month-over-month in July, aligning with expectations.",
           "tags": [
             "Economic Data",
-            "Inflation",
-            "Manufacturing"
+            "Jobless Claims",
+            "Philly Fed"
           ]
         },
         {
-          "id": "treasury-yields-inflation",
-          "headline": "Treasury Yields Rebound, Fuelling Inflation Fears",
-          "summary": "U.S. Treasury yields have rebounded, despite the Treasury Department's announcement to increase bond buybacks, indicating market impatience with public finances. This, coupled with elevated oil prices and ongoing tensions, continues to ignite investor fears over inflationary pressures and potential rate hikes.",
+          "id": "treasury-yields",
+          "headline": "Treasury Yields Resume Upward Trend",
+          "summary": "The benchmark U.S. 10-year Treasury yield traded near 4.69% today, rising from Thursday's nearly 4.64%. The 30-year Treasury yield was approximately 5.24%. Yields resumed their upward trajectory despite the U.S. Treasury's plan to increase long-term debt buybacks, which initially offered temporary relief.",
           "tags": [
-            "Inflation",
-            "Interest Rates",
-            "Bonds"
+            "Treasury Yields",
+            "Bond Market"
           ]
         },
         {
-          "id": "consumer-sector-weakness",
-          "headline": "Consumer Sectors Under Pressure Following Retail Earnings",
-          "summary": "The consumer staples and consumer discretionary sectors faced headwinds on Thursday, with Walmart's disappointing quarterly comparable sales report leading to a 9.2% drop in its shares and dragging down rival retailers.",
+          "id": "sector-performance-aug20",
+          "headline": "Energy and Real Estate Lead, Consumer Sectors Lag (Thursday, August 20, 2026)",
+          "summary": "On Thursday, nine out of eleven S&P 500 sectors closed in negative territory. Consumer Staples ($XLP), Health Care ($XLV), and Consumer Discretionary ($XLY) were among the weakest, falling 1.9%, 1.9%, and 1.8% respectively. Conversely, Energy Select Sector SPDR ($XLE) rose 0.4%, and Real Estate stocks also ended the session higher.",
           "tags": [
             "Sector Analysis",
-            "Earnings",
-            "Retail"
+            "Energy",
+            "Consumer Staples"
           ]
         },
         {
-          "id": "earnings-reports-today",
-          "headline": "Key Companies Report Earnings Today",
-          "summary": "Several companies released earnings reports today, August 21, 2026, including The Buckle, Inc., Flowers Foods, Inc., BJ's Wholesale Club Holdings, Inc., and KE Holdings Inc.",
+          "id": "upcoming-events",
+          "headline": "Upcoming Economic Reports and Events",
+          "summary": "Investors are awaiting reports on the S&P Global Manufacturing and Services PMI later today. No major earnings reports are scheduled for Friday. The highly anticipated Jackson Hole Economic Symposium is scheduled for August 27-29.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Economic Calendar",
+            "Fed",
+            "Earnings"
           ]
         }
       ]
