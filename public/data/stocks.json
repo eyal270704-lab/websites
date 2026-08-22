@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:18:00Z",
+  "generatedAt": "2026-08-22T16:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
@@ -8,142 +8,144 @@
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Friday's Rebound Amidst Yield Concerns",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Stocks Rally Friday, Capping a Volatile Week",
-          "summary": "U.S. major indices closed higher today, rebounding from earlier losses this week, as positive U.S. business activity data boosted sentiment. However, investor focus remains on persistent concerns over rising Treasury yields and inflation, which led to weekly declines for all three benchmarks.",
+          "id": "market-summary",
+          "headline": "U.S. Stocks Rebound to Close Out Shaky Week, Driven by Strong Business Activity and Corporate Earnings.",
+          "summary": "U.S. equity markets saw a rebound on Friday, August 22, 2026, trimming some of the week's losses that were largely influenced by rising Treasury yields and persistent inflation concerns. Investor sentiment was bolstered by robust economic data, including a rise in the S&P Global Composite PMI to a multi-year high. Corporate earnings continue to exceed expectations, providing a constructive backdrop for equities, despite the pressure from the bond market.",
           "tags": [
-            "Market Rebound",
-            "Treasury Yields",
-            "Inflation"
+            "Market Overview",
+            "Economic Data",
+            "Earnings"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (August 22, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "7,674.37",
-          "statContext": "Up 0.43% today, down 1.4% for the week."
+          "statContext": "+0.43% Today, -1.4% Week-to-Date"
         },
         {
-          "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "26,180.46",
-          "statContext": "Up 0.43% today, down 2% for the week."
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,180.45",
+          "statContext": "+0.43% Today, -2.0% Week-to-Date"
         },
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,277.01",
-          "statContext": "Up 0.98% today, down 0.9% for the week."
+          "statContext": "+0.98% Today, -0.9% Week-to-Date"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Today's Top Movers (August 22, 2026 Close)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "tron-gainer",
+          "headline": "Tron Inc. Surges on Ecosystem Integration Plans",
+          "summary": "Tron Inc. ($TRON) saw a significant surge today as investor optimism grew around its latest product launch and strategic move to become a top-tier Super Representative within the TRON DAO ecosystem.",
+          "ticker": "$TRON",
+          "changePercent": "+7.49%",
+          "direction": "up"
+        },
+        {
           "id": "rost-gainer",
-          "headline": "Ross Stores Rallies on Strong Guidance",
-          "summary": "Discount apparel retailer Ross Stores saw its stock climb after raising its full-year guidance, driven by resilient demand for off-price goods.",
+          "headline": "Ross Stores Rallies on Strong Earnings",
+          "summary": "Ross Stores ($ROST) rallied today after the company reported stronger profit for its latest quarter than analysts had expected.",
           "ticker": "$ROST",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.4%",
+          "change": "Rallied",
           "direction": "up"
         },
         {
-          "id": "bj-gainer",
-          "headline": "BJ's Wholesale Club Posts Strong Earnings",
-          "summary": "BJ's Wholesale Club gained ground following better-than-expected quarterly results and an upward revision to its 2026 profit outlook.",
-          "ticker": "$BJ",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.6%",
-          "direction": "up"
+          "id": "klarna-loser",
+          "headline": "Klarna Falls Amid Broader Tech Weakness",
+          "summary": "For the week ending August 21, Klarna ($KLAR) was among the worst-performing stocks, reflecting broader weakness in some technology-related sectors.",
+          "ticker": "$KLAR",
+          "price": "$14.33",
+          "changePercent": "-31.07% (Weekly)",
+          "direction": "down"
         },
         {
-          "id": "hood-gainer",
-          "headline": "Robinhood Jumps Amid Crypto Rally",
-          "summary": "Online brokerage Robinhood saw a significant jump, benefiting from a broader rally in cryptocurrency-related equities.",
-          "ticker": "$HOOD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.7%",
-          "direction": "up"
-        },
-        {
-          "id": "utilities-lagger",
-          "headline": "Utilities Sector Leads Lagging Industries",
-          "summary": "The Utilities sector was among today's biggest laggards, signaling a rotational shift as broader market sentiment grapples with higher yield environments.",
-          "ticker": "N/A",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.31%",
+          "id": "iqiyi-loser",
+          "headline": "iQIYI Drops Over 20% This Week",
+          "summary": "iQIYI ($IQ) experienced a substantial price decline for the week ending August 21, making it one of the market's biggest losers.",
+          "ticker": "$IQ",
+          "price": "$1.05",
+          "changePercent": "-22.14% (Weekly)",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Key Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-activity",
-          "headline": "U.S. Business Activity Surges to Four-Year High",
-          "summary": "A new report indicated U.S. business activity expanded at its fastest pace in over four years, providing a tailwind for today's equity market rebound.",
+          "id": "economic-data-pmi",
+          "headline": "Business Activity Surges in August, PMI Hits Multi-Year High",
+          "summary": "The preliminary S&P Global Composite Purchasing Managers' Index rose to 56.04 in August, marking its highest reading since March 2022 and indicating robust business activity across the U.S. Additionally, inflation-adjusted personal consumption grew at a healthy 3.2% annualized rate in the second quarter.",
           "tags": [
             "Economic Data",
-            "US Economy"
+            "PMI",
+            "Consumer Spending"
           ]
         },
         {
-          "id": "treasury-yields-inflation",
-          "headline": "Treasury Yields and Inflation Remain Key Concerns",
-          "summary": "Despite Friday's stock market rebound, rising Treasury yields, with the 10-year at 4.734% and 30-year near 5.273%, and persistent inflation concerns continue to weigh on investor sentiment, making bonds more attractive relative to equities.",
+          "id": "fed-inflation-outlook",
+          "headline": "Fed Officials Eye Rate Hikes as Inflation Persists Above Target",
+          "summary": "Minutes from the Federal Reserve's last meeting revealed that many officials believe further interest rate hikes will be necessary if inflation, which remains stubbornly above 3%, does not subside. The Fed is widely expected to hold its benchmark rate steady in September, with a potential hike in December.",
           "tags": [
-            "Interest Rates",
-            "Bond Market",
-            "Inflation"
+            "Federal Reserve",
+            "Inflation",
+            "Interest Rates"
           ]
         },
         {
-          "id": "upcoming-fed-nvidia",
-          "headline": "Jackson Hole Symposium and Nvidia Earnings on Deck Next Week",
-          "summary": "Market participants are looking ahead to next week's Federal Reserve Jackson Hole Economic Policy Symposium, featuring a keynote from Fed Chair Kevin Warsh, and highly anticipated second-quarter earnings from semiconductor giant Nvidia.",
+          "id": "sector-semiconductors-ai",
+          "headline": "Semiconductors Drive Tech Sector Gains Amid AI Spending Boom",
+          "summary": "The technology sector continues to be a strong performer year-to-date, largely propelled by semiconductor stocks. Goldman Sachs projects global AI capital spending to exceed $1 trillion in 2026, creating sustained demand for semiconductor companies and underpinning their strong performance.",
           "tags": [
-            "Fed",
+            "Sector Analysis",
+            "Technology",
+            "Semiconductors",
+            "AI"
+          ]
+        },
+        {
+          "id": "us-canada-tariffs",
+          "headline": "U.S. Imposes 50% Tariffs on Canadian Exports as Trade Talks Collapse",
+          "summary": "Trade relations between the U.S. and Canada soured as new 50% tariffs on a range of Canadian exports officially took effect today, August 22, 2026, following the breakdown of last-minute negotiations. This development is expected to impact several industries, particularly those targeted by the tariffs.",
+          "tags": [
+            "Geopolitics",
+            "Trade",
+            "Tariffs"
+          ]
+        },
+        {
+          "id": "q2-earnings-growth",
+          "headline": "S&P 500 Earnings Growth Exceeds Expectations",
+          "summary": "Corporate earnings for the S&P 500 are on track to grow by over 48% year-over-year in the second quarter of 2026, with full-year earnings projected to rise by 31%. This robust profit growth, especially among mega-cap technology companies, has been a significant contributor to the performance of U.S. large-cap stocks.",
+          "tags": [
             "Earnings",
-            "Nvidia"
-          ]
-        },
-        {
-          "id": "oil-prices-consumer",
-          "headline": "Higher Oil Prices Impact Consumer Spending",
-          "summary": "Walmart's recent earnings report highlighted that 'higher fuel prices' are creating 'some incremental pressure on the consumer,' indicating inflation's ongoing effect on household budgets.",
-          "tags": [
-            "Oil Prices",
-            "Consumer Spending",
-            "Inflation"
+            "Corporate Profits"
           ]
         }
       ]
