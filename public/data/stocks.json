@@ -1,185 +1,131 @@
 {
-  "generatedAt": "2026-08-21T16:37:00Z",
+  "generatedAt": "2026-08-22T07:29:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "August 21, 2026",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: Weekend Edition",
+  "subtitle": "Review of Friday, August 21, 2026, Session",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Stocks Rebound as Bond Market Stabilizes",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Attempt Recovery After Volatile Week",
-          "summary": "U.S. equities are showing gains today, trimming losses from a shaky week as Treasury yields stabilize and oil prices remain largely unchanged. Major indices are rebounding after a sharp sell-off in the previous session, though they remain on track for overall weekly declines. Market sentiment is cautiously optimistic as investors assess recent economic data and upcoming Federal Reserve cues.",
+          "id": "market-pulse-summary",
+          "headline": "U.S. Markets Closed for Weekend After Friday's Losses",
+          "summary": "As of Saturday, August 22, 2026, U.S. financial markets are closed for the weekend. The last trading session on Friday, August 21, 2026, saw major indices decline, with the Dow dropping over 700 points. The sell-off was influenced by renewed bond market pressure, rising oil prices, and a significant miss from retail giant Walmart.",
           "tags": [
-            "Market Overview",
-            "Economy",
-            "Indices"
+            "weekend",
+            "market closed",
+            "Friday review"
           ],
-          "timestamp": "2026-08-21T16:37:00Z"
+          "timestamp": "2026-08-22T07:29:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Mid-day Trading)",
+      "title": "Major Indices (Friday, Aug 21, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,759.21",
+          "statContext": "−703.84 points (−1.32%)"
+        },
+        {
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,677.93",
-          "statContext": "Up 36.77 points (+0.48%)"
+          "statValue": "7,641.16",
+          "statContext": "−0.87%"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "53,163.00",
-          "statContext": "Up 403.79 points (+0.77%)"
-        },
-        {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,171.96",
-          "statContext": "Up 104.79 points (+0.40%)"
+          "statValue": "26,067.17",
+          "statContext": "−1.00%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Gainers & Losers (Real-time data)",
+      "title": "Top Movers (Friday, Aug 21, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mrbn-gainer",
-          "headline": "Moderna Soars on Vaccine Trial Success",
-          "ticker": "$MRNA",
+          "id": "wmt-loser",
+          "headline": "Walmart ($WMT) Leads Retail Downturn",
+          "summary": "Walmart's shares fell roughly 8–10% on Friday, marking its worst session since May 2022. This significant drop was attributed to its U.S. comparable sales growing by only 2.6% against a 3.8% consensus, and adjusted EPS guidance falling below expectations for both Q3 and the full year. The decline in $WMT pulled down the entire retail sector.",
+          "ticker": "$WMT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.0%",
-          "direction": "up",
-          "summary": "Moderna shares surged following positive Phase 3 results for its personalized mRNA cancer vaccine, developed in collaboration with Merck."
+          "changePercent": "-8% to -10%",
+          "direction": "down",
+          "tags": [
+            "retail",
+            "earnings",
+            "guidance"
+          ]
         },
         {
-          "id": "emat-gainer",
-          "headline": "Evolution Metals & Technologies Corp. Jumps on Earnings Beat",
-          "ticker": "$EMAT",
-          "price": "$4.15",
-          "change": "+$0.78",
-          "changePercent": "+23.15%",
-          "direction": "up",
-          "summary": "Evolution Metals & Technologies Corp. saw its shares climb after reporting second-quarter losses that beat analyst consensus estimates."
-        },
-        {
-          "id": "hood-gainer",
-          "headline": "Robinhood Rallies with Bitcoin Surge",
-          "ticker": "$HOOD",
-          "price": "$106.85",
-          "change": "+$11.76",
-          "changePercent": "+12.37%",
-          "direction": "up",
-          "summary": "Shares of Robinhood Markets rallied as Bitcoin prices experienced a significant rebound."
-        },
-        {
-          "id": "rost-gainer",
-          "headline": "Ross Stores Exceeds Q2 Expectations",
-          "ticker": "$ROST",
+          "id": "energy-gainer",
+          "headline": "Energy Sector Shows Strength",
+          "summary": "In contrast to the broader market downturn, the Energy sector was a bright spot, gaining 1.5% as crude oil prices rose 3%. This suggests some resilience in energy-related stocks despite overall market weakness.",
+          "ticker": "N/A",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.1%",
+          "changePercent": "+1.5%",
           "direction": "up",
-          "summary": "Ross Stores gained after the off-price retailer posted better-than-expected second-quarter results, driven by new customer acquisition and tariff refunds."
-        },
-        {
-          "id": "hut-loser",
-          "headline": "Hut 8 Corp. Leads Decliners",
-          "ticker": "$HUT",
-          "price": "$79.57",
-          "change": "-$9.09",
-          "changePercent": "-10.25%",
-          "direction": "down",
-          "summary": "Hut 8 Corp. experienced a notable drop today."
-        },
-        {
-          "id": "ui-loser",
-          "headline": "Ubiquiti Inc. Falls After Q4 Report",
-          "ticker": "$UI",
-          "price": "$519.00",
-          "change": "N/A",
-          "changePercent": "-10.0%",
-          "direction": "down",
-          "summary": "Ubiquiti Inc. shares declined following the release of its fourth-quarter earnings results."
-        },
-        {
-          "id": "mrvl-loser",
-          "headline": "Marvell Technology Down on Profit-Taking",
-          "ticker": "$MRVL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.0%",
-          "direction": "down",
-          "summary": "Marvell Technology shares fell, largely attributed to institutional profit-taking and strategic risk reduction ahead of its upcoming earnings report."
+          "tags": [
+            "sector",
+            "commodities",
+            "oil"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Developments",
+      "title": "Market News (Friday, Aug 21, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Materials Lead, Information Technology Lags in Sector Performance",
-          "summary": "Materials shares jumped by 2.3% today, leading sector performance, while information technology stocks fell by 0.5%. Broadly, health care and financials also showed advances in the S&P 500.",
+          "id": "economic-data",
+          "headline": "Mixed Economic Data and Fed Outlook Influence Trading",
+          "summary": "Friday's session was influenced by a mix of economic data and commentary regarding monetary policy. Initial jobless claims came in at 206,000, below the 210,000 expected, indicating no deterioration in the labor market. Meanwhile, the Philadelphia Fed index hit 47.4, its strongest since April 2021, and the Empire State index reached 20.6, suggesting a robust industrial economy. Despite this, higher long-term borrowing costs continued to challenge equity valuations, especially for the Nasdaq, with Federal Reserve pricing indicating approximately a 70% chance of a September hold on interest rates.",
           "tags": [
-            "Sector Analysis"
-          ]
+            "economic data",
+            "Fed",
+            "labor market"
+          ],
+          "timestamp": "2026-08-21T16:00:00Z"
         },
         {
-          "id": "fed-minutes",
-          "headline": "Fed Officials See Potential for Further Rate Hikes Amid Inflation Concerns",
-          "summary": "Minutes from the Federal Reserve's July 28-29 meeting indicate that many officials believe higher interest rates may be necessary in the coming months if inflation does not subside. This comes as the US S&P Global composite PMI for August climbed to 56, marking the strongest growth since April 2022.",
+          "id": "treasury-actions",
+          "headline": "Treasury Efforts to Boost Bond Buybacks Met with Skepticism",
+          "summary": "U.S. Treasury Secretary Scott Bessent announced a doubling of long-term debt buybacks from $2 billion to at least $4 billion per operation, alongside discussions of currency interventions and fiscal consolidation. However, Bessent's statement that bond yields 'don't reflect the underlying fundamentals' reportedly complicated the market's reception, as bond relief from Wednesday was largely reversed in a single session, with the 10-year yield rising 4 basis points to 4.69% and the 30-year also up 4 basis points to 5.24%.",
           "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Inflation"
-          ]
+            "treasury",
+            "bond market",
+            "fiscal policy"
+          ],
+          "timestamp": "2026-08-21T16:00:00Z"
         },
         {
-          "id": "treasury-buybacks",
-          "headline": "Treasury Increases Debt Buybacks to Stabilize Yields",
-          "summary": "U.S. Treasury Secretary Scott Bessent announced an increase in long-term debt buybacks, doubling the size of operations from $2 billion to at least $4 billion, in an effort to prod yields lower and enhance liquidity.",
+          "id": "corporate-earnings",
+          "headline": "BJ's Wholesale Club Beats Q2 Expectations",
+          "summary": "Ahead of Friday's open, BJ's Wholesale Club ($BJ) delivered strong Q2 results, reporting earnings of $1.36 per share, outperforming consensus by $0.20, and revenues of $6.09 billion, exceeding expectations by 3.54%. This positive earnings report stood out amidst a challenging day for the broader retail sector.",
           "tags": [
-            "Economic News",
-            "Treasury",
-            "Bond Market"
-          ]
-        },
-        {
-          "id": "earnings-season-highlights",
-          "headline": "BJ's Wholesale Club Beats Estimates; Nvidia Earnings on Deck",
-          "summary": "BJ's Wholesale Club ($BJ) posted stronger-than-expected second-quarter results, beating both top and bottom-line estimates. Meanwhile, investors are keenly awaiting NVIDIA's ($NVDA) earnings report, scheduled for next Wednesday, which is expected to significantly influence the technology sector.",
-          "tags": [
-            "Earnings Reports"
-          ]
-        },
-        {
-          "id": "macro-trends",
-          "headline": "Bitcoin Rally Boosts Crypto Stocks; Oil Prices Remain Elevated",
-          "summary": "A notable rally in Bitcoin prices provided a significant boost to cryptocurrency-related stocks. Concurrently, elevated 10-year Treasury yields, near 4.69%, and rising oil prices, with Brent crude near $93 and WTI near $86 a barrel, continue to be key macro factors influenced by ongoing Middle East tensions.",
-          "tags": [
-            "Macro Trends",
-            "Cryptocurrency",
-            "Oil Prices"
-          ]
+            "earnings",
+            "retail"
+          ],
+          "timestamp": "2026-08-21T09:30:00Z"
         }
       ]
     }
