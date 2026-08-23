@@ -1,60 +1,132 @@
 {
-  "generatedAt": "2026-08-23T12:18:00Z",
+  "generatedAt": "2026-08-23T16:29:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: August 23, 2026",
-  "subtitle": "Markets Closed Today - Review of Friday, August 22, 2026 Trading Session",
-  "badge": "Weekend Summary",
+  "title": "Daily Market Digest",
+  "subtitle": "Summary for Friday, August 21, 2026 (Markets Closed Sunday, August 23, 2026)",
+  "badge": "Last Close",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: US Stocks Rebound to Close Volatile Week",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "Wall Street Rebounds Friday, Weekly Losses Persist Amid Bond Market Pressure",
-          "summary": "U.S. equities closed higher on Friday, August 22, trimming losses from a volatile week, but all major indices ultimately ended the week in negative territory. Persistent upward pressure on long-term Treasury yields continued to dominate market sentiment. This digest summarizes the trading activity from the last session on Friday, August 22, 2026, as U.S. markets are closed today, Sunday, August 23, 2026. Not financial advice."
+          "id": "market-summary",
+          "headline": "U.S. Equities End Week on Positive Note Despite Jumpy Bond Market",
+          "summary": "U.S. stocks concluded a volatile week with gains on Friday, trimming earlier losses, even as the bond market remained under pressure. Hopes for robust corporate profits were boosted by an S&P Global report indicating U.S. business activity reached a 52-month high. Artificial intelligence continued to be a significant driver of earnings growth, with the S&P 500's second-quarter EPS growing 40.6% year-over-year.",
+          "tags": [
+            "Market Sentiment",
+            "Economic Data",
+            "AI Earnings"
+          ],
+          "timestamp": "2026-08-21T20:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Friday, August 22, 2026 Close)",
+      "title": "Major Indices Performance (August 21, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "sp500",
           "statLabel": "S&P 500",
           "statValue": "7,674.37",
-          "statContext": "Up +0.4% on Friday. Down -1.4% for the week."
+          "statContext": "rose 33.21 points (+0.4%)",
+          "ticker": "$SPX",
+          "price": "7,674.37",
+          "change": "+33.21",
+          "changePercent": "+0.4%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-friday",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,180.45",
-          "statContext": "Up +0.4% on Friday. Down -2.1% for the week."
-        },
-        {
-          "id": "dow-friday",
+          "id": "dow",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,277.01",
-          "statContext": "Up +1.0% on Friday. Down -0.8% for the week."
+          "statContext": "rose 517.80 points (+1%)",
+          "ticker": "$DJI",
+          "price": "53,277.01",
+          "change": "+517.80",
+          "changePercent": "+1.0%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,180.45",
+          "statContext": "rose 113.29 points (+0.4%)",
+          "ticker": "$IXIC",
+          "price": "26,180.45",
+          "change": "+113.29",
+          "changePercent": "+0.4%",
+          "direction": "up"
+        },
+        {
+          "id": "russell2000",
+          "statLabel": "Russell 2000",
+          "statValue": "3,017.87",
+          "statContext": "rose 25.44 points (+0.9%)",
+          "ticker": "$RUT",
+          "price": "3,017.87",
+          "change": "+25.44",
+          "changePercent": "+0.9%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, August 22, 2026)",
+      "title": "Top Movers (August 21, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "ross-stores-gainer",
-          "headline": "Ross Stores Jumps on Upbeat Forecast",
-          "summary": "Ross Stores ($ROST) rallied +4.4% after the company raised its full-year earnings forecast, indicating strong performance.",
+          "id": "sls-gainer",
+          "headline": "SELLAS Life Sciences Group Inc. surged",
+          "summary": "SELLAS Life Sciences Group Inc. ($SLS) saw a significant increase of 15.37%, closing at $15.46.",
+          "ticker": "$SLS",
+          "price": "$15.46",
+          "change": "+$2.06",
+          "changePercent": "+15.37%",
+          "direction": "up"
+        },
+        {
+          "id": "hood-gainer",
+          "headline": "Robinhood Markets jumped",
+          "summary": "Robinhood Markets ($HOOD) climbed 13.7% amid increasing hopes for favorable crypto industry legislation in Washington.",
+          "ticker": "$HOOD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.7%",
+          "direction": "up"
+        },
+        {
+          "id": "coin-gainer",
+          "headline": "Coinbase Global gained",
+          "summary": "Coinbase Global ($COIN) advanced 8.2% on optimistic sentiment surrounding potential crypto regulations.",
+          "ticker": "$COIN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.2%",
+          "direction": "up"
+        },
+        {
+          "id": "fcx-gainer",
+          "headline": "Freeport-McMoRan rose",
+          "summary": "Freeport-McMoRan ($FCX) saw a 7.6% increase as gold prices continued their ascent.",
+          "ticker": "$FCX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.6%",
+          "direction": "up"
+        },
+        {
+          "id": "rost-gainer",
+          "headline": "Ross Stores rallied after strong earnings",
+          "summary": "Ross Stores ($ROST) rallied 4.4% following a stronger-than-expected profit and revenue report for its latest quarter.",
           "ticker": "$ROST",
           "price": "N/A",
           "change": "N/A",
@@ -62,110 +134,71 @@
           "direction": "up"
         },
         {
-          "id": "tesla-gainer",
-          "headline": "Tesla Rises Despite Recall News",
-          "summary": "Tesla ($TSLA) climbed +5.1% on Friday, closing up $17.73, even as news broke of a major recall of 2.98 million vehicles in China starting September 25 for software updates and warning labels.",
-          "ticker": "$TSLA",
-          "price": "$362.86",
-          "change": "+$17.73",
-          "changePercent": "+5.1%",
-          "direction": "up"
-        },
-        {
-          "id": "bitcoin-rally",
-          "headline": "Bitcoin Surges, Boosting Crypto Stocks",
-          "summary": "Bitcoin ($BTC) surged +9.4% on Friday to trade above $79,000, bringing its weekly gain to +22%. This rally fueled a rise in crypto-related stocks, with Strategy ($MSTR) up +6%, Robinhood ($HOOD) up +13%, and Coinbase ($COIN) up +8%.",
-          "ticker": "$BTC",
-          "price": "$79,000+",
+          "id": "sam-loser",
+          "headline": "Boston Beer sank on CFO departure news",
+          "summary": "Boston Beer ($SAM) declined 2.6% after the company announced the departure of its chief financial officer.",
+          "ticker": "$SAM",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.4%",
-          "direction": "up",
-          "tags": [
-            "Crypto",
-            "Bitcoin",
-            "Gainers"
-          ]
-        },
-        {
-          "id": "klarna-loser",
-          "headline": "Klarna Plummets as Week's Top Loser",
-          "summary": "Klarna Group PLC ($KLAR) was the worst-performing stock for the week ending August 22, 2026, experiencing a significant decline of -31.07%.",
-          "ticker": "$KLAR",
-          "price": "$14.33",
-          "change": "N/A",
-          "changePercent": "-31.07% (weekly)",
-          "direction": "down"
-        },
-        {
-          "id": "iqiyi-loser",
-          "headline": "iQIYI Records Steep Weekly Decline",
-          "summary": "iQIYI, Inc. ($IQ) registered the second-largest weekly price decline, falling -22.14% by the end of the trading week.",
-          "ticker": "$IQ",
-          "price": "$1.05",
-          "change": "N/A",
-          "changePercent": "-22.14% (weekly)",
+          "changePercent": "-2.6%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Healthcare and Energy Lead Weekly Sector Performance",
-          "summary": "For the week ending August 22, 2026, Healthcare emerged as the leading sector, gaining +4.19%, followed by Energy, which rose +2.39%. Conversely, Industrials and Utilities were the weakest performers, declining -4.23% and -3.65% respectively. Industrial stocks have shown a strong year-to-date performance, up 16% in 2026, largely due to demand for AI infrastructure, making them the S&P 500's most expensive sector.",
+          "id": "sector-performance",
+          "headline": "Healthcare and Energy Led Weekly Sector Performance",
+          "summary": "For the week ending August 21, the healthcare sector was the top performer, rising 4.19%, followed by energy, which gained 2.39%. Conversely, industrials and utilities were the weakest sectors, declining 4.23% and 3.65% respectively.",
           "tags": [
             "Sector Analysis",
-            "Healthcare",
-            "Energy",
-            "Industrials",
-            "Utilities"
+            "Weekly Performance"
           ]
         },
         {
-          "id": "economic-data-pmi",
-          "headline": "U.S. Business Activity Remains Solid in August",
-          "summary": "The preliminary S&P Global Composite Purchasing Managers' Index for August increased to 56.04, the highest reading since March 2022, signaling robust business activity. Services PMI also rose to 56.8. This strong activity supports corporate earnings but may reduce urgency for lower interest rates.",
+          "id": "economic-data",
+          "headline": "U.S. Business Activity Reaches 52-Month High",
+          "summary": "A preliminary report from S&P Global indicated that U.S. business activity expanded to a 52-month high, fueling optimism for corporate profit growth.",
           "tags": [
             "Economic Data",
-            "PMI",
-            "Business Activity"
+            "S&P Global"
           ]
         },
         {
-          "id": "treasury-yields-inflation",
-          "headline": "Treasury Yields Remain Elevated Despite Buyback Efforts; Inflationary Concerns Persist",
-          "summary": "Long-term Treasury yields remained a central concern, with the 10-year yield at 4.73% and the 30-year yield at 5.27% at Friday's close, after briefly receding following the Treasury Department's announcement to double long-bond buybacks to at least $4 billion per operation starting September 9. Inflation continues to be stubbornly high, with the Federal Reserve's preferred measure, the Personal Consumption Expenditures (PCE) report for July, due next week.",
+          "id": "treasury-bond-market",
+          "headline": "Treasury Interventions and Yields",
+          "summary": "The U.S. Treasury Department boosted its long-term debt buyback plans, with Secretary Scott Bessent announcing a doubling of operations from $2 billion to at least $4 billion. Despite this, the yield on the 10-year Treasury note continued its climb, rising to 4.73% from 4.69% on Thursday.",
           "tags": [
-            "Economic News",
-            "Treasury Yields",
-            "Inflation",
-            "Federal Reserve"
+            "Treasury",
+            "Bond Market",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "commodities-crypto",
+          "headline": "Commodities and Crypto See Gains",
+          "summary": "Oil prices advanced, and gold prices surged, briefly exceeding $4,690 per ounce. Bitcoin also experienced a significant rally, climbing above $77,000, driven by hopes for supportive crypto legislation.",
+          "tags": [
+            "Commodities",
+            "Cryptocurrency",
+            "Oil",
+            "Gold",
+            "Bitcoin"
           ]
         },
         {
           "id": "upcoming-events",
-          "headline": "Nvidia Earnings and Jackson Hole Symposium on Deck Next Week",
-          "summary": "Investors are keenly awaiting Nvidia's ($NVDA) earnings report, scheduled for next Wednesday, which will provide crucial insights into chip demand and AI spending. Additionally, the Jackson Hole symposium (August 27-29) and any comments from Fed Chair Kevin Warsh will be closely watched for signals on monetary policy.",
+          "headline": "Week Ahead: Jackson Hole Symposium and Nvidia Earnings Eyed",
+          "summary": "The upcoming week will feature the Jackson Hole Economic Policy Symposium, with Federal Reserve Chairman Warsh expected to deliver a keynote speech. Major earnings reports, including Nvidia, will also be closely watched for insights into AI demand and broader market trends. Key economic data releases include the Personal Income and Outlays report for July and annual revisions to nonfarm payrolls.",
           "tags": [
-            "Upcoming Events",
-            "Earnings",
-            "Nvidia",
+            "Economic Calendar",
             "Fed",
-            "Jackson Hole"
-          ]
-        },
-        {
-          "id": "amer-sports-earnings",
-          "headline": "Amer Sports Reports Strong Q2 Results and Raised Guidance",
-          "summary": "Amer Sports ($AS) reported a strong second quarter for 2026, with revenue increasing 32% to $1,633 million and adjusted diluted earnings per share reaching $0.22. The company also raised its full-year revenue, margin, and EPS guidance.",
-          "tags": [
-            "Earnings",
-            "Amer Sports"
+            "Earnings"
           ]
         }
       ]
