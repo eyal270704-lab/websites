@@ -1,182 +1,224 @@
 {
-  "generatedAt": "2026-08-25T07:41:00Z",
+  "generatedAt": "2026-08-25T12:26:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, August 25, 2026 - Pre-Market Update",
-  "badge": "Pre-Market",
+  "subtitle": "August 25, 2026 Market Update",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Futures Edge Up Ahead of Key Economic Events",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Futures Mixed Ahead of Key Events; Tech Under Pressure",
-          "summary": "U.S. stock futures showed a mixed performance early Tuesday, following Monday's session where the Dow Jones Industrial Average gained 0.26% but the S&P 500 and Nasdaq Composite declined by 0.28% and 0.76% respectively. Investors are keenly awaiting Nvidia's earnings report due Wednesday and a speech from Federal Reserve Chair Kevin Warsh on Friday. Geopolitical tensions surrounding new U.S. sanctions on Iran also continue to influence market sentiment.",
+          "id": "market-overview",
+          "headline": "U.S. Futures Show Modest Gains; Focus Shifts to Nvidia Earnings and Fed Commentary",
+          "summary": "U.S. stock futures are trading modestly higher this Tuesday morning as investors anticipate Nvidia's ($NVDA) earnings report due tomorrow and a crucial inflation report (PCE index) on Wednesday. The Federal Reserve's annual symposium in Jackson Hole, featuring a speech from Chairman Kevin Warsh, is also keenly awaited later in the week for insights into interest rate policy.",
           "tags": [
-            "Market Overview",
-            "Pre-Market",
-            "Economic Outlook"
+            "Market Open",
+            "Futures",
+            "Economic Data",
+            "Fed"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Close: August 24, 2026)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "+0.37%",
+          "statContext": "Today (August 25, 2026)",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "+0.77%",
+          "statContext": "Today (August 25, 2026)",
+          "direction": "up"
+        },
+        {
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "+0.33%",
+          "statContext": "Today (August 25, 2026)",
+          "direction": "up"
+        },
+        {
+          "id": "sp500-monday",
           "statLabel": "S&P 500",
-          "statValue": "7,652.86",
-          "statContext": "-0.28% (-21.51 points)"
+          "statValue": "-0.28%",
+          "statContext": "Monday Close (August 24, 2026): 7,652.86",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-monday",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,980.19",
-          "statContext": "-0.76% (-200.26 points)"
+          "statValue": "-0.76%",
+          "statContext": "Monday Close (August 24, 2026): 25,980.19",
+          "direction": "down"
         },
         {
-          "id": "dow-close",
+          "id": "dow-monday",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,417.16",
-          "statContext": "+0.26% (+140.15 points)"
-        },
-        {
-          "id": "russell2000-close",
-          "statLabel": "Russell 2000",
-          "statValue": "2,995.08",
-          "statContext": "-0.75% (-22.79 points)"
+          "statValue": "+0.26%",
+          "statContext": "Monday Close (August 24, 2026): 53,417.16",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Close: August 24, 2026)",
+      "title": "Top Movers: Early Indicators for August 25, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "alvo-gainer",
-          "headline": "Alvotech surged on analyst upgrade",
-          "ticker": "$ALVO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.00%",
-          "direction": "up",
-          "summary": "Alvotech shares gained after BofA Securities initiated coverage with a 'Buy' rating."
-        },
-        {
-          "id": "rum-gainer",
-          "headline": "Rumble soared on major commercial agreement",
-          "ticker": "$RUM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.00%",
-          "direction": "up",
-          "summary": "The company secured a six-year, $13.7 billion commercial agreement for GPU services."
-        },
-        {
           "id": "expe-gainer",
-          "headline": "Expedia Group among top performers",
+          "headline": "Expedia Group Rises on Analyst Optimism",
           "ticker": "$EXPE",
-          "price": "$339.12",
+          "price": "N/A",
           "change": "N/A",
           "changePercent": "+5.44%",
           "direction": "up",
-          "summary": "Expedia Group saw notable gains in Monday's session."
+          "summary": "Expedia Group saw an early gain of +5.44% today following positive analyst price target adjustments."
         },
         {
-          "id": "aaoi-loser",
-          "headline": "Applied Optoelectronics led decliners",
-          "ticker": "$AAOI",
-          "price": "$110.34",
+          "id": "dltr-gainer",
+          "headline": "Dollar Tree Continues Upward Momentum",
+          "ticker": "$DLTR",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.60%",
-          "direction": "down",
-          "summary": "Applied Optoelectronics experienced a significant drop, leading the session's losers."
+          "changePercent": "+4.01%",
+          "direction": "up",
+          "summary": "Dollar Tree recorded a +4.01% increase in early trading."
         },
         {
-          "id": "hims-loser",
-          "headline": "Hims & Hers declined notably",
-          "ticker": "$HIMS",
-          "price": "$30.91",
+          "id": "chd-gainer",
+          "headline": "Church & Dwight Posts Solid Gain",
+          "ticker": "$CHD",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.50%",
-          "direction": "down",
-          "summary": "Hims & Hers also saw a substantial fall during Monday's trading."
+          "changePercent": "+3.78%",
+          "direction": "up",
+          "summary": "Church & Dwight shares climbed +3.78% in early Tuesday trading."
         },
         {
-          "id": "mu-loser",
-          "headline": "Micron Technology slid amid tech weakness",
-          "ticker": "$MU",
-          "price": "$910.43",
+          "id": "asts-loser",
+          "headline": "AST SpaceMobile Experiences Significant Decline",
+          "ticker": "$ASTS",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.83%",
+          "changePercent": "-9.18%",
           "direction": "down",
-          "summary": "Micron Technology shares fell as semiconductor stocks broadly weakened."
+          "summary": "AST SpaceMobile dropped -9.18% in early trading, making it a significant loser."
+        },
+        {
+          "id": "p-loser",
+          "headline": "Everpure Shares Fall",
+          "ticker": "$P",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.47%",
+          "direction": "down",
+          "summary": "Everpure experienced a decline of -7.47% in the morning session."
+        },
+        {
+          "id": "mdb-loser",
+          "headline": "MongoDB Slides Despite Positive Analyst Sentiment",
+          "ticker": "$MDB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.53%",
+          "direction": "down",
+          "summary": "MongoDB fell by -6.53% despite recent analyst upgrades to its price target."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-outlook",
-          "headline": "Fed Chair Warsh to Speak Amid Rate Hike Speculation",
-          "summary": "Federal Reserve Chairman Kevin Warsh is scheduled to deliver a key speech at the Jackson Hole Economic Policy Symposium on Friday, August 28, with increasing pressure on the Fed to address inflation concerns. The FOMC minutes from July 28-29, released August 19, indicated a 9-3 vote to hold rates at 3.5%-3.75%, though some regional presidents favored a hike.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
           "id": "nvidia-earnings",
-          "headline": "Nvidia Earnings Eyed as Major Market Catalyst This Week",
-          "summary": "All eyes are on Nvidia ($NVDA), which is set to report its quarterly earnings on Wednesday, August 26. The report is widely considered the most important market event of the week, with analysts anticipating approximately $92 billion in quarterly revenue and $29 EPS. The AI giant's performance could dictate the next major move for AI-related stocks.",
+          "headline": "Nvidia Earnings and PCE Index Awaited This Week",
+          "summary": "Investors are keenly awaiting Nvidia's ($NVDA) second-quarter fiscal 2027 earnings report scheduled for after market close on Wednesday. Also due Wednesday is the personal consumption expenditures (PCE) price index for July, the Federal Reserve's preferred inflation gauge, which will provide crucial insights into inflation trends.",
           "tags": [
-            "Earnings Report",
-            "Technology",
-            "AI"
+            "Earnings",
+            "Inflation",
+            "Nvidia"
           ]
         },
         {
-          "id": "iran-sanctions",
-          "headline": "U.S. Imposes New Sanctions on Iran, Escalating Geopolitical Tensions",
-          "summary": "The U.S. Treasury Secretary Scott Bessent announced new sanctions against Iran on Monday, warning of an 'economic D-Day' aimed at entities financially connected to Tehran. The move is part of an escalated strategy to pressure Iran, contributing to market jitters and causing Iran's currency to hit a record low.",
+          "id": "jackson-hole-symposium",
+          "headline": "Fed's Jackson Hole Symposium in Focus",
+          "summary": "The Federal Reserve's annual symposium in Jackson Hole, Wyoming, is scheduled for the end of the week, with Federal Reserve Chairman Kevin Warsh expected to deliver a significant speech. Markets will be scrutinizing his comments for any indications regarding the future path of interest rates."
+        },
+        {
+          "id": "iran-sanctions-oil",
+          "headline": "U.S. Sanctions on Iran and Retreating Oil Prices",
+          "summary": "The U.S. announced broader sanctions aimed at Iran, warning countries doing business with Tehran could lose access to the U.S. dollar-based financial system. Despite rising tensions, oil prices retreated, with Brent crude falling 2.35% to $89.99 a barrel and WTI crude down 2.74% to $83.17 a barrel.",
           "tags": [
             "Geopolitics",
-            "Sanctions",
-            "Oil Prices"
+            "Oil Prices",
+            "Sanctions"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Tech Underperforms as Investors Seek Defensive Sectors",
-          "summary": "Monday saw Information Technology as the worst-performing sector, down 1.59%, with semiconductor stocks specifically weakening. In contrast, consumer staples emerged as the top-performing sector, gaining 1.76%, as investors rotated into defensive names amid broader market uncertainty. Energy, Financials, and Healthcare also showed strength in recent trends.",
+          "id": "german-economy-optimism",
+          "headline": "Germany's Economy Shows Signs of Optimism",
+          "summary": "Europe's largest economy, Germany, reported better-than-expected Q2 2026 GDP growth of 0.3%, surpassing the anticipated 0.2%. Business confidence also rose for the fourth consecutive month, reaching 88.8 points in August, suggesting a recovery from economic stagnation.",
+          "tags": [
+            "Global Economy",
+            "GDP",
+            "Business Confidence"
+          ]
+        },
+        {
+          "id": "bmo-earnings",
+          "headline": "BMO Financial Group Reports Q3 2026 Results",
+          "summary": "BMO Financial Group ($BMO) announced Q3 2026 net income of $1,750 million, with adjusted net income rising 19% to $2,859 million and adjusted EPS up 22% to $3.96. The bank noted strong momentum in Capital Markets and Wealth Management.",
+          "tags": [
+            "Earnings",
+            "Financials"
+          ]
+        },
+        {
+          "id": "dks-earnings",
+          "headline": "DICK'S Sporting Goods Releases Q2 2026 Results",
+          "summary": "DICK'S Sporting Goods, Inc. ($DKS) reported its second-quarter results for the period ended August 1, 2026, highlighting compelling new experiences driving athlete engagement and sales growth. Full year 2026 net sales are projected between $21.9 billion and $22.2 billion.",
+          "tags": [
+            "Earnings",
+            "Retail"
+          ]
+        },
+        {
+          "id": "ehang-earnings",
+          "headline": "EHang Holdings Reports Q2 2026 Financials",
+          "summary": "EHang Holdings Limited ($EH) announced unaudited financial results for the second quarter ended June 30, 2026, including the sales and deliveries of 36 units of electric vertical take-off and landing (eVTOL) aircraft.",
+          "tags": [
+            "Earnings",
+            "Aerospace",
+            "Technology"
+          ]
+        },
+        {
+          "id": "medical-services-lagging",
+          "headline": "Medical Services Sector Lags Broader Market",
+          "summary": "The Medical Services industry has underperformed both its sector and the S&P 500 over the past year, with stocks in the industry collectively gaining 12% compared to the Medical sector's 13.5% and the S&P 500's 21% growth.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Consumer Staples"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Key Economic Data Releases Expected Today",
-          "summary": "Today's economic calendar includes the final German Q2 GDP, German Ifo Expectations for August, and U.S. ADP Employment Change data. These releases could provide further insights into global economic health and labor market conditions.",
-          "tags": [
-            "Economic Data",
-            "Global Economy"
+            "Healthcare"
           ]
         }
       ]
