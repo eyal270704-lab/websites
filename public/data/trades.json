@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-25T10:39:38.044123Z",
+  "generatedAt": "2026-08-25T14:53:09.771818Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 7,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -100,19 +100,51 @@
       "source": "Watchlist"
     },
     {
+      "ticker": "$MRNA",
+      "name": "Moderna Inc.",
+      "sector": "Biotechnology",
+      "currentPrice": "$139.64",
+      "entry": "$135.00",
+      "stop": "$125.00",
+      "structure": "Support Test",
+      "trend": "> 200MA, Overbought RSI",
+      "trendLabel": "Trend",
+      "analysis": "Moderna is in a strongly bullish trend, trading significantly above its key moving averages. However, the stock shows overbought RSI conditions, suggesting a potential near-term pullback. An entry on a retest of minor support or psychological level around $135.00 with a stop below $125.00 could be considered on a retracement.",
+      "riskScore": 6,
+      "footerTag": "Momentum",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MRK",
+      "name": "Merck & Co., Inc.",
+      "sector": "Pharmaceuticals",
+      "currentPrice": "$150.66",
+      "entry": "$136.30",
+      "stop": "$129.65",
+      "structure": "20-day EMA Retest",
+      "trend": "Strong Bullish, Golden Cross",
+      "trendLabel": "Trend",
+      "analysis": "Merck is exhibiting a strong bullish trend, with its 50-day moving average above the 200-day (Golden Cross) and positive volume balance. The stock is currently overbought with a high RSI. A pullback to the 20-day exponential moving average around $136.30 could provide a low-risk entry, with a stop below the 50-day EMA.",
+      "riskScore": 5,
+      "footerTag": "High Confidence",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
       "ticker": "$NVDA",
       "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "currentPrice": "$214.72",
-      "entry": "$201.02",
-      "stop": "$192.30",
-      "structure": "0.5 Fib Retracement",
-      "trend": "RVOL 1.34x, >200MA",
-      "trendLabel": "Volume & Trend",
-      "analysis": "NVIDIA is trading above its long-term 200-day moving average ($195.08), indicating a bullish trend, but currently consolidating near its 20-day EMA ($215.45). Relative volume is elevated at 1.34x, with a daily volume of 135.19M against an average of 100.47M. The stock has upcoming earnings on August 26, 2026, marking it as a high-risk setup. An entry at the 0.5 Fibonacci retracement level of $201.02 with a stop at the 0.618 Fibonacci level of $192.30 could be considered for a potential bounce, but extreme caution is warranted due to the immediate earnings catalyst.",
-      "riskScore": 9,
+      "sector": "Semiconductors",
+      "currentPrice": "$209.31",
+      "entry": "$207.00",
+      "stop": "$194.00",
+      "structure": "50-day MA Support",
+      "trend": "Long-term Uptrend, Weakened Momentum",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is in a long-term uptrend, trading above its 50, 100, and 200-day moving averages. However, short-term momentum has weakened with the price below the 20-day SMA and below-average relative volume. The stock has an earnings report confirmed for August 26, 2026, presenting a significant short-term catalyst and high risk.",
+      "riskScore": 10,
       "footerTag": "High Risk - Earnings",
-      "setupType": "risky",
+      "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
   ]
