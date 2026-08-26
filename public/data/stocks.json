@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T16:39:00Z",
+  "generatedAt": "2026-08-26T07:42:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, August 25, 2026 - Mid-Day Update",
-  "badge": "LIVE",
+  "subtitle": "Wednesday, August 26, 2026: Pre-market Update",
+  "badge": "Pre-market Update",
   "sections": [
     {
       "id": "market-pulse-overview",
@@ -14,157 +14,136 @@
       "items": [
         {
           "id": "market-summary-aug25",
-          "headline": "U.S. Equities Show Modest Gains Mid-Day as Investors Await Key Economic Data and Nvidia Earnings",
-          "summary": "U.S. stock markets are exhibiting modest gains across major indices in mid-day trading today, August 25, 2026. A cautious sentiment prevails as investors look ahead to crucial inflation data later this week and the highly anticipated quarterly earnings report from AI heavyweight Nvidia. Falling oil prices are contributing to an easing of bond market worries and providing some support to equity prices.",
+          "headline": "Markets Closed Tuesday with Mixed Results as Tech Sector Recovers, Awaiting Key Data",
+          "summary": "U.S. equities closed Tuesday, August 25, with major indices showing mixed results. The S&P 500 and Dow Jones Industrial Average posted modest gains, while the Nasdaq Composite climbed higher, buoyed by a recovery in chipmakers and declining Treasury yields. Investors also continued to weigh geopolitical tensions and look ahead to crucial economic data and earnings reports scheduled for today.",
           "tags": [
-            "Market Update",
-            "Economic Outlook",
-            "Nvidia Earnings"
+            "Market Overview",
+            "August 25 Close"
           ]
         }
       ]
     },
     {
       "id": "major-indices-performance",
-      "title": "Major Indices",
+      "title": "Major Indices (Tuesday, August 25, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-aug25",
           "statLabel": "S&P 500",
-          "statValue": "7,672.29",
-          "statContext": "Up 0.3% (+19.43 points) in mid-day trading."
+          "statValue": "7,677.28",
+          "statContext": "Up 24.42 points (+0.3%)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-aug25",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,130.66",
-          "statContext": "Advanced 0.6% (+150.47 points) in mid-day trading."
+          "statValue": "26,151.30",
+          "statContext": "Up 171.11 points (+0.7%)",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-aug25",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,471.79",
-          "statContext": "Gained 0.1% (+54.63 points) in mid-day trading."
+          "statValue": "53,577.40",
+          "statContext": "Up 160.24 points (+0.3%)",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-aug25",
+      "title": "Top Movers (Tuesday, August 25, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-mrna",
-          "headline": "Moderna surges on positive vaccine trial results",
+          "id": "mrna-gainer-aug25",
+          "headline": "Moderna Surges on Positive Melanoma Vaccine Data",
           "ticker": "$MRNA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.5%",
+          "price": "$158.83",
+          "change": "+$19.92",
+          "changePercent": "+14.36%",
           "direction": "up",
-          "summary": "Shares of biotech Moderna ($MRNA) climbed 10.5% in early trading following successful late-stage trial results for an experimental personalized mRNA cancer vaccine."
+          "summary": "Moderna Inc. led S&P 500 gainers after announcing positive Phase 3 data for its personalized melanoma vaccine."
         },
         {
-          "id": "gainer-smci",
-          "headline": "Super Micro Computer gains after Cisco partnership",
+          "id": "smci-gainer-aug25",
+          "headline": "Super Micro Computer Rises on Cisco Partnership",
           "ticker": "$SMCI",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.0%",
+          "price": "$38.46",
+          "change": "+$3.29",
+          "changePercent": "+9.35%",
           "direction": "up",
-          "summary": "Super Micro Computer ($SMCI) gained 8% after Cisco ($CSCO) announced a new partnership to expand its AI infrastructure portfolio."
+          "summary": "Super Micro Computer saw significant gains following the announcement of a new rack partnership with Cisco."
         },
         {
-          "id": "gainer-nvts",
-          "headline": "Navitas Semiconductor jumps on acquisition news",
-          "ticker": "$NVTS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8.0%",
-          "direction": "up",
-          "summary": "Navitas Semiconductor ($NVTS) advanced 8% after agreeing to acquire power management solutions provider Claros in a deal valued up to $232.8M, aiming to double its serviceable addressable market for AI data centers."
-        },
-        {
-          "id": "loser-dks",
-          "headline": "Dick's Sporting Goods tumbles on earnings miss",
-          "ticker": "$DKS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-26.1%",
-          "direction": "down",
-          "summary": "Dick's Sporting Goods ($DKS) cratered 26.1% after the retailer missed Wall Street's second-quarter earnings forecasts and slashed its full-year profit outlook."
-        },
-        {
-          "id": "loser-asts",
-          "headline": "AST SpaceMobile declines",
-          "ticker": "$ASTS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.18%",
-          "direction": "down",
-          "summary": "AST SpaceMobile ($ASTS) saw a decline of 9.18% in early trading today."
-        },
-        {
-          "id": "loser-alb",
-          "headline": "Albemarle slips after JPMorgan price target cut",
+          "id": "alb-loser-aug25",
+          "headline": "Albemarle Falls as JPM Cuts Forecast Amid Lithium Price Retreat",
           "ticker": "$ALB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.9%",
+          "price": "$133.18",
+          "change": "-$8.32",
+          "changePercent": "-5.89%",
           "direction": "down",
-          "summary": "Albemarle ($ALB) shares slipped 5.9% after JPMorgan cut its price target on the specialty chemicals company from $160 to $140 amid reassessments of market conditions and commodity pricing."
+          "summary": "Albemarle Corporation was the biggest decliner in the S&P 500 after J.P. Morgan lowered its full-year EBITDA forecast and price target due to retreating lithium prices."
+        },
+        {
+          "id": "dks-loser-aug25",
+          "headline": "DICK'S Sporting Goods Plunges on Weak Guidance",
+          "ticker": "$DKS",
+          "price": "$124.31",
+          "change": "-$55.03",
+          "changePercent": "-30.68%",
+          "direction": "down",
+          "summary": "DICK'S Sporting Goods experienced a sharp decline after missing profit and revenue estimates and cutting full-year guidance. (Note: DKS is not an S&P 500 constituent)."
         }
       ]
     },
     {
-      "id": "market-news-today",
-      "title": "Market News",
+      "id": "market-news-aug26",
+      "title": "Market News - August 26, 2026",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-aug25",
-          "headline": "Technology Stocks Rebound as Energy and Consumer Staples Lag",
-          "summary": "Technology stocks are seeing a rebound today, easing pressure after a mixed trading day on Monday. Meanwhile, the Energy sector is lagging with a 1.35% decline, and Consumer Staples are also down 0.43%. Communication Services and Consumer Discretionary sectors are showing some strength, up 0.48% and 0.39% respectively.",
+          "id": "nvidia-earnings-aug26",
+          "headline": "Nvidia to Report Highly Anticipated Q2 Earnings After Close Today",
+          "summary": "All eyes are on Nvidia ($NVDA), the AI chip giant, which is scheduled to report its fiscal 2027 second-quarter earnings after market close today. The report is expected to be a key driver for the semiconductor complex and broader market sentiment.",
           "tags": [
-            "Sector Performance",
+            "Earnings",
             "Technology",
-            "Energy"
+            "AI"
           ]
         },
         {
-          "id": "economic-data-aug25",
-          "headline": "Consumer Confidence Weakens, Housing Data Mixed Amid Inflation Watch",
-          "summary": "The Conference Board Consumer Confidence Index for August decreased by 0.8 points to 89.4, with expectations for the future becoming more pessimistic despite improved assessments of the present situation. The S&P/Case-Shiller Home Price Index for June showed a 1.5% month-over-month improvement but fell in 'real terms' for the thirteenth consecutive month. New Home Sales for July are anticipated to tick down.",
+          "id": "economic-data-aug26",
+          "headline": "Key U.S. Economic Data Releases Expected Today",
+          "summary": "Several important economic data points are slated for release today, including U.S. Durable Goods, Personal Consumption Expenditures (PCE) Price Index, and the second estimate of Q2 GDP. These releases will provide fresh insights into inflation and economic growth, influencing Federal Reserve expectations.",
           "tags": [
             "Economic Data",
-            "Consumer Confidence",
-            "Housing Market"
-          ]
-        },
-        {
-          "id": "fed-speak-jackson-hole",
-          "headline": "Fed Officials Look to Jackson Hole for Policy Direction as Inflation Data Looms",
-          "summary": "Federal Reserve Chairman Kevin Warsh is expected to deliver a speech at the annual Jackson Hole Economic Policy Symposium later this week. Boston Federal Reserve President Susan Collins indicated that a policy tightening would be appropriate soon if evidence of sustained inflation progress does not materialize. Investors are keenly awaiting the release of the Personal Consumption Expenditures (PCE) price index for July, scheduled for Wednesday, as a key inflation gauge.",
-          "tags": [
-            "Federal Reserve",
-            "Monetary Policy",
             "Inflation",
-            "Jackson Hole Symposium"
+            "GDP"
           ]
         },
         {
-          "id": "earnings-nvidia-dks",
-          "headline": "Nvidia Earnings on Horizon; Dick's Sporting Goods Disappoints",
-          "summary": "All eyes are on chipmaking giant Nvidia ($NVDA), which is scheduled to release its quarterly earnings report after the market close on Wednesday. This report is seen as a crucial test for market risk appetite, particularly concerning the AI trade. In other earnings news, Dick's Sporting Goods ($DKS) reported a significant miss in its second-quarter earnings and cut its full-year profit outlook, leading to a sharp decline in its stock. BMO Financial Group ($BMO) also reported its Q3 results today, with adjusted net income rising 19% year-over-year despite a decrease in reported net income. EHang Holdings ($EH) announced a substantial 203.5% quarter-over-quarter revenue increase in Q2, though its net loss also widened.",
+          "id": "oil-prices-geopolitics",
+          "headline": "Oil Prices Fall Amid Easing Hormuz Tensions, Treasury Yields Decline",
+          "summary": "Brent crude prices fell 3.6% on Tuesday, marking a second consecutive decline, which helped alleviate bond market concerns and supported equity prices. This drop occurred despite increased U.S.-Iran tensions and new sanctions, as reports indicated mines were cleared from the Strait of Hormuz.",
           "tags": [
-            "Earnings Report",
-            "Nvidia",
-            "Retail",
-            "Banking",
-            "Aerospace"
+            "Commodities",
+            "Geopolitics",
+            "Bond Market"
+          ]
+        },
+        {
+          "id": "sector-performance-aug25",
+          "headline": "Information Technology Leads Tuesday's Gains, Energy Sector Lags",
+          "summary": "The Information Technology sector was the top performer on Tuesday, driven by a rally in AI-related stocks. Conversely, the Energy sector experienced the largest decline due to falling oil prices. Consumer Staples and Financials also showed strength.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Energy"
           ]
         }
       ]
