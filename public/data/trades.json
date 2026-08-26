@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T06:35:30.698449Z",
+  "generatedAt": "2026-08-26T19:53:33.659767Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$SNPS",
+      "name": "Synopsys Inc.",
+      "sector": "Technology Services",
+      "currentPrice": "$408.79",
+      "entry": "$380.00",
+      "stop": "$360.00",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Synopsys is in a strong bearish trend, trading well below key moving averages. Earnings are due today after market close, making it a high-risk scenario. Price is approaching significant support levels, but the overall technical picture is weak, indicating an avoid setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$INTC",
+      "name": "Intel Corporation",
+      "sector": "Electronic Technology",
+      "currentPrice": "$31.97",
+      "entry": "$30.00",
+      "stop": "$29.00",
+      "structure": "52-week Low Support",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Intel is in a significant downtrend, trading at levels near its 52-week low. While volume is subdued, the proximity to a major support level ($29.74) could present a speculative bounce opportunity, but the overall trend remains bearish.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$RKT",
+      "name": "Rocket Companies Inc.",
+      "sector": "Financial Services",
+      "currentPrice": "$12.37",
+      "entry": "$12.00",
+      "stop": "$9.50",
+      "structure": "Support Test",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Rocket Companies is experiencing a sustained downtrend, trading below all significant moving averages and well below the Fibonacci Golden Zone for a reversal. Volume is light, indicating a lack of buying interest. Proximity to the 52-week low suggests a potential support test, but no bullish setup is present.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
