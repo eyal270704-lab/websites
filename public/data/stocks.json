@@ -1,115 +1,175 @@
 {
-  "generatedAt": "2026-08-26T07:42:00Z",
+  "generatedAt": "2026-08-26T12:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, August 26, 2026: Pre-market Update",
-  "badge": "Pre-market Update",
+  "subtitle": "Wednesday, August 26, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse-20260826",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug25",
-          "headline": "Markets Closed Tuesday with Mixed Results as Tech Sector Recovers, Awaiting Key Data",
-          "summary": "U.S. equities closed Tuesday, August 25, with major indices showing mixed results. The S&P 500 and Dow Jones Industrial Average posted modest gains, while the Nasdaq Composite climbed higher, buoyed by a recovery in chipmakers and declining Treasury yields. Investors also continued to weigh geopolitical tensions and look ahead to crucial economic data and earnings reports scheduled for today.",
+          "id": "market-summary-20260826",
+          "headline": "U.S. Futures Mixed as Investors Eye Key Inflation Data and Nvidia Earnings",
+          "summary": "U.S. stock futures showed mixed movements this morning as markets brace for the release of the Personal Consumption Expenditures (PCE) Price Index for July and highly anticipated Q2 earnings from semiconductor giant Nvidia ($NVDA) after the close. Oil prices continued their recent decline, easing concerns over geopolitical tensions. Yesterday, major indices closed higher, driven by a technology rebound and falling Treasury yields. Not financial advice.",
           "tags": [
             "Market Overview",
-            "August 25 Close"
+            "Futures",
+            "Economic Data",
+            "Earnings"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices (Tuesday, August 25, 2026 Close)",
+      "id": "major-indices-20260826",
+      "title": "Major Indices (After-hours/Pre-market on Aug 26, 2026; Close on Aug 25, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-aug25",
-          "statLabel": "S&P 500",
-          "statValue": "7,677.28",
-          "statContext": "Up 24.42 points (+0.3%)",
-          "direction": "up"
+          "id": "dow-futures-20260826",
+          "headline": "Dow Futures Up",
+          "statLabel": "Dow Jones Futures (5:27 a.m. EDT)",
+          "statValue": "+0.07%",
+          "statContext": "Slightly positive ahead of market open."
         },
         {
-          "id": "nasdaq-aug25",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,151.30",
-          "statContext": "Up 171.11 points (+0.7%)",
-          "direction": "up"
+          "id": "sp500-futures-20260826",
+          "headline": "S&P 500 Futures Down",
+          "statLabel": "S&P 500 Futures (5:27 a.m. EDT)",
+          "statValue": "-0.07%",
+          "statContext": "Modestly lower in early trading."
         },
         {
-          "id": "dow-aug25",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "nasdaq-futures-20260826",
+          "headline": "Nasdaq Futures Lower",
+          "statLabel": "NASDAQ 100 Futures (5:27 a.m. EDT)",
+          "statValue": "-0.20%",
+          "statContext": "Underperforming as tech awaits Nvidia earnings."
+        },
+        {
+          "id": "dow-close-20260825",
+          "headline": "Dow Jones Closed Higher Yesterday",
+          "statLabel": "Dow Jones ($DJIA) (Aug 25 Close)",
           "statValue": "53,577.40",
-          "statContext": "Up 160.24 points (+0.3%)",
-          "direction": "up"
+          "change": "+160.24",
+          "changePercent": "+0.30%",
+          "direction": "up",
+          "statContext": "Driven largely by Goldman Sachs' strong performance."
+        },
+        {
+          "id": "sp500-close-20260825",
+          "headline": "S&P 500 Rose Yesterday",
+          "statLabel": "S&P 500 ($SPX) (Aug 25 Close)",
+          "statValue": "7,677.28",
+          "changePercent": "+0.32%",
+          "direction": "up",
+          "statContext": "Benefited from falling Treasury yields and tech rebound."
+        },
+        {
+          "id": "nasdaq-close-20260825",
+          "headline": "NASDAQ Composite Led Gains Yesterday",
+          "statLabel": "NASDAQ Composite ($COMP) (Aug 25 Close)",
+          "statValue": "26,151.30",
+          "changePercent": "+0.66%",
+          "direction": "up",
+          "statContext": "Semiconductor rally ahead of Nvidia earnings provided strong momentum."
         }
       ]
     },
     {
-      "id": "top-movers-aug25",
+      "id": "top-movers-20260825",
       "title": "Top Movers (Tuesday, August 25, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mrna-gainer-aug25",
-          "headline": "Moderna Surges on Positive Melanoma Vaccine Data",
-          "ticker": "$MRNA",
-          "price": "$158.83",
-          "change": "+$19.92",
-          "changePercent": "+14.36%",
-          "direction": "up",
-          "summary": "Moderna Inc. led S&P 500 gainers after announcing positive Phase 3 data for its personalized melanoma vaccine."
-        },
-        {
-          "id": "smci-gainer-aug25",
-          "headline": "Super Micro Computer Rises on Cisco Partnership",
+          "id": "smci-gainer-20260825",
+          "headline": "Super Micro Computer Surges on Cisco Partnership",
           "ticker": "$SMCI",
-          "price": "$38.46",
-          "change": "+$3.29",
+          "price": "N/A",
+          "change": "N/A",
           "changePercent": "+9.35%",
           "direction": "up",
-          "summary": "Super Micro Computer saw significant gains following the announcement of a new rack partnership with Cisco."
+          "summary": "Super Micro Computer led S&P 500 gainers after announcing a new rack partnership with Cisco.",
+          "tags": [
+            "Gainers",
+            "Technology",
+            "Partnership"
+          ]
         },
         {
-          "id": "alb-loser-aug25",
-          "headline": "Albemarle Falls as JPM Cuts Forecast Amid Lithium Price Retreat",
-          "ticker": "$ALB",
-          "price": "$133.18",
-          "change": "-$8.32",
-          "changePercent": "-5.89%",
-          "direction": "down",
-          "summary": "Albemarle Corporation was the biggest decliner in the S&P 500 after J.P. Morgan lowered its full-year EBITDA forecast and price target due to retreating lithium prices."
-        },
-        {
-          "id": "dks-loser-aug25",
-          "headline": "DICK'S Sporting Goods Plunges on Weak Guidance",
+          "id": "dks-loser-20260825",
+          "headline": "DICK'S Sporting Goods Plunges on Disappointing Results",
           "ticker": "$DKS",
           "price": "$124.31",
-          "change": "-$55.03",
+          "change": "N/A",
           "changePercent": "-30.68%",
           "direction": "down",
-          "summary": "DICK'S Sporting Goods experienced a sharp decline after missing profit and revenue estimates and cutting full-year guidance. (Note: DKS is not an S&P 500 constituent)."
+          "summary": "DICK'S Sporting Goods experienced its worst session on record since 2002 following the release of disappointing financial results.",
+          "tags": [
+            "Losers",
+            "Retail",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "nvda-gainer-20260825",
+          "headline": "Nvidia Rebounds Ahead of Earnings",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.2%",
+          "direction": "up",
+          "summary": "Nvidia snapped a seven-day losing streak, closing higher as investors positioned themselves ahead of its Q2 earnings report.",
+          "tags": [
+            "Gainers",
+            "Semiconductors",
+            "AI"
+          ]
+        },
+        {
+          "id": "apa-loser-20260825",
+          "headline": "APA Corp Among Energy Sector Losers",
+          "ticker": "$APA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.75%",
+          "direction": "down",
+          "summary": "The energy sector lagged as oil prices fell amid hopes of eased Mideast tensions. APA Corp was a significant decliner.",
+          "tags": [
+            "Losers",
+            "Energy",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-aug26",
-      "title": "Market News - August 26, 2026",
+      "id": "market-news-20260826",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "nvidia-earnings-aug26",
-          "headline": "Nvidia to Report Highly Anticipated Q2 Earnings After Close Today",
-          "summary": "All eyes are on Nvidia ($NVDA), the AI chip giant, which is scheduled to report its fiscal 2027 second-quarter earnings after market close today. The report is expected to be a key driver for the semiconductor complex and broader market sentiment.",
+          "id": "pce-data-20260826",
+          "headline": "July PCE Price Index Released Today",
+          "summary": "The July Personal Consumption Expenditures (PCE) Price Index, the Federal Reserve's preferred inflation gauge, is slated for release this morning. Economists anticipate a modest 0.1% month-over-month increase and a 3.6% year-over-year rise in prices.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "Fed"
+          ]
+        },
+        {
+          "id": "nvidia-earnings-20260826",
+          "headline": "Nvidia Earnings Eyed After Market Close",
+          "summary": "Nvidia ($NVDA) is scheduled to report its second-quarter fiscal 2027 earnings after the U.S. market closes today. Analysts project earnings of $2.09 per share on $92.2 billion in revenue, with market focus keenly on future guidance for the AI sector.",
           "tags": [
             "Earnings",
             "Technology",
@@ -117,29 +177,38 @@
           ]
         },
         {
-          "id": "economic-data-aug26",
-          "headline": "Key U.S. Economic Data Releases Expected Today",
-          "summary": "Several important economic data points are slated for release today, including U.S. Durable Goods, Personal Consumption Expenditures (PCE) Price Index, and the second estimate of Q2 GDP. These releases will provide fresh insights into inflation and economic growth, influencing Federal Reserve expectations.",
+          "id": "kohls-earnings-20260826",
+          "headline": "Kohl's Reports Q2 Results, Raises Outlook",
+          "summary": "Kohl's Corporation ($KSS) today announced its second-quarter fiscal 2026 financial results, reporting a 0.9% decrease in net sales and comparable sales. The company posted diluted earnings per share of $1.28 and raised its full-year 2026 financial outlook while restarting its share repurchase program.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "GDP"
+            "Earnings",
+            "Retail"
           ]
         },
         {
-          "id": "oil-prices-geopolitics",
-          "headline": "Oil Prices Fall Amid Easing Hormuz Tensions, Treasury Yields Decline",
-          "summary": "Brent crude prices fell 3.6% on Tuesday, marking a second consecutive decline, which helped alleviate bond market concerns and supported equity prices. This drop occurred despite increased U.S.-Iran tensions and new sanctions, as reports indicated mines were cleared from the Strait of Hormuz.",
+          "id": "fed-jackson-hole-20260826",
+          "headline": "Jackson Hole Symposium Looms for Fed Insights",
+          "summary": "All eyes are turning to Federal Reserve Chair Kevin Warsh's speech at the Jackson Hole Economic Policy Symposium on Friday. Investors will be seeking clues regarding the future trajectory of the Fed's monetary policy, especially after the Fed maintained its rate in the 3.5-3.75% range at its last meeting.",
+          "tags": [
+            "Fed",
+            "Monetary Policy",
+            "Economic Outlook"
+          ]
+        },
+        {
+          "id": "oil-prices-decline-20260826",
+          "headline": "Oil Prices Continue Descent Amid Easing Tensions",
+          "summary": "Crude oil prices extended their decline today, with Brent crude dropping below $87 a barrel. The continued fall is attributed to easing concerns over broader military conflicts and ongoing discussions between Oman and Iran aimed at ensuring the safe passage of shipping through the Strait of Hormuz.",
           "tags": [
             "Commodities",
             "Geopolitics",
-            "Bond Market"
+            "Energy"
           ]
         },
         {
-          "id": "sector-performance-aug25",
-          "headline": "Information Technology Leads Tuesday's Gains, Energy Sector Lags",
-          "summary": "The Information Technology sector was the top performer on Tuesday, driven by a rally in AI-related stocks. Conversely, the Energy sector experienced the largest decline due to falling oil prices. Consumer Staples and Financials also showed strength.",
+          "id": "sectors-aug25",
+          "headline": "Tech Leads, Energy Lags in Tuesday's Trading",
+          "summary": "On Tuesday, the Information Technology sector was the top performer, gaining 0.98%, driven by a surge in AI-related stocks. Conversely, the Energy sector was the worst performer, declining 1.70%, due to falling oil prices.",
           "tags": [
             "Sector Analysis",
             "Technology",
