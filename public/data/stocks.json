@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-27T18:04:00Z",
+  "generatedAt": "2026-08-27T21:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for August 27, 2026",
+  "subtitle": "Market Close: August 27, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,12 +14,12 @@
       "items": [
         {
           "id": "market-summary",
-          "headline": "Tech-led Rally Drives Markets Higher Amid Strong Earnings and Fed Focus",
-          "summary": "U.S. equities closed higher today, spearheaded by robust performances in the technology sector following blockbuster earnings reports from key AI and software companies. Despite ongoing inflation concerns and the commencement of the Jackson Hole Symposium, positive corporate results fueled investor optimism. The market experienced a 'V-shaped' reversal, recovering from earlier declines to finish in positive territory.",
+          "headline": "Tech Rally Drives S&P 500 and Nasdaq Higher; Dow Sees Modest Gain",
+          "summary": "U.S. equity markets closed Thursday with the S&P 500 and Nasdaq Composite posting solid gains, largely propelled by a surge in technology and software stocks following strong earnings reports from key AI-related companies. The Dow Jones Industrial Average also finished in positive territory, albeit with a more subdued performance. Overall market sentiment was buoyed by positive earnings, despite lingering inflation concerns and anticipation of tomorrow's Fed address.",
           "tags": [
-            "Market Overview",
-            "Earnings",
-            "Tech"
+            "Market Summary",
+            "Tech Rally",
+            "Earnings"
           ]
         }
       ]
@@ -31,22 +31,22 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500",
           "statLabel": "S&P 500",
-          "statValue": "4,526.78",
-          "statContext": "Increased 1.12% today"
+          "statValue": "7,724.22",
+          "statContext": "Up 0.63%"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "14,286.42",
-          "statContext": "Gained 1.58% today"
+          "statValue": "26,496.74",
+          "statContext": "Up 1.40%"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "38,452.36",
-          "statContext": "Rose 0.85% today"
+          "id": "dow",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "53,541.31",
+          "statContext": "Up 0.14%"
         }
       ]
     },
@@ -57,77 +57,75 @@
       "layout": "grid",
       "items": [
         {
-          "id": "okta-gainer",
-          "headline": "Okta Surges on Strong Q2 Earnings",
-          "ticker": "$OKTA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+23.3%",
-          "direction": "up",
-          "summary": "Cloud-based software company Okta saw its shares jump significantly after reporting strong second-quarter earnings that surpassed Wall Street expectations and raising its full-year guidance."
-        },
-        {
-          "id": "salesforce-gainer",
-          "headline": "Salesforce Soars on Earnings Beat, AI Partnership",
+          "id": "gainer-crm",
+          "headline": "Salesforce Surges on Strong Q2 Earnings and AI Partnership",
+          "summary": "Salesforce ($CRM) rallied over 20% after reporting adjusted EPS of $5.90, significantly above expectations, boosted by a $2.6 billion gain in AI startup Anthropic and an expanded partnership with the AI lab.",
           "ticker": "$CRM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+21.59%",
-          "direction": "up",
-          "summary": "Salesforce surged following an impressive second-quarter earnings beat and the announcement of an expanded partnership with AI lab Anthropic."
+          "price": "$251.99",
+          "change": "+$45.73",
+          "changePercent": "+22.17%",
+          "direction": "up"
         },
         {
-          "id": "veeve-gainer",
-          "headline": "Veeva Systems Gains on Strong Fiscal Q2",
-          "ticker": "$VEEV",
+          "id": "gainer-crwd",
+          "headline": "CrowdStrike Jumps on Record Annual Recurring Revenue",
+          "summary": "CrowdStrike ($CRWD) surged after reporting annual recurring revenue (ARR) of $5.84 billion in the second quarter, with net new ARR reaching a record-high of $333 million.",
+          "ticker": "$CRWD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+19%",
-          "direction": "up",
-          "summary": "Veeva Systems experienced a significant gain after the specialized software company reported strong fiscal second-quarter 2027 results and elevated its full-year guidance."
+          "changePercent": "+20.50%",
+          "direction": "up"
         },
         {
-          "id": "nvidia-gainer",
-          "headline": "Nvidia Jumps on Blockbuster Earnings and AI Demand",
-          "ticker": "$NVDA",
+          "id": "loser-hrl",
+          "headline": "Hormel Foods Dips Amidst Consumer Staples Weakness",
+          "summary": "Hormel Foods ($HRL) experienced a significant decline, contributing to the consumer staples sector's underperformance today. Specific company news regarding the drop was not immediately available, but the sector faced selling pressure.",
+          "ticker": "$HRL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9%",
-          "direction": "up",
-          "summary": "AI chipmaker Nvidia climbed higher after delivering stronger-than-expected profit and revenue for the latest quarter and providing robust forecasts, signaling continued accelerating demand for AI projects."
+          "changePercent": "-10.25%",
+          "direction": "down"
         },
         {
-          "id": "buildabear-loser",
-          "headline": "Build-A-Bear Workshop Plunges on Weak Guidance",
-          "ticker": "$BBW",
+          "id": "loser-expe",
+          "headline": "Expedia Leads Declines in a Quiet Losing Session",
+          "summary": "Expedia ($EXPE) led decliners, falling just under 5%. The broader losing side of the market was relatively subdued compared to the significant gains seen in tech.",
+          "ticker": "$EXPE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-22.61%",
-          "direction": "down",
-          "summary": "Build-A-Bear Workshop shares fell sharply due to weak guidance for the upcoming period, despite reporting an earnings beat."
-        },
-        {
-          "id": "moderna-loser",
-          "headline": "Moderna Weakens",
-          "ticker": "$MRNA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.8%",
-          "direction": "down",
-          "summary": "Moderna shares were among the weakest performers today."
+          "changePercent": "-5.00%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-jackson-hole",
-          "headline": "Jackson Hole Symposium Kicks Off Amid Inflation Warnings",
-          "summary": "The Federal Reserve's annual Jackson Hole Economic Symposium began today, with investors keenly awaiting clues on monetary policy. Two Fed officials expressed ongoing concerns about the persistent U.S. inflation outlook, emphasizing that the current rate of 3.4% remains above the central bank’s 2% target. Fed Chairman Kevin Warsh is scheduled to deliver a closely watched speech tomorrow.",
+          "id": "sector-performance",
+          "headline": "Information Technology Leads, Consumer Staples Lags",
+          "summary": "The Information Technology sector was the top-performing sector today, gaining 3.40% driven by strong software and semiconductor performances. In contrast, Consumer Staples was the worst-performing sector, posting a loss of 1.50%.",
+          "tags": [
+            "Sector Performance",
+            "Technology",
+            "Consumer Staples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "fed-outlook",
+          "headline": "Fed Chairman Warsh to Address Inflation Concerns at Jackson Hole",
+          "summary": "Federal Reserve Chairman Kevin Warsh is set to deliver a keenly awaited speech tomorrow at the annual Jackson Hole gathering, where investors hope for more clarity on his strategy to curb stubborn inflation. Cleveland Fed President Beth Hammack reiterated her belief that a rate hike is needed, forecasting inflation to end the year around 3%.",
           "tags": [
             "Fed",
             "Monetary Policy",
@@ -135,32 +133,23 @@
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Technology and Non-Durable Consumer Sectors Lead; Energy and Healthcare Lag",
-          "summary": "Today's market saw the Technology and Non-Durable Consumer sectors leading the gains, largely propelled by strong corporate earnings, particularly in AI and software. Conversely, the Energy sector lagged due to falling international oil prices, while Healthcare and Consumer Discretionary also experienced weaker performance.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
-          ]
-        },
-        {
-          "id": "economic-data-releases",
-          "headline": "Key Economic Data Released: GDP and Durable Goods",
-          "summary": "New economic data showed that the U.S. GDP grew at an annualized rate of 1.5% in the second quarter, remaining unchanged from initial estimates. Additionally, U.S. durable goods orders rose 1.1% in July, exceeding analysts' expectations. The Census Bureau also released new data products from its Business Trends and Outlook Survey.",
-          "tags": [
-            "Economic Data",
-            "GDP",
-            "Durable Goods"
-          ]
-        },
-        {
-          "id": "earnings-season-highlights",
-          "headline": "Earnings Season Continues Strong with Best Buy and Dollar General",
-          "summary": "Beyond the tech giants, Best Buy ($BBY) reported better-than-expected Q2 FY27 results with comparable sales increasing by 4.1% and raised its full-year guidance. Dollar General ($DG) also lifted its outlook, reporting higher profit and sales.",
+          "id": "earnings-reports",
+          "headline": "Nvidia and Salesforce Headline Strong Q2 Earnings Season",
+          "summary": "The earnings season saw significant reports today, with Nvidia, Salesforce, and CrowdStrike all exceeding expectations, contributing to positive market sentiment, particularly in the technology sector. Best Buy also reported strong Q2 FY27 results, outperforming expectations.",
           "tags": [
             "Earnings",
-            "Retail"
+            "Nvidia",
+            "Salesforce"
+          ]
+        },
+        {
+          "id": "economic-data-release",
+          "headline": "Census Bureau Releases Business Trends and Outlook Survey Data",
+          "summary": "The U.S. Census Bureau today released new data products from the Business Trends and Outlook Survey (BTOS), providing continuous, timely data on business conditions and projections across various sectors and geographies.",
+          "tags": [
+            "Economic Data",
+            "Census Bureau",
+            "Business Trends"
           ]
         }
       ]
