@@ -1,155 +1,250 @@
 {
-  "generatedAt": "2026-08-27T21:25:00Z",
+  "generatedAt": "2026-08-28T00:47:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Close: August 27, 2026",
-  "badge": "LIVE",
+  "subtitle": "Market Recap: August 27, 2026",
+  "badge": "Last Close",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Tech-Led Rally Amid Inflation Concerns",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Tech Rally Drives S&P 500 and Nasdaq Higher; Dow Sees Modest Gain",
-          "summary": "U.S. equity markets closed Thursday with the S&P 500 and Nasdaq Composite posting solid gains, largely propelled by a surge in technology and software stocks following strong earnings reports from key AI-related companies. The Dow Jones Industrial Average also finished in positive territory, albeit with a more subdued performance. Overall market sentiment was buoyed by positive earnings, despite lingering inflation concerns and anticipation of tomorrow's Fed address.",
+          "id": "market-summary-aug27",
+          "headline": "U.S. Equities Advance, Driven by Strong Tech Earnings Despite Inflation Data",
+          "summary": "U.S. stock markets closed higher on August 27, 2026, with major indices showing a volatile rebound. Technology stocks led the gains following impressive earnings reports from NVIDIA and other software companies, which overshadowed persistent inflation concerns highlighted by the Personal Consumption Expenditures (PCE) index. Investors also focused on the ongoing Federal Reserve's Jackson Hole Symposium for future policy signals.",
           "tags": [
-            "Market Summary",
-            "Tech Rally",
-            "Earnings"
+            "Market Overview",
+            "Tech Earnings",
+            "Inflation",
+            "Fed"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (August 27, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,724.22",
-          "statContext": "Up 0.63%"
+          "statValue": "7,730.99",
+          "statContext": "+0.7% (+55.29 points)",
+          "ticker": "^GSPC",
+          "price": "7,730.99",
+          "change": "+55.29",
+          "changePercent": "+0.72%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "53,569.44",
+          "statContext": "+0.2% (+105.56 points)",
+          "ticker": "^DJI",
+          "price": "53,569.44",
+          "change": "+105.56",
+          "changePercent": "+0.2%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,496.74",
-          "statContext": "Up 1.40%"
-        },
-        {
-          "id": "dow",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "53,541.31",
-          "statContext": "Up 0.14%"
+          "statValue": "26,541.35",
+          "statContext": "+1.6% (+411.16 points)",
+          "ticker": "^IXIC",
+          "price": "26,541.35",
+          "change": "+411.16",
+          "changePercent": "+1.57%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers: August 27, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-crm",
-          "headline": "Salesforce Surges on Strong Q2 Earnings and AI Partnership",
-          "summary": "Salesforce ($CRM) rallied over 20% after reporting adjusted EPS of $5.90, significantly above expectations, boosted by a $2.6 billion gain in AI startup Anthropic and an expanded partnership with the AI lab.",
-          "ticker": "$CRM",
-          "price": "$251.99",
-          "change": "+$45.73",
-          "changePercent": "+22.17%",
-          "direction": "up"
+          "id": "nvda-gainer",
+          "headline": "NVIDIA Shares Surge on Blowout Earnings and Upbeat Guidance",
+          "summary": "NVIDIA ($NVDA) climbed 8.74% to $227.98 after reporting second-quarter revenue that more than doubled year-over-year to $96.2 billion, significantly beating expectations. The chipmaker also provided a strong revenue outlook for the third quarter, easing concerns about a potential slowdown in the AI industry.",
+          "ticker": "$NVDA",
+          "price": "$227.98",
+          "change": "+$18.39",
+          "changePercent": "+8.74%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Technology",
+            "Earnings",
+            "AI"
+          ]
         },
         {
-          "id": "gainer-crwd",
-          "headline": "CrowdStrike Jumps on Record Annual Recurring Revenue",
-          "summary": "CrowdStrike ($CRWD) surged after reporting annual recurring revenue (ARR) of $5.84 billion in the second quarter, with net new ARR reaching a record-high of $333 million.",
+          "id": "okta-gainer",
+          "headline": "Okta Jumps on Strong Q2 Results and Raised Outlook",
+          "summary": "Okta ($OKTA) surged 24% after the identity and access management company reported Q2 adjusted EPS of $1.05, exceeding estimates, and revenue rose 11% year-over-year to $805 million. The company also raised its FY2027 outlook, with strong demand linked to agentic AI cited as a key driver.",
+          "ticker": "$OKTA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+24%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Technology",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "salesforce-gainer",
+          "headline": "Salesforce Rallies on Strong Q2 Performance and AI-Related Demand",
+          "summary": "Salesforce ($CRM) jumped 20% following robust Q2 results, with revenue increasing 11% year-over-year. The enterprise software giant benefited from strong AI-related demand, with AI and data products' Annual Recurring Revenue (ARR) nearing $4 billion, and a new partnership with Anthropic.",
+          "ticker": "$CRM",
+          "price": "$251.88",
+          "change": "N/A",
+          "changePercent": "+22.58%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Technology",
+            "Earnings",
+            "AI"
+          ]
+        },
+        {
+          "id": "crowdstrike-gainer",
+          "headline": "CrowdStrike Climbs on Upbeat Q2 Results and AI Adoption",
+          "summary": "CrowdStrike ($CRWD) advanced 19% after the cybersecurity company reported strong Q2 results, with ARR rising 25% to $5.84 billion. The company also raised its FY2027 revenue guidance, driven by accelerating AI adoption and the increasing need for secure AI-driven enterprise environments.",
           "ticker": "$CRWD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+20.50%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-hrl",
-          "headline": "Hormel Foods Dips Amidst Consumer Staples Weakness",
-          "summary": "Hormel Foods ($HRL) experienced a significant decline, contributing to the consumer staples sector's underperformance today. Specific company news regarding the drop was not immediately available, but the sector faced selling pressure.",
-          "ticker": "$HRL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.25%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-expe",
-          "headline": "Expedia Leads Declines in a Quiet Losing Session",
-          "summary": "Expedia ($EXPE) led decliners, falling just under 5%. The broader losing side of the market was relatively subdued compared to the significant gains seen in tech.",
-          "ticker": "$EXPE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.00%",
-          "direction": "down"
-        }
-      ]
-    },
-    {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "sector-performance",
-          "headline": "Information Technology Leads, Consumer Staples Lags",
-          "summary": "The Information Technology sector was the top-performing sector today, gaining 3.40% driven by strong software and semiconductor performances. In contrast, Consumer Staples was the worst-performing sector, posting a loss of 1.50%.",
+          "changePercent": "+19%",
+          "direction": "up",
           "tags": [
-            "Sector Performance",
+            "Gainers",
             "Technology",
-            "Consumer Staples"
+            "Earnings",
+            "Cybersecurity"
+          ]
+        },
+        {
+          "id": "hpq-loser",
+          "headline": "HP Slips on Weak PC Shipments Despite Q3 Beat",
+          "summary": "HP ($HPQ) closed down 2.93% at $29.62. Investors focused on weak PC shipment trends and margin pressure from higher memory and commodity costs, even though the company reported stronger-than-expected Q3 sales and adjusted EPS growth.",
+          "ticker": "$HPQ",
+          "price": "$29.62",
+          "change": "-$0.89",
+          "changePercent": "-2.93%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Technology",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "mrna-loser",
+          "headline": "Moderna Weakens as Revenue Decline Weighs on Performance",
+          "summary": "Moderna ($MRNA) was among the weakest performers, returning -5.8%. The company's revenue declined 27.7% over the last twelve months, contributing to the negative sentiment.",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.8%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Biotechnology"
+          ]
+        },
+        {
+          "id": "expedia-loser",
+          "headline": "Expedia Leads Declines Among Travel Stocks",
+          "summary": "Expedia ($EXPE) led decliners at just under 5%. Other travel and entertainment related stocks like Spotify ($SPOT), iQIYI ($IQ), and fuboTV ($FUBO) also traded lower.",
+          "ticker": "$EXPE",
+          "price": "$316.85",
+          "change": "N/A",
+          "changePercent": "-5.0%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Travel",
+            "Consumer Discretionary"
           ]
         }
       ]
     },
     {
-      "id": "economic-news",
-      "title": "Economic News",
+      "id": "market-news",
+      "title": "Market News and Economic Data",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-outlook",
-          "headline": "Fed Chairman Warsh to Address Inflation Concerns at Jackson Hole",
-          "summary": "Federal Reserve Chairman Kevin Warsh is set to deliver a keenly awaited speech tomorrow at the annual Jackson Hole gathering, where investors hope for more clarity on his strategy to curb stubborn inflation. Cleveland Fed President Beth Hammack reiterated her belief that a rate hike is needed, forecasting inflation to end the year around 3%.",
-          "tags": [
-            "Fed",
-            "Monetary Policy",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "earnings-reports",
-          "headline": "Nvidia and Salesforce Headline Strong Q2 Earnings Season",
-          "summary": "The earnings season saw significant reports today, with Nvidia, Salesforce, and CrowdStrike all exceeding expectations, contributing to positive market sentiment, particularly in the technology sector. Best Buy also reported strong Q2 FY27 results, outperforming expectations.",
-          "tags": [
-            "Earnings",
-            "Nvidia",
-            "Salesforce"
-          ]
-        },
-        {
-          "id": "economic-data-release",
-          "headline": "Census Bureau Releases Business Trends and Outlook Survey Data",
-          "summary": "The U.S. Census Bureau today released new data products from the Business Trends and Outlook Survey (BTOS), providing continuous, timely data on business conditions and projections across various sectors and geographies.",
+          "id": "pce-inflation",
+          "headline": "Elevated PCE Index Fuels Inflation Concerns, Pressuring Consumer Sentiment",
+          "summary": "The Personal Consumption Expenditures (PCE) price index, a key inflation metric for the Federal Reserve, rose 0.2% sequentially in July, bringing the annual inflation rate to 3.7%. Both annual and monthly readings surpassed analysts' expectations, contributing to investors' dampened confidence and suggesting that policymakers may consider further rate hikes.",
           "tags": [
             "Economic Data",
-            "Census Bureau",
-            "Business Trends"
+            "Inflation",
+            "Fed Policy"
+          ]
+        },
+        {
+          "id": "jackson-hole",
+          "headline": "Jackson Hole Symposium Commences with Focus on Fed Chair's Speech",
+          "summary": "The Federal Reserve's annual symposium in Jackson Hole began on August 27, 2026, with investors closely watching for insights from Federal Reserve Chair Kevin Warsh's upcoming speech. Expectations around Fed policy, particularly regarding interest rates, remain a significant market driver.",
+          "tags": [
+            "Fed Policy",
+            "Economic Events"
+          ]
+        },
+        {
+          "id": "tech-sector-leadership",
+          "headline": "Technology Sector Leads Market Gains; Consumer Staples Lag",
+          "summary": "The Information Technology sector was the top-performing sector on August 27, 2026, driven by strong earnings from chipmakers and software companies, with a gain of 3.40%. In contrast, the Consumer Staples sector was the worst-performing, losing 1.50%. The energy sector also performed weakly due to falling international oil prices.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Consumer Staples",
+            "Energy"
+          ]
+        },
+        {
+          "id": "bestbuy-earnings",
+          "headline": "Best Buy Beats Q2 Expectations and Raises Full-Year Guidance",
+          "summary": "Best Buy ($BBY) announced strong results for its second quarter, with comparable sales increasing 4.1% and adjusted diluted EPS up 15% to $1.47. The company raised its FY27 comparable sales guidance to 1.9% to 3.0% and adjusted diluted EPS guidance to $6.70 to $6.90, driven by growth across most product categories.",
+          "tags": [
+            "Earnings Report",
+            "Retail",
+            "Consumer Discretionary"
+          ]
+        },
+        {
+          "id": "gap-earnings",
+          "headline": "Gap Inc. Reports Mixed Q2 Results, Exceeding Profit but Sales Modestly Below Expectations",
+          "summary": "Gap Inc. ($GPS) reported second-quarter fiscal 2026 results with net sales down 2% and comparable sales down 1% year-over-year. However, the company exceeded profit expectations due to strong gross margin, driven by a significant adjustment related to IEEPA tariff recovery.",
+          "tags": [
+            "Earnings Report",
+            "Retail",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "marvell-earnings",
+          "headline": "Marvell Technology Reports Record Q2 Revenue, Guides Strong for Q3",
+          "summary": "Marvell Technology ($MRVL) reported record Q2 net revenue of $2.739 billion, a 37% year-over-year increase, with non-GAAP diluted EPS of $0.94. The company also provided strong guidance for Q3, projecting net revenue of $3.150 billion (±5%) and non-GAAP diluted net income per share of $1.10 (±$0.05).",
+          "tags": [
+            "Earnings Report",
+            "Semiconductors",
+            "Technology"
           ]
         }
       ]
