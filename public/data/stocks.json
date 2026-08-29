@@ -1,76 +1,75 @@
 {
-  "generatedAt": "2026-08-29T12:28:00Z",
+  "generatedAt": "2026-08-29T12:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "August 29, 2026 - Markets Closed (Reporting on August 28, 2026)",
-  "badge": "Last Session Report",
+  "subtitle": "End of Day, August 28, 2026, with Pre-market Outlook for August 29, 2026",
+  "badge": "Updated: Aug 29, 2026, Pre-market",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Tech Rally Boosts Indices Amidst Fed Hawkishness",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-aug28",
-          "headline": "U.S. stocks concluded Friday's session predominantly higher, propelled by a robust rally in the technology sector.",
-          "summary": "The market's positive momentum was largely driven by stronger-than-expected earnings reports from major tech firms, particularly NVIDIA's optimistic revenue forecast, which reignited investor confidence in the artificial intelligence boom. This occurred even as Federal Reserve Chair Kevin Warsh indicated potential future interest rate hikes to combat persistent inflation.",
+          "id": "market-summary-aug28-29",
+          "headline": "Markets Closed Slightly Lower Friday, Awaiting Key Economic Data Today",
+          "summary": "U.S. stock markets ended Friday, August 28, with slight declines across major indices, influenced by Federal Reserve Chair Kevin Warsh's hawkish remarks at the Jackson Hole Symposium. All eyes are now on upcoming economic data, particularly the U.S. Core PCE, as markets remain in pre-market ahead of today's open, August 29.",
           "tags": [
-            "Market Summary",
-            "Tech Rally",
-            "Fed Outlook"
-          ],
-          "timestamp": "2026-08-28T20:00:00Z"
+            "Market Overview",
+            "Pre-market",
+            "Economic Outlook"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (August 28, 2026 Close)",
+      "title": "Major Indices (August 28, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-aug28",
           "statLabel": "S&P 500",
-          "statValue": "7,730.99",
-          "statContext": "Gained 0.7%"
+          "statValue": "7,711.76",
+          "statContext": "Down 0.2% (-19.23 points) on Friday."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-aug28",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,541.35",
-          "statContext": "Rose 1.6%"
+          "statValue": "26,402.42",
+          "statContext": "Down 0.5% (-138.93 points) on Friday."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,569.44",
-          "statContext": "Gained 0.2%"
+          "id": "dow-aug28",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "53,559.99",
+          "statContext": "Down <0.1% (-9.45 points) on Friday."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (August 28, 2026)",
+      "title": "Top Movers (August 28, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "NVIDIA Surges on Strong Earnings and AI Forecast",
-          "summary": "Shares of semiconductor giant NVIDIA ($NVDA) jumped 8.7% after reporting second-quarter 2026 earnings that beat estimates and projecting robust revenue growth for fiscal 2028, largely driven by demand for artificial intelligence.",
-          "ticker": "$NVDA",
+          "id": "gainer-okta",
+          "headline": "Okta Surges on Strong Performance",
+          "summary": "Cloud software provider Okta Inc. ($OKTA) was among the strongest performers, seeing a notable increase.",
+          "ticker": "$OKTA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.7%",
+          "changePercent": "+28.6%",
           "direction": "up"
         },
         {
-          "id": "crm-gainer",
-          "headline": "Salesforce Soars on Q2 Beat and Upbeat Guidance",
-          "summary": "Salesforce, Inc. ($CRM) shares surged 22.6% after the company exceeded both earnings and revenue estimates for its second quarter and raised its fiscal 2027 guidance.",
+          "id": "gainer-crm",
+          "headline": "Salesforce Jumps on Earnings Beat",
+          "summary": "Salesforce Inc. ($CRM) rallied after reporting blowout Q2 earnings and revenue, along with raised fiscal year guidance.",
           "ticker": "$CRM",
           "price": "N/A",
           "change": "N/A",
@@ -78,82 +77,91 @@
           "direction": "up"
         },
         {
-          "id": "estc-gainer",
-          "headline": "Elastic Jumps on Strong FQ1 Results and Raised Outlook",
-          "summary": "Elastic ($ESTC) shares gained 19% after the search and observability software company reported strong fiscal Q1 results and subsequently raised its fiscal year 2027 outlook.",
+          "id": "gainer-estc",
+          "headline": "Elastic Shares Soar Post-Earnings",
+          "summary": "Elastic N.V. ($ESTC) saw its shares soar amid heavy trading after the company reported higher fiscal Q1 non-GAAP earnings and revenue.",
           "ticker": "$ESTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+19%",
+          "changePercent": "+17.0%",
           "direction": "up"
         },
         {
-          "id": "pypl-loser",
-          "headline": "PayPal Declines as Buyout Bid Reportedly Abandoned",
-          "summary": "PayPal Holdings ($PYPL) fell 12.84% during the week ending August 28, with reports indicating that a potential $50 billion buyout bid from Advent and Stripe was abandoned.",
-          "ticker": "$PYPL",
+          "id": "loser-bbw",
+          "headline": "Build-A-Bear Workshop Declines",
+          "summary": "Build-A-Bear Workshop Inc. ($BBW) was among the weakest stocks, experiencing a significant decline.",
+          "ticker": "$BBW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.84% (weekly)",
+          "changePercent": "-27.3%",
           "direction": "down"
         },
         {
-          "id": "mrvl-loser",
-          "headline": "Marvell Technology Slides After Earnings",
-          "summary": "Marvell Technology ($MRVL) saw a decline of 10.28% following its earnings report, contributing to the broader negative performance in some technology stocks not benefiting from the AI infrastructure boom.",
+          "id": "loser-dks",
+          "headline": "Dick's Sporting Goods Experiences Sharp Fall",
+          "summary": "Dick's Sporting Goods Inc. ($DKS) was one of the worst-performing stocks of the week.",
+          "ticker": "$DKS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-26.27%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-mrvl",
+          "headline": "Marvell Technology Slips on Revenue Doubts",
+          "summary": "Marvell Technology Inc. ($MRVL) lost ground due to doubts surrounding the timing of revenue from its AI chip agreement with Alphabet's Google.",
           "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.28%",
+          "changePercent": "-9.9%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News and Economic Highlights (August 28, 2026)",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-jackson-hole",
-          "headline": "Fed Chair Warsh Signals Potential Rate Hikes at Jackson Hole",
-          "summary": "Federal Reserve Chair Kevin Warsh delivered a hawkish speech at the Jackson Hole Economic Policy Symposium, indicating that inflation remains stubbornly high at 3.7% (PCE) and that the central bank might need to raise interest rates in the coming months. His remarks reinforced the Fed's commitment to achieving its 2% inflation target.",
+          "id": "fed-warsh-jackson-hole",
+          "headline": "Fed Chair Warsh Reaffirms Inflation Fight at Jackson Hole",
+          "summary": "Federal Reserve Chair Kevin Warsh delivered hawkish remarks at the Jackson Hole Economic Policy Symposium, emphasizing the central bank's commitment to achieving its 2% inflation goal and indicating that recent inflation data does not suggest a significant shift in trend. This led to increased market speculation for a potential September rate hike.",
           "tags": [
-            "Fed",
-            "Interest Rates",
-            "Inflation"
+            "Fed Policy",
+            "Inflation",
+            "Interest Rates"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Technology and Consumer Discretionary Lead Sectors; Industrials and Healthcare Lag",
-          "summary": "The Information Technology sector was the top performer, gaining 3.2% for the day through the XLK ETF, with strong performance extending to communication services. Consumer discretionary also emerged as a leading sector, advancing 1.69% on Friday. In contrast, ten of the eleven S&P 500 sectors closed in negative territory on Thursday, with Industrials down 2.13% and Healthcare down 2.06% for the week.",
+          "id": "tech-earnings-drive-sentiment",
+          "headline": "Strong Tech Earnings Continue to Drive Market Optimism",
+          "summary": "Despite Friday's overall market dip, strong earnings reports from major technology companies, including NVIDIA ($NVDA) earlier in the week and Salesforce ($CRM) and CrowdStrike ($CRWD) on Friday, continued to fuel market optimism, particularly in the semiconductor and software sectors.",
+          "tags": [
+            "Earnings",
+            "Technology Sector",
+            "AI"
+          ]
+        },
+        {
+          "id": "economic-data-today",
+          "headline": "U.S. Core PCE Awaited Today",
+          "summary": "Markets are keenly awaiting the release of the U.S. Core Personal Consumption Expenditures (PCE) Price Index data later today, August 29, following the ongoing Jackson Hole Symposium. This key inflation metric will be closely watched for its implications on future Federal Reserve policy.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "PCE"
+          ]
+        },
+        {
+          "id": "sector-performance-aug28",
+          "headline": "Technology and Communication Services Led Gains for the Week",
+          "summary": "For the week ending August 28, the technology and communication services sectors were top performers, despite some profit-taking on Friday. Consumer Discretionary also showed relative strength. Conversely, industrials, healthcare, and energy were among the lagging sectors over the week.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Consumer Discretionary"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Jobless Claims Fall, Q2 GDP Unchanged, Consumer Sentiment Revised Up",
-          "summary": "New jobless claims decreased by 4,000 to 203,000 for the week ending August 22, while continuing claims also fell. The U.S. Q2 GDP growth remained unrevised at 1.5%. Meanwhile, the University of Michigan's consumer sentiment index for August was revised upward to 51.7.",
-          "tags": [
-            "Economic Data",
-            "Employment",
-            "GDP",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "earnings-season-wrap",
-          "headline": "Strong Tech Earnings Continue to Drive Market Enthusiasm",
-          "summary": "Beyond NVIDIA and Salesforce, other companies like Elastic ($ESTC) and Affirm Holdings ($AFRM) reported strong earnings, contributing to the overall positive sentiment in the tech sector. CrowdStrike ($CRWD) also delivered better-than-expected fiscal Q2 results, raising guidance amidst increasing demand for cybersecurity solutions related to AI risks.",
-          "tags": [
-            "Earnings Reports",
-            "Technology",
-            "Corporate Results"
+            "Communication Services"
           ]
         }
       ]
