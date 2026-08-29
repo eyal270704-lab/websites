@@ -1,80 +1,76 @@
 {
-  "generatedAt": "2026-08-28T21:34:00Z",
+  "generatedAt": "2026-08-29T12:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: August 28, 2026",
-  "subtitle": "Friday's Session Sees Indices Dip After Fed Chair's Inflation Warning, Tech Earnings Mixed",
-  "badge": "LATEST",
+  "title": "Daily Market Digest",
+  "subtitle": "August 29, 2026 - Markets Closed (Reporting on August 28, 2026)",
+  "badge": "Last Session Report",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Tech Rally Boosts Indices Amidst Fed Hawkishness",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. Stocks Retreat Slightly on Friday After Fed Chair Signals Potential Rate Hikes",
-          "summary": "Major U.S. indices experienced a modest decline on Friday, as investors digested Federal Reserve Chair Kevin Warsh's comments from Jackson Hole, indicating that further interest rate hikes might be necessary to combat persistent inflation. This pullback followed a strong Thursday rally driven by robust NVIDIA earnings and broader AI optimism.",
+          "id": "market-summary-aug28",
+          "headline": "U.S. stocks concluded Friday's session predominantly higher, propelled by a robust rally in the technology sector.",
+          "summary": "The market's positive momentum was largely driven by stronger-than-expected earnings reports from major tech firms, particularly NVIDIA's optimistic revenue forecast, which reignited investor confidence in the artificial intelligence boom. This occurred even as Federal Reserve Chair Kevin Warsh indicated potential future interest rate hikes to combat persistent inflation.",
           "tags": [
-            "Market",
-            "Fed",
-            "Inflation",
-            "Friday Close"
+            "Market Summary",
+            "Tech Rally",
+            "Fed Outlook"
           ],
-          "timestamp": "2026-08-28T16:00:00Z"
+          "timestamp": "2026-08-28T20:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (End of Day: August 28, 2026)",
+      "title": "Major Indices Performance (August 28, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,711.76",
-          "statContext": "Down 19.23 points (-0.2%)",
-          "direction": "down"
+          "statValue": "7,730.99",
+          "statContext": "Gained 0.7%"
         },
         {
-          "id": "nasdaq-friday",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,402.42",
-          "statContext": "Down 138.93 points (-0.5%)",
-          "direction": "down"
+          "statValue": "26,541.35",
+          "statContext": "Rose 1.6%"
         },
         {
-          "id": "dow-friday",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,559.99",
-          "statContext": "Down 9.45 points (-0.02%)",
-          "direction": "down"
+          "statValue": "53,569.44",
+          "statContext": "Gained 0.2%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Session: August 28, 2026)",
+      "title": "Top Movers (August 28, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "nvda-gainer",
-          "headline": "NVIDIA Soars on Blowout Earnings and Bullish AI Forecast",
-          "summary": "Shares of the semiconductor giant $NVDA surged 8.7% to $96.22 after the company reported strong Q2 2026 earnings of $2.22 per share, exceeding analyst estimates, and projected a robust 70% revenue growth for fiscal 2028, largely driven by demand for artificial intelligence infrastructure.",
+          "headline": "NVIDIA Surges on Strong Earnings and AI Forecast",
+          "summary": "Shares of semiconductor giant NVIDIA ($NVDA) jumped 8.7% after reporting second-quarter 2026 earnings that beat estimates and projecting robust revenue growth for fiscal 2028, largely driven by demand for artificial intelligence.",
           "ticker": "$NVDA",
-          "price": "$96.22",
-          "change": "+$7.70 (est.)",
+          "price": "N/A",
+          "change": "N/A",
           "changePercent": "+8.7%",
           "direction": "up"
         },
         {
           "id": "crm-gainer",
-          "headline": "Salesforce Jumps Following Earnings Beat",
-          "summary": "Salesforce ($CRM) saw its stock climb 22.6% on the back of an earnings beat, contributing to broader tech sector strength.",
+          "headline": "Salesforce Soars on Q2 Beat and Upbeat Guidance",
+          "summary": "Salesforce, Inc. ($CRM) shares surged 22.6% after the company exceeded both earnings and revenue estimates for its second quarter and raised its fiscal 2027 guidance.",
           "ticker": "$CRM",
           "price": "N/A",
           "change": "N/A",
@@ -83,107 +79,82 @@
         },
         {
           "id": "estc-gainer",
-          "headline": "Elastic Surges After Strong Q1 Earnings",
-          "summary": "Elastic N.V. ($ESTC) shares rallied 17% after the company reported higher-than-expected fiscal Q1 non-GAAP earnings and revenue, indicating strong performance in its cloud software offerings.",
+          "headline": "Elastic Jumps on Strong FQ1 Results and Raised Outlook",
+          "summary": "Elastic ($ESTC) shares gained 19% after the search and observability software company reported strong fiscal Q1 results and subsequently raised its fiscal year 2027 outlook.",
           "ticker": "$ESTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17%",
-          "direction": "up"
-        },
-        {
-          "id": "gap-gainer",
-          "headline": "Gap Rises on Upbeat Guidance and New Old Navy CEO",
-          "summary": "The Gap, Inc. ($GAP) shares jumped 13% after the retailer raised its fiscal 2026 adjusted earnings guidance and announced a new CEO for its Old Navy brand, signaling positive strategic moves despite mixed Q2 2026 results.",
-          "ticker": "$GAP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13%",
+          "changePercent": "+19%",
           "direction": "up"
         },
         {
           "id": "pypl-loser",
-          "headline": "PayPal Plunges as Takeover Bid Collapses",
-          "summary": "PayPal ($PYPL) shares fell 13% after Bloomberg reported that private equity firm Advent and payments company Stripe abandoned their $50 billion takeover bid for the fintech company, removing a key catalyst for the stock.",
+          "headline": "PayPal Declines as Buyout Bid Reportedly Abandoned",
+          "summary": "PayPal Holdings ($PYPL) fell 12.84% during the week ending August 28, with reports indicating that a potential $50 billion buyout bid from Advent and Stripe was abandoned.",
           "ticker": "$PYPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13%",
+          "changePercent": "-12.84% (weekly)",
           "direction": "down"
         },
         {
           "id": "mrvl-loser",
-          "headline": "Marvell Technology Falls on Revenue Timing Concerns",
-          "summary": "Marvell Technology ($MRVL) saw its shares drop over 10% despite reporting stronger-than-expected fiscal Q2 results, as investor concerns mounted regarding the timing of revenue from its significant deal with Alphabet's Google.",
+          "headline": "Marvell Technology Slides After Earnings",
+          "summary": "Marvell Technology ($MRVL) saw a decline of 10.28% following its earnings report, contributing to the broader negative performance in some technology stocks not benefiting from the AI infrastructure boom.",
           "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10%+",
-          "direction": "down"
-        },
-        {
-          "id": "bbw-loser",
-          "headline": "Build-A-Bear Workshop Leads Thursday's Losers",
-          "summary": "Build-A-Bear Workshop ($BBW) experienced a significant decline of 27.3%, making it one of the weakest performers among market movers.",
-          "ticker": "$BBW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-27.3%",
+          "changePercent": "-10.28%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News and Economic Highlights (August 28, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "fed-jackson-hole",
-          "headline": "Fed Chair Warsh Signals Further Rate Hikes at Jackson Hole Amid Stubborn Inflation",
-          "summary": "Federal Reserve Chair Kevin Warsh, in his debut speech at the annual Jackson Hole Economic Policy Symposium, delivered a hawkish message, stating that inflation remains 'stubbornly above the central bank's 2% target' and implying that the Fed 'may have to raise interest rates in the coming months' to bring it under control. The bond market reacted with building expectations for rate hikes, pushing the two-year Treasury yield higher.",
+          "headline": "Fed Chair Warsh Signals Potential Rate Hikes at Jackson Hole",
+          "summary": "Federal Reserve Chair Kevin Warsh delivered a hawkish speech at the Jackson Hole Economic Policy Symposium, indicating that inflation remains stubbornly high at 3.7% (PCE) and that the central bank might need to raise interest rates in the coming months. His remarks reinforced the Fed's commitment to achieving its 2% inflation target.",
           "tags": [
             "Fed",
-            "Monetary Policy",
-            "Inflation",
-            "Jackson Hole"
-          ],
-          "timestamp": "2026-08-28T15:30:00Z"
-        },
-        {
-          "id": "tech-sector-update",
-          "headline": "Technology Sector Experiences Mixed Fortunes; AI Chip Export Controls Eyed",
-          "summary": "After a robust Thursday rally driven by NVIDIA's strong performance, the tech sector saw a downturn on Friday, with the State Street Technology Select Sector SPDR ETF ($XLK) falling 1.5% and the State Street SPDR S&P Semiconductor ETF ($XSD) dropping 3.9%. This comes as the Department of Commerce works on a new plan to control advanced AI chip exports, aiming to close loopholes allowing Chinese firms access.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI",
-            "Trade Policy"
-          ],
-          "timestamp": "2026-08-28T13:36:00Z"
-        },
-        {
-          "id": "economic-data-consumer-sentiment",
-          "headline": "Consumer Sentiment Drops in August on Persistent Inflation Worries",
-          "summary": "U.S. consumer sentiment declined in August, with the main index falling 6.3% to 51.7 from July. The drop reflects ongoing concerns among consumers that inflation will remain elevated for the 'foreseeable future'.",
-          "tags": [
-            "Economic Data",
-            "Consumer Sentiment",
+            "Interest Rates",
             "Inflation"
-          ],
-          "timestamp": "2026-08-28T13:33:00Z"
+          ]
         },
         {
-          "id": "jobless-claims",
-          "headline": "Jobless Claims Continue to Decline, Signaling Tight Labor Market",
-          "summary": "Initial jobless claims for the week ending August 22 totaled 203,000, a decrease of 4,000 from the previous week. This sustained low level of claims, along with steady continuing claims, suggests a persistent tightness in the labor market.",
+          "id": "sector-performance",
+          "headline": "Technology and Consumer Discretionary Lead Sectors; Industrials and Healthcare Lag",
+          "summary": "The Information Technology sector was the top performer, gaining 3.2% for the day through the XLK ETF, with strong performance extending to communication services. Consumer discretionary also emerged as a leading sector, advancing 1.69% on Friday. In contrast, ten of the eleven S&P 500 sectors closed in negative territory on Thursday, with Industrials down 2.13% and Healthcare down 2.06% for the week.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Consumer Discretionary"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Jobless Claims Fall, Q2 GDP Unchanged, Consumer Sentiment Revised Up",
+          "summary": "New jobless claims decreased by 4,000 to 203,000 for the week ending August 22, while continuing claims also fell. The U.S. Q2 GDP growth remained unrevised at 1.5%. Meanwhile, the University of Michigan's consumer sentiment index for August was revised upward to 51.7.",
           "tags": [
             "Economic Data",
-            "Labor Market",
-            "Jobless Claims"
-          ],
-          "timestamp": "2026-08-28T08:00:00Z"
+            "Employment",
+            "GDP",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "earnings-season-wrap",
+          "headline": "Strong Tech Earnings Continue to Drive Market Enthusiasm",
+          "summary": "Beyond NVIDIA and Salesforce, other companies like Elastic ($ESTC) and Affirm Holdings ($AFRM) reported strong earnings, contributing to the overall positive sentiment in the tech sector. CrowdStrike ($CRWD) also delivered better-than-expected fiscal Q2 results, raising guidance amidst increasing demand for cybersecurity solutions related to AI risks.",
+          "tags": [
+            "Earnings Reports",
+            "Technology",
+            "Corporate Results"
+          ]
         }
       ]
     }
