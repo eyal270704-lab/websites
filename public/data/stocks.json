@@ -1,151 +1,123 @@
 {
-  "generatedAt": "2026-08-29T19:17:00Z",
+  "generatedAt": "2026-08-30T12:35:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Review of Friday, August 28, 2026 Trading Session",
+  "subtitle": "Market Recap for Friday, August 29, 2026",
   "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Fed Inflation Concerns Weigh on Stocks",
+      "title": "Market Pulse: Hawkish Fed Concerns Weigh on Close",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-friday",
-          "headline": "U.S. Stocks Dip on Friday as Fed Chair Signals Potential Rate Hikes",
-          "summary": "U.S. equities closed lower on Friday, August 28, 2026, as investors processed hawkish remarks from Federal Reserve Chair Kevin Warsh regarding persistent inflation. Major indices saw modest declines, with the Nasdaq Composite experiencing the largest percentage drop among the three primary benchmarks. Market sentiment was largely influenced by the anticipation of potential interest rate hikes as the Fed prioritizes bringing inflation under control. Not financial advice.",
+          "headline": "Stocks Dip Friday as Fed Chair Warsh Signals Potential Rate Hikes, Weekly Gains Hold",
+          "summary": "U.S. equities closed lower on Friday, August 29, 2026, as Federal Reserve Chair Kevin Warsh's hawkish remarks at the Jackson Hole symposium reignited concerns over potential September interest rate hikes. Despite the daily pullback, major indices managed to secure weekly gains. Market breadth was negative, indicating a cautious sentiment among investors, with significant outflows from equity funds. Not financial advice.",
           "tags": [
             "Market Overview",
             "Fed",
+            "Interest Rates",
+            "Jackson Hole",
             "Inflation"
           ],
-          "timestamp": "2026-08-28T20:00:00Z"
+          "timestamp": "2026-08-29T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Friday, August 28, 2026)",
+      "title": "Major Indices Performance (August 29, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Close",
+          "statLabel": "S&P 500",
           "statValue": "7,711.76",
-          "statContext": "Down 0.25%",
-          "ticker": "$SPX",
-          "price": "7,711.76",
-          "change": "-19.23",
-          "changePercent": "-0.25%",
-          "direction": "down"
+          "statContext": "Down 0.25% (-19.31 points) Friday; up 0.5% for the week."
         },
         {
           "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
+          "statLabel": "NASDAQ Composite",
           "statValue": "26,402.42",
-          "statContext": "Down 0.52%",
-          "ticker": "$IXIC",
-          "price": "26,402.42",
-          "change": "-138.93",
-          "changePercent": "-0.52%",
-          "direction": "down"
+          "statContext": "Down 0.52% (-137.80 points) Friday; up 0.9% for the week."
         },
         {
           "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,559.99",
-          "statContext": "Down 0.02%",
-          "ticker": "$DJI",
-          "price": "53,559.99",
-          "change": "-9.45",
-          "changePercent": "-0.02%",
-          "direction": "down"
-        },
-        {
-          "id": "russell2000-performance",
-          "headline": "Russell 2000",
-          "statLabel": "Close",
-          "statValue": "2,972.37",
-          "statContext": "Down 1.4%",
-          "ticker": "$RUT",
-          "price": "2,972.37",
-          "change": "-41.97",
-          "changePercent": "-1.4%",
-          "direction": "down"
+          "statContext": "Down 0.02% (-9.45 points) Friday; up 0.5% for the week."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, August 28, 2026)",
+      "title": "Top Movers (Friday, August 29, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-elastic",
-          "headline": "Elastic Surges on Strong Earnings",
-          "summary": "Elastic ($ESTC) shares soared 24.3% following a report of better-than-expected fiscal Q1 earnings and an upbeat full-year guidance.",
-          "ticker": "$ESTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+24.3%",
-          "direction": "up"
+          "id": "nvda-loser",
+          "headline": "Nvidia Shares Decline on Profit-Taking and AI Partnership News",
+          "ticker": "$NVDA",
+          "price": "$217.55",
+          "change": "-$10.43",
+          "changePercent": "-4.6%",
+          "direction": "down",
+          "summary": "Nvidia shares fell 4.6% after Thursday's post-earnings surge, driven by profit-taking, hawkish Fed comments, and reports of a halt in parts of its AI compute financing partnership."
         },
         {
-          "id": "gainer-gap",
-          "headline": "Gap Jumps on Raised Guidance",
-          "summary": "Gap ($GAP) shares climbed 14.3% after the apparel retailer surpassed second-quarter profit expectations and increased its full-year earnings guidance.",
-          "ticker": "$GAP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14.3%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-affirm",
-          "headline": "Affirm Rallies on Earnings Beat",
-          "summary": "Affirm Holdings ($AFRM) jumped 10.2% after the fintech company reported a strong beat on fiscal fourth-quarter earnings and provided an optimistic forward guidance.",
-          "ticker": "$AFRM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.2%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-paypal",
-          "headline": "PayPal Drops as Takeover Bid Abandoned",
-          "summary": "PayPal ($PYPL) shares fell 13% following reports that Advent and Stripe had abandoned their $50 billion takeover bid for the company.",
+          "id": "pypl-loser",
+          "headline": "PayPal Plunges on Abandoned Acquisition Talks",
           "ticker": "$PYPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13%",
-          "direction": "down"
+          "changePercent": "-12.7%",
+          "direction": "down",
+          "summary": "PayPal saw a significant 12.7% drop following a report that a consortium had abandoned its pursuit of the payments company."
         },
         {
-          "id": "loser-broadcom",
-          "headline": "Broadcom Plummets Amid Tech Retreat",
-          "summary": "Broadcom shares plummeted over 11% as major technology stocks broadly retreated on Friday.",
-          "ticker": "$AVGO",
+          "id": "mrvl-loser",
+          "headline": "Marvell Technology Tumbles Amid AI Revenue Concerns",
+          "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11%",
-          "direction": "down"
+          "changePercent": "-10.3%",
+          "direction": "down",
+          "summary": "Marvell Technology fell 10.3% due to concerns surrounding the timing of revenue from its artificial intelligence chip agreement with Google."
         },
         {
-          "id": "loser-nvidia",
-          "headline": "Nvidia Slides on Profit Taking",
-          "summary": "Nvidia ($NVDA) shares slid over 3% amid profit taking and a general downturn in major technology stocks.",
-          "ticker": "$NVDA",
+          "id": "gps-gainer",
+          "headline": "Gap Surges on Unspecified Positive News",
+          "ticker": "$GPS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3%",
-          "direction": "down"
+          "changePercent": "+13%",
+          "direction": "up",
+          "summary": "Gap shares surged nearly 13% during Friday's session, though specific drivers were not detailed in available reports."
+        },
+        {
+          "id": "aapl-gainer",
+          "headline": "Apple Continues Upward Momentum",
+          "ticker": "$AAPL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.6%",
+          "direction": "up",
+          "summary": "Apple gained 1.6%, contributing to the offset of broader market declines."
+        },
+        {
+          "id": "goog-gainer",
+          "headline": "Alphabet Rises, Boosting Megacap Performance",
+          "ticker": "$GOOG",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.7%",
+          "direction": "up",
+          "summary": "Alphabet rose 1.7%, adding to the positive performance of several megacap stocks."
         }
       ]
     },
@@ -157,47 +129,47 @@
       "items": [
         {
           "id": "fed-jackson-hole",
-          "headline": "Fed Chair Warsh Delivers Hawkish Tone at Jackson Hole",
-          "summary": "Federal Reserve Chair Kevin Warsh, in his debut Jackson Hole speech, emphasized the central bank's commitment to tackling inflation. He noted that while the economy 'appears to have strengthened,' inflation remains 'hot' and above the 2% target, hinting at possible interest rate hikes in the upcoming September meeting to bring prices under control.",
+          "headline": "Fed Chair Warsh's Hawkish Jackson Hole Speech Resets Rate Expectations",
+          "summary": "Federal Reserve Chair Kevin Warsh's address at the Jackson Hole symposium on Friday provided a clearer warning on inflation than anticipated, leading traders to increase bets on a 25-basis-point rate hike at the September FOMC meeting. Warsh emphasized the Fed's commitment to its 2% inflation target and noted that financial markets may be underpricing inflation risks.",
           "tags": [
             "Fed",
             "Monetary Policy",
-            "Inflation"
-          ],
-          "timestamp": "2026-08-28T16:00:00Z"
+            "Inflation",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Communication Services and Technology Lead Weekly Gains; Semiconductors and Small Caps Lag",
+          "summary": "For the week ending August 29, 2026, Communication Services (+1.43%) and Technology (+1.30%) led sector performance. However, Friday saw a pullback in the semiconductor sector, with the VanEck Semiconductor ETF falling over 3% for the week. Small-cap and micro-cap stocks also sold off, with the Russell 2000 down 1.5% weekly, indicating a narrow market advance.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Semiconductors",
+            "Small Caps"
+          ]
         },
         {
           "id": "economic-data",
-          "headline": "Consumer Sentiment Declines, Inflation Remains a Concern",
-          "summary": "U.S. consumer sentiment dropped in August, falling 6.3% to 51.7 from July, driven by persistent concerns that high inflation will continue. This data point reinforces the challenges facing the Federal Reserve in achieving its price stability mandate.",
+          "headline": "July PCE Inflation Exceeds Expectations; Q2 GDP Unchanged",
+          "summary": "July's Personal Consumption Expenditures (PCE) data showed a 0.2% monthly increase and a 3.7% annual rise, surpassing the 3.6% expectation. Core PCE matched expectations. The second estimate for Q2 GDP remained unchanged at a 1.5% annual rate.",
           "tags": [
             "Economic Data",
-            "Consumer Sentiment",
+            "PCE",
+            "GDP",
             "Inflation"
-          ],
-          "timestamp": "2026-08-28T10:00:00Z"
+          ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Consumer Discretionary Leads, Tech Lags Amid Broad Sector Shifts",
-          "summary": "On Friday, the consumer discretionary sector emerged as the top performer, gaining 1.69%, with strong showings from companies like Domino's Pizza and Amazon. Conversely, information technology was the worst-performing sector, declining 1.29%, contributing to the broader market's negative close. Financial stocks saw modest gains of 0.4%, while real estate lagged, falling 0.5%.",
+          "id": "ai-bubble-concerns",
+          "headline": "Concerns Mount Over AI Bubble Amid Historic S&P 500 Concentration",
+          "summary": "Fund managers are increasingly citing an 'AI bubble' as a significant market risk, with the S&P 500's top 10 companies, heavily invested in AI, accounting for approximately 40% of the index – a concentration not seen since 1965.",
           "tags": [
-            "Sector Analysis",
-            "Consumer Discretionary",
-            "Technology"
-          ],
-          "timestamp": "2026-08-28T17:00:00Z"
-        },
-        {
-          "id": "crude-oil",
-          "headline": "Crude Oil Prices Rise on Supply Considerations",
-          "summary": "Brent crude oil December futures increased by 1% to $92.38 per barrel, while U.S. West Texas Intermediate (WTI) November futures rose by 1.2% to $89.37 per barrel. Geopolitical factors, specifically ongoing Iran-Oman talks over the Strait of Hormuz, continue to introduce potential supply considerations.",
-          "tags": [
-            "Commodities",
-            "Oil Prices",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-08-28T15:30:00Z"
+            "AI",
+            "Market Risk",
+            "Technology Sector",
+            "S&P 500"
+          ]
         }
       ]
     }
