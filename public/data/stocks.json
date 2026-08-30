@@ -1,35 +1,33 @@
 {
-  "generatedAt": "2026-08-30T12:35:00Z",
+  "generatedAt": "2026-08-30T19:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, August 29, 2026",
-  "badge": "Markets Closed",
+  "subtitle": "Markets Closed: Review of Friday, August 29, 2026",
+  "badge": "Last Session",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Hawkish Fed Concerns Weigh on Close",
+      "title": "Market Pulse: Hawkish Fed Comments Pressure Wall Street on Friday",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "Stocks Dip Friday as Fed Chair Warsh Signals Potential Rate Hikes, Weekly Gains Hold",
-          "summary": "U.S. equities closed lower on Friday, August 29, 2026, as Federal Reserve Chair Kevin Warsh's hawkish remarks at the Jackson Hole symposium reignited concerns over potential September interest rate hikes. Despite the daily pullback, major indices managed to secure weekly gains. Market breadth was negative, indicating a cautious sentiment among investors, with significant outflows from equity funds. Not financial advice.",
+          "id": "market-summary",
+          "headline": "Major Indices Close Lower on Friday Following Fed Chair Warsh's Hawkish Stance",
+          "summary": "U.S. equities concluded Friday's trading session in negative territory as investors reacted to Federal Reserve Chair Kevin Warsh's hawkish remarks at the Jackson Hole Summit, which intensified expectations for a September interest rate hike. Despite the daily declines, all three major indices managed to secure weekly gains. The market's advance, however, exhibited narrow breadth, with Big Tech maintaining significant sway. Not financial advice.",
           "tags": [
-            "Market Overview",
+            "Market Summary",
             "Fed",
             "Interest Rates",
-            "Jackson Hole",
-            "Inflation"
-          ],
-          "timestamp": "2026-08-29T16:00:00Z"
+            "Jackson Hole"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (August 29, 2026 Close)",
+      "title": "Major Indices Performance (August 29, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
@@ -37,138 +35,139 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,711.76",
-          "statContext": "Down 0.25% (-19.31 points) Friday; up 0.5% for the week."
+          "statContext": "Down 19.31 points (-0.25%) on Friday. The index posted a weekly gain of 0.5%."
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,402.42",
-          "statContext": "Down 0.52% (-137.80 points) Friday; up 0.9% for the week."
+          "statContext": "Down 138.93 points (-0.52%) on Friday. The tech-heavy index gained 0.9% for the week."
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,559.99",
-          "statContext": "Down 0.02% (-9.45 points) Friday; up 0.5% for the week."
+          "statContext": "Down 9.45 points (-0.02%) on Friday. The Dow recorded a weekly gain of 0.3%."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, August 29, 2026 Close)",
+      "title": "Top Movers: Friday, August 29, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-loser",
-          "headline": "Nvidia Shares Decline on Profit-Taking and AI Partnership News",
-          "ticker": "$NVDA",
-          "price": "$217.55",
-          "change": "-$10.43",
-          "changePercent": "-4.6%",
-          "direction": "down",
-          "summary": "Nvidia shares fell 4.6% after Thursday's post-earnings surge, driven by profit-taking, hawkish Fed comments, and reports of a halt in parts of its AI compute financing partnership."
-        },
-        {
-          "id": "pypl-loser",
-          "headline": "PayPal Plunges on Abandoned Acquisition Talks",
-          "ticker": "$PYPL",
+          "id": "intc-gainer",
+          "headline": "Intel Jumps on Positive Sentiment",
+          "summary": "Intel ($INTC) surged 9.49% on Friday. The move comes amid continued investor focus on large technology stocks.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.7%",
-          "direction": "down",
-          "summary": "PayPal saw a significant 12.7% drop following a report that a consortium had abandoned its pursuit of the payments company."
+          "changePercent": "+9.49%",
+          "direction": "up"
+        },
+        {
+          "id": "tsla-gainer",
+          "headline": "Tesla Gains Ahead of Week's Close",
+          "summary": "Tesla ($TSLA) climbed 3.80% by market close on Friday, contributing to the strength seen in some 'Magnificent Seven' stocks.",
+          "ticker": "$TSLA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.80%",
+          "direction": "up"
+        },
+        {
+          "id": "amzn-gainer",
+          "headline": "Amazon Rises Amid Tech Sector Focus",
+          "summary": "Amazon ($AMZN) advanced 3.71% on Friday, as large-cap tech continued to influence overall market performance.",
+          "ticker": "$AMZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.71%",
+          "direction": "up"
         },
         {
           "id": "mrvl-loser",
-          "headline": "Marvell Technology Tumbles Amid AI Revenue Concerns",
+          "headline": "Marvell Technology Crashes Despite Positive Outlook",
+          "summary": "Marvell Technology ($MRVL) plummeted 10.3% on Friday, despite reporting upbeat quarterly earnings and raising its outlook. The decline was attributed to the expected payoff from its custom AI chip deal with Google being pushed out to fiscal 2029.",
           "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-10.3%",
-          "direction": "down",
-          "summary": "Marvell Technology fell 10.3% due to concerns surrounding the timing of revenue from its artificial intelligence chip agreement with Google."
+          "direction": "down"
         },
         {
-          "id": "gps-gainer",
-          "headline": "Gap Surges on Unspecified Positive News",
-          "ticker": "$GPS",
+          "id": "nvda-loser",
+          "headline": "Nvidia Retreats After Earnings-Driven Rally",
+          "summary": "Nvidia ($NVDA) fell 4.6% on Friday, paring some of its significant gains from Thursday. The decline was due to profit-taking following its strong Q2 earnings report and a hawkish shift in Fed policy expectations.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13%",
-          "direction": "up",
-          "summary": "Gap shares surged nearly 13% during Friday's session, though specific drivers were not detailed in available reports."
+          "changePercent": "-4.6%",
+          "direction": "down"
         },
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Continues Upward Momentum",
-          "ticker": "$AAPL",
+          "id": "amd-loser",
+          "headline": "AMD Slips as Chipmakers Face Selling Pressure",
+          "summary": "Advanced Micro Devices ($AMD) dropped over 2% on Friday, as the semiconductor sector experienced selling pressure following broader market volatility and Fed comments.",
+          "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.6%",
-          "direction": "up",
-          "summary": "Apple gained 1.6%, contributing to the offset of broader market declines."
-        },
-        {
-          "id": "goog-gainer",
-          "headline": "Alphabet Rises, Boosting Megacap Performance",
-          "ticker": "$GOOG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.7%",
-          "direction": "up",
-          "summary": "Alphabet rose 1.7%, adding to the positive performance of several megacap stocks."
+          "changePercent": "-2.XX%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News: Jackson Hole Sparks Rate Hike Concerns, Tech Divergence",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-jackson-hole",
-          "headline": "Fed Chair Warsh's Hawkish Jackson Hole Speech Resets Rate Expectations",
-          "summary": "Federal Reserve Chair Kevin Warsh's address at the Jackson Hole symposium on Friday provided a clearer warning on inflation than anticipated, leading traders to increase bets on a 25-basis-point rate hike at the September FOMC meeting. Warsh emphasized the Fed's commitment to its 2% inflation target and noted that financial markets may be underpricing inflation risks.",
+          "id": "fed-warsh-jackson-hole",
+          "headline": "Fed Chair Warsh's Hawkish Jackson Hole Speech Drives Rate Hike Expectations",
+          "summary": "Federal Reserve Chair Kevin Warsh delivered a hawkish speech at the Jackson Hole Summit on Friday, reiterating the central bank's commitment to the 2% inflation target and offering no indication of impending interest rate cuts. This address significantly increased market expectations for a 25-basis-point rate hike at the upcoming September FOMC meeting, with probabilities rising to 57%. The hawkish stance led to a hardening of bond yields, with the two-year U.S. Treasury yield climbing to 4.34%.",
           "tags": [
             "Fed",
             "Monetary Policy",
-            "Inflation",
+            "Jackson Hole",
             "Interest Rates"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Communication Services and Technology Lead Weekly Gains; Semiconductors and Small Caps Lag",
-          "summary": "For the week ending August 29, 2026, Communication Services (+1.43%) and Technology (+1.30%) led sector performance. However, Friday saw a pullback in the semiconductor sector, with the VanEck Semiconductor ETF falling over 3% for the week. Small-cap and micro-cap stocks also sold off, with the Russell 2000 down 1.5% weekly, indicating a narrow market advance.",
+          "id": "sector-performance-divergence",
+          "headline": "Technology and Communication Services Lead Weekly Gains Amid Market Divergence",
+          "summary": "For the week ending August 29, Communication Services (+1.43%) and Technology (+1.30%) were among the leading sectors. However, Friday's session saw small caps and semiconductors facing the largest losses, highlighting a divergence in market performance where major indices gained but broader market breadth was weak. AI and Big Tech continued to exert significant influence on the S&P 500's movements.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Semiconductors",
-            "Small Caps"
+            "Communication Services",
+            "Market Breadth"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "July PCE Inflation Exceeds Expectations; Q2 GDP Unchanged",
-          "summary": "July's Personal Consumption Expenditures (PCE) data showed a 0.2% monthly increase and a 3.7% annual rise, surpassing the 3.6% expectation. Core PCE matched expectations. The second estimate for Q2 GDP remained unchanged at a 1.5% annual rate.",
+          "id": "economic-data-pce",
+          "headline": "July PCE Data Shows Modest Inflation Rise, Stalled Consumer Spending",
+          "summary": "Economic data released Friday indicated that the July Personal Consumption Expenditures (PCE) price index rose 0.2% month-over-month and 2.5% year-over-year. The core PCE, excluding volatile food and energy, also increased by 0.2% month-over-month and 2.6% year-over-year. While personal income saw a 0.4% rise, consumer spending notably stalled.",
           "tags": [
             "Economic Data",
+            "Inflation",
             "PCE",
-            "GDP",
-            "Inflation"
+            "Consumer Spending"
           ]
         },
         {
-          "id": "ai-bubble-concerns",
-          "headline": "Concerns Mount Over AI Bubble Amid Historic S&P 500 Concentration",
-          "summary": "Fund managers are increasingly citing an 'AI bubble' as a significant market risk, with the S&P 500's top 10 companies, heavily invested in AI, accounting for approximately 40% of the index – a concentration not seen since 1965.",
+          "id": "earnings-impact",
+          "headline": "Nvidia and Marvell Earnings See Mixed Market Reactions",
+          "summary": "Despite reporting overwhelmingly better-than-expected Q2 earnings on Thursday, Nvidia ($NVDA) saw its shares drop on Friday due to profit-taking and the hawkish Fed outlook. Similarly, Marvell Technology ($MRVL) experienced a significant decline even after an upbeat earnings report and raised guidance, as the market reacted to a delayed payoff from a key AI chip deal.",
           "tags": [
-            "AI",
-            "Market Risk",
-            "Technology Sector",
-            "S&P 500"
+            "Earnings",
+            "Technology",
+            "Semiconductors",
+            "Nvidia",
+            "Marvell"
           ]
         }
       ]
