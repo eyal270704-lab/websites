@@ -1,188 +1,182 @@
 {
-  "generatedAt": "2026-09-01T12:20:00Z",
+  "generatedAt": "2026-09-01T15:44:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, September 01, 2026 - Pre-Market Update",
+  "subtitle": "September 01, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Geopolitical Tensions Weigh on Equities",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-090126",
-          "headline": "Futures Signal Weak Open Amid Geopolitical Tensions and Inflation Concerns",
-          "summary": "U.S. stock futures are pointing to a lower open on Tuesday, as renewed Middle East tensions push oil prices higher and elevated Treasury yields revive inflation worries. Markets closed August with monthly gains despite a challenging session yesterday, but September traditionally presents a tough environment for equities. Investors are closely watching upcoming economic data and Federal Reserve commentary for clearer direction. Not financial advice.",
+          "id": "market-summary-today",
+          "headline": "U.S. Equities Slide Amid Renewed Geopolitical Concerns and Surging Bond Yields",
+          "summary": "U.S. stock markets are experiencing a downturn today as escalating U.S.-Iran hostilities in the Strait of Hormuz fuel inflation fears and drive oil prices higher. This geopolitical uncertainty, coupled with a hawkish Federal Reserve stance and rising Treasury yields, has dampened investor sentiment. Major indices are reflecting this caution, with all benchmarks trading lower in the session. Not financial advice.",
           "tags": [
-            "Pre-Market",
-            "Inflation",
             "Geopolitics",
-            "Fed"
-          ]
+            "Inflation",
+            "Yields",
+            "Market Sentiment"
+          ],
+          "timestamp": "2026-09-01T15:44:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Previous Close: August 31, 2026)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,686.14",
-          "statContext": "Down 0.33% (-25.62 points)"
+          "statValue": "7,647.03",
+          "statContext": "-0.5% (-$39.11) Today",
+          "ticker": "$SPX",
+          "price": "$7,647.03",
+          "change": "-$39.11",
+          "changePercent": "-0.5%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,370.89",
-          "statContext": "Down 0.12% (-31.53 points)"
+          "statValue": "26,147.67",
+          "statContext": "-0.8% (-$223.22) Today",
+          "ticker": "$IXIC",
+          "price": "$26,147.67",
+          "change": "-$223.22",
+          "changePercent": "-0.8%",
+          "direction": "down"
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "53,185.90",
-          "statContext": "Down 0.70% (-374.09 points)"
-        },
-        {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "-0.48%",
-          "statContext": "Pre-market indication"
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "-0.83%",
-          "statContext": "Pre-market indication"
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "-0.48%",
-          "statContext": "Pre-market indication"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "52,975.62",
+          "statContext": "-0.4% (-$210.28) Today",
+          "ticker": "$DJIA",
+          "price": "$52,975.62",
+          "change": "-$210.28",
+          "changePercent": "-0.4%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market: September 01, 2026)",
+      "title": "Top Pre-Market Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "kmx-gainer",
-          "headline": "CarMax Rises",
-          "summary": "CarMax Inc. sees significant gains in early trading.",
-          "ticker": "$KMX",
-          "price": "$65.71",
-          "change": "+$4.38",
-          "changePercent": "+7.14%",
+          "id": "fox-gainer",
+          "headline": "Fox Corp. Climbs on Positive Catalysts",
+          "summary": "Fox Corp. ($FOX) surged 5.7% in pre-market trading, driven by recent positive catalysts including strong fourth-quarter fiscal results and approaching dividend milestones.",
+          "ticker": "$FOX",
+          "changePercent": "+5.7%",
           "direction": "up"
         },
         {
-          "id": "crcl-gainer",
-          "headline": "Circle Internet Group Jumps",
-          "summary": "Circle Internet Group advances on partnership news and stablecoin interest.",
-          "ticker": "$CRCL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.65%",
+          "id": "wat-gainer",
+          "headline": "Waters Corp. Gains on Analyst Optimism",
+          "summary": "Waters Corp. ($WAT) rose 5.2% pre-market after Morgan Stanley analysts indicated it is well-positioned among life-science diagnostics companies.",
+          "ticker": "$WAT",
+          "changePercent": "+5.2%",
           "direction": "up"
         },
         {
-          "id": "rblx-gainer",
-          "headline": "Roblox Surges",
-          "summary": "Roblox experiences strong pre-market momentum.",
-          "ticker": "$RBLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+7.16%",
+          "id": "nfe-gainer",
+          "headline": "New Fortress Energy Rises on Technical Factors",
+          "summary": "New Fortress Energy ($NFE) gained 5% in pre-market, supported by short-term technical factors and speculative positioning following recent 52-week lows.",
+          "ticker": "$NFE",
+          "changePercent": "+5%",
           "direction": "up"
         },
         {
-          "id": "eix-loser",
-          "headline": "Edison International Plunges",
-          "summary": "Edison International shares fall sharply after California lawmakers blocked a proposal on wildfire liability cost recovery.",
-          "ticker": "$EIX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-23.07%",
+          "id": "spcx-loser",
+          "headline": "SpaceX Shares Dip Pre-Market",
+          "summary": "SpaceX ($SPCX) shares were down 1.31% to $141.81 in pre-market trading, following CEO Elon Musk's confirmation of plans to build an in-house foundry for specialized components.",
+          "ticker": "$SPCX",
+          "price": "$141.81",
+          "change": "-$1.88",
+          "changePercent": "-1.31%",
           "direction": "down"
         },
         {
-          "id": "pcg-loser",
-          "headline": "PG&E Declines",
-          "summary": "PG&E Corporation dips following the same California wildfire liability legislation setback.",
-          "ticker": "$PCG",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-20.06%",
+          "id": "msi-loser",
+          "headline": "Motorola Solutions Sees Pre-Market Decline",
+          "summary": "Motorola Solutions Inc. ($MSI) fell 5.10% to $460.56 in pre-market trading.",
+          "ticker": "$MSI",
+          "price": "$460.56",
+          "change": "-$24.74",
+          "changePercent": "-5.10%",
           "direction": "down"
         },
         {
-          "id": "dd-loser",
-          "headline": "DuPont De Nemours Down",
-          "summary": "DuPont De Nemours faces a notable decline in pre-market trading.",
-          "ticker": "$DD",
-          "price": "$128.30",
-          "change": "-$6.29",
-          "changePercent": "-4.67%",
+          "id": "soxl-loser",
+          "headline": "Direxion Daily Semiconductor ETF Drops",
+          "summary": "The Direxion Daily Semiconductor Bull 3X ETF ($SOXL) was down 4.78% to $107.44 in pre-market.",
+          "ticker": "$SOXL",
+          "price": "$107.44",
+          "change": "-$5.39",
+          "changePercent": "-4.78%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-090126",
-          "headline": "Sector Performance Highlights Divergence",
-          "summary": "On Monday, Information Technology led gains (+3.2%), while Consumer Staples (-1.4%), Health Care (-1.1%), and Communication Services (-1.1%) lagged. August saw Technology sectors, especially AI-linked stocks, lead the charge. A notable rotation is occurring, with capital moving into a broader range of industries beyond a few tech giants. Energy also showed strong year-to-date performance.",
+          "id": "sector-performance",
+          "headline": "Sector Performance: Consumer Staples, Energy Lead; Tech, Discretionary Lag",
+          "summary": "As of early trading today, Consumer Staples (+0.94%), Energy (+0.81%), and Health Care (+0.73%) are leading sectors. Meanwhile, Information Technology (-1.75%) and Consumer Discretionary (-1.36%) are among the laggards.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy",
-            "Consumer Staples"
+            "Sector Analysis"
           ]
         },
         {
-          "id": "economic-data-090126",
-          "headline": "Key Economic Data Releases and Fed Watch",
-          "summary": "Investors are awaiting several key economic data releases today, including Construction Spending, JOLTS Job Openings, PMI Manufacturing Final, and the ISM Manufacturing Index. Federal Reserve Vice Chair for Supervision Barr is scheduled to speak. Comments from Federal Reserve Chair Kevin Warsh yesterday reiterated concerns about persistent inflation, leading market participants to anticipate potential interest rate hikes this year.",
+          "id": "geopolitical-impact",
+          "headline": "U.S.-Iran Hostilities Drive Oil Prices and Inflation Concerns",
+          "summary": "Renewed conflicts between the U.S. and Iran in the Strait of Hormuz, including reported attacks on oil tankers, are pushing crude oil prices higher and reigniting inflation anxieties, contributing to the cautious market open.",
           "tags": [
-            "Economic Data",
-            "Fed",
+            "Geopolitics",
+            "Oil Prices",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-090126",
-          "headline": "Major Earnings Reports on Tap",
-          "summary": "Palo Alto Networks ($PANW) is slated to release its Q4 2026 earnings after the market close, offering insights into cybersecurity demand. Dell Technologies ($DELL) will also report its Q2 2027 results, providing a read on hardware demand and enterprise IT budgets.",
+          "id": "bond-yields-surge",
+          "headline": "Treasury Yields Climb to Multi-Month Highs",
+          "summary": "Government bond yields jumped today, with the key U.S. 10-year Treasury yield rising 3 basis points to 4.7880%, its highest level in 20 months. This surge is attributed to renewed Middle East hostilities and inflation fears.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "Cybersecurity"
+            "Bond Market",
+            "Interest Rates"
           ]
         },
         {
-          "id": "macro-trends-090126",
-          "headline": "Macro Factors Driving Market Caution",
-          "summary": "Rising crude oil prices, fueled by renewed U.S.-Iran hostilities in the Strait of Hormuz, are contributing to market unease. Elevated Treasury yields, with the 10-year yield around 4.7%, also dampen risk appetite. Additionally, concerns persist about the 'September effect,' a historical trend where September is often a challenging month for equities.",
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Releases on Tap Today",
+          "summary": "Investors are awaiting several significant economic data releases today, including the U.S. ISM Manufacturing PMI for August, JOLTS Job Openings for July, and Eurozone preliminary CPI for August. These reports could provide further direction to the market.",
           "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Treasury Yields",
-            "Geopolitics"
+            "Economic Data",
+            "Fed Policy"
+          ]
+        },
+        {
+          "id": "earnings-watch",
+          "headline": "NIO Reports Earnings; Palo Alto Networks Anticipates Strong Results",
+          "summary": "NIO Inc. ($NIO) is scheduled to report earnings before market open today. Additionally, Palo Alto Networks ($PANW) is expected to announce strong Q3 earnings and revenue growth, driven by robust cybersecurity sector trends.",
+          "tags": [
+            "Earnings Reports"
           ]
         }
       ]
