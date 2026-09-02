@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-02T15:35:00Z",
+  "generatedAt": "2026-09-02T19:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, September 2, 2026",
+  "subtitle": "September 2, 2026 Close",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,40 +14,41 @@
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "U.S. Stocks Drift as Geopolitical Tensions and Rising Bond Yields Clash with AI Optimism",
-          "summary": "U.S. equities showed a mixed performance in mid-day trading as investors navigated renewed hostilities between the U.S. and Iran, driving oil prices higher, and a continued sell-off in global bond markets, pushing Treasury yields to multi-year highs. This risk-averse sentiment was partially offset by persistent optimism surrounding artificial intelligence-related stocks and strong individual corporate earnings. The ADP National Employment Report indicated a slowdown in August job creation, while the ISM Manufacturing PMI showed continued, albeit slower, expansion in the manufacturing sector.",
+          "headline": "U.S. Stocks Rebound Amid Geopolitical Tensions and Rising Yields",
+          "summary": "U.S. equities showed resilience on Wednesday, with the S&P 500 and Dow Jones Industrial Average posting gains, recovering from recent losing streaks. The market navigated renewed U.S.-Iran hostilities and rising global bond yields, which continue to fuel inflation concerns and speculation about Federal Reserve interest rate hikes. Investors also digested new economic data, including a weaker-than-expected ADP private payrolls report. Not financial advice.",
           "tags": [
-            "Market Overview",
+            "Market Rebound",
             "Geopolitics",
             "Bond Yields",
-            "AI"
+            "Inflation",
+            "Fed"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Mid-day Trading)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "+0.1%",
-          "statContext": "The S&P 500 inched up, showing a slight recovery amid broader market pressures."
-        },
-        {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "-0.1%",
-          "statContext": "The tech-heavy Nasdaq Composite experienced a marginal dip."
+          "statValue": "+0.60%",
+          "statContext": "Gained ground today, closing higher."
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "+0.4%",
-          "statContext": "The Dow Jones Industrial Average posted a modest gain, indicating some resilience in blue-chip stocks."
+          "statValue": "+0.80%",
+          "statContext": "Rose 421 points, marking a recovery."
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "+0.35%",
+          "statContext": "Advanced 91.28 points."
         }
       ]
     },
@@ -59,43 +60,63 @@
       "items": [
         {
           "id": "dell-gainer",
-          "headline": "Dell Technologies Surges on Strong Earnings and AI Growth",
+          "headline": "Dell Technologies Surges on AI Server Demand",
+          "summary": "Dell Technologies ($DELL) climbed 4.7% after beating Wall Street's fiscal Q2 2027 expectations, driven by significant demand for artificial intelligence servers.",
           "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10%",
-          "direction": "up",
-          "summary": "Dell Technologies surged nearly 10% in pre-market trading after reporting robust Q2 fiscal 2027 results, with revenue up 58% year-over-year and non-GAAP diluted EPS soaring 203%. The company's AI server business was a significant driver, contributing a 100% year-over-year increase in AI server revenue and leading to raised full-year guidance."
+          "changePercent": "+4.7%",
+          "direction": "up"
         },
         {
-          "id": "gitlab-gainer",
-          "headline": "GitLab Jumps in Pre-Market",
-          "ticker": "$GTLB",
+          "id": "crowdstrike-gainer",
+          "headline": "CrowdStrike Leads S&P 500 Gainers",
+          "summary": "CrowdStrike ($CRWD) was among the top S&P 500 performers today, gaining 5.8%.",
+          "ticker": "$CRWD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+23%",
-          "direction": "up",
-          "summary": "GitLab saw a significant leap of over 23% in pre-market trading, marking it as one of the strongest performers among tech stocks."
+          "changePercent": "+5.8%",
+          "direction": "up"
         },
         {
-          "id": "howmet-loser",
-          "headline": "Howmet Aerospace Declines on SpaceX In-House Manufacturing News",
-          "ticker": "$HWM",
+          "id": "tesla-gainer",
+          "headline": "Tesla Sees Strong Daily Gains",
+          "summary": "Tesla ($TSLA) shares rose 5.5% during today's trading session.",
+          "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7%",
-          "direction": "down",
-          "summary": "Howmet Aerospace fell over 7% after Elon Musk's announcement that SpaceX plans to cast gas-turbine blades in-house, a move perceived as a threat to Howmet's specialized supply niche."
+          "changePercent": "+5.5%",
+          "direction": "up"
         },
         {
-          "id": "credo-loser",
-          "headline": "Credo Technology Slips Despite Strong Earnings Beat",
-          "ticker": "$CRDO",
+          "id": "edison-loser",
+          "headline": "Edison International Plunges",
+          "summary": "Edison International ($EIX) was the weakest S&P 500 stock of the day, returning -23.1%.",
+          "ticker": "$EIX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9%",
-          "direction": "down",
-          "summary": "Credo Technology weakened significantly in pre-market trading, falling more than 9% at one point, despite exceeding Q1 fiscal 2027 financial results and providing strong guidance."
+          "changePercent": "-23.1%",
+          "direction": "down"
+        },
+        {
+          "id": "pge-loser",
+          "headline": "PG&E Corp. Tumbles Amid Capital Spending Cuts",
+          "summary": "PG&E Corp. ($PCG) tumbled 9.7% as the utility company slashed its capital spending plans and faced ongoing uncertainty regarding California's wildfire liability framework.",
+          "ticker": "$PCG",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.7%",
+          "direction": "down"
+        },
+        {
+          "id": "paloalto-loser",
+          "headline": "Palo Alto Networks Falls Despite Earnings Beat",
+          "summary": "Palo Alto Networks ($PANW) fell 7.8% as investors focused on slowing growth metrics, margin pressures, and elevated expectations, overshadowing its headline earnings beat.",
+          "ticker": "$PANW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.8%",
+          "direction": "down"
         }
       ]
     },
@@ -106,19 +127,30 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-august",
-          "headline": "August Job Growth Slows, Manufacturing Expands at Slower Pace",
-          "summary": "The ADP National Employment Report revealed that private companies added 38,000 jobs in August, a slowdown from 46,000 in July and below estimates, marking the slowest month since January. Concurrently, the ISM Manufacturing PMI for August eased to 54.6% from 55.6% in July, although it still signifies an eighth consecutive month of expansion for the sector.",
+          "id": "geopolitical-tensions",
+          "headline": "U.S.-Iran Hostilities Escalate, Driving Oil and Bond Yields Higher",
+          "summary": "Renewed hostilities between the U.S. and Iran, including a fresh wave of airstrikes and retaliations, have sent crude prices surging and benchmark U.S. 10-year Treasury note yields to 4.814%, their highest since November 2023. This escalation, impacting global oil shipments through the Strait of Hormuz, is contributing to inflation concerns.",
           "tags": [
-            "Economic Data",
-            "Jobs Report",
-            "Manufacturing PMI"
+            "Geopolitics",
+            "Oil Prices",
+            "Bond Yields",
+            "Inflation"
           ]
         },
         {
-          "id": "fed-rate-expectations",
-          "headline": "Fed Rate Hike Expectations Rise Ahead of September FOMC Meeting",
-          "summary": "Following Federal Reserve Chair Kevin Warsh's recent hawkish remarks on inflation, expectations for a September Fed rate hike have risen to nearly 60%. The Federal Open Market Committee (FOMC) is scheduled to meet on September 15-16, 2026, with the decision on the federal funds rate being a key focus for investors. Mortgage rates have already hit a one-year high.",
+          "id": "economic-data-adp",
+          "headline": "ADP Private Payrolls Miss Estimates in August",
+          "summary": "Private companies added 38,000 jobs in August, according to the ADP report, falling below the estimated 47,000 and marking the slowest month since January. This data comes ahead of the government's broader employment report due Friday.",
+          "tags": [
+            "Economic Data",
+            "Employment",
+            "ADP"
+          ]
+        },
+        {
+          "id": "fed-rate-hike-speculation",
+          "headline": "Fed Rate Hike Bets Rise Following Inflation Focus",
+          "summary": "Speculation for a September Federal Reserve rate hike has increased to nearly 60%, up from 37% a week prior. This follows Fed Chair Kevin Warsh's speech at Jackson Hole, which emphasized fighting inflation, and New York Fed President John Williams signaling openness to a rate hike.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
@@ -126,24 +158,26 @@
           ]
         },
         {
-          "id": "geopolitical-tensions",
-          "headline": "U.S.-Iran Hostilities Drive Oil Prices and Bond Yields Higher",
-          "summary": "Renewed hostilities between the U.S. and Iran are intensifying concerns over global energy supplies, pushing crude oil prices higher, with Brent crude trading near $94.90 per barrel. This geopolitical tension, alongside elevated inflation, contributed to a deepening global bond market sell-off, with the U.S. 10-year Treasury note yield hitting a high of 4.814%, its highest level since November 2023.",
+          "id": "earnings-broadcom-snowflake-hpe",
+          "headline": "Major Companies Report Earnings Today",
+          "summary": "Broadcom ($AVGO), Snowflake ($SNOW), and Hewlett Packard Enterprise ($HPE) were among the major companies scheduled to report earnings today, with Dell Technologies ($DELL) already exceeding expectations and Palo Alto Networks ($PANW) falling despite a beat due to growth concerns.",
           "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Bond Market"
-          ]
-        },
-        {
-          "id": "earnings-watch",
-          "headline": "Broadcom, Snowflake, and Hewlett Packard Enterprise Set to Report Earnings Today",
-          "summary": "Several major companies are scheduled to report their earnings after the market close today, September 2. Among them are Broadcom ($AVGO), Snowflake ($SNOW), and Hewlett Packard Enterprise ($HPE). Broadcom's report is particularly anticipated, with investors keen on its AI chip revenue and fiscal 2027 AI guidance.",
-          "tags": [
-            "Earnings Reports",
+            "Earnings",
+            "Technology",
             "Broadcom",
             "Snowflake",
             "HPE"
+          ]
+        },
+        {
+          "id": "sector-performance-ai-banks",
+          "headline": "AI and Banks Show Strength, Consumer and Industrials Lag",
+          "summary": "The AI spending boom continues to drive individual stock movements, particularly benefiting chipmakers and AI infrastructure. Banks showed some of the strongest gains today, while consumer discretionary, industrials, and materials sectors were among the underperformers as September began.",
+          "tags": [
+            "Sector Analysis",
+            "AI",
+            "Banking",
+            "Lagging Sectors"
           ]
         }
       ]
