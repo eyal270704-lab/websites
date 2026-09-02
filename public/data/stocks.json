@@ -1,198 +1,236 @@
 {
-  "generatedAt": "2026-09-01T19:16:00Z",
+  "generatedAt": "2026-09-02T11:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, September 1, 2026 - Closing Bell",
-  "badge": "Closing Bell",
+  "subtitle": "Wednesday, September 2, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-summary",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-090126",
-          "headline": "Stocks Fall Amid Geopolitical Tensions, Rising Oil Prices, and Soaring Bond Yields",
-          "summary": "U.S. equity markets experienced a broad decline on Tuesday as renewed U.S.-Iran hostilities in the Strait of Hormuz drove oil prices higher and escalated geopolitical uncertainty. Investors also contended with rising global bond yields and concerns over stubbornly high inflation and government debt. All major indices finished lower for the day.",
+          "id": "pulse-1",
+          "headline": "Futures Signal Continued Volatility as Geopolitical Tensions and Rate Hike Concerns Weigh on Markets",
+          "summary": "US stock futures are showing volatility this Wednesday, September 2, 2026, following a downturn in major indices on Tuesday. The market sentiment remains cautious amid rising bond yields, elevated oil prices due to renewed US-Iran hostilities, and anticipation of central bank rate hikes. Investors are closely monitoring upcoming economic data, including ADP private payrolls and the Federal Reserve's Beige Book, alongside key earnings reports.",
           "tags": [
-            "Market Sentiment",
+            "Market Overview",
+            "Futures",
             "Geopolitics",
-            "Oil Prices",
-            "Bond Yields"
+            "Interest Rates"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,630.00",
-          "statContext": "Down 56.14 points (-0.73%) on September 1, 2026."
+          "id": "sp500-yesterday",
+          "statLabel": "S&P 500 (Yesterday's Close)",
+          "statValue": "7,631.47",
+          "statContext": "Down 0.71% (-54.67 pts) on Tuesday, September 1, 2026, extending losing streak to third session."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,111.27",
-          "statContext": "Down 259.62 points (-0.98%) on September 1, 2026."
+          "id": "nasdaq-yesterday",
+          "statLabel": "NASDAQ Composite (Yesterday's Close)",
+          "statValue": "26,099.77",
+          "statContext": "Down 1.03% (-271.12 pts) on Tuesday, September 1, 2026, as decline in tech stocks weighed heavily."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,729.68",
-          "statContext": "Down 456.22 points (-0.86%) on September 1, 2026."
+          "id": "dow-yesterday",
+          "statLabel": "Dow Jones Industrial Average (Yesterday's Close)",
+          "statValue": "52,766.88",
+          "statContext": "Down 0.79% (-419.02 pts) on Tuesday, September 1, 2026, influenced by rising bond yields and oil prices."
+        },
+        {
+          "id": "sp500-futures-today",
+          "statLabel": "S&P 500 Futures (Today)",
+          "statValue": "7,636.00",
+          "statContext": "Marginally down in early trading on Wednesday, September 2, 2026, stabilizing after Tuesday's losses."
+        },
+        {
+          "id": "nasdaq-futures-today",
+          "statLabel": "NASDAQ 100 Futures (Today)",
+          "statValue": "29,056.25",
+          "statContext": "Slipped 0.20% (-58.75 pts) in early trading on Wednesday, September 2, 2026."
+        },
+        {
+          "id": "dow-futures-today",
+          "statLabel": "Dow Jones Futures (Today)",
+          "statValue": "52,831",
+          "statContext": "Up 3 points in early trading on Wednesday, September 2, 2026."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-stocks",
+      "title": "Top Movers (Yesterday's Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "mrna-gainer",
-          "headline": "Moderna Rises on Positive Melanoma Vaccine Trial Results",
+          "headline": "Moderna Leads S&P 500 Gainers",
+          "summary": "Moderna surged 9.9% on Tuesday, continuing a strong month-long trend with a 179.8% gain over the past month.",
           "ticker": "$MRNA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.8%",
-          "direction": "up",
-          "summary": "Moderna shares gained 3.8% following positive late-stage Phase 3 trial results for its personalized mRNA melanoma vaccine developed in partnership with Merck."
+          "changePercent": "+9.9%",
+          "direction": "up"
         },
         {
-          "id": "aapl-gainer",
-          "headline": "Apple Climbs on Analyst Updates and iPhone Anticipation",
-          "ticker": "$AAPL",
+          "id": "frvo-gainer",
+          "headline": "Fervo Energy Experiences Significant Jump",
+          "summary": "Fervo Energy saw a remarkable 28.4% increase in its stock price, indicating strong individual performance.",
+          "ticker": "$FRVO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.6%",
-          "direction": "up",
-          "summary": "Apple rose 2.6% today, driven by positive analyst price-target updates and investor anticipation ahead of its upcoming iPhone launch event."
+          "changePercent": "+28.4%",
+          "direction": "up"
         },
         {
-          "id": "wday-gainer",
-          "headline": "Workday Up After Earnings and Buyback Program",
-          "ticker": "$WDAY",
+          "id": "mmmed-gainer",
+          "headline": "Minimed Shares Up on Strong Earnings",
+          "summary": "Minimed Group Inc. shares jumped 10.7% after reporting first-quarter fiscal 2027 revenues of $843 million, exceeding analyst estimates.",
+          "ticker": "$MMED",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.5%",
-          "direction": "up",
-          "summary": "Workday gained 2.5% following its fiscal second-quarter earnings report and the authorization of a $4 billion stock buyback program."
+          "changePercent": "+10.7%",
+          "direction": "up"
         },
         {
-          "id": "duol-gainer",
-          "headline": "Duolingo Posts Gains Following Analyst Upgrades",
-          "ticker": "$DUOL",
-          "price": "$156.51",
-          "change": "N/A",
-          "changePercent": "+5.44%",
-          "direction": "up",
-          "summary": "Duolingo's shares gained 5.44% today, reaching $156.51, following favorable analyst upgrades."
-        },
-        {
-          "id": "lite-loser",
-          "headline": "Lumentum Holdings Declines Amid Industry Selling",
-          "ticker": "$LITE",
+          "id": "eix-gainer",
+          "headline": "Edison International Among Top S&P 500 Performers",
+          "summary": "Edison International recorded an 8.9% rise in its share price.",
+          "ticker": "$EIX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.4%",
-          "direction": "down",
-          "summary": "Photonic products maker Lumentum Holdings lost 6.4%, attributed to industry-wide 'sympathy selling' and profit-taking."
+          "changePercent": "+8.9%",
+          "direction": "up"
         },
         {
-          "id": "msft-loser",
-          "headline": "Microsoft Among Tech Stocks Weighing on Market",
-          "ticker": "$MSFT",
+          "id": "alms-loser",
+          "headline": "Alumis Plummets Amidst Broad Declines",
+          "summary": "Alumis was the weakest market stock, returning -56.6% on Tuesday.",
+          "ticker": "$ALMS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.3%",
-          "direction": "down",
-          "summary": "Microsoft shares fell 1.3% as technology stocks were among the heaviest weights on the market, impacted by rising borrowing costs."
+          "changePercent": "-56.6%",
+          "direction": "down"
         },
         {
-          "id": "amd-loser",
-          "headline": "Advanced Micro Devices Falls as Tech Sector Pressured",
-          "ticker": "$AMD",
+          "id": "nvda-loser",
+          "headline": "Nvidia Shares Decline",
+          "summary": "Nvidia's stock fell 1.5% as tech stocks experienced a downturn.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.0%",
-          "direction": "down",
-          "summary": "Advanced Micro Devices saw its shares decline by 3%, reflecting the broader pressure on technology stocks from rising interest rates."
+          "changePercent": "-1.5%",
+          "direction": "down"
         },
         {
-          "id": "spcx-loser",
-          "headline": "SpaceX Down in Premarket After Foundry Plans Revealed",
-          "ticker": "$SPCX",
-          "price": "$141.81",
-          "change": "-$1.88",
-          "changePercent": "-1.31%",
-          "direction": "down",
-          "summary": "SpaceX shares were down 1.31% to $141.81 in premarket trading after CEO Elon Musk confirmed plans for the company to build a specialized in-house foundry."
+          "id": "amzn-loser",
+          "headline": "Amazon Experiences Pullback",
+          "summary": "Amazon shares gave up 1.9% as broader market concerns impacted tech giants.",
+          "ticker": "$AMZN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.9%",
+          "direction": "down"
+        },
+        {
+          "id": "nio-loser",
+          "headline": "NIO Shares Drop on Missed Revenue Estimates",
+          "summary": "NIO Inc. shares tumbled 4% after the company reported second-quarter fiscal 2026 revenues that missed the Zacks Consensus Estimate.",
+          "ticker": "$NIO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.0%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-pmi-jolt",
-          "headline": "Manufacturing PMI Shows Expansion, Job Openings Little Changed",
-          "summary": "Economic activity in the manufacturing sector expanded for the eighth consecutive month in August, with the ISM Manufacturing PMI registering 54.6%, slightly down from July's 55.6%. Meanwhile, the number of job openings remained largely unchanged at 7.3 million in July, according to the U.S. Bureau of Labor Statistics.",
+          "id": "economic-data-pmi",
+          "headline": "US Manufacturing PMI Shows Continued Expansion in August",
+          "summary": "The US ISM Manufacturing PMI eased slightly to 54.6% in August 2026 from 55.6% in July, marking the eighth consecutive month of expansion for the manufacturing sector. This data remains a key focus for the Federal Reserve as it prepares for its September meeting.",
           "tags": [
             "Economic Data",
-            "ISM PMI",
-            "JOLTS Report"
+            "Manufacturing",
+            "ISM PMI"
           ]
         },
         {
-          "id": "geopolitical-oil",
-          "headline": "U.S.-Iran Hostilities Drive Oil Prices and Inflation Concerns",
-          "summary": "Renewed hostilities between the U.S. and Iran in the Strait of Hormuz led to a significant jump in oil prices, with Brent crude rising 3.9% to $94 a barrel. This geopolitical tension is contributing to inflation concerns and uncertainty in the markets.",
+          "id": "fed-outlook",
+          "headline": "Fed Rate Hike Odds Increase After Hawkish Remarks",
+          "summary": "Expectations for a September Fed rate hike have risen to nearly 60% following Federal Reserve Chair Kevin Warsh's hawkish speech at Jackson Hole, where he reaffirmed the 2% inflation target. The next FOMC meeting is scheduled for September 15-16, 2026.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "oil-geopolitics",
+          "headline": "Oil Prices Surge Amid Renewed US-Iran Hostilities",
+          "summary": "Crude oil prices advanced significantly, with Brent crude trading at $94.90 per barrel and US crude at $90.34 a barrel, due to escalating US-Iran conflict and concerns over energy supplies, particularly in the Strait of Hormuz.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
+            "Energy Market"
+          ]
+        },
+        {
+          "id": "treasury-yields",
+          "headline": "10-Year Treasury Yield Hits Multi-Year High",
+          "summary": "The benchmark U.S. 10-year Treasury note yield rose to 4.814% on Wednesday, reaching its highest level since November 2023, as investors demanded increased returns amidst elevated inflation and growing government debt.",
+          "tags": [
+            "Bond Market",
+            "Treasury Yields",
             "Inflation"
           ]
         },
         {
-          "id": "bond-yields",
-          "headline": "Treasury Yields Climb, Pressuring Equities",
-          "summary": "U.S. Treasury yields continued their ascent, with the 10-year yield hovering around 4.78% and the 30-year yield just under 5.3%. These elevated yields are increasing borrowing costs and reducing the attractiveness of equities, particularly higher-valued technology stocks.",
-          "tags": [
-            "Bond Market",
-            "Interest Rates",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Technology and Consumer Discretionary Lag, Consumer Staples and Energy Lead",
-          "summary": "Today's intraday sector performance saw Information Technology (-1.75%) and Consumer Discretionary (-1.36%) as the leading lagging sectors. Conversely, Consumer Staples (+0.94%) and Energy (+0.81%) showed strength. (Intraday performance as of 10:00 AM ET)",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
-          ]
-        },
-        {
-          "id": "earnings-nio",
-          "headline": "NIO Reports Strong Q2 2026 Revenue Growth",
-          "summary": "NIO Inc. ($NIO) announced Q2 2026 total revenues of RMB32,136.9 million (US$4,736.4 million), marking a 69.1% increase year-over-year. Vehicle sales surged by 80.1%, contributing to a gross margin of 18.4% for the quarter.",
+          "id": "broadcom-earnings",
+          "headline": "Broadcom ($AVGO) to Report Q3 Earnings Post-Market",
+          "summary": "Broadcom is scheduled to release its fiscal Q3 2026 results after market close today, with investors anticipating strong revenue growth driven by its position in the AI revolution.",
           "tags": [
             "Earnings",
-            "NIO",
-            "Automotive"
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "snowflake-earnings",
+          "headline": "Snowflake ($SNOW) Earnings Eyed for AI Data Workload Insights",
+          "summary": "Snowflake will report earnings after market close, with market attention focused on product revenue growth and updated guidance to gauge enterprise spending on AI-driven data workloads.",
+          "tags": [
+            "Earnings",
+            "Cloud Computing",
+            "AI"
+          ]
+        },
+        {
+          "id": "sector-rotation-ai",
+          "headline": "Market Sees Rotation from AI Mega-Caps to Value and Energy",
+          "summary": "2026 has witnessed a significant capital rotation, with money shifting from a concentrated few AI mega-cap stocks into energy, industrials, materials, staples, and small caps, easing crowded positioning in the AI space.",
+          "tags": [
+            "Sector Rotation",
+            "AI Stocks",
+            "Value Stocks"
           ]
         }
       ]
