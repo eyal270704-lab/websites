@@ -1,133 +1,170 @@
 {
-  "generatedAt": "2026-09-03T11:55:00Z",
+  "generatedAt": "2026-09-03T15:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, September 3, 2026 Market Close",
-  "badge": "Market Close",
+  "subtitle": "Thursday, September 3, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Wall Street Rebounds on Earnings and Easing Rate Hike Concerns",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities Rebound as Major Indices Close Higher, Driven by Strong Earnings",
-          "summary": "U.S. stock markets closed higher on Wednesday, September 3, 2026, recovering some losses from previous sessions. All three major indices finished in positive territory, bolstered by robust earnings data. This upward movement occurred despite rising crude oil prices and increasing government bond yields, which usually pose inflationary concerns. Not financial advice."
+          "id": "market-summary-today",
+          "headline": "U.S. equities closed higher on Wednesday, snapping a three-day losing streak, as strong earnings reports bolstered investor sentiment despite ongoing geopolitical tensions and fluctuating bond yields.",
+          "summary": "Major indices saw gains, driven by positive corporate results and comments from Federal Reserve Governor Christopher Waller suggesting a potential hold on interest rates, contingent on upcoming inflation data. Oil prices continued to climb due to escalating U.S.-Iran conflict, yet Treasury yields showed signs of easing by Thursday morning."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (Wednesday, September 2, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
           "statValue": "7,666.60",
-          "statContext": "+0.5% (+35.13 points)"
+          "statContext": "+0.5% (Wednesday Close)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,217.83",
-          "statContext": "+0.5% (+118.05 points)"
+          "statContext": "+0.5% (Wednesday Close)"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-close",
+          "statLabel": "DOW Jones Industrial Average",
           "statValue": "53,061.95",
-          "statContext": "+0.6% (+295.07 points)"
+          "statContext": "+0.6% (Wednesday Close)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Wednesday's Close & Thursday Pre-market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "pge-loser",
-          "headline": "PG&E Corp. Shares Decline Amid Market Shifts",
-          "summary": "PG&E Corporation experienced a notable dip in its stock price.",
-          "ticker": "PCG",
-          "price": "$13.33",
-          "change": "-$0.73",
-          "changePercent": "-5.19%",
-          "direction": "down"
+          "id": "dell-gainer",
+          "headline": "Dell Technologies surged on strong quarterly results.",
+          "ticker": "$DELL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15.8%",
+          "direction": "up",
+          "summary": "Dell Technologies saw its stock jump 15.8% after reporting robust quarterly revenues of $286.25 million, which surpassed consensus estimates by 4.74% and were up 21.3% year-over-year."
         },
         {
-          "id": "cboe-loser",
-          "headline": "Cboe Global Markets Sees Stock Price Dip",
-          "summary": "Cboe Global Markets, Inc. shares fell during Wednesday's trading session.",
-          "ticker": "CBOE",
-          "price": "$294.12",
-          "change": "-$16.19",
-          "changePercent": "-5.19%",
-          "direction": "down"
+          "id": "snowflake-gainer",
+          "headline": "Snowflake experienced a significant pre-market rally due to strong earnings.",
+          "ticker": "$SNOW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+20%",
+          "direction": "up",
+          "summary": "Snowflake Inc. shares surged over 20% in Thursday's pre-market trading, following strong after-hours earnings and increased full-year product revenue guidance, signaling extended enterprise AI demand."
+        },
+        {
+          "id": "nvidia-gainer",
+          "headline": "Nvidia advanced on AI acquisition news.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+3.2%",
+          "direction": "up",
+          "summary": "Nvidia gained 3.2% at Wednesday's close, further boosted by the announcement of its intention to acquire AI platform Hugging Face for $13 billion."
+        },
+        {
+          "id": "giii-loser",
+          "headline": "G-III Apparel Group shares plunged after missing revenue estimates.",
+          "ticker": "$GIII",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-11.5%",
+          "direction": "down",
+          "summary": "G-III Apparel Group Ltd. plummeted 11.5% after its second-quarter fiscal 2027 revenues of $554.09 million fell short of Zacks Consensus Estimates."
+        },
+        {
+          "id": "panw-loser",
+          "headline": "Palo Alto Networks fell due to disappointing guidance.",
+          "ticker": "$PANW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.3%",
+          "direction": "down",
+          "summary": "Palo Alto Networks Inc. saw its stock fall 9.3% after reporting fourth-quarter fiscal 2026 Subscription and Support revenues and adjusted gross profits below consensus expectations."
+        },
+        {
+          "id": "skhy-loser",
+          "headline": "SK Hynix shares dropped in Thursday's pre-market.",
+          "ticker": "$SKHY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3%",
+          "direction": "down",
+          "summary": "The memory sector underperformed in Thursday's pre-market, with SK Hynix shares falling over 3% amid news of a potential Micron Taiwan union strike and increasing market share by China's CXMT."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-fed",
-          "headline": "Weak August Jobs Data Fuels Fed Rate Hike Expectations",
-          "summary": "Private employers added only 38,000 jobs in August, the weakest count since January, yet market expectations for a September Federal Reserve rate hike rose to 61%. This follows the Fed maintaining rates at 3.5%-3.75% in July, with dissenting votes pushing for a September increase. The August Consumer Price Index (CPI) report is due September 10, with the next FOMC policy decision on September 15-16.",
+          "id": "fed-waller-speech",
+          "headline": "Fed Governor Waller Signals Potential Rate Hold Based on Upcoming Inflation Data",
+          "summary": "Federal Reserve Governor Christopher Waller indicated on Thursday that the August inflation report, due September 11, would be crucial in determining his stance on interest rates. He is inclined to support holding rates steady if disinflation continues, but remains open to a hike if inflation accelerates.",
           "tags": [
             "Fed",
-            "Economy",
+            "Monetary Policy",
             "Inflation"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Energy Leads, Technology and Consumer Discretionary Lagging Sectors",
-          "summary": "The Energy Select Sector SPDR (XLE) was a leading performer, rising 1.3%. Conversely, several sectors saw declines, with the Consumer Discretionary Select Sector SPDR (XLY) falling 1.7%, Information Technology Select Sector SPDR (XLK) down 1.5%, Materials Select Sector SPDR (XLB) dropping 1.2%, and Industrials Select Sector SPDR (XLI) losing 1.4%.",
+          "id": "trade-deficit",
+          "headline": "U.S. Trade Deficit Widens in July 2026",
+          "summary": "The U.S. goods and services deficit expanded to $88.6 billion in July, an increase of $17.4 billion from June's revised figure. Exports declined by 2.1%, while imports rose by 2.8%.",
           "tags": [
-            "Sectors",
+            "Economic Data",
+            "Trade"
+          ]
+        },
+        {
+          "id": "labor-productivity",
+          "headline": "Nonfarm Business Labor Productivity Increased in Q2 2026",
+          "summary": "Revised data for the second quarter of 2026 showed nonfarm business sector labor productivity increasing by 1.4%, with output up 1.7% and hours worked increasing 0.3%. Unit labor costs rose by 1.2%.",
+          "tags": [
+            "Economic Data",
+            "Labor"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Energy Leads, Tech and Discretionary Lagged on Wednesday",
+          "summary": "On Wednesday, the Energy Select Sector SPDR ($XLE) was a leading sector, rising 1.3%. In contrast, sectors like Consumer Discretionary ($XLY), Information Technology ($XLK), Materials ($XLB), and Industrials ($XLI) all saw declines. However, the AI boom continues to drive individual tech stock performances.",
+          "tags": [
+            "Sector Analysis",
             "Energy",
             "Technology"
           ]
         },
         {
-          "id": "earnings-highlights",
-          "headline": "Dell Technologies Surges on Strong Earnings, G-III Apparel Group Misses Revenue Estimates",
-          "summary": "Dell Technologies ($DELL) saw shares rise 15.8% after reporting strong quarterly adjusted earnings of $7.04 per share and revenues of $46.97 billion, both surpassing estimates. In contrast, G-III Apparel Group Ltd. ($GIII) plunged 11.5% after its second-quarter fiscal 2027 revenues missed expectations. Palo Alto Networks Inc. ($PANW) also fell 9.3% due to disappointing Subscription and Support revenues and adjusted gross profits. Ciena ($CIEN) is set to report its Q3 fiscal 2026 results before market open.",
+          "id": "oil-iran",
+          "headline": "Oil Prices Remain Elevated Amid U.S.-Iran Conflict Escalation",
+          "summary": "Crude oil prices continued to climb due to intensifying U.S.-Iran tensions. Brent crude reached an intraday high of $97.62 per barrel on Thursday, indicating persistent geopolitical risk to inflation.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "Retail"
-          ]
-        },
-        {
-          "id": "macro-trends",
-          "headline": "Rising Oil Prices and Bond Yields Continue to Impact Markets",
-          "summary": "Elevated crude oil prices, with WTI futures at $91.01 per barrel and Brent futures at $95.63 per barrel, are contributing to global inflationary concerns. The yield on the benchmark 10-Year U.S. Treasury Note reached 4.818%, its highest since November 2023. Geopolitical tensions, including the ongoing U.S.-Iran conflict, also remained a factor influencing market sentiment.",
-          "tags": [
-            "Macroeconomics",
-            "Oil",
-            "Bonds",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "reshoring-manufacturing",
-          "headline": "Reshoring in Manufacturing Increases Amid Supply Chain Concerns",
-          "summary": "Manufacturing companies increased their interest in reshoring operations in the first half of 2026, driven by logistics savings. A survey found 36% of OEMs were engaged in reshoring, up from 29% in 2025. However, challenges include workforce issues and rapid growth outpacing training infrastructure. Businesses also expressed concern about international conflict and shipping disruption impacting supply chains.",
-          "tags": [
-            "Industry",
-            "Manufacturing",
-            "Supply Chain"
+            "Geopolitics",
+            "Energy",
+            "Inflation"
           ]
         }
       ]
