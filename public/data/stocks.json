@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T15:25:00Z",
+  "generatedAt": "2026-09-04T18:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, September 4, 2026",
-  "badge": "LIVE",
+  "subtitle": "Friday, September 4, 2026 - End of Day Summary",
+  "badge": "Daily Summary",
   "sections": [
     {
       "id": "market-pulse-09042026",
@@ -14,62 +14,83 @@
       "items": [
         {
           "id": "market-summary-09042026",
-          "headline": "U.S. Markets Close Mixed Following Strong Jobs Report; Fed Rate Hike Odds Increase",
-          "summary": "U.S. equities concluded the trading day mixed as investors digested a surprisingly robust August jobs report. The strong labor market data, which significantly exceeded expectations, has intensified speculation around a potential Federal Reserve interest rate hike later this month, tempering earlier dovish sentiment. Not financial advice.",
+          "headline": "Strong Jobs Report Fuels Rate Hike Concerns, Leading to Market Downturn",
+          "summary": "U.S. equities closed lower today as a robust August jobs report, which significantly surpassed expectations, reignited fears of aggressive Federal Reserve interest rate hikes. This reversed yesterday's optimism driven by dovish Fed comments, shifting market sentiment towards defensive sectors as investors digested the implications for monetary policy.",
           "tags": [
-            "Market Close",
-            "Jobs Report",
-            "Fed Policy"
-          ]
+            "Market Sentiment",
+            "Fed",
+            "Jobs Report"
+          ],
+          "timestamp": "2026-09-04T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices-09042026",
-      "title": "Major Indices (Today's Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-09042026",
           "statLabel": "S&P 500",
-          "statValue": "7,732.00",
-          "statContext": "Down 0.21%"
+          "statValue": "7,708.89",
+          "statContext": "Down 0.50% at midday close"
         },
         {
           "id": "nasdaq-09042026",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,536.28",
-          "statContext": "Down 0.2%"
+          "statValue": "26,467.18",
+          "statContext": "Down 0.44% at midday close"
         },
         {
           "id": "dow-09042026",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,424.88",
-          "statContext": "Down 0.5%"
+          "statValue": "53,325.23",
+          "statContext": "Down 0.67% at midday close"
         }
       ]
     },
     {
       "id": "top-movers-09042026",
-      "title": "Top Movers (Today's Trading)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "alab-gainer-09042026",
-          "headline": "Astera Labs Jumps on Rebound",
-          "summary": "Astera Labs bounced back from recent lows, jumping 10% in early trading.",
-          "ticker": "$ALAB",
+          "id": "lulu-loser-09042026",
+          "headline": "Lululemon Athletica Plummets on Weak Outlook",
+          "summary": "Shares of Lululemon Athletica ($LULU) tumbled 17.72% to $100.19 after the company announced declining revenue and a cut to its future outlook.",
+          "ticker": "$LULU",
+          "price": "$100.19",
+          "change": "-$21.40",
+          "changePercent": "-17.72%",
+          "direction": "down"
+        },
+        {
+          "id": "gwre-loser-09042026",
+          "headline": "Guidewire Software Drops on Q1 Revenue Forecast",
+          "summary": "Guidewire Software ($GWRE) fell 21.27% to $159.72 after issuing a weaker-than-expected revenue forecast for the first fiscal quarter of 2027, overshadowing its fourth-quarter earnings beat.",
+          "ticker": "$GWRE",
+          "price": "$159.72",
+          "change": "-$42.92",
+          "changePercent": "-21.27%",
+          "direction": "down"
+        },
+        {
+          "id": "rare-loser-09042026",
+          "headline": "Ultragenyx Pharmaceutical Experiences Steep Decline",
+          "summary": "Ultragenyx Pharmaceutical ($RARE) ended the day down 44.0%, despite the company reporting 17.5% revenue growth over the last twelve months.",
+          "ticker": "$RARE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.0%",
-          "direction": "up"
+          "changePercent": "-44.0%",
+          "direction": "down"
         },
         {
           "id": "sndk-gainer-09042026",
-          "headline": "SanDisk Rises on Sector Recovery and AI Demand",
-          "summary": "Flash-memory storage products maker SanDisk rose 7% amid a sector-wide memory recovery and strong artificial intelligence infrastructure demand.",
+          "headline": "SanDisk Rises on Memory Sector Recovery and AI Demand",
+          "summary": "Flash-memory storage products maker SanDisk ($SNDK) rose 7% amid a sector-wide memory recovery, strong artificial intelligence infrastructure demand, and investor interest after a recent pullback.",
           "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
@@ -77,44 +98,24 @@
           "direction": "up"
         },
         {
-          "id": "klac-gainer-09042026",
-          "headline": "KLA Corp Up on Positive Momentum",
-          "summary": "KLA Corp moved up by 7.95% today.",
-          "ticker": "$KLAC",
+          "id": "cyph-gainer-09042026",
+          "headline": "Cypherpunk Technologies Leads Gainers with Significant Surge",
+          "summary": "Cypherpunk Technologies ($CYPH) was a top performer, surging 35.1% today, extending its strong performance this month.",
+          "ticker": "$CYPH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.95%",
+          "changePercent": "+35.1%",
           "direction": "up"
         },
         {
-          "id": "lulu-loser-09042026",
-          "headline": "Lululemon Tumbles on Missed Forecasts",
-          "summary": "Lululemon Athletica tumbled 20.4% after the athletic-apparel retailer missed Wall Street's third-quarter revenue forecasts and cut its full-year financial outlook.",
-          "ticker": "$LULU",
+          "id": "ntap-gainer-09042026",
+          "headline": "NetApp Inc. Beats Earnings Estimates",
+          "summary": "NetApp Inc. ($NTAP) shares gained 2.6% after reporting first-quarter fiscal 2027 adjusted earnings of $2.58 per share, beating the Zacks Consensus Estimate of $2.13 per share.",
+          "ticker": "$NTAP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-20.4%",
-          "direction": "down"
-        },
-        {
-          "id": "gwre-loser-09042026",
-          "headline": "Guidewire Software Falls on Weak Guidance",
-          "summary": "Shares of cloud-based software platform Guidewire Software fell 22.2% after issuing a weaker-than-expected revenue forecast for the first fiscal quarter of 2027.",
-          "ticker": "$GWRE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-22.2%",
-          "direction": "down"
-        },
-        {
-          "id": "cpb-loser-09042026",
-          "headline": "Campbell's Co. Drops on Earnings Miss",
-          "summary": "The Campbell's Co. shares tumbled 7% after posting fourth-quarter fiscal 2026 adjusted earnings of $0.39 per share, missing the Zacks Consensus Estimate of $0.40 per share.",
-          "ticker": "$CPB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.0%",
-          "direction": "down"
+          "changePercent": "+2.6%",
+          "direction": "up"
         }
       ]
     },
@@ -125,57 +126,47 @@
       "layout": "list",
       "items": [
         {
-          "id": "jobs-report-09042026",
+          "id": "economic-data-09042026",
           "headline": "August Jobs Report Exceeds Expectations",
-          "summary": "The U.S. economy added 162,000 jobs in August, significantly surpassing economists' consensus estimate of 55,000. The unemployment rate held steady at 4.1%.",
+          "summary": "The U.S. Labor Department reported that nonfarm payroll employment increased by 162,000 in August, significantly surpassing economists' expectations of 55,000 jobs. The unemployment rate remained unchanged at 4.1 percent. Average hourly earnings rose by 0.3% for the month and 3.1% over the year.",
           "tags": [
-            "Economic Data",
-            "Jobs",
-            "Labor Market"
+            "Jobs Report",
+            "Unemployment",
+            "Inflation"
           ],
           "timestamp": "2026-09-04T08:30:00Z"
         },
         {
           "id": "fed-outlook-09042026",
-          "headline": "Strong Jobs Data Fuels Fed Rate Hike Speculation",
-          "summary": "The robust August jobs report has increased market expectations for a Federal Reserve rate hike at its upcoming September 15-16 meeting. This follows recent comments from Fed Chair Kevin Warsh expressing concern about persistent inflation.",
+          "headline": "Strong Jobs Data Shifts Fed Rate Hike Expectations",
+          "summary": "Today's robust jobs report dashed recent hopes for a steady interest rate environment, with markets now pricing in a higher likelihood of a Federal Reserve rate hike at its upcoming meeting. This contrasts sharply with Thursday's sentiment, which was bolstered by Fed Governor Christopher Waller's dovish comments. The upcoming CPI and PPI reports next week will be critical in guiding the Fed's September decision.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Inflation"
+            "Monetary Policy"
           ],
-          "timestamp": "2026-09-04T12:00:00Z"
+          "timestamp": "2026-09-04T16:00:00Z"
         },
         {
-          "id": "sector-lagging-09042026",
-          "headline": "Energy and Financials Lagging; Chip Producers Lead Gains",
-          "summary": "In today's trading, sectors such as Financials ($XLF), Energy ($XLE), Consumer Discretionary ($XLY), Utilities ($XLU), Real Estate ($XLRE), and Materials ($XLB) showed declines. Meanwhile, chip producers led overall gains, indicating strength in the technology segment.",
+          "id": "sector-rotation-09042026",
+          "headline": "Defensive Sectors Gain as Market Sentiment Turns Cautious",
+          "summary": "The strong August employment data led investors to shift towards defensive sectors today, with Utilities being the only sector to finish in the green. Consumer Cyclicals and Communication Services experienced the largest declines.",
           "tags": [
             "Sector Performance",
-            "Energy",
-            "Financials",
-            "Technology"
-          ]
+            "Utilities",
+            "Consumer Cyclicals"
+          ],
+          "timestamp": "2026-09-04T16:00:00Z"
         },
         {
-          "id": "earnings-snow-hpe-09042026",
-          "headline": "Snowflake and HPE Post Strong Earnings",
-          "summary": "Snowflake Inc. ($SNOW) reported adjusted earnings of $0.62 per share on revenues of $1.55 billion, beating consensus estimates. Hewlett Packard Enterprise Co. ($HPE) also surpassed expectations with adjusted earnings of $1.11 per share and revenues of $12.21 billion.",
+          "id": "earnings-overview-09042026",
+          "headline": "Key Earnings Reports Drive Individual Stock Moves",
+          "summary": "Several companies reported earnings today, influencing significant stock movements. Guidewire Software ($GWRE) fell sharply on a weak revenue forecast, while NetApp Inc. ($NTAP) gained after beating earnings estimates. Broadcom Inc. ($AVGO) also faced declines due to lower revenue guidance.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "Enterprise Software"
-          ]
-        },
-        {
-          "id": "earnings-avgo-09042026",
-          "headline": "Broadcom Issues Weaker Guidance",
-          "summary": "Shares of Broadcom Inc. ($AVGO) fell following the company's release of weaker-than-expected revenue guidance for the fourth quarter of fiscal 2026.",
-          "tags": [
-            "Earnings",
-            "Semiconductors",
-            "Guidance"
-          ]
+            "Earnings Reports",
+            "Corporate News"
+          ],
+          "timestamp": "2026-09-04T16:00:00Z"
         }
       ]
     }
