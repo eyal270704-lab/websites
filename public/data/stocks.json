@@ -1,167 +1,183 @@
 {
-  "generatedAt": "2026-09-06T11:30:00Z",
+  "generatedAt": "2026-09-06T18:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Markets Closed Today, September 6, 2026 (Saturday). Reporting on Friday, September 5, 2026, Trading Session.",
-  "badge": "Last Close",
+  "title": "Daily Market Digest: September 6, 2026",
+  "subtitle": "Markets Closed for Weekend - Last Trading Session: Friday, September 4, 2026",
+  "badge": "Last Session Reviewed",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Jobs Report Fuels Rate Hike Speculation",
+      "id": "market-pulse-friday",
+      "title": "Market Pulse (Friday, September 4, 2026)",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities End Mixed on Friday as Strong Jobs Report Increases Fed Rate Hike Odds; Energy and AI-Related Stocks Outperform Amid Rising Oil Prices.",
-          "summary": "U.S. stock markets closed a mixed session on Friday, September 5, 2026, as a surprisingly strong August jobs report led to increased speculation of a September interest rate hike by the Federal Reserve. Despite the overall mixed performance, energy and AI-related technology stocks demonstrated notable strength. The S&P 500 remained just 1% below its all-time highs, supported by consistent dip-buying activity.",
+          "id": "market-summary-friday",
+          "headline": "Strong Jobs Report Fuels Rate Hike Concerns, Leading to Broad Market Declines",
+          "summary": "U.S. stock markets closed lower on Friday, September 4, as a stronger-than-expected August jobs report raised the probability of further interest rate hikes by the Federal Reserve. This economic data overshadowed some positive corporate earnings and led to a cautious sentiment, with Treasury yields also climbing. Not financial advice.",
           "tags": [
-            "Market Overview",
-            "Fed Outlook",
-            "Economic Data"
-          ],
-          "timestamp": "2026-09-05T16:00:00Z"
+            "Market Summary",
+            "Jobs Report",
+            "Interest Rates"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Friday, September 5, 2026)",
+      "id": "major-indices-friday",
+      "title": "Major Indices (Friday, September 4, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-friday",
           "statLabel": "S&P 500",
           "statValue": "7,718.60",
-          "statContext": "Down 0.4% (-29.11 points)"
+          "statContext": "Down 0.4% (-29.11 points) on Friday. Up 0.1% for the week."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-friday",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,506.99",
-          "statContext": "Down 0.3% (-77.07 points)"
+          "statContext": "Down 0.3% (-77.07 points) on Friday. Up 0.4% for the week."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-friday",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,414.25",
-          "statContext": "Down 0.5% (-271.86 points)"
+          "statContext": "Down 0.5% (-271.86 points) on Friday. Down 0.3% for the week."
+        },
+        {
+          "id": "russell2000-friday",
+          "statLabel": "Russell 2000",
+          "statValue": "2,975.65",
+          "statContext": "Up 0.2% (+7.38 points) on Friday."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Friday, September 5, 2026)",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Friday, September 4, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "sndk-gainer",
-          "headline": "SanDisk Rises on Memory Recovery & AI Demand",
-          "summary": "Flash-memory storage product maker SanDisk ($SNDK) saw a significant gain, rising 11.9% to $1740.0, driven by a sector-wide memory recovery and strong demand for artificial intelligence infrastructure.",
-          "ticker": "$SNDK",
-          "price": "$1,740.00",
-          "change": "+$185.00 (estimated)",
-          "changePercent": "+11.9%",
-          "direction": "up"
+          "id": "aout-gainer",
+          "headline": "American Outdoor Brands Surges on Strong Q1 Results",
+          "ticker": "$AOUT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+45%",
+          "direction": "up",
+          "summary": "American Outdoor Brands ($AOUT) surged nearly 45% after reporting better-than-expected Q1 fiscal 2027 results and raising its profitability forecast."
         },
         {
-          "id": "be-gainer",
-          "headline": "Bloom Energy Jumps on S&P 500 Inclusion",
-          "summary": "Bloom Energy Corp. ($BE) climbed 7.35% to $252.87 after S&P Dow Jones Indices announced its addition to the S&P 500, effective September 21. The company has also seen strong demand from data centers.",
-          "ticker": "$BE",
-          "price": "$252.87",
-          "change": "+$17.30 (estimated)",
-          "changePercent": "+7.35%",
-          "direction": "up"
+          "id": "nx-gainer",
+          "headline": "Quanex Building Products Rises on Strong Sales",
+          "ticker": "$NX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+22%",
+          "direction": "up",
+          "summary": "Quanex Building Products ($NX) rose almost 22% following higher sales and adjusted earnings supported by favorable pricing."
         },
         {
           "id": "biaf-gainer",
-          "headline": "BIAF Surges on M&A Activity",
-          "summary": "BIAF spiked 213% to $15.27 for the week, attributed to mergers and acquisition activities.",
+          "headline": "bioAffinity Technologies Jumps on Diagnostic Presentation News",
           "ticker": "$BIAF",
-          "price": "$15.27",
-          "change": "+$10.40 (estimated)",
-          "changePercent": "+213%",
-          "direction": "up"
-        },
-        {
-          "id": "gwre-loser",
-          "headline": "Guidewire Software Plummets on Weak Outlook",
-          "summary": "Shares of cloud-based software platform Guidewire Software ($GWRE) fell 22.2% following a weaker-than-expected revenue forecast for the first fiscal quarter of 2027.",
-          "ticker": "$GWRE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-22.2%",
-          "direction": "down"
+          "changePercent": "+19%",
+          "direction": "up",
+          "summary": "bioAffinity Technologies ($BIAF) jumped nearly 19% after announcing an upcoming presentation on its lung-cancer diagnostic business."
         },
         {
-          "id": "tsla-loser",
-          "headline": "Tesla Shares Decline",
-          "summary": "Tesla ($TSLA) experienced a notable decline, falling 5.9% to $354.08 during Friday's trading session.",
-          "ticker": "$TSLA",
-          "price": "$354.08",
-          "change": "-$22.29",
-          "changePercent": "-5.9%",
-          "direction": "down"
+          "id": "tyra-gainer",
+          "headline": "Tyra Biosciences Posts Double-Digit Gains",
+          "ticker": "$TYRA",
+          "price": "$28.65",
+          "change": "+$3.79",
+          "changePercent": "+15.25%",
+          "direction": "up",
+          "summary": "Tyra Biosciences Inc. ($TYRA) saw a significant gain of 15.25%, closing at $28.65."
         },
         {
-          "id": "aapl-loser",
-          "headline": "Apple Under Pressure",
-          "summary": "Apple ($AAPL) shares fell 2.5% to $319.97, contributing to the broader market's mixed close.",
-          "ticker": "$AAPL",
-          "price": "$319.97",
-          "change": "-$8.24",
-          "changePercent": "-2.5%",
-          "direction": "down"
+          "id": "lulu-loser",
+          "headline": "Lululemon Athletica Tumbles on Revenue Decline and Outlook Cut",
+          "ticker": "$LULU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-18%",
+          "direction": "down",
+          "summary": "Lululemon Athletica ($LULU) tumbled 18% following news of declining revenue and a cut to its outlook."
+        },
+        {
+          "id": "fico-loser",
+          "headline": "Fair Isaac Plummeted Following Pricing Criticism",
+          "ticker": "$FICO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-16.68%",
+          "direction": "down",
+          "summary": "Fair Isaac ($FICO) plummeted 16.68% after the Federal Housing Finance Agency voiced pricing criticism on social media."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Analysis (Friday, September 5, 2026)",
+      "id": "market-news-friday",
+      "title": "Market News (Friday, September 4, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-jobs-report",
-          "headline": "August Jobs Report Exceeds Expectations, Bolstering Fed Hike Bets",
-          "summary": "U.S. employers added a robust 162,000 jobs in August, significantly surpassing economists' expectations of approximately 55,000. This strong labor market data has pushed the market probability of a September Federal Reserve interest rate hike back above 60%. The unemployment rate slightly increased to 4.1%, largely due to more individuals entering the labor force.",
+          "id": "economic-data-friday",
+          "headline": "August Jobs Report Exceeds Expectations, Raising Rate Hike Odds",
+          "summary": "The U.S. economy added a robust 162,000 jobs in August, significantly surpassing the expected 65,000, while the unemployment rate remained stable at 4.1%. This strong labor market data has heightened investor concerns about the Federal Reserve's potential for another interest rate hike.",
           "tags": [
-            "Economic Data",
-            "Federal Reserve",
-            "Jobs Market"
+            "Jobs Report",
+            "Fed Policy",
+            "Economic Data"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Energy and Technology Sectors Lead, Consumer Discretionary Lags",
-          "summary": "For the week ending September 4, the Energy sector was the best performer, gaining 2.33%, primarily driven by surging crude oil prices. Technology stocks also saw gains of 0.89%, buoyed by ongoing demand for semiconductors and AI-related names. Conversely, the Consumer Discretionary sector lagged, falling 1.98%, with Basic Materials also down 1.27%.",
+          "id": "treasury-yields-friday",
+          "headline": "Treasury Yields Climb Amid Hawkish Fed Expectations",
+          "summary": "Treasury yields rose on Friday, with the U.S. 10-year Treasury yield reaching approximately 4.8%, its highest level since early 2025. The 2-year Treasury yield also climbed to 4.37%, reflecting increased market expectations for a September Fed rate hike.",
+          "tags": [
+            "Treasury Yields",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "sector-performance-friday",
+          "headline": "Utilities and Technology Show Resilience Amid Sector Rotation",
+          "summary": "On Friday, the Utilities sector was the only one in the green, while Technology managed a modest 0.70% gain. In contrast, Consumer Cyclicals and Communication Services experienced the largest declines as investors rotated out of these consumer-facing sectors.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Technology"
+            "Utilities",
+            "Technology",
+            "Consumer Cyclicals",
+            "Communication Services"
           ]
         },
         {
-          "id": "oil-prices",
-          "headline": "Crude Oil Prices Continue to Rise Amid Middle East Tensions",
-          "summary": "Crude oil prices continued their upward trajectory, with Brent reaching the mid-$90s. This surge is attributed to renewed geopolitical tensions in the Middle East and concerns over supply from the Strait of Hormuz, impacting potential inflation and monetary policy.",
+          "id": "oil-prices-friday",
+          "headline": "Oil Prices Remain Elevated Amid Geopolitical Tensions",
+          "summary": "Brent crude prices remained above $90 per barrel, with West Texas Intermediate (WTI) crude trading near $91.03 a barrel, driven by renewed U.S.-Iran hostilities and concerns about Middle East oil supplies.",
           "tags": [
-            "Commodities",
+            "Oil Prices",
             "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "q2-earnings-growth",
-          "headline": "S&P 500 Q2 Earnings Show Strong Growth",
-          "summary": "FactSet reported that with 97% of S&P 500 companies having released second-quarter 2026 results, overall earnings grew by 52%, with 86% reporting a positive earnings per share (EPS) surprise. This robust earnings growth is a key factor supporting the market, despite high valuations.",
+          "id": "earnings-news-friday",
+          "headline": "Major Companies Report Strong Q2/Q4 Earnings",
+          "summary": "Several companies reported strong earnings, including Snowflake Inc. ($SNOW) and Hewlett Packard Enterprise Co. ($HPE), both beating analyst estimates. Additionally, U.S. Global Investors (NASDAQ:GROW) announced a $3.1 million profit for fiscal year 2026. However, Lululemon Athletica ($LULU) saw a significant drop after cutting its outlook.",
           "tags": [
-            "Earnings",
-            "Corporate Performance"
+            "Earnings Reports",
+            "Corporate News"
           ]
         }
       ]
