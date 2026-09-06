@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-06T04:08:41.173841Z",
+  "generatedAt": "2026-09-06T22:03:29.939566Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 8,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -128,6 +128,22 @@
       "analysis": "The ticker $CTR refers to ClearBridge MLP and Midstream TR, a fund that is indicated as potentially delisted and may not be actively trading. Due to the uncertain trading status and lack of reliable real-time technical analysis data, including current moving averages, volume, and Fibonacci retracement levels, a valid swing trade setup cannot be identified. This ambiguity and potential delisting render any technical analysis unreliable and the security unsuitable for swing trading. Entry and stop levels are set nominally around the last reported price to adhere to output constraints, but are not based on current technical analysis.",
       "riskScore": 10,
       "footerTag": "High Risk - Ambiguous Ticker/Delisted",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AVGO",
+      "name": "Broadcom Inc.",
+      "sector": "Semiconductors",
+      "currentPrice": "$357.90",
+      "entry": "$354.00",
+      "stop": "$346.50",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Broadcom is currently in a bearish trend, trading below its 20-day and 200-day moving averages. The stock recently reacted negatively to earnings on September 2, 2026, closing lower. Price is approaching a key Fibonacci S1 support at $354.00, which could be an entry for a bounce, but the overall sentiment remains weak. Relative volume is elevated at approximately 1.33x, suggesting increased activity during this downtrend.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Bearish Trend",
       "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
