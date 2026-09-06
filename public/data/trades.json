@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T10:18:32.467414Z",
+  "generatedAt": "2026-09-06T04:08:41.173841Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,38 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$TXT",
+      "name": "Textron Inc.",
+      "sector": "Aerospace & Defense",
+      "currentPrice": "$79.07",
+      "entry": "$78.12",
+      "stop": "$77.50",
+      "structure": "Support Test",
+      "trend": "Downtrend",
+      "trendLabel": "Trend",
+      "analysis": "Textron Inc. is in a clear downtrend and currently trading near its 52-week low of $78.12, which aligns with a key support level. While a bounce from this support is possible, there is no discernible 'Golden Zone' Fibonacci setup for a swing trade long entry at this time, making it a high-risk proposition for a long entry. The price is currently below both the 20-day and 150-day moving averages, confirming the bearish trend. Relative volume is slightly elevated at 1.33, but without a constructive price action or a clear bullish reversal pattern, this setup is considered an 'avoid'.",
+      "riskScore": 8,
+      "footerTag": "Avoid - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CTR",
+      "name": "ClearBridge MLP and Midstream TR",
+      "sector": "Finance and Insurance",
+      "currentPrice": "$40.25",
+      "entry": "$40.25",
+      "stop": "$39.50",
+      "structure": "No Valid Structure (Potential Delisting)",
+      "trend": "Undetermined",
+      "trendLabel": "Status",
+      "analysis": "The ticker $CTR refers to ClearBridge MLP and Midstream TR, a fund that is indicated as potentially delisted and may not be actively trading. Due to the uncertain trading status and lack of reliable real-time technical analysis data, including current moving averages, volume, and Fibonacci retracement levels, a valid swing trade setup cannot be identified. This ambiguity and potential delisting render any technical analysis unreliable and the security unsuitable for swing trading. Entry and stop levels are set nominally around the last reported price to adhere to output constraints, but are not based on current technical analysis.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Ambiguous Ticker/Delisted",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
