@@ -1,162 +1,167 @@
 {
-  "generatedAt": "2026-09-05T11:07:00Z",
+  "generatedAt": "2026-09-06T11:30:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Markets Closed for Weekend: Summary of Friday, September 4, 2026",
-  "badge": "Weekend Summary",
+  "subtitle": "Markets Closed Today, September 6, 2026 (Saturday). Reporting on Friday, September 5, 2026, Trading Session.",
+  "badge": "Last Close",
   "sections": [
     {
-      "id": "market-pulse-friday",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Jobs Report Fuels Rate Hike Speculation",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "mp-1",
-          "headline": "Jobs Report Fuels Rate Hike Speculation, Leading to Mixed Market Close",
-          "summary": "U.S. equities closed mixed on Friday as a stronger-than-expected August jobs report intensified expectations for a Federal Reserve rate hike in September. The Dow declined, while the S&P 500 and Nasdaq posted marginal gains, reflecting investor caution.",
+          "id": "market-summary",
+          "headline": "U.S. Equities End Mixed on Friday as Strong Jobs Report Increases Fed Rate Hike Odds; Energy and AI-Related Stocks Outperform Amid Rising Oil Prices.",
+          "summary": "U.S. stock markets closed a mixed session on Friday, September 5, 2026, as a surprisingly strong August jobs report led to increased speculation of a September interest rate hike by the Federal Reserve. Despite the overall mixed performance, energy and AI-related technology stocks demonstrated notable strength. The S&P 500 remained just 1% below its all-time highs, supported by consistent dip-buying activity.",
           "tags": [
-            "Market Sentiment",
-            "Jobs Report",
-            "Fed"
-          ]
+            "Market Overview",
+            "Fed Outlook",
+            "Economic Data"
+          ],
+          "timestamp": "2026-09-05T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-friday",
-      "title": "Major Indices (Friday, September 4, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Friday, September 5, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,750.19",
-          "statContext": "+0.03% (+2.50 points)"
+          "statValue": "7,718.60",
+          "statContext": "Down 0.4% (-29.11 points)"
         },
         {
-          "id": "nasdaq-friday",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,587.896",
-          "statContext": "+0.01% (+3.80 points)"
+          "statValue": "26,506.99",
+          "statContext": "Down 0.3% (-77.07 points)"
         },
         {
-          "id": "dow-friday",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "53,584.89",
-          "statContext": "-0.19% (-101.20 points)"
+          "statValue": "53,414.25",
+          "statContext": "Down 0.5% (-271.86 points)"
         }
       ]
     },
     {
-      "id": "top-movers-friday",
-      "title": "Top Movers (Previous Trading Session: Thursday, September 3, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (Friday, September 5, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "top-gainer-cyph",
-          "headline": "Cypherpunk Technologies Soars",
-          "summary": "Cypherpunk Technologies surged over 35%, leading Thursday's market gainers.",
-          "ticker": "$CYPH",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+35.1%",
+          "id": "sndk-gainer",
+          "headline": "SanDisk Rises on Memory Recovery & AI Demand",
+          "summary": "Flash-memory storage product maker SanDisk ($SNDK) saw a significant gain, rising 11.9% to $1740.0, driven by a sector-wide memory recovery and strong demand for artificial intelligence infrastructure.",
+          "ticker": "$SNDK",
+          "price": "$1,740.00",
+          "change": "+$185.00 (estimated)",
+          "changePercent": "+11.9%",
           "direction": "up"
         },
         {
-          "id": "top-gainer-abtc",
-          "headline": "American Bitcoin Posts Strong Gains",
-          "summary": "American Bitcoin saw significant upward movement during the previous session.",
-          "ticker": "$ABTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+18.7%",
+          "id": "be-gainer",
+          "headline": "Bloom Energy Jumps on S&P 500 Inclusion",
+          "summary": "Bloom Energy Corp. ($BE) climbed 7.35% to $252.87 after S&P Dow Jones Indices announced its addition to the S&P 500, effective September 21. The company has also seen strong demand from data centers.",
+          "ticker": "$BE",
+          "price": "$252.87",
+          "change": "+$17.30 (estimated)",
+          "changePercent": "+7.35%",
           "direction": "up"
         },
         {
-          "id": "top-gainer-hood",
-          "headline": "Robinhood Markets Continues Upward Trend",
-          "summary": "Robinhood Markets was among the top S&P 500 performers, extending its recent strength.",
-          "ticker": "$HOOD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+16.6%",
+          "id": "biaf-gainer",
+          "headline": "BIAF Surges on M&A Activity",
+          "summary": "BIAF spiked 213% to $15.27 for the week, attributed to mergers and acquisition activities.",
+          "ticker": "$BIAF",
+          "price": "$15.27",
+          "change": "+$10.40 (estimated)",
+          "changePercent": "+213%",
           "direction": "up"
         },
         {
-          "id": "top-loser-rare",
-          "headline": "Ultragenyx Pharmaceutical Plummets",
-          "summary": "Ultragenyx Pharmaceutical experienced a steep decline, closing down significantly.",
-          "ticker": "$RARE",
+          "id": "gwre-loser",
+          "headline": "Guidewire Software Plummets on Weak Outlook",
+          "summary": "Shares of cloud-based software platform Guidewire Software ($GWRE) fell 22.2% following a weaker-than-expected revenue forecast for the first fiscal quarter of 2027.",
+          "ticker": "$GWRE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-44.0%",
+          "changePercent": "-22.2%",
           "direction": "down"
         },
         {
-          "id": "top-loser-lulu",
-          "headline": "Lululemon Sees Steep Drop in Premarket Trading",
-          "summary": "Lululemon was a notable pre-market and midday mover to the downside.",
-          "ticker": "$LULU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-20.51%",
+          "id": "tsla-loser",
+          "headline": "Tesla Shares Decline",
+          "summary": "Tesla ($TSLA) experienced a notable decline, falling 5.9% to $354.08 during Friday's trading session.",
+          "ticker": "$TSLA",
+          "price": "$354.08",
+          "change": "-$22.29",
+          "changePercent": "-5.9%",
           "direction": "down"
         },
         {
-          "id": "top-loser-cien",
-          "headline": "Ciena Experiences Significant Decline",
-          "summary": "Ciena was among the S&P 500's biggest losers for the session.",
-          "ticker": "$CIEN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.4%",
+          "id": "aapl-loser",
+          "headline": "Apple Under Pressure",
+          "summary": "Apple ($AAPL) shares fell 2.5% to $319.97, contributing to the broader market's mixed close.",
+          "ticker": "$AAPL",
+          "price": "$319.97",
+          "change": "-$8.24",
+          "changePercent": "-2.5%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-friday",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Analysis (Friday, September 5, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-jobs-report",
-          "headline": "August Jobs Report Exceeds Expectations",
-          "summary": "The U.S. Bureau of Labor Statistics reported that nonfarm payroll employment increased by 162,000 in August, significantly surpassing economists' expectations of 55,000 jobs. The unemployment rate held steady at 4.1 percent.",
+          "id": "economic-jobs-report",
+          "headline": "August Jobs Report Exceeds Expectations, Bolstering Fed Hike Bets",
+          "summary": "U.S. employers added a robust 162,000 jobs in August, significantly surpassing economists' expectations of approximately 55,000. This strong labor market data has pushed the market probability of a September Federal Reserve interest rate hike back above 60%. The unemployment rate slightly increased to 4.1%, largely due to more individuals entering the labor force.",
           "tags": [
             "Economic Data",
-            "Employment"
+            "Federal Reserve",
+            "Jobs Market"
           ]
         },
         {
-          "id": "news-fed-outlook",
-          "headline": "Strong Jobs Data Fuels Fed Rate Hike Bets",
-          "summary": "Following the robust August jobs report, market pricing indicated that the probability of a 25-basis-point interest rate hike by the Federal Reserve at its September meeting increased to approximately 60%.",
-          "tags": [
-            "Fed Policy",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "news-sector-performance",
-          "headline": "Technology, Industrials, and Utilities Lead Gains",
-          "summary": "On Friday, only three sectors in the S&P 500 advanced: Technology (+0.44%), Industrials (+0.22%), and Utilities (+0.12%), indicating a selective market performance amidst broader caution.",
+          "id": "sector-performance",
+          "headline": "Energy and Technology Sectors Lead, Consumer Discretionary Lags",
+          "summary": "For the week ending September 4, the Energy sector was the best performer, gaining 2.33%, primarily driven by surging crude oil prices. Technology stocks also saw gains of 0.89%, buoyed by ongoing demand for semiconductors and AI-related names. Conversely, the Consumer Discretionary sector lagged, falling 1.98%, with Basic Materials also down 1.27%.",
           "tags": [
             "Sector Analysis",
-            "Market Trends"
+            "Energy",
+            "Technology"
           ]
         },
         {
-          "id": "news-earnings",
-          "headline": "Hurco Companies and Planet Labs Report Earnings",
-          "summary": "Hurco Companies ($HURC) posted a profit in its Q3 2026 earnings, with GAAP EPS of $0.35 and revenue of $47.29 million. Meanwhile, Planet Labs ($PL) beat earnings estimates and raised its full-year guidance, though its stock dipped slightly due to mixed analyst reactions.",
+          "id": "oil-prices",
+          "headline": "Crude Oil Prices Continue to Rise Amid Middle East Tensions",
+          "summary": "Crude oil prices continued their upward trajectory, with Brent reaching the mid-$90s. This surge is attributed to renewed geopolitical tensions in the Middle East and concerns over supply from the Strait of Hormuz, impacting potential inflation and monetary policy.",
           "tags": [
-            "Earnings Reports"
+            "Commodities",
+            "Geopolitics",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "q2-earnings-growth",
+          "headline": "S&P 500 Q2 Earnings Show Strong Growth",
+          "summary": "FactSet reported that with 97% of S&P 500 companies having released second-quarter 2026 results, overall earnings grew by 52%, with 86% reporting a positive earnings per share (EPS) surprise. This robust earnings growth is a key factor supporting the market, despite high valuations.",
+          "tags": [
+            "Earnings",
+            "Corporate Performance"
           ]
         }
       ]
