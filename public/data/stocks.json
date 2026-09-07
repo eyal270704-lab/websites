@@ -1,253 +1,177 @@
 {
-  "generatedAt": "2026-09-07T13:16:00Z",
+  "generatedAt": "2026-09-07T16:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Monday, September 7, 2026 - US Markets Closed for Labor Day",
-  "badge": "Market Holiday",
+  "subtitle": "September 7, 2026 - US Markets Closed for Labor Day",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Holiday Pause After Rate Hike Concerns",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "US Stock Markets Closed for Labor Day; Futures Indicate Mixed Sentiment Following Strong Jobs Data",
-          "summary": "U.S. equity markets are observing the Labor Day holiday today, with no cash trading. Stock futures are presenting a mixed picture: Dow and S&P 500 futures are slightly lower, while Nasdaq futures show a modest gain. This cautious sentiment follows last Friday's stronger-than-expected August jobs report, which has intensified expectations for potential Federal Reserve interest rate hikes. Please note, this is not financial advice.",
+          "id": "market-summary",
+          "headline": "US Markets Closed for Labor Day, Reflecting on Friday's Downturn Fueled by Strong Jobs Data",
+          "summary": "U.S. equity markets are closed today, September 7, 2026, in observance of Labor Day. The last trading session on Friday, September 4, saw major indices close lower as a stronger-than-expected August jobs report intensified expectations for a Federal Reserve rate hike. The S&P 500, Nasdaq Composite, and Dow Jones Industrial Average all declined, with market sentiment also influenced by the historical 'September Effect' of seasonal headwinds. Investors now look ahead to inflation data and key earnings reports later in the week when markets reopen. Not financial advice.",
           "tags": [
             "Labor Day",
             "Market Close",
-            "Futures",
-            "Fed Rate Hike",
-            "Jobs Report"
+            "Jobs Report",
+            "Fed Outlook"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices Performance (Friday, September 4, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday-close",
-          "headline": "S&P 500 (Friday, Sep 4 Close)",
-          "statLabel": "Close",
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
           "statValue": "7,718.60",
-          "statContext": "Down 0.4%",
-          "change": "-$29.11",
-          "changePercent": "-0.4%",
-          "direction": "down"
+          "statContext": "Down 0.4% (-29.11 points) on Friday"
         },
         {
-          "id": "sp500-futures-today",
-          "headline": "S&P 500 Futures (Pre-Market, Sep 7)",
-          "statLabel": "Price",
-          "statValue": "7,717.00",
-          "statContext": "Down 0.06%",
-          "change": "N/A",
-          "changePercent": "-0.06%",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-friday-close",
-          "headline": "NASDAQ Composite (Friday, Sep 4 Close)",
-          "statLabel": "Close",
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
           "statValue": "26,506.99",
-          "statContext": "Down 0.3%",
-          "change": "-$77.07",
-          "changePercent": "-0.3%",
-          "direction": "down"
+          "statContext": "Down 0.3% (-77.07 points) on Friday"
         },
         {
-          "id": "nasdaq-futures-today",
-          "headline": "NASDAQ 100 Futures (Pre-Market, Sep 7)",
-          "statLabel": "Price",
-          "statValue": "29,618.75",
-          "statContext": "Up 0.18%",
-          "change": "+$53.50",
-          "changePercent": "+0.18%",
-          "direction": "up"
-        },
-        {
-          "id": "dow-friday-close",
-          "headline": "Dow Jones Industrial Average (Friday, Sep 4 Close)",
-          "statLabel": "Close",
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,414.25",
-          "statContext": "Down 0.51%",
-          "change": "-$271.86",
-          "changePercent": "-0.51%",
-          "direction": "down"
-        },
-        {
-          "id": "dow-futures-today",
-          "headline": "Dow Jones Futures (Pre-Market, Sep 7)",
-          "statLabel": "Price",
-          "statValue": "53,271",
-          "statContext": "Down 0.32%",
-          "change": "-$169",
-          "changePercent": "-0.32%",
-          "direction": "down"
+          "statContext": "Down 0.51% (-271.86 points) on Friday"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Pre-Market Movers",
+      "title": "Top Movers (Reflecting Friday's Trends & Monday's Futures/CFD)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-sndk",
-          "headline": "Sandisk Surges on S&P 500 Inclusion",
-          "summary": "Sandisk ($SNDK) jumped significantly in pre-market trading, driven by its inclusion in the S&P 500 index and positive headlines within the memory sector.",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.90%",
+          "id": "meta-gainer",
+          "headline": "Meta Platforms Posts Gains Amid Tech Sector Resilience",
+          "summary": "Meta Platforms ($META) showed strength, with its stock up 1.0% to $616.77, gaining $6.09. This move reflects continued investor interest in robust tech names, building on overall sector resilience observed last week.",
+          "ticker": "$META",
+          "price": "$616.77",
+          "change": "+$6.09",
+          "changePercent": "+1.0%",
           "direction": "up"
         },
         {
-          "id": "gainer-cbrs",
-          "headline": "Cerebras Systems Climbs on Strong AI Demand",
-          "summary": "Cerebras Systems ($CBRS) saw a notable climb following an outstanding second-quarter update highlighting strong demand for AI.",
-          "ticker": "$CBRS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+10.30%",
+          "id": "nvidia-gainer",
+          "headline": "Nvidia Extends Rally on AI Demand Optimism",
+          "summary": "Nvidia ($NVDA) rose 0.8%, adding $1.91 to reach $230.36. The chipmaker continues to benefit from the ongoing artificial intelligence (AI) spending boom, driving positive sentiment in the semiconductor sector.",
+          "ticker": "$NVDA",
+          "price": "$230.36",
+          "change": "+$1.91",
+          "changePercent": "+0.8%",
           "direction": "up"
         },
         {
-          "id": "gainer-alab",
-          "headline": "Astera Labs Advances on AI Infrastructure Focus",
-          "summary": "Astera Labs ($ALAB) advanced in pre-market as investors focused on its critical role in AI infrastructure development.",
-          "ticker": "$ALAB",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.75%",
-          "direction": "up"
+          "id": "tesla-loser",
+          "headline": "Tesla Shares Drop Amid Cybercab Launch and NHTSA Probe",
+          "summary": "Tesla ($TSLA) shares declined 5.9%, falling $22.29 to $354.08. This notable drop follows news concerning its Cybercab launch and a probe by the National Highway Traffic Safety Administration (NHTSA).",
+          "ticker": "$TSLA",
+          "price": "$354.08",
+          "change": "-$22.29",
+          "changePercent": "-5.9%",
+          "direction": "down"
         },
         {
-          "id": "gainer-soxl",
-          "headline": "SOXL Jumps as Semiconductor Sector Gains",
-          "summary": "The 3x leveraged semiconductor ETF, SOXL, surged in pre-market, reflecting broader strength in the semiconductor industry.",
-          "ticker": "$SOXL",
-          "price": "$125.65",
-          "change": "N/A",
-          "changePercent": "+7.59%",
-          "direction": "up"
+          "id": "apple-loser",
+          "headline": "Apple Experiences Decline on Broader Tech Weakness",
+          "summary": "Apple ($AAPL) saw its stock price fall by 2.5%, a loss of $8.24, closing at $319.97. The tech giant's decline on Friday was part of a broader pullback in the technology sector amidst concerns over potential interest rate hikes.",
+          "ticker": "$AAPL",
+          "price": "$319.97",
+          "change": "-$8.24",
+          "changePercent": "-2.5%",
+          "direction": "down"
         },
         {
-          "id": "loser-fico",
-          "headline": "Fair Isaac Declines on Mortgage Score Concerns",
-          "summary": "Fair Isaac ($FICO) experienced a significant decline in pre-market after comments raised concerns about potential changes to mortgage credit score usage.",
+          "id": "fico-loser",
+          "headline": "Fair Isaac Plunges on Mortgage Credit Score Concerns",
+          "summary": "Fair Isaac ($FICO) saw a significant decline of 16.68%. This sharp downturn came after comments raised concerns about potential changes to mortgage credit score usage, impacting the financial services software provider.",
           "ticker": "$FICO",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-16.68%",
           "direction": "down"
-        },
-        {
-          "id": "loser-adsk",
-          "headline": "Autodesk Drops in Pre-Market",
-          "summary": "Autodesk ($ADSK) saw a notable decline during pre-market trading.",
-          "ticker": "$ADSK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.26%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-adbe",
-          "headline": "Adobe Slips on Executive Transition News",
-          "summary": "Adobe ($ADBE) declined in pre-market following news related to executive transition and product expansion headlines.",
-          "ticker": "$ADBE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.73%",
-          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News & Economic Calendar",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-resilience",
-          "headline": "Tech Sector Shows Resilience Amid AI Optimism",
-          "summary": "The technology sector, particularly semiconductor shares, is demonstrating resilience in futures trading, driven by renewed optimism surrounding advancements in AI models like OpenAI's new GPT.",
+          "id": "labor-day-closure",
+          "headline": "US Markets Closed for Labor Day Holiday",
+          "summary": "U.S. stock and bond markets are closed today, Monday, September 7, 2026, in observance of Labor Day, a federal holiday. Trading on the NYSE and Nasdaq is suspended, with markets set to reopen on Tuesday, September 8.",
           "tags": [
-            "Technology",
-            "AI",
-            "Semiconductors"
+            "Market Holiday",
+            "Labor Day"
           ]
         },
         {
-          "id": "rate-sensitive-scrutiny",
-          "headline": "Rate-Sensitive Sectors Under Scrutiny Following Jobs Report",
-          "summary": "Rate-sensitive areas such as financials and real estate, along with broader growth sectors, are under close watch due to increased expectations for Federal Reserve interest rate hikes after the strong August jobs data.",
+          "id": "jobs-report-fed",
+          "headline": "Strong August Jobs Report Fuels Fed Rate Hike Speculation",
+          "summary": "The August jobs report, released Friday, showed Non-Farm Payrolls surged by 162,000, significantly exceeding the 53,000 economists expected, while the unemployment rate held steady at 4.1%. This robust labor data has increased the probability of a Federal Reserve rate hike at the upcoming September 15-16 FOMC meeting. Cleveland Fed President Beth Hammack's recent hawkish remarks further reinforced these expectations.",
           "tags": [
-            "Financials",
-            "Real Estate",
-            "Growth",
+            "Economic Data",
+            "Fed Policy",
             "Interest Rates"
           ]
         },
         {
-          "id": "early-sector-declines",
-          "headline": "Energy, Health Care, and Financial ETFs See Early Declines",
-          "summary": "In pre-market trading, the State Street Energy Select Sector SPDR ETF ($XLE) declined 0.84%, the Health Care Select Sector SPDR ETF ($XLV) fell 0.76%, and the Financial Select Sector SPDR ETF ($XLF) was down 0.71%.",
+          "id": "upcoming-earnings",
+          "headline": "Oracle and Adobe Earnings Highlight a Data-Heavy Week Ahead",
+          "summary": "With no major earnings reports today, attention shifts to Thursday, September 10, when Oracle ($ORCL) and Adobe ($ADBE) are scheduled to report their earnings after market close. These reports will be closely watched for insights into the software and cloud sectors.",
           "tags": [
-            "Energy",
-            "Healthcare",
-            "Financials",
-            "ETFs"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Upcoming Events",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "jobs-report-fed",
-          "headline": "August Jobs Report Fuels Fed Rate Hike Expectations",
-          "summary": "Last Friday's August jobs report, revealing nonfarm payrolls rising by a stronger-than-expected 162,000 and the unemployment rate holding at 4.1%, has significantly increased market expectations for further Federal Reserve interest rate hikes in September and December. The Fed is currently in a blackout period ahead of its September 15-16 FOMC meeting.",
-          "tags": [
-            "Jobs Report",
-            "Federal Reserve",
-            "Interest Rates",
-            "FOMC"
+            "Earnings Season",
+            "Tech Earnings"
           ]
         },
         {
-          "id": "inflation-data-await",
-          "headline": "Key Inflation Data Awaited Later This Week",
-          "summary": "Investors are keenly awaiting key inflation data releases later this week, including the August Producer Price Index (PPI) on Thursday and the August Consumer Price Index (CPI) on Friday, which will provide further clues on the inflation trajectory.",
+          "id": "inflation-outlook",
+          "headline": "Key Inflation Data on Deck: PPI and CPI This Week",
+          "summary": "The economic calendar for the shortened trading week includes crucial inflation data releases: the August Producer Price Index (PPI) on Thursday and the August Consumer Price Index (CPI) on Friday. These reports will be pivotal in shaping market expectations for the Federal Reserve's monetary policy decisions.",
           "tags": [
             "Inflation",
+            "Economic Indicators",
             "CPI",
             "PPI"
           ]
         },
         {
-          "id": "iqe-earnings",
-          "headline": "IQE plc Reports Strong H1 2026 Results",
-          "summary": "UK-based IQE plc announced strong unaudited results for the first half of 2026, with revenue growth exceeding 40% year-on-year, driven by momentum in AI-driven data center infrastructure, advanced sensing, wireless, and defense applications.",
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions Keep Oil Prices Elevated",
+          "summary": "Middle East tensions, particularly concerning disruptions to oil transit through the Strait of Hormuz, continue to keep crude oil prices elevated. Elevated oil prices can impact inflationary pressures and sector performance, affecting industries reliant on energy.",
           "tags": [
-            "Earnings",
-            "IQE",
-            "AI",
-            "Semiconductors"
+            "Geopolitics",
+            "Oil Prices",
+            "Energy Sector"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Sector Rotations Seen as Defense Stocks Gain, IT Sector Declines",
+          "summary": "Amidst the broader market sentiment, defense stocks have seen increased buying interest, partly ahead of the Defence Acquisition Council meeting. Conversely, the IT sector experienced declines, attributed to concerns over higher U.S. borrowing costs potentially impacting discretionary technology spending.",
+          "tags": [
+            "Sector Analysis",
+            "Defense Stocks",
+            "IT Sector"
           ]
         }
       ]
