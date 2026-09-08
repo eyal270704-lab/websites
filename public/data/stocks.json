@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T15:38:00Z",
+  "generatedAt": "2026-09-08T19:19:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: Geopolitical Tensions Weigh on Indices Amid Fed Rate Hike Speculation",
-  "subtitle": "September 8, 2026 - Shortened Trading Week Post-Labor Day",
-  "badge": "LIVE",
+  "title": "Daily Market Digest",
+  "subtitle": "September 08, 2026 - Market Close",
+  "badge": "Market Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,103 +13,120 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Equities Dip as Geopolitical Concerns and Fed Outlook Dominate",
-          "summary": "U.S. equity markets opened lower on Tuesday, September 8, 2026, after the Labor Day holiday, as heightened tensions in the Middle East drove oil prices higher, and Canada's retaliatory tariffs on U.S. goods took effect. Major indices saw declines in early trading, continuing a cautious sentiment from Friday's close, influenced by recent strong jobs data and anticipated Federal Reserve actions."
+          "id": "market-summary-sep8",
+          "headline": "Wall Street Ends Lower Amid Geopolitical Tensions and Rate Hike Concerns",
+          "summary": "Major U.S. indices concluded the session in negative territory as investors reacted to a stronger-than-expected August jobs report, heightening expectations for a Federal Reserve rate hike. Further impacting sentiment were escalating Middle East conflicts driving oil prices to a six-week high and new tariffs in the U.S.-Canada trade dispute. The CBOE Volatility Index (VIX) rose by 1.5% to 14.53, reflecting increased market uncertainty.",
+          "tags": [
+            "Market Close",
+            "Geopolitics",
+            "Fed Outlook"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Close of Sep 8, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,718.41",
-          "statContext": "Down 0.4% (-$30.87)."
+          "statContext": "Down 0.4% (-30.87 points) today",
+          "ticker": "$SPX",
+          "price": "7,718.41",
+          "change": "-30.87",
+          "changePercent": "-0.4%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,506.99",
-          "statContext": "Down 0.3% (-$77.07)."
+          "statContext": "Down 0.3% (-77.07 points) today",
+          "ticker": "$COMP",
+          "price": "26,506.99",
+          "change": "-77.07",
+          "changePercent": "-0.3%",
+          "direction": "down"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "53,413.60",
-          "statContext": "Down 0.5% (-$272.51)."
+          "statContext": "Down 0.5% (-272.51 points) today",
+          "ticker": "$DJI",
+          "price": "53,413.60",
+          "change": "-272.51",
+          "changePercent": "-0.5%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (September 8, 2026 - Intraday/Close)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-pdsb",
-          "headline": "PDS Biotechnology Surges on Strong Performance",
-          "ticker": "$PDSB",
-          "price": "$0.413",
-          "change": "+$0.193",
-          "changePercent": "+87.59%",
+          "id": "orcl-gainer",
+          "headline": "Oracle Surges on AI and Cloud Optimism",
+          "summary": "Oracle Corp ($ORCL) opened up by 4.67% as investors anticipated strong fiscal first-quarter earnings, driven by accelerating demand for Oracle Cloud Infrastructure and AI capacity.",
+          "ticker": "$ORCL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+4.67%",
           "direction": "up",
-          "summary": "PDS Biotechnology Corporation led the daily gainers with a significant jump in price."
+          "tags": [
+            "Technology",
+            "Earnings Anticipation",
+            "AI"
+          ]
         },
         {
-          "id": "gainer-nur",
-          "headline": "Nuran Wireless Up on Market Activity",
-          "ticker": "$NUR",
-          "price": "$2.700",
-          "change": "+$0.930",
-          "changePercent": "+52.54%",
+          "id": "fcel-gainer",
+          "headline": "FuelCell Energy Sees Strong Intraday Gains",
+          "summary": "FuelCell Energy Inc. ($FCEL) was a notable gainer, up 19.61% in early trading today.",
+          "ticker": "$FCEL",
+          "price": "$17.87",
+          "change": "+$2.93",
+          "changePercent": "+19.61%",
           "direction": "up",
-          "summary": "Nuran Wireless Inc. experienced a notable increase in its stock value today."
+          "tags": [
+            "Energy",
+            "Intraday Mover"
+          ]
         },
         {
-          "id": "gainer-banc",
-          "headline": "CEA Industries Climbs",
-          "ticker": "$BNC",
-          "price": "$5.16",
-          "change": "+$1.66",
-          "changePercent": "+47.71%",
-          "direction": "up",
-          "summary": "CEA Industries Inc. recorded strong gains during today's trading session."
-        },
-        {
-          "id": "loser-aapl",
-          "headline": "Apple Leads Dow Losers",
+          "id": "aapl-loser",
+          "headline": "Apple Falls as Dow's Major Loser",
+          "summary": "Apple Inc. ($AAPL) was a significant drag on the Dow, with its stock price falling 2.5% today.",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-2.5%",
           "direction": "down",
-          "summary": "Apple Inc. was a major decliner in the Dow, falling 2.5% during the session."
+          "tags": [
+            "Technology",
+            "Dow Component"
+          ]
         },
         {
-          "id": "loser-lulu",
-          "headline": "Lululemon Sees Steep Decline",
-          "ticker": "$LULU",
-          "price": "$100.61",
-          "change": "-$21.16",
-          "changePercent": "-17.38%",
+          "id": "now-loser",
+          "headline": "ServiceNow Leads Software Sector Decline",
+          "summary": "ServiceNow ($NOW) experienced a notable decline, dropping 5.28% as software stocks broadly underperformed.",
+          "ticker": "$NOW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.28%",
           "direction": "down",
-          "summary": "Lululemon Athletica Inc. experienced a significant drop today."
-        },
-        {
-          "id": "loser-tsla",
-          "headline": "Tesla Shares Decline",
-          "ticker": "$TSLA",
-          "price": "$354.08",
-          "change": "-$22.285",
-          "changePercent": "-5.92%",
-          "direction": "down",
-          "summary": "Tesla Inc. shares fell amid broader market cautiousness."
+          "tags": [
+            "Technology",
+            "Software"
+          ]
         }
       ]
     },
@@ -120,54 +137,54 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-outlook",
-          "headline": "UBS Projects Two Fed Rate Hikes by Year-End",
-          "summary": "UBS Global Wealth Management has revised its Federal Reserve forecast, now anticipating two 25 basis-point rate hikes in September and December. This shift follows a stronger-than-expected August jobs report and recent hawkish commentary from Fed officials, with CME FedWatch odds for a September hike reaching 58%. A closed meeting of the Federal Reserve Board of Governors is scheduled for today to review advance and discount rates.",
+          "id": "economic-data-fed",
+          "headline": "August Jobs Report Fuels Fed Rate Hike Speculation",
+          "summary": "A stronger-than-expected August jobs report, showing an unchanged unemployment rate of 4.1% and a 0.3% increase in average hourly earnings, is increasing investor expectations for a Federal Reserve rate hike. The Fed is scheduled to hold its monetary policy meeting next week, with upcoming PPI and CPI data also expected to influence its decision.",
           "tags": [
-            "Fed",
+            "Economic Data",
+            "Federal Reserve",
             "Interest Rates",
-            "Economic Policy"
+            "Jobs Report"
           ]
         },
         {
-          "id": "economic-data-manufacturing",
-          "headline": "Manufacturing Sector Continues Expansion, Pace Slows",
-          "summary": "The U.S. manufacturing sector expanded for the eighth consecutive month in August, though at a slightly slower pace, with the ISM Manufacturing PMI dipping 1.0 percentage point to 54.6%. Global manufacturing also strengthened slightly in August, driven by improved output and new orders, and a three-year high in employment.",
+          "id": "oil-geopolitics",
+          "headline": "Oil Prices Surge to Six-Week High Amid Middle East Tensions",
+          "summary": "Geopolitical tensions in the Middle East, particularly the ongoing U.S.-Iran conflict, sent oil prices climbing to a six-week high. Brent crude rose 1.45% to $99.73 a barrel, while WTI crude was up 1.50% at $94.28 a barrel, raising concerns about potential impacts on global oil supplies and inflation.",
           "tags": [
-            "Economic Data",
-            "Manufacturing",
-            "PMI"
+            "Energy",
+            "Geopolitics",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "trade-tariffs",
+          "headline": "Canada Implements Retaliatory Tariffs on U.S. Goods",
+          "summary": "Canada's retaliatory tariffs on $20 billion worth of U.S. goods officially took effect today, escalating trade tensions between the two nations and adding another layer of uncertainty for investors.",
+          "tags": [
+            "Trade War",
+            "Canada",
+            "Tariffs"
           ]
         },
         {
           "id": "sector-performance",
-          "headline": "Energy and Information Technology Show Strength, Consumer Sectors Lag",
-          "summary": "On September 8, 2026, a majority of S&P 500 sectors closed in negative territory. However, the Energy Select Sector SPDR ($XLE) rose 1.27%, and Information Technology showed a 0.45% gain. Conversely, Consumer Discretionary Select Sector SPDR ($XLY), Health Care Select Sector SPDR ($XLV), and Consumer Staples Select Sector SPDR ($XLP) were among the lagging sectors, falling 1.3%, 1%, and 1% respectively.",
+          "headline": "Sectors Show Mixed Performance; Industrials Lead, Discretionary Lags",
+          "summary": "Today's trading saw mixed sector performance within the S&P 500, with eight of the eleven broad sectors closing in negative territory. The Industrials Select Sector SPDR (XLI) was a notable performer, rising 0.4%. Conversely, Consumer Discretionary Select Sector SPDR (XLY) fell 1.3%, Health Care Select Sector SPDR (XLV) declined 1%, and Consumer Staples Select Sector SPDR (XLP) was down 1%, indicating broad weakness in these areas.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Technology",
-            "Consumer Discretionary"
+            "Industrials",
+            "Consumer Discretionary",
+            "Healthcare"
           ]
         },
         {
-          "id": "earnings-unfi",
-          "headline": "United Natural Foods Reports Q4 Fiscal 2026 Results",
-          "summary": "United Natural Foods, Inc. ($UNFI) today reported its fourth-quarter and full-year fiscal 2026 results. The company saw a 0.7% decrease in net sales for Q4 compared to the prior year, while adjusted earnings per share for Q4 fiscal 2026 improved to $0.69 from an adjusted loss per share of $0.11 in Q4 fiscal 2025.",
+          "id": "earnings-reports",
+          "headline": "United Natural Foods Reports Q4 Results; Other Companies Release Earnings",
+          "summary": "United Natural Foods, Inc. ($UNFI) reported its fourth quarter and full-year fiscal 2026 results before the market open, with Q4 net sales decreasing 0.7% but adjusted EBITDA increasing 48.3%. Other companies, including GameStop ($GME), Braze ($BRZE), and Casey's General ($CASY), were scheduled to report quarterly results today. Philip Morris International also raised its full-year earnings outlook, citing a favorable currency impact.",
           "tags": [
             "Earnings",
-            "UNFI",
-            "Retail"
-          ]
-        },
-        {
-          "id": "geopolitical-tensions",
-          "headline": "Oil Prices Rise Amid Middle East Hostilities and Canada Trade Tariffs",
-          "summary": "Global markets are reacting to escalating geopolitical tensions, with oil prices climbing due to heightened hostilities between the U.S. and Iran, including Houthi militant attacks on Saudi Arabian energy facilities. Additionally, Canada's retaliatory tariffs on U.S. goods took effect, further contributing to market uncertainty.",
-          "tags": [
-            "Geopolitics",
-            "Oil Prices",
-            "Trade War"
+            "Corporate News"
           ]
         }
       ]
