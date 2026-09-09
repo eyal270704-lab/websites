@@ -1,196 +1,179 @@
 {
-  "generatedAt": "2026-09-09T12:08:00Z",
+  "generatedAt": "2026-09-09T15:32:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 9, 2026 - Reflecting September 8th Close and September 9th Pre-Market Indications",
+  "subtitle": "September 09, 2026 Market Close",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Indices Decline Amid Inflation, Oil Price Concerns",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-sep8-9",
-          "headline": "U.S. Stocks Slide on September 8th Amid Geopolitical Tensions and Surging Oil; Mixed Pre-Market for September 9th",
-          "summary": "U.S. equity markets ended Tuesday, September 8, with significant declines across major indices as persistent geopolitical tensions, particularly the U.S.-Iran conflict and U.S.-Canada trade friction, pushed crude oil prices higher. The S&P 500, NASDAQ, and Dow Jones Industrial Average all closed lower. As of early Wednesday, September 9, pre-market trading shows a mixed outlook, with oil prices continuing to climb past $100 a barrel, while individual stock movers like Meta Platforms demonstrated strong gains. Not financial advice.",
+          "id": "market-summary-090926",
+          "headline": "U.S. Equities Close Lower as Geopolitical Tensions Fuel Oil Rally and Rate Hike Expectations",
+          "summary": "Major U.S. stock indices ended Wednesday's session in negative territory, driven by persistent inflation concerns, escalating oil prices spurred by U.S.-Iran tensions, and a hawkish outlook on interest rates. The S&P 500, NASDAQ, and Dow Jones Industrial Average all registered declines. The CBOE Volatility Index (VIX) also saw an uptick, reflecting heightened market unease. Not financial advice.",
           "tags": [
             "Market Overview",
-            "Geopolitics",
+            "Inflation",
             "Oil Prices",
-            "Inflation"
+            "Interest Rates"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (September 8, 2026 Close)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-sep8",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,673.52",
           "statContext": "Down 0.6% (-45.08 points)"
         },
         {
-          "id": "nasdaq-sep8",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,421.41",
           "statContext": "Down 0.3% (-85.58 points)"
         },
         {
-          "id": "dow-sep8",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,786.07",
           "statContext": "Down 1.2% (-628.18 points)"
+        },
+        {
+          "id": "vix-performance",
+          "statLabel": "CBOE Volatility Index (VIX)",
+          "statValue": "14.53",
+          "statContext": "Up 1.5%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (September 8, 2026 Close)",
+      "title": "Top Movers: Gainers and Losers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "intc-gainer-sep8",
-          "headline": "Intel Surges on Price Hike Plans",
-          "summary": "Intel Corporation ($INTC) shares climbed over 9% after the company announced plans to raise processor prices by up to 10% to improve its margins.",
-          "ticker": "$INTC",
+          "id": "gainer-TTRX",
+          "headline": "Turn Therapeutics Surges on Strong Performance",
+          "ticker": "$TTRX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.05%",
+          "changePercent": "+29.2%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "Turn Therapeutics saw a significant surge in its stock price, making it one of the top gainers of the day."
         },
         {
-          "id": "glw-gainer-sep8",
-          "headline": "Corning Rises on Verizon Fiber Deal",
-          "summary": "Corning Inc. ($GLW) gained over 7% after securing a multi-year, multi-billion-dollar agreement to supply 80 million miles of high-density optical fiber to Verizon Communications, supporting broadband expansion and AI infrastructure.",
-          "ticker": "$GLW",
+          "id": "gainer-MRVL",
+          "headline": "Marvell Technology Up on Raised Revenue Targets",
+          "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.56%",
+          "changePercent": "+6.4%",
           "direction": "up",
-          "tags": [
-            "Gainers",
-            "Technology",
-            "Telecommunications"
-          ]
+          "summary": "Marvell Technology rallied after its CEO delivered an upward revision to the company's fiscal 2027 and 2028 revenue targets."
         },
         {
-          "id": "amgn-loser-sep8",
-          "headline": "Amgen Drops on Drug Trial Setback",
-          "summary": "Amgen ($AMGN) shares slid over 10% following news of a Phase 3 trial setback for Novartis' pelacarsen injectable, a heart disease drug. Analysts are concerned Amgen's similar treatment, olpasiran, could face a similar outcome.",
+          "id": "gainer-META",
+          "headline": "Meta Platforms Rises with New AI Agent Launch",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+5.4%",
+          "direction": "up",
+          "summary": "Meta Platforms gained ground following the launch of Muse, its new artificial intelligence personal agent."
+        },
+        {
+          "id": "loser-AMGN",
+          "headline": "Amgen Plunges on Trial Failure News",
           "ticker": "$AMGN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.08%",
+          "changePercent": "-10.1%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Healthcare",
-            "Biotechnology"
-          ]
+          "summary": "Amgen Inc. was a major decliner in the Dow, with its stock falling significantly after a late-stage trial for a drug failed, impacting the pharmaceutical sector."
         },
         {
-          "id": "nvs-loser-sep8",
-          "headline": "Novartis Plummets After Pelacarsen Trial Failure",
-          "summary": "Novartis ($NVS) stock fell sharply by nearly 14% after the company reported a Phase 3 trial setback for its pelacarsen injectable, a drug intended to treat heart disease.",
-          "ticker": "$NVS",
-          "price": "$137.70",
-          "change": "-$22.29",
-          "changePercent": "-13.93%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Healthcare",
-            "Pharmaceuticals"
-          ]
-        },
-        {
-          "id": "casy-loser-sep8",
-          "headline": "Casey's General Store Dips on Conservative Guidance",
-          "summary": "Casey's General Store ($CASY) saw its shares decline by nearly 10% after the company, despite beating analyst earnings expectations, provided conservative guidance.",
+          "id": "loser-CASY",
+          "headline": "Casey's General Stores Tumbles on Disappointing Sales",
           "ticker": "$CASY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.99%",
+          "changePercent": "-16.5%",
           "direction": "down",
-          "tags": [
-            "Losers",
-            "Retail",
-            "Earnings"
-          ]
+          "summary": "Casey's General Stores experienced a sharp drop in share price after reporting disappointing same-store sales growth and maintaining its full-year outlook."
+        },
+        {
+          "id": "loser-DYN",
+          "headline": "Dyne Therapeutics Sees Significant Decline",
+          "ticker": "$DYN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-16.4%",
+          "direction": "down",
+          "summary": "Dyne Therapeutics was among the day's biggest losers, experiencing a notable drop in its stock value."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News and Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-sep8",
-          "headline": "Inflation Worries Mount Ahead of Fed Meeting; Rate Hike Odds Increase",
-          "summary": "Surging oil prices, with Brent crude nearing $100 a barrel, intensified inflation concerns ahead of crucial Producer Price Index (PPI) and Consumer Price Index (CPI) data due later this week. Federal Reserve Chair Kevin Warsh's recent remarks on persistent inflation have led traders to price in a higher probability (around 60%) of a 25-basis-point rate hike at the upcoming September FOMC meeting.",
+          "id": "sector-analysis-090926",
+          "headline": "Energy Sector Leads as Others Lag; AI Driving Tech Gains",
+          "summary": "The Energy Select Sector SPDR ($XLE) was the only broad sector to gain, rising 1%, fueled by surging oil prices. In contrast, Financials ($XLF) fell 1.4%, Health Care ($XLV) declined 2.6%, and Materials ($XLB) dropped 0.9%, indicating broad weakness across several key areas of the market. AI-related demand continues to be a strong theme, benefiting companies like Dell and Hewlett Packard Enterprise, which reported strong earnings driven by AI-optimized servers. Industrials were noted as a relatively weaker sector.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Financials",
+            "Healthcare",
+            "Technology",
+            "AI"
+          ]
+        },
+        {
+          "id": "economic-news-090926",
+          "headline": "Fed's Stance and Upcoming Inflation Data Eyed by Investors",
+          "summary": "The Federal Reserve is widely expected to hold interest rates steady at its September 15-16 meeting, though a Reuters poll indicates a growing number of analysts anticipate at least one hike this year. The CME FedWatch Tool currently shows a 60.4% chance of a 25-basis-point rate increase. Investors are keenly awaiting the August Producer Price Index (PPI) and Consumer Price Index (CPI) reports later this week, which are crucial for shaping future interest rate expectations. Additionally, mortgage rates have climbed to their highest level since June 2025, reaching 6.85% for a 30-year fixed-rate. The Minneapolis Fed also noted that more tariff costs are being passed to consumers and that the AI boom is contributing to inflation.",
           "tags": [
             "Economic Data",
             "Federal Reserve",
             "Inflation",
-            "Interest Rates"
+            "Interest Rates",
+            "Mortgage Rates"
           ]
         },
         {
-          "id": "geopolitical-tensions-sep8",
-          "headline": "Geopolitical Tensions Drive Oil Surge and Market Caution",
-          "summary": "Geopolitical developments, including the ongoing U.S.-Iran conflict and escalating U.S.-Canada trade friction, significantly impacted market sentiment on September 8th. The Middle East tensions pushed crude oil prices to multi-week highs, contributing to broader market declines.",
+          "id": "geopolitical-oil-090926",
+          "headline": "U.S.-Iran Tensions Drive Oil Prices Higher, Adding to Market Pressure",
+          "summary": "Renewed fighting between the U.S. and Iran pushed crude oil prices above $100 per barrel, with Brent crude nearing $99.50. These geopolitical developments are a significant factor in the broader market decline, exacerbating inflation concerns and influencing central bank policy expectations.",
           "tags": [
             "Geopolitics",
             "Oil Prices",
-            "Trade Relations"
+            "Inflation"
           ]
         },
         {
-          "id": "sector-performance-sep8",
-          "headline": "Energy Leads, Healthcare Lags in Sector Performance",
-          "summary": "On September 8th, the Energy sector was the top performer, gaining over 1%, driven by higher oil prices. Utilities and Technology also saw modest gains. Conversely, the Healthcare sector was the worst performer, falling over 2.5%, largely due to drug trial setbacks. Financials and Materials also experienced declines.",
+          "id": "corporate-earnings-090926",
+          "headline": "Key Earnings Reports and Corporate Developments",
+          "summary": "Beyond major movers like Casey's General Stores, several companies reported earnings today. SailPoint Inc. ($SAIL), Core & Main Inc. ($CNM), Chewy Inc. ($CHWY), and J. Jill Inc. ($JILL) were among those scheduled to release results. AeroVironment ($AVAV) is also set to report Q3 earnings, with analysts anticipating strong performance driven by recent contract wins. Separately, Google announced a substantial €13 billion investment in AI infrastructure in Finland over the next two years.",
           "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Healthcare",
-            "Technology"
-          ]
-        },
-        {
-          "id": "earnings-unfi-sep8",
-          "headline": "United Natural Foods Reports Mixed Fiscal 2026 Results",
-          "summary": "United Natural Foods, Inc. ($UNFI) announced its fourth quarter and full year fiscal 2026 results on September 8th. The company reported a 2.0% decrease in full-year net sales to $31.2 billion, while adjusted EPS increased to $2.65 for the full year and $0.69 for the fourth quarter.",
-          "tags": [
-            "Earnings",
-            "Retail",
-            "Food Distribution"
-          ]
-        },
-        {
-          "id": "premarket-sep9",
-          "headline": "Meta Surges in Pre-Market on AI Agent Launch; Futures Mixed",
-          "summary": "U.S. stock futures for September 9th showed a mixed performance, with S&P 500 and Dow futures generally down, while Nasdaq futures were slightly positive or flat depending on the reporting time. Meta Platforms ($META) shares jumped 3.6% in pre-market trading following the official launch of Muse, its autonomous artificial intelligence personal agent. Conversely, Evommune ($EVMN) shares fell 13.9% after its drug candidate failed a Phase 2b trial. Oil prices continued to climb, breaching $100 a barrel.",
-          "tags": [
-            "Pre-Market",
-            "Technology",
-            "AI",
-            "Biotechnology"
+            "Earnings Reports",
+            "Corporate News",
+            "AI Investment"
           ]
         }
       ]
