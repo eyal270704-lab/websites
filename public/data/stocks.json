@@ -1,178 +1,180 @@
 {
-  "generatedAt": "2026-09-09T15:32:00Z",
+  "generatedAt": "2026-09-09T19:08:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 09, 2026 Market Close",
-  "badge": "LIVE",
+  "subtitle": "Wednesday, September 9, 2026: Markets Dip Amid Oil Surge and Rate Hike Concerns",
+  "badge": "Market Close",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Indices Decline Amid Inflation, Oil Price Concerns",
+      "id": "market-pulse-09092026",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-090926",
-          "headline": "U.S. Equities Close Lower as Geopolitical Tensions Fuel Oil Rally and Rate Hike Expectations",
-          "summary": "Major U.S. stock indices ended Wednesday's session in negative territory, driven by persistent inflation concerns, escalating oil prices spurred by U.S.-Iran tensions, and a hawkish outlook on interest rates. The S&P 500, NASDAQ, and Dow Jones Industrial Average all registered declines. The CBOE Volatility Index (VIX) also saw an uptick, reflecting heightened market unease. Not financial advice.",
+          "id": "market-summary-09092026",
+          "headline": "U.S. Equities Close Lower as Geopolitical Tensions Drive Oil Prices Above $100 and Fuel Rate Hike Expectations.",
+          "summary": "U.S. stock markets finished Wednesday's session in negative territory, driven by renewed inflation concerns as Brent crude oil surged above $100 a barrel following escalating U.S.-Iran tensions. Investors are closely monitoring upcoming inflation data and Federal Reserve announcements, with increasing expectations for a rate hike.",
           "tags": [
-            "Market Overview",
+            "Market Close",
             "Inflation",
             "Oil Prices",
-            "Interest Rates"
+            "Fed Outlook"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-09092026",
       "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-09092026",
           "statLabel": "S&P 500",
           "statValue": "7,673.52",
-          "statContext": "Down 0.6% (-45.08 points)"
+          "statContext": "Down 0.6% on the day."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-09092026",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,421.41",
-          "statContext": "Down 0.3% (-85.58 points)"
+          "statContext": "Declined 0.3% today."
         },
         {
-          "id": "dow-performance",
+          "id": "dow-09092026",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,786.07",
-          "statContext": "Down 1.2% (-628.18 points)"
-        },
-        {
-          "id": "vix-performance",
-          "statLabel": "CBOE Volatility Index (VIX)",
-          "statValue": "14.53",
-          "statContext": "Up 1.5%"
+          "statContext": "Fell 1.2%, or 628.18 points."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: Gainers and Losers",
+      "id": "top-movers-09092026",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-TTRX",
-          "headline": "Turn Therapeutics Surges on Strong Performance",
+          "id": "smr-gainer",
+          "headline": "NuScale Power Leads Gains",
+          "summary": "NuScale Power ($SMR) closed 16.8% higher, showing strong upward movement.",
+          "ticker": "$SMR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16.8%",
+          "direction": "up"
+        },
+        {
+          "id": "ttrx-gainer",
+          "headline": "Turn Therapeutics Surges",
+          "summary": "Turn Therapeutics ($TTRX) posted a significant gain of 29.2% today.",
           "ticker": "$TTRX",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+29.2%",
-          "direction": "up",
-          "summary": "Turn Therapeutics saw a significant surge in its stock price, making it one of the top gainers of the day."
+          "direction": "up"
         },
         {
-          "id": "gainer-MRVL",
-          "headline": "Marvell Technology Up on Raised Revenue Targets",
-          "ticker": "$MRVL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.4%",
-          "direction": "up",
-          "summary": "Marvell Technology rallied after its CEO delivered an upward revision to the company's fiscal 2027 and 2028 revenue targets."
-        },
-        {
-          "id": "gainer-META",
-          "headline": "Meta Platforms Rises with New AI Agent Launch",
+          "id": "meta-gainer",
+          "headline": "Meta Platforms Rises",
+          "summary": "Meta Platforms ($META) shares rose 5.6% after the company launched a new personal AI agent, Muse.",
           "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.4%",
-          "direction": "up",
-          "summary": "Meta Platforms gained ground following the launch of Muse, its new artificial intelligence personal agent."
+          "changePercent": "+5.6%",
+          "direction": "up"
         },
         {
-          "id": "loser-AMGN",
-          "headline": "Amgen Plunges on Trial Failure News",
+          "id": "amgn-loser",
+          "headline": "Amgen Plunges on Negative News",
+          "summary": "Amgen Inc. ($AMGN) was a major drag on the Dow, with its stock price falling 10.1%.",
           "ticker": "$AMGN",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-10.1%",
-          "direction": "down",
-          "summary": "Amgen Inc. was a major decliner in the Dow, with its stock falling significantly after a late-stage trial for a drug failed, impacting the pharmaceutical sector."
+          "direction": "down"
         },
         {
-          "id": "loser-CASY",
-          "headline": "Casey's General Stores Tumbles on Disappointing Sales",
-          "ticker": "$CASY",
+          "id": "gpro-loser",
+          "headline": "GoPro Experiences Sharp Decline",
+          "summary": "GoPro ($GPRO) saw a notable loss of 15% during today's trading session.",
+          "ticker": "$GPRO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.5%",
-          "direction": "down",
-          "summary": "Casey's General Stores experienced a sharp drop in share price after reporting disappointing same-store sales growth and maintaining its full-year outlook."
+          "changePercent": "-15.0%",
+          "direction": "down"
         },
         {
-          "id": "loser-DYN",
-          "headline": "Dyne Therapeutics Sees Significant Decline",
-          "ticker": "$DYN",
+          "id": "expe-loser",
+          "headline": "Expedia Group Falls",
+          "summary": "Expedia Group ($EXPE) shares dropped 7.32% by close.",
+          "ticker": "$EXPE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.4%",
-          "direction": "down",
-          "summary": "Dyne Therapeutics was among the day's biggest losers, experiencing a notable drop in its stock value."
+          "changePercent": "-7.32%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News and Analysis",
+      "id": "market-news-09092026",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-090926",
-          "headline": "Energy Sector Leads as Others Lag; AI Driving Tech Gains",
-          "summary": "The Energy Select Sector SPDR ($XLE) was the only broad sector to gain, rising 1%, fueled by surging oil prices. In contrast, Financials ($XLF) fell 1.4%, Health Care ($XLV) declined 2.6%, and Materials ($XLB) dropped 0.9%, indicating broad weakness across several key areas of the market. AI-related demand continues to be a strong theme, benefiting companies like Dell and Hewlett Packard Enterprise, which reported strong earnings driven by AI-optimized servers. Industrials were noted as a relatively weaker sector.",
+          "id": "sector-analysis-09092026",
+          "headline": "Energy Sector Leads, Financials and Healthcare Lag",
+          "summary": "The Energy Select Sector SPDR (XLE) rose 1% as oil prices surged, making it a leading sector today. Conversely, Financials (XLF) fell 1.4%, Health Care (XLV) declined 2.6%, and Materials (XLB) dropped 0.9%. Industrials and Consumer Cyclicals also experienced significant declines.",
           "tags": [
-            "Sector Analysis",
+            "Sector Performance",
             "Energy",
             "Financials",
-            "Healthcare",
-            "Technology",
-            "AI"
+            "Healthcare"
           ]
         },
         {
-          "id": "economic-news-090926",
-          "headline": "Fed's Stance and Upcoming Inflation Data Eyed by Investors",
-          "summary": "The Federal Reserve is widely expected to hold interest rates steady at its September 15-16 meeting, though a Reuters poll indicates a growing number of analysts anticipate at least one hike this year. The CME FedWatch Tool currently shows a 60.4% chance of a 25-basis-point rate increase. Investors are keenly awaiting the August Producer Price Index (PPI) and Consumer Price Index (CPI) reports later this week, which are crucial for shaping future interest rate expectations. Additionally, mortgage rates have climbed to their highest level since June 2025, reaching 6.85% for a 30-year fixed-rate. The Minneapolis Fed also noted that more tariff costs are being passed to consumers and that the AI boom is contributing to inflation.",
+          "id": "fed-outlook-09092026",
+          "headline": "Fed Meeting Approaches Amid Rising Rate Hike Expectations",
+          "summary": "The Federal Reserve is set to meet on September 15-16. While a majority of economists expect rates to hold steady, the CME FedWatch Tool indicates a 60.4% chance of a 25-basis-point increase, fueled by persistent inflation concerns and surging oil prices. Traders are keenly awaiting the Producer Price Index (PPI) tomorrow and Consumer Price Index (CPI) on Friday.",
           "tags": [
-            "Economic Data",
             "Federal Reserve",
-            "Inflation",
             "Interest Rates",
-            "Mortgage Rates"
+            "Inflation",
+            "Economic Data"
           ]
         },
         {
-          "id": "geopolitical-oil-090926",
-          "headline": "U.S.-Iran Tensions Drive Oil Prices Higher, Adding to Market Pressure",
-          "summary": "Renewed fighting between the U.S. and Iran pushed crude oil prices above $100 per barrel, with Brent crude nearing $99.50. These geopolitical developments are a significant factor in the broader market decline, exacerbating inflation concerns and influencing central bank policy expectations.",
+          "id": "earnings-reports-09092026",
+          "headline": "Key Companies Release Q2 Earnings",
+          "summary": "Chewy Inc. ($CHWY) announced strong second-quarter fiscal 2026 financial results, with net sales increasing 7.3%. Core & Main Inc. ($CNM) also reported its second-quarter results, showing a 2.5% increase in net sales. Academy Sports and Outdoors ($ASO) delivered profitable growth with net sales up 3.0% for Q2 fiscal 2026.",
           "tags": [
-            "Geopolitics",
+            "Earnings",
+            "$CHWY",
+            "$CNM",
+            "$ASO"
+          ]
+        },
+        {
+          "id": "oil-market-09092026",
+          "headline": "Oil Prices Breach $100 a Barrel Amid U.S.-Iran Tensions",
+          "summary": "Brent crude oil surpassed $100 per barrel today for the first time since July, rising 2.8% to $100.62. This surge is attributed to escalating U.S.-Iran tensions and renewed fighting near the Strait of Hormuz, intensifying inflation concerns across global markets.",
+          "tags": [
             "Oil Prices",
+            "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "corporate-earnings-090926",
-          "headline": "Key Earnings Reports and Corporate Developments",
-          "summary": "Beyond major movers like Casey's General Stores, several companies reported earnings today. SailPoint Inc. ($SAIL), Core & Main Inc. ($CNM), Chewy Inc. ($CHWY), and J. Jill Inc. ($JILL) were among those scheduled to release results. AeroVironment ($AVAV) is also set to report Q3 earnings, with analysts anticipating strong performance driven by recent contract wins. Separately, Google announced a substantial €13 billion investment in AI infrastructure in Finland over the next two years.",
+          "id": "sp500-target-09092026",
+          "headline": "Barclays Raises S&P 500 Year-End Target",
+          "summary": "Barclays has raised its year-end target for the S&P 500 index to 7,950 from 7,800, citing a standout earnings season driven by technology companies. The brokerage expects strong earnings momentum to continue, supported by AI investment and healthy economic activity.",
           "tags": [
-            "Earnings Reports",
-            "Corporate News",
+            "S&P 500",
+            "Analyst Ratings",
             "AI Investment"
           ]
         }
