@@ -1,182 +1,217 @@
 {
-  "generatedAt": "2026-09-09T19:08:00Z",
+  "generatedAt": "2026-09-10T12:02:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, September 9, 2026: Markets Dip Amid Oil Surge and Rate Hike Concerns",
-  "badge": "Market Close",
+  "subtitle": "September 10, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-09092026",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Indices Decline Amid Inflation Jitters and Geopolitical Tensions",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-09092026",
-          "headline": "U.S. Equities Close Lower as Geopolitical Tensions Drive Oil Prices Above $100 and Fuel Rate Hike Expectations.",
-          "summary": "U.S. stock markets finished Wednesday's session in negative territory, driven by renewed inflation concerns as Brent crude oil surged above $100 a barrel following escalating U.S.-Iran tensions. Investors are closely monitoring upcoming inflation data and Federal Reserve announcements, with increasing expectations for a rate hike.",
+          "id": "market-summary-091026",
+          "headline": "U.S. Equities Fall on Persistent Inflation Concerns and High Oil Prices",
+          "summary": "U.S. stock futures showed mixed movements early Thursday, but major indices are currently trading lower as investors await key inflation data and react to escalating geopolitical tensions that have pushed crude oil above $100 a barrel. The Dow, S&P 500, and Nasdaq have all registered declines today.",
           "tags": [
-            "Market Close",
+            "Market Sentiment",
             "Inflation",
-            "Oil Prices",
-            "Fed Outlook"
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-09092026",
-      "title": "Major Indices Performance",
+      "id": "major-indices",
+      "title": "Major Indices Performance Today",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-09092026",
+          "id": "sp500-091026",
           "statLabel": "S&P 500",
-          "statValue": "7,673.52",
-          "statContext": "Down 0.6% on the day."
+          "statValue": "7,599.71",
+          "statContext": "Down 0.48% (36.65 points) today.",
+          "ticker": "$SPX",
+          "change": "-$36.65",
+          "changePercent": "-0.48%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-09092026",
+          "id": "nasdaq-091026",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,421.41",
-          "statContext": "Declined 0.3% today."
+          "statValue": "26,085.32",
+          "statContext": "Down 0.64% (168.02 points) today.",
+          "ticker": "$IXIC",
+          "change": "-$168.02",
+          "changePercent": "-0.64%",
+          "direction": "down"
         },
         {
-          "id": "dow-09092026",
+          "id": "dow-091026",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,786.07",
-          "statContext": "Fell 1.2%, or 628.18 points."
+          "statValue": "51,977.33",
+          "statContext": "Down 0.77% (403.33 points) today.",
+          "ticker": "$DJIA",
+          "change": "-$403.33",
+          "changePercent": "-0.77%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-09092026",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers: September 10, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "smr-gainer",
-          "headline": "NuScale Power Leads Gains",
-          "summary": "NuScale Power ($SMR) closed 16.8% higher, showing strong upward movement.",
-          "ticker": "$SMR",
+          "id": "gainer-net",
+          "headline": "Cloudflare Jumps on Software Growth Focus",
+          "summary": "Cloudflare ($NET) shares surged 10.51% as investors showed increased interest in high-growth software companies.",
+          "ticker": "$NET",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.8%",
+          "changePercent": "+10.51%",
           "direction": "up"
         },
         {
-          "id": "ttrx-gainer",
-          "headline": "Turn Therapeutics Surges",
-          "summary": "Turn Therapeutics ($TTRX) posted a significant gain of 29.2% today.",
-          "ticker": "$TTRX",
+          "id": "gainer-ddog",
+          "headline": "Datadog Rises Amid Rotation into Cloud and Observability",
+          "summary": "Datadog ($DDOG) climbed 7.15% today, benefiting from a rotation of traders into cloud and observability-focused plays.",
+          "ticker": "$DDOG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+29.2%",
+          "changePercent": "+7.15%",
           "direction": "up"
         },
         {
-          "id": "meta-gainer",
-          "headline": "Meta Platforms Rises",
-          "summary": "Meta Platforms ($META) shares rose 5.6% after the company launched a new personal AI agent, Muse.",
+          "id": "gainer-meta",
+          "headline": "Meta Platforms Gains on AI Agent Enthusiasm",
+          "summary": "Meta Platforms ($META) advanced 6.55% following analyst reports highlighting early positive interest in its new Muse AI agent.",
           "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.6%",
+          "changePercent": "+6.55%",
           "direction": "up"
         },
         {
-          "id": "amgn-loser",
-          "headline": "Amgen Plunges on Negative News",
-          "summary": "Amgen Inc. ($AMGN) was a major drag on the Dow, with its stock price falling 10.1%.",
-          "ticker": "$AMGN",
+          "id": "loser-casy",
+          "headline": "Casey's General Stores Drops on Earnings Guidance",
+          "summary": "Casey's General Stores ($CASY) fell 14.24% after analysts adjusted price targets downward following the company's fiscal Q1 earnings release.",
+          "ticker": "$CASY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.1%",
+          "changePercent": "-14.24%",
           "direction": "down"
         },
         {
-          "id": "gpro-loser",
-          "headline": "GoPro Experiences Sharp Decline",
-          "summary": "GoPro ($GPRO) saw a notable loss of 15% during today's trading session.",
-          "ticker": "$GPRO",
+          "id": "loser-ui",
+          "headline": "Ubiquiti Shares Decline",
+          "summary": "Ubiquiti ($UI) experienced a decline of 10.33% in today's trading.",
+          "ticker": "$UI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-15.0%",
+          "changePercent": "-10.33%",
           "direction": "down"
         },
         {
-          "id": "expe-loser",
-          "headline": "Expedia Group Falls",
-          "summary": "Expedia Group ($EXPE) shares dropped 7.32% by close.",
-          "ticker": "$EXPE",
+          "id": "loser-vrt",
+          "headline": "Vertiv Holdings Co Falls Post-Q2 Update",
+          "summary": "Vertiv Holdings Co ($VRT) decreased by 9.61% after a mixed Q2 update that showed revenue growth but also highlighted softer performance in certain areas.",
+          "ticker": "$VRT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.32%",
+          "changePercent": "-9.61%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-09092026",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Economic Updates",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-09092026",
-          "headline": "Energy Sector Leads, Financials and Healthcare Lag",
-          "summary": "The Energy Select Sector SPDR (XLE) rose 1% as oil prices surged, making it a leading sector today. Conversely, Financials (XLF) fell 1.4%, Health Care (XLV) declined 2.6%, and Materials (XLB) dropped 0.9%. Industrials and Consumer Cyclicals also experienced significant declines.",
+          "id": "sector-energy",
+          "headline": "Energy Sector Leads as Oil Prices Climb",
+          "summary": "The energy sector is outperforming, driven by gains in oil companies. Brent crude is trading near $102.99 a barrel and WTI crude around $97.40, with escalating U.S.-Iran conflict intensifying concerns about potential disruptions to Middle East energy supplies.",
           "tags": [
-            "Sector Performance",
+            "Sectors",
             "Energy",
-            "Financials",
-            "Healthcare"
+            "Oil Prices",
+            "Geopolitics"
           ]
         },
         {
-          "id": "fed-outlook-09092026",
-          "headline": "Fed Meeting Approaches Amid Rising Rate Hike Expectations",
-          "summary": "The Federal Reserve is set to meet on September 15-16. While a majority of economists expect rates to hold steady, the CME FedWatch Tool indicates a 60.4% chance of a 25-basis-point increase, fueled by persistent inflation concerns and surging oil prices. Traders are keenly awaiting the Producer Price Index (PPI) tomorrow and Consumer Price Index (CPI) on Friday.",
+          "id": "sector-utilities",
+          "headline": "Utilities Sector Downgraded Amid Regulatory Uncertainty",
+          "summary": "Barclays has downgraded the U.S. utilities sector to 'Neutral,' citing increased approval hurdles for data center construction and regulatory policy uncertainties.",
+          "tags": [
+            "Sectors",
+            "Utilities",
+            "Analyst Ratings"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Key Economic Data Releases Awaited Today",
+          "summary": "Investors are closely watching today's release of the August Producer Price Index (PPI) report, with economists projecting a 0.3% month-over-month increase and a 5.3% year-over-year rise. Additionally, weekly jobless claims and August existing home sales data are scheduled for release.",
+          "tags": [
+            "Economic Data",
+            "PPI",
+            "Jobless Claims",
+            "Housing"
+          ]
+        },
+        {
+          "id": "treasury-buyback",
+          "headline": "U.S. Treasury Announces Expanded Bond Buyback",
+          "summary": "The U.S. Treasury Department is conducting a buyback operation of up to $6 billion in 10- to 20-year Treasury bonds today, tripling the size of its previous long-dated purchases to support market liquidity. The 10-year Treasury yield rose to 4.8528% following the announcement.",
+          "tags": [
+            "Bonds",
+            "Treasury",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Fed Rate Hike Expectations Remain High",
+          "summary": "The Federal Open Market Committee (FOMC) has maintained the federal funds rate at 3.50% to 3.75% year-to-date, but a 25-basis-point interest rate hike is considered days away by some analysts, with a nearly 60% likelihood for September.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Inflation",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "earnings-reports-09092026",
-          "headline": "Key Companies Release Q2 Earnings",
-          "summary": "Chewy Inc. ($CHWY) announced strong second-quarter fiscal 2026 financial results, with net sales increasing 7.3%. Core & Main Inc. ($CNM) also reported its second-quarter results, showing a 2.5% increase in net sales. Academy Sports and Outdoors ($ASO) delivered profitable growth with net sales up 3.0% for Q2 fiscal 2026.",
-          "tags": [
-            "Earnings",
-            "$CHWY",
-            "$CNM",
-            "$ASO"
-          ]
-        },
-        {
-          "id": "oil-market-09092026",
-          "headline": "Oil Prices Breach $100 a Barrel Amid U.S.-Iran Tensions",
-          "summary": "Brent crude oil surpassed $100 per barrel today for the first time since July, rising 2.8% to $100.62. This surge is attributed to escalating U.S.-Iran tensions and renewed fighting near the Strait of Hormuz, intensifying inflation concerns across global markets.",
-          "tags": [
-            "Oil Prices",
-            "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "sp500-target-09092026",
-          "headline": "Barclays Raises S&P 500 Year-End Target",
-          "summary": "Barclays has raised its year-end target for the S&P 500 index to 7,950 from 7,800, citing a standout earnings season driven by technology companies. The brokerage expects strong earnings momentum to continue, supported by AI investment and healthy economic activity.",
+          "id": "earnings-reports-major",
+          "headline": "Major Earnings Reports from Oracle, Adobe, and Macy's Today",
+          "summary": "Several major companies are reporting earnings today, including Oracle ($ORCL), Adobe ($ADBE), and Macy's ($M). These reports will provide further insights into corporate performance and economic trends.",
           "tags": [
-            "S&P 500",
-            "Analyst Ratings",
-            "AI Investment"
+            "Earnings",
+            "Corporate News",
+            "$ORCL",
+            "$ADBE",
+            "$M"
           ]
+        }
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "Disclaimer",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "not-financial-advice",
+          "headline": "Important Notice",
+          "summary": "This report is for informational purposes only and does not constitute financial advice. Investors should conduct their own research and consult with a qualified financial professional before making any investment decisions. Not financial advice."
         }
       ]
     }
