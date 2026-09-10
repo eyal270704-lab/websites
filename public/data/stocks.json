@@ -1,190 +1,157 @@
 {
-  "generatedAt": "2026-09-10T15:28:00Z",
+  "generatedAt": "2026-09-10T19:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 10, 2026 - Mid-Session Update",
-  "badge": "LIVE",
+  "subtitle": "September 10, 2026 - End of Day",
+  "badge": "EOD",
   "sections": [
     {
-      "id": "market-pulse-today",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Stocks Fall as Oil Surges, Inflation Fears Mount",
-          "summary": "U.S. stocks are broadly lower in mid-session trading as oil prices climb above $100 a barrel amid escalating U.S.-Iran tensions, intensifying inflation concerns. A hotter-than-expected Producer Price Index (PPI) report for August has further fueled expectations of a Federal Reserve rate hike later this month, with probabilities now nearing 70%. The S&P 500, NASDAQ, and Dow Jones Industrial Average all saw declines in early trading.",
+          "id": "market-summary-sept-10",
+          "headline": "Stocks Decline Amid Inflation Fears and Soaring Oil Prices",
+          "summary": "U.S. equities closed lower on Thursday, extending a multi-session pullback, as hotter-than-expected Producer Price Index data for August fueled inflation concerns and pushed Treasury yields higher. Brent crude surged past $100 a barrel, exacerbating worries about energy costs and the potential for a Federal Reserve interest rate hike. All major indices finished in the red, reflecting cautious investor sentiment ahead of tomorrow's Consumer Price Index release. Not financial advice.",
           "tags": [
-            "Market Sentiment",
             "Inflation",
             "Oil Prices",
-            "Fed"
-          ],
-          "timestamp": "2026-09-10T15:28:00Z"
+            "Fed Policy"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices (Today - Mid-Session)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "-0.59%",
-          "statContext": "Fell in early trading today amid inflation concerns and rising oil prices."
+          "statValue": "7,636.36",
+          "statContext": "Closed Down 0.5% (-37.16 pts)"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ",
-          "statValue": "-0.97%",
-          "statContext": "Declined significantly in early trading today, impacted by broader market weakness."
+          "statValue": "26,253.34",
+          "statContext": "Closed Down 0.6% (-168.07 pts)"
         },
         {
           "id": "dow-performance",
           "statLabel": "DOW",
-          "statValue": "-0.35%",
-          "statContext": "Slipped in early trading today as investors reacted to economic data and geopolitical tensions."
+          "statValue": "52,099.14",
+          "statContext": "Closed Down 0.54% (-281.52 pts)"
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers (Today - Mid-Session)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "reddit-gainer",
-          "headline": "Reddit Leads S&P 500 Gainers",
-          "ticker": "$RDDT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.50%",
-          "direction": "up",
-          "summary": "Reddit ($RDDT) recorded the largest daily gain among S&P 500 components today."
+          "id": "aapl-gainer",
+          "headline": "Apple Rises Post-Product Event",
+          "summary": "Shares of Apple ($AAPL) climbed following its product event yesterday, where it launched a new folding iPhone.",
+          "ticker": "$AAPL",
+          "price": "$325.21",
+          "change": "+$9.87",
+          "changePercent": "+3.1%",
+          "direction": "up"
         },
         {
-          "id": "chemours-gainer",
-          "headline": "Chemours Rises on Settlement News",
-          "ticker": "$CC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.6%",
-          "direction": "up",
-          "summary": "Chemours Co. ($CC) saw shares gain after announcing a $455 million settlement related to PFAS contamination lawsuits."
+          "id": "s-gainer",
+          "headline": "SentinelOne Sees Strong Bounce",
+          "summary": "SentinelOne, Inc. ($S) experienced a significant rebound today, with its stock rising over 3%.",
+          "ticker": "$S",
+          "price": "$20.04",
+          "change": "+$0.59",
+          "changePercent": "+3.06%",
+          "direction": "up"
         },
         {
-          "id": "ssnc-gainer",
-          "headline": "SS&C Technologies Up on Price Target Boost",
-          "ticker": "$SSNC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5%",
-          "direction": "up",
-          "summary": "SS&C Technologies Holdings ($SSNC) jumped following UBS raising its price target on the cloud-based software company."
+          "id": "nvda-loser",
+          "headline": "Nvidia Shares Decline",
+          "summary": "Nvidia ($NVDA) stock fell over 2% today amidst broader market declines.",
+          "ticker": "$NVDA",
+          "price": "$218.24",
+          "change": "-$5.18",
+          "changePercent": "-2.3%",
+          "direction": "down"
         },
         {
-          "id": "macys-loser",
-          "headline": "Macy's Shares Down Despite Strong Earnings",
-          "ticker": "$M",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.19%",
-          "direction": "down",
-          "summary": "Macy's ($M) stock is down today despite the company reporting strong second-quarter results and raising its full-year guidance."
-        },
-        {
-          "id": "oracle-loser",
-          "headline": "Oracle Slips Ahead of Earnings",
-          "ticker": "$ORCL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.55%",
-          "direction": "down",
-          "summary": "Oracle ($ORCL) saw a slight decline in early trading today as investors awaited its earnings report."
-        },
-        {
-          "id": "adobe-loser",
-          "headline": "Adobe Ticks Down Ahead of Report",
-          "ticker": "$ADBE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-0.93%",
-          "direction": "down",
-          "summary": "Adobe ($ADBE) shares edged lower today, with the company also scheduled to release its earnings report."
+          "id": "aero-loser",
+          "headline": "American Eagle Outfitters Drops Premarket",
+          "summary": "American Eagle Outfitters shares fell premarket after the company maintained its annual comparable sales forecast, indicating potential margin concerns.",
+          "ticker": "$AEO",
+          "price": null,
+          "change": null,
+          "changePercent": "-11.37%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-today",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-ppi-inflation",
-          "headline": "August PPI Exceeds Expectations, Bolstering Rate Hike Odds",
-          "summary": "The Producer Price Index (PPI) for August rose 0.4% month-over-month, matching estimates, but wholesale prices climbed 5.4% from a year earlier, slightly above expectations. Core PPI, excluding volatile items, increased to 4.6% year-on-year, up from 4.3%. This firmer-than-expected inflation data has pushed the probability of a 25-basis-point Fed rate hike at the September 16 FOMC meeting to nearly 70%.",
+          "id": "economic-data-ppi",
+          "headline": "August PPI Higher Than Expected, Fueling Rate Hike Bets",
+          "summary": "The Producer Price Index (PPI) for August rose 0.4% month-over-month, matching Dow Jones estimates, but climbed 5.4% year-over-year, slightly exceeding expectations of 5.3%. This data reinforced investor concerns about persistent inflation and increased the likelihood of a Federal Reserve rate hike this month, with traders seeing a 62.2% chance.",
           "tags": [
+            "Economic Data",
             "Inflation",
-            "PPI",
-            "Fed",
-            "Interest Rates"
+            "Fed"
           ]
         },
         {
-          "id": "economic-housing",
-          "headline": "Existing Home Sales Decline in August",
-          "summary": "Sales of previously owned homes fell by 2% in August from July, reaching a seasonally adjusted annual rate of 3.98 million units. This marks the lowest sales pace since June 2025.",
+          "id": "oil-surge",
+          "headline": "Brent Crude Tops $100 Amid Middle East Tensions",
+          "summary": "Brent crude futures surged above $100 a barrel for the first time since July, reaching prices near $107.35. This increase is attributed to escalating geopolitical tensions in the Middle East, particularly renewed Iran-U.S. attacks near the Strait of Hormuz, which are raising concerns about energy supply risks.",
           "tags": [
-            "Housing Market",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "economic-oil",
-          "headline": "Oil Prices Surge Above $100 Amid Geopolitical Tensions",
-          "summary": "Brent crude prices have surged above $100 a barrel, with WTI crude near $97.40, as escalating U.S.-Iran conflict raises concerns about Middle East energy supplies. This surge is a key factor driving current inflation fears and market downturn.",
-          "tags": [
-            "Oil Prices",
+            "Commodities",
             "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "sector-energy-leading",
-          "headline": "Energy Sector Continues to Lead as Other Sectors Lag",
-          "summary": "The Energy sector advanced 1.1% on Wednesday, continuing its strong performance. Oil/Energy earnings are projected to lead for the full year 2026 with 78.9% growth. Conversely, Industrials, Consumer Discretionary, and Utilities sectors lagged, declining 1.5%, 1.2%, and 1.1% respectively yesterday.",
+          "id": "treasury-yields",
+          "headline": "Treasury Yields Climb to Multi-Year Highs",
+          "summary": "The benchmark 10-year U.S. Treasury yield rose to 4.8508%, marking its highest level since November 2023. This increase in yields pressured equity markets, as investors sought safer assets amid inflation fears and expectations of tighter monetary policy.",
+          "tags": [
+            "Treasury Bonds",
+            "Interest Rates",
+            "Fixed Income"
+          ]
+        },
+        {
+          "id": "upcoming-cpi-earnings",
+          "headline": "CPI and Key Earnings Ahead",
+          "summary": "Investors are closely watching for the release of the Consumer Price Index (CPI) report on Friday, which is expected to provide further insights into inflation trends. Additionally, Oracle ($ORCL) and Adobe ($ADBE) are among the major companies scheduled to report earnings today.",
+          "tags": [
+            "Upcoming Events",
+            "Earnings",
+            "Economic Data"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Energy Sector Leads as Industrials and Consumer Discretionary Lag",
+          "summary": "The Energy Select Sector SPDR ($XLE) advanced 1.1% today, benefiting from surging oil prices. In contrast, several sectors underperformed, with Industrials Select Sector SPDR ($XLI) declining 1.5%, Consumer Discretionary Select Sector SPDR ($XLY) falling 1.2%, and Utilities Select Sector SPDR ($XLU) dropping 1.1%.",
           "tags": [
             "Sector Analysis",
             "Energy",
-            "Lagging Sectors"
-          ]
-        },
-        {
-          "id": "earnings-macys",
-          "headline": "Macy's Reports Strong Q2 2026 Results, Raises Guidance",
-          "summary": "Macy's ($M) announced strong second-quarter 2026 results today, exceeding expectations across key metrics. Net sales increased 1.1% to $4.9 billion, and comparable sales rose 2.7%. The company also raised its full-year top- and bottom-line guidance.",
-          "tags": [
-            "Earnings",
-            "Retail",
-            "$M"
-          ]
-        },
-        {
-          "id": "tech-nasdaq-payward",
-          "headline": "Nasdaq Ventures Invests $100M in Payward to Advance Tokenized Equities",
-          "summary": "Nasdaq (NDAQ) announced an expansion of its relationship with Payward, the parent company of Kraken. Nasdaq Ventures is investing $100 million to advance the companies' work on Nasdaq Equity Tokens (NETs) and tokenized market infrastructure, with an expected launch of NETs in Q2 2027.",
-          "tags": [
-            "Technology",
-            "Blockchain",
-            "Fintech",
-            "$NDAQ"
+            "Industrials"
           ]
         }
       ]
