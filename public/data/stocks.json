@@ -1,217 +1,191 @@
 {
-  "generatedAt": "2026-09-10T12:02:00Z",
+  "generatedAt": "2026-09-10T15:28:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 10, 2026",
+  "subtitle": "September 10, 2026 - Mid-Session Update",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Indices Decline Amid Inflation Jitters and Geopolitical Tensions",
+      "id": "market-pulse-today",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-091026",
-          "headline": "U.S. Equities Fall on Persistent Inflation Concerns and High Oil Prices",
-          "summary": "U.S. stock futures showed mixed movements early Thursday, but major indices are currently trading lower as investors await key inflation data and react to escalating geopolitical tensions that have pushed crude oil above $100 a barrel. The Dow, S&P 500, and Nasdaq have all registered declines today.",
+          "id": "market-summary",
+          "headline": "Stocks Fall as Oil Surges, Inflation Fears Mount",
+          "summary": "U.S. stocks are broadly lower in mid-session trading as oil prices climb above $100 a barrel amid escalating U.S.-Iran tensions, intensifying inflation concerns. A hotter-than-expected Producer Price Index (PPI) report for August has further fueled expectations of a Federal Reserve rate hike later this month, with probabilities now nearing 70%. The S&P 500, NASDAQ, and Dow Jones Industrial Average all saw declines in early trading.",
           "tags": [
             "Market Sentiment",
             "Inflation",
-            "Oil Prices"
-          ]
+            "Oil Prices",
+            "Fed"
+          ],
+          "timestamp": "2026-09-10T15:28:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance Today",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Today - Mid-Session)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-091026",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,599.71",
-          "statContext": "Down 0.48% (36.65 points) today.",
-          "ticker": "$SPX",
-          "change": "-$36.65",
-          "changePercent": "-0.48%",
-          "direction": "down"
+          "statValue": "-0.59%",
+          "statContext": "Fell in early trading today amid inflation concerns and rising oil prices."
         },
         {
-          "id": "nasdaq-091026",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,085.32",
-          "statContext": "Down 0.64% (168.02 points) today.",
-          "ticker": "$IXIC",
-          "change": "-$168.02",
-          "changePercent": "-0.64%",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ",
+          "statValue": "-0.97%",
+          "statContext": "Declined significantly in early trading today, impacted by broader market weakness."
         },
         {
-          "id": "dow-091026",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,977.33",
-          "statContext": "Down 0.77% (403.33 points) today.",
-          "ticker": "$DJIA",
-          "change": "-$403.33",
-          "changePercent": "-0.77%",
-          "direction": "down"
+          "id": "dow-performance",
+          "statLabel": "DOW",
+          "statValue": "-0.35%",
+          "statContext": "Slipped in early trading today as investors reacted to economic data and geopolitical tensions."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: September 10, 2026",
+      "id": "top-movers-today",
+      "title": "Top Movers (Today - Mid-Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-net",
-          "headline": "Cloudflare Jumps on Software Growth Focus",
-          "summary": "Cloudflare ($NET) shares surged 10.51% as investors showed increased interest in high-growth software companies.",
-          "ticker": "$NET",
+          "id": "reddit-gainer",
+          "headline": "Reddit Leads S&P 500 Gainers",
+          "ticker": "$RDDT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.51%",
-          "direction": "up"
+          "changePercent": "+5.50%",
+          "direction": "up",
+          "summary": "Reddit ($RDDT) recorded the largest daily gain among S&P 500 components today."
         },
         {
-          "id": "gainer-ddog",
-          "headline": "Datadog Rises Amid Rotation into Cloud and Observability",
-          "summary": "Datadog ($DDOG) climbed 7.15% today, benefiting from a rotation of traders into cloud and observability-focused plays.",
-          "ticker": "$DDOG",
+          "id": "chemours-gainer",
+          "headline": "Chemours Rises on Settlement News",
+          "ticker": "$CC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.15%",
-          "direction": "up"
+          "changePercent": "+6.6%",
+          "direction": "up",
+          "summary": "Chemours Co. ($CC) saw shares gain after announcing a $455 million settlement related to PFAS contamination lawsuits."
         },
         {
-          "id": "gainer-meta",
-          "headline": "Meta Platforms Gains on AI Agent Enthusiasm",
-          "summary": "Meta Platforms ($META) advanced 6.55% following analyst reports highlighting early positive interest in its new Muse AI agent.",
-          "ticker": "$META",
+          "id": "ssnc-gainer",
+          "headline": "SS&C Technologies Up on Price Target Boost",
+          "ticker": "$SSNC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.55%",
-          "direction": "up"
+          "changePercent": "+5%",
+          "direction": "up",
+          "summary": "SS&C Technologies Holdings ($SSNC) jumped following UBS raising its price target on the cloud-based software company."
         },
         {
-          "id": "loser-casy",
-          "headline": "Casey's General Stores Drops on Earnings Guidance",
-          "summary": "Casey's General Stores ($CASY) fell 14.24% after analysts adjusted price targets downward following the company's fiscal Q1 earnings release.",
-          "ticker": "$CASY",
+          "id": "macys-loser",
+          "headline": "Macy's Shares Down Despite Strong Earnings",
+          "ticker": "$M",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14.24%",
-          "direction": "down"
+          "changePercent": "-4.19%",
+          "direction": "down",
+          "summary": "Macy's ($M) stock is down today despite the company reporting strong second-quarter results and raising its full-year guidance."
         },
         {
-          "id": "loser-ui",
-          "headline": "Ubiquiti Shares Decline",
-          "summary": "Ubiquiti ($UI) experienced a decline of 10.33% in today's trading.",
-          "ticker": "$UI",
+          "id": "oracle-loser",
+          "headline": "Oracle Slips Ahead of Earnings",
+          "ticker": "$ORCL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.33%",
-          "direction": "down"
+          "changePercent": "-0.55%",
+          "direction": "down",
+          "summary": "Oracle ($ORCL) saw a slight decline in early trading today as investors awaited its earnings report."
         },
         {
-          "id": "loser-vrt",
-          "headline": "Vertiv Holdings Co Falls Post-Q2 Update",
-          "summary": "Vertiv Holdings Co ($VRT) decreased by 9.61% after a mixed Q2 update that showed revenue growth but also highlighted softer performance in certain areas.",
-          "ticker": "$VRT",
+          "id": "adobe-loser",
+          "headline": "Adobe Ticks Down Ahead of Report",
+          "ticker": "$ADBE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.61%",
-          "direction": "down"
+          "changePercent": "-0.93%",
+          "direction": "down",
+          "summary": "Adobe ($ADBE) shares edged lower today, with the company also scheduled to release its earnings report."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Updates",
+      "id": "market-news-today",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-energy",
-          "headline": "Energy Sector Leads as Oil Prices Climb",
-          "summary": "The energy sector is outperforming, driven by gains in oil companies. Brent crude is trading near $102.99 a barrel and WTI crude around $97.40, with escalating U.S.-Iran conflict intensifying concerns about potential disruptions to Middle East energy supplies.",
+          "id": "economic-ppi-inflation",
+          "headline": "August PPI Exceeds Expectations, Bolstering Rate Hike Odds",
+          "summary": "The Producer Price Index (PPI) for August rose 0.4% month-over-month, matching estimates, but wholesale prices climbed 5.4% from a year earlier, slightly above expectations. Core PPI, excluding volatile items, increased to 4.6% year-on-year, up from 4.3%. This firmer-than-expected inflation data has pushed the probability of a 25-basis-point Fed rate hike at the September 16 FOMC meeting to nearly 70%.",
           "tags": [
-            "Sectors",
-            "Energy",
-            "Oil Prices",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "sector-utilities",
-          "headline": "Utilities Sector Downgraded Amid Regulatory Uncertainty",
-          "summary": "Barclays has downgraded the U.S. utilities sector to 'Neutral,' citing increased approval hurdles for data center construction and regulatory policy uncertainties.",
-          "tags": [
-            "Sectors",
-            "Utilities",
-            "Analyst Ratings"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Key Economic Data Releases Awaited Today",
-          "summary": "Investors are closely watching today's release of the August Producer Price Index (PPI) report, with economists projecting a 0.3% month-over-month increase and a 5.3% year-over-year rise. Additionally, weekly jobless claims and August existing home sales data are scheduled for release.",
-          "tags": [
-            "Economic Data",
+            "Inflation",
             "PPI",
-            "Jobless Claims",
-            "Housing"
+            "Fed",
+            "Interest Rates"
           ]
         },
         {
-          "id": "treasury-buyback",
-          "headline": "U.S. Treasury Announces Expanded Bond Buyback",
-          "summary": "The U.S. Treasury Department is conducting a buyback operation of up to $6 billion in 10- to 20-year Treasury bonds today, tripling the size of its previous long-dated purchases to support market liquidity. The 10-year Treasury yield rose to 4.8528% following the announcement.",
+          "id": "economic-housing",
+          "headline": "Existing Home Sales Decline in August",
+          "summary": "Sales of previously owned homes fell by 2% in August from July, reaching a seasonally adjusted annual rate of 3.98 million units. This marks the lowest sales pace since June 2025.",
           "tags": [
-            "Bonds",
-            "Treasury",
-            "Monetary Policy"
+            "Housing Market",
+            "Economic Data"
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Rate Hike Expectations Remain High",
-          "summary": "The Federal Open Market Committee (FOMC) has maintained the federal funds rate at 3.50% to 3.75% year-to-date, but a 25-basis-point interest rate hike is considered days away by some analysts, with a nearly 60% likelihood for September.",
+          "id": "economic-oil",
+          "headline": "Oil Prices Surge Above $100 Amid Geopolitical Tensions",
+          "summary": "Brent crude prices have surged above $100 a barrel, with WTI crude near $97.40, as escalating U.S.-Iran conflict raises concerns about Middle East energy supplies. This surge is a key factor driving current inflation fears and market downturn.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
+            "Oil Prices",
+            "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-reports-major",
-          "headline": "Major Earnings Reports from Oracle, Adobe, and Macy's Today",
-          "summary": "Several major companies are reporting earnings today, including Oracle ($ORCL), Adobe ($ADBE), and Macy's ($M). These reports will provide further insights into corporate performance and economic trends.",
+          "id": "sector-energy-leading",
+          "headline": "Energy Sector Continues to Lead as Other Sectors Lag",
+          "summary": "The Energy sector advanced 1.1% on Wednesday, continuing its strong performance. Oil/Energy earnings are projected to lead for the full year 2026 with 78.9% growth. Conversely, Industrials, Consumer Discretionary, and Utilities sectors lagged, declining 1.5%, 1.2%, and 1.1% respectively yesterday.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Lagging Sectors"
+          ]
+        },
+        {
+          "id": "earnings-macys",
+          "headline": "Macy's Reports Strong Q2 2026 Results, Raises Guidance",
+          "summary": "Macy's ($M) announced strong second-quarter 2026 results today, exceeding expectations across key metrics. Net sales increased 1.1% to $4.9 billion, and comparable sales rose 2.7%. The company also raised its full-year top- and bottom-line guidance.",
           "tags": [
             "Earnings",
-            "Corporate News",
-            "$ORCL",
-            "$ADBE",
+            "Retail",
             "$M"
           ]
-        }
-      ]
-    },
-    {
-      "id": "disclaimer",
-      "title": "Disclaimer",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
+        },
         {
-          "id": "not-financial-advice",
-          "headline": "Important Notice",
-          "summary": "This report is for informational purposes only and does not constitute financial advice. Investors should conduct their own research and consult with a qualified financial professional before making any investment decisions. Not financial advice."
+          "id": "tech-nasdaq-payward",
+          "headline": "Nasdaq Ventures Invests $100M in Payward to Advance Tokenized Equities",
+          "summary": "Nasdaq (NDAQ) announced an expansion of its relationship with Payward, the parent company of Kraken. Nasdaq Ventures is investing $100 million to advance the companies' work on Nasdaq Equity Tokens (NETs) and tokenized market infrastructure, with an expected launch of NETs in Q2 2027.",
+          "tags": [
+            "Technology",
+            "Blockchain",
+            "Fintech",
+            "$NDAQ"
+          ]
         }
       ]
     }
