@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T15:30:00Z",
+  "generatedAt": "2026-09-12T11:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 11, 2026 - Market Close",
-  "badge": "LIVE",
+  "subtitle": "Friday, September 11, 2026 Market Close",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
@@ -14,15 +14,8 @@
       "items": [
         {
           "id": "market-summary",
-          "headline": "Stocks Surge as Inflation Data Aligns with Expectations; Fed Rate Hike Odds Jump",
-          "summary": "U.S. equities rallied today, breaking a four-day losing streak, fueled by August Consumer Price Index (CPI) data largely matching forecasts and a retreat in oil prices. The positive market sentiment, however, was accompanied by increased expectations for a Federal Reserve interest rate hike next week. Not financial advice.",
-          "tags": [
-            "Market Summary",
-            "CPI",
-            "Federal Reserve",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-09-11T15:30:00Z"
+          "headline": "U.S. Stocks Rebound, Snapping Four-Day Losing Streak Amid Easing Oil Prices and In-Line CPI",
+          "summary": "U.S. equities ended sharply higher on Friday, September 11, 2026, breaking a four-session losing streak. The positive momentum was driven by a retreat in crude oil prices from elevated levels and the release of August's Consumer Price Index (CPI) report, which largely met economists' expectations. This performance came despite the August inflation data strengthening the likelihood of a Federal Reserve interest rate hike next week."
         }
       ]
     },
@@ -35,131 +28,86 @@
         {
           "id": "sp500-performance",
           "headline": "S&P 500",
-          "statLabel": "Performance",
-          "statValue": "+1.1%",
-          "statContext": "Today's Close",
-          "tags": [
-            "S&P 500"
-          ]
+          "statLabel": "Close",
+          "statValue": "7,656.98",
+          "statContext": "Last close: Friday, September 11, 2026",
+          "ticker": "^GSPC",
+          "price": "7,656.98",
+          "change": "+65.28",
+          "changePercent": "+0.90%",
+          "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "headline": "NASDAQ Composite",
-          "statLabel": "Performance",
-          "statValue": "+1.1%",
-          "statContext": "Today's Close",
-          "tags": [
-            "NASDAQ"
-          ]
+          "statLabel": "Close",
+          "statValue": "26,333.04",
+          "statContext": "Last close: Friday, September 11, 2026",
+          "ticker": "^IXIC",
+          "price": "26,333.04",
+          "change": "+251.31",
+          "changePercent": "+1.00%",
+          "direction": "up"
         },
         {
           "id": "dow-performance",
           "headline": "Dow Jones Industrial Average",
-          "statLabel": "Performance",
-          "statValue": "+1.2%",
-          "statContext": "Today's Close",
-          "tags": [
-            "Dow Jones"
-          ]
+          "statLabel": "Close",
+          "statValue": "52,573.29",
+          "statContext": "Last close: Friday, September 11, 2026",
+          "ticker": "^DJI",
+          "price": "52,573.29",
+          "change": "+509.19",
+          "changePercent": "+1.00%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Friday, September 11, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "hpe-gainer",
+          "headline": "Hewlett Packard Enterprise Surges on AI Demand",
+          "summary": "Hewlett Packard Enterprise Co. ($HPE) surged 12.43% to $62.09, extending a post-earnings re-rating. The gain was driven by accelerating demand for AI servers, networking, and storage infrastructure, building on recently raised fiscal 2026 guidance.",
+          "ticker": "$HPE",
+          "price": "$62.09",
+          "change": "+$6.86",
+          "changePercent": "+12.43%",
+          "direction": "up"
+        },
+        {
           "id": "dell-gainer",
-          "headline": "Dell Technologies",
+          "headline": "Dell Technologies Jumps on Outperform Rating",
+          "summary": "Dell Technologies ($DELL) shares jumped 11.98% to $567.30 after RBC initiated coverage with an Outperform rating, citing robust free cash flow and a significant competitive advantage in AI infrastructure deployment.",
           "ticker": "$DELL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.19%",
-          "direction": "up",
-          "summary": "Dell Technologies surged, driven by strong performance in AI-related stocks.",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "AI"
-          ]
+          "price": "$567.30",
+          "change": "+$60.83",
+          "changePercent": "+11.98%",
+          "direction": "up"
         },
         {
-          "id": "oracle-gainer",
-          "headline": "Oracle Corp.",
-          "ticker": "$ORCL",
+          "id": "swks-gainer",
+          "headline": "Skyworks Solutions Continues Upward Trend",
+          "summary": "Skyworks Solutions ($SWKS) posted a gain of 9.8%, contributing to its appearance on the one-month winners list with a total return of +23.0%.",
+          "ticker": "$SWKS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.17%",
-          "direction": "up",
-          "summary": "Oracle's shares were boosted by stronger-than-expected profit and revenue for the latest quarter, with its AI cloud backlog exceeding estimates.",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "Cloud",
-            "AI",
-            "Earnings"
-          ]
+          "changePercent": "+9.8%",
+          "direction": "up"
         },
         {
-          "id": "arista-networks-gainer",
-          "headline": "Arista Networks",
-          "ticker": "$ANET",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.66%",
-          "direction": "up",
-          "summary": "Arista Networks participated in the broader market rally, specifically benefiting from positive sentiment in AI-related equities.",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "intel-gainer",
-          "headline": "Intel Corp.",
-          "ticker": "$INTC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.31%",
-          "direction": "up",
-          "summary": "Intel saw notable gains, benefiting from the positive market momentum surrounding AI stocks.",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "alphabet-gainer",
-          "headline": "Alphabet Inc. (Class A)",
-          "ticker": "$GOOGL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+2.27%",
-          "direction": "up",
-          "summary": "As a member of the 'Magnificent 7', Alphabet's shares rose amidst the AI-driven market strength.",
-          "tags": [
-            "Gainer",
-            "Technology",
-            "AI",
-            "Magnificent 7"
-          ]
-        },
-        {
-          "id": "navan-loser",
-          "headline": "Navan",
+          "id": "navn-loser",
+          "headline": "Navan Sees Significant Decline",
+          "summary": "Navan ($NAVN) experienced a sharp decline of 21.7% during the trading session.",
           "ticker": "$NAVN",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-21.7%",
-          "direction": "down",
-          "summary": "Navan experienced a significant decline today, though a specific detailed driver for the move was not provided in available reports.",
-          "tags": [
-            "Loser"
-          ]
+          "direction": "down"
         }
       ]
     },
@@ -170,58 +118,65 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-cpi-report",
-          "headline": "August CPI Report In-Line, Core CPI Slightly Hotter",
-          "summary": "The Consumer Price Index (CPI) for August 2026 increased 0.4% on a seasonally adjusted basis and 3.4% year-over-year, aligning with the Dow Jones consensus. Core CPI, excluding food and energy, rose 0.3% for the month, slightly above forecasts, and 2.4% annually, in line with expectations.",
+          "id": "economic-data",
+          "headline": "August CPI Report Fuels Rate Hike Expectations",
+          "summary": "The Consumer Price Index (CPI) rose a seasonally adjusted 0.4% in August, bringing the 12-month increase to 3.4%, aligning with Dow Jones consensus forecasts. Core CPI, excluding volatile food and energy prices, increased 0.3% for the month, slightly above the 0.2% forecast, and the core annual rate stood at 2.4%. This data has significantly increased the market's expectation for a Federal Reserve rate hike at its upcoming policy meeting.",
           "tags": [
-            "Economic Data",
             "CPI",
-            "Inflation"
-          ],
-          "timestamp": "22026-09-11T15:30:00Z"
+            "Inflation",
+            "Federal Reserve"
+          ]
         },
         {
-          "id": "fed-rate-hike-odds",
-          "headline": "Fed Rate Hike Expectations Surge Ahead of FOMC Meeting",
-          "summary": "Following the CPI data release, the probability of a 25-basis-point interest rate hike at the Federal Open Market Committee (FOMC) meeting on September 16 surged to 85.6% from 72.4% yesterday, reflecting market anticipation of a more restrictive monetary policy.",
+          "id": "oil-prices",
+          "headline": "Oil Prices Retreat, Easing Inflationary Pressure",
+          "summary": "Brent crude oil prices fell 2.8% to settle at $104.61 a barrel on Friday, pulling back from earlier highs that had neared $110. This decline provided some relief from recent inflation concerns, as oil prices had surged in previous sessions due to the ongoing Middle East conflict.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "FOMC"
-          ],
-          "timestamp": "2026-09-11T15:30:00Z"
+            "Oil",
+            "Energy",
+            "Inflation"
+          ]
         },
         {
-          "id": "technology-sector-leads",
-          "headline": "Technology Sector, Driven by AI, Leads Market Gains",
-          "summary": "The technology sector, particularly AI-related stocks, demonstrated strong leadership in today's market rally. Companies like Dell, Arista Networks, Intel, Alphabet, and Apple posted significant gains, indicating continued investor confidence in artificial intelligence investments.",
+          "id": "treasury-yields",
+          "headline": "Treasury Yields Remain Elevated Amid Rate Hike Bets",
+          "summary": "Treasury yields remained elevated, with the 10-year Treasury yield trading at an still-elevated 4.9% on Friday, after reaching a nearly three-year high on Thursday. Markets are now pricing in an 85.6% chance of a Fed rate hike at the upcoming Federal Reserve policy meeting, according to CME FedWatch.",
+          "tags": [
+            "Treasury Yields",
+            "Interest Rates",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Technology and Communication Services Lead Market Rebound, Utilities and Health Care Lag",
+          "summary": "Friday's rally saw a broad market advance, with nine of the 11 major S&P 500 sectors closing higher. Communication Services was the top-performing sector with a gain of 1.35%, followed by Information Technology (+1.50%) and Industrials (+1.10%), as investors rotated back into growth-oriented and cyclical areas. Conversely, the Utilities sector was the worst-performing, declining by 0.34% to 0.08%, with Health Care also lagging with a loss of 0.20% to 0.35%.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI"
-          ],
-          "timestamp": "2026-09-11T15:30:00Z"
-        },
-        {
-          "id": "oil-prices-ease",
-          "headline": "Oil Prices Retreat from Recent Highs",
-          "summary": "Oil prices eased today, with West Texas Intermediate (WTI) crude futures dropping 3% to $99.28 per barrel and Brent crude futures falling 3.1% to $104.32 per barrel, providing some relief to inflation concerns despite remaining elevated for the week.",
-          "tags": [
-            "Commodities",
-            "Oil Prices",
-            "Macro Trends"
-          ],
-          "timestamp": "2026-09-11T15:30:00Z"
+            "Communication Services",
+            "Utilities",
+            "Health Care"
+          ]
         },
         {
           "id": "kroger-earnings",
-          "headline": "Kroger Reports Q2 Results, Lowers Sales Guidance",
-          "summary": "The Kroger Co. ($KR) reported its second-quarter 2026 results today. While the company reaffirmed its full-year adjusted net earnings per diluted share guidance, it lowered its full-year identical sales guidance excluding fuel, reflecting ongoing challenges.",
+          "headline": "Kroger Reports Solid Q2 2026 Results, Reaffirms Guidance",
+          "summary": "The Kroger Co. ($KR) reported solid results for its second quarter ended August 15, 2026, with adjusted EPS growth of 5%. The company reaffirmed its full-year adjusted net earnings per diluted share guidance, despite lowering its full-year 2026 identical sales without fuel guidance. Identical sales without fuel increased 0.2%.",
           "tags": [
-            "Earnings Report",
-            "Consumer Staples"
-          ],
-          "timestamp": "2026-09-11T15:30:00Z"
+            "Earnings",
+            "Retail",
+            "$KR"
+          ]
+        },
+        {
+          "id": "cea-industries-earnings",
+          "headline": "CEA Industries Releases Q1 2027 Earnings",
+          "summary": "CEA Industries ($BNC) announced its Q1 2027 earnings after market close on September 11, 2026, reporting an actual EPS of -$0.28 and revenue of $7.17 million.",
+          "tags": [
+            "Earnings",
+            "$BNC"
+          ]
         }
       ]
     }
