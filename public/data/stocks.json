@@ -1,172 +1,215 @@
 {
-  "generatedAt": "2026-09-13T15:16:00Z",
+  "generatedAt": "2026-09-13T18:37:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: September 13, 2026",
-  "subtitle": "Markets Closed Today - Recap of Friday, September 11, 2026",
-  "badge": "Updated",
+  "title": "Daily Market Digest",
+  "subtitle": "Market Recap for Friday, September 11, 2026",
+  "badge": "Market Closed",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse - Last Session Recap (Friday, Sept 11)",
+      "id": "market-pulse-friday",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. Stocks Rebound Friday as Oil Prices Ease, Inflation Meets Expectations",
-          "summary": "U.S. equities concluded the last trading week on a positive note, ending a four-day losing streak as investors reacted positively to a slight retreat in oil prices and an August inflation report that largely aligned with economists' forecasts. This data strengthened expectations for a Federal Reserve rate hike next week, contributing to a cautious yet positive sentiment.",
+          "id": "overall-market-summary-friday",
+          "headline": "U.S. Stocks Rebound, Snap Four-Day Losing Streak Amid Easing Oil Prices and CPI Data",
+          "summary": "U.S. equity markets closed higher on Friday, September 11, 2026, breaking a four-session losing streak. The rally was driven by a retreat in crude oil prices and an August inflation report that largely met economists' expectations, despite underlying inflation remaining firm. Expectations for a Federal Reserve interest rate hike next week strengthened. Not financial advice.",
           "tags": [
-            "Market Overview",
+            "Market Rebound",
             "Inflation",
             "Oil Prices",
             "Fed Outlook"
-          ]
+          ],
+          "timestamp": "2026-09-11T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Friday, Sept 11, 2026 Close)",
+      "id": "major-indices-friday",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "snp-friday",
           "statLabel": "S&P 500",
           "statValue": "7,656.98",
-          "statContext": "+0.9% (+65.28 points)"
+          "statContext": "Up 65.28 points (+0.9%)",
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
           "id": "nasdaq-friday",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,333.04",
-          "statContext": "+1.0% (+251.31 points)"
+          "statContext": "Up 251.31 points (+1.0%)",
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
           "id": "dow-friday",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,573.29",
-          "statContext": "+1.0% (+509.19 points)"
+          "statContext": "Up 509.19 points (+1.0%)",
+          "timestamp": "2026-09-11T16:00:00Z"
+        },
+        {
+          "id": "russell-friday",
+          "statLabel": "Russell 2000",
+          "statValue": "2,903.94",
+          "statContext": "Up 13 points (+0.4%)",
+          "timestamp": "2026-09-11T16:00:00Z"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Friday, Sept 11, 2026)",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Friday, September 11, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "dell-gainer",
-          "headline": "Dell Technologies Surges on AI Optimism",
-          "ticker": "$DELL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.0%",
-          "direction": "up",
-          "summary": "Dell Technologies shares climbed 12.0% to a record close, as investors were reassured about robust data-center spending following Oracle's strong earnings report, particularly its AI cloud services."
-        },
-        {
-          "id": "hpe-gainer",
-          "headline": "Hewlett Packard Enterprise Hits All-Time High",
-          "ticker": "$HPE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.4%",
-          "direction": "up",
-          "summary": "Hewlett Packard Enterprise reached an all-time closing high, gaining 12.4%, also benefiting from positive sentiment regarding data-center and AI infrastructure spending after Oracle's earnings."
-        },
-        {
-          "id": "acxp-gainer",
-          "headline": "ACXP Leads Standout Gainers",
+          "id": "gainer-acxp",
+          "headline": "ACXP Surges on Strong Performance",
           "ticker": "$ACXP",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+83.10%",
           "direction": "up",
-          "summary": "ACXP was a standout performer, surging 83.10% on Friday's session, although specific drivers for the significant move were not immediately clear."
+          "summary": "ACXP was a standout gainer, surging over 83% on the day.",
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
-          "id": "coo-loser",
-          "headline": "Cooper Companies Plunges on Weak Outlook",
-          "ticker": "$COO",
+          "id": "gainer-dell",
+          "headline": "Dell Technologies Rises on AI Cloud Optimism",
+          "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-22.98% (weekly)",
-          "direction": "down",
-          "summary": "Cooper Companies was the biggest S&P 500 loser for the week, down approximately 22.98%, after reporting weaker-than-expected quarterly revenue and reducing its full-year outlook."
+          "changePercent": "+11.46%",
+          "direction": "up",
+          "summary": "Dell Technologies saw an 11.46% increase, fueled by investor reassurance regarding data-center spending following Oracle's strong earnings report and accelerating demand for AI servers.",
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
-          "id": "inkt-loser",
-          "headline": "MiNK Therapeutics Experiences Deep Decline",
+          "id": "gainer-hpe",
+          "headline": "Hewlett Packard Enterprise Climbs on Data-Center Demand",
+          "ticker": "$HPE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10.75%",
+          "direction": "up",
+          "summary": "Hewlett Packard Enterprise gained 10.75% as Oracle's earnings bolstered confidence in data-center spending and highlighted HPE's strength in networking and enterprise infrastructure.",
+          "timestamp": "2026-09-11T16:00:00Z"
+        },
+        {
+          "id": "gainer-acva",
+          "headline": "ACV Auctions Soars on Acquisition News",
+          "ticker": "$ACVA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+44.2%",
+          "direction": "up",
+          "summary": "ACV Auctions soared 44.2% after Copart announced its intent to acquire the company for $10.50 per share.",
+          "timestamp": "2026-09-11T16:00:00Z"
+        },
+        {
+          "id": "loser-inkt",
+          "headline": "MiNK Therapeutics Leads Decliners",
           "ticker": "$INKT",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-15.54%",
           "direction": "down",
-          "summary": "MiNK Therapeutics, Inc. saw a deep decline on heavy volume, tumbling 15.54%, possibly due to an earnings miss, downgrade, or sector rotation."
+          "summary": "MiNK Therapeutics experienced a significant decline of 15.54%, attributed to heavy volume and potential factors such as an earnings miss, downgrade, or sector rotation.",
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
-          "id": "fds-loser",
-          "headline": "FactSet Drops Amid Market Volatility",
-          "ticker": "$FDS",
+          "id": "loser-intel",
+          "headline": "Intel Drops Amid Sector Rotation",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14.02% (weekly)",
+          "changePercent": "-5.57%",
           "direction": "down",
-          "summary": "FactSet experienced a significant drop, falling 14.02% over the course of the week, indicating broader pressure on the financial information provider."
+          "summary": "Intel saw a 5.57% decline, indicating outflows from the broader semiconductor space and increased bearish sentiment.",
+          "timestamp": "2026-09-11T16:00:00Z"
+        },
+        {
+          "id": "loser-oracle",
+          "headline": "Oracle's Early Gains Fade Despite Strong Report",
+          "ticker": "$ORCL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.7%",
+          "direction": "down",
+          "summary": "Oracle's stock finished down 1.7%, reversing an early jump, despite reporting stronger-than-expected profit and revenue for its latest quarter.",
+          "timestamp": "2026-09-11T16:00:00Z"
+        },
+        {
+          "id": "loser-copart",
+          "headline": "Copart Declines After Acquisition Announcement",
+          "ticker": "$CPRT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.6%",
+          "direction": "down",
+          "summary": "Copart shares fell 2.6% following its announcement to acquire ACV Auctions.",
+          "timestamp": "2026-09-11T16:00:00Z"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Drivers",
+      "id": "market-news-friday",
+      "title": "Market News (Friday, September 11, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "inflation-report-august",
-          "headline": "August CPI Report Fuels Fed Rate Hike Expectations",
-          "summary": "The Consumer Price Index (CPI) for August showed a 0.4% increase month-over-month seasonally adjusted, and a 3.4% rise year-over-year. Crucially, core CPI, excluding volatile food and energy, accelerated to 0.3% month-on-month, slightly above consensus. This print, combined with elevated oil prices, solidified market expectations for a Federal Reserve rate hike next week, with over 85% probability priced in.",
+          "id": "sector-analysis-friday",
+          "headline": "Healthcare and Communication Services Lead Sector Gains",
+          "summary": "Sector rotation on Friday favored Healthcare, which surged 2.26%, and Consumer Cyclical, up 2.14%. Communication Services also performed strongly, gaining 1.35%. Conversely, Utilities lagged, facing the largest drawdown, while Energy declined 0.63%, and Technology saw a modest decline of 0.27%.",
           "tags": [
-            "Economic Data",
-            "CPI",
-            "Inflation",
-            "Federal Reserve"
-          ]
+            "Sector Performance",
+            "Healthcare",
+            "Communication Services",
+            "Utilities",
+            "Energy",
+            "Technology"
+          ],
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
-          "id": "fed-outlook-rates",
-          "headline": "Federal Reserve Poised for Rate Hike Amid Persistent Inflation and Rising Yields",
-          "summary": "Economists widely anticipate a rate hike from the Federal Reserve at its upcoming meeting, driven by stubborn inflation readings and sharply rising Treasury yields. The 10-year Treasury yield climbed almost 20 basis points this week to nearly 5%, a three-year high, increasing borrowing costs and impacting rate-sensitive sectors.",
+          "id": "cpi-report-august",
+          "headline": "August CPI Report Matches Expectations, Core Inflation Higher",
+          "summary": "The August Consumer Price Index (CPI) increased 0.4% month-over-month, aligning with economists' forecasts, bringing the annual inflation rate to 3.4%. Core CPI, excluding volatile food and energy prices, rose 0.3% for the month, slightly above the 0.2% consensus, with an annual rate of 2.4%. This data, coupled with falling oil prices, helped calm market anxieties.",
+          "tags": [
+            "CPI",
+            "Inflation",
+            "Economic Data"
+          ],
+          "timestamp": "2026-09-11T08:30:00Z"
+        },
+        {
+          "id": "fed-rate-hike-expectations",
+          "headline": "Fed Rate Hike 'All But Assured' Next Week Amid Persistent Inflation",
+          "summary": "Expectations for a Federal Reserve interest rate hike next week have significantly strengthened following the August CPI report and elevated oil prices. Markets are now pricing in a greater than 85% chance of a Fed rate increase, as inflation remains above the Fed's long-term target. The 10-year Treasury yield also climbed to nearly 5%, nearing a three-year high.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Treasury Yields"
-          ]
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-09-11T16:00:00Z"
         },
         {
-          "id": "sector-performance-friday",
-          "headline": "Tech and Industrials Lead Friday's Rally; Utilities Lag",
-          "summary": "On Friday, Information Technology ($XLK) led sector gains with a 1.32% increase, followed by Industrials ($XLI) at 1.07% and Communication Services ($XLC) at 0.99%. Conversely, Utilities ($XLU) lagged the market, falling 0.31%, primarily pressured by higher Treasury yields which diminish the attractiveness of their stable dividend payouts.",
+          "id": "oil-prices-ease",
+          "headline": "Oil Prices Retreat, Alleviating Inflationary Pressure",
+          "summary": "Brent crude oil prices fell nearly 3% to settle at $104.61 per barrel, easing from recent highs that had approached $110 overnight. This decline in oil prices provided significant relief to the market, mitigating some inflationary pressures and contributing to the day's equity rebound.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Industrials",
-            "Utilities"
-          ]
-        },
-        {
-          "id": "earnings-oracle-kroger",
-          "headline": "Oracle's Strong Earnings Boost Tech, Kroger Delivers Mixed Results",
-          "summary": "Oracle's ($ORCL) earnings report, released Thursday after hours, proved a significant catalyst, showing 30% revenue growth and a strong backlog in AI cloud services, which boosted related tech stocks like Dell and HPE. Meanwhile, Kroger ($KR) reported Q2 results on Friday, with identical sales up 0.2% but lowered its full-year identical sales guidance, reflecting mixed consumer spending trends.",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "Retail",
-            "Cloud Computing"
-          ]
+            "Oil Prices",
+            "Commodities",
+            "Inflation"
+          ],
+          "timestamp": "2026-09-11T16:00:00Z"
         }
       ]
     }
