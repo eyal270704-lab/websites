@@ -1,47 +1,53 @@
 {
-  "generatedAt": "2026-09-14T17:13:00Z",
+  "generatedAt": "2026-09-14T20:12:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 14, 2026: Midday Market Update",
+  "subtitle": "Market Recap for September 14, 2026",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: AI Fears and Oil Prices Drive Downward Trend",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "US Stocks Retreat as AI Concerns and Oil Prices Weigh on Sentiment",
-          "summary": "Major U.S. indices are broadly lower midday Monday, driven by a confluence of factors including surging global oil prices amidst Middle East tensions and a sell-off in technology stocks following warnings from prominent AI industry leaders regarding development pace. Investors are also cautiously anticipating the Federal Reserve's interest rate decision later this week."
+          "id": "market-summary-1",
+          "headline": "U.S. Stocks Retreat as AI Concerns and Elevated Oil Prices Weigh on Sentiment",
+          "summary": "U.S. equities experienced a downturn on Monday, with major indices closing lower. Investor sentiment was primarily impacted by renewed concerns regarding the pace of AI development, surging crude oil prices, and anticipation of a potential Federal Reserve interest rate hike later this week. Defensive sectors saw some shelter, while technology and chipmakers faced significant selling pressure.",
+          "tags": [
+            "Market Downturn",
+            "AI Concerns",
+            "Oil Prices",
+            "Fed Outlook"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance (September 14, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,601.30",
-          "statContext": "Down 0.7% (-55.68 points) today."
+          "statValue": "7,634.31",
+          "statContext": "Down 0.30% (-22.67 points)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,098.05",
-          "statContext": "Down 0.9% (-234.99 points) today."
+          "statValue": "26,270.24",
+          "statContext": "Down 0.24% (-62.79 points)"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,343.19",
-          "statContext": "Down 0.4% (-230.10 points) today."
+          "statValue": "52,462.77",
+          "statContext": "Down 0.21% (-110.52 points)"
         }
       ]
     },
@@ -52,100 +58,121 @@
       "layout": "grid",
       "items": [
         {
-          "id": "crwd-gainer",
-          "headline": "CrowdStrike Surges on AI Cybersecurity Outlook",
-          "summary": "CrowdStrike Holdings ($CRWD) soared 15% midday, as its CEO's comments reinforced the cybersecurity industry's crucial role in making AI development safer.",
-          "ticker": "$CRWD",
-          "changePercent": "+15.00%",
-          "direction": "up"
-        },
-        {
-          "id": "panw-gainer",
-          "headline": "Palo Alto Networks Climbs After Strong Earnings",
-          "summary": "Palo Alto Networks ($PANW) gained 8.97% in early trading, following a robust fiscal fourth-quarter earnings beat and continued demand for AI-driven cybersecurity solutions.",
-          "ticker": "$PANW",
-          "changePercent": "+8.97%",
-          "direction": "up"
-        },
-        {
           "id": "rum-gainer",
-          "headline": "RUM Group Inc. Sees Significant Midday Gains",
-          "summary": "RUM Group Inc. ($RUM) climbed +17.83% to $8.46 as of late morning trading, making it one of the day's top performers.",
+          "headline": "RUM Group Soars on Anthropic Computing Contract",
+          "summary": "RUM Group shares jumped 22% following reports that Anthropic agreed to a significant $13.7 billion computing contract with the company.",
           "ticker": "$RUM",
-          "price": "$8.46",
-          "changePercent": "+17.83%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+22%",
           "direction": "up"
         },
         {
-          "id": "mu-loser",
-          "headline": "Micron Tumbles on AI Slowdown Warnings",
-          "summary": "Micron Technology ($MU) tumbled over 5% midday, as concerns about the risks of rapid artificial intelligence development led to a broad sell-off in chip stocks.",
-          "ticker": "$MU",
-          "changePercent": "-5.00%",
+          "id": "sentinelone-gainer",
+          "headline": "SentinelOne Rallies Amidst Cybersecurity Strength",
+          "summary": "Cybersecurity firm SentinelOne ($S) gained 16.23% during the session. The software sector, particularly cybersecurity names, demonstrated strength.",
+          "ticker": "$S",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16.23%",
+          "direction": "up"
+        },
+        {
+          "id": "zscaler-gainer",
+          "headline": "Zscaler Sees Strong Gains",
+          "summary": "Cloud security company Zscaler Inc. ($ZS) advanced 15.85% today. Software and cybersecurity stocks showed notable positive movement.",
+          "ticker": "$ZS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+15.85%",
+          "direction": "up"
+        },
+        {
+          "id": "nvidia-loser",
+          "headline": "Nvidia Tumbles on AI Slowdown Fears",
+          "summary": "Shares of chipmaker Nvidia ($NVDA) fell 2.8% to $212.07, hitting a near three-week low. The decline was attributed to top U.S. executives, including Anthropic's CEO, raising safety concerns and advocating for a slowdown in AI development.",
+          "ticker": "$NVDA",
+          "price": "$212.07",
+          "change": "N/A",
+          "changePercent": "-2.8%",
           "direction": "down"
         },
         {
-          "id": "hpe-loser",
-          "headline": "Hewlett Packard Enterprise Drops on Analyst Downgrade",
-          "summary": "Hewlett Packard Enterprise ($HPE) sank 9.3% in early trading after Evercore ISI downgraded its rating on the data storage and cloud services company.",
-          "ticker": "$HPE",
-          "changePercent": "-9.30%",
+          "id": "marvell-loser",
+          "headline": "Marvell Technology Drops Amid AI Concerns",
+          "summary": "Marvell Technology ($MRVL) saw its stock decline by 6%. Chipmakers were broadly impacted by the ongoing discussions around an AI development slowdown.",
+          "ticker": "$MRVL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6%",
           "direction": "down"
         },
         {
-          "id": "stla-loser",
-          "headline": "Stellantis Falls Amid Downgrade on Product Pipeline Concerns",
-          "summary": "Shares of Stellantis ($STLA) fell more than 2% after Morgan Stanley downgraded the automaker to Underweight, citing a lagging product pipeline compared to peers.",
-          "ticker": "$STLA",
-          "changePercent": "-2.00%",
+          "id": "corning-loser",
+          "headline": "Corning Inc. Experiences Significant Pullback",
+          "summary": "Corning Inc. ($GLW) dropped 12.87% during Monday's trading session, listed among the large-cap stock movers.",
+          "ticker": "$GLW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-12.87%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
+          "id": "sector-analysis-1",
+          "headline": "Defensive Sectors Lead as Tech and Industrials Lag",
+          "summary": "On Monday, defensive sectors like Consumer Staples (XLP +1.16%) and Health Care (XLV +1.17%) showed resilience. In contrast, Information Technology (XLK -2.44%) and Industrials (XLI -1.55%) were among the worst performers, reflecting a rotation out of growth-oriented segments.",
+          "tags": [
+            "Sector Performance",
+            "Defensive Stocks",
+            "Technology Sector"
+          ]
+        },
+        {
           "id": "fed-outlook",
-          "headline": "Fed Rate Hike Looms as Key Economic Data Released",
-          "summary": "Investors are bracing for the Federal Reserve's interest rate decision and press conference on Wednesday. Markets are currently pricing in an 85-90% probability of a 25-basis-point rate hike this week, following Friday's hotter CPI report. The 10-year U.S. Treasury yield climbed to a multi-year high near 5%.",
+          "headline": "Anticipation Builds for Mid-Week Fed Rate Decision",
+          "summary": "The Federal Open Market Committee (FOMC) is set to meet this week, with an interest rate decision expected on Wednesday, September 16. Markets are widely pricing in an 85% to 90% probability of a 25-basis-point rate hike, driven by August's sticky inflation data and a tight labor market. This would mark the first rate increase since 2023.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Treasury Yields"
+            "FOMC Meeting",
+            "Inflation"
           ]
         },
         {
-          "id": "economic-data-releases",
-          "headline": "August PPI Rises, Small Business Optimism Dips",
-          "summary": "The Producer Price Index (PPI) for August rose 0.4% month-over-month, marking a 5.4% increase year-over-year. Concurrently, the NFIB Small Business Optimism Index declined by 1.1 points to 98.7 in August, reflecting weaker business condition expectations.",
+          "id": "ai-slowdown-impact",
+          "headline": "AI Slowdown Concerns Shake Semiconductor Stocks",
+          "summary": "Top AI executives, including Anthropic's Dario Amodei, Elon Musk, and OpenAI's Sam Altman, voiced concerns over the rapid pace of AI development, suggesting a slowdown. This sparked a selloff in major AI and chip stocks like Nvidia ($NVDA) and AMD ($AMD), impacting the broader technology sector.",
           "tags": [
-            "Economic Data",
-            "Inflation",
-            "Small Business"
+            "AI Industry",
+            "Semiconductors",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "AI Warnings Hit Tech, Cybersecurity and Healthcare Show Resilience",
-          "summary": "The technology sector is facing a broad sell-off following warnings from AI leaders about the pace of development. Conversely, communication stocks and healthcare are showing gains, while basic materials and industrials are underperforming. A notable rotation out of chip stocks into enterprise software and data providers is also evident.",
+          "id": "oil-prices",
+          "headline": "Crude Oil Prices Surge Amid Geopolitical Tensions",
+          "summary": "Brent crude approached $108 a barrel, and WTI crude rose above $103, as escalating Middle East tensions and key pipeline shutdowns fueled concerns about supply. Rising energy costs contributed to inflationary pressures and cautious market sentiment.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "AI",
-            "Healthcare",
-            "Cybersecurity"
+            "Oil Market",
+            "Geopolitics",
+            "Inflation"
           ]
         },
         {
-          "id": "earnings-reports-today",
-          "headline": "Earnings Season Continues with Key Reports Today",
-          "summary": "Several companies reported earnings today, including Hain Celestial ($HAIN), RF Industries Ltd. ($RFIL), and Coda Octopus Group ($CODA) before the market open. After market close, Dave & Buster's Entertainment ($PLAY), Kestra Medical Technologies ($KMTS), and RLGT are among those scheduled to release results.",
+          "id": "earnings-reports",
+          "headline": "American Battery Technology Reports Strong FY26 Results",
+          "summary": "American Battery Technology Company ($ABAT) held its Q4 2026 earnings conference call today, reporting record FY 2026 revenue and positive adjusted gross margin. Other companies like Hain Celestial ($HAIN) and RF Industries ($RFIL) also had earnings reports scheduled.",
           "tags": [
-            "Earnings Reports"
+            "Earnings Season",
+            "Company News"
           ]
         }
       ]
