@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-14T13:38:00Z",
+  "generatedAt": "2026-09-14T17:13:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: September 14, 2026",
-  "subtitle": "Market in Early Trading: Oil Surges, AI Stocks Dip Amid Fed Rate Hike Expectations",
+  "title": "Daily Market Digest",
+  "subtitle": "September 14, 2026: Midday Market Update",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,226 +13,139 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Defensive Stance Dominates Early Trading as Oil Prices Soar and AI Sector Faces Headwinds",
-          "summary": "U.S. stock futures are indicating a negative open for major indices today, with market sentiment turning defensive. Surging oil prices, escalating Middle East tensions, and the anticipation of a Federal Reserve interest rate hike this week are key factors. The AI sector is notably under pressure following calls for a slowdown in development.",
-          "tags": [
-            "Market Open",
-            "Oil Prices",
-            "AI Sector",
-            "Fed Policy"
-          ]
+          "id": "market-summary",
+          "headline": "US Stocks Retreat as AI Concerns and Oil Prices Weigh on Sentiment",
+          "summary": "Major U.S. indices are broadly lower midday Monday, driven by a confluence of factors including surging global oil prices amidst Middle East tensions and a sell-off in technology stocks following warnings from prominent AI industry leaders regarding development pace. Investors are also cautiously anticipating the Federal Reserve's interest rate decision later this week."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Early Trading)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-today",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "~7,607.03",
-          "statContext": "Down 0.65% in early trading based on futures. Closed Friday at 7,656.98."
+          "statValue": "7,601.30",
+          "statContext": "Down 0.7% (-55.68 points) today."
         },
         {
-          "id": "nasdaq-today",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "~25,914.88",
-          "statContext": "Down 1.59% in early trading based on futures. Closed Friday at 26,333.04."
+          "statValue": "26,098.05",
+          "statContext": "Down 0.9% (-234.99 points) today."
         },
         {
-          "id": "dow-today",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "~52,362.91",
-          "statContext": "Down 0.40% in early trading based on futures. Closed Friday at 52,573.29."
+          "statValue": "52,343.19",
+          "statContext": "Down 0.4% (-230.10 points) today."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-Market)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-crwd",
-          "headline": "CrowdStrike Holdings Inc. Leads Gainers",
+          "id": "crwd-gainer",
+          "headline": "CrowdStrike Surges on AI Cybersecurity Outlook",
+          "summary": "CrowdStrike Holdings ($CRWD) soared 15% midday, as its CEO's comments reinforced the cybersecurity industry's crucial role in making AI development safer.",
           "ticker": "$CRWD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.30%",
-          "direction": "up",
-          "summary": "Cybersecurity firm CrowdStrike shows strong pre-market gains."
+          "changePercent": "+15.00%",
+          "direction": "up"
         },
         {
-          "id": "gainer-okta",
-          "headline": "Okta, Inc. Sees Significant Pre-Market Rise",
-          "ticker": "$OKTA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.95%",
-          "direction": "up",
-          "summary": "Identity management company Okta is among the top pre-market performers."
-        },
-        {
-          "id": "gainer-panw",
-          "headline": "Palo Alto Networks Inc. Up in Early Trading",
+          "id": "panw-gainer",
+          "headline": "Palo Alto Networks Climbs After Strong Earnings",
+          "summary": "Palo Alto Networks ($PANW) gained 8.97% in early trading, following a robust fiscal fourth-quarter earnings beat and continued demand for AI-driven cybersecurity solutions.",
           "ticker": "$PANW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.66%",
-          "direction": "up",
-          "summary": "Cloud cybersecurity leader Palo Alto Networks shows positive momentum before market open."
+          "changePercent": "+8.97%",
+          "direction": "up"
         },
         {
-          "id": "gainer-rum",
-          "headline": "RUM Group Surges on AI Computing Contract News",
+          "id": "rum-gainer",
+          "headline": "RUM Group Inc. Sees Significant Midday Gains",
+          "summary": "RUM Group Inc. ($RUM) climbed +17.83% to $8.46 as of late morning trading, making it one of the day's top performers.",
           "ticker": "$RUM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+22%",
-          "direction": "up",
-          "summary": "Shares of RUM Group jumped after reports that Anthropic agreed to a substantial $13.7 billion computing contract with the company."
+          "price": "$8.46",
+          "changePercent": "+17.83%",
+          "direction": "up"
         },
         {
-          "id": "gainer-gsk",
-          "headline": "GSK Rises on Positive Oncology Trial Data",
-          "ticker": "$GSK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3%",
-          "direction": "up",
-          "summary": "British pharmaceutical giant GSK saw its shares rise following encouraging clinical trial data from its oncology pipeline, specifically for an investigational lung cancer therapy."
+          "id": "mu-loser",
+          "headline": "Micron Tumbles on AI Slowdown Warnings",
+          "summary": "Micron Technology ($MU) tumbled over 5% midday, as concerns about the risks of rapid artificial intelligence development led to a broad sell-off in chip stocks.",
+          "ticker": "$MU",
+          "changePercent": "-5.00%",
+          "direction": "down"
         },
         {
-          "id": "loser-glw",
-          "headline": "Corning Inc. Among Pre-Market Losers",
-          "ticker": "$GLW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-7.52%",
-          "direction": "down",
-          "summary": "Materials science company Corning is experiencing significant declines in pre-market trading."
+          "id": "hpe-loser",
+          "headline": "Hewlett Packard Enterprise Drops on Analyst Downgrade",
+          "summary": "Hewlett Packard Enterprise ($HPE) sank 9.3% in early trading after Evercore ISI downgraded its rating on the data storage and cloud services company.",
+          "ticker": "$HPE",
+          "changePercent": "-9.30%",
+          "direction": "down"
         },
         {
-          "id": "loser-mrvl",
-          "headline": "Marvell Technology, Inc. Faces Pre-Market Dip",
-          "ticker": "$MRVL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.95%",
-          "direction": "down",
-          "summary": "Semiconductor company Marvell Technology is down in early trading."
-        },
-        {
-          "id": "loser-arm",
-          "headline": "Arm Holdings plc Declines in Pre-Market",
-          "ticker": "$ARM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.21%",
-          "direction": "down",
-          "summary": "Chip designer Arm Holdings is trading lower before the market open."
-        },
-        {
-          "id": "loser-ai-chips",
-          "headline": "AI and Chip Stocks Under Pressure",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "summary": "Nvidia ($NVDA), AMD ($AMD), and SanDisk ($SNDK) are falling after calls from AI leaders to slow down the development of frontier models raised concerns in the sector."
-        },
-        {
-          "id": "loser-stlam",
-          "headline": "Stellantis Slips on Analyst Downgrade",
-          "ticker": "$STLAM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-1.77%",
-          "direction": "down",
-          "summary": "Shares of Stellantis fell after Morgan Stanley downgraded the automaker, citing a lagging product pipeline compared to peers."
+          "id": "stla-loser",
+          "headline": "Stellantis Falls Amid Downgrade on Product Pipeline Concerns",
+          "summary": "Shares of Stellantis ($STLA) fell more than 2% after Morgan Stanley downgraded the automaker to Underweight, citing a lagging product pipeline compared to peers.",
+          "ticker": "$STLA",
+          "changePercent": "-2.00%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis (Early Trading)",
-      "cardType": "stat",
-      "layout": "list",
-      "items": [
-        {
-          "id": "leading-sectors",
-          "statLabel": "Leading Sectors",
-          "statValue": "Energy (+1.58%), Consumer Staples (+1.22%), Health Care (+1.20%)",
-          "statContext": "The Energy sector is benefiting from increased oil price volatility. Consumer Staples and Health Care show defensive strength."
-        },
-        {
-          "id": "lagging-sectors",
-          "statLabel": "Lagging Sectors",
-          "statValue": "Technology (-2.59%), Industrials (-1.59%), Consumer Discretionary (-0.60%)",
-          "statContext": "The Technology sector is under pressure amidst discussions about slowing AI development. Industrials and Consumer Discretionary are also lagging in early trading."
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News & Trends",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-hike-expectations",
-          "headline": "Fed Rate Hike Expected This Week Amid Persistent Inflation",
-          "summary": "Major banks like Goldman Sachs and J.P. Morgan now anticipate a 25-basis-point interest rate hike from the Federal Reserve at its September 15-16 meeting. This follows stronger-than-expected August inflation data, with markets pricing in an 85% probability of a hike.",
+          "id": "fed-outlook",
+          "headline": "Fed Rate Hike Looms as Key Economic Data Released",
+          "summary": "Investors are bracing for the Federal Reserve's interest rate decision and press conference on Wednesday. Markets are currently pricing in an 85-90% probability of a 25-basis-point rate hike this week, following Friday's hotter CPI report. The 10-year U.S. Treasury yield climbed to a multi-year high near 5%.",
           "tags": [
-            "Fed Meeting",
+            "Federal Reserve",
             "Interest Rates",
-            "Inflation"
+            "Treasury Yields"
           ]
         },
         {
-          "id": "oil-market-tensions",
-          "headline": "Oil Prices Surge as Middle East Tensions Escalate and Saudi Pipeline Closes",
-          "summary": "Brent crude prices have jumped towards $108 a barrel, driven by escalating hostilities in the Middle East, fresh attacks on shipping, and the temporary shutdown of a major Saudi East-West pipeline, putting approximately 4% of global supply at risk. This contributes significantly to inflationary pressures.",
+          "id": "economic-data-releases",
+          "headline": "August PPI Rises, Small Business Optimism Dips",
+          "summary": "The Producer Price Index (PPI) for August rose 0.4% month-over-month, marking a 5.4% increase year-over-year. Concurrently, the NFIB Small Business Optimism Index declined by 1.1 points to 98.7 in August, reflecting weaker business condition expectations.",
           "tags": [
-            "Crude Oil",
-            "Geopolitics",
-            "Inflation"
+            "Economic Data",
+            "Inflation",
+            "Small Business"
           ]
         },
         {
-          "id": "august-economic-data",
-          "headline": "August Economic Data Shows Rising Producer Prices, Declining Small Business Optimism",
-          "summary": "The Producer Price Index (PPI) for final demand rose 0.4% in August, contributing to a 5.4% annual increase. Meanwhile, the NFIB Small Business Optimism Index declined by 1.1 points in August, indicating weaker expectations for business conditions. The Consumer Price Index (CPI) also rose 0.4% in August, with an annual increase of 3.4%.",
+          "id": "sector-performance",
+          "headline": "AI Warnings Hit Tech, Cybersecurity and Healthcare Show Resilience",
+          "summary": "The technology sector is facing a broad sell-off following warnings from AI leaders about the pace of development. Conversely, communication stocks and healthcare are showing gains, while basic materials and industrials are underperforming. A notable rotation out of chip stocks into enterprise software and data providers is also evident.",
           "tags": [
-            "PPI",
-            "CPI",
-            "Small Business",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "ai-slowdown-debate",
-          "headline": "AI Sector Reacts to Calls for Slowdown in Development",
-          "summary": "The AI industry is facing a debate on the pace of its development, with figures like Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman advocating for a slowdown due to safety concerns. This sentiment is impacting major AI and chip stocks.",
-          "tags": [
-            "AI Industry",
-            "Tech Regulation",
-            "Semiconductors"
+            "Sector Analysis",
+            "Technology",
+            "AI",
+            "Healthcare",
+            "Cybersecurity"
           ]
         },
         {
           "id": "earnings-reports-today",
-          "headline": "Companies Reporting Earnings Today, September 14, 2026",
-          "summary": "RF Industries, Ltd. ($RFIL) and Hain Celestial ($HAIN) reported earnings before market open. RF Industries announced bookings of $22.5 million and an operating income increase to $1.8 million for Q3 fiscal year 2026. Dave & Busters Entertainment ($PLAY), HYFT, KMTS, and RLGT are scheduled to report after market close.",
+          "headline": "Earnings Season Continues with Key Reports Today",
+          "summary": "Several companies reported earnings today, including Hain Celestial ($HAIN), RF Industries Ltd. ($RFIL), and Coda Octopus Group ($CODA) before the market open. After market close, Dave & Buster's Entertainment ($PLAY), Kestra Medical Technologies ($KMTS), and RLGT are among those scheduled to release results.",
           "tags": [
-            "Earnings Season",
-            "Corporate Reports"
+            "Earnings Reports"
           ]
         }
       ]
