@@ -1,192 +1,154 @@
 {
-  "generatedAt": "2026-09-15T15:53:00Z",
+  "generatedAt": "2026-09-15T19:34:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 15, 2026 Mid-Day Update",
-  "badge": "LIVE",
+  "subtitle": "September 15, 2026 - End of Day Report",
+  "badge": "Closed",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-091526",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "US Equities Retreat as Oil Surges, Yields Hit 2007 Highs Ahead of Fed Decision",
-          "summary": "US equities are broadly lower on Tuesday, September 15, as rising oil prices and a surge in Treasury yields to levels not seen since 2007 fuel investor unease ahead of the Federal Reserve's critical interest rate decision tomorrow. Anxiety around the future of AI development also continues to weigh on sentiment.",
+          "id": "market-summary-091526",
+          "headline": "Wall Street Closes Lower as Treasury Yields and AI Concerns Weigh",
+          "summary": "U.S. equities ended the trading day in negative territory on Tuesday, driven by persistently high Treasury yields and lingering anxieties over the future of artificial intelligence development. The benchmark 10-year Treasury yield surpassed 5%, a level not seen since 2007, intensifying concerns about inflation and potentially higher borrowing costs. Global AI stocks also experienced a downturn following warnings from industry leaders regarding the rapid pace of technological advancement.",
           "tags": [
-            "Market Sentiment",
-            "Oil Prices",
-            "Treasury Yields",
-            "Federal Reserve",
-            "AI Concerns"
+            "Market Close",
+            "Economic Concerns",
+            "AI Sector"
           ],
-          "timestamp": "2026-09-15T15:53:00Z"
+          "timestamp": "2026-09-15T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Early Tuesday Trading)",
+      "id": "major-indices-091526",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-091526",
           "statLabel": "S&P 500",
-          "statValue": "Down 0.16%",
-          "statContext": "Slipped in early trading."
+          "statValue": "7,619.98",
+          "statContext": "Down 37 points (-0.5%) at close"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-091526",
           "statLabel": "NASDAQ Composite",
-          "statValue": "Down 0.26%",
-          "statContext": "Fell in early trading."
+          "statValue": "26,186.41",
+          "statContext": "Slid 146.63 points (-0.6%) at close"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-091526",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "Down 0.49%",
-          "statContext": "Edged down in early trading."
+          "statValue": "52,421.2",
+          "statContext": "Fell 152.09 points (-0.3%) at close"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Early Tuesday Trading)",
+      "id": "top-movers-091526",
+      "title": "Top Movers (Today's Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "nvda-gainer",
-          "headline": "Nvidia Rebounds After Monday's Selloff",
-          "ticker": "$NVDA",
+          "id": "rlgt-gainer-091526",
+          "headline": "Radiant Logistics Surges on Strong Q4 Results",
+          "summary": "Shares of Radiant Logistics jumped after the company reported robust fiscal fourth-quarter results, with revenue rising 18.6% year-over-year and adjusted net income increasing by 34.5%.",
+          "ticker": "$RLGT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1%",
-          "direction": "up",
-          "summary": "Nvidia advanced over 1% in early trading, showing a rebound following Monday's chip sector selloff."
+          "changePercent": "+17.0%",
+          "direction": "up"
         },
         {
-          "id": "intc-gainer",
-          "headline": "Intel Sees Premarket Gains",
-          "ticker": "$INTC",
+          "id": "way-gainer-091526",
+          "headline": "Waystar Climbs on Potential Sale Reports",
+          "summary": "Healthcare software firm Waystar saw its stock rise following reports that the company is exploring strategic options, including a potential sale.",
+          "ticker": "$WAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.71%",
-          "direction": "up",
-          "summary": "Intel experienced a gain of 1.71% in premarket trading."
+          "changePercent": "+8.8%",
+          "direction": "up"
         },
         {
-          "id": "spcx-gainer",
-          "headline": "SpaceX Rises on Merger Speculation",
-          "ticker": "$SPCX",
-          "price": "$148.88",
+          "id": "enva-loser-091526",
+          "headline": "Enova International Leads Declines",
+          "summary": "Enova International experienced a significant downturn in trading, making it one of the biggest losers of the day.",
+          "ticker": "$ENVA",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+0.49%",
-          "direction": "up",
-          "summary": "SpaceX shares edged up in premarket trading after CEO Elon Musk addressed rumors of a potential merger with Tesla."
+          "changePercent": "-25.05%",
+          "direction": "down"
         },
         {
-          "id": "play-loser",
-          "headline": "Dave & Buster's Plunges on Q2 Loss",
+          "id": "play-loser-091526",
+          "headline": "Dave & Buster's Tumbles on Revenue Miss",
+          "summary": "Dave & Buster's Entertainment's stock fell sharply after the company reported second-quarter revenue that missed analyst expectations.",
           "ticker": "$PLAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-14%",
-          "direction": "down",
-          "summary": "Shares plunged after the entertainment and restaurant operator reported an unexpected Q2 loss, missing revenue estimates due to higher costs."
-        },
-        {
-          "id": "syy-loser",
-          "headline": "Sysco Falls After Stock Offering",
-          "ticker": "$SYY",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2%",
-          "direction": "down",
-          "summary": "Shares fell after the foodservice distributor priced an offering of common shares to finance a pending acquisition."
-        },
-        {
-          "id": "coin-loser",
-          "headline": "Coinbase Down in Premarket",
-          "ticker": "$COIN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.05%",
-          "direction": "down",
-          "summary": "Coinbase Global saw a significant decline in premarket trading."
+          "changePercent": "-12.0% (approx.)",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-091526",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-preview",
-          "headline": "Federal Reserve FOMC Meeting Begins Today, Rate Hike Expected Tomorrow",
-          "summary": "The Federal Open Market Committee (FOMC) commenced its two-day meeting today, with an interest rate decision highly anticipated on Wednesday, September 16, at 2:00 PM ET. Traders are pricing in a 93% chance of a 25 basis point rate hike, which would mark the first increase since July 2023. The meeting will also include the release of the Summary of Economic Projections (SEP) and 'dot plot'.",
+          "id": "sector-performance-091526",
+          "headline": "Communication Services Leads, Tech Mixed Amid AI Warnings",
+          "summary": "The Communication Services sector was a notable gainer today, with the Communication Services Select Sector SPDR ($XLC) advancing 2.8%. Conversely, the Technology Select Sector SPDR ($XLK) declined by 1.7%, while the Industrials ($XLI) and Utilities ($XLU) sectors also saw drops of 1.4% and 1.3% respectively. However, chip stocks such as Qualcomm ($QCOM) and Advanced Micro Devices ($AMD) showed recovery, gaining 4% and 2.3% respectively, following a selloff on Monday. The S&P 500 consumer staples index also registered a 0.7% decline, and the rate-sensitive real estate index fell by 0.8%.",
           "tags": [
-            "Federal Reserve",
+            "Sector Analysis",
+            "Technology",
+            "Industrials",
+            "Utilities",
+            "Communication Services",
+            "Consumer Staples",
+            "Real Estate"
+          ]
+        },
+        {
+          "id": "economic-news-091526",
+          "headline": "Fed Meeting Commences, Rate Hike Expected Tomorrow",
+          "summary": "The Federal Reserve's policy meeting began today and is widely anticipated to conclude with an interest rate hike tomorrow, September 16, marking the first increase in three years. Traders are pricing in a 93% chance of a 0.25 percentage point increase in the federal funds rate to combat persistent inflation. Meanwhile, the U.S. 10-year Treasury yield surged, briefly topping 5.04%, reaching levels not seen since 2007, fueling investor apprehension. Adding to economic data, the labor share in the nonfarm business sector hit a record low of 52.8% in the second quarter of 2026.",
+          "tags": [
+            "Fed Meeting",
             "Interest Rates",
-            "FOMC",
-            "Economic Policy"
-          ]
-        },
-        {
-          "id": "treasury-yields-surge",
-          "headline": "10-Year Treasury Yields Reach 2007 Highs",
-          "summary": "The benchmark 10-year U.S. Treasury yield surged to 5.02% in early trading, surpassing its 2023 peak and hitting its highest level since 2007. This rise in borrowing costs is a key factor contributing to investor unease.",
-          "tags": [
             "Treasury Yields",
-            "Bond Market",
-            "Inflation Concerns"
-          ]
-        },
-        {
-          "id": "oil-prices-elevated",
-          "headline": "Oil Prices Remain Elevated Amid Geopolitical Tensions",
-          "summary": "Oil prices continued their upward trend, with Brent crude trading around $107 a barrel and US crude above $102. Renewed Middle East tensions and concerns over supply disruption are keeping energy costs high, intensifying inflation worries.",
-          "tags": [
-            "Oil Prices",
-            "Energy Market",
-            "Geopolitics",
+            "Economic Data",
             "Inflation"
           ]
         },
         {
-          "id": "ai-sector-anxiety",
-          "headline": "AI Sector Continues to Grapple with Development Concerns",
-          "summary": "Anxiety surrounding artificial intelligence development persists, following warnings from leading AI CEOs about the risks of rapid advancement. While some chipmakers saw a slight rebound today, broader sentiment towards Big Tech remains mixed.",
+          "id": "ai-oil-impact-091526",
+          "headline": "AI Stocks Tumble Amid Development Warnings; Oil Prices Remain Elevated",
+          "summary": "Artificial intelligence (AI) stocks faced selling pressure globally today after leaders from Anthropic, OpenAI, and xAI cautioned about the risks associated with rapid AI development. This sentiment impacted major AI-linked companies, with NVIDIA Corporation ($NVDA) and Broadcom Inc. ($AVGO) notably slumping 3.4% and 4.8% respectively. Concurrently, elevated crude oil prices, with Brent crude around $107 a barrel and U.S. crude above $102, continue to pose macroeconomic concerns due to Middle East tensions and potential supply disruptions.",
           "tags": [
-            "AI Stocks",
-            "Technology Sector",
+            "AI Sector",
+            "Oil Prices",
+            "Geopolitics",
             "Market Sentiment"
           ]
         },
         {
-          "id": "earnings-reports",
-          "headline": "Forgent Power Solutions Reports Strong Earnings, Dave & Buster's Misses Estimates",
-          "summary": "Forgent Power Solutions ($FPS) announced record fourth-quarter and full-year 2026 results, exceeding its guidance. In contrast, Dave & Buster's Entertainment ($PLAY) plunged after reporting an unexpected Q2 loss and missing revenue expectations. Accenture ($ACN) is scheduled to release its fourth-quarter and full-year fiscal 2026 results on October 1.",
+          "id": "earnings-roundup-091526",
+          "headline": "Forgent Posts Record Results; Vera Bradley Reports",
+          "summary": "Forgent ($FPS), a designer and manufacturer of electrical distribution equipment, announced record fiscal fourth-quarter and full-year 2026 results today, exceeding its guidance. Vera Bradley, Inc. ($VRA) also reported its earnings prior to market open. Dave & Buster's ($PLAY) saw its stock tumble following a miss on Q2 revenue expectations. Broadcom Inc. ($AVGO) and Hewlett Packard Enterprise Co ($HPE) were also among companies listed with earnings reports today.",
           "tags": [
             "Earnings Reports",
-            "Company News"
-          ]
-        },
-        {
-          "id": "sector-rotations",
-          "headline": "Wells Fargo Adjusts Sector Outlook, Favors Healthcare Over Tech",
-          "summary": "Wells Fargo strategists have lowered their stance on the technology sector to equal-weight from overweight, while upgrading healthcare to overweight. Within technology, the firm expresses a preference for software over microchips.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Healthcare",
-            "Analyst Ratings"
+            "Corporate News"
           ]
         }
       ]
