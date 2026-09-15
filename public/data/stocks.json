@@ -1,178 +1,212 @@
 {
-  "generatedAt": "2026-09-14T20:12:00Z",
+  "generatedAt": "2026-09-15T12:27:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Recap for September 14, 2026",
-  "badge": "LIVE",
+  "subtitle": "Tuesday, September 15, 2026",
+  "badge": "Market Open - Pre-Market Activity",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: AI Fears and Oil Prices Drive Downward Trend",
+      "id": "market-pulse-overall",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Stocks Retreat as AI Concerns and Elevated Oil Prices Weigh on Sentiment",
-          "summary": "U.S. equities experienced a downturn on Monday, with major indices closing lower. Investor sentiment was primarily impacted by renewed concerns regarding the pace of AI development, surging crude oil prices, and anticipation of a potential Federal Reserve interest rate hike later this week. Defensive sectors saw some shelter, while technology and chipmakers faced significant selling pressure.",
+          "id": "market-summary-today",
+          "headline": "Cautious Sentiment Dominates as Fed Meeting Begins Amid Surging Yields and Oil Prices",
+          "summary": "U.S. equity markets are opening with a cautious tone on Tuesday, following Monday's declines across major indices. Investors are closely monitoring the Federal Reserve's two-day meeting, which commenced today, with high expectations for an interest rate hike. Elevated oil prices, intensified by Middle East tensions, and a surging 10-year U.S. Treasury yield, which briefly surpassed 5% for the first time since 2007, are driving inflation concerns and dampening risk appetite.",
           "tags": [
-            "Market Downturn",
-            "AI Concerns",
-            "Oil Prices",
-            "Fed Outlook"
+            "Market Sentiment",
+            "Fed Meeting",
+            "Inflation",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (September 14, 2026 Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Previous Close: Monday, September 14, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
-          "statValue": "7,634.31",
-          "statContext": "Down 0.30% (-22.67 points)"
+          "statValue": "7,619.98",
+          "statContext": "Down 0.48% (-37 points)",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,270.24",
-          "statContext": "Down 0.24% (-62.79 points)"
+          "statValue": "26,186.00",
+          "statContext": "Down 0.56% (-146 points)",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,462.77",
-          "statContext": "Down 0.21% (-110.52 points)"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "52,421.00",
+          "statContext": "Down 0.29% (-152 points)",
+          "direction": "down"
+        },
+        {
+          "id": "sp500-premarket",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "N/A",
+          "statContext": "Down ~0.7% in pre-market",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-premarket",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "N/A",
+          "statContext": "Down ~1.8% in pre-market",
+          "direction": "down"
+        },
+        {
+          "id": "dow-premarket",
+          "statLabel": "Dow 30 Futures",
+          "statValue": "N/A",
+          "statContext": "Down 0.25% in pre-market",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-today",
+      "title": "Top Movers (Pre-Market, September 15, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "rum-gainer",
-          "headline": "RUM Group Soars on Anthropic Computing Contract",
-          "summary": "RUM Group shares jumped 22% following reports that Anthropic agreed to a significant $13.7 billion computing contract with the company.",
-          "ticker": "$RUM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+22%",
-          "direction": "up"
-        },
-        {
-          "id": "sentinelone-gainer",
-          "headline": "SentinelOne Rallies Amidst Cybersecurity Strength",
-          "summary": "Cybersecurity firm SentinelOne ($S) gained 16.23% during the session. The software sector, particularly cybersecurity names, demonstrated strength.",
-          "ticker": "$S",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+16.23%",
-          "direction": "up"
-        },
-        {
-          "id": "zscaler-gainer",
-          "headline": "Zscaler Sees Strong Gains",
-          "summary": "Cloud security company Zscaler Inc. ($ZS) advanced 15.85% today. Software and cybersecurity stocks showed notable positive movement.",
+          "id": "zs-gainer",
+          "headline": "Zscaler Surges on Analyst Upgrade",
           "ticker": "$ZS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.85%",
-          "direction": "up"
+          "changePercent": "+16.52%",
+          "direction": "up",
+          "summary": "Zscaler saw a significant pre-market gain after Wedbush initiated coverage with an 'Outperform' rating, citing its zero-trust cloud platform."
         },
         {
-          "id": "nvidia-loser",
-          "headline": "Nvidia Tumbles on AI Slowdown Fears",
-          "summary": "Shares of chipmaker Nvidia ($NVDA) fell 2.8% to $212.07, hitting a near three-week low. The decline was attributed to top U.S. executives, including Anthropic's CEO, raising safety concerns and advocating for a slowdown in AI development.",
-          "ticker": "$NVDA",
-          "price": "$212.07",
-          "change": "N/A",
-          "changePercent": "-2.8%",
-          "direction": "down"
-        },
-        {
-          "id": "marvell-loser",
-          "headline": "Marvell Technology Drops Amid AI Concerns",
-          "summary": "Marvell Technology ($MRVL) saw its stock decline by 6%. Chipmakers were broadly impacted by the ongoing discussions around an AI development slowdown.",
-          "ticker": "$MRVL",
+          "id": "crwd-gainer",
+          "headline": "CrowdStrike Jumps on AI Cyber Defense Optimism",
+          "ticker": "$CRWD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6%",
-          "direction": "down"
+          "changePercent": "+13.85%",
+          "direction": "up",
+          "summary": "CrowdStrike Holdings climbed as Wedbush initiated coverage with an 'Outperform' rating, highlighting its AI-driven cyber defense platform."
         },
         {
-          "id": "corning-loser",
-          "headline": "Corning Inc. Experiences Significant Pullback",
-          "summary": "Corning Inc. ($GLW) dropped 12.87% during Monday's trading session, listed among the large-cap stock movers.",
+          "id": "panw-gainer",
+          "headline": "Palo Alto Networks Added to 'Best Ideas' List",
+          "ticker": "$PANW",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.09%",
+          "direction": "up",
+          "summary": "Palo Alto Networks gained after Wedbush reiterated an 'Outperform' rating and added the cybersecurity firm to its 'Best Ideas List'."
+        },
+        {
+          "id": "glw-loser",
+          "headline": "Corning Falls on Equity Offering",
           "ticker": "$GLW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.87%",
-          "direction": "down"
+          "changePercent": "-13.70%",
+          "direction": "down",
+          "summary": "Corning declined in pre-market trading following the announcement of a US$2 billion at-the-market equity offering."
+        },
+        {
+          "id": "ter-loser",
+          "headline": "Teradyne Drops Despite New Office Announcement",
+          "ticker": "$TER",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-13.30%",
+          "direction": "down",
+          "summary": "Teradyne experienced a sharp drop, despite announcing a new semiconductor support office in Bengaluru, India, indicating broader market pressures."
+        },
+        {
+          "id": "nvda-loser",
+          "headline": "Nvidia Extends Losses Amid AI Stock Weakness",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.4%",
+          "direction": "down",
+          "summary": "Nvidia continued its decline, falling 3.4% as AI-related stocks faced persistent weakness, partly due to concerns over AI development slowdown."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-today",
       "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-1",
-          "headline": "Defensive Sectors Lead as Tech and Industrials Lag",
-          "summary": "On Monday, defensive sectors like Consumer Staples (XLP +1.16%) and Health Care (XLV +1.17%) showed resilience. In contrast, Information Technology (XLK -2.44%) and Industrials (XLI -1.55%) were among the worst performers, reflecting a rotation out of growth-oriented segments.",
-          "tags": [
-            "Sector Performance",
-            "Defensive Stocks",
-            "Technology Sector"
-          ]
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Anticipation Builds for Mid-Week Fed Rate Decision",
-          "summary": "The Federal Open Market Committee (FOMC) is set to meet this week, with an interest rate decision expected on Wednesday, September 16. Markets are widely pricing in an 85% to 90% probability of a 25-basis-point rate hike, driven by August's sticky inflation data and a tight labor market. This would mark the first rate increase since 2023.",
+          "id": "economic-fed-meeting",
+          "headline": "Federal Reserve Kicks Off Key Policy Meeting",
+          "summary": "The U.S. Federal Reserve began its two-day monetary policy meeting today, with market participants widely anticipating a quarter-point interest rate hike tomorrow. This comes as core consumer prices in August exceeded expectations, intensifying inflationary pressures.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "FOMC Meeting",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "economic-treasury-yields",
+          "headline": "10-Year Treasury Yield Surges Past 5%, Highest Since 2007",
+          "summary": "The 10-year U.S. Treasury yield briefly surged to 5.02% today, marking its highest level since 2007. This spike reflects increasing inflation concerns and higher government borrowing costs, impacting investor sentiment across equity markets.",
+          "tags": [
+            "Treasury Yields",
+            "Bond Market",
             "Inflation"
           ]
         },
         {
-          "id": "ai-slowdown-impact",
-          "headline": "AI Slowdown Concerns Shake Semiconductor Stocks",
-          "summary": "Top AI executives, including Anthropic's Dario Amodei, Elon Musk, and OpenAI's Sam Altman, voiced concerns over the rapid pace of AI development, suggesting a slowdown. This sparked a selloff in major AI and chip stocks like Nvidia ($NVDA) and AMD ($AMD), impacting the broader technology sector.",
+          "id": "sector-oil-prices",
+          "headline": "Oil Prices Remain Elevated Amid Middle East Tensions",
+          "summary": "Crude oil prices continue to trade at elevated levels, with Brent crude around $107 and U.S. crude above $102 a barrel. Renewed Middle East tensions and threats to global supply lines are fueling concerns about persistent inflation and central bank actions.",
           "tags": [
-            "AI Industry",
+            "Oil Prices",
+            "Energy Sector",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "sector-ai-semiconductors",
+          "headline": "AI and Semiconductor Stocks Face Continued Headwinds",
+          "summary": "The AI and semiconductor sectors are experiencing ongoing weakness, with the Philadelphia Semiconductor Index tumbling 5.9% on Monday. This follows concerns about a potential slowdown in AI development, triggered by recent comments from prominent AI executives.",
+          "tags": [
+            "AI Stocks",
             "Semiconductors",
-            "Market Sentiment"
+            "Tech Sector"
           ]
         },
         {
-          "id": "oil-prices",
-          "headline": "Crude Oil Prices Surge Amid Geopolitical Tensions",
-          "summary": "Brent crude approached $108 a barrel, and WTI crude rose above $103, as escalating Middle East tensions and key pipeline shutdowns fueled concerns about supply. Rising energy costs contributed to inflationary pressures and cautious market sentiment.",
-          "tags": [
-            "Oil Market",
-            "Geopolitics",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "earnings-reports",
-          "headline": "American Battery Technology Reports Strong FY26 Results",
-          "summary": "American Battery Technology Company ($ABAT) held its Q4 2026 earnings conference call today, reporting record FY 2026 revenue and positive adjusted gross margin. Other companies like Hain Celestial ($HAIN) and RF Industries ($RFIL) also had earnings reports scheduled.",
+          "id": "earnings-overview",
+          "headline": "S&P 500 Q2 Earnings Show Strong Growth, Cloud Businesses Shine",
+          "summary": "Second-quarter earnings for S&P 500 companies are projected to have grown 53% year-on-year, or 49.5% excluding the energy sector. Companies like Alphabet and Amazon reported robust growth in their cloud computing segments, bolstered by the AI boom.",
           "tags": [
             "Earnings Season",
-            "Company News"
+            "Corporate Profits",
+            "Cloud Computing"
+          ]
+        },
+        {
+          "id": "company-news-bankofamerica",
+          "headline": "Bank of America Dips on Weak Q3 Guidance",
+          "summary": "Bank of America ($BAC) shares fell in pre-market trading after its CEO, Brian Moynihan, provided weak guidance for third-quarter investment banking revenue.",
+          "tags": [
+            "Bank of America",
+            "Earnings Guidance",
+            "Financial Sector"
           ]
         }
       ]
