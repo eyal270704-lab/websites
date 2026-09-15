@@ -1,212 +1,192 @@
 {
-  "generatedAt": "2026-09-15T12:27:00Z",
+  "generatedAt": "2026-09-15T15:53:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, September 15, 2026",
-  "badge": "Market Open - Pre-Market Activity",
+  "subtitle": "September 15, 2026 Mid-Day Update",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overall",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "Cautious Sentiment Dominates as Fed Meeting Begins Amid Surging Yields and Oil Prices",
-          "summary": "U.S. equity markets are opening with a cautious tone on Tuesday, following Monday's declines across major indices. Investors are closely monitoring the Federal Reserve's two-day meeting, which commenced today, with high expectations for an interest rate hike. Elevated oil prices, intensified by Middle East tensions, and a surging 10-year U.S. Treasury yield, which briefly surpassed 5% for the first time since 2007, are driving inflation concerns and dampening risk appetite.",
+          "headline": "US Equities Retreat as Oil Surges, Yields Hit 2007 Highs Ahead of Fed Decision",
+          "summary": "US equities are broadly lower on Tuesday, September 15, as rising oil prices and a surge in Treasury yields to levels not seen since 2007 fuel investor unease ahead of the Federal Reserve's critical interest rate decision tomorrow. Anxiety around the future of AI development also continues to weigh on sentiment.",
           "tags": [
             "Market Sentiment",
-            "Fed Meeting",
-            "Inflation",
-            "Oil Prices"
-          ]
+            "Oil Prices",
+            "Treasury Yields",
+            "Federal Reserve",
+            "AI Concerns"
+          ],
+          "timestamp": "2026-09-15T15:53:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices (Previous Close: Monday, September 14, 2026)",
+      "id": "major-indices",
+      "title": "Major Indices (Early Tuesday Trading)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,619.98",
-          "statContext": "Down 0.48% (-37 points)",
-          "direction": "down"
+          "statValue": "Down 0.16%",
+          "statContext": "Slipped in early trading."
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,186.00",
-          "statContext": "Down 0.56% (-146 points)",
-          "direction": "down"
+          "statValue": "Down 0.26%",
+          "statContext": "Fell in early trading."
         },
         {
-          "id": "dow-close",
-          "statLabel": "Dow Jones Ind. Average",
-          "statValue": "52,421.00",
-          "statContext": "Down 0.29% (-152 points)",
-          "direction": "down"
-        },
-        {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "N/A",
-          "statContext": "Down ~0.7% in pre-market",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "N/A",
-          "statContext": "Down ~1.8% in pre-market",
-          "direction": "down"
-        },
-        {
-          "id": "dow-premarket",
-          "statLabel": "Dow 30 Futures",
-          "statValue": "N/A",
-          "statContext": "Down 0.25% in pre-market",
-          "direction": "down"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "Down 0.49%",
+          "statContext": "Edged down in early trading."
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers (Pre-Market, September 15, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers (Early Tuesday Trading)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "zs-gainer",
-          "headline": "Zscaler Surges on Analyst Upgrade",
-          "ticker": "$ZS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+16.52%",
-          "direction": "up",
-          "summary": "Zscaler saw a significant pre-market gain after Wedbush initiated coverage with an 'Outperform' rating, citing its zero-trust cloud platform."
-        },
-        {
-          "id": "crwd-gainer",
-          "headline": "CrowdStrike Jumps on AI Cyber Defense Optimism",
-          "ticker": "$CRWD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.85%",
-          "direction": "up",
-          "summary": "CrowdStrike Holdings climbed as Wedbush initiated coverage with an 'Outperform' rating, highlighting its AI-driven cyber defense platform."
-        },
-        {
-          "id": "panw-gainer",
-          "headline": "Palo Alto Networks Added to 'Best Ideas' List",
-          "ticker": "$PANW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.09%",
-          "direction": "up",
-          "summary": "Palo Alto Networks gained after Wedbush reiterated an 'Outperform' rating and added the cybersecurity firm to its 'Best Ideas List'."
-        },
-        {
-          "id": "glw-loser",
-          "headline": "Corning Falls on Equity Offering",
-          "ticker": "$GLW",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.70%",
-          "direction": "down",
-          "summary": "Corning declined in pre-market trading following the announcement of a US$2 billion at-the-market equity offering."
-        },
-        {
-          "id": "ter-loser",
-          "headline": "Teradyne Drops Despite New Office Announcement",
-          "ticker": "$TER",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.30%",
-          "direction": "down",
-          "summary": "Teradyne experienced a sharp drop, despite announcing a new semiconductor support office in Bengaluru, India, indicating broader market pressures."
-        },
-        {
-          "id": "nvda-loser",
-          "headline": "Nvidia Extends Losses Amid AI Stock Weakness",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Rebounds After Monday's Selloff",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.4%",
+          "changePercent": "+1%",
+          "direction": "up",
+          "summary": "Nvidia advanced over 1% in early trading, showing a rebound following Monday's chip sector selloff."
+        },
+        {
+          "id": "intc-gainer",
+          "headline": "Intel Sees Premarket Gains",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.71%",
+          "direction": "up",
+          "summary": "Intel experienced a gain of 1.71% in premarket trading."
+        },
+        {
+          "id": "spcx-gainer",
+          "headline": "SpaceX Rises on Merger Speculation",
+          "ticker": "$SPCX",
+          "price": "$148.88",
+          "change": "N/A",
+          "changePercent": "+0.49%",
+          "direction": "up",
+          "summary": "SpaceX shares edged up in premarket trading after CEO Elon Musk addressed rumors of a potential merger with Tesla."
+        },
+        {
+          "id": "play-loser",
+          "headline": "Dave & Buster's Plunges on Q2 Loss",
+          "ticker": "$PLAY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-14%",
           "direction": "down",
-          "summary": "Nvidia continued its decline, falling 3.4% as AI-related stocks faced persistent weakness, partly due to concerns over AI development slowdown."
+          "summary": "Shares plunged after the entertainment and restaurant operator reported an unexpected Q2 loss, missing revenue estimates due to higher costs."
+        },
+        {
+          "id": "syy-loser",
+          "headline": "Sysco Falls After Stock Offering",
+          "ticker": "$SYY",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2%",
+          "direction": "down",
+          "summary": "Shares fell after the foodservice distributor priced an offering of common shares to finance a pending acquisition."
+        },
+        {
+          "id": "coin-loser",
+          "headline": "Coinbase Down in Premarket",
+          "ticker": "$COIN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.05%",
+          "direction": "down",
+          "summary": "Coinbase Global saw a significant decline in premarket trading."
         }
       ]
     },
     {
-      "id": "market-news-today",
-      "title": "Market News & Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-meeting",
-          "headline": "Federal Reserve Kicks Off Key Policy Meeting",
-          "summary": "The U.S. Federal Reserve began its two-day monetary policy meeting today, with market participants widely anticipating a quarter-point interest rate hike tomorrow. This comes as core consumer prices in August exceeded expectations, intensifying inflationary pressures.",
+          "id": "fed-meeting-preview",
+          "headline": "Federal Reserve FOMC Meeting Begins Today, Rate Hike Expected Tomorrow",
+          "summary": "The Federal Open Market Committee (FOMC) commenced its two-day meeting today, with an interest rate decision highly anticipated on Wednesday, September 16, at 2:00 PM ET. Traders are pricing in a 93% chance of a 25 basis point rate hike, which would mark the first increase since July 2023. The meeting will also include the release of the Summary of Economic Projections (SEP) and 'dot plot'.",
           "tags": [
             "Federal Reserve",
             "Interest Rates",
-            "Monetary Policy"
+            "FOMC",
+            "Economic Policy"
           ]
         },
         {
-          "id": "economic-treasury-yields",
-          "headline": "10-Year Treasury Yield Surges Past 5%, Highest Since 2007",
-          "summary": "The 10-year U.S. Treasury yield briefly surged to 5.02% today, marking its highest level since 2007. This spike reflects increasing inflation concerns and higher government borrowing costs, impacting investor sentiment across equity markets.",
+          "id": "treasury-yields-surge",
+          "headline": "10-Year Treasury Yields Reach 2007 Highs",
+          "summary": "The benchmark 10-year U.S. Treasury yield surged to 5.02% in early trading, surpassing its 2023 peak and hitting its highest level since 2007. This rise in borrowing costs is a key factor contributing to investor unease.",
           "tags": [
             "Treasury Yields",
             "Bond Market",
+            "Inflation Concerns"
+          ]
+        },
+        {
+          "id": "oil-prices-elevated",
+          "headline": "Oil Prices Remain Elevated Amid Geopolitical Tensions",
+          "summary": "Oil prices continued their upward trend, with Brent crude trading around $107 a barrel and US crude above $102. Renewed Middle East tensions and concerns over supply disruption are keeping energy costs high, intensifying inflation worries.",
+          "tags": [
+            "Oil Prices",
+            "Energy Market",
+            "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "sector-oil-prices",
-          "headline": "Oil Prices Remain Elevated Amid Middle East Tensions",
-          "summary": "Crude oil prices continue to trade at elevated levels, with Brent crude around $107 and U.S. crude above $102 a barrel. Renewed Middle East tensions and threats to global supply lines are fueling concerns about persistent inflation and central bank actions.",
-          "tags": [
-            "Oil Prices",
-            "Energy Sector",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "sector-ai-semiconductors",
-          "headline": "AI and Semiconductor Stocks Face Continued Headwinds",
-          "summary": "The AI and semiconductor sectors are experiencing ongoing weakness, with the Philadelphia Semiconductor Index tumbling 5.9% on Monday. This follows concerns about a potential slowdown in AI development, triggered by recent comments from prominent AI executives.",
+          "id": "ai-sector-anxiety",
+          "headline": "AI Sector Continues to Grapple with Development Concerns",
+          "summary": "Anxiety surrounding artificial intelligence development persists, following warnings from leading AI CEOs about the risks of rapid advancement. While some chipmakers saw a slight rebound today, broader sentiment towards Big Tech remains mixed.",
           "tags": [
             "AI Stocks",
-            "Semiconductors",
-            "Tech Sector"
+            "Technology Sector",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "earnings-overview",
-          "headline": "S&P 500 Q2 Earnings Show Strong Growth, Cloud Businesses Shine",
-          "summary": "Second-quarter earnings for S&P 500 companies are projected to have grown 53% year-on-year, or 49.5% excluding the energy sector. Companies like Alphabet and Amazon reported robust growth in their cloud computing segments, bolstered by the AI boom.",
+          "id": "earnings-reports",
+          "headline": "Forgent Power Solutions Reports Strong Earnings, Dave & Buster's Misses Estimates",
+          "summary": "Forgent Power Solutions ($FPS) announced record fourth-quarter and full-year 2026 results, exceeding its guidance. In contrast, Dave & Buster's Entertainment ($PLAY) plunged after reporting an unexpected Q2 loss and missing revenue expectations. Accenture ($ACN) is scheduled to release its fourth-quarter and full-year fiscal 2026 results on October 1.",
           "tags": [
-            "Earnings Season",
-            "Corporate Profits",
-            "Cloud Computing"
+            "Earnings Reports",
+            "Company News"
           ]
         },
         {
-          "id": "company-news-bankofamerica",
-          "headline": "Bank of America Dips on Weak Q3 Guidance",
-          "summary": "Bank of America ($BAC) shares fell in pre-market trading after its CEO, Brian Moynihan, provided weak guidance for third-quarter investment banking revenue.",
+          "id": "sector-rotations",
+          "headline": "Wells Fargo Adjusts Sector Outlook, Favors Healthcare Over Tech",
+          "summary": "Wells Fargo strategists have lowered their stance on the technology sector to equal-weight from overweight, while upgrading healthcare to overweight. Within technology, the firm expresses a preference for software over microchips.",
           "tags": [
-            "Bank of America",
-            "Earnings Guidance",
-            "Financial Sector"
+            "Sector Analysis",
+            "Technology",
+            "Healthcare",
+            "Analyst Ratings"
           ]
         }
       ]
