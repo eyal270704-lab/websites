@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-16T10:37:16.949630Z",
+  "generatedAt": "2026-09-16T22:49:00.891962Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Risk",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$358.08",
+      "entry": "$344.00",
+      "stop": "$286.00",
+      "structure": "Support Test / Head & Shoulders (developing)",
+      "trend": "Mixed MA trend / Downtrend",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is showing mixed signals with price above short-term moving averages but below the 200-day MA. A developing head and shoulders pattern suggests caution, with key support at $344 and a lower support at $286. Overall volume is below its daily average. The medium-term trend is falling, and the RSI indicates a negative trend.",
+      "riskScore": 7,
+      "footerTag": "Caution - Mixed Signals",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "currentPrice": "$331.34",
+      "entry": "$320.00",
+      "stop": "$318.00",
+      "structure": "MA Support Test",
+      "trend": "> 200MA / Golden Cross",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong uptrend, trading above its 20, 50, and 200-day moving averages. A golden cross of the 50-day MA over the 200-day MA indicates bullish momentum. A potential entry could be a retest of the 20-day MA, with current volume being below average.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Information Technology",
+      "currentPrice": "$215.17",
+      "entry": "$212.50",
+      "stop": "$193.00",
+      "structure": "50-day MA Support",
+      "trend": "> 200MA / Rising Channel",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is in a medium-term rising trend channel, trading above its 50-day and 200-day moving averages, indicating bullish sentiment. The price is currently below the 20-day MA, suggesting a short-term pullback. Entry near the 50-day MA with a stop at the $193 support level. Current volume is below average.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
