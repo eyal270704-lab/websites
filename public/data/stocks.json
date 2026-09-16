@@ -1,154 +1,185 @@
 {
-  "generatedAt": "2026-09-15T19:34:00Z",
+  "generatedAt": "2026-09-16T12:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "September 15, 2026 - End of Day Report",
-  "badge": "Closed",
+  "title": "Daily Market Digest - September 16, 2026",
+  "subtitle": "End-of-Day Analysis",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-091526",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-091526",
-          "headline": "Wall Street Closes Lower as Treasury Yields and AI Concerns Weigh",
-          "summary": "U.S. equities ended the trading day in negative territory on Tuesday, driven by persistently high Treasury yields and lingering anxieties over the future of artificial intelligence development. The benchmark 10-year Treasury yield surpassed 5%, a level not seen since 2007, intensifying concerns about inflation and potentially higher borrowing costs. Global AI stocks also experienced a downturn following warnings from industry leaders regarding the rapid pace of technological advancement.",
+          "id": "market-summary",
+          "headline": "U.S. Equities Retreat as Tech Sector Leads Declines Amidst Fed Rate Hike Expectations",
+          "summary": "U.S. stock markets closed lower today, with the technology sector bearing the sharpest pressure. Investors are closely monitoring the Federal Reserve's anticipated interest rate decision, widely expected to be a 25-basis-point hike, alongside rising oil prices and surging Treasury yields, which are contributing to a cautious market sentiment.",
           "tags": [
-            "Market Close",
-            "Economic Concerns",
-            "AI Sector"
-          ],
-          "timestamp": "2026-09-15T16:00:00Z"
+            "Market Sentiment",
+            "Fed Decision",
+            "Inflation",
+            "Tech Sector"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-091526",
-      "title": "Major Indices Performance",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-091526",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,619.98",
-          "statContext": "Down 37 points (-0.5%) at close"
+          "statValue": "7,580.31",
+          "statContext": "Down 0.52% for the day.",
+          "ticker": "$SPX",
+          "price": "7,580.31",
+          "change": "-39.54",
+          "changePercent": "-0.52%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-091526",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,186.41",
-          "statContext": "Slid 146.63 points (-0.6%) at close"
-        },
-        {
-          "id": "dow-091526",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,421.2",
-          "statContext": "Fell 152.09 points (-0.3%) at close"
+          "statValue": "N/A",
+          "statContext": "Dropped 0.69% for the day.",
+          "ticker": "$DJI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.69%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "N/A",
+          "statContext": "Fell 0.84% for the day.",
+          "ticker": "$IXIC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.84%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-091526",
-      "title": "Top Movers (Today's Close)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "rlgt-gainer-091526",
-          "headline": "Radiant Logistics Surges on Strong Q4 Results",
-          "summary": "Shares of Radiant Logistics jumped after the company reported robust fiscal fourth-quarter results, with revenue rising 18.6% year-over-year and adjusted net income increasing by 34.5%.",
-          "ticker": "$RLGT",
+          "id": "gainer-indp",
+          "headline": "Indaptus Therapeutics Leads Gainers",
+          "summary": "Indaptus Therapeutics ($INDP) was among the day's top gainers, continuing a strong monthly performance.",
+          "ticker": "$INDP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+17.0%",
+          "changePercent": "Significant Gain",
           "direction": "up"
         },
         {
-          "id": "way-gainer-091526",
-          "headline": "Waystar Climbs on Potential Sale Reports",
-          "summary": "Healthcare software firm Waystar saw its stock rise following reports that the company is exploring strategic options, including a potential sale.",
-          "ticker": "$WAY",
+          "id": "gainer-intc",
+          "headline": "Intel Rises on Potential SK Hynix Partnership & Strong Earnings",
+          "summary": "Intel ($INTC) shares rose 5% today following reports of potential memory chip manufacturing talks with South Korea's SK Hynix in the U.S. and stronger-than-expected earnings.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.8%",
+          "changePercent": "+5%",
           "direction": "up"
         },
         {
-          "id": "enva-loser-091526",
-          "headline": "Enova International Leads Declines",
-          "summary": "Enova International experienced a significant downturn in trading, making it one of the biggest losers of the day.",
-          "ticker": "$ENVA",
+          "id": "gainer-skhy",
+          "headline": "SK Hynix Up on Intel Manufacturing Talks",
+          "summary": "SK Hynix ($SKHY) saw its shares climb 3% amidst discussions with Intel regarding potential memory chip production in the United States.",
+          "ticker": "$SKHY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-25.05%",
+          "changePercent": "+3%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-swmr",
+          "headline": "Swarmer Experiences Significant Decline",
+          "summary": "Swarmer ($SWMR) fell 28.4% today, reflecting persistent weakness in the stock.",
+          "ticker": "$SWMR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-28.4%",
           "direction": "down"
         },
         {
-          "id": "play-loser-091526",
-          "headline": "Dave & Buster's Tumbles on Revenue Miss",
-          "summary": "Dave & Buster's Entertainment's stock fell sharply after the company reported second-quarter revenue that missed analyst expectations.",
-          "ticker": "$PLAY",
+          "id": "loser-googl",
+          "headline": "Alphabet Shares Slip Amid AI Spending Concerns",
+          "summary": "Alphabet ($GOOGL) shares slipped as investors raised questions regarding the pace of the company's artificial intelligence investments.",
+          "ticker": "$GOOGL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-12.0% (approx.)",
+          "changePercent": "Slipped",
+          "direction": "down"
+        },
+        {
+          "id": "loser-tsla",
+          "headline": "Tesla Under Pressure Post-Earnings",
+          "summary": "Tesla ($TSLA) stock remained under pressure today, continuing its struggle following its recent earnings report.",
+          "ticker": "$TSLA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "Under Pressure",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-091526",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-091526",
-          "headline": "Communication Services Leads, Tech Mixed Amid AI Warnings",
-          "summary": "The Communication Services sector was a notable gainer today, with the Communication Services Select Sector SPDR ($XLC) advancing 2.8%. Conversely, the Technology Select Sector SPDR ($XLK) declined by 1.7%, while the Industrials ($XLI) and Utilities ($XLU) sectors also saw drops of 1.4% and 1.3% respectively. However, chip stocks such as Qualcomm ($QCOM) and Advanced Micro Devices ($AMD) showed recovery, gaining 4% and 2.3% respectively, following a selloff on Monday. The S&P 500 consumer staples index also registered a 0.7% decline, and the rate-sensitive real estate index fell by 0.8%.",
+          "id": "fed-decision-anticipation",
+          "headline": "Federal Reserve Poised for Rate Hike Decision",
+          "summary": "The Federal Reserve's FOMC meeting is set to conclude, with market participants widely anticipating a 25-basis-point interest rate hike. All eyes are on Fed Chair Kevin Warsh's post-decision remarks for guidance on future policy, as uncertainty persists regarding the pace of further tightening.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "economic-data-releases",
+          "headline": "Key Economic Data Released; U.S. Retail Sales Ahead",
+          "summary": "Today saw the release of UK August CPI and retail price index data, as well as Eurozone July industrial production. The U.S. is scheduled to release its August retail sales data later today, offering further insights into consumer spending.",
+          "tags": [
+            "Economic Data",
+            "Retail Sales",
+            "CPI",
+            "Industrial Production"
+          ]
+        },
+        {
+          "id": "macro-trends-concerns",
+          "headline": "Inflation Concerns Mount Amidst Rising Oil Prices and Treasury Yields",
+          "summary": "Global markets continue to grapple with elevated inflation concerns, exacerbated by Brent crude prices nearing $107-$108 per barrel and WTI crossing the $104 mark. The 10-year U.S. Treasury yield has surged above 5%, levels not seen since the Great Financial Crisis, fueled by inflation fears and substantial government debt issuance.",
+          "tags": [
+            "Inflation",
+            "Oil Prices",
+            "Treasury Yields",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "sector-tech-struggle",
+          "headline": "Technology Sector Retreats Under Pressure",
+          "summary": "The U.S. technology sector experienced a significant pullback today, contributing heavily to the broader market retreat. Rate-sensitive growth names in tech are particularly affected by the ongoing discussions around higher interest rates.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Industrials",
-            "Utilities",
-            "Communication Services",
-            "Consumer Staples",
-            "Real Estate"
-          ]
-        },
-        {
-          "id": "economic-news-091526",
-          "headline": "Fed Meeting Commences, Rate Hike Expected Tomorrow",
-          "summary": "The Federal Reserve's policy meeting began today and is widely anticipated to conclude with an interest rate hike tomorrow, September 16, marking the first increase in three years. Traders are pricing in a 93% chance of a 0.25 percentage point increase in the federal funds rate to combat persistent inflation. Meanwhile, the U.S. 10-year Treasury yield surged, briefly topping 5.04%, reaching levels not seen since 2007, fueling investor apprehension. Adding to economic data, the labor share in the nonfarm business sector hit a record low of 52.8% in the second quarter of 2026.",
-          "tags": [
-            "Fed Meeting",
-            "Interest Rates",
-            "Treasury Yields",
-            "Economic Data",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "ai-oil-impact-091526",
-          "headline": "AI Stocks Tumble Amid Development Warnings; Oil Prices Remain Elevated",
-          "summary": "Artificial intelligence (AI) stocks faced selling pressure globally today after leaders from Anthropic, OpenAI, and xAI cautioned about the risks associated with rapid AI development. This sentiment impacted major AI-linked companies, with NVIDIA Corporation ($NVDA) and Broadcom Inc. ($AVGO) notably slumping 3.4% and 4.8% respectively. Concurrently, elevated crude oil prices, with Brent crude around $107 a barrel and U.S. crude above $102, continue to pose macroeconomic concerns due to Middle East tensions and potential supply disruptions.",
-          "tags": [
-            "AI Sector",
-            "Oil Prices",
-            "Geopolitics",
-            "Market Sentiment"
-          ]
-        },
-        {
-          "id": "earnings-roundup-091526",
-          "headline": "Forgent Posts Record Results; Vera Bradley Reports",
-          "summary": "Forgent ($FPS), a designer and manufacturer of electrical distribution equipment, announced record fiscal fourth-quarter and full-year 2026 results today, exceeding its guidance. Vera Bradley, Inc. ($VRA) also reported its earnings prior to market open. Dave & Buster's ($PLAY) saw its stock tumble following a miss on Q2 revenue expectations. Broadcom Inc. ($AVGO) and Hewlett Packard Enterprise Co ($HPE) were also among companies listed with earnings reports today.",
-          "tags": [
-            "Earnings Reports",
-            "Corporate News"
+            "Growth Stocks"
           ]
         }
       ]
