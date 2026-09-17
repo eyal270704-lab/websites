@@ -1,122 +1,162 @@
 {
-  "generatedAt": "2026-09-16T19:26:00Z",
+  "generatedAt": "2026-09-17T12:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 16, 2026 - Today's Close",
+  "subtitle": "Thursday, September 17, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-today",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Wall Street Reacts to Fed Rate Hike Amid Easing Oil Prices",
-          "summary": "U.S. equities closed higher today as the Federal Reserve raised its benchmark interest rate by a quarter-point, the first hike since July 2023, to a target range of 3.75% to 4.00%. The decision was unanimous, signaling the Fed's commitment to combating inflation, which has been exacerbated by elevated energy prices and geopolitical tensions. Easing oil prices provided some relief, while stronger-than-expected August retail sales suggested underlying economic resilience.",
+          "id": "market-summary-today",
+          "headline": "U.S. Futures Rally Today After Fed Rate Hike",
+          "summary": "U.S. stock index futures are pointing higher this morning, with significant gains across major indices as investors assess the Federal Reserve's recent rate hike. The sentiment is cautiously optimistic as falling oil prices help ease inflation concerns, moderating expectations for the Fed's tightening pace.",
           "tags": [
+            "Market Open",
             "Fed",
-            "Interest Rates",
-            "Inflation",
-            "Oil Prices",
-            "Retail Sales"
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Today's Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-futures-today",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Up 0.82%",
+          "statContext": "Pre-market today, September 17, 2026."
+        },
+        {
+          "id": "nasdaq100-futures-today",
+          "statLabel": "NASDAQ 100 Futures",
+          "statValue": "Up 1.04%",
+          "statContext": "Pre-market today, September 17, 2026."
+        },
+        {
+          "id": "dowjones-futures-today",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Up 0.77%",
+          "statContext": "Pre-market today, September 17, 2026."
+        },
+        {
+          "id": "sp500-close-yesterday",
           "statLabel": "S&P 500",
-          "statValue": "7,619.75",
-          "statContext": "+0.45%"
+          "statValue": "7,551.81",
+          "statContext": "Closed down 0.4% yesterday, September 16, 2026."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close-yesterday",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,196.82",
-          "statContext": "+0.86%"
+          "statValue": "Mostly Unchanged",
+          "statContext": "Closed yesterday, September 16, 2026."
         },
         {
-          "id": "dow-performance",
+          "id": "dowjones-close-yesterday",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,114.07",
-          "statContext": "+0.04%"
+          "statValue": "51,461.90",
+          "statContext": "Closed down 1.2% yesterday, September 16, 2026."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Today's Close)",
+      "id": "top-movers-today",
+      "title": "Top Movers (Pre-Market/Today)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "cohr-gainer",
-          "headline": "Coherent Rises on Photonics Sector Rebound",
-          "ticker": "$COHR",
+          "id": "generac-gainer",
+          "headline": "Generac Surges on Amazon Partnership",
+          "summary": "Generac ($GNRC) jumped over 31% in pre-market trading following news of an $8 billion partnership deal with Amazon.",
+          "ticker": "$GNRC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7.87%",
+          "changePercent": "+31.06%",
           "direction": "up",
-          "summary": "Coherent shares climbed as buyers returned to optical and photonics stocks following a recent sector-wide pullback."
+          "tags": [
+            "Pre-Market",
+            "Technology",
+            "Partnership"
+          ]
         },
         {
-          "id": "spcx-gainer",
-          "headline": "SpaceX Gains on Starship Flight Announcement",
-          "ticker": "$SPCX",
+          "id": "arm-gainer",
+          "headline": "ARM Sees Pre-Market Gains",
+          "summary": "ARM Holdings ($ARM) recorded a notable pre-market increase.",
+          "ticker": "$ARM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.99%",
+          "changePercent": "+4.31%",
           "direction": "up",
-          "summary": "SpaceX gained after announcing that Starship Flight 14 is scheduled for its first-ever orbital test flight on September 22."
+          "tags": [
+            "Pre-Market",
+            "Technology"
+          ]
         },
         {
-          "id": "luxe-gainer",
-          "headline": "LuxExperience Jumps on Revenue Beat",
-          "ticker": "$LUXE",
+          "id": "moderna-gainer",
+          "headline": "Moderna Up in Pre-Market",
+          "summary": "Moderna ($MRNA) showed positive movement in pre-market trading.",
+          "ticker": "$MRNA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+25.63%",
+          "changePercent": "+3.91%",
           "direction": "up",
-          "summary": "LuxExperience shares leapt following a revenue beat, despite missing earnings expectations."
+          "tags": [
+            "Pre-Market",
+            "Biotechnology"
+          ]
         },
         {
-          "id": "jbht-loser",
-          "headline": "J.B. Hunt Tumbles on Earnings Warning",
+          "id": "jbhunt-loser",
+          "headline": "J.B. Hunt Drops on Guidance Cut",
+          "summary": "J.B. Hunt Transport Services ($JBHT) experienced a significant decline after revising its guidance and receiving multiple analyst price target reductions.",
           "ticker": "$JBHT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.03%",
+          "changePercent": "-13.30%",
           "direction": "down",
-          "summary": "J.B. Hunt Transport Services tumbled after the company warned of a decline in earnings and highlighted rising operating costs."
+          "tags": [
+            "Logistics",
+            "Guidance"
+          ]
         },
         {
-          "id": "fang-loser",
-          "headline": "Diamondback Energy Drops Amid Geopolitical Risks",
+          "id": "onsemiconductor-loser",
+          "headline": "ON Semiconductor Falls Despite New Platform Unveil",
+          "summary": "ON Semiconductor ($ON) shares declined, even after the company announced its new Embedded Power Platform and a collaboration with Subaru.",
+          "ticker": "$ON",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.02%",
+          "direction": "down",
+          "tags": [
+            "Semiconductors",
+            "Product Launch"
+          ]
+        },
+        {
+          "id": "diamondbackenergy-loser",
+          "headline": "Diamondback Energy Shares Slip",
+          "summary": "Diamondback Energy ($FANG) saw its stock price fall.",
           "ticker": "$FANG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.49%",
+          "changePercent": "-8.03%",
           "direction": "down",
-          "summary": "Diamondback Energy dropped amid concerns over inflation, rising Treasury yields, and geopolitical risks in crude oil markets."
-        },
-        {
-          "id": "swrd-loser",
-          "headline": "Stewards Experiences Significant Decline",
-          "ticker": "$SWRD",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.92%",
-          "direction": "down",
-          "summary": "Stewards saw a notable decline in today's trading."
+          "tags": [
+            "Energy"
+          ]
         }
       ]
     },
@@ -127,45 +167,62 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-rate-hike",
-          "headline": "Federal Reserve Raises Key Interest Rate to Combat Inflation",
-          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) unanimously voted to raise the federal funds rate by 25 basis points to a range of 3.75% to 4.00% today. This marks the first rate hike since July 2023, reflecting the central bank's aggressive stance against persistent inflation. Fed Chair Kevin Warsh's post-meeting commentary and the Summary of Economic Projections will be closely scrutinized for future policy direction.",
+          "id": "fed-hike-sept16",
+          "headline": "Federal Reserve Hikes Rates by 25 Basis Points",
+          "summary": "The Federal Reserve raised its benchmark interest rate by 0.25 percentage points to a target range of 3.75%-4.00% yesterday, September 16, 2026. This unanimous decision, the first hike in three years, was driven by Fed Chair Kevin Warsh's commitment to combat 'too high' inflation. The majority of FOMC officials anticipate at least one more rate hike this year.",
           "tags": [
             "Fed",
             "Interest Rates",
-            "Monetary Policy",
-            "Inflation"
-          ]
+            "Inflation",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-09-17T08:00:00Z"
         },
         {
-          "id": "sector-performance",
-          "headline": "Technology and Industrials Lead Gains, Energy Lags Amid Oil Price Easing",
-          "summary": "Today saw Technology and Industrials sectors leading the market, each advancing by 0.9%. Conversely, the Energy sector was the weakest performer, declining by 2.3% as crude oil prices retreated. Consumer Discretionary, Utilities, and Consumer Staples also faced pressure.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Industrials",
-            "Energy"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Strong Retail Sales Signal Economic Resilience",
-          "summary": "A report released this morning indicated that U.S. retail sales in August significantly exceeded economists' expectations. This robust consumer spending data suggests the economy remains strong enough to absorb higher interest rates.",
-          "tags": [
-            "Economic Data",
-            "Retail Sales",
-            "Consumer Spending"
-          ]
-        },
-        {
-          "id": "earnings-reports",
-          "headline": "Dollarama Reports Strong Q2 Results; FedEx Expected to Report",
-          "summary": "Dollarama Inc. ($DOL) announced impressive second-quarter fiscal 2027 results, with sales up 17.6% and diluted earnings per share increasing by 11.2%. Planet Image International ($YIBO) also released its Q2 2026 earnings. Investors are awaiting earnings reports from other companies, including FedEx.",
+          "id": "lennar-earnings",
+          "headline": "Lennar Reports Mixed Q3 2026 Results",
+          "summary": "Homebuilder Lennar Corporation ($LEN) reported third-quarter 2026 net earnings per diluted share of $1.19, down from $2.29 in the prior year. Total revenues reached $8.0 billion, but new orders decreased by 9% and deliveries by 3%. The company is holding an earnings call today.",
           "tags": [
             "Earnings",
-            "Corporate News"
-          ]
+            "Homebuilding",
+            "Q3 2026"
+          ],
+          "timestamp": "2026-09-17T09:00:00Z"
+        },
+        {
+          "id": "oil-prices-retreat",
+          "headline": "Oil Prices Retreat as Supply Concerns Ease",
+          "summary": "International oil prices extended their decline today, with Brent crude trading near $105.12 a barrel and WTI crude around $101.55 a barrel. This dip is attributed to easing concerns over supply disruptions and an anticipated moderated Federal Reserve tightening pace.",
+          "tags": [
+            "Oil",
+            "Commodities",
+            "Inflation"
+          ],
+          "timestamp": "2026-09-17T07:00:00Z"
+        },
+        {
+          "id": "economic-data-today",
+          "headline": "Key Economic Data Releases Expected Today",
+          "summary": "Investors are awaiting several key economic data releases today, including US Initial Jobless Claims, August Housing Starts, and preliminary Building Permits. Freddie Mac is also scheduled to report on weekly U.S. mortgage rates.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "Housing Market"
+          ],
+          "timestamp": "2026-09-17T10:00:00Z"
+        },
+        {
+          "id": "sector-performance-outlook",
+          "headline": "Sector Performance Outlook Amidst Rate Hikes and AI Adoption",
+          "summary": "Historically, Information Technology and Energy sectors have shown strong performance one year after an initial rate hike. Analysts expect 14 of 16 Zacks sectors to see positive earnings growth, with Energy showing the most significant upgrade to its Q3 outlook due to elevated oil prices. AI adoption is also expected to drive productivity gains and earnings growth in 2026.",
+          "tags": [
+            "Sector Analysis",
+            "Earnings Growth",
+            "AI",
+            "Energy",
+            "Technology"
+          ],
+          "timestamp": "2026-09-17T09:30:00Z"
         }
       ]
     }
