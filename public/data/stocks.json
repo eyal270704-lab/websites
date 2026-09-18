@@ -1,177 +1,183 @@
 {
-  "generatedAt": "2026-09-17T15:52:00Z",
+  "generatedAt": "2026-09-18T15:25:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 17, 2026 - Market Close",
-  "badge": "Updated Now",
+  "subtitle": "Friday, September 18, 2026",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-20260917",
-      "title": "Market Pulse: US Stocks Rebound on Softening Oil Prices, Fed Rate Hike Digested",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-20260917",
-          "headline": "Major US indices finished mostly higher today, rebounding from earlier session losses as lower oil prices eased inflationary concerns and softened Treasury yields.",
-          "summary": "The market initially reacted to the Federal Reserve's first interest rate hike in three years, announced yesterday, a move signaling the Fed's concern about rising prices. However, investor sentiment improved throughout the day following news of progress in restoring Saudi oil capacity, which helped temper recent surges in wholesale energy inflation. This positive shift led to gains across broad market benchmarks.",
+          "id": "market-summary-today",
+          "headline": "U.S. Stocks Close Higher on Friday, Despite Mixed Intra-day Trading and Economic Headwinds",
+          "summary": "U.S. major indices concluded Friday's session with gains, recovering from early mixed trading throughout an up-and-down week. The market navigated the first Federal Reserve interest rate hike in three years, along with volatile oil prices and rising Treasury yields. Today also marked 'triple witching', the quarterly expiration of index futures and options, which often leads to increased volume and sharp price swings. Investor sentiment appeared to stabilize as the market processed recent monetary policy shifts.",
           "tags": [
-            "Market Rebound",
-            "Fed Policy",
-            "Oil Prices"
+            "Market Summary",
+            "Fed Rate Hike",
+            "Triple Witching"
           ],
-          "timestamp": "2026-09-17T15:52:00Z"
+          "timestamp": "2026-09-18T15:25:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-20260917",
-      "title": "Major Indices Performance Today",
+      "id": "major-indices",
+      "title": "Major Indices (Today's Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260917",
-          "headline": "S&P 500",
-          "statLabel": "Close",
-          "statValue": "7,643.72",
-          "statContext": "Gained momentum after earlier jitters.",
-          "ticker": "$SPX",
-          "change": "+70.91",
-          "changePercent": "+0.94%",
-          "direction": "up"
+          "id": "sp500-close",
+          "statLabel": "S&P 500",
+          "statValue": "7,637.76",
+          "statContext": "+1.1% (+85.95 points)"
         },
         {
-          "id": "nasdaq100-20260917",
-          "headline": "NASDAQ 100",
-          "statLabel": "Close",
-          "statValue": "29,085.45",
-          "statContext": "Technology stocks saw a solid recovery.",
-          "ticker": "$NDX",
-          "change": "+147.61",
-          "changePercent": "+0.51%",
-          "direction": "up"
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,418.30",
+          "statContext": "+1.7% (+439.87 points)"
         },
         {
-          "id": "dow-20260917",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
-          "statValue": "51,716.33",
-          "statContext": "Industrial giants contributed to the market's positive close.",
-          "ticker": "$DJIA",
-          "change": "+233.43",
-          "changePercent": "+0.45%",
-          "direction": "up"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,778.04",
+          "statContext": "+0.6% (+316.14 points)"
         }
       ]
     },
     {
-      "id": "top-movers-20260917",
-      "title": "Top Movers: Gainers & Losers",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-dtss-20260917",
-          "headline": "Datasea Intelligent Technology Ltd.",
-          "ticker": "$DTSS",
-          "price": "$1.650",
-          "change": "+1.05",
-          "changePercent": "+179.09%",
+          "id": "gainer-sdgr",
+          "headline": "Schrodinger surges on strong performance",
+          "ticker": "$SDGR",
+          "price": "N/A",
+          "change": "+26.4%",
+          "changePercent": "+26.4%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-mstu",
+          "headline": "MSTU sees significant daily gain",
+          "ticker": "$MSTU",
+          "price": "N/A",
+          "change": "+21.18%",
+          "changePercent": "+21.18%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-gnrc",
+          "headline": "Generac leads S&P 500 gainers",
+          "ticker": "$GNRC",
+          "price": "N/A",
+          "change": "+18.3%",
+          "changePercent": "+18.3%",
           "direction": "up",
-          "summary": "The company saw a significant surge in trading today. No specific news catalyst identified."
+          "summary": "Generac Holdings ($GNRC) was the day's strongest performer among S&P 500 stocks."
         },
         {
-          "id": "gainer-daic-20260917",
-          "headline": "CID HoldCo, Inc.",
-          "ticker": "$DAIC",
-          "price": "$4.950",
-          "change": "+2.94",
-          "changePercent": "+146.27%",
-          "direction": "up",
-          "summary": "Experiencing substantial gains in today's session. No specific news catalyst identified."
-        },
-        {
-          "id": "loser-dspv-20260917",
-          "headline": "Viant Technology Inc.",
-          "ticker": "$DSPV",
-          "price": "$10.26",
-          "change": "-$2.10",
-          "changePercent": "-17.06%",
-          "direction": "down",
-          "summary": "Shares dropped considerably today. No specific news catalyst identified."
-        },
-        {
-          "id": "loser-flnc-20260917",
-          "headline": "Fluence Energy, Inc.",
+          "id": "loser-flnc",
+          "headline": "Fluence Energy records notable decline",
           "ticker": "$FLNC",
-          "price": "$7.55",
-          "change": "-$1.50",
-          "changePercent": "-16.63%",
-          "direction": "down",
-          "summary": "The stock closed lower as it faced selling pressure. No specific news catalyst identified."
+          "price": "N/A",
+          "change": "-15.4%",
+          "changePercent": "-15.4%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-trvg",
+          "headline": "Trivago NV experiences double-digit drop",
+          "ticker": "$TRVG",
+          "price": "N/A",
+          "change": "-10.76%",
+          "changePercent": "-10.76%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-emat",
+          "headline": "Evolution Metals Tech falls significantly",
+          "ticker": "$EMAT",
+          "price": "N/A",
+          "change": "-8.46%",
+          "changePercent": "-8.46%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-20260917",
-      "title": "Market News & Economic Highlights",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-rate-hike-20260917",
-          "headline": "Fed Raises Interest Rates for the First Time Since 2023 Amid Inflation Concerns",
-          "summary": "The Federal Reserve raised interest rates by a quarter of a percentage point yesterday, the first hike in three years, in an effort to combat persistent inflation driven by surging energy prices. The move signals the Fed's commitment to price stability, with expectations for further hikes later this year.",
+          "id": "fed-rate-hike-impact",
+          "headline": "Federal Reserve's Rate Hike Influences Market Dynamics",
+          "summary": "The Federal Reserve's recent interest rate hike, the first in three years, continues to be a central factor influencing market sentiment. The FOMC increased the fed funds target rate to 3.75% to 4.00% in a unanimous decision, citing continued elevated inflation and a steady unemployment rate. The Fed's latest projections suggest this hike may not be a one-off, with another 25-bps hike anticipated by year-end 2026 before a holding period into 2027. This move, along with falling oil prices and Treasury yields, initially propelled markets higher on Thursday, though Friday saw mixed sentiment.",
           "tags": [
-            "Federal Reserve",
+            "Fed",
             "Interest Rates",
-            "Inflation"
-          ],
-          "timestamp": "2026-09-17T15:52:00Z"
+            "Monetary Policy"
+          ]
         },
         {
-          "id": "economic-gdp-q2-20260917",
-          "headline": "US GDP Increased 1.5% in Q2 2026; Trade Deficit Widens in July",
-          "summary": "The second estimate for real gross domestic product (GDP) in the second quarter of 2026 showed an increase of 1.5% annually, driven by consumer spending, exports, and investment. Separately, the U.S. goods and services trade deficit expanded in July 2026 to $88.6 billion as imports rose and exports declined.",
+          "id": "boj-rate-hike",
+          "headline": "Bank of Japan Raises Interest Rate to 31-Year High",
+          "summary": "The Bank of Japan (BoJ) raised its benchmark interest rate to 1.25% from 1.0%, marking a 31-year high. This anticipated move came after the Federal Reserve's rate adjustment this week.",
           "tags": [
-            "GDP",
+            "BoJ",
+            "International Markets"
+          ]
+        },
+        {
+          "id": "treasury-yields-oil",
+          "headline": "Treasury Yields Rise, Oil Prices Show Volatility",
+          "summary": "The yield on the 10-year Treasury climbed to 4.99% from 4.94% late Thursday, reflecting rising pressure in the bond market. Meanwhile, crude oil prices exhibited volatility, with Brent crude slipping 0.5% to $104.31 a barrel amidst supply concerns following fresh strikes between Saudi Arabia and Yemen's Iran-backed Houthis.",
+          "tags": [
+            "Treasury Yields",
+            "Oil Prices",
+            "Commodities"
+          ]
+        },
+        {
+          "id": "economic-indicators",
+          "headline": "Leading Economic Index Declines, Signaling Slower Growth Ahead",
+          "summary": "The Conference Board Leading Economic Index® (LEI) for the U.S. edged down by 0.1% in August 2026, marking its first monthly decline since March. This suggests a less certain economic environment and a projected slowdown in growth. The New York Fed's DSGE model also anticipates similar growth but slightly more persistent inflation, noting a positive growth effect from the AI-related boom in investment.",
+          "tags": [
             "Economic Data",
-            "Trade Deficit"
-          ],
-          "timestamp": "2026-09-17T15:52:00Z"
+            "LEI",
+            "GDP"
+          ]
         },
         {
-          "id": "economic-housing-data-20260917",
-          "headline": "August 2026 Housing Data: Building Permits Fall, Pending Home Sales Edge Up",
-          "summary": "US building permits saw a 2.7% month-over-month decrease in August 2026, falling below market expectations. Conversely, pending home sales in the US edged up by 0.3% in August, bouncing back from a decline in July, despite rising mortgage rates.",
+          "id": "sector-performance",
+          "headline": "Tech and Chip Sectors Advance Amidst Broader Market Declines",
+          "summary": "While the overall market experienced mixed trading and some S&P 500 sectors, particularly materials, saw declines, the tech and chip sectors, including optical communication, storage, and crypto stocks, showed advancements. This follows a strong performance on Thursday where the Nasdaq 100 and semiconductor group led the market. Financial and healthcare sectors were flat to lower in pre-market trading.",
           "tags": [
-            "Housing Market",
-            "Economic Data"
-          ],
-          "timestamp": "2026-09-17T15:52:00Z"
+            "Sector Analysis",
+            "Technology",
+            "Semiconductors",
+            "Crypto"
+          ]
         },
         {
-          "id": "sector-analysis-20260917",
-          "headline": "Industrials Lead Market Gains, Energy Sector Lags Today",
-          "summary": "In today's trading session, Industrials emerged as the best-performing sector with a gain of +0.81%, followed by Utilities (+0.32%) and Information Technology (+0.21%). On the other hand, the Energy sector lagged significantly, closing down -2.37%, with Financials (-1.38%) and Materials (-0.77%) also underperforming.",
+          "id": "earnings-watch",
+          "headline": "VinFast Reports Earnings; Q3 Season Still Awaiting Major Releases",
+          "summary": "VinFast ($VFS) reported earnings today. Truist Financial Corporation ($TFC) announced plans to release its third-quarter 2026 financial results before the market opens on October 16, 2026. While earnings season for most major companies is still about a month away, commentary from top industry executives at recent conferences has provided an early glimpse into corporate health.",
           "tags": [
-            "Sector Performance",
-            "Industrials",
-            "Energy"
-          ],
-          "timestamp": "2026-09-17T15:52:00Z"
-        },
-        {
-          "id": "earnings-reports-20260917",
-          "headline": "Over 100 Companies Report Earnings Today",
-          "summary": "Approximately 104 companies were scheduled to release their earnings reports today, September 17, 2026. Notable companies reporting included KNDI, UPXI, and VFS, among others. Investors are closely monitoring these reports for insights into corporate performance and future guidance.",
-          "tags": [
-            "Earnings Reports",
+            "Earnings",
             "Corporate News"
-          ],
-          "timestamp": "2026-09-17T15:52:00Z"
+          ]
         }
       ]
     }
