@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-18T15:25:00Z",
+  "generatedAt": "2026-09-18T18:55:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Friday, September 18, 2026",
+  "title": "Daily Market Digest: September 18, 2026",
+  "subtitle": "Wall Street Drifts Lower Amid Yield Concerns and Triple Witching",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,170 +14,158 @@
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "U.S. Stocks Close Higher on Friday, Despite Mixed Intra-day Trading and Economic Headwinds",
-          "summary": "U.S. major indices concluded Friday's session with gains, recovering from early mixed trading throughout an up-and-down week. The market navigated the first Federal Reserve interest rate hike in three years, along with volatile oil prices and rising Treasury yields. Today also marked 'triple witching', the quarterly expiration of index futures and options, which often leads to increased volume and sharp price swings. Investor sentiment appeared to stabilize as the market processed recent monetary policy shifts.",
+          "headline": "U.S. Stocks Edge Lower as Treasury Yields Rise and \"Triple Witching\" Adds Volatility",
+          "summary": "U.S. equities are largely down today, concluding a volatile week marked by rising Treasury yields and fluctuating oil prices. Investors are continuing to digest the Federal Reserve's recent interest rate hike, which occurred earlier this week. The quarterly expiration of derivatives contracts, known as \"triple witching,\" is contributing to heightened market activity and potential swings. Ten of the eleven major S&P 500 sectors are reporting losses, with basic materials and industrials among the bottom performers.",
           "tags": [
             "Market Summary",
-            "Fed Rate Hike",
-            "Triple Witching"
-          ],
-          "timestamp": "2026-09-18T15:25:00Z"
+            "September 18, 2026"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Today's Close)",
+      "title": "Major Indices (Midday, September 18, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,637.76",
-          "statContext": "+1.1% (+85.95 points)"
+          "statValue": "7,619.13",
+          "statContext": "Down 0.2%",
+          "change": "-$18.63",
+          "changePercent": "-0.2%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-close",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,418.30",
-          "statContext": "+1.7% (+439.87 points)"
+          "statValue": "26,369.70",
+          "statContext": "Down 0.2%",
+          "change": "-$48.60",
+          "changePercent": "-0.2%",
+          "direction": "down"
         },
         {
-          "id": "dow-close",
+          "id": "dow-stat",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,778.04",
-          "statContext": "+0.6% (+316.14 points)"
+          "statValue": "51,555.41",
+          "statContext": "Down 0.4%",
+          "change": "-$222.63",
+          "changePercent": "-0.4%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Midday, September 18, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-sdgr",
-          "headline": "Schrodinger surges on strong performance",
-          "ticker": "$SDGR",
+          "id": "xene-loser",
+          "headline": "Xenon Pharmaceuticals Plummets on Trial Pause",
+          "summary": "Xenon Pharmaceuticals ($XENE) tumbled over 27% today after temporarily halting enrollment in trials for its experimental drug, following reports of side effects.",
+          "ticker": "$XENE",
           "price": "N/A",
-          "change": "+26.4%",
-          "changePercent": "+26.4%",
+          "change": "N/A",
+          "changePercent": "-27%",
+          "direction": "down"
+        },
+        {
+          "id": "nflx-loser",
+          "headline": "Netflix Shares Slide Following Downgrade",
+          "summary": "Shares of Netflix ($NFLX) fell today after the streaming giant received a downgrade from analysts.",
+          "ticker": "$NFLX",
+          "price": "N/A",
+          "change": "-$3.68",
+          "changePercent": "-4.88%",
+          "direction": "down"
+        },
+        {
+          "id": "nue-loser",
+          "headline": "Nucor Falls on Disappointing Q3 Profit Outlook",
+          "summary": "Steel maker Nucor ($NUE) sank 5.9% after forecasting third-quarter profit that fell short of analysts' expectations, despite higher prices, due to absorbing higher costs.",
+          "ticker": "$NUE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.9%",
+          "direction": "down"
+        },
+        {
+          "id": "avgo-gainer",
+          "headline": "Broadcom Posts Modest Gains",
+          "summary": "Broadcom ($AVGO) saw a slight increase today, contributing positively to broader indices.",
+          "ticker": "$AVGO",
+          "price": "$345.75",
+          "change": "+$2.07",
+          "changePercent": "+0.6%",
           "direction": "up"
-        },
-        {
-          "id": "gainer-mstu",
-          "headline": "MSTU sees significant daily gain",
-          "ticker": "$MSTU",
-          "price": "N/A",
-          "change": "+21.18%",
-          "changePercent": "+21.18%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-gnrc",
-          "headline": "Generac leads S&P 500 gainers",
-          "ticker": "$GNRC",
-          "price": "N/A",
-          "change": "+18.3%",
-          "changePercent": "+18.3%",
-          "direction": "up",
-          "summary": "Generac Holdings ($GNRC) was the day's strongest performer among S&P 500 stocks."
-        },
-        {
-          "id": "loser-flnc",
-          "headline": "Fluence Energy records notable decline",
-          "ticker": "$FLNC",
-          "price": "N/A",
-          "change": "-15.4%",
-          "changePercent": "-15.4%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-trvg",
-          "headline": "Trivago NV experiences double-digit drop",
-          "ticker": "$TRVG",
-          "price": "N/A",
-          "change": "-10.76%",
-          "changePercent": "-10.76%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-emat",
-          "headline": "Evolution Metals Tech falls significantly",
-          "ticker": "$EMAT",
-          "price": "N/A",
-          "change": "-8.46%",
-          "changePercent": "-8.46%",
-          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Data",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "fed-rate-hike-impact",
-          "headline": "Federal Reserve's Rate Hike Influences Market Dynamics",
-          "summary": "The Federal Reserve's recent interest rate hike, the first in three years, continues to be a central factor influencing market sentiment. The FOMC increased the fed funds target rate to 3.75% to 4.00% in a unanimous decision, citing continued elevated inflation and a steady unemployment rate. The Fed's latest projections suggest this hike may not be a one-off, with another 25-bps hike anticipated by year-end 2026 before a holding period into 2027. This move, along with falling oil prices and Treasury yields, initially propelled markets higher on Thursday, though Friday saw mixed sentiment.",
+          "headline": "Markets Continue to Process Federal Reserve Rate Hike",
+          "summary": "Investors are still grappling with the implications of the Federal Reserve's first interest rate hike in three years, announced earlier this week. Commentary from Fed Chair Kevin Warsh on the future trajectory of borrowing costs is keeping market participants engaged.",
           "tags": [
             "Fed",
             "Interest Rates",
             "Monetary Policy"
-          ]
+          ],
+          "timestamp": "2026-09-18T10:00:00Z"
         },
         {
-          "id": "boj-rate-hike",
-          "headline": "Bank of Japan Raises Interest Rate to 31-Year High",
-          "summary": "The Bank of Japan (BoJ) raised its benchmark interest rate to 1.25% from 1.0%, marking a 31-year high. This anticipated move came after the Federal Reserve's rate adjustment this week.",
-          "tags": [
-            "BoJ",
-            "International Markets"
-          ]
-        },
-        {
-          "id": "treasury-yields-oil",
-          "headline": "Treasury Yields Rise, Oil Prices Show Volatility",
-          "summary": "The yield on the 10-year Treasury climbed to 4.99% from 4.94% late Thursday, reflecting rising pressure in the bond market. Meanwhile, crude oil prices exhibited volatility, with Brent crude slipping 0.5% to $104.31 a barrel amidst supply concerns following fresh strikes between Saudi Arabia and Yemen's Iran-backed Houthis.",
+          "id": "treasury-yields-climb",
+          "headline": "10-Year Treasury Yield Tops 5% Amid Rising Pressure",
+          "summary": "The yield on the benchmark 10-year Treasury note climbed to 5.00% today, reaching a level not seen since 2023. This increase in bond yields is contributing to downward pressure on the stock market.",
           "tags": [
             "Treasury Yields",
-            "Oil Prices",
-            "Commodities"
-          ]
+            "Bonds",
+            "Economy"
+          ],
+          "timestamp": "2026-09-18T11:00:00Z"
         },
         {
-          "id": "economic-indicators",
-          "headline": "Leading Economic Index Declines, Signaling Slower Growth Ahead",
-          "summary": "The Conference Board Leading Economic Index® (LEI) for the U.S. edged down by 0.1% in August 2026, marking its first monthly decline since March. This suggests a less certain economic environment and a projected slowdown in growth. The New York Fed's DSGE model also anticipates similar growth but slightly more persistent inflation, noting a positive growth effect from the AI-related boom in investment.",
+          "id": "oil-price-volatility",
+          "headline": "Crude Oil Prices Volatile Amid Middle East Tensions",
+          "summary": "Crude oil prices exhibited volatility today, with Brent crude slipping 0.5% to $104.31 a barrel. Markets are weighing supply concerns following fresh strikes between Saudi Arabia and Yemen's Iran-backed Houthis.",
           "tags": [
-            "Economic Data",
-            "LEI",
-            "GDP"
-          ]
+            "Oil",
+            "Commodities",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-09-18T09:30:00Z"
         },
         {
-          "id": "sector-performance",
-          "headline": "Tech and Chip Sectors Advance Amidst Broader Market Declines",
-          "summary": "While the overall market experienced mixed trading and some S&P 500 sectors, particularly materials, saw declines, the tech and chip sectors, including optical communication, storage, and crypto stocks, showed advancements. This follows a strong performance on Thursday where the Nasdaq 100 and semiconductor group led the market. Financial and healthcare sectors were flat to lower in pre-market trading.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Semiconductors",
-            "Crypto"
-          ]
-        },
-        {
-          "id": "earnings-watch",
-          "headline": "VinFast Reports Earnings; Q3 Season Still Awaiting Major Releases",
-          "summary": "VinFast ($VFS) reported earnings today. Truist Financial Corporation ($TFC) announced plans to release its third-quarter 2026 financial results before the market opens on October 16, 2026. While earnings season for most major companies is still about a month away, commentary from top industry executives at recent conferences has provided an early glimpse into corporate health.",
+          "id": "goldman-sachs-earnings",
+          "headline": "Goldman Sachs: S&P 500 'Over-Earning' is Temporary, Not a Bubble",
+          "summary": "Goldman Sachs analysts suggest that the S&P 500's 'over-earning' phenomenon, driven by the AI investment boom and expanded semiconductor margins, is a temporary acceleration rather than an 'earnings bubble.' They anticipate earnings growth to decelerate in the coming years, but not collapse.",
           "tags": [
             "Earnings",
-            "Corporate News"
-          ]
+            "Analyst Report",
+            "AI",
+            "Semiconductors"
+          ],
+          "timestamp": "2026-09-18T11:04:00Z"
+        },
+        {
+          "id": "buffett-steps-down",
+          "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
+          "summary": "Investing legend Warren Buffett has stepped down as chairman of Berkshire Hathaway ($BRK.A, $BRK.B) and will become chairman emeritus, effective immediately. His son, Howard Buffett, will assume the chairman role.",
+          "tags": [
+            "Company News",
+            "Leadership Change"
+          ],
+          "timestamp": "2026-09-18T10:15:00Z"
         }
       ]
     }
