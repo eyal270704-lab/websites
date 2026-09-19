@@ -1,171 +1,237 @@
 {
-  "generatedAt": "2026-09-18T18:55:00Z",
+  "generatedAt": "2026-09-19T11:46:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: September 18, 2026",
-  "subtitle": "Wall Street Drifts Lower Amid Yield Concerns and Triple Witching",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: Mixed Finish to Turbulent Week as Yields Hit 5%",
+  "subtitle": "Friday, September 18, 2026 Market Close (Markets closed Saturday, September 19, 2026)",
+  "badge": "Report on last trading day",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse",
+      "id": "market-pulse-20260918",
+      "title": "Market Pulse: Yields Drive Mixed Close After Fed Hike",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Stocks Edge Lower as Treasury Yields Rise and \"Triple Witching\" Adds Volatility",
-          "summary": "U.S. equities are largely down today, concluding a volatile week marked by rising Treasury yields and fluctuating oil prices. Investors are continuing to digest the Federal Reserve's recent interest rate hike, which occurred earlier this week. The quarterly expiration of derivatives contracts, known as \"triple witching,\" is contributing to heightened market activity and potential swings. Ten of the eleven major S&P 500 sectors are reporting losses, with basic materials and industrials among the bottom performers.",
+          "id": "mp-item-1",
+          "headline": "U.S. equities closed a turbulent week with a mixed performance on Friday, September 18, 2026, as bond yields climbed to multi-year highs and investors continued to digest the Federal Reserve's recent interest rate hike.",
+          "summary": "The 10-year Treasury yield reached 5.00%, a level not seen since 2023, influencing market sentiment. Technology and semiconductor stocks demonstrated strength, while smaller companies and rate-sensitive sectors lagged. The week was marked by the Fed's first rate increase in three years, with indications of further tightening to combat persistent inflation.",
           "tags": [
-            "Market Summary",
-            "September 18, 2026"
+            "Market Sentiment",
+            "Interest Rates",
+            "Fed Policy"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Midday, September 18, 2026)",
+      "id": "major-indices-20260918",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,619.13",
-          "statContext": "Down 0.2%",
-          "change": "-$18.63",
-          "changePercent": "-0.2%",
+          "statValue": "7,650.50",
+          "statContext": "Up 12.74 points (+0.17%)",
+          "ticker": "^GSPC",
+          "change": "+$12.74",
+          "changePercent": "+0.17%",
+          "direction": "up"
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,682.64",
+          "statContext": "Down 95.40 points (-0.18%)",
+          "ticker": "^DJI",
+          "change": "-$95.40",
+          "changePercent": "-0.18%",
           "direction": "down"
         },
         {
           "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,369.70",
-          "statContext": "Down 0.2%",
-          "change": "-$48.60",
-          "changePercent": "-0.2%",
-          "direction": "down"
+          "statValue": "26,522.55",
+          "statContext": "Up 104.25 points (+0.39%)",
+          "ticker": "^IXIC",
+          "change": "+$104.25",
+          "changePercent": "+0.39%",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,555.41",
-          "statContext": "Down 0.4%",
-          "change": "-$222.63",
-          "changePercent": "-0.4%",
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "2,860.40",
+          "statContext": "Down 14.23 points (-0.50%)",
+          "ticker": "^RUT",
+          "change": "-$14.23",
+          "changePercent": "-0.50%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Midday, September 18, 2026)",
+      "id": "top-movers-20260918",
+      "title": "Top Movers of Friday, September 18, 2026",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "xene-loser",
-          "headline": "Xenon Pharmaceuticals Plummets on Trial Pause",
-          "summary": "Xenon Pharmaceuticals ($XENE) tumbled over 27% today after temporarily halting enrollment in trials for its experimental drug, following reports of side effects.",
+          "id": "gainer-sdgr",
+          "headline": "Schrodinger Leads Gainers",
+          "summary": "Biotech firm Schrodinger ($SDGR) saw a significant surge, returning +26.4% on Friday.",
+          "ticker": "$SDGR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+26.4%",
+          "direction": "up",
+          "tags": [
+            "Biotech",
+            "Top Gainer"
+          ]
+        },
+        {
+          "id": "gainer-coin",
+          "headline": "Coinbase Rises on SEC Exemption",
+          "summary": "Coinbase Global ($COIN), a major cryptocurrency exchange, jumped +11.39% after the SEC issued a five-year conditional 'Innovation Exemption' for trading tokenized U.S. stocks, providing regulatory clarity for digital asset expansion.",
+          "ticker": "$COIN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11.39%",
+          "direction": "up",
+          "tags": [
+            "Cryptocurrency",
+            "Regulation",
+            "Fintech"
+          ]
+        },
+        {
+          "id": "gainer-hood",
+          "headline": "Robinhood Boosted by Tokenized Stock News",
+          "summary": "Robinhood Markets ($HOOD) surged +7.93%, also benefiting from the SEC's 'Innovation Exemption' for tokenized securities, positioning the company to expand its offerings in this space.",
+          "ticker": "$HOOD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.93%",
+          "direction": "up",
+          "tags": [
+            "Fintech",
+            "Cryptocurrency",
+            "Regulation"
+          ]
+        },
+        {
+          "id": "loser-xene",
+          "headline": "Xenon Pharma Tumbles on Trial Pause",
+          "summary": "Xenon Pharmaceuticals ($XENE) tumbled -29.0% after temporarily pausing enrollment in trials for its experimental drug due to reported side effects.",
           "ticker": "$XENE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-27%",
-          "direction": "down"
+          "changePercent": "-29.0%",
+          "direction": "down",
+          "tags": [
+            "Biotech",
+            "Drug Trials"
+          ]
         },
         {
-          "id": "nflx-loser",
-          "headline": "Netflix Shares Slide Following Downgrade",
-          "summary": "Shares of Netflix ($NFLX) fell today after the streaming giant received a downgrade from analysts.",
-          "ticker": "$NFLX",
+          "id": "loser-flnc",
+          "headline": "Fluence Energy Drops",
+          "summary": "Fluence Energy ($FLNC) experienced a significant decline, falling -15.4% during Friday's trading session.",
+          "ticker": "$FLNC",
           "price": "N/A",
-          "change": "-$3.68",
-          "changePercent": "-4.88%",
-          "direction": "down"
+          "change": "N/A",
+          "changePercent": "-15.4%",
+          "direction": "down",
+          "tags": [
+            "Energy",
+            "Market Movers"
+          ]
         },
         {
-          "id": "nue-loser",
-          "headline": "Nucor Falls on Disappointing Q3 Profit Outlook",
-          "summary": "Steel maker Nucor ($NUE) sank 5.9% after forecasting third-quarter profit that fell short of analysts' expectations, despite higher prices, due to absorbing higher costs.",
+          "id": "loser-nue",
+          "headline": "Nucor Falls on Earnings Forecast",
+          "summary": "Steelmaker Nucor ($NUE) declined -6.3% after forecasting its third-quarter earnings per share below analysts' mean estimates.",
           "ticker": "$NUE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.9%",
-          "direction": "down"
-        },
-        {
-          "id": "avgo-gainer",
-          "headline": "Broadcom Posts Modest Gains",
-          "summary": "Broadcom ($AVGO) saw a slight increase today, contributing positively to broader indices.",
-          "ticker": "$AVGO",
-          "price": "$345.75",
-          "change": "+$2.07",
-          "changePercent": "+0.6%",
-          "direction": "up"
+          "changePercent": "-6.3%",
+          "direction": "down",
+          "tags": [
+            "Materials",
+            "Earnings Guidance"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Data",
+      "id": "market-news-20260918",
+      "title": "Market News & Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-rate-hike-impact",
-          "headline": "Markets Continue to Process Federal Reserve Rate Hike",
-          "summary": "Investors are still grappling with the implications of the Federal Reserve's first interest rate hike in three years, announced earlier this week. Commentary from Fed Chair Kevin Warsh on the future trajectory of borrowing costs is keeping market participants engaged.",
+          "id": "mn-item-1",
+          "headline": "Technology and Healthcare Lead, Utilities Lag This Week",
+          "summary": "For the week ending September 18, 2026, healthcare was the best-performing sector, up 1.56%, followed by technology, which gained 1.03-1.1%. In contrast, utilities were the worst-performing sector, declining 2.95%, alongside financial services, which fell 2.29-2.35%.",
           "tags": [
-            "Fed",
+            "Sector Performance",
+            "Healthcare",
+            "Technology",
+            "Utilities",
+            "Financials"
+          ]
+        },
+        {
+          "id": "mn-item-2",
+          "headline": "Fed Raises Rates, Signals Further Hikes Amid Inflation Concerns",
+          "summary": "The Federal Reserve increased its benchmark lending rate by 25 basis points earlier this week to a range of 3.75% to 4.00%, the first such move since July 2023. The central bank indicated that another rate hike is likely by year-end, with the median policy rate projected at 4.1% by the end of 2026, to combat persistent inflation.",
+          "tags": [
+            "Fed Policy",
             "Interest Rates",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-09-18T10:00:00Z"
+            "Inflation"
+          ]
         },
         {
-          "id": "treasury-yields-climb",
-          "headline": "10-Year Treasury Yield Tops 5% Amid Rising Pressure",
-          "summary": "The yield on the benchmark 10-year Treasury note climbed to 5.00% today, reaching a level not seen since 2023. This increase in bond yields is contributing to downward pressure on the stock market.",
+          "id": "mn-item-3",
+          "headline": "AI Boom Continues to Drive Durable Goods Orders",
+          "summary": "The demand for AI infrastructure continues to be a significant economic driver, with durable goods orders expected to rise, primarily in computer and electrical equipment. This trend highlights ongoing investment in artificial intelligence technologies.",
           "tags": [
-            "Treasury Yields",
-            "Bonds",
-            "Economy"
-          ],
-          "timestamp": "2026-09-18T11:00:00Z"
-        },
-        {
-          "id": "oil-price-volatility",
-          "headline": "Crude Oil Prices Volatile Amid Middle East Tensions",
-          "summary": "Crude oil prices exhibited volatility today, with Brent crude slipping 0.5% to $104.31 a barrel. Markets are weighing supply concerns following fresh strikes between Saudi Arabia and Yemen's Iran-backed Houthis.",
-          "tags": [
-            "Oil",
-            "Commodities",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-09-18T09:30:00Z"
-        },
-        {
-          "id": "goldman-sachs-earnings",
-          "headline": "Goldman Sachs: S&P 500 'Over-Earning' is Temporary, Not a Bubble",
-          "summary": "Goldman Sachs analysts suggest that the S&P 500's 'over-earning' phenomenon, driven by the AI investment boom and expanded semiconductor margins, is a temporary acceleration rather than an 'earnings bubble.' They anticipate earnings growth to decelerate in the coming years, but not collapse.",
-          "tags": [
-            "Earnings",
-            "Analyst Report",
+            "Economic Data",
             "AI",
-            "Semiconductors"
-          ],
-          "timestamp": "2026-09-18T11:04:00Z"
+            "Technology Investment"
+          ]
         },
         {
-          "id": "buffett-steps-down",
-          "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
-          "summary": "Investing legend Warren Buffett has stepped down as chairman of Berkshire Hathaway ($BRK.A, $BRK.B) and will become chairman emeritus, effective immediately. His son, Howard Buffett, will assume the chairman role.",
+          "id": "mn-item-4",
+          "headline": "US Initial Jobless Claims Fall, Mortgage Rates Climb",
+          "summary": "Economic data released Friday showed U.S. initial jobless claims decreased to 196,000 for the week ending September 12, indicating a relatively healthy labor market. Concurrently, US mortgage rates reached their highest level since early 2025, reflecting the rising interest rate environment.",
           "tags": [
-            "Company News",
+            "Economic Data",
+            "Jobless Claims",
+            "Mortgage Rates"
+          ]
+        },
+        {
+          "id": "mn-item-5",
+          "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
+          "summary": "Investing legend Warren Buffett announced he is stepping down as chairman of Berkshire Hathaway ($BRK.A, $BRK.B) at 96, transitioning to chairman emeritus. His son, Howard Buffett, will take over as chairman, while Greg Abel remains CEO.",
+          "tags": [
+            "Corporate News",
             "Leadership Change"
-          ],
-          "timestamp": "2026-09-18T10:15:00Z"
+          ]
+        },
+        {
+          "id": "mn-item-6",
+          "headline": "Oil Prices Fluctuate Amid Geopolitical Tensions",
+          "summary": "Brent crude prices remained volatile, briefly dipping below $102 a barrel before recovering above $103, as markets reacted to supply concerns following recent developments in geopolitical conflicts.",
+          "tags": [
+            "Commodities",
+            "Oil Prices",
+            "Geopolitics"
+          ]
         }
       ]
     }
