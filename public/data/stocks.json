@@ -1,180 +1,158 @@
 {
-  "generatedAt": "2026-09-20T15:04:00Z",
+  "generatedAt": "2026-09-20T18:33:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Markets Closed Today, Reporting on Friday, September 18, 2026 Session",
+  "subtitle": "Sunday, September 20, 2026 – Summarizing Friday's Close",
   "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Mixed Close Caps Choppy Week Driven by Fed Hike and Yields",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. equities finished mixed on Friday, concluding a volatile week marked by the Federal Reserve's first interest rate hike in three years.",
-          "summary": "The Nasdaq Composite led gains, buoyed by a surge in AI-related stocks, while the Dow Jones Industrial Average extended its weekly decline. Rising 10-year Treasury yields, which reached 5.00%, continued to exert pressure across the broader market.",
+          "id": "market-summary",
+          "headline": "Markets Closed for Weekend; Friday Saw Mixed Close Amid Rate Hike Aftermath",
+          "summary": "U.S. equity markets are closed today, Sunday, September 20, 2026. The last trading session on Friday, September 18, 2026, ended mixed as Wall Street continued to digest the Federal Reserve's recent interest rate hike, rising bond yields, and volatile oil prices. Technology and healthcare sectors showed strength, while utilities and financial services lagged.",
           "tags": [
-            "Market Overview",
-            "Fed Rates",
-            "Bond Yields"
-          ],
-          "timestamp": "2026-09-18T16:00:00Z"
+            "Market Closed",
+            "Weekend",
+            "Friday Recap"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Friday, September 18, 2026)",
+      "title": "Major Indices (Friday, September 18, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,650.50",
-          "statContext": "Up 0.2% (+12.74 points)",
-          "ticker": "$SPX",
-          "price": "7,650.50",
-          "change": "+12.74",
-          "changePercent": "+0.2%",
+          "statContext": "+0.17%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-friday",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,522.55",
-          "statContext": "Up 0.4% (+104.25 points)",
-          "ticker": "$IXIC",
-          "price": "26,522.55",
-          "change": "+104.25",
-          "changePercent": "+0.4%",
+          "statContext": "+0.39%",
           "direction": "up"
         },
         {
-          "id": "dow-friday",
-          "statLabel": "DOW Jones Industrial Average",
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,682.64",
-          "statContext": "Down 0.2% (-95.40 points)",
-          "ticker": "$DJI",
-          "price": "51,682.64",
-          "change": "-95.40",
-          "changePercent": "-0.2%",
-          "direction": "down"
-        },
-        {
-          "id": "russell2000-friday",
-          "statLabel": "Russell 2000",
-          "statValue": "2,860.40",
-          "statContext": "Down 0.5% (-14.23 points)",
-          "ticker": "$RUT",
-          "price": "2,860.40",
-          "change": "-14.23",
-          "changePercent": "-0.5%",
+          "statContext": "-0.18%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, September 18, 2026)",
+      "title": "Top Movers (Friday, September 18, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "gainer-strategy",
-          "headline": "AI Bets Surge: Strategy Inc. (formerly MicroStrategy) Jumps on Bitcoin Rebound",
-          "summary": "Strategy Inc. ($MSTR) rocketed 16.4% as Bitcoin reclaimed the $80,000 level, fueling a rally in crypto-related assets.",
-          "ticker": "$MSTR",
+          "headline": "Strategy Inc. (formerly MicroStrategy)",
+          "ticker": "$STRAT",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.4%",
-          "direction": "up"
+          "changePercent": "+16.40%",
+          "direction": "up",
+          "summary": "Led gainers as Bitcoin reclaimed $80,000 and the SEC cleared a path for tokenized stock trading."
         },
         {
-          "id": "gainer-coinbase",
-          "headline": "Coinbase Rallies as SEC Paves Way for Tokenized Stocks",
-          "summary": "Coinbase Global Inc. ($COIN) surged 11.39% after the SEC announced a five-year Innovation Exemption, establishing a legal pathway for tokenized U.S. stocks, boosting the digital assets sector.",
-          "ticker": "$COIN",
-          "price": "N/A",
+          "id": "gainer-sandisk",
+          "headline": "Sandisk",
+          "ticker": "$SNDK",
+          "price": "$1,791.82",
           "change": "N/A",
-          "changePercent": "+11.39%",
-          "direction": "up"
+          "changePercent": "+10.99%",
+          "direction": "up",
+          "summary": "A big winner, driven by its upcoming inclusion in the S&P 100 and continued strength in memory pricing."
         },
         {
-          "id": "loser-xenon",
-          "headline": "Xenon Pharmaceuticals Inc. Leads Declines",
-          "summary": "Xenon Pharmaceuticals Inc. ($XENE) was among the steepest decliners, falling 30.69% during Friday's session. Specific news for the sharp decline was not immediately available.",
+          "id": "loser-xenonpharma",
+          "headline": "Xenon Pharmaceuticals Inc.",
           "ticker": "$XENE",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-30.69%",
-          "direction": "down"
+          "direction": "down",
+          "summary": "Led daily decliners."
         },
         {
           "id": "loser-netflix",
-          "headline": "Netflix Slips on Downgrade and Viewer Concerns",
-          "summary": "Netflix ($NFLX) shares dropped 4.7% after Wells Fargo downgraded the stock, citing worrying viewer trends and a lack of breakout hits.",
+          "headline": "Netflix",
           "ticker": "$NFLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.7%",
-          "direction": "down"
+          "price": "$71.79",
+          "change": "-$3.52",
+          "changePercent": "-4.67%",
+          "direction": "down",
+          "summary": "Slipped after Wells Fargo downgraded the stock, citing worrying viewership trends and a lack of breakout hits."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News and Sector Analysis",
+      "title": "Market News (Friday, September 18, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-hike-impact",
-          "headline": "Federal Reserve Implements First Rate Hike in Three Years Amid Inflation Concerns",
-          "summary": "The Federal Reserve raised interest rates by a quarter-point this week, marking its first hike in three years. Chair Kevin Warsh's terse statement and market pricing suggest the possibility of one to two additional hikes before year-end, impacting interest-sensitive sectors and borrowing costs.",
+          "id": "fed-hike",
+          "headline": "Federal Reserve's Rate Hike Continues to Ripple Through Markets",
+          "summary": "The Federal Reserve's quarter-point rate hike earlier in the week, its first in three years, continued to influence market sentiment, with expectations of one or two additional hikes before year-end.",
           "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-09-18T16:00:00Z"
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Technology and Healthcare Lead Weekly Sector Gains; Utilities and Financials Lag",
-          "summary": "For the week, Technology (up 1.43%) and Healthcare (up 1.18%) were the best-performing sectors, with a notable rotation of money into AI-adjacent names. Conversely, Utilities (down 2.95%) and Financial Services (down 2.29%) were the worst performers, with banks facing pressure from rising rates.",
-          "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Healthcare",
-            "Financials"
-          ],
-          "timestamp": "2026-09-18T16:00:00Z"
+            "Fed",
+            "Interest Rates"
+          ]
         },
         {
           "id": "treasury-yields",
-          "headline": "10-Year Treasury Yield Touches 5.00%, Signaling Continued Market Pressure",
-          "summary": "The yield on the 10-year Treasury note climbed to 5.00% on Friday, reaching levels not seen since 2007. This key benchmark remains a critical level for investors, with potential implications for equity valuations, particularly in growth-sensitive sectors like AI.",
+          "headline": "10-Year Treasury Yield Climbs to 5.00%",
+          "summary": "The 10-year Treasury yield rose to 5.00%, a level not seen since 2023, increasing borrowing costs and making bonds relatively more attractive. The 2-year Treasury yield also climbed to 4.76%.",
           "tags": [
-            "Bond Market",
             "Treasury Yields",
-            "Macroeconomics"
-          ],
-          "timestamp": "2026-09-18T16:00:00Z"
+            "Bonds"
+          ]
         },
         {
-          "id": "buffett-retirement",
+          "id": "sector-performance",
+          "headline": "Tech and Healthcare Lead, Utilities and Financials Lag",
+          "summary": "Healthcare (+1.56%) and Technology (+1.03%) were the best-performing sectors. Conversely, Utilities (-2.95%) and Financial Services (-2.29%) were among the worst performers.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Healthcare"
+          ]
+        },
+        {
+          "id": "buffett-steps-down",
           "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
-          "summary": "Iconic investor Warren Buffett announced he is stepping down as chairman of Berkshire Hathaway after 56 years, transitioning to chairman emeritus. His son, Howard Buffett, will assume the chairman role.",
+          "summary": "Investing legend Warren Buffett announced his decision to step down as chairman of Berkshire Hathaway after 56 years, with his son Howard Buffett set to take over the role. Greg Abel remains CEO.",
           "tags": [
             "Corporate News",
-            "Leadership Change",
             "Berkshire Hathaway"
-          ],
-          "timestamp": "2026-09-18T16:00:00Z"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Mixed Economic Data Released",
+          "summary": "U.S. industrial production was flat in August, missing expectations, while initial jobless claims fell to a six-week low of 196,000. August retail sales showed a 1.2% increase from the previous month.",
+          "tags": [
+            "Economic Data",
+            "Jobs",
+            "Retail Sales"
+          ]
         }
       ]
     }
