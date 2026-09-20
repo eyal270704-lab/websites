@@ -1,32 +1,33 @@
 {
-  "generatedAt": "2026-09-20T12:00:00Z",
+  "generatedAt": "2026-09-20T15:04:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: September 20, 2026",
-  "subtitle": "Markets Closed on Sunday; Review of Friday, September 18, 2026 Session",
-  "badge": "Weekend Summary",
+  "title": "Daily Market Digest",
+  "subtitle": "Markets Closed Today, Reporting on Friday, September 18, 2026 Session",
+  "badge": "Markets Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Friday's Mixed Close Amid Fed Hike and Yield Surge",
+      "title": "Market Pulse: Mixed Close Caps Choppy Week Driven by Fed Hike and Yields",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-friday",
-          "headline": "U.S. Equities Closed Mixed on Friday Following Fed Rate Hike; Tech Sector Showed Strength",
-          "summary": "U.S. stock markets ended the week with a mixed performance on Friday, September 18, 2026. The Nasdaq Composite and S&P 500 posted modest gains, driven by strong performance in the technology sector, while the Dow Jones Industrial Average slipped. Investor sentiment was largely shaped by the Federal Reserve's recent interest rate hike and a surge in Treasury yields. Please note, markets are closed today, Sunday, September 20, 2026. This report summarizes the trading session of Friday, September 18, 2026. Not financial advice.",
+          "headline": "U.S. equities finished mixed on Friday, concluding a volatile week marked by the Federal Reserve's first interest rate hike in three years.",
+          "summary": "The Nasdaq Composite led gains, buoyed by a surge in AI-related stocks, while the Dow Jones Industrial Average extended its weekly decline. Rising 10-year Treasury yields, which reached 5.00%, continued to exert pressure across the broader market.",
           "tags": [
             "Market Overview",
-            "Fed",
-            "Treasury Yields"
-          ]
+            "Fed Rates",
+            "Bond Yields"
+          ],
+          "timestamp": "2026-09-18T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (September 18, 2026)",
+      "title": "Major Indices Performance (Friday, September 18, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
@@ -34,166 +35,146 @@
           "id": "sp500-friday",
           "statLabel": "S&P 500",
           "statValue": "7,650.50",
-          "statContext": "Up 0.2% on Friday."
+          "statContext": "Up 0.2% (+12.74 points)",
+          "ticker": "$SPX",
+          "price": "7,650.50",
+          "change": "+12.74",
+          "changePercent": "+0.2%",
+          "direction": "up"
         },
         {
           "id": "nasdaq-friday",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,522.55",
-          "statContext": "Gained 0.4% on Friday."
+          "statContext": "Up 0.4% (+104.25 points)",
+          "ticker": "$IXIC",
+          "price": "26,522.55",
+          "change": "+104.25",
+          "changePercent": "+0.4%",
+          "direction": "up"
         },
         {
           "id": "dow-friday",
-          "statLabel": "Dow Jones Ind. Average",
+          "statLabel": "DOW Jones Industrial Average",
           "statValue": "51,682.64",
-          "statContext": "Slipped 0.2% on Friday."
+          "statContext": "Down 0.2% (-95.40 points)",
+          "ticker": "$DJI",
+          "price": "51,682.64",
+          "change": "-95.40",
+          "changePercent": "-0.2%",
+          "direction": "down"
         },
         {
           "id": "russell2000-friday",
           "statLabel": "Russell 2000",
           "statValue": "2,860.40",
-          "statContext": "Fell 0.5% on Friday."
+          "statContext": "Down 0.5% (-14.23 points)",
+          "ticker": "$RUT",
+          "price": "2,860.40",
+          "change": "-14.23",
+          "changePercent": "-0.5%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Friday, September 18, 2026",
+      "title": "Top Movers (Friday, September 18, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-mstr",
-          "headline": "MicroStrategy Surges on Bitcoin Rebound",
+          "id": "gainer-strategy",
+          "headline": "AI Bets Surge: Strategy Inc. (formerly MicroStrategy) Jumps on Bitcoin Rebound",
+          "summary": "Strategy Inc. ($MSTR) rocketed 16.4% as Bitcoin reclaimed the $80,000 level, fueling a rally in crypto-related assets.",
           "ticker": "$MSTR",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+16.4%",
-          "direction": "up",
-          "summary": "Strategy (formerly MicroStrategy) rocketed 16.4% as Bitcoin reclaimed the $80,000 level."
+          "direction": "up"
         },
         {
-          "id": "gainer-coin",
-          "headline": "Coinbase Jumps on Crypto Rally",
+          "id": "gainer-coinbase",
+          "headline": "Coinbase Rallies as SEC Paves Way for Tokenized Stocks",
+          "summary": "Coinbase Global Inc. ($COIN) surged 11.39% after the SEC announced a five-year Innovation Exemption, establishing a legal pathway for tokenized U.S. stocks, boosting the digital assets sector.",
           "ticker": "$COIN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.7%",
-          "direction": "up",
-          "summary": "Coinbase Global climbed 11.7% for the biggest gain among S&P 500 stocks as the crypto complex rallied."
+          "changePercent": "+11.39%",
+          "direction": "up"
         },
         {
-          "id": "gainer-sndk",
-          "headline": "SanDisk Rises on S&P 100 Inclusion",
-          "ticker": "$SNDK",
+          "id": "loser-xenon",
+          "headline": "Xenon Pharmaceuticals Inc. Leads Declines",
+          "summary": "Xenon Pharmaceuticals Inc. ($XENE) was among the steepest decliners, falling 30.69% during Friday's session. Specific news for the sharp decline was not immediately available.",
+          "ticker": "$XENE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11%",
-          "direction": "up",
-          "summary": "SanDisk gained 11%, driven by its upcoming inclusion in the S&P 100 and continued strength in memory pricing."
+          "changePercent": "-30.69%",
+          "direction": "down"
         },
         {
-          "id": "loser-nflx",
-          "headline": "Netflix Drops After Downgrade",
+          "id": "loser-netflix",
+          "headline": "Netflix Slips on Downgrade and Viewer Concerns",
+          "summary": "Netflix ($NFLX) shares dropped 4.7% after Wells Fargo downgraded the stock, citing worrying viewer trends and a lack of breakout hits.",
           "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-4.7%",
-          "direction": "down",
-          "summary": "Netflix was hammered, down 4.7%, after Wells Fargo downgraded the stock citing worrying viewer trends and a lack of breakout hits."
-        },
-        {
-          "id": "loser-qcom",
-          "headline": "Qualcomm Slips as Rally Unwinds",
-          "ticker": "$QCOM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.8%",
-          "direction": "down",
-          "summary": "Qualcomm dropped nearly 6% as its recent rally unwound."
-        },
-        {
-          "id": "loser-gm",
-          "headline": "General Motors Experiences Decline",
-          "ticker": "$GM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.1%",
-          "direction": "down",
-          "summary": "General Motors fell 5.1% during Friday's trading session."
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News and Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-hike",
-          "headline": "Federal Reserve Hikes Rates for First Time in Three Years",
-          "summary": "The Federal Reserve raised its benchmark interest rate by a quarter point this week to a target range of 3.75% to 4.00%, marking its first hike in three years. Policymakers also signaled the possibility of another rate increase before year-end as inflation remains elevated.",
+          "id": "fed-hike-impact",
+          "headline": "Federal Reserve Implements First Rate Hike in Three Years Amid Inflation Concerns",
+          "summary": "The Federal Reserve raised interest rates by a quarter-point this week, marking its first hike in three years. Chair Kevin Warsh's terse statement and market pricing suggest the possibility of one to two additional hikes before year-end, impacting interest-sensitive sectors and borrowing costs.",
           "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Interest Rates"
-          ]
+            "Fed Policy",
+            "Interest Rates",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-09-18T16:00:00Z"
         },
         {
-          "id": "economic-treasury-yields",
-          "headline": "10-Year Treasury Yield Touches 5% Amid Rate Hike Expectations",
-          "summary": "The yield on the 10-year Treasury climbed to 5.00% on Friday, up from 4.94% late Thursday, topping 5% for the first time since 2023. This rise in bond yields reflects market confidence in further Federal Reserve rate hikes to combat inflation.",
-          "tags": [
-            "Economic Data",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "sector-tech-outperforms",
-          "headline": "Technology Sector Leads Market Strength on Friday",
-          "summary": "Tech stocks were the main market driver on September 18, with the Nasdaq index, dominated by tech stocks, showing strong performance with gains exceeding 1%. Artificial intelligence, cloud computing, and semiconductor sectors performed particularly well, driven by optimistic earnings expectations.",
+          "id": "sector-performance",
+          "headline": "Technology and Healthcare Lead Weekly Sector Gains; Utilities and Financials Lag",
+          "summary": "For the week, Technology (up 1.43%) and Healthcare (up 1.18%) were the best-performing sectors, with a notable rotation of money into AI-adjacent names. Conversely, Utilities (down 2.95%) and Financial Services (down 2.29%) were the worst performers, with banks facing pressure from rising rates.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "sector-energy-financials-lag",
-          "headline": "Energy and Financial Sectors Underperform Amid Rate Changes and Oil Fluctuations",
-          "summary": "In contrast to the strong performance of tech stocks, the energy sector fell 1.3%, mainly affected by international oil price fluctuations, while the financial sector declined 0.8%, reflecting market concerns about changes in the interest rate environment.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
+            "Healthcare",
             "Financials"
-          ]
+          ],
+          "timestamp": "2026-09-18T16:00:00Z"
         },
         {
-          "id": "economic-jobless-claims",
-          "headline": "Initial Jobless Claims Fall to Six-Week Low",
-          "summary": "Initial jobless claims for the week ending September 12 fell to 196,000, a decrease of 10,000 from the previous week's unrevised level, demonstrating the labor market is still holding up.",
+          "id": "treasury-yields",
+          "headline": "10-Year Treasury Yield Touches 5.00%, Signaling Continued Market Pressure",
+          "summary": "The yield on the 10-year Treasury note climbed to 5.00% on Friday, reaching levels not seen since 2007. This key benchmark remains a critical level for investors, with potential implications for equity valuations, particularly in growth-sensitive sectors like AI.",
           "tags": [
-            "Economic News",
-            "Labor Market"
-          ]
+            "Bond Market",
+            "Treasury Yields",
+            "Macroeconomics"
+          ],
+          "timestamp": "2026-09-18T16:00:00Z"
         },
         {
-          "id": "economic-industrial-production",
-          "headline": "U.S. Industrial Production Flat in August",
-          "summary": "U.S. industrial production was unchanged in August, missing expectations after increasing in July. Manufacturing output decreased by 0.3% in August.",
+          "id": "buffett-retirement",
+          "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
+          "summary": "Iconic investor Warren Buffett announced he is stepping down as chairman of Berkshire Hathaway after 56 years, transitioning to chairman emeritus. His son, Howard Buffett, will assume the chairman role.",
           "tags": [
-            "Economic News",
-            "Industrial Production"
-          ]
-        },
-        {
-          "id": "earnings-overview",
-          "headline": "No Major Earnings Reports on Friday, M&T Bank to Release Q3 Later",
-          "summary": "No major U.S. earnings reports were scheduled or released on Friday, September 18, 2026. However, M&T Bank Corporation ($MTB) announced it would release its third-quarter 2026 earnings results before the market opens on Friday, October 16, 2026.",
-          "tags": [
-            "Earnings Reports"
-          ]
+            "Corporate News",
+            "Leadership Change",
+            "Berkshire Hathaway"
+          ],
+          "timestamp": "2026-09-18T16:00:00Z"
         }
       ]
     }
