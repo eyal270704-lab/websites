@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T17:24:00Z",
+  "generatedAt": "2026-09-21T20:18:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market insights for September 21, 2026",
+  "subtitle": "September 21, 2026",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,85 +13,109 @@
       "layout": "featured",
       "items": [
         {
-          "id": "pulse-summary-20260921",
-          "headline": "U.S. stocks rally, led by tech and semiconductors, as oil prices retreat and bond yields ease.",
-          "summary": "U.S. equity markets opened higher on Monday, extending gains as investors responded positively to a retreat in oil prices and an easing of bond yields. Technology and semiconductor stocks were notable leaders, driving the S&P 500 and Nasdaq Composite higher. This renewed risk appetite comes after a volatile previous week marked by the Federal Reserve's recent interest rate hike and persistent inflation concerns.",
+          "id": "market-summary-20260921",
+          "headline": "Stocks Rise on Easing Oil Prices and Diplomatic Hopes; Fed's Rate Hike Looms",
+          "summary": "U.S. equities are showing a constructive start to the week, with major indices advancing in early trading as crude oil prices retreat. This positive shift follows a volatile period marked by the Federal Reserve's recent interest rate hike and ongoing geopolitical tensions. Investors are also finding optimism in upcoming diplomatic meetings, particularly the US-China summit slated for later this week.",
           "tags": [
-            "Market Summary",
-            "Technology",
+            "Market Sentiment",
             "Oil Prices",
-            "Interest Rates"
-          ]
+            "Fed"
+          ],
+          "timestamp": "2026-09-21T09:30:00Z"
         }
       ]
     },
     {
       "id": "major-indices-20260921",
-      "title": "Major Indices (Today's Mid-day Performance)",
+      "title": "Major Indices (Last Close: Sep 18, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-20260921",
+          "id": "sp500-close-20260918",
           "statLabel": "S&P 500",
-          "statValue": "7,731.05",
-          "statContext": "+80.55 (+1.05%)"
+          "statValue": "7,650.50",
+          "statContext": "Gained 0.2% on Sep 18, 2026. Up 0.67% in early trading Sep 21."
         },
         {
-          "id": "nasdaq-20260921",
+          "id": "nasdaq-close-20260918",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,951.97",
-          "statContext": "+429.42 (+1.62%)"
+          "statValue": "26,522.55",
+          "statContext": "Rose 0.4% on Sep 18, 2026. Advanced 0.77% in early trading Sep 21."
         },
         {
-          "id": "dow-20260921",
-          "statLabel": "DOW Jones Industrial Average",
-          "statValue": "51,937.48",
-          "statContext": "+254.84 (+0.49%)"
+          "id": "dow-close-20260918",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,682.64",
+          "statContext": "Slid 0.2% on Sep 18, 2026. Rose 0.61% in early trading Sep 21."
         }
       ]
     },
     {
       "id": "top-movers-20260921",
-      "title": "Top Movers (Today's Performance)",
+      "title": "Top Movers (Today)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-amd-20260921",
-          "headline": "$AMD surged on reports of planned price increases for its AI accelerators and GPUs.",
-          "ticker": "$AMD",
-          "price": "$606.60",
-          "change": "+$46.78",
-          "changePercent": "+8.35%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-intc-20260921",
-          "headline": "$INTC rose following news of a strategic partnership in Micro LED advanced packaging technology.",
+          "id": "intc-gainer-20260921",
+          "headline": "Intel Surges on Micro LED Partnership",
           "ticker": "$INTC",
           "price": "$117.77",
           "change": "+$9.17",
-          "changePercent": "+8.44%",
-          "direction": "up"
+          "changePercent": "+9.70%",
+          "direction": "up",
+          "summary": "Intel rallied following reports of a partnership with Taiwanese display-panel manufacturer AUO Optronics to jointly develop Micro LED advanced packaging technology."
         },
         {
-          "id": "loser-hpq-20260921",
-          "headline": "$HPQ declined after issuing a warning about a projected decline in global PC unit volumes for the coming year.",
-          "ticker": "$HPQ",
+          "id": "arm-gainer-20260921",
+          "headline": "Arm Posts Significant Gains",
+          "ticker": "$ARM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.75%",
-          "direction": "down"
+          "changePercent": "+15.60%",
+          "direction": "up",
+          "summary": "Arm shares saw a substantial increase in today's trading."
         },
         {
-          "id": "loser-nvo-20260921",
-          "headline": "$NVO tumbled as its unveiled long-term strategy and obesity ambitions failed to assuage investor concerns over competition.",
-          "ticker": "$NVO",
+          "id": "meta-gainer-20260921",
+          "headline": "Meta Platforms Jumps on Price Target Boost and Infrastructure News",
+          "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.01%",
-          "direction": "down"
+          "changePercent": "+11.84%",
+          "direction": "up",
+          "summary": "Meta Platforms gained after a sharp price target boost from Wells Fargo and an announcement regarding its 'Petal' high-capacity subsea cable linking the U.S. and France."
+        },
+        {
+          "id": "wbd-gainer-20260921",
+          "headline": "Warner Bros. Discovery Climbs on Merger Talk Progress",
+          "ticker": "$WBD",
+          "price": "$29.90",
+          "change": "+$2.10",
+          "changePercent": "+7.00%",
+          "direction": "up",
+          "summary": "Warner Bros. Discovery shares climbed amid reports of progress in negotiations to resolve legal challenges to its proposed merger with Paramount Skydance."
+        },
+        {
+          "id": "zto-loser-20260921",
+          "headline": "ZTO Express Cayman Inc. Experiences Decline",
+          "ticker": "$ZTO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.61%",
+          "direction": "down",
+          "summary": "ZTO Express Cayman Inc. was among the significant decliners in today's market."
+        },
+        {
+          "id": "pbls-loser-20260921",
+          "headline": "Parabilis Medicines Inc. Falls",
+          "ticker": "$PBLS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-15.97%",
+          "direction": "down",
+          "summary": "Parabilis Medicines Inc. saw a notable drop in its stock price today."
         }
       ]
     },
@@ -102,44 +126,63 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-semiconductor-20260921",
-          "headline": "Technology and semiconductor sectors lead market gains amidst renewed risk appetite.",
-          "summary": "The Information Technology Select Sector SPDR (XLK) gained 0.8% today, as tech and semiconductor stocks drove broader market advances. This leadership reflects a rotation into growth-oriented assets and positive sentiment, despite the broader market volatility seen recently.",
+          "id": "fed-rate-hike-20260921",
+          "headline": "Federal Reserve's Rate Hike Continues to Impact Markets",
+          "summary": "The Federal Reserve's unanimous decision last week to raise the federal funds target range by 25 basis points to 3.75%-4.00% is altering dynamics in U.S. equity and bond markets. Policymakers emphasized persistent inflation and strong consumer spending, with expectations for another rate hike by year-end.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "sector-utilities-20260921",
-          "headline": "Utility stocks underperform, marking the worst performance among sectors today.",
-          "summary": "The Utilities Select Sector SPDR (XLU) fell 1.4%, making utility stocks the weakest performers. This decline indicates a shift away from defensive sectors as investors embrace higher-risk, higher-reward assets.",
-          "tags": [
-            "Sector Analysis",
-            "Utilities"
-          ]
-        },
-        {
-          "id": "economic-fed-rates-20260921",
-          "headline": "Federal Reserve maintains hawkish stance with recent rate hike and projections for more tightening.",
-          "summary": "The Federal Reserve's September meeting, held last Wednesday, saw a unanimous vote to raise the federal funds target range by 25 basis points to 3.75%-4.00%. This marks the first hike since July 2023, with officials projecting further rate increases by year-end to combat persistent inflation. Chicago Fed President Austan Goolsbee also warned that fighting inflation might entail economic pain through higher unemployment.",
-          "tags": [
-            "Economic News",
-            "Federal Reserve",
+            "Fed",
             "Interest Rates",
-            "Inflation"
+            "Monetary Policy"
           ]
         },
         {
           "id": "economic-data-20260921",
-          "headline": "Strong economic data from 2Q26 and robust August jobs report highlight persistent inflation pressures.",
-          "summary": "The U.S. economy grew 1.5% in 2Q26, bolstered by a 3.4% rise in consumer spending and an 8.5% increase in business fixed investment, partly due to AI buildout. Additionally, the August Jobs Report exceeded expectations, with nonfarm payrolls rising by 162,000 and the unemployment rate holding steady at 4.1%. Core CPI also came in hotter than expected, underscoring ongoing inflationary pressures.",
+          "headline": "Mixed Economic Data Released",
+          "summary": "August's Core CPI came in hotter than expected, rising 0.3% month-over-month, primarily driven by communication prices. Meanwhile, manufacturing activity in New York state expanded at a slower pace in September, and August saw declines in building permits and housing starts.",
           "tags": [
-            "Economic News",
-            "GDP",
-            "Jobs Report",
-            "Inflation"
+            "CPI",
+            "Manufacturing",
+            "Housing"
+          ]
+        },
+        {
+          "id": "sector-performance-20260921",
+          "headline": "Technology Leads as Utilities and Materials Lag",
+          "summary": "The Technology sector continues its strong performance, with the Information Technology Select Sector SPDR ($XLK) gaining 0.8%. Other leading sectors include Communication Services and Industrials. Conversely, the Utilities sector ($XLU) fell 1.4%, making it one of the weakest performers alongside Materials.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Utilities"
+          ]
+        },
+        {
+          "id": "ai-impact-20260921",
+          "headline": "AI Remains a Key Driver for Market Performance",
+          "summary": "The AI sector continues to demonstrate significant momentum, with companies benefiting from the demand for chips and services related to artificial intelligence. This trend is expected to heavily influence Q3 earnings, particularly for tech giants like Nvidia and Micron, which are projected to see substantial growth.",
+          "tags": [
+            "AI",
+            "Semiconductors",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "earnings-outlook-20260921",
+          "headline": "Positive Outlook for Q3 Earnings Season",
+          "summary": "The overall setup for the Q3 earnings season remains very favorable, with S&P 500 earnings expected to increase by 24% from the same period last year, marking the eighth consecutive quarter of double-digit earnings growth. The Technology sector is a major contributor, though momentum is broad-based across 14 of 16 Zacks sectors. No major U.S. earnings reports were scheduled for today, September 21.",
+          "tags": [
+            "Earnings Season",
+            "Q3 Earnings",
+            "Corporate Performance"
+          ]
+        },
+        {
+          "id": "geopolitical-news-20260921",
+          "headline": "Diplomatic Hopes and Falling Oil Prices Ease Market Concerns",
+          "summary": "Markets are starting the week on a more constructive footing, driven by declining oil prices and increased optimism surrounding high-level diplomatic meetings. A summit between U.S. President Trump and Chinese President Xi Jinping is anticipated this week, with trade, tariffs, and AI safety among the expected discussion topics.",
+          "tags": [
+            "Geopolitics",
+            "Trade",
+            "Oil Prices"
           ]
         }
       ]
