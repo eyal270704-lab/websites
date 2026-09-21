@@ -1,193 +1,146 @@
 {
-  "generatedAt": "2026-09-21T13:36:00Z",
+  "generatedAt": "2026-09-21T17:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 21, 2026 - Afternoon Update",
+  "subtitle": "Market insights for September 21, 2026",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-20260921",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-092126",
-          "headline": "U.S. Stocks Trade Higher on Monday, Led by Tech",
-          "summary": "U.S. stock futures advanced on Monday, with the Nasdaq 100 leading gains, fueled by easing oil prices and a rally in chip stocks. Investors are also closely watching the upcoming U.S.-China summit later this week for potential trade and policy insights. This upward movement follows a mixed finish to last Friday's session, which saw the Dow decline while the S&P 500 and Nasdaq ended in positive territory.",
+          "id": "pulse-summary-20260921",
+          "headline": "U.S. stocks rally, led by tech and semiconductors, as oil prices retreat and bond yields ease.",
+          "summary": "U.S. equity markets opened higher on Monday, extending gains as investors responded positively to a retreat in oil prices and an easing of bond yields. Technology and semiconductor stocks were notable leaders, driving the S&P 500 and Nasdaq Composite higher. This renewed risk appetite comes after a volatile previous week marked by the Federal Reserve's recent interest rate hike and persistent inflation concerns.",
           "tags": [
-            "Market Open",
-            "U.S. Futures",
-            "Tech Rally",
+            "Market Summary",
+            "Technology",
             "Oil Prices",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
+            "Interest Rates"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices",
+      "id": "major-indices-20260921",
+      "title": "Major Indices (Today's Mid-day Performance)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "headline": "S&P 500 Futures Climb",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "Up 0.69%",
-          "statContext": "As of 8:25 a.m. EDT. Last close: 7,650.50 (+0.17%)"
+          "id": "sp500-20260921",
+          "statLabel": "S&P 500",
+          "statValue": "7,731.05",
+          "statContext": "+80.55 (+1.05%)"
         },
         {
-          "id": "nasdaq-performance",
-          "headline": "NASDAQ Futures Lead Gains",
-          "statLabel": "NASDAQ Futures",
-          "statValue": "Up 1.12%",
-          "statContext": "As of 8:25 a.m. EDT, pushing to multi-week highs. Last close: 26,522.55 (+0.39%)"
+          "id": "nasdaq-20260921",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,951.97",
+          "statContext": "+429.42 (+1.62%)"
         },
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Futures Higher",
-          "statLabel": "Dow Jones Futures",
-          "statValue": "Up 0.83%",
-          "statContext": "As of 8:25 a.m. EDT. Last close: 51,682.64 (-0.18%)"
+          "id": "dow-20260921",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "51,937.48",
+          "statContext": "+254.84 (+0.49%)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers",
+      "id": "top-movers-20260921",
+      "title": "Top Movers (Today's Performance)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mstr-gainer",
-          "headline": "MicroStrategy Surges",
-          "ticker": "$MSTR",
+          "id": "gainer-amd-20260921",
+          "headline": "$AMD surged on reports of planned price increases for its AI accelerators and GPUs.",
+          "ticker": "$AMD",
+          "price": "$606.60",
+          "change": "+$46.78",
+          "changePercent": "+8.35%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-intc-20260921",
+          "headline": "$INTC rose following news of a strategic partnership in Micro LED advanced packaging technology.",
+          "ticker": "$INTC",
+          "price": "$117.77",
+          "change": "+$9.17",
+          "changePercent": "+8.44%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-hpq-20260921",
+          "headline": "$HPQ declined after issuing a warning about a projected decline in global PC unit volumes for the coming year.",
+          "ticker": "$HPQ",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.39%",
-          "direction": "up",
-          "summary": "MicroStrategy gained significantly, driven by strength in Bitcoin."
+          "changePercent": "-4.75%",
+          "direction": "down"
         },
         {
-          "id": "ps-gainer",
-          "headline": "Pershing Square Jumps",
-          "ticker": "$PS",
+          "id": "loser-nvo-20260921",
+          "headline": "$NVO tumbled as its unveiled long-term strategy and obesity ambitions failed to assuage investor concerns over competition.",
+          "ticker": "$NVO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.69%",
-          "direction": "up",
-          "summary": "Pershing Square saw a strong rise due to sustained interest in its concentrated portfolio and active management approach."
-        },
-        {
-          "id": "coin-gainer",
-          "headline": "Coinbase Global Rallies",
-          "ticker": "$COIN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.66%",
-          "direction": "up",
-          "summary": "Coinbase Global climbed amid recent positive headlines in the cryptocurrency sector."
-        },
-        {
-          "id": "nk-industries-loser",
-          "headline": "N K Industries Ltd Plunges",
-          "ticker": "N/A (BSE listed)",
-          "price": "Rs 54",
-          "change": "N/A",
-          "changePercent": "-10.88%",
-          "direction": "down",
-          "summary": "N K Industries Ltd was among the biggest losers in the BSE's 'B' group."
-        },
-        {
-          "id": "asian-star-loser",
-          "headline": "Asian Star Company Ltd Tumbles",
-          "ticker": "N/A (BSE listed)",
-          "price": "Rs 743.2",
-          "change": "N/A",
-          "changePercent": "-10.00%",
-          "direction": "down",
-          "summary": "Asian Star Company Ltd experienced a significant drop today."
-        },
-        {
-          "id": "asts-loser",
-          "headline": "AST SpaceMobile Declines",
-          "ticker": "$ASTS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.68%",
-          "direction": "down",
-          "summary": "AST SpaceMobile shares saw a notable decline."
+          "changePercent": "-8.01%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-20260921",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-rate-hike-092126",
-          "headline": "Federal Reserve Raised Rates Last Week, More Hikes Expected",
-          "summary": "The Federal Open Market Committee (FOMC) unanimously voted last Wednesday, September 16, to raise its target range for the federal funds rate by 25 basis points to 3.75–4.00%, marking the first increase since July 2023. Projections released with the decision suggest further rate increases are anticipated, as the Fed aims to bring inflation back to its 2% target. Chicago Fed President Austan Goolsbee indicated that strong demand may be a contributing factor to persistent U.S. inflation.",
-          "tags": [
-            "Fed",
-            "Interest Rates",
-            "Inflation",
-            "Monetary Policy"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
-        },
-        {
-          "id": "sector-performance-092126",
-          "headline": "Technology and Semiconductors Lead; Utilities and Consumer Staples Lag",
-          "summary": "Today's market is seeing Technology, Semiconductors, and Communication Services as leading sectors. Financial institutions and real estate also show strong sentiment. Conversely, Utilities and Consumer Staples are lagging, alongside some defensive dividend stocks. There is evidence of a rotation away from cyclical sectors towards more structural earnings plays, particularly in the Nasdaq.",
+          "id": "sector-tech-semiconductor-20260921",
+          "headline": "Technology and semiconductor sectors lead market gains amidst renewed risk appetite.",
+          "summary": "The Information Technology Select Sector SPDR (XLK) gained 0.8% today, as tech and semiconductor stocks drove broader market advances. This leadership reflects a rotation into growth-oriented assets and positive sentiment, despite the broader market volatility seen recently.",
           "tags": [
             "Sector Analysis",
-            "Tech",
-            "Semiconductors",
-            "Utilities",
-            "Market Rotation"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
+            "Technology",
+            "Semiconductors"
+          ]
         },
         {
-          "id": "economic-data-092126",
-          "headline": "Mixed Economic Data: Manufacturing Slows, Jobless Claims Fall",
-          "summary": "New York state manufacturing activity expanded at a slower pace in September, with the business conditions index declining to 7.6. U.S. manufacturing output also slipped by 0.3% in August. However, jobless claims continued their positive trend, with initial jobless claims falling by 10,000 to 196,000 in the second week of September.",
+          "id": "sector-utilities-20260921",
+          "headline": "Utility stocks underperform, marking the worst performance among sectors today.",
+          "summary": "The Utilities Select Sector SPDR (XLU) fell 1.4%, making utility stocks the weakest performers. This decline indicates a shift away from defensive sectors as investors embrace higher-risk, higher-reward assets.",
           "tags": [
-            "Economic Data",
-            "Manufacturing",
-            "Jobless Claims"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
+            "Sector Analysis",
+            "Utilities"
+          ]
         },
         {
-          "id": "upcoming-earnings-092126",
-          "headline": "No Major Earnings Today, Key Reports Later This Week",
-          "summary": "There are no noteworthy earnings reports scheduled for release today, Monday, September 21. However, the week ahead features several significant reports, including Costco ($COST) after market close on Thursday, AutoZone ($AZO) before Tuesday's open, and Cintas ($CTAS), Paychex ($PAYX), and General Mills ($GIS) before Wednesday's open. The third-quarter earnings season preview indicates S&P 500 earnings are expected to increase by 24%.",
+          "id": "economic-fed-rates-20260921",
+          "headline": "Federal Reserve maintains hawkish stance with recent rate hike and projections for more tightening.",
+          "summary": "The Federal Reserve's September meeting, held last Wednesday, saw a unanimous vote to raise the federal funds target range by 25 basis points to 3.75%-4.00%. This marks the first hike since July 2023, with officials projecting further rate increases by year-end to combat persistent inflation. Chicago Fed President Austan Goolsbee also warned that fighting inflation might entail economic pain through higher unemployment.",
           "tags": [
-            "Earnings",
-            "Q3 Earnings Season"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
+          ]
         },
         {
-          "id": "macro-trends-092126",
-          "headline": "Oil Prices Ease Ahead of U.S.-China Summit",
-          "summary": "Oil prices retreated early Monday, with Brent crude falling for a fourth consecutive session, despite ongoing Middle East tensions. This easing contributes to the positive sentiment in equity markets. Investors are also keenly focused on the U.S.-China summit scheduled for September 24, where discussions are expected to cover tariffs, critical minerals, and artificial intelligence.",
+          "id": "economic-data-20260921",
+          "headline": "Strong economic data from 2Q26 and robust August jobs report highlight persistent inflation pressures.",
+          "summary": "The U.S. economy grew 1.5% in 2Q26, bolstered by a 3.4% rise in consumer spending and an 8.5% increase in business fixed investment, partly due to AI buildout. Additionally, the August Jobs Report exceeded expectations, with nonfarm payrolls rising by 162,000 and the unemployment rate holding steady at 4.1%. Core CPI also came in hotter than expected, underscoring ongoing inflationary pressures.",
           "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics",
-            "U.S.-China Relations",
-            "AI"
-          ],
-          "timestamp": "2026-09-21T13:36:00Z"
+            "Economic News",
+            "GDP",
+            "Jobs Report",
+            "Inflation"
+          ]
         }
       ]
     }
