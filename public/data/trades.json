@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T11:38:10.663242Z",
+  "generatedAt": "2026-09-21T12:32:19.619979Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 1,
+  "tradeCount": 4,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,6 +18,54 @@
       "footerTag": "High Risk - Lawsuits",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$MSFT",
+      "name": "Microsoft Corp.",
+      "sector": "Technology",
+      "currentPrice": "$493.78",
+      "entry": "$492.00",
+      "stop": "$462.00",
+      "structure": "Support Test / 20-day EMA",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Microsoft is trading above its key moving averages, indicating a bullish trend. The price is currently retesting the $492 support level and its 20-day EMA, suggesting a potential bounce. Relative volume is not elevated.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$559.82",
+      "entry": "$530.13",
+      "stop": "$495.00",
+      "structure": "Double-Bottom Breakout Retest",
+      "trend": "Strong Uptrend > 20MA",
+      "trendLabel": "Trend",
+      "analysis": "AMD is in a strong uptrend, trading significantly above its key moving averages after confirming a bullish double-bottom breakout. A swing entry on a pullback to retest the $530.13 breakout level or around the 20-day EMA could offer a high-confidence setup. Volume is elevated, supporting the bullish momentum.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NKE",
+      "name": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$35.51",
+      "entry": "$35.15",
+      "stop": "$34.90",
+      "structure": "52-week Low / Support Test",
+      "trend": "Downtrend < 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NIKE is in a strong downtrend, trading below all key moving averages and currently sitting near its 52-week low. It is testing immediate support at $35.15. While there's a possibility of a bounce from this level, the overall trend is bearish. Elevated volume is noted. Due to the strong downtrend and lack of a clear bullish reversal pattern, this is an avoid setup for long swing trades.",
+      "riskScore": 8,
+      "footerTag": "Avoid - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
