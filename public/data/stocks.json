@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-20T18:33:00Z",
+  "generatedAt": "2026-09-21T13:36:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Sunday, September 20, 2026 – Summarizing Friday's Close",
-  "badge": "Markets Closed",
+  "subtitle": "September 21, 2026 - Afternoon Update",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,146 +13,181 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Markets Closed for Weekend; Friday Saw Mixed Close Amid Rate Hike Aftermath",
-          "summary": "U.S. equity markets are closed today, Sunday, September 20, 2026. The last trading session on Friday, September 18, 2026, ended mixed as Wall Street continued to digest the Federal Reserve's recent interest rate hike, rising bond yields, and volatile oil prices. Technology and healthcare sectors showed strength, while utilities and financial services lagged.",
+          "id": "market-summary-092126",
+          "headline": "U.S. Stocks Trade Higher on Monday, Led by Tech",
+          "summary": "U.S. stock futures advanced on Monday, with the Nasdaq 100 leading gains, fueled by easing oil prices and a rally in chip stocks. Investors are also closely watching the upcoming U.S.-China summit later this week for potential trade and policy insights. This upward movement follows a mixed finish to last Friday's session, which saw the Dow decline while the S&P 500 and Nasdaq ended in positive territory.",
           "tags": [
-            "Market Closed",
-            "Weekend",
-            "Friday Recap"
-          ]
+            "Market Open",
+            "U.S. Futures",
+            "Tech Rally",
+            "Oil Prices",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Friday, September 18, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,650.50",
-          "statContext": "+0.17%",
-          "direction": "up"
+          "headline": "S&P 500 Futures Climb",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Up 0.69%",
+          "statContext": "As of 8:25 a.m. EDT. Last close: 7,650.50 (+0.17%)"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,522.55",
-          "statContext": "+0.39%",
-          "direction": "up"
+          "headline": "NASDAQ Futures Lead Gains",
+          "statLabel": "NASDAQ Futures",
+          "statValue": "Up 1.12%",
+          "statContext": "As of 8:25 a.m. EDT, pushing to multi-week highs. Last close: 26,522.55 (+0.39%)"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,682.64",
-          "statContext": "-0.18%",
-          "direction": "down"
+          "headline": "Dow Jones Futures Higher",
+          "statLabel": "Dow Jones Futures",
+          "statValue": "Up 0.83%",
+          "statContext": "As of 8:25 a.m. EDT. Last close: 51,682.64 (-0.18%)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Friday, September 18, 2026 Close)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-strategy",
-          "headline": "Strategy Inc. (formerly MicroStrategy)",
-          "ticker": "$STRAT",
+          "id": "mstr-gainer",
+          "headline": "MicroStrategy Surges",
+          "ticker": "$MSTR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+16.40%",
+          "changePercent": "+16.39%",
           "direction": "up",
-          "summary": "Led gainers as Bitcoin reclaimed $80,000 and the SEC cleared a path for tokenized stock trading."
+          "summary": "MicroStrategy gained significantly, driven by strength in Bitcoin."
         },
         {
-          "id": "gainer-sandisk",
-          "headline": "Sandisk",
-          "ticker": "$SNDK",
-          "price": "$1,791.82",
-          "change": "N/A",
-          "changePercent": "+10.99%",
-          "direction": "up",
-          "summary": "A big winner, driven by its upcoming inclusion in the S&P 100 and continued strength in memory pricing."
-        },
-        {
-          "id": "loser-xenonpharma",
-          "headline": "Xenon Pharmaceuticals Inc.",
-          "ticker": "$XENE",
+          "id": "ps-gainer",
+          "headline": "Pershing Square Jumps",
+          "ticker": "$PS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-30.69%",
-          "direction": "down",
-          "summary": "Led daily decliners."
+          "changePercent": "+13.69%",
+          "direction": "up",
+          "summary": "Pershing Square saw a strong rise due to sustained interest in its concentrated portfolio and active management approach."
         },
         {
-          "id": "loser-netflix",
-          "headline": "Netflix",
-          "ticker": "$NFLX",
-          "price": "$71.79",
-          "change": "-$3.52",
-          "changePercent": "-4.67%",
+          "id": "coin-gainer",
+          "headline": "Coinbase Global Rallies",
+          "ticker": "$COIN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11.66%",
+          "direction": "up",
+          "summary": "Coinbase Global climbed amid recent positive headlines in the cryptocurrency sector."
+        },
+        {
+          "id": "nk-industries-loser",
+          "headline": "N K Industries Ltd Plunges",
+          "ticker": "N/A (BSE listed)",
+          "price": "Rs 54",
+          "change": "N/A",
+          "changePercent": "-10.88%",
           "direction": "down",
-          "summary": "Slipped after Wells Fargo downgraded the stock, citing worrying viewership trends and a lack of breakout hits."
+          "summary": "N K Industries Ltd was among the biggest losers in the BSE's 'B' group."
+        },
+        {
+          "id": "asian-star-loser",
+          "headline": "Asian Star Company Ltd Tumbles",
+          "ticker": "N/A (BSE listed)",
+          "price": "Rs 743.2",
+          "change": "N/A",
+          "changePercent": "-10.00%",
+          "direction": "down",
+          "summary": "Asian Star Company Ltd experienced a significant drop today."
+        },
+        {
+          "id": "asts-loser",
+          "headline": "AST SpaceMobile Declines",
+          "ticker": "$ASTS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.68%",
+          "direction": "down",
+          "summary": "AST SpaceMobile shares saw a notable decline."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News (Friday, September 18, 2026)",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-hike",
-          "headline": "Federal Reserve's Rate Hike Continues to Ripple Through Markets",
-          "summary": "The Federal Reserve's quarter-point rate hike earlier in the week, its first in three years, continued to influence market sentiment, with expectations of one or two additional hikes before year-end.",
+          "id": "fed-rate-hike-092126",
+          "headline": "Federal Reserve Raised Rates Last Week, More Hikes Expected",
+          "summary": "The Federal Open Market Committee (FOMC) unanimously voted last Wednesday, September 16, to raise its target range for the federal funds rate by 25 basis points to 3.75–4.00%, marking the first increase since July 2023. Projections released with the decision suggest further rate increases are anticipated, as the Fed aims to bring inflation back to its 2% target. Chicago Fed President Austan Goolsbee indicated that strong demand may be a contributing factor to persistent U.S. inflation.",
           "tags": [
             "Fed",
-            "Interest Rates"
-          ]
+            "Interest Rates",
+            "Inflation",
+            "Monetary Policy"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
         },
         {
-          "id": "treasury-yields",
-          "headline": "10-Year Treasury Yield Climbs to 5.00%",
-          "summary": "The 10-year Treasury yield rose to 5.00%, a level not seen since 2023, increasing borrowing costs and making bonds relatively more attractive. The 2-year Treasury yield also climbed to 4.76%.",
-          "tags": [
-            "Treasury Yields",
-            "Bonds"
-          ]
-        },
-        {
-          "id": "sector-performance",
-          "headline": "Tech and Healthcare Lead, Utilities and Financials Lag",
-          "summary": "Healthcare (+1.56%) and Technology (+1.03%) were the best-performing sectors. Conversely, Utilities (-2.95%) and Financial Services (-2.29%) were among the worst performers.",
+          "id": "sector-performance-092126",
+          "headline": "Technology and Semiconductors Lead; Utilities and Consumer Staples Lag",
+          "summary": "Today's market is seeing Technology, Semiconductors, and Communication Services as leading sectors. Financial institutions and real estate also show strong sentiment. Conversely, Utilities and Consumer Staples are lagging, alongside some defensive dividend stocks. There is evidence of a rotation away from cyclical sectors towards more structural earnings plays, particularly in the Nasdaq.",
           "tags": [
             "Sector Analysis",
-            "Technology",
-            "Healthcare"
-          ]
+            "Tech",
+            "Semiconductors",
+            "Utilities",
+            "Market Rotation"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
         },
         {
-          "id": "buffett-steps-down",
-          "headline": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
-          "summary": "Investing legend Warren Buffett announced his decision to step down as chairman of Berkshire Hathaway after 56 years, with his son Howard Buffett set to take over the role. Greg Abel remains CEO.",
-          "tags": [
-            "Corporate News",
-            "Berkshire Hathaway"
-          ]
-        },
-        {
-          "id": "economic-data",
-          "headline": "Mixed Economic Data Released",
-          "summary": "U.S. industrial production was flat in August, missing expectations, while initial jobless claims fell to a six-week low of 196,000. August retail sales showed a 1.2% increase from the previous month.",
+          "id": "economic-data-092126",
+          "headline": "Mixed Economic Data: Manufacturing Slows, Jobless Claims Fall",
+          "summary": "New York state manufacturing activity expanded at a slower pace in September, with the business conditions index declining to 7.6. U.S. manufacturing output also slipped by 0.3% in August. However, jobless claims continued their positive trend, with initial jobless claims falling by 10,000 to 196,000 in the second week of September.",
           "tags": [
             "Economic Data",
-            "Jobs",
-            "Retail Sales"
-          ]
+            "Manufacturing",
+            "Jobless Claims"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
+        },
+        {
+          "id": "upcoming-earnings-092126",
+          "headline": "No Major Earnings Today, Key Reports Later This Week",
+          "summary": "There are no noteworthy earnings reports scheduled for release today, Monday, September 21. However, the week ahead features several significant reports, including Costco ($COST) after market close on Thursday, AutoZone ($AZO) before Tuesday's open, and Cintas ($CTAS), Paychex ($PAYX), and General Mills ($GIS) before Wednesday's open. The third-quarter earnings season preview indicates S&P 500 earnings are expected to increase by 24%.",
+          "tags": [
+            "Earnings",
+            "Q3 Earnings Season"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
+        },
+        {
+          "id": "macro-trends-092126",
+          "headline": "Oil Prices Ease Ahead of U.S.-China Summit",
+          "summary": "Oil prices retreated early Monday, with Brent crude falling for a fourth consecutive session, despite ongoing Middle East tensions. This easing contributes to the positive sentiment in equity markets. Investors are also keenly focused on the U.S.-China summit scheduled for September 24, where discussions are expected to cover tariffs, critical minerals, and artificial intelligence.",
+          "tags": [
+            "Macro Trends",
+            "Oil Prices",
+            "Geopolitics",
+            "U.S.-China Relations",
+            "AI"
+          ],
+          "timestamp": "2026-09-21T13:36:00Z"
         }
       ]
     }
