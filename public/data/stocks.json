@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T15:45:00Z",
+  "generatedAt": "2026-09-23T19:33:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Wednesday, September 23, 2026",
+  "subtitle": "September 23, 2026 - As of late trading today",
   "badge": "LIVE",
   "sections": [
     {
@@ -14,8 +14,15 @@
       "items": [
         {
           "id": "market-summary",
-          "headline": "U.S. Stocks Open Lower Amid Rising Oil Prices and Treasury Yields; Nasdaq Posts Record High Tuesday",
-          "summary": "U.S. stocks opened Wednesday's session broadly lower, facing pressure from a rebound in crude oil prices and increasing Treasury yields, which have reignited concerns about inflation and borrowing costs. This follows a mixed performance on Tuesday, where the Nasdaq Composite reached a new record closing high, largely driven by strong activity in technology and AI-related stocks. Despite projections from the OECD indicating stronger-than-expected global economic growth, overall market sentiment remains cautious due to the prolonged Middle East conflict and elevated energy prices."
+          "headline": "U.S. Stocks Decline Amid Inflation Worries, Rising Oil Prices, and Treasury Yields",
+          "summary": "U.S. equities are broadly lower in late trading today as a surge in crude oil prices and climbing Treasury yields rekindle inflation and borrowing-cost concerns. A surprisingly strong report on U.S. business activity also contributed to worries about intensified price pressures. Investors are closely monitoring diplomatic talks between the U.S. and Iran, and an upcoming summit between President Trump and Chinese President Xi Jinping. Not financial advice.",
+          "tags": [
+            "Market Overview",
+            "Inflation",
+            "Oil Prices",
+            "Treasury Yields"
+          ],
+          "timestamp": "2026-09-23T19:33:00Z"
         }
       ]
     },
@@ -26,70 +33,140 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-today",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,761.94",
-          "statContext": "Opened down 0.03% today, after closing marginally down Tuesday at 7,764.64."
+          "statValue": "7,703.11",
+          "statContext": "Down 0.79% today",
+          "ticker": "^GSPC",
+          "price": "$7,703.11",
+          "change": "-$61.53",
+          "changePercent": "-0.79%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-today",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "27,213.52",
-          "statContext": "Opened down 0.11% today, following a 0.5% gain to a record high of 27,244.28 on Tuesday."
+          "statValue": "26,896.56",
+          "statContext": "Down 1.27% today",
+          "ticker": "^IXIC",
+          "price": "$26,896.56",
+          "change": "-$347.71",
+          "changePercent": "-1.27%",
+          "direction": "down"
         },
         {
-          "id": "dow-today",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,771.41",
-          "statContext": "Opened down 0.18% today, after declining 0.4% to 51,863.69 on Tuesday."
+          "statValue": "51,554.74",
+          "statContext": "Down 0.60% today",
+          "ticker": "^DJI",
+          "price": "$51,554.74",
+          "change": "-$308.95",
+          "changePercent": "-0.60%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Today's Trading)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "ionq-gainer",
-          "headline": "IonQ Surges on Quantum Error Correction Breakthrough",
+          "headline": "IonQ Jumps on Quantum Error Correction Breakthrough",
+          "summary": "Shares of IonQ ($IONQ) climbed 5% today after the quantum computing company announced the development and testing of a real-time quantum error correction decoder.",
           "ticker": "$IONQ",
           "price": "N/A",
-          "change": "+5%",
+          "change": "N/A",
           "changePercent": "+5.00%",
-          "direction": "up",
-          "summary": "Shares of IonQ climbed 5% in early trading after the company announced a significant breakthrough in real-time quantum error correction, demonstrating an end-to-end decoder running on a single standard CPU."
+          "direction": "up"
+        },
+        {
+          "id": "cbri-gainer",
+          "headline": "Cracker Barrel Soars After Beating Earnings Estimates",
+          "summary": "Cracker Barrel Old Country Store ($CBRL) surged 8.3% to $49.25 after reporting fiscal fourth-quarter results that topped Wall Street's expectations.",
+          "ticker": "$CBRL",
+          "price": "$49.25",
+          "change": "N/A",
+          "changePercent": "+8.30%",
+          "direction": "up"
         },
         {
           "id": "wor-gainer",
-          "headline": "Worthington Enterprises Rises on Strong Q1 Earnings",
+          "headline": "Worthington Enterprises Up on Strong Q1 FY2027 Results",
+          "summary": "Worthington Enterprises ($WOR) saw its shares rise 2% following an upbeat Q1 FY2027 report, with revenue increasing 13.2% year-over-year and organic growth reaching 7%.",
           "ticker": "$WOR",
           "price": "N/A",
-          "change": "+2%",
+          "change": "N/A",
           "changePercent": "+2.00%",
-          "direction": "up",
-          "summary": "Worthington Enterprises stock surged 2% after reporting upbeat Q1 FY2027 results, with revenue rising 13.2% year-over-year and organic growth reaching 7%. The company highlighted growing demand for its engineered ASME tanks used in liquid cooling systems for data centers."
+          "direction": "up"
         },
         {
-          "id": "sndk-loser",
-          "headline": "Sandisk Sees Decline Despite Strong YTD Performance",
-          "ticker": "$SNDK",
-          "price": "N/A",
-          "change": "-2.93%",
-          "changePercent": "-2.93%",
-          "direction": "down",
-          "summary": "Sandisk shares saw a 2.93% decline in early trading. Despite this, the company has been the best-performing stock in the S&P 500 this year, largely driven by insatiable demand for memory chips fueled by the artificial intelligence boom."
+          "id": "jagx-loser",
+          "headline": "Jaguar Health Plummets",
+          "summary": "Jaguar Health, Inc. ($JAGX) shares experienced a significant drop today, falling 62.28% to $13.00. No specific news was immediately available for the sharp decline.",
+          "ticker": "$JAGX",
+          "price": "$13.00",
+          "change": "N/A",
+          "changePercent": "-62.28%",
+          "direction": "down"
         },
         {
-          "id": "xlf-loser",
-          "headline": "Financial Sector Under Pressure Amid Disruption Concerns",
-          "ticker": "$XLF",
-          "price": "N/A",
-          "change": "-2.00% (Tuesday)",
-          "changePercent": "-2.00%",
-          "direction": "down",
-          "summary": "The Financials Select Sector SPDR ($XLF) declined 2% on Tuesday, making it the weakest sector. This move was partly attributed to concerns that new AI technologies, such as Meta's Muse, could disrupt the banking and insurance industries."
+          "id": "adgm-loser",
+          "headline": "Adagio Medical Holdings Sees Steep Decline",
+          "summary": "Adagio Medical Holdings, Inc. ($ADGM) fell sharply today by 40.27% to $0.290. No specific news was immediately available for the movement.",
+          "ticker": "$ADGM",
+          "price": "$0.290",
+          "change": "N/A",
+          "changePercent": "-40.27%",
+          "direction": "down"
+        },
+        {
+          "id": "imcc-loser",
+          "headline": "IM Cannabis Corp. Drops",
+          "summary": "IM Cannabis Corp. ($IMCC) shares declined 31.16% to $2.850 today.",
+          "ticker": "$IMCC",
+          "price": "$2.850",
+          "change": "N/A",
+          "changePercent": "-31.16%",
+          "direction": "down"
+        },
+        {
+          "id": "consumer-lending-losers",
+          "headline": "Consumer Lending Stocks Slide on Credit Risk Repricing",
+          "summary": "Consumer lending companies like Upstart Holdings ($UPST), Affirm Holdings ($AFRM), and SoFi Technologies ($SOFI) saw declines of 4%, 4%, and 2% respectively, attributed to a repricing of consumer credit risk.",
+          "tags": [
+            "Consumer Lending",
+            "Financials"
+          ],
+          "items": [
+            {
+              "id": "upst-loser",
+              "ticker": "$UPST",
+              "price": "$24.91",
+              "change": "N/A",
+              "changePercent": "-4.00%",
+              "direction": "down"
+            },
+            {
+              "id": "afrm-loser",
+              "ticker": "$AFRM",
+              "price": "$68.79",
+              "change": "N/A",
+              "changePercent": "-4.00%",
+              "direction": "down"
+            },
+            {
+              "id": "sofi-loser",
+              "ticker": "$SOFI",
+              "price": "$16.82",
+              "change": "N/A",
+              "changePercent": "-2.00%",
+              "direction": "down"
+            }
+          ]
         }
       ]
     },
@@ -100,34 +177,61 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-growth-pmis",
-          "headline": "U.S. Business Growth Spikes to Five-Year High in September, Job Gains Accelerate",
-          "summary": "U.S. business activity experienced its fastest growth in over five years this September, with the S&P Global Flash Composite Output Index climbing to 58.4 from 56.0 in August. Employment also surged at a pace not seen in more than four years, although intensifying energy-fueled price pressures indicate a challenging inflation outlook.",
+          "id": "sector-performance",
+          "headline": "Technology and Consumer Staples Led Tuesday's Gains, Financials Lagging Today",
+          "summary": "On Tuesday, the Information Technology Select Sector SPDR ($XLK) rose 0.7%, and the Consumer Staples Select Sector SPDR ($XLP) added 1%. However, financial stocks, including major banks, are under pressure today with the Financials Select Sector SPDR ($XLF) declining 2% on Tuesday, due to concerns that Meta's new AI assistant 'Muse' could lead to consumers seeking cheaper alternatives for financial services.",
           "tags": [
-            "Economic Data",
-            "PMI",
-            "Jobs"
+            "Sector Analysis",
+            "Technology",
+            "Consumer Staples",
+            "Financials",
+            "AI"
           ]
         },
         {
-          "id": "oecd-outlook",
-          "headline": "OECD Highlights Resilient Global Growth but Warns of Mounting Threats",
-          "summary": "The Organization for Economic Cooperation and Development (OECD) reported that global economic growth is holding up better than expected, with a projected 2.9% increase in output for 2026, an upward revision from its June forecast. However, the organization cautioned that a prolonged Middle East conflict and elevated energy prices could keep inflation rates higher than anticipated."
+          "id": "economic-data-inflation",
+          "headline": "U.S. Business Activity Surges to Five-Year High, Raising Inflation Concerns",
+          "summary": "A preliminary report indicated that U.S. business activity in September surged to its strongest level in over five years, with the S&P Global's composite Purchasing Managers' Index (PMI) rising to 58.4 from 56.0 in August. This robust economic data, coupled with increased input prices, has intensified worries about inflation and its potential impact on interest rates.",
+          "tags": [
+            "Economic News",
+            "Inflation",
+            "PMI"
+          ]
+        },
+        {
+          "id": "fed-rate-hike",
+          "headline": "Federal Reserve's Recent Rate Hike Impacts Market Sentiment",
+          "summary": "The Federal Reserve raised interest rates last week (September 16, 2026) to a target range of 3.75%-4.00%, the first increase since 2023, in an ongoing effort to combat elevated inflation. This move is contributing to the current market pressure as higher rates typically increase borrowing costs and can weigh on economically sensitive sectors.",
+          "tags": [
+            "Economic News",
+            "Federal Reserve",
+            "Interest Rates"
+          ]
+        },
+        {
+          "id": "geopolitical-tensions",
+          "headline": "U.S.-Iran Diplomatic Talks and U.S.-China Summit in Focus",
+          "summary": "Markets are keenly watching diplomatic developments, including ongoing talks between U.S. and Iranian officials, which President Trump described as a 'very good meeting'. Additionally, President Trump is preparing to host Chinese President Xi Jinping in Washington later this week for discussions on trade and broader economic issues.",
+          "tags": [
+            "Geopolitical",
+            "Trade",
+            "Diplomacy"
+          ]
+        },
+        {
+          "id": "us-national-debt",
+          "headline": "U.S. Government Fiscal Picture Worsens, Debt Exceeds $40 Trillion",
+          "summary": "The U.S. government is projected to overspend by more than $2 trillion in its 2026 fiscal year, with the total public debt outstanding surpassing $40 trillion. This escalating debt, partly driven by increased interest payment costs, is a significant macro trend affecting markets.",
+          "tags": [
+            "Economic News",
+            "National Debt",
+            "Fiscal Policy"
+          ]
         },
         {
           "id": "earnings-reports",
-          "headline": "Cracker Barrel Reports Q4 FY2026 Results; Cintas, General Mills Also Report",
-          "summary": "Cracker Barrel Old Country Store ($CBRL) reported a 2.2% decrease in total revenue for Q4 FY2026, though it offered a positive FY2027 outlook, projecting comparable store restaurant sales growth of 3% to 5%. Cintas Corporation ($CTAS) and General Mills ($GIS) are also scheduled to release their quarterly earnings today, drawing investor attention for insights into corporate performance and consumer trends."
-        },
-        {
-          "id": "oil-treasury-impact",
-          "headline": "Rising Oil Prices and Treasury Yields Weigh on Market Sentiment",
-          "summary": "Brent crude oil prices rebounded above $100 per barrel today after falling below $100 for the first time since early September on Tuesday. This rise, coupled with climbing U.S. Treasury yields (10-year yield near 4.90%), is fueling renewed concerns about inflation and higher borrowing costs, contributing to the broader market's early declines."
-        },
-        {
-          "id": "ai-semiconductor-boom",
-          "headline": "AI Investment Fuels Semiconductor Demand and Tech Sector Strength",
-          "summary": "The artificial intelligence (AI) investment boom continues to be a significant market driver, boosting demand for semiconductors and related technology. This trend has provided support to the tech sector, with chip stocks experiencing gains and companies like Worthington Enterprises ($WOR) benefiting from increased demand for products used in data center cooling systems."
+          "headline": "Cintas Reports Strong Q1, General Mills and Others Expected to Report",
+          "summary": "Cintas Corporation ($CTAS) reported strong Q1 fiscal 2027 results with revenue up 10.9% and diluted EPS increasing by 13.3%. Cracker Barrel ($CBRL) and Worthington Enterprises ($WOR) also announced upbeat earnings today. General Mills ($GIS) and Paychex ($PAYX) are among several other major companies expected to report earnings today."
         }
       ]
     }
