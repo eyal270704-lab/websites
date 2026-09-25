@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-25T12:33:00Z",
+  "generatedAt": "2026-09-25T16:07:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, September 25, 2026 - Pre-market Update",
-  "badge": "LIVE - Pre-market",
+  "subtitle": "September 25, 2026 - Market Close",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,111 +13,118 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-sep25",
-          "headline": "U.S. Futures Edge Higher as Bond Market Stabilizes and Oil Prices Ease",
-          "summary": "U.S. stock futures are showing positive movement in pre-market trading this Friday, with indices poised for an upward open. This follows a period of bond market stabilization and a notable drop in oil prices, fueled by hopes of diplomatic progress regarding the Strait of Hormuz. Geopolitical risks in the Middle East and ongoing bond market volatility, however, continue to be closely monitored by investors."
+          "id": "market-summary",
+          "headline": "U.S. Stocks End Mixed Amid Volatility from Yields, Oil, and Geopolitical Tensions",
+          "summary": "U.S. equities experienced a mixed and volatile session on Friday, with major indices reacting to persistent high Treasury yields, fluctuating oil prices, and ongoing geopolitical concerns in the Middle East. The Dow Jones Industrial Average registered its third consecutive day of losses, while the S&P 500 saw a slight dip. The tech-heavy Nasdaq Composite managed a marginal gain, buoyed by strength in communication services and healthcare sectors.",
+          "tags": [
+            "Market Overview",
+            "Sentiment",
+            "Volatility"
+          ],
+          "timestamp": "2026-09-25T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Pre-market)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-premarket",
-          "statLabel": "S&P 500 Futures",
-          "statValue": "769.74",
-          "statContext": "+2.56 (+0.33%)",
-          "change": "+$2.56",
-          "changePercent": "+0.33%",
-          "direction": "up"
+          "id": "sp500",
+          "statLabel": "S&P 500",
+          "statValue": "7,704.13",
+          "statContext": "-0.02% (-1.54 points)"
         },
         {
-          "id": "nasdaq-premarket",
-          "statLabel": "NASDAQ 100 Futures",
-          "statValue": "745.29",
-          "statContext": "+4.19 (+0.57%)",
-          "change": "+$4.19",
-          "changePercent": "+0.57%",
-          "direction": "up"
+          "id": "nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,939.37",
+          "statContext": "+0.01% (+2.69 points)"
         },
         {
-          "id": "dow-premarket",
-          "statLabel": "DOW Futures",
-          "statValue": "514.13",
-          "statContext": "+1.45 (+0.28%)",
-          "change": "+$1.45",
-          "changePercent": "+0.28%",
-          "direction": "up"
+          "id": "dow",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,349.98",
+          "statContext": "-0.30% (-161.61 points)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Pre-market)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-apimeds",
-          "headline": "Apimeds Pharmaceuticals Surges on Strong Pre-market Activity",
-          "summary": "Apimeds Pharmaceuticals US, Inc. ($APUS) experienced a significant pre-market rally, jumping 193.89% to $6.73, making it one of the largest gainers.",
-          "ticker": "$APUS",
-          "price": "$6.73",
-          "change": "+$4.44",
-          "changePercent": "+193.89%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-surrozen",
-          "headline": "Surrozen, Inc. Sees Substantial Pre-market Gains",
-          "summary": "Surrozen, Inc. ($SRZN) climbed 85.64% to $30.00 in early trading, indicating strong investor interest.",
-          "ticker": "$SRZN",
-          "price": "$30.00",
-          "change": "+$13.84",
-          "changePercent": "+85.64%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-akamai",
-          "headline": "Akamai Jumps on Major Anthropic Deal",
-          "summary": "Akamai ($AKAM) rose 21% in pre-market after securing an $11.6 billion deal with Anthropic.",
+          "id": "akamai-gainer",
+          "headline": "Akamai Surges on Major AI Cloud Deal",
+          "summary": "Akamai Technologies ($AKAM) rallied after securing a seven-year, $11.6 billion cloud services commitment from AI company Anthropic, signaling robust demand for AI infrastructure.",
           "ticker": "$AKAM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+21.00%",
+          "changePercent": "+8.78%",
           "direction": "up"
         },
         {
-          "id": "loser-artelo",
-          "headline": "Artelo Biosciences Plunges in Pre-market Trading",
-          "summary": "Artelo Biosciences, Inc. ($ARTL) dropped sharply by 33.38% to $4.87, facing significant selling pressure.",
-          "ticker": "$ARTL",
-          "price": "$4.87",
-          "change": "-$2.44",
-          "changePercent": "-33.38%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-beneficient",
-          "headline": "Beneficient Experiences Steep Decline Pre-market",
-          "summary": "Beneficient ($BENF) fell 33.10% to $1.94 during pre-market, marking it among the day's biggest losers.",
-          "ticker": "$BENF",
-          "price": "$1.94",
-          "change": "-$0.96",
-          "changePercent": "-33.10%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-nike",
-          "headline": "Nike Dips After Bank of America Downgrade",
-          "summary": "Nike ($NKE) shares dipped over 2% in pre-market trading after BofA downgraded the stock to Underperform, citing a delayed sales recovery into fiscal 2028.",
-          "ticker": "$NKE",
+          "id": "datadog-gainer",
+          "headline": "Datadog Gains Ahead of Earnings Release",
+          "summary": "Datadog ($DDOG) saw significant buying activity as traders positioned themselves ahead of the cloud-based monitoring, security, and analytics platform's upcoming earnings report.",
+          "ticker": "$DDOG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.00%",
+          "changePercent": "+7.28%",
+          "direction": "up"
+        },
+        {
+          "id": "peopleinc-gainer",
+          "headline": "People Incorporated Jumps on Takeover Talk",
+          "summary": "Digital media company People Incorporated ($PPLI) experienced a sharp increase following a Wall Street Journal report indicating that MGM Resorts International ($MGM) is considering a potential takeover bid.",
+          "ticker": "$PPLI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.90%",
+          "direction": "up"
+        },
+        {
+          "id": "zscaler-loser",
+          "headline": "Zscaler Drops on CRO Appointment",
+          "summary": "Cybersecurity firm Zscaler ($ZS) declined after announcing Ross Tackett as its new chief revenue officer, effective October 1, raising investor concerns.",
+          "ticker": "$ZS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.64%",
+          "direction": "down"
+        },
+        {
+          "id": "twilio-loser",
+          "headline": "Twilio Hit by Analyst Downgrade",
+          "summary": "Cloud communications company Twilio ($TWLO) fell significantly after HSBC downgraded its stock to 'reduce' from 'hold', citing a $211 price target.",
+          "ticker": "$TWLO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.22%",
+          "direction": "down"
+        },
+        {
+          "id": "oracle-loser",
+          "headline": "Oracle Declines Amid Data Center Project Delays",
+          "summary": "Oracle Corporation ($ORCL) shares fell after reports indicated the company invoked force majeure to mitigate liability for potential delays in a New Mexico data center project.",
+          "ticker": "$ORCL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.50%",
+          "direction": "down"
+        },
+        {
+          "id": "astrotech-loser",
+          "headline": "Astrotech Reports Widened Fiscal 2026 Net Loss",
+          "summary": "Astrotech ($ASTC) reported a fiscal 2026 net loss of $14.4 million, widened from the previous year, with revenue falling to $913,000 from $1.049 million, impacting investor sentiment.",
+          "ticker": "$ASTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "N/A",
           "direction": "down"
         }
       ]
@@ -129,44 +136,57 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-sep25",
-          "headline": "Key Economic Data Releases Set for Friday",
-          "summary": "Investors are awaiting several key economic data releases today, including the August Durable Goods Orders (preliminary) at 8:30 AM ET and the final September University of Michigan Consumer Sentiment Index at 10:00 AM ET. These reports will offer further insights into consumer confidence and manufacturing activity, influencing market direction.",
+          "id": "economic-data-release",
+          "headline": "Mixed Economic Data Released, Consumer Sentiment Dips",
+          "summary": "The Labor Department reported jobless claims at 197,000 for the week ending September 19, a decrease of 1,000, while U.S. new home sales in August jumped 6.4% to 684,000 units. However, the University of Michigan's consumer sentiment index for September fell 7% to 48.1, indicating consumers are bracing for 4.6% inflation in the coming year. Durable goods orders for August were reported.",
           "tags": [
             "Economic Data",
             "Consumer Sentiment",
-            "Manufacturing"
-          ]
-        },
-        {
-          "id": "oil-prices-hormuz",
-          "headline": "Oil Prices Retreat on Hopes of Hormuz Reopening",
-          "summary": "Oil prices have pulled back on Friday, with Brent crude down 1.1% and West Texas Intermediate down 1.8%, driven by increasing hopes of diplomatic progress between the U.S. and Iran concerning the reopening of the Strait of Hormuz. This potential de-escalation of geopolitical tensions is easing inflation concerns.",
-          "tags": [
-            "Commodities",
-            "Geopolitics",
             "Inflation"
-          ]
+          ],
+          "timestamp": "2026-09-25T12:00:00Z"
         },
         {
-          "id": "bond-yields-stabilize",
-          "headline": "U.S. Treasury Yields Ease Slightly After Volatile Week",
-          "summary": "U.S. Treasury yields are showing signs of stabilization in early Friday trading, with the 10-year Treasury easing slightly to around 5.17% after hitting a 19-year high of 5.225% on Thursday. Elevated government bond yields have been a significant pressure point on equity markets due to inflationary pressures and rising U.S. government debt.",
+          "id": "fed-policy-impact",
+          "headline": "Fed's September Rate Hike Continues to Influence Market Outlook",
+          "summary": "The Federal Reserve's 0.25% interest rate hike in September, raising the federal funds rate target to 3.75%-4.00%, remains a key market driver. Fed Chair Kevin Warsh's comments, emphasizing a commitment to price stability and signaling potential for further increases, contribute to ongoing investor focus on monetary policy. Markets are pricing a 74% chance of another 25-bps hike by the October 28th FOMC meeting.",
           "tags": [
-            "Bonds",
-            "Treasury Yields",
+            "Federal Reserve",
+            "Interest Rates",
             "Monetary Policy"
-          ]
+          ],
+          "timestamp": "2026-09-25T14:30:00Z"
         },
         {
-          "id": "us-china-meeting",
-          "headline": "U.S. and China Leaders Conclude Summit",
-          "summary": "President Donald Trump and Chinese leader Xi Jinping are concluding their U.S. state visit today, with discussions covering trade, artificial intelligence, and the Middle East. President Trump emphasized building a relationship that promotes prosperity and security.",
+          "id": "sector-performance",
+          "headline": "Communication Services and Healthcare Lead, Materials and Utilities Lag",
+          "summary": "Communication Services (+1.3%) and Health Care (+0.6%) were among the strongest performing sectors today. Conversely, Materials (-1.2%) and Utilities (-1.0%) were the worst performers, with eight of the eleven S&P 500 sectors closing in negative territory, highlighting a broad but uneven market downturn.",
+          "tags": [
+            "Sector Analysis",
+            "Market Trends"
+          ],
+          "timestamp": "2026-09-25T16:00:00Z"
+        },
+        {
+          "id": "geopolitical-oil-yields",
+          "headline": "Geopolitical Tensions and Elevated Yields Drive Market Caution",
+          "summary": "Uncertainty surrounding the Middle East, coupled with persistently high Treasury yields (10-year yield hovering around 5.18%-5.22% and 30-year yield near 5.5%), continued to exert pressure on market sentiment. Oil prices, after an initial rise, eased later in the day, providing some relief but not fully offsetting broader concerns.",
           "tags": [
             "Geopolitics",
-            "Trade",
-            "Diplomacy"
-          ]
+            "Bond Yields",
+            "Oil Prices",
+            "Macro Trends"
+          ],
+          "timestamp": "2026-09-25T15:30:00Z"
+        },
+        {
+          "id": "earnings-overview",
+          "headline": "Tamboran Resources and Astrotech Headline Light Earnings Day",
+          "summary": "Tamboran Resources Corporation ($TBN) was anticipated to release its earnings report before market open. Astrotech ($ASTC) reported a significant fiscal 2026 net loss of $14.4 million on reduced revenue. Overall, it was a relatively light week for major earnings announcements.",
+          "tags": [
+            "Earnings Reports"
+          ],
+          "timestamp": "2026-09-25T15:00:00Z"
         }
       ]
     }
