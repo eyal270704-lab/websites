@@ -1,66 +1,92 @@
 {
-  "generatedAt": "2026-09-26T12:02:00Z",
+  "generatedAt": "2026-09-26T15:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Market Close: Friday, September 25, 2026",
-  "badge": "Last Session Summary",
+  "subtitle": "Summarizing the market close on Friday, September 25, 2026",
+  "badge": "Last Session Update",
   "sections": [
     {
-      "id": "market-pulse-friday",
-      "title": "Market Pulse: Friday, September 25, 2026",
+      "id": "market-pulse-20260925",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. Stocks End Week Strong, Driven by Tech Gains and Easing Oil Prices",
-          "summary": "U.S. equities closed out their first winning week in three, with major indices advancing on Friday. The S&P 500, NASDAQ, and Dow Jones Industrial Average all posted solid gains, fueled by a rotation into growth stocks, particularly in the technology sector, and a notable cooldown in oil prices. Market sentiment benefited from renewed enthusiasm for artificial intelligence initiatives, though elevated Treasury yields remained a key concern.",
+          "id": "market-summary-20260925",
+          "headline": "US Stocks Close Higher, First Winning Week in Three",
+          "summary": "U.S. equities ended broadly higher on Friday, capping their first winning week in the last three, as a cooldown in oil prices and easing Treasury yields provided relief. Despite earlier geopolitical concerns and a Fed rate hike during the week, Wall Street showed resilience, with technology and communication services sectors driving much of the positive movement.",
           "tags": [
             "Market Close",
-            "Positive",
-            "Technology",
-            "Oil Prices"
+            "Positive Sentiment",
+            "Oil Prices",
+            "Treasury Yields"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-friday",
-      "title": "Major Indices Performance (September 25, 2026)",
+      "id": "major-indices-20260925",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-friday",
+          "id": "sp500-20260925",
           "statLabel": "S&P 500",
           "statValue": "7,743.41",
-          "statContext": "+0.5% on Friday, +1.2% for the week."
+          "statContext": "+0.51% (+39.28 points) on Friday."
         },
         {
-          "id": "nasdaq-friday",
+          "id": "nasdaq-20260925",
           "statLabel": "NASDAQ Composite",
           "statValue": "27,068.72",
-          "statContext": "+0.5% on Friday, +2.1% for the week."
+          "statContext": "+0.48% (+129.34 points) on Friday."
         },
         {
-          "id": "dow-friday",
+          "id": "dowjones-20260925",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,828.62",
-          "statContext": "+0.9% on Friday, +0.3% for the week."
+          "statContext": "+0.93% (+478.64 points) on Friday."
+        },
+        {
+          "id": "russell2000-20260925",
+          "statLabel": "Russell 2000",
+          "statValue": "2,837.55",
+          "statContext": "+0.1% (+1.98 points) on Friday."
         }
       ]
     },
     {
-      "id": "top-movers-friday",
-      "title": "Top Movers: Friday, September 25, 2026",
+      "id": "top-movers-20260925",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-dell",
-          "headline": "Dell Rallies on Analyst Upgrade",
-          "summary": "Dell Technologies ($DELL) surged following Morgan Stanley's decision to raise its bull-case price target for the company, highlighting strong confidence in its outlook.",
+          "id": "akam-gainer-20260925",
+          "headline": "Akamai Technologies Surges on Anthropic Deal",
+          "summary": "Akamai Technologies ($AKAM) surged 8.78% after announcing a seven-year, $11.6 billion cloud services commitment from AI company Anthropic.",
+          "ticker": "$AKAM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.78%",
+          "direction": "up"
+        },
+        {
+          "id": "ppli-gainer-20260925",
+          "headline": "People Incorporated Jumps on Potential MGM Bid",
+          "summary": "Digital media and holding company People Incorporated ($PPLI) jumped 8.9% following reports that MGM Resorts International (MGM) is weighing a potential takeover bid.",
+          "ticker": "$PPLI",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+8.9%",
+          "direction": "up"
+        },
+        {
+          "id": "dell-gainer-20260925",
+          "headline": "Dell Technologies Rises on Analyst Upgrade",
+          "summary": "Dell Technologies ($DELL) gained 5.08% after Morgan Stanley raised the odds of its bull-case price target for the company.",
           "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
@@ -68,111 +94,107 @@
           "direction": "up"
         },
         {
-          "id": "gainer-onsemi",
-          "headline": "ON Semiconductor Leads Chipmakers Higher",
-          "summary": "ON Semiconductor ($ON) experienced significant gains as the information technology sector, particularly semiconductor and AI-related names, led market advances.",
-          "ticker": "$ON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.51%",
+          "id": "msft-gainer-20260925",
+          "headline": "Microsoft Leads Tech Gains",
+          "summary": "Microsoft Corp ($MSFT) advanced 3.66% to close at $516.17, contributing to the tech sector's strong performance.",
+          "ticker": "$MSFT",
+          "price": "$516.17",
+          "change": "+$18.24",
+          "changePercent": "+3.66%",
           "direction": "up"
         },
         {
-          "id": "gainer-mchp",
-          "headline": "Microchip Technology Posts Strong Performance",
-          "summary": "Microchip Technology ($MCHP) saw robust performance, contributing to the broader strength in the technology sector driven by renewed interest in growth stocks.",
-          "ticker": "$MCHP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.33%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-zs",
-          "headline": "Zscaler Drops Among Worst Performers",
-          "summary": "Cloud security firm Zscaler Inc. ($ZS) was among the biggest losers, experiencing a notable decline during Friday's trading session.",
-          "ticker": "$ZS",
-          "price": "$194.38",
-          "change": "-$20.36",
-          "changePercent": "-9.48%",
+          "id": "meta-loser-20260925",
+          "headline": "Meta Platforms Declines",
+          "summary": "Meta Platforms Inc ($META) declined 3.33% to close at $751.66, emerging as a notable loser among the S&P 500's top components.",
+          "ticker": "$META",
+          "price": "$751.66",
+          "change": "-$25.93",
+          "changePercent": "-3.33%",
           "direction": "down"
         },
         {
-          "id": "loser-mpc",
-          "headline": "Marathon Petroleum Down with Energy Sector",
-          "summary": "Marathon Petroleum Corp ($MPC) declined as the energy sector lagged due to a cooldown in Brent crude oil prices.",
-          "ticker": "$MPC",
+          "id": "twlo-loser-20260925",
+          "headline": "Twilio Falls on HSBC Downgrade",
+          "summary": "Twilio ($TWLO) lost 4.41% after HSBC downgraded the cloud communications company to 'reduce' from 'hold'.",
+          "ticker": "$TWLO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.16%",
+          "changePercent": "-4.41%",
           "direction": "down"
         },
         {
-          "id": "loser-fang",
-          "headline": "Diamondback Energy Hit by Oil Price Dip",
-          "summary": "Diamondback Energy ($FANG) was down, reflecting the broader weakness in oil and gas stocks as crude prices softened.",
-          "ticker": "$FANG",
+          "id": "dvn-loser-20260925",
+          "headline": "Energy Stocks Slip Amid Lower Crude Prices",
+          "summary": "Devon Energy ($DVN) dropped 3.78% as lower crude oil prices weighed on revenue expectations for energy producers.",
+          "ticker": "$DVN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.52%",
+          "changePercent": "-3.78%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-friday",
-      "title": "Market News & Analysis",
+      "id": "market-news-20260925",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-it-leads",
-          "headline": "Information Technology Leads Sector Gains",
-          "summary": "The Information Technology sector was the top-performing sector on Friday, registering a 0.99% gain. This strong showing was primarily driven by positive momentum in semiconductor and AI-related stocks, indicating a rotation back into growth-oriented assets.",
+          "id": "sector-analysis-20260925",
+          "headline": "Tech and Communication Services Lead, Energy and Utilities Lag",
+          "summary": "Information Technology led all sectors with a 0.99% gain, driven by semiconductor and AI-related names. Communication Services also saw strong performance, gaining 1.3%. In contrast, the Energy sector faced the largest drawdown, falling 0.88% due to lower crude prices and profit-taking. Utilities also lagged, losing 1%.",
           "tags": [
             "Sector Performance",
             "Technology",
-            "AI"
-          ]
-        },
-        {
-          "id": "sector-energy-lags",
-          "headline": "Energy Sector Lags as Oil Prices Cool",
-          "summary": "Conversely, the Energy sector faced the largest drawdown, declining by 0.88%. This underperformance was largely attributed to a 2% drop in Brent crude oil prices, which settled at $104 per barrel.",
-          "tags": [
-            "Sector Performance",
+            "Communication Services",
             "Energy",
-            "Oil Prices"
+            "Utilities"
           ]
         },
         {
-          "id": "fed-rate-hikes",
-          "headline": "Fed Signals Continued Rate Hike Path Amid Strong Economy",
-          "summary": "Earlier in September, the Federal Reserve raised interest rates by a quarter percentage point, setting the federal funds target range to 3.75% to 4.00%. The latest 'dot plot' suggests that the median FOMC member anticipates at least one additional 25 basis point rate hike in 2026. Hawkish comments from Fed officials and a stronger-than-expected preliminary September S&P PMI, which unexpectedly rose to a five-year high, have increased the odds of further rate hikes in October.",
+          "id": "economic-data-20260925",
+          "headline": "Mixed Economic Data: Strong PMI, Low Jobless Claims, Shaky Consumer Sentiment",
+          "summary": "Initial jobless claims fell to 197,000, nearing levels last seen in the late 1960s. U.S. new home sales jumped 6.4% in August, hitting the highest level since December 2025. S&P Global's flash composite PMI for September rose to 58.4, indicating the fastest output growth in over five years. However, the University of Michigan's final September consumer sentiment reading fell to a four-month low of 48.1.",
           "tags": [
-            "Economic News",
+            "Economic Data",
+            "Jobless Claims",
+            "New Home Sales",
+            "PMI",
+            "Consumer Sentiment"
+          ]
+        },
+        {
+          "id": "fed-announcements-20260925",
+          "headline": "Fed Approves Bancorp Merger, Proposes Stablecoin Rules",
+          "summary": "The Federal Reserve Board approved Peoples Bancorp Inc.'s application to merge with Citizens National Corporation. Additionally, the Fed proposed new rules for stablecoin issuers, requiring them to back stablecoins with high-quality, liquid assets and establishing an application process for banks. Markets are currently pricing in a 71% chance of an October rate hike by the Fed.",
+          "tags": [
             "Federal Reserve",
-            "Interest Rates",
-            "Inflation"
+            "Banking M&A",
+            "Stablecoins",
+            "Interest Rates"
           ]
         },
         {
-          "id": "treasury-yields",
-          "headline": "10-Year Treasury Yields Jump to 2007 Highs",
-          "summary": "The 10-year Treasury yield surged to 5.15% this week, reaching its highest level since 2007. This rise was influenced by concerns about potential Federal Reserve rate hikes and resilient economic data.",
+          "id": "earnings-reports-20260925",
+          "headline": "Q3 Earnings Season Kicks Off with Positive Surprises",
+          "summary": "Early Q3 earnings reports for S&P 500 members show a 16.3% increase in earnings and 11% higher revenues year-over-year, with 66.7% beating both EPS and revenue estimates. Costco Wholesale ($COST) climbed 2.9% after reporting stronger-than-expected profits.",
           "tags": [
-            "Economic News",
+            "Earnings Season",
+            "Q3 2026",
+            "Corporate Earnings"
+          ]
+        },
+        {
+          "id": "macro-trends-20260925",
+          "headline": "Oil Prices Cool, Treasury Yields Ease Amid Geopolitical Watch",
+          "summary": "Oil prices cooled on Friday, with Brent crude dropping 2.8% to $97.44 per barrel, easing market pressures. Treasury yields also pulled back, with the 10-year yield falling 5 basis points to 5.15% and the 30-year yield ticking lower to 5.49%. Geopolitical developments, including U.S.-Iran talks, continue to be a key watchpoint for market stability.",
+          "tags": [
+            "Macro Trends",
+            "Oil Prices",
             "Treasury Yields",
-            "Bond Market"
-          ]
-        },
-        {
-          "id": "earnings-costco-akamai",
-          "headline": "Key Earnings Reports: Costco Beats, Akamai Lands Major Deal",
-          "summary": "After Thursday's market close, Costco Wholesale Corporation ($COST) reported earnings and revenues that surpassed expectations. Separately, Akamai Technologies ($AKAM) announced an $11.6 billion seven-year cloud deal with Anthropic, leading to significant pre-market gains for Akamai.",
-          "tags": [
-            "Earnings Reports",
-            "Company News"
+            "Geopolitics"
           ]
         }
       ]
