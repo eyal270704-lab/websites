@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T10:55:53.548481Z",
+  "generatedAt": "2026-09-27T00:25:19.185368Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Confidence",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$224.58",
+      "entry": "$212.50",
+      "stop": "$208.00",
+      "structure": "Rectangle Formation / Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is currently trading above its key moving averages, indicating a medium-term uptrend. The stock is consolidating within a rectangle formation, with identified support around $212.50. A test of this support could present a buying opportunity with a stop below the $208 level.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology Hardware",
+      "currentPrice": "$337.02",
+      "entry": "$326.50",
+      "stop": "$320.00",
+      "structure": "Support Test",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong uptrend, trading above all key moving averages. A pullback to the 20-day EMA around $326.50 could offer an entry opportunity. A stop loss would be placed below the 50-day SMA at $320.00.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Automobile Manufacturers",
+      "currentPrice": "$379.86",
+      "entry": "$379.50",
+      "stop": "$355.00",
+      "structure": "Golden Zone / Fibonacci Support",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is currently trading within its Golden Zone Fibonacci retracement from a recent significant swing. This area has historically acted as strong support. However, the stock is in a medium-term falling trend channel and below its 200-day moving average. Upcoming earnings within the next month present high risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
