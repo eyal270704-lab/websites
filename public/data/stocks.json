@@ -1,190 +1,133 @@
 {
-  "generatedAt": "2026-09-27T12:44:00Z",
+  "generatedAt": "2026-09-27T19:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market Recap for Friday, September 25, 2026",
-  "badge": "Market Close",
+  "title": "Daily Market Digest: September 27, 2026",
+  "subtitle": "Review of Friday, September 25, 2026, Trading Session - Markets Closed Today",
+  "badge": "Updated",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: First Winning Week in Three",
+      "id": "market-pulse-overview",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Close Higher, Marking First Winning Week in Three",
-          "summary": "U.S. equity markets ended Friday's session broadly higher, securing their first weekly gain in three weeks. The positive momentum was driven by a notable cooldown in oil prices and an easing of Treasury yields, providing Wall Street with crucial breathing room after a turbulent week that included a Federal Reserve rate hike and a U.S.-China summit.",
+          "id": "market-summary-friday",
+          "headline": "U.S. Stocks Conclude Week Higher Amid Easing Oil Prices and Yields",
+          "summary": "U.S. equities closed out their first winning week in three on Friday, September 25, 2026, with major indices posting gains. A cooldown in oil prices and a slight ease in Treasury yields helped to alleviate some market pressures, despite lingering concerns about inflation and potential Fed actions. AI-related technology stocks continued to be a significant driving force for market growth. Not financial advice.",
           "tags": [
-            "Market Sentiment",
-            "Weekly Close"
+            "Market Overview",
+            "Friday Close"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Friday, September 25, 2026)",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Friday, Sep 25, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
           "statValue": "7,743.41",
-          "statContext": "+0.5% (↑39.28 points)",
-          "ticker": "$SPX",
-          "price": "$7,743.41",
-          "change": "+$39.28",
-          "changePercent": "+0.5%",
-          "direction": "up"
+          "statContext": "+0.51% (Previous Close: 7,704.13)"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,828.62",
-          "statContext": "+0.9% (↑478.64 points)",
-          "ticker": "$DJI",
-          "price": "$51,828.62",
-          "change": "+$478.64",
-          "changePercent": "+0.9%",
-          "direction": "up"
-        },
-        {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
           "statValue": "27,068.72",
-          "statContext": "+0.5% (↑129.34 points)",
-          "ticker": "$IXIC",
-          "price": "$27,068.72",
-          "change": "+$129.34",
-          "changePercent": "+0.5%",
-          "direction": "up"
+          "statContext": "+0.48% (Previous Close: 26,939.37)"
+        },
+        {
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,828.62",
+          "statContext": "+0.93% (Previous Close: 51,349.98)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers: Gainers & Losers (Friday, September 25, 2026)",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Friday, Sep 25, 2026)",
       "cardType": "stock",
-      "layout": "grid",
+      "layout": "list",
       "items": [
         {
-          "id": "myna-gainer",
-          "headline": "Moderna Leads Weekly Gains on Strong Performance",
-          "ticker": "$MRNA",
-          "price": "$198.88",
-          "change": "+29.08%",
-          "changePercent": "+29.08%",
-          "direction": "up",
-          "summary": "Moderna ($MRNA) was a top performer for the week, surging 29.08% to close at $198.88. (Note: Weekly performance, daily details not available)."
-        },
-        {
-          "id": "ddog-gainer",
-          "headline": "Datadog Shows Robust Weekly Growth",
-          "ticker": "$DDOG",
-          "price": "$268.02",
-          "change": "+16.61%",
-          "changePercent": "+16.61%",
-          "direction": "up",
-          "summary": "Datadog ($DDOG) experienced significant weekly growth, up 16.61% to $268.02. (Note: Weekly performance, daily details not available)."
-        },
-        {
-          "id": "dell-gainer",
-          "headline": "Dell Rises Amid Information Technology Sector Strength",
+          "id": "mover-dell",
+          "headline": "Dell Technologies Surges on AI Demand",
+          "summary": "Dell Technologies ($DELL) opened up 3.63% on Friday, rebounding from earlier selling pressures. The rise was attributed to exceptionally strong demand for its AI servers and the company's raised full-year guidance.",
           "ticker": "$DELL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "up",
-          "summary": "Dell ($DELL) was a top performer in the Information Technology sector, which led all sectors on Friday. This was supported by Morgan Stanley raising its bull-case price target for the company to $756."
+          "changePercent": "+3.63%",
+          "direction": "up"
         },
         {
-          "id": "tsla-loser",
-          "headline": "Tesla Shares Dip on Analyst Downgrades",
-          "ticker": "$TSLA",
-          "price": "$372.11",
-          "change": "-$5.81",
-          "changePercent": "-1.54%",
-          "direction": "down",
-          "summary": "Tesla ($TSLA) shares closed down 1.54% at $372.11 on Friday, as analyst cuts overshadowed the company's plans to ramp Semi Truck production."
-        },
-        {
-          "id": "gen-loser",
-          "headline": "Gen Digital Experiences Sharp Weekly Decline",
-          "ticker": "$GEN",
-          "price": "$21.62",
-          "change": "-25.47%",
-          "changePercent": "-25.47%",
-          "direction": "down",
-          "summary": "Gen Digital ($GEN) was among the worst-performing stocks of the week, falling 25.47% to end at $21.62. (Note: Weekly performance, daily details not available)."
-        },
-        {
-          "id": "dvn-loser",
-          "headline": "Devon Energy and Sector Hit by Falling Oil Prices",
-          "ticker": "$DVN",
+          "id": "mover-costco",
+          "headline": "Costco Rises on Strong Earnings",
+          "summary": "Costco Wholesale ($COST) climbed 2.9% after the retailer reported stronger-than-expected profit for its latest quarter, serving as a positive catalyst for Friday's trading.",
+          "ticker": "$COST",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down",
-          "summary": "Devon Energy ($DVN) and other energy stocks traded lower on Friday as Brent crude oil prices fell 2% to $104 per barrel, impacting revenue expectations."
+          "changePercent": "+2.90%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-akamai",
+          "headline": "Akamai Pops on Major Cloud Deal",
+          "summary": "Akamai ($AKAM) saw a significant pop of +19.1% following news of signing an $11.6 billion seven-year cloud deal with Anthropic. This move was noted in after-hours trading from Thursday, influencing Friday's open.",
+          "ticker": "$AKAM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+19.10%",
+          "direction": "up"
+        },
+        {
+          "id": "mover-energy-sector",
+          "headline": "Energy Sector Lags as Crude Prices Fall",
+          "summary": "The energy sector was the worst-performing, lagging with a 0.88% loss, primarily due to falling Brent crude oil prices, which declined 2% to $104 per barrel. Notable decliners included Devon Energy ($DVN), ONEOK ($OKE), Occidental Petroleum ($OXY), APA ($APA), and EQT ($EQT).",
+          "ticker": "XLE (Energy Sector ETF)",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-0.88%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Key Market & Economic News",
+      "id": "market-news-summary",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Technology and Healthcare Lead, Energy and Utilities Lag",
-          "summary": "For the week ending September 25, Technology was the best-performing sector, rising 3.1%, followed by Healthcare, up 1.57%. Information Technology also led all sectors on Friday with a 0.99% gain, driven by semiconductor and AI-related stocks. Conversely, Energy and Utilities were the worst performers for the week, declining 3.07% and 3.04% respectively. On Friday, the Energy sector lagged with a 0.88% loss, while Materials fell 1.2%.",
+          "id": "sector-performance-friday",
+          "headline": "Technology Leads, Energy Lags in Friday's Sector Performance",
+          "summary": "Information Technology was the top-performing sector, gaining 0.99% for the day, with strength in semiconductor and AI-related stocks. Communication Services and Healthcare also saw gains. Conversely, the Energy sector lagged with a 0.88% loss, and Materials and Utilities sectors also showed weakness.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy"
+            "Sector Analysis"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Strong Economic Data Fuels Rate Hike Expectations",
-          "summary": "Recent economic data indicated a robust economy. S&P Global's flash composite PMI for September surged to 58.4, its highest in over five years, signaling accelerating growth in manufacturing and services. Initial jobless claims also fell to 197,000, near multi-decade lows. These strong prints pushed market expectations for an October Fed rate hike to roughly 70%. U.S. new home sales jumped 6.4% in August, reaching the highest level since December 2025.",
+          "id": "economic-data-release",
+          "headline": "Mixed Economic Data Released; Consumer Inflation Expectations Rise",
+          "summary": "U.S. new home sales in August jumped 6.4% to an annualized rate of 684,000 units, reaching the highest level since December 2025. Meanwhile, the Richmond Fed manufacturing survey for September edged down to -2 from 4 in August. The University of Michigan's consumer sentiment report indicated that consumers expect inflation to be 4.6% in the coming year, an increase from the previous month's 4% forecast.",
           "tags": [
-            "Economic Data",
-            "Fed Policy",
-            "PMI",
-            "Jobless Claims"
+            "Economic News",
+            "Inflation",
+            "Housing"
           ]
         },
         {
-          "id": "oil-treasury-movement",
-          "headline": "Oil Prices Cool, Treasury Yields Ease From Highs",
-          "summary": "A cooldown in Brent crude oil prices, which dropped below $98 a barrel and fell 2.46% to $92.28/barrel on Friday, helped alleviate pressure on Wall Street. This also contributed to Treasury yields easing after the 10-year yield briefly touched its highest level since 2007. The 10-year Treasury yield closed the week up about 15 basis points to 5.15%, having topped 5.20% earlier in the week.",
+          "id": "q3-earnings-outlook",
+          "headline": "Q3 Earnings Season Approaches with Strong Growth Expectations",
+          "summary": "As the third-quarter earnings season draws near, S&P 500 earnings are projected to increase by 23.9% year-over-year. This marks the eighth consecutive quarter of double-digit earnings growth for the index, driven significantly by the Aerospace, Energy, and Technology sectors.",
           "tags": [
-            "Commodities",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "earnings-outlook",
-          "headline": "Q3 Earnings Season Approaching with Strong Growth Expectations",
-          "summary": "The third-quarter earnings season is on the horizon, with S&P 500 earnings anticipated to grow by 23.9% year-over-year. This marks the eighth consecutive quarter of double-digit earnings growth for the index, driven significantly by the Technology sector. Oracle and Adobe reported their fiscal quarters ending in August, which contribute to the Q3 tally.",
-          "tags": [
-            "Earnings Season",
-            "Q3 Outlook"
-          ]
-        },
-        {
-          "id": "geopolitical-update",
-          "headline": "U.S.-China Summit Concludes, Iran Diplomacy Continues",
-          "summary": "A summit between Presidents Trump and Xi Jinping concluded, with discussions encompassing AI, the Iran conflict, and tariffs. The two leaders agreed to extend their trade truce by two months. Meanwhile, hopes for a swift diplomatic resolution with Iran waned after Iran's president's speech at the UN General Assembly, although discussions regarding reopening the Strait of Hormuz did contribute to lower oil prices.",
-          "tags": [
-            "Geopolitics",
-            "Trade",
-            "Oil"
+            "Earnings",
+            "Macro Trends"
           ]
         }
       ]
