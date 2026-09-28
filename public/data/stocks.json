@@ -1,159 +1,186 @@
 {
-  "generatedAt": "2026-09-28T14:56:00Z",
+  "generatedAt": "2026-09-28T18:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 28, 2026",
-  "badge": "LIVE",
+  "subtitle": "September 28, 2026 Close",
+  "badge": "Market Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: US Equities Decline Amid Rising Oil Prices and Treasury Yields",
+      "title": "Market Pulse: Indices Close Higher Amid Mixed Signals",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "US stocks opened lower today, driven by surging crude oil prices and multi-year high Treasury yields. Investors are reacting to President Trump's rejection of an Iranian proposal, which has exacerbated geopolitical tensions and inflation concerns.",
-          "summary": "Major indices experienced declines in early trading, reversing some of the robust performance from the previous week. The economic landscape remains pressured by elevated energy costs and a hawkish Federal Reserve outlook, with key inflation and jobs data anticipated later in the week.",
+          "headline": "U.S. stock indices ended Monday's session in positive territory, recovering from earlier intraday declines driven by surging oil prices and rising Treasury yields.",
+          "summary": "The Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all closed higher, with technology stocks showing strength. Market sentiment remains cautious due to ongoing geopolitical tensions and hawkish signals from the Federal Reserve regarding future rate hikes.",
           "tags": [
-            "Market Open",
+            "Market Close",
+            "Equities",
             "Oil Prices",
             "Treasury Yields"
-          ]
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Today)",
+      "title": "Major Indices Performance (September 28, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones",
-          "statValue": "51,567.59",
-          "statContext": "Down 0.50% (-261.03 pts)"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,743.41",
+          "statContext": "Gained 0.5%"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,933.62",
-          "statContext": "Down 0.50% (-135.10 pts)"
+          "statValue": "27,068.72",
+          "statContext": "Rose 0.5%"
         },
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,712.62",
-          "statContext": "Down 0.40% (-30.79 pts)"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,828.62",
+          "statContext": "Advanced 0.9%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Today)",
+      "title": "Top Movers: Gainers and Losers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-aesi",
-          "headline": "Atlas Energy Solutions Surges",
-          "summary": "Atlas Energy Solutions ($AESI) led market gainers today, climbing +13.5%.",
-          "ticker": "$AESI",
+          "id": "mchp-gainer",
+          "headline": "Microchip Technology Surges on AI Strength",
+          "summary": "The AI-powered chip developer, Microchip Technology Inc. ($MCHP), saw its shares rise significantly due to its performance in the technology sector.",
+          "ticker": "$MCHP",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+13.5%",
+          "changePercent": "+5.4%",
           "direction": "up"
         },
         {
-          "id": "gainer-kod",
-          "headline": "Kodiak Sciences Jumps Ahead of Study Results",
-          "summary": "Kodiak Sciences ($KOD) saw shares rise +7% ahead of its planned release of topline results for the DAYBREAK Phase 3 study evaluating treatments for wet age-related macular degeneration.",
-          "ticker": "$KOD",
+          "id": "be-gainer",
+          "headline": "Bloom Energy Leads S&P 500 Gainers",
+          "summary": "Bloom Energy ($BE) led the S&P 500 with a substantial gain today, reflecting strong investor interest.",
+          "ticker": "$BE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+7%",
+          "changePercent": "+8.3%",
           "direction": "up"
         },
         {
-          "id": "gainer-nvda",
-          "headline": "Nvidia Boosted by Expanded Buyback Program",
-          "summary": "Nvidia ($NVDA) shares rose +2% after its board increased the share repurchase authorization by $150 billion, bringing the total remaining authorization to $235 billion. This expanded program is reportedly the largest buyback authorization in U.S. history and is fueled by strong cash generation from AI demand.",
+          "id": "nvda-gainer",
+          "headline": "Nvidia Boosted by Major Share Buyback Plan",
+          "summary": "Nvidia ($NVDA) shares climbed after the company's board announced a significant increase of $150 billion to its share repurchase authorization.",
           "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2%",
+          "changePercent": "+3.0%",
           "direction": "up"
         },
         {
-          "id": "gainer-nio",
-          "headline": "NIO Shares Climb on Strategic Stake Acquisition",
-          "summary": "NIO ($NIO) shares increased by +2% following Zhejiang Geely Holding Group's agreement to acquire a 30% stake in NIO's battery-swapping business.",
-          "ticker": "$NIO",
+          "id": "mdb-loser",
+          "headline": "MongoDB Plunges on CEO Departure News",
+          "summary": "Shares of document database company MongoDB ($MDB) fell sharply following the unexpected departure of its President and CEO, Chirantan “CJ” Desai.",
+          "ticker": "$MDB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2%",
-          "direction": "up"
+          "changePercent": "-20.0%",
+          "direction": "down"
+        },
+        {
+          "id": "gen-loser",
+          "headline": "Gen Digital Experiences Significant Decline",
+          "summary": "Gen Digital ($GEN) was the day's weakest stock among the S&P 500, continuing a recent period of weakness.",
+          "ticker": "$GEN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.3%",
+          "direction": "down"
+        },
+        {
+          "id": "airline-losers",
+          "headline": "Airlines Hit by Rising Oil Prices",
+          "summary": "American Airlines ($AAL) and United Airlines ($UAL) saw their shares sink as crude oil prices climbed, increasing concerns over higher fuel bills.",
+          "ticker": "$AAL, $UAL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "AAL -3.8%, UAL -3.6%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Key Market Stories & Economic Insights",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-outlook",
-          "headline": "Inflation Risks Escalate, Fed Considers Further Rate Hikes",
-          "summary": "Fed Governor Michael Barr indicated that inflation risks have intensified, suggesting further discussions around interest rate increases may be necessary. US swap markets are pricing in one to two additional rate hikes by year-end, following the Fed's recent tightening path. The Fed is also reportedly preparing to revise asset thresholds for banks to reflect inflation and economic growth.",
+          "id": "sector-performance",
+          "headline": "Communication Services Lead, Materials and Utilities Lag in Mixed Sector Day",
+          "summary": "Eight out of 11 S&P 500 sectors closed in positive territory. The Communication Services Select Sector SPDR ($XLC) led the gains with a 1.3% rise, while the Materials Select Sector SPDR ($XLB) and the Utilities Select Sector SPDR ($XLU) were among the weakest, falling 1.2% and 1%, respectively.",
           "tags": [
-            "Fed",
-            "Interest Rates",
+            "Sector Analysis",
+            "XLC",
+            "XLB",
+            "XLU"
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
+        },
+        {
+          "id": "economic-data-consumer-sentiment",
+          "headline": "Consumer Sentiment Index Falls in September",
+          "summary": "The University of Michigan's final reading for the consumer sentiment index in September came in at 48.1%. While slightly ahead of the consensus estimate, this marks a decline from August's 51.7%, with both current economic conditions and consumer expectations indices decreasing.",
+          "tags": [
+            "Economic Data",
+            "Consumer Sentiment",
             "Inflation"
-          ]
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
         },
         {
-          "id": "energy-geopolitics",
-          "headline": "Oil Prices Surge as US Rejects Iran Proposal",
-          "summary": "Crude oil prices saw a significant rise today, with WTI futures trading around $95.57 per barrel and Brent crude around $106.02 per barrel. This surge follows President Trump's rejection of an Iranian proposal to end the conflict and reopen the Strait of Hormuz, intensifying geopolitical uncertainty.",
+          "id": "oil-geopolitics",
+          "headline": "Oil Prices Surge on Geopolitical Tensions",
+          "summary": "Brent crude oil prices saw an initial jump above $100 per barrel today after President Trump reportedly rejected an Iranian ceasefire proposal, intensifying concerns over potential supply disruptions in the Strait of Hormuz.",
           "tags": [
-            "Oil",
+            "Oil Prices",
             "Geopolitics",
-            "Energy"
-          ]
-        },
-        {
-          "id": "upcoming-earnings",
-          "headline": "Micron and Jefferies Among Companies Reporting Earnings This Week",
-          "summary": "Micron is scheduled to release its earnings report on Wednesday, while Jefferies Financial Group ($JEF) is expected to post its quarterly earnings of 93 cents per share on revenue of $2.17 billion after the closing bell today. Investors will be closely watching these reports for insights into corporate performance.",
-          "tags": [
-            "Earnings",
-            "Micron",
-            "Jefferies"
-          ]
+            "Middle East"
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
         },
         {
           "id": "treasury-yields",
-          "headline": "Treasury Yields Hit Multi-Decade Highs",
-          "summary": "The 10-year US Treasury yield climbed above 5.2% today, reaching its highest level since mid-2007. The 2-year yield also reached its highest point since May 2024. These elevated yields are impacting equity markets and reflecting expectations of further Federal Reserve tightening.",
+          "headline": "Treasury Yields Retreat Slightly from Recent Highs",
+          "summary": "US Treasury yields pulled back from their recent peaks, with the benchmark 10-year yield declining 3.7 basis points to 5.160%. Despite the slight retreat, yields remain elevated, with the 10-year at levels not seen since 2007 and the 30-year since 2004.",
           "tags": [
-            "Treasury Yields",
             "Bond Market",
+            "Treasury Yields",
             "Interest Rates"
-          ]
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
         },
         {
-          "id": "sector-performance-friday",
-          "headline": "Communication Services Led Gains on Friday, Materials and Utilities Lagged",
-          "summary": "On Friday, the Communication Services Select Sector SPDR ($XLC) rose by 1.3%, leading eight out of eleven sectors of the S&P 500 into positive territory. Conversely, the Materials Select Sector SPDR ($XLB) fell 1.2% and the Utilities Select Sector SPDR ($XLU) dropped 1%, making them among the lagging sectors.",
+          "id": "ai-impact",
+          "headline": "AI Driving Productivity While Raising Safety Concerns",
+          "summary": "AI adoption across industries is poised to unlock significant productivity gains, although the sector faces ongoing discussions around safety measures. Increased AI investment is also contributing to price pressure in related sectors like construction and energy.",
           "tags": [
-            "Sector Analysis",
-            "Communication Services",
-            "Materials",
-            "Utilities"
-          ]
+            "Technology",
+            "AI",
+            "Productivity"
+          ],
+          "timestamp": "2026-09-28T16:00:00Z"
         }
       ]
     }
