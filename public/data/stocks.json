@@ -1,186 +1,174 @@
 {
-  "generatedAt": "2026-09-28T18:56:00Z",
+  "generatedAt": "2026-09-28T17:41:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 28, 2026 Close",
+  "subtitle": "September 28, 2026 Market Close",
   "badge": "Market Closed",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Indices Close Higher Amid Mixed Signals",
+      "title": "Market Pulse: Indices Retreat Amid Rising Oil and Yields",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
           "id": "market-summary-today",
-          "headline": "U.S. stock indices ended Monday's session in positive territory, recovering from earlier intraday declines driven by surging oil prices and rising Treasury yields.",
-          "summary": "The Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all closed higher, with technology stocks showing strength. Market sentiment remains cautious due to ongoing geopolitical tensions and hawkish signals from the Federal Reserve regarding future rate hikes.",
+          "headline": "U.S. equities concluded Monday's session lower as a surge in oil prices, driven by renewed U.S.-Iran tensions, pushed bond yields higher and dampened investor sentiment. Defensive sectors showed resilience amidst broad market declines.",
+          "summary": "The S&P 500, NASDAQ, and Dow Jones Industrial Average all finished in negative territory, reflecting heightened geopolitical risk and increasing borrowing costs. Despite the overall downturn, selected stocks demonstrated significant individual gains on company-specific news, while technology and consumer discretionary sectors faced considerable pressure. Not financial advice.",
           "tags": [
             "Market Close",
-            "Equities",
+            "Geopolitics",
             "Oil Prices",
-            "Treasury Yields"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
+            "Bond Yields"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (September 28, 2026 Close)",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,743.41",
-          "statContext": "Gained 0.5%"
+          "statValue": "7,683.69",
+          "statContext": "Down 0.77% today.",
+          "direction": "down"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "27,068.72",
-          "statContext": "Rose 0.5%"
+          "statValue": "26,820.38",
+          "statContext": "Down 0.92% today.",
+          "direction": "down"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,828.62",
-          "statContext": "Advanced 0.9%"
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,481.51",
+          "statContext": "Down 0.70% today.",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Gainers and Losers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mchp-gainer",
-          "headline": "Microchip Technology Surges on AI Strength",
-          "summary": "The AI-powered chip developer, Microchip Technology Inc. ($MCHP), saw its shares rise significantly due to its performance in the technology sector.",
-          "ticker": "$MCHP",
+          "id": "kod-gainer",
+          "headline": "Kodiak Sciences surges on positive Phase 3 trial results.",
+          "ticker": "$KOD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.4%",
-          "direction": "up"
+          "changePercent": "+158%",
+          "direction": "up",
+          "summary": "Kodiak Sciences stock soared after its Zenkuda and tabirafusp-ted treatments met primary endpoints in a Phase 3 study for wet age-related macular degeneration."
+        },
+        {
+          "id": "amd-gainer",
+          "headline": "AMD joins trillion-dollar club on AI system advancements.",
+          "ticker": "$AMD",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+10%",
+          "direction": "up",
+          "summary": "Advanced Micro Devices (AMD) jumped as investors responded positively to its strategic pivot towards integrated AI systems and increased server market share, propelling it into the US$1 trillion market capitalization club."
         },
         {
           "id": "be-gainer",
-          "headline": "Bloom Energy Leads S&P 500 Gainers",
-          "summary": "Bloom Energy ($BE) led the S&P 500 with a substantial gain today, reflecting strong investor interest.",
+          "headline": "Bloom Energy leads S&P 500 gainers.",
           "ticker": "$BE",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+8.3%",
-          "direction": "up"
-        },
-        {
-          "id": "nvda-gainer",
-          "headline": "Nvidia Boosted by Major Share Buyback Plan",
-          "summary": "Nvidia ($NVDA) shares climbed after the company's board announced a significant increase of $150 billion to its share repurchase authorization.",
-          "ticker": "$NVDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.0%",
-          "direction": "up"
+          "direction": "up",
+          "summary": "Bloom Energy ($BE) was among the top performers in the S&P 500 today."
         },
         {
           "id": "mdb-loser",
-          "headline": "MongoDB Plunges on CEO Departure News",
-          "summary": "Shares of document database company MongoDB ($MDB) fell sharply following the unexpected departure of its President and CEO, Chirantan “CJ” Desai.",
+          "headline": "MongoDB plummets following CEO's unexpected departure.",
           "ticker": "$MDB",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-20.0%",
-          "direction": "down"
+          "changePercent": "-17.20%",
+          "direction": "down",
+          "summary": "MongoDB shares fell significantly after the announcement of its President and CEO's immediate departure."
         },
         {
-          "id": "gen-loser",
-          "headline": "Gen Digital Experiences Significant Decline",
-          "summary": "Gen Digital ($GEN) was the day's weakest stock among the S&P 500, continuing a recent period of weakness.",
-          "ticker": "$GEN",
+          "id": "rblx-loser",
+          "headline": "Roblox declines on analyst downgrade and bookings concerns.",
+          "ticker": "$RBLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.3%",
-          "direction": "down"
+          "changePercent": "-7.57%",
+          "direction": "down",
+          "summary": "Roblox Corp. shares dropped after Jefferies downgraded the gaming company due to concerns about future bookings."
         },
         {
-          "id": "airline-losers",
-          "headline": "Airlines Hit by Rising Oil Prices",
-          "summary": "American Airlines ($AAL) and United Airlines ($UAL) saw their shares sink as crude oil prices climbed, increasing concerns over higher fuel bills.",
-          "ticker": "$AAL, $UAL",
+          "id": "intc-loser",
+          "headline": "Intel drops amid broader chip sector shifts.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "AAL -3.8%, UAL -3.6%",
-          "direction": "down"
+          "changePercent": "-6.13%",
+          "direction": "down",
+          "summary": "Intel Corporation shares fell, contributing to a broader dip among chip stocks."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Communication Services Lead, Materials and Utilities Lag in Mixed Sector Day",
-          "summary": "Eight out of 11 S&P 500 sectors closed in positive territory. The Communication Services Select Sector SPDR ($XLC) led the gains with a 1.3% rise, while the Materials Select Sector SPDR ($XLB) and the Utilities Select Sector SPDR ($XLU) were among the weakest, falling 1.2% and 1%, respectively.",
+          "id": "sector-analysis",
+          "headline": "Consumer Staples Lead as Defensive Play; Tech and Discretionary Lag",
+          "summary": "Consumer Staples emerged as the top-performing sector, gaining 0.4%, as investors sought defensive positions amidst rising Treasury yields and general market uncertainty. Conversely, Communication Services and Consumer Discretionary were the worst-performing sectors, falling 1.66% and 1.19% respectively.",
           "tags": [
-            "Sector Analysis",
-            "XLC",
-            "XLB",
-            "XLU"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
+            "Sector Performance",
+            "Consumer Staples",
+            "Communication Services",
+            "Consumer Discretionary"
+          ]
         },
         {
-          "id": "economic-data-consumer-sentiment",
-          "headline": "Consumer Sentiment Index Falls in September",
-          "summary": "The University of Michigan's final reading for the consumer sentiment index in September came in at 48.1%. While slightly ahead of the consensus estimate, this marks a decline from August's 51.7%, with both current economic conditions and consumer expectations indices decreasing.",
+          "id": "oil-yields-impact",
+          "headline": "Rising Oil Prices and Bond Yields Pressure Equities",
+          "summary": "Oil prices surged nearly 3%, with Brent crude trading above $100 per barrel, following President Trump's rejection of an Iranian truce offer, intensifying U.S.-Iran tensions. This pushed the 10-year Treasury yield to 5.26% and the 30-year yield to 5.55%, making borrowing more expensive and hurting stock valuations.",
+          "tags": [
+            "Oil Prices",
+            "Bond Yields",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "economic-data",
+          "headline": "Consumer Sentiment Data Released, Fed Rate Hike Expectations Remain",
+          "summary": "The University of Michigan reported that the final reading of the consumer sentiment index for September was 48.1%, slightly above estimates. However, both current economic conditions and consumer expectations sub-indices declined from August, while inflation expectations rose. Odds continue to favor a quarter-percentage point rate hike by the Federal Reserve next month.",
           "tags": [
             "Economic Data",
             "Consumer Sentiment",
-            "Inflation"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
+            "Inflation",
+            "Federal Reserve"
+          ]
         },
         {
-          "id": "oil-geopolitics",
-          "headline": "Oil Prices Surge on Geopolitical Tensions",
-          "summary": "Brent crude oil prices saw an initial jump above $100 per barrel today after President Trump reportedly rejected an Iranian ceasefire proposal, intensifying concerns over potential supply disruptions in the Strait of Hormuz.",
+          "id": "earnings-reports-today",
+          "headline": "Companies Report Earnings; AI Investment Projections High",
+          "summary": "Several companies, including GNS and NTWK, reported earnings before market open today, while IVA, JEF, MTN, IDT, and TRAK were scheduled to report after market close. Additionally, total investment in U.S. data centers and AI infrastructure is projected to reach $10.3 trillion from 2025 to 2032.",
           "tags": [
-            "Oil Prices",
-            "Geopolitics",
-            "Middle East"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
-        },
-        {
-          "id": "treasury-yields",
-          "headline": "Treasury Yields Retreat Slightly from Recent Highs",
-          "summary": "US Treasury yields pulled back from their recent peaks, with the benchmark 10-year yield declining 3.7 basis points to 5.160%. Despite the slight retreat, yields remain elevated, with the 10-year at levels not seen since 2007 and the 30-year since 2004.",
-          "tags": [
-            "Bond Market",
-            "Treasury Yields",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
-        },
-        {
-          "id": "ai-impact",
-          "headline": "AI Driving Productivity While Raising Safety Concerns",
-          "summary": "AI adoption across industries is poised to unlock significant productivity gains, although the sector faces ongoing discussions around safety measures. Increased AI investment is also contributing to price pressure in related sectors like construction and energy.",
-          "tags": [
-            "Technology",
-            "AI",
-            "Productivity"
-          ],
-          "timestamp": "2026-09-28T16:00:00Z"
+            "Earnings",
+            "AI Investment",
+            "Corporate News"
+          ]
         }
       ]
     }
