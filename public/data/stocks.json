@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-30T17:14:00Z",
+  "generatedAt": "2026-09-30T20:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 30, 2026 - Midday Report",
+  "subtitle": "September 30, 2026 - End of Session",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,16 +13,14 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Inflation Data Boosts Market Sentiment, Tech Leads Gains",
-          "summary": "U.S. equities saw a mixed-to-positive performance today, with major indices reacting to softer-than-expected August PCE inflation and robust private-sector job growth. This data eased concerns over aggressive Federal Reserve rate hikes, driving a rally in technology stocks while some defensive sectors experienced declines.",
+          "id": "market-summary",
+          "headline": "Mixed Close as Inflation Data and Yield Concerns Vie for Investor Attention",
+          "summary": "U.S. equities closed mixed on Wednesday. While better-than-expected August inflation data initially boosted sentiment, persistent concerns over high Treasury yields and a robust economy kept selling pressure on some sectors. The Dow Jones and S&P 500 declined, while the Nasdaq Composite edged higher. Not financial advice.",
           "tags": [
             "Market Summary",
             "Inflation",
-            "Fed",
-            "Technology"
-          ],
-          "timestamp": "2026-09-30T16:00:00Z"
+            "Yields"
+          ]
         }
       ]
     },
@@ -34,147 +32,169 @@
       "items": [
         {
           "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,715",
-          "statContext": "Up +0.58%",
-          "ticker": "^GSPC",
-          "price": "7,715",
-          "change": "+44.47",
-          "changePercent": "+0.58%",
-          "direction": "up"
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "7,651.54",
+          "statContext": "Down 0.3%",
+          "change": "-19.30",
+          "changePercent": "-0.3%",
+          "direction": "down"
         },
         {
           "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "27,072",
-          "statContext": "Up +1.02%",
-          "ticker": "^IXIC",
-          "price": "27,072",
-          "change": "+274.72",
-          "changePercent": "+1.02%",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "26,861.06",
+          "statContext": "Up 0.2%",
+          "change": "+63.52",
+          "changePercent": "+0.2%",
           "direction": "up"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,336",
-          "statContext": "Down -0.03%",
-          "ticker": "^DJI",
-          "price": "51,336",
-          "change": "-15.40",
-          "changePercent": "-0.03%",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "50,906.05",
+          "statContext": "Down 0.9%",
+          "change": "-443.87",
+          "changePercent": "-0.9%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers - Today's Session",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
+          "id": "ccl-gainer",
+          "headline": "Carnival Corporation Rallies",
+          "summary": "Cruise line operator Carnival Corporation saw significant gains today.",
+          "ticker": "$CCL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.4%",
+          "direction": "up"
+        },
+        {
+          "id": "ibrx-gainer",
+          "headline": "Immunitybio Inc Surges on Commercial Momentum",
+          "summary": "ImmunityBio gained due to strong commercial momentum for its immunotherapy ANKTIVA, coupled with robust buying interest in the oncology sector.",
+          "ticker": "$IBRX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+11.15%",
+          "direction": "up"
+        },
+        {
           "id": "hpe-gainer",
-          "headline": "Hewlett Packard Enterprise Rises on AI Deal",
-          "summary": "Hewlett Packard Enterprise ($HPE) climbed 4.34% after announcing a multi-billion dollar AI infrastructure deal and upgrading its financial outlook.",
+          "headline": "Hewlett Packard Enterprise Boosted by AI Outlook",
+          "summary": "Hewlett Packard Enterprise climbed after increasing its revenue forecast for its networking business, benefiting from the boom in artificial-intelligence technology.",
           "ticker": "$HPE",
-          "price": "---",
-          "change": "---",
-          "changePercent": "+4.34%",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7.3%",
           "direction": "up"
         },
         {
-          "id": "cboe-gainer",
-          "headline": "Cboe Global Markets Gains on Licensing Extension",
-          "summary": "Cboe Global Markets ($CBOE) advanced 4.38% following a 25-year extension of its exclusive licensing agreement with S&P Dow Jones Indices.",
-          "ticker": "$CBOE",
-          "price": "---",
-          "change": "---",
-          "changePercent": "+4.38%",
-          "direction": "up"
-        },
-        {
-          "id": "cnxc-loser",
-          "headline": "Concentrix Falls on Earnings Miss",
-          "summary": "Customer experience company Concentrix ($CNXC) dropped 9.24% after missing third-quarter earnings and revenue forecasts.",
-          "ticker": "$CNXC",
-          "price": "---",
-          "change": "---",
-          "changePercent": "-9.24%",
+          "id": "fico-loser",
+          "headline": "Fair Isaac Plunges",
+          "summary": "Fair Isaac (FICO) was today's biggest S&P 500 loser, continuing a persistent decline for the month.",
+          "ticker": "$FICO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-26.5%",
           "direction": "down"
         },
         {
-          "id": "unh-loser",
-          "headline": "United Health Group Declines",
-          "summary": "United Health Group ($UNH) saw a decline of 1.88% today.",
-          "ticker": "$UNH",
-          "price": "---",
-          "change": "---",
-          "changePercent": "-1.88%",
+          "id": "jbl-loser",
+          "headline": "Jabil Circuit Declines",
+          "summary": "Jabil Circuit saw a notable drop during today's trading session.",
+          "ticker": "$JBL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.51%",
+          "direction": "down"
+        },
+        {
+          "id": "rklb-loser",
+          "headline": "Rocket Lab Corp. Tumbles",
+          "summary": "Rocket Lab Corp. experienced a significant downturn in today's trading.",
+          "ticker": "$RKLB",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.5%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "inflation-report",
-          "headline": "August PCE Inflation Below Expectations, Easing Fed Rate Hike Concerns",
-          "summary": "The August Personal Consumption Expenditures (PCE) price index rose a seasonally adjusted 0.3% for the month, bringing the 12-month gain to 3.4%, which was below economists' expectations of 3.7%. This softer inflation data has reportedly reduced the urgency for the Federal Reserve to raise rates at its next meeting.",
+          "id": "pce-inflation",
+          "headline": "August PCE Inflation Comes in Below Expectations",
+          "summary": "The Personal Consumption Expenditures (PCE) price index, the Federal Reserve's preferred inflation gauge, increased 0.3% in August, bringing the 12-month gain to 3.4%. This was lower than the 3.7% annual increase economists had expected, easing some pressure on the Fed for an October rate hike.",
           "tags": [
             "Inflation",
-            "PCE",
-            "Federal Reserve"
-          ],
-          "timestamp": "2026-09-30T13:00:00Z"
+            "Fed",
+            "Economic Data"
+          ]
         },
         {
-          "id": "gdp-report",
-          "headline": "Q2 US GDP Revised Up to 2.2%, Exceeding Forecasts",
-          "summary": "The U.S. economy demonstrated stronger-than-expected growth in the second quarter, with the final reading of Gross Domestic Product (GDP) showing an annualized rate of 2.2%, surpassing economists' estimates of 1.5%.",
+          "id": "gdp-revision",
+          "headline": "Q2 GDP Revised Upward to 2.2%",
+          "summary": "The U.S. economy grew at a solid 2.2% annual pace in the second quarter of 2026, an upward revision from the previous estimate of 1.5%. Consumer spending, a key driver, increased at a healthy 3.8% annual pace.",
           "tags": [
             "GDP",
             "Economic Data",
-            "Growth"
-          ],
-          "timestamp": "2026-09-30T12:00:00Z"
+            "Consumer Spending"
+          ]
         },
         {
-          "id": "fed-stress-test",
-          "headline": "Federal Reserve Finalizes Stress Test Changes for Banks",
-          "summary": "The Federal Reserve Board today finalized changes aimed at enhancing the transparency and public accountability of its annual bank stress tests, and to reduce volatility in stress test-related capital requirements.",
+          "id": "fed-stress-tests",
+          "headline": "Federal Reserve Finalizes Stress Test Rule Changes",
+          "summary": "The Federal Reserve finalized two rules aimed at enhancing the transparency and public accountability of its stress tests for large banks, while also reducing volatility in capital buffer requirements. Changes will include annual public input on scenarios and averaging results from the two most recent annual tests for capital calculations, taking effect in 2028.",
           "tags": [
             "Federal Reserve",
             "Banking",
             "Regulation"
-          ],
-          "timestamp": "2026-09-30T09:00:00Z"
+          ]
         },
         {
-          "id": "conagra-earnings",
-          "headline": "Conagra Brands Reports Mixed Q1 Results, Reaffirms Guidance",
-          "summary": "Conagra Brands ($CAG) reported a 1.4% decrease in net sales for the first quarter of fiscal year 2027, though adjusted diluted earnings per share increased by 5.1%. The company reaffirmed its fiscal 2027 guidance.",
+          "id": "treasury-yields",
+          "headline": "Treasury Yields Remain Elevated, Weighing on Stocks",
+          "summary": "Despite some easing in shorter-term yields due to inflation data, longer-term Treasury yields remained high. The 10-year Treasury yield rose to 5.30%, and the 30-year yield climbed to 5.64%, continuing to pressure stocks by making borrowing more expensive.",
           "tags": [
-            "Earnings",
-            "Food & Beverage",
-            "Conagra"
-          ],
-          "timestamp": "2026-09-30T10:00:00Z"
+            "Bond Market",
+            "Yields",
+            "Interest Rates"
+          ]
         },
         {
           "id": "sector-performance",
-          "headline": "Technology and Communication Services Lead Market, Healthcare Lags",
-          "summary": "Today's trading saw the Technology and Communication Services sectors leading the market, with strong performances from major tech companies. Conversely, the Healthcare sector, alongside Financials and Consumer Discretionary, experienced declines.",
+          "headline": "Technology and Communication Services Lead, Consumer Staples and Financials Lag",
+          "summary": "Information Technology emerged as the top-performing sector today, with Communication Services also showing strength. Conversely, Consumer Staples, Financials, and Consumer Discretionary lagged the broader market.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare"
-          ],
-          "timestamp": "2026-09-30T15:00:00Z"
+            "Financials"
+          ]
+        },
+        {
+          "id": "micron-earnings",
+          "headline": "Micron Technology Reports Q4 Earnings After Close",
+          "summary": "Memory giant Micron Technology ($MU) is set to report its Q4 2026 earnings after the market close today. Analysts anticipate revenue of $51.069 billion and EPS of $31.61, following the company's prior guidance.",
+          "tags": [
+            "Earnings",
+            "Technology",
+            "Micron"
+          ]
         }
       ]
     }
