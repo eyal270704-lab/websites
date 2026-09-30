@@ -1,186 +1,180 @@
 {
-  "generatedAt": "2026-09-29T20:32:00Z",
+  "generatedAt": "2026-09-30T17:14:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "September 29, 2026 Market Close - Data reflects market close on September 24, 2026",
+  "subtitle": "September 30, 2026 - Midday Report",
   "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Mixed Close Amid Geopolitical Tensions and Rate Hike Concerns",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-sept24-2026",
-          "headline": "Wall Street Closes Mixed; Rising Bond Yields and Oil Prices Drive Caution",
-          "summary": "U.S. equities concluded a volatile session on September 24, 2026, with major indices showing a mixed performance. The Dow Jones Industrial Average and S&P 500 edged lower, while the Nasdaq composite saw a slight gain. Investor caution was heightened by persistently rising Treasury yields, increased oil prices due to Middle East uncertainty, and ongoing concerns about potential Federal Reserve rate hikes.",
+          "id": "market-summary-today",
+          "headline": "Inflation Data Boosts Market Sentiment, Tech Leads Gains",
+          "summary": "U.S. equities saw a mixed-to-positive performance today, with major indices reacting to softer-than-expected August PCE inflation and robust private-sector job growth. This data eased concerns over aggressive Federal Reserve rate hikes, driving a rally in technology stocks while some defensive sectors experienced declines.",
           "tags": [
-            "Market Overview",
-            "Economic Factors"
+            "Market Summary",
+            "Inflation",
+            "Fed",
+            "Technology"
           ],
-          "timestamp": "2026-09-24T16:00:00Z"
+          "timestamp": "2026-09-30T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (September 24, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,704.13",
-          "statContext": "Down 1.90 points (-0.02%)",
-          "ticker": "$SPX",
-          "direction": "down"
+          "statValue": "7,715",
+          "statContext": "Up +0.58%",
+          "ticker": "^GSPC",
+          "price": "7,715",
+          "change": "+44.47",
+          "changePercent": "+0.58%",
+          "direction": "up"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,939.37",
-          "statContext": "Up 3.34 points (+0.01%)",
-          "ticker": "$IXIC",
+          "statValue": "27,072",
+          "statContext": "Up +1.02%",
+          "ticker": "^IXIC",
+          "price": "27,072",
+          "change": "+274.72",
+          "changePercent": "+1.02%",
           "direction": "up"
         },
         {
           "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,349.98",
-          "statContext": "Down 161.61 points (-0.31%)",
-          "ticker": "$DJI",
+          "statValue": "51,336",
+          "statContext": "Down -0.03%",
+          "ticker": "^DJI",
+          "price": "51,336",
+          "change": "-15.40",
+          "changePercent": "-0.03%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (September 24-25, 2026 Sessions)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "mover-on",
-          "headline": "ON Semiconductor Rises on Strong Q3 Results",
-          "summary": "ON Semiconductor ($ON) traded significantly higher, driven by third-quarter 2024 financial results that surpassed analyst expectations and resilient demand in automotive and industrial power sectors.",
-          "ticker": "$ON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "id": "hpe-gainer",
+          "headline": "Hewlett Packard Enterprise Rises on AI Deal",
+          "summary": "Hewlett Packard Enterprise ($HPE) climbed 4.34% after announcing a multi-billion dollar AI infrastructure deal and upgrading its financial outlook.",
+          "ticker": "$HPE",
+          "price": "---",
+          "change": "---",
+          "changePercent": "+4.34%",
           "direction": "up"
         },
         {
-          "id": "mover-viav",
-          "headline": "Viavi Solutions Surges on CMMC Certification and AI Demand",
-          "summary": "Viavi Solutions ($VIAV) surged after its Aerospace and Defense division achieved Level 2 Cybersecurity Maturity Model Certification (CMMC), a key requirement for U.S. Department of Defense contracts, complemented by strong demand for its AI-focused data center testing solutions.",
-          "ticker": "$VIAV",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "id": "cboe-gainer",
+          "headline": "Cboe Global Markets Gains on Licensing Extension",
+          "summary": "Cboe Global Markets ($CBOE) advanced 4.38% following a 25-year extension of its exclusive licensing agreement with S&P Dow Jones Indices.",
+          "ticker": "$CBOE",
+          "price": "---",
+          "change": "---",
+          "changePercent": "+4.38%",
           "direction": "up"
         },
         {
-          "id": "mover-dell",
-          "headline": "Dell Technologies Up on AI Market Expansion Outlook",
-          "summary": "Dell Technologies ($DELL) moved higher following a bullish research note from Morgan Stanley, citing structural expansion in the AI market and a projected 87-fold increase in inference demand by 2030.",
-          "ticker": "$DELL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "up"
-        },
-        {
-          "id": "mover-meta",
-          "headline": "Meta Platforms Climbs Post-AI Assistant Unveil",
-          "summary": "Meta Platforms ($META) climbed 4.5% on September 24, 2026, a day after unveiling a new handheld gadget for its recently launched AI assistant, indicating positive market reception to its AI advancements.",
-          "ticker": "$META",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.5%",
-          "direction": "up"
-        },
-        {
-          "id": "mover-mgm",
-          "headline": "MGM Resorts Slumps as Acquisition Proposal Withdrawn",
-          "summary": "MGM Resorts ($MGM) slumped 11% on September 24, 2026, after media mogul Barry Diller's People withdrew its proposal to purchase the casino operator, leading to a significant drop in its stock price.",
-          "ticker": "$MGM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-11%",
+          "id": "cnxc-loser",
+          "headline": "Concentrix Falls on Earnings Miss",
+          "summary": "Customer experience company Concentrix ($CNXC) dropped 9.24% after missing third-quarter earnings and revenue forecasts.",
+          "ticker": "$CNXC",
+          "price": "---",
+          "change": "---",
+          "changePercent": "-9.24%",
           "direction": "down"
         },
         {
-          "id": "mover-oracle",
-          "headline": "Oracle Falls on Data Center Notice",
-          "summary": "Oracle ($ORCL) fell 3.5% on September 24, 2026, following reports that the company issued a 'force majeure' notice to a New Mexico data center, impacting investor sentiment.",
-          "ticker": "$ORCL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.5%",
+          "id": "unh-loser",
+          "headline": "United Health Group Declines",
+          "summary": "United Health Group ($UNH) saw a decline of 1.88% today.",
+          "ticker": "$UNH",
+          "price": "---",
+          "change": "---",
+          "changePercent": "-1.88%",
           "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-news-yields-oil",
-          "headline": "Treasury Yields and Oil Prices Climb, Fueling Inflation Worries",
-          "summary": "U.S. Treasury yields continued their ascent on September 24, 2026, with the 10-year yield reaching 5.14% (highest since 2007) and the two-year yield hitting its highest since 2024. Concurrently, Brent crude prices rose above $107 per barrel amid escalating U.S.-Iran tensions, raising inflation concerns and pressuring growth stocks.",
+          "id": "inflation-report",
+          "headline": "August PCE Inflation Below Expectations, Easing Fed Rate Hike Concerns",
+          "summary": "The August Personal Consumption Expenditures (PCE) price index rose a seasonally adjusted 0.3% for the month, bringing the 12-month gain to 3.4%, which was below economists' expectations of 3.7%. This softer inflation data has reportedly reduced the urgency for the Federal Reserve to raise rates at its next meeting.",
           "tags": [
-            "Economic Data",
-            "Geopolitics",
-            "Inflation"
+            "Inflation",
+            "PCE",
+            "Federal Reserve"
           ],
-          "timestamp": "2026-09-24T16:00:00Z"
+          "timestamp": "2026-09-30T13:00:00Z"
         },
         {
-          "id": "economic-news-consumer-confidence",
-          "headline": "Consumer Confidence Dips to Decade Low in September 2026",
-          "summary": "Americans' confidence in the economy plunged in September 2026, reaching its lowest level since April 2014, according to the Conference Board. This decline is attributed to persistent elevated prices and stagnating wages, exacerbated by geopolitical conflicts.",
+          "id": "gdp-report",
+          "headline": "Q2 US GDP Revised Up to 2.2%, Exceeding Forecasts",
+          "summary": "The U.S. economy demonstrated stronger-than-expected growth in the second quarter, with the final reading of Gross Domestic Product (GDP) showing an annualized rate of 2.2%, surpassing economists' estimates of 1.5%.",
           "tags": [
+            "GDP",
             "Economic Data",
-            "Consumer Sentiment"
+            "Growth"
           ],
-          "timestamp": "2026-09-29T00:00:00Z"
+          "timestamp": "2026-09-30T12:00:00Z"
         },
         {
-          "id": "sector-analysis-tech-pressure",
-          "headline": "Big Tech Stocks Under Pressure from Rising Yields and Competition",
-          "summary": "Major technology stocks, including Microsoft ($MSFT), Nvidia ($NVDA), Amazon ($AMZN), Alphabet ($GOOGL), and Apple ($AAPL), faced premarket pressure on September 24, 2026. This was primarily driven by rising Treasury yields, which diminish the present value of future earnings for growth-oriented tech companies, alongside intensified AI-related competition.",
+          "id": "fed-stress-test",
+          "headline": "Federal Reserve Finalizes Stress Test Changes for Banks",
+          "summary": "The Federal Reserve Board today finalized changes aimed at enhancing the transparency and public accountability of its annual bank stress tests, and to reduce volatility in stress test-related capital requirements.",
+          "tags": [
+            "Federal Reserve",
+            "Banking",
+            "Regulation"
+          ],
+          "timestamp": "2026-09-30T09:00:00Z"
+        },
+        {
+          "id": "conagra-earnings",
+          "headline": "Conagra Brands Reports Mixed Q1 Results, Reaffirms Guidance",
+          "summary": "Conagra Brands ($CAG) reported a 1.4% decrease in net sales for the first quarter of fiscal year 2027, though adjusted diluted earnings per share increased by 5.1%. The company reaffirmed its fiscal 2027 guidance.",
+          "tags": [
+            "Earnings",
+            "Food & Beverage",
+            "Conagra"
+          ],
+          "timestamp": "2026-09-30T10:00:00Z"
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Technology and Communication Services Lead Market, Healthcare Lags",
+          "summary": "Today's trading saw the Technology and Communication Services sectors leading the market, with strong performances from major tech companies. Conversely, the Healthcare sector, alongside Financials and Consumer Discretionary, experienced declines.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Interest Rates"
+            "Healthcare"
           ],
-          "timestamp": "2026-09-24T09:30:00Z"
-        },
-        {
-          "id": "earnings-costco-scholastic",
-          "headline": "Costco and Scholastic Among Companies Reporting Earnings",
-          "summary": "Costco Wholesale Corp. ($COST) and Scholastic Corp. ($SCHL) were among the companies expected to report their latest financial results after the market close on September 24, 2026, providing key insights into their performance.",
-          "tags": [
-            "Earnings Reports"
-          ],
-          "timestamp": "2026-09-24T20:00:00Z"
-        },
-        {
-          "id": "fed-rate-hike-implications",
-          "headline": "Federal Reserve Initiates Rate Hikes, Signals More Amid Inflation",
-          "summary": "The Federal Reserve recently raised its benchmark interest rate for the first time since 2023 in an effort to curb stubbornly high inflation. The central bank has signaled that another rate hike could occur later in the year, impacting borrowing costs across the economy.",
-          "tags": [
-            "Economic Policy",
-            "Federal Reserve",
-            "Interest Rates"
-          ],
-          "timestamp": "2026-09-29T00:00:00Z"
+          "timestamp": "2026-09-30T15:00:00Z"
         }
       ]
     }
