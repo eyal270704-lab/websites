@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T17:42:00Z",
+  "generatedAt": "2026-10-01T20:52:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "October 1, 2026 - End of Day",
-  "badge": "End of Day",
+  "title": "Daily Market Digest - October 1, 2026",
+  "subtitle": "Market closes mixed as surging bond yields and AI optimism create a two-tiered market.",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,9 +13,16 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Close Mixed Amidst Soaring Treasury Yields",
-          "summary": "U.S. equities finished a choppy October 1 session with a mixed performance. The Dow Jones Industrial Average and S&P 500 declined due to persistent concerns over rising U.S. government bond yields, while the tech-heavy Nasdaq Composite managed to eke out a gain, primarily buoyed by strong performances in AI-related technology stocks."
+          "id": "market-summary-today",
+          "headline": "Wall Street finishes mixed amid bond market swings and AI-driven tech strength",
+          "summary": "U.S. equities saw a choppy session today, October 1, 2026, as major indices reacted to surging Treasury yields hitting multi-decade highs, while optimism surrounding AI and strong earnings from tech giants provided support. The S&P 500 and Nasdaq ended slightly higher, breaking a three-day losing streak for the S&P, while the Dow edged down. The divergence highlights a 'two-tiered market' where growth and AI-related stocks continued to show resilience.",
+          "tags": [
+            "Market Summary",
+            "AI",
+            "Treasury Yields",
+            "Economic Data"
+          ],
+          "timestamp": "2026-10-01T16:00:00Z"
         }
       ]
     },
@@ -26,85 +33,77 @@
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,651.54",
-          "statContext": "Declined 0.3% (-22.95 points) at market close."
+          "statValue": "7,678.25",
+          "statContext": "Up 0.34% today. The S&P 500 closed with a 0.19% gain. It rose 18.58 points, or 0.24%. It gained 14.91 points.",
+          "ticker": "$SPX",
+          "change": "+26.71",
+          "changePercent": "+0.34%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,861.06",
-          "statContext": "Rose 0.2% (+53.72 points) at market close."
+          "statValue": "26,871.60",
+          "statContext": "Up 0.1% today. It rose 10.53 points. Earlier, it advanced 0.44% in early trading.",
+          "ticker": "$IXIC",
+          "change": "+10.53",
+          "changePercent": "+0.04%",
+          "direction": "up"
         },
         {
-          "id": "dow",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "50,906.05",
-          "statContext": "Fell 0.9% (-443.87 points) at market close."
+          "statValue": "50,926.56",
+          "statContext": "Up less than 0.1% today. It edged up 3.17 points, or 0.01%. The Dow also added roughly 85 points, or 0.2% in the opening.",
+          "ticker": "$DJI",
+          "change": "+20.51",
+          "changePercent": "+0.04%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Today's Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "acn-gainer",
-          "headline": "Accenture Surges on Strong Earnings",
-          "summary": "Accenture Plc ($ACN) jumped after reporting stronger profit for the latest quarter than analysts expected, along with an upbeat fiscal 2027 outlook.",
+          "id": "gainer-accenture",
+          "headline": "Accenture Surges on Strong Earnings and Outlook",
+          "summary": "Accenture PLC ($ACN) jumped 15.6% to $211.97 after reporting quarterly results that beat expectations and providing an upbeat fiscal 2027 outlook.",
           "ticker": "$ACN",
-          "price": "$216.75",
-          "change": "+$33.35",
-          "changePercent": "+18.18%",
+          "price": "$211.97",
+          "change": "+$28.93",
+          "changePercent": "+15.78%",
           "direction": "up"
         },
         {
-          "id": "snps-gainer",
-          "headline": "Synopsys Climbs on Tech Strength",
-          "summary": "Synopsys Inc. ($SNPS) was a major gainer in the tech-laden index, with its stock price climbing significantly, following positive analyst outlook and recent agreements with Amazon and OpenAI.",
+          "id": "gainer-synopsys",
+          "headline": "Synopsys Climbs on Price Target Hike and Growth Outlook",
+          "summary": "Synopsys Inc. ($SNPS) climbed 12.81% to $490.66 after KeyBanc hiked its price target to $605, citing the electronics company's fiscal 2027 outlook and long-term growth.",
           "ticker": "$SNPS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.8%",
+          "price": "$490.66",
+          "change": "+$55.72",
+          "changePercent": "+12.81%",
           "direction": "up"
         },
         {
-          "id": "ibm-gainer",
-          "headline": "IBM Boosted by AI Agent Deployment",
-          "summary": "IBM ($IBM) saw its shares rise after extending its Bob coding agent for self-hosted deployment, targeting regulated enterprises.",
-          "ticker": "$IBM",
-          "price": "$231.05",
-          "change": "+$11.00",
-          "changePercent": "+5.0%",
-          "direction": "up"
-        },
-        {
-          "id": "ctva-loser",
-          "headline": "Corteva Drops Amid Business Separation",
-          "summary": "Corteva ($CTVA) shares dropped sharply due to a mechanical price adjustment related to the planned tax-free separation of its Crop Protection business into an independent publicly traded company, Vylor.",
+          "id": "loser-corteva",
+          "headline": "Corteva Plunges Amid Broader Market Volatility",
+          "summary": "Corteva Inc. ($CTVA) was among the session's notable decliners, sliding 84.38%.",
           "ticker": "$CTVA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-84%",
+          "changePercent": "-84.38%",
           "direction": "down"
         },
         {
-          "id": "lqda-loser",
-          "headline": "Liquidia Plunges on Patent Ruling",
-          "summary": "Liquidia ($LQDA) shares plunged after a court ruled that the company infringed claims of UTHR's '327 patent in an ongoing dispute over Yutrepia.",
-          "ticker": "$LQDA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13%",
-          "direction": "down"
-        },
-        {
-          "id": "gis-loser",
-          "headline": "General Mills Hits 52-Week Low",
-          "summary": "General Mills ($GIS) hit a 52-week low as rising interest rates continue to weigh on the broader consumer sector.",
+          "id": "loser-general-mills",
+          "headline": "General Mills Hits 52-Week Low as Rising Rates Weigh on Consumer Sector",
+          "summary": "General Mills ($GIS) hit a 52-week low, dropping 2.44%, as rising interest rates continue to pressure the consumer sector.",
           "ticker": "$GIS",
           "price": "N/A",
           "change": "N/A",
@@ -114,30 +113,95 @@
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data",
-          "headline": "Economic Data Shows Mixed Signals",
-          "summary": "The U.S. economy grew at an annualized rate of 2.2% in the second quarter, an upward revision from 1.5%. Consumer spending also saw a strong increase of 3.8% in Q2. Meanwhile, the Federal Reserve's preferred inflation measure, the Personal Consumption Expenditures (PCE) price index, rose by 3.4% year-on-year in August, coming in below economists' expectations of 3.7%. Core PCE, excluding food and energy, also rose less than anticipated at 3.0%. These figures have increased expectations that the Fed may keep rates unchanged at its October meeting."
+          "id": "leading-sectors-today",
+          "headline": "Energy and Technology Lead Market Gains",
+          "summary": "The Energy Select Sector SPDR Fund ($XLE) gained 1.10%, with EOG Resources Inc ($EOG) up 2.37%, ConocoPhillips ($COP) 1.20%, and Chevron Corp ($CVX) 0.92%. Technology Select Sector SPDR Fund ($XLK) rose 0.26%, boosted by NVIDIA Corp ($NVDA) up 0.91% and Microsoft Corp ($MSFT) 0.48%. The S&P 500 energy index also saw a boost of almost 2%. Meanwhile, Utilities Select Sector SPDR ($XLU) rose 1.2%.",
+          "tags": [
+            "Energy",
+            "Technology",
+            "Utilities",
+            "Market Performance"
+          ]
         },
         {
-          "id": "treasury-yields",
-          "headline": "Treasury Yields Surge to Multi-Decade Highs",
-          "summary": "U.S. government bond yields continued their upward trajectory, with the 10-year Treasury yield briefly touching 5.3% and the 30-year U.S. Treasury Note yield reaching 5.642%. This surge marks their highest levels in more than two decades, contributing to market jitters and impacting valuations across various sectors."
+          "id": "lagging-sectors-today",
+          "headline": "Financials and Materials Lag Amid Market Volatility",
+          "summary": "The Financial Select Sector SPDR Fund ($XLF) declined 0.90%, with Bank of America Corp ($BAC) down 2.30%, JPMorgan Chase & Co ($JPM) 1.11%, and Mastercard Inc ($MA) 0.35%. Materials Select Sector SPDR Fund ($XLB) fell 1.33%, and Real Estate Select Sector SPDR Fund ($XLRE) was down 0.99%. Basic materials stocks were noted as primary laggards.",
+          "tags": [
+            "Financials",
+            "Materials",
+            "Real Estate",
+            "Market Performance"
+          ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Sector Performance Diverges: Tech and Utilities Lead, Energy and Materials Lag",
-          "summary": "Seven of the eleven S&P 500 sectors ended in negative territory, while four closed higher. The Utilities Select Sector SPDR (XLU) led the charge with a 1.2% gain, and technology stocks, particularly those in the AI space, also demonstrated resilience. Conversely, the Energy Select Sector SPDR (XLE) declined by 0.9%, with Basic Materials stocks identified as primary laggards for the day."
+          "id": "ai-trade-optimism",
+          "headline": "AI Optimism Fuels Tech Sector Despite Broader Concerns",
+          "summary": "AI-related stocks, including those in the semiconductor sector, saw gains today, driven by blowout quarterly results from Micron Technology ($MU) and the introduction of Alphabet's ($GOOGL) newest Gemini model. This renewed faith in the AI trade supported Wall Street, even as some analysts noted that Micron's stock slipped despite strong results, indicating high investor expectations already priced in.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Semiconductors",
+            "Earnings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "treasury-yields-surge",
+          "headline": "Treasury Yields Surge to Multi-Decade Highs, Pressuring Markets",
+          "summary": "U.S. Treasury yields surged to their highest levels in over two decades, with the 10-year yield hitting an intraday high of 5.342% and the 30-year yield reaching 5.663%. This increase pressured blue-chip dividend stocks and weighed on the broader market, though yields pulled back slightly later in the day.",
+          "tags": [
+            "Treasury Yields",
+            "Bond Market",
+            "Interest Rates",
+            "Macroeconomics"
+          ]
         },
         {
-          "id": "earnings-reports",
-          "headline": "Key Companies Report Earnings, Nike Expected After Hours",
-          "summary": "FactSet Research Systems Inc. ($FDS) and Concentrix Corp. ($CNXC) both surpassed earnings estimates for their respective quarters. Hewlett Packard Enterprise Co. ($HPE) saw a surge in shares following a significant $1.2 billion deal with Vultr. Chipmaker Micron Technology ($MU) delivered a stronger profit report than analysts expected, though its stock saw a modest decline as much of the good news was already priced in. Nike ($NKE) is scheduled to report its earnings after the market closes today."
+          "id": "economic-data-mixed",
+          "headline": "Mixed Economic Data Released: Jobless Claims Fall, ISM Manufacturing Dips",
+          "summary": "Weekly jobless claims fell to 197,000, reaching a nearly 57-year low, indicating a solid labor market. However, the ISM manufacturing index for September came in at 54.5, slightly below estimates of 54.9, and down from 54.6 in August, showing mixed signals on growth and persistent price pressures due to rising input prices.",
+          "tags": [
+            "Economic Data",
+            "Jobless Claims",
+            "ISM Manufacturing",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "fed-inflation-concerns",
+          "headline": "Fed Remains Wary of Inflation Despite Cooler PCE Data",
+          "summary": "Despite core PCE (Personal Consumption Expenditures) inflation coming in below economists' forecasts at 3% annually, Federal Reserve Vice Chair Philip Jefferson stated that inflation is 'still too high' and that recent data didn't significantly change his view. Expectations for the Fed to keep rates unchanged at its October meeting have increased, with markets pricing in a 62% chance of no hike.",
+          "tags": [
+            "Federal Reserve",
+            "Inflation",
+            "PCE Index",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "earnings-reports-impact",
+          "headline": "Key Earnings Reports Drive Stock Movements; Nike to Report After Hours",
+          "summary": "Accenture PLC ($ACN) and Micron Technology ($MU) reported stronger-than-expected quarterly results, significantly impacting their stock prices. Accenture surged over 15%, while Micron's stock slipped despite strong performance, indicating high investor expectations. Nike ($NKE) is scheduled to report earnings after the bell today.",
+          "tags": [
+            "Earnings",
+            "Corporate Reports",
+            "Technology",
+            "Consumer Discretionary"
+          ]
         }
       ]
     }
