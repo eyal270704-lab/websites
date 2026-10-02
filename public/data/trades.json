@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T12:17:29.249930Z",
+  "generatedAt": "2026-10-02T23:49:50.636414Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 7,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -102,17 +102,49 @@
     {
       "ticker": "$NVDA",
       "name": "NVIDIA Corporation",
-      "sector": "Information Technology",
-      "currentPrice": "$227.50",
-      "entry": "$223.50",
-      "stop": "$216.00",
-      "structure": "Support Test at 20-day MA",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "NVIDIA is currently trading above its 20-day and 200-day moving averages, indicating a strong bullish trend. A pullback towards the 20-day moving average around $223.50 would present a potential entry, with a stop below the 50-day moving average at $216.00. Relative volume is low, suggesting a lack of immediate buying pressure at current levels.",
+      "sector": "Technology",
+      "currentPrice": "$231.73",
+      "entry": "$212.62",
+      "stop": "$204.00",
+      "structure": "0.5 Fib Retracement to key support",
+      "trend": "> 150MA, RVOL > 1.0",
+      "trendLabel": "Trend & Volume",
+      "analysis": "NVIDIA is currently trading above its 150-day moving average, indicating a bullish long-term trend. Price has recently consolidated, and a pullback to the 0.5 Fibonacci retracement level around $212.62, which aligns with prior support, would present a potential swing trade entry. Relative volume is elevated, suggesting strong interest. Stop loss set below the 150-day MA.",
       "riskScore": 4,
-      "footerTag": "Momentum",
+      "footerTag": "Accumulation",
       "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$333.37",
+      "entry": "$320.00",
+      "stop": "$295.00",
+      "structure": "Potential retest of support near 0.5 Fib",
+      "trend": "> 150MA, RVOL < 1.0",
+      "trendLabel": "Trend & Volume",
+      "analysis": "Apple is in a clear uptrend, trading above its 150-day moving average. However, current volume is below average, suggesting a lack of strong conviction at current price levels. A potential swing trade entry could be found on a pullback to the $320.00 area, which aligns with previous support and an estimated 0.5 Fibonacci retracement, with a stop below the $300.00 'golden pocket'.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "currentPrice": "$516.16",
+      "entry": "$502.70",
+      "stop": "$495.00",
+      "structure": "0.5 Fib retracement within uptrend",
+      "trend": "> 20MA, Positive Volume Balance",
+      "trendLabel": "Trend & Volume",
+      "analysis": "Microsoft is in a strong uptrend, trading above its 20-day and 200-day moving averages. A pullback to the 0.5 Fibonacci retracement level at $502.70 offers a potential entry, as it represents a healthy consolidation within the bullish trend. Positive volume balance indicates strong buying interest on up days. A stop can be placed below the 0.618 Fib and identified support.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
       "source": "Micha Stocks YouTube"
     }
   ]
