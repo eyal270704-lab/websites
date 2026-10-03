@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-03T12:13:00Z",
+  "generatedAt": "2026-10-03T15:24:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 3, 2026 - Markets Closed (Last Session: October 2, 2026)",
+  "subtitle": "October 3, 2026 - Weekend Edition (Summarizing October 2, 2026 Session)",
   "badge": "Markets Closed",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse: Jobs Report Fuels Rally, Tech Leads",
+      "id": "market-pulse-oct3",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct-2",
-          "headline": "Weak Jobs Data Boosts Stocks, Easing Rate Hike Fears",
-          "summary": "U.S. equities rallied sharply on Friday, October 2, after a surprisingly weak September jobs report significantly reduced expectations of another Federal Reserve interest rate hike this month. This 'bad news is good news' sentiment propelled the major indices higher, with the tech-heavy Nasdaq hitting an intraday record.",
+          "id": "market-summary-oct3",
+          "headline": "Stocks Closed Higher Friday, October 2nd, on Cooling Job Market Data",
+          "summary": "U.S. equities rallied on Friday, October 2, with major indices closing in positive territory, largely driven by a weaker-than-expected September jobs report. This data eased investor concerns about aggressive Federal Reserve interest rate hikes, significantly reducing the probability of an October rate increase. The S&P 500 gained 0.7%, the Nasdaq Composite climbed 1.2%, and the Dow Jones Industrial Average rose 0.5% for the day. For the week, however, the S&P 500 and Dow closed lower, while the Nasdaq posted a modest gain.",
           "tags": [
-            "Market Rally",
+            "Market Close",
             "Jobs Report",
             "Fed Policy"
           ]
@@ -25,145 +25,156 @@
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (October 2, 2026)",
+      "id": "major-indices-oct3",
+      "title": "Major Indices (Friday, Oct 2, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-oct3",
           "statLabel": "S&P 500",
           "statValue": "7,722.72",
-          "statContext": "Up 0.73% on Friday",
-          "direction": "up"
+          "statContext": "+0.7% (+56.27 points) for the day; -0.3% for the week"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-oct3",
           "statLabel": "NASDAQ Composite",
           "statValue": "27,190.86",
-          "statContext": "Up 1.19% on Friday, hit intraday record",
-          "direction": "up"
+          "statContext": "+1.2% (+319.27 points) for the day; +0.5% for the week"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones",
+          "id": "dow-oct3",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "51,176.96",
-          "statContext": "Up 0.49% on Friday",
-          "direction": "up"
+          "statContext": "+0.5% (+250.40 points) for the day; -1.3% for the week"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (October 2, 2026)",
+      "id": "top-movers-oct3",
+      "title": "Top Movers (Friday, Oct 2, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "syna-gainer",
-          "headline": "Synaptics Surges on Acquisition News",
-          "summary": "Synaptics ($SYNA) surged 13.76% to close at $123 per share after ON Semiconductor (ON) revised its acquisition plans to an all-cash deal.",
-          "ticker": "$SYNA",
-          "price": "$123.00",
-          "change": "+$14.90",
-          "changePercent": "+13.76%",
-          "direction": "up"
+          "id": "sdev-gainer",
+          "headline": "Stablecoin Development Corp. surges",
+          "ticker": "$SDEV",
+          "price": "$7.48",
+          "change": "+$3.82",
+          "changePercent": "+104.4%",
+          "direction": "up",
+          "summary": "Stablecoin Development Corp. ($SDEV) experienced a significant jump, trading above its 50-day moving average, though a specific catalyst was not identified."
         },
         {
-          "id": "ter-gainer",
-          "headline": "Teradyne Jumps on Strategic Partnership",
-          "summary": "Automated test equipment maker Teradyne ($TER) jumped 6.42% following the announcement of a strategic partnership with Tokyo Electron.",
-          "ticker": "$TER",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+6.42%",
-          "direction": "up"
+          "id": "xrp-gainer",
+          "headline": "Armada Acquisition Corp. II jumps on merger news",
+          "ticker": "$XRPN",
+          "price": "$39.42",
+          "change": "+$15.95",
+          "changePercent": "+68.2%",
+          "direction": "up",
+          "summary": "Armada Acquisition Corp. II ($XRPN) surged after shareholders approved its merger with Evernorth on September 30th."
         },
         {
-          "id": "fps-gainer",
-          "headline": "Forgent Power Solutions Initiated Outperform",
-          "summary": "Forgent Power Solutions ($FPS) gained 6.27% after Bernstein analysts initiated coverage of the electrical distribution equipment company with an Outperform rating and a $48 price target.",
-          "ticker": "$FPS",
-          "price": "$48.00",
-          "change": "N/A",
-          "changePercent": "+6.27%",
-          "direction": "up"
-        },
-        {
-          "id": "tsla-gainer",
-          "headline": "Tesla Climbs on Strong Delivery Report",
-          "summary": "Tesla ($TSLA) shares climbed 4.7% after the electric vehicle maker reported third-quarter deliveries of 486,532 vehicles, topping analyst estimates.",
+          "id": "tesla-gainer",
+          "headline": "Tesla rises on strong Q3 deliveries",
           "ticker": "$TSLA",
           "price": "$370.59",
-          "change": "+$16.48",
-          "changePercent": "+4.7%",
-          "direction": "up"
+          "change": "+$16.40",
+          "changePercent": "+4.65%",
+          "direction": "up",
+          "summary": "Tesla ($TSLA) shares climbed following a report of Q3 deliveries that surpassed Wall Street estimates, indicating sustained demand."
         },
         {
-          "id": "txn-gainer",
-          "headline": "Texas Instruments Boosted by AI Enthusiasm",
-          "summary": "Texas Instruments Inc ($TXN) moved up by 4.43% due to growing investor enthusiasm for its expanding role in artificial intelligence infrastructure.",
-          "ticker": "$TXN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.43%",
-          "direction": "up"
+          "id": "wdc-loser",
+          "headline": "Western Digital Corp. leads decliners",
+          "ticker": "$WDC",
+          "price": "$415.29",
+          "change": "-$47.41",
+          "changePercent": "-10.22%",
+          "direction": "down",
+          "summary": "Western Digital Corporation ($WDC) was among the biggest decliners in the S&P 500 on Friday."
         },
         {
-          "id": "nke-loser",
-          "headline": "Nike Falls on Revenue Decline",
-          "summary": "Nike ($NKE) shares fell 3.6% after the company's fiscal first-quarter revenue was reported down 4%, with significant declines in Nike Direct and digital sales.",
+          "id": "stx-loser",
+          "headline": "Seagate Technology Holdings falls",
+          "ticker": "$STX",
+          "price": "$848.99",
+          "change": "-$96.79",
+          "changePercent": "-10.21%",
+          "direction": "down",
+          "summary": "Seagate Technology Holdings plc ($STX) also saw a significant drop during Friday's trading session."
+        },
+        {
+          "id": "nike-loser",
+          "headline": "Nike shares decline on revenue miss",
           "ticker": "$NKE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.6%",
-          "direction": "down"
+          "price": "$33.87",
+          "change": "-$1.28",
+          "changePercent": "-3.64%",
+          "direction": "down",
+          "summary": "Nike ($NKE) shares fell after the company reported a 4% decline in fiscal first-quarter revenue, with weakness in Greater China remaining a key concern for investors."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Economic Insights (October 2, 2026)",
+      "id": "market-news-oct3",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "jobs-report-fed",
-          "headline": "September Jobs Report Misses Estimates, Dims Rate Hike Prospects",
-          "summary": "The U.S. Bureau of Labor Statistics reported that nonfarm payroll employment increased by only 29,000 in September, well below the anticipated 84,000-90,000 jobs. The unemployment rate also edged up to 4.2% from 4.1%. This weaker-than-expected data significantly lowered market expectations for a Federal Reserve rate hike in October.",
+          "id": "economic-data-jobs-oct3",
+          "headline": "September Jobs Report Signals Cooling Labor Market",
+          "summary": "The U.S. economy added 29,000 jobs in September, significantly less than the 84,000-90,000 jobs anticipated by economists. The unemployment rate also ticked up to 4.2% from 4.1%. This slowdown in hiring, alongside revisions that erased 60,000 jobs from prior months, was a primary driver for Friday's market rally, as it reduced expectations for an October Federal Reserve interest rate hike.",
           "tags": [
-            "Economic Data",
-            "Jobs",
+            "Jobs Report",
+            "Unemployment",
             "Federal Reserve"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Consumer Discretionary Leads, Healthcare Lags on Friday",
-          "summary": "The Consumer Discretionary sector led all S&P 500 sectors with a 1.38% gain, bolstered by strong performance from companies like Tesla and cruise lines. In contrast, Healthcare was the sole lagging sector, posting a 0.03% loss for the day.",
+          "id": "fed-outlook-oct3",
+          "headline": "Odds of October Fed Rate Hike Plummet",
+          "summary": "Following the softer-than-expected September jobs report, the implied probability of the Federal Reserve raising interest rates in October dropped sharply, falling from approximately 70% earlier in the week to between 18% and 22.7% by Friday's close. This reassessment of monetary policy expectations provided a tailwind for the stock market.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "sector-performance-oct3",
+          "headline": "Technology and Energy Lead Weekly Gains; Healthcare and Financials Lag",
+          "summary": "For the trading week ending October 2, the Technology sector led with a 1.44% gain, followed by Energy, which rose 1.21%. In contrast, Healthcare and Financial Services were the worst-performing sectors, declining by 2.57% and 2.45% respectively. Consumer Discretionary also showed strength on Friday, gaining 1.4%.",
           "tags": [
             "Sector Analysis",
-            "Consumer Discretionary",
-            "Healthcare"
+            "Technology",
+            "Energy",
+            "Healthcare",
+            "Financials"
           ]
         },
         {
-          "id": "oil-g7-release",
-          "headline": "Oil Prices Drop as G7 Agrees to Emergency Fuel Release",
-          "summary": "Oil prices slumped on Friday after G7 nations agreed to release 100 million barrels of diesel and crude oil from emergency stockpiles over four months. West Texas Intermediate (WTI) crude fell 3.75% to $89.39 per barrel, while Brent crude declined 2.34% to $99.92 per barrel, easing concerns over tight global energy supplies.",
+          "id": "q3-earnings-expectations-oct3",
+          "headline": "S&P 500 Q3 Earnings Growth Projected Above 29%",
+          "summary": "As the third-quarter earnings season approaches, the S&P 500 is forecast to report year-over-year earnings growth of 29.5%, marking the third consecutive quarter of growth exceeding 25%. This optimistic outlook is supported by positive revisions to earnings estimates and strong guidance from many companies.",
           "tags": [
-            "Commodities",
-            "Oil Prices",
-            "G7"
+            "Earnings Season",
+            "S&P 500",
+            "Corporate Earnings"
           ]
         },
         {
-          "id": "earnings-overview",
-          "headline": "Earnings Season Quiet Friday, Nike Weighs",
-          "summary": "There were no new S&P 500 earnings reports scheduled for release on Friday. The market was still digesting Thursday night's results from Nike ($NKE), which saw its shares fall 3.6% due to declining revenue. Micron Technology ($MU) had delivered a solid 'beat and raise' quarter earlier in the week.",
+          "id": "micron-earnings-oct3",
+          "headline": "Micron Technology Reports Strong Q4 Earnings Beat",
+          "summary": "Micron Technology Inc. ($MU) announced robust fiscal fourth-quarter 2026 non-GAAP earnings of $33.42 per share, an eleven-fold increase from the previous year and surpassing analyst estimates. Revenue surged 379.3% year-over-year to $54.23 billion, driven by strong pricing and AI-led memory and storage demand.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Earnings Report",
+            "$MU",
+            "Semiconductors",
+            "AI"
           ]
         }
       ]
