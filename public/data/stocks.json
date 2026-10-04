@@ -1,165 +1,221 @@
 {
-  "generatedAt": "2026-10-03T19:05:00Z",
+  "generatedAt": "2026-10-04T16:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 3, 2026",
-  "subtitle": "Review of Friday, October 2, 2026 Trading Session",
-  "badge": "Markets Closed",
+  "title": "Daily Market Digest: October 4, 2026",
+  "subtitle": "Reflecting Friday, October 2, 2026 Session Performance",
+  "badge": "Market Closed (Weekend) - Last Session: October 2, 2026",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Jobs Report Fuels Rally, Tech Leads Gains",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Stocks Rally on Weak Jobs Data, Reducing Fed Rate Hike Expectations",
-          "summary": "U.S. stocks saw broad gains on Friday, October 2, 2026, as a surprisingly soft September jobs report eased concerns about inflation and significantly lowered the probability of an October Federal Reserve interest rate hike. All major indices closed higher, with the technology-heavy Nasdaq Composite leading the advance. This report covers the last trading session as markets are closed today, October 3, 2026. Not financial advice.",
+          "id": "market-summary",
+          "headline": "U.S. Stocks Rally Friday as Weak Jobs Report Dims Fed Rate Hike Prospects",
+          "summary": "U.S. equities posted significant gains on Friday, October 2, 2026, with the Nasdaq Composite hitting a record high, following a September jobs report that indicated a slowdown in job creation and an uptick in unemployment. This economic data substantially reduced investor expectations for a Federal Reserve interest rate hike, bolstering market sentiment. Technology stocks were a primary driver of the day's rally, concluding an otherwise volatile week for the broader market.",
           "tags": [
             "Market Rally",
             "Jobs Report",
-            "Fed Outlook"
+            "Fed Policy",
+            "Tech Stocks"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (October 2, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500",
           "statLabel": "S&P 500",
           "statValue": "7,722.72",
-          "statContext": "+0.7% (+56.27 points)"
+          "statContext": "+0.7%",
+          "ticker": "^GSPC",
+          "change": "+56.27",
+          "changePercent": "+0.7%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
           "statValue": "27,190.86",
-          "statContext": "+1.2% (+319.27 points)"
+          "statContext": "+1.2%",
+          "ticker": "^IXIC",
+          "change": "+319.27",
+          "changePercent": "+1.2%",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "51,176.96",
-          "statContext": "+0.5% (+250.40 points)"
+          "statContext": "+0.5%",
+          "ticker": "^DJI",
+          "change": "+250.40",
+          "changePercent": "+0.5%",
+          "direction": "up"
         },
         {
-          "id": "russell2000-performance",
+          "id": "russell2000",
           "statLabel": "Russell 2000",
           "statValue": "2,832.90",
-          "statContext": "+0.9% (+26.27 points)"
+          "statContext": "+0.9%",
+          "ticker": "^RUT",
+          "change": "+26.27",
+          "changePercent": "+0.9%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (October 2, 2026 Session)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-synaptics",
-          "headline": "Synaptics Surges on Acquisition Plan Revision",
-          "ticker": "$SYNA",
-          "price": "Price N/A",
-          "change": "N/A",
-          "changePercent": "+13.76%",
+          "id": "sdev-gainer",
+          "headline": "Stablecoin Development Corp. Surges",
+          "summary": "Stablecoin Development Corp. ($SDEV) experienced a significant surge, closing up 104.4% to $7.48 on Friday, trading above its 50-day moving average.",
+          "ticker": "$SDEV",
+          "price": "$7.48",
+          "change": "+$3.82",
+          "changePercent": "+104.4%",
           "direction": "up",
-          "summary": "Synaptics ($SYNA) surged after ON Semiconductor revised its acquisition plans from an all-stock structure to an all-cash deal."
+          "tags": [
+            "Gainers"
+          ]
         },
         {
-          "id": "gainer-armada",
+          "id": "xrpn-gainer",
           "headline": "Armada Acquisition Jumps on Merger Approval",
+          "summary": "Armada Acquisition Corp. II ($XRPN) jumped 68.2% to $39.42 after shareholders approved its merger with Evernorth on September 30, with the transaction nearing completion.",
           "ticker": "$XRPN",
           "price": "$39.42",
-          "change": "N/A",
+          "change": "+$15.98",
           "changePercent": "+68.2%",
           "direction": "up",
-          "summary": "Armada Acquisition Corp. II ($XRPN) jumped following shareholder approval of its combination with Evernorth."
+          "tags": [
+            "Gainers",
+            "Mergers & Acquisitions"
+          ]
         },
         {
-          "id": "gainer-nvidia",
-          "headline": "Nvidia Hits New All-Time High Amid AI Boom",
-          "ticker": "$NVDA",
-          "price": "$237.88 (intraday high)",
+          "id": "tsla-gainer",
+          "headline": "Tesla Climbs on Strong Deliveries",
+          "summary": "Tesla ($TSLA) shares climbed 4.65% after the electric vehicle maker reported better-than-expected third-quarter deliveries of 486,532 vehicles, topping analyst estimates.",
+          "ticker": "$TSLA",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+2.65%",
+          "changePercent": "+4.65%",
           "direction": "up",
-          "summary": "Nvidia ($NVDA) reached a new all-time intraday high, pushing its market capitalization past $5.7 trillion, as investors continued to show strong interest in AI technologies."
+          "tags": [
+            "Gainers",
+            "Earnings",
+            "EV"
+          ]
         },
         {
-          "id": "loser-integra",
-          "headline": "Integra LifeSciences Dips on Lowered Guidance",
-          "ticker": "$IART",
-          "price": "Price N/A",
-          "change": "N/A",
-          "changePercent": "-21.19%",
-          "direction": "down",
-          "summary": "Integra LifeSciences Holdings Corporation ($IART) saw a significant drop after providing preliminary third-quarter results and updating its full-year 2026 guidance, citing impacts from a July flooding event."
-        },
-        {
-          "id": "loser-nike",
-          "headline": "Nike Falls on Disappointing Profit Forecast",
+          "id": "nke-loser",
+          "headline": "Nike Tumbles on Weak Guidance",
+          "summary": "Nike ($NKE) stock tumbled approximately 5.4% after reporting mixed fiscal Q1 2027 earnings that beat on EPS but missed on sales, and more importantly, cut its full-year guidance for revenue to fall in the high-single digits. Weakness in China and Europe contributed to the decline.",
           "ticker": "$NKE",
-          "price": "Price N/A",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.64%",
+          "changePercent": "-5.4%",
           "direction": "down",
-          "summary": "Nike ($NKE) experienced a decline after providing a profit forecast for the fiscal year that fell short of analysts' expectations."
+          "tags": [
+            "Losers",
+            "Earnings",
+            "Retail"
+          ]
         },
         {
-          "id": "loser-western-digital",
-          "headline": "Western Digital Among Top Losers",
+          "id": "wdc-loser",
+          "headline": "Western Digital Falls on Overcapacity Fears",
+          "summary": "Western Digital ($WDC) shares fell 10.2% after Toshiba announced an expansion of HDD production in the Philippines, raising concerns of potential overcapacity in the market.",
           "ticker": "$WDC",
-          "price": "Price N/A",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-10.22%",
+          "changePercent": "-10.2%",
           "direction": "down",
-          "summary": "Western Digital Corporation ($WDC) was among the day's biggest losers."
+          "tags": [
+            "Losers",
+            "Semiconductors",
+            "Supply Chain"
+          ]
+        },
+        {
+          "id": "stx-loser",
+          "headline": "Seagate Tech Down Amid Production Expansion",
+          "summary": "Seagate Technology ($STX) also saw a 10.2% drop, affected by Toshiba's plans to double HDD production, which sparked concerns about increased competition and oversupply.",
+          "ticker": "$STX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-10.2%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Semiconductors",
+            "Supply Chain"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-jobs-report",
-          "headline": "September Jobs Report Significantly Misses Expectations",
-          "summary": "The U.S. economy added a modest 29,000 jobs in September, falling substantially short of consensus estimates which ranged from 84,000 to 90,000. Concurrently, the unemployment rate edged up to 4.2%. This weaker-than-expected labor market data was a key driver for Friday's stock market rally as it dampened expectations for further Federal Reserve interest rate hikes.",
+          "id": "economic-data",
+          "headline": "September Jobs Report Disappoints, Cooling Rate Hike Bets",
+          "summary": "The U.S. economy added a mere 29,000 nonfarm payrolls in September, significantly below the anticipated 90,000 to 84,000. Concurrently, the unemployment rate edged up to 4.2% from 4.1%, and average hourly earnings growth moderated to 0.1% for the month. These figures, coupled with downward revisions to prior months' job growth, led to a dramatic decrease in the market-implied probability of a Federal Reserve rate hike in October, falling to roughly 22.7% from 64.2% a week earlier.",
           "tags": [
+            "Economic Data",
             "Jobs Report",
-            "Unemployment",
-            "Federal Reserve"
+            "Federal Reserve",
+            "Inflation"
           ]
         },
         {
           "id": "sector-performance",
-          "headline": "Technology Leads as Rate Hike Fears Recede, Energy Lags",
-          "summary": "Technology stocks, particularly those sensitive to interest rates, led the market's gains, bolstered by reduced expectations of an October Fed rate hike and continued enthusiasm for artificial intelligence. Industrials and consumer cyclicals also showed strength, while energy and financial services sectors lagged.",
+          "headline": "Consumer Discretionary Leads, Technology Strong; Financials Lag",
+          "summary": "On Friday, the Consumer Discretionary sector led all sectors with a 1.38% return, with technology also showing strong performance and remaining the top-performing sector overall. Conversely, the Healthcare sector lagged with a 0.03% loss, and Financials experienced a significant drop, falling to the last position in sector rankings amid broader concerns regarding credit conditions.",
           "tags": [
             "Sector Analysis",
+            "Consumer Discretionary",
             "Technology",
-            "AI",
-            "Interest Rates"
+            "Financials",
+            "Healthcare"
           ]
         },
         {
-          "id": "earnings-micron",
-          "headline": "Micron Technology Reports Strong Q4 Earnings Driven by AI Demand",
-          "summary": "Micron Technology ($MU) reported strong financial results for its fiscal fourth quarter of 2026, with non-GAAP earnings per share significantly up and revenues surging year-over-year, both beating analyst estimates. The company attributed this robust performance to strong pricing and demand driven by AI-led memory and storage.",
+          "id": "treasury-oil",
+          "headline": "Treasury Yields Fluctuate, Oil Prices Retreat",
+          "summary": "Following the weak jobs report, Treasury yields initially tumbled but later retraced their losses, with the 10-year yield rising 4 basis points to approximately 5.28%. Oil prices also retreated on Friday, with West Texas Intermediate (WTI) falling around 2.1% to approximately $91 per barrel, partly due to a coordinated release of 100 million barrels of crude and diesel by G7 and European nations.",
           "tags": [
-            "Earnings Report",
-            "$MU",
-            "AI",
-            "Semiconductors"
+            "Treasury Yields",
+            "Oil Prices",
+            "Commodities",
+            "Global Economy"
+          ]
+        },
+        {
+          "id": "geopolitical-watch",
+          "headline": "Geopolitical Tensions Monitored Ahead of Fed Decision",
+          "summary": "Beyond economic data, geopolitical developments, including President Donald Trump's deployment of 9,000 U.S. troops to the Middle East and warnings of potential strikes against Iran, remain a factor for investors and could influence the Federal Reserve's upcoming policy decisions.",
+          "tags": [
+            "Geopolitics",
+            "Middle East",
+            "Federal Reserve"
           ]
         }
       ]
