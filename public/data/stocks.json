@@ -1,221 +1,190 @@
 {
-  "generatedAt": "2026-10-04T16:09:00Z",
+  "generatedAt": "2026-10-04T19:19:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 4, 2026",
-  "subtitle": "Reflecting Friday, October 2, 2026 Session Performance",
-  "badge": "Market Closed (Weekend) - Last Session: October 2, 2026",
+  "title": "Daily Market Digest",
+  "subtitle": "Market Recap for Friday, October 2, 2026",
+  "badge": "Final Close",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-oct-2",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Stocks Rally Friday as Weak Jobs Report Dims Fed Rate Hike Prospects",
-          "summary": "U.S. equities posted significant gains on Friday, October 2, 2026, with the Nasdaq Composite hitting a record high, following a September jobs report that indicated a slowdown in job creation and an uptick in unemployment. This economic data substantially reduced investor expectations for a Federal Reserve interest rate hike, bolstering market sentiment. Technology stocks were a primary driver of the day's rally, concluding an otherwise volatile week for the broader market.",
+          "id": "market-summary-oct-2",
+          "headline": "Stocks Rally as Jobs Report Cools Rate Hike Fears",
+          "summary": "U.S. stocks climbed higher on Friday, nearing record levels, after a weaker-than-expected September jobs report eased concerns about inflation and reduced the likelihood of an immediate Federal Reserve interest rate hike. All major indices finished the session in positive territory.",
           "tags": [
-            "Market Rally",
+            "Market Overview",
             "Jobs Report",
-            "Fed Policy",
-            "Tech Stocks"
-          ]
+            "Fed Policy"
+          ],
+          "timestamp": "2026-10-02T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices",
+      "id": "major-indices-oct-2",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
-          "statLabel": "S&P 500",
+          "id": "sp500-oct-2",
+          "headline": "S&P 500",
+          "statLabel": "Close",
           "statValue": "7,722.72",
-          "statContext": "+0.7%",
-          "ticker": "^GSPC",
-          "change": "+56.27",
-          "changePercent": "+0.7%",
-          "direction": "up"
+          "statContext": "Up 0.7% (+56.27 points)",
+          "tags": [
+            "S&P 500",
+            "Index Performance"
+          ]
         },
         {
-          "id": "nasdaq",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "27,190.86",
-          "statContext": "+1.2%",
-          "ticker": "^IXIC",
-          "change": "+319.27",
-          "changePercent": "+1.2%",
-          "direction": "up"
-        },
-        {
-          "id": "dow",
-          "statLabel": "Dow Jones Ind. Avg.",
+          "id": "dow-oct-2",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
           "statValue": "51,176.96",
-          "statContext": "+0.5%",
-          "ticker": "^DJI",
-          "change": "+250.40",
-          "changePercent": "+0.5%",
-          "direction": "up"
+          "statContext": "Up 0.5% (+250.40 points)",
+          "tags": [
+            "Dow Jones",
+            "Index Performance"
+          ]
         },
         {
-          "id": "russell2000",
-          "statLabel": "Russell 2000",
+          "id": "nasdaq-oct-2",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "27,190.86",
+          "statContext": "Up 1.2% (+319.27 points)",
+          "tags": [
+            "NASDAQ",
+            "Index Performance"
+          ]
+        },
+        {
+          "id": "russell2000-oct-2",
+          "headline": "Russell 2000",
+          "statLabel": "Close",
           "statValue": "2,832.90",
-          "statContext": "+0.9%",
-          "ticker": "^RUT",
-          "change": "+26.27",
-          "changePercent": "+0.9%",
-          "direction": "up"
+          "statContext": "Up 0.9% (+26.27 points)",
+          "tags": [
+            "Russell 2000",
+            "Small Cap"
+          ]
         }
       ]
     },
     {
-      "id": "top-movers",
+      "id": "top-movers-oct-2",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "sdev-gainer",
-          "headline": "Stablecoin Development Corp. Surges",
-          "summary": "Stablecoin Development Corp. ($SDEV) experienced a significant surge, closing up 104.4% to $7.48 on Friday, trading above its 50-day moving average.",
-          "ticker": "$SDEV",
-          "price": "$7.48",
-          "change": "+$3.82",
-          "changePercent": "+104.4%",
+          "id": "syna-gainer-oct-2",
+          "headline": "Synaptics Jumps on Acquisition Revision",
+          "summary": "Synaptics ($SYNA) surged 13.76% after ON Semiconductor (ON) revised its acquisition plans from an all-stock structure to an all-cash deal valued at $123 per share.",
+          "ticker": "$SYNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.76%",
           "direction": "up",
           "tags": [
-            "Gainers"
+            "Tech",
+            "M&A"
           ]
         },
         {
-          "id": "xrpn-gainer",
-          "headline": "Armada Acquisition Jumps on Merger Approval",
-          "summary": "Armada Acquisition Corp. II ($XRPN) jumped 68.2% to $39.42 after shareholders approved its merger with Evernorth on September 30, with the transaction nearing completion.",
-          "ticker": "$XRPN",
-          "price": "$39.42",
-          "change": "+$15.98",
-          "changePercent": "+68.2%",
-          "direction": "up",
-          "tags": [
-            "Gainers",
-            "Mergers & Acquisitions"
-          ]
-        },
-        {
-          "id": "tsla-gainer",
-          "headline": "Tesla Climbs on Strong Deliveries",
-          "summary": "Tesla ($TSLA) shares climbed 4.65% after the electric vehicle maker reported better-than-expected third-quarter deliveries of 486,532 vehicles, topping analyst estimates.",
+          "id": "tesla-gainer-oct-2",
+          "headline": "Tesla Climbs on Strong Delivery Report",
+          "summary": "Tesla ($TSLA) shares climbed 5.20% after the electric vehicle maker reported third-quarter deliveries of 486,532 vehicles, exceeding analyst estimates.",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.65%",
+          "changePercent": "+5.20%",
           "direction": "up",
           "tags": [
-            "Gainers",
-            "Earnings",
-            "EV"
+            "EV",
+            "Earnings"
           ]
         },
         {
-          "id": "nke-loser",
-          "headline": "Nike Tumbles on Weak Guidance",
-          "summary": "Nike ($NKE) stock tumbled approximately 5.4% after reporting mixed fiscal Q1 2027 earnings that beat on EPS but missed on sales, and more importantly, cut its full-year guidance for revenue to fall in the high-single digits. Weakness in China and Europe contributed to the decline.",
+          "id": "teradyne-gainer-oct-2",
+          "headline": "Teradyne Gains on Strategic Partnership",
+          "summary": "Teradyne ($TER) jumped 6.42% after the automated test equipment maker announced a strategic partnership with Tokyo Electron.",
+          "ticker": "$TER",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+6.42%",
+          "direction": "up",
+          "tags": [
+            "Semiconductor",
+            "Partnership"
+          ]
+        },
+        {
+          "id": "nike-loser-oct-2",
+          "headline": "Nike Slides on Revenue Miss, China Concerns",
+          "summary": "Nike ($NKE) saw its stock fall 4.48% following its fiscal first-quarter earnings report, which showed revenue down 4% to $11.2 billion and significant weakness in Nike Direct revenue and Greater China.",
           "ticker": "$NKE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.4%",
+          "changePercent": "-4.48%",
           "direction": "down",
           "tags": [
-            "Losers",
-            "Earnings",
-            "Retail"
-          ]
-        },
-        {
-          "id": "wdc-loser",
-          "headline": "Western Digital Falls on Overcapacity Fears",
-          "summary": "Western Digital ($WDC) shares fell 10.2% after Toshiba announced an expansion of HDD production in the Philippines, raising concerns of potential overcapacity in the market.",
-          "ticker": "$WDC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.2%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Semiconductors",
-            "Supply Chain"
-          ]
-        },
-        {
-          "id": "stx-loser",
-          "headline": "Seagate Tech Down Amid Production Expansion",
-          "summary": "Seagate Technology ($STX) also saw a 10.2% drop, affected by Toshiba's plans to double HDD production, which sparked concerns about increased competition and oversupply.",
-          "ticker": "$STX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.2%",
-          "direction": "down",
-          "tags": [
-            "Losers",
-            "Semiconductors",
-            "Supply Chain"
+            "Retail",
+            "Earnings"
           ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-oct-2",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data",
-          "headline": "September Jobs Report Disappoints, Cooling Rate Hike Bets",
-          "summary": "The U.S. economy added a mere 29,000 nonfarm payrolls in September, significantly below the anticipated 90,000 to 84,000. Concurrently, the unemployment rate edged up to 4.2% from 4.1%, and average hourly earnings growth moderated to 0.1% for the month. These figures, coupled with downward revisions to prior months' job growth, led to a dramatic decrease in the market-implied probability of a Federal Reserve rate hike in October, falling to roughly 22.7% from 64.2% a week earlier.",
+          "id": "economic-data-oct-2",
+          "headline": "September Jobs Report Misses Expectations, Unemployment Rises",
+          "summary": "The U.S. economy added a modest 29,000 nonfarm payrolls in September, significantly below the 84,000 jobs anticipated by economists. Concurrently, the unemployment rate edged up to 4.2% from 4.1%. This data fueled optimism that the Federal Reserve may hold off on further interest rate hikes.",
           "tags": [
-            "Economic Data",
             "Jobs Report",
-            "Federal Reserve",
-            "Inflation"
+            "Unemployment",
+            "Federal Reserve"
           ]
         },
         {
-          "id": "sector-performance",
-          "headline": "Consumer Discretionary Leads, Technology Strong; Financials Lag",
-          "summary": "On Friday, the Consumer Discretionary sector led all sectors with a 1.38% return, with technology also showing strong performance and remaining the top-performing sector overall. Conversely, the Healthcare sector lagged with a 0.03% loss, and Financials experienced a significant drop, falling to the last position in sector rankings amid broader concerns regarding credit conditions.",
+          "id": "sector-performance-oct-2",
+          "headline": "Technology Leads, Financials Lag in Sector Performance",
+          "summary": "Technology remained the top-performing sector, maintaining a stable lead. In contrast, the financial sector experienced a notable decline, dropping three ranks to the last position, reflecting broader concerns about credit conditions. Communications and materials sectors showed slight improvements.",
           "tags": [
             "Sector Analysis",
-            "Consumer Discretionary",
             "Technology",
-            "Financials",
-            "Healthcare"
+            "Financials"
           ]
         },
         {
-          "id": "treasury-oil",
-          "headline": "Treasury Yields Fluctuate, Oil Prices Retreat",
-          "summary": "Following the weak jobs report, Treasury yields initially tumbled but later retraced their losses, with the 10-year yield rising 4 basis points to approximately 5.28%. Oil prices also retreated on Friday, with West Texas Intermediate (WTI) falling around 2.1% to approximately $91 per barrel, partly due to a coordinated release of 100 million barrels of crude and diesel by G7 and European nations.",
+          "id": "oil-prices-oct-2",
+          "headline": "Oil Prices Fluctuate Amid Supply Discussions",
+          "summary": "Oil prices experienced volatility, with Brent crude settling at $102.25 per barrel, down 0.1% for the day. This comes as European nations discussed proposals to release diesel reserves to ease pressure on global fuel markets.",
           "tags": [
-            "Treasury Yields",
-            "Oil Prices",
             "Commodities",
+            "Oil",
             "Global Economy"
           ]
         },
         {
-          "id": "geopolitical-watch",
-          "headline": "Geopolitical Tensions Monitored Ahead of Fed Decision",
-          "summary": "Beyond economic data, geopolitical developments, including President Donald Trump's deployment of 9,000 U.S. troops to the Middle East and warnings of potential strikes against Iran, remain a factor for investors and could influence the Federal Reserve's upcoming policy decisions.",
+          "id": "q3-earnings-outlook-oct-2",
+          "headline": "Q3 Earnings Season Commences with Focus on Consumer Resilience",
+          "summary": "The third-quarter earnings season is set to begin in earnest, with FactSet forecasting S&P 500 earnings growth of 29.1%, marking the third consecutive quarter of growth above 25%. Despite geopolitical tensions and rising borrowing costs, the American consumer's resilience is expected to support company earnings.",
           "tags": [
-            "Geopolitics",
-            "Middle East",
-            "Federal Reserve"
+            "Earnings Season",
+            "Corporate Earnings",
+            "Economic Outlook"
           ]
         }
       ]
