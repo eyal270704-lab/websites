@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-05T20:05:00Z",
+  "generatedAt": "2026-10-05T22:22:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Monday, October 05, 2026",
+  "title": "Daily Market Digest: October 5, 2026",
+  "subtitle": "Markets close higher, Nasdaq hits new record on tech strength and M&A activity. Not financial advice.",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,153 +13,192 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "U.S. Stocks Rally on Acquisition News and Easing Rate Hike Fears",
-          "summary": "U.S. equities closed higher on Monday, with the Nasdaq reaching a new record high, as investors reacted positively to several major buyout announcements and continued to assess weaker-than-expected September labor market data from Friday, which reduced the likelihood of an immediate Fed rate hike. Despite rising Treasury yields, optimism surrounding robust corporate earnings expectations buoyed market sentiment.",
+          "id": "market-summary-oct-5",
+          "headline": "U.S. Equities Rally: Nasdaq Hits Record High Amid Easing Inflation Fears and M&A Boost",
+          "summary": "U.S. stock markets closed higher today, with the Nasdaq Composite reaching a new record, driven by strength in technology stocks and several significant buyout announcements. Easing concerns over inflation, fueled by a weaker-than-expected September jobs report last week, reduced the likelihood of imminent Federal Reserve interest rate hikes. Despite persistent high Treasury yields, investor sentiment remained positive, although a divergence was noted between robust mega-cap tech performance and some struggling smaller-cap names.",
           "tags": [
-            "Market Update",
-            "Fed",
-            "Earnings"
+            "Market Summary",
+            "Tech Rally",
+            "Economic Data",
+            "M&A"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (October 5, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "7,722.72",
-          "statContext": "+0.7% Today"
+          "statValue": "7,773.99",
+          "statContext": "+51.27 (+0.66%)"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "27,190.86",
-          "statContext": "+1.2% Today, new record high"
+          "statValue": "27,477.31",
+          "statContext": "+286.45 (+1.05%) - New Record"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,176.96",
-          "statContext": "+0.5% Today"
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,267.90",
+          "statContext": "+90.94 (+0.18%)"
+        },
+        {
+          "id": "russell2000-stat",
+          "statLabel": "Russell 2000",
+          "statValue": "2,847.14",
+          "statContext": "+14.24 (+0.5%)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers: Today's Market Leaders and Laggards",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "ptc-gainer",
-          "headline": "PTC Surges on Acquisition Deal",
+          "headline": "PTC Surges on Acquisition News",
+          "summary": "Software company PTC ($PTC) soared 33.5% after France's Schneider Electric announced an agreement to acquire it for $205 per share, valuing the deal at approximately $22.6 billion and boosting other software industry stocks.",
           "ticker": "$PTC",
-          "price": "N/A",
+          "price": "$205.00",
           "change": "N/A",
-          "changePercent": "+34.6%",
-          "direction": "up",
-          "summary": "Software firm PTC saw its shares leap after France's Schneider Electric agreed to acquire the company in a $22.6 billion all-cash deal."
+          "changePercent": "+33.5%",
+          "direction": "up"
+        },
+        {
+          "id": "pcvx-gainer",
+          "headline": "Vaxcyte Leads with Significant Gains",
+          "summary": "Vaxcyte Inc. ($PCVX) experienced a substantial rise, closing up 31.02%, indicative of strong investor interest.",
+          "ticker": "$PCVX",
+          "price": "$73.96",
+          "change": "+$17.51",
+          "changePercent": "+31.02%",
+          "direction": "up"
         },
         {
           "id": "rxo-gainer",
-          "headline": "RXO Jumps on Buyout Offer",
+          "headline": "RXO Jumps on C.H. Robinson Deal",
+          "summary": "RXO Inc. ($RXO) jumped 22.5% after C.H. Robinson Worldwide agreed to acquire its truck brokerage business for about $5 billion in cash and stock, creating one of the largest U.S. logistics firms.",
           "ticker": "$RXO",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+22.8%",
-          "direction": "up",
-          "summary": "RXO shares climbed following the announcement that C.H. Robinson Worldwide would acquire the truck brokerage business."
+          "changePercent": "+22.5%",
+          "direction": "up"
         },
         {
-          "id": "chrobinson-loser",
-          "headline": "C.H. Robinson Worldwide Falls After Acquisition Announcement",
+          "id": "chwr-loser",
+          "headline": "C.H. Robinson Worldwide Falls on Divestiture",
+          "summary": "C.H. Robinson Worldwide ($CHRW) experienced a significant decline of 7.56% following its agreement to sell its Global Forwarding business to RXO.",
           "ticker": "$CHRW",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.8%",
-          "direction": "down",
-          "summary": "C.H. Robinson Worldwide experienced a significant decline after agreeing to acquire RXO, making it the largest loser in the S&P 500 today."
+          "changePercent": "-7.56%",
+          "direction": "down"
         },
         {
-          "id": "cerebras-gainer",
-          "headline": "Cerebras Systems Rises on OpenAI Partnership News",
-          "ticker": "$CERE",
+          "id": "intc-loser",
+          "headline": "Intel Dips Amid Texas Chip Venture News",
+          "summary": "Intel ($INTC) shares dropped 3.29% after Elon Musk's confirmation that Taiwan Semiconductor Manufacturing Co. (TSMC) could join his Terafab chip manufacturing venture in Texas, a project Intel had initially supported.",
+          "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.5%",
-          "direction": "up",
-          "summary": "Cerebras Systems saw its stock rise after OpenAI CEO Sam Altman referred to the chip designer as a \"close partner.\""
+          "changePercent": "-3.29%",
+          "direction": "down"
         },
         {
-          "id": "cisco-gainer",
-          "headline": "Cisco Systems Advances",
-          "ticker": "$CSCO",
+          "id": "gfs-loser",
+          "headline": "GlobalFoundries Sees Profit-Taking",
+          "summary": "Semiconductor contract manufacturing company GlobalFoundries ($GFS) fell 3.33% today, attributed to profit-taking and ongoing valuation concerns.",
+          "ticker": "$GFS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.6%",
-          "direction": "up",
-          "summary": "Cisco Systems, a major component of the Dow, posted a solid gain today."
+          "changePercent": "-3.33%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-labor-market",
-          "headline": "Weak September Jobs Report Eases October Fed Rate Hike Concerns",
-          "summary": "The Department of Labor's report on Friday showed nonfarm payroll employment increased by only 29,000 in September, significantly below expectations. This softer-than-expected data, coupled with upward revisions for July and August, contributed to a decreased probability of an interest rate hike by the Federal Reserve in October.",
+          "id": "economic-data-jobs",
+          "headline": "Weak September Jobs Report Eases Fed Rate Hike Concerns",
+          "summary": "The U.S. Department of Labor reported a weaker-than-expected 29,000 nonfarm payroll increase for September, significantly below forecasts. This, coupled with an unemployment rate rise to 4.2% and downward revisions for prior months, reduced market expectations for further Federal Reserve interest rate hikes this year.",
           "tags": [
-            "Economic Data",
-            "Fed",
-            "Labor Market"
+            "Jobs Report",
+            "Fed Policy",
+            "Inflation"
           ]
         },
         {
-          "id": "economic-data-ism",
-          "headline": "U.S. Services Sector Activity Slows in September",
-          "summary": "Fresh data released today indicated a slowdown in U.S. services sector activity during September, although price pressures intensified. Investors will continue to monitor ISM services data for broader economic trends.",
+          "id": "fed-outlook",
+          "headline": "Investors Await Fed Meeting Minutes for Rate Path Clues",
+          "summary": "Market participants are keenly awaiting the release of the Federal Reserve's September meeting minutes this Wednesday for further clarity on the central bank's future interest rate trajectory. The recent jobs data has already lowered the probability of an October rate hike.",
           "tags": [
-            "Economic Data",
-            "ISM"
-          ]
-        },
-        {
-          "id": "monetary-policy-fed",
-          "headline": "Fed Minutes and Treasury Auctions Awaited This Week",
-          "summary": "The Federal Reserve's September meeting minutes are slated for release on Wednesday, providing further insights into monetary policy. Meanwhile, Treasury auctions throughout the week will test demand for U.S. debt as the 10-year Treasury yield remains elevated near multi-decade highs at 5.31%.",
-          "tags": [
+            "Federal Reserve",
             "Monetary Policy",
-            "Fed",
-            "Treasury Yields"
+            "Interest Rates"
           ]
         },
         {
-          "id": "sector-analysis",
-          "headline": "Technology and Consumer Discretionary Lead Gains, Healthcare Lags",
-          "summary": "The Information Technology and Consumer Discretionary sectors led market gains today, rising 1.1% and 1.4% respectively. The Materials sector also performed well. In contrast, the Health Care sector was the sole laggard among the broad market sectors, declining slightly by 0.04%.",
+          "id": "q3-earnings-kickoff",
+          "headline": "Q3 Earnings Season Kicks Off with Key Consumer-Facing Reports",
+          "summary": "The third-quarter earnings season is gaining momentum this week, with several major consumer-facing companies scheduled to report, including PepsiCo ($PEP), Constellation Brands ($STZ), Delta Air Lines ($DAL), and Levi Strauss ($LEVI). These reports will offer crucial insights into consumer demand and corporate performance.",
+          "tags": [
+            "Earnings Season",
+            "Q3 Earnings",
+            "Corporate Reports"
+          ]
+        },
+        {
+          "id": "treasury-yields",
+          "headline": "10-Year Treasury Yields Remain Elevated Near Multi-Decade Highs",
+          "summary": "The 10-year U.S. Treasury yield climbed to 5.31%, maintaining levels near multi-decade highs. This ongoing trend presents a complex backdrop, with some growth stocks rallying despite high risk-free rates, while the broader market navigates increased borrowing costs.",
+          "tags": [
+            "Bond Market",
+            "Treasury Yields",
+            "Economic Indicators"
+          ]
+        },
+        {
+          "id": "tech-sector-strength",
+          "headline": "Technology Sector Continues to Lead Market Gains",
+          "summary": "The technology sector demonstrated strong leadership today, propelling the Nasdaq to a new record. Mega-cap AI-related names, such as Nvidia ($NVDA), were particularly impactful, contributing significantly to the S&P 500's rise.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare"
+            "AI Stocks"
           ]
         },
         {
-          "id": "earnings-season-outlook",
-          "headline": "Q3 Earnings Season Approaches with High Expectations",
-          "summary": "The third-quarter earnings season is set to begin in earnest, with analysts forecasting nearly 30% earnings growth year-over-year for S&P 500 companies. This week, major companies including Constellation Brands ($STZ), Levi Strauss ($LEVI), PepsiCo ($PEP), and Delta Air Lines ($DAL) are scheduled to report their earnings.",
+          "id": "financial-sector-concerns",
+          "headline": "Financial Sector Signals 'Yellow Flag' Amid Uptrend Break",
+          "summary": "A market strategist highlighted the financial sector as a 'yellow flag,' noting that the SPDR Financial Select Sector ETF ($XLF) has broken its uptrend and failed to hold key support areas. This comes as the sector prepares to kick off earnings season next week, with major banks reporting.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Sector Analysis",
+            "Financials",
+            "Market Warnings"
+          ]
+        },
+        {
+          "id": "gdp-revision",
+          "headline": "U.S. Q2 GDP Growth Revised Upwards to 2.2%",
+          "summary": "The U.S. Bureau of Economic Analysis revised its second-quarter 2026 real GDP growth estimate upwards to 2.2% from an initial 1.5%. This revision primarily reflects higher readings in investment and consumer spending.",
+          "tags": [
+            "GDP",
+            "Economic Growth",
+            "Consumer Spending"
           ]
         }
       ]
