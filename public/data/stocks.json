@@ -1,192 +1,176 @@
 {
-  "generatedAt": "2026-10-06T17:35:00Z",
+  "generatedAt": "2026-10-06T20:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 6, 2026",
-  "subtitle": "Market closes higher as tech and easing oil prices fuel optimism.",
+  "title": "Daily Market Digest",
+  "subtitle": "October 06, 2026 Trading Session",
   "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-today",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities Climb on Tech Strength and Retreating Oil Prices",
-          "summary": "Wall Street extended gains today, with major indices pushing higher, driven by robust performance in the technology sector and a noticeable pullback in crude oil prices. The S&P 500 reached fresh all-time highs as investor focus shifted to strong corporate earnings, particularly from AI-related companies, amidst easing inflation concerns.",
+          "id": "market-summary-oct-6",
+          "headline": "U.S. Stocks Rally to All-Time Highs, Driven by Tech and Easing Inflation Concerns",
+          "summary": "U.S. equity markets climbed on Tuesday, with the S&P 500 and Nasdaq Composite reaching new record highs. A decline in oil prices and reduced inflation worries contributed to broad-based gains, particularly in the technology sector. Pre-market futures had indicated a positive open, extending Monday's momentum.",
           "tags": [
-            "Market Open",
-            "Technology",
-            "Oil Prices",
-            "Inflation"
+            "Market Summary",
+            "Record Highs",
+            "Tech Rally"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Tuesday, October 6, 2026, Midday)",
+      "id": "major-indices-performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,840",
-          "statContext": "Up 0.85%"
+          "statValue": "7,828.73",
+          "statContext": "+0.7% (+$54.78) Today"
         },
         {
-          "id": "nasdaq",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "27,718",
-          "statContext": "Up 0.88%"
+          "statValue": "27,649.53",
+          "statContext": "+0.6% (+$172.22) Today"
         },
         {
-          "id": "dow",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,622",
-          "statContext": "Up 0.69%"
+          "statValue": "51,550.28",
+          "statContext": "+0.6% (+$282.38) Today"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Tuesday, October 6, 2026)",
+      "id": "top-movers-oct-6",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "CEG-gainer",
-          "headline": "Constellation Energy Surges on Google Partnership",
-          "summary": "Constellation Energy ($CEG) saw significant gains, rising 14.84%, following an announcement of a 20-year power purchase agreement with Google to supply nuclear capacity for its AI buildout.",
+          "id": "opch-gainer",
+          "headline": "Option Care Health surges on buyout discussions",
+          "ticker": "$OPCH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+32.88%",
+          "direction": "up",
+          "summary": "Option Care Health ($OPCH) skyrocketed after reports of advanced buyout talks involving McKesson and a private equity firm."
+        },
+        {
+          "id": "ceg-gainer",
+          "headline": "Constellation Energy boosted by Google power deal",
           "ticker": "$CEG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+14.84%",
-          "direction": "up"
+          "changePercent": "+12.30%",
+          "direction": "up",
+          "summary": "Constellation Energy ($CEG) surged following an announcement of a 20-year power purchase agreement with Google."
         },
         {
-          "id": "MRVL-gainer",
-          "headline": "Marvell Technology Jumps on Bullish AI Forecasts",
-          "summary": "Marvell Technology ($MRVL) advanced 9.96% after significantly raising its long-term revenue targets and providing optimistic forecasts for artificial intelligence infrastructure during its Investor Day presentation.",
+          "id": "mrvel-gainer",
+          "headline": "Marvell Technology jumps on bullish AI forecasts",
           "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+9.96%",
-          "direction": "up"
+          "changePercent": "+7.14%",
+          "direction": "up",
+          "summary": "Marvell Technology ($MRVL) gained after significantly raising long-term revenue targets and offering bullish forecasts for AI infrastructure."
         },
         {
-          "id": "LW-gainer",
-          "headline": "Lamb Weston Exceeds Earnings Expectations",
-          "summary": "Lamb Weston (LW) rallied 10.8% today after the frozen potato product seller reported quarterly profit and revenue that topped its own projections and analyst expectations.",
-          "ticker": "$LW",
+          "id": "stx-loser",
+          "headline": "Seagate Technology tumbles on Toshiba concerns",
+          "ticker": "$STX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+10.8%",
-          "direction": "up"
-        },
-        {
-          "id": "DELL-gainer",
-          "headline": "Dell Technologies Boosted by AI Platform Expansion",
-          "summary": "Dell Technologies ($DELL) opened up by 4.18% driven by the expansion of its AI Data Platform, featuring accelerated computing integration with NVIDIA, and favorable analyst updates.",
-          "ticker": "$DELL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+4.18%",
-          "direction": "up"
-        },
-        {
-          "id": "healthcare-loser",
-          "headline": "Healthcare Sector Shows Weakness",
-          "summary": "The healthcare sector was noted as the only major sector to decline during morning trading, indicating some rotation out of defensive plays.",
-          "ticker": "N/A",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "N/A",
+          "changePercent": "-7.98%",
           "direction": "down",
-          "tags": [
-            "Sector",
-            "Healthcare"
-          ]
+          "summary": "Seagate Technology Holdings ($STX) tumbled amid ongoing concerns about a potential expansion of Toshiba's hard-disk drive capacity."
         },
         {
-          "id": "memory-loser",
-          "headline": "Memory Stocks Slip Amid Market Rally",
-          "summary": "Memory-related stocks, including names like Sandisk, Seagate Technology, and Western Digital, were observed to be in the red as the broader market advanced.",
-          "ticker": "N/A",
+          "id": "wdc-loser",
+          "headline": "Western Digital slips amid market competition worries",
+          "ticker": "$WDC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
+          "changePercent": "-6.92%",
           "direction": "down",
-          "tags": [
-            "Sector",
-            "Technology"
-          ]
+          "summary": "Western Digital ($WDC) slipped, also affected by concerns over increased competition in the hard-disk drive market."
+        },
+        {
+          "id": "mrna-loser",
+          "headline": "Moderna falls due to profit-taking",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.14%",
+          "direction": "down",
+          "summary": "Moderna ($MRNA) fell, attributed to profit-taking after the stock had recently hit a fresh 52-week high."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News & Analysis",
+      "id": "market-news-oct-6",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "sector-performance",
-          "headline": "Utilities and Real Estate Lead Sector Performance",
-          "summary": "On Tuesday morning, Utilities and Real Estate sectors demonstrated notable strength within the S&P 500, with Industrials and Technology also seeing strong demand due to AI infrastructure investments. Communication Services and Healthcare, however, lagged.",
+          "headline": "Utilities and Industrials Lead, Healthcare and Communication Services Lag",
+          "summary": "Utilities (+2.50%) and Industrials (+1.16%) were among today's leading sectors. Conversely, Healthcare (-0.13%) and Communication Services (-0.14%) experienced slight declines, making them among the day's lagging sectors.",
           "tags": [
             "Sector Analysis",
-            "AI Impact"
+            "Leading Sectors",
+            "Lagging Sectors"
           ]
         },
         {
-          "id": "economic-data",
-          "headline": "Q3 Economic Growth Strong, Inflation Nears Fed Target",
-          "summary": "Recent U.S. government reports indicate a 2.8% economic growth rate for Q3, fueled by resilient household spending and increased defense expenditures. Core inflation has dropped to the Fed's target rate of 2.2%, creating a more favorable environment. The ISM services PMI for September came in at 54.9%, indicating continued expansion.",
+          "id": "economic-data-pmi-trade",
+          "headline": "Services PMI Meets Expectations, Trade Deficit Narrows",
+          "summary": "The Institute of Supply Management reported the services purchasing managers index at 54.9%, aligning with the Zacks Consensus Estimate. Additionally, the U.S. trade deficit plummeted to -$105.6 billion in August.",
           "tags": [
             "Economic Data",
-            "Inflation",
-            "GDP"
+            "PMI",
+            "Trade Deficit"
           ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Considers Rate Cuts Amid Inflation Control",
-          "summary": "With inflation now under control, markets are pricing in a high probability of a Fed rate cut in October and another in December. San Francisco Fed President Mary Daly indicated that the need for further rate hikes hinges on the persistence of inflationary shocks.",
-          "tags": [
-            "Federal Reserve",
-            "Interest Rates"
-          ]
-        },
-        {
-          "id": "treasury-oil",
-          "headline": "Oil Retreats, Treasury Yields Ease from Highs",
-          "summary": "Brent crude prices retreated below $100 per barrel to $98.21, easing inflation concerns. Concurrently, the 10-year Treasury yield fell to 5.25% from 5.31% on Monday, although yields remain historically elevated.",
+          "id": "oil-treasury-yields",
+          "headline": "Oil Prices Ease, Treasury Yields Retreat",
+          "summary": "Brent crude oil prices dropped 2% to $98.30 per barrel, easing inflation concerns. The 10-year Treasury yield also retreated, falling to 5.25% from 5.31% recorded late Monday.",
           "tags": [
             "Commodities",
-            "Bonds",
-            "Oil Prices"
+            "Bond Market",
+            "Inflation"
           ]
         },
         {
-          "id": "earnings-season",
-          "headline": "Q3 Earnings Season Kicks Off with Strong Bank and Tech Results",
-          "summary": "The third-quarter earnings season is underway, with major banks like Morgan Stanley and Bank of America beating expectations. Companies like ASML also reported strong quarterly orders, contributing to the positive market sentiment, particularly around AI-driven earnings growth. Apogee Enterprises ($APOG) reported strong Q2 FY2027 results, raising guidance. PB Financial ($PBNC) announced record Q3 earnings.",
+          "id": "upcoming-earnings",
+          "headline": "Constellation Brands Reports Q2 Earnings Post-Market Close",
+          "summary": "Constellation Brands ($STZ) is set to release its second-quarter earnings report after the market closes today. Investors anticipate further insights into the company's performance. Lamb Weston's (LW) profit and revenue topped projections, leading to a 10.8% rally in its stock today.",
           "tags": [
             "Earnings",
-            "Corporate News"
+            "Company News"
           ]
         },
         {
-          "id": "consumer-sentiment",
-          "headline": "Consumer Confidence Dips Despite Market Gains",
-          "summary": "Despite the stock market reaching new highs, consumer confidence in the economy has fallen to its lowest level in over a decade, reflecting a divergence between investor sentiment and household perceptions of economic health.",
+          "id": "ai-market-influence",
+          "headline": "AI Enthusiasm Continues to Drive Market Momentum",
+          "summary": "The ongoing AI spending boom continues to be a significant driver for market performance, with expectations of nearly 30% Q3 earnings growth for the S&P 500, especially from companies with strong AI ties.",
           "tags": [
-            "Consumer Sentiment",
-            "Economic Trends"
+            "Macro Trends",
+            "AI",
+            "Technology"
           ]
         }
       ]
