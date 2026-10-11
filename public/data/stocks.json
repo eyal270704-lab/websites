@@ -1,168 +1,193 @@
 {
-  "generatedAt": "2026-10-10T19:53:00Z",
+  "generatedAt": "2026-10-11T13:45:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 10, 2026 - Weekend Market Summary (Reporting on October 9, 2026)",
-  "badge": "Markets Closed",
+  "subtitle": "Markets Closed Today (Sunday, October 11, 2026) - Summary of Friday, October 9, 2026 Session",
+  "badge": "Updated: Last Trading Day",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: US Stocks Close Record-Setting Week with Gains",
+      "title": "Market Pulse: Record-Setting Week Concludes with Gains",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct9",
-          "headline": "U.S. stocks finished higher on Friday, capping a record-setting week across major indices, driven by positive sentiment ahead of the Q3 earnings season.",
-          "summary": "The S&P 500, Dow Jones Industrial Average, and Nasdaq Composite all recorded gains on October 9, 2026. Investors showed cautious optimism despite fluctuating oil prices and rising Treasury yields, as attention shifts to upcoming corporate earnings and consumer inflation data."
+          "id": "market-summary-friday",
+          "headline": "U.S. Stocks End Week Higher Despite Volatility",
+          "summary": "U.S. stock major indices ended broadly higher on Friday, October 9, 2026, wrapping up a record-setting week. The market found positive momentum despite earlier jitters related to AI stocks and ongoing geopolitical tensions. Investor sentiment was boosted by an easing of Middle East conflict fears and anticipation for the upcoming Q3 earnings season.",
+          "tags": [
+            "Market Overview",
+            "Friday Close",
+            "Positive Sentiment"
+          ],
+          "timestamp": "2026-10-09T16:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (October 9, 2026 Close)",
+      "title": "Major Indices Performance (Friday, October 9, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500",
           "statLabel": "S&P 500",
           "statValue": "7,811.54",
-          "statContext": "+46.18 (+0.59%)"
+          "statContext": "Closed Friday, up 0.6% (+46.18 points).",
+          "ticker": "$SPX",
+          "price": "7,811.54",
+          "change": "+46.18",
+          "changePercent": "+0.6%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "27,366.17",
-          "statContext": "+172.83 (+0.64%)"
-        },
-        {
-          "id": "dow-performance",
+          "id": "dow",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "51,654.95",
-          "statContext": "+423.31 (+0.83%)"
+          "statContext": "Closed Friday, up 0.8% (+423.31 points).",
+          "ticker": "$DJI",
+          "price": "51,654.95",
+          "change": "+423.31",
+          "changePercent": "+0.8%",
+          "direction": "up"
+        },
+        {
+          "id": "nasdaq",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "27,366.17",
+          "statContext": "Closed Friday, up 0.6% (+172.83 points).",
+          "ticker": "$IXIC",
+          "price": "27,366.17",
+          "change": "+172.83",
+          "changePercent": "+0.6%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (October 9, 2026 Close)",
+      "title": "Top Movers (Friday, October 9, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-cci",
-          "headline": "Crown Castle surges on SpaceX news",
-          "ticker": "$CCI",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+15.6%",
-          "direction": "up",
-          "summary": "Crown Castle International Corp. ($CCI) led gainers, rising 15.6% after SpaceX announced a purchase of low-band spectrum, potentially making Starlink Mobile a major U.S. mobile carrier, benefiting cell tower owners."
-        },
-        {
-          "id": "gainer-mrna",
-          "headline": "Moderna extends gains",
-          "ticker": "$MRNA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+14.2%",
-          "direction": "up",
-          "summary": "Moderna ($MRNA) continued its strong performance, adding 14.2% on Friday and posting a 64.7% gain over the past month."
-        },
-        {
-          "id": "gainer-hum",
-          "headline": "Humana rallies on Medicare Advantage ratings",
+          "id": "humana-gainer",
+          "headline": "Humana Surges on Rating Upgrade",
+          "summary": "Humana ($HUM) led gainers, surging 13% after improving its Medicare Advantage rating and receiving an analyst upgrade.",
           "ticker": "$HUM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.6%",
+          "price": "Not financial advice",
+          "change": "Not financial advice",
+          "changePercent": "+13.0%",
           "direction": "up",
-          "summary": "Humana ($HUM) rallied 11.6% following encouraging data regarding its quality ratings for Medicare Advantage plans."
+          "tags": [
+            "Healthcare",
+            "Gainers"
+          ]
         },
         {
-          "id": "loser-tmus",
-          "headline": "T-Mobile US drops on competition concerns",
+          "id": "crown-castle-gainer",
+          "headline": "Wireless Infrastructure Rallies on SpaceX Deal Optimism",
+          "summary": "Crown Castle ($CCI) gained 15.60% as real estate sector stocks, particularly wireless infrastructure, rallied following a SpaceX wireless spectrum deal, fueling optimism for increased demand.",
+          "ticker": "$CCI",
+          "price": "Not financial advice",
+          "change": "Not financial advice",
+          "changePercent": "+15.60%",
+          "direction": "up",
+          "tags": [
+            "Real Estate",
+            "Technology",
+            "Gainers"
+          ]
+        },
+        {
+          "id": "tmobile-loser",
+          "headline": "T-Mobile Slides on SpaceX Competition Concerns",
+          "summary": "T-Mobile ($TMUS) slid on Friday due to concerns over increased competition following SpaceX's spectrum deal, which could expand satellite-based mobile services.",
           "ticker": "$TMUS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-13.3%",
+          "price": "Not financial advice",
+          "change": "Not financial advice",
+          "changePercent": "Down (pre-market -7.22%)",
           "direction": "down",
-          "summary": "T-Mobile US ($TMUS) fell 13.3% amid competition concerns stemming from yesterday's SpaceX spectrum deal."
+          "tags": [
+            "Telecommunications",
+            "Losers"
+          ]
         },
         {
-          "id": "loser-t",
-          "headline": "AT&T slides amidst telecom competition",
-          "ticker": "$T",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.8%",
-          "direction": "down",
-          "summary": "AT&T ($T) declined 9.8%, also impacted by increased competition in the telecommunications sector following SpaceX's spectrum acquisition."
-        },
-        {
-          "id": "loser-dal",
-          "headline": "Delta Air Lines misses earnings, cuts guidance",
+          "id": "delta-loser",
+          "headline": "Delta Air Lines Drops on Guidance Cut and Missed Earnings",
+          "summary": "Delta Air Lines ($DAL) slipped after reporting a guidance cut and missing earnings expectations, impacting its stock performance for the session.",
           "ticker": "$DAL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "Slipped",
+          "price": "Not financial advice",
+          "change": "Not financial advice",
+          "changePercent": "Down (pre-market -2.53%)",
           "direction": "down",
-          "summary": "Delta Air Lines ($DAL) slipped after reporting a miss on earnings estimates for the first time in two years and slashing its 2026 profit outlook due to persistent high fuel prices."
+          "tags": [
+            "Airlines",
+            "Earnings",
+            "Losers"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Analysis",
+      "title": "Market News & Economic Insights",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Real Estate and Healthcare Lead Strong Sector Performance; Energy and Communications Services Lagged",
-          "summary": "On Friday, Real Estate led all sectors with a 1.86% gain, followed by Healthcare at 1.58%. Consumer Discretionary also performed well, up 1.02%. Energy slipped 0.25% after recent outperformance, while Communication Services fell 1.62%. For the week, utilities (up 3.92%) and consumer defensives (up 3.89%) were the best performers, whereas industrials (down 0.87%) and technology (down 0.13%) lagged.",
+          "id": "sector-analysis-friday",
+          "headline": "Real Estate and Energy Lead, Tech and Communication Services Lag",
+          "summary": "On Friday, the Real Estate sector was the top performer, gaining 1.88%, driven by wireless infrastructure and residential real estate stocks. Energy stocks also showed strength. Conversely, Communication Services was the worst-performing sector, declining 0.4%, with technology stocks also trading lower.",
           "tags": [
             "Sector Analysis",
             "Real Estate",
-            "Healthcare",
             "Energy",
             "Technology"
           ]
         },
         {
-          "id": "economic-data-fed",
-          "headline": "Consumer Sentiment Dips, Inflation Expectations Rise Ahead of Fed Decision",
-          "summary": "U.S. consumer sentiment fell to a five-month low in October, with inflation expectations reaching their highest levels since May. Markets are currently pricing in an approximately 83% probability that the Federal Reserve will maintain its benchmark rate this month, despite some economists anticipating another rate hike by year-end. The 10-year Treasury yield rose to 5.24%.",
+          "id": "economic-data-friday",
+          "headline": "Consumer Sentiment Falls, Inflation Expectations Rise",
+          "summary": "Economic data released showed that U.S. jobless claims totaled 197,000 for the week ending October 3, a decrease of 2,000. The University of Michigan consumer sentiment index slipped to 46.3 from 48.1, with one-year inflation expectations rising to 4.7% and long-run expectations to 3.5%, both reaching their highest levels since May.",
           "tags": [
-            "Economic News",
+            "Economic Data",
             "Consumer Sentiment",
             "Inflation",
-            "Federal Reserve",
+            "Jobless Claims"
+          ]
+        },
+        {
+          "id": "fed-interest-rates",
+          "headline": "10-Year Treasury Yield Climbs to 5.24% Amid Inflation Worries",
+          "summary": "The yield on the 10-year Treasury rose to 5.24% on Friday, reflecting ongoing concerns about high inflation, the U.S. government's debt, and continued economic growth. This yield has touched its highest level since 2002, influencing borrowing costs across the economy.",
+          "tags": [
+            "Fed",
+            "Interest Rates",
             "Treasury Yields"
           ]
         },
         {
-          "id": "earnings-outlook",
-          "headline": "Q3 Earnings Season Kicks Off with Major Bank Reports Next Week",
-          "summary": "The third-quarter earnings season is gaining momentum, with major banks including JPMorgan, Goldman Sachs, and Bank of America scheduled to report results on Tuesday. Expectations are high, with S&P 500 earnings projected to jump over 30% for the quarter. Early reports indicate 84% of the initial 19 S&P 500 companies have beaten EPS estimates.",
+          "id": "q3-earnings-preview",
+          "headline": "Q3 Earnings Season Kicks Off Next Week with Major Banks",
+          "summary": "The third-quarter earnings season is set to begin in earnest next week, with major banks including JPMorgan, Goldman Sachs, Citigroup, and Wells Fargo scheduled to report results. Analysts anticipate a robust quarter for S&P 500 earnings, with expectations of growth potentially exceeding 30%.",
           "tags": [
-            "Economic News",
-            "Earnings Reports",
+            "Earnings",
             "Q3 Earnings",
             "Banking"
           ]
         },
         {
-          "id": "macro-trends",
-          "headline": "Geopolitical Tensions and AI Optimism Influence Market Direction",
-          "summary": "Geopolitical tensions, particularly related to the war with Iran, continue to affect oil prices, with Brent crude settling higher at $104.72 a barrel. Meanwhile, optimism surrounding artificial intelligence (AI) is providing a counterbalance to some market pressures, strengthening the corporate earnings outlook for semiconductor and 'Mag7' companies.",
+          "id": "geopolitical-oil",
+          "headline": "Geopolitical Tensions Ease, Oil Prices Stabilize",
+          "summary": "Geopolitical tensions in the Middle East saw some easing after President Trump announced the U.S. would not attack Iran before upcoming midterm elections, providing a near-term relief valve for markets. Brent crude prices ticked higher to settle at $91.85 a barrel, up 0.39% for the day.",
           "tags": [
-            "Macro Trends",
             "Geopolitics",
             "Oil Prices",
-            "Artificial Intelligence"
+            "Market Sentiment"
           ]
         }
       ]
