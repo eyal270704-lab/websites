@@ -1,68 +1,53 @@
 {
-  "generatedAt": "2026-10-11T13:45:00Z",
+  "generatedAt": "2026-10-11T16:59:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Markets Closed Today (Sunday, October 11, 2026) - Summary of Friday, October 9, 2026 Session",
-  "badge": "Updated: Last Trading Day",
+  "title": "Daily Market Digest - October 11, 2026",
+  "subtitle": "Markets Closed; Reflecting Last Trading Session: Friday, October 9, 2026",
+  "badge": "Updated: Oct 11, 2026",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Record-Setting Week Concludes with Gains",
+      "title": "Market Pulse: Equities Close Higher Ahead of Earnings Season",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-friday",
-          "headline": "U.S. Stocks End Week Higher Despite Volatility",
-          "summary": "U.S. stock major indices ended broadly higher on Friday, October 9, 2026, wrapping up a record-setting week. The market found positive momentum despite earlier jitters related to AI stocks and ongoing geopolitical tensions. Investor sentiment was boosted by an easing of Middle East conflict fears and anticipation for the upcoming Q3 earnings season.",
+          "id": "market-summary-oct9",
+          "headline": "US Equities Advance on Friday, Capping a Strong Week",
+          "summary": "U.S. major indices concluded Friday's session in positive territory, contributing to a strong weekly finish, as investors positioned themselves ahead of the impending third-quarter earnings season. Earlier concerns regarding AI valuations and geopolitical tensions eased, allowing for a more optimistic close. However, consumer sentiment continued its decline for the fifth consecutive month in October, influenced by elevated gas prices and rising borrowing costs.",
           "tags": [
             "Market Overview",
-            "Friday Close",
-            "Positive Sentiment"
+            "Earnings Season",
+            "Consumer Sentiment"
           ],
-          "timestamp": "2026-10-09T16:00:00Z"
+          "timestamp": "2026-10-09T20:00:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance (Friday, October 9, 2026)",
+      "title": "Major Indices Performance (October 9, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500",
+          "id": "sp500-oct9",
           "statLabel": "S&P 500",
           "statValue": "7,811.54",
-          "statContext": "Closed Friday, up 0.6% (+46.18 points).",
-          "ticker": "$SPX",
-          "price": "7,811.54",
-          "change": "+46.18",
-          "changePercent": "+0.6%",
-          "direction": "up"
+          "statContext": "+0.59% (+46.18 points)"
         },
         {
-          "id": "dow",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,654.95",
-          "statContext": "Closed Friday, up 0.8% (+423.31 points).",
-          "ticker": "$DJI",
-          "price": "51,654.95",
-          "change": "+423.31",
-          "changePercent": "+0.8%",
-          "direction": "up"
-        },
-        {
-          "id": "nasdaq",
+          "id": "nasdaq-oct9",
           "statLabel": "NASDAQ Composite",
           "statValue": "27,366.17",
-          "statContext": "Closed Friday, up 0.6% (+172.83 points).",
-          "ticker": "$IXIC",
-          "price": "27,366.17",
-          "change": "+172.83",
-          "changePercent": "+0.6%",
-          "direction": "up"
+          "statContext": "+0.64% (+172.83 points)"
+        },
+        {
+          "id": "dow-oct9",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,654.95",
+          "statContext": "+0.83% (+423.31 points)"
         }
       ]
     },
@@ -73,122 +58,129 @@
       "layout": "grid",
       "items": [
         {
-          "id": "humana-gainer",
+          "id": "gainer-hum",
           "headline": "Humana Surges on Rating Upgrade",
-          "summary": "Humana ($HUM) led gainers, surging 13% after improving its Medicare Advantage rating and receiving an analyst upgrade.",
+          "summary": "Humana ($HUM) led gainers with a 13% jump following an improved Medicare Advantage rating and an analyst upgrade.",
           "ticker": "$HUM",
-          "price": "Not financial advice",
-          "change": "Not financial advice",
-          "changePercent": "+13.0%",
-          "direction": "up",
-          "tags": [
-            "Healthcare",
-            "Gainers"
-          ]
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+13.00%",
+          "direction": "up"
         },
         {
-          "id": "crown-castle-gainer",
-          "headline": "Wireless Infrastructure Rallies on SpaceX Deal Optimism",
-          "summary": "Crown Castle ($CCI) gained 15.60% as real estate sector stocks, particularly wireless infrastructure, rallied following a SpaceX wireless spectrum deal, fueling optimism for increased demand.",
-          "ticker": "$CCI",
-          "price": "Not financial advice",
-          "change": "Not financial advice",
-          "changePercent": "+15.60%",
-          "direction": "up",
-          "tags": [
-            "Real Estate",
-            "Technology",
-            "Gainers"
-          ]
+          "id": "gainer-mrna",
+          "headline": "Moderna Posts Strong Gains",
+          "summary": "Moderna ($MRNA) saw a significant increase, closing up 14.21%.",
+          "ticker": "$MRNA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+14.21%",
+          "direction": "up"
         },
         {
-          "id": "tmobile-loser",
-          "headline": "T-Mobile Slides on SpaceX Competition Concerns",
-          "summary": "T-Mobile ($TMUS) slid on Friday due to concerns over increased competition following SpaceX's spectrum deal, which could expand satellite-based mobile services.",
+          "id": "gainer-pltr",
+          "headline": "Palantir Hits Record High",
+          "summary": "Palantir ($PLTR) advanced 5.17% to a new record high, closing at $209.05, spurred by an analyst upgrade.",
+          "ticker": "$PLTR",
+          "price": "$209.05",
+          "change": "N/A",
+          "changePercent": "+5.17%",
+          "direction": "up"
+        },
+        {
+          "id": "loser-sxtc",
+          "headline": "China SXT Pharmaceuticals Plummets",
+          "summary": "China SXT Pharmaceuticals, Inc. ($SXTC) was among the day's steepest decliners, dropping 56.71%.",
+          "ticker": "$SXTC",
+          "price": "$0.149",
+          "change": "N/A",
+          "changePercent": "-56.71%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-cabo",
+          "headline": "Cable One Faces Significant Losses",
+          "summary": "Cable One, Inc. ($CABO) fell 27.57% as telecommunication stocks broadly suffered from increased competition concerns related to a SpaceX spectrum deal.",
+          "ticker": "$CABO",
+          "price": "$11.14",
+          "change": "N/A",
+          "changePercent": "-27.57%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-tmus",
+          "headline": "T-Mobile US Slides on Competition Worries",
+          "summary": "T-Mobile US ($TMUS) experienced a notable decline of 13.27% amidst broad losses for telecom stocks due to competition concerns stemming from the recent SpaceX spectrum deal.",
           "ticker": "$TMUS",
-          "price": "Not financial advice",
-          "change": "Not financial advice",
-          "changePercent": "Down (pre-market -7.22%)",
-          "direction": "down",
-          "tags": [
-            "Telecommunications",
-            "Losers"
-          ]
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-13.27%",
+          "direction": "down"
         },
         {
-          "id": "delta-loser",
-          "headline": "Delta Air Lines Drops on Guidance Cut and Missed Earnings",
-          "summary": "Delta Air Lines ($DAL) slipped after reporting a guidance cut and missing earnings expectations, impacting its stock performance for the session.",
-          "ticker": "$DAL",
-          "price": "Not financial advice",
-          "change": "Not financial advice",
-          "changePercent": "Down (pre-market -2.53%)",
-          "direction": "down",
-          "tags": [
-            "Airlines",
-            "Earnings",
-            "Losers"
-          ]
+          "id": "loser-t",
+          "headline": "AT&T Drops Amidst Telecom Headwinds",
+          "summary": "AT&T ($T) shares fell 9.85% as the telecommunications sector faced broad losses due to intensified competition following the SpaceX spectrum deal.",
+          "ticker": "$T",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.85%",
+          "direction": "down"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News & Economic Insights",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-friday",
-          "headline": "Real Estate and Energy Lead, Tech and Communication Services Lag",
-          "summary": "On Friday, the Real Estate sector was the top performer, gaining 1.88%, driven by wireless infrastructure and residential real estate stocks. Energy stocks also showed strength. Conversely, Communication Services was the worst-performing sector, declining 0.4%, with technology stocks also trading lower.",
+          "id": "sector-analysis-oct9",
+          "headline": "Real Estate and Healthcare Lead Sector Performance",
+          "summary": "On Friday, Real Estate emerged as the top-performing sector, advancing 1.88%, driven by gains in wireless infrastructure and residential real estate companies. The Healthcare sector also showed strength, rising 1.58%. Conversely, Communication Services was the weakest sector, declining 0.4% to 1.46%, largely impacted by the struggles of telecom stocks. While Information Technology had a mixed performance, some semiconductor stocks closed lower.",
           "tags": [
-            "Sector Analysis",
+            "Sector Performance",
             "Real Estate",
-            "Energy",
-            "Technology"
-          ]
+            "Healthcare",
+            "Communication Services"
+          ],
+          "timestamp": "2026-10-09T20:00:00Z"
         },
         {
-          "id": "economic-data-friday",
-          "headline": "Consumer Sentiment Falls, Inflation Expectations Rise",
-          "summary": "Economic data released showed that U.S. jobless claims totaled 197,000 for the week ending October 3, a decrease of 2,000. The University of Michigan consumer sentiment index slipped to 46.3 from 48.1, with one-year inflation expectations rising to 4.7% and long-run expectations to 3.5%, both reaching their highest levels since May.",
+          "id": "economic-data-oct9",
+          "headline": "Jobless Claims Dip, Consumer Sentiment Wanes",
+          "summary": "Economic data released showed that jobless claims for the week ending October 3 totaled 197,000, a decrease of 2,000 from the prior week. However, consumer sentiment continued its decline in October for the fifth consecutive month, reaching 46.3, a 13.6% year-over-year drop, as consumers anticipate 4.7% inflation over the next year.",
           "tags": [
             "Economic Data",
+            "Jobless Claims",
             "Consumer Sentiment",
-            "Inflation",
-            "Jobless Claims"
-          ]
+            "Inflation"
+          ],
+          "timestamp": "2026-10-09T20:00:00Z"
         },
         {
-          "id": "fed-interest-rates",
-          "headline": "10-Year Treasury Yield Climbs to 5.24% Amid Inflation Worries",
-          "summary": "The yield on the 10-year Treasury rose to 5.24% on Friday, reflecting ongoing concerns about high inflation, the U.S. government's debt, and continued economic growth. This yield has touched its highest level since 2002, influencing borrowing costs across the economy.",
+          "id": "earnings-outlook-oct9",
+          "headline": "Q3 Earnings Season Commences Next Week",
+          "summary": "Investors are keenly awaiting the start of the third-quarter earnings season, with major bank reports scheduled for October 13. Delta Air Lines ($DAL) provided an early indication of challenges, as its shares fell after missing earnings estimates and cutting its 2026 profit outlook, attributing it to persistent high fuel prices. Meanwhile, OpenAI is projecting an annualized revenue of $70 billion by year-end.",
           "tags": [
-            "Fed",
-            "Interest Rates",
-            "Treasury Yields"
-          ]
-        },
-        {
-          "id": "q3-earnings-preview",
-          "headline": "Q3 Earnings Season Kicks Off Next Week with Major Banks",
-          "summary": "The third-quarter earnings season is set to begin in earnest next week, with major banks including JPMorgan, Goldman Sachs, Citigroup, and Wells Fargo scheduled to report results. Analysts anticipate a robust quarter for S&P 500 earnings, with expectations of growth potentially exceeding 30%.",
-          "tags": [
-            "Earnings",
+            "Earnings Reports",
             "Q3 Earnings",
-            "Banking"
-          ]
+            "Corporate News"
+          ],
+          "timestamp": "2026-10-09T20:00:00Z"
         },
         {
-          "id": "geopolitical-oil",
-          "headline": "Geopolitical Tensions Ease, Oil Prices Stabilize",
-          "summary": "Geopolitical tensions in the Middle East saw some easing after President Trump announced the U.S. would not attack Iran before upcoming midterm elections, providing a near-term relief valve for markets. Brent crude prices ticked higher to settle at $91.85 a barrel, up 0.39% for the day.",
+          "id": "macro-trends-oct9",
+          "headline": "Oil Prices Ease, Treasury Yields Remain Elevated",
+          "summary": "Oil prices experienced a slight retreat on Friday. The 10-Year Treasury yield edged up to 5.25%, remaining near its highest level since 2002, reflecting concerns about inflation and government debt. Geopolitical tensions, particularly in the Middle East, continue to be a factor influencing market dynamics.",
           "tags": [
-            "Geopolitics",
+            "Macro Trends",
             "Oil Prices",
-            "Market Sentiment"
-          ]
+            "Treasury Yields",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-10-09T20:00:00Z"
         }
       ]
     }
