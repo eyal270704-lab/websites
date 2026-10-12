@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-12T16:29:00Z",
+  "generatedAt": "2026-10-12T20:34:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 12, 2026 - Midday Update",
-  "badge": "LIVE",
+  "subtitle": "October 12, 2026 - End of Day",
+  "badge": "Closed",
   "sections": [
     {
       "id": "market-pulse",
@@ -14,15 +14,15 @@
       "items": [
         {
           "id": "market-summary-1",
-          "headline": "U.S. Stocks Mixed as Investors Anticipate Key Earnings and Inflation Data",
-          "summary": "U.S. stocks showed mixed performance in midday trading on Monday, October 12, as investors awaited a busy week of major bank earnings reports and crucial inflation data. Geopolitical tensions in the Middle East, leading to rising oil prices, also contributed to overall market caution. The S&P 500 is currently hovering near its recent record highs.",
+          "headline": "U.S. Stocks Close Mixed Amid Geopolitical Tensions and Ahead of Key Economic Data",
+          "summary": "The U.S. stock market closed mixed on Monday, October 12, 2026, as investors navigated escalating geopolitical tensions in the Middle East and rising oil prices. The Dow Jones Industrial Average managed to finish higher, while the S&P 500 and Nasdaq Composite experienced modest declines, primarily due to weakness in technology stocks. Overall sentiment was cautious ahead of a busy week featuring major bank earnings and crucial inflation reports.",
           "tags": [
-            "Market Overview",
+            "Market Close",
+            "Geopolitics",
+            "Oil Prices",
             "Earnings Season",
-            "Inflation",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-10-12T11:31:00-04:00"
+            "Inflation"
+          ]
         }
       ]
     },
@@ -33,28 +33,28 @@
       "layout": "grid",
       "items": [
         {
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "51,850.55",
+          "statContext": "Up 0.38% (+195.60 points)"
+        },
+        {
           "id": "sp500-performance",
-          "headline": "S&P 500",
-          "statLabel": "Current Performance (Midday)",
-          "statValue": "Dipped 0.06%",
-          "statContext": "Trading around 7,807.00 after opening slightly up.",
-          "timestamp": "2026-10-12T11:31:00-04:00"
+          "statLabel": "S&P 500",
+          "statValue": "7,807.24",
+          "statContext": "Down 0.06% (-4.30 points)"
         },
         {
           "id": "nasdaq-performance",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Current Performance (Midday)",
-          "statValue": "Down 0.37%",
-          "statContext": "Trading around 27,265.00, pressured by technology weakness.",
-          "timestamp": "2026-10-12T11:31:00-04:00"
+          "statLabel": "NASDAQ Composite",
+          "statValue": "27,245.90",
+          "statContext": "Down 0.44% (-120.27 points)"
         },
         {
-          "id": "dow-performance",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Current Performance (Midday)",
-          "statValue": "Up 0.49%",
-          "statContext": "Outperforming at 51,909.00, driven by a rotation into value stocks.",
-          "timestamp": "2026-10-12T11:31:00-04:00"
+          "id": "russell2000-performance",
+          "statLabel": "Russell 2000",
+          "statValue": "2,794.48",
+          "statContext": "Down 0.45% (-12.50 points)"
         }
       ]
     },
@@ -65,155 +65,113 @@
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-ccc",
-          "headline": "CCC Intelligent Solutions Holdings Surges on Acquisition Talks",
-          "ticker": "$CCC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+8% to +10.11%",
-          "direction": "up",
-          "summary": "Shares surged today following reports of advanced discussions with private equity firm GTCR and activist investor Elliott Investment Management for an acquisition."
-        },
-        {
           "id": "gainer-ebay",
-          "headline": "eBay Rallies After Analyst Upgrade",
+          "headline": "eBay Jumps on Analyst Upgrade",
+          "summary": "eBay ($EBAY) surged 4.12% after Morgan Stanley raised its price target and named the online marketplace its top pick.",
           "ticker": "$EBAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.32%",
-          "direction": "up",
-          "summary": "eBay shares jumped after Morgan Stanley raised its price target on the online marketplace and named it a top pick."
+          "changePercent": "+4.12%",
+          "direction": "up"
         },
         {
-          "id": "gainer-asts",
-          "headline": "AST SpaceMobile Gains on Satellite and FCC News",
-          "ticker": "$ASTS",
+          "id": "gainer-figs",
+          "headline": "Figs Rallies Following Positive Industry Review",
+          "summary": "Figs ($FIGS) saw a significant jump of 12.93% today, driven by a positive industry review.",
+          "ticker": "$FIGS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.11%",
-          "direction": "up",
-          "summary": "AST SpaceMobile advanced after its BlueBird 14-16 satellites arrived at Cape Canaveral and received FCC clearance for 900-MHz testing."
+          "changePercent": "+12.93%",
+          "direction": "up"
         },
         {
-          "id": "loser-lite",
-          "headline": "Lumentum Holdings Falls Amid Semiconductor Selloff",
+          "id": "loser-ciena",
+          "headline": "Ciena Leads Optics Sector Selloff",
+          "summary": "Ciena ($CIEN) declined 9.99% as the optics and photonic products sector experienced a broad selloff.",
+          "ticker": "$CIEN",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-9.99%",
+          "direction": "down"
+        },
+        {
+          "id": "loser-lumentum",
+          "headline": "Lumentum Falls Amid Semiconductor Weakness",
+          "summary": "Lumentum Holdings ($LITE) dropped 9.81% today amidst a broader selloff across semiconductor and AI-infrastructure stocks.",
           "ticker": "$LITE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-7.42%",
-          "direction": "down",
-          "summary": "The optical and photonic products maker experienced a significant decline amid a broader selloff in semiconductor and AI-infrastructure stocks."
+          "changePercent": "-9.81%",
+          "direction": "down"
         },
         {
-          "id": "loser-sndk",
-          "headline": "SanDisk Slips Ahead of Earnings",
+          "id": "loser-sandisk",
+          "headline": "SanDisk Declines Ahead of Earnings",
+          "summary": "Flash-memory storage company SanDisk ($SNDK) fell 6.98% today, influenced by caution ahead of its earnings report and renewed selling in the memory sector.",
           "ticker": "$SNDK",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-6.98%",
-          "direction": "down",
-          "summary": "Flash-memory storage company SanDisk fell due to caution ahead of its earnings report and renewed selling across the memory sector."
-        },
-        {
-          "id": "loser-be",
-          "headline": "Bloom Energy Down After Earnings Date Announcement",
-          "ticker": "$BE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.29%",
-          "direction": "down",
-          "summary": "Bloom Energy shares fell after the company announced its upcoming earnings release date."
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "sector-analysis",
-      "title": "Sector Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-1",
-          "headline": "Technology and Energy Lead Year-to-Date, but Intra-Sector Divergence Noted",
-          "summary": "While technology and energy sectors are currently outperforming the S&P 500 year-to-date, with technology accounting for nearly 40% of the market, technology stocks were among the biggest weights on the market today. Utilities and consumer staples are showing improving relative trends. Last week saw a divergence, with software stocks gaining about 4% while semiconductors dropped 4%.",
-          "tags": [
-            "Sectors",
-            "Technology",
-            "Energy",
-            "Software",
-            "Semiconductors"
-          ]
-        },
-        {
-          "id": "sector-performance-2",
-          "headline": "Communication Services Lead Gains, Technology and Utilities Lag Midday",
-          "summary": "Communication Services were reported as leading sector gainers midday, while technology and utilities sectors were trading lower.",
-          "tags": [
-            "Sectors",
-            "Communication Services",
-            "Technology",
-            "Utilities"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economic-news",
-      "title": "Economic News",
-      "cardType": "article",
-      "layout": "list",
-      "items": [
-        {
-          "id": "economic-calendar",
-          "headline": "Columbus Day Observance and Upcoming Inflation Data",
-          "summary": "The U.S. cash bond market is closed today, October 12, for Columbus Day, although stock markets remain open. No major U.S. macroeconomic statistics are scheduled for release today. However, investors are keenly looking ahead to the September Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday, which will be critical for gauging the Federal Reserve's future interest rate decisions.",
+          "id": "economic-news-1",
+          "headline": "Week Kicks Off with Focus on Inflation and Earnings",
+          "summary": "Investors are keenly awaiting a busy week of economic data, with September's Consumer Price Index (CPI) due on Wednesday and the Producer Price Index (PPI) on Thursday. Major banks, including JPMorgan, Goldman Sachs, and Citi, are set to kick off the third-quarter earnings season on Tuesday.",
           "tags": [
             "Economic Data",
-            "CPI",
-            "PPI",
-            "Federal Reserve",
-            "Columbus Day"
-          ]
-        },
-        {
-          "id": "earnings-kickoff",
-          "headline": "Major Banks and Corporations Set to Report Q3 Earnings This Week",
-          "summary": "Third-quarter earnings season kicks off in earnest this week, with major U.S. banks including JPMorgan ($JPM), Goldman Sachs ($GS), Citi ($C), Wells Fargo ($WFC), and Morgan Stanley ($MS) scheduled to report starting Tuesday, October 13. Johnson & Johnson ($JNJ) and UnitedHealth ($UNH) are also among the prominent companies releasing their Q3 results tomorrow.",
-          "tags": [
             "Earnings Season",
-            "Banking",
-            "Healthcare",
-            "JPMorgan",
-            "Goldman Sachs",
-            "Citigroup",
-            "Wells Fargo",
-            "Morgan Stanley",
-            "Johnson & Johnson",
-            "UnitedHealth"
+            "CPI",
+            "PPI"
           ]
         },
         {
-          "id": "macro-trends",
-          "headline": "Geopolitical Risks, Rising Oil, and AI Boom Shape Market Outlook",
-          "summary": "Persistent geopolitical risks, particularly escalating tensions in the Middle East threatening global energy supplies, are a significant concern for the market, contributing to rising oil prices. Long-term interest rates continue to climb, reaching levels not seen in decades, with inflation expected to remain elevated. The U.S. economic growth remains heavily reliant on substantial capital expenditure in the AI buildout boom. Today marks the fourth anniversary of the ongoing bull market, which has delivered a cumulative return of 117.1% since October 2022.",
+          "id": "oil-geopolitics",
+          "headline": "Rising Oil Prices Fueled by Middle East Tensions",
+          "summary": "Crude oil prices surged to $106 per barrel today, driven by escalating tensions in the Middle East, which threaten further disruptions to global energy supplies. Geopolitical concerns added to investor caution.",
           "tags": [
-            "Macro Trends",
-            "Geopolitics",
             "Oil Prices",
-            "Interest Rates",
-            "Inflation",
-            "AI",
-            "Bull Market"
+            "Geopolitics",
+            "Energy Sector"
           ]
         },
         {
-          "id": "nobel-prize",
-          "headline": "Nobel Prize in Economic Sciences Awarded for Macroeconomic Stabilization Models",
-          "summary": "Robert E. Hall and Michael Woodford were awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026 for their contributions in demonstrating how economic models could be reconstructed to revitalize stabilization policy.",
+          "id": "fed-outlook",
+          "headline": "Fed Minutes Signal Potential for Further Rate Hikes",
+          "summary": "Minutes from the Federal Reserve's mid-September meeting indicated a unanimous vote to raise the federal funds rate target range to 3.75%-4.00%. Most officials believe an additional rate hike could be warranted by year-end, maintaining a hawkish stance to combat elevated inflation.",
           "tags": [
-            "Economic News",
-            "Nobel Prize",
-            "Macroeconomics"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
+          ]
+        },
+        {
+          "id": "sector-rotation",
+          "headline": "Energy and Staples Lead as Tech Faces Headwinds",
+          "summary": "Energy (+1.45%) and Consumer Staples (+1.17%) sectors were among the top performers today, reflecting a rotation into value stocks. Conversely, Information Technology (-1.25%) and Consumer Discretionary (-0.53%) were the biggest laggards, with tech stocks declining amid concerns over AI-related spending and a pivot into other sectors.",
+          "tags": [
+            "Sector Analysis",
+            "Energy",
+            "Technology",
+            "Value Stocks"
+          ]
+        },
+        {
+          "id": "market-stability-milestone",
+          "headline": "S&P 500 Marks Four-Year Bull Run, Reaching 1,000 Sessions Without New 52-Week Low",
+          "summary": "The S&P 500 reached a significant milestone today, completing 1,000 consecutive trading sessions without recording a new 52-week low. This marks the sixth longest such streak in the index's history, signaling a sustained bullish environment over the past four years, though the index is considered modestly overvalued.",
+          "tags": [
+            "S&P 500",
+            "Bull Market",
+            "Market Stability"
           ]
         }
       ]
