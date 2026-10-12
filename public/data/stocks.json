@@ -1,168 +1,219 @@
 {
-  "generatedAt": "2026-10-11T20:01:00Z",
+  "generatedAt": "2026-10-12T16:29:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 11, 2026 - Weekend Edition (Reflecting October 9, 2026 Close)",
-  "badge": "Markets Closed",
+  "subtitle": "October 12, 2026 - Midday Update",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-oct-9-2026",
-      "title": "Market Pulse: Friday, October 9, 2026",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct-9-2026",
-          "headline": "U.S. Stocks Conclude Record-Setting Week with Broad Gains",
-          "summary": "U.S. stock markets finished a record-setting week on a positive note, with all major indices advancing. Sentiment improved as earlier jitters regarding artificial intelligence (AI) sector performance eased. The rally was broad, though technology stocks saw some mixed performance, while defensive sectors like Real Estate and Energy led gains.",
+          "id": "market-summary-1",
+          "headline": "U.S. Stocks Mixed as Investors Anticipate Key Earnings and Inflation Data",
+          "summary": "U.S. stocks showed mixed performance in midday trading on Monday, October 12, as investors awaited a busy week of major bank earnings reports and crucial inflation data. Geopolitical tensions in the Middle East, leading to rising oil prices, also contributed to overall market caution. The S&P 500 is currently hovering near its recent record highs.",
           "tags": [
-            "Market Wrap",
-            "Friday Close",
-            "Positive Sentiment"
-          ]
+            "Market Overview",
+            "Earnings Season",
+            "Inflation",
+            "Geopolitics"
+          ],
+          "timestamp": "2026-10-12T11:31:00-04:00"
         }
       ]
     },
     {
-      "id": "major-indices-oct-9-2026",
-      "title": "Major Indices Performance: Friday, October 9, 2026",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct-9-2026",
-          "statLabel": "S&P 500",
-          "statValue": "7,811.54",
-          "statContext": "+46.18 (+0.6%)"
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Current Performance (Midday)",
+          "statValue": "Dipped 0.06%",
+          "statContext": "Trading around 7,807.00 after opening slightly up.",
+          "timestamp": "2026-10-12T11:31:00-04:00"
         },
         {
-          "id": "nasdaq-oct-9-2026",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "27,366.17",
-          "statContext": "+172.83 (+0.6%)"
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Current Performance (Midday)",
+          "statValue": "Down 0.37%",
+          "statContext": "Trading around 27,265.00, pressured by technology weakness.",
+          "timestamp": "2026-10-12T11:31:00-04:00"
         },
         {
-          "id": "dow-oct-9-2026",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,654.95",
-          "statContext": "+423.31 (+0.8%)"
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Current Performance (Midday)",
+          "statValue": "Up 0.49%",
+          "statContext": "Outperforming at 51,909.00, driven by a rotation into value stocks.",
+          "timestamp": "2026-10-12T11:31:00-04:00"
         }
       ]
     },
     {
-      "id": "top-movers-oct-9-2026",
-      "title": "Top Movers: Friday, October 9, 2026",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "hum-gainer-oct-9-2026",
-          "headline": "Humana Surges on Strong Ratings",
-          "summary": "Humana ($HUM) rallied 11.6% after the insurer reported encouraging data regarding its quality ratings for Medicare Advantage plans, accompanied by an analyst upgrade.",
-          "ticker": "$HUM",
+          "id": "gainer-ccc",
+          "headline": "CCC Intelligent Solutions Holdings Surges on Acquisition Talks",
+          "ticker": "$CCC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.6%",
-          "direction": "up"
+          "changePercent": "+8% to +10.11%",
+          "direction": "up",
+          "summary": "Shares surged today following reports of advanced discussions with private equity firm GTCR and activist investor Elliott Investment Management for an acquisition."
         },
         {
-          "id": "cci-gainer-oct-9-2026",
-          "headline": "Crown Castle Jumps on SpaceX Deal",
-          "summary": "Crown Castle ($CCI) rose 15.60% following news that SpaceX agreed to acquire a nationwide low-band spectrum portfolio, fueling optimism for wireless infrastructure demand.",
-          "ticker": "$CCI",
+          "id": "gainer-ebay",
+          "headline": "eBay Rallies After Analyst Upgrade",
+          "ticker": "$EBAY",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.60%",
-          "direction": "up"
+          "changePercent": "+5.32%",
+          "direction": "up",
+          "summary": "eBay shares jumped after Morgan Stanley raised its price target on the online marketplace and named it a top pick."
         },
         {
-          "id": "amzn-gainer-oct-9-2026",
-          "headline": "Amazon Leads Tech Rebound",
-          "summary": "Amazon.com Inc. ($AMZN) advanced 3.29% to close at $262.43, as software and cloud stocks recovered from concerns earlier in the week regarding OpenAI's revenue outlook.",
-          "ticker": "$AMZN",
-          "price": "$262.43",
-          "change": "+$8.37",
-          "changePercent": "+3.29%",
-          "direction": "up"
-        },
-        {
-          "id": "tmus-loser-oct-9-2026",
-          "headline": "T-Mobile US Slides on Spectrum Deal Impact",
-          "summary": "T-Mobile US ($TMUS) fell 13.27% due to increased competition concerns following SpaceX's agreement to acquire a nationwide spectrum portfolio for Starlink Mobile services.",
-          "ticker": "$TMUS",
+          "id": "gainer-asts",
+          "headline": "AST SpaceMobile Gains on Satellite and FCC News",
+          "ticker": "$ASTS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.27%",
-          "direction": "down"
+          "changePercent": "+5.11%",
+          "direction": "up",
+          "summary": "AST SpaceMobile advanced after its BlueBird 14-16 satellites arrived at Cape Canaveral and received FCC clearance for 900-MHz testing."
         },
         {
-          "id": "aapl-loser-oct-9-2026",
-          "headline": "Apple Drops on iPhone Production Cuts",
-          "summary": "Apple Inc. ($AAPL) declined 1.11% to $336.64 after reports suggested the company had reduced component orders for its next iPhone series amid weak demand.",
-          "ticker": "$AAPL",
-          "price": "$336.64",
-          "change": "-$3.78",
-          "changePercent": "-1.11%",
-          "direction": "down"
-        },
-        {
-          "id": "dal-loser-oct-9-2026",
-          "headline": "Delta Air Lines Falls on Earnings Miss and Guidance Cut",
-          "summary": "Delta Air Lines ($DAL) slipped after reporting Q3 adjusted earnings per share of $1.72, missing the $1.96 consensus, and cutting its full-year EPS forecast to $5.10-$5.60 from $6.50-$7.50.",
-          "ticker": "$DAL",
+          "id": "loser-lite",
+          "headline": "Lumentum Holdings Falls Amid Semiconductor Selloff",
+          "ticker": "$LITE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "down"
+          "changePercent": "-7.42%",
+          "direction": "down",
+          "summary": "The optical and photonic products maker experienced a significant decline amid a broader selloff in semiconductor and AI-infrastructure stocks."
+        },
+        {
+          "id": "loser-sndk",
+          "headline": "SanDisk Slips Ahead of Earnings",
+          "ticker": "$SNDK",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.98%",
+          "direction": "down",
+          "summary": "Flash-memory storage company SanDisk fell due to caution ahead of its earnings report and renewed selling across the memory sector."
+        },
+        {
+          "id": "loser-be",
+          "headline": "Bloom Energy Down After Earnings Date Announcement",
+          "ticker": "$BE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-6.29%",
+          "direction": "down",
+          "summary": "Bloom Energy shares fell after the company announced its upcoming earnings release date."
         }
       ]
     },
     {
-      "id": "market-news-oct-9-2026",
-      "title": "Market News & Analysis: Friday, October 9, 2026",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-oct-9-2026",
-          "headline": "Real Estate and Energy Lead Sector Gains; Tech Lags Amid AI Concerns",
-          "summary": "On Friday, Real Estate was the top-performing sector, gaining 1.88%, fueled by wireless infrastructure companies and residential real estate stocks. Energy also saw significant gains, with the Energy Select Sector SPDR (XLE) up 3%. Conversely, the Technology sector lagged, declining 0.52%, with communication services down 0.4%. Concerns over OpenAI's revenue outlook contributed to a mixed performance for tech, especially AI and semiconductor stocks.",
+          "id": "sector-performance-1",
+          "headline": "Technology and Energy Lead Year-to-Date, but Intra-Sector Divergence Noted",
+          "summary": "While technology and energy sectors are currently outperforming the S&P 500 year-to-date, with technology accounting for nearly 40% of the market, technology stocks were among the biggest weights on the market today. Utilities and consumer staples are showing improving relative trends. Last week saw a divergence, with software stocks gaining about 4% while semiconductors dropped 4%.",
           "tags": [
-            "Sector Performance",
-            "Real Estate",
+            "Sectors",
+            "Technology",
             "Energy",
-            "Technology"
+            "Software",
+            "Semiconductors"
           ]
         },
         {
-          "id": "economic-data-oct-9-2026",
-          "headline": "Michigan Consumer Sentiment Falls, Inflation Expectations Tick Up",
-          "summary": "The University of Michigan's preliminary October Consumer Sentiment index fell to 46.3 from 48.1, reaching its lowest level since May. Year-ahead inflation expectations also ticked up to 4.7% from 4.6%, indicating persistent concerns among consumers.",
+          "id": "sector-performance-2",
+          "headline": "Communication Services Lead Gains, Technology and Utilities Lag Midday",
+          "summary": "Communication Services were reported as leading sector gainers midday, while technology and utilities sectors were trading lower.",
+          "tags": [
+            "Sectors",
+            "Communication Services",
+            "Technology",
+            "Utilities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
+        {
+          "id": "economic-calendar",
+          "headline": "Columbus Day Observance and Upcoming Inflation Data",
+          "summary": "The U.S. cash bond market is closed today, October 12, for Columbus Day, although stock markets remain open. No major U.S. macroeconomic statistics are scheduled for release today. However, investors are keenly looking ahead to the September Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday, which will be critical for gauging the Federal Reserve's future interest rate decisions.",
           "tags": [
             "Economic Data",
-            "Consumer Sentiment",
-            "Inflation"
+            "CPI",
+            "PPI",
+            "Federal Reserve",
+            "Columbus Day"
           ]
         },
         {
-          "id": "treasury-oil-oct-9-2026",
-          "headline": "Treasury Yields Rise, Oil Prices Stabilize on Geopolitical Developments",
-          "summary": "The 10-year Treasury yield climbed to 5.24%. Meanwhile, Brent crude prices ticked higher, settling at $104.72 per barrel, up 0.4%, after an early-morning dip. Oil market stability was aided by President Trump's statements ruling out an immediate attack on Iran and an agreement for Russia to release diesel to global markets, easing supply concerns.",
-          "tags": [
-            "Bond Market",
-            "Oil Prices",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "upcoming-earnings-oct-9-2026",
-          "headline": "Q3 Earnings Season to Accelerate Next Week with Major Banks Reporting",
-          "summary": "Following Delta Air Lines' Q3 earnings report on Friday, which saw the airline miss consensus estimates, the third-quarter earnings season is set to gather momentum next week. Major banks are scheduled to report, shifting the earnings season into higher gear.",
+          "id": "earnings-kickoff",
+          "headline": "Major Banks and Corporations Set to Report Q3 Earnings This Week",
+          "summary": "Third-quarter earnings season kicks off in earnest this week, with major U.S. banks including JPMorgan ($JPM), Goldman Sachs ($GS), Citi ($C), Wells Fargo ($WFC), and Morgan Stanley ($MS) scheduled to report starting Tuesday, October 13. Johnson & Johnson ($JNJ) and UnitedHealth ($UNH) are also among the prominent companies releasing their Q3 results tomorrow.",
           "tags": [
             "Earnings Season",
-            "Corporate News",
-            "Q3 Earnings"
+            "Banking",
+            "Healthcare",
+            "JPMorgan",
+            "Goldman Sachs",
+            "Citigroup",
+            "Wells Fargo",
+            "Morgan Stanley",
+            "Johnson & Johnson",
+            "UnitedHealth"
+          ]
+        },
+        {
+          "id": "macro-trends",
+          "headline": "Geopolitical Risks, Rising Oil, and AI Boom Shape Market Outlook",
+          "summary": "Persistent geopolitical risks, particularly escalating tensions in the Middle East threatening global energy supplies, are a significant concern for the market, contributing to rising oil prices. Long-term interest rates continue to climb, reaching levels not seen in decades, with inflation expected to remain elevated. The U.S. economic growth remains heavily reliant on substantial capital expenditure in the AI buildout boom. Today marks the fourth anniversary of the ongoing bull market, which has delivered a cumulative return of 117.1% since October 2022.",
+          "tags": [
+            "Macro Trends",
+            "Geopolitics",
+            "Oil Prices",
+            "Interest Rates",
+            "Inflation",
+            "AI",
+            "Bull Market"
+          ]
+        },
+        {
+          "id": "nobel-prize",
+          "headline": "Nobel Prize in Economic Sciences Awarded for Macroeconomic Stabilization Models",
+          "summary": "Robert E. Hall and Michael Woodford were awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026 for their contributions in demonstrating how economic models could be reconstructed to revitalize stabilization policy.",
+          "tags": [
+            "Economic News",
+            "Nobel Prize",
+            "Macroeconomics"
           ]
         }
       ]
