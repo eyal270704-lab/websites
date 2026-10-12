@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T12:23:28.944766Z",
+  "generatedAt": "2026-10-12T05:28:09.124478Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 4,
+  "tradeCount": 7,
   "trades": [
     {
       "ticker": "$AMZN",
@@ -66,6 +66,54 @@
       "footerTag": "Avoid",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$HD",
+      "name": "Home Depot, Inc.",
+      "sector": "Retail - Cyclical",
+      "currentPrice": "$290.74",
+      "entry": "$280.00",
+      "stop": "$275.00",
+      "structure": "52-Week Low Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Home Depot is trading significantly below its 20-day and 200-day moving averages, indicating a strong bearish trend. The RSI at 21.8 suggests oversold conditions, potentially setting up for a short-term rebound from its 52-week low support. However, no clear bullish reversal pattern is evident, making this a risky play for a bounce.",
+      "riskScore": 7,
+      "footerTag": "Oversold Bounce Potential",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Farm & Heavy Construction Machinery",
+      "currentPrice": "$800.47",
+      "entry": "$785.00",
+      "stop": "$775.00",
+      "structure": "Support Test at $780",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is currently trading below its 20-day and 200-day moving averages, indicating a short-term bearish bias. It is approaching a critical support level at $780. A previous double bottom formation was noted, suggesting a potential rebound if this support holds, with a possible target of $864.",
+      "riskScore": 6,
+      "footerTag": "Accumulation - Support Test",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$27.53",
+      "entry": "$27.00",
+      "stop": "$26.50",
+      "structure": "52-Week Low Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Zillow is in a clear downtrend, trading below all significant moving averages and approaching its 52-week low of $26.67. While the price is near oversold conditions, there are no strong reversal signals to confirm a bounce, indicating continued bearish pressure. This setup is considered high risk.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
