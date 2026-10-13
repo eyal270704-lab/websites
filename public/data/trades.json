@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T14:05:09.538185Z",
+  "generatedAt": "2026-10-13T06:26:01.376547Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -33,22 +33,6 @@
       "riskScore": 9,
       "footerTag": "High Risk",
       "setupType": "avoid",
-      "source": "Watchlist"
-    },
-    {
-      "ticker": "$AMZN",
-      "name": "Amazon.com, Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$256.29",
-      "entry": "$255.00",
-      "stop": "$248.00",
-      "structure": "Uptrend / MA Support",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Amazon is in a clear uptrend, trading above its 20, 50, and 200-day moving averages. Technical indicators show bullish momentum. Entry targets a pullback to key moving average support.",
-      "riskScore": 4,
-      "footerTag": "Momentum",
-      "setupType": "perfect",
       "source": "Watchlist"
     },
     {
@@ -98,6 +82,54 @@
       "footerTag": "Momentum",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$QQQ",
+      "name": "Invesco QQQ Trust, Series 1",
+      "sector": "Broad Market ETF",
+      "currentPrice": "$746.04",
+      "entry": "$724.52",
+      "stop": "$665.00",
+      "structure": "50-day MA Support",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "The Invesco QQQ Trust is in a strong uptrend, trading well above its 50-day and 200-day moving averages. While the RSI indicates overbought conditions, suggesting a potential pullback, an entry near the 50-day MA at $724.52 could offer a favorable risk-reward for a continuation of the established bullish trend.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMZN",
+      "name": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$259.53",
+      "entry": "$252.00",
+      "stop": "$239.00",
+      "structure": "20-day SMA Support",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Amazon is exhibiting a strong bullish trend, with its price trading above both the 50-day and 200-day moving averages. However, the company has an estimated earnings report approaching on October 29, 2026, which introduces significant event risk. While an entry near the 20-day SMA at $252.00 could be considered, the imminent earnings make this a high-risk setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AVGO",
+      "name": "Broadcom Inc.",
+      "sector": "Information Technology",
+      "currentPrice": "$354.73",
+      "entry": "$353.00",
+      "stop": "$330.00",
+      "structure": "0.618 Fib Retracement",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Broadcom is currently trading below its 50-day and 200-day moving averages, indicating a bearish short-to-medium term trend. Volume has also been noted as below average in recent trading periods. While a 0.618 Fibonacci retracement level is present around $353.00, the overall negative trend and lack of significant volume make this an unfavorable setup, warranting an 'avoid' classification.",
+      "riskScore": 7,
+      "footerTag": "Avoid - Bearish Trend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
