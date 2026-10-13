@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-13T18:38:00Z",
+  "generatedAt": "2026-10-13T21:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Closing Bell - October 13, 2026",
-  "badge": "Closing Bell",
+  "subtitle": "Tuesday, October 13, 2026",
+  "badge": "Market Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,14 +13,9 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct13",
-          "headline": "U.S. Markets Close Mixed as Bank Earnings and Chip Sell-Off Drive Divergence",
-          "summary": "U.S. equities concluded Tuesday's session mixed, as major bank earnings presented varied results, while a significant sell-off in semiconductor stocks weighed heavily on technology-focused indices. The Dow Jones Industrial Average posted gains, buoyed by some positive earnings, but the S&P 500 and Nasdaq Composite experienced declines. Overall market sentiment reflected investor caution amidst a busy earnings calendar and ongoing concerns about artificial intelligence (AI) chip competition.",
-          "tags": [
-            "Market Overview",
-            "Earnings",
-            "Technology"
-          ]
+          "id": "market-summary",
+          "headline": "U.S. Equities Close Broadly Lower Amid Mixed Earnings and Chip Weakness",
+          "summary": "U.S. stock markets concluded Tuesday's session broadly lower, influenced by a mixed bag of major bank earnings, persistent weakness in semiconductor stocks, and ongoing uncertainty regarding Federal Reserve interest rate policy. Geopolitical tensions in the Middle East also contributed to a cautious sentiment among investors, pushing oil prices higher."
         }
       ]
     },
@@ -33,20 +28,26 @@
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,807.24",
-          "statContext": "Down 0.1% (-4.3 points)"
+          "statValue": "7,805.45",
+          "statContext": "Down 0.02% (-1.79 points)"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "27,245.9",
-          "statContext": "Down 0.4% (-120.27 points)"
+          "statValue": "27,204.38",
+          "statContext": "Down 0.15% (-41.52 points)"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,850.55",
-          "statContext": "Up 0.4% (+195.6 points)"
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,670.10",
+          "statContext": "Down 0.35% (-180.45 points)"
+        },
+        {
+          "id": "russell2000-performance",
+          "statLabel": "Russell 2000",
+          "statValue": "2,783.37",
+          "statContext": "Down 0.4% (-11.11 points)"
         }
       ]
     },
@@ -57,89 +58,44 @@
       "layout": "grid",
       "items": [
         {
-          "id": "goldman-sachs-gainer",
-          "headline": "Goldman Sachs Rises on Strong Q3 Earnings Beat",
-          "summary": "Goldman Sachs ($GS) shares climbed, gaining 1.2% after the bank reported third-quarter profits that significantly surpassed analysts' expectations.",
-          "ticker": "$GS",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.2%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Financials"
-          ]
-        },
-        {
-          "id": "unitedhealth-gainer",
-          "headline": "UnitedHealth Group Beats Expectations and Raises Outlook",
-          "summary": "UnitedHealth Group ($UNH) initially rallied up to 5.6% following stronger-than-expected profit and revenue for the latest quarter, and an upward revision of its full-year 2026 profit forecast.",
+          "id": "unh-gainer",
+          "headline": "UnitedHealth Rises on Strong Earnings",
           "ticker": "$UNH",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.30% (Premarket indication)",
+          "changePercent": "+5.28% (early trading)",
           "direction": "up",
-          "tags": [
-            "Earnings",
-            "Healthcare"
-          ]
-        },
-        {
-          "id": "jpmorgan-gainer",
-          "headline": "JPMorgan Shares Edge Up Despite Earnings Miss, Strong NII Guidance",
-          "summary": "JPMorgan ($JPM) shares edged up 1.02% even as the bank missed third-quarter earnings expectations, driven by a stronger forecast for net interest income in the current quarter.",
-          "ticker": "$JPM",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.02%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Financials"
-          ]
-        },
-        {
-          "id": "micron-loser",
-          "headline": "Micron Technology Falls Amidst Intensifying Chip Competition",
-          "summary": "Micron Technology ($MU) saw a significant decline of 4.6% as worries escalated about increased competition from Chinese chipmaker ChangXin Memory Technologies (CXMT) and a broader global sell-off in semiconductor stocks.",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-4.6%",
-          "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors"
-          ]
+          "summary": "UnitedHealth Group surged after reporting robust third-quarter 2026 results, exceeding Wall Street expectations and raising its full-year profit outlook."
         },
         {
           "id": "jnj-loser",
-          "headline": "Johnson & Johnson Drops on Earnings Miss and Talc Litigation Charge",
-          "summary": "Johnson & Johnson ($JNJ) sank 5.34% after reporting third-quarter results that broadly aligned with expectations but included a substantial one-time charge related to ongoing talc litigation, leading to a 96% year-over-year net profit decline.",
+          "headline": "Johnson & Johnson Falls on MedTech Miss, Litigation Charge",
           "ticker": "$JNJ",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "-5.34%",
           "direction": "down",
-          "tags": [
-            "Healthcare",
-            "Earnings",
-            "Legal"
-          ]
+          "summary": "Johnson & Johnson saw a significant decline after its MedTech division missed analyst forecasts and the company incurred a substantial one-time charge related to ongoing talc litigation."
         },
         {
-          "id": "wells-fargo-loser",
-          "headline": "Wells Fargo Stock Declines on Weaker-Than-Expected Revenue",
-          "summary": "Wells Fargo ($WFC) stock fell 1.9% after the bank reported weaker revenue for the latest quarter than analysts had expected, attributed partly to lower revenue from its venture capital investments.",
-          "ticker": "$WFC",
+          "id": "mu-loser",
+          "headline": "Micron Technology Slides on Competition Fears",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.9%",
+          "changePercent": "-5.19%",
           "direction": "down",
-          "tags": [
-            "Earnings",
-            "Financials"
-          ]
+          "summary": "Micron Technology experienced a notable drop amid growing concerns about increased competition from Chinese chipmaker ChangXin Memory Technologies (CXMT)."
+        },
+        {
+          "id": "energy-sector-gainer",
+          "headline": "Energy Sector Leads Gains",
+          "ticker": "XLE",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.76%",
+          "direction": "up",
+          "summary": "The Energy sector emerged as the top-performing group, driven by rising oil prices attributed to heightened geopolitical tensions in the Middle East."
         }
       ]
     },
@@ -150,45 +106,24 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-oct13",
-          "headline": "Energy and Consumer Staples Lead, Technology Lags Amid Sector Rotation",
-          "summary": "Sector performance today saw the Energy Select Sector SPDR ($XLE) advance 1.5%, Consumer Staples Select Sector SPDR ($XLP) gain 1.2%, and Communication Services Select Sector SPDR ($XLC) rise 1.1%. Conversely, the Technology Select Sector SPDR ($XLK) declined 0.9%, with healthcare and industrials also facing selling pressure. This highlights a rotation away from technology-focused growth stocks.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Consumer Staples",
-            "Technology"
-          ]
+          "id": "bank-earnings",
+          "headline": "Major Banks Report Mixed Q3 Earnings",
+          "summary": "A slew of major U.S. banks, including JPMorgan, Goldman Sachs, Citigroup, and Wells Fargo, released their third-quarter earnings reports. While some, like Goldman Sachs, initially saw jumps on earnings beats, market reactions were mixed as investors digested varying performances across trading and investment banking divisions."
         },
         {
-          "id": "fed-remarks-oct13",
-          "headline": "Fed Officials Scheduled to Deliver Remarks Amid Inflation Concerns",
-          "summary": "Federal Reserve officials Christopher Waller, Tom Barkin, and Susan Collins are scheduled to deliver remarks on the economy today, as traders eye a nearly 22% probability of an October interest rate hike.",
-          "tags": [
-            "Economic News",
-            "Federal Reserve",
-            "Interest Rates"
-          ]
+          "id": "fed-outlook",
+          "headline": "Fed Officials Deliver Remarks Amid Rate Hike Speculation",
+          "summary": "Federal Reserve officials Christopher Waller, Tom Barkin, and Susan Collins were scheduled to deliver remarks on the economy. Speculation around potential interest rate hikes increased, with traders now pricing in a nearly 22% chance of an October hike, as the Fed indicated inflation remains elevated."
         },
         {
-          "id": "chip-stock-selloff",
-          "headline": "Global Chip Stock Sell-off Intensifies on Chinese Competition Fears",
-          "summary": "A global sell-off in chip stocks deepened today, fueled by reports that China's ChangXin Memory Technologies (CXMT) has made significant advances in memory chip technology. This development raised concerns about potential challenges to industry leaders and artificial intelligence (AI) dominance, impacting companies like Micron Technology, Samsung, and SK Hynix.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "Global Markets"
-          ]
+          "id": "economic-data",
+          "headline": "Upcoming Economic Data Deluge",
+          "summary": "Investors are preparing for a heavy week of economic data releases, including the September Consumer Price Index (CPI), the Federal Reserve Beige Book, Jobless Claims, the Producer Price Index, and Retail Sales. Existing-home sales data was also due today. The International Monetary Fund (IMF) released its October 2026 World Economic Outlook."
         },
         {
-          "id": "oil-geopolitics",
-          "headline": "Oil Prices and Geopolitical Tensions Remain Key Market Factors",
-          "summary": "Geopolitical developments, particularly tensions in the Middle East, continue to exert upward pressure on oil prices, despite some earlier dips. Rising crude prices contribute to inflation concerns and uncertainty in the market.",
-          "tags": [
-            "Macro Trends",
-            "Oil",
-            "Geopolitics"
-          ]
+          "id": "tech-weakness",
+          "headline": "Chip Stocks Continue to Face Headwinds",
+          "summary": "The technology and semiconductor sectors continued to experience weakness, largely due to concerns over increased competition from Chinese chipmakers like ChangXin Memory Technologies (CXMT) and weaker-than-expected earnings reports from some major tech firms."
         }
       ]
     }
