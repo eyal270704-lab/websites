@@ -1,210 +1,163 @@
 {
-  "generatedAt": "2026-10-14T12:38:00Z",
+  "generatedAt": "2026-10-14T16:09:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 14, 2026: Midday Update",
-  "badge": "LIVE",
+  "subtitle": "Wednesday, October 14, 2026",
+  "badge": "Updated Today",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse: Cautious Tone as Inflation Data Released, Earnings Drive Individual Stocks",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct-14",
-          "headline": "Wall Street Navigates Inflation Data and Key Earnings Amid Mixed Futures",
-          "summary": "U.S. equities are trading with a cautious sentiment this Wednesday, October 14, as investors digest the morning's Consumer Price Index (CPI) report and a fresh round of corporate earnings. Futures pointed to a mixed open, following Tuesday's broad market declines across major U.S. indexes. Financials and chip stocks are notably under pressure from both earnings disappointments and broader sector concerns.",
-          "tags": [
-            "Market Sentiment",
-            "CPI",
-            "Earnings",
-            "Futures"
-          ]
+          "id": "mp-1",
+          "headline": "Inflation Concerns Drive Broad Market Declines",
+          "summary": "U.S. equities closed lower today, pulling Wall Street further from its recent record highs. Hotter-than-expected September Consumer Price Index (CPI) data fueled concerns over accelerating inflation, increasing the likelihood of another Federal Reserve interest rate hike this month. This economic data, coupled with mixed bank earnings and weakness in healthcare and financial sectors, dampened overall market sentiment. Not financial advice."
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices Performance",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-prev-close",
-          "statLabel": "S&P 500 (Previous Close)",
-          "statValue": "7,805.45",
-          "statContext": "Down 1.80 points (-0.02%) on Tuesday, October 13."
+          "id": "sp500-stat",
+          "statLabel": "S&P 500",
+          "statValue": "7,739.41",
+          "statContext": "Down 0.85% today"
         },
         {
-          "id": "sp500-futures",
-          "statLabel": "S&P 500 Futures (Early Trading)",
-          "statValue": "+0.20%",
-          "statContext": "Futures indicated a higher open, up 0.20% in early trading today."
+          "id": "nasdaq-stat",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,882.85",
+          "statContext": "Down 1.18% today"
         },
         {
-          "id": "nasdaq-prev-close",
-          "statLabel": "NASDAQ Composite (Previous Close)",
-          "statValue": "27,204.38",
-          "statContext": "Down 41.52 points (-0.15%) on Tuesday, October 13."
-        },
-        {
-          "id": "nasdaq-futures",
-          "statLabel": "NASDAQ Futures (Early Trading)",
-          "statValue": "Mixed",
-          "statContext": "Nasdaq futures were mixed in early trading, with some indicating a slight slip while others were flat."
-        },
-        {
-          "id": "dow-prev-close",
-          "statLabel": "Dow Jones (Previous Close)",
-          "statValue": "51,670.10",
-          "statContext": "Down 180.45 points (-0.35%) on Tuesday, October 13."
-        },
-        {
-          "id": "dow-futures",
-          "statLabel": "Dow Jones Futures (Early Trading)",
-          "statValue": "+0.30%",
-          "statContext": "Futures suggested a stronger open, up 0.30% in early trading today."
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,604.06",
+          "statContext": "Down 0.13% today"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers: Earnings and Sector News Drive Stock Volatility",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "blk-gainer",
-          "headline": "BlackRock Surges Pre-market on Strong Q3 Earnings",
+          "id": "mover-dell",
+          "headline": "Dell Technologies Sinks on Downgrade",
+          "summary": "Dell Technologies ($DELL) shares lost 8.28% after Barclays downgraded the company, citing elevated valuations and a lack of significant enterprise AI-driven growth thus far.",
+          "ticker": "$DELL",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.28%",
+          "direction": "down"
+        },
+        {
+          "id": "mover-pgr",
+          "headline": "Progressive Misses Q3 Revenue Estimates",
+          "summary": "The Progressive Corp. ($PGR) fell 8.01% today after the insurer reported third-quarter 2026 results that came in below Wall Street's revenue expectations.",
+          "ticker": "$PGR",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-8.01%",
+          "direction": "down"
+        },
+        {
+          "id": "mover-bac",
+          "headline": "Bank of America Slumps After Profit Miss and Fine",
+          "summary": "Bank of America ($BAC) shares dropped 7.5% following a report of weaker-than-expected third-quarter profit and revenue, compounded by a $1.2 billion Treasury fine over anti-money laundering shortcomings.",
+          "ticker": "$BAC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-7.5%",
+          "direction": "down"
+        },
+        {
+          "id": "mover-blk",
+          "headline": "BlackRock Rises on Strong Earnings",
+          "summary": "BlackRock ($BLK) advanced 3% today after the investment management company reported stronger-than-expected profit and revenue for the summer, with customers pouring a net $205 billion into its funds.",
           "ticker": "$BLK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.70%",
-          "direction": "up",
-          "summary": "BlackRock's shares jumped over 3.7% in pre-market trading after reporting robust Q3 2026 financial results. The asset manager announced adjusted EPS of $15.93, surpassing the $14.30 consensus, and revenues of $7.75 billion, exceeding estimates of $7.43 billion."
+          "changePercent": "+3.0%",
+          "direction": "up"
         },
         {
-          "id": "bac-loser",
-          "headline": "Bank of America Drops Following Regulatory Fine and Earnings Miss",
-          "ticker": "$BAC",
-          "price": "$53.96",
-          "change": "-$0.71",
-          "changePercent": "-1.32%",
-          "direction": "down",
-          "summary": "Bank of America shares declined by 1.32% in early trading. The bank reported Q3 2026 EPS of $1.08, missing the $1.10 consensus, and revenue of $29.96 billion, below the $30.58 billion estimate. The results were significantly impacted by a $1.2 billion regulatory settlement charge for money laundering failures."
+          "id": "mover-meta",
+          "headline": "Meta Platforms Posts Gains",
+          "summary": "Meta Platforms ($META) saw a 2.6% increase today, contributing to market movements.",
+          "ticker": "$META",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.6%",
+          "direction": "up"
         },
         {
-          "id": "amat-loser",
-          "headline": "Applied Materials Tumbles Amid AI Outlook Concerns",
-          "ticker": "$AMAT",
-          "price": "$464.24",
-          "change": "-$33.42",
-          "changePercent": "-7.20%",
-          "direction": "down",
-          "summary": "Applied Materials stock fell 7.20% in early trading, extending losses amid broader concerns over the AI sector's outlook and intensifying competition."
-        },
-        {
-          "id": "jnj-loser",
-          "headline": "Johnson & Johnson Slides on Weaker Sales Performance",
-          "ticker": "$JNJ",
-          "price": "$263.73",
-          "change": "-$14.77",
-          "changePercent": "-5.60%",
-          "direction": "down",
-          "summary": "Johnson & Johnson's stock was down 5.60% today, driven by reports of weaker sales figures."
-        },
-        {
-          "id": "stt-loser",
-          "headline": "State Street Falls After Revenue Miss Despite EPS Beat",
-          "ticker": "$STT",
-          "price": "$174.93",
-          "change": "-$8.13",
-          "changePercent": "-4.65%",
-          "direction": "down",
-          "summary": "State Street's stock dropped 4.65% in pre-market trading. While the company's Q3 2026 adjusted EPS of $3.69 narrowly beat estimates of $3.67, revenue of $4.0 billion fell short of the $4.04 billion forecast."
-        },
-        {
-          "id": "mu-loser",
-          "headline": "Micron Technology Continues Decline on Chip Sector Worries",
-          "ticker": "$MU",
-          "price": "$953.19",
-          "change": "-$43.85",
-          "changePercent": "-4.60%",
-          "direction": "down",
-          "summary": "Micron Technology shares dropped 4.60% as memory chip stocks continued to face pressure from concerns about AI-related investments and competition from Chinese chipmakers."
+          "id": "mover-nvda",
+          "headline": "Nvidia Continues Upward Trend",
+          "summary": "Nvidia ($NVDA) gained 1.0% today, reflecting continued investor interest in semiconductor and AI-related stocks.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+1.0%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News: Inflation, Earnings, and AI Concerns Dominate Headlines",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "cpi-release",
-          "headline": "September U.S. CPI Data Released Today",
-          "summary": "The U.S. Bureau of Labor Statistics released the Consumer Price Index (CPI) for September 2026 today at 8:30 AM ET. Headline inflation was widely expected to accelerate to 3.6% year-over-year, up from 3.4% in August, driven partly by rising energy prices. Core CPI, excluding volatile food and energy, was anticipated to rise 2.5% year-over-year.",
+          "id": "news-cpi",
+          "headline": "September CPI Exceeds Expectations, Fueling Rate Hike Bets",
+          "summary": "The September U.S. Consumer Price Index (CPI) report showed headline inflation rising 0.6% month-over-month, bringing the annual rate to 3.7%, higher than the anticipated 3.6%. Core CPI, excluding food and energy, also surpassed forecasts, rising 0.3% monthly and 2.6% annually. This data has nearly doubled trader expectations for a Federal Reserve rate hike at its upcoming meeting.",
           "tags": [
-            "Economic Data",
             "Inflation",
-            "CPI",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "fed-beige-book",
-          "headline": "Federal Reserve Beige Book Slated for Release This Afternoon",
-          "summary": "The Federal Reserve's Beige Book, offering a qualitative assessment of current economic conditions across its districts, is scheduled for release at 2:00 PM ET today, providing further insights into macro trends affecting markets.",
-          "tags": [
-            "Economic Data",
             "Federal Reserve",
-            "Macroeconomics"
+            "Economic Data"
           ]
         },
         {
-          "id": "imf-debt-warning",
-          "headline": "IMF Chief Warns Against Mounting Global and U.S. Debt",
-          "summary": "The head of the International Monetary Fund (IMF) urged wealthy nations, including the U.S., to address rising global debt levels. IMF Managing Director Kristalina Georgieva highlighted that the U.S. federal deficit and national debt, exceeding $40 trillion, are too high and require more than just economic growth to resolve, noting that rising bond yields are disrupting financial markets.",
+          "id": "news-sectors",
+          "headline": "Healthcare and Financials Lead Sector Declines; Energy Outperforms",
+          "summary": "Six of the S&P 500's eleven broad sectors closed in the red today. The Health Care Select Sector SPDR (XLV) declined 1.3%, and the Financials Select Sector SPDR (XLF) fell 0.4%, as investors reacted to mixed bank earnings and disappointing guidance from healthcare companies. In contrast, the Energy Select Sector SPDR (XLE) advanced 1.7%, benefiting from mixed oil prices and ongoing supply concerns.",
           "tags": [
-            "Economic Policy",
-            "Global Debt",
-            "IMF",
-            "Bond Market"
+            "Sector Analysis",
+            "Healthcare",
+            "Financials",
+            "Energy"
           ]
         },
         {
-          "id": "banking-earnings-mixed",
-          "headline": "Mixed Signals from Major Bank Earnings",
-          "summary": "Amid the Q3 earnings season, major U.S. banks including JPMorgan Chase, Goldman Sachs, Citigroup, and Wells Fargo have reported mixed results. Investors are keenly focused on forward guidance, as executives warn that Treasury sell-offs and interest rate uncertainty are beginning to impact dealmaking and trading activities. Morgan Stanley is also scheduled to report earnings today.",
+          "id": "news-earnings",
+          "headline": "Bank Earnings Offer Mixed Signals Amid Rising Yields",
+          "summary": "Major U.S. banks reported mixed quarterly earnings, with firms like Bank of America ($BAC) experiencing declines due to profit misses and regulatory fines, while BlackRock ($BLK) posted strong results. Investors are increasingly scrutinizing forward guidance amidst a flattening yield curve and rising Treasury yields, which jumped after the inflation report.",
           "tags": [
-            "Earnings Season",
-            "Financial Sector",
-            "Banking"
+            "Earnings",
+            "Banking",
+            "Bond Yields"
           ]
         },
         {
-          "id": "ai-chip-concerns",
-          "headline": "AI and Chip Sector Grapples with Valuation and Competition Worries",
-          "summary": "The chip and artificial intelligence (AI) infrastructure sectors are facing increasing investor scrutiny. Concerns over the valuation of AI technology, coupled with intensifying competition from Chinese memory chipmakers like CXMT, are weighing on sentiment. Industry leaders have also warned against excessive spending in AI labs.",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "Artificial Intelligence",
-            "Sector Analysis"
-          ]
-        },
-        {
-          "id": "asml-demand-issue",
-          "headline": "ASML's Demand Fulfilment Issues Reignite AI Trade Worries",
-          "summary": "Chip-equipment maker ASML Holding N.V. reported earnings but indicated it cannot fully meet demand, which has reignited worries about the AI trade and contributed to a downturn in chipmaker stocks.",
+          "id": "news-chipstocks",
+          "headline": "Semiconductor Stocks Under Pressure",
+          "summary": "Technology and semiconductor stocks faced selling pressure today, contributing to the Nasdaq's decline. Concerns about AI competition and weak market breadth impacted firms like ASML, whose U.S. shares were down despite reporting record sales and strong profits.",
           "tags": [
             "Technology",
             "Semiconductors",
-            "AI",
-            "Earnings"
+            "AI"
           ]
         }
       ]
