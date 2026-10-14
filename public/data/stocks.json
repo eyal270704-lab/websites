@@ -1,129 +1,211 @@
 {
-  "generatedAt": "2026-10-13T21:03:00Z",
+  "generatedAt": "2026-10-14T12:38:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Tuesday, October 13, 2026",
-  "badge": "Market Close",
+  "subtitle": "October 14, 2026: Midday Update",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
-      "title": "Market Pulse",
+      "title": "Market Pulse: Cautious Tone as Inflation Data Released, Earnings Drive Individual Stocks",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "U.S. Equities Close Broadly Lower Amid Mixed Earnings and Chip Weakness",
-          "summary": "U.S. stock markets concluded Tuesday's session broadly lower, influenced by a mixed bag of major bank earnings, persistent weakness in semiconductor stocks, and ongoing uncertainty regarding Federal Reserve interest rate policy. Geopolitical tensions in the Middle East also contributed to a cautious sentiment among investors, pushing oil prices higher."
+          "id": "market-summary-oct-14",
+          "headline": "Wall Street Navigates Inflation Data and Key Earnings Amid Mixed Futures",
+          "summary": "U.S. equities are trading with a cautious sentiment this Wednesday, October 14, as investors digest the morning's Consumer Price Index (CPI) report and a fresh round of corporate earnings. Futures pointed to a mixed open, following Tuesday's broad market declines across major U.S. indexes. Financials and chip stocks are notably under pressure from both earnings disappointments and broader sector concerns.",
+          "tags": [
+            "Market Sentiment",
+            "CPI",
+            "Earnings",
+            "Futures"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
+          "id": "sp500-prev-close",
+          "statLabel": "S&P 500 (Previous Close)",
           "statValue": "7,805.45",
-          "statContext": "Down 0.02% (-1.79 points)"
+          "statContext": "Down 1.80 points (-0.02%) on Tuesday, October 13."
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
+          "id": "sp500-futures",
+          "statLabel": "S&P 500 Futures (Early Trading)",
+          "statValue": "+0.20%",
+          "statContext": "Futures indicated a higher open, up 0.20% in early trading today."
+        },
+        {
+          "id": "nasdaq-prev-close",
+          "statLabel": "NASDAQ Composite (Previous Close)",
           "statValue": "27,204.38",
-          "statContext": "Down 0.15% (-41.52 points)"
+          "statContext": "Down 41.52 points (-0.15%) on Tuesday, October 13."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
+          "id": "nasdaq-futures",
+          "statLabel": "NASDAQ Futures (Early Trading)",
+          "statValue": "Mixed",
+          "statContext": "Nasdaq futures were mixed in early trading, with some indicating a slight slip while others were flat."
+        },
+        {
+          "id": "dow-prev-close",
+          "statLabel": "Dow Jones (Previous Close)",
           "statValue": "51,670.10",
-          "statContext": "Down 0.35% (-180.45 points)"
+          "statContext": "Down 180.45 points (-0.35%) on Tuesday, October 13."
         },
         {
-          "id": "russell2000-performance",
-          "statLabel": "Russell 2000",
-          "statValue": "2,783.37",
-          "statContext": "Down 0.4% (-11.11 points)"
+          "id": "dow-futures",
+          "statLabel": "Dow Jones Futures (Early Trading)",
+          "statValue": "+0.30%",
+          "statContext": "Futures suggested a stronger open, up 0.30% in early trading today."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers: Earnings and Sector News Drive Stock Volatility",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "unh-gainer",
-          "headline": "UnitedHealth Rises on Strong Earnings",
-          "ticker": "$UNH",
+          "id": "blk-gainer",
+          "headline": "BlackRock Surges Pre-market on Strong Q3 Earnings",
+          "ticker": "$BLK",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.28% (early trading)",
+          "changePercent": "+3.70%",
           "direction": "up",
-          "summary": "UnitedHealth Group surged after reporting robust third-quarter 2026 results, exceeding Wall Street expectations and raising its full-year profit outlook."
+          "summary": "BlackRock's shares jumped over 3.7% in pre-market trading after reporting robust Q3 2026 financial results. The asset manager announced adjusted EPS of $15.93, surpassing the $14.30 consensus, and revenues of $7.75 billion, exceeding estimates of $7.43 billion."
+        },
+        {
+          "id": "bac-loser",
+          "headline": "Bank of America Drops Following Regulatory Fine and Earnings Miss",
+          "ticker": "$BAC",
+          "price": "$53.96",
+          "change": "-$0.71",
+          "changePercent": "-1.32%",
+          "direction": "down",
+          "summary": "Bank of America shares declined by 1.32% in early trading. The bank reported Q3 2026 EPS of $1.08, missing the $1.10 consensus, and revenue of $29.96 billion, below the $30.58 billion estimate. The results were significantly impacted by a $1.2 billion regulatory settlement charge for money laundering failures."
+        },
+        {
+          "id": "amat-loser",
+          "headline": "Applied Materials Tumbles Amid AI Outlook Concerns",
+          "ticker": "$AMAT",
+          "price": "$464.24",
+          "change": "-$33.42",
+          "changePercent": "-7.20%",
+          "direction": "down",
+          "summary": "Applied Materials stock fell 7.20% in early trading, extending losses amid broader concerns over the AI sector's outlook and intensifying competition."
         },
         {
           "id": "jnj-loser",
-          "headline": "Johnson & Johnson Falls on MedTech Miss, Litigation Charge",
+          "headline": "Johnson & Johnson Slides on Weaker Sales Performance",
           "ticker": "$JNJ",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.34%",
+          "price": "$263.73",
+          "change": "-$14.77",
+          "changePercent": "-5.60%",
           "direction": "down",
-          "summary": "Johnson & Johnson saw a significant decline after its MedTech division missed analyst forecasts and the company incurred a substantial one-time charge related to ongoing talc litigation."
+          "summary": "Johnson & Johnson's stock was down 5.60% today, driven by reports of weaker sales figures."
+        },
+        {
+          "id": "stt-loser",
+          "headline": "State Street Falls After Revenue Miss Despite EPS Beat",
+          "ticker": "$STT",
+          "price": "$174.93",
+          "change": "-$8.13",
+          "changePercent": "-4.65%",
+          "direction": "down",
+          "summary": "State Street's stock dropped 4.65% in pre-market trading. While the company's Q3 2026 adjusted EPS of $3.69 narrowly beat estimates of $3.67, revenue of $4.0 billion fell short of the $4.04 billion forecast."
         },
         {
           "id": "mu-loser",
-          "headline": "Micron Technology Slides on Competition Fears",
+          "headline": "Micron Technology Continues Decline on Chip Sector Worries",
           "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.19%",
+          "price": "$953.19",
+          "change": "-$43.85",
+          "changePercent": "-4.60%",
           "direction": "down",
-          "summary": "Micron Technology experienced a notable drop amid growing concerns about increased competition from Chinese chipmaker ChangXin Memory Technologies (CXMT)."
-        },
-        {
-          "id": "energy-sector-gainer",
-          "headline": "Energy Sector Leads Gains",
-          "ticker": "XLE",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+1.76%",
-          "direction": "up",
-          "summary": "The Energy sector emerged as the top-performing group, driven by rising oil prices attributed to heightened geopolitical tensions in the Middle East."
+          "summary": "Micron Technology shares dropped 4.60% as memory chip stocks continued to face pressure from concerns about AI-related investments and competition from Chinese chipmakers."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News: Inflation, Earnings, and AI Concerns Dominate Headlines",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "bank-earnings",
-          "headline": "Major Banks Report Mixed Q3 Earnings",
-          "summary": "A slew of major U.S. banks, including JPMorgan, Goldman Sachs, Citigroup, and Wells Fargo, released their third-quarter earnings reports. While some, like Goldman Sachs, initially saw jumps on earnings beats, market reactions were mixed as investors digested varying performances across trading and investment banking divisions."
+          "id": "cpi-release",
+          "headline": "September U.S. CPI Data Released Today",
+          "summary": "The U.S. Bureau of Labor Statistics released the Consumer Price Index (CPI) for September 2026 today at 8:30 AM ET. Headline inflation was widely expected to accelerate to 3.6% year-over-year, up from 3.4% in August, driven partly by rising energy prices. Core CPI, excluding volatile food and energy, was anticipated to rise 2.5% year-over-year.",
+          "tags": [
+            "Economic Data",
+            "Inflation",
+            "CPI",
+            "Federal Reserve"
+          ]
         },
         {
-          "id": "fed-outlook",
-          "headline": "Fed Officials Deliver Remarks Amid Rate Hike Speculation",
-          "summary": "Federal Reserve officials Christopher Waller, Tom Barkin, and Susan Collins were scheduled to deliver remarks on the economy. Speculation around potential interest rate hikes increased, with traders now pricing in a nearly 22% chance of an October hike, as the Fed indicated inflation remains elevated."
+          "id": "fed-beige-book",
+          "headline": "Federal Reserve Beige Book Slated for Release This Afternoon",
+          "summary": "The Federal Reserve's Beige Book, offering a qualitative assessment of current economic conditions across its districts, is scheduled for release at 2:00 PM ET today, providing further insights into macro trends affecting markets.",
+          "tags": [
+            "Economic Data",
+            "Federal Reserve",
+            "Macroeconomics"
+          ]
         },
         {
-          "id": "economic-data",
-          "headline": "Upcoming Economic Data Deluge",
-          "summary": "Investors are preparing for a heavy week of economic data releases, including the September Consumer Price Index (CPI), the Federal Reserve Beige Book, Jobless Claims, the Producer Price Index, and Retail Sales. Existing-home sales data was also due today. The International Monetary Fund (IMF) released its October 2026 World Economic Outlook."
+          "id": "imf-debt-warning",
+          "headline": "IMF Chief Warns Against Mounting Global and U.S. Debt",
+          "summary": "The head of the International Monetary Fund (IMF) urged wealthy nations, including the U.S., to address rising global debt levels. IMF Managing Director Kristalina Georgieva highlighted that the U.S. federal deficit and national debt, exceeding $40 trillion, are too high and require more than just economic growth to resolve, noting that rising bond yields are disrupting financial markets.",
+          "tags": [
+            "Economic Policy",
+            "Global Debt",
+            "IMF",
+            "Bond Market"
+          ]
         },
         {
-          "id": "tech-weakness",
-          "headline": "Chip Stocks Continue to Face Headwinds",
-          "summary": "The technology and semiconductor sectors continued to experience weakness, largely due to concerns over increased competition from Chinese chipmakers like ChangXin Memory Technologies (CXMT) and weaker-than-expected earnings reports from some major tech firms."
+          "id": "banking-earnings-mixed",
+          "headline": "Mixed Signals from Major Bank Earnings",
+          "summary": "Amid the Q3 earnings season, major U.S. banks including JPMorgan Chase, Goldman Sachs, Citigroup, and Wells Fargo have reported mixed results. Investors are keenly focused on forward guidance, as executives warn that Treasury sell-offs and interest rate uncertainty are beginning to impact dealmaking and trading activities. Morgan Stanley is also scheduled to report earnings today.",
+          "tags": [
+            "Earnings Season",
+            "Financial Sector",
+            "Banking"
+          ]
+        },
+        {
+          "id": "ai-chip-concerns",
+          "headline": "AI and Chip Sector Grapples with Valuation and Competition Worries",
+          "summary": "The chip and artificial intelligence (AI) infrastructure sectors are facing increasing investor scrutiny. Concerns over the valuation of AI technology, coupled with intensifying competition from Chinese memory chipmakers like CXMT, are weighing on sentiment. Industry leaders have also warned against excessive spending in AI labs.",
+          "tags": [
+            "Technology",
+            "Semiconductors",
+            "Artificial Intelligence",
+            "Sector Analysis"
+          ]
+        },
+        {
+          "id": "asml-demand-issue",
+          "headline": "ASML's Demand Fulfilment Issues Reignite AI Trade Worries",
+          "summary": "Chip-equipment maker ASML Holding N.V. reported earnings but indicated it cannot fully meet demand, which has reignited worries about the AI trade and contributed to a downturn in chipmaker stocks.",
+          "tags": [
+            "Technology",
+            "Semiconductors",
+            "AI",
+            "Earnings"
+          ]
         }
       ]
     }
