@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-15T10:40:10.947847Z",
+  "generatedAt": "2026-10-15T11:13:04.845406Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Risk - Dividend",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "currentPrice": "$748.98",
+      "entry": "$744.00",
+      "stop": "$738.00",
+      "structure": "Oversold near Support",
+      "trend": "< 20MA & < 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Caterpillar is in a strong downtrend, trading below its 20-day and 200-day moving averages with elevated relative volume. The stock is currently oversold with an RSI of 27.306 and is testing near-term pivot support levels. A bounce could occur, but the overall trend remains bearish, making it a high-risk setup.",
+      "riskScore": 8,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HD",
+      "name": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$312.33",
+      "entry": "$305.00",
+      "stop": "$298.00",
+      "structure": "Testing 200-day MA",
+      "trend": "~ 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Home Depot is trading near its 200-day moving average, a key area of support/resistance, but below its 20-day MA. Relative volume is slightly elevated. A retest of the 200-day MA offers a potential entry if it holds, with a stop below recent lows. Earnings are not a near-term catalyst.",
+      "riskScore": 6,
+      "footerTag": "Consolidation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$Z",
+      "name": "Zillow Group, Inc. Class C",
+      "sector": "Technology",
+      "currentPrice": "$42.15",
+      "entry": "$39.50",
+      "stop": "$38.00",
+      "structure": "Support Test",
+      "trend": "< 20MA & < 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Zillow Group is in a bearish trend, trading below both its 20-day and 200-day moving averages. Relative volume is elevated, indicating increased selling pressure. The stock is approaching a strong support area around $39.50. A bounce could occur from this level, but the overall trend suggests caution.",
+      "riskScore": 7,
+      "footerTag": "High Risk - Downtrend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
