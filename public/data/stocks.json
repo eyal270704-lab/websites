@@ -1,195 +1,246 @@
 {
-  "generatedAt": "2026-10-14T20:02:00Z",
+  "generatedAt": "2026-10-15T12:26:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Wednesday, October 14, 2026",
-  "badge": "Market Close",
+  "title": "Daily Market Digest: Inflation Fears Drive Tech Sell-Off",
+  "subtitle": "October 15, 2026 - Market Close Summary (October 14) and Overnight/Pre-market (October 15)",
+  "badge": "Updated Oct 15, 2026",
   "sections": [
     {
-      "id": "market-pulse-oct14-2026",
-      "title": "Market Pulse: Inflation Concerns Weigh Heavily",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct14-2026",
-          "headline": "U.S. Stocks Retreat Amid Hotter-Than-Expected Inflation Data",
-          "summary": "Wall Street concluded Wednesday's session mostly lower as a stronger-than-anticipated September Consumer Price Index report heightened concerns about potential Federal Reserve interest rate hikes. Financial and healthcare sectors were notable drags, while a rotation from growth to value stocks continued, revealing underlying market weakness despite the S&P 500's relatively flat close.",
+          "id": "market-summary-oct15",
+          "headline": "Tech Sector Plunges as Higher Inflation Fuels Rate Hike Concerns",
+          "summary": "U.S. equities experienced their sharpest decline since July during Wednesday's session (October 14), largely driven by disappointing September inflation data that intensified fears of further interest rate hikes by the Federal Reserve. The technology sector bore the brunt of the sell-off, particularly AI-linked shares, as investors weighed the prospects of increased borrowing costs. Pre-market indicators for Thursday (October 15) suggest continued pressure on tech stocks.",
           "tags": [
             "Inflation",
-            "CPI",
-            "Fed Rates",
-            "Market Sentiment"
+            "Interest Rates",
+            "Tech Sell-off",
+            "AI"
           ],
-          "timestamp": "2026-10-14T16:00:00Z"
+          "timestamp": "2026-10-15T06:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-oct14-2026",
-      "title": "Major Indices Performance",
+      "id": "major-indices",
+      "title": "Major Indices (October 14 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct14-2026",
-          "headline": "S&P 500",
-          "statLabel": "Close",
-          "statValue": "7,805.45",
-          "statContext": "-1.80 (-0.02%)",
-          "change": "-$1.80",
-          "changePercent": "-0.02%",
-          "direction": "down",
-          "ticker": "$SPX"
+          "id": "sp500-close",
+          "statLabel": "S&P 500",
+          "statValue": "7,718.94",
+          "statContext": "Down 1.11%",
+          "ticker": "^SPX",
+          "price": "7718.94",
+          "change": "-86.51",
+          "changePercent": "-1.11%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-oct14-2026",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "27,204.38",
-          "statContext": "-41.52 (-0.20%)",
-          "change": "-$41.52",
-          "changePercent": "-0.20%",
-          "direction": "down",
-          "ticker": "$IXIC"
+          "id": "nasdaq-close",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,692.87",
+          "statContext": "Down 1.88%",
+          "ticker": "^IXIC",
+          "price": "26692.87",
+          "change": "-511.51",
+          "changePercent": "-1.88%",
+          "direction": "down"
         },
         {
-          "id": "dow-oct14-2026",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
-          "statValue": "51,670.10",
-          "statContext": "-180.50 (-0.40%)",
-          "change": "-$180.50",
-          "changePercent": "-0.40%",
-          "direction": "down",
-          "ticker": "$DJI"
+          "id": "dow-close",
+          "statLabel": "Dow Jones Ind. Avg.",
+          "statValue": "51,621.48",
+          "statContext": "Down 0.09%",
+          "ticker": "^DJI",
+          "price": "51621.48",
+          "change": "-48.62",
+          "changePercent": "-0.09%",
+          "direction": "down"
+        },
+        {
+          "id": "sp500-futures-oct15",
+          "statLabel": "S&P 500 Futures",
+          "statValue": "Pre-market Oct 15",
+          "statContext": "Down 0.35%",
+          "ticker": "ES=F",
+          "price": null,
+          "change": null,
+          "changePercent": "-0.35%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq100-futures-oct15",
+          "statLabel": "Nasdaq 100 Futures",
+          "statValue": "Pre-market Oct 15",
+          "statContext": "Down 1.26%",
+          "ticker": "NQ=F",
+          "price": null,
+          "change": null,
+          "changePercent": "-1.26%",
+          "direction": "down"
+        },
+        {
+          "id": "dow-futures-oct15",
+          "statLabel": "Dow Futures",
+          "statValue": "Pre-market Oct 15",
+          "statContext": "Up 0.39%",
+          "ticker": "YM=F",
+          "price": null,
+          "change": null,
+          "changePercent": "+0.39%",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-oct14-2026",
-      "title": "Top Movers: Wednesday's Gainers and Losers",
+      "id": "top-movers",
+      "title": "Top Movers (October 14 Close / Early October 15)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "glnd-gainer-oct14-2026",
-          "headline": "Greenland Energy Co Surges",
-          "summary": "Greenland Energy Co ($GLND) shares recorded an impressive 77.77% increase, closing at $3.93.",
-          "ticker": "$GLND",
-          "price": "$3.93",
-          "change": "+$1.71",
-          "changePercent": "+77.77%",
+          "id": "aapl-gainer",
+          "headline": "Apple (AAPL) Crosses $5T Market Value",
+          "summary": "Apple defied the broader market downturn, gaining 0.5% to close above a five-trillion-dollar market value for the first time amidst a tech sell-off.",
+          "ticker": "$AAPL",
+          "price": "$342.96",
+          "change": "+$1.69",
+          "changePercent": "+0.5%",
           "direction": "up"
         },
         {
-          "id": "bspp-gainer-oct14-2026",
-          "headline": "Bending Spoons SPA Rises on Investment",
-          "summary": "BENDING SPOONS SPA ($BSP) advanced 39.16% to $52.69 following news of Berkshire Hathaway's additional $330 million investment.",
-          "ticker": "$BSP",
-          "price": "$52.69",
-          "change": "+$14.86",
-          "changePercent": "+39.16%",
+          "id": "unh-gainer",
+          "headline": "UnitedHealth Group Surges",
+          "summary": "UnitedHealth Group ($UNH) was among the strongest performers, rising 4.86% as the broader market declined.",
+          "ticker": "$UNH",
+          "price": null,
+          "change": null,
+          "changePercent": "+4.86%",
           "direction": "up"
         },
         {
-          "id": "blk-gainer-oct14-2026",
-          "headline": "BlackRock Boosted by Strong Earnings",
-          "summary": "BlackRock ($BLK) rose 3.87% after the asset manager reported third-quarter profit and revenue that exceeded analyst estimates.",
-          "ticker": "$BLK",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.87%",
+          "id": "mrk-gainer",
+          "headline": "Merck Posts Strong Gains",
+          "summary": "Merck ($MRK) saw a significant increase, climbing 3.85% during Wednesday's trading session.",
+          "ticker": "$MRK",
+          "price": null,
+          "change": null,
+          "changePercent": "+3.85%",
           "direction": "up"
         },
         {
-          "id": "nwgl-loser-oct14-2026",
-          "headline": "CL WORKSHOP GROUP LTD Plummets",
-          "summary": "CL WORKSHOP GROUP LTD's ($NWGL) shares dropped 77.47%, closing at $0.27.",
-          "ticker": "$NWGL",
-          "price": "$0.27",
-          "change": "-$0.93",
-          "changePercent": "-77.47%",
+          "id": "coreweave-loser",
+          "headline": "CoreWeave Plunges Amid AI Financing Concerns",
+          "summary": "Cloud provider CoreWeave lost 15% during Wednesday's session, with pre-market trading on Thursday seeing another 4.5% slip, as concerns intensified regarding the financing of debt-heavy AI infrastructure companies.",
+          "ticker": null,
+          "price": null,
+          "change": null,
+          "changePercent": "-15.0%",
           "direction": "down"
         },
         {
-          "id": "bac-loser-oct14-2026",
-          "headline": "Bank of America Falls on Earnings Miss and Penalty",
-          "summary": "Bank of America ($BAC) sank 5.53% after reporting a drop in third-quarter profit, missing earnings forecasts, and incurring a $1.2 billion regulatory penalty.",
-          "ticker": "$BAC",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.53%",
+          "id": "oracle-loser",
+          "headline": "Oracle Falls on Tech Weakness",
+          "summary": "Oracle ($ORCL) declined 8.8% as technology shares slid following renewed inflation concerns.",
+          "ticker": "$ORCL",
+          "price": null,
+          "change": null,
+          "changePercent": "-8.8%",
           "direction": "down"
         },
         {
-          "id": "jnj-loser-oct14-2026",
-          "headline": "Johnson & Johnson Tumbles on Revenue Miss",
-          "summary": "Johnson & Johnson's ($JNJ) shares tumbled 5.7% after the company's revenues of $25.43 billion marginally missed analyst estimates, despite exceeding quarterly earnings.",
-          "ticker": "$JNJ",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.70%",
+          "id": "dell-loser",
+          "headline": "Dell Technologies Experiences Sharp Drop",
+          "summary": "Dell Technologies ($DELL) experienced a significant downturn, plunging 11.2% in Wednesday's trading.",
+          "ticker": "$DELL",
+          "price": null,
+          "change": null,
+          "changePercent": "-11.2%",
+          "direction": "down"
+        },
+        {
+          "id": "nvidia-loser",
+          "headline": "Nvidia Leads Semiconductor Slide",
+          "summary": "AI chip leader Nvidia ($NVDA) fell 3.2% on Wednesday and another 1.3% in pre-market trading, extending the semiconductor sector's losing streak.",
+          "ticker": "$NVDA",
+          "price": "$221.30",
+          "change": "-$7.22",
+          "changePercent": "-3.2%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-oct14-2026",
-      "title": "Market News & Analysis",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "cpi-report-oct14-2026",
-          "headline": "September CPI Hotter Than Expected, Fuels Fed Rate Hike Bets",
-          "summary": "The U.S. Consumer Price Index (CPI) rose 0.6% month-over-month in September, with the annual rate accelerating to 3.7%, exceeding economists' forecasts. Core CPI also came in hotter than anticipated at 2.6% year-over-year. This data has significantly increased investor expectations for a Federal Reserve interest rate hike this month.",
+          "id": "inflation-report",
+          "headline": "September CPI Exceeds Expectations, Ignites Rate Hike Fears",
+          "summary": "The U.S. Consumer Price Index (CPI) for September rose 3.7% year-over-year, surpassing the 3.6% consensus forecast. Core inflation, excluding food and energy, also came in higher than anticipated at 2.6%. This data point has heightened expectations for potential Federal Reserve interest rate increases, with markets now pricing in about 40 basis points of Fed hikes by January and an October move edging up.",
           "tags": [
-            "CPI",
             "Inflation",
+            "CPI",
             "Federal Reserve",
             "Interest Rates"
           ],
-          "timestamp": "2026-10-14T13:30:00Z"
+          "timestamp": "2026-10-15T08:30:00Z"
         },
         {
-          "id": "sector-performance-oct14-2026",
-          "headline": "Healthcare and Financials Lead Sector Decline; Energy Outperforms",
-          "summary": "The Health Care Select Sector SPDR (XLV) declined 1.3%, while the Financials Select Sector SPDR (XLF) fell 0.4%, pulling down broader markets. In contrast, the Energy Select Sector SPDR (XLE) advanced 1.7%, emerging as the day's leading sector. Technology and semiconductor stocks also faced selling pressure.",
+          "id": "sector-analysis",
+          "headline": "Technology and Communication Services Lead Market Decline; Energy Continues to Outperform",
+          "summary": "Eight of the S&P 500's eleven sectors declined on October 14, with Technology losing 2.6% and Communication Services falling 1.78%. The semiconductor index, a key component of the AI boom, dropped 4.3% for its sixth consecutive decline. In contrast, the S&P 500 Energy index remains the market's top-performing sector year-to-date, surging +46.34%.",
           "tags": [
             "Sector Analysis",
-            "Healthcare",
-            "Financials",
+            "Technology",
             "Energy",
-            "Technology"
+            "Semiconductors"
           ],
-          "timestamp": "2026-10-14T16:00:00Z"
+          "timestamp": "2026-10-15T10:00:00Z"
         },
         {
-          "id": "q3-earnings-bank-results-oct14-2026",
-          "headline": "Mixed Q3 Earnings from Major Banks, JNJ Misses Revenue",
-          "summary": "Major U.S. banks reported mixed third-quarter earnings, with Bank of America ($BAC) notably down after a profit drop and regulatory penalty. Citigroup ($C) also fell due to declining investment banking fees and higher credit-loss provisions. Johnson & Johnson ($JNJ) saw its shares tumble after revenues marginally missed estimates.",
+          "id": "ai-selloff",
+          "headline": "AI-Linked Shares Face Deepening Sell-Off Amid Debt Concerns",
+          "summary": "A deepening sell-off in AI-linked shares hit global markets, extending from Wall Street to Asia. Concerns are mounting over the increasing cost of financing behind the AI infrastructure boom, with some market participants questioning the sustainability of debt-heavy AI companies.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Market Turmoil",
+            "Debt"
+          ],
+          "timestamp": "2026-10-15T07:00:00Z"
+        },
+        {
+          "id": "tsmc-earnings",
+          "headline": "TSMC Reports Record Profit, Maintains Strong AI Demand Outlook",
+          "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) reported a record third-quarter net profit of NT$763.1 billion, a 69% increase year-over-year and exceeding analyst expectations. The company expressed confidence in continued strong AI demand despite the broader tech downturn.",
           "tags": [
             "Earnings",
-            "Q3 2026",
-            "Banking",
-            "Healthcare"
+            "TSMC",
+            "Semiconductors",
+            "AI"
           ],
-          "timestamp": "2026-10-14T12:00:00Z"
+          "timestamp": "2026-10-15T09:00:00Z"
         },
         {
-          "id": "macro-trends-oct14-2026",
-          "headline": "Rising Oil Prices and Geopolitical Tensions Fuel Inflationary Concerns",
-          "summary": "Elevated oil prices, partially attributed to the ongoing conflict in Iran, continue to contribute to inflationary pressures. Coupled with the build-out of AI infrastructure increasing demand for commodities, these macro trends are seen as significant catalysts pushing U.S. interest rates higher and creating headwinds for economic growth.",
+          "id": "bank-earnings",
+          "headline": "Mixed Bank Earnings Reports",
+          "summary": "Major U.S. banks reported mixed third-quarter earnings. Bank of America sank after reporting weaker profits than analysts expected, while Marsh & McLennan Companies, Bank Of New York Mellon, and PNC reported earnings above expectations.",
           "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics",
-            "AI",
-            "Inflation"
+            "Earnings",
+            "Banking"
           ],
-          "timestamp": "2026-10-14T15:00:00Z"
+          "timestamp": "2026-10-15T11:00:00Z"
         }
       ]
     }
