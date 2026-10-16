@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16T15:45:00Z",
+  "generatedAt": "2026-10-16T19:26:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Friday, October 16, 2026 - Today's Session Close (Not financial advice)",
+  "title": "Daily Market Digest: October 16, 2026",
+  "subtitle": "Friday's Session Sees Broad Market Gains Amid Sector Rotation",
   "badge": "LIVE",
   "sections": [
     {
@@ -13,139 +13,106 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-today",
-          "headline": "Mixed Session as Tech Sags, Defensive Sectors Gain",
-          "summary": "U.S. equities saw a mixed performance today, with major indices showing divergent trends. The tech-heavy Nasdaq Composite led declines amid continued concerns over AI financing costs and heavy debt burdens at data-center operators. Meanwhile, the Dow Jones Industrial Average posted a solid gain, driven by a rotation into defensive sectors such as financials and industrials, and buoyed by positive economic commentary from the Federal Reserve. Oil prices remained elevated due to geopolitical tensions, contributing to strength in the energy sector.",
+          "id": "market-summary-oct16",
+          "headline": "Wall Street Rallies as Investors Rotate into Defensive Sectors, AI Concerns Persist",
+          "summary": "U.S. equities closed higher on Friday, capping a session marked by a broad market rally for the Dow, S&P 500, and Nasdaq Composite. Investor sentiment improved as traders rotated from debt-sensitive AI stocks into more defensive and undervalued sectors like healthcare and financials. Despite overall gains, concerns over artificial intelligence financing costs continued to weigh on certain tech shares. Not financial advice.",
           "tags": [
-            "Market Summary",
-            "Tech Sell-off",
+            "Market Close",
             "Sector Rotation",
-            "Economic News"
+            "AI Concerns"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Today's Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-today",
-          "statLabel": "S&P 500",
-          "statValue": "Down 0.1%",
-          "statContext": "Slightly lower amidst mixed market sentiment."
+          "id": "sp500-stat",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "7,744.06",
+          "statContext": "+25.12 (+0.3%)",
+          "ticker": "$SPX",
+          "price": "7,744.06",
+          "change": "+25.12",
+          "changePercent": "+0.3%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-today",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "Down 0.6%",
-          "statContext": "Led declines, impacted by weakness in major technology and chip companies."
+          "id": "nasdaq-stat",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "26,713.03",
+          "statContext": "+20.16 (+0.1%)",
+          "ticker": "$IXIC",
+          "price": "26,713.03",
+          "change": "+20.16",
+          "changePercent": "+0.1%",
+          "direction": "up"
         },
         {
-          "id": "dow-today",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "Up 0.8%",
-          "statContext": "Rose 387 points, driven by gains in defensive and industrial stocks."
+          "id": "dow-stat",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "52,177.69",
+          "statContext": "+556.21 (+1.1%)",
+          "ticker": "$DJI",
+          "price": "52,177.69",
+          "change": "+556.21",
+          "changePercent": "+1.1%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Today's Session)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "SITC-gainer",
-          "headline": "SITE Centers Surges on Delisting Plans",
-          "ticker": "$SITC",
+          "id": "hd-gainer",
+          "headline": "Home Depot Shares Surge",
+          "summary": "Home Depot ($HD) surged 3.39% today, contributing to the Dow's strong performance as investors favored established blue-chip companies.",
+          "ticker": "$HD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+18.00%",
-          "direction": "up",
-          "summary": "Shares of SITE Centers surged after the retail real estate investment trust announced plans to voluntarily delist its common shares from the New York Stock Exchange following a special distribution."
+          "changePercent": "+3.39%",
+          "direction": "up"
         },
         {
-          "id": "SMTC-gainer",
-          "headline": "Semtech Rises on Upbeat Guidance",
-          "ticker": "$SMTC",
+          "id": "cvx-gainer",
+          "headline": "Chevron Climbs",
+          "summary": "Chevron ($CVX) climbed 3.12% as energy stocks showed strength, potentially benefiting from rising oil prices and a rotation into defensive sectors.",
+          "ticker": "$CVX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.36%",
-          "direction": "up",
-          "summary": "Semiconductor company Semtech advanced after raising its fiscal third-quarter 2027 revenue and earnings guidance."
+          "changePercent": "+3.12%",
+          "direction": "up"
         },
         {
-          "id": "HONA-gainer",
-          "headline": "Honeywell Aerospace Gains on Q3 Disclosures",
-          "ticker": "$HONA",
-          "price": "N/A",
+          "id": "intc-loser",
+          "headline": "Intel Dips Amid AI Rotation",
+          "summary": "Intel ($INTC) saw a 3% decline in morning trading, as investors continued to rotate out of AI chip stocks due to concerns over financing massive AI infrastructure.",
+          "ticker": "$INTC",
+          "price": "$92.60",
           "change": "N/A",
-          "changePercent": "+4.00%",
-          "direction": "up",
-          "summary": "Honeywell Aerospace gained amid reports of new third-quarter portfolio disclosures, technical indicators, and a potential short squeeze."
+          "changePercent": "-3.00%",
+          "direction": "down"
         },
         {
-          "id": "OMER-loser",
-          "headline": "Omeros Plummets on EMA Withdrawal",
-          "ticker": "$OMER",
-          "price": "N/A",
+          "id": "amd-loser",
+          "headline": "AMD Falls on AI Debt Fears",
+          "summary": "Advanced Micro Devices ($AMD) also fell 3% in morning trading, reflecting broader selling pressure on semiconductor companies amid intensifying questions about AI development costs.",
+          "ticker": "$AMD",
+          "price": "$544.74",
           "change": "N/A",
-          "changePercent": "-12.00%",
-          "direction": "down",
-          "summary": "Omeros shares plummeted after the European Medicines Agency's Committee for Medicinal Products for Human Use withdrew its application for a drug."
-        },
-        {
-          "id": "MRNA-loser",
-          "headline": "Moderna Tumbles Ahead of Vaccine Data",
-          "ticker": "$MRNA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-10.00%",
-          "direction": "down",
-          "summary": "Moderna tumbled as investors trimmed exposure ahead of a major Phase 3 data presentation for its mRNA cancer vaccine."
-        },
-        {
-          "id": "TWLO-loser",
-          "headline": "Twilio Falls on Profit-Taking and Valuation Concerns",
-          "ticker": "$TWLO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.00%",
-          "direction": "down",
-          "summary": "Cloud communications company Twilio tumbled due to profit-taking following its recent S&P 500 inclusion and valuation concerns ahead of its earnings report."
-        },
-        {
-          "id": "CRWV-loser",
-          "headline": "CoreWeave Drops on Debt and AI Infrastructure Costs",
-          "ticker": "$CRWV",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.65%",
-          "direction": "down",
-          "summary": "CoreWeave dropped amid investor concerns about the cloud-computing company's heavy debt burden and the rising cost of AI infrastructure."
-        },
-        {
-          "id": "COHR-loser",
-          "headline": "Coherent Declines Amid Sector Rotation",
-          "ticker": "$COHR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-5.59%",
-          "direction": "down",
-          "summary": "Coherent fell amid a broader sector rotation and profit-taking in optical networking and AI infrastructure stocks."
-        },
-        {
-          "id": "NFLX-loser",
-          "headline": "Netflix Slips on Content Officer Appointment and Layoffs",
-          "ticker": "$NFLX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-3.51%",
-          "direction": "down",
-          "summary": "Streaming giant Netflix fell after naming Peter Rice chief content officer, following its largest round of layoffs in four years."
+          "changePercent": "-3.00%",
+          "direction": "down"
         }
       ]
     },
@@ -157,43 +124,33 @@
       "items": [
         {
           "id": "sector-rotation-news",
-          "headline": "Sector Rotation Shifts Capital to Defensives",
-          "summary": "Today saw a notable rotation out of semiconductor and AI-linked shares into more defensive sectors, including healthcare, consumer staples, and financials. Investors also shifted capital from technology to energy and industrials, with the energy sector gaining 2.8% due to rallying oil prices, and industrials rising 1.5%.",
+          "headline": "Defensive Sectors Lead Gains as Tech Underperforms",
+          "summary": "Healthcare, Materials, and Financials were among the leading sectors, advancing 1.8%, 1.7%, and 1.4% respectively, as a clear rotation from debt-sensitive AI and technology stocks into more stable industries took hold. The Energy sector, however, saw a 1.6% decline on Thursday.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Financials",
-            "Industrials"
+            "Technology",
+            "Healthcare",
+            "Financials"
           ]
         },
         {
           "id": "economic-data-news",
-          "headline": "Jobless Claims Indicate Labor Market Stability",
-          "summary": "Initial jobless claims for the week ending October 10th rose by 1,000, while continuing claims saw a decrease of 4,000, signaling relative stability in the labor market. Despite this, inflation concerns persist, with headline Consumer Price Index (CPI) remaining elevated at 3.738% year-over-year.",
+          "headline": "Key Economic Data Releases Point to Inflationary Pressures",
+          "summary": "The Producer Price Index (PPI) for September increased 1.3%, with core PPI rising 0.3%. U.S. import prices also climbed 1.1% in September, while export prices rose 2.2%, signaling persistent inflationary trends. Initial jobless claims for the week ended October 10 increased slightly to 199,000.",
           "tags": [
             "Economic Data",
-            "Jobs Report",
-            "Inflation"
+            "Inflation",
+            "Jobless Claims"
           ]
         },
         {
-          "id": "fed-ai-comments",
-          "headline": "Fed Chair Touts AI's Economic Benefits",
-          "summary": "Federal Reserve Chairman Kevin Warsh spoke at the IMF and World Bank gathering in Bangkok, emphasizing the potentially transformative and positive impact of artificial intelligence on the global economy. His remarks come amidst ongoing market debate about the sustainability of AI investments.",
+          "id": "earnings-season-begins",
+          "headline": "Q3 Earnings Season Kicks Off with Mixed Results",
+          "summary": "The Q3 earnings season is underway, with several financial institutions reporting. Regional banks like Regions Financial ($RF), Citizens Financial Group ($CFG), and M&T Bank ($MTB) all beat earnings estimates, though Travelers Companies ($TRV) saw its shares dip 3% despite earlier year-to-date gains. So far, 84.4% of S&P 500 companies reporting have exceeded analyst expectations.",
           "tags": [
-            "Federal Reserve",
-            "AI",
-            "Macroeconomics"
-          ]
-        },
-        {
-          "id": "q3-earnings-outlook",
-          "headline": "Q3 Earnings Season Kicks Off with Strong Beat Rate",
-          "summary": "The third-quarter earnings season is underway, with 45 S&P 500 companies reporting so far. A strong 84.4% of these companies have exceeded analyst expectations, significantly higher than the long-term average. Overall, Q3 year-over-year earnings are expected to increase by 30.7%. IBM notably jumped 4.2% after beating its Q3 revenue estimates, while Travelers Companies ($TRV) fell despite beating earnings due to higher catastrophe losses.",
-          "tags": [
-            "Earnings Season",
-            "S&P 500",
-            "Corporate Reports"
+            "Earnings Reports",
+            "Q3 Earnings",
+            "Corporate News"
           ]
         }
       ]
