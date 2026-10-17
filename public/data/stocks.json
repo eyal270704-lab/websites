@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-17T14:38:00Z",
+  "generatedAt": "2026-10-17T18:16:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "October 17, 2026 - Weekend Session",
-  "badge": "Market Closed",
+  "title": "Daily Market Digest - October 17, 2026",
+  "subtitle": "Review of Friday, October 16, 2026, Trading Session",
+  "badge": "Markets Closed Today",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,65 +13,160 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-status",
-          "headline": "U.S. Stock Markets Closed for Weekend",
-          "summary": "As of Saturday, October 17, 2026, U.S. equity markets are closed for the weekend. Trading will resume on Monday, October 19, 2026. Given the current date, specific real-time performance data for the last trading session (Friday, October 16, 2026) is unavailable as that date is in the future.",
+          "id": "mp-1",
+          "headline": "Tech Sell-off Drags Major Indices Lower, Nasdaq Posts Worst Week Since June",
+          "summary": "U.S. equities closed lower on Friday, October 16, 2026, as a broad sell-off in big technology and semiconductor companies weighed heavily on the market, capping the worst week for the Nasdaq Composite and S&P 500 since June. Investor concerns deepened over the sustainability of the AI buildout amid rising borrowing costs and mounting debt, leading to a notable sector rotation. The Dow Jones Industrial Average, however, outperformed, suggesting a shift in investor focus away from highly valued tech. Meanwhile, escalating geopolitical tensions pushed crude oil prices higher, adding to inflation concerns. Not financial advice.",
           "tags": [
-            "Market Closed",
-            "Weekend"
+            "Market Summary",
+            "Tech Sell-off",
+            "AI Concerns",
+            "Sector Rotation",
+            "Inflation"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Close: Oct 16, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-unavailable",
+          "id": "sp500-stat",
           "statLabel": "S&P 500",
-          "statValue": "N/A",
-          "statContext": "Data for October 16, 2026, is unavailable."
+          "statValue": "7,659.44",
+          "statContext": "Down 1.1% (-84.62 pts) for the day, closing its worst week since June with a 1.9% decline."
         },
         {
-          "id": "nasdaq-unavailable",
+          "id": "nasdaq-stat",
           "statLabel": "NASDAQ Composite",
-          "statValue": "N/A",
-          "statContext": "Data for October 16, 2026, is unavailable."
+          "statValue": "26,140.03",
+          "statContext": "Fell 2.1% (-572.99 pts) for the day, marking its worst weekly performance since June with a 4.5% drop."
         },
         {
-          "id": "dow-unavailable",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "N/A",
-          "statContext": "Data for October 16, 2026, is unavailable."
+          "id": "dow-stat",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "52,002.41",
+          "statContext": "Slightly down 0.3% (-175.28 pts) for the day, but finished the week up 0.7%."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Close: Oct 16, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "movers-unavailable",
-          "headline": "Top Gainers and Losers Unavailable",
-          "summary": "Specific information regarding the biggest stock gainers and losers from the last trading session on Friday, October 16, 2026, cannot be provided as this date is in the future from a real-time data perspective."
+          "id": "mu-loser",
+          "headline": "Micron Technology",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.6%",
+          "direction": "down",
+          "summary": "Chip company Micron Technology continued to pull back amid deepening worries about the AI buildout and Chinese semiconductor competition."
+        },
+        {
+          "id": "intc-loser",
+          "headline": "Intel Corp.",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.8%",
+          "direction": "down",
+          "summary": "Intel shares declined as the broader chip sector faced pressure and investor concerns grew over the long-term prospects of the AI frenzy."
+        },
+        {
+          "id": "crwv-loser",
+          "headline": "CoreWeave",
+          "ticker": "$CRWV",
+          "price": "$61.39",
+          "change": "N/A",
+          "changePercent": "-11.91%",
+          "direction": "down",
+          "summary": "The neocloud company extended its decline due to severe debt distress signals, with bond yields surging to levels indicating a higher default risk."
+        },
+        {
+          "id": "xom-gainer",
+          "headline": "Exxon Mobil",
+          "ticker": "$XOM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.2%",
+          "direction": "up",
+          "summary": "Energy stocks bucked the broader market downtrend, with Exxon rising as crude oil prices climbed amid escalating geopolitical tensions."
+        },
+        {
+          "id": "cvx-gainer",
+          "headline": "Chevron Corp.",
+          "ticker": "$CVX",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+2.4%",
+          "direction": "up",
+          "summary": "Chevron advanced as oil prices remained elevated, benefiting the energy sector amidst global supply pressures."
+        },
+        {
+          "id": "crsp-gainer",
+          "headline": "CRISPR Therapeutics",
+          "ticker": "$CRSP",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+12%",
+          "direction": "up",
+          "summary": "The biotech firm surged following FDA fast-track designation for its sickle-cell therapy."
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News",
+      "title": "Market News (Oct 16, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "news-unavailable",
-          "headline": "No Economic or Sector News to Report for Last Session",
-          "summary": "As stock markets are closed for the weekend and data for Friday, October 16, 2026, is not yet available, there are no verifiable economic data releases, major earnings reports, or notable sector rotations to report at this time. Not financial advice."
+          "id": "mn-1",
+          "headline": "Tech Sector Leads Market Downturn Amid AI Debt Concerns",
+          "summary": "A broad sell-off in technology companies, particularly chipmakers, pulled Wall Street lower. Concerns over higher interest rates and mounting debt-funded AI infrastructure expansion weighed heavily on investor sentiment. The Nasdaq, heavily weighted with tech stocks, saw its worst week since June.",
+          "tags": [
+            "Technology",
+            "AI",
+            "Interest Rates",
+            "Debt"
+          ]
+        },
+        {
+          "id": "mn-2",
+          "headline": "Inflation Surpasses Expectations, Fiscal Deficit Widens",
+          "summary": "September's Consumer Price Index (CPI) rose to 3.7% annually, exceeding expectations, with gasoline prices being a significant contributor. The U.S. fiscal deficit for fiscal year 2026 widened to $1.99 trillion, the highest since 2021, driven by record spending and rising debt servicing costs.",
+          "tags": [
+            "Inflation",
+            "CPI",
+            "Fiscal Deficit",
+            "Treasury"
+          ]
+        },
+        {
+          "id": "mn-3",
+          "headline": "Energy Sector Outperforms as Oil Prices Surge",
+          "summary": "The energy sector bucked the market's negative trend, with crude oil prices (Brent crude) approaching $110 per barrel. This surge was attributed to escalating attacks in the Strait of Hormuz, adding another layer of inflation concerns.",
+          "tags": [
+            "Energy",
+            "Oil Prices",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "mn-4",
+          "headline": "Mixed Q3 Earnings Reports for Major Financials and Tech",
+          "summary": "Key companies reported Q3 2026 earnings. Travelers ($TRV), Truist Financial ($TFC), M&T Bank ($MTB), Citizens Financial Group ($CFG), and Regions Financial ($RF) beat EPS estimates. However, JPMorgan Chase ($JPM) missed, and tech giants like ASML ($ASML) and Taiwan Semiconductor ($TSM) saw declines despite strong AI demand, as revenue misses and weaker margins overshadowed results.",
+          "tags": [
+            "Earnings",
+            "Financials",
+            "Technology"
+          ]
         }
       ]
     }
