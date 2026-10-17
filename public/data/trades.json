@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T10:26:47.190870Z",
+  "generatedAt": "2026-10-17T16:57:31.668865Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$MU",
+      "name": "Micron Technology Inc.",
+      "sector": "Technology",
+      "currentPrice": "$878.84",
+      "entry": "$720.00",
+      "stop": "$700.00",
+      "structure": "Bearish Trend",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Micron is currently in a strong bearish trend, trading significantly below its 50-day moving average. While it remains above its 200-day moving average, conflicting technical indicators and recent sharp declines suggest extreme caution. The stock is best avoided until a clear reversal or consolidation pattern emerges.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Bearish Trend",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$DDOG",
+      "name": "Datadog, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$247.11",
+      "entry": "$247.00",
+      "stop": "$235.00",
+      "structure": "50MA Support Test",
+      "trend": "1.41x",
+      "trendLabel": "RVOL",
+      "analysis": "Datadog is currently testing its 50-day simple moving average, which is acting as a key support level within its established long-term uptrend above the 200-day MA. Elevated relative volume suggests investor interest. A bounce from this support could confirm continued upward momentum.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "sector": "Communication Services",
+      "currentPrice": "$340.59",
+      "entry": "$341.00",
+      "stop": "$337.00",
+      "structure": "200MA Test",
+      "trend": "1.23x",
+      "trendLabel": "RVOL",
+      "analysis": "Alphabet Class A is at a critical juncture, trading just below its 200-day simple moving average. While it remains below its 50-day MA, a reclaim of this long-term support, coupled with elevated relative volume, could signal a potential short-term reversal or consolidation. The overall technical picture is mixed, warranting caution.",
+      "riskScore": 6,
+      "footerTag": "Support Test",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
