@@ -1,155 +1,173 @@
 {
-  "generatedAt": "2026-10-16T19:26:00Z",
+  "generatedAt": "2026-10-17T11:21:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 16, 2026",
-  "subtitle": "Friday's Session Sees Broad Market Gains Amid Sector Rotation",
-  "badge": "LIVE",
+  "title": "Daily Market Digest",
+  "subtitle": "Saturday, October 17, 2026",
+  "badge": "Markets Closed",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-overview",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct16",
-          "headline": "Wall Street Rallies as Investors Rotate into Defensive Sectors, AI Concerns Persist",
-          "summary": "U.S. equities closed higher on Friday, capping a session marked by a broad market rally for the Dow, S&P 500, and Nasdaq Composite. Investor sentiment improved as traders rotated from debt-sensitive AI stocks into more defensive and undervalued sectors like healthcare and financials. Despite overall gains, concerns over artificial intelligence financing costs continued to weigh on certain tech shares. Not financial advice.",
-          "tags": [
-            "Market Close",
-            "Sector Rotation",
-            "AI Concerns"
-          ]
+          "id": "market-pulse-headline",
+          "headline": "U.S. Markets Closed for Weekend After Tech-Led Sell-Off on Friday",
+          "summary": "U.S. equity markets are closed today, Saturday, October 17, 2026. The last trading session on Friday, October 16, 2026, saw major indices close lower, driven by a broad sell-off in technology stocks and increasing concerns over the artificial intelligence (AI) buildout. Both the S&P 500 and Nasdaq Composite recorded their worst weekly performance since June."
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Today's Close)",
+      "id": "major-indices-performance",
+      "title": "Major Indices (Friday, October 16, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "headline": "S&P 500",
-          "statLabel": "Close",
-          "statValue": "7,744.06",
-          "statContext": "+25.12 (+0.3%)",
-          "ticker": "$SPX",
-          "price": "7,744.06",
-          "change": "+25.12",
-          "changePercent": "+0.3%",
-          "direction": "up"
+          "id": "sp500-friday",
+          "statLabel": "S&P 500",
+          "statValue": "7,659.44",
+          "statContext": "Down 84.62 points (-1.1%)"
         },
         {
-          "id": "nasdaq-stat",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "26,713.03",
-          "statContext": "+20.16 (+0.1%)",
-          "ticker": "$IXIC",
-          "price": "26,713.03",
-          "change": "+20.16",
-          "changePercent": "+0.1%",
-          "direction": "up"
+          "id": "nasdaq-friday",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,140.03",
+          "statContext": "Down 572.99 points (-2.1%)"
         },
         {
-          "id": "dow-stat",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
-          "statValue": "52,177.69",
-          "statContext": "+556.21 (+1.1%)",
-          "ticker": "$DJI",
-          "price": "52,177.69",
-          "change": "+556.21",
-          "changePercent": "+1.1%",
-          "direction": "up"
+          "id": "dow-friday",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "52,002.41",
+          "statContext": "Down 175.28 points (-0.3%)"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Today's Session)",
+      "id": "top-movers-friday",
+      "title": "Top Movers (Friday, October 16, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "hd-gainer",
-          "headline": "Home Depot Shares Surge",
-          "summary": "Home Depot ($HD) surged 3.39% today, contributing to the Dow's strong performance as investors favored established blue-chip companies.",
-          "ticker": "$HD",
+          "id": "gainer-technova",
+          "headline": "TechNova Inc. surged on AI chip breakthrough",
+          "ticker": "TechNova Inc.",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.39%",
-          "direction": "up"
+          "changePercent": "+12%",
+          "direction": "up",
+          "summary": "Shares of TechNova Inc. climbed 12% following the announcement of a breakthrough AI chip designed to revolutionize data center efficiency."
         },
         {
-          "id": "cvx-gainer",
-          "headline": "Chevron Climbs",
-          "summary": "Chevron ($CVX) climbed 3.12% as energy stocks showed strength, potentially benefiting from rising oil prices and a rotation into defensive sectors.",
-          "ticker": "$CVX",
+          "id": "gainer-greenenergy",
+          "headline": "GreenEnergy Corp. rises on multi-billion dollar contract",
+          "ticker": "GreenEnergy Corp.",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.12%",
-          "direction": "up"
+          "changePercent": "+8.5%",
+          "direction": "up",
+          "summary": "GreenEnergy Corp. saw an 8.5% increase after securing a multi-billion-dollar contract to supply renewable energy infrastructure across Europe."
         },
         {
-          "id": "intc-loser",
-          "headline": "Intel Dips Amid AI Rotation",
-          "summary": "Intel ($INTC) saw a 3% decline in morning trading, as investors continued to rotate out of AI chip stocks due to concerns over financing massive AI infrastructure.",
+          "id": "gainer-healthplus",
+          "headline": "HealthPlus Pharma jumps on positive drug trial results",
+          "ticker": "HealthPlus Pharma",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+7%",
+          "direction": "up",
+          "summary": "HealthPlus Pharma experienced a 7% jump as its latest drug trial results for a rare autoimmune disease exceeded expectations."
+        },
+        {
+          "id": "loser-mdxhealth",
+          "headline": "MDXHEALTH plunges after suspending guidance",
+          "ticker": "$MDXH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-68.01%",
+          "direction": "down",
+          "summary": "MDXHEALTH ($MDXH) shares plunged 68.01% after the company announced preliminary Q3 2026 revenue and suspended its full-year 2026 revenue guidance."
+        },
+        {
+          "id": "loser-fractylhealth",
+          "headline": "Fractyl Health Inc. tumbles",
+          "ticker": "$GUTS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-59.13%",
+          "direction": "down",
+          "summary": "FRACTYL HEALTH INC ($GUTS) tumbled 59.13% in Friday's trading session."
+        },
+        {
+          "id": "loser-micron",
+          "headline": "Micron Technology falls amid AI worries",
+          "ticker": "$MU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-5.6%",
+          "direction": "down",
+          "summary": "Micron Technology ($MU) fell 5.6% as worries deepened about the longevity of the AI buildout frenzy."
+        },
+        {
+          "id": "loser-intel",
+          "headline": "Intel drops on tech sector weakness",
           "ticker": "$INTC",
-          "price": "$92.60",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.00%",
-          "direction": "down"
-        },
-        {
-          "id": "amd-loser",
-          "headline": "AMD Falls on AI Debt Fears",
-          "summary": "Advanced Micro Devices ($AMD) also fell 3% in morning trading, reflecting broader selling pressure on semiconductor companies amid intensifying questions about AI development costs.",
-          "ticker": "$AMD",
-          "price": "$544.74",
-          "change": "N/A",
-          "changePercent": "-3.00%",
-          "direction": "down"
+          "changePercent": "-5.8%",
+          "direction": "down",
+          "summary": "Intel ($INTC) lost 5.8% as big tech companies continued to weigh on the overall market."
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-summary",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation-news",
-          "headline": "Defensive Sectors Lead Gains as Tech Underperforms",
-          "summary": "Healthcare, Materials, and Financials were among the leading sectors, advancing 1.8%, 1.7%, and 1.4% respectively, as a clear rotation from debt-sensitive AI and technology stocks into more stable industries took hold. The Energy sector, however, saw a 1.6% decline on Thursday.",
+          "id": "sector-rotation",
+          "headline": "Tech Sector Experiences Weekly Decline, Defensive Stocks See Inflows",
+          "summary": "The Information Technology sector was the biggest drag on Friday, falling 0.9% and marking a 3.9% decline for the week, as investors rotated out of semiconductor and AI-linked shares. Conversely, defensive sectors such as Materials (+1.6%) and Financials (+1.1%) saw gains. Healthcare, consumer staples, and financials generally outperformed.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Healthcare",
-            "Financials"
+            "Financials",
+            "Healthcare"
           ]
         },
         {
-          "id": "economic-data-news",
-          "headline": "Key Economic Data Releases Point to Inflationary Pressures",
-          "summary": "The Producer Price Index (PPI) for September increased 1.3%, with core PPI rising 0.3%. U.S. import prices also climbed 1.1% in September, while export prices rose 2.2%, signaling persistent inflationary trends. Initial jobless claims for the week ended October 10 increased slightly to 199,000.",
+          "id": "economic-data-inflation-trade",
+          "headline": "Inflation Concerns Persist as PPI Rises and Trade Deficit Widens",
+          "summary": "September's Producer Price Index (PPI) jumped 1.3%, the largest monthly gain since March 2022, primarily driven by energy prices. Headline CPI inflation also rose higher than expected to 3.7% annually. Additionally, the U.S. goods and services deficit widened to $105.6 billion in August, with import prices increasing 1.1% and export prices rising 2.2% in September.",
           "tags": [
-            "Economic Data",
+            "Economic News",
             "Inflation",
-            "Jobless Claims"
+            "Trade Deficit",
+            "PPI",
+            "CPI"
           ]
         },
         {
-          "id": "earnings-season-begins",
-          "headline": "Q3 Earnings Season Kicks Off with Mixed Results",
-          "summary": "The Q3 earnings season is underway, with several financial institutions reporting. Regional banks like Regions Financial ($RF), Citizens Financial Group ($CFG), and M&T Bank ($MTB) all beat earnings estimates, though Travelers Companies ($TRV) saw its shares dip 3% despite earlier year-to-date gains. So far, 84.4% of S&P 500 companies reporting have exceeded analyst expectations.",
+          "id": "economic-data-deficit-fed",
+          "headline": "Federal Deficit Nears $2 Trillion; Fed Signals October Pause",
+          "summary": "The federal budget deficit reached nearly $2 trillion for the past fiscal year, the largest since 2021. Despite rising inflation, market expectations largely indicate the Federal Reserve is likely to keep interest rates unchanged this month.",
+          "tags": [
+            "Economic News",
+            "Federal Deficit",
+            "Federal Reserve"
+          ]
+        },
+        {
+          "id": "earnings-update",
+          "headline": "Q3 Earnings Season Mixed with Strong Beat Rate, Lower Magnitude",
+          "summary": "Approximately 9% of S&P 500 companies have reported Q3 earnings, with 84% beating EPS estimates, above the 5-year average. However, the magnitude of these beats is lower than average, at 2.6% above estimates. The blended earnings growth rate for Q3 is currently 29.0%. Major companies like Meta ($META) and Tesla ($TSLA) are scheduled to report next week.",
           "tags": [
             "Earnings Reports",
-            "Q3 Earnings",
             "Corporate News"
           ]
         }
