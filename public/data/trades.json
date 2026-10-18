@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-17T23:55:12.670268Z",
+  "generatedAt": "2026-10-18T10:46:51.893103Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 12,
+  "tradeCount": 15,
   "trades": [
     {
       "ticker": "$APP",
@@ -192,6 +192,54 @@
       "analysis": "QUBT is trading at its 52-week lows and significantly below its key moving averages, indicating a strong bearish trend. While it is testing a key support level with elevated relative volume, the overall momentum is strongly bearish, making this a highly speculative setup with significant downside risk.",
       "riskScore": 9,
       "footerTag": "High Risk - Support Test",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "currentPrice": "$214.13",
+      "entry": "$213.15",
+      "stop": "$203.82",
+      "structure": "0.618 Fib Retest",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "NVIDIA is showing strong momentum, trading above its 200-day simple moving average and just above the 0.618 Fibonacci retracement level of its 52-week range. Relative volume is elevated, indicating strong interest. A retest of the 0.618 Fib level presents a potential entry with a stop below the 0.5 Fib.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "currentPrice": "$343.46",
+      "entry": "$325.00",
+      "stop": "$315.00",
+      "structure": "Support Test",
+      "trend": "Uptrend",
+      "trendLabel": "Trend",
+      "analysis": "Apple is in a strong uptrend, trading near its 52-week highs, well above its 50-day EMA. While relative volume is currently low, suggesting caution, a pullback to key support levels around $325 could offer a buying opportunity for accumulation.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "currentPrice": "$354.72",
+      "entry": "$350.00",
+      "stop": "$340.00",
+      "structure": "Support Test",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Tesla is currently trading below its 200-day simple moving average and major Fibonacci resistance levels. With earnings confirmed for October 21, 2026, within the next five days, the stock faces significant short-term risk. Despite elevated relative volume, the setup is considered high risk and to be avoided.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
       "setupType": "avoid",
       "source": "Micha Stocks YouTube"
     }
