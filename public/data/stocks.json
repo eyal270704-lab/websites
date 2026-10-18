@@ -1,221 +1,189 @@
 {
-  "generatedAt": "2026-10-18T11:56:00Z",
+  "generatedAt": "2026-10-18T15:04:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Friday, October 16, 2026 - End of Day",
-  "badge": "Closed",
+  "subtitle": "October 18, 2026: Markets Closed (Summary of October 17, 2026)",
+  "badge": "Weekend Edition",
   "sections": [
     {
-      "id": "market-pulse",
-      "title": "Market Pulse",
+      "id": "market-pulse-oct-17",
+      "title": "Market Pulse: AI Selloff Drags Down Tech on Friday",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct16",
-          "headline": "Tech Sell-Off Drags Down Major Indices, Energy Sector Bucks Trend",
-          "summary": "U.S. equities closed lower on Friday, October 16, as a significant sell-off in technology stocks, particularly those related to AI, weighed heavily on the market. Both the S&P 500 and Nasdaq Composite recorded their worst weekly performance since June amidst deepening concerns about the sustainability of the AI buildout. In contrast, the energy sector demonstrated resilience, moving higher driven by rising oil prices.",
+          "id": "market-summary-oct-17",
+          "headline": "U.S. Markets Conclude Week with Significant Declines for Tech, Amid AI Financing Concerns and Rising Oil Prices",
+          "summary": "U.S. stock markets experienced notable declines on Friday, October 17, primarily driven by concerns over artificial intelligence financing, high borrowing costs, and rising oil prices. The tech-heavy Nasdaq Composite bore the brunt of the selloff, recording its worst weekly performance since June. A clear rotation from growth and AI-related stocks into more defensive and value-oriented sectors was observed.",
           "tags": [
-            "Market Overview",
-            "Tech",
-            "Energy",
-            "AI"
+            "Market Sentiment",
+            "AI Concerns",
+            "Inflation"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices (Last Close: Oct 16, 2026)",
+      "id": "major-indices-oct-17",
+      "title": "Major Indices Performance (October 17, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-oct-17",
           "statLabel": "S&P 500",
           "statValue": "7,659.44",
-          "statContext": "Down 84.62 points (-1.1%)",
-          "direction": "down"
+          "statContext": "Down 1.1% on Friday; Down 1.9% for the week."
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-oct-17",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,140.03",
-          "statContext": "Down 572.99 points (-2.1%)",
-          "direction": "down"
+          "statContext": "Down 2.1% on Friday; Down 4.5% for the week."
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-oct-17",
+          "statLabel": "DOW Jones Industrial Average",
           "statValue": "52,002.41",
-          "statContext": "Down 175.28 points (-0.3%)",
-          "direction": "down"
+          "statContext": "Down 0.3% on Friday; Up 0.7% for the week."
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers (Last Close: Oct 16, 2026)",
+      "id": "top-movers-oct-17",
+      "title": "Top Movers (October 17, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "trgp-gainer",
-          "headline": "Targa Resources surges on rising oil prices",
-          "ticker": "$TRGP",
+          "id": "gainer-crsp",
+          "headline": "CRISPR Therapeutics Surges on FDA Fast-Track",
+          "ticker": "$CRSP",
           "price": "N/A",
-          "change": "+4.39%",
-          "changePercent": "+4.39%",
+          "change": "N/A",
+          "changePercent": "+18.00%",
           "direction": "up",
-          "summary": "Targa Resources led gainers as oil prices continued to climb amid escalating U.S.-Iran tensions and reduced traffic through the Strait of Hormuz."
+          "summary": "CRISPR Therapeutics ($CRSP) saw its shares surge following an FDA fast-track designation."
         },
         {
-          "id": "fang-gainer",
-          "headline": "Diamondback Energy boosted by geopolitical tensions and analyst upgrades",
-          "ticker": "$FANG",
+          "id": "gainer-nvts",
+          "headline": "Navitas Semiconductor Gains on Auto Deal",
+          "ticker": "$NVTS",
           "price": "N/A",
-          "change": "+4.29%",
-          "changePercent": "+4.29%",
+          "change": "N/A",
+          "changePercent": "+12.00%",
           "direction": "up",
-          "summary": "Diamondback Energy gained significantly, benefiting from higher crude prices and receiving a price target increase from Morgan Stanley and a 'top pick' designation from Scotiabank."
+          "summary": "Navitas Semiconductor ($NVTS) rose after securing a supply deal with a major automaker."
         },
         {
-          "id": "eog-gainer",
-          "headline": "EOG Resources climbs with surging crude",
-          "ticker": "$EOG",
+          "id": "gainer-crgy",
+          "headline": "Crescent Energy Up Amid Market Turmoil",
+          "ticker": "$CRGY",
           "price": "N/A",
-          "change": "+4.23%",
-          "changePercent": "+4.23%",
+          "change": "N/A",
+          "changePercent": "+10.10%",
           "direction": "up",
-          "summary": "EOG Resources saw strong gains, primarily driven by the ongoing increase in oil prices fueled by geopolitical tensions."
+          "summary": "Crescent Energy ($CRGY) posted a strong gain."
         },
         {
-          "id": "mdxh-loser",
-          "headline": "MDxHealth plunges on preliminary revenue and suspended guidance",
-          "ticker": "$MDXH",
-          "price": "$0.24",
-          "change": "N/A",
-          "changePercent": "-60.55%",
-          "direction": "down",
-          "summary": "MDxHealth experienced a sharp decline after announcing preliminary third-quarter 2026 revenue figures and suspending its full-year 2026 revenue guidance."
-        },
-        {
-          "id": "guts-loser",
-          "headline": "Fractyl Health drops amid revenue concerns and class action alert",
-          "ticker": "$GUTS",
-          "price": "$1.93",
-          "change": "N/A",
-          "changePercent": "-53.61%",
-          "direction": "down",
-          "summary": "Fractyl Health Inc. shares fell sharply following preliminary Q3 2026 revenue announcements, suspended full-year guidance, and news of a securities class action alert."
-        },
-        {
-          "id": "smx-loser",
-          "headline": "SMX Security Matters continues steep decline",
-          "ticker": "$SMX",
-          "price": "$1.87",
-          "change": "N/A",
-          "changePercent": "-48.06%",
-          "direction": "down",
-          "summary": "SMX Security Matters PLC extended its significant monthly decline on Friday."
-        },
-        {
-          "id": "crwv-loser",
-          "headline": "CoreWeave sinks on AI debt concerns",
-          "ticker": "$CRWV",
-          "price": "$61.39",
-          "change": "N/A",
-          "changePercent": "-11.91%",
-          "direction": "down",
-          "summary": "CoreWeave faced severe distress signals as its bonds traded at distressed levels due to mounting concerns over its debt-funded AI infrastructure expansion."
-        },
-        {
-          "id": "mu-loser",
-          "headline": "Micron Technology falls as AI frenzy worries deepen",
-          "ticker": "$MU",
+          "id": "loser-rxrx",
+          "headline": "Recursion Pharmaceuticals Falls Sharply",
+          "ticker": "$RXRX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.6%",
+          "changePercent": "-16.70%",
           "direction": "down",
-          "summary": "Micron Technology shares dropped amid increasing worries about the longevity of the AI buildout frenzy and concerns over Chinese semiconductor competition."
+          "summary": "Recursion Pharmaceuticals ($RXRX) was among the biggest decliners of the day."
         },
         {
-          "id": "intc-loser",
-          "headline": "Intel hit by ongoing tech sector weakness",
-          "ticker": "$INTC",
+          "id": "loser-envx",
+          "headline": "Enovix Leads Losses on Patent Litigation Fears",
+          "ticker": "$ENVX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.8%",
+          "changePercent": "-15.00%",
           "direction": "down",
-          "summary": "Intel experienced a decline, reflecting broader weakness in the technology sector driven by concerns surrounding the AI market and semiconductor competition."
+          "summary": "Enovix ($ENVX) experienced a significant drop following the emergence of patent litigation risks."
         },
         {
-          "id": "open-loser",
-          "headline": "Opendoor Technologies slides on higher debt costs and housing market jitters",
-          "ticker": "$OPEN",
-          "price": "$2.12",
+          "id": "loser-eose",
+          "headline": "Eos Energy Enterprises Continues Decline",
+          "ticker": "$EOSE",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.84%",
+          "changePercent": "-15.70%",
           "direction": "down",
-          "summary": "Opendoor Technologies fell to fresh 52-week lows, pressured by higher debt costs and a sluggish housing market, with investors awaiting early November earnings for clarity."
+          "summary": "Eos Energy Enterprises ($EOSE) continued its downward trend, making both the daily and monthly losers lists."
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "market-news-oct-17",
+      "title": "Market News & Analysis (October 17, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Technology and Communication Services Lag While Energy and Defensives Lead",
-          "summary": "On Friday, Information Technology (-3.02%) and Communication Services (-1.89%) were the worst-performing sectors. The PHLX Semiconductor Index fell 3.83%, extending its losing streak. Conversely, Energy (+2.52%) led all sectors, supported by rising oil prices. Consumer Staples (+1.08%) and Utilities (+1.34%) also saw gains, indicating a rotation into defensive sectors.",
+          "id": "sector-tech-underpressure",
+          "headline": "Technology and Semiconductor Sectors Face Significant Pressure",
+          "summary": "The technology sector, particularly semiconductors, endured heavy losses on Friday. Chipmakers like $AMD (-6%), $INTC (-5.8%), $MU (-5.6%), and $AVGO (-4.5%) were hit hard, contributing to the Nasdaq's sharp decline. Concerns over AI financing and potential overvaluation of AI-related infrastructure investments were key drivers.",
           "tags": [
             "Sector Analysis",
             "Technology",
-            "Energy",
-            "Defensives"
+            "Semiconductors",
+            "AI"
           ]
         },
         {
-          "id": "cpi-inflation",
-          "headline": "September CPI Rises Above Expectations, Driven by Gasoline Surge",
-          "summary": "The Consumer Price Index (CPI) increased by 0.6% in September, marking the largest monthly gain of 2026. On a year-over-year basis, consumer prices rose by 3.7%, exceeding the 3.6% consensus estimate. This increase was primarily fueled by a 9.1% surge in gasoline prices, which accounted for more than half of the monthly jump. Core CPI, excluding volatile food and energy components, rose 0.3% month-over-month and 2.6% annually.",
+          "id": "sector-rotation-defensive",
+          "headline": "Shift to Value and Defensive Stocks Evident",
+          "summary": "Investors rotated out of growth and AI stocks into value and defensive sectors, including consumer staples and utilities. Companies like $T-Mobile US (+1.32%), $KDP (+1.29%), $COST (+1.13%), and $ADP (+1.14%) saw gains, indicating a flight to businesses with stable cash flow in a high-interest rate environment.",
           "tags": [
-            "Economic Data",
+            "Sector Analysis",
+            "Value Stocks",
+            "Defensive Stocks"
+          ]
+        },
+        {
+          "id": "economic-inflation-fed",
+          "headline": "Sticky Inflation and Fed Rate Hike Expectations Persist",
+          "summary": "Hotter-than-expected CPI and PPI data reinforced inflation concerns, primarily fueled by rising energy prices. Despite some volatility, the market still anticipates a high probability (around 74.3%) of a Federal Reserve rate hike in December, with the 10-year Treasury yield settling around 5.09% on Friday.",
+          "tags": [
+            "Economic News",
             "Inflation",
-            "CPI"
-          ]
-        },
-        {
-          "id": "fed-outlook",
-          "headline": "Fed Signals October Pause Despite Persistent Inflation Concerns",
-          "summary": "Despite hotter-than-expected inflation data, comments from Federal Reserve Chair Kevin Warsh and other officials suggest an interest rate hike in October is unlikely. Market expectations for a 25 basis point hike at the October 28th FOMC meeting hovered below 20%, though the probability did jump to 43.7% after the CPI release. The 10-year Treasury yield closed at 5.098%.",
-          "tags": [
-            "Economic Data",
             "Federal Reserve",
             "Interest Rates"
           ]
         },
         {
-          "id": "industrial-production",
-          "headline": "U.S. Industrial Production Rises in September",
-          "summary": "Industrial production in the U.S. increased by 0.7% in September, following a modest 0.1% rise in August. Manufacturing output also saw a 0.3% gain during the month.",
+          "id": "economic-oil-prices",
+          "headline": "Oil Prices Remain Elevated, Fueling Economic Slowdown Fears",
+          "summary": "Crude oil prices, now above $100, have climbed over 70% year-to-date, largely due to geopolitical tensions in the Middle East. These persistently high energy costs are contributing to inflation and are seen as a potential drag on economic growth.",
           "tags": [
-            "Economic Data",
-            "Industrial Production"
+            "Economic News",
+            "Oil Prices",
+            "Inflation",
+            "Geopolitics"
           ]
         },
         {
-          "id": "earnings-q3",
-          "headline": "Q3 2026 Earnings Season Underway with Mixed Results",
-          "summary": "As the Q3 2026 earnings season progresses, 9% of S&P 500 companies have reported results. While 84% have beaten EPS estimates, the aggregate earnings are only 2.6% above estimates, falling below the 5-year average of 7.5%. The Information Technology, Energy, and Communication Services sectors are leading in revenue growth. Several financial institutions, including Travelers Companies ($TRV), Truist Financial ($TFC), and M&T Bank ($MTB), reported earnings before market open on Friday.",
+          "id": "economic-imf-worldbank",
+          "headline": "IMF and World Bank Meetings Highlight Global Economic Challenges",
+          "summary": "Leaders at the IMF and World Bank meetings in Bangkok discussed a challenging global economic outlook, citing the war in Iran driving fuel prices and inflation, soaring public debt, and the crucial but regionally uneven role of AI investments.",
           "tags": [
-            "Earnings",
-            "Q3 2026",
-            "Corporate News"
+            "Economic News",
+            "Global Economy",
+            "IMF",
+            "World Bank"
+          ]
+        },
+        {
+          "id": "earnings-highlights",
+          "headline": "Mixed Earnings Reports Influence Individual Stock Movements",
+          "summary": "Blackbaud ($BLKB) climbed 9% after reporting an earnings beat, while DigitalOcean ($DOCN) dropped 11% on lowered guidance. Morgan Stanley's Q3 earnings exceeded expectations, though its stock underperformed, and Citigroup's Q3 results, while beating estimates, showed sequential declines.",
+          "tags": [
+            "Earnings Reports"
           ]
         }
       ]
