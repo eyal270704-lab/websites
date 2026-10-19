@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T18:30:00Z",
+  "generatedAt": "2026-10-19T14:19:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Summary for October 16, 2026 (Markets Closed for Weekend)",
-  "badge": "Updated October 18, 2026",
+  "subtitle": "Monday, October 19, 2026 - Market Close",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,20 +13,21 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct16",
-          "headline": "Wall Street Closes Lower as Tech Sector Drags, AI Concerns Weigh",
-          "summary": "U.S. equities concluded Friday, October 16, 2026, with significant declines for the S&P 500 and Nasdaq, marking their worst weekly performance since June. Concerns about the longevity of the AI buildout and rising interest rates led investors to rotate out of technology and into defensive sectors, while the Dow experienced a more modest decline.",
+          "id": "market-summary",
+          "headline": "Tech Rebound Attempts to Offset Broader Market Concerns on Monday",
+          "summary": "U.S. equity futures showed a mixed picture on Monday, October 19, as technology stocks attempted a rebound after a significant sell-off last week. However, broader market sentiment remains cautious due to ongoing concerns about artificial intelligence investment sustainability, inflationary pressures, and geopolitical tensions. The CBOE Volatility Index (VIX) increased by 21.45% to 19.99 today, reflecting heightened investor anxiety.",
           "tags": [
-            "Market Overview",
-            "Tech Sell-off",
-            "AI Concerns"
+            "Market Summary",
+            "Tech Stocks",
+            "AI",
+            "Inflation"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Oct 16, 2026 Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
@@ -34,113 +35,77 @@
           "id": "sp500-performance",
           "statLabel": "S&P 500",
           "statValue": "7,659.44",
-          "statContext": "Down 84.62 points (-1.09%) for the day, down 1.95% for the week."
+          "statContext": "Closed Friday -1.09%. Futures today +0.4%."
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,140.03",
-          "statContext": "Down 573.00 points (-2.15%) for the day, down 4.48% for the week."
+          "statContext": "Closed Friday -2.15%. Futures today +1.2%."
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "52,002.41",
-          "statContext": "Down 175.28 points (-0.34%) for the day, up 0.67% for the week."
+          "statContext": "Closed Friday -0.34%. Futures today -0.2%."
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Oct 16, 2026 Close)",
+      "title": "Top Movers Today",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "trgp-gainer",
-          "headline": "Targa Resources surges on climbing oil prices",
-          "summary": "Energy stocks led the market, benefiting from rising crude oil prices amidst the U.S.-Iran conflict.",
-          "ticker": "$TRGP",
+          "id": "iron-gainer",
+          "headline": "Disc Medicine Soars on Positive Drug Trial Results",
+          "ticker": "$IRON",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.39%",
+          "changePercent": "+30%",
           "direction": "up",
-          "tags": [
-            "Energy",
-            "Oil Prices"
-          ]
+          "summary": "Disc Medicine shares surged after its investigational drug bitopertin met all primary and secondary endpoints in a Phase 3 trial for erythropoietic protoporphyria (EPP), a rare blood disorder."
         },
         {
-          "id": "fang-gainer",
-          "headline": "Diamondback Energy boosted by analyst upgrade and oil surge",
-          "summary": "Diamondback Energy was a top performer as oil prices climbed and analysts raised price targets for the stock.",
-          "ticker": "$FANG",
+          "id": "clf-gainer",
+          "headline": "Cleveland-Cliffs Jumps on Strong Q3 Earnings",
+          "ticker": "$CLF",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.29%",
+          "changePercent": "+19%",
           "direction": "up",
-          "tags": [
-            "Energy",
-            "Analyst Rating"
-          ]
+          "summary": "The steelmaker's shares soared following a strong Q3 earnings report, with adjusted EPS beating estimates and improved guidance on adjusted EBITDA."
         },
         {
-          "id": "mdxh-loser",
-          "headline": "MDxHealth plunges after revenue warning",
-          "summary": "MDxHealth experienced a sharp decline following the announcement of preliminary third-quarter revenue and the suspension of full-year guidance.",
-          "ticker": "$MDXH",
-          "price": "$0.24",
-          "change": "N/A",
-          "changePercent": "-60.55%",
-          "direction": "down",
-          "tags": [
-            "Biotech",
-            "Earnings Warning"
-          ]
-        },
-        {
-          "id": "guts-loser",
-          "headline": "Fractyl Health drops amid class action alert",
-          "summary": "Fractyl Health saw a significant fall, extending its monthly decline, following an alert regarding a securities class action.",
-          "ticker": "$GUTS",
-          "price": "$1.93",
-          "change": "N/A",
-          "changePercent": "-53.61%",
-          "direction": "down",
-          "tags": [
-            "Biotech",
-            "Legal News"
-          ]
-        },
-        {
-          "id": "open-loser",
-          "headline": "Opendoor Technologies hits 52-week low on debt concerns",
-          "summary": "The digital home platform fell further due to reports of fresh 52-week lows and rising debt costs, alongside a sluggish housing market.",
-          "ticker": "$OPEN",
-          "price": "$2.12",
-          "change": "N/A",
-          "changePercent": "-8.84%",
-          "direction": "down",
-          "tags": [
-            "Real Estate",
-            "Debt",
-            "Housing Market"
-          ]
-        },
-        {
-          "id": "intc-loser",
-          "headline": "Intel slips as AI buildout concerns deepen",
-          "summary": "Chipmakers continued to pull back as worries intensified about the sustainability and duration of the artificial intelligence boom.",
+          "id": "intc-gainer",
+          "headline": "Intel Climbs Following JPMorgan Upgrade",
           "ticker": "$INTC",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.8%",
+          "changePercent": "+4% (premarket)",
+          "direction": "up",
+          "summary": "Intel shares were climbing in premarket trading after JPMorgan upgraded the computer maker from Underweight to Neutral."
+        },
+        {
+          "id": "axb-loser",
+          "headline": "Axis Bank Tumbles on Mixed Earnings Signals",
+          "ticker": "$AXISBANK",
+          "price": "₹1,236.00",
+          "change": "N/A",
+          "changePercent": "-4.19%",
           "direction": "down",
-          "tags": [
-            "Technology",
-            "Semiconductors",
-            "AI Sentiment"
-          ]
+          "summary": "Axis Bank Ltd recorded the steepest decline among major Indian stocks, falling 4.19% as private lenders faced pressure after mixed earnings signals in the banking space."
+        },
+        {
+          "id": "infosys-loser",
+          "headline": "Infosys Drops Amid IT Sector Pressure",
+          "ticker": "$INFY",
+          "price": "₹1,130.00",
+          "change": "N/A",
+          "changePercent": "-2.63%",
+          "direction": "down",
+          "summary": "Infosys Ltd fell as IT counters came under pressure in a session marked by broader market selling and caution on global demand."
         }
       ]
     },
@@ -151,44 +116,40 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance-oct16",
-          "headline": "Energy Sector Leads Gains, Tech and Communication Services Lag",
-          "summary": "On Friday, the Energy sector was the top-performing sector, gaining 2.47%, fueled by increasing oil prices. Conversely, Technology and Communication Services were the worst performers, both losing 2.54%, as concerns about AI-related debt and higher interest rates persisted. Defensive sectors like Utilities (+1.40%) and Consumer Staples (+1.31%) also saw inflows.",
+          "id": "sector-rotation",
+          "headline": "Energy and Consumer Staples Lead as Market Rotates from Growth",
+          "summary": "A significant sector rotation is underway, with Energy Select Sector SPDR ($XLE) rising 2.5% today. Consumer Staples and Utilities have also moved into a 'confirmed Leading' position for the week, indicating a defensive and commodity-tilted macro theme. Conversely, Information Technology has confirmed an exit from its leading position after two weeks of weakening.",
           "tags": [
             "Sector Analysis",
             "Energy",
+            "Consumer Staples",
             "Technology"
           ]
         },
         {
-          "id": "inflation-data-oct16",
-          "headline": "September CPI Rises to 3.7%, PPI Jumps 1.3%",
-          "summary": "September's Consumer Price Index (CPI) climbed to an annual rate of 3.7%, largely driven by gasoline prices. The Producer Price Index (PPI) also saw a significant increase of 1.3%, indicating persistent inflationary pressures across the economy.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "CPI",
-            "PPI"
-          ]
-        },
-        {
-          "id": "federal-deficit-oct16",
-          "headline": "U.S. Federal Deficit Nears $2 Trillion for Fiscal Year",
-          "summary": "The federal budget deficit expanded to almost $2 trillion for the fiscal year ending September 30, marking the largest deficit since 2021. Net interest payments on the public debt surpassed $1 trillion for the first time, contributing to growing fiscal concerns.",
+          "id": "fed-inflation-ai",
+          "headline": "Fed Officials Eye AI Boom as Persistent Inflation Driver",
+          "summary": "Federal Reserve officials are increasingly acknowledging the artificial intelligence investment boom as a lasting source of inflation. While the Fed is in its quiet period from October 17-29, the central bank's benchmark rate was raised to 3.75%-4.00% in September, with expectations of holding steady at the upcoming October 27-28 meeting.",
           "tags": [
             "Economic News",
-            "Fiscal Policy",
-            "National Debt"
+            "Federal Reserve",
+            "Inflation",
+            "AI"
           ]
         },
         {
-          "id": "tesla-roadster-unveil",
-          "headline": "Tesla Unveils Second-Generation Roadster with SpaceX Collaboration",
-          "summary": "Tesla made headlines on October 15, 2026, with the unveiling of its highly anticipated second-generation Roadster, developed in collaboration with SpaceX. Despite this, Tesla's stock closed lower on Friday.",
+          "id": "china-gdp-boost",
+          "headline": "China's Economy Outperforms Expectations in Q3",
+          "summary": "China's gross domestic product (GDP) expanded by 4.5% year-on-year in the third quarter of 2026, accelerating from 4.3% in the previous quarter and surpassing economists' forecasts of 4.4%. This stronger growth provided some reassurance about China's economic performance."
+        },
+        {
+          "id": "earnings-week-ahead",
+          "headline": "Major Earnings Reports on Deck This Week",
+          "summary": "A busy week for corporate earnings is ahead, with key reports expected from tech giants Meta Platforms ($META), Tesla ($TSLA), IBM ($IBM), and Netflix ($NFLX), among others. These results will be crucial in testing investor confidence in the tech sector following recent volatility.",
           "tags": [
-            "Company News",
-            "Automotive",
-            "Innovation"
+            "Economic News",
+            "Earnings Season",
+            "Tech Stocks"
           ]
         }
       ]
