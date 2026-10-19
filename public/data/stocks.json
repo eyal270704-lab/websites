@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T14:19:00Z",
+  "generatedAt": "2026-10-19T17:56:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Monday, October 19, 2026 - Market Close",
-  "badge": "LIVE",
+  "subtitle": "October 19, 2026 - Midday Update",
+  "badge": "Updated 5:56 PM UTC",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,99 +13,96 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary",
-          "headline": "Tech Rebound Attempts to Offset Broader Market Concerns on Monday",
-          "summary": "U.S. equity futures showed a mixed picture on Monday, October 19, as technology stocks attempted a rebound after a significant sell-off last week. However, broader market sentiment remains cautious due to ongoing concerns about artificial intelligence investment sustainability, inflationary pressures, and geopolitical tensions. The CBOE Volatility Index (VIX) increased by 21.45% to 19.99 today, reflecting heightened investor anxiety.",
+          "id": "market-summary-1",
+          "headline": "Tech Leads Rebound After Mixed Open; AI Concerns Linger",
+          "summary": "U.S. equities saw a mixed open to start the week, but a significant rebound in technology and semiconductor stocks helped major indices climb by midday, recovering from last week's sell-off. Investors cautiously re-engaged with AI-related firms, though concerns about capital expenditures and security risks persist. Meanwhile, homebuilder sentiment plunged to a near 14-and-a-half-year low amid rising mortgage rates and geopolitical tensions. Not financial advice.",
           "tags": [
             "Market Summary",
-            "Tech Stocks",
-            "AI",
-            "Inflation"
-          ]
+            "Tech Rebound",
+            "AI Concerns",
+            "Economic Data"
+          ],
+          "timestamp": "October 19, 2026"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices - Midday Performance (as of 11:34 AM ET)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "7,659.44",
-          "statContext": "Closed Friday -1.09%. Futures today +0.4%."
+          "id": "sp500-stat",
+          "headline": "S&P 500",
+          "statLabel": "Level",
+          "statValue": "7,725",
+          "statContext": "Up 0.85% today, adding 49.61 points.",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,140.03",
-          "statContext": "Closed Friday -2.15%. Futures today +1.2%."
+          "id": "nasdaq-stat",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Level",
+          "statValue": "26,576",
+          "statContext": "Climbed 1.67% today.",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Ind. Avg.",
-          "statValue": "52,002.41",
-          "statContext": "Closed Friday -0.34%. Futures today -0.2%."
+          "id": "dow-stat",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Level",
+          "statValue": "52,094",
+          "statContext": "Trading 0.15% higher today.",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers Today",
+      "title": "Top Movers (Midday, US Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
           "id": "iron-gainer",
           "headline": "Disc Medicine Soars on Positive Drug Trial Results",
+          "summary": "Disc Medicine ($IRON) shares surged over 30% after its investigational drug bitopertin met all primary and secondary endpoints in a Phase 3 trial for erythropoietic protoporphyria (EPP), a rare blood disorder.",
           "ticker": "$IRON",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+30%",
-          "direction": "up",
-          "summary": "Disc Medicine shares surged after its investigational drug bitopertin met all primary and secondary endpoints in a Phase 3 trial for erythropoietic protoporphyria (EPP), a rare blood disorder."
+          "direction": "up"
         },
         {
           "id": "clf-gainer",
-          "headline": "Cleveland-Cliffs Jumps on Strong Q3 Earnings",
+          "headline": "Cleveland-Cliffs Jumps on Strong Earnings Beat",
+          "summary": "Cleveland-Cliffs ($CLF) shares climbed 19% following a reported Q3 adjusted EPS of $0.28, beating estimates by $0.04, and strong Q4 adjusted EBITDA guidance.",
           "ticker": "$CLF",
           "price": "N/A",
           "change": "N/A",
           "changePercent": "+19%",
-          "direction": "up",
-          "summary": "The steelmaker's shares soared following a strong Q3 earnings report, with adjusted EPS beating estimates and improved guidance on adjusted EBITDA."
+          "direction": "up"
         },
         {
-          "id": "intc-gainer",
-          "headline": "Intel Climbs Following JPMorgan Upgrade",
-          "ticker": "$INTC",
-          "price": "N/A",
+          "id": "se-loser",
+          "headline": "Sea Drops as Investors Erase Billions",
+          "summary": "Sea ($SE) declined 5.3% to $88.08, erasing nearly $3 billion in market value during the session.",
+          "ticker": "$SE",
+          "price": "$88.08",
           "change": "N/A",
-          "changePercent": "+4% (premarket)",
-          "direction": "up",
-          "summary": "Intel shares were climbing in premarket trading after JPMorgan upgraded the computer maker from Underweight to Neutral."
+          "changePercent": "-5.3%",
+          "direction": "down"
         },
         {
-          "id": "axb-loser",
-          "headline": "Axis Bank Tumbles on Mixed Earnings Signals",
-          "ticker": "$AXISBANK",
-          "price": "₹1,236.00",
+          "id": "hal-loser",
+          "headline": "Halliburton Experiences Decline Ahead of Earnings",
+          "summary": "Halliburton ($HAL) shares dropped 2.67% today, with earnings scheduled for later in the day.",
+          "ticker": "$HAL",
+          "price": "$32.60",
           "change": "N/A",
-          "changePercent": "-4.19%",
-          "direction": "down",
-          "summary": "Axis Bank Ltd recorded the steepest decline among major Indian stocks, falling 4.19% as private lenders faced pressure after mixed earnings signals in the banking space."
-        },
-        {
-          "id": "infosys-loser",
-          "headline": "Infosys Drops Amid IT Sector Pressure",
-          "ticker": "$INFY",
-          "price": "₹1,130.00",
-          "change": "N/A",
-          "changePercent": "-2.63%",
-          "direction": "down",
-          "summary": "Infosys Ltd fell as IT counters came under pressure in a session marked by broader market selling and caution on global demand."
+          "changePercent": "-2.67%",
+          "direction": "down"
         }
       ]
     },
@@ -116,41 +113,39 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-rotation",
-          "headline": "Energy and Consumer Staples Lead as Market Rotates from Growth",
-          "summary": "A significant sector rotation is underway, with Energy Select Sector SPDR ($XLE) rising 2.5% today. Consumer Staples and Utilities have also moved into a 'confirmed Leading' position for the week, indicating a defensive and commodity-tilted macro theme. Conversely, Information Technology has confirmed an exit from its leading position after two weeks of weakening.",
+          "id": "sector-analysis",
+          "headline": "Sector Rotation Shifts Towards Defensive and Inflation-Sensitive Assets",
+          "summary": "Technology and consumer cyclical sectors led gains today, particularly semiconductor and cloud infrastructure plays, rebounding after a sell-off last week. However, broader market sentiment indicates a rotation away from growth stocks towards inflation-sensitive and defensive assets, with Energy and Consumer Staples graduating into leading positions. Real Estate and Consumer Defensive stocks notably underperformed, as did utility companies. Goldman Sachs analysts suggest buying into lagging sectors as tech's dominance shows signs of wobbling.",
           "tags": [
             "Sector Analysis",
-            "Energy",
-            "Consumer Staples",
-            "Technology"
-          ]
+            "Tech",
+            "Rotation",
+            "Defensive"
+          ],
+          "timestamp": "October 19, 2026"
         },
         {
-          "id": "fed-inflation-ai",
-          "headline": "Fed Officials Eye AI Boom as Persistent Inflation Driver",
-          "summary": "Federal Reserve officials are increasingly acknowledging the artificial intelligence investment boom as a lasting source of inflation. While the Fed is in its quiet period from October 17-29, the central bank's benchmark rate was raised to 3.75%-4.00% in September, with expectations of holding steady at the upcoming October 27-28 meeting.",
+          "id": "economic-data",
+          "headline": "Homebuilder Sentiment Plunges to 14-Year Low Amid Economic Headwinds",
+          "summary": "U.S. homebuilder sentiment hit its lowest level in nearly 14½ years in October, according to Reuters, driven by rising mortgage rates, geopolitical conflict, and increased costs for energy-related building materials. This comes as the September Consumer Price Index (CPI) and Producer Price Index (PPI) reports showed accelerating inflation, fueled by higher energy and shelter costs. The Federal Reserve remains in its quiet period, with investors now focusing on a potential interest rate increase in December.",
           "tags": [
             "Economic News",
-            "Federal Reserve",
+            "Housing Market",
             "Inflation",
-            "AI"
-          ]
+            "Federal Reserve"
+          ],
+          "timestamp": "October 19, 2026"
         },
         {
-          "id": "china-gdp-boost",
-          "headline": "China's Economy Outperforms Expectations in Q3",
-          "summary": "China's gross domestic product (GDP) expanded by 4.5% year-on-year in the third quarter of 2026, accelerating from 4.3% in the previous quarter and surpassing economists' forecasts of 4.4%. This stronger growth provided some reassurance about China's economic performance."
-        },
-        {
-          "id": "earnings-week-ahead",
-          "headline": "Major Earnings Reports on Deck This Week",
-          "summary": "A busy week for corporate earnings is ahead, with key reports expected from tech giants Meta Platforms ($META), Tesla ($TSLA), IBM ($IBM), and Netflix ($NFLX), among others. These results will be crucial in testing investor confidence in the tech sector following recent volatility.",
+          "id": "earnings-preview",
+          "headline": "Key Earnings Reports to Test Market Sentiment This Week",
+          "summary": "The third-quarter earnings season is kicking off with major companies poised to report this week, including Meta Platforms ($META), Tesla ($TSLA), IBM ($IBM), Netflix ($NFLX), and General Motors ($GM). These reports are expected to provide crucial insights into corporate performance and test investor confidence, particularly regarding the profitability and return on investment from significant artificial intelligence initiatives. Cleveland-Cliffs ($CLF) and Fifth Third Bancorp ($FITB) were among those reporting today.",
           "tags": [
-            "Economic News",
-            "Earnings Season",
-            "Tech Stocks"
-          ]
+            "Earnings",
+            "Q3 2026",
+            "Tech Earnings"
+          ],
+          "timestamp": "October 19, 2026"
         }
       ]
     }
