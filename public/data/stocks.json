@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T17:56:00Z",
+  "generatedAt": "2026-10-19T17:00:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "October 19, 2026 - Midday Update",
-  "badge": "Updated 5:56 PM UTC",
+  "title": "Daily Market Digest: October 19, 2026",
+  "subtitle": "Tech Rebounds, Dow Slips as Market Digests Mixed Signals",
+  "badge": "Today's Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,95 +13,107 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "Tech Leads Rebound After Mixed Open; AI Concerns Linger",
-          "summary": "U.S. equities saw a mixed open to start the week, but a significant rebound in technology and semiconductor stocks helped major indices climb by midday, recovering from last week's sell-off. Investors cautiously re-engaged with AI-related firms, though concerns about capital expenditures and security risks persist. Meanwhile, homebuilder sentiment plunged to a near 14-and-a-half-year low amid rising mortgage rates and geopolitical tensions. Not financial advice.",
+          "id": "market-summary-oct19",
+          "headline": "AI and Tech Stocks Drive Nasdaq Higher Amid Broader Market Caution",
+          "summary": "The U.S. stock market saw a mixed close today, with the tech-heavy Nasdaq Composite rallying strongly as AI and semiconductor stocks rebounded from last week's sell-off. The S&P 500 posted modest gains, while the Dow Jones Industrial Average finished slightly lower, reflecting broader market hesitancy. Investor sentiment was influenced by a rebound in growth stocks, ongoing geopolitical tensions, and critical earnings reports on the horizon. Not financial advice.",
           "tags": [
-            "Market Summary",
+            "Market Overview",
             "Tech Rebound",
-            "AI Concerns",
-            "Economic Data"
-          ],
-          "timestamp": "October 19, 2026"
+            "Mixed Sentiment"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices - Midday Performance (as of 11:34 AM ET)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "headline": "S&P 500",
-          "statLabel": "Level",
-          "statValue": "7,725",
-          "statContext": "Up 0.85% today, adding 49.61 points.",
-          "direction": "up"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "+0.41%",
+          "statContext": "Closed higher"
         },
         {
-          "id": "nasdaq-stat",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Level",
-          "statValue": "26,576",
-          "statContext": "Climbed 1.67% today.",
-          "direction": "up"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "+1.1%",
+          "statContext": "Rallied strongly"
         },
         {
-          "id": "dow-stat",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Level",
-          "statValue": "52,094",
-          "statContext": "Trading 0.15% higher today.",
-          "direction": "up"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Industrial Average",
+          "statValue": "-0.3%",
+          "statContext": "Closed lower"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Midday, US Market)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "iron-gainer",
-          "headline": "Disc Medicine Soars on Positive Drug Trial Results",
-          "summary": "Disc Medicine ($IRON) shares surged over 30% after its investigational drug bitopertin met all primary and secondary endpoints in a Phase 3 trial for erythropoietic protoporphyria (EPP), a rare blood disorder.",
-          "ticker": "$IRON",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+30%",
+          "id": "apld-gainer",
+          "headline": "Applied Digital Surges on AI Data Center Strength",
+          "summary": "Applied Digital ($APLD) closed up 6.93% at $19.30, leading gainers in its segment. The rise was attributed to its focus on AI-oriented data center infrastructure and recent insider stock purchases, signaling strong conviction.",
+          "ticker": "$APLD",
+          "price": "$19.30",
+          "change": "+$1.25",
+          "changePercent": "+6.93%",
           "direction": "up"
         },
         {
-          "id": "clf-gainer",
-          "headline": "Cleveland-Cliffs Jumps on Strong Earnings Beat",
-          "summary": "Cleveland-Cliffs ($CLF) shares climbed 19% following a reported Q3 adjusted EPS of $0.28, beating estimates by $0.04, and strong Q4 adjusted EBITDA guidance.",
-          "ticker": "$CLF",
+          "id": "amzn-gainer",
+          "headline": "Amazon Climbs After Morgan Stanley Price Target Hike",
+          "summary": "Amazon ($AMZN) rose 4.98% today after Morgan Stanley analyst Brian Nowak increased his price target to $350 from $335, naming the e-commerce and cloud giant a top pick due to robust growth in its cloud and e-commerce segments.",
+          "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+19%",
+          "changePercent": "+4.98%",
           "direction": "up"
         },
         {
-          "id": "se-loser",
-          "headline": "Sea Drops as Investors Erase Billions",
-          "summary": "Sea ($SE) declined 5.3% to $88.08, erasing nearly $3 billion in market value during the session.",
-          "ticker": "$SE",
-          "price": "$88.08",
+          "id": "tsla-gainer",
+          "headline": "Tesla Gains Momentum Post-Roadster Debut, Ahead of Earnings",
+          "summary": "Tesla ($TSLA) saw a 3.76% increase today, benefiting from positive sentiment following the recent debut of its Roadster EV and ahead of its upcoming earnings report this week.",
+          "ticker": "$TSLA",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-5.3%",
+          "changePercent": "+3.76%",
+          "direction": "up"
+        },
+        {
+          "id": "mos-loser",
+          "headline": "Mosaic Company Drops on Margin Pressure and Geopolitical Headwinds",
+          "summary": "The Mosaic Company ($MOS) fell 3.67% to a 52-week low. The decline was driven by margin pressure, high input costs, credit outlook downgrades, and ongoing geopolitical headwinds.",
+          "ticker": "$MOS",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.67%",
           "direction": "down"
         },
         {
-          "id": "hal-loser",
-          "headline": "Halliburton Experiences Decline Ahead of Earnings",
-          "summary": "Halliburton ($HAL) shares dropped 2.67% today, with earnings scheduled for later in the day.",
-          "ticker": "$HAL",
-          "price": "$32.60",
+          "id": "nrg-loser",
+          "headline": "NRG Energy Declines Amid Utility Sector Underperformance",
+          "summary": "NRG Energy ($NRG) sank 3.63% as utility stocks broadly underperformed the market. Weakness across the sector and caution ahead of its third-quarter earnings report contributed to the decline.",
+          "ticker": "$NRG",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-2.67%",
+          "changePercent": "-3.63%",
+          "direction": "down"
+        },
+        {
+          "id": "amp-loser",
+          "headline": "Ameriprise Financial Falls Following Double Downgrade",
+          "summary": "Ameriprise Financial ($AMP) lost 3.20% today after BofA Securities downgraded the stock twice, moving it from Buy to Underperform.",
+          "ticker": "$AMP",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-3.20%",
           "direction": "down"
         }
       ]
@@ -113,39 +125,43 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis",
-          "headline": "Sector Rotation Shifts Towards Defensive and Inflation-Sensitive Assets",
-          "summary": "Technology and consumer cyclical sectors led gains today, particularly semiconductor and cloud infrastructure plays, rebounding after a sell-off last week. However, broader market sentiment indicates a rotation away from growth stocks towards inflation-sensitive and defensive assets, with Energy and Consumer Staples graduating into leading positions. Real Estate and Consumer Defensive stocks notably underperformed, as did utility companies. Goldman Sachs analysts suggest buying into lagging sectors as tech's dominance shows signs of wobbling.",
+          "id": "sector-performance",
+          "headline": "Consumer Discretionary and Technology Lead Gains; Utilities and Real Estate Lag",
+          "summary": "Consumer Discretionary was the top-performing sector today, gaining 2.73%, with Technology also showing strong performance, up 1.52%. Conversely, Utilities lagged significantly with a 1.97% loss, and Real Estate stocks also faced pressure, down 1.19%. The rebound in tech was largely driven by a return of confidence in AI and semiconductor firms.",
           "tags": [
             "Sector Analysis",
             "Tech",
-            "Rotation",
-            "Defensive"
-          ],
-          "timestamp": "October 19, 2026"
+            "Utilities"
+          ]
         },
         {
-          "id": "economic-data",
-          "headline": "Homebuilder Sentiment Plunges to 14-Year Low Amid Economic Headwinds",
-          "summary": "U.S. homebuilder sentiment hit its lowest level in nearly 14½ years in October, according to Reuters, driven by rising mortgage rates, geopolitical conflict, and increased costs for energy-related building materials. This comes as the September Consumer Price Index (CPI) and Producer Price Index (PPI) reports showed accelerating inflation, fueled by higher energy and shelter costs. The Federal Reserve remains in its quiet period, with investors now focusing on a potential interest rate increase in December.",
+          "id": "economic-data-housing",
+          "headline": "U.S. Homebuilder Sentiment Hits Near 14.5-Year Low",
+          "summary": "U.S. homebuilder sentiment tumbled to its lowest level in nearly 14-and-a-half years in October. The decline is attributed to rising mortgage rates, elevated prices for energy-related building materials, and geopolitical factors stemming from the Middle East conflict.",
           "tags": [
-            "Economic News",
+            "Economic Data",
             "Housing Market",
-            "Inflation",
-            "Federal Reserve"
-          ],
-          "timestamp": "October 19, 2026"
+            "Inflation"
+          ]
         },
         {
-          "id": "earnings-preview",
-          "headline": "Key Earnings Reports to Test Market Sentiment This Week",
-          "summary": "The third-quarter earnings season is kicking off with major companies poised to report this week, including Meta Platforms ($META), Tesla ($TSLA), IBM ($IBM), Netflix ($NFLX), and General Motors ($GM). These reports are expected to provide crucial insights into corporate performance and test investor confidence, particularly regarding the profitability and return on investment from significant artificial intelligence initiatives. Cleveland-Cliffs ($CLF) and Fifth Third Bancorp ($FITB) were among those reporting today.",
+          "id": "earnings-season-kicks-off",
+          "headline": "Earnings Season Underway: Crown Holdings Reports Strong Q3, Big Tech Looms",
+          "summary": "Crown Holdings, Inc. ($CCK) reported robust third-quarter 2026 results, with diluted earnings per share of $2.08 and adjusted diluted EPS increasing 7% to $2.39. This week will see major earnings reports from Meta Platforms ($META), Tesla ($TSLA), Netflix ($NFLX), and IBM ($IBM), setting the tone for key sectors.",
           "tags": [
-            "Earnings",
-            "Q3 2026",
-            "Tech Earnings"
-          ],
-          "timestamp": "October 19, 2026"
+            "Earnings Reports",
+            "Corporate News"
+          ]
+        },
+        {
+          "id": "macro-overview",
+          "headline": "Global Market Navigates Elevated Oil Prices and Chinese Growth",
+          "summary": "Global markets continue to contend with elevated crude oil prices, with WTI around $101/bbl and Brent at $108/bbl. Meanwhile, China's Q3 2026 GDP grew by a stronger-than-expected 4.5% year-on-year, providing some positive economic news internationally. The 10-Year Treasury yield rose 3 basis points to 5.13%.",
+          "tags": [
+            "Macro Trends",
+            "Oil Prices",
+            "Global Economy"
+          ]
         }
       ]
     }
