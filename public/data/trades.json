@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-20T10:46:06.973057Z",
+  "generatedAt": "2026-10-20T16:42:53.719935Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 8,
   "trades": [
     {
       "ticker": "$APP",
@@ -32,22 +32,6 @@
       "analysis": "Red Cat Holdings is trading near its 52-week low of $4.41, presenting a potential support test. While current relative volume is below average, there is a mention of a developing inverted head and shoulders pattern that could signal a bullish reversal.",
       "riskScore": 6,
       "footerTag": "Accumulation",
-      "setupType": "risky",
-      "source": "Watchlist"
-    },
-    {
-      "ticker": "$AMZN",
-      "name": "Amazon.com, Inc.",
-      "sector": "Consumer Cyclical",
-      "currentPrice": "$262.43",
-      "entry": "$247.00",
-      "stop": "$240.00",
-      "structure": "Support Test",
-      "trend": "> 200MA",
-      "trendLabel": "Trend",
-      "analysis": "Amazon is in a rising trend channel, with the price currently above both its 50-day and 200-day moving averages. It is approaching a key support level around $247. However, the confirmed earnings date of October 29, 2026, makes this a high-risk trade.",
-      "riskScore": 8,
-      "footerTag": "High Risk - Earnings",
       "setupType": "risky",
       "source": "Watchlist"
     },
@@ -98,6 +82,54 @@
       "footerTag": "Momentum",
       "setupType": "momentum",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Technology Services",
+      "currentPrice": "$343.07",
+      "entry": "$341.48",
+      "stop": "$339.50",
+      "structure": "0.618 Fib Retest",
+      "trend": "< 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Alphabet is trading below its 150-day moving average and recently tested the 0.618 Fibonacci retracement level, which could act as support for a potential bounce. However, the upcoming earnings report on October 28, 2026, introduces significant risk.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AMZN",
+      "name": "Amazon.com Inc.",
+      "sector": "Consumer Discretionary",
+      "currentPrice": "$263.00",
+      "entry": "$260.69",
+      "stop": "$250.00",
+      "structure": "Support Retest",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Amazon is currently encountering resistance in the $263-$265.75 range, near the 0.5 Fibonacci level from a recent rebound, after clearing a key level at $260.69. While trading above major moving averages with elevated relative volume, the confirmed earnings release on October 29, 2026, makes this a high-risk setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$AVGO",
+      "name": "Broadcom Inc.",
+      "sector": "Electronic Technology",
+      "currentPrice": "$330.30",
+      "entry": "$314.80",
+      "stop": "$289.96",
+      "structure": "0.5 Fib Support",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Broadcom is currently in a downtrend, trading below its 20, 50, and 200-day moving averages. Price is approaching the 0.5 Fibonacci retracement level at $314.80, which is identified as an initial structural support, and relative volume is not elevated.",
+      "riskScore": 6,
+      "footerTag": "Accumulation",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
