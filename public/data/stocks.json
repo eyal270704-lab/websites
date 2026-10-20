@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T17:00:00Z",
+  "generatedAt": "2026-10-20T12:31:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 19, 2026",
-  "subtitle": "Tech Rebounds, Dow Slips as Market Digests Mixed Signals",
-  "badge": "Today's Close",
+  "title": "Daily Market Digest",
+  "subtitle": "Tuesday, October 20, 2026 - Pre-Market Update",
+  "badge": "LIVE - Pre-Market",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,154 +13,262 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct19",
-          "headline": "AI and Tech Stocks Drive Nasdaq Higher Amid Broader Market Caution",
-          "summary": "The U.S. stock market saw a mixed close today, with the tech-heavy Nasdaq Composite rallying strongly as AI and semiconductor stocks rebounded from last week's sell-off. The S&P 500 posted modest gains, while the Dow Jones Industrial Average finished slightly lower, reflecting broader market hesitancy. Investor sentiment was influenced by a rebound in growth stocks, ongoing geopolitical tensions, and critical earnings reports on the horizon. Not financial advice.",
+          "id": "market-summary-oct20",
+          "headline": "Futures Mixed Amid AI Stock Retreat and Rising Oil Prices",
+          "summary": "U.S. equity futures are trading mixed early Tuesday as concerns over AI stock valuations and rising crude oil prices weigh on investor sentiment. The Nasdaq 100 futures are notably lower, while Dow Jones Industrial Average futures show slight gains. This follows a mixed session on Monday where tech-heavy indices saw a rebound.",
           "tags": [
-            "Market Overview",
-            "Tech Rebound",
-            "Mixed Sentiment"
+            "Pre-Market",
+            "AI Stocks",
+            "Oil Prices"
           ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices Performance",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
-          "statLabel": "S&P 500",
-          "statValue": "+0.41%",
-          "statContext": "Closed higher"
+          "id": "sp500-close-oct19",
+          "headline": "S&P 500 (Yesterday's Close)",
+          "statLabel": "Close (Oct 19)",
+          "statValue": "7,691.07",
+          "statContext": "Up 0.42%",
+          "change": "+32.48",
+          "changePercent": "+0.42%",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-performance",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "+1.1%",
-          "statContext": "Rallied strongly"
+          "id": "nasdaq-close-oct19",
+          "headline": "NASDAQ Composite (Yesterday's Close)",
+          "statLabel": "Close (Oct 19)",
+          "statValue": "26,430.89",
+          "statContext": "Up 1.11%",
+          "change": "+290.85",
+          "changePercent": "+1.11%",
+          "direction": "up"
         },
         {
-          "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "-0.3%",
-          "statContext": "Closed lower"
+          "id": "dow-close-oct19",
+          "headline": "Dow Jones Industrial Average (Yesterday's Close)",
+          "statLabel": "Close (Oct 19)",
+          "statValue": "51,970.20",
+          "statContext": "Down 0.06%",
+          "change": "-32.21",
+          "changePercent": "-0.06%",
+          "direction": "down"
+        },
+        {
+          "id": "sp500-futures-oct20",
+          "headline": "S&P 500 Futures (Today - Pre-Market)",
+          "statLabel": "Pre-Market",
+          "statValue": "Mixed",
+          "statContext": "Down ~0.1%",
+          "change": null,
+          "changePercent": "-0.10%",
+          "direction": "down"
+        },
+        {
+          "id": "nasdaq-futures-oct20",
+          "headline": "NASDAQ 100 Futures (Today - Pre-Market)",
+          "statLabel": "Pre-Market",
+          "statValue": "Lower",
+          "statContext": "Down ~0.5%",
+          "change": null,
+          "changePercent": "-0.50%",
+          "direction": "down"
+        },
+        {
+          "id": "dow-futures-oct20",
+          "headline": "Dow Futures (Today - Pre-Market)",
+          "statLabel": "Pre-Market",
+          "statValue": "Higher",
+          "statContext": "Up ~0.2%",
+          "change": null,
+          "changePercent": "+0.20%",
+          "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Yesterday's Close & Today's Pre-Market)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "apld-gainer",
-          "headline": "Applied Digital Surges on AI Data Center Strength",
-          "summary": "Applied Digital ($APLD) closed up 6.93% at $19.30, leading gainers in its segment. The rise was attributed to its focus on AI-oriented data center infrastructure and recent insider stock purchases, signaling strong conviction.",
-          "ticker": "$APLD",
-          "price": "$19.30",
-          "change": "+$1.25",
-          "changePercent": "+6.93%",
-          "direction": "up"
-        },
-        {
-          "id": "amzn-gainer",
-          "headline": "Amazon Climbs After Morgan Stanley Price Target Hike",
-          "summary": "Amazon ($AMZN) rose 4.98% today after Morgan Stanley analyst Brian Nowak increased his price target to $350 from $335, naming the e-commerce and cloud giant a top pick due to robust growth in its cloud and e-commerce segments.",
+          "id": "amzn-gainer-oct19",
+          "headline": "Amazon Leads Gainers",
+          "summary": "Amazon ($AMZN) jumped 5% on Monday, contributing to the broader tech-led rebound.",
           "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.98%",
-          "direction": "up"
+          "changePercent": "+5.00%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Yesterday"
+          ]
         },
         {
-          "id": "tsla-gainer",
-          "headline": "Tesla Gains Momentum Post-Roadster Debut, Ahead of Earnings",
-          "summary": "Tesla ($TSLA) saw a 3.76% increase today, benefiting from positive sentiment following the recent debut of its Roadster EV and ahead of its upcoming earnings report this week.",
+          "id": "tsla-gainer-oct19",
+          "headline": "Tesla Sees Strong Gains",
+          "summary": "Tesla ($TSLA) climbed 3.8% in Monday's trading session.",
           "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+3.76%",
-          "direction": "up"
+          "changePercent": "+3.80%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Yesterday"
+          ]
         },
         {
-          "id": "mos-loser",
-          "headline": "Mosaic Company Drops on Margin Pressure and Geopolitical Headwinds",
-          "summary": "The Mosaic Company ($MOS) fell 3.67% to a 52-week low. The decline was driven by margin pressure, high input costs, credit outlook downgrades, and ongoing geopolitical headwinds.",
-          "ticker": "$MOS",
+          "id": "nvda-gainer-oct19",
+          "headline": "Nvidia Boosts S&P 500",
+          "summary": "Nvidia ($NVDA) gained 1.4% on Monday, acting as a significant positive force for the S&P 500 due to its large market capitalization.",
+          "ticker": "$NVDA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.67%",
-          "direction": "down"
+          "changePercent": "+1.40%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Yesterday"
+          ]
         },
         {
-          "id": "nrg-loser",
-          "headline": "NRG Energy Declines Amid Utility Sector Underperformance",
-          "summary": "NRG Energy ($NRG) sank 3.63% as utility stocks broadly underperformed the market. Weakness across the sector and caution ahead of its third-quarter earnings report contributed to the decline.",
-          "ticker": "$NRG",
+          "id": "micron-gainer-oct19",
+          "headline": "Micron Climbs",
+          "summary": "Micron ($MU) advanced 3% on Monday.",
+          "ticker": "$MU",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.63%",
-          "direction": "down"
+          "changePercent": "+3.00%",
+          "direction": "up",
+          "tags": [
+            "Gainers",
+            "Yesterday"
+          ]
         },
         {
-          "id": "amp-loser",
-          "headline": "Ameriprise Financial Falls Following Double Downgrade",
-          "summary": "Ameriprise Financial ($AMP) lost 3.20% today after BofA Securities downgraded the stock twice, moving it from Buy to Underperform.",
-          "ticker": "$AMP",
+          "id": "coreweave-loser-oct20",
+          "headline": "AI Infrastructure Stocks Under Pressure",
+          "summary": "CoreWeave saw a pre-market decline of 2.9% as AI infrastructure stocks slide globally due to investor concerns about debt-financed AI buildouts.",
+          "ticker": "CoreWeave",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.20%",
-          "direction": "down"
+          "changePercent": "-2.90%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Pre-Market"
+          ]
+        },
+        {
+          "id": "utilities-loser-oct19",
+          "headline": "Utilities Sector Lags",
+          "summary": "The Utilities sector fell 2% on Monday, making it one of the day's worst-performing sectors.",
+          "ticker": "XLU",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-2.00%",
+          "direction": "down",
+          "tags": [
+            "Losers",
+            "Yesterday"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
-      "title": "Market News",
+      "id": "sector-analysis",
+      "title": "Sector Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-performance",
-          "headline": "Consumer Discretionary and Technology Lead Gains; Utilities and Real Estate Lag",
-          "summary": "Consumer Discretionary was the top-performing sector today, gaining 2.73%, with Technology also showing strong performance, up 1.52%. Conversely, Utilities lagged significantly with a 1.97% loss, and Real Estate stocks also faced pressure, down 1.19%. The rebound in tech was largely driven by a return of confidence in AI and semiconductor firms.",
+          "id": "sector-leading-oct19",
+          "headline": "Consumer Discretionary, IT, and Materials Led Monday's Rally",
+          "summary": "On Monday, the Consumer Discretionary, Information Technology, and Materials sectors were the strongest performers among S&P 500 sectors.",
           "tags": [
-            "Sector Analysis",
-            "Tech",
-            "Utilities"
+            "Leading Sectors",
+            "Yesterday"
           ]
         },
         {
-          "id": "economic-data-housing",
-          "headline": "U.S. Homebuilder Sentiment Hits Near 14.5-Year Low",
-          "summary": "U.S. homebuilder sentiment tumbled to its lowest level in nearly 14-and-a-half years in October. The decline is attributed to rising mortgage rates, elevated prices for energy-related building materials, and geopolitical factors stemming from the Middle East conflict.",
+          "id": "sector-lagging-oct19",
+          "headline": "Utilities, Real Estate, and Financials Lagged on Monday",
+          "summary": "The Utilities, Real Estate, and Financials sectors underperformed the broader market during Monday's trading session.",
           "tags": [
-            "Economic Data",
-            "Housing Market",
-            "Inflation"
+            "Lagging Sectors",
+            "Yesterday"
           ]
         },
         {
-          "id": "earnings-season-kicks-off",
-          "headline": "Earnings Season Underway: Crown Holdings Reports Strong Q3, Big Tech Looms",
-          "summary": "Crown Holdings, Inc. ($CCK) reported robust third-quarter 2026 results, with diluted earnings per share of $2.08 and adjusted diluted EPS increasing 7% to $2.39. This week will see major earnings reports from Meta Platforms ($META), Tesla ($TSLA), Netflix ($NFLX), and IBM ($IBM), setting the tone for key sectors.",
+          "id": "semiconductor-concerns-oct20",
+          "headline": "Semiconductor Stocks Face Renewed Pressure in Pre-Market",
+          "summary": "Damage in the technology sector, particularly semiconductors, continues as chip makers and AI infrastructure groups slide in pre-market trading, driven by increasing funding difficulties for customers.",
           "tags": [
-            "Earnings Reports",
-            "Corporate News"
+            "Industry News",
+            "Technology",
+            "Pre-Market"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "economic-news",
+      "title": "Economic News & Earnings",
+      "cardType": "article",
+      "layout": "list",
+      "items": [
         {
-          "id": "macro-overview",
-          "headline": "Global Market Navigates Elevated Oil Prices and Chinese Growth",
-          "summary": "Global markets continue to contend with elevated crude oil prices, with WTI around $101/bbl and Brent at $108/bbl. Meanwhile, China's Q3 2026 GDP grew by a stronger-than-expected 4.5% year-on-year, providing some positive economic news internationally. The 10-Year Treasury yield rose 3 basis points to 5.13%.",
+          "id": "oil-prices-oct20",
+          "headline": "Oil Prices Climb Amid Middle East Tensions",
+          "summary": "Crude oil prices are higher early Tuesday, with front-month Brent crude contracts topping $110 a barrel, on track for its highest close since May 19, fueled by mounting supply risks in the Middle East.",
           "tags": [
             "Macro Trends",
-            "Oil Prices",
-            "Global Economy"
+            "Commodities"
+          ]
+        },
+        {
+          "id": "housing-data-oct20",
+          "headline": "September Housing Data Anticipated Today",
+          "summary": "The U.S. Department of Commerce is set to release September housing starts at 8:30 a.m. ET, with expectations of 1.305 million units annually. Pending home sales for September are expected to be released at 10 a.m. ET, with forecasts indicating a 0.5% drop.",
+          "tags": [
+            "Economic Data",
+            "Housing"
+          ]
+        },
+        {
+          "id": "budget-deficit-warning",
+          "headline": "Moody's Analytics Warns of 'Fiscal Reckoning'",
+          "summary": "Moody's Analytics Chief Economist Mark Zandi issued a warning about a potential 'fiscal reckoning' for the U.S. after the Treasury Department reported a $1.992 trillion budget deficit for fiscal year 2026, driven by high outlays and increasing interest expenses.",
+          "tags": [
+            "Macro Trends",
+            "Fiscal Policy"
+          ]
+        },
+        {
+          "id": "netflix-earnings-oct20",
+          "headline": "Netflix Earnings Expected After Market Close",
+          "summary": "Netflix ($NFLX) is slated to report its Q3 earnings after the market closes today, with analysts expecting earnings of $0.82 per share on revenue of $12.87 billion.",
+          "tags": [
+            "Earnings Reports",
+            "Technology"
+          ]
+        },
+        {
+          "id": "ge-rtx-earnings",
+          "headline": "GE Aerospace and RTX Report Strong Q3 Earnings",
+          "summary": "GE Aerospace ($GE) and RTX ($RTX) have already announced higher-than-expected Q3 adjusted earnings and revenue.",
+          "tags": [
+            "Earnings Reports",
+            "Industrials"
           ]
         }
       ]
