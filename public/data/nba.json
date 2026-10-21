@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T15:10:00Z",
+  "generatedAt": "2026-10-21T13:20:00Z",
   "generatedBy": "nba-agent",
   "feedType": "nba",
-  "title": "NBA Daily News Digest",
-  "subtitle": "October 19, 2026 – On the Eve of Tip-Off!",
-  "badge": "SEASON PREVIEW",
+  "title": "NBA Daily Digest",
+  "subtitle": "October 21, 2026 – Season Opening Thrills!",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "breaking-news",
@@ -13,96 +13,278 @@
       "layout": "featured",
       "items": [
         {
-          "id": "ben-simmons-injury",
-          "headline": "Ben Simmons Out for Season with Torn Achilles",
-          "summary": "Nets F Ben Simmons has reportedly torn his Achilles tendon, sidelining him for the entire 2026-27 NBA season. This devastating injury is a major blow to Brooklyn's aspirations as the league prepares to tip off tomorrow.",
+          "id": "76ers-spoil-knicks-banner",
+          "headline": "76ers Crash Knicks' Banner Celebration, Pistons Stage Massive Comeback",
+          "summary": "The Philadelphia 76ers, led by Tyrese Maxey's 28 points, spoiled the New York Knicks' championship banner-raising ceremony with a 106-100 victory at Madison Square Garden. Meanwhile, the Detroit Pistons overcame a 22-point deficit to defeat the Boston Celtics 121-113 in a stunning season opener.",
           "tags": [
-            "Injury",
-            "Nets",
-            "Ben Simmons"
+            "Knicks",
+            "76ers",
+            "Pistons",
+            "Celtics",
+            "Opening Night"
           ]
         },
         {
-          "id": "wallace-extension-okc",
-          "headline": "Thunder Extend Cason Wallace for 5 Years, $139 Million",
-          "summary": "The OKC Thunder have secured a long-term deal with guard Cason Wallace, agreeing to a five-year, $139 million rookie-scale contract extension. This move, which follows the recent trade of Luguentz Dort, commits Wallace to Oklahoma City through the 2031-32 season and solidifies his role in the backcourt alongside Shai Gilgeous-Alexander.",
+          "id": "injuries-galore",
+          "headline": "Star Power Dented: Key Injuries Ahead of Tonight's Slate",
+          "summary": "Golden State's Stephen Curry is listed as probable with an ankle issue for tonight's clash against the Lakers, who will be without Kristaps Porziņģis and Jimmy Butler III. In Houston, Dallas will be missing Dereck Lively II and Santi Aldama, while Steven Adams and Julian Phillips are questionable for the Rockets. Additionally, Portland's Deni Avdija is questionable for their game against Phoenix due to right ankle soreness.",
           "tags": [
-            "Contract Extension",
-            "Thunder",
-            "Cason Wallace"
+            "Injuries",
+            "Curry",
+            "Porziņģis",
+            "Butler",
+            "Avdija"
           ]
         }
       ]
     },
     {
-      "id": "season-tips-off-tomorrow",
-      "title": "NBA Season Tips Off Tomorrow with Triple-Header!",
-      "cardType": "article",
-      "layout": "featured",
+      "id": "last-nights-games",
+      "title": "Last Night's Games",
+      "cardType": "game",
+      "layout": "grid",
       "items": [
         {
-          "id": "opening-night-preview",
-          "headline": "2026-27 NBA Season Begins with Star-Studded Triple-Header on October 20th",
-          "summary": "The wait is almost over! The 2026-27 NBA regular season officially commences tomorrow, Tuesday, October 20th, with an exciting three-game slate on NBC and Peacock. The action begins at 3:00 PM ET with the Boston Celtics visiting the Detroit Pistons, followed by LeBron James' Philadelphia 76ers debut against the defending champion New York Knicks at 7:00 PM ET, which includes the Knicks' ring ceremony. The night concludes with a highly anticipated rematch of last season's Western Conference Finals: the Oklahoma City Thunder battling Victor Wembanyama and the San Antonio Spurs at 9:30 PM ET.",
+          "id": "det-bos-oct20",
+          "headline": "Pistons Stun Celtics in Season Opener",
+          "summary": "The Detroit Pistons launched a massive comeback, erasing a 22-point deficit to defeat the Boston Celtics 121-113. Cade Cunningham led the charge with 22 points and 8 assists for Detroit.",
           "tags": [
-            "Opening Night",
-            "Season Start",
-            "Schedule",
-            "Knicks",
+            "Pistons",
+            "Celtics"
+          ],
+          "homeTeam": "DET",
+          "awayTeam": "BOS",
+          "homeScore": 121,
+          "awayScore": 113,
+          "gameStatus": "final"
+        },
+        {
+          "id": "phi-nyk-oct20",
+          "headline": "76ers Spoil Knicks' Banner Night",
+          "summary": "Tyrese Maxey's game-high 28 points powered the Philadelphia 76ers to a 106-100 victory over the New York Knicks, dampening the defending champions' banner-raising ceremony. LeBron James added 14 points, 9 rebounds, and 7 assists in his 76ers debut.",
+          "tags": [
             "76ers",
-            "Spurs",
+            "Knicks"
+          ],
+          "homeTeam": "NYK",
+          "awayTeam": "PHI",
+          "homeScore": 100,
+          "awayScore": 106,
+          "gameStatus": "final"
+        },
+        {
+          "id": "okc-sas-oct20",
+          "headline": "Thunder Take Down Spurs",
+          "summary": "The Oklahoma City Thunder opened their season with a 116-104 win over the San Antonio Spurs. Shai Gilgeous-Alexander dominated with 35 points and 9 assists, while Victor Wembanyama posted 22 points and 7 rebounds for the Spurs.",
+          "tags": [
             "Thunder",
-            "Celtics",
-            "Pistons"
-          ]
+            "Spurs"
+          ],
+          "homeTeam": "SAS",
+          "awayTeam": "OKC",
+          "homeScore": 104,
+          "awayScore": 116,
+          "gameStatus": "final"
         }
       ]
     },
     {
-      "id": "around-the-league-news",
-      "title": "Around the League: Pre-Season Buzz & Roster News",
+      "id": "player-highlights",
+      "title": "Player Highlights",
+      "cardType": "stat",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "pg-debut",
+          "headline": "Paul George Explodes for 38 in Celtics Debut",
+          "statLabel": "38 Points",
+          "statValue": "Paul George (BOS)",
+          "statContext": "Led all scorers in his Boston Celtics debut against Detroit."
+        },
+        {
+          "id": "sga-domination",
+          "headline": "Shai Gilgeous-Alexander's Stellar Opening Night",
+          "statLabel": "35 Points, 9 Assists",
+          "statValue": "Shai Gilgeous-Alexander (OKC)",
+          "statContext": "Paced the Thunder to a victory over the Spurs."
+        },
+        {
+          "id": "maxey-leads",
+          "headline": "Tyrese Maxey Lights Up MSG",
+          "statLabel": "28 Points",
+          "statValue": "Tyrese Maxey (PHI)",
+          "statContext": "Led the 76ers in scoring to defeat the Knicks on their banner night."
+        },
+        {
+          "id": "cunningham-duren",
+          "headline": "Cunningham & Duren Power Pistons Comeback",
+          "statLabel": "22 Points, 8 Assists (Cunningham); 22 Points, 9 Rebounds (Duren)",
+          "statValue": "Cade Cunningham & Jalen Duren (DET)",
+          "statContext": "Key performances in Detroit's stunning rally against Boston."
+        },
+        {
+          "id": "lebron-sixers-debut",
+          "headline": "LeBron James' Impactful 76ers Debut",
+          "statLabel": "14 Points, 9 Rebounds, 7 Assists",
+          "statValue": "LeBron James (PHI)",
+          "statContext": "Showcased his all-around game in his first official outing with Philadelphia."
+        }
+      ]
+    },
+    {
+      "id": "tonights-games",
+      "title": "Tonight's Games",
+      "cardType": "game",
+      "layout": "list",
+      "items": [
+        {
+          "id": "mil-was-oct21",
+          "headline": "Bucks at Wizards",
+          "tags": [
+            "Bucks",
+            "Wizards"
+          ],
+          "homeTeam": "WAS",
+          "awayTeam": "MIL",
+          "gameStatus": "scheduled",
+          "gameTime": "7:00 PM ET"
+        },
+        {
+          "id": "atl-orl-oct21",
+          "headline": "Hawks at Magic",
+          "tags": [
+            "Hawks",
+            "Magic"
+          ],
+          "homeTeam": "ORL",
+          "awayTeam": "ATL",
+          "gameStatus": "scheduled",
+          "gameTime": "7:00 PM ET"
+        },
+        {
+          "id": "min-mia-oct21",
+          "headline": "Timberwolves at Heat",
+          "tags": [
+            "Timberwolves",
+            "Heat"
+          ],
+          "homeTeam": "MIA",
+          "awayTeam": "MIN",
+          "gameStatus": "scheduled",
+          "gameTime": "7:30 PM ET"
+        },
+        {
+          "id": "cha-bkn-oct21",
+          "headline": "Hornets at Nets",
+          "tags": [
+            "Hornets",
+            "Nets"
+          ],
+          "homeTeam": "BKN",
+          "awayTeam": "CHA",
+          "gameStatus": "scheduled",
+          "gameTime": "7:30 PM ET"
+        },
+        {
+          "id": "chi-tor-oct21",
+          "headline": "Bulls at Raptors",
+          "tags": [
+            "Bulls",
+            "Raptors"
+          ],
+          "homeTeam": "TOR",
+          "awayTeam": "CHI",
+          "gameStatus": "scheduled",
+          "gameTime": "7:30 PM ET"
+        },
+        {
+          "id": "ind-nop-oct21",
+          "headline": "Pacers at Pelicans",
+          "tags": [
+            "Pacers",
+            "Pelicans"
+          ],
+          "homeTeam": "NOP",
+          "awayTeam": "IND",
+          "gameStatus": "scheduled",
+          "gameTime": "8:00 PM ET"
+        },
+        {
+          "id": "uta-mem-oct21",
+          "headline": "Jazz at Grizzlies",
+          "tags": [
+            "Jazz",
+            "Grizzlies"
+          ],
+          "homeTeam": "MEM",
+          "awayTeam": "UTA",
+          "gameStatus": "scheduled",
+          "gameTime": "8:00 PM ET"
+        },
+        {
+          "id": "dal-hou-oct21",
+          "headline": "Mavericks at Rockets",
+          "tags": [
+            "Mavericks",
+            "Rockets"
+          ],
+          "homeTeam": "HOU",
+          "awayTeam": "DAL",
+          "gameStatus": "scheduled",
+          "gameTime": "8:30 PM ET"
+        },
+        {
+          "id": "gsw-lal-oct21",
+          "headline": "Warriors at Lakers",
+          "tags": [
+            "Warriors",
+            "Lakers"
+          ],
+          "homeTeam": "LAL",
+          "awayTeam": "GSW",
+          "gameStatus": "scheduled",
+          "gameTime": "10:00 PM ET"
+        },
+        {
+          "id": "phx-por-oct21",
+          "headline": "Suns at Trail Blazers",
+          "tags": [
+            "Suns",
+            "Trail Blazers"
+          ],
+          "homeTeam": "POR",
+          "awayTeam": "PHX",
+          "gameStatus": "scheduled",
+          "gameTime": "10:00 PM ET"
+        },
+        {
+          "id": "sac-lac-oct21",
+          "headline": "Kings at Clippers",
+          "tags": [
+            "Kings",
+            "Clippers"
+          ],
+          "homeTeam": "LAC",
+          "awayTeam": "SAC",
+          "gameStatus": "scheduled",
+          "gameTime": "10:30 PM ET"
+        }
+      ]
+    },
+    {
+      "id": "around-the-league",
+      "title": "Around the League",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "curry-ankle-update",
-          "headline": "Stephen Curry Tweaks Ankle, Expected for Warriors' Opener",
-          "summary": "Golden State Warriors star Stephen Curry reportedly tweaked his ankle during practice but is expected to be 'fine' for the team's season opener on Wednesday. Coach Steve Kerr downplayed the severity, classifying it as a sprain, but his status will be closely monitored.",
+          "id": "nba-cup-tournament",
+          "headline": "Inaugural Emirates NBA Cup Group Play Tips Off Soon",
+          "summary": "The fourth edition of the in-season NBA Cup tournament, now sponsored by Emirates, is scheduled to commence group play on October 30, 2026, adding an exciting new element to the early regular season.",
           "tags": [
-            "Injury Update",
-            "Warriors",
-            "Stephen Curry"
-          ]
-        },
-        {
-          "id": "knicks-contract-talks",
-          "headline": "Knicks Pause Extension Talks with Karl-Anthony Towns, Josh Hart",
-          "summary": "Amid their championship defense preparations, the New York Knicks have reportedly paused contract extension talks with star center Karl-Anthony Towns and guard Josh Hart. Towns expressed disappointment with the public announcement, adding a potential distraction as the team aims for a repeat.",
-          "tags": [
-            "Knicks",
-            "Contract Talks",
-            "Karl-Anthony Towns",
-            "Josh Hart"
-          ]
-        },
-        {
-          "id": "lebron-76ers-debut",
-          "headline": "LeBron James Set for 76ers Debut Against Reigning Champion Knicks",
-          "summary": "LeBron James, now 41, is slated to make his highly anticipated debut with the Philadelphia 76ers tomorrow against the New York Knicks at Madison Square Garden. James, alongside Jaylen Brown, joins Joel Embiid and Tyrese Maxey on a retooled Sixers squad aiming for an immediate Eastern Conference impact.",
-          "tags": [
-            "LeBron James",
-            "76ers",
-            "Player Debut"
-          ]
-        },
-        {
-          "id": "lakers-preseason",
-          "headline": "New-Look Lakers Aim to Contend with Doncic Leading the Charge",
-          "summary": "The Los Angeles Lakers, featuring a rebuilt roster around Luka Doncic, Austin Reaves, and Walker Kessler, concluded their preseason looking to prove their title contention. Coach JJ Redick is still finalizing the remaining two starting spots for a team that added depth with players like Quentin Grimes and Collin Sexton.",
-          "tags": [
-            "Lakers",
-            "Roster",
-            "Preseason"
+            "NBA Cup",
+            "Tournament",
+            "Emirates"
           ]
         }
       ]
