@@ -1,163 +1,201 @@
 {
-  "generatedAt": "2026-10-21T16:17:00Z",
+  "generatedAt": "2026-10-21T19:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 21, 2026 - After Market Close",
-  "badge": "LIVE",
+  "subtitle": "Looking Back at October 20, 2026 Session",
+  "badge": "Previous Close",
   "sections": [
     {
-      "id": "market-pulse-oct21",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct21",
-          "headline": "U.S. Stocks Show Mixed Performance, Boosted by AI Optimism and Earnings",
-          "summary": "U.S. equities closed a mixed session today, October 21, 2026, with the Dow Jones Industrial Average advancing significantly, while the S&P 500 saw modest gains and the Nasdaq Composite edged lower. Positive earnings from key AI-related companies, notably SpaceX and Super Micro Computer, bolstered market sentiment, offsetting concerns related to rising oil prices and disappointing reports from some consumer-facing companies.",
+          "id": "market-summary-oct20",
+          "headline": "Markets Mixed on October 20th as Dow Rallies, Tech Wanes Amid Earnings and Geopolitical Tensions",
+          "summary": "On Tuesday, October 20, 2026, U.S. markets concluded with mixed results. The Dow Jones Industrial Average posted a strong gain, advancing over 1%, while the S&P 500 saw a modest increase of 0.28%. In contrast, the technology-heavy Nasdaq Composite edged slightly lower, reflecting ongoing investor caution around AI valuations and a rotation towards more established industries. The session was influenced by solid corporate earnings reports and a moderation in oil prices.",
           "tags": [
-            "Market Summary",
-            "AI",
-            "Earnings",
-            "Oil Prices"
+            "Market Close",
+            "October 20, 2026",
+            "Mixed Performance"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-oct21",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices (October 20, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance-oct21",
+          "id": "sp500",
           "statLabel": "S&P 500",
-          "statValue": "7,712.57",
-          "statContext": "+0.28% (+21.84 points) today."
+          "statValue": "$7,712.57",
+          "statContext": "+0.28% (+$21.84)",
+          "change": "+$21.84",
+          "changePercent": "+0.28%",
+          "direction": "up",
+          "price": "$7,712.57",
+          "ticker": "^GSPC"
         },
         {
-          "id": "nasdaq-performance-oct21",
+          "id": "nasdaq",
           "statLabel": "NASDAQ Composite",
-          "statValue": "26,424.82",
-          "statContext": "-0.02% (-6.07 points) today."
+          "statValue": "$26,424.82",
+          "statContext": "-0.02% (-$5.28)",
+          "change": "-$5.28",
+          "changePercent": "-0.02%",
+          "direction": "down",
+          "price": "$26,424.82",
+          "ticker": "^IXIC"
         },
         {
-          "id": "dow-performance-oct21",
+          "id": "dow",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,495.88",
-          "statContext": "+1.02% (+529.85 points) today."
+          "statValue": "$52,495.88",
+          "statContext": "+1.02% (+$535.46)",
+          "change": "+$535.46",
+          "changePercent": "+1.02%",
+          "direction": "up",
+          "price": "$52,495.88",
+          "ticker": "^DJI"
         }
       ]
     },
     {
-      "id": "top-movers-oct21",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers (October 20, 2026 Close)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "smci-gainer",
-          "headline": "Super Micro Computer Jumps on Upgraded Revenue Outlook",
-          "summary": "Shares of Super Micro Computer ($SMCI) surged over 10% today, closing at $36.02, up +$3.55 (+10.93%), after the company significantly raised its preliminary Q1 FY2027 revenue outlook to between $18.5 billion and $19.5 billion from an earlier forecast of $14.5 billion to $15.5 billion. This substantial increase was attributed to robust demand for its AI platforms.",
-          "ticker": "$SMCI",
-          "price": "$36.02",
-          "change": "+$3.55",
-          "changePercent": "+10.93%",
-          "direction": "up"
+          "id": "gain-moderna",
+          "headline": "Moderna surges on trial anticipation",
+          "summary": "Moderna ($MRNA) saw a significant jump of +6.1% to $240.74, reaching a new 52-week high in intraday trading. The rally was fueled by investor anticipation of upcoming melanoma trial results, which could also benefit other companies in the healthcare sector.",
+          "ticker": "$MRNA",
+          "price": "$240.74",
+          "change": "+$13.84",
+          "changePercent": "+6.1%",
+          "direction": "up",
+          "tags": [
+            "Healthcare",
+            "Biotech"
+          ]
         },
         {
-          "id": "spcx-gainer",
-          "headline": "SpaceX Climbs on Strong Q3 Earnings, AI Business Growth",
-          "summary": "SpaceX ($SPCX) shares advanced over 11% today after the company reported stronger-than-expected Q3 earnings and revenue. The rocket launch and satellite communications firm saw its revenue climb to $14.6 billion, a 161% year-over-year increase, driven largely by its Super Intelligence artificial intelligence segment, which surged 830% year-over-year.",
-          "ticker": "$SPCX",
+          "id": "gain-gopro",
+          "headline": "GoPro leads gainers",
+          "summary": "GoPro ($GPRO) finished as one of the top gainers, advancing +7.7% to $1.12. Specific drivers for the movement were not immediately apparent from available information.",
+          "ticker": "$GPRO",
+          "price": "$1.12",
+          "change": "+$0.08",
+          "changePercent": "+7.7%",
+          "direction": "up",
+          "tags": [
+            "Consumer Electronics"
+          ]
+        },
+        {
+          "id": "gain-3m",
+          "headline": "3M jumps on earnings beat",
+          "summary": "3M ($MMM) climbed +6% following a robust earnings beat and news of an expanded data-center partnership with Amazon.com, which led the company to raise its annual profit forecast.",
+          "ticker": "$MMM",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+11.1%",
-          "direction": "up"
+          "changePercent": "+6.0%",
+          "direction": "up",
+          "tags": [
+            "Industrials",
+            "Earnings"
+          ]
         },
         {
-          "id": "cof-gainer",
-          "headline": "Capital One Financial Rises on Positive Earnings Report",
-          "summary": "Capital One Financial ($COF) saw its stock price increase by +4.11%, reaching $209.84, as it rallied on profit reports that topped analysts' expectations, contributing to overall market strength.",
-          "ticker": "$COF",
-          "price": "$209.84",
-          "change": "N/A",
-          "changePercent": "+4.11%",
-          "direction": "up"
+          "id": "loser-gm",
+          "headline": "General Motors tumbles on cost concerns",
+          "summary": "General Motors ($GM) was a notable loser, falling -7.5% to $76.56. The decline came as rising cost pressures overshadowed strong truck sales, despite the company's board approving a new $20 billion share repurchase authorization.",
+          "ticker": "$GM",
+          "price": "$76.56",
+          "change": "-$6.19",
+          "changePercent": "-7.5%",
+          "direction": "down",
+          "tags": [
+            "Automotive",
+            "Earnings"
+          ]
         },
         {
-          "id": "nflx-loser",
-          "headline": "Netflix Shares Decline Post-Earnings on Ad Revenue Cut",
-          "summary": "Netflix ($NFLX) shares fell about 6% after hours, following its earnings report. While the company's EPS of $0.87 beat estimates and revenue of $12.87 billion was in line, investors reacted negatively to a cut in its 2026 ad revenue forecast from $3 billion to approximately $2.7 billion, indicating the slowest growth in three years.",
+          "id": "loser-netflix",
+          "headline": "Netflix slides on weak guidance",
+          "summary": "Netflix ($NFLX) experienced a significant drop of approximately -5.6% in after-hours trading. The decline followed the company's release of weaker-than-expected fourth-quarter revenue guidance and a lowered full-year advertising revenue forecast.",
           "ticker": "$NFLX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.0%",
-          "direction": "down"
+          "changePercent": "-5.6%",
+          "direction": "down",
+          "tags": [
+            "Technology",
+            "Streaming",
+            "Earnings"
+          ]
+        },
+        {
+          "id": "loser-ge-aerospace",
+          "headline": "GE Aerospace among top decliners",
+          "summary": "GE Aerospace ($GE) fell -3.8% to $299.39, placing it among the session's notable decliners.",
+          "ticker": "$GE",
+          "price": "$299.39",
+          "change": "-$11.83",
+          "changePercent": "-3.8%",
+          "direction": "down",
+          "tags": [
+            "Aerospace",
+            "Industrials"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-oct21",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News (October 20, 2026)",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-oct21",
-          "headline": "Consumer Discretionary and Tech Lead, Utilities and Real Estate Lag",
-          "summary": "Today's market saw the Consumer Discretionary Select Sector SPDR (XLY) and Information Technology Select Sector SPDR (XLK) lead gains, rising by 1.8% and 1.4% respectively, driven by renewed AI optimism. Conversely, the Utilities Select Sector SPDR (XLU) and Real Estate Select Sector SPDR (XLRE) were among the weakest performers, falling 2% and 1.2% respectively, as eight out of eleven sectors of the broad market index ended in negative territory.",
+          "id": "sector-analysis",
+          "headline": "Healthcare Leads Gains, Tech and Communication Services Lag",
+          "summary": "The Healthcare sector emerged as the top-performing sector, boasting a 2.34% gain, largely driven by strong performances from companies like Moderna and Bristol-Myers Squibb. Utilities also showed strength. In contrast, Communication Services was the weakest, falling 0.89%. The technology sector, particularly semiconductors, also faced pressure amid concerns over AI infrastructure financing. A notable sector rotation was observed, with investors shifting away from highly-valued technology stocks towards more established 'blue-chip' companies.",
           "tags": [
             "Sector Performance",
-            "Consumer Discretionary",
+            "Healthcare",
             "Technology",
-            "Utilities",
-            "Real Estate"
+            "Sector Rotation"
           ]
         },
         {
-          "id": "fed-outlook-oct21",
-          "headline": "Fed's Next Rate Decision Looms as Inflation Remains Elevated",
-          "summary": "The Federal Reserve's next interest rate decision is scheduled for October 27 and 28, with market participants anticipating a potential rate hike by year-end. Minutes from the September meeting indicated most officials believe another increase in the federal funds rate target range would likely be appropriate. Consumer prices for the 12 months ending in September rose to 3.7%, up from 3.4% in August, maintaining pressure on the Fed to address elevated inflation.",
+          "id": "earnings-reports",
+          "headline": "Mixed Earnings Season Continues: SpaceX Shines, Netflix Guides Lower",
+          "summary": "Several major companies reported earnings. SpaceX ($SPCX) announced a substantial 161% year-over-year revenue increase, with its 'Super Intelligence' (AI) business becoming its primary revenue source. Other strong reports came from 3M, Hasbro, Equifax, Intuitive Surgical ($ISRG), RTX ($RTX), General Motors ($GM), and Capital One Financial ($COF). Conversely, Netflix ($NFLX) disappointed investors with weaker-than-expected Q4 revenue guidance and a reduced full-year advertising revenue forecast, leading to an after-hours stock decline.",
           "tags": [
+            "Earnings",
+            "Corporate News",
+            "SpaceX",
+            "Netflix",
+            "3M"
+          ]
+        },
+        {
+          "id": "economic-data-fed",
+          "headline": "Fed Holds Closed Meeting Amidst Rate Hike Speculation; Economic Data Shows Mixed Signals",
+          "summary": "The Federal Reserve Board held a closed meeting on October 20, 2026, for a periodic briefing and discussion on financial markets and institutions. While markets are currently pricing an 86% chance of the Fed holding rates steady at its upcoming October 28 meeting, Bank of America maintains its forecast for a rate hike. Economic data released included a 5.2% fall in September housing starts, though building permits saw only a slight 0.2% dip. Additionally, oil prices eased, and the 10-Year Treasury yield declined, providing some relief from inflation concerns.",
+          "tags": [
+            "Economic News",
             "Federal Reserve",
             "Interest Rates",
-            "Inflation",
-            "Economic Data"
-          ]
-        },
-        {
-          "id": "housing-data-oct21",
-          "headline": "Homebuilder Sentiment and Pending Home Sales Hit Lows",
-          "summary": "Economic data released today highlighted significant weakness in the housing sector. Homebuilder sentiment dropped to its lowest level since 2012, while U.S. pending home sales in September fell 7.3%, significantly missing expectations and reaching a record low. This indicates elevated borrowing costs are weighing heavily on the interest-rate-sensitive housing market.",
-          "tags": [
-            "Housing Market",
-            "Economic Data",
-            "Interest Rates",
-            "Consumer Sentiment"
-          ]
-        },
-        {
-          "id": "tesla-meta-earnings-oct21",
-          "headline": "Tesla and Meta Platforms Awaited Post-Market Earnings",
-          "summary": "Investors are closely watching for after-market earnings reports from tech giants Tesla ($TSLA) and Meta Platforms ($META) today. Tesla's results will follow news that both its board and SpaceX's board have formed independent special committees to review a possible merger, a development Elon Musk noted is not yet a finalized deal.",
-          "tags": [
-            "Earnings Reports",
-            "Tesla",
-            "Meta Platforms",
-            "M&A"
-          ]
-        },
-        {
-          "id": "oil-prices-oct21",
-          "headline": "Oil Prices Fluctuate Amid Geopolitical Tensions",
-          "summary": "Oil prices showed mixed signals today, with Brent crude closing near $110 a barrel amid reports of attacks on vessels around the Strait of Hormuz, suggesting ongoing geopolitical tensions. However, other reports indicated WTI crude fell 1.8% to about $102 on hopes of U.S.-Iran diplomacy, creating conflicting pressures on energy markets.",
-          "tags": [
-            "Oil Prices",
-            "Geopolitics",
-            "Energy Market"
+            "Housing Data",
+            "Commodities"
           ]
         }
       ]
