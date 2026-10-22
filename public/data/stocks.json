@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-22T16:16:00Z",
+  "generatedAt": "2026-10-22T19:49:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 22, 2026",
-  "badge": "LIVE",
+  "subtitle": "October 22, 2026 Close",
+  "badge": "Market Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -14,114 +14,107 @@
       "items": [
         {
           "id": "market-summary-oct22",
-          "headline": "Tech Sector Leads Early Declines Amid AI Spending Concerns and Rising Oil Prices",
-          "summary": "U.S. equities opened lower on Thursday, primarily driven by a sharp retreat in technology stocks as renewed doubts concerning AI infrastructure spending resurfaced. This downward pressure was exacerbated by surging crude oil prices, which jumped above $111 a barrel due to escalating Middle East tensions, fueling inflation worries. The negative sentiment follows a positive close on Wednesday, where strong third-quarter earnings had provided a boost to the major indices."
+          "headline": "Tech Sector Leads Market Decline Amid AI Spending Worries and Surging Oil Prices",
+          "summary": "U.S. equities concluded Thursday's session broadly lower, with the tech-heavy Nasdaq Composite experiencing significant losses. Investor sentiment was dampened by concerns over substantial AI infrastructure spending revealed in major tech earnings, coupled with rising crude oil prices due to escalating geopolitical tensions in the Middle East. Defensive sectors, including Consumer Staples and Health Care, showed resilience amidst the broader market retreat, suggesting a rotation away from growth stocks. Not financial advice.",
+          "tags": [
+            "Market Overview",
+            "Tech Selloff",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Wednesday's Close)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-wednesday",
-          "headline": "S&P 500",
-          "statLabel": "Close",
-          "statValue": "7,757.17",
-          "statContext": "+0.6% on Wednesday",
-          "change": "+44.60",
-          "changePercent": "+0.6%",
-          "direction": "up"
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,683.20",
+          "statContext": "Down 1.07% Today"
         },
         {
-          "id": "nasdaq-wednesday",
-          "headline": "NASDAQ Composite",
-          "statLabel": "Close",
-          "statValue": "26,702.86",
-          "statContext": "+1.1% on Wednesday",
-          "change": "+278.04",
-          "changePercent": "+1.1%",
-          "direction": "up"
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,121.00",
+          "statContext": "Down 2.18% Today"
         },
         {
-          "id": "dow-wednesday",
-          "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
-          "statValue": "52,856.09",
-          "statContext": "+0.7% on Wednesday",
-          "change": "+360.21",
-          "changePercent": "+0.7%",
-          "direction": "up"
+          "id": "dow-performance",
+          "statLabel": "Dow Jones Ind. Average",
+          "statValue": "52,874.60",
+          "statContext": "Down 0.07% Today"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Today's Trading - as of 9:51 AM ET)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "bhvn-gainer",
-          "headline": "Biohaven Ltd. Common Shares",
-          "ticker": "$BHVN",
-          "price": "$15.19",
-          "change": "+$3.44",
-          "changePercent": "+29.3%",
-          "direction": "up",
-          "summary": "BHVN emerged as a top gainer in early trading."
+          "id": "alle-gainer",
+          "headline": "Allegion Surges on Rotation and Earnings Outlook",
+          "summary": "Allegion PLC ($ALLE) jumped 10.31% to $174.15, marking the top intraday performer in the S&P 500. This rally occurred despite an overall market decline and may reflect investor rotation into industrial and security solutions ahead of its earnings release.",
+          "ticker": "$ALLE",
+          "price": "$174.15",
+          "change": "+$16.29",
+          "changePercent": "+10.31%",
+          "direction": "up"
         },
         {
           "id": "saiq-gainer",
-          "headline": "Wisesat Space Holdings",
+          "headline": "Wisesat Space Holdings Leads Smaller Cap Gains",
+          "summary": "Wisesat Space Holdings ($SAIQ) saw a significant surge, rising 37.4% to $7.64 during today's trading.",
           "ticker": "$SAIQ",
-          "price": "$6.99",
-          "change": "+$1.43",
-          "changePercent": "+25.7%",
-          "direction": "up",
-          "summary": "SAIQ saw significant upward movement during today's session."
+          "price": "$7.64",
+          "change": "+$2.08",
+          "changePercent": "+37.4%",
+          "direction": "up"
         },
         {
-          "id": "lmtl-gainer",
-          "headline": "Direxion Daily Lmt Bull 2X ETF",
-          "ticker": "$LMTL",
-          "price": "$39.74",
-          "change": "+$5.87",
-          "changePercent": "+17.3%",
-          "direction": "up",
-          "summary": "The leveraged ETF $LMTL posted strong gains today."
+          "id": "bhvn-gainer",
+          "headline": "Biohaven Shares Climb on Strong Performance",
+          "summary": "Biohaven Ltd. ($BHVN) experienced a notable increase of 24.7%, closing at $14.65.",
+          "ticker": "$BHVN",
+          "price": "$14.65",
+          "change": "+$2.90",
+          "changePercent": "+24.7%",
+          "direction": "up"
         },
         {
           "id": "avtx-loser",
-          "headline": "Avalo Therapeutics",
+          "headline": "Avalo Therapeutics Plunges",
+          "summary": "Avalo Therapeutics, Inc. ($AVTX) was among the biggest decliners today, dropping 36.5%.",
           "ticker": "$AVTX",
-          "price": "$7.28",
-          "change": "-$4.99",
-          "changePercent": "-40.6%",
-          "direction": "down",
-          "summary": "AVTX experienced a sharp decline in early trading."
+          "price": "$0.65",
+          "change": "-$0.37",
+          "changePercent": "-36.5%",
+          "direction": "down"
         },
         {
           "id": "nvec-loser",
-          "headline": "Nve",
+          "headline": "NVE Corp. Sees Steep Decline",
+          "summary": "NVE Corp. ($NVEC) shares fell sharply, down 32.9% by midday.",
           "ticker": "$NVEC",
-          "price": "$72.97",
-          "change": "-$30.07",
-          "changePercent": "-29.2%",
-          "direction": "down",
-          "summary": "NVEC was among the biggest losers of the day."
+          "price": "$43.95",
+          "change": "-$21.57",
+          "changePercent": "-32.9%",
+          "direction": "down"
         },
         {
-          "id": "ttmi-loser",
-          "headline": "TTM Technologies",
-          "ticker": "$TTMI",
-          "price": "$81.48",
-          "change": "-$20.62",
-          "changePercent": "-20.2%",
-          "direction": "down",
-          "summary": "Despite reporting record Q3 net sales, TTM Technologies saw its stock price fall significantly."
+          "id": "meta-loser",
+          "headline": "Meta Platforms Shares Slide on AI Spending Concerns",
+          "summary": "Meta Platforms ($META) fell 5.89% to $656.41. Despite reporting a strong quarter, the tech giant's negative free cash flow for the first time since 2012, amidst an 80% year-on-year increase in AI infrastructure spending, unnerved investors.",
+          "ticker": "$META",
+          "price": "$656.41",
+          "change": "-$41.11",
+          "changePercent": "-5.89%",
+          "direction": "down"
         }
       ]
     },
@@ -132,41 +125,50 @@
       "layout": "list",
       "items": [
         {
-          "id": "economic-data-btos-lei",
-          "headline": "U.S. Economic Data Releases Point to Continued Growth",
-          "summary": "The U.S. Census Bureau released new data from its Business Trends and Outlook Survey (BTOS) today, providing continuous, timely insights into business conditions. Separately, The Conference Board reported that its Leading Economic Index® (LEI) for the US was unchanged in September 2026, following a slight decline in August. The LEI's six-month growth rate showed a modest increase, suggesting the economy is still expanding, driven more by business investment than consumer spending. Real GDP growth is projected at 2.2% for 2026. Additionally, initial jobless claims unexpectedly fell to the lowest level since July.",
+          "id": "tech-selloff-ai",
+          "headline": "Technology Sector Leads Market Selloff as AI Doubts Resurface",
+          "summary": "The technology sector experienced a significant downturn today, with the Nasdaq Composite falling over 2%. This decline was largely driven by renewed investor concerns about the substantial costs associated with AI investments and unclear timelines for profitability, especially following earnings reports from major tech companies.",
           "tags": [
-            "Economic Data",
-            "GDP Forecast"
+            "Technology",
+            "AI",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "oil-prices-surge",
-          "headline": "Oil Prices Jump Amid Escalating Middle East Tensions",
-          "summary": "Brent crude surged past $111 a barrel on Thursday, reaching approximately $112, a near five-month high. This spike is attributed to renewed Houthi attacks in Saudi Arabia and reports of damage to oil tankers in the Strait of Hormuz, intensifying fears of supply disruptions and a broader conflict in the Middle East. The rise in oil prices has contributed to a risk-off sentiment in global equity markets.",
+          "id": "oil-prices-geopolitics",
+          "headline": "Oil Prices Surge to Five-Month High Amidst Middle East Tensions",
+          "summary": "Crude oil prices climbed, with Brent crude touching $113 a barrel, nearing a five-month high. The increase is attributed to ongoing geopolitical tensions in the Middle East, sparking fears of supply disruptions and a wider regional conflict, which is adding to inflationary concerns.",
           "tags": [
-            "Commodities",
+            "Energy",
             "Geopolitics",
             "Inflation"
           ]
         },
         {
-          "id": "tech-retreat-ai-concerns",
-          "headline": "Tech Sector Retreats as AI Capex Fears Return",
-          "summary": "The technology sector, particularly AI-linked companies, experienced a downturn on Thursday as investors expressed renewed doubts about artificial intelligence infrastructure spending. Nasdaq 100 futures fell 1.7% in early trading. This sentiment was partly fueled by Meta Platforms' ($META) report of negative free cash flow for the first time since 2012, despite beating revenue expectations, amid an 80% year-over-year increase in AI infrastructure spending. Tesla's ($TSLA) shares also fell post-earnings, with a cautious outlook on Optimus, delayed robotaxi revenue, and high chipmaking costs overshadowing an EPS beat.",
+          "id": "defensives-outperform",
+          "headline": "Defensive Sectors Show Strength Amidst Market Volatility",
+          "summary": "Amidst the broader market decline, defensive sectors like Consumer Staples, Health Care, and Utilities demonstrated relative strength. The Consumer Staples Select Sector SPDR Fund ($XLP) rose 2.09%, and the Health Care Select Sector SPDR Fund ($XLV) gained 1.47%, indicating a rotation of capital into more stable areas of the market.",
           "tags": [
-            "Technology",
-            "AI",
-            "Earnings"
+            "Sector Rotation",
+            "Defensive Stocks"
           ]
         },
         {
-          "id": "earnings-roundup",
-          "headline": "Key Company Earnings Reports Highlight Mixed Performance",
-          "summary": "Several major companies released their third-quarter 2026 earnings today. Nasdaq, Inc. ($NDAQ) reported robust results, beating revenue expectations with $1.5 billion and adjusted EPS of $1.04, driven by a 17% increase in Solutions revenue. Lockheed Martin ($LMT) announced strong sales of $20.7 billion, up 11% year-over-year, and a record backlog of $292.0 billion. Procter & Gamble ($PG) advanced 6% after exceeding FQ1 expectations with 4% organic sales growth. Conversely, Blackstone ($BX) missed revenue estimates, and American Airlines Group Inc. ($AAL) reported a GAAP net loss of $269 million and forecasted another quarterly loss due to surging fuel costs, despite strong revenue growth. TTM Technologies ($TTMI) posted record net sales and non-GAAP net income, however, its stock was a top decliner today.",
+          "id": "economic-data-jobless-claims",
+          "headline": "U.S. Jobless Claims Fall to Three-Month Low, Signaling Stable Labor Market",
+          "summary": "Economic data released today showed that U.S. initial jobless claims unexpectedly fell to a historically low 194,000, reaching its lowest point in three months. This suggests continued stability in the labor market, even as continuing claims saw a slight increase.",
           "tags": [
-            "Earnings",
-            "Corporate News"
+            "Economic Data",
+            "Labor Market"
+          ]
+        },
+        {
+          "id": "fed-outlook",
+          "headline": "Federal Reserve Meeting Next Week with Focus on Rate Hike Probabilities",
+          "summary": "The Federal Reserve is scheduled to meet next week, October 27-28. Market probabilities indicate an 18% chance of a rate increase at that meeting, with a higher 75% probability for a rate hike in December.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates"
           ]
         }
       ]
