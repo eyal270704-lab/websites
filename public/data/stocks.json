@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-23T16:05:00Z",
+  "generatedAt": "2026-10-23T19:51:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 23, 2026",
-  "subtitle": "Market sentiment weighed by tech sell-off, rising oil prices",
-  "badge": "LIVE",
+  "title": "Daily Market Digest",
+  "subtitle": "Friday, October 23, 2026",
+  "badge": "Market Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,110 +13,118 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct23",
-          "headline": "U.S. Stocks Slide Amid Tech Sell-Off and Surging Oil Prices",
-          "summary": "U.S. equities are predominantly lower today, continuing a trend from Thursday's session, as investor concerns over artificial intelligence (AI) spending sustainability and geopolitical tensions in the Middle East, pushing crude oil prices higher, dampen market sentiment. The S&P 500 and Nasdaq are recording declines, while the Dow Jones Industrial Average is also down, indicating broad-market pressure.",
+          "id": "market-summary",
+          "headline": "Tech Sell-off Drags S&P 500 and Nasdaq Lower, Dow Posts Marginal Gain",
+          "summary": "U.S. stock markets closed predominantly lower today as concerns mounted over the sustainability of artificial intelligence (AI) spending and rising crude oil prices. The tech-heavy Nasdaq Composite experienced its worst single-day performance since early June, while the S&P 500 also tumbled. The Dow Jones Industrial Average, however, managed a slight gain amid the broader market jitters.",
           "tags": [
-            "Market Overview",
-            "Tech Sell-off",
-            "Oil Prices",
-            "Geopolitics"
-          ],
-          "timestamp": "2026-10-23T16:05:00Z"
+            "Market Close",
+            "AI Concerns",
+            "Oil Prices"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices (Intraday, Oct 23, 2026)",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
           "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,624.93",
-          "statContext": "Down 0.5% today. The index fell 1.2% to 7,663.43 on Thursday, marking its worst day since July."
+          "statValue": "7,663.43",
+          "statContext": "Down 1.2% (at close)"
         },
         {
           "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,982.87",
-          "statContext": "Down 0.1% today. The tech-heavy index plunged 2.6% or 694 points to 26,008.86 on Thursday."
+          "statValue": "26,008.86",
+          "statContext": "Down 2.6% (694 points, at close)"
         },
         {
           "id": "dow-performance",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,273.98",
-          "statContext": "Down 1.1% today. The Dow posted a marginal gain of 11.89 points to close at 52,867.98 on Thursday."
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "52,867.98",
+          "statContext": "Up 0.02% (11.89 points, at close)"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers (Intraday, Oct 23, 2026)",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "spot-gainer",
-          "headline": "Spotify Surges on Strong Q4 Outlook",
-          "ticker": "$SPOT",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+9.00%",
-          "direction": "up",
-          "summary": "Spotify shares rose after the music streaming firm forecast fourth-quarter profit above Wall Street estimates, buoyed by its AI-powered features designed to drive user growth."
+          "id": "gainer-aiok",
+          "headline": "Ai Okto Corp. surges on undisclosed news",
+          "summary": "Ai Okto Corp. ($AIOK) saw a substantial rise, leading gainers midday.",
+          "ticker": "$AIOK",
+          "price": "$12.40",
+          "change": "+$8.13",
+          "changePercent": "+191.8%",
+          "direction": "up"
         },
         {
-          "id": "pg-gainer",
-          "headline": "Procter & Gamble Jumps After Earnings Beat",
+          "id": "gainer-bolt",
+          "headline": "Bolt Biotherapeutics continues upward trend",
+          "summary": "Bolt Biotherapeutics ($BOLT) experienced significant gains in intraday trading.",
+          "ticker": "$BOLT",
+          "price": "$6.80",
+          "change": "+$2.61",
+          "changePercent": "+62.3%",
+          "direction": "up"
+        },
+        {
+          "id": "gainer-pg",
+          "headline": "Procter & Gamble climbs after earnings",
+          "summary": "Procter & Gamble ($PG) closed higher, likely boosted by positive earnings reports from the consumer sector.",
           "ticker": "$PG",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+6.10%",
-          "direction": "up",
-          "summary": "Procter & Gamble saw its stock climb to a near eight-month high after the consumer goods giant surpassed first-quarter earnings estimates."
+          "changePercent": "+5.58%",
+          "direction": "up"
         },
         {
-          "id": "mu-gainer",
-          "headline": "Micron Technology Posts Solid Gains",
-          "ticker": "$MU",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+3.50%",
-          "direction": "up",
-          "summary": "Micron Technology shares recorded notable gains today, helping to offset some of the broader market pressure."
+          "id": "loser-davi",
+          "headline": "Davion Healthcare PLC plummets on market concerns",
+          "summary": "Davion Healthcare PLC ($DAVI) led decliners with a significant drop in its stock price.",
+          "ticker": "$DAVI",
+          "price": "$5.95",
+          "change": "-$5.69",
+          "changePercent": "-48.9%",
+          "direction": "down"
         },
         {
-          "id": "axp-loser",
-          "headline": "American Express Falls on Workforce Reduction Plans",
-          "ticker": "$AXP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-2.85%",
-          "direction": "down",
-          "summary": "American Express shares declined after the credit card giant's CEO announced plans to eliminate approximately 5% of its global workforce, incurring a $336 million restructuring charge in the third quarter."
+          "id": "loser-tanh",
+          "headline": "Tantech Hldgs experiences sharp decline",
+          "summary": "Tantech Hldgs ($TANH) faced considerable selling pressure during the trading session.",
+          "ticker": "$TANH",
+          "price": "$15.31",
+          "change": "-$9.15",
+          "changePercent": "-38.3%",
+          "direction": "down"
         },
         {
-          "id": "slm-loser",
-          "headline": "Sallie Mae Tumbles on Q3 Loss and Weak Guidance",
-          "ticker": "$SLM",
+          "id": "loser-meta",
+          "headline": "Meta Platforms falls despite strong earnings amid AI spending concerns",
+          "summary": "Meta Platforms Inc. ($META) stock declined significantly following strong Q3 earnings, as investors expressed concerns over the outlook for AI capital expenditures and return on investment.",
+          "ticker": "$META",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-4.64%",
-          "direction": "down",
-          "summary": "SLM Corp., known as Sallie Mae, experienced a significant drop in its stock price after reporting a third-quarter loss of 19 cents per share, contrary to analyst expectations for a profit, and providing full-year guidance significantly below consensus."
+          "changePercent": "-6.98%",
+          "direction": "down"
         },
         {
-          "id": "knsl-loser",
-          "headline": "Kinsale Capital Group Down Despite Earnings Beat",
-          "ticker": "$KNSL",
+          "id": "loser-tsla",
+          "headline": "Tesla drops after reducing CAPEX guidance",
+          "summary": "Tesla ($TSLA) shares fell after the company reduced its full-year capital expenditure guidance by 20%, contributing to broader AI-related market anxieties.",
+          "ticker": "$TSLA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-6.49%",
-          "direction": "down",
-          "summary": "Kinsale Capital Group shares fell despite the specialty property and casualty insurer beating third-quarter earnings estimates, as news of its CFO's upcoming retirement weighed on investor sentiment."
+          "changePercent": "-3.08%",
+          "direction": "down"
         }
       ]
     },
@@ -127,48 +135,53 @@
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-oct23",
-          "headline": "Technology Sector Leads Market Decline; Consumer Staples Show Resilience",
-          "summary": "The technology sector, particularly AI-related stocks and semiconductors, continued to be a significant drag on the broader market, extending Thursday's sharp sell-off. Concerns over capital expenditure for AI infrastructure and its sustainability are driving the weakness. In contrast, defensive sectors like Consumer Staples demonstrated resilience, with some stocks posting notable gains.",
+          "id": "ai-selloff-concerns",
+          "headline": "AI Trade Plunges Amid Spending Sustainability Doubts",
+          "summary": "The artificial intelligence (AI) trade plummeted today, with market participants deeply concerned about the sustainability of gigantic spending on AI data centers and the potential returns on these investments. This skepticism led to a broad-based sell-off across the AI ecosystem, dragging down tech and semiconductor stocks.",
           "tags": [
-            "Sector Analysis",
+            "AI",
             "Technology",
-            "Consumer Staples",
-            "AI Investment"
+            "Semiconductors"
           ]
         },
         {
-          "id": "economic-data-oct23",
-          "headline": "PMI and Consumer Sentiment Data Released; Fed in Blackout Period",
-          "summary": "Today's economic calendar included the release of October's flash S&P Global Purchasing Managers' Index (PMI) readings for manufacturing and services, alongside the final University of Michigan Consumer Sentiment survey. The Federal Reserve remains in its blackout period ahead of its October 27-28 FOMC meeting next week, where interest rates are widely expected to remain unchanged.",
+          "id": "oil-prices-middle-east",
+          "headline": "Oil Prices Surge on Middle East Tensions, Inflating Market Jitters",
+          "summary": "Crude oil prices surged today, with Brent crude climbing above $114 a barrel, reaching a five-month high. The rally is attributed to escalating Middle East tensions and concerns over potential disruptions to energy supplies, significantly denting overall investor sentiment and raising inflation worries.",
+          "tags": [
+            "Oil",
+            "Geopolitics",
+            "Inflation"
+          ]
+        },
+        {
+          "id": "sector-performance",
+          "headline": "Energy and Information Technology Lead, Communication Services Lags",
+          "summary": "Amid the mixed market, the Energy sector saw strong performance, driven by rising oil prices, and the Information Technology Select Sector SPDR (XLK) rose 1.7%. Conversely, the Communication Services Select Sector SPDR (XLC) fell 1.1%, reflecting the broader tech downturn.",
+          "tags": [
+            "Sectors",
+            "Energy",
+            "Technology"
+          ]
+        },
+        {
+          "id": "economic-data-releases",
+          "headline": "Mixed Economic Data: Jobless Claims Fall, Consumer Sentiment Dips",
+          "summary": "New economic data showed initial jobless claims decreased to 194,000 for the week ended October 17, falling below expectations. However, the University of Michigan's consumer sentiment index for October was revised slightly higher but remained near a five-month low, reflecting ongoing concerns about the economy.",
           "tags": [
             "Economic Data",
-            "PMI",
-            "Consumer Sentiment",
-            "Federal Reserve"
+            "Jobless Claims",
+            "Consumer Sentiment"
           ]
         },
         {
-          "id": "earnings-impact-oct23",
-          "headline": "Major Earnings Reports Highlight AI Investment Concerns",
-          "summary": "Earnings reports from major companies continue to influence market movements. While Meta Platforms and Tesla delivered results earlier this week, their capital expenditure guidance for AI initiatives stoked fears that the AI investment boom might be peaking, contributing to the tech sell-off. Today, American Express reported mixed Q3 results and announced a workforce reduction, while Balchem Corporation posted healthy growth across all segments for Q3 2026.",
+          "id": "senate-ai-proposals",
+          "headline": "Senator Wyden Unveils Proposals for AI Disruption and Data Centers",
+          "summary": "Senator Ron Wyden, Ranking Member of the Senate Finance Committee, introduced new proposals today to address the economic impacts of the AI boom. The legislation aims to enhance unemployment insurance for displaced workers and eliminate federal tax breaks for data center construction, seeking to ensure fair contributions from the industry.",
           "tags": [
-            "Earnings Reports",
-            "AI Stocks",
-            "Meta Platforms",
-            "Tesla",
-            "American Express"
-          ]
-        },
-        {
-          "id": "macro-trends-oct23",
-          "headline": "Oil Prices Surge Amid Middle East Tensions; Treasury Yields Fluctuate",
-          "summary": "Crude oil prices surged, with Brent crude trading above $116 per barrel, fueled by rising geopolitical tensions in the Middle East and concerns over global energy supply. In the bond market, the yield on the 10-year Treasury note, which saw a significant drop on Thursday, edged higher today to 5.00%.",
-          "tags": [
-            "Macro Trends",
-            "Oil Prices",
-            "Geopolitics",
-            "Treasury Yields"
+            "Policy",
+            "AI",
+            "Legislation"
           ]
         }
       ]
