@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T12:57:00Z",
+  "generatedAt": "2026-10-27T20:30:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "October 27, 2026 - Midday Update",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: October 27, 2026",
+  "subtitle": "US Equities Close Higher Driven by Tech Ahead of Fed Decision",
+  "badge": "Market Close",
   "sections": [
     {
       "id": "market-pulse",
@@ -14,143 +14,176 @@
       "items": [
         {
           "id": "market-summary-oct27",
-          "headline": "US Futures Mixed as Fed Meeting Begins and Earnings Season Continues",
-          "summary": "US stock futures are mixed this Tuesday as investors weigh ongoing earnings reports and the commencement of the Federal Reserve's two-day policy meeting. Markets closed higher on Monday, October 26, largely boosted by positive sentiment around new artificial intelligence IPO filings. The Fed's interest rate decision is highly anticipated for Wednesday, October 28."
+          "headline": "Tech-Led Rally Boosts Major Indices as Fed Meeting Begins",
+          "summary": "U.S. equities closed higher today, fueled by a rebound in technology stocks, particularly those tied to artificial intelligence, as investors awaited the Federal Reserve's interest rate decision expected tomorrow. The S&P 500, NASDAQ, and Dow Jones all posted gains, with market sentiment cautiously optimistic despite ongoing economic and geopolitical crosscurrents.",
+          "tags": [
+            "Market Summary",
+            "AI Stocks",
+            "Fed Meeting"
+          ]
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices - Oct 26 Close",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-close-oct26",
-          "statLabel": "S&P 500",
-          "statValue": "7,676.77",
-          "statContext": "+0.7% (Monday Close)",
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "7,722.60",
+          "statContext": "Up 0.60% Today",
+          "ticker": "^GSPC",
+          "price": "$7,722.60",
+          "change": "+$45.83",
+          "changePercent": "+0.60%",
           "direction": "up"
         },
         {
-          "id": "nasdaq-close-oct26",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,169.38",
-          "statContext": "+0.8% (Monday Close)",
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "26,477.81",
+          "statContext": "Up 1.18% Today",
+          "ticker": "^IXIC",
+          "price": "$26,477.81",
+          "change": "+$308.43",
+          "changePercent": "+1.18%",
           "direction": "up"
         },
         {
-          "id": "dow-close-oct26",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,361.58",
-          "statContext": "+0.3% (Monday Close)",
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "52,377.57",
+          "statContext": "Up 0.03% Today",
+          "ticker": "^DJI",
+          "price": "$52,377.57",
+          "change": "+$15.99",
+          "changePercent": "+0.03%",
           "direction": "up"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers - Intraday Oct 27",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "cls-gainer",
-          "headline": "Celestica Surges on Strong Earnings",
-          "summary": "Celestica ($CLS) saw its shares rise over 15% in pre-market trading, driven by its third-quarter 2026 results which significantly beat expectations. The company reported an 83% year-over-year increase in revenue and raised its full-year guidance.",
-          "ticker": "$CLS",
+          "id": "pnr-gainer",
+          "headline": "Pentair Leads Gainers",
+          "summary": "Pentair plc ($PNR) posted the largest daily gain in the S&P 500, advancing 12.44% today.",
+          "ticker": "$PNR",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+15.00%+",
-          "direction": "up"
+          "changePercent": "+12.44%",
+          "direction": "up",
+          "tags": [
+            "Industrials"
+          ]
         },
         {
-          "id": "ups-gainer",
-          "headline": "UPS Climbs After Earnings Beat and Raised Guidance",
-          "summary": "United Parcel Service ($UPS) shares were up 1.58% in premarket trading after the shipping giant reported third-quarter 2026 adjusted diluted EPS of $1.69 on revenue of $22.9 billion, surpassing Wall Street expectations, and subsequently raised its full-year guidance.",
-          "ticker": "$UPS",
+          "id": "sofi-gainer",
+          "headline": "SoFi Jumps on Strong Earnings",
+          "summary": "SoFi Technologies ($SOFI) surged 11.30% after exceeding third-quarter earnings estimates and providing an optimistic long-term growth outlook.",
+          "ticker": "$SOFI",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+1.58%",
-          "direction": "up"
+          "changePercent": "+11.30%",
+          "direction": "up",
+          "tags": [
+            "Earnings",
+            "Fintech"
+          ]
         },
         {
-          "id": "rcl-gainer",
-          "headline": "Royal Caribbean Cruises Higher on Strong Q3 Performance",
-          "summary": "Royal Caribbean Group ($RCL) reported third-quarter 2026 Adjusted EPS of $6.57, outperforming its guidance due to robust close-in demand and reduced costs. The company also increased its full-year Adjusted EPS outlook to a range of $17.85 to $17.95.",
-          "ticker": "$RCL",
+          "id": "xyl-loser",
+          "headline": "Xylem Tumbles on Missed Guidance",
+          "summary": "Water technology company Xylem ($XYL) tumbled 8.87% after missing third-quarter earnings expectations and subsequently cutting its full-year guidance.",
+          "ticker": "$XYL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "N/A",
-          "direction": "up"
+          "changePercent": "-8.87%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Water Technology"
+          ]
         },
         {
-          "id": "vz-loser",
-          "headline": "Verizon Falls on Mixed Earnings",
-          "summary": "Verizon ($VZ) shares tumbled 3.5% after reporting mixed third-quarter 2026 results. While the company's adjusted earnings of $1.31 per share were ahead of estimates, its total operating revenues of $34.31 billion missed consensus expectations.",
-          "ticker": "$VZ",
+          "id": "ba-loser",
+          "headline": "Boeing Falls After Q3 Loss",
+          "summary": "Aerospace giant Boeing ($BA) declined 9.72% today, following its report of a larger-than-expected net loss for the latest quarter.",
+          "ticker": "$BA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-3.50%",
-          "direction": "down"
+          "changePercent": "-9.72%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Aerospace & Defense"
+          ]
         }
       ]
     },
     {
       "id": "market-news",
-      "title": "Market News - Key Stories",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-oct27",
-          "headline": "Federal Reserve Kicks Off Two-Day Policy Meeting",
-          "summary": "The Federal Open Market Committee (FOMC) commenced its two-day policy meeting today, October 27. The market widely anticipates that the Fed will maintain the federal funds rate at its current range of 3.75% to 4.0% when the decision is announced on Wednesday, October 28. However, many investors believe a December rate hike remains likely.",
+          "id": "fed-meeting-begins",
+          "headline": "Federal Reserve Kicks Off Policy Meeting, Rates Expected to Hold",
+          "summary": "The Federal Reserve began its two-day policy meeting today, with market participants widely expecting the central bank to maintain the federal funds rate at its current range of 3.75% to 4.0% when the decision is announced tomorrow. However, a 'hawkish pause' is anticipated, signaling the Fed's readiness for future rate hikes if inflation remains elevated.",
           "tags": [
             "Fed",
             "Interest Rates",
-            "FOMC"
+            "Economic Policy"
           ]
         },
         {
-          "id": "economic-data-oct27",
-          "headline": "Key Economic Data Releases Today",
-          "summary": "A series of economic reports are scheduled for release today, including September's Advance Durable Goods Orders and New Home Sales data, as well as October's Conference Board Consumer Confidence Index and regional manufacturing surveys. The weekly ADP NER Pulse, for the four weeks ending October 10, indicated that U.S. private employers added an average of 16,750 jobs per week, showing a slowdown in hiring for the second consecutive week.",
+          "id": "consumer-confidence-rises",
+          "headline": "U.S. Consumer Confidence Rebounds in October",
+          "summary": "U.S. consumer confidence improved in October, with the Conference Board's index rising to 91.7 from 84.2 in September, surpassing economists' expectations. This uptick suggests a more optimistic consumer outlook amidst current economic conditions.",
           "tags": [
-            "Economic Data",
-            "Durable Goods",
             "Consumer Confidence",
-            "Jobs"
+            "Economic Data"
           ]
         },
         {
-          "id": "earnings-season-oct27",
-          "headline": "Major Companies Report Earnings",
-          "summary": "Earnings season is in full swing, with several major companies reporting today. Before the market open, Royal Caribbean Group ($RCL), UPS ($UPS), PayPal Holdings ($PYPL), and Novartis ($NVS) released their third-quarter results. Key companies expected to report after market close include Visa ($V), Seagate Technology ($STX), Waste Management ($WM), and Robinhood ($HOOD).",
+          "id": "ai-boom-continues",
+          "headline": "AI Investment Fuels Economic Growth and Tech Sector",
+          "summary": "The ongoing artificial intelligence boom continues to drive significant business investment and economic growth, with companies like Anthropic, Meta, and Google pouring billions into AI capabilities. The technology sector, led by AI-related stocks, was a primary driver of market gains today.",
+          "tags": [
+            "AI",
+            "Technology",
+            "Economic Growth"
+          ]
+        },
+        {
+          "id": "ups-earnings",
+          "headline": "UPS Beats Expectations, Raises Full-Year Guidance",
+          "summary": "United Parcel Service ($UPS) reported consolidated revenue of $22.9 billion and adjusted diluted earnings per share of $1.69 for the third quarter of 2026, exceeding Wall Street estimates. The shipping giant also raised its full-year guidance, indicating strong performance.",
+          "ticker": "$UPS",
           "tags": [
             "Earnings",
-            "Q3 Earnings",
-            "Corporate Reports"
+            "Logistics"
           ]
         },
         {
-          "id": "sector-rotation-ai",
-          "headline": "Sector Dynamics Shift as AI Stocks Face Rotation",
-          "summary": "While AI-related developments, such as an IPO filing by Anthropic, bolstered market sentiment on Monday, a notable trend in October indicates a rotation of capital. The S&P 500 index excluding AI stocks has outperformed the broader S&P 500 by over 6% this month, suggesting investors are moving towards more diversified or value-oriented market segments.",
+          "id": "coca-cola-earnings",
+          "headline": "Coca-Cola Tops Revenue and Earnings Estimates",
+          "summary": "The Coca-Cola Company ($KO) reported third-quarter adjusted earnings of $0.91 per share on net sales of $13.4 billion, surpassing analyst expectations for both metrics. Despite the strong overall performance, North American volume growth remained flat.",
+          "ticker": "$KO",
           "tags": [
-            "Sector Analysis",
-            "AI Stocks",
-            "Market Trends"
-          ]
-        },
-        {
-          "id": "oil-prices-oct27",
-          "headline": "Oil Prices Remain a Market Factor",
-          "summary": "Crude oil prices, while trading under $110 per barrel today, remain a significant macro trend affecting markets. Geopolitical developments and ongoing efforts to ease conflicts are closely watched by commodity investors.",
-          "tags": [
-            "Oil Prices",
-            "Commodities",
-            "Macro Trends"
+            "Earnings",
+            "Consumer Staples"
           ]
         }
       ]
