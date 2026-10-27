@@ -1,140 +1,111 @@
 {
-  "generatedAt": "2026-10-26T20:55:00Z",
+  "generatedAt": "2026-10-27T12:57:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 26, 2026 Closing Bell",
-  "badge": "CLOSED",
+  "subtitle": "October 27, 2026 - Midday Update",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-overview",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct26",
-          "headline": "U.S. Stocks Climb, Tech Leads Rally on Anthropic IPO Filing",
-          "summary": "U.S. stock markets closed higher on Monday, October 26, 2026, with major indices rebounding, particularly in the tech sector, following Anthropic's public IPO filing and easing crude oil prices. Investors are now keenly focused on a busy week ahead, including key earnings reports from major companies and the Federal Reserve's upcoming interest rate decision.",
-          "tags": [
-            "Market Close",
-            "Tech Rally",
-            "Economic Outlook"
-          ],
-          "timestamp": "2026-10-26T20:00:00Z"
+          "id": "market-summary-oct27",
+          "headline": "US Futures Mixed as Fed Meeting Begins and Earnings Season Continues",
+          "summary": "US stock futures are mixed this Tuesday as investors weigh ongoing earnings reports and the commencement of the Federal Reserve's two-day policy meeting. Markets closed higher on Monday, October 26, largely boosted by positive sentiment around new artificial intelligence IPO filings. The Fed's interest rate decision is highly anticipated for Wednesday, October 28."
         }
       ]
     },
     {
-      "id": "major-indices-performance",
-      "title": "Major Indices",
+      "id": "major-indices",
+      "title": "Major Indices - Oct 26 Close",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-close-oct26",
           "statLabel": "S&P 500",
-          "statValue": "7,676.80",
-          "statContext": "+0.70% (+53.12 points) Today"
+          "statValue": "7,676.77",
+          "statContext": "+0.7% (Monday Close)",
+          "direction": "up"
         },
         {
-          "id": "nasdaq-stat",
+          "id": "nasdaq-close-oct26",
           "statLabel": "NASDAQ Composite",
           "statValue": "26,169.38",
-          "statContext": "+0.82% (+214.04 points) Today"
+          "statContext": "+0.8% (Monday Close)",
+          "direction": "up"
         },
         {
-          "id": "dow-stat",
+          "id": "dow-close-oct26",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "52,361.52",
-          "statContext": "+0.28% (+146.36 points) Today"
-        },
-        {
-          "id": "russell2000-stat",
-          "statLabel": "Russell 2000",
-          "statValue": "2,787.81",
-          "statContext": "+0.43% (+11.92 points) Today"
+          "statValue": "52,361.58",
+          "statContext": "+0.3% (Monday Close)",
+          "direction": "up"
         }
       ]
     },
     {
-      "id": "top-movers-today",
-      "title": "Top Movers (Today's Close)",
+      "id": "top-movers",
+      "title": "Top Movers - Intraday Oct 27",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-xencor",
-          "headline": "Xencor Soars on Positive Kidney Cancer Drug Data",
-          "summary": "Xencor (XNCR) shares surged after Phase 1 ESMO 2026 data revealed its experimental kidney cancer drug XmAb819 achieved a 45.5% confirmed response rate at the highest tested dose, prompting discussions for an accelerated approval pathway.",
-          "ticker": "$XNCR",
+          "id": "cls-gainer",
+          "headline": "Celestica Surges on Strong Earnings",
+          "summary": "Celestica ($CLS) saw its shares rise over 15% in pre-market trading, driven by its third-quarter 2026 results which significantly beat expectations. The company reported an 83% year-over-year increase in revenue and raised its full-year guidance.",
+          "ticker": "$CLS",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+25.02%",
+          "changePercent": "+15.00%+",
           "direction": "up"
         },
         {
-          "id": "gainer-tesla",
-          "headline": "Tesla Climbs After Barclays Upgrade",
-          "summary": "Tesla (TSLA) stock gained significantly following an upgrade from Barclays to 'Overweight,' with analysts citing optimism around a potential SpaceX merger, Robotaxi business growth, and recovery in its core automotive segment.",
-          "ticker": "$TSLA",
-          "price": "$391.62",
+          "id": "ups-gainer",
+          "headline": "UPS Climbs After Earnings Beat and Raised Guidance",
+          "summary": "United Parcel Service ($UPS) shares were up 1.58% in premarket trading after the shipping giant reported third-quarter 2026 adjusted diluted EPS of $1.69 on revenue of $22.9 billion, surpassing Wall Street expectations, and subsequently raised its full-year guidance.",
+          "ticker": "$UPS",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+5.21%",
+          "changePercent": "+1.58%",
           "direction": "up"
         },
         {
-          "id": "gainer-lumentum",
-          "headline": "Optical Networking Boosts Lumentum",
-          "summary": "Lumentum (ticker not specified in source) experienced a strong rally, contributing to a positive day for optical networking stocks.",
-          "ticker": "N/A",
-          "price": "$818.26",
+          "id": "rcl-gainer",
+          "headline": "Royal Caribbean Cruises Higher on Strong Q3 Performance",
+          "summary": "Royal Caribbean Group ($RCL) reported third-quarter 2026 Adjusted EPS of $6.57, outperforming its guidance due to robust close-in demand and reduced costs. The company also increased its full-year Adjusted EPS outlook to a range of $17.85 to $17.95.",
+          "ticker": "$RCL",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "+8.21%",
+          "changePercent": "N/A",
           "direction": "up"
         },
         {
-          "id": "loser-shfholdings",
-          "headline": "SHF Holdings Plummets Amid Delisting Concerns",
-          "summary": "SHF Holdings (SHFS) saw a steep decline, attributed to prolonged losses, issues with Nasdaq's minimum-bid-price requirement, and concerns over a potential reverse stock split.",
-          "ticker": "$SHFS",
-          "price": "$0.12",
+          "id": "vz-loser",
+          "headline": "Verizon Falls on Mixed Earnings",
+          "summary": "Verizon ($VZ) shares tumbled 3.5% after reporting mixed third-quarter 2026 results. While the company's adjusted earnings of $1.31 per share were ahead of estimates, its total operating revenues of $34.31 billion missed consensus expectations.",
+          "ticker": "$VZ",
+          "price": "N/A",
           "change": "N/A",
-          "changePercent": "-64.71%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-pomdoctor",
-          "headline": "PomDoctor Faces Delisting Determination",
-          "summary": "PomDoctor (POM) shares fell sharply after Nasdaq issued a delisting determination, as the company failed to meet its minimum bid-price requirement.",
-          "ticker": "$POM",
-          "price": "$1.19",
-          "change": "N/A",
-          "changePercent": "-41.63%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-macrogenics",
-          "headline": "MacroGenics Tumbles Despite Positive Clinical Data",
-          "summary": "MacroGenics (MGNX) experienced a significant drop, with the precise catalyst for the sell-off remaining unconfirmed despite positive interim clinical data released on October 23.",
-          "ticker": "$MGNX",
-          "price": "$2.25",
-          "change": "N/A",
-          "changePercent": "-38.15%",
+          "changePercent": "-3.50%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-analysis",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News - Key Stories",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-fed-meeting",
-          "headline": "Fed Meeting Anticipated: Rates Expected to Hold Steady",
-          "summary": "The Federal Reserve's Federal Open Market Committee (FOMC) is scheduled to hold a two-day meeting this Tuesday and Wednesday. Analysts widely anticipate the Fed will leave interest rates unchanged at 3.75%-4.00%, with focus shifting to potential guidance for a December hike.",
+          "id": "fed-meeting-oct27",
+          "headline": "Federal Reserve Kicks Off Two-Day Policy Meeting",
+          "summary": "The Federal Open Market Committee (FOMC) commenced its two-day policy meeting today, October 27. The market widely anticipates that the Fed will maintain the federal funds rate at its current range of 3.75% to 4.0% when the decision is announced on Wednesday, October 28. However, many investors believe a December rate hike remains likely.",
           "tags": [
             "Fed",
             "Interest Rates",
@@ -142,72 +113,44 @@
           ]
         },
         {
-          "id": "economic-crude-oil",
-          "headline": "Crude Oil Prices Ease Amid Geopolitical Hopes",
-          "summary": "Crude oil prices eased on Monday, helping to support stock futures, after President Trump's remarks suggested a pause in potential strikes against Iran. Brent crude settled around $110.74, down 0.9%, after fluctuating through the day.",
+          "id": "economic-data-oct27",
+          "headline": "Key Economic Data Releases Today",
+          "summary": "A series of economic reports are scheduled for release today, including September's Advance Durable Goods Orders and New Home Sales data, as well as October's Conference Board Consumer Confidence Index and regional manufacturing surveys. The weekly ADP NER Pulse, for the four weeks ending October 10, indicated that U.S. private employers added an average of 16,750 jobs per week, showing a slowdown in hiring for the second consecutive week.",
           "tags": [
-            "Crude Oil",
-            "Geopolitics"
-          ]
-        },
-        {
-          "id": "economic-consumer-sentiment",
-          "headline": "Mixed Signals on Consumer Sentiment",
-          "summary": "The final reading for the University of Michigan consumer sentiment index in October came in at 48%, slightly ahead of the consensus estimate. However, a separate report for August indicated a consistent monthly decline in U.S. consumer sentiment, falling by 11.1%.",
-          "tags": [
+            "Economic Data",
+            "Durable Goods",
             "Consumer Confidence",
-            "Economic Data"
+            "Jobs"
           ]
         },
         {
-          "id": "earnings-verizon",
-          "headline": "Verizon Reports Strong Q3 Earnings, Raises Guidance",
-          "summary": "Verizon ($VZ) delivered a robust third-quarter 2026, reporting a more than 820% year-over-year increase in postpaid phone net additions and an 8.3% rise in Adjusted EPS. The company also raised its full-year 2026 guidance across key metrics.",
+          "id": "earnings-season-oct27",
+          "headline": "Major Companies Report Earnings",
+          "summary": "Earnings season is in full swing, with several major companies reporting today. Before the market open, Royal Caribbean Group ($RCL), UPS ($UPS), PayPal Holdings ($PYPL), and Novartis ($NVS) released their third-quarter results. Key companies expected to report after market close include Visa ($V), Seagate Technology ($STX), Waste Management ($WM), and Robinhood ($HOOD).",
           "tags": [
             "Earnings",
-            "Verizon",
-            "Telecom"
+            "Q3 Earnings",
+            "Corporate Reports"
           ]
         },
         {
-          "id": "earnings-upcoming-tech",
-          "headline": "Big Tech Earnings Loom This Week",
-          "summary": "The week is packed with major earnings reports, including Microsoft ($MSFT), Alphabet ($GOOG), and Amazon ($AMZN), all slated to report later this week (Wednesday/Thursday). These reports are expected to provide insights into cloud computing and AI spending.",
+          "id": "sector-rotation-ai",
+          "headline": "Sector Dynamics Shift as AI Stocks Face Rotation",
+          "summary": "While AI-related developments, such as an IPO filing by Anthropic, bolstered market sentiment on Monday, a notable trend in October indicates a rotation of capital. The S&P 500 index excluding AI stocks has outperformed the broader S&P 500 by over 6% this month, suggesting investors are moving towards more diversified or value-oriented market segments.",
           "tags": [
-            "Earnings Season",
-            "Big Tech",
-            "AI"
-          ]
-        },
-        {
-          "id": "sector-analysis-tech-energy",
-          "headline": "Information Technology Leads, Communication Services Lags",
-          "summary": "Information Technology was the top-performing sector, posting a 1.50% gain, largely driven by the rally in AI-related stocks. Conversely, Communication Services was the worst-performing sector, experiencing a 1.42% loss. Energy, which advanced 2.6% on Friday, contributed to broader market shifts.",
-          "tags": [
-            "Sector Performance",
-            "Technology",
-            "Communication Services",
-            "Energy"
-          ]
-        },
-        {
-          "id": "industry-ai-rally",
-          "headline": "AI Stocks Rally on Anthropic IPO Filing",
-          "summary": "AI-related stocks saw a strong rebound following Anthropic's public S-1 filing, which disclosed a significant increase in its first-half revenue. This reignited investor sentiment in the AI sector, driving up stocks like Nvidia ($NVDA).",
-          "tags": [
+            "Sector Analysis",
             "AI Stocks",
-            "IPO",
-            "Tech Industry"
+            "Market Trends"
           ]
         },
         {
-          "id": "industry-georgia-timber",
-          "headline": "U.S. Commerce Dept. Invests in Georgia Timber Industry",
-          "summary": "The U.S. Department of Commerce announced an intention to award $7.4 million in disaster supplemental funding to Georgia's Resilient Growth Through Enabling Next Generation Agriculture (REGEN AG) coalition, aimed at advancing the local timber manufacturing industry and building resilient supply chains.",
+          "id": "oil-prices-oct27",
+          "headline": "Oil Prices Remain a Market Factor",
+          "summary": "Crude oil prices, while trading under $110 per barrel today, remain a significant macro trend affecting markets. Geopolitical developments and ongoing efforts to ease conflicts are closely watched by commodity investors.",
           "tags": [
-            "Economic Development",
-            "Manufacturing",
-            "Georgia"
+            "Oil Prices",
+            "Commodities",
+            "Macro Trends"
           ]
         }
       ]
