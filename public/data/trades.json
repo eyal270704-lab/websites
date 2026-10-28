@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T11:56:21.453888Z",
+  "generatedAt": "2026-10-28T12:33:07.489111Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Risk - Dividend",
       "setupType": "risky",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$SPOT",
+      "name": "Spotify Technology S.A.",
+      "sector": "Media & Communications",
+      "currentPrice": "$555.50",
+      "entry": "$526.01",
+      "stop": "$496.61",
+      "structure": "50-day MA Retest",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Spotify is trading above its key moving averages, indicating a strong uptrend. A potential pullback to the 50-day moving average could offer an entry opportunity. The 200-day moving average acts as a strong support for the stop loss.",
+      "riskScore": 4,
+      "footerTag": "Accumulation",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HUBS",
+      "name": "HubSpot, Inc.",
+      "sector": "Software",
+      "currentPrice": "$272.50",
+      "entry": "$264.02",
+      "stop": "$232.39",
+      "structure": "200-day MA Support Test",
+      "trend": "> 200MA",
+      "trendLabel": "Trend",
+      "analysis": "HubSpot has shown strong bullish momentum, breaking above key moving averages. A retest of the 200-day moving average, now acting as support, presents a potential entry. The 50-day moving average can serve as a stop loss level.",
+      "riskScore": 4,
+      "footerTag": "Momentum",
+      "setupType": "momentum",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Software",
+      "currentPrice": "$248.36",
+      "entry": "$256.18",
+      "stop": "$239.00",
+      "structure": "50-day MA Resistance",
+      "trend": "1.10x",
+      "trendLabel": "RVOL",
+      "analysis": "Adobe is currently trading below its 50-day and 200-day moving averages, indicating a bearish trend. Current volume is elevated (RVOL > 1.0), suggesting increased interest. An entry at the 50-day MA resistance is a consideration for a potential short-term bounce or as an 'avoid' setup providing levels.",
+      "riskScore": 7,
+      "footerTag": "High Risk",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
