@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T20:30:00Z",
+  "generatedAt": "2026-10-28T13:48:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: October 27, 2026",
-  "subtitle": "US Equities Close Higher Driven by Tech Ahead of Fed Decision",
-  "badge": "Market Close",
+  "title": "Daily Market Digest",
+  "subtitle": "October 28, 2026",
+  "badge": "LIVE",
   "sections": [
     {
       "id": "market-pulse",
@@ -13,121 +13,155 @@
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct27",
-          "headline": "Tech-Led Rally Boosts Major Indices as Fed Meeting Begins",
-          "summary": "U.S. equities closed higher today, fueled by a rebound in technology stocks, particularly those tied to artificial intelligence, as investors awaited the Federal Reserve's interest rate decision expected tomorrow. The S&P 500, NASDAQ, and Dow Jones all posted gains, with market sentiment cautiously optimistic despite ongoing economic and geopolitical crosscurrents.",
+          "id": "market-summary-oct28",
+          "headline": "U.S. Futures Mixed Ahead of Fed Decision; AI Enthusiasm Continues",
+          "summary": "U.S. stock futures showed a mixed performance on Wednesday as investors awaited the Federal Reserve's interest rate decision, widely expected to be a hold, and upcoming earnings reports from tech giants. The AI-powered semiconductor sector continued to demonstrate momentum, influencing broader market sentiment. Rising oil prices following an attack on a Saudi refinery also contributed to market dynamics. Not financial advice.",
           "tags": [
-            "Market Summary",
-            "AI Stocks",
-            "Fed Meeting"
-          ]
+            "Market Overview",
+            "Fed Decision",
+            "AI",
+            "Oil Prices"
+          ],
+          "timestamp": "2026-10-28T13:48:00Z"
         }
       ]
     },
     {
       "id": "major-indices",
-      "title": "Major Indices",
+      "title": "Major Indices (Pre-market & Previous Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-performance",
+          "id": "sp500-futures",
+          "headline": "S&P 500 Futures",
+          "statLabel": "Today (Pre-market)",
+          "statValue": "+0.10% to +0.2%",
+          "statContext": "Indicates a slightly higher open."
+        },
+        {
+          "id": "nasdaq-futures",
+          "headline": "NASDAQ 100 Futures",
+          "statLabel": "Today (Pre-market)",
+          "statValue": "+0.30% to +0.4%",
+          "statContext": "Driven by continued tech and AI enthusiasm."
+        },
+        {
+          "id": "dow-futures",
+          "headline": "Dow Jones Futures",
+          "statLabel": "Today (Pre-market)",
+          "statValue": "-0.19% to -0.2%",
+          "statContext": "Suggests a slightly lower open."
+        },
+        {
+          "id": "sp500-close-oct27",
           "headline": "S&P 500",
-          "statLabel": "Close",
+          "statLabel": "Close (Oct 27)",
           "statValue": "7,722.60",
-          "statContext": "Up 0.60% Today",
-          "ticker": "^GSPC",
-          "price": "$7,722.60",
-          "change": "+$45.83",
-          "changePercent": "+0.60%",
-          "direction": "up"
+          "statContext": "+0.60%"
         },
         {
-          "id": "nasdaq-performance",
+          "id": "nasdaq-close-oct27",
           "headline": "NASDAQ Composite",
-          "statLabel": "Close",
+          "statLabel": "Close (Oct 27)",
           "statValue": "26,477.81",
-          "statContext": "Up 1.18% Today",
-          "ticker": "^IXIC",
-          "price": "$26,477.81",
-          "change": "+$308.43",
-          "changePercent": "+1.18%",
-          "direction": "up"
+          "statContext": "+1.18%"
         },
         {
-          "id": "dow-performance",
+          "id": "dow-close-oct27",
           "headline": "Dow Jones Industrial Average",
-          "statLabel": "Close",
+          "statLabel": "Close (Oct 27)",
           "statValue": "52,377.57",
-          "statContext": "Up 0.03% Today",
-          "ticker": "^DJI",
-          "price": "$52,377.57",
-          "change": "+$15.99",
-          "changePercent": "+0.03%",
-          "direction": "up"
+          "statContext": "+0.03%"
         }
       ]
     },
     {
       "id": "top-movers",
-      "title": "Top Movers",
+      "title": "Top Movers (Pre-market/Early Trading - October 28, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "pnr-gainer",
-          "headline": "Pentair Leads Gainers",
-          "summary": "Pentair plc ($PNR) posted the largest daily gain in the S&P 500, advancing 12.44% today.",
-          "ticker": "$PNR",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+12.44%",
-          "direction": "up",
-          "tags": [
-            "Industrials"
-          ]
+          "id": "ulbi-gainer",
+          "headline": "Ultralife Soars",
+          "summary": "Ultralife Corporation saw a significant pre-market surge.",
+          "ticker": "$ULBI",
+          "price": "$15.60",
+          "change": "+$10.15",
+          "changePercent": "+145.3%",
+          "direction": "up"
         },
         {
-          "id": "sofi-gainer",
-          "headline": "SoFi Jumps on Strong Earnings",
-          "summary": "SoFi Technologies ($SOFI) surged 11.30% after exceeding third-quarter earnings estimates and providing an optimistic long-term growth outlook.",
-          "ticker": "$SOFI",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+11.30%",
-          "direction": "up",
-          "tags": [
-            "Earnings",
-            "Fintech"
-          ]
+          "id": "brai-gainer",
+          "headline": "Braiin Jumps",
+          "summary": "Braiin experienced strong pre-market gains.",
+          "ticker": "$BRAI",
+          "price": "$4.65",
+          "change": "+$1.34",
+          "changePercent": "+40.5%",
+          "direction": "up"
         },
         {
-          "id": "xyl-loser",
-          "headline": "Xylem Tumbles on Missed Guidance",
-          "summary": "Water technology company Xylem ($XYL) tumbled 8.87% after missing third-quarter earnings expectations and subsequently cutting its full-year guidance.",
-          "ticker": "$XYL",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-8.87%",
-          "direction": "down",
-          "tags": [
-            "Earnings",
-            "Water Technology"
-          ]
+          "id": "vrtl-gainer",
+          "headline": "Graniteshares 2X Long Vrt Daily ETF Climbs",
+          "summary": "This ETF saw a notable increase in pre-market trading.",
+          "ticker": "$VRTL",
+          "price": "$21.59",
+          "change": "+$5.05",
+          "changePercent": "+30.6%",
+          "direction": "up"
         },
         {
-          "id": "ba-loser",
-          "headline": "Boeing Falls After Q3 Loss",
-          "summary": "Aerospace giant Boeing ($BA) declined 9.72% today, following its report of a larger-than-expected net loss for the latest quarter.",
+          "id": "vertiv-gainer",
+          "headline": "Vertiv Rises on Upgraded Forecast",
+          "summary": "Vertiv stock jumped pre-market after the company raised its full-year forecast.",
+          "ticker": "$VRT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+16.2%",
+          "direction": "up"
+        },
+        {
+          "id": "rapport-loser",
+          "headline": "Rapport Therapeutics Plummets",
+          "summary": "Rapport Therapeutics saw a sharp decline in pre-market trading.",
+          "ticker": "$RAPP",
+          "price": "$21.60",
+          "change": "-$6.00",
+          "changePercent": "-21.6%",
+          "direction": "down"
+        },
+        {
+          "id": "enphase-loser",
+          "headline": "Enphase Energy Sinks on Weak Outlook",
+          "summary": "Enphase Energy shares fell significantly pre-market after forecasting lower fourth-quarter sales, citing soft home solar demand, higher interest rates, and a lost tax credit.",
+          "ticker": "$ENPH",
+          "price": "$23.75",
+          "change": "-$6.01",
+          "changePercent": "-20.2%",
+          "direction": "down"
+        },
+        {
+          "id": "skdd-loser",
+          "headline": "Graniteshares 2X Short Sk Hynix Daily ETF Declines",
+          "summary": "This inverse ETF recorded a substantial drop pre-market.",
+          "ticker": "$SKDD",
+          "price": "$8.83",
+          "change": "-$1.45",
+          "changePercent": "-14.1%",
+          "direction": "down"
+        },
+        {
+          "id": "boeing-tuesday-loser",
+          "headline": "Boeing Dragged Dow on Tuesday",
+          "summary": "Boeing's shares declined significantly on Tuesday after management signaled a slower-than-expected ramp in 737 Max production.",
           "ticker": "$BA",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-9.72%",
+          "changePercent": "-10.7%",
           "direction": "down",
-          "tags": [
-            "Earnings",
-            "Aerospace & Defense"
-          ]
+          "timestamp": "2026-10-27T20:00:00Z"
         }
       ]
     },
@@ -138,52 +172,74 @@
       "layout": "list",
       "items": [
         {
-          "id": "fed-meeting-begins",
-          "headline": "Federal Reserve Kicks Off Policy Meeting, Rates Expected to Hold",
-          "summary": "The Federal Reserve began its two-day policy meeting today, with market participants widely expecting the central bank to maintain the federal funds rate at its current range of 3.75% to 4.0% when the decision is announced tomorrow. However, a 'hawkish pause' is anticipated, signaling the Fed's readiness for future rate hikes if inflation remains elevated.",
+          "id": "fed-decision",
+          "headline": "Federal Reserve to Announce Interest Rate Decision Today",
+          "summary": "The Federal Reserve's Open Market Committee (FOMC) concludes its meeting today, October 28, 2026, with an interest rate decision expected at 2:00 PM ET, followed by a press conference at 2:30 PM ET. Markets widely anticipate the central bank will hold rates steady, though any signals about future policy will be closely watched.",
           "tags": [
             "Fed",
             "Interest Rates",
-            "Economic Policy"
+            "FOMC"
           ]
         },
         {
-          "id": "consumer-confidence-rises",
-          "headline": "U.S. Consumer Confidence Rebounds in October",
-          "summary": "U.S. consumer confidence improved in October, with the Conference Board's index rising to 91.7 from 84.2 in September, surpassing economists' expectations. This uptick suggests a more optimistic consumer outlook amidst current economic conditions.",
+          "id": "tech-earnings-watch",
+          "headline": "Mega-Cap Tech Earnings on Tap After Market Close",
+          "summary": "Investors are keenly awaiting third-quarter earnings reports from tech giants Microsoft ($MSFT) and Alphabet ($GOOGL, $GOOG) after the market closes today. These reports are expected to provide significant insights into the health of the technology sector and the ongoing impact of AI investments.",
           "tags": [
-            "Consumer Confidence",
-            "Economic Data"
+            "Earnings",
+            "Tech",
+            "Microsoft",
+            "Alphabet"
           ]
         },
         {
-          "id": "ai-boom-continues",
-          "headline": "AI Investment Fuels Economic Growth and Tech Sector",
-          "summary": "The ongoing artificial intelligence boom continues to drive significant business investment and economic growth, with companies like Anthropic, Meta, and Google pouring billions into AI capabilities. The technology sector, led by AI-related stocks, was a primary driver of market gains today.",
+          "id": "ai-semiconductor-momentum",
+          "headline": "AI-Powered Semiconductor Sector Continues Momentum",
+          "summary": "The AI-powered semiconductor space showed strong momentum yesterday, with the PHLX Semiconductor Index ($SOX) advancing 3.6% and the iShares Semiconductor ETF ($SOXX) appreciating 3.9%. This positive trend continues to influence market sentiment today, with chip stocks generally outperforming.",
           "tags": [
             "AI",
-            "Technology",
-            "Economic Growth"
+            "Semiconductors",
+            "Technology"
           ]
         },
         {
-          "id": "ups-earnings",
-          "headline": "UPS Beats Expectations, Raises Full-Year Guidance",
-          "summary": "United Parcel Service ($UPS) reported consolidated revenue of $22.9 billion and adjusted diluted earnings per share of $1.69 for the third quarter of 2026, exceeding Wall Street estimates. The shipping giant also raised its full-year guidance, indicating strong performance.",
-          "ticker": "$UPS",
+          "id": "oil-prices-rise",
+          "headline": "Oil Prices Climb Following Saudi Refinery Attack",
+          "summary": "Oil prices rose on Wednesday after an attack on a Saudi refinery revived concerns about supply disruptions in the Middle East. This geopolitical development is influencing the energy sector and broader market sentiment.",
           "tags": [
-            "Earnings",
-            "Logistics"
+            "Oil",
+            "Energy",
+            "Geopolitics"
           ]
         },
         {
-          "id": "coca-cola-earnings",
-          "headline": "Coca-Cola Tops Revenue and Earnings Estimates",
-          "summary": "The Coca-Cola Company ($KO) reported third-quarter adjusted earnings of $0.91 per share on net sales of $13.4 billion, surpassing analyst expectations for both metrics. Despite the strong overall performance, North American volume growth remained flat.",
-          "ticker": "$KO",
+          "id": "economic-data-releases",
+          "headline": "Strong Durable Goods and Consumer Confidence Data Released",
+          "summary": "The U.S. Census Bureau reported that durable goods orders increased by 1.8% month-over-month in September, marking the fastest growth in five months. Additionally, the Conference Board's Consumer Confidence Index rose by 7.5 points to 91.7 in October, exceeding estimates and showing the first monthly rise in four months.",
+          "tags": [
+            "Economic Data",
+            "Consumer Confidence",
+            "Durable Goods"
+          ]
+        },
+        {
+          "id": "frontier-earnings",
+          "headline": "Frontier Airlines Reports Record Q3 Revenue",
+          "summary": "Frontier Group Holdings, Inc. ($ULCC) announced record third-quarter 2026 revenue of approximately $1.4 billion, a 53% increase year-over-year. The company also provided guidance for the fourth quarter.",
           "tags": [
             "Earnings",
-            "Consumer Staples"
+            "Airlines",
+            "Frontier"
+          ]
+        },
+        {
+          "id": "aep-earnings",
+          "headline": "American Electric Power Expands Capital Plan After Strong Q3",
+          "summary": "American Electric Power ($AEP) reported strong third-quarter 2026 earnings, leading the company to expand its five-year capital plan to $100 billion and increase its long-term growth outlook, driven by accelerating electricity demand.",
+          "tags": [
+            "Earnings",
+            "Utilities",
+            "AEP"
           ]
         }
       ]
