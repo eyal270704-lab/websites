@@ -1,167 +1,169 @@
 {
-  "generatedAt": "2026-10-29T20:56:00Z",
+  "generatedAt": "2026-10-30T13:50:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "Thursday, October 29, 2026 Close",
-  "badge": "FINAL",
+  "subtitle": "Market insights as of Friday, October 30, 2026 (based on Oct 29 close and Oct 30 pre-market)",
+  "badge": "LIVE",
   "sections": [
     {
-      "id": "market-pulse-oct29",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Tech Drag, Inflation Concerns Weigh on Investor Confidence",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct29",
-          "headline": "Tech Sector Drags Down Major Indices; Strong Earnings Boost Health Stocks Amidst Fed's Steady Rate Stance",
-          "summary": "U.S. equities closed mostly lower on Thursday, primarily driven by a significant sell-off in the technology sector following disappointing earnings from Alphabet. Despite this, positive earnings from companies like Eli Lilly bolstered health care stocks. The Federal Reserve's decision yesterday to hold interest rates steady, along with robust Q3 GDP data, provided some underlying support, but inflation concerns remain present.",
+          "id": "market-summary",
+          "headline": "U.S. Markets Close Lower Amid Tech Weakness and Elevated Inflation",
+          "summary": "U.S. stock markets closed lower on Thursday, ending a three-day winning streak, as disappointing earnings and guidance from major AI-powered tech companies significantly dampened investor confidence. An elevated reading of a key inflation gauge further contributed to the negative sentiment, pushing all three major indices into negative territory. Not financial advice.",
           "tags": [
-            "Market Close",
-            "Tech Sell-off",
-            "Earnings",
-            "Fed Decision"
-          ]
+            "Market Overview",
+            "Inflation",
+            "Tech Earnings"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-oct29",
-      "title": "Major Indices Performance",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Thursday, Oct 29, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct29",
-          "statLabel": "S&P 500",
-          "statValue": "7,720.39",
-          "statContext": "Down 0.30% (-23.59 pts)",
-          "direction": "down"
-        },
-        {
-          "id": "nasdaq-oct29",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "26,184.72",
-          "statContext": "Down 1.38% (-365.13 pts)",
-          "direction": "down"
-        },
-        {
-          "id": "dow-oct29",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
           "statValue": "52,342.56",
-          "statContext": "Down 0.25% (-132.54 pts)",
-          "direction": "down"
+          "statContext": "-0.3% (-132.54 points)"
+        },
+        {
+          "id": "nasdaq-performance",
+          "statLabel": "NASDAQ Composite",
+          "statValue": "26,184.72",
+          "statContext": "-1.4% (-365.13 points)"
+        },
+        {
+          "id": "sp500-performance",
+          "statLabel": "S&P 500",
+          "statValue": "7,720.39",
+          "statContext": "-0.3% (-23.59 points)"
         }
       ]
     },
     {
-      "id": "top-movers-oct29",
-      "title": "Top Movers",
+      "id": "top-movers",
+      "title": "Top Movers: Earnings Drive Significant Swings",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "LLY-gainer-oct29",
-          "headline": "Eli Lilly Surges on Raised Outlook",
-          "summary": "Eli Lilly ($LLY) climbed 7.25% to $1378.08 after its third-quarter results showed revenue growth of 39% driven by its Mounjaro and Zepbound drugs, prompting a raised 2026 revenue forecast to $91 billion-$92 billion.",
-          "ticker": "$LLY",
-          "price": "$1378.08",
-          "change": "+$88.42",
-          "changePercent": "+7.25%",
-          "direction": "up"
-        },
-        {
-          "id": "CROX-gainer-oct29",
-          "headline": "Crocs Jumps on Strong Q3 and Upbeat Forecast",
-          "summary": "Crocs ($CROX) shares surged 25.54% following robust third-quarter 2026 financial results and a raised full-year outlook. The company reported consolidated revenues up 4.6% and its HEYDUDE brand returned to growth.",
-          "ticker": "$CROX",
+          "id": "wkhs-gainer",
+          "headline": "Workhorse Group Jumps on Strategic Partnership",
+          "ticker": "$WKHS",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+25.54%",
-          "direction": "up"
+          "change": "+20%",
+          "changePercent": "+20.00%",
+          "direction": "up",
+          "summary": "Workhorse Group surged +20% in Friday's trading after announcing a strategic partnership with UK-based AI infrastructure developer Rhaelm Holdings to jointly commercialize its new modular data center platform, TerraPod.",
+          "timestamp": "2026-10-30T13:50:00Z"
         },
         {
-          "id": "GOOGL-loser-oct29",
-          "headline": "Alphabet Plummets on Disappointing Earnings and AI Spending Concerns",
-          "summary": "Alphabet ($GOOGL) shares tumbled 12.64% after reporting weaker third-quarter growth, missing Wall Street's revenue and profit expectations, and posting negative free cash flow due to substantial AI capital spending. The decline erased approximately $500 billion of its market value.",
-          "ticker": "$GOOGL",
-          "price": "$283.82",
-          "change": "-$41.07",
-          "changePercent": "-12.64%",
-          "direction": "down"
-        },
-        {
-          "id": "XRX-loser-oct29",
-          "headline": "Xerox Falls Sharply on Cut Forecasts",
-          "summary": "Xerox ($XRX) dropped 40.32% after cutting its full-year forecasts, overshadowing its third-quarter results.",
-          "ticker": "$XRX",
+          "id": "cdna-gainer",
+          "headline": "CareDx Rises on Strong Q3 Earnings Beat",
+          "ticker": "$CDNA",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-40.32%",
-          "direction": "down"
+          "change": "+15%",
+          "changePercent": "+15.00%",
+          "direction": "up",
+          "summary": "CareDx gained +15% on Friday after reporting third-quarter adjusted EPS of $0.70, significantly beating estimates by $0.44, with revenue climbing 39% year-over-year to $139 million.",
+          "timestamp": "2026-10-30T13:50:00Z"
         },
         {
-          "id": "FTNT-loser-oct29",
-          "headline": "Fortinet Declines on Service Revenue Forecast Cut",
-          "summary": "Fortinet ($FTNT) fell 20.09% following its third-quarter results, where it cut its forecast for service revenue despite raising its overall 2026 revenue forecast. The stock also faced a downgrade from BofA.",
-          "ticker": "$FTNT",
+          "id": "intc-loser",
+          "headline": "Intel Plummets on Weak Q4 Guidance",
+          "ticker": "$INTC",
           "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-20.09%",
-          "direction": "down"
+          "change": "-26%",
+          "changePercent": "-26.00%",
+          "direction": "down",
+          "summary": "Intel shares plunged around 26% in pre-market trading Friday after the chipmaker issued weaker-than-expected fourth-quarter guidance, citing ongoing weakness in the PC market and manufacturing bottlenecks.",
+          "timestamp": "2026-10-30T13:50:00Z"
+        },
+        {
+          "id": "amzn-loser",
+          "headline": "Amazon Tumbles on Disappointing Q3 and AI Spending Concerns",
+          "ticker": "$AMZN",
+          "price": "N/A",
+          "change": "-7%",
+          "changePercent": "-7.00%",
+          "direction": "down",
+          "summary": "Amazon's stock tumbled around 7% in Friday's pre-market session following its third-quarter earnings report, which disappointed investors and highlighted increasing concerns over its aggressive AI capital expenditures.",
+          "timestamp": "2026-10-30T13:50:00Z"
         }
       ]
     },
     {
-      "id": "market-news-oct29",
-      "title": "Market News",
+      "id": "market-news",
+      "title": "Market News & Economic Updates",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-oct29",
-          "headline": "Healthcare and Financials Lead as Tech and Communication Services Lag",
-          "summary": "Today's market saw a clear rotation, with the Healthcare sector leading gains, rising 2.06%, and Financials also performing strongly with a 1.7% increase. In contrast, the Communication Services sector lagged significantly, falling 1.91%, and Technology was down 1.37%, largely due to major earnings disappointments within the sector.",
+          "id": "sector-performance",
+          "headline": "Defensive Healthcare and Real Estate Sectors Lead While Tech Lags",
+          "summary": "On Thursday, the Health Care Select Sector SPDR ($XLV) rallied 2.4%, and the Real Estate Select Sector SPDR ($XLRE) gained 2.2%, as investors rotated into more defensive areas of the market. Conversely, the Communication Services Select Sector SPDR ($XLC) declined 1.9% and Information Technology fell 1.2%, heavily impacted by the disappointing earnings from tech giants.",
           "tags": [
-            "Sector Performance",
+            "Sector Analysis",
             "Healthcare",
-            "Financials",
-            "Technology",
-            "Communication Services"
-          ]
+            "Real Estate",
+            "Technology"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
         },
         {
-          "id": "fed-decision-oct29",
-          "headline": "Federal Reserve Holds Rates Steady, Eyes December Hike Amidst Inflation Concerns",
-          "summary": "The Federal Reserve maintained its benchmark interest rate target range at 3.75%-4.00% during its October meeting, with a 10-2 vote. Two members dissented, favoring a quarter-point hike due to persistent inflation. Fed Chair Kevin Warsh indicated that while economic activity is strong, inflation remains elevated, suggesting a data-dependent approach for a potential December rate hike.",
+          "id": "fed-announcement",
+          "headline": "Federal Reserve Holds Rates Steady, Signals Less Forward Guidance",
+          "summary": "The Federal Reserve held the fed funds target range at 3.75% to 4.00% at its October meeting. Chairman Kevin Warsh indicated a shift towards fewer scheduled rate-setting meetings and reduced forward guidance, encouraging markets to rely more on economic data.",
           "tags": [
-            "Federal Reserve",
-            "Interest Rates",
-            "Inflation",
-            "Monetary Policy"
-          ]
+            "Fed",
+            "Monetary Policy",
+            "Interest Rates"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
         },
         {
-          "id": "gdp-report-oct29",
-          "headline": "U.S. Economy Accelerates with 3.4% GDP Growth in Q3",
-          "summary": "The U.S. Bureau of Economic Analysis reported that real Gross Domestic Product (GDP) increased at an annual rate of 3.4% in the third quarter of 2026, an acceleration from the 2.2% growth in the second quarter. This robust expansion was primarily driven by increases in investment, consumer spending, and government spending.",
+          "id": "economic-data-inflation",
+          "headline": "Inflation Remains Elevated in September, PCE Index Rises",
+          "summary": "Newly released data shows the Personal Consumption Expenditures (PCE) index rose 0.5% in September, with the annual rate increasing to a four-month high of 3.6%. Core PCE, excluding volatile food and energy prices, increased 0.3% month-over-month and 3.1% year-over-year, indicating persistent inflationary pressures.",
           "tags": [
-            "GDP",
             "Economic Data",
-            "Consumer Spending",
-            "Investment"
-          ]
+            "Inflation",
+            "PCE"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
         },
         {
-          "id": "after-hours-earnings-oct29",
-          "headline": "Amazon and Intel Decline in After-Hours Trading on Earnings",
-          "summary": "Following the market close, both Amazon ($AMZN) and Intel ($INTC) saw their shares fall in after-hours trading after releasing their respective earnings reports. Intel declined 17.60% after forecasting less revenue for the fourth quarter than the third, while Amazon also experienced a drop.",
+          "id": "economic-data-gdp",
+          "headline": "U.S. Q3 GDP Strong at 3.4% Annual Growth, Boosted by AI Investment",
+          "summary": "The U.S. economy saw a robust 3.4% annual growth in the third quarter, with non-residential fixed investment, particularly in equipment, soaring by 20.9% due to an artificial intelligence-led investment boom. Household spending also contributed with a 3.8% growth.",
           "tags": [
-            "After-Hours",
+            "Economic Data",
+            "GDP",
+            "AI Investment"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
+        },
+        {
+          "id": "abbv-gd-earnings",
+          "headline": "AbbVie and General Dynamics Report Solid Q3 Earnings",
+          "summary": "AbbVie ($ABBV) reported strong third-quarter 2026 results with diluted EPS of $2.37 (GAAP) and adjusted diluted EPS of $3.82, alongside net revenues of $17.404 billion, a 10.3% increase. General Dynamics ($GD) also posted solid third-quarter results, with revenue growing 12.9% to $14.6 billion and diluted EPS increasing 15.7% to $4.49.",
+          "tags": [
             "Earnings",
-            "$AMZN",
-            "$INTC"
-          ]
+            "Healthcare",
+            "Defense"
+          ],
+          "timestamp": "2026-10-30T13:50:00Z"
         }
       ]
     }
