@@ -1,163 +1,193 @@
 {
-  "generatedAt": "2026-10-30T16:00:00Z",
+  "generatedAt": "2026-10-31T16:30:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Market Close: October 30, 2026",
-  "badge": "Final Close",
+  "title": "Daily Market Digest: October 31, 2026",
+  "subtitle": "Review of Friday, October 30, 2026, Trading Session",
+  "badge": "Markets Closed (Weekend)",
   "sections": [
     {
-      "id": "market-pulse-oct30",
+      "id": "market-pulse-oct-30",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "overall-summary-oct30",
+          "id": "market-summary-oct-30",
           "headline": "Tech Sell-Off Drags Major Indices Lower Amid AI Spending Concerns",
-          "summary": "U.S. equities closed sharply lower on Friday, October 30, as a significant sell-off in technology stocks, fueled by disappointing earnings and weak forward guidance from industry giants like Intel and Amazon, intensified investor scrutiny over the returns on massive AI investments. The tech-heavy Nasdaq Composite led the declines, while the S&P 500 and Dow Jones Industrial Average also finished in negative territory. Investors rotated into defensive sectors such as energy and consumer staples. Not financial advice."
+          "summary": "U.S. equities closed sharply lower on Friday, October 30, 2026, marking the worst day since June for the Nasdaq and S&P 500. A widespread sell-off in technology stocks was fueled by disappointing corporate earnings and mounting investor worries that significant investments in artificial intelligence might not yield expected returns. The tech-heavy Nasdaq Composite recorded its steepest monthly decline since March 2025.",
+          "tags": [
+            "Market Close",
+            "Tech Sell-off",
+            "AI Concerns"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-oct30",
-      "title": "Major Indices",
+      "id": "major-indices-oct-30",
+      "title": "Major Indices Performance (October 30, 2026 Close)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct30",
-          "headline": "S&P 500 Performance",
-          "statLabel": "S&P 500",
+          "id": "sp500-oct-30",
+          "headline": "S&P 500",
+          "statLabel": "Close",
           "statValue": "7,580.07",
-          "statContext": "Down 1.8% today, losing 140.32 points.",
+          "statContext": "Down 1.82% (-140.32 pts)",
           "direction": "down"
         },
         {
-          "id": "nasdaq-oct30",
-          "headline": "NASDAQ Composite Performance",
-          "statLabel": "NASDAQ",
+          "id": "nasdaq-oct-30",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
           "statValue": "25,437.00",
-          "statContext": "Fell 2.9% today, declining 747.73 points.",
+          "statContext": "Down 2.86% (-747.73 pts)",
           "direction": "down"
         },
         {
-          "id": "dow-oct30",
-          "headline": "Dow Jones Industrial Average Performance",
-          "statLabel": "DOW",
+          "id": "dow-oct-30",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
           "statValue": "51,770.31",
-          "statContext": "Dropped 1.1% today, a decrease of 572.25 points.",
+          "statContext": "Down 1.09% (-572.25 pts)",
+          "direction": "down"
+        },
+        {
+          "id": "russell2000-oct-30",
+          "headline": "Russell 2000",
+          "statLabel": "Close",
+          "statValue": "2,811.84",
+          "statContext": "Down 1.7% (-47.37 pts)",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-oct30",
-      "title": "Top Movers",
+      "id": "top-movers-oct-30",
+      "title": "Top Movers (October 30, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "intc-loser-oct30",
-          "headline": "Biggest Loser: Intel",
+          "id": "intc-loser-oct-30",
+          "headline": "Intel Plummets on Weak Guidance",
+          "summary": "Intel ($INTC) shares plunged 28.58% to $65.76, marking its worst day since 1974. The steep decline followed a forecast for fourth-quarter sales that fell below analysts' expectations, citing ongoing weakness in the PC market and concerns over AI investment returns.",
           "ticker": "$INTC",
           "price": "$65.76",
-          "change": "-$26.50",
+          "change": "-$26.37 (approx)",
           "changePercent": "-28.58%",
           "direction": "down",
-          "summary": "Intel shares plunged to their worst day since 1974 after providing a weak outlook for the current quarter and forecasting fourth-quarter sales significantly below analysts' estimates, citing slowing demand in the PC market and manufacturing bottlenecks."
+          "tags": [
+            "Semiconductors",
+            "Earnings",
+            "Guidance"
+          ]
         },
         {
-          "id": "amzn-loser-oct30",
-          "headline": "Notable Loser: Amazon",
-          "ticker": "$AMZN",
-          "price": "$240.35",
-          "change": "-$3.45",
-          "changePercent": "-1.41%",
+          "id": "axg-loser-oct-30",
+          "headline": "Solowin Holdings Drops on Reverse Split",
+          "summary": "Solowin Holdings ($AXG) saw a significant decline of 44.73% to $2.05, attributed to a 1-for-200 reverse stock split.",
+          "ticker": "$AXG",
+          "price": "$2.05",
+          "change": "-$1.66 (approx)",
+          "changePercent": "-44.73%",
           "direction": "down",
-          "summary": "Amazon's stock fell following a weaker-than-expected profit report and continued disclosures of heavy investments in AI infrastructure, which led to negative free cash flow of $42.4 billion."
+          "tags": [
+            "Financial Services",
+            "Reverse Split"
+          ]
         },
         {
-          "id": "gdyn-gainer-oct30",
-          "headline": "Biggest Gainer: Grid Dynamics",
+          "id": "gdyn-gainer-oct-30",
+          "headline": "Grid Dynamics Holdings Surges",
+          "summary": "Grid Dynamics Holdings ($GDYN) was among the top gainers, soaring 40.8% to $13.36.",
           "ticker": "$GDYN",
-          "price": "$12.84",
-          "change": "+$3.34",
-          "changePercent": "+35.3%",
+          "price": "$13.36",
+          "change": "+$3.88 (approx)",
+          "changePercent": "+40.8%",
           "direction": "up",
-          "summary": "Grid Dynamics Holdings saw a significant jump after reporting third-quarter revenue that surpassed the top end of its own forecast."
+          "tags": [
+            "Technology",
+            "Software"
+          ]
         },
         {
-          "id": "regn-gainer-oct30",
-          "headline": "Notable Gainer: Regeneron Pharmaceuticals",
-          "ticker": "$REGN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.28%",
+          "id": "fmc-gainer-oct-30",
+          "headline": "FMC Posts Strong Gains",
+          "summary": "FMC ($FMC) stock climbed 30.5% to $6.20.",
+          "ticker": "$FMC",
+          "price": "$6.20",
+          "change": "+$1.45 (approx)",
+          "changePercent": "+30.5%",
           "direction": "up",
-          "summary": "Regeneron Pharmaceuticals climbed after releasing its latest quarterly results."
+          "tags": [
+            "Chemicals",
+            "Agriculture"
+          ]
+        },
+        {
+          "id": "regn-gainer-oct-30",
+          "headline": "Regeneron Pharma Rises on Strong Earnings",
+          "summary": "Regeneron Pharmaceuticals ($REGN) shares rose 13.33% to $926.96 following a report of stronger-than-expected third-quarter profits.",
+          "ticker": "$REGN",
+          "price": "$926.96",
+          "change": "+$108.83 (approx)",
+          "changePercent": "+13.33%",
+          "direction": "up",
+          "tags": [
+            "Biotechnology",
+            "Earnings"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-oct30",
-      "title": "Market News",
+      "id": "market-news-oct-30",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "economic-gdp-oct30",
-          "headline": "U.S. Economy Grows 3.4% in Q3, Driven by Consumer and AI Spending",
-          "summary": "The U.S. economy expanded at an annual rate of 3.4% in the third quarter, an increase from 2.2% in the prior quarter. Growth was primarily fueled by robust consumer spending and significant investments by AI companies in data centers.",
+          "id": "sector-analysis-oct-30",
+          "headline": "Energy Leads, Tech Lags in Friday's Session",
+          "summary": "The Energy sector emerged as the top-performing sector on Friday, gaining 1.91%. This was driven by stronger-than-expected profits from oil giants like ExxonMobil ($XOM), which climbed 2.2%, and Chevron ($CVX), up 1.8%. Conversely, Information Technology was the weakest sector, falling 4.24%, as concerns about AI spending and weaker earnings from major tech players weighed heavily on investor sentiment.",
           "tags": [
-            "Economic Data",
-            "GDP"
-          ]
-        },
-        {
-          "id": "fed-rates-oct30",
-          "headline": "Fed Holds Rates Steady, Officials Signal Future Hikes",
-          "summary": "The Federal Reserve maintained its benchmark interest rate at 3.75%-4.00% earlier this week. However, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem indicated that additional rate hikes would be necessary in the coming months to combat persistent inflation, which stood at 3.7% in September.",
-          "tags": [
-            "Fed Policy",
-            "Interest Rates",
-            "Inflation"
-          ]
-        },
-        {
-          "id": "tech-sector-struggle-oct30",
-          "headline": "Information Technology Sector Leads Declines with 4.24% Loss",
-          "summary": "The Information Technology sector was the worst-performing sector, shedding 4.24% today. This was largely due to disappointing earnings and weak forecasts from major tech companies, exacerbating concerns about the profitability of vast AI-related expenditures.",
-          "tags": [
-            "Sector Analysis",
+            "Sector Performance",
+            "Energy",
             "Technology"
           ]
         },
         {
-          "id": "energy-sector-gain-oct30",
-          "headline": "Energy Sector Outperforms, Up 1.91%",
-          "summary": "The Energy sector emerged as the top-performing sector, gaining 1.91% today. This strength was supported by rising oil prices, with Brent crude oil increasing 2.4% to $113.50, and strong earnings reports from major oil companies like ExxonMobil and Chevron.",
+          "id": "economic-data-oct-30",
+          "headline": "Q3 GDP Growth Strong, but Inflationary Pressures Persist",
+          "summary": "The U.S. economy expanded at an annualized rate of 3.4% in the third quarter of 2026 (July-September), an increase from 2.2% in the prior quarter. This growth was largely attributed to robust consumer spending and significant investments by AI companies in data centers. However, inflation remains a concern, with the PCE index rising 0.5% in September, its largest increase in six months, pushing the yearly rate to 3.6% and further from the Federal Reserve's 2% target.",
           "tags": [
-            "Sector Analysis",
-            "Energy"
+            "Economic Data",
+            "GDP",
+            "Inflation",
+            "Consumer Spending"
           ]
         },
         {
-          "id": "abbvie-earnings-oct30",
-          "headline": "AbbVie Reports Strong Q3 Earnings with Over 100% EPS Increase",
-          "summary": "AbbVie Inc. ($ABBV) reported third-quarter diluted earnings per share (GAAP) of $2.37, an increase of over 100%, and adjusted diluted EPS of $3.82, also up over 100%. The pharmaceutical company delivered global net revenues of $17.404 billion, a 10.3% increase.",
+          "id": "fed-outlook-oct-30",
+          "headline": "Federal Reserve Holds Rates Steady, Future Hikes Possible",
+          "summary": "The Federal Reserve maintained its benchmark interest rate target range at 3.75% to 4% after a September hike, though two officials reportedly advocated for another increase. Higher long-term interest rates are primarily influenced by investor expectations of stronger nominal growth and elevated neutral interest rates, suggesting the Fed may still have work to do on monetary policy.",
           "tags": [
-            "Earnings Report",
-            "Pharmaceuticals"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "oppenheimer-earnings-oct30",
-          "headline": "Oppenheimer Holdings Reports Decreased Q3 Net Income and Revenue",
-          "summary": "Oppenheimer Holdings Inc. ($OPY) reported a net income of $5.5 million or $0.52 basic earnings per share for the third quarter of 2026, down significantly from $21.7 million or $2.06 in the same period last year. Revenue for the quarter decreased by 10.0% to $382.0 million.",
+          "id": "upcoming-earnings",
+          "headline": "Next Week's Watch: Apple and AMD Earnings",
+          "summary": "Investors will be closely watching next week's earnings calendar, with major reports expected from Apple ($AAPL) on Monday and AMD ($AMD) on Tuesday, leading a series of releases from significant U.S. companies.",
           "tags": [
-            "Earnings Report",
-            "Financial Services"
+            "Earnings Preview",
+            "Apple",
+            "AMD"
           ]
         }
       ]
