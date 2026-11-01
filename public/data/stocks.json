@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-31T19:46:00Z",
+  "generatedAt": "2026-11-01T17:23:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "October 31, 2026 - Weekend Edition",
+  "subtitle": "Sunday, November 1, 2026 - Markets Closed (Summary from Friday, Oct 30, 2026)",
   "badge": "Last Session: Oct 30, 2026",
   "sections": [
     {
-      "id": "market-pulse-oct-30",
-      "title": "Market Pulse",
+      "id": "market-pulse",
+      "title": "Market Pulse: Tech Sell-off Dominates Last Session",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-oct-30",
-          "headline": "Tech Sell-off Drags Major Indices Down on Friday; Markets Closed Today",
-          "summary": "U.S. equity markets concluded Friday's trading session, October 30, 2026, with significant declines across all major indices, driven primarily by a broad tech sector sell-off. Disappointing earnings reports from AI-focused companies and growing concerns over the return on investment for artificial intelligence infrastructure spending fueled investor pessimism. The S&P 500 and Nasdaq Composite experienced their worst day since June. Today, October 31, 2026, markets are closed for the weekend.",
+          "id": "market-summary-oct30",
+          "headline": "Wall Street experiences significant downturn driven by tech stocks, ending October on a negative note.",
+          "summary": "U.S. stock markets closed sharply lower on Friday, October 30, as concerns over the profitability of substantial AI investments intensified following disappointing earnings and weak guidance from major tech players like Intel and Amazon. The tech-heavy Nasdaq Composite recorded its worst day since June, leading a broader market decline.",
           "tags": [
             "Market Close",
             "Tech Sell-off",
@@ -25,127 +25,138 @@
       ]
     },
     {
-      "id": "major-indices-oct-30",
-      "title": "Major Indices (October 30, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices Performance (Oct 30, 2026)",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct-30",
+          "id": "sp500-close",
           "statLabel": "S&P 500",
           "statValue": "7,580.07",
-          "statContext": "Down 1.8% (-140.32 points)"
+          "statContext": "Fell 1.82% (-140.32 points) on Friday, its worst day since June.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-oct-30",
+          "id": "nasdaq-close",
           "statLabel": "NASDAQ Composite",
           "statValue": "25,437.00",
-          "statContext": "Down 2.9% (-747.73 points)"
+          "statContext": "Dropped 2.86% (-747.72 points), marking its worst day since June and lowest close since July 31, 2026.",
+          "direction": "down"
         },
         {
-          "id": "dow-oct-30",
-          "statLabel": "Dow Jones Industrial Average",
+          "id": "dow-close",
+          "statLabel": "Dow Jones Ind. Avg.",
           "statValue": "51,770.31",
-          "statContext": "Down 1.1% (-572.25 points)"
+          "statContext": "Declined 1.09% (-572.25 points).",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-oct-30",
-      "title": "Top Movers (October 30, 2026 Close)",
+      "id": "top-movers",
+      "title": "Top Movers (Oct 30, 2026)",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "intc-loser",
-          "headline": "Intel Plunges on Weak Outlook",
-          "summary": "Intel Corp. ($INTC) shares sank almost 29% to $65.27, marking its worst day since 1974, after the chipmaker's fourth-quarter revenue forecast fell significantly below analysts' expectations despite reporting stronger-than-expected Q3 profit.",
-          "ticker": "$INTC",
-          "price": "$65.27",
-          "change": "-$26.85",
-          "changePercent": "-29.10%",
-          "direction": "down"
+          "id": "gainer-trent",
+          "headline": "Trent Limited Leads Gainers",
+          "summary": "Trent Limited ($TRENT) rose 5.36% to ₹3,015.10, leading visible gainers.",
+          "ticker": "$TRENT",
+          "price": "₹3,015.10",
+          "change": "+₹153.30",
+          "changePercent": "+5.36%",
+          "direction": "up",
+          "tags": [
+            "Retail",
+            "Earnings"
+          ]
         },
         {
-          "id": "axg-loser",
-          "headline": "Solowin Holdings Drops Post-Split",
-          "summary": "Solowin Holdings ($AXG) lost 44.73% to $2.05, with the significant decline tied to a recent 1-for-200 reverse stock split.",
-          "ticker": "$AXG",
-          "price": "$2.05",
-          "change": "-$1.66",
-          "changePercent": "-44.73%",
-          "direction": "down"
-        },
-        {
-          "id": "regn-gainer",
-          "headline": "Regeneron Surges on Strong Earnings",
-          "summary": "Regeneron Pharmaceuticals ($REGN) surged 13.2% to $926.96 after reporting third-quarter earnings per share and revenue that comfortably beat analyst estimates.",
+          "id": "gainer-regeneron",
+          "headline": "Regeneron Pharma Surges on Strong Earnings",
+          "summary": "Regeneron Pharmaceuticals ($REGN) surged 13.33% to $926.96, after reporting stronger-than-expected Q3 2026 financial and operating results.",
           "ticker": "$REGN",
           "price": "$926.96",
-          "change": "+$108.30",
-          "changePercent": "+13.20%",
-          "direction": "up"
+          "change": "+$108.86",
+          "changePercent": "+13.33%",
+          "direction": "up",
+          "tags": [
+            "Biotech",
+            "Earnings"
+          ]
         },
         {
-          "id": "gdyn-gainer",
-          "headline": "Grid Dynamics Posts Strong Gains",
-          "summary": "Grid Dynamics Holdings ($GDYN) rose 40.8% to $13.36, making it one of the day's top performers, though no specific company announcement was immediately identified as the catalyst.",
-          "ticker": "$GDYN",
-          "price": "$13.36",
-          "change": "+$3.87",
-          "changePercent": "+40.80%",
-          "direction": "up"
+          "id": "loser-intel",
+          "headline": "Intel Plummets on Weak Q4 Guidance",
+          "summary": "Intel ($INTC) plummeted 28.58% to $65.27, marking its worst day since 1974. This substantial drop was triggered by a weaker-than-expected fourth-quarter revenue and earnings forecast, citing a severe PC market slowdown and manufacturing challenges.",
+          "ticker": "$INTC",
+          "price": "$65.27",
+          "change": "-$26.11",
+          "changePercent": "-28.58%",
+          "direction": "down",
+          "tags": [
+            "Semiconductors",
+            "Earnings",
+            "Guidance"
+          ]
+        },
+        {
+          "id": "loser-reddit",
+          "headline": "Reddit Slides on Soft Q4 Outlook",
+          "summary": "Reddit ($RDDT) tumbled 25.17% after beating third-quarter earnings expectations but offering a softer-than-expected fourth-quarter revenue outlook.",
+          "ticker": "$RDDT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-25.17%",
+          "direction": "down",
+          "tags": [
+            "Social Media",
+            "Earnings",
+            "Guidance"
+          ]
         }
       ]
     },
     {
-      "id": "market-news-oct-30",
-      "title": "Market News (October 30, 2026)",
+      "id": "market-news",
+      "title": "Market News & Analysis",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
           "id": "sector-performance",
           "headline": "Energy and Healthcare Lead, Tech and Communication Services Lag",
-          "summary": "On Friday, the Energy sector (+1.91%) and Health Care sector (+0.45%) were among the top performers, alongside Consumer Staples (+1.41%) and Real Estate (+0.26%). In stark contrast, the Information Technology sector (-4.89%) and Communication Services sector (-1.29%) were the biggest laggards, reflecting the broader market's shift away from high-growth tech stocks.",
+          "summary": "On Friday, the Energy sector led with a 1.91% gain, primarily due to rising oil prices and strong earnings from companies like ExxonMobil ($XOM) and Chevron ($CVX). Healthcare also saw gains. Conversely, the Information Technology sector lagged significantly with a 4.24% loss, primarily driven by the tech sell-off. Communication Services also declined by 1.9%. For the month of October, Energy was the best-performing sector in the S&P 500, while Communication Services and Technology were the worst, with Communication Services down over 9% and Technology down 7.5%.",
           "tags": [
             "Sector Analysis",
             "Energy",
+            "Technology",
             "Healthcare",
-            "Technology"
+            "Communication Services"
           ]
         },
         {
           "id": "economic-data",
-          "headline": "Q3 GDP Grows 3.4% Amid Inflation Concerns, Fed Holds Rates Steady",
-          "summary": "The U.S. economy's Gross Domestic Product (GDP) expanded at an annual rate of 3.4% in the third quarter, an acceleration from the prior quarter, largely driven by robust consumer spending and significant investments by AI companies. Despite this growth, headline PCE inflation rose to 3.6%, fueling investor concerns. The Federal Reserve maintained its benchmark interest rate, though a December hike is largely anticipated with odds around 75-85%.",
+          "headline": "Fed Holds Rates Steady; Treasury Yields Decline Amid Tech Sell-off",
+          "summary": "The Federal Reserve left its policy-rate target unchanged at 3.75%-4.00% earlier in the week, following a 10-2 vote. Treasury yields fell on Friday, with the 10-year Treasury yield dropping 6 basis points to 4.93%, as investors sought safer assets amidst the tech stock sell-off.",
           "tags": [
-            "Economic Data",
-            "GDP",
-            "Inflation",
-            "Federal Reserve"
+            "Fed Policy",
+            "Interest Rates",
+            "Treasury Yields"
           ]
         },
         {
-          "id": "earnings-impact-ai",
-          "headline": "Big Tech Earnings Highlight AI Spending Scrutiny",
-          "summary": "Major tech companies reported Q3 earnings with mixed results. Alphabet ($GOOGL) saw its stock drop significantly on Thursday after missing earnings and revenue estimates, alongside negative free cash flow due to massive AI investments. Amazon ($AMZN) also fell after reporting weaker-than-expected profits and increased capital expenditures for AI. These reports intensified worries about whether heavy AI spending will yield quick enough returns for investors.",
+          "id": "earnings-reports",
+          "headline": "Key Earnings: Intel Disappoints, Energy Giants Shine",
+          "summary": "Intel's disappointing fourth-quarter revenue forecast led to a nearly 29% plunge, fueling worries about the return on AI investments. Conversely, ExxonMobil ($XOM) announced strong third-quarter 2026 earnings of $15.4 billion, or $3.72 per share, and Chevron ($CVX) reported earnings of $9.9 billion ($5.06 per share), with both energy giants hitting all-time highs on soaring refining profits. AbbVie ($ABBV) also reported strong third-quarter net revenues of $17.404 billion.",
           "tags": [
-            "Earnings",
-            "Technology",
-            "AI Investment",
-            "Alphabet",
-            "Amazon"
-          ]
-        },
-        {
-          "id": "bond-market",
-          "headline": "Treasury Yields Decline as Investors Seek Safety",
-          "summary": "The 10-year Treasury yield fell to 4.93% on Friday, down from 4.98% the previous day, as investors moved into U.S. government bonds, signaling a flight to safer assets amid market volatility. This occurred even as oil prices saw an increase.",
-          "tags": [
-            "Bond Market",
-            "Treasury Yields",
-            "Safe Haven"
+            "Earnings Season",
+            "Intel",
+            "ExxonMobil",
+            "Chevron",
+            "AbbVie"
           ]
         }
       ]
