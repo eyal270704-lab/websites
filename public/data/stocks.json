@@ -1,198 +1,190 @@
 {
-  "generatedAt": "2026-11-02T21:02:00Z",
+  "generatedAt": "2026-11-02T23:59:59Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "November 2, 2026",
-  "badge": "LIVE",
+  "title": "Daily Market Digest: November 02, 2026",
+  "subtitle": "US Markets Close Mixed as Tech Wobbles, Dow Gains",
+  "badge": "Market Close",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse-overall",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Stocks Tumble as Tech Sell-off Continues Amid AI Spending Concerns",
-          "summary": "U.S. equities closed sharply lower on Monday, November 2, with the Nasdaq Composite experiencing its worst single-day percentage drop in nearly five months. Investor sentiment remained fragile due to persistent weakness in technology and AI-related shares, despite an initial market rebound driven by falling oil prices. The CBOE Volatility Index (VIX) surged, reflecting increased market apprehension ahead of the U.S. midterm elections.",
+          "id": "market-summary-today",
+          "headline": "Tech Sector Drags Down Broader Market; Dow Rebounds Amid Oil Price Drop",
+          "summary": "US equities closed Monday with a mixed performance, as an early rally faded due to continued weakness in technology and AI-related stocks. Investors largely rotated out of riskier tech assets into more defensive areas of the market. The Dow Jones Industrial Average managed to post gains, while the S&P 500 and Nasdaq Composite ended lower. This shift occurred against a backdrop of falling oil prices and ahead of the critical US midterm elections.",
           "tags": [
-            "Market Downturn",
+            "Market Summary",
             "Tech Sell-off",
-            "AI Concerns"
+            "Oil Prices",
+            "Midterm Elections"
           ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
+      "id": "major-indices-performance",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "statLabel": "S&P 500",
-          "statValue": "7,580.07",
-          "statContext": "Down 1.8% (-140.32 points) Today",
-          "ticker": "$SPX",
-          "price": "$7,580.07",
-          "change": "-$140.32",
-          "changePercent": "-1.8%",
-          "direction": "down"
+          "id": "sp500-performance",
+          "headline": "S&P 500",
+          "statLabel": "Close",
+          "statValue": "7,541.40",
+          "change": "-$38.67",
+          "changePercent": "-0.51%",
+          "direction": "down",
+          "statContext": "The S&P 500 erased morning gains to close down, influenced by the tech sector's decline."
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "25,437.00",
-          "statContext": "Down 2.9% (-747.73 points) Today",
-          "ticker": "$IXIC",
-          "price": "$25,437.00",
-          "change": "-$747.73",
-          "changePercent": "-2.9%",
-          "direction": "down"
+          "id": "nasdaq-performance",
+          "headline": "NASDAQ Composite",
+          "statLabel": "Close",
+          "statValue": "25,164.32",
+          "change": "-$272.68",
+          "changePercent": "-1.07%",
+          "direction": "down",
+          "statContext": "The tech-heavy Nasdaq tumbled, marking a significant drop as investors continued to dump AI-related stocks."
         },
         {
-          "id": "dow-stat",
-          "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,770.31",
-          "statContext": "Down 1.1% (-572.25 points) Today",
-          "ticker": "$DJI",
-          "price": "$51,770.31",
-          "change": "-$572.25",
-          "changePercent": "-1.1%",
-          "direction": "down"
+          "id": "dow-performance",
+          "headline": "Dow Jones Industrial Average",
+          "statLabel": "Close",
+          "statValue": "51,983.98",
+          "change": "+$213.67",
+          "changePercent": "+0.41%",
+          "direction": "up",
+          "statContext": "The Dow bucked the broader market trend, advancing as investors shifted into industrial and defensive sectors."
         }
       ]
     },
     {
-      "id": "top-movers-1",
-      "title": "Top Movers (Today's Close)",
+      "id": "top-movers-stocks",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "evgo-gainer",
-          "headline": "EVgo Surges on Buyout Proposal",
-          "summary": "Shares of EVgo jumped significantly after a reported $2.00 per share cash buyout proposal.",
-          "ticker": "$EVGO",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+48.42%",
-          "direction": "up"
-        },
-        {
-          "id": "idexx-gainer",
-          "headline": "IDEXX Laboratories Rises on Strong Earnings and Raised Forecast",
-          "summary": "IDEXX Laboratories ($IDXX) climbed after reporting stronger-than-expected third-quarter profit and revenue, and raising its full-year 2026 forecasts.",
+          "id": "gainer-idxx",
+          "headline": "IDEXX Laboratories Surges on Strong Earnings",
           "ticker": "$IDXX",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+20.5%",
-          "direction": "up"
+          "price": "$671.68",
+          "change": "+$120.22",
+          "changePercent": "+21.80%",
+          "direction": "up",
+          "summary": "Veterinary diagnostics company Idexx Laboratories leaped after reporting stronger-than-expected quarterly profit and revenue, alongside raising its full-year forecasts."
         },
         {
-          "id": "amazon-gainer",
-          "headline": "Amazon.com Rallies Amid Reassessment of Cloud Growth",
-          "summary": "Despite earlier reports of a Q3 earnings miss, Amazon.com Inc. ($AMZN) shares rallied more than 4% as investors reassessed the company's strong cloud growth.",
-          "ticker": "$AMZN",
+          "id": "gainer-ual",
+          "headline": "United Airlines Gains as Oil Prices Fall",
+          "ticker": "$UAL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "+4.0%",
-          "direction": "up"
+          "changePercent": "+7.39%",
+          "direction": "up",
+          "summary": "United Airlines climbed, buoyed by a significant drop in oil prices and renewed investor optimism following its recent third-quarter earnings report and upbeat forward guidance."
         },
         {
-          "id": "lumentum-loser",
-          "headline": "Lumentum Plunges on Acquisition News and AI-Related Angst",
-          "summary": "Lumentum Holdings ($LITE) stock fell sharply, extending declines amid 'AI-related angst' despite Marvell Technology agreeing to acquire the company in a $115 billion deal.",
+          "id": "loser-lite",
+          "headline": "Lumentum Tumbles on Acquisition News",
           "ticker": "$LITE",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-17.15%",
-          "direction": "down"
+          "changePercent": "-18.6%",
+          "direction": "down",
+          "summary": "Lumentum shares fell sharply after Marvell Technology announced an all-stock deal to acquire the optical and photonic products maker, sparking concerns about the transaction."
         },
         {
-          "id": "marvell-loser",
-          "headline": "Marvell Technology Declines on AI Concerns Despite Acquisition Deal",
-          "summary": "Marvell Technology ($MRVL) shares dropped following its announcement to acquire Lumentum, with investors expressing concerns over AI-related spending.",
+          "id": "loser-intc",
+          "headline": "Intel Plummets on Weak Outlook",
+          "ticker": "$INTC",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-28.6%",
+          "direction": "down",
+          "summary": "Intel Corporation plummeted after providing a weak forecast for the current quarter, citing a slowdown in PC sales despite surpassing its third-quarter earnings and revenue estimates."
+        },
+        {
+          "id": "loser-mrvl",
+          "headline": "Marvell Technology Declines Post-Acquisition Announcement",
           "ticker": "$MRVL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-13.03%",
-          "direction": "down"
+          "changePercent": "-12.7%",
+          "direction": "down",
+          "summary": "Marvell Technology fell significantly following its announcement to acquire Lumentum, with the broader semiconductor sector experiencing a selloff and investor concerns about the deal."
         },
         {
-          "id": "oracle-loser",
-          "headline": "Oracle Falls Following $20 Billion Fundraising Announcement",
-          "summary": "Oracle ($ORCL) shares declined after the company announced plans to raise $20 billion through debt and share sales, adding to investor anxiety around AI infrastructure investments.",
-          "ticker": "$ORCL",
+          "id": "loser-amzn",
+          "headline": "Amazon Shares Dip on Disappointing Earnings",
+          "ticker": "$AMZN",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-8.53%",
-          "direction": "down"
-        },
-        {
-          "id": "checkpoint-loser",
-          "headline": "Check Point Software Sinks on Trimmed 2026 Outlook",
-          "summary": "Check Point Software Technologies Ltd. ($CHKP) shares fell after the cybersecurity firm lowered its full-year 2026 revenue and earnings guidance.",
-          "ticker": "$CHKP",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-6.0%",
-          "direction": "down"
+          "changePercent": "-1.4%",
+          "direction": "down",
+          "summary": "Shares of Amazon.com fell after the company reported third-quarter 2026 earnings and revenues that missed analysts' expectations."
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news-stories",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-analysis-1",
-          "headline": "Energy Sector Leads Gains, Tech Continues to Lag",
-          "summary": "The Energy Select Sector SPDR (XLE) gained 1.9%, making energy stocks the biggest gainers for the day. Conversely, technology remained the worst-performing sector, with the Information Technology Select Sector SPDR (XLK) declining 4.9%, heavily influenced by ongoing concerns about AI spending and recent disappointing earnings. The consumer cyclical sector also showed strength.",
+          "id": "economic-news-fed-rates",
+          "headline": "Federal Reserve Holds Rates Steady at October Meeting",
+          "summary": "The Federal Open Market Committee (FOMC) voted 10-2 to maintain the federal funds target range between 3.75% and 4.00% at its October meeting. Separately, Fed Chair Kevin Warsh announced a revised meeting schedule for 2027 and 2028, reducing the number of annual rate-setting votes to focus on strategy.",
           "tags": [
-            "Sector Performance",
-            "Energy",
-            "Technology",
-            "AI"
+            "Federal Reserve",
+            "Interest Rates",
+            "Monetary Policy"
           ]
         },
         {
-          "id": "economic-data-1",
-          "headline": "U.S. Economy Shows Mixed Signals Ahead of Midterm Elections",
-          "summary": "Recent economic data indicated a robust U.S. economy, with third-quarter 2026 Real GDP growing at an annual rate of 3.4%. Manufacturing activity in October was better than expected, although construction spending fell in September. Investors are closely watching the upcoming U.S. midterm elections on November 3, which could impact fiscal policy and market sentiment.",
+          "id": "economic-news-manufacturing",
+          "headline": "US Manufacturing Activity Remains Healthy in October",
+          "summary": "October saw robust US manufacturing performance, with the S&P Global Manufacturing PMI registering 54.9 and the ISM Manufacturing PMI at 55.5, both comfortably above the 50-point threshold indicating expansion.",
           "tags": [
             "Economic Data",
-            "GDP",
-            "Manufacturing",
-            "Midterm Elections"
+            "Manufacturing PMI"
           ]
         },
         {
-          "id": "earnings-reports-1",
-          "headline": "Major Earnings Reports Impact Market; Apple, Palantir Due After Close",
-          "summary": "Amazon.com Inc. ($AMZN) reported third-quarter 2026 earnings of $1.89 per share, missing consensus estimates, and its revenues also fell short, contributing to the broader tech sell-off. Alphabet's (Google) shares plunged after it reported its first negative free cash flow as a public company, tied to AI capacity building. Public Service Enterprise Group ($PEG) announced Q3 2026 results that aligned with expectations, reaffirming its full-year guidance. All eyes are now on Apple ($AAPL) and Palantir Technologies ($PLTR), both scheduled to release their quarterly results after the market close today.",
-          "tags": [
-            "Earnings",
-            "Technology",
-            "AI",
-            "AMZN",
-            "AAPL",
-            "PLTR"
-          ]
-        },
-        {
-          "id": "macro-trends-1",
-          "headline": "Oil Prices Tumble on Diplomatic Hopes; AI Spending Under Scrutiny",
-          "summary": "Crude oil prices fell sharply today, with Brent crude dropping over 7%, driven by hopes of diplomatic progress in U.S.-Iran peace talks. Meanwhile, investor skepticism continues regarding the substantial capital expenditures on AI infrastructure across the tech sector and whether these investments will yield sufficient returns.",
+          "id": "economic-news-oil",
+          "headline": "Oil Prices Tumble Amid Middle East Diplomatic Hopes",
+          "summary": "Brent crude prices fell 7.6% to $104.77 per barrel, and WTI crude dipped below $100, driven by optimism surrounding renewed diplomatic efforts for peace talks between the US and Iran in the Middle East.",
           "tags": [
             "Oil Prices",
-            "Geopolitics",
-            "AI Investment",
-            "Market Sentiment"
+            "Commodities",
+            "Geopolitics"
+          ]
+        },
+        {
+          "id": "sector-analysis-tech-woes",
+          "headline": "Tech Sector Continues to Lag, Energy Leads",
+          "summary": "Technology stocks were the worst performers, with the Information Technology Select Sector SPDR ($XLK) declining 4.9%. This was largely due to ongoing concerns about the profitability and sustainability of massive AI infrastructure investments. In contrast, the Energy Select Sector SPDR ($XLE) gained 1.9%, leading gains as investors rotated into traditional energy.",
+          "tags": [
+            "Sector Analysis",
+            "Technology",
+            "Energy",
+            "AI Stocks"
+          ]
+        },
+        {
+          "id": "macro-midterm-elections",
+          "headline": "Markets Eye US Midterm Elections and Corporate Earnings",
+          "summary": "Investors are closely watching the US midterm elections scheduled for November 3rd, with anticipation of how shifts in congressional power could impact fiscal policy. Meanwhile, major companies like Apple ($AAPL) and Palantir ($PLTR) reported earnings after market close, with their shares sliding in after-hours trading.",
+          "tags": [
+            "Macro Trends",
+            "Midterm Elections",
+            "Earnings Reports"
           ]
         }
       ]
