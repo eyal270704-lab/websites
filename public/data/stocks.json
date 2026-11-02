@@ -1,178 +1,164 @@
 {
-  "generatedAt": "2026-11-01T20:20:00Z",
+  "generatedAt": "2026-11-02T16:48:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest",
-  "subtitle": "Sunday, November 1, 2026 - Markets Closed (Summary of October 30, 2026 Session)",
-  "badge": "Market Closed",
+  "title": "Daily Market Digest: November 02, 2026",
+  "subtitle": "US Equities End Lower as Tech Weakness Persists; Oil Prices Fall",
+  "badge": "Updated Nov 02, 2026",
   "sections": [
     {
-      "id": "market-pulse-oct30",
-      "title": "Market Pulse: Tech Sell-Off Dominates Last Trading Session",
+      "id": "market-pulse",
+      "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "overall-summary-oct30",
-          "headline": "Wall Street finished October with a sharp decline, particularly in tech, as disappointing earnings and guidance from major AI-focused companies like Intel, Alphabet, and Amazon fueled concerns over the profitability of AI investments. All major indices closed significantly lower on Friday, October 30, 2026, marking the Nasdaq's worst day since June.",
-          "summary": "The market sentiment turned negative amid an elevated inflation reading and a broader reassessment of financial risk, despite strong U.S. GDP growth. Investors are increasingly questioning whether massive AI expenditures will yield sufficient returns amidst persistent inflation and high interest rates.",
+          "id": "market-summary-nov2",
+          "headline": "US Equities Conclude Lower as Tech Sector Weighs, Despite Early Rally",
+          "summary": "U.S. stocks finished Monday's session in negative territory, driven by continued selling pressure in mega-cap technology and semiconductor stocks. This occurred despite an initial market rally spurred by easing oil prices, which fell on hopes for a diplomatic resolution in the Middle East. The overall market sentiment reflects persistent concerns over AI investment returns and the upcoming midterm elections. Not financial advice.",
           "tags": [
-            "Market Summary",
-            "Tech Sell-Off",
-            "AI Investments"
-          ]
+            "US Market",
+            "Technology",
+            "Oil Prices",
+            "Midterm Elections"
+          ],
+          "timestamp": "2026-11-02T16:00:00Z"
         }
       ]
     },
     {
-      "id": "major-indices-oct30",
-      "title": "Major Indices Performance (October 30, 2026 Close)",
+      "id": "major-indices",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-oct30",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,580.07",
-          "statContext": "Down 140.32 points (-1.82%)"
+          "statValue": "7,536.78",
+          "statContext": "Down 0.57% on continued tech pressure.",
+          "ticker": "$SPX",
+          "price": "7,536.78",
+          "change": "-$43.29",
+          "changePercent": "-0.57%",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-oct30",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,437.00",
-          "statContext": "Down 747.73 points (-2.9%)"
+          "statValue": "24,928.26",
+          "statContext": "Tumbled 2.00% as tech and semiconductor stocks faced significant selling.",
+          "ticker": "$IXIC",
+          "price": "24,928.26",
+          "change": "-$508.74",
+          "changePercent": "-2.00%",
+          "direction": "down"
         },
         {
-          "id": "dow-oct30",
+          "id": "dow-performance",
           "statLabel": "Dow Jones Industrial Average",
-          "statValue": "51,770.31",
-          "statContext": "Down 572.25 points (-1.1%)"
+          "statValue": "51,329.89",
+          "statContext": "Declined 0.85%, reflecting broader market weakness.",
+          "ticker": "$DJI",
+          "price": "51,329.89",
+          "change": "-$440.42",
+          "changePercent": "-0.85%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers-oct30",
-      "title": "Top Movers (October 30, 2026)",
+      "id": "top-movers",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-regn",
-          "headline": "Regeneron Pharmaceuticals Surges on Strong Earnings",
-          "ticker": "$REGN",
-          "price": "$926.96",
-          "change": "+$108.66",
-          "changePercent": "+13.2%",
-          "direction": "up",
-          "summary": "Regeneron Pharmaceuticals led gainers, surging after reporting strong third-quarter 2026 financial and operating results with revenue of $5.116 billion and GAAP diluted EPS of $18.45."
+          "id": "gainer-idexx",
+          "headline": "IDEXX Laboratories Inc. Rallies",
+          "summary": "Veterinary diagnostic company IDEXX Laboratories Inc. ($IDXX) saw a significant jump in early trading.",
+          "ticker": "$IDXX",
+          "price": "$641.45",
+          "change": "+$89.99",
+          "changePercent": "+16.32%",
+          "direction": "up"
         },
         {
-          "id": "gainer-gdyn",
-          "headline": "Grid Dynamics Holdings Sees Significant Boost",
-          "ticker": "$GDYN",
-          "price": "$13.36",
-          "change": "+$3.88",
-          "changePercent": "+40.8%",
-          "direction": "up",
-          "summary": "Grid Dynamics Holdings Class A shares experienced a notable increase, though no specific company announcement was identified as the direct catalyst for the rise."
+          "id": "gainer-evgo",
+          "headline": "EVgo Surges on Acquisition Proposal",
+          "summary": "Electric vehicle charging network EVgo ($EVGO) climbed significantly following a $2.00 per share cash proposal.",
+          "ticker": "$EVGO",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+49.21%",
+          "direction": "up"
         },
         {
-          "id": "gainer-fmc",
-          "headline": "FMC Corp Rises Amid Sector Rotation",
-          "ticker": "$FMC",
-          "price": "$6.20",
-          "change": "+$1.45",
-          "changePercent": "+30.5%",
-          "direction": "up",
-          "summary": "FMC Corp gained significantly, possibly benefiting from broader market rotations towards defensive sectors, as Information Technology saw heavy selling pressure."
-        },
-        {
-          "id": "loser-intc",
-          "headline": "Intel Plummets on Weak Guidance",
-          "ticker": "$INTC",
-          "price": "$65.76",
-          "change": "-$26.37",
-          "changePercent": "-28.6%",
-          "direction": "down",
-          "summary": "Intel suffered its worst day since 1974 after forecasting fourth-quarter sales significantly below analysts' estimates, citing a severe PC slump and a factory accident in Israel."
-        },
-        {
-          "id": "loser-rddt",
-          "headline": "Reddit Tumbles on Soft Revenue Outlook",
-          "ticker": "$RDDT",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "-25.17%",
-          "direction": "down",
-          "summary": "Reddit shares tumbled despite beating third-quarter earnings expectations, due to a softer-than-expected fourth-quarter revenue outlook and a drop in daily users."
-        },
-        {
-          "id": "loser-amzn",
-          "headline": "Amazon Raises Worries on AI Spending",
-          "ticker": "$AMZN",
-          "price": "Not Available",
-          "change": "Not Available",
-          "changePercent": "-2.60%",
-          "direction": "down",
-          "summary": "Amazon's latest profit report heightened investor concerns about the substantial capital expenditures required for AI investments, despite robust AWS revenue growth."
+          "id": "loser-onceuponafarm",
+          "headline": "Once Upon a Farm Tumbles Post-Recall",
+          "summary": "Organic food company Once Upon a Farm experienced a sharp decline after announcing a recall of a toddler snack bar.",
+          "ticker": "N/A",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-37.88%",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-oct30",
-      "title": "Market News & Analysis (October 30, 2026)",
+      "id": "market-news",
+      "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "tech-selloff-ai-concerns",
-          "headline": "AI Spending Under Scrutiny as Tech Sell-Off Deepens",
-          "summary": "The sell-off in technology stocks intensified on Friday, October 30, fueled by worries that the massive investments in artificial intelligence may not deliver the returns investors expect. This led to the Nasdaq's sharpest decline since June and a broader market rotation away from AI-related stocks.",
+          "id": "oil-prices-fall",
+          "headline": "Oil Prices Plummet Amid Hopes for US-Iran Diplomatic Resolution",
+          "summary": "Global crude oil benchmarks fell sharply today, with Brent crude dropping 5.9% to $106.65, on optimism surrounding potential diplomatic talks between the U.S. and Iran. Iran announced a two-day plan to reopen the Strait of Hormuz and resume nuclear discussions, easing supply disruption fears and boosting risk sentiment in the broader market.",
+          "tags": [
+            "Oil",
+            "Geopolitics",
+            "Energy"
+          ]
+        },
+        {
+          "id": "fed-holds-rates",
+          "headline": "Federal Reserve Maintains Key Interest Rate Ahead of Jobs Data",
+          "summary": "The Federal Open Market Committee (FOMC) held its federal funds target range steady at 3-3/4 to 4 percent in a 10-2 vote last week, with inflation remaining elevated. Investors are now looking ahead to federal labor data and the Treasury Department's quarterly refunding announcement later this week.",
+          "tags": [
+            "Federal Reserve",
+            "Interest Rates",
+            "Economic Data"
+          ]
+        },
+        {
+          "id": "tech-earnings-impact",
+          "headline": "Tech Sector Continues to Grapple with AI Spending Concerns Post-Earnings",
+          "summary": "The technology sector remained under pressure as concerns mounted over whether massive investments in AI infrastructure will yield sufficient returns. This follows disappointing quarterly results and lower-than-expected AI spending forecasts from major tech players like Amazon, Alphabet, and Intel last week, contributing to a significant tech sell-off.",
           "tags": [
             "Technology",
             "AI",
-            "Market Sentiment"
+            "Earnings"
           ]
         },
         {
-          "id": "gdp-inflation-fed",
-          "headline": "U.S. Economy Grows 3.4%, But Inflation Remains Elevated; Fed Holds Rates Steady",
-          "summary": "The U.S. economy saw accelerated real GDP growth of 3.4% in the third quarter of 2026, signaling resilience. However, core PCE inflation remained elevated at 3.1% year-over-year, and international oil prices climbed above $100 per barrel. The Federal Reserve held its policy rate at 3.75%–4.00% at its October FOMC meeting, though two officials favored a 25-basis-point rate increase.",
-          "tags": [
-            "Economic Data",
-            "Inflation",
-            "Federal Reserve"
-          ]
-        },
-        {
-          "id": "sector-rotation",
-          "headline": "Defensive Sectors Lead Amid Market Rotation",
-          "summary": "Amidst the tech sector's struggles, a notable sector rotation occurred. Energy, Health Care, and Real Estate were among the leading sectors, with the Health Care Select Sector SPDR (XLV) and the Real Estate Select Sector SPDR (XLRE) rallying 2.4% and 2.2% respectively. Conversely, Information Technology and Communication Services lagged significantly, declining 4.24% and 1.9% respectively.",
-          "tags": [
-            "Sector Analysis",
-            "Energy",
-            "Healthcare",
-            "Technology"
-          ]
-        },
-        {
-          "id": "alphabet-earnings",
-          "headline": "Alphabet's Disappointing Earnings Spark Tech Concerns",
-          "summary": "Global Internet search engine giant Alphabet Inc. ($GOOGL) reported third-quarter 2026 adjusted earnings of $2.12 per share, missing the Zacks Consensus Estimate by 27.89% and declining 26% year-over-year, which contributed to the broader tech sector downturn.",
+          "id": "marriott-earnings",
+          "headline": "Marriott Reports Strong Q3 Earnings, Raises Full-Year Outlook",
+          "summary": "Marriott International posted robust third-quarter results, with adjusted earnings of $3.02 per share, surpassing analyst expectations of $2.84. Revenue climbed 8% to $7.005 billion, also beating estimates. The company raised its full-year 2026 global RevPAR growth outlook to a range of 4.5% to 5%.",
           "tags": [
             "Earnings",
-            "Alphabet",
-            "Tech Stocks"
+            "Hospitality",
+            "Travel"
           ]
         },
         {
-          "id": "other-earnings",
-          "headline": "Mixed Earnings Reports from Key Companies",
-          "summary": "Beyond tech, several other companies reported earnings. AbbVie ($ABBV) announced strong Q3 2026 results with worldwide net revenues of $17.404 billion, an increase of 10.3%. LyondellBasell Industries ($LYB) reported net income of $758 million for Q3 2026, driven by strong EBITDA margins.",
+          "id": "midterm-elections",
+          "headline": "Midterm Elections Loom, Investors Eye Potential Policy Shifts",
+          "summary": "With U.S. midterm elections scheduled for November 3, market participants are closely monitoring the political landscape. The outcome could significantly influence fiscal policy, government borrowing, and Treasury yields, adding a layer of uncertainty to the market outlook.",
           "tags": [
-            "Earnings",
-            "Pharma",
-            "Chemicals"
+            "Politics",
+            "Economy",
+            "Elections"
           ]
         }
       ]
