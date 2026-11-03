@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T13:23:29.101097Z",
+  "generatedAt": "2026-11-03T19:21:40.579187Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 1,
+  "tradeCount": 4,
   "trades": [
     {
       "ticker": "$APP",
@@ -18,6 +18,54 @@
       "footerTag": "High Risk - Earnings",
       "setupType": "avoid",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$SPOT",
+      "name": "Spotify Technology S.A.",
+      "sector": "Communication Services",
+      "currentPrice": "$593.44",
+      "entry": "$580.00",
+      "stop": "$570.00",
+      "structure": "Support Test",
+      "trend": "< 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "Spotify is in a strong uptrend and trading above its 200-day moving average. However, the stock is showing low relative volume, and lacks a clear 'Golden Zone' entry setup at current levels, suggesting a period of consolidation or further pullback may be necessary before a high-confidence entry.",
+      "riskScore": 6,
+      "footerTag": "Avoid - Low Volume",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HUBS",
+      "name": "HubSpot, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$233.70",
+      "entry": "$225.00",
+      "stop": "$215.00",
+      "structure": "Key Support",
+      "trend": "> 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "HubSpot exhibits a long-term bullish signal with a recent Golden Cross of its 50-day and 200-day moving averages and signs of bullish divergence. However, earnings are scheduled for tomorrow, November 4, 2026, introducing significant risk and making this an 'avoid' setup for swing trading.",
+      "riskScore": 10,
+      "footerTag": "High Risk - Earnings Tomorrow",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "currentPrice": "$251.47",
+      "entry": "$248.00",
+      "stop": "$240.00",
+      "structure": "20-day MA Test",
+      "trend": "< 1.0",
+      "trendLabel": "RVOL",
+      "analysis": "Adobe is in a bullish long-term trend, supported by a Golden Cross (50-day MA above 200-day MA). The price is currently testing its 20-day moving average, presenting a potential entry. However, current relative volume is low, suggesting caution or a need for volume confirmation on a bounce.",
+      "riskScore": 5,
+      "footerTag": "Accumulation",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
