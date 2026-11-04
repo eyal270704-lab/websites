@@ -1,210 +1,193 @@
 {
-  "generatedAt": "2026-11-03T21:35:00Z",
+  "generatedAt": "2026-11-04T19:03:00Z",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
   "title": "Daily Market Digest",
-  "subtitle": "November 3, 2026 Market Close",
-  "badge": "Updated Today",
+  "subtitle": "Wednesday, November 04, 2026",
+  "badge": "Midday Update",
   "sections": [
     {
-      "id": "market-pulse-1",
+      "id": "market-pulse",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-1",
-          "headline": "U.S. Equities Close Mixed as Tech Rebound and Apple's Woes Split Markets",
-          "summary": "U.S. stock markets ended Tuesday with a mixed performance, as a rebound in several influential chip stocks propelled the Nasdaq and S&P 500 higher, while a significant decline in Apple ($AAPL) shares weighed on the Dow Jones Industrial Average. Investor sentiment was also shaped by easing geopolitical tensions suggesting lower energy costs, alongside lingering concerns over costly artificial intelligence (AI) investments and stretched valuations within the technology sector. Not financial advice.",
+          "id": "market-summary-nov4",
+          "headline": "U.S. Stocks Rally Sharply Following Democratic Midterm Sweep and Plunging Oil Prices",
+          "summary": "U.S. equities surged today as markets reacted positively to the Democratic Party's decisive victory in the midterm elections, securing control of both the House and Senate. This outcome reduced political uncertainty and fueled expectations of policy gridlock, which investors often view favorably. Further bolstering market sentiment, U.S. crude oil prices tumbled by more than 8%. The rally was broad-based, though large technology companies, consumer businesses, and healthcare stocks saw concentrated gains, while semiconductor and AI infrastructure companies faced pressure.",
           "tags": [
-            "Market Summary",
-            "Tech Stocks",
-            "AI",
-            "Oil Prices"
-          ],
-          "timestamp": "2026-11-03T21:00:00Z"
+            "Market Rally",
+            "Midterm Elections",
+            "Oil Prices",
+            "Tech Stocks"
+          ]
         }
       ]
     },
     {
-      "id": "major-indices-1",
+      "id": "major-indices",
       "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
-          "headline": "S&P 500 Performance",
+          "id": "sp500-performance",
           "statLabel": "S&P 500",
-          "statValue": "7,568.92",
-          "statContext": "Gained 27.52 points (+0.4%)",
-          "ticker": "$SPX",
-          "price": "$7,568.92",
-          "change": "+$27.52",
-          "changePercent": "+0.4%",
-          "direction": "up"
+          "statValue": "+1.7%",
+          "statContext": "Midday (ET)"
         },
         {
-          "id": "nasdaq-stat",
-          "headline": "NASDAQ Composite Performance",
+          "id": "nasdaq-performance",
           "statLabel": "NASDAQ Composite",
-          "statValue": "25,372.01",
-          "statContext": "Rose 207.65 points (+0.8%)",
-          "ticker": "$IXIC",
-          "price": "$25,372.01",
-          "change": "+$207.65",
-          "changePercent": "+0.8%",
-          "direction": "up"
+          "statValue": "+1.9%",
+          "statContext": "Midday (ET)"
         },
         {
-          "id": "dow-stat",
-          "headline": "Dow Jones Industrial Average Performance",
-          "statLabel": "Dow Jones",
-          "statValue": "51,786.72",
-          "statContext": "Fell 197.26 points (-0.4%)",
-          "ticker": "$DJI",
-          "price": "$51,786.72",
-          "change": "-$197.26",
-          "changePercent": "-0.4%",
-          "direction": "down"
+          "id": "dow-performance",
+          "statLabel": "DOW Jones Industrial Average",
+          "statValue": "+2.9% (+1,514 pts)",
+          "statContext": "Midday (ET)"
         }
       ]
     },
     {
-      "id": "top-movers-1",
+      "id": "top-movers",
       "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "gainer-aehr",
-          "headline": "Aehr Test Systems Surges on Strong Performance",
-          "summary": "Aehr Test Systems ($AEHR) was among the top gainers, soaring 26.17% to $64.95, indicating strong investor confidence.",
-          "ticker": "$AEHR",
-          "price": "$64.95",
-          "change": "+$13.47",
-          "changePercent": "+26.17%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-ibta",
-          "headline": "Ibotta Climbs Following Positive Momentum",
-          "summary": "Ibotta ($IBTA) saw a substantial gain, rising 28.02% to $64.10 by mid-morning.",
-          "ticker": "$IBTA",
-          "price": "$64.10",
-          "change": "+$14.00",
-          "changePercent": "+28.02%",
-          "direction": "up"
-        },
-        {
-          "id": "gainer-fisv",
-          "headline": "Fiserv Rises After Q3 Results",
-          "summary": "Fiserv Inc. ($FISV) was a notable gainer, advancing as much as 13.65% intra-day, following its third-quarter 2026 results where it affirmed its full-year outlook.",
-          "ticker": "$FISV",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+13.65%",
-          "direction": "up"
-        },
-        {
-          "id": "loser-stvn",
-          "headline": "Stevanato Group Plunges",
-          "summary": "Stevanato Group S.P.A. ($STVN) experienced a significant decline, dropping 25.6% to $14.69.",
-          "ticker": "$STVN",
-          "price": "$14.69",
-          "change": "N/A",
-          "changePercent": "-25.6%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-brcc",
-          "headline": "BRC Class A Falls Sharply",
-          "summary": "BRC Class A ($BRCC) fell sharply by 23.9% to $9.64.",
-          "ticker": "$BRCC",
-          "price": "$9.64",
-          "change": "N/A",
-          "changePercent": "-23.9%",
-          "direction": "down"
-        },
-        {
-          "id": "loser-aapl",
-          "headline": "Apple Shares Decline on Margin Concerns",
-          "summary": "Apple Inc. ($AAPL) shares fell 1.83% ahead of its quarterly earnings report, with the company warning that rising memory chip prices could pressure profit margins and issuing a disappointing margin forecast.",
+          "id": "apple-gainer",
+          "headline": "Apple shares climb on strong earnings",
+          "summary": "Apple ($AAPL) rose 6.63% after reporting fiscal fourth-quarter revenue of $114.48 billion and earnings of $2.10 per share, both surpassing analyst expectations.",
           "ticker": "$AAPL",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-1.83%",
+          "changePercent": "+6.63%",
+          "direction": "up"
+        },
+        {
+          "id": "cricut-gainer",
+          "headline": "Cricut soars on revenue growth",
+          "summary": "Cricut ($CRCT) surged 48.91% following an 11% increase in its revenue.",
+          "ticker": "$CRCT",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+48.91%",
+          "direction": "up"
+        },
+        {
+          "id": "enphase-gainer",
+          "headline": "Green energy stocks gain momentum",
+          "summary": "Enphase Energy ($ENPH), a solar energy technology company, climbed 9.8% as green power companies saw gains amid the election results.",
+          "ticker": "$ENPH",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "+9.8%",
+          "direction": "up"
+        },
+        {
+          "id": "nvidia-loser",
+          "headline": "Nvidia dips on AI regulation concerns",
+          "summary": "Nvidia ($NVDA) fell 1.63% amidst concerns that Democratic control of Congress could lead to increased scrutiny of AI investment and data center expansion.",
+          "ticker": "$NVDA",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-1.63%",
           "direction": "down"
         },
         {
-          "id": "loser-shop",
-          "headline": "Shopify Nosedives on Weak Gross Merchandise Volume",
-          "summary": "Shopify ($SHOP) nosedived 16.30% in early trading after reporting weaker-than-expected gross merchandise volume in its third quarter.",
-          "ticker": "$SHOP",
+          "id": "nurix-loser",
+          "headline": "Nurix Pharmaceuticals drops on drug program termination",
+          "summary": "Nurix Therapeutics ($NURX) plunged 40.09% after Sanofi ended a drug development program.",
+          "ticker": "$NURX",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-16.30%",
+          "changePercent": "-40.09%",
+          "direction": "down"
+        },
+        {
+          "id": "exxonmobil-loser",
+          "headline": "Oil majors decline as crude prices tumble",
+          "summary": "ExxonMobil ($XOM) dropped 4.8% as U.S. crude oil prices fell more than 8% today.",
+          "ticker": "$XOM",
+          "price": "N/A",
+          "change": "N/A",
+          "changePercent": "-4.8%",
           "direction": "down"
         }
       ]
     },
     {
-      "id": "market-news-1",
+      "id": "market-news",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "sector-tech-energy",
-          "headline": "Technology and Energy Sectors See Divergent Performance",
-          "summary": "The technology sector demonstrated a mixed performance, with chip stocks rebounding strongly to lift the Nasdaq, while concerns over AI investment valuations continued to weigh on some larger tech names. On the other hand, the Energy Select Sector SPDR (XLE) declined by 4% on Monday, largely due to a sharp decline in oil prices fueled by hopes of U.S.-Iran peace talks and President Trump's announcement regarding military assistance to Israel.",
+          "id": "midterm-election-impact",
+          "headline": "Democratic Midterm Sweep Boosts Market Sentiment",
+          "summary": "The U.S. stock market experienced a significant rally following the Democratic Party's control of both the House and Senate in the midterm elections. Investors interpreted the outcome as a reduction in political uncertainty and a potential check on aggressive fiscal changes, historically viewed as favorable for market stability.",
           "tags": [
-            "Sector Analysis",
-            "Technology",
-            "Energy",
-            "Oil Prices"
+            "Politics",
+            "Market Sentiment"
           ]
         },
         {
-          "id": "economic-data-ism",
-          "headline": "Manufacturing Index Shows Expansion, Construction Spending Falls",
-          "summary": "The Institute for Supply Management's Manufacturing Index for October registered 55.5, an increase from September's 54.5, signaling continued expansion in manufacturing activity. However, Construction Spending for September fell by 1.9%.",
+          "id": "oil-price-plunge",
+          "headline": "U.S. Crude Oil Prices Dive Over 8%",
+          "summary": "U.S. crude oil prices plummeted more than 8% today, with Brent crude falling to $94.11 per barrel. The significant drop in oil prices was cited as a contributing factor to the broader market rally and was linked by Vice President JD Vance to the Iran war and its impact on inflation.",
           "tags": [
-            "Economic Data",
-            "Manufacturing",
-            "Construction"
-          ]
-        },
-        {
-          "id": "economic-data-gdp-jolt",
-          "headline": "Strong Q3 GDP and High Job Openings Bolster Economic Picture",
-          "summary": "The U.S. economy grew at an annual rate of 3.4% in the third quarter of 2026, exceeding forecasts, with cooling inflation. Additionally, September's JOLTS job openings surpassed expectations, and U.S. job quits rose to a 1-1/2-year high, reflecting a dynamic labor market.",
-          "tags": [
-            "Economic Data",
-            "GDP",
-            "Labor Market",
+            "Commodities",
             "Inflation"
           ]
         },
         {
-          "id": "earnings-amd-pfe-tri",
-          "headline": "Major Companies Report Q3 Earnings and Guidance",
-          "summary": "Advanced Micro Devices ($AMD) announced third-quarter revenue of $13.4 billion with a 54% gross margin. Pfizer ($PFE) raised its full-year 2026 revenue guidance after reporting Q3 results. Thomson Reuters ($TRI) reported a 13% increase in Q3 revenue at constant currency, driven by generative AI content licensing.",
+          "id": "fed-holds-rates",
+          "headline": "Federal Reserve Maintains Steady Interest Rates Amid Divided Views",
+          "summary": "The Federal Reserve opted to leave interest rates unchanged at its October meeting, despite elevated inflation, signaling a patient approach to monetary policy. Two policymakers, however, dissented in favor of a quarter-point rate hike, expressing concerns that the current stance is not restrictive enough to curb inflation. The Fed also upgraded its assessment of economic activity from 'solid' to 'strong'.",
           "tags": [
-            "Earnings Reports",
-            "AMD",
-            "Pfizer",
-            "Thomson Reuters"
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation"
           ]
         },
         {
-          "id": "midterm-elections",
-          "headline": "U.S. Midterm Elections Underway, Market Watches for Implications",
-          "summary": "The U.S. midterm elections are being held today, November 3, 2026. Historically, Wall Street tends to favor split control of Washington, viewing it as a buffer against drastic policy changes that could impact the economy.",
+          "id": "ism-survey-inflation",
+          "headline": "Services Sector Shows Robust Growth, But Inflation Lingers",
+          "summary": "The Institute for Supply Management (ISM) reported that its October survey of service companies, including banks and retailers, registered 54.5%, indicating strong expansion, though slightly down from September's 54.9%. Despite flourishing businesses and increased demand, persistent inflation, influenced by tariffs and high oil prices, remains a significant challenge for the U.S. economy.",
           "tags": [
-            "Economic News",
-            "Politics",
-            "Midterm Elections"
+            "Economic Data",
+            "Inflation",
+            "Business Growth"
+          ]
+        },
+        {
+          "id": "trade-deficit-september",
+          "headline": "U.S. Trade Deficit Narrows Slightly in September",
+          "summary": "The U.S. goods and services deficit decreased by $0.7 billion in September, totaling $105.0 billion, down from $105.7 billion in August. Exports saw an increase of $5.8 billion, while imports rose by $5.2 billion during the month.",
+          "tags": [
+            "Economic Data",
+            "Trade"
+          ]
+        },
+        {
+          "id": "mcdonalds-earnings",
+          "headline": "McDonald's Exceeds EPS Estimates, Misses on Revenue",
+          "summary": "McDonald's ($MCD) shares rose after the company announced third-quarter adjusted earnings of $3.57 per share, beating analyst forecasts of $3.38. While revenue grew 1% to $7.16 billion, it fell short of Wall Street's expectations. U.S. same-store sales declined by 0.2%, marking the first retreat since early 2025, but was still better than the anticipated 0.5% drop.",
+          "tags": [
+            "Earnings",
+            "Food & Beverage"
+          ]
+        },
+        {
+          "id": "amd-guidance",
+          "headline": "AMD Shares Climb on Strong Guidance",
+          "summary": "Advanced Micro Devices ($AMD) gained approximately 5% in early trading after the chipmaker reported third-quarter revenue of $13.3 billion and provided stronger-than-expected guidance for the future.",
+          "tags": [
+            "Earnings",
+            "Semiconductors"
           ]
         }
       ]
