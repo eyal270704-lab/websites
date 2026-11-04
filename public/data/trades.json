@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T13:35:48.878262Z",
+  "generatedAt": "2026-11-04T23:30:05.838582Z",
   "generatedBy": "trade-analyzer-agent",
-  "tradeCount": 6,
+  "tradeCount": 9,
   "trades": [
     {
       "ticker": "$APP",
@@ -98,6 +98,54 @@
       "footerTag": "High Confidence",
       "setupType": "perfect",
       "source": "Watchlist"
+    },
+    {
+      "ticker": "$SPOT",
+      "name": "Spotify Technology S.A.",
+      "sector": "Communication Services",
+      "currentPrice": "$598.50",
+      "entry": "$540.00",
+      "stop": "$520.00",
+      "structure": "Above Key MAs / Pullback to 20-day MA",
+      "trend": "> 150MA",
+      "trendLabel": "Trend",
+      "analysis": "Spotify is in a strong uptrend, trading above its 20, 50, and 200-day moving averages. A golden cross of the 50-day above the 200-day MA supports bullish momentum. A potential entry could be a pullback to the 20-day moving average, which would serve as dynamic support.",
+      "riskScore": 3,
+      "footerTag": "High Confidence",
+      "setupType": "perfect",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$HUBS",
+      "name": "HubSpot, Inc.",
+      "sector": "Technology",
+      "currentPrice": "$221.90",
+      "entry": "$220.60",
+      "stop": "$160.00",
+      "structure": "0.5 Fib Retracement / Bearish Momentum",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "HubSpot is exhibiting bearish momentum, trading below its 200-day moving average. The stock is near its 52-week low, and a potential entry around the 0.5 Fibonacci retracement level aligns with a potential bounce. However, high relative volume on an earnings day makes this a high-risk setup.",
+      "riskScore": 9,
+      "footerTag": "High Risk - Earnings",
+      "setupType": "risky",
+      "source": "Micha Stocks YouTube"
+    },
+    {
+      "ticker": "$ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "currentPrice": "$246.14",
+      "entry": "$240.00",
+      "stop": "$185.00",
+      "structure": "Support Test / Downtrend",
+      "trend": "< 200MA",
+      "trendLabel": "Trend",
+      "analysis": "Adobe is currently in a downtrend, trading below its key moving averages according to some indicators, and has a 'Strong Sell' outlook for MAs. While there's some debate on its exact MA position, the overall sentiment points to bearish momentum. A potential entry could be a bounce off a strong support level around $240, with a conservative stop below the 52-week low.",
+      "riskScore": 7,
+      "footerTag": "Avoid",
+      "setupType": "avoid",
+      "source": "Micha Stocks YouTube"
     }
   ]
 }
