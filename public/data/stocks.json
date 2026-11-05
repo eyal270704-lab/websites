@@ -1,186 +1,200 @@
 {
-  "generatedAt": "2026-11-05T19:13:00Z",
+  "generatedAt": "2026-11-05T16:00:00-05:00",
   "generatedBy": "stocks-agent",
   "feedType": "stocks",
-  "title": "Daily Market Digest: November 5, 2026",
-  "subtitle": "Wall Street Reverses Course as AI Stocks Plummet",
-  "badge": "LIVE",
+  "title": "Daily Market Digest",
+  "subtitle": "November 05, 2026 - Not financial advice",
+  "badge": "CLOSED",
   "sections": [
     {
-      "id": "market-pulse",
+      "id": "market-pulse-20261105",
       "title": "Market Pulse",
       "cardType": "breaking",
       "layout": "featured",
       "items": [
         {
-          "id": "market-summary-nov-5",
-          "headline": "U.S. Stocks Plunge, Reversing Wednesday's Gains Amid AI Sell-off",
-          "summary": "U.S. stock markets experienced a significant downturn on Thursday, November 5, with major indices closing sharply lower. The sell-off was predominantly driven by a steep decline in AI and chip-related stocks, as investors weighed the implications of Democratic victories in the U.S. midterm elections and concerns over potential slowdowns in data center infrastructure development. This reversal erased the previous day's broad rally.",
+          "id": "market-summary-20261105",
+          "headline": "Wall Street Reeled as AI Stock Sell-Off Triggered Broad Market Decline",
+          "summary": "U.S. equities experienced a brutal sell-off today, largely driven by a sharp decline in artificial intelligence (AI) and semiconductor stocks amidst concerns over potential new regulations and a slowdown in data center expansion. The major indices erased previous day's gains, with the Nasdaq entering correction territory. Market sentiment was broadly negative, with investors seeking safer assets like Treasury bonds.",
           "tags": [
             "Market Downturn",
             "AI Stocks",
-            "Midterm Elections"
+            "Tech Sell-Off",
+            "Economic Data"
           ]
         }
       ]
     },
     {
-      "id": "major-indices",
-      "title": "Major Indices Performance (Closing Nov 5, 2026)",
+      "id": "major-indices-20261105",
+      "title": "Major Indices",
       "cardType": "stat",
       "layout": "grid",
       "items": [
         {
-          "id": "sp500-stat",
+          "id": "sp500-20261105",
+          "headline": "S&P 500 Performance",
           "statLabel": "S&P 500",
-          "statValue": "Down 4%",
-          "statContext": "Fell 212.50 points to 7,476.12 amid broad market decline."
+          "statValue": "7,353.73",
+          "statContext": "Closed -4.4% (-334.89 points) today, marking its worst day since April 2025.",
+          "direction": "down"
         },
         {
-          "id": "nasdaq-stat",
-          "statLabel": "NASDAQ Composite",
-          "statValue": "Down 5.3%",
-          "statContext": "Dropped over 1,000 points, closing at 24,717.03, entering correction territory."
+          "id": "nasdaq-20261105",
+          "headline": "NASDAQ Composite Performance",
+          "statLabel": "NASDAQ",
+          "statValue": "24,315.00",
+          "statContext": "Closed -5.5% (-1,421.52 points) today, entering correction territory at 11.9% below its October high.",
+          "direction": "down"
         },
         {
-          "id": "dow-stat",
-          "statLabel": "DOW Jones Industrial Average",
-          "statValue": "Down 2.7%",
-          "statContext": "Lost 1,433 points, closing at 52,050.51."
+          "id": "dow-20261105",
+          "headline": "Dow Jones Industrial Average Performance",
+          "statLabel": "DOW",
+          "statValue": "51,523.06",
+          "statContext": "Closed -3.4% (-1,833.06 points) today.",
+          "direction": "down"
         }
       ]
     },
     {
-      "id": "top-movers",
-      "title": "Top Movers Today",
+      "id": "top-movers-20261105",
+      "title": "Top Movers",
       "cardType": "stock",
       "layout": "grid",
       "items": [
         {
-          "id": "vcyr-loser",
-          "headline": "Veracyte Plummets on Guidance Cut",
-          "summary": "Veracyte, Inc. shares collapsed after the company lowered its 2026 testing revenue forecast.",
-          "ticker": "$VCYT",
-          "price": "$39.50",
-          "change": "-$50.77",
-          "changePercent": "-56.54%",
-          "direction": "down"
+          "id": "mntn-loser-20261105",
+          "headline": "MNTN, Inc. Plunges on Weakened Guidance",
+          "summary": "MNTN, Inc. ($MNTN) shares plummeted 55.11% to close at $5.97, after the company cut its 2026 revenue forecast and announced a new chief executive.",
+          "ticker": "$MNTN",
+          "price": "$5.97",
+          "change": "-$7.34",
+          "changePercent": "-55.11%",
+          "direction": "down",
+          "tags": [
+            "Earnings",
+            "Guidance",
+            "Leadership Change"
+          ]
         },
         {
-          "id": "amd-loser",
-          "headline": "AMD Shares Decline Amid AI Sector Sell-off",
-          "summary": "Advanced Micro Devices experienced a significant drop as investors pulled out of AI-related chip stocks.",
+          "id": "nvda-loser-20261105",
+          "headline": "NVIDIA Leads Chip Sector Declines",
+          "summary": "Nvidia ($NVDA) fell 9.26% to $181.60 as the leading chipmaker continued to feel the brunt of the AI stock sell-off, driven by concerns over potential data center regulations.",
+          "ticker": "$NVDA",
+          "price": "$181.60",
+          "change": "-$18.52",
+          "changePercent": "-9.26%",
+          "direction": "down",
+          "tags": [
+            "AI Stocks",
+            "Semiconductors",
+            "Regulation Concerns"
+          ]
+        },
+        {
+          "id": "amd-loser-20261105",
+          "headline": "AMD Tumbles Amid AI Sell-Off",
+          "summary": "Advanced Micro Devices ($AMD) tumbled 15.5% as the broader sell-off in AI and chip stocks intensified following midterm election results and data center regulation fears.",
           "ticker": "$AMD",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-15.76%",
-          "direction": "down"
+          "changePercent": "-15.5%",
+          "direction": "down",
+          "tags": [
+            "AI Stocks",
+            "Semiconductors",
+            "Market Sentiment"
+          ]
         },
         {
-          "id": "arm-loser",
-          "headline": "Arm Holdings Falls on Missed Royalty Revenue",
-          "summary": "Despite an earnings beat, Arm Holdings' stock fell sharply due to missed royalty revenue expectations.",
-          "ticker": "$ARM",
+          "id": "aehl-gainer-20261105",
+          "headline": "Antelope Enterprise Holdings Surges",
+          "summary": "Antelope Enterprise Holdings ($AEHL) was a notable gainer, soaring 111.3% to $13.25 by midday, although specific drivers for the surge were not immediately clear.",
+          "ticker": "$AEHL",
+          "price": "$13.25",
+          "change": "+$6.98",
+          "changePercent": "+111.3%",
+          "direction": "up",
+          "tags": [
+            "Unexplained Surge"
+          ]
+        },
+        {
+          "id": "lov-gainer-20261105",
+          "headline": "AppLovin Jumps on Strong Earnings and Buyback",
+          "summary": "AppLovin ($LOV) shares jumped 28.5% after the marketing platform reported stronger-than-expected revenue and profit, and approved a new stock buyback program valued at $3.2 billion.",
+          "ticker": "$LOV",
           "price": "N/A",
           "change": "N/A",
-          "changePercent": "-11.00%",
-          "direction": "down"
-        },
-        {
-          "id": "tsla-loser",
-          "headline": "Tesla Shares Drop",
-          "summary": "Tesla's stock saw a notable decline during today's trading session.",
-          "ticker": "$TSLA",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "-9.98%",
-          "direction": "down"
-        },
-        {
-          "id": "nvda-loser",
-          "headline": "Nvidia Shares Continue Decline",
-          "summary": "Nvidia, a key AI chipmaker, continued its downward trend as the AI sector faced intense selling pressure.",
-          "ticker": "$NVDA",
-          "price": "$182.09",
-          "change": "N/A",
-          "changePercent": "-9.02%",
-          "direction": "down"
-        },
-        {
-          "id": "app-gainer",
-          "headline": "AppLovin Climbs Higher",
-          "summary": "AppLovin Corp. stood out as a significant gainer today.",
-          "ticker": "$APP",
-          "price": "$348.02",
-          "change": "+$76.84",
-          "changePercent": "+28.34%",
-          "direction": "up"
-        },
-        {
-          "id": "run-gainer",
-          "headline": "Sunrun Rallies on Earnings Beat",
-          "summary": "Sunrun shares rallied after the company's earnings surpassed analyst estimates.",
-          "ticker": "$RUN",
-          "price": "N/A",
-          "change": "N/A",
-          "changePercent": "+5.00%",
-          "direction": "up"
+          "changePercent": "+28.5%",
+          "direction": "up",
+          "tags": [
+            "Earnings Beat",
+            "Share Buyback"
+          ]
         }
       ]
     },
     {
-      "id": "market-news",
+      "id": "market-news-20261105",
       "title": "Market News",
       "cardType": "article",
       "layout": "list",
       "items": [
         {
-          "id": "ai-selloff-reasons",
-          "headline": "AI and Chip Stocks Lead Market Downturn on Regulatory Fears",
-          "summary": "A broad sell-off in artificial intelligence and semiconductor stocks drove Wall Street lower today. Investors are expressing concerns that the Democratic party's sweeping victories in the U.S. midterm elections could lead to a slowdown in the development of AI data centers due to potential increased regulation. This fear of a slower data center buildout directly impacted chipmakers and data-center suppliers.",
+          "id": "sector-analysis-20261105",
+          "headline": "AI and Tech Sectors Lead Market Decline",
+          "summary": "Information Technology was the worst-performing sector, falling 7.30%, as concerns grew over potential slowdowns in AI infrastructure build-out following the U.S. midterm elections and fears of new regulations. Consumer Staples, despite a 0.67% loss, was the best-performing sector for the day.",
           "tags": [
+            "Sector Performance",
             "AI",
-            "Semiconductors",
-            "Regulation",
-            "Midterm Elections"
+            "Tech",
+            "Regulation"
           ]
         },
         {
-          "id": "sector-rotation",
-          "headline": "Rotation into Defensive Sectors as Tech Slides",
-          "summary": "As the technology sector experienced a sharp decline, investors rotated into more defensive sectors. Shares of consumer staples, healthcare, and utility companies showed gains amidst the broader market weakness.",
+          "id": "fed-inflation-20261105",
+          "headline": "Fed Signals Potential December Rate Hike Amid Inflation Concerns",
+          "summary": "The Federal Open Market Committee (FOMC) maintained current interest rates at its October meeting but signaled potential rate increases in December due to persistent inflation. Recent forecasts indicate a reacceleration of inflation, with the Consumer Price Index (CPI) projected to rise to 4.25% and Personal Consumption Expenditures (PCE) to 4.03% in November.",
           "tags": [
-            "Sector Analysis",
-            "Defensive Stocks",
-            "Technology"
+            "Federal Reserve",
+            "Interest Rates",
+            "Inflation",
+            "Economic Policy"
           ]
         },
         {
-          "id": "economic-data-btos",
-          "headline": "U.S. Census Bureau Releases New Business Trends Data",
-          "summary": "The U.S. Census Bureau today released new data products from its Business Trends and Outlook Survey (BTOS). This survey provides ongoing measurements of business conditions and projections, offering insights into the state of the U.S. economy, excluding farms.",
+          "id": "economic-data-20261105",
+          "headline": "Mixed Economic Data Released",
+          "summary": "Encouraging reports showed fewer U.S. workers applied for unemployment benefits last week, and nonfarm productivity improved more than expected during the summer. The U.S. Census Bureau also released new data products from its Business Trends and Outlook Survey (BTOS). U.S. GDP grew at an annualized 3.4% in the third quarter of 2026.",
           "tags": [
             "Economic Data",
-            "U.S. Census Bureau"
+            "Jobless Claims",
+            "Productivity",
+            "GDP"
           ]
         },
         {
-          "id": "earnings-southern-trulieve",
-          "headline": "Southern Company and Trulieve Cannabis Report Q3 Earnings",
-          "summary": "Southern Company reported third-quarter earnings of $2.0 billion, or $1.77 per share, an increase from the prior year. Operating revenues rose 13.0%. Trulieve Cannabis Corp. also announced Q3 2026 results, with revenue of $230 million and a gross margin of 64%, achieving a positive net income.",
+          "id": "earnings-overview-20261105",
+          "headline": "Key Earnings Reports for November 5, 2026",
+          "summary": "Cummins ($CMI) reported strong quarterly revenue but reduced its full-year forecast due to weaker demand for pickup truck engines, leading to a 4.31% drop. Toyota ($TM) and ConocoPhillips ($COP) saw gains following their earnings releases. Several tech companies, including SoundHound AI ($SOUN), IREN ($IREN), and IonQ ($IONQ), are scheduled to report after market close. Oscar Health ($OSCR), Cigna Group ($CI), and Primo Brands ($PRMB) also reported positive Q3 results.",
           "tags": [
-            "Earnings Report",
-            "Southern Company",
-            "Trulieve Cannabis"
+            "Earnings",
+            "Corporate Reports",
+            "Company News"
           ]
         },
         {
-          "id": "earnings-after-close",
-          "headline": "Key Companies Set to Report Earnings After Market Close",
-          "summary": "Several major companies, including SoundHound AI ($SOUN), IonQ ($IONQ), Airbnb ($ABNB), DraftKings ($DKNG), Devon Energy ($DVN), EOG Resources ($EOG), and Affirm ($AFRM) are scheduled to release their earnings reports after the market closes today.",
+          "id": "macro-trends-20261105",
+          "headline": "AI Regulation Fears and Oil Price Fluctuations Impact Markets",
+          "summary": "Democratic midterm election victories have sparked investor fears of potential regulations slowing the AI data center build-out, especially in Texas, contributing heavily to the tech sector's decline. Meanwhile, Brent crude oil rose 3.9% today, recovering some losses, but uncertainty persists regarding the ongoing conflict in Iran. Treasury yields continued to ease, signaling a flight to safety among investors.",
           "tags": [
-            "Earnings Report",
-            "After Hours"
+            "Macro Trends",
+            "AI Regulation",
+            "Oil Prices",
+            "Treasury Yields"
           ]
         }
       ]
